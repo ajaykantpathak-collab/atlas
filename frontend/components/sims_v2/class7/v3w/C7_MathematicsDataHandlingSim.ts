@@ -11,11 +11,11 @@ export const w_c7_mathematicsdatahandlingsim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Rounding Numbers to Nearest 10, 100, 1000',
     chapters: [],
     nodeIds: ['c7_math_ch01_007', 'c7_math_ch01_009', 'c7_math_ch01_011', 'c7_math_ch15_005', 'c7_math_ch15_008', 'c7_math_ch15_009', 'c7_math_ch13_001', 'c7_math_ch13_002', 'c7_math_ch13_003', 'c7_math_ch13_004', 'c7_math_ch13_005', 'c7_math_ch13_006', 'c7_math_ch13_007', 'c7_math_ch13_008', 'c7_math_ch13_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are at a school sports day in Delhi, and the announcer says approximately 4,376 people are.', goal: 'Master Rounding Numbers to Nearest 10, 100, 1000.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Rounding a number to the nearest 10, 100, or.', text: 'Rounding a number to the nearest 10, 100, or 1000 means replacing it with an approximate, cleaner multiple of 10, 100, or 1000 that is closest in value to the original number, using standard.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Rounding a number to the nearest 10, 100, or.', text: 'Rounding a number to the nearest 10, 100, or 1000 means replacing it with an approximate, cleaner multiple of 10, 100, or 1000 that is closest in value to the original number, using standard.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch01_007', title: 'Rounding a number to the nearest 10,.',

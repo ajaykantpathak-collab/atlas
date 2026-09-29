@@ -11,7 +11,7 @@ export const w_c12_accountancytreatmentproposeddividendsim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'Cash Flow Statement: Meaning, Objectives and Scope (AS-3)',
     chapters: [],
     nodeIds: ['c12_acc_cbse_09_001', 'c12_acc_cbse_09_002', 'c12_acc_cbse_09_003', 'c12_acc_cbse_09_005', 'c12_acc_cbse_09_006', 'c12_acc_cbse_09_007', 'c12_acc_cbse_09_008', 'c12_acc_cbse_09_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you run a small bakery. Your profit and loss statement shows a profit of ₹50,000, but your bank.', goal: 'Master Cash Flow Statement: Meaning, Objectives and Scope (AS-3).' },
     discovery: {
         question: 'A company purchases machinery worth ₹10,00,000 by issuing equity shares of the same value. How is this transaction treated in the Cash Flow Statement?',
@@ -20,7 +20,7 @@ export const w_c12_accountancytreatmentproposeddividendsim: SimDef = {
         hook: 'Students often think "Cash Flow Statement shows profit" or "Cash Flow Statement is just the cash book." They confuse.',
     },
     teaching: [
-        { title: 'A Cash Flow Statement is a financial.', text: 'A Cash Flow Statement is a financial statement prepared as per Accounting Standard-3 (AS-3) that shows the inflows and outflows of cash and cash equivalents of an enterprise during a specific period,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A Cash Flow Statement is a financial.', text: 'A Cash Flow Statement is a financial statement prepared as per Accounting Standard-3 (AS-3) that shows the inflows and outflows of cash and cash equivalents of an enterprise during a specific period,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_09_001', title: 'A Cash Flow Statement is a financial.',

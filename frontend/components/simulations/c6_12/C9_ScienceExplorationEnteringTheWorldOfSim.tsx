@@ -65,10 +65,10 @@ export function C9_ScienceExplorationEnteringTheWorldOfSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Scientific Inquiry</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Scientific Inquiry</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Exploration Lab: What Really Controls a Pendulum?</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300 font-mono">
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-mono">
           T = {period.toFixed(2)} s
         </span>
       </header>
@@ -78,10 +78,10 @@ export function C9_ScienceExplorationEnteringTheWorldOfSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>String L</span>
-            <span className="text-indigo-300 font-mono font-bold">{length} cm</span>
+            <span className="text-gold-300 font-mono font-bold">{length} cm</span>
           </label>
           <input type="range" min={20} max={100} value={length} aria-label="string length"
-            onChange={(e) => setLength(Number(e.target.value))} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => setLength(Number(e.target.value))} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
@@ -128,7 +128,7 @@ export function C9_ScienceExplorationEnteringTheWorldOfSim() {
         {/* TRIALS + DISCOVERY */}
         <div className="md:col-span-2 space-y-3">
           <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
-            <p className="text-xs uppercase font-bold text-indigo-400 tracking-wider mb-2">Trial log (fair test)</p>
+            <p className="text-xs uppercase font-bold text-gold-400 tracking-wider mb-2">Trial log (fair test)</p>
             <table className="w-full text-[11px] font-mono text-slate-300">
               <thead>
                 <tr className="text-slate-500 text-left">
@@ -142,7 +142,7 @@ export function C9_ScienceExplorationEnteringTheWorldOfSim() {
                 {trials.map((tr, i) => (
                   <tr key={i} className="border-t border-slate-800">
                     <td className="pr-2">{tr.L}</td><td className="pr-2">{tr.m}</td><td className="pr-2">{tr.amp}</td>
-                    <td className="text-sky-300 font-bold">{tr.T.toFixed(2)}</td>
+                    <td className="text-gold-300 font-bold">{tr.T.toFixed(2)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -178,14 +178,14 @@ export function C9_ScienceExplorationEnteringTheWorldOfSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> science begins with a testable question and a fair test - change one
+          <span className="font-bold text-gold-300">Big idea:</span> science begins with a testable question and a fair test - change one
           variable at a time and log the result. For a simple pendulum the measured period T = 2 x pi x sqrt(L/g) confirms what the trial
           log shows: length controls the timing, mass and small release angles do not.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Record four trials at L = 40, 60, 80, 100 cm (keep mass and angle fixed) and check that T grows roughly as sqrt(L).</p>
         <p className="mt-1">2. Double the length from 20 cm to 80 cm. Predict the new period first, then measure: it should be 2 times longer, not 4.</p>

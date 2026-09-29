@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C6_PHY_GEN: SimDef[] = [
  {
   "id": "gen_c6_phy_ch01",
-  "title": "Science",
+  "title": "Science Is a Systematic Method",
   "subtitle": "Physics · Chapter 1",
   "classLevel": 6,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Science",
+  "topic": "Science Is a Systematic Method",
   "chapters": [
-   "Physics Ch1: Science"
+   "Physics Ch1: Science Is a Systematic Method"
   ],
   "nodeIds": [
    "c6_physics_ch01_001",
@@ -32,7 +32,7 @@ export const C6_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Science directly with your eyes?",
+   "question": "Can you see Science Is a Systematic Method directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -43,7 +43,7 @@ export const C6_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Science",
+    "title": "Science Is a Systematic Method",
     "text": "Science is a systematic method of exploring the natural world by making observations, asking questions about how things work, and testing those questions to find evidence-based answers.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
@@ -55,13 +55,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Science",
+    "title": "Science Is a Systematic Way Of Observing",
     "text": "Science is a systematic way of observing, questioning, and experimenting to understand how the natural world and the universe function. It is organized into branches like Physics, Chemistry, Biology, and Earth Science, each focusing on specific patterns and",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Science",
+    "title": "Science Is a Systematic Way Of Observing",
     "text": "Science is a systematic way of observing our surroundings, asking questions about how things work, and using a step-by-step method to find logical answers.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -76,15 +76,15 @@ export const C6_PHY_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "\"If a scientific experiment gives a result that contradicts what is written in our book, the experiment must be wrong.\" Do you agree? Why?",
-    "answer": "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
+    "question": "Your friend says, \"Science is just memorizing facts from the textbook.\" How would you use the concept of the scientific method to explain why they are wrong?",
+    "answer": "Explain that if science were just memorization, it would never change; however, we know science changes as we discover new things",
     "options": [
-     "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)",
+     "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works",
      "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
-     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge"
+     "Explain that if science were just memorization, it would never change; however, we know science changes as we discover new things"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our",
+    "hint": "Straight from the 'Science is a systematic method' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Explain that if science were just memorization, it would never change; however, we know science changes as we discover",
     "id": "gen_c6_phy_ch01_q1",
     "nodeId": "c6_physics_ch01_001",
     "difficulty": "standard",
@@ -101,15 +101,15 @@ export const C6_PHY_GEN: SimDef[] = [
     "sortItems": [
      {
       "id": "s0",
-      "label": "analyze",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
       "label": "test it",
       "emoji": "📌",
       "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "ask why",
+      "emoji": "📌",
+      "correctBin": "o0"
      },
      {
       "id": "s2",
@@ -119,9 +119,9 @@ export const C6_PHY_GEN: SimDef[] = [
      },
      {
       "id": "s3",
-      "label": "ask why",
+      "label": "analyze",
       "emoji": "📌",
-      "correctBin": "o0"
+      "correctBin": "o3"
      }
     ],
     "bins": [
@@ -163,11 +163,11 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What are the four main branches of science mentioned in the chapter, and what is the primary focus of Physics?",
     "answer": "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity",
     "options": [
-     "The student must be able to identify the steps of the scientific method in a real-life scenario and explain that science is an active process of inquiry rather than just a set of",
-     "The student must be able to identify the steps of the scientific method in a real-life situation and explain how curiosity drives the process of discovery",
+     "Science is a systematic way of observing, questioning, and experimenting to understand how the natural world and the universe function",
+     "The first step is observation",
      "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
     "misconception": "A wrong answer here suggests the student has not yet distinguished between the \"what\" (matter) and the \"how\" (forces) of nature.",
     "id": "gen_c6_phy_ch01_q3",
     "nodeId": "c6_physics_ch01_003",
@@ -181,15 +181,16 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why do we call science an \"unending jigsaw puzzle\"?",
-    "answer": "Because every new discovery creates more questions, and sometimes we have to rearrange our previous knowledge if a new piece (discovery) doesn't fit",
+    "question": "What is the very first step in the scientific method? A) Testing a guess B) Observing something interesting C) Giving up D) Reading a textbook",
+    "answer": "B) Observing something interesting",
     "options": [
-     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
-     "This is Astronomy. It relates to Earth Science because both study large-scale systems (planets/stars vs. rocks/oceans)",
-     "Because every new discovery creates more questions, and sometimes we have to rearrange our previous knowledge if a new piece (discovery) doesn't fit"
+     "The first step is to observe the situation carefully",
+     "Science is a systematic way of observing, questioning, and experimenting to understand how the natural world and the universe function",
+     "B) Third something interesting",
+     "B) Observing something interesting"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks science is \"finished\" or static, rather than an evolving process.",
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks science starts with a pre-written answer rather than a genuine question sparked by observation.",
     "id": "gen_c6_phy_ch01_q4",
     "nodeId": "c6_physics_ch01_004",
     "difficulty": "standard",
@@ -202,15 +203,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If your torch stops glowing, how would you use the scientific method to fix it?",
-    "answer": "First, observe the torch; then, guess it might be the battery; next, test it by replacing the battery; finally, see if it glows",
+    "question": "What is the first step when you encounter something you do not understand in science?",
+    "answer": "The first step is to observe the situation carefully",
     "options": [
-     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
-     "1. Observation: Notice the difference in bounce height. 2. Question: \"Does the material of the ball affect how high it bounces?",
-     "First, observe the torch; then, guess it might be the battery; next, test it by replacing the battery; finally, see if it glows"
+     "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity",
+     "The student must be able to categorize a given real-world phenomenon (e.g., a ball rolling, a plant growing) into its correct scientific branch and explain why it fits there",
+     "The first step is to observe the situation carefully"
     ],
     "hint": "Straight from the 'Scientific temper' slide -- match the key terms.",
-    "misconception": "If the student jumps to \"buy a new one,\" they have missed the testing/inquiry phase of the scientific method.",
+    "misconception": "A wrong answer, such as \"guessing the answer immediately,\" shows the student lacks patience for observation, which is the foundation of scientific inquiry.",
     "id": "gen_c6_phy_ch01_q5",
     "nodeId": "c6_physics_ch01_005",
     "difficulty": "advanced",
@@ -223,6 +224,36 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "\"If a scientific experiment gives a result that contradicts what is written in our book, the experiment must be wrong.\" Do you agree? Why?",
+    "answer": "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
+    "options": [
+     "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works",
+     "Yes, because they are observing the result of their previous attempt, forming a new hypothesis (less/more salt), and testing it in the next batch",
+     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge"
+    ],
+    "hint": "Straight from the 'Science is a systematic method' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our",
+    "id": "gen_c6_phy_ch01_q6",
+    "nodeId": "c6_physics_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare these two: A student who reads that \"water boils at 100°C\" and a student who heats water and measures the temperature as it bubbles. Which one is \"doing\" science and why?",
+    "answer": "The second student is doing science because they are moving from observation to evidence-based testing",
+    "options": [
+     "Curiosity is the spark that makes us ask the question, while evidence is the proof that confirms our answer",
+     "They are connected because the rocks provide the soil and nutrients that the living organisms in the forest need to survive",
+     "The second student is doing science because they are moving from observation to evidence-based testing"
+    ],
+    "hint": "Straight from the 'Science is a systematic method' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The second student is doing science because they are moving from observation to evidence-based testing.",
+    "id": "gen_c6_phy_ch01_q7",
+    "nodeId": "c6_physics_ch01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Create a short plan to investigate why a specific type of ball bounces higher than another. What are your four steps?",
     "answer": "1. Observation: Notice the difference in bounce height. 2. Question: \"Does the material of the ball affect how high it bounces?",
     "options": [
@@ -230,24 +261,9 @@ export const C6_PHY_GEN: SimDef[] = [
      "This falls under Chemistry, because it involves a change in the state of a substance",
      "1. Observation: Notice the difference in bounce height. 2. Question: \"Does the material of the ball affect how high it bounces?"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
+    "hint": "Straight from the 'Science is a systematic method' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 1. Observation: Notice the difference in bounce height. 2. Question: \"Does the material of the ball affect how high it",
-    "id": "gen_c6_phy_ch01_q6",
-    "nodeId": "c6_physics_ch01_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify the steps of the scientific method in a real-life scenario and explain that science is an active process of inquiry rather than just a set of",
-    "options": [
-     "The student must be able to identify the steps of the scientific method in a real-life situation and explain how curiosity drives the process of discovery",
-     "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity",
-     "The student must be able to identify the steps of the scientific method in a real-life scenario and explain that science is an active process of inquiry rather than just a set of"
-    ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the steps of the scientific method in a real-life scenario and explain that",
-    "id": "gen_c6_phy_ch01_q7",
+    "id": "gen_c6_phy_ch01_q8",
     "nodeId": "c6_physics_ch01_001",
     "difficulty": "standard"
    },
@@ -256,13 +272,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If two people look at the same cloud and guess differently about what shape it is, is one of them \"doing science\" better than the other?",
     "answer": "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
     "options": [
-     "First, observe the torch; then, guess it might be the battery; next, test it by replacing the battery; finally, see if it glows",
      "This is Astronomy. It relates to Earth Science because both study large-scale systems (planets/stars vs. rocks/oceans)",
+     "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works",
      "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better"
     ],
     "hint": "Straight from the 'scientific method' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student thinks science is a collection of static opinions rather than a process of verification.",
-    "id": "gen_c6_phy_ch01_q8",
+    "id": "gen_c6_phy_ch01_q9",
     "nodeId": "c6_physics_ch01_002",
     "difficulty": "standard"
    },
@@ -271,13 +287,43 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Think of a problem you face while getting ready for school. Create a mini-experiment to solve it using the scientific method steps.",
     "answer": "A good answer will clearly list: Observation (e.g., bag is heavy), Question (Why?), Hypothesis (too many books?",
     "options": [
-     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
-     "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster",
+     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
+     "Explain that if science were just memorization, it would never change; however, we know science changes as we discover new things",
      "A good answer will clearly list: Observation (e.g., bag is heavy), Question (Why?), Hypothesis (too many books?"
     ],
     "hint": "Straight from the 'scientific method' slide -- match the key terms.",
     "misconception": "A poor answer describes a random action without a clear hypothesis or testing phase.",
-    "id": "gen_c6_phy_ch01_q9",
+    "id": "gen_c6_phy_ch01_q10",
+    "nodeId": "c6_physics_ch01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is the very first step in the scientific method?",
+    "answer": "The first step is observation",
+    "options": [
+     "B) Observing something interesting",
+     "The first step is to observe the situation carefully",
+     "The first step is observation"
+    ],
+    "hint": "Straight from the 'scientific method' slide -- match the key terms.",
+    "misconception": "If a student says \"forming a hypothesis,\" they confuse the *start* of the process with the *creative* part; they are missing that science must begin by noticing something in the real world.",
+    "id": "gen_c6_phy_ch01_q11",
+    "nodeId": "c6_physics_ch01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is it important to test a hypothesis instead of just believing our first guess?",
+    "answer": "Testing ensures that our explanation is based on evidence rather than just a hunch or bias",
+    "options": [
+     "Because every new discovery creates more questions, and sometimes we have to rearrange our previous knowledge if a new piece (discovery) doesn't fit",
+     "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)",
+     "Testing ensures that our explanation is based on evidence rather than just a hunch or bias"
+    ],
+    "hint": "Straight from the 'scientific method' slide -- match the key terms.",
+    "misconception": "If the student answers that \"testing is just a school rule,\" they fail to see that testing is the filter that separates mere opinions from facts.",
+    "id": "gen_c6_phy_ch01_q12",
     "nodeId": "c6_physics_ch01_002",
     "difficulty": "standard"
    },
@@ -286,14 +332,29 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "You notice your plant in the balcony is wilting. How would you apply the scientific method to find out why?",
     "answer": "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)",
     "options": [
-     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
      "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
+     "This falls under Chemistry, because it involves a change in the state of a substance",
      "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)"
     ],
     "hint": "Straight from the 'scientific method' slide -- match the key terms.",
     "misconception": "A wrong answer here shows the student cannot connect the abstract steps to a concrete action.",
-    "id": "gen_c6_phy_ch01_q10",
+    "id": "gen_c6_phy_ch01_q13",
     "nodeId": "c6_physics_ch01_002",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "\"Science is just about memorizing the names of the branches.\" Is this statement true or false? Justify your answer.",
+    "answer": "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works",
+    "options": [
+     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
+     "A good answer will clearly list: Observation (e.g., bag is heavy), Question (Why?), Hypothesis (too many books?",
+     "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works"
+    ],
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the",
+    "id": "gen_c6_phy_ch01_q14",
+    "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
    {
@@ -301,13 +362,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "A scientist is tracking the path of a planet through the solar system. Which branch of science is this, and how does it relate to the branch that studies the Earth?",
     "answer": "This is Astronomy. It relates to Earth Science because both study large-scale systems (planets/stars vs. rocks/oceans)",
     "options": [
-     "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)",
-     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
+     "Explain that if science were just memorization, it would never change; however, we know science changes as we discover new things",
+     "1. Observation: Notice the difference in bounce height. 2. Question: \"Does the material of the ball affect how high it bounces?",
      "This is Astronomy. It relates to Earth Science because both study large-scale systems (planets/stars vs. rocks/oceans)"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
     "misconception": "A wrong answer here shows the student does not see the connection between the \"Earth system\" and the \"Universe system.\"",
-    "id": "gen_c6_phy_ch01_q11",
+    "id": "gen_c6_phy_ch01_q15",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
@@ -316,13 +377,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Compare the study of a forest (Biology) with the study of the rocks beneath it (Earth Science). How are these two branches connected in a real-world environment?",
     "answer": "They are connected because the rocks provide the soil and nutrients that the living organisms in the forest need to survive",
     "options": [
-     "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity",
-     "The student must be able to identify the steps of the scientific method in a real-life scenario and explain that science is an active process of inquiry rather than just a set of",
+     "Curiosity is the spark that makes us ask the question, while evidence is the proof that confirms our answer",
+     "The second student is doing science because they are moving from observation to evidence-based testing",
      "They are connected because the rocks provide the soil and nutrients that the living organisms in the forest need to survive"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
     "misconception": "A student who says they are \"completely unrelated\" fails to understand that all branches of science overlap in the real world.",
-    "id": "gen_c6_phy_ch01_q12",
+    "id": "gen_c6_phy_ch01_q16",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
@@ -331,98 +392,53 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If you are studying why ice melts into water when heated, which branch of science would this primarily fall under and why?",
     "answer": "This falls under Chemistry, because it involves a change in the state of a substance",
     "options": [
-     "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster",
-     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
-     "This falls under Notice, because it involves a change in the state of a substance",
+     "The answer must include: taking two identical ice cubes, placing one in sun and one in shade, and recording the time taken for each to melt",
+     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
+     "This falls under Observation, because it involves a change in the state of a substance",
      "This falls under Chemistry, because it involves a change in the state of a substance"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
     "misconception": "Students who say \"Biology\" are likely confusing \"nature\" with \"living things,\" failing to distinguish between chemical properties and biological life functions.",
-    "id": "gen_c6_phy_ch01_q13",
+    "id": "gen_c6_phy_ch01_q17",
     "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Is it better to do science alone or with others? Justify your choice based on the nature of science.",
-    "answer": "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster",
+    "question": "Think of a kitchen activity, like boiling milk. Can you describe how two different branches of science could explain what is happening?",
+    "answer": "A good answer would explain: 1) Physics (the heat energy from the stove moving into the milk) and 2) Chemistry (the changing properties of milk proteins as they heat up)",
     "options": [
-     "A good answer will clearly list: Observation (e.g., bag is heavy), Question (Why?), Hypothesis (too many books?",
-     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
-     "Working with others is often better because science is rarely a solitary task; team members can share observations and help solve problems faster"
+     "False. Science is a process of inquiry, not just a list of names. Memorizing names does not help you understand how the world works",
+     "Explain a daily example, like a bicycle repair person finding a flat tire leak. By checking the tire (observation), guessing it's a puncture (hypothesis)",
+     "A good answer would explain: 1) Physics (the heat energy from the stove moving into the milk) and 2) Chemistry (the changing properties of milk proteins as they heat up)"
     ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding that scientific inquiry thrives on collaboration and shared curiosity.",
-    "id": "gen_c6_phy_ch01_q14",
-    "nodeId": "c6_physics_ch01_004",
+    "hint": "Straight from the 'Science is a systematic way of' slide -- match the key terms.",
+    "misconception": "A poor answer only names one branch without explaining the \"why.\"",
+    "id": "gen_c6_phy_ch01_q18",
+    "nodeId": "c6_physics_ch01_003",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify the steps of the scientific method in a real-life situation and explain how curiosity drives the process of discovery",
-    "options": [
-     "The four branches are Physics, Chemistry, Biology, and Earth Science. Physics focuses on matter, energy, and fundamental forces, such as motion and gravity",
-     "The student must be able to identify the steps of the scientific method in a real-life scenario and explain that science is an active process of inquiry rather than just a set of",
-     "The student must be able to identify the steps of the scientific method in a real-life situation and explain how curiosity drives the process of discovery"
-    ],
-    "hint": "Straight from the 'Science' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the steps of the scientific method in a real-life situation and explain how",
-    "id": "gen_c6_phy_ch01_q15",
-    "nodeId": "c6_physics_ch01_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment to find out if ice melts faster in sunlight or in the shade.",
-    "answer": "The answer must include: taking two identical ice cubes, placing one in sun and one in shade, and recording the time taken for each to melt",
-    "options": [
-     "First, observe the plant (it's dry). Second, ask why (does it need water?). Third, guess the cause (the soil is too dry)",
-     "Science isn't about the guess itself, but how they test it; if one person looks for more clouds to see if the shape repeats, they are applying the method better",
-     "The answer must include: taking two identical ice cubes, placing one in sun and one in shade, and recording the time taken for each to melt"
-    ],
-    "hint": "Straight from the 'Scientific temper' slide -- match the key terms.",
-    "misconception": "A poor answer fails to keep the ice cubes identical, showing a lack of understanding of \"fair testing.\"",
-    "id": "gen_c6_phy_ch01_q16",
-    "nodeId": "c6_physics_ch01_005",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a person who cooks food following the scientific method if they change the amount of salt to improve taste?",
-    "answer": "Yes, because they are observing the result of their previous attempt, forming a new hypothesis (less/more salt), and testing it in the next batch",
-    "options": [
-     "This falls under Chemistry, because it involves a change in the state of a substance",
-     "No, I disagree. If an experiment is done carefully and consistently, the result is the evidence we use to update our knowledge",
-     "Yes, because they are observing the result of their previous attempt, forming a new hypothesis (less/more salt), and testing it in the next batch"
-    ],
-    "hint": "Straight from the 'Scientific temper' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Yes, because they are observing the result of their previous attempt, forming a new hypothesis (less/more salt), and",
-    "id": "gen_c6_phy_ch01_q17",
-    "nodeId": "c6_physics_ch01_005",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about science?",
+    "What surprised you about science is a systematic method?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Science mastered! 🎯",
+  "successLine": "Science Is a Systematic Method mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_phy_ch02",
-  "title": "Nature",
+  "title": "Nature Is The Primary Laboratory Where",
   "subtitle": "Physics · Chapter 2",
   "classLevel": 6,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Nature",
+  "topic": "Nature Is The Primary Laboratory Where",
   "chapters": [
-   "Physics Ch2: Nature"
+   "Physics Ch2: Nature Is The Primary Laboratory Where"
   ],
   "nodeIds": [
    "c6_physics_ch02_006",
@@ -438,7 +454,7 @@ export const C6_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Nature directly with your eyes?",
+   "question": "Can you see Nature Is The Primary Laboratory directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -449,7 +465,7 @@ export const C6_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Nature",
+    "title": "Nature Is The Primary Laboratory Where",
     "text": "Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -486,21 +502,21 @@ export const C6_PHY_GEN: SimDef[] = [
     "sortItems": [
      {
       "id": "s0",
+      "label": "Record how many leaves fall in both",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
       "label": "Observe the tree on calm days vs",
       "emoji": "📌",
       "correctBin": "o0"
      },
      {
-      "id": "s1",
+      "id": "s2",
       "label": "Compare the numbers",
       "emoji": "📌",
       "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Record how many leaves fall in both",
-      "emoji": "📌",
-      "correctBin": "o1"
      }
     ],
     "bins": [
@@ -558,9 +574,9 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What colour does turmeric powder turn when it comes in contact with a basic substance like soap solution?",
     "answer": "Turmeric turns red-brown in a basic solution",
     "options": [
-     "The student must be able to correctly identify the colour change of litmus and turmeric when exposed to household acids (like lemon juice) and bases (like soap water) through a",
-     "The most important tool is careful observation",
-     "Date turns red-brown in a basic solution",
+     "Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment",
+     "The student must be able to identify at least three natural phenomena and describe how they function as scientific observations rather than just \"looking\" at things",
+     "Create turns red-brown in a basic solution",
      "Turmeric turns red-brown in a basic solution"
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
@@ -632,8 +648,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What are the four essential pieces of information that should be included in every scientific observation record?",
     "answer": "The essential pieces are date, time, location, and the specific conditions or description of the event",
     "options": [
-     "Turmeric turns red-brown in a basic solution",
-     "The student must be able to correctly identify the colour change of litmus and turmeric when exposed to household acids (like lemon juice) and bases (like soap water) through a",
+     "The student must be able to list at least four distinct categories of their local environment (e.g",
+     "Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment",
      "The essential pieces are date, time, location, and the specific conditions or description of the event"
     ],
     "hint": "Straight from the 'Recording observations' slide -- match the key terms.",
@@ -657,9 +673,24 @@ export const C6_PHY_GEN: SimDef[] = [
      "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time",
      "A good answer would involve a clear question (e.g., \"Do snails move faster in wet soil than dry soil?"
     ],
-    "hint": "Straight from the 'Nature' slide -- match the key terms.",
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
     "misconception": "A poor answer is vague, like \"I will go look at bugs,\" without a specific question or method to track findings.",
     "id": "gen_c6_phy_ch02_q6",
+    "nodeId": "c6_physics_ch02_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you see plants growing toward a window, is this just \"nature\" or is it a scientific observation? Why?",
+    "answer": "It is a scientific observation because you are noticing a specific reaction (phototropism) to a stimulus (light)",
+    "options": [
+     "You must form a research question and then a hypothesis (your educated guess)",
+     "1. Create a visual display with photos of the plants. 2. Write a clear summary of the hypothesis and results",
+     "It is a scientific observation because you are noticing a specific reaction (phototropism) to a stimulus (light)"
+    ],
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
+    "misconception": "A wrong answer would be \"it's just nature,\" which ignores that science is the systematic study of why things happen.",
+    "id": "gen_c6_phy_ch02_q7",
     "nodeId": "c6_physics_ch02_006",
     "difficulty": "standard"
    },
@@ -668,13 +699,28 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Is watching an ant carry food just \"passing time,\" or is it \"scientific inquiry\"? Defend your answer.",
     "answer": "It is scientific inquiry if you are tracking the ant’s path, speed, or what type of food it chooses, because this turns a casual look into data collection",
     "options": [
-     "The template should include columns for: Date/Time, Location, Weather, Leaf Description (Shape/Color), and a space for a Sketch",
-     "They can compare their methods, identify differences in their procedures, and learn why their outcomes varied",
+     "A good answer would involve a clear question (e.g., \"Do snails move faster in wet soil than dry soil?",
+     "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time",
      "It is scientific inquiry if you are tracking the ant’s path, speed, or what type of food it chooses, because this turns a casual look into data collection"
     ],
-    "hint": "Straight from the 'Nature' slide -- match the key terms.",
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
     "misconception": "A wrong answer would say \"it's just passing time,\" failing to recognize the value of curiosity and systematic documentation in science.",
-    "id": "gen_c6_phy_ch02_q7",
+    "id": "gen_c6_phy_ch02_q8",
+    "nodeId": "c6_physics_ch02_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Nature? State the definition given in this lesson.",
+    "answer": "Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment",
+    "options": [
+     "Natural indicators are substances derived from plants that change their colour when they come into contact with an acidic or basic substance",
+     "The student must be able to correctly identify the colour change of litmus and turmeric when exposed to household acids (like lemon juice) and bases (like soap water) through a",
+     "Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and collecting data from the environment"
+    ],
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Nature is the primary laboratory where scientific inquiry begins by systematically observing, questioning, and",
+    "id": "gen_c6_phy_ch02_q9",
     "nodeId": "c6_physics_ch02_006",
     "difficulty": "standard"
    },
@@ -687,9 +733,24 @@ export const C6_PHY_GEN: SimDef[] = [
      "Examples include trees, birds, insects, soil, or water bodies. An answer mentioning only buildings or roads reveals a misunderstanding that \"science\" only happens in human-made",
      "The most important tool is careful observation"
     ],
-    "hint": "Straight from the 'Nature' slide -- match the key terms.",
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
     "misconception": "If a student answers \"a microscope\" or \"a telescope,\" they misunderstand that science begins with the human ability to notice and record patterns before using specialized tools.",
-    "id": "gen_c6_phy_ch02_q8",
+    "id": "gen_c6_phy_ch02_q10",
+    "nodeId": "c6_physics_ch02_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify at least three natural phenomena and describe how they function as scientific observations rather than just \"looking\" at things",
+    "options": [
+     "Examples include trees, birds, insects, soil, or water bodies. An answer mentioning only buildings or roads reveals a misunderstanding that \"science\" only happens in human-made",
+     "Exploring the local environment is the practice of observing and documenting natural features and human-made structures in one's immediate surroundings to understand the world",
+     "The student must be able to identify at least three natural phenomena and describe how they function as scientific observations rather than just \"looking\" at things"
+    ],
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify at least three natural phenomena and describe how they function as scientific",
+    "id": "gen_c6_phy_ch02_q11",
     "nodeId": "c6_physics_ch02_006",
     "difficulty": "standard"
    },
@@ -698,13 +759,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Why is nature considered the \"oldest laboratory\"?",
     "answer": "It is the oldest because humans have been observing natural patterns (like seasons or animal behavior) to survive long before formal buildings or technology existed",
     "options": [
+     "Human-made structures are built by people for specific purposes and do not grow or reproduce, whereas natural features are part of an ecosystem",
      "Science is a collective effort; if you don't share your findings, others cannot learn from your discoveries or build upon them",
-     "Some substances might be neutral (like plain water) and cause no colour change, or some might not react visibly with turmeric",
      "It is the oldest because humans have been observing natural patterns (like seasons or animal behavior) to survive long before formal buildings or technology existed"
     ],
-    "hint": "Straight from the 'Nature' slide -- match the key terms.",
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
     "misconception": "A wrong answer focuses on modern technology, missing the historical context of human inquiry.",
-    "id": "gen_c6_phy_ch02_q9",
+    "id": "gen_c6_phy_ch02_q12",
     "nodeId": "c6_physics_ch02_006",
     "difficulty": "standard"
    },
@@ -713,14 +774,29 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "You observe that every time it gets windy, the leaves on a tree fall. How would you collect data on this?",
     "answer": "Step 1: Observe the tree on calm days vs. windy days. Step 2: Record how many leaves fall in both conditions. Step 3: Compare the numbers",
     "options": [
-     "Recording weather helps identify if external factors (like humidity affecting drying time) influenced your results",
-     "I would crush the rose petals in water to extract the pigment, then add drops of the mystery substance to the extract and observe the colour shift compared to a control sample of",
+     "Observing over time allows you to see changes, such as different birds visiting at different times or the impact of weather",
+     "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time",
      "Step 1: Observe the tree on calm days vs. windy days. Step 2: Record how many leaves fall in both conditions. Step 3: Compare the numbers"
     ],
-    "hint": "Straight from the 'Nature' slide -- match the key terms.",
+    "hint": "Straight from the 'Nature is the primary laboratory' slide -- match the key terms.",
     "misconception": "A wrong answer would involve guessing without counting, failing to record evidence.",
-    "id": "gen_c6_phy_ch02_q10",
+    "id": "gen_c6_phy_ch02_q13",
     "nodeId": "c6_physics_ch02_006",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Design a simple 3-step plan for how you would share your discovery that \"sunlight affects plant growth\" at a school science fair.",
+    "answer": "1. Create a visual display with photos of the plants. 2. Write a clear summary of the hypothesis and results",
+    "options": [
+     "You must form a research question and then a hypothesis (your educated guess)",
+     "No, it is incomplete because the purpose of science is to communicate knowledge to the community",
+     "1. Create a visual display with photos of the plants. 2. Write a clear summary of the hypothesis and results"
+    ],
+    "hint": "Straight from the 'science fair' slide -- match the key terms.",
+    "misconception": "A poor answer lacks a clear, structured way to convey evidence.",
+    "id": "gen_c6_phy_ch02_q14",
+    "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
    {
@@ -728,13 +804,28 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If two students do the same experiment but get different results, why is it helpful for them to present their projects at a science fair?",
     "answer": "They can compare their methods, identify differences in their procedures, and learn why their outcomes varied",
     "options": [
-     "The blue litmus paper will turn red, indicating that lemon juice is an acid",
-     "No, it is incomplete because the purpose of science is to communicate knowledge to the community",
+     "1. Create a visual display with photos of the plants. 2. Write a clear summary of the hypothesis and results",
+     "A good answer would involve a clear question (e.g., \"Do snails move faster in wet soil than dry soil?",
      "They can compare their methods, identify differences in their procedures, and learn why their outcomes varied"
     ],
     "hint": "Straight from the 'science fair' slide -- match the key terms.",
     "misconception": "A wrong answer shows a lack of understanding that science relies on analyzing differences, not just finding one \"right\" answer.",
-    "id": "gen_c6_phy_ch02_q11",
+    "id": "gen_c6_phy_ch02_q15",
+    "nodeId": "c6_physics_ch02_007",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you want to know if salt or sugar dissolves faster, what is the very first thing you must do before you start mixing things?",
+    "answer": "You must form a research question and then a hypothesis (your educated guess)",
+    "options": [
+     "It is scientific inquiry if you are tracking the ant’s path, speed, or what type of food it chooses, because this turns a casual look into data collection",
+     "A good answer would involve a clear question (e.g., \"Do snails move faster in wet soil than dry soil?",
+     "You must form a research question and then a hypothesis (your educated guess)"
+    ],
+    "hint": "Straight from the 'science fair' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests a \"trial and error\" approach without a clear plan, which is not the scientific method.",
+    "id": "gen_c6_phy_ch02_q16",
     "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
@@ -743,13 +834,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Is a project \"complete\" if you have a perfect conclusion but no way to explain it to others? Why or why not?",
     "answer": "No, it is incomplete because the purpose of science is to communicate knowledge to the community",
     "options": [
-     "The blue litmus paper will turn red, indicating that lemon juice is an acid",
-     "The liquid is a base. A student answering \"acid\" has not understood that natural indicators show specific changes for each type of substance",
+     "It is scientific inquiry if you are tracking the ant’s path, speed, or what type of food it chooses, because this turns a casual look into data collection",
+     "A good answer would involve a clear question (e.g., \"Do snails move faster in wet soil than dry soil?",
      "No, it is incomplete because the purpose of science is to communicate knowledge to the community"
     ],
     "hint": "Straight from the 'science fair' slide -- match the key terms.",
     "misconception": "A wrong answer implies that the *result* is more important than the *transmission* of information.",
-    "id": "gen_c6_phy_ch02_q12",
+    "id": "gen_c6_phy_ch02_q17",
     "nodeId": "c6_physics_ch02_007",
     "difficulty": "standard"
    },
@@ -758,87 +849,12 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If a teacher asks you to classify a substance as acidic or basic using only rose petals, how would you design a simple test?",
     "answer": "I would crush the rose petals in water to extract the pigment, then add drops of the mystery substance to the extract and observe the colour shift compared to a control sample of",
     "options": [
-     "It is scientific inquiry if you are tracking the ant’s path, speed, or what type of food it chooses, because this turns a casual look into data collection",
-     "A good answer would involve a clear question (e.g., \"Do snails move faster in wet soil than dry soil?",
+     "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time",
+     "The liquid is a base. A student answering \"acid\" has not understood that natural indicators show specific changes for each type of substance",
      "I would crush the rose petals in water to extract the pigment, then add drops of the mystery substance to the extract and observe the colour shift compared to a control sample of"
     ],
     "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
     "misconception": "An incorrect answer suggests the student doesn't grasp the concept of using a \"pigment extraction\" to create a testing medium.",
-    "id": "gen_c6_phy_ch02_q13",
-    "nodeId": "c6_physics_ch02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you dip a piece of blue litmus paper into lemon juice, what change do you expect to see, and what does this tell you about the lemon juice?",
-    "answer": "The blue litmus paper will turn red, indicating that lemon juice is an acid",
-    "options": [
-     "It is scientific inquiry if you are tracking the ant’s path, speed, or what type of food it chooses, because this turns a casual look into data collection",
-     "They can compare their methods, identify differences in their procedures, and learn why their outcomes varied",
-     "The blue litmus paper will turn red, indicating that lemon juice is an acid"
-    ],
-    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
-    "misconception": "If a student says it stays blue, they are failing to recognize that acids cause a color change in litmus, a fundamental property of this specific indicator.",
-    "id": "gen_c6_phy_ch02_q14",
-    "nodeId": "c6_physics_ch02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine you are at a picnic and spill vinegar (an acid) on your white shirt which has a turmeric stain. Based on what you know about indicators, what will happen to the stain?",
-    "answer": "The stain will remain yellow because turmeric does not change colour in the presence of an acid",
-    "options": [
-     "No, it is for everyone because every location, including a city, has soil, weather patterns, and living organisms",
-     "Observing over time allows you to see changes, such as different birds visiting at different times or the impact of weather",
-     "The stain will remain yellow because turmeric does not change colour in the presence of an acid"
-    ],
-    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
-    "misconception": "A student who predicts the stain will change colour clearly does not understand that turmeric is only sensitive to bases.",
-    "id": "gen_c6_phy_ch02_q15",
-    "nodeId": "c6_physics_ch02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to correctly identify the colour change of litmus and turmeric when exposed to household acids (like lemon juice) and bases (like soap water) through a",
-    "options": [
-     "Turmeric turns red-brown in a basic solution",
-     "The student must be able to list at least four distinct categories of their local environment (e.g",
-     "The student must be able to correctly identify the colour change of litmus and turmeric when exposed to household acids (like lemon juice) and bases (like soap water) through a"
-    ],
-    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to correctly identify the colour change of litmus and turmeric when exposed to household acids",
-    "id": "gen_c6_phy_ch02_q16",
-    "nodeId": "c6_physics_ch02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why can't we use a single natural indicator like turmeric to test every substance in the world with total certainty?",
-    "answer": "Some substances might be neutral (like plain water) and cause no colour change, or some might not react visibly with turmeric",
-    "options": [
-     "It is the oldest because humans have been observing natural patterns (like seasons or animal behavior) to survive long before formal buildings or technology existed",
-     "Human-made structures are built by people for specific purposes and do not grow or reproduce, whereas natural features are part of an ecosystem",
-     "Some substances might be neutral (like plain water) and cause no colour change, or some might not react visibly with turmeric"
-    ],
-    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
-    "misconception": "A student who thinks one indicator is \"perfect\" fails to realize that science often requires multiple tests to confirm results when a reaction is not clear.",
-    "id": "gen_c6_phy_ch02_q17",
-    "nodeId": "c6_physics_ch02_008",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You have a mystery liquid that turns red cabbage juice from purple to green. Is this liquid an acid or a base?",
-    "answer": "The liquid is a base. A student answering \"acid\" has not understood that natural indicators show specific changes for each type of substance",
-    "options": [
-     "The blue litmus paper will turn red, indicating that lemon juice is an acid",
-     "No, it is not a good record because \"fast\" is subjective; it lacks a measurement (time) and units. You should have recorded the start time, end time",
-     "The liquid is a base. A student answering \"acid\" has not understood that natural indicators show specific changes for each type of substance"
-    ],
-    "hint": "Straight from the 'Natural indicators' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The liquid is a base. A student answering \"acid\" has not understood that natural indicators show specific changes for",
     "id": "gen_c6_phy_ch02_q18",
     "nodeId": "c6_physics_ch02_008",
     "difficulty": "standard"
@@ -846,24 +862,24 @@ export const C6_PHY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about nature?",
+    "What surprised you about nature is the primary laboratory where?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Nature mastered! 🎯",
+  "successLine": "Nature Is The Primary mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_phy_ch03",
-  "title": "Torchlight",
+  "title": "A Torchlight Is a Portable Electrical",
   "subtitle": "Physics · Chapter 3",
   "classLevel": 6,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Torchlight",
+  "topic": "A Torchlight Is a Portable Electrical",
   "chapters": [
-   "Physics Ch3: Torchlight"
+   "Physics Ch3: A Torchlight Is a Portable Electrical"
   ],
   "nodeIds": [
    "c6_physics_ch03_011",
@@ -882,7 +898,7 @@ export const C6_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Torchlight outside the classroom?",
+   "question": "Quick guess -- where do you meet A Torchlight Is a Portable outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -893,7 +909,7 @@ export const C6_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Torchlight",
+    "title": "A Torchlight Is a Portable Electrical",
     "text": "A torchlight is a portable electrical system that generates light by creating a complete path—called a circuit—for electricity to flow from a battery to a bulb. The switch acts as a control to open or close this path, determining whether the bulb glows.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -917,7 +933,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Switch",
+    "title": "A Switch Is a Mechanical Device",
     "text": "A switch is a mechanical device in an electrical circuit that controls the flow of current by physically connecting or disconnecting the conductive path.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -944,15 +960,15 @@ export const C6_PHY_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Is a torchlight with the switch in the \"OFF\" position considered a \"complete\" circuit? Justify your answer.",
-    "answer": "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery",
+    "question": "Name the three basic components found inside a standard torchlight that allow it to function.",
+    "answer": "The three components are the battery, the bulb, and the switch",
     "options": [
-     "The diagram is technically \"correct\" as a closed circuit, but incomplete for a practical device because it lacks a control mechanism (the switch) to turn it off",
-     "No, the device will not turn on because the rust acts as an insulator, preventing the circuit from closing",
-     "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery"
+     "The student must be able to identify the three essential components (battery, bulb, and switch) and explain how the movement of the switch completes or breaks the path of",
+     "An electric cell converts chemical energy into electrical energy. An answer focusing only on \"making the light turn on\" is incomplete",
+     "The three components are the battery, the bulb, and the switch"
     ],
-    "hint": "Straight from the 'torchlight' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to",
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "If a student mentions the \"casing\" or \"lens,\" they are focusing on structural parts rather than the electrical circuit components, indicating a need to differentiate between appearance and function.",
     "id": "gen_c6_phy_ch03_q1",
     "nodeId": "c6_physics_ch03_011",
     "difficulty": "standard",
@@ -968,8 +984,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "You have a battery, a bulb, and two wires. If you connect one wire to the positive side of the battery and the other end of that same wire to the negative side of the battery, what happens?",
     "answer": "The current bypasses the bulb, creating a short circuit; the bulb will not light, and the battery may get hot",
     "options": [
-     "There is a break in the circuit somewhere, such as a loose wire or a burnt-out bulb, which has stopped the flow of current",
-     "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path",
+     "Yes, because a battery is technically a collection of two or more cells connected together",
+     "The map should show a loop starting at the battery, going through the switch, through bulb 1, then bulb 2, and returning to the battery",
      "The current bypasses the bulb, creating a short circuit; the bulb will not light, and the battery may get hot"
     ],
     "hint": "Straight from the 'simple electrical circuit' slide -- match the key terms.",
@@ -989,8 +1005,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Why do scientists prefer to use circuit diagrams instead of drawing realistic pictures of the parts of a circuit?",
     "answer": "Diagrams are faster to draw, clearer to read, and universally understood by scientists regardless of the language they speak",
     "options": [
-     "Without a switch, the circuit would remain permanently \"on,\" wasting energy and posing a risk of overheating",
      "Homes use parallel circuits so that each appliance can be turned on or off independently and so that a failure in one device (like a bulb) does not cause the entire house to go",
+     "The metal pins are required to conduct electricity into the device, while the plastic body is required to insulate the user from touching the live current",
      "Diagrams are faster to draw, clearer to read, and universally understood by scientists regardless of the language they speak"
     ],
     "hint": "Straight from the 'circuit diagram' slide -- match the key terms.",
@@ -1011,7 +1027,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "answer": "The metal spoon conducts electricity from the wire to you, causing a shock, while the wood acts as an insulator, blocking the current from reaching your hand",
     "options": [
      "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other",
-     "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path",
+     "You should draw it touching (closed)",
      "The metal spoon conducts electricity from the wire to you, causing a shock, while the wood acts as an insulator, blocking the current from reaching your hand"
     ],
     "hint": "Straight from the 'electrical conductor' slide -- match the key terms.",
@@ -1028,15 +1044,16 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is it dangerous to have a circuit without any switch at all?",
-    "answer": "Without a switch, the circuit would remain permanently \"on,\" wasting energy and posing a risk of overheating",
+    "question": "You are drawing a circuit diagram to control a fan. If you want the fan to stay ON, should you draw the switch connection as touching or with a gap?",
+    "answer": "You should draw it touching (closed)",
     "options": [
-     "Homes use parallel circuits so that each appliance can be turned on or off independently and so that a failure in one device (like a bulb) does not cause the entire house to go",
-     "Diagrams are faster to draw, clearer to read, and universally understood by scientists regardless of the language they speak",
-     "Without a switch, the circuit would remain permanently \"on,\" wasting energy and posing a risk of overheating"
+     "An \"open\" circuit means there is a gap in the path, so the electricity stops flowing immediately",
+     "The circuit is \"broken\" or \"incomplete,\" meaning electricity cannot flow",
+     "Without should draw it touching (closed)",
+     "You should draw it touching (closed)"
     ],
-    "hint": "Straight from the 'switch' slide -- match the key terms.",
-    "misconception": "If a student says \"it wouldn't work,\" they fail to see that a permanent connection is a functional, albeit inefficient and unsafe, circuit.",
+    "hint": "Straight from the 'A switch is a mechanical device' slide -- match the key terms.",
+    "misconception": "If a student draws a gap, they have not yet understood that a gap creates an open circuit, which prevents current from reaching the fan.",
     "id": "gen_c6_phy_ch03_q5",
     "nodeId": "c6_physics_ch03_015",
     "difficulty": "standard",
@@ -1049,15 +1066,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you have a remote that requires two cells to work, is it correct to call the pair a \"battery\"?",
-    "answer": "Yes, because a battery is technically a collection of two or more cells connected together",
+    "question": "What is the primary function of an electric cell inside a device like a torch?",
+    "answer": "An electric cell converts chemical energy into electrical energy. An answer focusing only on \"making the light turn on\" is incomplete",
     "options": [
-     "The other two bulbs will immediately go off",
-     "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery",
-     "Yes, because a battery is technically a collection of two or more cells connected together"
+     "The student must be able to identify the positive and negative terminals of a cell, explain that a battery is a combination of cells",
+     "The three components are the battery, the bulb, and the switch",
+     "An electric cell converts chemical energy into electrical energy. An answer focusing only on \"making the light turn on\" is incomplete"
     ],
     "hint": "Straight from the 'electric cell' slide -- match the key terms.",
-    "misconception": "If a student says \"no, those are just two cells,\" they are missing the distinction that a group of cells functions as a single battery unit.",
+    "misconception": "Recheck the lesson slide -- the key claim is: An electric cell converts chemical energy into electrical energy. An answer focusing only on \"making the light turn on\"",
     "id": "gen_c6_phy_ch03_q6",
     "nodeId": "c6_physics_ch03_016",
     "difficulty": "standard",
@@ -1073,8 +1090,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "In a series circuit with three bulbs, what happens to the other two bulbs if you unscrew one of them?",
     "answer": "The other two bulbs will immediately go off",
     "options": [
-     "No, the device will not turn on because the rust acts as an insulator, preventing the circuit from closing",
-     "The current must now flow through three bulbs instead of two, but it still follows the same single, unbroken path",
+     "The existing three bulbs remain lit because they still have their own independent paths to the battery",
+     "It is not better to connect house lights in series because if one light fails, the whole house would go dark",
      "The other two bulbs will immediately go off"
     ],
     "hint": "Straight from the 'series circuit' slide -- match the key terms.",
@@ -1094,8 +1111,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Why do homes use parallel circuits instead of one single path for all lights and appliances?",
     "answer": "Homes use parallel circuits so that each appliance can be turned on or off independently and so that a failure in one device (like a bulb) does not cause the entire house to go",
     "options": [
-     "The metal pins are required to conduct electricity into the device, while the plastic body is required to insulate the user from touching the live current",
-     "Without a switch, the circuit would remain permanently \"on,\" wasting energy and posing a risk of overheating",
+     "Devices use multiple cells (batteries) to provide more electrical energy or a higher voltage than a single cell can provide alone",
+     "Diagrams are faster to draw, clearer to read, and universally understood by scientists regardless of the language they speak",
      "Homes use parallel circuits so that each appliance can be turned on or off independently and so that a failure in one device (like a bulb) does not cause the entire house to go"
     ],
     "hint": "Straight from the 'parallel circuit' slide -- match the key terms.",
@@ -1112,16 +1129,121 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A torchlight has a switch. If the switch is \"OFF,\" how would you describe the status of the electrical circuit?",
+    "answer": "The circuit is \"broken\" or \"incomplete,\" meaning electricity cannot flow",
+    "options": [
+     "You could manually connect and disconnect one of the wires attached to the battery. This demonstrates that a switch is simply a mechanical tool for making or breaking a connection",
+     "The battery is the source of electrical energy; without it, there is no energy to power the bulb",
+     "The circuit is \"broken\" or \"incomplete,\" meaning electricity cannot flow"
+    ],
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "A student who says \"the circuit is still working\" fails to understand that a circuit must be a continuous loop to function.",
+    "id": "gen_c6_phy_ch03_q9",
+    "nodeId": "c6_physics_ch03_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a torchlight is \"ON\" but the bulb is not glowing, what is one possible reason related to the circuit components?",
+    "answer": "The bulb might be fused (broken filament) or the battery might be dead. This shows the student can analyze why a closed circuit might still fail to produce light due to a faulty",
+    "options": [
+     "The circuit is \"broken\" or \"incomplete,\" meaning electricity cannot flow",
+     "An \"open\" circuit means there is a gap in the path, so the electricity stops flowing immediately",
+     "The bulb might be fused (broken filament) or the battery might be dead. This shows the student can analyze why a closed circuit might still fail to produce light due to a faulty"
+    ],
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The bulb might be fused (broken filament) or the battery might be dead.",
+    "id": "gen_c6_phy_ch03_q10",
+    "nodeId": "c6_physics_ch03_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you take the battery out of your torchlight, the bulb will not light up even if the switch is in the \"ON\" position. Why?",
+    "answer": "The battery is the source of electrical energy; without it, there is no energy to power the bulb",
+    "options": [
+     "The metal spoon conducts electricity from the wire to you, causing a shock, while the wood acts as an insulator, blocking the current from reaching your hand",
+     "Each bulb receives the full 9V",
+     "The battery is the source of electrical energy; without it, there is no energy to power the bulb"
+    ],
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "A student who says \"the switch is broken\" misses the fundamental role of the battery as the energy provider in the circuit.",
+    "id": "gen_c6_phy_ch03_q11",
+    "nodeId": "c6_physics_ch03_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Imagine you are building a simple torch model. You have a bulb and a battery, but no switch. How could you manually turn your \"torch\" on and off?",
+    "answer": "You could manually connect and disconnect one of the wires attached to the battery. This demonstrates that a switch is simply a mechanical tool for making or breaking a connection",
+    "options": [
+     "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path",
+     "The existing three bulbs remain lit because they still have their own independent paths to the battery",
+     "You could manually connect and disconnect one of the wires attached to the battery. This demonstrates that a switch is simply a mechanical tool for making or breaking a connection"
+    ],
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: You could manually connect and disconnect one of the wires attached to the battery.",
+    "id": "gen_c6_phy_ch03_q12",
+    "nodeId": "c6_physics_ch03_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is a torchlight with the switch in the \"OFF\" position considered a \"complete\" circuit? Justify your answer.",
+    "answer": "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery",
+    "options": [
+     "The current bypasses the bulb, creating a short circuit; the bulb will not light, and the battery may get hot",
+     "There is a break in the circuit somewhere, such as a loose wire or a burnt-out bulb, which has stopped the flow of current",
+     "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery"
+    ],
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to",
+    "id": "gen_c6_phy_ch03_q13",
+    "nodeId": "c6_physics_ch03_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify the three essential components (battery, bulb, and switch) and explain how the movement of the switch completes or breaks the path of",
+    "options": [
+     "An electric cell converts chemical energy into electrical energy. An answer focusing only on \"making the light turn on\" is incomplete",
+     "The three components are the battery, the bulb, and the switch",
+     "The student must be able to identify the three essential components (battery, bulb, and switch) and explain how the movement of the switch completes or breaks the path of"
+    ],
+    "hint": "Straight from the 'A torchlight is a portable' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify the three essential components (battery, bulb, and switch) and explain how the",
+    "id": "gen_c6_phy_ch03_q14",
+    "nodeId": "c6_physics_ch03_011",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a way to add a \"switch\" using a simple paperclip and two thumbtacks to control the bulb.",
     "answer": "The paperclip should be attached to one thumbtack so it can pivot and touch the second thumbtack, closing the gap in the wire",
     "options": [
-     "Yes, because a battery is technically a collection of two or more cells connected together",
      "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other",
+     "The map should show a loop starting at the battery, going through the switch, through bulb 1, then bulb 2, and returning to the battery",
      "The paperclip should be attached to one thumbtack so it can pivot and touch the second thumbtack, closing the gap in the wire"
     ],
     "hint": "Straight from the 'simple electrical circuit' slide -- match the key terms.",
     "misconception": "A poor answer fails to realize that the switch must be placed in the *path* of the wire to control the flow.",
-    "id": "gen_c6_phy_ch03_q9",
+    "id": "gen_c6_phy_ch03_q15",
+    "nodeId": "c6_physics_ch03_012",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If a circuit is \"open,\" what does that mean for the electricity flowing through it?",
+    "answer": "An \"open\" circuit means there is a gap in the path, so the electricity stops flowing immediately",
+    "options": [
+     "The current bypasses the bulb, creating a short circuit; the bulb will not light, and the battery may get hot",
+     "The current must now flow through three bulbs instead of two, but it still follows the same single, unbroken path",
+     "An \"open\" circuit means there is a gap in the path, so the electricity stops flowing immediately"
+    ],
+    "hint": "Straight from the 'simple electrical circuit' slide -- match the key terms.",
+    "misconception": "Students who confuse \"open\" with \"on\" are struggling with the literal meaning of a circuit as a \"circle\" or \"closed loop.\"",
+    "id": "gen_c6_phy_ch03_q16",
     "nodeId": "c6_physics_ch03_012",
     "difficulty": "standard"
    },
@@ -1130,509 +1252,52 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If a friend suggests that the bulb only needs to touch one terminal of the battery to glow, how would you prove them wrong using your circuit materials?",
     "answer": "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path",
     "options": [
-     "You would use the steel nail because it is a metal conductor. A poor answer would suggest using rubber or wood",
-     "You would connect two 1.5-volt cells together to form a battery to reach the required 3 volts. A poor answer would suggest using only one cell or would fail to mention connecting",
+     "The battery is the source of electrical energy; without it, there is no energy to power the bulb",
+     "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery",
      "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path"
     ],
     "hint": "Straight from the 'simple electrical circuit' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals,",
-    "id": "gen_c6_phy_ch03_q10",
+    "id": "gen_c6_phy_ch03_q17",
     "nodeId": "c6_physics_ch03_012",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "If a classmate draws a circuit diagram with a continuous, closed line connecting the battery to the bulb, but forgets to draw a switch, is the diagram \"incorrect\"?",
-    "answer": "The diagram is technically \"correct\" as a closed circuit, but incomplete for a practical device because it lacks a control mechanism (the switch) to turn it off",
-    "options": [
-     "You would connect two 1.5-volt cells together to form a battery to reach the required 3 volts. A poor answer would suggest using only one cell or would fail to mention connecting",
-     "Each bulb receives the full 9V",
-     "The diagram is technically \"correct\" as a closed circuit, but incomplete for a practical device because it lacks a control mechanism (the switch) to turn it off"
-    ],
-    "hint": "Straight from the 'circuit diagram' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The diagram is technically \"correct\" as a closed circuit, but incomplete for a practical device because it lacks a",
-    "id": "gen_c6_phy_ch03_q11",
-    "nodeId": "c6_physics_ch03_013",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to correctly identify the standard symbols for a battery, bulb, and switch, and translate a simple pictorial circuit into a valid schematic diagram",
-    "options": [
-     "The student must be able to correctly classify common objects as conductors or insulators and explain why their material properties make them suitable for specific electrical",
-     "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery",
-     "The student must be able to correctly identify the standard symbols for a battery, bulb, and switch, and translate a simple pictorial circuit into a valid schematic diagram"
-    ],
-    "hint": "Straight from the 'circuit diagram' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to correctly identify the standard symbols for a battery, bulb, and switch, and translate a",
-    "id": "gen_c6_phy_ch03_q12",
-    "nodeId": "c6_physics_ch03_013",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze a standard electrical plug. It has metal pins and a plastic body. Explain why both materials are necessary for it to function safely.",
-    "answer": "The metal pins are required to conduct electricity into the device, while the plastic body is required to insulate the user from touching the live current",
-    "options": [
-     "Without a switch, the circuit would remain permanently \"on,\" wasting energy and posing a risk of overheating",
-     "Homes use parallel circuits so that each appliance can be turned on or off independently and so that a failure in one device (like a bulb) does not cause the entire house to go",
-     "The metal pins are required to conduct electricity into the device, while the plastic body is required to insulate the user from touching the live current"
-    ],
-    "hint": "Straight from the 'electrical conductor' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The metal pins are required to conduct electricity into the device, while the plastic body is required to insulate the",
-    "id": "gen_c6_phy_ch03_q13",
-    "nodeId": "c6_physics_ch03_014",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this statement: \"All solid materials are conductors.\" Is this true or false, and why?",
-    "answer": "This is false; while metals are conductors, many solids like wood, glass, and plastic are insulators",
+    "question": "Compare a battery symbol to a bulb symbol. How does their structure tell you which one provides energy and which one uses it?",
+    "answer": "The battery symbol (two parallel lines) indicates a difference in potential (positive/negative terminals)",
     "options": [
      "The current bypasses the bulb, creating a short circuit; the bulb will not light, and the battery may get hot",
      "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path",
-     "This is false; while metals are conductors, many solids like wood, glass, and plastic are insulators"
+     "The battery symbol (two parallel lines) indicates a difference in potential (positive/negative terminals)"
     ],
-    "hint": "Straight from the 'electrical conductor' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student is over-generalizing based on the state of matter rather than the material's internal property.",
-    "id": "gen_c6_phy_ch03_q14",
-    "nodeId": "c6_physics_ch03_014",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine you are stranded and need to fix a broken wire in a toy. You have a piece of dry wood, a steel nail, and a thick piece of rubber. Which would you use to bridge the gap in the wire, and why?",
-    "answer": "You would use the steel nail because it is a metal conductor. A poor answer would suggest using rubber or wood",
-    "options": [
-     "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other",
-     "This is false; while metals are conductors, many solids like wood, glass, and plastic are insulators",
-     "You would use the steel nail because it is a metal conductor. A poor answer would suggest using rubber or wood"
-    ],
-    "hint": "Straight from the 'electrical conductor' slide -- match the key terms.",
-    "misconception": "A poor answer would suggest using rubber or wood, showing a lack of understanding of which material facilitates current flow.",
-    "id": "gen_c6_phy_ch03_q15",
-    "nodeId": "c6_physics_ch03_014",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to correctly classify common objects as conductors or insulators and explain why their material properties make them suitable for specific electrical",
-    "options": [
-     "The student must be able to correctly identify the standard symbols for a battery, bulb, and switch, and translate a simple pictorial circuit into a valid schematic diagram",
-     "You would demonstrate that the bulb only glows when contact is made with both the positive and negative terminals, completing the path",
-     "The student must be able to correctly classify common objects as conductors or insulators and explain why their material properties make them suitable for specific electrical"
-    ],
-    "hint": "Straight from the 'electrical conductor' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to correctly classify common objects as conductors or insulators and explain why their",
-    "id": "gen_c6_phy_ch03_q16",
-    "nodeId": "c6_physics_ch03_014",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple \"secret\" switch for a cardboard toy box using only a paperclip, two thumbtacks, and wires. How would you arrange them?",
-    "answer": "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other",
-    "options": [
-     "You would connect two 1.5-volt cells together to form a battery to reach the required 3 volts. A poor answer would suggest using only one cell or would fail to mention connecting",
-     "You would use the steel nail because it is a metal conductor. A poor answer would suggest using rubber or wood",
-     "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other"
-    ],
-    "hint": "Straight from the 'switch' slide -- match the key terms.",
-    "misconception": "A poor answer would fail to explain how the movement of the paperclip physically closes the gap.",
-    "id": "gen_c6_phy_ch03_q17",
-    "nodeId": "c6_physics_ch03_015",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a metal piece inside a switch is rusted and cannot touch the contact point, will the device turn on? Why?",
-    "answer": "No, the device will not turn on because the rust acts as an insulator, preventing the circuit from closing",
-    "options": [
-     "The other two bulbs will immediately go off",
-     "No, it is an \"open\" or \"broken\" circuit because the switch creates a gap that prevents electricity from returning to the battery",
-     "No, the device will not turn on because the rust acts as an insulator, preventing the circuit from closing"
-    ],
-    "hint": "Straight from the 'switch' slide -- match the key terms.",
-    "misconception": "A student who thinks it might still turn on lacks an understanding that electricity requires a continuous conductive path.",
+    "hint": "Straight from the 'circuit diagram' slide -- match the key terms.",
+    "misconception": "If a student sees them as just \"shapes,\" they miss the functional distinction between source and load.",
     "id": "gen_c6_phy_ch03_q18",
-    "nodeId": "c6_physics_ch03_015",
+    "nodeId": "c6_physics_ch03_013",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about torchlight?",
+    "What surprised you about a torchlight is a portable electrical?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Torchlight mastered! 🎯",
-  "tryAgainLine": "Re-read the slides -- every answer hides in them.",
-  "sampleChallenges": 8
- },
- {
-  "id": "gen_c6_phy_ch04",
-  "title": "Magnet",
-  "subtitle": "Physics · Chapter 4",
-  "classLevel": 6,
-  "mode": "senior",
-  "subject": "physics",
-  "topic": "Magnet",
-  "chapters": [
-   "Physics Ch4: Magnet"
-  ],
-  "nodeIds": [
-   "c6_physics_ch04_001",
-   "c6_physics_ch04_002",
-   "c6_physics_ch04_003"
-  ],
-  "emoji": "⚡",
-  "theme": {
-   "bg": "from-orange-100 to-red-200",
-   "accent": "orange",
-   "scene": "lesson"
-  },
-  "discovery": {
-   "question": "Can you see Magnet directly with your eyes?",
-   "options": [
-    "Often only through its effects",
-    "Always directly visible",
-    "It is invisible by definition"
-   ],
-   "answer": "Often only through its effects",
-   "hook": "A magnet is an object that attracts materials made of iron, nickel, or cobalt — called magnetic materials."
-  },
-  "teaching": [
-   {
-    "title": "Magnet",
-    "text": "A magnet is an object that attracts materials made of iron, nickel, or cobalt — called magnetic materials. Every magnet has two poles — a north-seeking pole (N) and a south-seeking pole (S) — where the magnetic pull is strongest.",
-    "emoji": "⚡",
-    "bgColor": "from-indigo-400 to-blue-500"
-   },
-   {
-    "title": "Magnet Can Be Made",
-    "text": "A magnet can be made by stroking a magnetic material — like an iron or steel needle — repeatedly in one direction with a magnet, which aligns its internal magnetic parts.",
-    "emoji": "⚡",
-    "bgColor": "from-amber-400 to-orange-500"
-   },
-   {
-    "title": "Magnets",
-    "text": "Magnets are used wherever attraction, direction-finding, or motion without contact is needed: compasses for navigation, magnetic cranes for lifting iron scrap, magnetic catches in doors, speakers and earphones, electric motors, and medical imaging such as MRI.",
-    "emoji": "⚡",
-    "bgColor": "from-emerald-400 to-teal-500"
-   }
-  ],
-  "challenges": [
-   {
-    "type": "mcq",
-    "question": "Which materials does a magnet attract?",
-    "answer": "A magnet attracts magnetic materials — mainly iron, nickel, and cobalt. It does not attract wood, plastic, rubber, copper, or aluminium",
-    "options": [
-     "Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely suspended magnet does and why that made compasses work",
-     "Like poles repel each other (north pushes away north, south pushes away south) and unlike poles attract each other (north pulls toward south)",
-     "A magnet attracts magnetic materials — mainly iron, nickel, and cobalt. It does not attract wood, plastic, rubber, copper, or aluminium"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"all metals\" — most metals are not magnetic at all.",
-    "id": "gen_c6_phy_ch04_q1",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard",
-    "workedExample": [
-     "Bring a magnet near a steel spoon and the spoon jumps to it — but touch it to a plastic ruler or a rubber eraser and nothing happens.",
-     "Magnets are choosy: they pull only magnetic materials — iron, nickel, and cobalt — while wood, plastic, rubber, copper, and even aluminium ignore",
-     "Now dust the magnet through iron filings and watch the filings pile up at the two ends — those ends are the poles, the strongest part of any magnet.",
-     "Mark them N and S and try the rule: bring two magnets close and the north pole of one pulls the south pole of the other — unlike poles attract; but"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "How can you magnetise an iron needle using a bar magnet?",
-    "answer": "Stroke the needle repeatedly with one pole of the magnet, always in the same direction, lifting the magnet away and returning to the start each time",
-    "options": [
-     "A compass needle is a freely suspended magnet that always settles pointing north–south, so sailors could find direction at sea with no landmarks, hidden stars, or cloudy skies",
-     "A magnetic strip sealed inside the door gasket attracts the iron body of the fridge — the quiet pull holds the door closed and airtight",
-     "Stroke the needle repeatedly with one pole of the magnet, always in the same direction, lifting the magnet away and returning to the start each time"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"rub back and forth\" — only one-direction stroking lines the parts up.",
-    "id": "gen_c6_phy_ch04_q2",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard",
-    "workedExample": [
-     "Here is a magic trick that is really science — take an ordinary iron needle and turn it into a magnet.",
-     "Stroke it with one pole of a bar magnet, always in the same direction, lifting the magnet back to the start each time.",
-     "After thirty or forty strokes, the needle picks up pins — it has become a magnet.",
-     "What happened inside is that the needle's countless invisible magnetic parts, all jumbled before, got lined up in one direction by the stroking —"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "Name four everyday uses of magnets.",
-    "answer": "Compass for navigation, magnetic door catches (fridge, cupboard), speakers and earphones, scrapyard cranes for lifting iron, electric motors, and MRI machines — any four",
-    "options": [
-     "A magnet attracts magnetic materials — mainly iron, nickel, and cobalt. It does not attract wood, plastic, rubber, copper, or aluminium",
-     "At its two ends, called the poles — the north pole and the south pole; iron filings collect thickest at the poles",
-     "Compass for navigation, magnetic door catches (fridge, cupboard), speakers and earphones, scrapyard cranes for lifting iron, electric motors, and MRI machines — any four"
-    ],
-    "hint": "Straight from the 'Magnets' slide -- match the key terms.",
-    "misconception": "A wrong answer lists only fridge magnets — the uses go far beyond the kitchen.",
-    "id": "gen_c6_phy_ch04_q3",
-    "nodeId": "c6_physics_ch04_003",
-    "difficulty": "standard",
-    "workedExample": [
-     "Start at home — open the fridge and feel the door click shut.",
-     "A magnet hidden in the seal pulls the iron frame, holding it airtight with no lock.",
-     "Your earphones turn electrical signals into music using a tiny magnet next to a coil.",
-     "Now step outside: a scrapyard crane carries a huge electromagnet that lifts whole cars made of iron without chains or hooks; fast metro and maglev"
-    ]
-   },
-   {
-    "type": "mcq",
-    "question": "State the rule for how two magnet poles behave.",
-    "answer": "Like poles repel each other (north pushes away north, south pushes away south) and unlike poles attract each other (north pulls toward south)",
-    "options": [
-     "Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely suspended magnet does and why that made compasses work",
-     "At its two ends, called the poles — the north pole and the south pole; iron filings collect thickest at the poles",
-     "Like poles repel each other (north pushes away north, south pushes away south) and unlike poles attract each other (north pulls toward south)"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "A wrong answer reverses it — same poles pull apart, opposite poles pull together.",
-    "id": "gen_c6_phy_ch04_q4",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What happens when a bar magnet is hung freely by a thread?",
-    "answer": "It swings and finally settles pointing in the north–south direction — the magnet's north pole ends up pointing toward the Earth's north",
-    "options": [
-     "A magnet attracts magnetic materials — mainly iron, nickel, and cobalt. It does not attract wood, plastic, rubber, copper, or aluminium",
-     "Describe how to magnetise a needle by stroking, list three ways a magnet loses its magnetism, and explain how magnets are stored and kept away from electronics",
-     "It swings and finally settles pointing in the north–south direction — the magnet's north pole ends up pointing toward the Earth's north"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "A wrong answer says it points anywhere — the free magnet always finds north–south.",
-    "id": "gen_c6_phy_ch04_q5",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely suspended magnet does and why that made compasses work",
-    "options": [
-     "Describe how to magnetise a needle by stroking, list three ways a magnet loses its magnetism, and explain how magnets are stored and kept away from electronics",
-     "Compass for navigation, magnetic door catches (fridge, cupboard), speakers and earphones, scrapyard cranes for lifting iron, electric motors, and MRI machines — any four",
-     "Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely suspended magnet does and why that made compasses work"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely",
-    "id": "gen_c6_phy_ch04_q6",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Where is the pull of a magnet strongest?",
-    "answer": "At its two ends, called the poles — the north pole and the south pole; iron filings collect thickest at the poles",
-    "options": [
-     "Describe how to magnetise a needle by stroking, list three ways a magnet loses its magnetism, and explain how magnets are stored and kept away from electronics",
-     "An MRI uses a very strong magnet to take detailed pictures of the inside of the body — helping doctors see organs and injuries without surgery",
-     "At its two ends, called the poles — the north pole and the south pole; iron filings collect thickest at the poles"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"the middle\" — the pull is weakest in the middle and strongest at the ends.",
-    "id": "gen_c6_phy_ch04_q7",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why was the magnetic compass so important for sailors long ago?",
-    "answer": "A compass needle is a freely suspended magnet that always settles pointing north–south, so sailors could find direction at sea with no landmarks, hidden stars, or cloudy skies",
-    "options": [
-     "Kept as a pair with unlike poles facing each other — north of one touching south of the other — with an iron keeper across the ends to preserve the magnetism",
-     "One-direction stroking lines up all the needle's magnetic parts the same way; stroking back and forth would keep scrambling the alignment so the needle would not magnetise",
-     "A compass needle is a freely suspended magnet that always settles pointing north–south, so sailors could find direction at sea with no landmarks, hidden stars, or cloudy skies"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "A wrong answer says it \"shows north\" without saying why it is reliable — the free magnet always settles the same way.",
-    "id": "gen_c6_phy_ch04_q8",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You push the north poles of two magnets together. What do you feel and why?",
-    "answer": "You feel them pushing apart — repulsion — because like poles repel each other; the magnets resist being pushed together",
-    "options": [
-     "It loses its magnetism — heat scrambles the internal alignment of the magnetic parts, so the needle stops attracting pins",
-     "At its two ends, called the poles — the north pole and the south pole; iron filings collect thickest at the poles",
-     "You feel them pushing apart — repulsion — because like poles repel each other; the magnets resist being pushed together"
-    ],
-    "hint": "Straight from the 'magnet' slide -- match the key terms.",
-    "misconception": "A wrong answer expects them to stick — attraction happens only between unlike poles.",
-    "id": "gen_c6_phy_ch04_q9",
-    "nodeId": "c6_physics_ch04_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A magnetised needle is heated on a flame. What happens and why?",
-    "answer": "It loses its magnetism — heat scrambles the internal alignment of the magnetic parts, so the needle stops attracting pins",
-    "options": [
-     "You feel them pushing apart — repulsion — because like poles repel each other; the magnets resist being pushed together",
-     "Because the Earth itself behaves like a giant magnet — its magnetism guides the compass needle into the north–south direction wherever you stand",
-     "It loses its magnetism — heat scrambles the internal alignment of the magnetic parts, so the needle stops attracting pins"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "A wrong answer says it becomes stronger — heat destroys order, so it weakens the magnet.",
-    "id": "gen_c6_phy_ch04_q10",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How should a pair of bar magnets be stored?",
-    "answer": "Kept as a pair with unlike poles facing each other — north of one touching south of the other — with an iron keeper across the ends to preserve the magnetism",
-    "options": [
-     "A powerful magnet on the crane lifts heavy iron scrap — cars and machinery — without chains or hooks, then releases it where needed, since only iron responds to the pull",
-     "Because the Earth itself behaves like a giant magnet — its magnetism guides the compass needle into the north–south direction wherever you stand",
-     "Kept as a pair with unlike poles facing each other — north of one touching south of the other — with an iron keeper across the ends to preserve the magnetism"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "A wrong answer tosses them loose in a box — the knocks would scramble their alignment.",
-    "id": "gen_c6_phy_ch04_q11",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Name three things that can make a magnet lose its magnetism.",
-    "answer": "Heating the magnet strongly, hammering it, or dropping it repeatedly — all scramble the internal alignment and weaken or destroy the magnetism",
-    "options": [
-     "Name four everyday uses of magnets with the role of magnetism in each, explain how a compass helps navigation, and connect Earth's magnetism to why compasses work everywhere",
-     "Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely suspended magnet does and why that made compasses work",
-     "Heating the magnet strongly, hammering it, or dropping it repeatedly — all scramble the internal alignment and weaken or destroy the magnetism"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"getting wet\" — water does not demagnetise; heat and shock do.",
-    "id": "gen_c6_phy_ch04_q12",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "Describe how to magnetise a needle by stroking, list three ways a magnet loses its magnetism, and explain how magnets are stored and kept away from electronics",
-    "options": [
-     "It swings and finally settles pointing in the north–south direction — the magnet's north pole ends up pointing toward the Earth's north",
-     "Name which materials a magnet attracts, state the poles rule and apply it to two magnets, and explain what a freely suspended magnet does and why that made compasses work",
-     "Describe how to magnetise a needle by stroking, list three ways a magnet loses its magnetism, and explain how magnets are stored and kept away from electronics"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Describe how to magnetise a needle by stroking, list three ways a magnet loses its magnetism, and explain how magnets",
-    "id": "gen_c6_phy_ch04_q13",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why must the strokes be in one direction only when magnetising a needle?",
-    "answer": "One-direction stroking lines up all the needle's magnetic parts the same way; stroking back and forth would keep scrambling the alignment so the needle would not magnetise",
-    "options": [
-     "A powerful magnet on the crane lifts heavy iron scrap — cars and machinery — without chains or hooks, then releases it where needed, since only iron responds to the pull",
-     "A magnetic strip sealed inside the door gasket attracts the iron body of the fridge — the quiet pull holds the door closed and airtight",
-     "One-direction stroking lines up all the needle's magnetic parts the same way; stroking back and forth would keep scrambling the alignment so the needle would not magnetise"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "A wrong answer thinks any rubbing works — the direction is what orders the parts.",
-    "id": "gen_c6_phy_ch04_q14",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Why should magnets be kept away from mobile phones and computers?",
-    "answer": "Electronic devices and storage media rely on magnetic signals; a magnet placed nearby can disturb the screen or corrupt stored data",
-    "options": [
-     "Stroke the needle repeatedly with one pole of the magnet, always in the same direction, lifting the magnet away and returning to the start each time",
-     "Kept as a pair with unlike poles facing each other — north of one touching south of the other — with an iron keeper across the ends to preserve the magnetism",
-     "Electronic devices and storage media rely on magnetic signals; a magnet placed nearby can disturb the screen or corrupt stored data"
-    ],
-    "hint": "Straight from the 'magnet can be made by' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"they look ugly\" — the real risk is data and signal damage, not appearance.",
-    "id": "gen_c6_phy_ch04_q15",
-    "nodeId": "c6_physics_ch04_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does a fridge door stay shut without a lock?",
-    "answer": "A magnetic strip sealed inside the door gasket attracts the iron body of the fridge — the quiet pull holds the door closed and airtight",
-    "options": [
-     "Electronic devices and storage media rely on magnetic signals; a magnet placed nearby can disturb the screen or corrupt stored data",
-     "A powerful magnet on the crane lifts heavy iron scrap — cars and machinery — without chains or hooks, then releases it where needed, since only iron responds to the pull",
-     "A magnetic strip sealed inside the door gasket attracts the iron body of the fridge — the quiet pull holds the door closed and airtight"
-    ],
-    "hint": "Straight from the 'Magnets' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"it just shuts\" — a hidden magnet does the holding.",
-    "id": "gen_c6_phy_ch04_q16",
-    "nodeId": "c6_physics_ch04_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "How does a magnetic crane help in a scrapyard?",
-    "answer": "A powerful magnet on the crane lifts heavy iron scrap — cars and machinery — without chains or hooks, then releases it where needed, since only iron responds to the pull",
-    "options": [
-     "Stroke the needle repeatedly with one pole of the magnet, always in the same direction, lifting the magnet away and returning to the start each time",
-     "Kept as a pair with unlike poles facing each other — north of one touching south of the other — with an iron keeper across the ends to preserve the magnetism",
-     "A powerful magnet on the crane lifts heavy iron scrap — cars and machinery — without chains or hooks, then releases it where needed, since only iron responds to the pull"
-    ],
-    "hint": "Straight from the 'Magnets' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"it grabs everything\" — it lifts only magnetic materials like iron.",
-    "id": "gen_c6_phy_ch04_q17",
-    "nodeId": "c6_physics_ch04_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What does an MRI machine do that makes magnets medically important?",
-    "answer": "An MRI uses a very strong magnet to take detailed pictures of the inside of the body — helping doctors see organs and injuries without surgery",
-    "options": [
-     "Name four everyday uses of magnets with the role of magnetism in each, explain how a compass helps navigation, and connect Earth's magnetism to why compasses work everywhere",
-     "Compass for navigation, magnetic door catches (fridge, cupboard), speakers and earphones, scrapyard cranes for lifting iron, electric motors, and MRI machines — any four",
-     "An MRI uses a very strong magnet to take detailed pictures of the inside of the body — helping doctors see organs and injuries without surgery"
-    ],
-    "hint": "Straight from the 'Magnets' slide -- match the key terms.",
-    "misconception": "A wrong answer says \"it uses X-rays\" — MRI is magnetic imaging, not X-rays.",
-    "id": "gen_c6_phy_ch04_q18",
-    "nodeId": "c6_physics_ch04_003",
-    "difficulty": "standard"
-   }
-  ],
-  "reflect": {
-   "prompts": [
-    "What surprised you about magnet?",
-    "Which challenge was hardest -- and why?"
-   ]
-  },
-  "successLine": "Magnet mastered! 🎯",
+  "successLine": "A Torchlight Is a Portable mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_phy_ch07",
-  "title": "Heat",
+  "title": "Heat Is a Form Of Energy",
   "subtitle": "Physics · Chapter 7",
   "classLevel": 6,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Heat",
+  "topic": "Heat Is a Form Of Energy",
   "chapters": [
-   "Physics Ch7: Heat"
+   "Physics Ch7: Heat Is a Form Of Energy"
   ],
   "nodeIds": [
    "c6_physics_ch07_019",
@@ -1651,7 +1316,7 @@ export const C6_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Heat actually explain?",
+   "question": "In one line -- what does Heat Is a Form Of Energy actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -1662,25 +1327,25 @@ export const C6_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Heat",
+    "title": "Heat Is a Form Of Energy",
     "text": "Heat is a form of energy that moves from a region or object with a higher temperature to a region or object with a lower temperature. This energy transfer continues until both objects reach thermal equilibrium, meaning they are at the same temperature.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Conduction",
+    "title": "Conduction Is The Process Of Heat",
     "text": "Conduction is the process of heat transfer through a solid material caused by direct physical contact between its particles. Heat energy moves from the hotter part of the object to the cooler part as vibrating particles collide and pass energy to their",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Convection",
+    "title": "Convection Is The Process Of Heat",
     "text": "Convection is the process of heat transfer in liquids and gases where the warmer, lighter fluid rises and the cooler, heavier fluid sinks to replace it, creating a continuous circular motion.",
     "emoji": "⚡",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Radiation",
+    "title": "Radiation Is The Process",
     "text": "Radiation is the process by which heat energy travels through space in the form of electromagnetic waves without needing any physical material or medium. It allows heat to move through a vacuum, such as the vast empty space between the Sun and the Earth.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1692,13 +1357,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Heat",
+    "title": "Heat Is a Form Of Energy",
     "text": "Heat is a form of energy related to the total motion of molecules in a substance, while temperature is a measurement indicating how hot or cold an object is based on the average kinetic energy of its molecules.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Insulator",
+    "title": "Insulators: Materials That Block Heat",
     "text": "An insulator is a material that resists the flow of heat, acting as a barrier to keep heat from moving from one area to another. It essentially blocks or slows down the transfer of thermal energy.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1713,15 +1378,16 @@ export const C6_PHY_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Why is it impossible for heat to spontaneously flow from a cold block of ice to a hot cup of coffee?",
-    "answer": "This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold)",
+    "question": "A metal rod is held over a candle flame. After a few minutes, the other end becomes hot. What is this mode of heat transfer called?",
+    "answer": "This is called conduction",
     "options": [
-     "Cooling causes the water vapour to lose energy and condense into liquid water droplets, which form clouds",
-     "Light colours reflect most of the heat radiation from the sun, keeping you cooler",
-     "This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold)"
+     "You should choose wood because it is a poor conductor (insulator) and will not transfer the heat from the hot pan to your hand",
+     "The heat transfer to the spoon happens through conduction, where energy moves via direct physical contact between the tea and the metal",
+     "Plastic is called conduction",
+     "This is called conduction"
     ],
-    "hint": "Straight from the 'Heat' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold).",
+    "hint": "Straight from the 'Heat is a form of energy' slide -- match the key terms.",
+    "misconception": "If the student answers \"convection,\" they are likely confusing how solids transfer heat versus how liquids/gases move heat via currents.",
     "id": "gen_c6_phy_ch07_q1",
     "nodeId": "c6_physics_ch07_019",
     "difficulty": "standard",
@@ -1737,11 +1403,11 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What is the primary mechanism by which heat moves through a metal rod?",
     "answer": "Heat moves by the direct contact and vibration of neighboring atoms, which pass energy along the rod",
     "options": [
-     "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating",
-     "The student must be able to describe the cycle of rising hot fluid and sinking cold fluid in a container and provide at least one real-world example (like boiling water or air",
+     "Heat transfer in daily life refers to the natural movement of thermal energy through conduction, convection, and radiation, which we use to regulate temperature, cook food",
+     "The student must be able to identify which method of heat transfer (conduction, convection",
      "Heat moves by the direct contact and vibration of neighboring atoms, which pass energy along the rod"
     ],
-    "hint": "Straight from the 'Conduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
     "misconception": "If a student answers \"the metal melts and flows,\" they misunderstand that conduction happens in solids without the material changing its shape or moving.",
     "id": "gen_c6_phy_ch07_q2",
     "nodeId": "c6_physics_ch07_020",
@@ -1755,16 +1421,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "In which states of matter does convection occur?",
-    "answer": "Convection occurs in fluids, which are liquids and gases",
+    "question": "When water is heated in a beaker, why does the hot water rise to the top?",
+    "answer": "The hot water rises because heating makes it expand, which decreases its density, making it lighter than the surrounding cold water",
     "options": [
-     "Yes, because radiation travels through a vacuum",
-     "The student should suggest painting one tin black and one white, filling them with the same amount of water, and placing them in direct sunlight to measure the temperature rise",
-     "Painting occurs in fluids, which are liquids and gases",
-     "Convection occurs in fluids, which are liquids and gases"
+     "Heat is a form of energy related to the total motion of molecules in a substance, while temperature is a measurement indicating how hot or cold an object is based on the average",
+     "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating",
+     "The hot water rises because heating makes it expand, which decreases its density, making it lighter than the surrounding cold water"
     ],
-    "hint": "Straight from the 'Convection' slide -- match the key terms.",
-    "misconception": "A wrong answer (like \"solids\") shows the student is confusing convection with conduction, where heat moves through objects without the material itself moving.",
+    "hint": "Straight from the 'Convection is the process of heat' slide -- match the key terms.",
+    "misconception": "A student who says \"it rises because heat is light\" is missing the key concept of density changes in the fluid.",
     "id": "gen_c6_phy_ch07_q3",
     "nodeId": "c6_physics_ch07_021",
     "difficulty": "standard",
@@ -1777,15 +1442,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why are the insides of some modern solar water heaters painted black?",
-    "answer": "Dark and rough surfaces are excellent absorbers of radiation. Painting them black allows the device to capture more solar radiation to heat the water efficiently",
+    "question": "If you stand near a heater, how does the heat reach you even if the air in the room is still?",
+    "answer": "The heater emits thermal radiation in the form of electromagnetic waves that travel through the air to your skin",
     "options": [
-     "This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold)",
-     "Because warm air is less dense than the surrounding cooler air, it rises through the process of convection",
-     "Dark and rough surfaces are excellent absorbers of radiation. Painting them black allows the device to capture more solar radiation to heat the water efficiently"
+     "The temperature remains 40°C, but the total heat doubles",
+     "The lake has more heat because it contains a much larger number of molecules",
+     "The heater emits thermal radiation in the form of electromagnetic waves that travel through the air to your skin"
     ],
-    "hint": "Straight from the 'Radiation' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Dark and rough surfaces are excellent absorbers of radiation. Painting them black allows the device to capture more",
+    "hint": "Straight from the 'Radiation is the process' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks heat *only* moves through air currents.",
     "id": "gen_c6_phy_ch07_q4",
     "nodeId": "c6_physics_ch07_022",
     "difficulty": "standard",
@@ -1822,11 +1487,11 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If you have a cup of hot coffee and a giant lake, both at 60°C, which one has more heat? Why?",
     "answer": "The lake has more heat because it contains a much larger number of molecules",
     "options": [
-     "The chair would instantly draw all the heat from the part of your body touching it, making it feel painfully cold",
-     "You must define fixed reference points (like the freezing and boiling points of water) and the number of divisions between them",
+     "You should choose wood and foam because they are insulators that trap heat inside the house. Iron is a conductor that would let the indoor heat escape quickly to the outside",
+     "Heat (energy) is moving into the spoon",
      "The lake has more heat because it contains a much larger number of molecules"
     ],
-    "hint": "Straight from the 'Heat' slide -- match the key terms.",
+    "hint": "Straight from the 'Heat is a form of energy' slide -- match the key terms.",
     "misconception": "A student who says \"the cup\" is likely confusing \"temperature\" (intensity) with \"heat\" (total energy).",
     "id": "gen_c6_phy_ch07_q6",
     "nodeId": "c6_physics_ch07_024",
@@ -1840,15 +1505,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "You are building a house in a very cold region. Would you prefer walls made of solid iron or walls made of wood and foam? Explain why.",
-    "answer": "You should choose wood and foam because they are insulators that trap heat inside the house. Iron is a conductor that would let the indoor heat escape quickly to the outside",
+    "question": "What is the primary function of an insulator?",
+    "answer": "An insulator is designed to slow down or prevent the flow of heat",
     "options": [
-     "The student should describe how water droplets form on the outside of a cold glass. This represents condensation, the opposite of evaporation",
-     "You must define fixed reference points (like the freezing and boiling points of water) and the number of divisions between them",
-     "You should choose wood and foam because they are insulators that trap heat inside the house. Iron is a conductor that would let the indoor heat escape quickly to the outside"
+     "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating",
+     "The student must be able to describe how the Sun's radiation causes evaporation and how convection currents circulate moist air to form clouds and precipitation",
+     "An insulator is designed to slow down or prevent the flow of heat"
     ],
-    "hint": "Straight from the 'insulator' slide -- match the key terms.",
-    "misconception": "An incorrect answer suggests the student has not yet grasped that conductors and insulators have opposite effects on heat.",
+    "hint": "Straight from the 'insulator is a material that' slide -- match the key terms.",
+    "misconception": "A wrong answer like \"an insulator makes things hotter\" shows the student is confusing insulators with heat sources; they do not generate heat, they only manage its movement.",
     "id": "gen_c6_phy_ch07_q7",
     "nodeId": "c6_physics_ch07_025",
     "difficulty": "standard",
@@ -1861,15 +1526,16 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is it better to wear white or light-coloured clothing in the summer compared to dark-coloured clothing?",
-    "answer": "Light colours reflect most of the heat radiation from the sun, keeping you cooler",
+    "question": "If you touch a cold windowpane on a sunny day and it feels warm, which process is primarily responsible for the heat reaching the glass from the sun?",
+    "answer": "The process is radiation",
     "options": [
-     "Because warm air is less dense than the surrounding cooler air, it rises through the process of convection",
-     "Cooling causes the water vapour to lose energy and condense into liquid water droplets, which form clouds",
-     "Light colours reflect most of the heat radiation from the sun, keeping you cooler"
+     "The thermos uses insulating materials in its walls to prevent heat from escaping into the cooler air outside",
+     "The chair would instantly draw all the heat from the part of your body touching it, making it feel painfully cold",
+     "Iron process is radiation",
+     "The process is radiation"
     ],
     "hint": "Straight from the 'Heat transfer in daily life' slide -- match the key terms.",
-    "misconception": "A wrong answer often assumes color only affects appearance, failing to understand the relationship between light absorption and heat energy.",
+    "misconception": "A wrong answer like \"conduction\" suggests the student thinks the sun must touch the glass, missing that radiation travels through empty space or air without needing a medium.",
     "id": "gen_c6_phy_ch07_q8",
     "nodeId": "c6_physics_ch07_026",
     "difficulty": "advanced",
@@ -1885,13 +1551,28 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment to prove that heat flows through metal faster than through wood.",
     "answer": "A good answer involves placing a metal spoon and a wooden spoon of the same size into a mug of hot water and touching the handles after two minutes",
     "options": [
-     "The lake has more heat because it contains a much larger number of molecules",
-     "1. Identify the source of heat (the flame). 2. Note the increased vibration of particles at the hot end",
+     "You should choose wood because it is a poor conductor (insulator) and will not transfer the heat from the hot pan to your hand",
+     "You should choose wood and foam because they are insulators that trap heat inside the house. Iron is a conductor that would let the indoor heat escape quickly to the outside",
      "A good answer involves placing a metal spoon and a wooden spoon of the same size into a mug of hot water and touching the handles after two minutes"
     ],
-    "hint": "Straight from the 'Heat' slide -- match the key terms.",
+    "hint": "Straight from the 'Heat is a form of energy' slide -- match the key terms.",
     "misconception": "A poor answer fails to control variables (e.g., using different sized spoons) or doesn't mention the \"hot water\" source.",
     "id": "gen_c6_phy_ch07_q9",
+    "nodeId": "c6_physics_ch07_019",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why is it impossible for heat to spontaneously flow from a cold block of ice to a hot cup of coffee?",
+    "answer": "This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold)",
+    "options": [
+     "Cooling causes the water vapour to lose energy and condense into liquid water droplets, which form clouds",
+     "Light colours reflect most of the heat radiation from the sun, keeping you cooler",
+     "This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold)"
+    ],
+    "hint": "Straight from the 'Heat is a form of energy' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold).",
+    "id": "gen_c6_phy_ch07_q10",
     "nodeId": "c6_physics_ch07_019",
     "difficulty": "standard"
    },
@@ -1901,12 +1582,12 @@ export const C6_PHY_GEN: SimDef[] = [
     "answer": "1. Identify the source of heat (the flame). 2. Note the increased vibration of particles at the hot end",
     "options": [
      "The lake has more heat because it contains a much larger number of molecules",
-     "The student should describe how water droplets form on the outside of a cold glass. This represents condensation, the opposite of evaporation",
+     "The thermos uses insulating materials in its walls to prevent heat from escaping into the cooler air outside",
      "1. Identify the source of heat (the flame). 2. Note the increased vibration of particles at the hot end"
     ],
-    "hint": "Straight from the 'Conduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: 1. Identify the source of heat (the flame). 2. Note the increased vibration of particles at the hot end.",
-    "id": "gen_c6_phy_ch07_q10",
+    "id": "gen_c6_phy_ch07_q11",
     "nodeId": "c6_physics_ch07_020",
     "difficulty": "standard"
    },
@@ -1915,13 +1596,28 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If you hold a plastic ruler over a candle, why does the end in your hand stay cool longer than the end of a metal spoon would?",
     "answer": "Plastic is a poor conductor, meaning its atoms do not pass the vibration energy effectively to their neighbors",
     "options": [
-     "The heat moves through the spoon via conduction. The kinetic energy of the hot molecules in the dal is transferred to the molecules of the spoon",
-     "The chair would instantly draw all the heat from the part of your body touching it, making it feel painfully cold",
+     "The air above the flame is heated, becomes less dense, and rises directly into your hand, carrying the heat via convection currents",
+     "Heat (energy) is moving into the spoon",
      "Plastic is a poor conductor, meaning its atoms do not pass the vibration energy effectively to their neighbors"
     ],
-    "hint": "Straight from the 'Conduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
     "misconception": "A student who says \"plastic doesn't have heat\" is incorrect; they are failing to distinguish between high-conducting materials (metals) and insulating materials (non-metals).",
-    "id": "gen_c6_phy_ch07_q11",
+    "id": "gen_c6_phy_ch07_q12",
+    "nodeId": "c6_physics_ch07_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were to design a handle for a frying pan, would you choose metal or wood? Justify your answer using the concept of conduction.",
+    "answer": "You should choose wood because it is a poor conductor (insulator) and will not transfer the heat from the hot pan to your hand",
+    "options": [
+     "The air above the flame is heated, becomes less dense, and rises directly into your hand, carrying the heat via convection currents",
+     "You should choose wood and foam because they are insulators that trap heat inside the house. Iron is a conductor that would let the indoor heat escape quickly to the outside",
+     "You should choose wood because it is a poor conductor (insulator) and will not transfer the heat from the hot pan to your hand"
+    ],
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: You should choose wood because it is a poor conductor (insulator) and will not transfer the heat from the hot pan to",
+    "id": "gen_c6_phy_ch07_q13",
     "nodeId": "c6_physics_ch07_020",
     "difficulty": "standard"
    },
@@ -1930,13 +1626,28 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Imagine a world where all objects were perfect conductors. What would happen if you touched a room-temperature chair?",
     "answer": "The chair would instantly draw all the heat from the part of your body touching it, making it feel painfully cold",
     "options": [
-     "The temperature remains 40°C, but the total heat doubles",
-     "You must define fixed reference points (like the freezing and boiling points of water) and the number of divisions between them",
+     "This is called conduction",
+     "A good answer involves placing a metal spoon and a wooden spoon of the same size into a mug of hot water and touching the handles after two minutes",
      "The chair would instantly draw all the heat from the part of your body touching it, making it feel painfully cold"
     ],
-    "hint": "Straight from the 'Conduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
     "misconception": "A poor answer would ignore the transfer of energy, showing a lack of understanding regarding the equilibrium between body temperature and surrounding objects.",
-    "id": "gen_c6_phy_ch07_q12",
+    "id": "gen_c6_phy_ch07_q14",
+    "nodeId": "c6_physics_ch07_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Conduction? State the definition given in this lesson.",
+    "answer": "Conduction is the process of heat transfer through a solid material caused by direct physical contact between its particles",
+    "options": [
+     "The hot water rises because heating makes it expand, which decreases its density, making it lighter than the surrounding cold water",
+     "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating",
+     "Conduction is the process of heat transfer through a solid material caused by direct physical contact between its particles"
+    ],
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Conduction is the process of heat transfer through a solid material caused by direct physical contact between its",
+    "id": "gen_c6_phy_ch07_q15",
     "nodeId": "c6_physics_ch07_020",
     "difficulty": "standard"
    },
@@ -1945,13 +1656,28 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to identify materials as conductors or insulators based on their ability to pass heat and describe the particle-to-particle vibration process in their own",
     "options": [
-     "Heat moves by the direct contact and vibration of neighboring atoms, which pass energy along the rod",
      "The student must be able to explain why a large object with a lower temperature can contain more heat than a small object with a higher temperature",
+     "The student must be able to describe how the Sun's radiation causes evaporation and how convection currents circulate moist air to form clouds and precipitation",
      "The student must be able to identify materials as conductors or insulators based on their ability to pass heat and describe the particle-to-particle vibration process in their own"
     ],
-    "hint": "Straight from the 'Conduction' slide -- match the key terms.",
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify materials as conductors or insulators based on their ability to pass heat and",
-    "id": "gen_c6_phy_ch07_q13",
+    "id": "gen_c6_phy_ch07_q16",
+    "nodeId": "c6_physics_ch07_020",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why do metals feel cold when you touch them at room temperature, even if they aren't in a freezer?",
+    "answer": "Metals are good conductors and quickly draw heat away from your warm skin into the metal",
+    "options": [
+     "Dark and rough surfaces are excellent absorbers of radiation. Painting them black allows the device to capture more solar radiation to heat the water efficiently",
+     "Because warm air is less dense than the surrounding cooler air, it rises through the process of convection",
+     "Metals are good conductors and quickly draw heat away from your warm skin into the metal"
+    ],
+    "hint": "Straight from the 'Conduction is the process of heat' slide -- match the key terms.",
+    "misconception": "A student who thinks the metal is \"naturally cold\" has not grasped that the metal is just transferring their body heat away very efficiently.",
+    "id": "gen_c6_phy_ch07_q17",
     "nodeId": "c6_physics_ch07_020",
     "difficulty": "standard"
    },
@@ -1960,97 +1686,37 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment to prove that water moves when it is heated.",
     "answer": "A good answer would involve adding a few drops of food coloring or small paper bits to water in a clear beaker and heating it slowly",
     "options": [
-     "The student should describe how water droplets form on the outside of a cold glass. This represents condensation, the opposite of evaporation",
-     "You must define fixed reference points (like the freezing and boiling points of water) and the number of divisions between them",
+     "No, because the range of a clinical thermometer is too small (usually 35°C to 42°C), and boiling water (100°C) would exceed its limit and potentially break it",
+     "No, because without the Sun's radiation, there would be no energy to cause evaporation, and therefore no water vapour to rise and form clouds",
      "A good answer would involve adding a few drops of food coloring or small paper bits to water in a clear beaker and heating it slowly"
     ],
-    "hint": "Straight from the 'Convection' slide -- match the key terms.",
+    "hint": "Straight from the 'Convection is the process of heat' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A good answer would involve adding a few drops of food coloring or small paper bits to water in a clear beaker and",
-    "id": "gen_c6_phy_ch07_q14",
-    "nodeId": "c6_physics_ch07_021",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to describe the cycle of rising hot fluid and sinking cold fluid in a container and provide at least one real-world example (like boiling water or air",
-    "options": [
-     "The student must be able to identify that radiation is the only form of heat transfer that works in a vacuum and explain how surface color affects heat absorption",
-     "Heat moves by the direct contact and vibration of neighboring atoms, which pass energy along the rod",
-     "The student must be able to describe the cycle of rising hot fluid and sinking cold fluid in a container and provide at least one real-world example (like boiling water or air"
-    ],
-    "hint": "Straight from the 'Convection' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to describe the cycle of rising hot fluid and sinking cold fluid in a container and provide at",
-    "id": "gen_c6_phy_ch07_q15",
-    "nodeId": "c6_physics_ch07_021",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What would happen to the circulation of heat if you placed a barrier in the middle of a pot of water?",
-    "answer": "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating",
-    "options": [
-     "The student must be able to describe the cycle of rising hot fluid and sinking cold fluid in a container and provide at least one real-world example (like boiling water or air",
-     "Heat moves by the direct contact and vibration of neighboring atoms, which pass energy along the rod",
-     "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating"
-    ],
-    "hint": "Straight from the 'Convection' slide -- match the key terms.",
-    "misconception": "If a student says \"the heat would pass through the barrier,\" they are confusing conduction with the bulk movement of convection.",
-    "id": "gen_c6_phy_ch07_q16",
-    "nodeId": "c6_physics_ch07_021",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Could we receive heat from the Sun if the Earth were surrounded by a giant glass shell that removed all air from the atmosphere?",
-    "answer": "Yes, because radiation travels through a vacuum",
-    "options": [
-     "The lake has more heat because it contains a much larger number of molecules",
-     "1. Identify the source of heat (the flame). 2. Note the increased vibration of particles at the hot end",
-     "Yes, because radiation travels through a vacuum"
-    ],
-    "hint": "Straight from the 'Radiation' slide -- match the key terms.",
-    "misconception": "If a student says \"no,\" they fail to grasp that radiation is independent of a medium.",
-    "id": "gen_c6_phy_ch07_q17",
-    "nodeId": "c6_physics_ch07_022",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design an experiment to prove that dark surfaces absorb more heat than light ones using two identical metal tins.",
-    "answer": "The student should suggest painting one tin black and one white, filling them with the same amount of water, and placing them in direct sunlight to measure the temperature rise",
-    "options": [
-     "The temperature remains 40°C, but the total heat doubles",
-     "The lake has more heat because it contains a much larger number of molecules",
-     "The student should suggest painting one tin black and one white, filling them with the same amount of water, and placing them in direct sunlight to measure the temperature rise"
-    ],
-    "hint": "Straight from the 'Radiation' slide -- match the key terms.",
-    "misconception": "A poor answer would lack a control or specific variables.",
     "id": "gen_c6_phy_ch07_q18",
-    "nodeId": "c6_physics_ch07_022",
+    "nodeId": "c6_physics_ch07_021",
     "difficulty": "standard"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about heat?",
+    "What surprised you about heat is a form of energy?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Heat mastered! 🎯",
+  "successLine": "Heat Is a Form Of Energy mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c6_phy_ch08",
-  "title": "Speed",
+  "title": "Speed Is a Measure Of How",
   "subtitle": "Physics · Chapter 8",
   "classLevel": 6,
   "mode": "senior",
   "subject": "physics",
-  "topic": "Speed",
+  "topic": "Speed Is a Measure Of How",
   "chapters": [
-   "Physics Ch8: Speed"
+   "Physics Ch8: Speed Is a Measure Of How"
   ],
   "nodeIds": [
    "c6_physics_ch08_027",
@@ -2069,7 +1735,7 @@ export const C6_PHY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Speed outside the classroom?",
+   "question": "Quick guess -- where do you meet Speed Is a Measure Of How outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -2080,19 +1746,19 @@ export const C6_PHY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Sundial",
+    "title": "A Sundial Is An Ancient Device",
     "text": "A sundial is an ancient device that measures time by using the position of a shadow cast by a stationary object (a gnomon) onto a marked surface, tracking the sun's apparent movement across the sky.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speed",
+    "title": "Speed Is The Distance An Object",
     "text": "Speed is the distance an object travels in a specific amount of time. It tells us how fast or slow an object is moving by comparing the total path covered to the time taken.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Speed",
+    "title": "Speed Is a Measure Of How",
     "text": "Speed is a measure of how fast an object changes its position, calculated by dividing the total distance travelled by the time taken to cover that distance. It tells us the rate at which motion occurs without considering the direction.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2110,7 +1776,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speed",
+    "title": "Speed Is a Measure Of How",
     "text": "Speed is a measure of how quickly an object covers a specific distance over a period of time. It is calculated by dividing the total distance travelled by the time taken to complete that journey.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2122,7 +1788,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Time",
+    "title": "Time Is a Physical Quantity Used",
     "text": "Time is a physical quantity used to measure the duration of events or the interval between them, with the 'second' serving as the basic SI unit.",
     "emoji": "⚡",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2131,15 +1797,15 @@ export const C6_PHY_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Could you use a sundial accurately on a very cloudy day? Why or why not?",
-    "answer": "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow",
+    "question": "What is the main source of energy/movement that causes a sundial’s shadow to change position?",
+    "answer": "The sun's apparent movement across the sky",
     "options": [
-     "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive",
-     "Measure the marble's position at every 1-second interval. To show uniform motion, the difference in distance between each interval must be identical",
-     "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow"
+     "The basic SI unit of time is the second",
+     "A millennium is larger because it represents 1000 years, while a century represents only 100 years",
+     "The sun's apparent movement across the sky"
     ],
-    "hint": "Straight from the 'sundial' slide -- match the key terms.",
-    "misconception": "Answering \"Yes\" indicates a lack of understanding of how shadows are formed by blocked light paths.",
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
+    "misconception": "A wrong answer (e.g., \"the moon\" or \"the stick moving\") shows the student does not understand that the Earth's rotation creates the illusion of the sun moving, which drives the shadow's path.",
     "id": "gen_c6_phy_ch08_q1",
     "nodeId": "c6_physics_ch08_027",
     "difficulty": "standard",
@@ -2155,12 +1821,12 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Is it possible for a fast-moving object to have a lower speed value than a slow-moving object if the units are different?",
     "answer": "Yes, if the units are not the same (e.g., comparing 100 m/s to 5 km/h)",
     "options": [
-     "No, it is uniform motion because the speed is constant",
-     "A good answer involves a car moving on a smooth floor (uniform) and then hitting a rug or a rough surface (slowing down, making it non-uniform)",
+     "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds",
+     "Because the sun’s position in the sky has changed relative to the Earth, causing the angle of the light hitting the stick to shift",
      "SI, if the units are not the same (e.g., comparing 100 m/s to 5 km/h)",
      "Yes, if the units are not the same (e.g., comparing 100 m/s to 5 km/h)"
     ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
+    "hint": "Straight from the 'Speed is the distance an object' slide -- match the key terms.",
     "misconception": "Students often look only at the number and ignore the units, which is a critical error in scientific measurement.",
     "id": "gen_c6_phy_ch08_q2",
     "nodeId": "c6_physics_ch08_028",
@@ -2174,15 +1840,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is speed described as a positive number without direction?",
-    "answer": "Speed only measures \"how fast,\" not \"where to.\" A wrong answer suggests the student is confusing speed with velocity",
+    "question": "What is the mathematical formula used to calculate the speed of a moving object?",
+    "answer": "The formula is Speed = Distance / Time",
     "options": [
-     "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds",
-     "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow",
-     "Speed only measures \"how fast,\" not \"where to.\" A wrong answer suggests the student is confusing speed with velocity"
+     "This is called oscillatory motion",
+     "The student must be able to identify a pendulum as an oscillator and explain that the time taken for one complete to-and-fro swing (the period) remains constant regardless of the",
+     "The formula is Speed = Distance / Time"
     ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student is confusing speed with velocity, which explicitly requires a specific direction (like \"North\" or \"towards home\").",
+    "hint": "Straight from the 'Speed is a measure of how' slide -- match the key terms.",
+    "misconception": "A student who answers \"Distance times Time\" or \"Time divided by Distance\" misunderstands that speed is a rate of change over time, not a total accumulation.",
     "id": "gen_c6_phy_ch08_q3",
     "nodeId": "c6_physics_ch08_029",
     "difficulty": "advanced",
@@ -2198,7 +1864,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment to prove a rolling marble is in uniform motion. What would you look for in your data?",
     "answer": "Measure the marble's position at every 1-second interval. To show uniform motion, the difference in distance between each interval must be identical",
     "options": [
-     "Yes, if the units are not the same (e.g., comparing 100 m/s to 5 km/h)",
+     "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour",
      "No, it is uniform motion because the speed is constant",
      "Measure the marble's position at every 1-second interval. To show uniform motion, the difference in distance between each interval must be identical"
     ],
@@ -2219,8 +1885,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Can you describe a situation where a ball thrown into the air shows non-uniform motion?",
     "answer": "As the ball rises, it slows down until it stops for a tiny fraction of a second at the peak, then it speeds up as it falls back down",
     "options": [
+     "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light",
      "No, it is uniform motion because the speed is constant",
-     "The student should describe setting the pendulum in motion with a small pull, timing 10 swings with a stopwatch",
      "As the ball rises, it slows down until it stops for a tiny fraction of a second at the peak, then it speeds up as it falls back down"
     ],
     "hint": "Straight from the 'Non-uniform motion' slide -- match the key terms.",
@@ -2236,16 +1902,15 @@ export const C6_PHY_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Create a scenario where you would need to measure speed in your daily life.",
-    "answer": "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds",
-    "options": [
-     "It is more appropriate to measure the time it takes to walk to school in minutes because the journey typically lasts longer than a few seconds but is much shorter than a full hour",
-     "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour",
-     "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds"
-    ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
-    "misconception": "A poor answer would be vague, like \"measuring a car,\" without explaining the need for both distance and time measurements.",
+    "type": "math_input",
+    "question": "A student walks a 20-metre corridor in 5 seconds. Calculate the speed of the student.",
+    "answer": "4",
+    "mathInput": {
+     "tolerance": 0,
+     "placeholder": "m/s"
+    },
+    "hint": "Work it step by step, then enter the final value in m/s.",
+    "misconception": "A student who performs 20 x 5 = 100 or 5 / 20 = 0.25 m/s has not correctly applied the division order of the speed formula.",
     "id": "gen_c6_phy_ch08_q6",
     "nodeId": "c6_physics_ch08_032",
     "difficulty": "advanced",
@@ -2261,7 +1926,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What do we call the motion of a pendulum where it moves to and fro about a fixed position?",
     "answer": "This is called oscillatory motion",
     "options": [
-     "The student must be able to calculate the speed of an object given its distance and time, identify the correct units",
+     "The formula is Speed = Distance / Time",
      "The basic SI unit of time is the second",
      "This is called oscillatory motion"
     ],
@@ -2282,11 +1947,11 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What is the basic SI unit of time? Answer: The second. Wrong answer reveals: The student is confusing the SI unit of length (metre) with the SI unit of time, or is guessing based on common daily usage rather than scientific standards.",
     "answer": "The basic SI unit of time is the second",
     "options": [
-     "The student must be able to calculate speed given distance and time and correctly identify which of two objects is faster based on their speed values",
+     "Time is a physical quantity used to measure the duration of events or the interval between them, with the 'second' serving as the basic SI unit",
      "The student must be able to convert between time units (e.g., hours to minutes, minutes to seconds) and identify which unit is appropriate for measuring specific durations",
      "The basic SI unit of time is the second"
     ],
-    "hint": "Straight from the 'Time' slide -- match the key terms.",
+    "hint": "Straight from the 'Time is a physical quantity used' slide -- match the key terms.",
     "misconception": "If a student answers \"hour\" or \"minute,\" they are confusing common usage with scientific standards, indicating they have not learned the foundation of the SI system.",
     "id": "gen_c6_phy_ch08_q8",
     "nodeId": "c6_physics_ch08_034",
@@ -2300,16 +1965,76 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "A student wants to use a sundial to check the time at midnight. Why is this impossible?",
+    "answer": "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light",
+    "options": [
+     "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive",
+     "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both",
+     "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light"
+    ],
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth,",
+    "id": "gen_c6_phy_ch08_q9",
+    "nodeId": "c6_physics_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Compare a sundial to a modern digital watch. What is the biggest difference in how they \"know\" the time?",
+    "answer": "A sundial relies on external natural light and celestial position, while a digital watch uses an internal, independent power source and electronic counting",
+    "options": [
+     "The time remains unchanged because the period is determined by the length of the string, not the weight of the bob",
+     "Measure the marble's position at every 1-second interval. To show uniform motion, the difference in distance between each interval must be identical",
+     "A sundial relies on external natural light and celestial position, while a digital watch uses an internal, independent power source and electronic counting"
+    ],
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: A sundial relies on external natural light and celestial position, while a digital watch uses an internal, independent",
+    "id": "gen_c6_phy_ch08_q10",
+    "nodeId": "c6_physics_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Could you use a sundial accurately on a very cloudy day? Why or why not?",
+    "answer": "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow",
+    "options": [
+     "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both",
+     "The one moving at 10 m/s is faster because 10 m/s is 36 km/h",
+     "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow"
+    ],
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
+    "misconception": "Answering \"Yes\" indicates a lack of understanding of how shadows are formed by blocked light paths.",
+    "id": "gen_c6_phy_ch08_q11",
+    "nodeId": "c6_physics_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Design a simple experiment to prove that a stick's shadow changes over time. What would you need to observe?",
     "answer": "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour",
     "options": [
-     "No, the time (period) remains the same",
-     "No, the longer pendulum will take more time for a full swing",
+     "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow",
+     "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light",
      "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour"
     ],
-    "hint": "Straight from the 'sundial' slide -- match the key terms.",
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
     "misconception": "A poor answer fails to define the observation interval (time) or the reference object (stick).",
-    "id": "gen_c6_phy_ch08_q9",
+    "id": "gen_c6_phy_ch08_q12",
+    "nodeId": "c6_physics_ch08_027",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you look at a sundial at noon and then again two hours later, why will the shadow point in a different direction?",
+    "answer": "Because the sun’s position in the sky has changed relative to the Earth, causing the angle of the light hitting the stick to shift",
+    "options": [
+     "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light",
+     "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive",
+     "Because the sun’s position in the sky has changed relative to the Earth, causing the angle of the light hitting the stick to shift"
+    ],
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks the stick moves, failing to grasp the relationship between light source position and shadow projection.",
+    "id": "gen_c6_phy_ch08_q13",
     "nodeId": "c6_physics_ch08_027",
     "difficulty": "standard"
    },
@@ -2318,13 +2043,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to explain why a sundial's shadow changes position throughout the day and identify the fundamental limitation of solar-based timekeeping",
     "options": [
-     "This is called oscillatory motion",
-     "The basic SI unit of time is the second",
+     "The student must be able to identify a pendulum as an oscillator and explain that the time taken for one complete to-and-fro swing (the period) remains constant regardless of the",
+     "The formula is Speed = Distance / Time",
      "The student must be able to explain why a sundial's shadow changes position throughout the day and identify the fundamental limitation of solar-based timekeeping"
     ],
-    "hint": "Straight from the 'sundial' slide -- match the key terms.",
+    "hint": "Straight from the 'A sundial is an ancient device' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain why a sundial's shadow changes position throughout the day and identify the",
-    "id": "gen_c6_phy_ch08_q10",
+    "id": "gen_c6_phy_ch08_q14",
     "nodeId": "c6_physics_ch08_027",
     "difficulty": "standard"
    },
@@ -2333,28 +2058,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment to prove that a marble rolling down a steep ramp is faster than one on a flat floor.",
     "answer": "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both",
     "options": [
-     "A good answer involves a car moving on a smooth floor (uniform) and then hitting a rug or a rough surface (slowing down, making it non-uniform)",
      "No, because clouds scatter and block the direct light needed to create a distinct, sharp shadow",
+     "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour",
      "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both"
     ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
+    "hint": "Straight from the 'Speed is the distance an object' slide -- match the key terms.",
     "misconception": "A poor answer fails to keep one variable (time) constant, which is essential for a fair comparison.",
-    "id": "gen_c6_phy_ch08_q11",
-    "nodeId": "c6_physics_ch08_028",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to calculate speed given distance and time and correctly identify which of two objects is faster based on their speed values",
-    "options": [
-     "The basic SI unit of time is the second",
-     "The student must be able to calculate the speed of an object given its distance and time, identify the correct units",
-     "The student must be able to calculate speed given distance and time and correctly identify which of two objects is faster based on their speed values"
-    ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to calculate speed given distance and time and correctly identify which of two objects is",
-    "id": "gen_c6_phy_ch08_q12",
+    "id": "gen_c6_phy_ch08_q15",
     "nodeId": "c6_physics_ch08_028",
     "difficulty": "standard"
    },
@@ -2363,99 +2073,54 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Create a scenario where knowing the speed of an object helps you predict when it will arrive at a specific destination.",
     "answer": "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive",
     "options": [
-     "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds",
-     "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour",
+     "Because a sundial requires a light source to cast a shadow; at midnight, the sun is on the other side of the Earth, providing no light",
+     "Speed = 20 m / 5 s = 4 m/s",
      "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive"
     ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
+    "hint": "Straight from the 'Speed is a measure of how' slide -- match the key terms.",
     "misconception": "A poor answer lacks either the distance or the speed component needed to make the prediction.",
-    "id": "gen_c6_phy_ch08_q13",
+    "id": "gen_c6_phy_ch08_q16",
     "nodeId": "c6_physics_ch08_029",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Create a scenario where a toy car changes from uniform to non-uniform motion.",
-    "answer": "A good answer involves a car moving on a smooth floor (uniform) and then hitting a rug or a rough surface (slowing down, making it non-uniform)",
+    "question": "If one object moves at 10 m/s and another moves at 10 km/h, which one is faster?",
+    "answer": "The one moving at 10 m/s is faster because 10 m/s is 36 km/h",
     "options": [
      "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour",
-     "No, it is uniform motion because the speed is constant",
-     "A good answer involves a car moving on a smooth floor (uniform) and then hitting a rug or a rough surface (slowing down, making it non-uniform)"
-    ],
-    "hint": "Straight from the 'Non-uniform motion' slide -- match the key terms.",
-    "misconception": "A poor answer just lists random movements without explaining the transition in speed.",
-    "id": "gen_c6_phy_ch08_q14",
-    "nodeId": "c6_physics_ch08_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If you draw a distance-time graph for a car stuck in a traffic jam, why would the line be curved instead of straight?",
-    "answer": "The line is curved because the car's distance from the start point is not increasing at a steady rate",
-    "options": [
-     "It is more appropriate to measure the time it takes to walk to school in minutes because the journey typically lasts longer than a few seconds but is much shorter than a full hour",
      "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both",
-     "The line is curved because the car's distance from the start point is not increasing at a steady rate"
+     "The one moving at 10 m/s is faster because 10 m/s is 36 km/h"
     ],
-    "hint": "Straight from the 'Non-uniform motion' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The line is curved because the car's distance from the start point is not increasing at a steady rate.",
-    "id": "gen_c6_phy_ch08_q15",
-    "nodeId": "c6_physics_ch08_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is a person walking at a steady pace of 1 meter per second for 10 seconds an example of non-uniform motion? Defend your answer.",
-    "answer": "No, it is uniform motion because the speed is constant",
-    "options": [
-     "A good answer involves timing a trip to a local shop, like: \"I want to know my speed to the vegetable market, so I measure the path is 500 metres and it takes me 200 seconds",
-     "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both",
-     "No, it is uniform motion because the speed is constant"
-    ],
-    "hint": "Straight from the 'Non-uniform motion' slide -- match the key terms.",
-    "misconception": "If the student argues it is non-uniform, they likely do not realize that \"steady pace\" is the exact opposite of \"changing speed.\"",
-    "id": "gen_c6_phy_ch08_q16",
-    "nodeId": "c6_physics_ch08_031",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to identify non-uniform motion in everyday scenarios (like a car in traffic) and distinguish it from uniform motion by describing why the speed is not",
-    "options": [
-     "The student must be able to explain why a sundial's shadow changes position throughout the day and identify the fundamental limitation of solar-based timekeeping",
-     "This is called oscillatory motion",
-     "The student must be able to identify non-uniform motion in everyday scenarios (like a car in traffic) and distinguish it from uniform motion by describing why the speed is not"
-    ],
-    "hint": "Straight from the 'Non-uniform motion' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify non-uniform motion in everyday scenarios (like a car in traffic) and distinguish",
+    "hint": "Straight from the 'Speed is a measure of how' slide -- match the key terms.",
+    "misconception": "A wrong answer shows the student is comparing the numbers (10 vs 10) without considering the importance of units.",
     "id": "gen_c6_phy_ch08_q17",
-    "nodeId": "c6_physics_ch08_031",
-    "difficulty": "standard"
+    "nodeId": "c6_physics_ch08_029",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to calculate the speed of an object given its distance and time, identify the correct units",
+    "question": "Why is speed described as a positive number without direction?",
+    "answer": "Speed only measures \"how fast,\" not \"where to.\" A wrong answer suggests the student is confusing speed with velocity",
     "options": [
-     "The student must be able to calculate speed given distance and time and correctly identify which of two objects is faster based on their speed values",
-     "The student must be able to identify non-uniform motion in everyday scenarios (like a car in traffic) and distinguish it from uniform motion by describing why the speed is not",
-     "The student must be able to calculate the speed of an object given its distance and time, identify the correct units"
+     "It describes how distance changes for every one unit of time (like a second or an hour)",
+     "It is useful because it is periodic, meaning it repeats its motion in equal intervals of time",
+     "Speed only measures \"how fast,\" not \"where to.\" A wrong answer suggests the student is confusing speed with velocity"
     ],
-    "hint": "Straight from the 'Speed' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to calculate the speed of an object given its distance and time, identify the correct units,",
+    "hint": "Straight from the 'Speed is a measure of how' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student is confusing speed with velocity, which explicitly requires a specific direction (like \"North\" or \"towards home\").",
     "id": "gen_c6_phy_ch08_q18",
-    "nodeId": "c6_physics_ch08_032",
+    "nodeId": "c6_physics_ch08_029",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about speed?",
+    "What surprised you about speed is a measure of how?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Speed mastered! 🎯",
+  "successLine": "Speed Is a Measure Of How mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2506,25 +2171,25 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Light",
+    "title": "Light Is a Form Of Energy",
     "text": "Light is a form of energy that travels in a straight line, known as rectilinear propagation. This means it cannot bend around obstacles unless it is reflected or refracted.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Materials",
+    "title": "Materials Are Classified By How Much",
     "text": "Materials are classified by how much light they allow to pass through them: transparent materials let most light pass so objects are clearly visible, translucent materials let some light pass but scatter it, and opaque materials block light entirely.",
     "emoji": "⚡",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Shadow",
+    "title": "A Shadow Is a Dark Region",
     "text": "A shadow is a dark region created when an opaque object prevents light from reaching a surface. It requires three components: a source of light, an opaque object that blocks the light, and a surface (like a wall or ground) to capture the shadow.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Reflection",
+    "title": "Reflection Is The Bouncing Of Light",
     "text": "Reflection is the bouncing of light rays off a surface. We see objects only because light hits them and reflects into our eyes, allowing our brain to perceive their shape and color.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2542,7 +2207,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Periscope",
+    "title": "A Periscope Is An Optical Instrument",
     "text": "A periscope is an optical instrument that uses two plane mirrors placed at 45-degree angles to allow an observer to see objects that are outside their direct line of sight.",
     "emoji": "⚡",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2563,15 +2228,16 @@ export const C6_PHY_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "No, it is a natural source. Even though it is not a star or the sun, it is a living organism that produces its own light without human help. A wrong answer reveals a misconception that only \"huge\" objects like stars can be natural sources.",
-    "answer": "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence",
+    "question": "Which of these is a natural source of light: a lit candle, the Sun, a torch, or a street lamp?",
+    "answer": "The Sun is the natural source",
     "options": [
-     "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen",
-     "The light will bounce off at 30 degrees. This follows the law of reflection where the angle of incidence equals the angle of reflection",
-     "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence"
+     "The student must be able to draw a ray diagram showing how light from the top and bottom of an object crosses at the pinhole to form an inverted image",
+     "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather",
+     "An is the natural source",
+     "The Sun is the natural source"
     ],
     "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
-    "misconception": "a Wrong Answer: A wrong answer (e.g., \"Yes, because it glows\") reveals a misconception that any object that emits light is automatically classified as artificial. The student likely confuses the *action* of glowing with the *origin* of the light, failing to distinguish between human-made technology (like lightbulbs or",
+    "misconception": "A wrong answer (like choosing a candle) shows the student confuses \"things that give light\" with \"things that exist naturally,\" failing to distinguish between human-made and naturally occurring phenomena.",
     "id": "gen_c6_phy_ch11_q1",
     "nodeId": "c6_physics_ch11_035",
     "difficulty": "standard",
@@ -2584,15 +2250,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A light source is placed in front of a circular ball. If the ball is moved closer to the wall behind it, what happens to the size of the shadow?",
-    "answer": "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen",
+    "question": "If you hold a straight pipe and a curved pipe to look at a candle, which one allows you to see the flame and why?",
+    "answer": "Only the straight pipe works because light travels in a straight line from the candle to your eye. If the pipe is curved, the light hits the inner wall of the pipe and stops",
     "options": [
-     "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence",
-     "The image becomes larger. As the object moves closer, the angle of the light rays passing through the pinhole increases",
-     "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen"
+     "Hold the plastic sheet between a torch and a wall; because the material allows light to pass through, no dark region will appear on the wall",
+     "You would use a spectroscope",
+     "Only the straight pipe works because light travels in a straight line from the candle to your eye. If the pipe is curved, the light hits the inner wall of the pipe and stops"
     ],
-    "hint": "Straight from the 'Light' slide -- match the key terms.",
-    "misconception": "If the student says it gets larger, they are confusing distance with magnification properties not covered here, or failing to visualize the \"cone\" of blocked light rays.",
+    "hint": "Straight from the 'Light is a form of energy' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Only the straight pipe works because light travels in a straight line from the candle to your eye.",
     "id": "gen_c6_phy_ch11_q2",
     "nodeId": "c6_physics_ch11_036",
     "difficulty": "standard",
@@ -2604,16 +2270,47 @@ export const C6_PHY_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Compare a wooden door and a glass window. If you wanted privacy, which material would you choose and why?",
-    "answer": "You would choose the wooden door because it is opaque and prevents light and images from passing through",
-    "options": [
-     "Both use a lens to focus light onto a surface (the film/sensor in a camera, and the retina in the eye) to create an image",
-     "The umbra is the darkest central part where all light from the source is blocked; the penumbra is the lighter outer part where only some light is blocked",
-     "You would choose the wooden door because it is opaque and prevents light and images from passing through"
+    "type": "order",
+    "question": "You are given a piece of wax paper. You can see the glow of a flashlight through it, but you cannot see the shape of the flashlight clearly. How would you classify this material?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "observe the scattering of light",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "check if light passes through",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "check if the image",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "An incorrect answer here shows a failure to apply the classification to a functional, real-world context.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "A wrong answer suggests the student is not distinguishing between \"allowing some light\" (translucent) and \"allowing all light\" (transparent).",
     "id": "gen_c6_phy_ch11_q3",
     "nodeId": "c6_physics_ch11_037",
     "difficulty": "standard",
@@ -2626,15 +2323,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you use a very small, bright bulb as a light source, will you see a penumbra? Why or why not?",
-    "answer": "No, you will only see an umbra (a sharp-edged dark patch). Because the source is a \"point,\" it cannot create the partial-shadow region (penumbra) that requires a large light",
+    "question": "Why does a shadow appear black or dark even if the object casting it is bright red?",
+    "answer": "A shadow is dark because it is an area where light from the source is absent, not because of the object's color",
     "options": [
-     "The light will bounce off at 30 degrees. This follows the law of reflection where the angle of incidence equals the angle of reflection",
-     "The shadow is largest when the object is closest to the light source. This is because the object blocks a larger \"cone\" of light rays as it nears the source",
-     "No, you will only see an umbra (a sharp-edged dark patch). Because the source is a \"point,\" it cannot create the partial-shadow region (penumbra) that requires a large light"
+     "It is called virtual because it cannot be projected onto a screen; it only appears to exist behind the mirror",
+     "It is real because the light rays actually meet on the screen to form the image, rather than just appearing to originate from behind a mirror",
+     "A shadow is dark because it is an area where light from the source is absent, not because of the object's color"
     ],
-    "hint": "Straight from the 'shadow' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals confusion between point sources and extended light sources.",
+    "hint": "Straight from the 'A shadow is a dark region' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks the object \"projects\" its color onto the ground, missing the concept that shadows are simply regions of \"no light.\"",
     "id": "gen_c6_phy_ch11_q4",
     "nodeId": "c6_physics_ch11_038",
     "difficulty": "standard",
@@ -2647,15 +2344,16 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you look at a rough wooden desk, is light reflecting off it? Why can't you see your reflection in it like you do in a mirror?",
-    "answer": "Yes, light is reflecting off the desk, but the surface is rough, causing the light to scatter in many different directions (diffuse reflection)",
+    "question": "What happens to light when it hits a mirror? a) It is destroyed. b) It bounces off the surface. c) It stays inside the mirror.",
+    "answer": "The correct answer is (b)",
     "options": [
-     "The light will bounce off at 30 degrees. This follows the law of reflection where the angle of incidence equals the angle of reflection",
-     "You should decrease the angle. By moving the mirrors closer together, the light bounces more times in the confined space, producing a higher count of images",
-     "Yes, light is reflecting off the desk, but the surface is rough, causing the light to scatter in many different directions (diffuse reflection)"
+     "The student must be able to describe the path light travels through a periscope and correctly place two mirrors at 45-degree angles inside a tube to observe an object hidden",
+     "The image becomes blurry or disappears entirely because too much light enters from different angles, causing the rays to overlap",
+     "Confusion correct answer is (b)",
+     "The correct answer is (b)"
     ],
-    "hint": "Straight from the 'Reflection' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks only shiny surfaces reflect light, failing to realize that all visible objects reflect light to our eyes.",
+    "hint": "Straight from the 'Reflection is the bouncing of' slide -- match the key terms.",
+    "misconception": "A student who chooses (a) or (c) likely thinks of light as an object that can be \"consumed\" or \"stored\" rather than as a wave or ray that travels and redirects upon contact.",
     "id": "gen_c6_phy_ch11_q5",
     "nodeId": "c6_physics_ch11_039",
     "difficulty": "standard",
@@ -2672,7 +2370,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "answer": "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down)",
     "options": [
      "The student must be able to explain why we see objects using reflection and distinguish between regular reflection (like in a mirror) and diffuse reflection (like off a wall)",
-     "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather",
+     "The student must be able to describe the path light travels through a periscope and correctly place two mirrors at 45-degree angles inside a tube to observe an object hidden",
      "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down)"
     ],
     "hint": "Straight from the 'plane mirror' slide -- match the key terms.",
@@ -2692,8 +2390,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What happens to the image if you make the pinhole very large?",
     "answer": "The image becomes blurry or disappears entirely because too much light enters from different angles, causing the rays to overlap",
     "options": [
-     "The student must be able to explain why we see objects using reflection and distinguish between regular reflection (like in a mirror) and diffuse reflection (like off a wall)",
-     "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down)",
+     "Materials are classified by how much light they allow to pass through them: transparent materials let most light pass so objects are clearly visible",
+     "The student must be able to categorize common household objects as transparent, translucent",
      "The image becomes blurry or disappears entirely because too much light enters from different angles, causing the rays to overlap"
     ],
     "hint": "Straight from the 'pinhole camera' slide -- match the key terms.",
@@ -2713,11 +2411,11 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What is the primary function of a periscope? [1-2 sentence response]",
     "answer": "A periscope allows a person to see objects that are not in their direct line of sight. An answer claiming it \"makes things bigger\" or \"sees through walls\" shows a misunderstanding",
     "options": [
-     "The student must be able to identify and describe the four key properties of an image in a plane mirror and demonstrate lateral inversion using a simple object like a written word",
-     "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather",
+     "The correct answer is (b)",
+     "The student must be able to describe the path light travels through a periscope and correctly place two mirrors at 45-degree angles inside a tube to observe an object hidden",
      "A periscope allows a person to see objects that are not in their direct line of sight. An answer claiming it \"makes things bigger\" or \"sees through walls\" shows a misunderstanding"
     ],
-    "hint": "Straight from the 'periscope' slide -- match the key terms.",
+    "hint": "Straight from the 'A periscope is an optical' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A periscope allows a person to see objects that are not in their direct line of sight.",
     "id": "gen_c6_phy_ch11_q8",
     "nodeId": "c6_physics_ch11_042",
@@ -2734,8 +2432,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Why does a kaleidoscope create a circular, symmetrical pattern rather than just a single blurry reflection?",
     "answer": "The angled mirrors reflect the objects repeatedly in a circle, creating symmetry",
     "options": [
-     "It allows the crew to observe the surface of the water while the submarine remains submerged and protected",
-     "A microscope is designed for extremely close-up work on tiny objects and lacks the ability to capture light from immense distances, unlike a telescope",
+     "We see the book because light sources in the room reflect off the book's surface and enter our eyes",
+     "It is called virtual because it cannot be projected onto a screen; it only appears to exist behind the mirror",
      "The angled mirrors reflect the objects repeatedly in a circle, creating symmetry"
     ],
     "hint": "Straight from the 'Multiple reflection' slide -- match the key terms.",
@@ -2755,7 +2453,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What is the primary function of a microscope compared to a telescope?",
     "answer": "A microscope magnifies very small objects to reveal details like cells, while a telescope magnifies very distant objects like planets and stars",
     "options": [
-     "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down)",
+     "The correct answer is (b)",
      "The student must be able to categorize different optical instruments (microscope, telescope, camera",
      "A microscope magnifies very small objects to reveal details like cells, while a telescope magnifies very distant objects like planets and stars"
     ],
@@ -2773,32 +2471,92 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "List three artificial sources of light found in your home and suggest one way they have improved our daily lives compared to ancient times.",
-    "answer": "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather",
+    "question": "If you are in a dark room and switch on a study lamp, is the lamp a natural or artificial source of light? Why?",
+    "answer": "It is an artificial source because it is a human-made object designed to produce light when powered",
     "options": [
-     "The student must be able to explain why we see objects using reflection and distinguish between regular reflection (like in a mirror) and diffuse reflection (like off a wall)",
-     "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down)",
-     "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather"
+     "No, it is not possible because reflection requires an initial source of light to bounce off the object; without light, there is no \"bouncing\" to send information to our eyes",
+     "You should decrease the angle. By moving the mirrors closer together, the light bounces more times in the confined space, producing a higher count of images",
+     "It is an artificial source because it is a human-made object designed to produce light when powered"
     ],
     "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
-    "misconception": "A poor answer fails to connect the utility of the object to human innovation.",
+    "misconception": "A wrong answer suggests a failure to recognize that \"artificial\" implies a human-made device rather than a biological or celestial process.",
     "id": "gen_c6_phy_ch11_q11",
     "nodeId": "c6_physics_ch11_035",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to categorize various objects as either natural or artificial light sources and explain the difference based on their origin",
+    "question": "List three artificial sources of light found in your home and suggest one way they have improved our daily lives compared to ancient times.",
+    "answer": "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather",
     "options": [
-     "The student must be able to identify and describe the four key properties of an image in a plane mirror and demonstrate lateral inversion using a simple object like a written word",
-     "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down)",
-     "The student must be able to categorize various objects as either natural or artificial light sources and explain the difference based on their origin"
+     "Optical instruments are devices that use lenses or mirrors to manipulate light, allowing us to see objects more clearly, observe things that are too small for the naked eye",
+     "Materials are classified by how much light they allow to pass through them: transparent materials let most light pass so objects are clearly visible",
+     "Examples: LED bulb, emergency lantern, smartphone screen. These improve life by providing steady, reliable, and adjustable light regardless of the time or weather"
     ],
     "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to categorize various objects as either natural or artificial light sources and explain the",
+    "misconception": "A poor answer fails to connect the utility of the object to human innovation.",
     "id": "gen_c6_phy_ch11_q12",
     "nodeId": "c6_physics_ch11_035",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "No, it is a natural source. Even though it is not a star or the sun, it is a living organism that produces its own light without human help. A wrong answer reveals a misconception that only \"huge\" objects like stars can be natural sources.",
+    "answer": "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence",
+    "options": [
+     "The shadow is largest when the object is closest to the light source. This is because the object blocks a larger \"cone\" of light rays as it nears the source",
+     "No, you will only see an umbra (a sharp-edged dark patch). Because the source is a \"point,\" it cannot create the partial-shadow region (penumbra) that requires a large light",
+     "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence"
+    ],
+    "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
+    "misconception": "a Wrong Answer: A wrong answer (e.g., \"Yes, because it glows\") reveals a misconception that any object that emits light is automatically classified as artificial. The student likely confuses the *action* of glowing with the *origin* of the light, failing to distinguish between human-made technology (like lightbulbs or",
+    "id": "gen_c6_phy_ch11_q13",
+    "nodeId": "c6_physics_ch11_035",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why do we call the Sun our most important natural source of light while stars are also natural?",
+    "answer": "The Sun is the closest star to Earth and provides the vast majority of the light and heat necessary for life",
+    "options": [
+     "The cardboard is an opaque material, meaning it blocks all light from passing through it",
+     "It is real because the light rays actually meet on the screen to form the image, rather than just appearing to originate from behind a mirror",
+     "The Sun is the closest star to Earth and provides the vast majority of the light and heat necessary for life"
+    ],
+    "hint": "Straight from the 'Sources of light' slide -- match the key terms.",
+    "misconception": "A wrong answer indicates a lack of understanding regarding the scale and proximity of light sources.",
+    "id": "gen_c6_phy_ch11_q14",
+    "nodeId": "c6_physics_ch11_035",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "A light source is placed in front of a circular ball. If the ball is moved closer to the wall behind it, what happens to the size of the shadow?",
+    "answer": "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen",
+    "options": [
+     "The image becomes larger. As the object moves closer, the angle of the light rays passing through the pinhole increases",
+     "Hold the plastic sheet between a torch and a wall; because the material allows light to pass through, no dark region will appear on the wall",
+     "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen"
+    ],
+    "hint": "Straight from the 'Light is a form of energy' slide -- match the key terms.",
+    "misconception": "If the student says it gets larger, they are confusing distance with magnification properties not covered here, or failing to visualize the \"cone\" of blocked light rays.",
+    "id": "gen_c6_phy_ch11_q15",
+    "nodeId": "c6_physics_ch11_036",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Can a shadow ever be a different shape than the object that created it?",
+    "answer": "Yes, the shadow’s shape depends on the angle of the light source relative to the object",
+    "options": [
+     "It is an artificial source because it is a human-made object designed to produce light when powered",
+     "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen",
+     "Yes, the shadow’s shape depends on the angle of the light source relative to the object"
+    ],
+    "hint": "Straight from the 'Light is a form of energy' slide -- match the key terms.",
+    "misconception": "A wrong answer suggests the student thinks a shadow is a \"mirror image,\" failing to realize it is merely a projection of the area where light is blocked.",
+    "id": "gen_c6_phy_ch11_q16",
+    "nodeId": "c6_physics_ch11_036",
     "difficulty": "standard"
    },
    {
@@ -2806,89 +2564,29 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Design a simple experiment to prove light travels in a straight line using only three pieces of cardboard, a candle, and a pin.",
     "answer": "The student should describe making a tiny hole in the center of all three cards, aligning them perfectly, and checking if the candle flame is visible through all three holes",
     "options": [
-     "The student should suggest shining a laser pointer or torch at both surfaces and observing where the light goes",
-     "No, because one mirror can only change the direction of light once, which would not lead the light to your eye after clearing the obstacle",
+     "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence",
+     "The light will bounce off at 30 degrees. This follows the law of reflection where the angle of incidence equals the angle of reflection",
      "The student should describe making a tiny hole in the center of all three cards, aligning them perfectly, and checking if the candle flame is visible through all three holes"
     ],
-    "hint": "Straight from the 'Light' slide -- match the key terms.",
+    "hint": "Straight from the 'Light is a form of energy' slide -- match the key terms.",
     "misconception": "A poor answer fails to ensure the \"alignment\" of the holes.",
-    "id": "gen_c6_phy_ch11_q13",
+    "id": "gen_c6_phy_ch11_q17",
     "nodeId": "c6_physics_ch11_036",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "Create a list of three objects found in your school bag and classify each one as transparent, translucent, or opaque.",
-    "answer": "Acceptable answers include: Plastic scale (transparent), thin plastic file cover (translucent), notebook (opaque)",
+    "question": "Compare a wooden door and a glass window. If you wanted privacy, which material would you choose and why?",
+    "answer": "You would choose the wooden door because it is opaque and prevents light and images from passing through",
     "options": [
-     "No, you will only see an umbra (a sharp-edged dark patch). Because the source is a \"point,\" it cannot create the partial-shadow region (penumbra) that requires a large light",
-     "No, a firefly is a natural source of light because it produces its own light through a biological process called bioluminescence",
-     "Acceptable answers include: Plastic scale (transparent), thin plastic file cover (translucent), notebook (opaque)"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A poor answer would lack reasoning or misclassify common objects based on their physical properties.",
-    "id": "gen_c6_phy_ch11_q14",
-    "nodeId": "c6_physics_ch11_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a material allows a little bit of light to pass but makes everything look like a blurry patch of color, does it behave more like glass or more like a wall?",
-    "answer": "It behaves more like neither, but specifically, it is a translucent material, which is a middle ground between the two",
-    "options": [
-     "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen",
-     "The light will bounce off at 30 degrees. This follows the law of reflection where the angle of incidence equals the angle of reflection",
-     "It behaves more like neither, but specifically, it is a translucent material, which is a middle ground between the two"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the student is trying to force a binary choice (transparent vs. opaque) instead of identifying the third, intermediate category.",
-    "id": "gen_c6_phy_ch11_q15",
-    "nodeId": "c6_physics_ch11_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "What must you be able to do to master this topic?",
-    "answer": "The student must be able to categorize common household objects as transparent, translucent",
-    "options": [
-     "The student must be able to predict that decreasing the angle between two mirrors increases the number of images formed",
-     "The student must be able to categorize various objects as either natural or artificial light sources and explain the difference based on their origin",
-     "The student must be able to categorize common household objects as transparent, translucent"
-    ],
-    "hint": "Straight from the 'Materials' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to categorize common household objects as transparent, translucent, or opaque and explain",
-    "id": "gen_c6_phy_ch11_q16",
-    "nodeId": "c6_physics_ch11_037",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the umbra and the penumbra in terms of light blockage.",
-    "answer": "The umbra is the darkest central part where all light from the source is blocked; the penumbra is the lighter outer part where only some light is blocked",
-    "options": [
-     "You would choose the wooden door because it is opaque and prevents light and images from passing through",
+     "The umbra is the darkest central part where all light from the source is blocked; the penumbra is the lighter outer part where only some light is blocked",
      "Both use a lens to focus light onto a surface (the film/sensor in a camera, and the retina in the eye) to create an image",
-     "The umbra is the darkest central part where all light from the source is blocked; the penumbra is the lighter outer part where only some light is blocked"
+     "You would choose the wooden door because it is opaque and prevents light and images from passing through"
     ],
-    "hint": "Straight from the 'shadow' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks both parts block the same amount of light.",
-    "id": "gen_c6_phy_ch11_q17",
-    "nodeId": "c6_physics_ch11_038",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If a teacher holds a book at different distances from a lamp, when will the shadow be largest on the wall?",
-    "answer": "The shadow is largest when the object is closest to the light source. This is because the object blocks a larger \"cone\" of light rays as it nears the source",
-    "options": [
-     "The shadow size decreases (or becomes sharper) because the light rays are blocked closer to the screen",
-     "The light will bounce off at 30 degrees. This follows the law of reflection where the angle of incidence equals the angle of reflection",
-     "The shadow is largest when the object is closest to the light source. This is because the object blocks a larger \"cone\" of light rays as it nears the source"
-    ],
-    "hint": "Straight from the 'shadow' slide -- match the key terms.",
-    "misconception": "A wrong answer shows a lack of understanding of the geometry of light rays.",
+    "hint": "Straight from the 'Materials are classified by how' slide -- match the key terms.",
+    "misconception": "An incorrect answer here shows a failure to apply the classification to a functional, real-world context.",
     "id": "gen_c6_phy_ch11_q18",
-    "nodeId": "c6_physics_ch11_038",
+    "nodeId": "c6_physics_ch11_037",
     "difficulty": "standard"
    }
   ],
@@ -2959,7 +2657,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Eclipse",
+    "title": "An Eclipse Is An Astronomical Event",
     "text": "An eclipse is an astronomical event where one celestial body passes into the shadow of another, or blocks the light reaching an observer from another, due to their alignment in space.",
     "emoji": "⚡",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2983,7 +2681,7 @@ export const C6_PHY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Constellation",
+    "title": "A Constellation Is a Recognized Group",
     "text": "A constellation is a recognized group of stars that appears to form a specific pattern in the night sky, often associated with historical or cultural stories.",
     "emoji": "⚡",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2992,15 +2690,15 @@ export const C6_PHY_GEN: SimDef[] = [
   "challenges": [
    {
     "type": "mcq",
-    "question": "Is it possible for the entire Earth to experience daytime at the exact same moment? Explain your reasoning.",
-    "answer": "No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the other half must be in shadow",
+    "question": "What is the name of the imaginary line that runs through the Earth from the North Pole to the South Pole around which the Earth spins?",
+    "answer": "The line is called the axis",
     "options": [
-     "The order must be Torch -> Globe -> Ball. The student must demonstrate that the Earth (globe) is in the middle, intercepting the light from the torch",
-     "No. They only appear close from our perspective on Earth. Thinking they are close ignores the 3D depth of space",
-     "No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the other half must be in shadow"
+     "The student must be able to describe the relative positions of the Sun, Earth, and Moon during a lunar eclipse and explain why the Moon darkens",
+     "The student must be able to describe the alignment of the Sun, Moon, and Earth during a solar eclipse and distinguish between a total and a partial solar eclipse based on how much",
+     "The line is called the axis"
     ],
     "hint": "Straight from the 'Earth’s rotation' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the",
+    "misconception": "A student who answers \"the Equator\" is confusing the line of rotation with the imaginary line that divides the Earth into Northern and Southern hemispheres.",
     "id": "gen_c6_phy_ch12_q1",
     "nodeId": "c6_physics_ch12_045",
     "difficulty": "standard",
@@ -3016,8 +2714,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "How long does it take for the Earth to complete one full revolution around the Sun?",
     "answer": "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system",
     "options": [
-     "You would see the Sun completely hidden by the Moon, causing the sky to darken significantly and the Sun's outer atmosphere (the corona) to become visible",
-     "We add it to account for the four accumulated 0.25-day fractions from the previous four years",
+     "The Sun appears to move because the Earth rotates from West to East",
+     "The Moon appears to change shape because it orbits the Earth, and our view of the side lit by the Sun changes as it moves",
      "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
@@ -3037,9 +2735,9 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What is the specific angle at which the Earth’s axis is tilted?",
     "answer": "The Earth's axis is tilted at 23.5 degrees",
     "options": [
-     "(B) is the correct answer",
-     "The student must be able to identify at least two major constellations (like Orion or the Big Dipper) from a sky map and distinguish between the actual stars and the imaginary",
-     "First axis is tilted at 23.5 degrees",
+     "The Sun, the Moon, and the Earth must align in that specific order",
+     "The line is called the axis",
+     "South Pole axis is tilted at 23.5 degrees",
      "The Earth's axis is tilted at 23.5 degrees"
     ],
     "hint": "Straight from the 'Seasons change because the Earth' slide -- match the key terms.",
@@ -3056,15 +2754,15 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "If you are standing in a location experiencing a solar eclipse, what do you see when you look at the Sun?",
-    "answer": "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen",
+    "question": "Why does the Moon disappear or turn dark during a lunar eclipse?",
+    "answer": "The Moon turns dark because the Earth blocks sunlight from reaching the Moon's surface",
     "options": [
-     "No, the distance to the Sun is not the primary cause of seasons; the tilt is",
-     "It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the opposite hemisphere is tilted away (winter)",
-     "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen"
+     "The Sun appears to move because the Earth rotates from West to East",
+     "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system",
+     "The Moon turns dark because the Earth blocks sunlight from reaching the Moon's surface"
     ],
-    "hint": "Straight from the 'eclipse' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student doesn't understand that the Moon is opaque and physically obstructs our line of sight to the Sun.",
+    "hint": "Straight from the 'An eclipse is an astronomical' slide -- match the key terms.",
+    "misconception": "If a student thinks the Moon itself \"runs out of light,\" they miss the concept of the Earth acting as an opaque barrier that casts a shadow into space.",
     "id": "gen_c6_phy_ch12_q4",
     "nodeId": "c6_physics_ch12_048",
     "difficulty": "standard",
@@ -3080,12 +2778,12 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What three celestial objects must align in a straight line for a solar eclipse to happen?",
     "answer": "The Sun, the Moon, and the Earth must align in that specific order",
     "options": [
-     "(B) is the correct answer",
-     "The student must be able to identify at least two major constellations (like Orion or the Big Dipper) from a sky map and distinguish between the actual stars and the imaginary",
-     "The Sun, the You, and the Earth must align in that specific order",
+     "The Earth's axis is tilted at 23.5 degrees",
+     "The student must be able to describe the alignment of the Sun, Moon, and Earth during a solar eclipse and distinguish between a total and a partial solar eclipse based on how much",
+     "The Sun, the Sunlight, and the Earth must align in that specific order",
      "The Sun, the Moon, and the Earth must align in that specific order"
     ],
-    "hint": "Straight from the 'solar eclipse occurs when the' slide -- match the key terms.",
+    "hint": "Straight from the 'solar eclipse occurs when' slide -- match the key terms.",
     "misconception": "Answering only two of them or getting the order wrong (e.g., placing the Sun in the middle) shows a failure to visualize the blocking mechanism of the eclipse.",
     "id": "gen_c6_phy_ch12_q5",
     "nodeId": "c6_physics_ch12_049",
@@ -3099,15 +2797,16 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare the visibility of a lunar eclipse to a solar eclipse; why is it easier to see a lunar eclipse?",
-    "answer": "A lunar eclipse is visible from the entire night side of the Earth, whereas a solar eclipse is only visible from a small, specific path",
+    "question": "What three objects must be in a line for a lunar eclipse to occur?",
+    "answer": "The Sun, the Earth, and the Moon must be in a line",
     "options": [
-     "Yes, because the Moon reflects sunlight just as a mirror reflects light",
-     "In a solar eclipse, the Moon casts the shadow; in a lunar eclipse, the Earth casts the shadow",
-     "A lunar eclipse is visible from the entire night side of the Earth, whereas a solar eclipse is only visible from a small, specific path"
+     "The line is called the axis",
+     "The student must be able to describe the relative positions of the Sun, Earth, and Moon during a lunar eclipse and explain why the Moon darkens",
+     "Orion, the Earth, and the Moon must be in a line",
+     "The Sun, the Earth, and the Moon must be in a line"
     ],
     "hint": "Straight from the 'lunar eclipse' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests misunderstanding the scale of shadows cast by planets vs. the Moon.",
+    "misconception": "A wrong answer (like swapping the Earth and Moon) shows a failure to understand that the Earth acts as the \"blocker\" of sunlight.",
     "id": "gen_c6_phy_ch12_q6",
     "nodeId": "c6_physics_ch12_050",
     "difficulty": "standard",
@@ -3123,8 +2822,8 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Why does the Moon appear to change its shape throughout the month?",
     "answer": "The Moon appears to change shape because it orbits the Earth, and our view of the side lit by the Sun changes as it moves",
     "options": [
-     "You would see the Sun completely hidden by the Moon, causing the sky to darken significantly and the Sun's outer atmosphere (the corona) to become visible",
-     "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system",
+     "The Moon darkens because the Earth blocks the sunlight that would normally hit it",
+     "The Moon turns dark because the Earth blocks sunlight from reaching the Moon's surface",
      "The Moon appears to change shape because it orbits the Earth, and our view of the side lit by the Sun changes as it moves"
     ],
     "hint": "Straight from the 'phases of the Moon' slide -- match the key terms.",
@@ -3144,11 +2843,11 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What is a constellation? (A) A single, extremely bright star. (B) A group of stars that form a pattern when viewed from Earth. (C) A giant cloud of gas and dust. (D) A planet that shines at night.",
     "answer": "(B) is the correct answer",
     "options": [
-     "The Earth's axis is tilted at 23.5 degrees",
-     "The Sun, the Moon, and the Earth must align in that specific order",
+     "The student must be able to describe the alignment of the Sun, Moon, and Earth during a solar eclipse and distinguish between a total and a partial solar eclipse based on how much",
+     "The student must be able to explain why we have a leap year every four years and describe the shape of the Earth's path around the Sun",
      "(B) is the correct answer"
     ],
-    "hint": "Straight from the 'constellation' slide -- match the key terms.",
+    "hint": "Straight from the 'A constellation is a recognized' slide -- match the key terms.",
     "misconception": "Choosing (A) reveals a misunderstanding that a constellation is a single object, whereas it is actually a collection of many stars.",
     "id": "gen_c6_phy_ch12_q8",
     "nodeId": "c6_physics_ch12_052",
@@ -3162,16 +2861,76 @@ export const C6_PHY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "If the Earth stopped rotating suddenly, what would happen to the cycle of day and night?",
+    "answer": "The cycle would stop; one side of the Earth would face the Sun permanently (experiencing constant day), and the other side would remain in darkness forever",
+    "options": [
+     "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen",
+     "No, the Pole Star is only visible from the Northern Hemisphere. Claiming you could see it from the South Pole ignores the curvature of the Earth and the specific positioning of",
+     "The cycle would stop; one side of the Earth would face the Sun permanently (experiencing constant day), and the other side would remain in darkness forever"
+    ],
+    "hint": "Straight from the 'Earth’s rotation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The cycle would stop; one side of the Earth would face the Sun permanently (experiencing constant day), and the other",
+    "id": "gen_c6_phy_ch12_q9",
+    "nodeId": "c6_physics_ch12_045",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "If you were standing on the Moon looking at the Earth, what would you observe about the Earth's \"day\" side?",
+    "answer": "The \"day\" side would appear bright because it is reflecting sunlight, and it would slowly move out of view as the Earth rotates",
+    "options": [
+     "You would need to add an extra day every two years (since 0.5 + 0.5 = 1 day). An answer that fails to recognize the accumulation of the fractional day shows a lack of logical",
+     "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen",
+     "The \"day\" side would appear bright because it is reflecting sunlight, and it would slowly move out of view as the Earth rotates"
+    ],
+    "hint": "Straight from the 'Earth’s rotation' slide -- match the key terms.",
+    "misconception": "A poor answer would suggest the Earth doesn't move or that the whole planet is always lit.",
+    "id": "gen_c6_phy_ch12_q10",
+    "nodeId": "c6_physics_ch12_045",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Is it possible for the entire Earth to experience daytime at the exact same moment? Explain your reasoning.",
+    "answer": "No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the other half must be in shadow",
+    "options": [
+     "The cycle would stop; one side of the Earth would face the Sun permanently (experiencing constant day), and the other side would remain in darkness forever",
+     "Yes, because the Earth would also be lit by the Sun at different angles from your perspective on the Moon",
+     "No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the other half must be in shadow"
+    ],
+    "hint": "Straight from the 'Earth’s rotation' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the",
+    "id": "gen_c6_phy_ch12_q11",
+    "nodeId": "c6_physics_ch12_045",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "Why does the Sun appear to move from the East to the West throughout the day?",
+    "answer": "The Sun appears to move because the Earth rotates from West to East",
+    "options": [
+     "You would see the Sun completely hidden by the Moon, causing the sky to darken significantly and the Sun's outer atmosphere (the corona) to become visible",
+     "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system",
+     "The Sun appears to move because the Earth rotates from West to East"
+    ],
+    "hint": "Straight from the 'Earth’s rotation' slide -- match the key terms.",
+    "misconception": "Students who claim the Sun is physically traveling across the sky have not yet grasped the concept of relative motion or that the observer is the one moving.",
+    "id": "gen_c6_phy_ch12_q12",
+    "nodeId": "c6_physics_ch12_045",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "If a planet took exactly 365.0 days to revolve, would we still need leap years?",
     "answer": "No, we would not need leap years because the calendar would perfectly align with the planet's revolution every year",
     "options": [
-     "You would need to add an extra day every two years (since 0.5 + 0.5 = 1 day). An answer that fails to recognize the accumulation of the fractional day shows a lack of logical",
-     "It takes approximately 7.4 days (one-fourth of the cycle). A student guessing \"half a month\" or \"15 days\" fails to connect the phases as segments of the total 29",
+     "It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the opposite hemisphere is tilted away (winter)",
+     "Yes, because the need for a leap year depends on the time taken for one revolution (365.25 days), not the shape of the orbit",
      "No, we would not need leap years because the calendar would perfectly align with the planet's revolution every year"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "Answering \"yes\" indicates the student is memorizing the rule of leap years without understanding the cause (the fractional day).",
-    "id": "gen_c6_phy_ch12_q9",
+    "id": "gen_c6_phy_ch12_q13",
     "nodeId": "c6_physics_ch12_046",
     "difficulty": "standard"
    },
@@ -3180,13 +2939,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "If the Earth's orbit were a perfect circle, would we still need a leap year?",
     "answer": "Yes, because the need for a leap year depends on the time taken for one revolution (365.25 days), not the shape of the orbit",
     "options": [
-     "The order must be Torch -> Globe -> Ball. The student must demonstrate that the Earth (globe) is in the middle, intercepting the light from the torch",
-     "No. They only appear close from our perspective on Earth. Thinking they are close ignores the 3D depth of space",
+     "A correct response shows the Sun on one end, the Earth in the middle, and the Moon inside the Earth's shadow (umbra)",
+     "The cycle would stop; one side of the Earth would face the Sun permanently (experiencing constant day), and the other side would remain in darkness forever",
      "Yes, because the need for a leap year depends on the time taken for one revolution (365.25 days), not the shape of the orbit"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Yes, because the need for a leap year depends on the time taken for one revolution (365.",
-    "id": "gen_c6_phy_ch12_q10",
+    "id": "gen_c6_phy_ch12_q14",
     "nodeId": "c6_physics_ch12_046",
     "difficulty": "standard"
    },
@@ -3195,13 +2954,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Imagine a new planet, \"Planet X,\" that takes 365.5 days to orbit its star. How would you adjust a calendar to keep it accurate over time?",
     "answer": "You would need to add an extra day every two years (since 0.5 + 0.5 = 1 day). An answer that fails to recognize the accumulation of the fractional day shows a lack of logical",
     "options": [
-     "No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the other half must be in shadow",
-     "Yes, because the need for a leap year depends on the time taken for one revolution (365.25 days), not the shape of the orbit",
+     "No, we would not need leap years because the calendar would perfectly align with the planet's revolution every year",
+     "No, the Pole Star is only visible from the Northern Hemisphere. Claiming you could see it from the South Pole ignores the curvature of the Earth and the specific positioning of",
      "You would need to add an extra day every two years (since 0.5 + 0.5 = 1 day). An answer that fails to recognize the accumulation of the fractional day shows a lack of logical"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: You would need to add an extra day every two years (since 0.5 + 0.",
-    "id": "gen_c6_phy_ch12_q11",
+    "id": "gen_c6_phy_ch12_q15",
     "nodeId": "c6_physics_ch12_046",
     "difficulty": "standard"
    },
@@ -3216,7 +2975,7 @@ export const C6_PHY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: No, the path is an ellipse, which is a slightly oval shape. Saying \"yes\" reveals a failure to distinguish between a",
-    "id": "gen_c6_phy_ch12_q12",
+    "id": "gen_c6_phy_ch12_q16",
     "nodeId": "c6_physics_ch12_046",
     "difficulty": "standard"
    },
@@ -3225,13 +2984,13 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "What must you be able to do to master this topic?",
     "answer": "The student must be able to explain why we have a leap year every four years and describe the shape of the Earth's path around the Sun",
     "options": [
-     "The student must be able to identify at least two major constellations (like Orion or the Big Dipper) from a sky map and distinguish between the actual stars and the imaginary",
-     "The Earth's axis is tilted at 23.5 degrees",
+     "The student must be able to identify the sequence of lunar phases (new moon, waxing, full moon",
+     "The student must be able to describe the relative positions of the Sun, Earth, and Moon during a lunar eclipse and explain why the Moon darkens",
      "The student must be able to explain why we have a leap year every four years and describe the shape of the Earth's path around the Sun"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to explain why we have a leap year every four years and describe the shape of the Earth's path",
-    "id": "gen_c6_phy_ch12_q13",
+    "id": "gen_c6_phy_ch12_q17",
     "nodeId": "c6_physics_ch12_046",
     "difficulty": "standard"
    },
@@ -3240,74 +2999,14 @@ export const C6_PHY_GEN: SimDef[] = [
     "question": "Why do we add February 29th to our calendar every four years?",
     "answer": "We add it to account for the four accumulated 0.25-day fractions from the previous four years",
     "options": [
-     "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system",
-     "You would see the Sun completely hidden by the Moon, causing the sky to darken significantly and the Sun's outer atmosphere (the corona) to become visible",
+     "The Moon turns dark because the Earth blocks sunlight from reaching the Moon's surface",
+     "The sky turns dark because the Moon physically blocks the direct, bright light of the Sun from reaching that specific part of Earth",
      "We add it to account for the four accumulated 0.25-day fractions from the previous four years"
     ],
     "hint": "Straight from the 'revolution of the Earth' slide -- match the key terms.",
     "misconception": "Answering \"to make the month longer\" or \"because of the moon\" shows a failure to link the orbital period to calendar maintenance.",
-    "id": "gen_c6_phy_ch12_q14",
-    "nodeId": "c6_physics_ch12_046",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a simple experiment using a torch and a ball to show why the Northern Hemisphere gets more light in June.",
-    "answer": "The student should describe holding the ball (Earth) with a tilted axis and shining the torch (Sun) at it, noting that the top half stays lit longer as they rotate the ball",
-    "options": [
-     "It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the opposite hemisphere is tilted away (winter)",
-     "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen",
-     "The student should describe holding the ball (Earth) with a tilted axis and shining the torch (Sun) at it, noting that the top half stays lit longer as they rotate the ball"
-    ],
-    "hint": "Straight from the 'Seasons change because the Earth' slide -- match the key terms.",
-    "misconception": "A poor answer would lack the mention of the tilt or the rotation/revolution aspect.",
-    "id": "gen_c6_phy_ch12_q15",
-    "nodeId": "c6_physics_ch12_047",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If it is summer in Delhi, what season is it in a city located in the Southern Hemisphere, such as Buenos Aires?",
-    "answer": "It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the opposite hemisphere is tilted away (winter)",
-    "options": [
-     "It experiences summer because it receives more direct sunlight and has longer daylight hours",
-     "No, the Pole Star is only visible from the Northern Hemisphere. Claiming you could see it from the South Pole ignores the curvature of the Earth and the specific positioning of",
-     "It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the opposite hemisphere is tilted away (winter)"
-    ],
-    "hint": "Straight from the 'Seasons change because the Earth' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the",
-    "id": "gen_c6_phy_ch12_q16",
-    "nodeId": "c6_physics_ch12_047",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "If the Northern Hemisphere is tilted toward the Sun, why does it experience summer?",
-    "answer": "It experiences summer because it receives more direct sunlight and has longer daylight hours",
-    "options": [
-     "The student should describe holding the ball (Earth) with a tilted axis and shining the torch (Sun) at it, noting that the top half stays lit longer as they rotate the ball",
-     "No, the distance to the Sun is not the primary cause of seasons; the tilt is",
-     "It experiences summer because it receives more direct sunlight and has longer daylight hours"
-    ],
-    "hint": "Straight from the 'Seasons change because the Earth' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student thinks being \"closer\" to the Sun causes summer, which is a common but incorrect assumption.",
-    "id": "gen_c6_phy_ch12_q17",
-    "nodeId": "c6_physics_ch12_047",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Is the change of seasons caused by the Earth getting closer and farther from the Sun in its orbit? Explain.",
-    "answer": "No, the distance to the Sun is not the primary cause of seasons; the tilt is",
-    "options": [
-     "A correct response shows the Sun on one end, the Earth in the middle, and the Moon inside the Earth's shadow (umbra)",
-     "You see the Moon blocking part or all of the Sun's light. First, identify the order: Sun -> Moon -> Earth. Since the Moon is between you and the Sun, it acts as a screen",
-     "No, the distance to the Sun is not the primary cause of seasons; the tilt is"
-    ],
-    "hint": "Straight from the 'Seasons change because the Earth' slide -- match the key terms.",
-    "misconception": "Students who say \"yes\" are likely confused by the elliptical shape of orbits, failing to realize the tilt is the dominant factor for seasonal change.",
     "id": "gen_c6_phy_ch12_q18",
-    "nodeId": "c6_physics_ch12_047",
+    "nodeId": "c6_physics_ch12_046",
     "difficulty": "standard"
    }
   ],

@@ -69,11 +69,11 @@ export function C8_MathematicsUnderstandingQuadrilateralsSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Understanding Quadrilaterals: The 360 Degree Budget</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Understanding Quadrilaterals: The 360 Degree Budget</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Angle budget:</span> think of 360 degrees as a
+          <span className="font-bold text-gold-700">Angle budget:</span> think of 360 degrees as a
           fixed budget of turn that the four corners of a quadrilateral must share. Spend more on
           angle A and less is left for angle D. The pie on the right is that budget - when the three
           sliders spend it all, no fourth corner can exist!
@@ -95,13 +95,13 @@ export function C8_MathematicsUnderstandingQuadrilateralsSim() {
           ))}
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
             <div>A + B + C = {sum3} deg</div>
-            <div className={valid ? 'text-indigo-700 font-bold' : 'text-rose-600 font-bold'}>
+            <div className={valid ? 'text-gold-700 font-bold' : 'text-rose-600 font-bold'}>
               D = 360 - {sum3} = {valid ? `${angD} deg` : 'impossible!'}
             </div>
             <div className="mt-1 text-xs text-slate-500 font-sans">{kind}</div>
           </div>
           <div className="flex gap-2">
-            <button onClick={randomize} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+            <button onClick={randomize} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
               Random puzzle
             </button>
             <button onClick={check} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-600 text-white hover:bg-emerald-500 transition-all">
@@ -113,7 +113,7 @@ export function C8_MathematicsUnderstandingQuadrilateralsSim() {
           </div>
         </div>
 
-        <div className="p-4 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-4 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 210 210" className="w-full">
             {sectors.map((s) => (
               <path key={s.i} d={s.d} fill={s.color} opacity={s.i === 3 ? (valid ? 0.9 : 0.25) : 0.9} style={{ transition: 'all 250ms' }} />
@@ -130,9 +130,9 @@ export function C8_MathematicsUnderstandingQuadrilateralsSim() {
             <p className="text-xs font-bold text-slate-500 mb-1">GENERALIZATION: SIDES SLIDER</p>
             <label className="text-xs font-semibold text-slate-500 flex justify-between">
               <span>Polygon sides n</span>
-              <span className="font-mono text-indigo-600">{sides}</span>
+              <span className="font-mono text-gold-600">{sides}</span>
             </label>
-            <input type="range" min={3} max={10} value={sides} aria-label="sides" onChange={(e) => setSides(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <input type="range" min={3} max={10} value={sides} aria-label="sides" onChange={(e) => setSides(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
             <svg viewBox="0 0 210 140" className="w-full mt-1">
               <polygon points={pts.map((p) => `${p.x},${p.y}`).join(' ')} fill="#c7d2fe" stroke="#4338ca" strokeWidth={2} style={{ transition: 'all 250ms' }} />
               <text x={105} y={132} textAnchor="middle" fontSize="10" fill="#475569">

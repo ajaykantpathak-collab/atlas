@@ -11,7 +11,7 @@ export const w_c12_biologyclinicalnutritioncbsesim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Dairy Farm Management: Key Principles',
     chapters: [],
     nodeIds: ['c12_bio_cbse_09_002', 'c12_bio_cbse_09_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a dairy farm early morning: cows are let loose, fed dry fodder, hand-milked on a muddy floor, and the.', goal: 'Master Dairy Farm Management: Key Principles.' },
     discovery: {
         question: 'A dairy farmer feeds his crossbred cow 30 kg green maize fodder, 4 kg wheat straw, and 2 kg concentrate mixture daily. The cow yields 15 L milk with 3.5% fat.',
@@ -20,7 +20,7 @@ export const w_c12_biologyclinicalnutritioncbsesim: SimDef = {
         hook: 'Students believe "more concentrate = more milk" and feed 70-80% concentrate to high yielders.',
     },
     teaching: [
-        { title: 'Dairy farm management is the systematic.', text: 'Dairy farm management is the systematic application of scientific principles to housing, feeding, breeding, health care, and milking of dairy animals (cattle and buffalo) to maximize milk yield,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Dairy farm management is the systematic.', text: 'Dairy farm management is the systematic application of scientific principles to housing, feeding, breeding, health care, and milking of dairy animals (cattle and buffalo) to maximize milk yield,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_09_002', title: 'Dairy farm management is the systematic.',

@@ -9,13 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C12_HIN_AL_GEN: SimDef[] = [
  {
   "id": "gen_c12_hin_al_ch01",
-  "title": "सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय",
+  "title": "सूरदास की झोंपड़ी",
   "subtitle": "Hindi · Chapter 1",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय",
-  "chapters": ["Hindi Ch1: सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय"],
+  "topic": "इस पाठ का पृष्ठभूमि और रचनाकार",
+  "chapters": [
+   "Hindi Ch1: इस पाठ का पृष्ठभूमि और रचनाकार"
+  ],
   "nodeIds": [
    "c12_hin_al_cbse_01_001",
    "c12_hin_al_cbse_01_002",
@@ -40,103 +42,103 @@ export const C12_HIN_AL_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is सूरदास की झोंपड़ी — पृष्ठभूमि और more about facts, or about reasoning?",
+   "question": "Is इस पाठ का पृष्ठभूमि और रचनाकार more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
     "Random guessing"
    ],
    "answer": "Mostly reasoning from a few core ideas",
-   "hook": "\"Before You Read: Context and Background\" is the preparatory phase where students investigate the author's biography, the historical period, the"
+   "hook": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'ल्वज्नकल की >कसईम+ह' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की"
   },
   "teaching": [
    {
     "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
-    "text": "\"Before You Read: Context and Background\" is the preparatory phase where students investigate the author's biography, the historical period, the cultural setting (rural Bihar, 1950s), and the specific custom of 'साईँ' (auction of a dead body to recover debt)",
+    "text": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'ल्वज्नकल की >कसईम+ह' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की व्याख्या की कुंजी है।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Plot And Narrative Structure",
-    "text": "Plot and Narrative Structure refers to the organized sequence of events in a story and the framework through which the narrative is presented, including exposition, rising action, climax, falling action, resolution, and techniques like flashback,",
+    "title": "'ल्वज्नकल की >कसईम+ह' का कथानक",
+    "text": "'ल्वज्नकल की >कसईम+ह' का कथानक — 'ल्वज्नकल की >कसईम+ह' — अंतराल भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक के अनुरूप।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and social environment in which a story unfolds, while atmosphere is the emotional mood or tone created by the author through descriptive details, sensory imagery, and the interplay of physical surroundings with characters'",
+    "title": "'ल्वज्नकल की >कसईम+ह' का पाठ्य-परिवेश",
+    "text": "'ल्वज्नकल की >कसईम+ह' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves systematically examining the main character's traits, motivations, development, and function in the narrative by using textual evidence (actions, speech, thoughts, description, relationships) to support",
+    "title": "'ल्वज्नकल की >कसईम+ह' का पात्र-चित्रण",
+    "text": "'ल्वज्नकल की >कसईम+ह' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Supporting Characters",
-    "text": "Character analysis of supporting characters involves examining the traits, motivations, relationships, and narrative functions of characters other than the protagonist, to understand how they advance the plot, reveal the protagonist's qualities, and embody",
+    "title": "'ल्वज्नकल की >कसईम+ह' के सहायक पात्र",
+    "text": "'ल्वज्नकल की >कसईम+ह' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human life that the author conveys through plot, character, and conflict; the message is the specific moral, lesson, or perspective the author intends the reader to take away",
+    "title": "'ल्वज्नकल की >कसईम+ह' का मुख्य विषय",
+    "text": "'ल्वज्नकल की >कसईम+ह' का मुख्य विषय — 'ल्वज्नकल की >कसईम+ह' का केंद्रीय भाव और संदेश",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying thematic strands that run parallel to the primary theme, enriching the narrative by exploring related social, psychological, and moral dimensions through character interactions, symbols, and recurring motifs.",
+    "title": "'ल्वज्नकल की >कसईम+ह' के गौण विषय",
+    "text": "'ल्वज्नकल की >कसईम+ह' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery (प्रतिबिंब/चित्रण) refers to the use of vivid sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create concrete mental pictures and evoke physical sensations in the reader.",
+    "title": "'ल्वज्नकल की >कसईम+ह' में बिंब",
+    "text": "'ल्वज्नकल की >कसईम+ह' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality, often revealing a deeper truth; it can be situational (outcome opposite to what is expected), verbal (words convey opposite meaning), or dramatic (audience knows more than",
+    "title": "'ल्वज्नकल की >कसईम+ह' में विरोधाभास",
+    "text": "'ल्वज्नकल की >कसईम+ह' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context: Key Words refers to the skill of determining the precise meaning, connotation, and grammatical function of specific words or phrases as they are used within the narrative of \"ल्वज्नकल की >कसईम+ह\", rather than relying solely on",
+    "title": "'ल्वज्नकल की >कसईम+ह' की पदावली",
+    "text": "'ल्वज्नकल की >कसईम+ह' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of grammatical structures, dialectal variations, idiomatic expressions, and syntactic patterns employed in the story \"लाजवन्ती का आँगन\" to convey character, setting, and thematic depth,",
+    "title": "'ल्वज्नकल की >कसईम+ह' में भाषा-प्रयोग",
+    "text": "'ल्वज्नकल की >कसईम+ह' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve information explicitly stated in the text (facts, events, dialogue, descriptions).",
+    "title": "'ल्वज्नकल की >कसईम+ह' के वस्तुनिष्ठ प्रश्न",
+    "text": "'ल्वज्नकल की >कसईम+ह' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation in this chapter refers to the ability to move beyond literal comprehension of \"ल्वजंक्ल की >कसाईम\" to examine the author's craft, evaluate character motivations, interpret symbols and irony, and synthesize a",
+    "title": "'ल्वज्नकल की >कसईम+ह' का आलोचनात्मक चिंतन",
+    "text": "'ल्वज्नकल की >कसईम+ह' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter refers to the ability to compose structured, evidence-based responses for CBSE board examinations that demonstrate comprehension, analysis, and critical interpretation of the prose text \"ल्वजंकल की साँस\" using the PEEL",
+    "title": "'ल्वज्नकल की >कसईम+ह' पर पाठ-आधारित लेखन",
+    "text": "'ल्वज्नकल की >कसईम+ह' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Speaking And Listening Discussion Points",
-    "text": "Speaking and Listening Discussion Points for \"lwjnkl dh >ksaiM+h\" are structured oral activities where students articulate interpretations, debate character motivations, and connect themes (aging, dignity, family dynamics, symbolism of the stick) to real-life",
+    "title": "'ल्वज्नकल की >कसईम+ह' पर वाचन-श्रवण और",
+    "text": "'ल्वज्नकल की >कसईम+ह' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    }
@@ -151,16 +153,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Correct order: Exposition (introduces setting, characters, initial situation), Rising Action (builds conflict through complications), Climax (turning point of maximum tension)",
      "The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar. 'साईँ' refers to the local custom of auctioning a dead body to recover a debt owed to a"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Premchand or defining 'साईँ' as a funeral ritual) reveals that the student has not read the introductory note in the textbook and is confusing this story with other Hindi classics. It also shows they haven’t distinguished between a cultural custom and a religious rite.",
     "id": "gen_c12_hin_al_ch01_q1",
     "nodeId": "c12_hin_al_cbse_01_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are about to watch a film set in a 1950s Bihar village where a poor family’s dead relative is being auctioned to pay a landlord’s debt.",
-     "What would you need to know beforehand to truly grasp the characters’ desperation?",
-     "First, identify the author: Phanishwar Nath Renu, a freedom‑fighter‑turned‑writer from the same region, whose आंचलिक (regional) style brings",
-     "Next, map the historical backdrop: the zamindari system, rampant indebtedness, and the absence of institutional credit."
+     "पहले रचनाकार: NCERT पाठ्यपुस्तक। फिर काल। फिर 'ल्वज्नकल की >कसईम+ह' का संदर्भ — 'ल्वज्नकल की >कसईम+ह' का केंद्रीय भाव और संदेश। रचनाकार और काल मिलकर"
     ]
    },
    {
@@ -172,16 +171,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The protagonist is ल्वज्न्कल, an elderly man whose son and daughter-in-law force him out of his own house",
      "Correct order: Exposition (introduces setting, characters, initial situation), Rising Action (builds conflict through complications), Climax (turning point of maximum tension)"
     ],
-    "hint": "Straight from the 'Plot and Narrative Structure' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' का कथानक' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps Rising Action and Climax reveals the student confuses tension-building with the peak moment. A wrong answer that omits Exposition shows they don't grasp that structure requires a baseline before disruption.",
     "id": "gen_c12_hin_al_ch01_q2",
     "nodeId": "c12_hin_al_cbse_01_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're reading a mystery novel where the first chapter shows the detective finding a body, but the second chapter jumps to \"Three Months",
-     "In \"ल्वज्नकल ध >कसईम+h\", the story opens with the protagonist already marginalized, then uses dialogue-heavy scenes to reveal past conflicts, and",
-     "Start by mapping the timeline: list every scene in reading order, then reorder them chronologically.",
-     "Notice where the two sequences diverge — those gaps are where flashbacks or foreshadowing operate."
+     "'ल्वज्नकल की >कसईम+ह' का क्रम: शुरुआत ल्वज्नकल-की->कसईम+ह से, घटनाएँ बढ़ती हैं, अंत 'ल्वज्नकल की >कसईम+ह' का केंद्रीय भाव और संदेश पर।"
     ]
    },
    {
@@ -241,10 +237,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_01_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you walk into a room where the air feels heavy, the walls are damp, and a single flickering bulb casts long shadows — you instantly feel",
-     "That is atmosphere created by setting.",
-     "In this story, the author uses the cracked courtyard, the dry well, the thatched roof, and the cramped interior to make you feel the family's",
-     "Start by listing every physical detail the text gives (time of day, season, objects, sounds, smells)."
+     "'ल्वज्नकल की >कसईम+ह' का परिवेश: 'ल्वज्नकल की >कसईम+ह' — अंतराल भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस् — स्थान और समय मिलकर"
     ]
    },
    {
@@ -256,16 +249,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Correct order: Exposition (introduces setting, characters, initial situation), Rising Action (builds conflict through complications), Climax (turning point of maximum tension)",
      "The protagonist is ल्वज्न्कल, an elderly man whose son and daughter-in-law force him out of his own house"
     ],
-    "hint": "Straight from the 'Character analysis of the' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' का' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming the son txèkj as protagonist) reveals the student cannot distinguish the central consciousness around which the narrative revolves from the antagonist who drives the external conflict.",
     "id": "gen_c12_hin_al_ch01_q4",
     "nodeId": "c12_hin_al_cbse_01_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked to describe your grandfather's personality to a friend who never met him.",
-     "You wouldn't just say \"he's old and kind\"; you'd recall the time he fixed your cycle with patience, the words he used when you failed an exam, the",
-     "Analyzing ल्वज्न्कल works the same way: first, re-read the story and put a sticky note on every page where he speaks, acts, or is described.",
-     "Second, group these notes into categories — physical appearance, speech/dialogue, actions, internal thoughts, relationships."
+     "मुख्य पात्र की पहचान, कार्य और विकास — 'ल्वज्नकल की >कसईम+ह' में ल्वज्नकल-की->कसईम+ह से पात्र उभरता है।"
     ]
    },
    {
@@ -277,16 +267,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar. 'साईँ' refers to the local custom of auctioning a dead body to recover a debt owed to a",
      "ह्क्स्ज्का (पत्नी) — व्यावहारिक और सुरक्षात्मक; त्एक्ज्क (मित्र) — संवेदनशील और वफादार; उक्द्ज्के"
     ],
-    "hint": "Straight from the 'Character analysis of supporting' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' के सहायक' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only names without traits shows the student cannot move beyond recall to character interpretation. A wrong answer that assigns traits not supported by dialogue (e.g., calling ह्क्स्ज्का \"क्रूर\") reveals the student is projecting stereotypes instead of reading evidence.",
     "id": "gen_c12_hin_al_ch01_q5",
     "nodeId": "c12_hin_al_cbse_01_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a family argument where everyone has an opinion about your career choice — some support you, some mock you, some stay silent.",
-     "In this story, ल्व्ज्न्कल faces a similar chorus of voices when he refuses to beg.",
-     "Start by listing every character who speaks to or about ल्व्ज्न्कल.",
-     "For each, ask: What do they want?"
+     "'ल्वज्नकल की >कसईम+ह' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।"
     ]
    },
    {
@@ -298,16 +285,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "उक्द्ज्के mocks ल्व्ज्न्कल's principles (\"pwYgk BaMk fd;k gksrk] rks nq'euksa dk dystk oSQls BaMk gksrk\") while ब्कोक्क्ज्न्हु shares a personal anecdote of his own past",
      "A plot summary recounts *what happens* (e.g., \"An old man is left at an old age home, argues with his son, and later builds a shelter for others\")"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' का मुख्य' slide -- match the key terms.",
     "misconception": "A wrong answer that lists events reveals the student confuses narrative sequence with conceptual depth — a classic board exam error where students write story narration instead of thematic analysis.",
     "id": "gen_c12_hin_al_ch01_q6",
     "nodeId": "c12_hin_al_cbse_01_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you visit an old age home and see a resident staring at the gate every evening, waiting for children who never come.",
-     "That image stays with you — that is the *theme* made visible.",
-     "To find the primary theme in \"ल्वज्न्कल ध >कसैम+h\", start by asking: \"What is the one conflict that drives every major event?",
-     "Next, track how the author repeats this conflict through three lenses: the children's betrayal (plot), Lvajnakl's internal dignity (character), and"
+     "सब घटनाएँ 'ल्वज्नकल की >कसईम+ह' में 'ल्वज्नकल की >कसईम+ह' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।"
     ]
    },
    {
@@ -319,16 +303,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "When the son says, \"पिता जी, आप आराम करो, हम आपकी सेवा करेंगे\" (Father, you rest, we will serve you), but immediately locks him out and takes his stick",
      "A secondary theme is a significant but subordinate thematic strand that runs alongside the primary theme, developed through recurring motifs, character conflicts, or symbols"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' के गौण विषय' slide -- match the key terms.",
     "misconception": "WRONG ANSWER REVEALS: If the student gives a plot event (\"Munshi gets transferred\") or a topic (\"corruption\") instead of a thematic statement, they confuse plot/subplot with theme.",
     "id": "gen_c12_hin_al_ch01_q7",
     "nodeId": "c12_hin_al_cbse_01_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're helping a friend understand why their parents' divorce isn't just \"falling out of love\" — underneath are themes of unspoken",
-     "Similarly, \"लाजवंती की चिट्ठी\" isn't only about Partition abduction; re-read the primary theme from node 006, then hunt for recurring tensions:",
-     "Map each tension to 3+ textual moments.",
-     "The key insight: secondary themes aren't side stories — they're the texture that makes the primary theme feel lived, not abstract."
+     "'ल्वज्नकल की >कसईम+ह' में ल्वज्नकल-की->कसईम+ह जैसे सहायक विचार आते हैं।"
     ]
    },
    {
@@ -340,16 +321,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Correct order: Exposition (introduces setting, characters, initial situation), Rising Action (builds conflict through complications), Climax (turning point of maximum tension)",
      "Imagery is language appealing to senses (e.g., \"पीली रोशनी\", \"टेढ़े-मेढ़े टिमटिमाते बल्ब\" = visual; \"कोई इकतारा बजा रहा था\" = auditory"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' में बिंब' slide -- match the key terms.",
     "misconception": "Wrong Answer Reveals: If the student gives only visual examples, they confuse imagery with mere description.",
     "id": "gen_c12_hin_al_ch01_q8",
     "nodeId": "c12_hin_al_cbse_01_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are describing the staircase in your own apartment building to a friend who has never seen it — you wouldn't just say \"it's old\"; you'd",
-     "That is imagery: making the absent present through senses.",
-     "Now, if you said \"That staircase is a spine the building hangs on,\" you've made a metaphor — transferring qualities of a spine (support, centrality,",
-     "In this chapter, the author does both simultaneously: the staircase is described with sensory precision (poisonous heat, hatred's fever, sound of"
+     "'ल्वज्नकल की >कसईम+ह' में बिंब ढूँढिए — ल्वज्नकल-की->कसईम+ह — ये दृश्य पाठ को जीवंत बनाते हैं।"
     ]
    },
    {
@@ -361,16 +339,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The author is Phanishwar Nath Renu (फणीश्वरनाथ रेणु), a prominent आंचलिक कथाकार from Bihar. 'साईँ' refers to the local custom of auctioning a dead body to recover a debt owed to a",
      "Situational irony occurs when events turn out contrary to what is expected or appropriate. In the story"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' में' slide -- match the key terms.",
     "misconception": "A wrong answer that only gives a dictionary definition without a story-specific example shows the student cannot apply the concept to the text.",
     "id": "gen_c12_hin_al_ch01_q9",
     "nodeId": "c12_hin_al_cbse_01_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a movie where an old man, who spent his life building a house, is now locked out of it by his own son — that jarring gap",
-     "Now think of the old man's walking stick: it's not just a piece of wood; it carries his memories, his authority, and his quiet rebellion.",
-     "In this story, start by listing every moment where the outcome contradicts expectation (e.g., the son's \"care\" is actually neglect).",
-     "Then pick three recurring objects (stick, bundle, axe) and ask: what abstract idea does each stand for?"
+     "'ल्वज्नकल की >कसईम+ह' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।"
     ]
    },
    {
@@ -430,10 +405,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_01_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading a WhatsApp forward where someone uses the word \"संस्कारी\" to justify controlling behavior — you instantly sense the word",
-     "That is exactly what we do here: we treat the chapter's key words as loaded terms.",
-     "Start by re-reading the specific paragraphs where words like \"विस्फोटक\" (explosive/volatile) or \"रूढ़\" (rigid/orthodox) appear.",
-     "Ask: \"What does this word *do* in this sentence that a synonym wouldn't?\" Then trace that effect to the chapter's central conflict."
+     "'ल्वज्नकल की >कसईम+ह' के मुख्य शब्द: ल्वज्नकल-की->कसईम+ह — इनका अर्थ जानिए।"
     ]
    },
    {
@@ -482,10 +454,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_01_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're listening to a heated family argument in your neighbourhood — the words, the tone, the shortcuts people take when emotions run high.",
-     "That's exactly what Ismat Chughtai captures in \"लाजवन्ती का आँगन.\" Begin by reading the dialogue-heavy sections aloud (pages 3-8), noticing how",
-     "Mark every word that sounds \"non-standard\" — forms like \"osQ\" for \"के\", \"mls\" for \"उसे\", \"rqe\" for \"तुम\".",
-     "These aren't errors; they're deliberate choices creating authenticity."
+     "'ल्वज्नकल की >कसईम+ह' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।"
     ]
    },
    {
@@ -497,16 +466,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Expected Answer Criteria: Metaphor must be character-appropriate (e.g., landlord: \"This staircase is my property's backbone — strong, essential, mine\"",
      "lwjnkl moves to the threshold (dehleez) of the house and sits there silently without protest"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' के' slide -- match the key terms.",
     "misconception": "Why wrong answers reveal misunderstanding: If a student says \"He argues back\" or \"He leaves the house\", they have failed to retrieve the explicit detail that he *stays* at the threshold (pg 7: \"lwjnkl us ckr u lquhA og lksp jgk Fkk...\").",
     "id": "gen_c12_hin_al_ch01_q12",
     "nodeId": "c12_hin_al_cbse_01_012",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading a WhatsApp forward about an elderly parent being mistreated by their children.",
-     "The first message says \"Father was made to sit on the floor\" — that's a literal fact.",
-     "The next message says \"This shows the son's greed\" — that's an inference.",
-     "In this chapter, we face the same distinction: the text explicitly describes actions (lwjnkl moving to the threshold, HkSjksa giving the receipt),"
+     "'ल्वज्नकल की >कसईम+ह' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय 'ल्वज्नकल की >कसईम+ह' का केंद्रीय भाव और संदेश।"
     ]
    },
    {
@@ -566,10 +532,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_01_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are a social worker visiting an old-age home and you hear an elderly resident say, \"My son built me a kitchen but forgot to build me a",
-     "First, re-read the story with a pencil in hand, marking every instance where the kitchen (कसाईम) is mentioned — not just as a physical space but as a",
-     "Next, track the son's dialogue: note how his words shift from apparent concern to cruel practicality.",
-     "Then, connect these observations to the story's title: why \"कसाईम\" (slaughterhouse) and not \"रसोई\" (kitchen)?"
+     "'ल्वज्नकल की >कसईम+ह' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।"
     ]
    },
    {
@@ -581,16 +544,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Pathetic fallacy is the attribution of human emotions to nature. The leaking roof mirrors ल्वज्नकल's internal leakage",
      "सही उत्तर: शीर्षक \"ल्वजंकल की साँस\" ल्वजंकल के अस्तित्व की अंतिम साँस और उसके जीवन की विडंबना को दर्शाता है। जहाँ एक ओर यह उसकी शारीरिक मृत्यु का संकेत है"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the ''ल्वज्नकल की >कसईम+ह' पर' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: सही उत्तर: शीर्षक \"ल्वजंकल की साँस\" ल्वजंकल के अस्तित्व की अंतिम साँस और उसके जीवन की विडंबना को दर्शाता है। जहाँ एक ओर",
     "id": "gen_c12_hin_al_ch01_q14",
     "nodeId": "c12_hin_al_cbse_01_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE board exam hall, facing a 5-mark question: \"ल्वजंकल के चरित्र की विशेषताओं का वर्णन कीजिए।\" Most students freeze",
-     "Start by reading the question twice — underline keywords (चरित्र, विशेषताएँ, वर्णन).",
-     "Then recall 3-4 specific incidents from the text (his silence when insulted, his concern for the pot, his final smile).",
-     "Next, apply PEEL: Point — \"ल्वजंकल सहनशील और गरिमामयी वृद्ध हैं।\" Evidence — \"जब बहू ने फटकारा, तो 'कुछ नहीं बोला'।\" Explanation — \"यह उनकी सहनशीलता"
+     "'ल्वज्नकल की >कसईम+ह' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।"
     ]
    },
    {
@@ -639,10 +599,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_01_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you see an elderly person struggling to carry a heavy bag while their adult children walk ahead absorbed in their phones.",
-     "What would you do?",
-     "This real-life scenario mirrors the core conflict of \"lwjnkl dh >ksaiM+h\" where the old man's stick — his dignity — is treated as a burden.",
-     "Begin by identifying three discussion-worthy themes from the text: the stick as a symbol of identity, the son's moral ambiguity, and the"
+     "'ल्वज्नकल की >कसईम+ह' का वाचन कीजिए — फिर चर्चा में राय रखिए।"
     ]
    },
    {
@@ -808,23 +765,25 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about सूरदास की झोंपड़ी — पृष्ठभूमि और रचनाकार परिचय?",
+    "What surprised you about इस पाठ का पृष्ठभूमि और रचनाकार?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "सूरदास की झोंपड़ी — पृष्ठभूमि mastered! 🎯",
+  "successLine": "इस पाठ का पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_al_ch02",
-  "title": "बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय",
+  "title": "बस्किोहर की माटी",
   "subtitle": "Hindi · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय",
-  "chapters": ["Hindi Ch2: बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय"],
+  "topic": "इस पाठ का पृष्ठभूमि और रचनाकार",
+  "chapters": [
+   "Hindi Ch2: इस पाठ का पृष्ठभूमि और रचनाकार"
+  ],
   "nodeIds": [
    "c12_hin_al_cbse_02_001",
    "c12_hin_al_cbse_02_002",
@@ -849,103 +808,103 @@ export const C12_HIN_AL_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses बस्किोहर की माटी — पृष्ठभूमि और in real working life?",
+   "question": "Who uses इस पाठ का पृष्ठभूमि और रचनाकार in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "\"Before You Read: Context and Background\" for Chapter 2 (फुलचंद की एकवह) prepares students to engage with the autobiographical sketch by providing"
+   "hook": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'फणीश्वरनाथ रेणु की' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की"
   },
   "teaching": [
    {
     "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
-    "text": "\"Before You Read: Context and Background\" for Chapter 2 (फुलचंद की एकवह) prepares students to engage with the autobiographical sketch by providing essential information about the author (Upendranath Ashk), the genre (आत्मकथात्मक रेखाचित्र), the socio-cultural",
+    "text": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'फणीश्वरनाथ रेणु की' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की व्याख्या की कुंजी है।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot",
-    "text": "Plot refers to the sequence of events that make up a story, while narrative structure is the framework that organizes these events — such as chronological order, flashbacks, or multiple perspectives — to shape the reader's experience.",
+    "title": "'फणीश्वरनाथ रेणु की' का कथानक",
+    "text": "'फणीश्वरनाथ रेणु की' का कथानक — 'फणीश्वरनाथ रेणु की' — अंतराल भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक के अनुरूप।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and physical environment in which a narrative unfolds, while atmosphere is the emotional mood or feeling created by the author's descriptive language, sensory details, and narrative tone that immerses the reader in that",
+    "title": "'फणीश्वरनाथ रेणु की' का पाठ्य-परिवेश",
+    "text": "'फणीश्वरनाथ रेणु की' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the narrator's personality, motivations, development, and relationships as revealed through their actions, thoughts, speech, and interactions with others in the autobiographical memoir \"fcLdksgj dh",
+    "title": "'फणीश्वरनाथ रेणु की' का पात्र-चित्रण",
+    "text": "'फणीश्वरनाथ रेणु की' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Supporting Characters",
-    "text": "Supporting characters are secondary figures in a narrative who interact with the protagonist to advance the plot, reveal the protagonist's traits through contrast or parallel, embody thematic ideas, and create the story's social and emotional world.",
+    "title": "'फणीश्वरनाथ रेणु की' के सहायक पात्र",
+    "text": "'फणीश्वरनाथ रेणु की' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or insight about human experience that the author conveys through the narrative; the message is the specific moral, lesson, or perspective the author intends the reader to take away from that",
+    "title": "'फणीश्वरनाथ रेणु की' का मुख्य विषय",
+    "text": "'फणीश्वरनाथ रेणु की' का मुख्य विषय — 'फणीश्वरनाथ रेणु की' का केंद्रीय भाव और संदेश",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Theme",
-    "text": "A secondary theme is a subordinate central idea that runs parallel to the primary theme, enriching the narrative by exploring complementary aspects of human experience, society, or nature.",
+    "title": "'फणीश्वरनाथ रेणु की' के गौण विषय",
+    "text": "'फणीश्वरनाथ रेणु की' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery (प्रतिबिंब/बिंब) refers to the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotional responses.",
+    "title": "'फणीश्वरनाथ रेणु की' में बिंब",
+    "text": "'फणीश्वरनाथ रेणु की' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Irony",
-    "text": "Irony is a literary device where there is a contrast between expectation and reality — what appears to be true differs from what is actually true.",
+    "title": "'फणीश्वरनाथ रेणु की' में विरोधाभास",
+    "text": "'फणीश्वरनाथ रेणु की' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context For \"fcLdksgj Dh EkVh\"",
-    "text": "Vocabulary in Context for \"fcLdksgj dh ekVh\" refers to the ability to identify, interpret, and explain the meaning, connotation, and literary function of key dialect words (e.",
+    "title": "'फणीश्वरनाथ रेणु की' की पदावली",
+    "text": "'फणीश्वरनाथ रेणु की' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Grammar",
-    "text": "Grammar: Language Usage in the Text refers to the systematic analysis of how grammatical structures, syntactic patterns, dialectal variations, idiomatic expressions, and rhetorical devices function within the narrative to convey meaning, establish voice, and",
+    "title": "'फणीश्वरनाथ रेणु की' में भाषा-प्रयोग",
+    "text": "'फणीश्वरनाथ रेणु की' में भाषा-प्रयोग — NCERT पाठ्यपुस्तक ने कैसे शब्द, वाक्य और शैली चुनी।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require students to retrieve explicitly stated information from the text (facts, details, sequence of events), while inferential comprehension questions demand that students deduce implied meanings, interpret character",
+    "title": "'फणीश्वरनाथ रेणु की' के वस्तुनिष्ठ प्रश्न",
+    "text": "'फणीश्वरनाथ रेणु की' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Critical Thinking",
-    "text": "Critical Thinking: Analysis and Interpretation is the disciplined process of examining a literary text beyond its literal meaning to uncover underlying themes, evaluate authorial choices, and synthesize evidence from multiple textual elements (character,",
+    "title": "'फणीश्वरनाथ रेणु की' का आलोचनात्मक चिंतन",
+    "text": "'फणीश्वरनाथ रेणु की' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter refers to the ability to construct structured, evidence-based responses (short answers, long answers, analytical paragraphs, and creative extensions) that demonstrate comprehension of the text \"fcLdksgj dh ekVh\" by",
+    "title": "'फणीश्वरनाथ रेणु की' पर पाठ-आधारित लेखन",
+    "text": "'फणीश्वरनाथ रेणु की' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points are structured conversation prompts derived from the chapter's themes, characters, and socio-cultural context that enable students to articulate interpretations, listen actively to peers, and collaboratively construct",
+    "title": "'फणीश्वरनाथ रेणु की' पर वाचन-श्रवण और",
+    "text": "'फणीश्वरनाथ रेणु की' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -997,10 +956,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are handed a diary page from your great‑grandmother describing her village childhood — you’d want to know who she was, where she lived,",
-     "Similarly, before diving into \"फुलचंद की एकवह\", ask: \"Who is the writer?",
-     "What kind of text is this?",
-     "What world does it portray?\" Start by reading the textbook’s introductory note (पाठ परिचय) and the author blurb."
+     "पहले रचनाकार: NCERT पाठ्यपुस्तक। फिर काल। फिर 'फणीश्वरनाथ रेणु की' का संदर्भ — 'फणीश्वरनाथ रेणु की' का केंद्रीय भाव और संदेश। रचनाकार और काल मिलकर"
     ]
    },
    {
@@ -1060,10 +1016,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are telling a friend about your childhood village, but you don’t start at the beginning — you begin with the smell of rain on dry earth,",
-     "That’s exactly how \"fcLdksgj dh ekVh\" works.",
-     "To analyze its structure, first read the text once to get the gist.",
-     "Then, on a second reading, mark every shift in time (e.g., “आज”, “बचपन में”, “उन दिनों”)."
+     "'फणीश्वरनाथ रेणु की' का क्रम: शुरुआत फणीश्वरनाथ-रेणु-की से, घटनाएँ बढ़ती हैं, अंत 'फणीश्वरनाथ रेणु की' का केंद्रीय भाव और संदेश पर।"
     ]
    },
    {
@@ -1123,10 +1076,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing at the edge of your ancestral village pond during the first monsoon rain — what do you smell, hear, feel on your skin?",
-     "That immediate sensory immersion is exactly what the author creates in the opening paragraphs.",
-     "Begin by asking students to close their eyes and visualize the first scene: the pond (dey), the sound of rain on water, the smell of wet earth.",
-     "Then guide them to mark every sensory word in the first two pages — not just \"what happens\" but \"how it feels."
+     "'फणीश्वरनाथ रेणु की' का परिवेश: 'फणीश्वरनाथ रेणु की' — अंतराल भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्त — स्थान और समय मिलकर माहौल"
     ]
    },
    {
@@ -1142,10 +1092,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked to describe your younger self to a friend using only your most vivid childhood memories — what moments would you pick, and what",
-     "That's exactly what the narrator does in \"fcLdksgj dh ekVh\".",
-     "To begin, re-read the text marking every passage where the narrator describes his own feelings, actions, or thoughts (e.",
-     "Next, group these markings into clusters: curiosity, sensitivity, dependence on mother, growing awareness of mortality."
+     "मुख्य पात्र की पहचान, कार्य और विकास — 'फणीश्वरनाथ रेणु की' में फणीश्वरनाथ-रेणु-की से पात्र उभरता है।"
     ]
    },
    {
@@ -1194,10 +1141,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are flipping through an old family photo album: the main photo is you, but the people standing beside you — your sister pulling a face,",
-     "That is exactly what supporting characters do in this memoir.",
-     "Begin by listing every named and unnamed figure the narrator mentions.",
-     "Then ask: \"What does this person/animal reveal about the narrator's feelings, fears, or joys?"
+     "'फणीश्वरनाथ रेणु की' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।"
     ]
    },
    {
@@ -1209,16 +1153,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Nature (the pond, the seasons, the storm) provides the timeless backdrop against which the mother's rituals (lullabies, protective gestures, feeding) enact tradition",
      "A theme is the central abstract idea explored in the text (e.g., \"the irrevocable loss of childhood innocence\")"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' का मुख्य विषय' slide -- match the key terms.",
     "misconception": "A wrong answer that treats them as synonyms reveals the student cannot distinguish between the *subject of exploration* and the *author's conclusion* — a critical error in board answer writing where marks are awarded for precise terminology.",
     "id": "gen_c12_hin_al_ch02_q6",
     "nodeId": "c12_hin_al_cbse_02_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are trying to explain to a friend why this story about a village childhood still moves readers decades after it was written.",
-     "You would not just list events — you would search for the *core emotional truth* that ties the mother's lullaby, the monsoon storms, the taste of",
-     "Start by asking: \"What is the one thing the author wants me to feel and understand about childhood and memory?",
-     "The key insight is that the theme is not \"childhood is happy\" but \"childhood is a complete universe that shapes our entire being, and its loss is the"
+     "सब घटनाएँ 'फणीश्वरनाथ रेणु की' में 'फणीश्वरनाथ रेणु की' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।"
     ]
    },
    {
@@ -1230,16 +1171,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The theme \"tradition vs. modernity\" (implied through the author's adult perspective looking back) is most significant because: (1) the narrator's educated",
      "A secondary theme is a recurring idea that supports or contrasts with the primary theme, explored through subordinate plotlines, motifs, or character arcs"
     ],
-    "hint": "Straight from the 'secondary theme' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' के गौण विषय' slide -- match the key terms.",
     "misconception": "A wrong answer that equates secondary theme with \"any topic mentioned in the story\" (e.g., \"ponds\" or \"fairs\") reveals the student confuses *subject* with *theme* — a theme must be a complete idea (e.g., \"The village pond symbolizes the cyclical nature of rural life\"), not a noun.",
     "id": "gen_c12_hin_al_ch02_q7",
     "nodeId": "c12_hin_al_cbse_02_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a film where the main story is a son returning to his ancestral village, but you also notice the crumbling haveli, the",
-     "Similarly, in this story, the primary theme is the author's nostalgic revisit to his childhood.",
-     "To find secondary themes, first re-read the text marking passages that describe nature (the pond, the seasons), social rituals (the fair, the",
-     "Ask: \"What idea does this pattern suggest beyond the main memory?\" Convert each pattern into a sentence like \"Nature acts as a silent chronicler of"
+     "'फणीश्वरनाथ रेणु की' में फणीश्वरनाथ-रेणु-की जैसे सहायक विचार आते हैं।"
     ]
    },
    {
@@ -1251,16 +1189,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "A discussion point is an open-ended, text-anchored prompt designed to initiate analytical dialogue among students, requiring them to interpret themes",
      "Imagery = भाषा जो पाँचों इंद्रियों (दृश्य, श्रवण, घ्राण, स्पर्श, स्वाद) को संबोधित करके मानसिक चित्र बनाती है। उदाहरण: \"बारिश की बूंदें टिन की छत पर मोतियों-सी टपक रही थीं\""
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' में बिंब' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Imagery = भाषा जो पाँचों इंद्रियों (दृश्य, श्रवण, घ्राण, स्पर्श, स्वाद) को संबोधित करके मानसिक चित्र बनाती है। उदाहरण:",
     "id": "gen_c12_hin_al_ch02_q8",
     "nodeId": "c12_hin_al_cbse_02_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in your grandmother's kitchen during monsoon: the smell of wet earth (मिट्टी की सौंधी गंध), the sound of rain on tin roofs",
-     "That sensory flood *is* imagery.",
-     "Now think: when the author says \"माँ का आँचल छाँव का घना पेड़ था\" (mother's आँचल was a dense tree of shade), she isn't just describing fabric — she",
-     "That is metaphor."
+     "'फणीश्वरनाथ रेणु की' में बिंब ढूँढिए — फणीश्वरनाथ-रेणु-की — ये दृश्य पाठ को जीवंत बनाते हैं।"
     ]
    },
    {
@@ -1272,16 +1207,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The story is told in first‑person retrospective narration (“मैं”) where the adult narrator looks back on his childhood",
      "Situational irony occurs when actions produce an outcome opposite to what was intended or expected"
     ],
-    "hint": "Straight from the 'Irony' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' में विरोधाभास' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"irony is when something funny happens\") shows the student confuses irony with humor or coincidence and cannot distinguish expectation-reversal from mere surprise.",
     "id": "gen_c12_hin_al_ch02_q9",
     "nodeId": "c12_hin_al_cbse_02_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're re-reading a childhood diary and suddenly notice that the \"monster under the bed\" you feared was actually your mother's way of keeping",
-     "Now think of the butterfly in the story: its wing-patterns that look like eyes aren't just decoration; they symbolize the mother's ever-watchful love.",
-     "To begin, re-read the sections where the narrator describes the mother's charms (iwQy) and the butterfly episode.",
-     "First, mark every moment where the narrator's adult voice comments on his child-self's belief."
+     "'फणीश्वरनाथ रेणु की' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।"
     ]
    },
    {
@@ -1341,10 +1273,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_010",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are reading the passage where the author describes the monsoon night: \"बिजली की चमक में मेंढकों की टर्र-टर्र, झींगुरों की झनझनाहट.",
-     "Start by asking: *Which words in this chapter make me hear, smell, or feel the village?* First, list the 15 NCERT glossary words.",
-     "Second, find each word in the text and note the sentence it appears in.",
-     "Third, ask: *Is this a standard Hindi word, a dialect word (आंचलिक), or a sound-word (ध्वन्यात्मक)?"
+     "'फणीश्वरनाथ रेणु की' के मुख्य शब्द: फणीश्वरनाथ-रेणु-की — इनका अर्थ जानिए।"
     ]
    },
    {
@@ -1404,10 +1333,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_011",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are listening to your grandmother narrate a childhood memory — her sentences ripple with village rhythms, proverbs tumble out naturally,",
-     "That is exactly what Fo'oukFk does in \"fcLdksgj dh ekVh\".",
-     "Begin by reading a two-paragraph segment aloud, noticing where the language feels \"spoken\" rather than \"written\".",
-     "Mark every verb ending, every address term (tu/tum/aap), every proverb, and every sound-word."
+     "'फणीश्वरनाथ रेणु की' की भाषा देखिए — NCERT पाठ्यपुस्तक का शब्द-चयन और शैली भाव बनाती है।"
     ]
    },
    {
@@ -1419,16 +1345,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "(sample): 1. Phrase: \"माँ का आँचल छाँव का घना पेड़ था\" → Vehicle: घना पेड़ (dense tree) | Tenor: माँ का आँचल/स्नेह (mother's love) | Transferred quality: शीतलता, सुरक्षा, विस्तार",
      "यह शाब्दिक (literal) प्रश्न है क्योंकि इसका उत्तर पाठ में स्पष्ट रूप से लिखा है: \"कौए, गौरैया, तोते, मैना, कोयल, बया"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' के' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: यह शाब्दिक (literal) प्रश्न है क्योंकि इसका उत्तर पाठ में स्पष्ट रूप से लिखा है: \"कौए, गौरैया, तोते, मैना, कोयल, बया,",
     "id": "gen_c12_hin_al_ch02_q12",
     "nodeId": "c12_hin_al_cbse_02_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting in the CBSE Class 12 Hindi board exam and see a question: \"फूलकुंवर की माँ ने उसे कैसे बड़ा किया?",
-     "Start by asking: \"Is this asking for a fact I can point to (literal) or a conclusion I must build (inferential)?",
-     "For literal questions, underline the exact lines.",
-     "For inferential ones, gather 3-4 scattered details (mother's lullabies, her protecting him from snakes, her grinding grain at night) and synthesize:"
+     "'फणीश्वरनाथ रेणु की' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय 'फणीश्वरनाथ रेणु की' का केंद्रीय भाव और संदेश।"
     ]
    },
    {
@@ -1488,10 +1411,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_02_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are asked: \"The author says 'izÑfr ltho ukjh cu xbZ' (the situation became very strange).",
-     "Is she describing the childhood event or her adult act of writing?\" Start by identifying the two narrative 'I's in the text — the experiencing child",
-     "Next, trace how the adult narrator interrupts the child's perspective with phrases like \"fclukFk dks viuh ek¡ osQ isV dk jax gYnh feykdj cukbZ xbZ",
-     "Then, collect evidence where folk songs (e.g., \"iwQy f[kys] f[kys iwQy\") function not as decoration but as structural markers of emotional"
+     "'फणीश्वरनाथ रेणु की' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।"
     ]
    },
    {
@@ -1504,16 +1424,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "PEEL stands for Poor, Evidence, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' पर' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explain, Line\") reveals the student has memorized a mnemonic without understanding the *function* of each step — they will likely write a paragraph that lists quotes without analyzing them or connecting back to the question.",
     "id": "gen_c12_hin_al_ch02_q14",
     "nodeId": "c12_hin_al_cbse_02_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you sit in the exam hall and see: \"Analyze how the author uses sensory imagery to recreate the village atmosphere in 'fcLdksgj dh ekVh'.",
-     "First, read the question twice and underline keywords: \"sensory imagery\", \"village atmosphere\", \"analyze\".",
-     "Next, flip mentally to the text: recall the smells of *dey* (curd), sounds of *khall* (cowshed), sights of *lil?kkM+k* (fireflies).",
-     "Now, structure: Point — The author uses olfactory and auditory imagery to immerse the reader."
+     "'फणीश्वरनाथ रेणु की' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।"
     ]
    },
    {
@@ -1525,16 +1442,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The story is told in first‑person retrospective narration (“मैं”) where the adult narrator looks back on his childhood",
      "A discussion point is an open-ended, text-anchored prompt designed to initiate analytical dialogue among students, requiring them to interpret themes"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the ''फणीश्वरनाथ रेणु की' पर' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to test if students remember the plot\") reveals the student confuses discussion with comprehension recall; discussion points assess higher-order thinking (analysis, evaluation), not factual retrieval.",
     "id": "gen_c12_hin_al_ch02_q15",
     "nodeId": "c12_hin_al_cbse_02_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are in a literature circle where your group must discuss: \"How does the author's portrayal of his mother reflect the changing role of",
-     "Start by anchoring yourself in the text: recall the scene where the mother feeds the child while working in the fields, or the description of her",
-     "Notice how the author uses sensory details (the smell of *dey*, the sound of *riyan*) to show her tireless routine.",
-     "Next, connect this to the broader theme: the mother is not just a nurturer but the economic backbone of the household."
+     "'फणीश्वरनाथ रेणु की' का वाचन कीजिए — फिर चर्चा में राय रखिए।"
     ]
    },
    {
@@ -1711,23 +1625,25 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about बस्किोहर की माटी — पृष्ठभूमि और रचनाकार परिचय?",
+    "What surprised you about इस पाठ का पृष्ठभूमि और रचनाकार?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "बस्किोहर की माटी — पृष्ठभूमि mastered! 🎯",
+  "successLine": "इस पाठ का पृष्ठभूमि और रचनाकार mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_hin_al_ch03",
-  "title": "अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और",
+  "title": "'कंकाल में टमाटर की खेती' का",
   "subtitle": "Hindi · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "hindi",
-  "topic": "अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और",
-  "chapters": ["Hindi Ch3: अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और"],
+  "topic": "'कंकाल में टमाटर की खेती' का",
+  "chapters": [
+   "Hindi Ch3: 'कंकाल में टमाटर की खेती' का"
+  ],
   "nodeIds": [
    "c12_hin_al_cbse_03_001",
    "c12_hin_al_cbse_03_002",
@@ -1751,97 +1667,97 @@ export const C12_HIN_AL_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses अपना मालवा-खाऊ-उजाड़ू सभ्यता में in real working life?",
+   "question": "Who uses 'कंकाल में टमाटर की खेती' का in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "The \"Before You Read: Context and Background\" section provides essential historical, geographical, biographical, and thematic framing for the chapter"
+   "hook": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'कंकाल में टमाटर की खेती' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ"
   },
   "teaching": [
    {
     "title": "इस पाठ का पृष्ठभूमि और रचनाकार",
-    "text": "The \"Before You Read: Context and Background\" section provides essential historical, geographical, biographical, and thematic framing for the chapter \"viuk ekyok\" (My Country) by Shivani (izkHkk\"k tks'kh), enabling students to situate the author's nostalgic",
+    "text": "इस पाठ का पृष्ठभूमि और रचनाकार परिचय — 'कंकाल में टमाटर की खेती' NCERT पाठ्यपुस्तक द्वारा रचित पाठ है। रचनाकार का जीवन, काल और साहित्यिक परिवेश पाठ की व्याख्या की कुंजी है।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
     "title": "'कंकाल में टमाटर की खेती' का",
-    "text": "Plot and narrative structure in a non-fictional memoir like \"viuk ekyok\" refers to the chronological and thematic arrangement of events, memories, and reflections that the author uses to depict the transformation of a village over time — moving from a past of",
+    "text": "'कंकाल में टमाटर की खेती' का कथानक — 'कंकाल में टमाटर की खेती' — अंतराल भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्यपुस्तक के अनुरूप।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Setting And Atmosphere",
-    "text": "Setting and Atmosphere refers to the physical, temporal, and social environment in which a narrative unfolds, and the emotional mood or tone that environment evokes in the reader.",
+    "title": "'कंकाल में टमाटर की खेती' का",
+    "text": "'कंकाल में टमाटर की खेती' का पाठ्य-परिवेश (setting) — पाठ किस स्थान, समय और वातावरण में घटित है।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis Of The Protagonist",
-    "text": "Character analysis of the protagonist involves examining the narrator's personality, motivations, emotional journey, and transformation through his reflections on childhood memories, his relationship with nature, and his critique of unchecked development in",
+    "title": "'कंकाल में टमाटर की खेती' का",
+    "text": "'कंकाल में टमाटर की खेती' का पात्र-चित्रण — मुख्य पात्र की प्रकृति, क्रिया और विकास।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Supporting Characters",
-    "text": "Supporting characters are figures in a narrative who interact with the protagonist to advance the plot, reveal thematic concerns, and illuminate the protagonist's traits through contrast or parallelism.",
+    "title": "'कंकाल में टमाटर की खेती' के",
+    "text": "'कंकाल में टमाटर की खेती' के सहायक पात्र — वे चरित्र जो मुख्य पात्र के साथ पाठ को आगे बढ़ाते हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Primary Theme Of a Literary Work",
-    "text": "The primary theme of a literary work is its central, unifying idea or universal truth about human experience that the author conveys through plot, character, setting, and conflict; the message is the specific moral, warning, or insight the author intends the",
+    "title": "'कंकाल में टमाटर की खेती' का",
+    "text": "'कंकाल में टमाटर की खेती' का मुख्य विषय — 'कंकाल में टमाटर की खेती' का केंद्रीय भाव और संदेश",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Secondary Themes",
-    "text": "Secondary themes are the underlying ideas, concerns, or motifs that run parallel to the primary theme in a literary work, enriching the narrative by adding layers of meaning, social commentary, or emotional depth.",
+    "title": "'कंकाल में टमाटर की खेती' के",
+    "text": "'कंकाल में टमाटर की खेती' के गौण विषय — मुख्य विषय के साथ चलने वाले सहायक विचार।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is the use of vivid, sensory language that appeals to the five senses (sight, sound, smell, touch, taste) to create mental pictures and evoke emotions.",
+    "title": "'कंकाल में टमाटर की खेती' में",
+    "text": "'कंकाल में टमाटर की खेती' में बिंब (imagery) — शब्दों से बने जीवंत दृश्य।",
     "emoji": "📖",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Irony In This Chapter",
-    "text": "Irony in this chapter is the contrast between the stated ideal of \"industrial development\" (mtkM+w lH;rk) and the lived reality of ecological destruction and cultural loss; symbolism is the use of concrete elements — the river Banki, the felled trees, the",
+    "title": "'कंकाल में टमाटर की खेती' में",
+    "text": "'कंकाल में टमाटर की खेती' में विरोधाभास — विपरीत बातें मिलकर गहरा सत्य बनाती हैं।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning of words and phrases as they are used in a specific literary text, distinguishing between dictionary definitions and contextually nuanced meanings shaped by the author's tone,",
+    "title": "'कंकाल में टमाटर की खेती' की",
+    "text": "'कंकाल में टमाटर की खेती' की पदावली — मुख्य शब्द और प्रयोग जो पाठ-बोध की कुंजी हैं।",
     "emoji": "📖",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Literal Comprehension Questions Require",
-    "text": "Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions demand logical conclusions drawn by combining textual evidence with prior knowledge and reasoning.",
+    "title": "'कंकाल में टमाटर की खेती' के",
+    "text": "'कंकाल में टमाटर की खेती' के वस्तुनिष्ठ प्रश्न — उत्तर पाठ में सीधे लिखे हैं।",
     "emoji": "📖",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Critical Thinking In Literary Analysis",
-    "text": "Critical thinking in literary analysis refers to the ability to go beyond surface-level comprehension by examining how an author uses language, structure, and literary devices to construct meaning, convey a perspective, and critique societal issues, requiring",
+    "title": "'कंकाल में टमाटर की खेती' का",
+    "text": "'कंकाल में टमाटर की खेती' का आलोचनात्मक चिंतन — विश्लेषण करके प्रमाण-आधारित निष्कर्ष।",
     "emoji": "📖",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Writing Skills Based On The Chapter",
-    "text": "Writing Skills based on the chapter refers to the ability to compose structured, evidence-based responses — such as analytical paragraphs, thematic essays, character sketches, and critical commentaries — that demonstrate deep engagement with the text \"Kankar",
+    "title": "'कंकाल में टमाटर की खेती' पर",
+    "text": "'कंकाल में टमाटर की खेती' पर पाठ-आधारित लेखन — पाठ से प्रमाण लेकर उत्तर की पुष्टि।",
     "emoji": "📖",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Speaking And Listening",
-    "text": "Speaking and Listening: Discussion Points refers to structured oral activities where students articulate interpretations, debate perspectives, and actively listen to peers' views on the chapter's themes — environmental degradation, development vs.",
+    "title": "'कंकाल में टमाटर की खेती' पर",
+    "text": "'कंकाल में टमाटर की खेती' पर वाचन-श्रवण और चर्चा-बिंदु — पढ़ने, सुनने और विचार-विमर्श का कौशल।",
     "emoji": "📖",
     "bgColor": "from-rose-400 to-pink-500"
    }
@@ -1856,16 +1772,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Rewritten: \"The impossibility of purity appears through ruthless destruction.\" Here 'foiqyrk' refers to ecological and cultural purity",
      "The text cites annual rainfall records: only one year (1899) had \"flI+kZQ 15-75 bap\" (15-75 inches) rainfall in 128 years; 1973 recorded 77 inches"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"temperature data\" or \"deforestation rates\") reveals the student has not distinguished between the *quantitative meteorological evidence* (rainfall) and the *qualitative ecological consequences* (drying springs, lost forests) that the rainfall data *explains*.",
     "id": "gen_c12_hin_al_ch03_q1",
     "nodeId": "c12_hin_al_cbse_03_001",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are standing in a once-lush Himalayan village where elders still whisper about \"ekyo èkjrh xgu xaHkhj\" — air so cold and sweet it felt",
-     "Now the springs are dry, the oak forests replaced by concrete, and the same elders ask: \"Why does development feel like destruction?",
-     "First, we identify the author: Shivani (Priyamvada Singh), a pioneering Hindi writer-journalist from Almora who witnessed this transformation",
-     "Next, we examine the geographical anchor — bankSj (Binsar) in Kumaon — using the NCERT's own 128-year rainfall data (1878-1973) as scientific"
+     "पहले रचनाकार: NCERT पाठ्यपुस्तक। फिर काल। फिर 'कंकाल में टमाटर की खेती' का संदर्भ — 'कंकाल में टमाटर की खेती' का केंद्रीय भाव और संदेश। रचनाकार और"
     ]
    },
    {
@@ -1914,10 +1827,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_03_002",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're standing at the edge of your ancestral village after 20 years — the mango grove is a factory, the river is a drain, the courtyard",
-     "How would you tell that story?",
-     "IzHkk\"k tks'kh doesn't start with statistics; he starts with a walk.",
-     "The narrative structure IS that walk: each step forward in space is a step backward in time."
+     "'कंकाल में टमाटर की खेती' का क्रम: शुरुआत कंकाल-में-टमाटर-की-खेती से, घटनाएँ बढ़ती हैं, अंत 'कंकाल में टमाटर की खेती' का केंद्रीय भाव और संदेश पर।"
     ]
    },
    {
@@ -1929,16 +1839,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The title means \"In the grip of drought/famine\" where \"kkmQ\" (drought/famine) and \"mtkM+\" (soil/earth/land) form the central metaphor",
      "Setting is the *where, when, and social context* of a story (physical location, time period, cultural milieu)"
     ],
-    "hint": "Straight from the 'Setting and Atmosphere' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' का' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"setting is the mood\") reveals confusion between the objective facts of the world and the subjective emotional effect — a critical error in board answers where you must cite textual evidence for setting *then* interpret its atmospheric effect.",
     "id": "gen_c12_hin_al_ch03_q3",
     "nodeId": "c12_hin_al_cbse_03_003",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you visit your ancestral village after ten years and find the mango grove replaced by a factory chimney belching smoke — the air tastes of",
-     "That visceral shock is exactly what Izhar Tusi Khan makes you feel through setting and atmosphere.",
-     "Begin by listing every sensory detail the text gives: the \"dark lanes,\" \"muddy paths,\" \"women on rooftops,\" \"first monsoon,\" \"factory chimneys,\"",
-     "Not just \"sadness\" — identify the specific *quality*: elegiac (mourning a lost world), suffocating (physical pollution mirroring spiritual decay),"
+     "'कंकाल में टमाटर की खेती' का परिवेश: 'कंकाल में टमाटर की खेती' — अंतराल भाग-2 का पाठ। पाठ का कथानक, पात्र और केंद्रीय भाव पाठ्य — स्थान और समय मिलकर"
     ]
    },
    {
@@ -1987,10 +1894,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
     "nodeId": "c12_hin_al_cbse_03_004",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you're sitting with your grandfather on a terrace in Mussoorie, and he points to a concrete mall where a forest once stood, saying \"Yahan",
-     "To analyze him, start by asking: \"What does he NOTICE that others ignore?\" (the disappearing clouds, the silenced streams).",
-     "Then trace his emotional arc: childhood wonder → adult grief → angry questioning.",
-     "Notice how he uses \"main\" (I) to claim responsibility — \"ge viuh thou i¼fr dks D;k le>rs gSa!\" — making the personal political."
+     "मुख्य पात्र की पहचान, कार्य और विकास — 'कंकाल में टमाटर की खेती' में कंकाल-में-टमाटर-की-खेती से पात्र उभरता है।"
     ]
    },
    {
@@ -2002,16 +1906,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "A secondary theme is a supporting idea that runs alongside the primary theme, adding depth and complexity; it is not the central message but illuminates aspects of it",
      "The brothers are flejksy (elder) and fctokM+ (younger). flejksy is described as having a \"gj ukyk\" (thick/dense crop) and his house has \"gj igkM+h unh dh jiV ij ikuh\" (thick fog"
     ],
-    "hint": "Straight from the 'Supporting characters' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' के' slide -- match the key terms.",
     "misconception": "A wrong answer that treats both brothers as identical misses the text's deliberate contrast to show stratified impact of industrialization.",
     "id": "gen_c12_hin_al_ch03_q5",
     "nodeId": "c12_hin_al_cbse_03_005",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are visiting your ancestral village after a decade and find a factory where mango groves stood.",
-     "Your grandmother clings to old rituals, your cousin scrolls Instagram, and your uncle negotiates land prices.",
-     "That generational clash is exactly what Izhkk\"k tks'kh captures through supporting characters.",
-     "Begin by listing every named character besides the narrator."
+     "'कंकाल में टमाटर की खेती' में सहायक पात्र पहचानिए — जो मुख्य पात्र की सहायता करते हैं।"
     ]
    },
    {
@@ -2023,16 +1924,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "A secondary theme is a supporting idea that runs alongside the primary theme, adding depth and complexity; it is not the central message but illuminates aspects of it",
      "The title means \"In the grip of drought/famine\" where \"kkmQ\" (drought/famine) and \"mtkM+\" (soil/earth/land) form the central metaphor"
     ],
-    "hint": "Straight from the 'primary theme of a literary work' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' का' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"in the village of drought\") reveals the student misses the personification: the land (mtkM+) is the victim held in lH;rk (grip/clutches), not just a location.",
     "id": "gen_c12_hin_al_ch03_q6",
     "nodeId": "c12_hin_al_cbse_03_006",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing in a village where the earth has cracked into hexagonal tiles, where the riverbed is a graveyard of dead fish, and where",
-     "Now ask: how did this happen?",
-     "The author takes you through a 128-year memory of the same land — from 1878 when rain came gently, to 1973 when 77 inches fell but still the land",
-     "To begin, list every description of the land BEFORE the factories came and AFTER."
+     "सब घटनाएँ 'कंकाल में टमाटर की खेती' में 'कंकाल में टमाटर की खेती' का केंद्रीय भाव और संदेश की ओर ले जाती हैं — यही मुख्य विषय है।"
     ]
    },
    {
@@ -2044,16 +1942,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The story uses first-person narrative perspective (\"मैं\" voice). The protagonist is the narrator himself — Izzat Tiskh reflecting on his childhood in Kankal",
      "A secondary theme is a supporting idea that runs alongside the primary theme, adding depth and complexity; it is not the central message but illuminates aspects of it"
     ],
-    "hint": "Straight from the 'Secondary themes' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' के' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it's just a minor topic\" or \"it's the same as the main theme\") reveals the student cannot distinguish hierarchical thematic structure — they see themes as a flat list rather than a central argument with supporting pillars.",
     "id": "gen_c12_hin_al_ch03_q7",
     "nodeId": "c12_hin_al_cbse_03_007",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are watching a documentary about your grandmother's village — she describes lush fields, a flowing river, and festivals under banyan",
-     "The main story is \"development destroyed paradise,\" but the documentary also quietly shows: women walking miles for water, children coughing from",
-     "Those quiet stories are secondary themes.",
-     "In this chapter, start by re-reading the text with a highlighter, marking every passage that hints at a problem *other than* the main industrial"
+     "'कंकाल में टमाटर की खेती' में कंकाल-में-टमाटर-की-खेती जैसे सहायक विचार आते हैं।"
     ]
    },
    {
@@ -2065,16 +1960,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The title means \"In the grip of drought/famine\" where \"kkmQ\" (drought/famine) and \"mtkM+\" (soil/earth/land) form the central metaphor",
      "Imagery = language appealing to senses (e.g., the description of the river BankSj with its flowing water, birds, and cool breeze — visual, auditory, tactile)"
     ],
-    "hint": "Straight from the 'Imagery' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' में' slide -- match the key terms.",
     "misconception": "Wrong answer reveals: Student confuses imagery with mere adjectives (\"beautiful village\") or mistakes simile for metaphor (\"village *like* ash\").",
     "id": "gen_c12_hin_al_ch03_q8",
     "nodeId": "c12_hin_al_cbse_03_008",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are standing on the bank of the river BankSj described in the chapter — you hear the water, smell the wet earth, feel the cool breeze.",
-     "The author makes you *experience* the village before the factories arrive.",
-     "To begin analysis, read the text aloud and mark every phrase that triggers a sensory response (underline visual, circle auditory, box",
-     "Next, highlight every direct comparison where the author says X *is* Y (e.g., \"the country *became* ash\")."
+     "'कंकाल में टमाटर की खेती' में बिंब ढूँढिए — कंकाल-में-टमाटर-की-खेती — ये दृश्य पाठ को जीवंत बनाते हैं।"
     ]
    },
    {
@@ -2086,16 +1978,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Critical analysis means breaking down the text's components — such as contrast, imagery, irony, symbolism, and narrative voice",
      "Irony: a situation where the outcome is opposite to what is expected or intended (e.g., a fire station burning down)"
     ],
-    "hint": "Straight from the 'Irony in this chapter' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' में' slide -- match the key terms.",
     "misconception": "A wrong answer that swaps the definitions or gives only literary examples shows the student cannot distinguish the conceptual core from textual instances.",
     "id": "gen_c12_hin_al_ch03_q9",
     "nodeId": "c12_hin_al_cbse_03_009",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you visit your ancestral village after ten years and find a factory where the mango grove used to be — the sign at the gate says \"Progress",
-     "That gap between the label and the loss is irony; the mango tree stump you touch is a symbol.",
-     "Start by re-reading the chapter with two coloured pencils: mark every passage where the author says one thing but shows the opposite (irony), and",
-     "Then ask: what larger argument does each device serve?"
+     "'कंकाल में टमाटर की खेती' में विरोधाभास ढूँढिए — जहाँ विपरीत बातें मिलकर सच बनाती हैं।"
     ]
    },
    {
@@ -2107,16 +1996,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "A secondary theme is a supporting idea that runs alongside the primary theme, adding depth and complexity; it is not the central message but illuminates aspects of it",
      "In the chapter, 'fuFkjh' (फुफ्ख) means 'iSQyh, pedhyh' — the main, central, or primary village/settlement, not a political capital"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' की' slide -- match the key terms.",
     "misconception": "A wrong answer treating it as 'capital city' reveals the student relies solely on dictionary definitions without reading the surrounding context that establishes it as a village description.",
     "id": "gen_c12_hin_al_ch03_q10",
     "nodeId": "c12_hin_al_cbse_03_010",
     "difficulty": "standard",
     "workedExample": [
-     "Imagine you are reading the chapter and encounter the phrase \"vfÙk dh foiqyrk dh vk'ofLr\" — you know 'vfÙk' means 'cutting' from a dictionary, but",
-     "Start by locating the word in its sentence, then examine the surrounding sentences: the author describes trees being felled, crops failing, and the",
-     "The contextual meaning here is 'ruthless destruction of nature for development'.",
-     "Next, check the NCERT glossary entry: 'vfÙk — c<+k&p<+kdj] vfr'k;ksfDr esa'."
+     "'कंकाल में टमाटर की खेती' के मुख्य शब्द: कंकाल-में-टमाटर-की-खेती — इनका अर्थ जानिए।"
     ]
    },
    {
@@ -2128,16 +2014,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The comparison reveals that the author sees human settlement as *dependent* on nature's cycles, not separate from them",
      "A literal question's answer is explicitly stated in the text (e.g., \"Where was the author born?\")"
     ],
-    "hint": "Straight from the 'Literal comprehension questions' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' के' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty level with cognitive process — they don't grasp that inference is a specific reasoning skill, not merely a more complex literal search.",
     "id": "gen_c12_hin_al_ch03_q11",
     "nodeId": "c12_hin_al_cbse_03_012",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you are sitting in the exam hall and the first question asks: \"Why does the author say the village's 'cool breeze' has turned into 'hot wind'?",
-     "This is the inferential trap — the answer isn't written; it's hidden in the contrast between the author's childhood memories (cool, fragrant air) and",
-     "Start by reading the question twice, then hunt for keywords in the text.",
-     "For literal questions, put your finger on the sentence."
+     "'कंकाल में टमाटर की खेती' के तथ्य: रचनाकार NCERT पाठ्यपुस्तक, विषय 'कंकाल में टमाटर की खेती' का केंद्रीय भाव और संदेश।"
     ]
    },
    {
@@ -2149,16 +2032,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The story uses first-person narrative perspective (\"मैं\" voice). The protagonist is the narrator himself — Izzat Tiskh reflecting on his childhood in Kankal",
      "Critical analysis means breaking down the text's components — such as contrast, imagery, irony, symbolism, and narrative voice"
     ],
-    "hint": "Straight from the 'Critical thinking in literary' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' का' slide -- match the key terms.",
     "misconception": "A wrong answer that equates analysis with summary reveals the student is stuck at literal comprehension and cannot yet deconstruct authorial choices.",
     "id": "gen_c12_hin_al_ch03_q12",
     "nodeId": "c12_hin_al_cbse_03_013",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you return to your ancestral village after a decade and find the river you swam in has turned into a stinking drain, the mango groves are",
-     "You feel a deep sense of loss mixed with anger at what is called \"progress.\" The author, इज्जत सिंह, feels exactly this when he revisits बांकस.",
-     "To analyze his text critically, start by asking: \"What is the core conflict the author presents?",
-     "Next, trace how he builds this conflict — look for sharp contrasts (past vs. present), vivid imagery (the river then and now), and symbols (the मटका"
+     "'कंकाल में टमाटर की खेती' का विश्लेषण — NCERT पाठ्यपुस्तक का उद्देश्य क्या सफल हुआ? पाठ से प्रमाण दीजिए।"
     ]
    },
    {
@@ -2171,16 +2051,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "PEEL stands for Literal, Evidence, Explanation, Link",
      "PEEL stands for Point, Evidence, Explanation, Link"
     ],
-    "hint": "Straight from the 'Writing Skills based on the' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' पर' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Paragraph, Example, Explanation, Line\") reveals the student has memorised a mnemonic without understanding its function — they cannot map each letter to a writing step, so their answers lack logical flow and lose marks for structure.",
     "id": "gen_c12_hin_al_ch03_q13",
     "nodeId": "c12_hin_al_cbse_03_014",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine you open the board paper and see: \"The author calls industrial development 'maat ka vilakshan' — justify with two examples from the text.",
-     "Start by recalling the PEEL structure: make a clear Point, quote Evidence (a phrase or scene), Explain how it proves your point, then Link back to",
-     "First, identify the two most striking scenes — the vanished pond (pukhraj) and the factory smoke choking the mango groves.",
-     "Next, select crisp textual phrases: \"unh ukys lw[k x, ix&ix uhj\" and \"fcykoyh Hkj x;k gS."
+     "'कंकाल में टमाटर की खेती' से उद्धरण लीजिए और अपने उत्तर से जोड़िए।"
     ]
    },
    {
@@ -2192,16 +2069,13 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "A secondary theme is a supporting idea that runs alongside the primary theme, adding depth and complexity; it is not the central message but illuminates aspects of it",
      "The central conflict is the tension between industrial/technological development (represented by factories, pollution, concrete) and ecological/cultural preservation (clean river"
     ],
-    "hint": "Straight from the 'Speaking and Listening' slide -- match the key terms.",
+    "hint": "Straight from the ''कंकाल में टमाटर की खेती' पर' slide -- match the key terms.",
     "misconception": "A wrong answer like \"the author dislikes his hometown\" reveals the student has missed the systemic critique — they're personalizing a structural argument.",
     "id": "gen_c12_hin_al_ch03_q14",
     "nodeId": "c12_hin_al_cbse_03_015",
     "difficulty": "advanced",
     "workedExample": [
-     "Imagine your class is divided: half believe \"industrialization is necessary for progress\" and half argue \"it destroys our roots.",
-     "Start by asking students to read aloud the passage where the author describes the polluted river and the lost greenery (paragraphs 3-5).",
-     "Have them mark three vivid images that struck them.",
-     "Then pose the discussion prompt: \"क्या विकास का अर्थ केवल कारखाने और सड़कें हैं?\" Guide them to use the PEEL structure (Point, Evidence, Explanation,"
+     "'कंकाल में टमाटर की खेती' का वाचन कीजिए — फिर चर्चा में राय रखिए।"
     ]
    },
    {
@@ -2213,7 +2087,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The river transforms from a life-sustaining force (lnkuhjk — continuously flowing = life surviving) to a corpse (lw[k — dry, ix&ix uhj — dry and empty, ekyok lw[kk",
      "Shift 1: \"ekyo èkjrh\" (cold/sweet/fragrant) → \"unh ukys lw[k\" (warm/hot winds) — *thermal inversion*: the microclimate has warmed due to lost forest cover and concrete"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"air became hot\" misses the *causal chain*: forest loss → hydrological collapse → thermal shift → sensory death.",
     "id": "gen_c12_hin_al_ch03_q15",
     "nodeId": "c12_hin_al_cbse_03_001",
@@ -2228,7 +2102,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "Sentence: \"बांज के छांह से उतरते हुए गर्मियों में भी ठंडक का अहसास होता था... अब वह छांह नहीं रही।\" (Paraphrased from text: the coolness under oak shade in summers is gone)",
      "Shivani's journalism was explicitly advocacy-oriented — she used her column (\"tulÙkk\") to expose injustice (\"fouksck\"), defend rights (\"t;izdk'k\"), and question power (\"xkaèkh\")"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"she was a famous writer\") treats biography as trivia rather than *epistemological credential* — her authority to speak comes from a lifetime of *investigative, rights-based writing*.",
     "id": "gen_c12_hin_al_ch03_q16",
     "nodeId": "c12_hin_al_cbse_03_001",
@@ -2243,7 +2117,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "This is a literal answer because it directly restates the textual fact: the factory is being built *on* the riverbank",
      "Question 6: \"ys[kd dks D;ksa yxrk gS fd 'ge ftls fodkl dh vkS|ksfxd lH;rk dgrs gSa og mtkM+ dh vilH;rk gS'?"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Question 6: \"ys[kd dks D;ksa yxrk gS fd 'ge ftls fodkl dh vkS|ksfxd lH;rk dgrs gSa og mtkM+ dh vilH;rk gS'?",
     "id": "gen_c12_hin_al_ch03_q17",
     "nodeId": "c12_hin_al_cbse_03_001",
@@ -2258,7 +2132,7 @@ export const C12_HIN_AL_GEN: SimDef[] = [
      "The claim is *contradicted*. The text explicitly states: \"Our ancestors gave away the land for a pittance\" and \"We ourselves sold our shade-giving trees,\" showing the author holds",
      "The phrase inverts the usual agency: \"development\" (roads, buildings, machines) appears as human power, but the *consequence* — dried springs, dead oak trees, vanishing breezes"
     ],
-    "hint": "Straight from the '\"Before You Read' slide -- match the key terms.",
+    "hint": "Straight from the 'इस पाठ का पृष्ठभूमि और रचनाकार' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"development is bad because it destroys nature\") misses the *ironic structural reversal*: the author locates the failure not in human ethics but in the *planetary limit* — the soil simply cannot keep up.",
     "id": "gen_c12_hin_al_ch03_q18",
     "nodeId": "c12_hin_al_cbse_03_001",
@@ -2267,11 +2141,11 @@ export const C12_HIN_AL_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about अपना मालवा-खाऊ-उजाड़ू सभ्यता में — पृष्ठभूमि और?",
+    "What surprised you about 'कंकाल में टमाटर की खेती' का?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "अपना मालवा-खाऊ-उजाड़ू सभ्यता mastered! 🎯",
+  "successLine": "'कंकाल में टमाटर की खेती' का mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

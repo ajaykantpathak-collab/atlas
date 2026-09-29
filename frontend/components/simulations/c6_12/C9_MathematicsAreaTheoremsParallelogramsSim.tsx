@@ -1078,13 +1078,13 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ scale: 1.1, rotate: 5 }}
-            className="text-3xl p-2 bg-indigo-900/40 rounded-2xl border border-indigo-700/50 inline-block"
+            className="text-3xl p-2 bg-gold-900/40 rounded-2xl border border-gold-700/50 inline-block"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">Class 9 ICSE • Mathematics Suite (Nodes c9_math_041 to c9_math_050)</p>
+            <p className="text-xs text-gold-300 font-medium">Class 9 ICSE • Mathematics Suite (Nodes c9_math_041 to c9_math_050)</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -1095,7 +1095,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
             className={`px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase border ${
               difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border-emerald-700'
               : difficulty === 'advanced' ? 'bg-rose-950 text-rose-400 border-rose-700'
-              : 'bg-indigo-950 text-indigo-400 border-indigo-700'
+              : 'bg-gold-950 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1123,13 +1123,13 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
             <motion.div
               initial={{ scale: 0.98 }}
               animate={{ scale: 1 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/50"
+              className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/50"
             >
-              <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+              <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                 <span>🏛️</span> {SCENARIO.title}
               </h2>
               <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-400 mt-2 font-mono">{SCENARIO.context}</p>
+              <p className="text-xs text-gold-400 mt-2 font-mono">{SCENARIO.context}</p>
             </motion.div>
 
             <motion.div
@@ -1156,7 +1156,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                         ? 'bg-slate-900/60 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <div>
@@ -1186,7 +1186,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
                     aria-label="Enter Interactive Exploration Lab"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     Enter Interactive Exploration Lab →
                   </motion.button>
@@ -1216,14 +1216,14 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     onClick={() => setCurrentSlide(idx)}
                     aria-label={`Go to slide ${idx + 1}: ${step.title}`}
                     className={`px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
-                      currentSlide === idx ? 'bg-indigo-600 text-white shadow' : 'bg-slate-800 text-slate-400 hover:text-white'
+                      currentSlide === idx ? 'bg-gold-600 text-white shadow' : 'bg-slate-800 text-slate-400 hover:text-white'
                     }`}
                   >
                     {idx + 1}. {step.title.split(' ')[0]}
                   </motion.button>
                 ))}
               </div>
-              <span className="text-xs text-indigo-300 font-mono font-bold">Step {currentSlide + 1} / 5</span>
+              <span className="text-xs text-gold-300 font-mono font-bold">Step {currentSlide + 1} / 5</span>
             </motion.div>
 
             {/* Active Lab Card */}
@@ -1233,7 +1233,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
             >
               <div>
                 <h2 className="text-xl font-bold text-white flex items-center gap-2">
-                  <span className="text-indigo-400">🔬</span> {EXPLORATION_STEPS[currentSlide].title}
+                  <span className="text-gold-400">🔬</span> {EXPLORATION_STEPS[currentSlide].title}
                 </h2>
                 <p className="text-sm text-amber-300 font-medium mt-1">
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
@@ -1287,7 +1287,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     <motion.div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Horizontal Shear Offset (dx):</span>
-                        <span className="font-mono text-indigo-400 font-bold">{shearX} px</span>
+                        <span className="font-mono text-gold-400 font-bold">{shearX} px</span>
                       </div>
                       <input
                         type="range"
@@ -1299,13 +1299,13 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           setShearX(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </motion.div>
                     <motion.div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Base Length (AB):</span>
-                        <span className="font-mono text-indigo-400 font-bold">{baseLength} px</span>
+                        <span className="font-mono text-gold-400 font-bold">{baseLength} px</span>
                       </div>
                       <input
                         type="range"
@@ -1317,7 +1317,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           setBaseLength(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </motion.div>
                   </div>
@@ -1333,7 +1333,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     </div>
                     <div>
                       <span className="text-slate-400">Slant Length (AD):</span>
-                      <p className="text-lg font-black text-indigo-300">{Math.sqrt(shearX * shearX + perpHeight * perpHeight).toFixed(1)} units</p>
+                      <p className="text-lg font-black text-gold-300">{Math.sqrt(shearX * shearX + perpHeight * perpHeight).toFixed(1)} units</p>
                     </div>
                     <div>
                       <span className="text-slate-400">Theorem Status:</span>
@@ -1350,7 +1350,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     <motion.div
                       initial={{ scale: 0.95 }}
                       animate={{ scale: 1 }}
-                      className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/60 space-y-3"
+                      className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/60 space-y-3"
                     >
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1428,7 +1428,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                   >
                     <div>
                       <span className="text-slate-400">ar(Parallelogram):</span>
-                      <p className="text-base font-black text-indigo-400">{(baseLength * 100) / 100} u²</p>
+                      <p className="text-base font-black text-gold-400">{(baseLength * 100) / 100} u²</p>
                     </div>
                     <div>
                       <span className="text-slate-400">ar(Triangle ABC):</span>
@@ -1494,7 +1494,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     <motion.div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Circle Radius (r):</span>
-                        <span className="font-mono text-indigo-400 font-bold">{circleRadius} px</span>
+                        <span className="font-mono text-gold-400 font-bold">{circleRadius} px</span>
                       </div>
                       <input
                         type="range"
@@ -1506,7 +1506,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           setCircleRadius(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </motion.div>
                   </div>
@@ -1516,7 +1516,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     animate={{ opacity: 1 }}
                     className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono space-y-1 text-slate-300"
                   >
-                    <p className="text-indigo-300 font-bold">Pythagoras Deduction in ΔOMA (Right-angled at M):</p>
+                    <p className="text-gold-300 font-bold">Pythagoras Deduction in ΔOMA (Right-angled at M):</p>
                     <p>• r² = d² + (AB / 2)²  ⇒  {circleRadius}² = {chordDist}² + ({halfChordLength.toFixed(1)})²</p>
                     <p>• Chord Length AB = 2 × √({circleRadius}² - {chordDist}²) = <span className="text-emerald-400 font-bold">{fullChordLength.toFixed(1)} px</span></p>
                   </motion.div>
@@ -1611,7 +1611,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={handleAddStatsPoint}
                           aria-label="Add data point to dataset"
-                          className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                          className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                         >
                           + Add
                         </motion.button>
@@ -1626,7 +1626,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           whileTap={{ scale: 0.95 }}
                           onClick={() => handleRemoveStatsPoint(idx)}
                           aria-label={`Remove data value ${val}`}
-                          className="px-3 py-1.5 bg-indigo-950/80 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono font-bold hover:bg-rose-900/60 hover:border-rose-600"
+                          className="px-3 py-1.5 bg-gold-950/80 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono font-bold hover:bg-rose-900/60 hover:border-rose-600"
                         >
                           {val} ✕
                         </motion.button>
@@ -1663,7 +1663,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     <motion.div
                       initial={{ scale: 0.95 }}
                       animate={{ scale: 1 }}
-                      className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-700/60 space-y-3"
+                      className="p-4 bg-gold-950/40 rounded-xl border border-gold-700/60 space-y-3"
                     >
                       <p className="text-sm font-semibold text-white">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -1713,7 +1713,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setCurrentSlide(s => s + 1)}
                   aria-label="Next Exploration Lab"
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                 >
                   Next Lab →
                 </motion.button>
@@ -1758,7 +1758,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                       onClick={() => setActiveGeoTab(tab)}
                       aria-label={`Switch to ${tab} sandbox`}
                       className={`px-3 py-1.5 rounded-lg capitalize font-bold transition-all ${
-                        activeGeoTab === tab ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'
+                        activeGeoTab === tab ? 'bg-gold-600 text-white' : 'text-slate-400 hover:text-white'
                       }`}
                     >
                       {tab}
@@ -1782,7 +1782,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                       value={shearX}
                       aria-label="Adjust parallelogram shear in sandbox"
                       onChange={(e) => setShearX(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </motion.div>
                 )}
@@ -1873,13 +1873,13 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                 <span className="text-slate-400 font-semibold">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-indigo-400 font-mono font-bold uppercase tracking-wider">
+                <span className="text-gold-400 font-mono font-bold uppercase tracking-wider">
                   Competency: {challenge.competencyLevel}
                 </span>
               </div>
               <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-pink-500 rounded-full"
                   initial={{ width: 0 }}
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                   transition={{ duration: 0.4 }}
@@ -1900,7 +1900,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                   <motion.span
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}
-                    className="text-xs px-2 py-0.5 bg-indigo-950 text-indigo-300 font-mono rounded border border-indigo-700"
+                    className="text-xs px-2 py-0.5 bg-gold-950 text-gold-300 font-mono rounded border border-gold-700"
                   >
                     {challenge.nodeId}
                   </motion.span>
@@ -1927,11 +1927,11 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           ? 'bg-rose-950/80 border-rose-500 text-rose-200'
                           : showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800'
                       }`}
                     >
                       <div>
-                        <span className="font-mono text-xs font-bold mr-2 text-indigo-400">({String.fromCharCode(65 + i)})</span>
+                        <span className="font-mono text-xs font-bold mr-2 text-gold-400">({String.fromCharCode(65 + i)})</span>
                         {opt}
                       </div>
                       {showExplanation && (
@@ -1957,7 +1957,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white font-mono text-sm cursor-grab shadow font-bold"
+                        className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-white font-mono text-sm cursor-grab shadow font-bold"
                       >
                         {item.label}
                       </motion.div>
@@ -1988,7 +1988,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={showExplanation}
                     aria-label="Verify Drag Labels"
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Verify Drag Labels
                   </motion.button>
@@ -2017,7 +2017,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-indigo-900 text-indigo-300 flex items-center justify-center font-mono text-[10px] font-bold">
+                      <span className="w-5 h-5 rounded-full bg-gold-900 text-gold-300 flex items-center justify-center font-mono text-[10px] font-bold">
                         {displayIndex + 1}
                       </span>
                       <span className="flex-1">{item}</span>
@@ -2031,7 +2031,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     onClick={handleSortSubmit}
                     disabled={showExplanation}
                     aria-label="Verify Proof Step Order"
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Verify Proof Order
                   </motion.button>
@@ -2049,7 +2049,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Enter numerical answer"
                       aria-label="Enter numerical answer"
-                      className="flex-1 px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none"
+                      className="flex-1 px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none"
                     />
                     {challenge.unit && (
                       <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
@@ -2060,7 +2060,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                       onClick={() => handleAnswer(numericInput)}
                       disabled={showExplanation || numericInput === ''}
                       aria-label="Submit numeric answer"
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow-lg"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg"
                     >
                       Check Answer
                     </motion.button>
@@ -2080,7 +2080,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
                         aria-label={`Add token ${part}`}
-                        className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-indigo-300 font-bold hover:bg-slate-700"
+                        className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-gold-300 font-bold hover:bg-slate-700"
                       >
                         + {part}
                       </motion.button>
@@ -2093,7 +2093,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-mono font-bold flex items-center gap-1.5"
+                        className="px-3 py-1 bg-gold-950 border border-gold-700 text-gold-200 rounded-lg text-xs font-mono font-bold flex items-center gap-1.5"
                       >
                         {part}
                         <motion.button
@@ -2118,7 +2118,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
                     aria-label="Verify formula construction"
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     Verify Formula
                   </motion.button>
@@ -2130,10 +2130,10 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-700/60 space-y-4"
+                  className="mt-6 p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-700/60 space-y-4"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-1.5">
+                    <span className="text-xs font-bold text-gold-300 uppercase tracking-wider flex items-center gap-1.5">
                       <span>📘</span> ICSE Model Reasoning & Proof Walkthrough
                     </span>
                   </div>
@@ -2150,7 +2150,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                           animate={{ opacity: 1, x: 0 }}
                           className="text-xs sm:text-sm text-slate-200 leading-relaxed font-sans flex items-start gap-1"
                         >
-                          <span className="font-mono text-indigo-400 font-bold mr-1">{i + 1}.</span>
+                          <span className="font-mono text-gold-400 font-bold mr-1">{i + 1}.</span>
                           <span>{sentence}{!sentence.endsWith('.') && '.'}</span>
                         </motion.p>
                       ))}
@@ -2163,7 +2163,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setRevealedSteps(s => s + 1)}
                         aria-label="Reveal Next Reasoning Step"
-                        className="px-4 py-2 bg-indigo-800 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold"
+                        className="px-4 py-2 bg-gold-800 hover:bg-gold-700 text-white rounded-xl text-xs font-bold"
                       >
                         Reveal Next Step →
                       </motion.button>
@@ -2197,18 +2197,18 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
             <motion.div
               initial={{ y: 20 }}
               animate={{ y: 0 }}
-              className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/60 text-center space-y-4"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/60 text-center space-y-4"
             >
               <span className="text-5xl">🏆</span>
               <h2 className="text-2xl sm:text-3xl font-black text-white">ICSE Mathematics Mastery Complete!</h2>
               <p className="text-base text-slate-300">
-                Final Accuracy Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="text-indigo-300 font-bold uppercase">{masteryLevel}</span>
+                Final Accuracy Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> | Level: <span className="text-gold-300 font-bold uppercase">{masteryLevel}</span>
               </p>
 
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 text-xs sm:text-sm text-indigo-200"
+                className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 text-xs sm:text-sm text-gold-200"
               >
                 {errors === 0
                   ? '🌟 Flawless Mastery! You have demonstrated comprehensive command of Class 9 geometry theorems and statistics.'
@@ -2222,9 +2222,9 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900 rounded-2xl border border-indigo-700/50 space-y-4"
+              className="p-6 bg-slate-900 rounded-2xl border border-gold-700/50 space-y-4"
             >
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                 <span>💭</span> Post-Simulation Deep Reflection
               </h3>
               <p className="text-xs text-slate-400">
@@ -2247,7 +2247,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                         const val = e.target.value;
                         setReflections(prev => ({ ...prev, [item.id]: val }));
                       }}
-                      className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder:text-slate-600 focus:border-indigo-500 outline-none"
+                      className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder:text-slate-600 focus:border-gold-500 outline-none"
                     />
                   </div>
                 ))}
@@ -2258,7 +2258,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSaveReflection}
                     aria-label="Save Reflection Responses"
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
                   >
                     {reflectionSaved ? '✓ Reflection Saved' : 'Save Reflections'}
                   </motion.button>
@@ -2311,7 +2311,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
               animate={{ opacity: 1, y: 0 }}
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
-              <h3 className="text-sm font-bold text-indigo-300 uppercase tracking-wider flex items-center gap-2">
+              <h3 className="text-sm font-bold text-gold-300 uppercase tracking-wider flex items-center gap-2">
                 <span>🏗️</span> Real-World Application Challenge: {REAL_WORLD_ACTIVITY.title}
               </h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
@@ -2322,7 +2322,7 @@ export default function C9_MathematicsAreaTheoremsParallelogramsSim({
                     whileHover={{ scale: 1.02 }}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2"
                   >
-                    <span className="text-indigo-400 font-mono font-bold">{idx + 1}.</span>
+                    <span className="text-gold-400 font-mono font-bold">{idx + 1}.</span>
                     <span>{step}</span>
                   </motion.div>
                 ))}

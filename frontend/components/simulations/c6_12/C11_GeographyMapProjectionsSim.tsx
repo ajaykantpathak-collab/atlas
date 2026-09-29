@@ -68,9 +68,9 @@ export function C11_GeographyMapProjectionsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700">🗺️</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🗺️</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 11 -- Map Projections</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Map Projections</span>
           <h1 className="text-xl md:text-2xl font-extrabold">The Lying Grid: Shape vs Area</h1>
         </div>
       </div>
@@ -130,7 +130,7 @@ export function C11_GeographyMapProjectionsSim() {
             <div className="grid grid-cols-3 gap-2">
               {(['mercator', 'equalarea', 'sinusoidal'] as Proj[]).map((p) => (
                 <button key={p} onClick={() => setProj(p)}
-                  className={`min-h-11 rounded-xl text-[10px] font-bold ${proj === p ? 'bg-indigo-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                  className={`min-h-11 rounded-xl text-[10px] font-bold ${proj === p ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                   {p === 'equalarea' ? 'Equal-area' : p === 'mercator' ? 'Mercator' : 'Sinusoidal'}
                 </button>
               ))}
@@ -168,8 +168,8 @@ export function C11_GeographyMapProjectionsSim() {
             </p>
           </div>
 
-          <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-            <p className="font-bold text-indigo-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Slide the circle from 0 to 80&deg; N on Mercator. At what latitude does area distortion pass x10?</p>
             <p>2. Switch to Equal-area at 60&deg; N. Area says x1.00 -- but look at the circle&apos;s shape. What did you trade away?</p>
           </div>

@@ -928,7 +928,7 @@ const RestrictionCleavageDiagram: React.FC<{
         )}
       </svg>
       <div className="mt-2 text-xs text-slate-300">
-        Recognition Sequence: <span className="font-mono text-cyan-400 font-bold">5'-GAATTC-3'</span> | Overhang: <span className="font-mono text-emerald-400 font-bold">5'-AATT-3'</span>
+        Recognition Sequence: <span className="font-mono text-gold-400 font-bold">5'-GAATTC-3'</span> | Overhang: <span className="font-mono text-emerald-400 font-bold">5'-AATT-3'</span>
       </div>
     </div>
   );
@@ -947,7 +947,7 @@ const ThermalCyclerDiagram: React.FC<{
 
   return (
     <div className="flex flex-col items-center justify-center p-4 bg-slate-900 rounded-xl border border-slate-700 shadow-inner">
-      <h4 className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2">
+      <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
         PCR Thermal Cycler Profile (Cycle {cycle})
       </h4>
       <svg width="320" height="150" viewBox="0 0 320 150">
@@ -986,7 +986,7 @@ const ThermalCyclerDiagram: React.FC<{
       <div className="mt-2 flex items-center justify-between w-full px-4 text-xs">
         <span className="text-slate-400">Current Temp: <strong className="text-amber-400">{temp}°C</strong></span>
         <span className="text-slate-400">Phase: <strong className="uppercase text-emerald-400">{phase}</strong></span>
-        <span className="text-slate-400">Yield: <strong className="text-cyan-400">{Math.pow(2, cycle)}x DNA</strong></span>
+        <span className="text-slate-400">Yield: <strong className="text-gold-400">{Math.pow(2, cycle)}x DNA</strong></span>
       </div>
     </div>
   );
@@ -1036,8 +1036,8 @@ const BlueWhitePlateDiagram: React.FC<{
         })}
       </svg>
       <div className="mt-3 flex gap-4 text-xs font-semibold">
-        <div className="flex items-center gap-1.5 text-blue-400">
-          <span className="w-3 h-3 rounded-full bg-blue-600 inline-block border border-blue-300"></span>
+        <div className="flex items-center gap-1.5 text-gold-400">
+          <span className="w-3 h-3 rounded-full bg-gold-600 inline-block border border-gold-300"></span>
           Blue (Non-Recombinants): {blueCount}
         </div>
         <div className="flex items-center gap-1.5 text-slate-200">
@@ -1481,7 +1481,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                 {PREDICTION_QUESTIONS.map((pred, i) => (
                   <div key={i} className="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Prediction #{i + 1}</span>
+                      <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Prediction #{i + 1}</span>
                       <span className="text-xs text-slate-500">Node: {pred.nodeId}</span>
                     </div>
                     <p className="text-xs font-semibold text-slate-200 leading-relaxed">{pred.question}</p>
@@ -1640,7 +1640,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                           }}
                           className={`py-2 rounded-lg text-xs font-bold border ${
                             extractionBuffer === b
-                              ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                              ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                               : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                           }`}
                         >
@@ -1656,7 +1656,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                         setPhaseSeparationStep((prev) => (prev + 1) % 4);
                         audioManager.play('whoosh');
                       }}
-                      className="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md transition-all"
+                      className="w-full py-3 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold shadow-md transition-all"
                     >
                       Advance Extraction Step (Current: Step {phaseSeparationStep + 1}/4)
                     </button>
@@ -1669,7 +1669,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                   
                   <div className="w-24 h-64 bg-slate-950 rounded-b-full border-2 border-slate-700 relative overflow-hidden flex flex-col justify-end p-1 shadow-inner">
                     {/* Aqueous Phase (Top) */}
-                    <div className="w-full h-1/2 bg-cyan-500/30 border-b border-cyan-400/50 flex items-center justify-center text-[10px] text-cyan-300 font-bold">
+                    <div className="w-full h-1/2 bg-gold-500/30 border-b border-gold-400/50 flex items-center justify-center text-[10px] text-gold-300 font-bold">
                       Aqueous (DNA/RNA)
                     </div>
 
@@ -1733,7 +1733,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                     <div className="space-y-2">
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Electric Field Voltage:</span>
-                        <strong className="text-cyan-400">{voltage} V</strong>
+                        <strong className="text-gold-400">{voltage} V</strong>
                       </div>
                       <input
                         type="range"
@@ -1818,7 +1818,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                       className={`w-full py-3 rounded-xl text-xs font-bold shadow-md transition-all ${
                         isPcrRunning
                           ? 'bg-slate-800 text-slate-500 cursor-not-allowed'
-                          : 'bg-cyan-600 hover:bg-cyan-500 text-white'
+                          : 'bg-gold-600 hover:bg-gold-500 text-white'
                       }`}
                     >
                       {isPcrRunning ? 'Cycling Thermal Block (5 Cycles)...' : 'Run Thermal Cycler Amplification'}
@@ -1827,7 +1827,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                     <div className="grid grid-cols-3 gap-2 text-center text-xs">
                       <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                         <div className="text-slate-400 text-[10px]">Total Cycles</div>
-                        <div className="text-cyan-400 font-extrabold text-sm">{pcrCycles}</div>
+                        <div className="text-gold-400 font-extrabold text-sm">{pcrCycles}</div>
                       </div>
                       <div className="bg-slate-950 p-2.5 rounded-lg border border-slate-800">
                         <div className="text-slate-400 text-[10px]">Amplification</div>
@@ -1858,9 +1858,9 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                     <div className="flex-1 relative my-2 bg-slate-900/40 rounded-lg border border-slate-800/60 p-2">
                       {/* Lane 1: Ladder */}
                       <div className="absolute left-6 top-0 bottom-0 w-8 border-r border-slate-800 flex flex-col justify-around items-center">
-                        <div className="w-6 h-1 bg-cyan-400 rounded-full opacity-90"></div>
-                        <div className="w-6 h-1 bg-cyan-400 rounded-full opacity-70"></div>
-                        <div className="w-6 h-1 bg-cyan-400 rounded-full opacity-50"></div>
+                        <div className="w-6 h-1 bg-gold-400 rounded-full opacity-90"></div>
+                        <div className="w-6 h-1 bg-gold-400 rounded-full opacity-70"></div>
+                        <div className="w-6 h-1 bg-gold-400 rounded-full opacity-50"></div>
                       </div>
 
                       {/* Lane 2: PCR Product */}
@@ -1904,11 +1904,11 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
                       }}
                       className={`p-4 rounded-xl text-left border ${
                         selectedColonyType === 'blue'
-                          ? 'bg-blue-950/60 border-blue-500 text-blue-200'
+                          ? 'bg-gold-950/60 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                       }`}
                     >
-                      <div className="font-bold text-xs text-blue-400 mb-1">Inspect Blue Colony</div>
+                      <div className="font-bold text-xs text-gold-400 mb-1">Inspect Blue Colony</div>
                       <div className="text-[11px] text-slate-400">Non-Recombinant Vector</div>
                     </button>
 
@@ -2140,8 +2140,8 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
         {activeTab === 'summary' && (
           <div className="space-y-6 animate-fadeIn">
             {/* Real World Activity Section */}
-            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950/50 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
-              <div className="flex items-center gap-2 text-cyan-400 font-bold text-xs uppercase tracking-wider">
+            <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-gold-950/50 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
                 <span>🏥 Clinical Industry Application</span>
               </div>
               <h2 className="text-xl font-extrabold text-white">{REAL_WORLD_ACTIVITY.title}</h2>
@@ -2150,7 +2150,7 @@ export const C12_BiotechGeneCloningCBSESim: React.FC<SimProps> = ({ onComplete, 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950/70 p-4 rounded-xl border border-slate-800/80 text-xs text-slate-300 space-y-1">
-                    <span className="font-bold text-cyan-400">Step {idx + 1}</span>
+                    <span className="font-bold text-gold-400">Step {idx + 1}</span>
                     <p>{step}</p>
                   </div>
                 ))}

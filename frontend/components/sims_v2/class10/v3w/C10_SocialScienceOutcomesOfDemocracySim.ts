@@ -11,7 +11,7 @@ export const w_c10_socialscienceoutcomesofdemocracysim: SimDef = {
     classLevel: 10, subject: 'science', topic: 'Accountable, Responsive and Legitimate Government Under Democracy',
     chapters: [],
     nodeIds: ['c10_civ_cbse_05_001', 'c10_civ_cbse_05_002', 'c10_civ_cbse_05_003', 'c10_civ_cbse_05_005', 'c10_civ_cbse_05_006', 'c10_civ_cbse_05_007', 'c10_civ_cbse_04_006', 'c10_civ_cbse_05_004', 'c10_civ_cbse_04_001', 'c10_civ_cbse_04_002', 'c10_civ_cbse_04_003', 'c10_civ_cbse_04_004', 'c10_civ_cbse_04_005', 'c10_civ_cbse_04_007', 'c10_civ_cbse_04_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 10 learner', intro: 'Imagine you applied for a scholarship under a government scheme but the money never reached your bank.', goal: 'Master Accountable, Responsive and Legitimate Government Under Democracy.' },
     discovery: {
         question: 'A municipal corporation fails to collect garbage in a ward for three months despite repeated complaints.',
@@ -20,7 +20,7 @@ export const w_c10_socialscienceoutcomesofdemocracysim: SimDef = {
         hook: 'Students often think **accountability = elections only**. They write: "Government is accountable because we can vote.',
     },
     teaching: [
-        { title: 'In a democracy, an **accountable.', text: 'In a democracy, an **accountable government** is one where rulers are answerable to citizens for their decisions and actions through institutional mechanisms like elections, parliamentary oversight,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'In a democracy, an **accountable.', text: 'In a democracy, an **accountable government** is one where rulers are answerable to citizens for their decisions and actions through institutional mechanisms like elections, parliamentary oversight,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c10_civ_cbse_05_001', title: 'In a democracy, an **accountable.',

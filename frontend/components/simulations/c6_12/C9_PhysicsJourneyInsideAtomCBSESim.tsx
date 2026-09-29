@@ -727,11 +727,11 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
       {/* TOP NAV BAR */}
       <header className="w-full max-w-6xl bg-slate-900/90 border border-slate-800 backdrop-blur rounded-xl p-3 sm:p-4 mb-4 flex flex-wrap items-center justify-between gap-3 shadow-2xl">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-white font-black text-xl shadow-lg">
+          <div className="w-10 h-10 rounded-lg bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-white font-black text-xl shadow-lg">
             ⚛
           </div>
           <div>
-            <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-cyan-400 via-indigo-300 to-purple-400 bg-clip-text text-transparent">
+            <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-purple-400 bg-clip-text text-transparent">
               Journey Inside the Atom
             </h1>
             <p className="text-xs text-slate-400">Class 9 CBSE Physics • Science Payload Diagnostics</p>
@@ -746,11 +746,11 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
             <div className="flex items-center space-x-2">
               <div className="w-24 h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
                 <div
-                  className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400 transition-all duration-500"
+                  className="h-full bg-gradient-to-r from-emerald-500 to-gold-400 transition-all duration-500"
                   style={{ width: `${Math.round(overallMastery * 100)}%` }}
                 />
               </div>
-              <span className="text-xs font-mono font-bold text-cyan-300">{Math.round(overallMastery * 100)}%</span>
+              <span className="text-xs font-mono font-bold text-gold-300">{Math.round(overallMastery * 100)}%</span>
             </div>
           </div>
 
@@ -791,7 +791,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
             }}
             className={`px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all duration-200 flex items-center space-x-2 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-600 to-indigo-600 text-white shadow-lg shadow-cyan-900/30 border border-cyan-400/30'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg shadow-gold-900/30 border border-gold-400/30'
                 : 'bg-slate-900/60 hover:bg-slate-800/80 text-slate-400 border border-slate-800'
             }`}
           >
@@ -806,8 +806,8 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
         {activeTab === 'guided' && (
           <div className="flex flex-col space-y-6">
             {/* Mission Briefing Banner */}
-            <div className="bg-gradient-to-r from-indigo-950/80 via-slate-900 to-cyan-950/80 border border-indigo-800/50 rounded-xl p-4">
-              <h2 className="text-base sm:text-lg font-bold text-cyan-300 mb-1">{SCENARIO.title}</h2>
+            <div className="bg-gradient-to-r from-gold-950/80 via-slate-900 to-gold-950/80 border border-gold-800/50 rounded-xl p-4">
+              <h2 className="text-base sm:text-lg font-bold text-gold-300 mb-1">{SCENARIO.title}</h2>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             </div>
 
@@ -832,11 +832,11 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                       }}
                       className={`w-full text-left p-3 rounded-lg text-xs sm:text-sm border transition-all ${
                         discoverySelected === idx
-                          ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200'
+                          ? 'bg-gold-950/80 border-gold-400 text-gold-200'
                           : 'bg-slate-800/60 border-slate-700/60 text-slate-300 hover:bg-slate-800'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                       {opt}
                     </button>
                   ))}
@@ -870,7 +870,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between">
               <div>
                 <div className="flex justify-between items-center mb-3">
-                  <span className="text-xs font-mono text-cyan-400 font-semibold uppercase tracking-wider">
+                  <span className="text-xs font-mono text-gold-400 font-semibold uppercase tracking-wider">
                     Slide {currentSlideIndex + 1} of {TEACHING_SLIDES.length}
                   </span>
                   <div className="flex space-x-1">
@@ -879,7 +879,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                         key={i}
                         onClick={() => setCurrentSlideIndex(i)}
                         className={`h-1.5 rounded-full cursor-pointer transition-all ${
-                          i === currentSlideIndex ? 'w-6 bg-cyan-400' : 'w-2 bg-slate-700'
+                          i === currentSlideIndex ? 'w-6 bg-gold-400' : 'w-2 bg-slate-700'
                         }`}
                       />
                     ))}
@@ -889,7 +889,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                 <h3 className="text-base sm:text-lg font-bold text-slate-100 mb-1">
                   {TEACHING_SLIDES[currentSlideIndex].title}
                 </h3>
-                <p className="text-xs text-cyan-300 font-medium mb-3">
+                <p className="text-xs text-gold-300 font-medium mb-3">
                   {TEACHING_SLIDES[currentSlideIndex].subtitle}
                 </p>
 
@@ -980,7 +980,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                   {TEACHING_SLIDES[currentSlideIndex].graphicType === 'isotopes_isobars' && (
                     <div className="grid grid-cols-2 gap-4 w-full text-xs">
                       <div className="bg-slate-900 p-2.5 rounded-lg border border-slate-800 text-center">
-                        <div className="font-bold text-cyan-300 mb-1">Isotopes (Same Z)</div>
+                        <div className="font-bold text-gold-300 mb-1">Isotopes (Same Z)</div>
                         <div className="text-slate-200 font-mono">
                           ¹H (Protium) | ²H (Deuterium) | ³H (Tritium)
                         </div>
@@ -999,7 +999,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                 <div className="space-y-1.5 my-3">
                   {TEACHING_SLIDES[currentSlideIndex].keyPoints.map((pt, idx) => (
                     <div key={idx} className="flex items-start space-x-2 text-xs text-slate-300">
-                      <span className="text-cyan-400 font-bold">•</span>
+                      <span className="text-gold-400 font-bold">•</span>
                       <span>{pt}</span>
                     </div>
                   ))}
@@ -1033,7 +1033,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                       if (soundEnabled) audioManager.play('celebration');
                     }
                   }}
-                  className="px-5 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-xs shadow-lg hover:from-cyan-400 hover:to-indigo-500 transition-all"
+                  className="px-5 py-2 rounded-lg bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all"
                 >
                   {currentSlideIndex < TEACHING_SLIDES.length - 1 ? 'Next Concept →' : 'Enter Rutherford & Bohr Lab 🚀'}
                 </button>
@@ -1067,7 +1067,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Nucleus Charge ($Z$):</span>
-                      <span className="font-mono text-cyan-300 font-bold">
+                      <span className="font-mono text-gold-300 font-bold">
                         {nucleusZ} ({nucleusZ === 79 ? 'Gold Au' : nucleusZ === 29 ? 'Copper Cu' : nucleusZ === 13 ? 'Aluminium Al' : 'Custom'})
                       </span>
                     </div>
@@ -1080,7 +1080,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                         setNucleusZ(Number(e.target.value));
                         if (soundEnabled) audioManager.play('swoop');
                       }}
-                      className="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                      className="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-gold-400"
                     />
                   </div>
 
@@ -1131,11 +1131,11 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col justify-between">
               <div>
                 <div className="flex justify-between items-center mb-3">
-                  <h3 className="text-sm font-bold text-cyan-300 flex items-center space-x-2">
+                  <h3 className="text-sm font-bold text-gold-300 flex items-center space-x-2">
                     <span>⚛️</span>
                     <span>2. Bohr Quantum Shell Sandbox</span>
                   </h3>
-                  <span className="text-[10px] bg-cyan-500/20 text-cyan-300 px-2 py-0.5 rounded font-mono">
+                  <span className="text-[10px] bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded font-mono">
                     Elements 1 to 20
                   </span>
                 </div>
@@ -1151,7 +1151,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                       }}
                       className={`px-2.5 py-1 rounded-lg text-xs font-mono font-bold transition-all shrink-0 ${
                         selectedZ === elem.z
-                          ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/40'
+                          ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/40'
                           : 'bg-slate-800 hover:bg-slate-700 text-slate-300'
                       }`}
                     >
@@ -1217,7 +1217,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                 <div className="grid grid-cols-2 gap-2 my-3 text-xs">
                   <div className="bg-slate-950 p-2 rounded-lg border border-slate-800">
                     <span className="text-slate-400 text-[10px]">Config: </span>
-                    <span className="font-mono text-cyan-300 font-bold">{currentElemData.shells.join(', ')}</span>
+                    <span className="font-mono text-gold-300 font-bold">{currentElemData.shells.join(', ')}</span>
                   </div>
                   <div className="bg-slate-950 p-2 rounded-lg border border-slate-800">
                     <span className="text-slate-400 text-[10px]">Valency: </span>
@@ -1240,7 +1240,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
         {activeTab === 'lab_isotopes' && (
           <div className="flex flex-col space-y-6">
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-5">
-              <h3 className="text-base font-bold text-cyan-300 mb-2 flex items-center space-x-2">
+              <h3 className="text-base font-bold text-gold-300 mb-2 flex items-center space-x-2">
                 <span>🧪</span>
                 <span>Fractional Average Atomic Mass Calculator</span>
               </h3>
@@ -1255,14 +1255,14 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>³⁵₁₇Cl Abundance:</span>
-                      <span className="font-mono text-cyan-300 font-bold">75%</span>
+                      <span className="font-mono text-gold-300 font-bold">75%</span>
                     </div>
                     <div className="w-full h-3 bg-slate-800 rounded-full overflow-hidden flex">
-                      <div className="h-full bg-cyan-500" style={{ width: '75%' }} />
+                      <div className="h-full bg-gold-500" style={{ width: '75%' }} />
                       <div className="h-full bg-purple-500" style={{ width: '25%' }} />
                     </div>
                     <div className="flex justify-between text-[10px] text-slate-400 mt-1">
-                      <span className="text-cyan-400 font-semibold">35 u (75%)</span>
+                      <span className="text-gold-400 font-semibold">35 u (75%)</span>
                       <span className="text-purple-400 font-semibold">37 u (25%)</span>
                     </div>
                   </div>
@@ -1288,7 +1288,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                     <div className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 flex items-center space-x-3">
                       <span className="text-lg">🩺</span>
                       <div>
-                        <div className="font-bold text-cyan-300">Cobalt-60 (⁶⁰Co)</div>
+                        <div className="font-bold text-gold-300">Cobalt-60 (⁶⁰Co)</div>
                         <div className="text-[11px] text-slate-400">Gamma radiotherapy for cancer treatment</div>
                       </div>
                     </div>
@@ -1312,7 +1312,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
           <div className="flex flex-col space-y-6">
             {/* Progress Bar for Challenges */}
             <div className="flex items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800">
-              <span className="text-xs font-mono text-cyan-300 font-bold">
+              <span className="text-xs font-mono text-gold-300 font-bold">
                 Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
               </span>
               <div className="flex space-x-1.5">
@@ -1323,7 +1323,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                       completedChallenges[ch.id]
                         ? 'bg-emerald-400 shadow-sm shadow-emerald-400'
                         : idx === currentChallengeIdx
-                        ? 'bg-cyan-400 ring-2 ring-cyan-300/50'
+                        ? 'bg-gold-400 ring-2 ring-gold-300/50'
                         : 'bg-slate-800'
                     }`}
                   />
@@ -1357,11 +1357,11 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                         }}
                         className={`w-full text-left p-3 rounded-xl text-xs sm:text-sm border transition-all ${
                           selectedMcqOption === idx
-                            ? 'bg-cyan-950/80 border-cyan-400 text-cyan-200 shadow-md'
+                            ? 'bg-gold-950/80 border-gold-400 text-gold-200 shadow-md'
                             : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800'
                         }`}
                       >
-                        <span className="font-bold mr-2 text-cyan-400">{String.fromCharCode(65 + idx)}.</span>
+                        <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                         {opt}
                       </button>
                     ))}
@@ -1379,10 +1379,10 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                         value={numericAnswer}
                         onChange={(e) => setNumericAnswer(e.target.value)}
                         placeholder="e.g. 14"
-                        className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-slate-100 font-mono text-sm focus:outline-none focus:border-cyan-400"
+                        className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-slate-100 font-mono text-sm focus:outline-none focus:border-gold-400"
                       />
                       {CHALLENGES[currentChallengeIdx].unit && (
-                        <span className="text-xs font-mono text-cyan-300 font-bold">
+                        <span className="text-xs font-mono text-gold-300 font-bold">
                           {CHALLENGES[currentChallengeIdx].unit}
                         </span>
                       )}
@@ -1425,7 +1425,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
                         ? selectedMcqOption === null
                         : numericAnswer.trim() === ''
                     }
-                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-bold text-xs sm:text-sm shadow-lg hover:from-cyan-400 hover:to-indigo-500 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs sm:text-sm shadow-lg hover:from-gold-400 hover:to-gold-500 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     Submit Answer
                   </button>
@@ -1446,7 +1446,7 @@ const C9_PhysicsJourneyInsideAtomCBSESim: React.FC = () => {
         {activeTab === 'misconceptions' && (
           <div className="flex flex-col space-y-4">
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-4">
-              <h3 className="text-base font-bold text-cyan-300 mb-1">Common Subatomic Misconceptions</h3>
+              <h3 className="text-base font-bold text-gold-300 mb-1">Common Subatomic Misconceptions</h3>
               <p className="text-xs text-slate-400 mb-4">
                 Review these essential physics distinctions to prevent exam traps!
               </p>

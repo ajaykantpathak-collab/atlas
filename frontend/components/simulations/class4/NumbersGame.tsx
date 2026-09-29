@@ -204,7 +204,7 @@ function ManojMascot({ mood, speaking }: { mood: MascotMood; speaking: string | 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-200"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -367,7 +367,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "6-Digit Numbers & Indian System! 🇮🇳",
     text: "A 6-digit number goes from 1,00,000 (one lakh) up to 9,99,999. In the Indian system, commas are placed after lakhs and after thousands: 2,45,318!",
     emoji: "📊",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "A 6-digit number goes from 1,00,000 up to 9,99,999. In the Indian system, commas are placed after lakhs and thousands: 2,45,318!",
   },
   {
@@ -388,7 +388,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Greatest & Smallest Numbers! 👑",
     text: "To make the greatest number, arrange digits in descending order. To make the smallest number, arrange in ascending order — but NEVER start with 0!",
     emoji: "👑",
-    bgColor: "from-purple-500 to-indigo-600",
+    bgColor: "from-purple-500 to-gold-600",
     spoken: "To make the greatest number, arrange digits in descending order. To make the smallest number, arrange in ascending order, but never start with zero!",
   },
   {
@@ -770,7 +770,7 @@ export function NumbersGame({ width = 720, height = 560, onComplete }: NumbersGa
                 if (slideIdx > 0) setSlideIdx(prev => prev - 1);
               }}
               disabled={slideIdx === 0}
-              className={`px-6 py-3 rounded-2xl font-bold shadow-lg text-white ${slideIdx === 0 ? 'bg-gray-400 opacity-50' : 'bg-indigo-600 hover:bg-indigo-500'}`}
+              className={`px-6 py-3 rounded-2xl font-bold shadow-lg text-white ${slideIdx === 0 ? 'bg-gray-400 opacity-50' : 'bg-gold-600 hover:bg-gold-500'}`}
             >
               Previous
             </button>
@@ -808,12 +808,12 @@ export function NumbersGame({ width = 720, height = 560, onComplete }: NumbersGa
               >
                 💡 Hint
               </button>
-              <span className="text-sm font-black text-indigo-700">Score: {score}</span>
+              <span className="text-sm font-black text-gold-700">Score: {score}</span>
             </div>
           </div>
 
           {/* Question Box */}
-          <div className="bg-white/95 backdrop-blur rounded-2xl p-4 shadow-lg mx-2 my-2 border-2 border-indigo-200">
+          <div className="bg-white/95 backdrop-blur rounded-2xl p-4 shadow-lg mx-2 my-2 border-2 border-gold-200">
             <h3 className="text-base font-black text-gray-800 text-center">{currentChallenge.question}</h3>
           </div>
 
@@ -824,7 +824,7 @@ export function NumbersGame({ width = 720, height = 560, onComplete }: NumbersGa
                 {currentChallenge.options.map((opt, i) => {
                   const isSelected = selectedOpt === opt;
                   const isCorrectOpt = opt === currentChallenge.answer;
-                  let btnColor = 'bg-white hover:bg-indigo-50 text-indigo-900 border-indigo-200';
+                  let btnColor = 'bg-white hover:bg-gold-50 text-gold-900 border-gold-200';
                   if (selectedOpt) {
                     if (isCorrectOpt) btnColor = 'bg-emerald-500 text-white border-emerald-600';
                     else if (isSelected) btnColor = 'bg-rose-500 text-white border-rose-600';

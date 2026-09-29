@@ -61,12 +61,8 @@ const SUBJECT_CHAPTERS: Record<Subject, string[]> = {
   computer_science: ["Programming", "Data Structures", "Databases", "Networks"],
 };
 
-import { isJunior } from '@/lib/classBands'
-
 function chaptersFor(subject: Subject, classLevel?: number | null): string[] {
-  // Junior is classes 1-5 (see lib/classBands). This read `<= 8`, so the
-  // junior chapter list was handed to classes 6, 7 and 8 as well.
-  if (isJunior(classLevel)) return SUBJECT_CHAPTERS_JUNIOR[subject] ?? SUBJECT_CHAPTERS[subject];
+  if (classLevel && classLevel <= 8) return SUBJECT_CHAPTERS_JUNIOR[subject] ?? SUBJECT_CHAPTERS[subject];
   return SUBJECT_CHAPTERS[subject];
 }
 type Phase = "setup" | "active" | "calculating" | "results" | "remediation";
@@ -775,17 +771,17 @@ function SubjectCard({
   onClick: () => void;
 }) {
   const colors: Record<Subject, string> = {
-    math: "from-blue-500 to-indigo-600",
+    math: "from-gold-500 to-gold-600",
     science: "from-emerald-500 to-teal-600",
     english: "from-pink-500 to-rose-600",
-    physics: "from-sky-500 to-blue-600",
-    chemistry: "from-violet-500 to-purple-600",
+    physics: "from-gold-500 to-gold-600",
+    chemistry: "from-gold-500 to-purple-600",
     biology: "from-green-500 to-emerald-600",
     hindi: "from-orange-500 to-amber-600",
     history: "from-amber-500 to-yellow-600",
-    geography: "from-teal-500 to-cyan-600",
+    geography: "from-teal-500 to-gold-600",
     economics: "from-lime-500 to-green-600",
-    computer_science: "from-cyan-500 to-sky-600",
+    computer_science: "from-gold-500 to-gold-600",
   };
 
   return (
@@ -988,7 +984,16 @@ function SetupScreen({
   const classCounts = classLevel
     ? corpusByClass?.[String(classLevel)] ?? null
     : null;
+  // GRADE-01: Economics and Computer Science aren't standalone NCERT
+  // subjects below Class 9 — gate them out regardless of stray corpus rows
+  // (c6 "computer" files were English paragraphs mislabeled, c6 "economics"
+  // carried c10-11 content).
+  const SUBJECT_MIN_CLASS: Partial<Record<Subject, number>> = {
+    economics: 9,
+    computer_science: 9,
+  };
   const availableSubjects = (Object.keys(subjectMeta) as Subject[]).filter((sub) => {
+    if (classLevel && classLevel < (SUBJECT_MIN_CLASS[sub] ?? 0)) return false;
     if (!classCounts) return true;
     const codes = SUBJECT_CORPUS_CODES[sub] ?? [];
     return codes.some((code) => (classCounts[code] ?? 0) > 0);
@@ -1111,7 +1116,7 @@ function SetupScreen({
               {lastResult.subject} · {lastResult.mastery}% · {new Date(lastResult.savedAt).toLocaleDateString()}
             </span>
           </span>
-          <span className="text-indigo-300 text-xs font-bold shrink-0">{t.seeResults} →</span>
+          <span className="text-gold-300 text-xs font-bold shrink-0">{t.seeResults} →</span>
         </motion.button>
       )}
     </motion.div>
@@ -1319,7 +1324,7 @@ function QuestionScreen({
         className="bg-white/10 backdrop-blur-xl rounded-2xl p-6 border border-white/15 shadow-xl mb-6"
       >
         {/* Subskill tag */}
-        <span className="inline-block bg-indigo-500/30 text-indigo-200 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+        <span className="inline-block bg-gold-500/30 text-gold-200 text-xs font-semibold px-3 py-1 rounded-full mb-4">
           {t.subskillLabel}: {topicName ? topicName(question.subskill) : question.subskill}
         </span>
 
@@ -1340,7 +1345,7 @@ function QuestionScreen({
                     else setHintState("none");
                   });
                 }}
-                className="text-xs text-indigo-300/90 hover:text-indigo-200 underline underline-offset-2 transition-colors"
+                className="text-xs text-gold-300/90 hover:text-gold-200 underline underline-offset-2 transition-colors"
                 data-testid="idontgetit"
               >
                 I don&apos;t get it — explain the idea first
@@ -1353,10 +1358,10 @@ function QuestionScreen({
               <motion.div
                 initial={{ opacity: 0, y: 6 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="rounded-xl px-3.5 py-2.5 bg-indigo-500/10 border border-indigo-400/25"
+                className="rounded-xl px-3.5 py-2.5 bg-gold-500/10 border border-gold-400/25"
                 data-testid="idontgetit-hint"
               >
-                <p className="text-[10px] uppercase tracking-widest text-indigo-300 font-semibold mb-1">The idea, simply</p>
+                <p className="text-[10px] uppercase tracking-widest text-gold-300 font-semibold mb-1">The idea, simply</p>
                 <p className="text-sm text-white/80 leading-relaxed" dangerouslySetInnerHTML={{ __html: renderStem(hint) }} />
               </motion.div>
             )}
@@ -1389,14 +1394,14 @@ function QuestionScreen({
                   disabled={showFeedback}
                   className={`w-full text-left p-4 rounded-xl border-2 transition-all duration-300 flex items-center gap-3
                     ${isSelected
-                      ? "border-indigo-400 bg-indigo-500/20 shadow-md shadow-amber-500/10"
+                      ? "border-gold-400 bg-gold-500/20 shadow-md shadow-amber-500/10"
                       : "border-white/15 bg-white/5 hover:border-white/30 hover:bg-white/10"}
                     ${showFeedback ? "cursor-default" : "cursor-pointer"}`}
                   role="radio"
                   aria-checked={isSelected}
                 >
                   <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0 transition-colors
-                    ${isSelected ? "bg-indigo-500 text-white" : "bg-white/10 text-white/50"}`}>
+                    ${isSelected ? "bg-gold-500 text-white" : "bg-white/10 text-white/50"}`}>
                     {String.fromCharCode(65 + i)}
                   </span>
                   <span className="text-white/90 text-sm" dangerouslySetInnerHTML={{ __html: renderStem(opt) }} />
@@ -1414,7 +1419,7 @@ function QuestionScreen({
               onChange={(e) => !showFeedback && setMathAnswer(e.target.value)}
               disabled={showFeedback}
               placeholder="e.g. 4 or x = 3"
-              className="w-full bg-white/10 border-2 border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400/30 disabled:opacity-50 transition-all"
+              className="w-full bg-white/10 border-2 border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30 disabled:opacity-50 transition-all"
               autoComplete="off"
             />
           </div>
@@ -1747,7 +1752,7 @@ function RemediationScreen({
         </div>
         <div className="w-full h-2.5 bg-white/10 rounded-full overflow-hidden">
           <motion.div
-            className="h-full bg-gradient-to-r from-mint-400 to-indigo-400 rounded-full"
+            className="h-full bg-gradient-to-r from-mint-400 to-gold-400 rounded-full"
             initial={{ width: 0 }}
             animate={{ width: `${progress}%` }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -1776,7 +1781,7 @@ function RemediationScreen({
                   ${step.completed
                     ? "bg-green-500/30 border-green-400 text-green-300"
                     : i === currentStep
-                      ? "bg-indigo-500/30 border-indigo-400 text-indigo-300 animate-pulse"
+                      ? "bg-gold-500/30 border-gold-400 text-gold-300 animate-pulse"
                       : "bg-white/5 border-white/20 text-white/30"}`}>
                   {step.completed ? "✓" : step.day}
                 </div>
@@ -1789,7 +1794,7 @@ function RemediationScreen({
                   ${step.completed
                     ? "bg-green-500/10 border-green-400/20"
                     : i === currentStep
-                      ? "bg-indigo-500/10 border-indigo-400/30 shadow-lg shadow-amber-500/10"
+                      ? "bg-gold-500/10 border-gold-400/30 shadow-lg shadow-amber-500/10"
                       : "bg-white/5 border-white/10 opacity-60"}`}
               >
                 <div className="flex items-start justify-between mb-1">
@@ -1800,7 +1805,7 @@ function RemediationScreen({
                 </div>
                 <p className="text-white/60 text-xs mb-3 leading-relaxed">{step.description}</p>
                 <div className="bg-white/5 rounded-lg px-3 py-2 mb-3">
-                  <p className="text-white/70 text-xs"><span className="text-indigo-300 font-medium">{t.activityLabel}:</span> {step.activity}</p>
+                  <p className="text-white/70 text-xs"><span className="text-gold-300 font-medium">{t.activityLabel}:</span> {step.activity}</p>
                 </div>
                 <motion.button
                   whileHover={!step.completed ? { scale: 1.02 } : {}}
@@ -1810,7 +1815,7 @@ function RemediationScreen({
                   className={`px-4 py-2 rounded-xl text-xs font-bold transition-all duration-300
                     ${step.completed
                       ? "bg-green-500/20 text-green-300 cursor-default"
-                      : "bg-indigo-500/30 text-indigo-200 hover:bg-indigo-500/50"}`}
+                      : "bg-gold-500/30 text-gold-200 hover:bg-gold-500/50"}`}
                 >
                   {step.completed ? t.completed : t.startActivity}
                 </motion.button>
@@ -1905,7 +1910,7 @@ function CalculatingScreen({ t }: { t: Translation }) {
       <motion.div
         animate={{ rotate: 360 }}
         transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-        className="w-16 h-16 mx-auto mb-6 border-4 border-white/20 border-t-indigo-400 rounded-full"
+        className="w-16 h-16 mx-auto mb-6 border-4 border-white/20 border-t-gold-400 rounded-full"
       />
       <motion.p
         animate={{ opacity: [0.4, 1, 0.4] }}
@@ -2527,7 +2532,7 @@ export default function DiagnosticPage() {
         <motion.div
           animate={{ x: [0, 30, -20, 0], y: [0, -20, 30, 0] }}
           transition={{ repeat: Infinity, duration: 20, ease: "easeInOut" }}
-          className="absolute top-20 left-10 w-72 h-72 bg-indigo-500/20 rounded-full blur-3xl"
+          className="absolute top-20 left-10 w-72 h-72 bg-gold-500/20 rounded-full blur-3xl"
         />
         <motion.div
           animate={{ x: [0, -30, 20, 0], y: [0, 20, -30, 0] }}

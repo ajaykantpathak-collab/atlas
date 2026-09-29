@@ -138,7 +138,7 @@ const TEACHING_SLIDES = [
     title: "The Human Skeleton 💀",
     text: "The skeleton is the framework of bones inside your body. It gives shape and support like a steel building frame! Without bones, we would be soft and floppy.",
     emoji: "💀",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "The skeleton is the framework of bones inside your body. It gives shape and support like a steel building frame!",
   },
   {
@@ -166,7 +166,7 @@ const TEACHING_SLIDES = [
     title: "Bone Care & Posture 🥛",
     text: "Keep bones strong with calcium-rich food (milk, curd, green veggies) and vitamin D from sunlight. Sit straight, stand tall, and exercise daily to protect your spine!",
     emoji: "🥛",
-    bgColor: "from-cyan-500 to-blue-700",
+    bgColor: "from-gold-500 to-gold-700",
     spoken: "Keep bones strong with calcium-rich food and sunlight. Sit straight and exercise daily to protect your spine.",
   },
 ];
@@ -376,8 +376,8 @@ function GymnasiumSceneBg({ width, height }: { width: number; height: number }) 
         <rect y={height - 110} width={width} height={110} fill="url(#gym-floor-grad)" />
       </svg>
       {/* Window with sky */}
-      <div className="absolute top-8 left-12 w-28 h-36 bg-blue-100 border-4 border-amber-800 rounded-t-xl opacity-70 flex items-center justify-center">
-        <div className="text-xs text-blue-400 font-bold">SUNLIGHT ☀️</div>
+      <div className="absolute top-8 left-12 w-28 h-36 bg-gold-100 border-4 border-amber-800 rounded-t-xl opacity-70 flex items-center justify-center">
+        <div className="text-xs text-gold-400 font-bold">SUNLIGHT ☀️</div>
       </div>
       {/* Skeleton model poster on wall */}
       <div className="absolute top-10 right-28 w-20 h-32 bg-white border-2 border-gray-400 rounded p-1 opacity-80 flex flex-col items-center">

@@ -1270,10 +1270,10 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
       {/* ─── HEADER BAR ─── */}
       <header className="mb-6 flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/80 border border-cyan-700/50 rounded-2xl">🚀</span>
+          <span className="text-3xl p-2 bg-gold-950/80 border border-gold-700/50 rounded-2xl">🚀</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
+              <span className="text-xs uppercase font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-gold-500/10 text-gold-400 border border-gold-500/30">
                 ICSE Class 9 • Physics
               </span>
               <span className="text-xs text-slate-400">Chapters 2 & 3</span>
@@ -1293,7 +1293,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                 ? 'bg-emerald-950/70 border-emerald-500/40 text-emerald-300'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-500/40 text-rose-300'
-                : 'bg-cyan-950/70 border-cyan-500/40 text-cyan-300'
+                : 'bg-gold-950/70 border-gold-500/40 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1307,8 +1307,8 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-cyan-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-cyan-800/40">
-            <div className="flex items-center gap-2 mb-2 text-cyan-400 font-semibold text-sm">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/40">
+            <div className="flex items-center gap-2 mb-2 text-gold-400 font-semibold text-sm">
               <span>🛰️</span> Mission Briefing: {SCENARIO.title}
             </div>
             <p className="text-slate-200 text-base leading-relaxed">{SCENARIO.intro}</p>
@@ -1335,7 +1335,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-medium'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700/70 hover:border-cyan-500 hover:bg-slate-800 text-slate-200'
+                      : 'bg-slate-800/80 border-slate-700/70 hover:border-gold-500 hover:bg-slate-800 text-slate-200'
                   }`}
                 >
                   <span className="font-bold text-slate-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
@@ -1353,7 +1353,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Enter Interactive Physics Lab"
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-cyan-900/40"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-900/40"
                 >
                   Enter Interactive Physics Lab →
                 </motion.button>
@@ -1380,7 +1380,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                 aria-label={`Step ${idx + 1}: ${step.title}`}
                 className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
                   currentSlide === idx
-                    ? 'bg-cyan-600 text-white shadow-md shadow-cyan-900/50'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-900/50'
                     : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                 }`}
               >
@@ -1399,7 +1399,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
               className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <span className="text-xs uppercase font-bold text-cyan-400 tracking-wider">Interactive Station {currentSlide + 1} of 5</span>
+                <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">Interactive Station {currentSlide + 1} of 5</span>
                 <h2 className="text-xl font-bold text-white mt-1">{EXPLORATION_STEPS[currentSlide].title}</h2>
                 <p className="text-sm text-amber-300/90 mt-1.5 flex items-center gap-1.5">
                   <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
@@ -1412,7 +1412,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                   <div className="lg:col-span-7 bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
                     <canvas ref={canvasRef} width={420} height={240} className="w-full max-w-[420px] rounded-lg shadow-inner bg-slate-950" />
                     <div className="flex items-center gap-4 mt-3 text-xs text-slate-400">
-                      <span className="flex items-center gap-1.5"><span className="w-3 h-3 bg-sky-500/40 rounded-sm"></span> Rect Area = u·t ({calcRectArea.toFixed(1)}m)</span>
+                      <span className="flex items-center gap-1.5"><span className="w-3 h-3 bg-gold-500/40 rounded-sm"></span> Rect Area = u·t ({calcRectArea.toFixed(1)}m)</span>
                       <span className="flex items-center gap-1.5"><span className="w-3 h-3 bg-amber-500/40 rounded-sm"></span> Tri Area = ½a·t² ({calcTriArea.toFixed(1)}m)</span>
                     </div>
                   </div>
@@ -1422,7 +1422,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                       <div>
                         <div className="flex justify-between text-xs font-semibold mb-1">
                           <span className="text-slate-300">Initial Velocity (u)</span>
-                          <span className="text-cyan-400 font-mono">{simU} m/s</span>
+                          <span className="text-gold-400 font-mono">{simU} m/s</span>
                         </div>
                         <input
                           type="range"
@@ -1432,7 +1432,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                           value={simU}
                           onChange={e => handleKinematicsSlider('u', Number(e.target.value))}
                           aria-label="Set Initial Velocity"
-                          className="w-full accent-cyan-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1472,8 +1472,8 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs space-y-1.5 font-mono">
-                      <div className="text-cyan-300 font-sans font-bold">Equations Derived in Real-Time:</div>
-                      <div>1. v = u + at ⇒ <span className="text-cyan-400">{simU} + ({simA}×{simT}) = {calcFinalV.toFixed(1)} m/s</span></div>
+                      <div className="text-gold-300 font-sans font-bold">Equations Derived in Real-Time:</div>
+                      <div>1. v = u + at ⇒ <span className="text-gold-400">{simU} + ({simA}×{simT}) = {calcFinalV.toFixed(1)} m/s</span></div>
                       <div>2. S = ut + ½at² ⇒ <span className="text-amber-400">{calcRectArea} + {calcTriArea} = {calcDisp.toFixed(1)} m</span></div>
                       <div>3. v² = u² + 2aS ⇒ <span className="text-emerald-400">({simU})² + 2({simA})({calcDisp.toFixed(1)}) = {(calcFinalV * calcFinalV).toFixed(1)} (m/s)²</span></div>
                     </div>
@@ -1549,7 +1549,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-300">Mass of Crate (m)</span>
-                        <span className="text-cyan-400 font-mono">{dynMass} kg</span>
+                        <span className="text-gold-400 font-mono">{dynMass} kg</span>
                       </div>
                       <input
                         type="range"
@@ -1559,7 +1559,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                         value={dynMass}
                         onChange={e => setDynMass(Number(e.target.value))}
                         aria-label="Set Crate Mass"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1645,7 +1645,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                   <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex items-center gap-4 text-xs">
                       <div>
-                        <span className="text-slate-400">Astronaut A Mass:</span> <strong className="text-blue-400">{skater1Mass} kg</strong>
+                        <span className="text-slate-400">Astronaut A Mass:</span> <strong className="text-gold-400">{skater1Mass} kg</strong>
                       </div>
                       <div>
                         <span className="text-slate-400">Astronaut B Mass:</span> <strong className="text-emerald-400">{skater2Mass} kg</strong>
@@ -1659,7 +1659,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                         onClick={handleThirdLawPush}
                         disabled={thirdLawPushed}
                         aria-label="Push Off"
-                        className="px-5 py-2 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-500 hover:to-emerald-500 text-white font-bold rounded-xl text-xs disabled:opacity-50"
+                        className="px-5 py-2 bg-gradient-to-r from-gold-600 to-emerald-600 hover:from-gold-500 hover:to-emerald-500 text-white font-bold rounded-xl text-xs disabled:opacity-50"
                       >
                         Push Off! (Action-Reaction)
                       </motion.button>
@@ -1732,7 +1732,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                     </div>
 
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs font-mono space-y-1">
-                      <div className="text-cyan-400 font-sans font-bold">Inverse Square Law Telemetry:</div>
+                      <div className="text-gold-400 font-sans font-bold">Inverse Square Law Telemetry:</div>
                       <div>F = G·(m₁·m₂)/r² ∝ <span className="text-amber-400">1/({gravDistance})²</span> = {(1 / (gravDistance * gravDistance)).toFixed(4)}</div>
                       <div className="text-slate-400 text-[11px]">If distance r doubles (2r), Force F drops to ¼ (25%)!</div>
                     </div>
@@ -1791,7 +1791,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                             audioManager.play('pop');
                           }}
                           className={`flex-1 py-2 text-xs font-bold rounded-lg border ${
-                            !airResistanceOn ? 'bg-cyan-600 text-white border-cyan-500' : 'bg-slate-800 text-slate-400 border-slate-700'
+                            !airResistanceOn ? 'bg-gold-600 text-white border-gold-500' : 'bg-slate-800 text-slate-400 border-slate-700'
                           }`}
                         >
                           Vacuum (Pure g)
@@ -1805,13 +1805,13 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                       onClick={handleTriggerFreeFall}
                       disabled={isFalling}
                       aria-label="Drop Objects in Chamber"
-                      className="w-full py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-cyan-900/40 disabled:opacity-50"
+                      className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl text-sm shadow-lg shadow-gold-900/40 disabled:opacity-50"
                     >
                       {isFalling ? 'Falling Under Gravity...' : 'Drop Both Objects! ⏬'}
                     </motion.button>
 
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-300 space-y-1">
-                      <strong className="text-cyan-300">Physics Principle:</strong>
+                      <strong className="text-gold-300">Physics Principle:</strong>
                       <p>g = GM/R² is totally independent of the falling mass m. In vacuum, both accelerate at exactly 9.8 m/s²!</p>
                     </div>
                   </div>
@@ -1823,8 +1823,8 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
           {/* ─── BRILLIANT.ORG PREDICTION & OBSERVATION CHECKS ─── */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Predictions Card */}
-            <div className="p-5 bg-slate-900/90 rounded-2xl border border-cyan-800/40 space-y-4">
-              <div className="flex items-center gap-2 text-cyan-400 font-bold text-sm">
+            <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-800/40 space-y-4">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
                 <span>🔮</span> Brilliant.org Predict-Then-Check Section
               </div>
               <p className="text-xs text-slate-400">Make your prediction, then manipulate the lab slider or interact to verify.</p>
@@ -1836,7 +1836,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
 
                 return (
                   <div key={pq.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <div className="text-xs font-bold text-cyan-300 flex items-center justify-between">
+                    <div className="text-xs font-bold text-gold-300 flex items-center justify-between">
                       <span>Prediction {idx + 1}</span>
                       {hasAnswered && (
                         <span className={isCorrect ? 'text-emerald-400' : 'text-amber-400'}>
@@ -1857,7 +1857,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                               ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                               : hasAnswered && userAns === oIdx && !isCorrect
                               ? 'bg-rose-950/60 border-rose-500 text-rose-200'
-                              : 'bg-slate-900 border-slate-800 hover:border-cyan-500 text-slate-300'
+                              : 'bg-slate-900 border-slate-800 hover:border-gold-500 text-slate-300'
                           }`}
                         >
                           <span className="font-bold mr-1.5 text-slate-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
@@ -1867,7 +1867,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
 
                     {hasAnswered && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 bg-slate-900 rounded-lg text-xs space-y-1 text-slate-300 border border-slate-800">
-                        <p className="text-cyan-300 font-semibold">{pq.explanation}</p>
+                        <p className="text-gold-300 font-semibold">{pq.explanation}</p>
                         <p className="text-amber-300 font-mono text-[11px]">👉 Verification: {pq.verifyInstruction}</p>
                       </motion.div>
                     )}
@@ -1877,8 +1877,8 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
             </div>
 
             {/* Observations Card */}
-            <div className="p-5 bg-slate-900/90 rounded-2xl border border-indigo-800/40 space-y-4">
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+            <div className="p-5 bg-slate-900/90 rounded-2xl border border-gold-800/40 space-y-4">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
                 <span>👁️</span> 'What Do You Notice?' Observation Analysis
               </div>
               <p className="text-xs text-slate-400">Carefully observe the visual graphs and physics telemetry above to answer.</p>
@@ -1890,7 +1890,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
 
                 return (
                   <div key={oq.id} className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <div className="text-xs font-bold text-indigo-300 flex items-center justify-between">
+                    <div className="text-xs font-bold text-gold-300 flex items-center justify-between">
                       <span>Observation {idx + 1}</span>
                       {hasAnswered && (
                         <span className={isCorrect ? 'text-emerald-400' : 'text-amber-400'}>
@@ -1911,7 +1911,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                               ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                               : hasAnswered && userAns === oIdx && !isCorrect
                               ? 'bg-rose-950/60 border-rose-500 text-rose-200'
-                              : 'bg-slate-900 border-slate-800 hover:border-indigo-500 text-slate-300'
+                              : 'bg-slate-900 border-slate-800 hover:border-gold-500 text-slate-300'
                           }`}
                         >
                           <span className="font-bold mr-1.5 text-slate-400">{String.fromCharCode(65 + oIdx)}.</span> {opt}
@@ -1921,7 +1921,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
 
                     {hasAnswered && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-2.5 bg-slate-900 rounded-lg text-xs space-y-1 text-slate-300 border border-slate-800">
-                        <p className="text-indigo-300 font-semibold">{oq.explanation}</p>
+                        <p className="text-gold-300 font-semibold">{oq.explanation}</p>
                       </motion.div>
                     )}
                   </div>
@@ -1954,7 +1954,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1976,7 +1976,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-lg font-bold text-cyan-300">🚀 Free Sandbox Exploration (Zero Grading Stress)</h3>
+            <h3 className="text-lg font-bold text-gold-300">🚀 Free Sandbox Exploration (Zero Grading Stress)</h3>
             <p className="text-xs text-slate-400 mt-1">
               Test multi-variable interactions freely. Change initial speed, launch forces, or toggle vacuum modes before facing board exam challenges.
             </p>
@@ -1989,9 +1989,9 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-300">Velocity u</span>
-                    <span className="text-cyan-400">{simU} m/s</span>
+                    <span className="text-gold-400">{simU} m/s</span>
                   </div>
-                  <input type="range" min={0} max={20} value={simU} onChange={e => setSimU(Number(e.target.value))} className="w-full accent-cyan-500" />
+                  <input type="range" min={0} max={20} value={simU} onChange={e => setSimU(Number(e.target.value))} className="w-full accent-gold-500" />
                 </div>
                 <div>
                   <div className="flex justify-between text-xs mb-1">
@@ -2011,11 +2011,11 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
             </div>
 
             <div className="space-y-4">
-              <h4 className="text-sm font-bold text-cyan-400">Calculated Physics Metrics</h4>
+              <h4 className="text-sm font-bold text-gold-400">Calculated Physics Metrics</h4>
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs font-mono">
                 <div className="flex justify-between border-b border-slate-800 pb-1">
                   <span className="text-slate-400">Final Velocity v = u + at:</span>
-                  <span className="text-cyan-300 font-bold">{calcFinalV.toFixed(2)} m/s</span>
+                  <span className="text-gold-300 font-bold">{calcFinalV.toFixed(2)} m/s</span>
                 </div>
                 <div className="flex justify-between border-b border-slate-800 pb-1">
                   <span className="text-slate-400">Displacement S = ut + ½at²:</span>
@@ -2038,7 +2038,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
             whileTap={{ scale: 0.96 }}
             onClick={handleAdvanceToChallenge}
             aria-label="Ready for Challenges"
-            className="w-full py-3.5 bg-gradient-to-r from-cyan-600 via-indigo-600 to-emerald-600 text-white font-black rounded-2xl text-sm shadow-xl shadow-cyan-900/40"
+            className="w-full py-3.5 bg-gradient-to-r from-gold-600 via-gold-600 to-emerald-600 text-white font-black rounded-2xl text-sm shadow-xl shadow-gold-900/40"
           >
             I am Ready for the Competency Challenges! 🎯 →
           </motion.button>
@@ -2054,12 +2054,12 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <span className="text-slate-400 uppercase font-semibold">
-                NEP Competency: <strong className="text-cyan-400">{currentChallengeObj.competencyLevel}</strong>
+                NEP Competency: <strong className="text-gold-400">{currentChallengeObj.competencyLevel}</strong>
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2094,7 +2094,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                           ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                           : showExplanation && i === currentChallengeObj.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-medium'
-                          : 'bg-slate-800/80 border-slate-700/80 hover:border-cyan-500 hover:bg-slate-800 text-slate-200'
+                          : 'bg-slate-800/80 border-slate-700/80 hover:border-gold-500 hover:bg-slate-800 text-slate-200'
                       }`}
                     >
                       <span className="font-bold text-slate-400 mr-2">{String.fromCharCode(65 + i)}.</span> {opt}
@@ -2117,10 +2117,10 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                     placeholder="Enter numerical value"
                     aria-label="Numerical answer input"
                     className={`px-4 py-3 bg-slate-950 border rounded-xl text-white font-mono text-base focus:outline-none w-56 ${
-                      wrongFlash ? 'border-rose-500 bg-rose-950/30' : 'border-slate-700 focus:border-cyan-500'
+                      wrongFlash ? 'border-rose-500 bg-rose-950/30' : 'border-slate-700 focus:border-gold-500'
                     }`}
                   />
-                  <span className="text-cyan-400 font-bold">{currentChallengeObj.unit}</span>
+                  <span className="text-gold-400 font-bold">{currentChallengeObj.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
@@ -2128,7 +2128,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                     transition={{ duration: 0.4 }}
                     onClick={() => handleAnswer(parseFloat(numericInput))}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-sm shadow-md shadow-cyan-900/40 disabled:opacity-40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-md shadow-gold-900/40 disabled:opacity-40"
                   >
                     Verify Calculation ✓
                   </motion.button>
@@ -2147,7 +2147,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing border border-indigo-400/30"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg cursor-grab active:cursor-grabbing border border-gold-400/30"
                     >
                       {item.label}
                     </motion.div>
@@ -2218,7 +2218,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                   animate={wrongShake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Submit Target Labels
                 </motion.button>
@@ -2244,7 +2244,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-800/90 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-cyan-950 border border-cyan-500/40 text-cyan-400 flex items-center justify-center font-bold text-[10px]">
+                    <span className="w-5 h-5 rounded-full bg-gold-950 border border-gold-500/40 text-gold-400 flex items-center justify-center font-bold text-[10px]">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -2263,7 +2263,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                         : currentChallengeObj.sortItems!.map((_, i) => i)
                     )
                   }
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs mt-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs mt-2"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2281,7 +2281,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700/80 hover:bg-indigo-600 text-white rounded-lg text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-700/80 hover:bg-gold-600 text-white rounded-lg text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2294,7 +2294,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1 bg-cyan-950 border border-cyan-500 text-cyan-300 rounded-lg text-xs font-mono flex items-center gap-1.5"
+                      className="px-3 py-1 bg-gold-950 border border-gold-500 text-gold-300 rounded-lg text-xs font-mono flex items-center gap-1.5"
                     >
                       <span>{part}</span>
                       <button
@@ -2317,7 +2317,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
                   transition={{ duration: 0.4 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Validate Construction
                 </motion.button>
@@ -2383,13 +2383,13 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
       {/* ─── PHASE 5: COMPLETION & REFLECTION ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-slate-900 via-cyan-950/40 to-slate-900 rounded-3xl border border-cyan-800/40 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-3xl border border-gold-800/40 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Dynamics & Gravitation Mastered!</h2>
             <div className="flex justify-center gap-6 text-sm">
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <div className="text-slate-400 text-xs">Final Score</div>
-                <div className="text-2xl font-black text-cyan-400">{Math.max(0, 100 - errors * 5)}%</div>
+                <div className="text-2xl font-black text-gold-400">{Math.max(0, 100 - errors * 5)}%</div>
               </div>
               <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
                 <div className="text-slate-400 text-xs">Mastery Level</div>
@@ -2411,7 +2411,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD (SRS SYSTEM) ─── */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-cyan-700/50 space-y-4">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-700/50 space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">���</span>
@@ -2428,7 +2428,7 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
                 <div className="text-slate-400 text-xs font-semibold">Scheduled Retrieval</div>
-                <div className="text-lg font-bold text-cyan-400">{srsReviewSchedule.days} Day{srsReviewSchedule.days > 1 ? 's' : ''} from now</div>
+                <div className="text-lg font-bold text-gold-400">{srsReviewSchedule.days} Day{srsReviewSchedule.days > 1 ? 's' : ''} from now</div>
                 <p className="text-[11px] text-slate-400">{srsReviewSchedule.message}</p>
               </div>
 
@@ -2444,35 +2444,35 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
               <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
                 <div className="text-slate-400 text-xs font-semibold">Active Flashcard Deck</div>
                 <div className="text-xs text-slate-300 font-medium">10 Linked ICSE Physics Nodes:</div>
-                <div className="text-[11px] text-cyan-400 font-mono">c9_phy_011 through c9_phy_020</div>
+                <div className="text-[11px] text-gold-400 font-mono">c9_phy_011 through c9_phy_020</div>
               </div>
             </div>
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900/90 rounded-2xl border border-indigo-500/30 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900/90 rounded-2xl border border-gold-500/30 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Key Learning Reflections
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-cyan-400">Reflection 1</span>
+                <span className="text-xs font-bold text-gold-400">Reflection 1</span>
                 <p className="text-sm text-slate-200 font-medium">What was the most surprising thing you learned?</p>
                 <textarea
                   value={reflection1}
                   onChange={e => setReflection1(e.target.value)}
                   placeholder="e.g., Objects of all masses fall at identical acceleration in vacuum..."
-                  className="w-full h-24 p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-cyan-500 resize-none"
+                  className="w-full h-24 p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <span className="text-xs font-bold text-indigo-400">Reflection 2</span>
+                <span className="text-xs font-bold text-gold-400">Reflection 2</span>
                 <p className="text-sm text-slate-200 font-medium">How would you explain this to a friend?</p>
                 <textarea
                   value={reflection2}
                   onChange={e => setReflection2(e.target.value)}
                   placeholder="e.g., Action and reaction never cancel because they act on separate bodies..."
-                  className="w-full h-24 p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full h-24 p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2511,14 +2511,14 @@ function C9_PhysicsEquationsUniformlyAcceleratedSim({
 
           {/* Real-World Activity Card */}
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>🛰️</span> Real-World ISRO Case Study: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-cyan-400 font-mono">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400 font-mono">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

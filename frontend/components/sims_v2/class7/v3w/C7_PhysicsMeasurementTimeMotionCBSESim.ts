@@ -11,11 +11,11 @@ export const w_c7_physicsmeasurementtimemotioncbsesim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Units of Speed and Their Conversions',
     chapters: [],
     nodeIds: ['c7_physics_ch04_010', 'c7_physics_ch04_002', 'c7_physics_ch04_004', 'c7_physics_ch04_005', 'c7_physics_ch04_006', 'c7_physics_ch04_007', 'c7_physics_ch04_008', 'c7_physics_ch04_009', 'c7_physics_ch04_001', 'c7_physics_ch04_003', 'c7_physics_ch01_007', 'c7_physics_ch06_002', 'c7_physics_ch06_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine riding a bicycle down an Indian village road where the speedometer or milestone markers indicate.', goal: 'Master Units of Speed and Their Conversions.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Speed can be expressed in different units.', text: 'Speed can be expressed in different units such as metres per second ($\\text{m/s}$) or kilometres per hour ($\\text{km/h}$), where the Standard International (SI) unit is metres per second.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Speed can be expressed in different units.', text: 'Speed can be expressed in different units such as metres per second ($\\text{m/s}$) or kilometres per hour ($\\text{km/h}$), where the Standard International (SI) unit is metres per second.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch04_010', title: 'Speed can be expressed in different.',

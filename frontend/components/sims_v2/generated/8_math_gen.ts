@@ -283,8 +283,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What are the two consecutive whole numbers between which √85 lies?",
     "answer": "√85 lies between 9 and 10 because 9² = 81 and 10² = 100, and 81 < 85 < 100",
     "options": [
-     "\\( (-3)^3 = -27 \\) because the base is -3, multiplied three times: \\( (-3) \\times (-3) \\times (-3) = 9 \\times (-3) = -27 \\)",
-     "The sequence is 1, 3, 5, 7, 9, 11, 13, 15, 17 (nine odd numbers). Nine subtractions reach zero because 81 = 9²",
+     "Students assume the square root function is linear and always take the midpoint between the two bounding integers",
+     "The student can correctly apply the successive odd-number subtraction method to determine whether any given natural number up to 10,000 is a perfect square",
      "√85 lies between 9 and 10 because 9² = 81 and 10² = 100, and 81 < 85 < 100"
     ],
     "hint": "Straight from the 'Estimating square roots' slide -- match the key terms.",
@@ -551,7 +551,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "When Two Powers Have The Same",
+    "title": "When Two Powers Have The Same Exponent But",
     "text": "When two powers have the same exponent but different bases, their product equals the product of the bases raised to that common exponent. For any non-zero numbers a and b and any integer m, a^m × b^m = (a × b)^m.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -594,8 +594,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the defining characteristic that distinguishes exponential growth from linear growth in a sequence of numbers.",
     "answer": "Correct: Linear growth has a constant difference between consecutive terms (additive), while exponential growth has a constant ratio between consecutive terms (multiplicative)",
     "options": [
-     "The rule: \\(x^5 \\times x^3 = x^{5+3} = x^8\\)",
-     "Positive. The exponent 12 is even, so the negative base raised to an even power yields a positive result",
+     "The student can: (1) Given two real-world scenarios, identify whether each represents linear or exponential growth and justify using the constant difference vs",
+     "The student can compute values of 2ⁿ for n up to 10 mentally or with minimal writing, recognize the doubling pattern to find missing exponents or values",
      "Correct: Linear growth has a constant difference between consecutive terms (additive), while exponential growth has a constant ratio between consecutive terms (multiplicative)"
     ],
     "hint": "Straight from the 'Linear growth increases by a' slide -- match the key terms.",
@@ -617,7 +617,6 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "n=1: 2¹=2, 1²=1 → 2ⁿ larger n=2: 2²=4, 2²=4 → equal n=3: 2³=8, 3²=9 → n² larger n=4: 2⁴=16, 4²=16 → equal n=5: 2⁵=32, 5²=25 → 2ⁿ larger n=6: 2⁶=64",
      "\\(a^3 \\times a^4 = a^{3+4} = a^7\\) (multiplication adds exponents). \\((a^3)^4 = a^{3 \\times 4} = a^{12}\\) (power of a power multiplies exponents)",
-     "\\(3^4 = 3 \\times 3 \\times 3 \\times 3 = 81\\). \\(4^3 = 4 \\times 4 \\times 4 = 64\\). So \\(3^4 > 4^3\\). Wait structure: \\(3^4\\) has four factors of 3",
      "\\(3^4 = 3 \\times 3 \\times 3 \\times 3 = 81\\). \\(4^3 = 4 \\times 4 \\times 4 = 64\\). So \\(3^4 > 4^3\\). Analysing structure: \\(3^4\\) has four factors of 3"
     ],
     "hint": "Straight from the 'Exponential notation' slide -- match the key terms.",
@@ -866,11 +865,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the sign of \\((-7)^{12}\\)? Explain your reasoning in one sentence without calculating the actual value.",
     "answer": "Positive. The exponent 12 is even, so the negative base raised to an even power yields a positive result",
     "options": [
-     "The rule: \\(x^5 \\times x^3 = x^{5+3} = x^8\\)",
-     "Correct: Linear growth has a constant difference between consecutive terms (additive), while exponential growth has a constant ratio between consecutive terms (multiplicative)",
+     "The student can: (1) Given two real-world scenarios, identify whether each represents linear or exponential growth and justify using the constant difference vs",
+     "The student can compute values of 2ⁿ for n up to 10 mentally or with minimal writing, recognize the doubling pattern to find missing exponents or values",
      "Positive. The exponent 12 is even, so the negative base raised to an even power yields a positive result"
     ],
-    "hint": "Straight from the 'For a negative base \\(-a\\)' slide -- match the key terms.",
+    "hint": "Straight from the 'For a negative base -a' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"negative\") reveals the student has not internalized the parity rule and may be guessing or applying a flawed rule like \"negative base always gives negative result.\"",
     "id": "gen_c8_math_ch02_q11",
     "nodeId": "c8_math_ch2_11",
@@ -889,10 +888,10 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "Table: | Month | Rohan (Add ₹200) | Priya (Double each month) | |-------|------------------|---------------------------| | 1 | 200 | 50 | | 2 | 400 | 100 | | 3 | 600 | 200 | | 4 |",
      "Correct: The multiplicative (exponential) sequence will be larger at the 10th term. Even though both start at 5",
-     "WhatsApp, it is correct because \\(2^3 \\times 2^{-3} = 2^{3+(-3)} = 2^0 = 1\\), and also \\(2^3 \\times \\frac{1}{2^3} = 8 \\times \\frac{1}{8} = 1\\)",
+     "Double, it is correct because \\(2^3 \\times 2^{-3} = 2^{3+(-3)} = 2^0 = 1\\), and also \\(2^3 \\times \\frac{1}{2^3} = 8 \\times \\frac{1}{8} = 1\\)",
      "Yes, it is correct because \\(2^3 \\times 2^{-3} = 2^{3+(-3)} = 2^0 = 1\\), and also \\(2^3 \\times \\frac{1}{2^3} = 8 \\times \\frac{1}{8} = 1\\)"
     ],
-    "hint": "Straight from the 'For any non-zero number \\ (integer' slide -- match the key terms.",
+    "hint": "Straight from the 'For any non-zero number' slide -- match the key terms.",
     "misconception": "A wrong answer might say it's invalid because negative exponents aren't allowed, showing rigidity in applying rules only to familiar cases.",
     "id": "gen_c8_math_ch02_q12",
     "nodeId": "c8_math_ch2_12",
@@ -1173,7 +1172,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "The number is written as 304005. Step-by-step: (1) Identify places: 3 in lakhs (10^5), 0 in ten-thousands (10^4), 4 in thousands (10^3), 0 in hundreds (10^2), 0 in tens (10^1)",
      "The 2 remaining stones mean 2 sheep are missing; the one-to-one mapping shows the set of stones has 2 more elements than the set of returned sheep"
     ],
-    "hint": "Straight from the 'One-to-one mapping  in early' slide -- match the key terms.",
+    "hint": "Straight from the 'One-to-one mapping in early' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he has extra stones\") reveals the student does not grasp that the mapping compares cardinalities directly — they focus on the physical stones rather than the unpaired elements indicating a deficit.",
     "id": "gen_c8_math_ch03_q2",
     "nodeId": "c8_math_ch3_2",
@@ -1190,8 +1189,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the standard grouping pattern used in the tally system, and how is the fifth mark represented?",
     "answer": "The standard grouping is five marks: four vertical lines (||||) and the fifth as a diagonal line crossing them (||||)",
     "options": [
-     "The three key innovations are: (1) a consistent base-10 (decimal) structure, (2) positional place value where a digit's value depends on its position",
-     "Al-Khwarizmi (c. 780–850 CE)",
+     "The student can explain the three defining features of the Hindu numeral system (base-10, place value, zero)",
+     "Student can explain at least three distinct survival needs that drove early humans to invent counting (e",
      "The standard grouping is five marks: four vertical lines (||||) and the fifth as a diagonal line crossing them (||||)"
     ],
     "hint": "Straight from the 'tally system' slide -- match the key terms.",
@@ -1557,8 +1556,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "Name the ancient Indian script (3rd century BCE) that provides the earliest known forms of the digits 1-9 (though not zero) found on Ashoka's pillars.",
     "answer": "The correct answer is the Brahmi script",
     "options": [
-     "The standard grouping is five marks: four vertical lines (||||) and the fifth as a diagonal line crossing them (||||)",
-     "The three key innovations are: (1) a consistent base-10 (decimal) structure, (2) positional place value where a digit's value depends on its position",
+     "Student can explain at least three distinct survival needs that drove early humans to invent counting (e",
+     "One-to-one mapping (bijection) in early counting is the process of pairing each object in a collection with exactly one distinct counting token (such as a pebble, finger",
      "The correct answer is the Brahmi script"
     ],
     "hint": "Straight from the 'evolution of digit shapes 0-9' slide -- match the key terms.",
@@ -1848,14 +1847,14 @@ export const C8_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_math_ch04",
-  "title": "Square",
+  "title": "In a Rectangle, The Two Diagonals",
   "subtitle": "Mathematics · Chapter 4",
   "classLevel": 8,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Square",
+  "topic": "In a Rectangle, The Two Diagonals",
   "chapters": [
-   "Mathematics Ch4: Square"
+   "Mathematics Ch4: In a Rectangle, The Two Diagonals"
   ],
   "nodeIds": [
    "c8_math_ch4_1",
@@ -1878,7 +1877,7 @@ export const C8_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Square directly with your eyes?",
+   "question": "Can you see In a Rectangle, The Two Diagonals directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -1889,13 +1888,13 @@ export const C8_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Quadrilateral",
+    "title": "A Quadrilateral Is a Closed Plane",
     "text": "A quadrilateral is a closed plane figure bounded by four line segments (sides) that intersect only at their endpoints (vertices), forming four interior angles and two diagonals. The sum of its interior angles is always 360°.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Rectangle",
+    "title": "A Rectangle Is a Quadrilateral",
     "text": "A rectangle is a quadrilateral with four right angles (each measuring 90°). Equivalently, it is a parallelogram in which one angle is a right angle, which forces all angles to be right angles and makes opposite sides equal and parallel.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -1907,25 +1906,25 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "In a Rectangle, The Two",
+    "title": "In a Rectangle, The Two Diagonals",
     "text": "In a rectangle, the two diagonals intersect at a point that divides each diagonal into two equal segments. This means the intersection point is the midpoint of both diagonals, so each diagonal is bisected by the other.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Square",
+    "title": "A Square Is a Quadrilateral",
     "text": "A square is a quadrilateral with all four sides equal in length and all four interior angles equal to 90°. Equivalently, it is a regular quadrilateral that is both a rectangle (all angles 90°) and a rhombus (all sides equal).",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Square",
+    "title": "A Square Is a Special Type",
     "text": "A square is a special type of rectangle where all four sides are equal in length. Formally, a quadrilateral is a square if and only if it satisfies all properties of a rectangle (opposite sides parallel and equal, all angles 90°, diagonals equal and bisect",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Rhombus",
+    "title": "A Rhombus Is a Quadrilateral",
     "text": "A rhombus is a quadrilateral with all four sides of equal length. It is a special type of parallelogram where opposite sides are parallel, opposite angles are equal, and the diagonals bisect each other at right angles (90°) while also bisecting the interior",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1937,19 +1936,19 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Parallelogram",
+    "title": "A Parallelogram Is a Quadrilateral",
     "text": "A parallelogram is a quadrilateral with both pairs of opposite sides parallel. This implies opposite sides are equal in length, opposite angles are equal in measure, adjacent angles are supplementary (sum to 180°), and the diagonals bisect each other.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In a Parallelogram, The Two",
+    "title": "In a Parallelogram, The Two Diagonals",
     "text": "In a parallelogram, the two diagonals intersect at a point that divides each diagonal into two equal segments. If ABCD is a parallelogram with diagonals AC and BD intersecting at O, then AO = OC and BO = OD.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Kite",
+    "title": "A Kite Is a Quadrilateral",
     "text": "A kite is a quadrilateral with two distinct pairs of adjacent sides that are equal in length. The angles between the unequal sides are equal, the diagonals intersect at right angles, and one diagonal bisects the other.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2034,7 +2033,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Yes, the statement is true. It is the converse of the property: if diagonals bisect each other, the quadrilateral is a parallelogram",
      "QS = 10 cm (diagonals of a rectangle are equal). PO = 5 cm (diagonals bisect each other, so PO = half of PR)"
     ],
-    "hint": "Straight from the 'rectangle' slide -- match the key terms.",
+    "hint": "Straight from the 'A rectangle is a quadrilateral' slide -- match the key terms.",
     "misconception": "A wrong answer of QS = 5 cm or PO = 10 cm indicates confusion between \"equal diagonals\" and \"bisecting diagonals\"; a student who says PO = 2.5 cm might be halving the wrong segment.",
     "id": "gen_c8_math_ch04_q2",
     "nodeId": "c8_math_ch4_2",
@@ -2114,11 +2113,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the property of the diagonals of a rectangle regarding their intersection point.",
     "answer": "The diagonals of a rectangle bisect each other, meaning they intersect at their midpoints",
     "options": [
-     "A square is a quadrilateral with all four sides equal and all four angles 90°. Three distinguishing properties: (1) All sides equal (rectangle only has opposite sides equal)",
-     "The four elements are: four sides (PQ, QR, RS, SP), four vertices (P, Q, R, S), four interior angles (∠P, ∠Q, ∠R, ∠S), and two diagonals (PR, QS)",
+     "The student can independently construct a step-by-step geometric proof that the diagonals of a rectangle are equal, correctly identifying the congruent triangles",
+     "The theorem: In a rectangle, the diagonals are equal in length. The congruence criterion used is SAS (Side-Angle-Side) or RHS (Right angle-Hypotenuse-Side)",
      "The diagonals of a rectangle bisect each other, meaning they intersect at their midpoints"
     ],
-    "hint": "Straight from the 'In a rectangle, the two' slide -- match the key terms.",
+    "hint": "Straight from the 'In a rectangle, the two diagonals' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"diagonals are perpendicular\" or \"diagonals bisect the angles\") reveals the student is confusing rectangle properties with those of a rhombus or square, or has not distinguished between \"equal diagonals\" and \"bisecting diagonals.\"",
     "id": "gen_c8_math_ch04_q4",
     "nodeId": "c8_math_ch4_4",
@@ -2272,11 +2271,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the definition of a rhombus in your own words. How is it different from a general parallelogram?",
     "answer": "A rhombus is a quadrilateral with all four sides equal in length. A general parallelogram only requires opposite sides to be equal and parallel, not all four sides",
     "options": [
-     "The diagonals of a rectangle bisect each other, meaning they intersect at their midpoints",
-     "A square is a quadrilateral with all four sides equal and all four angles 90°. Three distinguishing properties: (1) All sides equal (rectangle only has opposite sides equal)",
+     "The student can identify a rhombus among other quadrilaterals by verifying all sides are equal and can apply its properties (equal sides, parallel opposite sides",
+     "The student can prove that the diagonals of a rhombus are perpendicular bisectors using triangle congruence (SSS or SAS), and can apply this property to find unknown angles",
      "A rhombus is a quadrilateral with all four sides equal in length. A general parallelogram only requires opposite sides to be equal and parallel, not all four sides"
     ],
-    "hint": "Straight from the 'rhombus' slide -- match the key terms.",
+    "hint": "Straight from the 'A rhombus is a quadrilateral' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a rhombus has four right angles\") reveals confusion with a square or rectangle, showing the student does not distinguish the defining property of equal sides.",
     "id": "gen_c8_math_ch04_q7",
     "nodeId": "c8_math_ch4_7",
@@ -2293,8 +2292,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the property of the diagonals of a rhombus regarding their intersection.",
     "answer": "The diagonals of a rhombus intersect at right angles (90°) and bisect each other",
     "options": [
-     "The four elements are: four sides (PQ, QR, RS, SP), four vertices (P, Q, R, S), four interior angles (∠P, ∠Q, ∠R, ∠S), and two diagonals (PR, QS)",
-     "The theorem: In a rectangle, the diagonals are equal in length. The congruence criterion used is SAS (Side-Angle-Side) or RHS (Right angle-Hypotenuse-Side)",
+     "The student can prove that the diagonals of a rectangle bisect each other using triangle congruence criteria (ASA or SAS) and can apply this property to find unknown segment",
+     "The student can identify a kite among quadrilaterals, state and apply its five key properties (adjacent equal sides, equal opposite angles, perpendicular diagonals",
      "The diagonals of a rhombus intersect at right angles (90°) and bisect each other"
     ],
     "hint": "Straight from the 'In a rhombus, the two diagonals' slide -- match the key terms.",
@@ -2318,7 +2317,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "The statement is incorrect. The correct relationship: Every square is a rhombus (since a square has all sides equal)",
      "No, equal opposite sides alone do not guarantee a parallelogram (e.g., an isosceles trapezium can have equal opposite sides?"
     ],
-    "hint": "Straight from the 'parallelogram' slide -- match the key terms.",
+    "hint": "Straight from the 'A parallelogram is a quadrilateral' slide -- match the key terms.",
     "misconception": "A wrong answer (\"no, could be a kite\") reveals the student doesn't know the converse property or confuses side-order. I'll adjust the question to avoid confusion. Revised Question: A quadrilateral has angles 80°, 100°, 80°, 100° in order.",
     "id": "gen_c8_math_ch04_q9",
     "nodeId": "c8_math_ch4_9",
@@ -2335,8 +2334,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the property of diagonals in a parallelogram. If ABCD is a parallelogram with diagonals intersecting at O, write the two equalities that describe this property.",
     "answer": "The diagonals bisect each other: AO = OC and BO = OD",
     "options": [
-     "The diagonals of a rhombus intersect at right angles (90°) and bisect each other",
-     "The diagonals of a rectangle bisect each other, meaning they intersect at their midpoints",
+     "The student can prove that the diagonals of a parallelogram bisect each other using triangle congruence (ASA or SAS)",
+     "The student can identify a square among other quadrilaterals, state all its defining properties (sides, angles, diagonals, symmetry)",
      "The diagonals bisect each other: AO = OC and BO = OD"
     ],
     "hint": "Straight from the 'In a parallelogram, the two' slide -- match the key terms.",
@@ -2523,7 +2522,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Good problem: \"A square tile of side 30 cm is to be cut along one diagonal. The two triangular pieces are used to make a right-angled corner bracket",
      "Example: A farmer's quadrilateral plot has angles 85°, 100°, 115°. Find the fourth angle to build a fence corner correctly"
     ],
-    "hint": "Straight from the 'quadrilateral' slide -- match the key terms.",
+    "hint": "Straight from the 'A quadrilateral is a closed plane' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., just giving numbers without context) reveals the student cannot connect the abstract property to practical measurement.",
     "id": "gen_c8_math_ch04_q15",
     "nodeId": "c8_math_ch4_1",
@@ -2538,7 +2537,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Example problem: \"A rectangular plot has a perimeter of 140 m. Its length is 10 m more than its breadth",
      "Step 1: Use angle sum property: ∠W + ∠X + ∠Y + ∠Z = 360°. Step 2: Substitute known values: 80° + 110° + 95° + ∠Z = 360°"
     ],
-    "hint": "Straight from the 'quadrilateral' slide -- match the key terms.",
+    "hint": "Straight from the 'A quadrilateral is a closed plane' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 85°) reveals the student added incorrectly (80+110+95=275, then 360-275=85) or forgot to include all three given angles.",
     "id": "gen_c8_math_ch04_q16",
     "nodeId": "c8_math_ch4_1",
@@ -2549,11 +2548,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What are the four elements of a quadrilateral? List them using the standard notation for a quadrilateral named PQRS.",
     "answer": "The four elements are: four sides (PQ, QR, RS, SP), four vertices (P, Q, R, S), four interior angles (∠P, ∠Q, ∠R, ∠S), and two diagonals (PR, QS)",
     "options": [
-     "The diagonals of a rectangle bisect each other, meaning they intersect at their midpoints",
-     "The diagonals of a rhombus intersect at right angles (90°) and bisect each other",
+     "The student can prove that the diagonals of a rectangle bisect each other using triangle congruence criteria (ASA or SAS) and can apply this property to find unknown segment",
+     "The student can prove that the diagonals of a rhombus are perpendicular bisectors using triangle congruence (SSS or SAS), and can apply this property to find unknown angles",
      "The four elements are: four sides (PQ, QR, RS, SP), four vertices (P, Q, R, S), four interior angles (∠P, ∠Q, ∠R, ∠S), and two diagonals (PR, QS)"
     ],
-    "hint": "Straight from the 'quadrilateral' slide -- match the key terms.",
+    "hint": "Straight from the 'A quadrilateral is a closed plane' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing only sides and angles) reveals the student thinks diagonals are not part of the basic definition or confuses vertices with angles.",
     "id": "gen_c8_math_ch04_q17",
     "nodeId": "c8_math_ch4_1",
@@ -2577,11 +2576,11 @@ export const C8_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about square?",
+    "What surprised you about in a rectangle, the two diagonals?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Square mastered! 🎯",
+  "successLine": "In a Rectangle, The Two mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -2645,7 +2644,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "An Even Number Can Be",
+    "title": "An Even Number Can Be Expressed",
     "text": "An even number can be expressed as a sum of two or more consecutive natural numbers if and only if it is not a power of 2 (i.e., it has at least one odd factor greater than 1).",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2687,7 +2686,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Cryptarithm",
+    "title": "A Cryptarithm Is a Mathematical Puzzle",
     "text": "A cryptarithm is a mathematical puzzle where digits in an arithmetic operation (addition, subtraction, multiplication, division) are replaced by letters or symbols; each letter represents a unique digit (0-9), and the same letter always represents the same",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -2699,8 +2698,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the sum of three consecutive numbers starting from 14? State the sum and explain what property this sum will always have, regardless of the starting number.",
     "answer": "The sum is 14+15+16 = 45. The sum of any three consecutive numbers is always a multiple of 3",
     "options": [
-     "The sum is k·a + k(k-1)/2",
-     "32 cannot be expressed. 18 = 5+6+7 or 3+4+5+6; 22 = 4+5+6+7; 36 = 11+12+13 or 1+2+3+4+5+6+7+8",
+     "The student can explain why any odd number greater than 1 can be written as the sum of two consecutive positive integers",
+     "The student can systematically find all ways to write a given number (up to 100) as a sum of consecutive natural numbers by testing possible lengths k",
      "The sum is 14+15+16 = 45. The sum of any three consecutive numbers is always a multiple of 3"
     ],
     "hint": "Straight from the 'sum of consecutive numbers' slide -- match the key terms.",
@@ -2720,8 +2719,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the algebraic expression for the sum of k consecutive natural numbers starting from a?",
     "answer": "The sum is k·a + k(k-1)/2",
     "options": [
-     "The rule: A number is divisible by 8 if the number formed by its last three digits is divisible by 8. Example: 12,456 (last three digits 456, 456 ÷ 8 = 57)",
-     "Rule: A number is divisible by 9 if the sum of its digits is a multiple of 9. Example: 234 (2+3+4=9)",
+     "The student can determine whether a given even number can be written as a sum of consecutive natural numbers, find at least one such representation when possible",
+     "The student can identify and explain patterns in sums of consecutive numbers (e.g., parity, divisibility) using algebraic reasoning",
      "The sum is k·a + k(k-1)/2"
     ],
     "hint": "Straight from the 'natural number N can be' slide -- match the key terms.",
@@ -2762,11 +2761,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "Which of the following even numbers CANNOT be expressed as a sum of two or more consecutive natural numbers: 18, 22, 32, 36?",
     "answer": "32 cannot be expressed. 18 = 5+6+7 or 3+4+5+6; 22 = 4+5+6+7; 36 = 11+12+13 or 1+2+3+4+5+6+7+8",
     "options": [
-     "The sum is k·a + k(k-1)/2",
-     "(a) odd + even = odd, (b) odd − even = odd, (c) odd + even = odd, (d) even − odd = odd",
+     "The student can identify and explain patterns in sums of consecutive numbers (e.g., parity, divisibility) using algebraic reasoning",
+     "The sum is 14+15+16 = 45. The sum of any three consecutive numbers is always a multiple of 3",
      "32 cannot be expressed. 18 = 5+6+7 or 3+4+5+6; 22 = 4+5+6+7; 36 = 11+12+13 or 1+2+3+4+5+6+7+8"
     ],
-    "hint": "Straight from the 'An even number can be' slide -- match the key terms.",
+    "hint": "Straight from the 'An even number can be expressed' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., picking 18) reveals the student thinks all even numbers work or confuses the pattern with odd numbers.",
     "id": "gen_c8_math_ch05_q4",
     "nodeId": "c8_math_ch5_4",
@@ -2877,8 +2876,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the divisibility rule for 9 and give an example of a 3-digit number that is divisible by 9.",
     "answer": "Rule: A number is divisible by 9 if the sum of its digits is a multiple of 9. Example: 234 (2+3+4=9)",
     "options": [
-     "The rule: A number is divisible by 8 if the number formed by its last three digits is divisible by 8. Example: 12,456 (last three digits 456, 456 ÷ 8 = 57)",
-     "The sum is 14+15+16 = 45. The sum of any three consecutive numbers is always a multiple of 3",
+     "Divisibility tests are shortcut rules to determine if a whole number is divisible by another without performing full division",
+     "Divisibility tests are shortcut rules that determine whether a given integer is divisible by another integer (2, 3, 5, 9, 10) without performing long division",
      "Rule: A number is divisible by 9 if the sum of its digits is a multiple of 9. Example: 234 (2+3+4=9)"
     ],
     "hint": "Straight from the 'Divisibility tests' slide -- match the key terms.",
@@ -2976,7 +2975,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "(i) even + odd + odd = (even + odd) + odd = odd + odd = even. (ii) even − odd − odd = (even − odd) − odd = odd − odd = even",
      "AB and BA are both two-digit numbers (maximum 99 + 99 = 198), so their sum CDC is a three-digit number at most 198"
     ],
-    "hint": "Straight from the 'cryptarithm' slide -- match the key terms.",
+    "hint": "Straight from the 'A cryptarithm is a mathematical' slide -- match the key terms.",
     "misconception": "A wrong answer like \"C can be any digit\" reveals the student has not applied the constraint that the maximum sum of two two-digit numbers is 198, missing the bounding logic that forces C = 1.",
     "id": "gen_c8_math_ch05_q11",
     "nodeId": "c8_math_ch5_11",
@@ -3065,6 +3064,21 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify and explain patterns in sums of consecutive numbers (e.g., parity, divisibility) using algebraic reasoning",
+    "options": [
+     "The student can systematically find all ways to write a given number (up to 100) as a sum of consecutive natural numbers by testing possible lengths k",
+     "The student can explain why any odd number greater than 1 can be written as the sum of two consecutive positive integers",
+     "The student can identify and explain patterns in sums of consecutive numbers (e.g., parity, divisibility) using algebraic reasoning"
+    ],
+    "hint": "Straight from the 'sum of consecutive numbers' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify and explain patterns in sums of consecutive numbers (e.",
+    "id": "gen_c8_math_ch05_q17",
+    "nodeId": "c8_math_ch5_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A student claims: \"If the sum of a two-digit number and its reversal is 99, then the number must be 45 or 54.\" Analyze this claim and determine if it is always true, sometimes true, or never true. Justify.",
     "answer": "The claim is sometimes true. Sum = \\(11(a+b)=99 \\Rightarrow a+b=9\\). Pairs of digits summing to 9: (1,8),(2,7),(3,6),(4,5),(5,4),(6,3),(7,2),(8,1)",
     "options": [
@@ -3074,21 +3088,6 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'A two-digit number reversal puzzle' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The claim is sometimes true. Sum = \\(11(a+b)=99 \\Rightarrow a+b=9\\).",
-    "id": "gen_c8_math_ch05_q17",
-    "nodeId": "c8_math_ch5_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a two-digit number reversal puzzle with the following conditions: (1) The number is greater than its reversal. (2) The difference between the number and its reversal is 27. (3) The sum of the digits is 9. Write the puzzle statement and solve it.",
-    "answer": "Puzzle: \"I am a two-digit number. My digits add up to 9. I am greater than my reversal, and the difference between us is 27",
-    "options": [
-     "Both factor out a 2: sum gives \\(2(m+n)+1\\) (2×integer +1 → odd), product gives \\(2(2mn+m)\\) (2×integer → even)",
-     "The second sum is larger by 3. Because each term in the second set is exactly 1 more than the corresponding term in the first set (11 vs 10, 12 vs 11, 13 vs 12)",
-     "Puzzle: \"I am a two-digit number. My digits add up to 9. I am greater than my reversal, and the difference between us is 27"
-    ],
-    "hint": "Straight from the 'A two-digit number reversal puzzle' slide -- match the key terms.",
-    "misconception": "A poor answer might give a puzzle with no solution (e.g., difference 27 and sum 10, which gives non-integer digits) or forget the \"greater than\" condition leading to two answers (63 and 36).",
     "id": "gen_c8_math_ch05_q18",
     "nodeId": "c8_math_ch5_10",
     "difficulty": "advanced"
@@ -3106,14 +3105,14 @@ export const C8_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_math_ch06",
-  "title": "Distributive Property Of Multiplication Over",
+  "title": "Algebraic Identity",
   "subtitle": "Mathematics · Chapter 6",
   "classLevel": 8,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Distributive Property Of Multiplication Over",
+  "topic": "Algebraic Identity",
   "chapters": [
-   "Mathematics Ch6: Distributive Property Of Multiplication Over"
+   "Mathematics Ch6: Algebraic Identity"
   ],
   "nodeIds": [
    "c8_math_ch6_1",
@@ -3135,7 +3134,7 @@ export const C8_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see Distributive Property Of directly with your eyes?",
+   "question": "Can you see Algebraic Identity directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -3158,7 +3157,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "When One Factor In a Multiplication",
+    "title": "When One Factor In a Multiplication Is",
     "text": "When one factor in a multiplication is increased by 1, the product increases exactly by the value of the other factor. For any two numbers \\(a\\) and \\(b\\), \\((a+1) \\times b = a \\times b + b\\) and \\(a \\times (b+1) = a \\times b + a\\).",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -3344,8 +3343,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the rule: If we have a product \\(a \\times b\\) and we increase \\(a\\) by 1, by how much does the product increase? Write the new product in terms of the original product.",
     "answer": "The product increases by \\(b\\). The new product is \\(a \\times b + b\\)",
     "options": [
-     "(x + 1)(y - 1) = xy - x + y - 1 = xy + (y - x) - 1",
-     "The distributive property over addition: \\(a(b + c) = ab + ac\\). Over subtraction: \\(a(b - c) = ab - ac\\). This holds for all integers \\(a, b, c\\)",
+     "They treat the increment as an absolute addition to the product rather than a multiplicative addition of the other factor",
+     "The student can derive the algebraic identity (a+1)(b-1) = ab + (b-a) - 1 using the distributive property, compute the exact change in product for given numbers",
      "The product increases by \\(b\\). The new product is \\(a \\times b + b\\)"
     ],
     "hint": "Straight from the 'When one factor in a' slide -- match the key terms.",
@@ -3386,7 +3385,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the algebraic expansion of (x + 1)(y - 1) using the distributive property?",
     "answer": "(x + 1)(y - 1) = xy - x + y - 1 = xy + (y - x) - 1",
     "options": [
-     "The product increases by \\(b\\). The new product is \\(a \\times b + b\\)",
+     "The student can derive the algebraic identity (a+1)(b-1) = ab + (b-a) - 1 using the distributive property, compute the exact change in product for given numbers",
      "The distributive property over addition: \\(a(b + c) = ab + ac\\). Over subtraction: \\(a(b - c) = ab - ac\\). This holds for all integers \\(a, b, c\\)",
      "(x + 1)(y - 1) = xy - x + y - 1 = xy + (y - x) - 1"
     ],
@@ -3463,7 +3462,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "\\(6 - 3\\) means \\(6 + (-3)\\). By distributive property, \\(-4 \\times (6 + (-3)) = (-4 \\times 6) + (-4 \\times -3)\\)",
      "\\((2x + 3y)^2 = (2x + 3y)(2x + 3y) = 2x(2x + 3y) + 3y(2x + 3y) = 4x^2 + 6xy + 6xy + 9y^2 = 4x^2 + 12xy + 9y^2\\)"
     ],
-    "hint": "Straight from the 'algebraic identity \\^2' slide -- match the key terms.",
+    "hint": "Straight from the 'algebraic identity' slide -- match the key terms.",
     "misconception": "A student who says \"you just square each term\" is treating the square as distributive over addition, which is false; they confuse \\((a+b)^2\\) with \\(a^2+b^2\\).",
     "id": "gen_c8_math_ch06_q7",
     "nodeId": "c8_math_ch6_7",
@@ -3484,7 +3483,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "\\(4 \\times (5+3)\\) means adding \\((5+3)\\) four times: \\((5+3)+(5+3)+(5+3)+(5+3)\\). Regrouping the additions gives four 5s and four 3s, which is \\(4 \\times 5 + 4 \\times 3\\)",
      "Expanding gives \\(a(a-b) + b(a-b) = a^2 - ab + ab - b^2\\). The terms \\(-ab\\) and \\(+ab\\) are additive inverses, so they sum to zero"
     ],
-    "hint": "Straight from the 'algebraic identity \\(a' slide -- match the key terms.",
+    "hint": "Straight from the 'algebraic identity' slide -- match the key terms.",
     "misconception": "If a student says \"they cancel because one is plus and one is minus\" without showing the distributive steps, they lack a structural understanding of why the cancellation occurs.",
     "id": "gen_c8_math_ch06_q8",
     "nodeId": "c8_math_ch6_8",
@@ -3665,7 +3664,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "(x+1)(y+1) = xy + x + y + 1. (x+2)(y+2) = xy + 2x + 2y + 4. Both have xy term and sum of variable terms and constant",
      "Case (i): larger is 10, smaller is 6. Increase 10→11, decrease 6→5: new product = 55. Change = (6-10)-1 = -5",
-     "Case B uses distributive property over addition: \\(12 \\times (10 + 9) = 12 \\times 10 + 12 \\times 9\\)",
+     "Correct B uses distributive property over addition: \\(12 \\times (10 + 9) = 12 \\times 10 + 12 \\times 9\\)",
      "Method B uses distributive property over addition: \\(12 \\times (10 + 9) = 12 \\times 10 + 12 \\times 9\\)"
     ],
     "hint": "Straight from the 'distributive property of' slide -- match the key terms.",
@@ -3724,8 +3723,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the distributive property of multiplication over addition using the variables \\(a\\), \\(b\\), and \\(c\\).",
     "answer": "The property is \\(a(b + c) = ab + ac\\)",
     "options": [
-     "The expanded form is \\(xz + yz\\) (or \\(zx + zy\\))",
-     "The product increases by \\(b\\). The new product is \\(a \\times b + b\\)",
+     "The student can correctly expand algebraic expressions and arithmetic expressions involving negative integers using the distributive property",
+     "The student can derive the algebraic identity (a+1)(b-1) = ab + (b-a) - 1 using the distributive property, compute the exact change in product for given numbers",
      "The property is \\(a(b + c) = ab + ac\\)"
     ],
     "hint": "Straight from the 'distributive property of' slide -- match the key terms.",
@@ -3752,11 +3751,11 @@ export const C8_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about distributive property of multiplication over?",
+    "What surprised you about algebraic identity?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Distributive Property Of mastered! 🎯",
+  "successLine": "Algebraic Identity mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3807,7 +3806,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Ratio",
+    "title": "A Ratio Is a Comparison",
     "text": "A ratio is a comparison of two quantities of the same kind and in the same units, expressed as an ordered pair \\(a : b\\) (read as \"a is to b\") where \\(a\\) is the antecedent and \\(b\\) is the consequent.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -3837,7 +3836,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Cross-multiplication",
+    "title": "Cross-multiplication Is An Algebraic Method",
     "text": "Cross-multiplication is an algebraic method for solving a proportion of the form \\( \\frac{a}{b} = \\frac{c}{d} \\) (where \\( b \\neq 0, d \\neq 0 \\)) by multiplying the numerator of each fraction by the denominator of the other, yielding the equation \\( a \\times",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3951,11 +3950,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the condition for a ratio a:b to be in its simplest form?",
     "answer": "A ratio a:b is in simplest form when the highest common factor (HCF) of a and b is 1",
     "options": [
-     "The ratio y/x must be constant for all corresponding pairs of x and y (and x ≠ 0). Equivalently, y = kx for some constant k",
-     "The first step is to find the cost of one pen by dividing the total cost (₹75) by the number of pens (5), giving ₹15 per pen",
+     "Proportional change refers to a change where quantities vary in a constant ratio",
+     "Students treat proportional situations additively: they add the same absolute amount to both quantities in a ratio (e",
      "A ratio a:b is in simplest form when the highest common factor (HCF) of a and b is 1"
     ],
-    "hint": "Straight from the 'ratio a' slide -- match the key terms.",
+    "hint": "Straight from the 'A ratio a:b is in its' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"when a and b are prime numbers\") reveals confusion between prime numbers and co-prime numbers; the terms need not be prime, only co-prime.",
     "id": "gen_c8_math_ch07_q3",
     "nodeId": "c8_math_ch7_3",
@@ -3976,7 +3975,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Dividing both terms by the same number is like multiplying the ratio by 1 (since n/n = 1), which preserves the value",
      "12:18 simplifies to 2:3 by dividing both terms by 6 (the HCF). 12:18 is not equivalent to 4:5 because there is no single number you can multiply or divide both 12 and 18 by to get"
     ],
-    "hint": "Straight from the 'Two ratios a' slide -- match the key terms.",
+    "hint": "Straight from the 'Two ratios' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"12÷3=4 and 18÷3=6, not 5\" shows partial understanding but misses the key point: equivalence requires the SAME operation on both terms simultaneously.",
     "id": "gen_c8_math_ch07_q4",
     "nodeId": "c8_math_ch7_4",
@@ -4045,8 +4044,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the first step in the unitary method when you are given the total cost of 5 pens as ₹75 and asked to find the cost of 8 pens?",
     "answer": "The first step is to find the cost of one pen by dividing the total cost (₹75) by the number of pens (5), giving ₹15 per pen",
     "options": [
-     "The ratio y/x must be constant for all corresponding pairs of x and y (and x ≠ 0). Equivalently, y = kx for some constant k",
-     "The cross-multiplication rule states that if \\( \\frac{a}{b} = \\frac{c}{d} \\), then \\( a \\times d = b \\times c \\)",
+     "Students treat scaling as additive: they believe that to enlarge an image, you add the same amount to both width and height",
+     "The student can reduce any given ratio (with whole numbers, decimals, or fractions) to its simplest form by correctly identifying and dividing by the HCF",
      "The first step is to find the cost of one pen by dividing the total cost (₹75) by the number of pens (5), giving ₹15 per pen"
     ],
     "hint": "Straight from the 'unitary method' slide -- match the key terms.",
@@ -4271,6 +4270,52 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "find a missing dimension",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "compute the aspect ratio of a given image",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "determine whether two rectangles",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) compute the aspect ratio of a given image and express it in simplest form; (2) determine whether",
+    "id": "gen_c8_math_ch07_q11",
+    "nodeId": "c8_math_ch7_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
     "question": "Create a real-life problem (Indian context) that requires direct proportion to solve, involving at least two steps (e.g., first find the constant, then use it for a different quantity). Provide the solution.",
     "sortItems": [
      {
@@ -4322,7 +4367,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer would be a one-step problem or a problem that is not direct proportion (e.g., involving inverse proportion), showing the student cannot construct a valid direct proportion scenario.",
-    "id": "gen_c8_math_ch07_q11",
+    "id": "gen_c8_math_ch07_q12",
     "nodeId": "c8_math_ch7_9",
     "difficulty": "advanced"
    },
@@ -4337,7 +4382,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Proportional change' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., scale unchanged) shows the student thinks enlargement is additive or doesn't connect scaling to ratio change.",
-    "id": "gen_c8_math_ch07_q12",
+    "id": "gen_c8_math_ch07_q13",
     "nodeId": "c8_math_ch7_1",
     "difficulty": "standard"
    },
@@ -4352,7 +4397,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Proportional change' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student believes adding the same amount preserves shape, confusing additive equality with multiplicative proportionality.",
-    "id": "gen_c8_math_ch07_q13",
+    "id": "gen_c8_math_ch07_q14",
     "nodeId": "c8_math_ch7_1",
     "difficulty": "standard"
    },
@@ -4367,7 +4412,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Proportional change' slide -- match the key terms.",
     "misconception": "A wrong answer reveals the student treats percentage as a fixed amount rather than a relative factor.",
-    "id": "gen_c8_math_ch07_q14",
+    "id": "gen_c8_math_ch07_q15",
     "nodeId": "c8_math_ch7_1",
     "difficulty": "standard"
    },
@@ -4382,7 +4427,7 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Proportional change' slide -- match the key terms.",
     "misconception": "A poor answer uses trivial numbers or doesn't explain the sensory/functional failure (taste, consistency, map accuracy).",
-    "id": "gen_c8_math_ch07_q15",
+    "id": "gen_c8_math_ch07_q16",
     "nodeId": "c8_math_ch7_1",
     "difficulty": "standard"
    },
@@ -4397,40 +4442,24 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Proportional change' slide -- match the key terms.",
     "misconception": "misconception: treating ratios as absolute differences rather than relative comparisons. The correct method is multiplying both parts by the same factor (e.g., ×2 gives 6:10). A wrong evaluation indicates the student cannot distinguish equivalence from mere increase.",
-    "id": "gen_c8_math_ch07_q16",
+    "id": "gen_c8_math_ch07_q17",
     "nodeId": "c8_math_ch7_1",
     "difficulty": "standard"
    },
    {
     "type": "mcq",
-    "question": "A movie poster is 60 cm wide and 90 cm tall. You want to make a smaller version with a height of 30 cm for a brochure. What should the width be to keep the poster similar? Show your working using a proportion.",
-    "answer": "Step 1: Original ratio = width/height = 60/90 = 2/3. Step 2: Let new width = w. New ratio = w/30. Step 3: For similarity, 60/90 = w/30",
+    "question": "What common mix-up does this lesson flag about Proportional change?",
+    "answer": "Students treat proportional situations additively: they add the same absolute amount to both quantities in a ratio (e",
     "options": [
-     "No, it is incorrect. The ratio of girls to boys should compare girls (25) to boys (15), so it is 25:15",
-     "Flour:sugar = 3:2. Sugar:total = 2:5. Steps: (1) Identify quantities: flour=3, sugar=2. (2) First ratio: antecedent=flour=3, consequent=sugar=2 → 3:2",
-     "Step 1: Original ratio = width/height = 60/90 = 2/3. Step 2: Let new width = w. New ratio = w/30. Step 3: For similarity, 60/90 = w/30"
+     "The student can reduce any given ratio (with whole numbers, decimals, or fractions) to its simplest form by correctly identifying and dividing by the HCF",
+     "The student can generate equivalent ratios by scaling both terms up or down using multiplication or division, verify equivalence by checking if cross-products are equal",
+     "Students treat proportional situations additively: they add the same absolute amount to both quantities in a ratio (e"
     ],
-    "hint": "Straight from the 'When an image' slide -- match the key terms.",
-    "misconception": "A wrong answer like 10 cm (subtracting 30 from 60) shows additive thinking. An answer of 45 cm (using 60/90 = 30/w incorrectly) reveals misplacing the unknown in the proportion.",
-    "id": "gen_c8_math_ch07_q17",
-    "nodeId": "c8_math_ch7_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A rectangular image has width 18 cm and height 12 cm. What is its width-to-height ratio in simplest form?",
-    "answer": "The ratio is 18:12, which simplifies to 3:2 (dividing both terms by their HCF, 6)",
-    "options": [
-     "The answer 15 cm is incorrect. The error is in setting up the proportion: the student wrote width/height = new width/new height, but used 4/6 = 10/h",
-     "Student B produces a similar rectangle (18 cm × 12 cm, ratio 3:2 same as 12:8). Student A's rectangle becomes 16 cm × 12 cm (ratio 4:3), which is not similar",
-     "The ratio is 18:12, which simplifies to 3:2 (dividing both terms by their My, 6)",
-     "The ratio is 18:12, which simplifies to 3:2 (dividing both terms by their HCF, 6)"
-    ],
-    "hint": "Straight from the 'When an image' slide -- match the key terms.",
-    "misconception": "A wrong answer like 18:12 (not simplified) reveals the student does not recall that ratios must be expressed in simplest form (c8_math_ch7_3). An answer of 2:3 reveals confusion between width-to-height and height-to-width order.",
+    "hint": "Straight from the 'Proportional change' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students treat proportional situations additively: they add the same absolute amount to both quantities in a ratio (e.",
     "id": "gen_c8_math_ch07_q18",
-    "nodeId": "c8_math_ch7_10",
-    "difficulty": "advanced"
+    "nodeId": "c8_math_ch7_1",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -4445,14 +4474,14 @@ export const C8_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_math_ch08",
-  "title": "Percentage",
+  "title": "Percentage Is a Way Of Expressing",
   "subtitle": "Mathematics · Chapter 8",
   "classLevel": 8,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Percentage",
+  "topic": "Percentage Is a Way Of Expressing",
   "chapters": [
-   "Mathematics Ch8: Percentage"
+   "Mathematics Ch8: Percentage Is a Way Of Expressing"
   ],
   "nodeIds": [
    "c8_math_ch8_1",
@@ -4469,7 +4498,7 @@ export const C8_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Percentage outside the classroom?",
+   "question": "Quick guess -- where do you meet Percentage Is a Way Of Expressing outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -4480,13 +4509,13 @@ export const C8_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Percentage",
+    "title": "Percentage Is a Way Of Expressing",
     "text": "Percentage is a way of expressing a number as a fraction of 100. The symbol % means \"per hundred\", so x% = x/100. It represents a part-to-whole relationship where the whole is always considered as 100 equal parts.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Percentage",
+    "title": "A Percentage Is a Fraction",
     "text": "A percentage is a fraction with denominator 100. To convert a percentage to a fraction, write the percentage as the numerator and 100 as the denominator, then simplify to lowest terms.",
     "emoji": "🔢",
     "bgColor": "from-violet-400 to-purple-500"
@@ -4510,7 +4539,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Discount",
+    "title": "Discount Is a Reduction Offered",
     "text": "Discount is a reduction offered on the marked price (list price) of an item, expressed as a percentage of the marked price. The discount amount is calculated as (Discount Percentage × Marked Price) ÷ 100, and the selling price equals Marked Price minus",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4526,7 +4555,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Example problem: \"Priya borrows ₹50,000 from a friend at 12% simple interest per annum. She repays the loan after 90 days",
      "Example: \"A 1-litre juice bottle says 'Contains 12% fruit juice'.\" This is better than saying \"Contains 3/25 fruit juice\" or \"Contains 0"
     ],
-    "hint": "Straight from the 'Percentage' slide -- match the key terms.",
+    "hint": "Straight from the 'Percentage is a way of expressing' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"50% off sale\" without explanation) just states a percentage without justifying why it's more useful than \"half price\" or \"0.5 discount\". It shows the student can't articulate the communicative advantage of a standard base of 100.",
     "id": "gen_c8_math_ch08_q1",
     "nodeId": "c8_math_ch8_1",
@@ -4548,7 +4577,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Fraction: 40/100 = 2/5. Priya: 0.40 or 0.4",
      "Fraction: 40/100 = 2/5. Decimal: 0.40 or 0.4"
     ],
-    "hint": "Straight from the 'percentage' slide -- match the key terms.",
+    "hint": "Straight from the 'A percentage is a fraction' slide -- match the key terms.",
     "misconception": "A wrong answer like 40/100 without simplifying reveals the student doesn't know to reduce fractions. Writing 0.04 reveals they shift the decimal point incorrectly (dividing by 1000 instead of 100).",
     "id": "gen_c8_math_ch08_q2",
     "nodeId": "c8_math_ch8_3",
@@ -4630,7 +4659,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Example: \"A 1-litre juice bottle says 'Contains 12% fruit juice'.\" This is better than saying \"Contains 3/25 fruit juice\" or \"Contains 0",
      "10% of ₹800 is ₹80, so 15% is ₹80 + ₹40 = ₹120. The answer is exactly correct"
     ],
-    "hint": "Straight from the 'Discount' slide -- match the key terms.",
+    "hint": "Straight from the 'Discount is a reduction offered' slide -- match the key terms.",
     "misconception": "A student who cannot estimate 10% and 5% mentally shows they don't understand the fractional nature of percentages (10% = 1/10, 5% = 1/20) and rely only on the formula without number sense.",
     "id": "gen_c8_math_ch08_q6",
     "nodeId": "c8_math_ch8_11",
@@ -4651,7 +4680,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Decrease = 25,000 - 22,500 = 2,500. Percentage decrease = (2,500 / 25,000) × 100 = (1/10) × 100 = 10%",
      "The student forgot to divide by 100. 0.8% = 0.8/100 = 0.008. The error is treating the percentage number as already a decimal. Correct steps: 0.8% = 0.8/100 = 8/1000 = 0.008"
     ],
-    "hint": "Straight from the 'percentage' slide -- match the key terms.",
+    "hint": "Straight from the 'A percentage is a fraction' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"move decimal two places left from 0.8 to get 0.008\" but then writes 0.08 reveals confusion about decimal places when the percentage is less than 1%.",
     "id": "gen_c8_math_ch08_q7",
     "nodeId": "c8_math_ch8_3",
@@ -4676,11 +4705,11 @@ export const C8_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about percentage?",
+    "What surprised you about percentage is a way of expressing?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Percentage mastered! 🎯",
+  "successLine": "Percentage Is a Way mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -4758,7 +4787,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "The Pythagoras Theorem States That",
+    "title": "The Pythagoras Theorem",
     "text": "The Pythagoras theorem states that in a right-angled triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4906,7 +4935,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Ravi is correct. The Baudhayana-Pythagoras Theorem is an \"if and only if\" statement for right-angled triangles: if the side lengths satisfy \\(a^2 + b^2 = c^2\\)",
      "Ravi incorrectly added the squares. The 17 m (tree top to shadow tip) is the hypotenuse. Correct: \\(h^2 + 15^2 = 17^2\\) → \\(h^2 = 289 - 225 = 64\\) → \\(h = 8\\) m"
     ],
-    "hint": "Straight from the 'The Pythagoras theorem states that' slide -- match the key terms.",
+    "hint": "Straight from the 'The Pythagoras theorem' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Ravi incorrectly added the squares. The 17 m (tree top to shadow tip) is the hypotenuse.",
     "id": "gen_c8_math_ch09_q7",
     "nodeId": "c8_math_ch9_9",
@@ -5049,8 +5078,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "Explain why constructing a square on half the diagonal of the original square yields a square of half the area. Use the relationship between the side and diagonal of a square in your reasoning.",
     "answer": "The diagonal \\(d\\) of a square of side \\(a\\) is \\(a\\sqrt{2}\\) (by Pythagoras: \\(d^2 = a^2 + a^2 = 2a^2\\))",
     "options": [
-     "The claim is false. The square on the full diagonal has side \\(8\\sqrt{2}\\) cm, area = \\((8\\sqrt{2})^2 = 128\\) cm²",
      "Doubling a square via the diagonal uses the diagonal as the new side, creating a square rotated 45° relative to the original",
+     "The side length is \\(5\\sqrt{2}\\) cm. Half the area means new area = \\(100/2 = 50\\) cm². Side = \\(\\sqrt{50} = 5\\sqrt{2}\\) cm",
      "The diagonal \\(d\\) of a square of side \\(a\\) is \\(a\\sqrt{2}\\) (by Pythagoras: \\(d^2 = a^2 + a^2 = 2a^2\\))"
     ],
     "hint": "Straight from the 'Halving a square' slide -- match the key terms.",
@@ -5061,33 +5090,33 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Ravi claims that any triangle with sides 7 cm, 24 cm, and 25 cm is right-angled because \\(7^2 + 24^2 = 49 + 576 = 625 = 25^2\\). Priya says we also need to check that the angle opposite the 25 cm side is 90°. Who is correct? Justify.",
-    "answer": "Ravi is correct. The Baudhayana-Pythagoras Theorem is an \"if and only if\" statement for right-angled triangles: if the side lengths satisfy \\(a^2 + b^2 = c^2\\)",
+    "question": "What is Halving a square? State the definition given in this lesson.",
+    "answer": "Halving a square is the geometric construction of a new square whose area is exactly half the area of a given square",
     "options": [
-     "The side length is \\(5\\sqrt{2}\\) cm. Half the area means new area = \\(100/2 = 50\\) cm². Side = \\(\\sqrt{50} = 5\\sqrt{2}\\) cm",
-     "For the first triangle: hypotenuse = \\(5\\sqrt{2}\\) cm, ratio = \\(\\frac{5\\sqrt{2}}{5} = \\sqrt{2}\\). For the second: hypotenuse = \\(12\\sqrt{2}\\) cm",
-     "Ravi is correct. The Baudhayana-Pythagoras Theorem is an \"if and only if\" statement for right-angled triangles: if the side lengths satisfy \\(a^2 + b^2 = c^2\\)"
+     "The student can independently construct a square with half the area of a given square using only a compass and straightedge",
+     "The solution is mathematically correct in computation and conclusion. However, it is incomplete because the student did not explicitly state the identification of the longest side",
+     "Halving a square is the geometric construction of a new square whose area is exactly half the area of a given square"
     ],
-    "hint": "Straight from the 'Baudhayana-Pythagoras Theorem' slide -- match the key terms.",
-    "misconception": "A wrong judgment (saying Priya is right) reveals the student does not know the converse is valid, a key insight for verifying right angles.",
+    "hint": "Straight from the 'Halving a square' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Halving a square is the geometric construction of a new square whose area is exactly half the area of a given square.",
     "id": "gen_c8_math_ch09_q17",
-    "nodeId": "c8_math_ch9_5",
-    "difficulty": "standard"
+    "nodeId": "c8_math_ch9_3",
+    "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "A student claims the visual proof only works for the 3-4-5 triangle because the squares have integer sides. Evaluate this claim and explain why it is correct or incorrect.",
-    "answer": "The claim is incorrect. The visual proof uses arbitrary lengths a and b; the dissection works for any positive real numbers because congruence and area addition hold generally",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently construct a square with half the area of a given square using only a compass and straightedge",
     "options": [
-     "For the first triangle: hypotenuse = \\(5\\sqrt{2}\\) cm, ratio = \\(\\frac{5\\sqrt{2}}{5} = \\sqrt{2}\\). For the second: hypotenuse = \\(12\\sqrt{2}\\) cm",
-     "The reasoning is incorrect because the converse of Pythagoras theorem requires exact equality, not approximate equality",
-     "The claim is incorrect. The visual proof uses arbitrary lengths a and b; the dissection works for any positive real numbers because congruence and area addition hold generally"
+     "Halving a square is the geometric construction of a new square whose area is exactly half the area of a given square",
+     "Both proofs rely on the principle of area conservation: when shapes are dissected and rearranged without overlap or gaps, the total area remains unchanged",
+     "The student can independently construct a square with half the area of a given square using only a compass and straightedge"
     ],
-    "hint": "Straight from the 'visual proof of the Pythagoras' slide -- match the key terms.",
-    "misconception": "If a student agrees with the claim, they confuse a specific numerical example with a general geometric proof.",
+    "hint": "Straight from the 'Halving a square' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently construct a square with half the area of a given square using only a compass and",
     "id": "gen_c8_math_ch09_q18",
-    "nodeId": "c8_math_ch9_6",
-    "difficulty": "standard"
+    "nodeId": "c8_math_ch9_3",
+    "difficulty": "advanced"
    }
   ],
   "reflect": {
@@ -5183,7 +5212,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "In Inverse Proportion, Two Quantities",
+    "title": "In Inverse Proportion, Two Quantities Vary",
     "text": "In inverse proportion, two quantities vary such that their product remains constant: when one quantity increases, the other decreases proportionally so that \\(x \\times y = k\\) (where \\(k\\) is a non-zero constant).",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -5271,7 +5300,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "answer": "RF is a ratio of two quantities measured in the same units, so the units cancel out, leaving a pure number",
     "options": [
      "Multiply both sides by b: a = (c/d) × b. Then multiply both sides by d: a × d = c × b. Alternatively",
-     "Correct evaluation: Yes, the method and answer are correct. 1 m = 100 cm, so dividing cm by 100 gives metres. 400,000 cm = 4,000 m",
+     "The 1:100,000 map shows a larger area; the 1:20,000 map shows more detail. Reason: For the same map distance (say 1 cm)",
      "RF is a ratio of two quantities measured in the same units, so the units cancel out, leaving a pure number"
     ],
     "hint": "Straight from the 'Representative Fraction' slide -- match the key terms.",
@@ -5556,7 +5585,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "Situation A: Direct. Doubling weight doubles cost (ratio cost/weight = 80 constant). Situation B: Inverse",
      "Situation (A) is inverse proportion: more pipes → less time, and the product (pipes × time) equals the tank capacity (constant)",
-     "Both methods give the same answer (₹375). Seema: 8/200 = 15/x → 8x = 3000 → x = 375",
+     "Both methods give the same answer (₹375). If: 8/200 = 15/x → 8x = 3000 → x = 375",
      "Both methods give the same answer (₹375). Cross-multiplication: 8/200 = 15/x → 8x = 3000 → x = 375"
     ],
     "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
@@ -5586,7 +5615,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "answer": "Multiply both sides by b: a = (c/d) × b. Then multiply both sides by d: a × d = c × b. Alternatively",
     "options": [
      "RF is a ratio of two quantities measured in the same units, so the units cancel out, leaving a pure number",
-     "Both methods give the same answer (₹375). Cross-multiplication: 8/200 = 15/x → 8x = 3000 → x = 375",
+     "The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear equation, solve for the unknown using inverse operations",
      "Multiply both sides by b: a = (c/d) × b. Then multiply both sides by d: a × d = c × b. Alternatively"
     ],
     "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
@@ -5602,7 +5631,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "1 unit (cm, mm, inch, etc.) measured on the map corresponds to 200,000 of the same units in reality",
      "The product of map distance and RF denominator is invariant. Map A: 5 × 100,000 = 500,000 cm. Map B: 2.5 × 200,000 = 500,000 cm. Both give the same actual distance",
-     "Step 1: Cross-multiply: 5 × 36 = 12 × x. Step 2: Calculate 5 × 36 = 180. So 180 = 12x. Step 3: Find both sides by 12: x = 180/12 = 15",
+     "Step 1: Cross-multiply: 5 × 36 = 12 × x. Step 2: Calculate 5 × 36 = 180. So 180 = 12x. Step 3: Situation both sides by 12: x = 180/12 = 15",
      "Step 1: Cross-multiply: 5 × 36 = 12 × x. Step 2: Calculate 5 × 36 = 180. So 180 = 12x. Step 3: Divide both sides by 12: x = 180/12 = 15"
     ],
     "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
@@ -5616,14 +5645,29 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the cross-multiplication rule for the proportion a/b = c/d (where b and d are not zero). Write the resulting equation.",
     "answer": "The rule gives a × d = b × c",
     "options": [
-     "The student's reasoning is incorrect. 4 km = 4000 m is true, but RF requires both distances in the SAME units",
-     "Both methods give the same answer (₹375). Cross-multiplication: 8/200 = 15/x → 8x = 3000 → x = 375",
-     "Inverse rule gives a × d = b × c",
+     "The student can simplify a multi-term ratio to its lowest terms, generate equivalent multi-term ratios",
+     "The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear equation, solve for the unknown using inverse operations",
+     "Reason rule gives a × d = b × c",
      "The rule gives a × d = b × c"
     ],
     "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
     "misconception": "A wrong answer like a × c = b × d reveals the student confuses the positions of extremes and means, multiplying numerators together and denominators together instead of cross-multiplying. This is the most common procedural error.",
     "id": "gen_c8_math_ch10_q16",
+    "nodeId": "c8_math_ch10_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear equation, solve for the unknown using inverse operations",
+    "options": [
+     "The student can simplify a multi-term ratio to its lowest terms, generate equivalent multi-term ratios",
+     "The rule gives a × d = b × c",
+     "The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear equation, solve for the unknown using inverse operations"
+    ],
+    "hint": "Straight from the 'cross-multiplication method' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear",
+    "id": "gen_c8_math_ch10_q17",
     "nodeId": "c8_math_ch10_1",
     "difficulty": "advanced"
    },
@@ -5638,25 +5682,9 @@ export const C8_MATH_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Two quantities' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The student incorrectly used direct proportion. More pumps should take *less* time, not more.",
-    "id": "gen_c8_math_ch10_q17",
+    "id": "gen_c8_math_ch10_q18",
     "nodeId": "c8_math_ch10_10",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A map has RF 1:250,000. If the distance between two towns on the map is 4.8 cm, what is the actual distance between the towns in kilometres? Show your working.",
-    "answer": "Step 1: RF 1:250,000 means 1 cm on map = 250,000 cm on ground. Step 2: 4.8 cm on map = 4.8 × 250,000 cm = 1,200,000 cm on ground",
-    "options": [
-     "The multiplication gives 175,000 cm because the RF uses the same unit for map and ground. The student incorrectly attached \"km\" without converting. 175,000 cm = 1.75 km",
-     "1 unit (cm, mm, inch, etc.) measured on the map corresponds to 200,000 of the same units in reality",
-     "Step 1: Usage 1:250,000 means 1 cm on map = 250,000 cm on ground. Step 2: 4.8 cm on map = 4.8 × 250,000 cm = 1,200,000 cm on ground",
-     "Step 1: RF 1:250,000 means 1 cm on map = 250,000 cm on ground. Step 2: 4.8 cm on map = 4.8 × 250,000 cm = 1,200,000 cm on ground"
-    ],
-    "hint": "Straight from the 'Representative Fraction' slide -- match the key terms.",
-    "misconception": "A wrong answer like 1.2 km or 1200 km reveals errors in decimal multiplication or unit conversion (forgetting 1 km = 100,000 cm). This tests both RF understanding and decimal operations from Class 7 (c7_math_ch12_003).",
-    "id": "gen_c8_math_ch10_q18",
-    "nodeId": "c8_math_ch10_2",
-    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -5671,14 +5699,14 @@ export const C8_MATH_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_math_ch11",
-  "title": "Fractal",
+  "title": "A Fractal Is a Geometric Shape",
   "subtitle": "Mathematics · Chapter 11",
   "classLevel": 8,
   "mode": "senior",
   "subject": "maths",
-  "topic": "Fractal",
+  "topic": "A Fractal Is a Geometric Shape",
   "chapters": [
-   "Mathematics Ch11: Fractal"
+   "Mathematics Ch11: A Fractal Is a Geometric Shape"
   ],
   "nodeIds": [
    "c8_math_ch11_1",
@@ -5700,7 +5728,7 @@ export const C8_MATH_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Fractal outside the classroom?",
+   "question": "Quick guess -- where do you meet A Fractal Is a Geometric Shape outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -5711,7 +5739,7 @@ export const C8_MATH_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Fractal",
+    "title": "A Fractal Is a Geometric Shape",
     "text": "A fractal is a geometric shape that exhibits self-similarity across different scales, meaning any small part of the shape resembles the whole shape either exactly or approximately.",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
@@ -5753,7 +5781,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Cross-section",
+    "title": "A Cross-section Is The Two-dimensional Shape",
     "text": "A cross-section is the two-dimensional shape formed by the intersection of a solid three-dimensional object with a plane. The shape and size of the cross-section depend on the orientation of the cutting plane relative to the solid's axes and the location of",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -5765,7 +5793,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Polyhedron",
+    "title": "A Polyhedron Is a Three-dimensional Solid",
     "text": "A polyhedron is a three-dimensional solid bounded entirely by flat polygonal faces, where each face is a polygon, each edge is a line segment where two faces meet, and each vertex is a point where three or more edges meet.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
@@ -5783,11 +5811,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What does \"self-similarity\" mean in the context of fractals? Give one example from nature.",
     "answer": "Self-similarity means a shape looks similar to itself at different scales; a small part resembles the whole",
     "options": [
-     "The three standard views are the front view, top view, and side view",
-     "Divide the square into 9 equal smaller squares (a 3×3 grid) and remove the central square",
+     "The formula is \\(R_n = 8^n\\)",
+     "The student can identify self-similarity in at least three distinct natural objects (e.g., fern, tree, coastline, river network",
      "Self-similarity means a shape looks similar to itself at different scales; a small part resembles the whole"
     ],
-    "hint": "Straight from the 'fractal' slide -- match the key terms.",
+    "hint": "Straight from the 'A fractal is a geometric shape' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it means the shape is symmetric\" or \"it means the pattern repeats exactly like wallpaper\") reveals confusion between symmetry/repetition and scale-invariant self-similarity.",
     "id": "gen_c8_math_ch11_q1",
     "nodeId": "c8_math_ch11_1",
@@ -5823,8 +5851,9 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the number of remaining triangles in the Sierpinski Gasket at Step 2, and what fraction of the original area do they cover?",
     "answer": "At Step 2, there are 9 remaining triangles covering (3/4)^2 = 9/16 of the original area",
     "options": [
-     "Divide the square into 9 equal smaller squares (a 3×3 grid) and remove the central square",
-     "The formula is \\(R_n = 8^n\\)",
+     "Euler's Formula is F + V - E = 2, where F = number of faces, V = number of vertices, and E = number of edges of a convex polyhedron",
+     "The student can construct the first three stages of the Sierpinski Carpet accurately, explain the recursive rule in their own words",
+     "Verify 2, there are 9 remaining triangles covering (3/4)^2 = 9/16 of the original area",
      "At Step 2, there are 9 remaining triangles covering (3/4)^2 = 9/16 of the original area"
     ],
     "hint": "Straight from the 'Sierpinski Gasket' slide -- match the key terms.",
@@ -6038,8 +6067,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What are the three standard orthographic views used to represent a 3D solid on paper?",
     "answer": "The three standard views are the front view, top view, and side view",
     "options": [
-     "Divide the square into 9 equal smaller squares (a 3×3 grid) and remove the central square",
-     "At Step 2, there are 9 remaining triangles covering (3/4)^2 = 9/16 of the original area",
+     "The student can construct the first three iterations of the Koch Snowflake, derive the perimeter formula P_n = 3s(4/3)^n",
+     "The student can construct the first three stages of the Sierpinski Carpet accurately, explain the recursive rule in their own words",
      "The three standard views are the front view, top view, and side view"
     ],
     "hint": "Straight from the 'Front, top, and side views' slide -- match the key terms.",
@@ -6127,7 +6156,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "No, this is incorrect. The perimeter grows by factor 4/3 each step, but area is different. At each step, new smaller equilateral triangles are added to each side segment",
      "The statement is incorrect. While a straight line is exactly self-similar (any segment is a scaled copy of the whole)"
     ],
-    "hint": "Straight from the 'fractal' slide -- match the key terms.",
+    "hint": "Straight from the 'A fractal is a geometric shape' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"correct because it's self-similar\") shows the student equates self-similarity alone with being a fractal, missing the requirement of complexity at all scales.",
     "id": "gen_c8_math_ch11_q14",
     "nodeId": "c8_math_ch11_1",
@@ -6142,7 +6171,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Step 0 area = 64 cm². Step 1: 64 × (3/4) = 48 cm². Step 2: 48 × (3/4) = 36 cm². Step 3: 36 × (3/4) = 27 cm². Alternatively, 64 × (3/4)^3 = 64 × 27/64 = 27 cm²",
      "This tree is exactly self-similar because the branching rule (3 branches, same angle, same length ratio) is applied identically at every scale without randomness"
     ],
-    "hint": "Straight from the 'fractal' slide -- match the key terms.",
+    "hint": "Straight from the 'A fractal is a geometric shape' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"statistical because it's a tree\") indicates the student thinks all natural objects are automatically statistical, missing that the student's drawing is a deterministic mathematical model.",
     "id": "gen_c8_math_ch11_q15",
     "nodeId": "c8_math_ch11_1",
@@ -6157,7 +6186,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Sierpinski Carpet: \\(R_5 = 8^5 = 32768\\). Sierpinski Gasket: \\(T_5 = 3^5 = 243\\). The carpet retains more pieces by a factor of \\(\\frac{32768}{243} \\approx 134.9\\)",
      "Both show statistical self-similarity: cauliflower florets branch into smaller florets; river networks branch into tributaries"
     ],
-    "hint": "Straight from the 'fractal' slide -- match the key terms.",
+    "hint": "Straight from the 'A fractal is a geometric shape' slide -- match the key terms.",
     "misconception": "A weak answer (e.g., \"both are fractals\") without comparing the generative processes shows surface-level recognition without analytical depth.",
     "id": "gen_c8_math_ch11_q16",
     "nodeId": "c8_math_ch11_1",
@@ -6172,7 +6201,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "The student correctly computed the number of squares (8⁴=4096) and side length factor (1/3⁴=1/81), but area scales with the square of side length",
      "Example rule: 1) Draw a vertical trunk of length 10 cm. 2) At the top, draw 2 or 3 branches (choose randomly) at angles between 20° and 50° from the trunk, each branch length = 0"
     ],
-    "hint": "Straight from the 'fractal' slide -- match the key terms.",
+    "hint": "Straight from the 'A fractal is a geometric shape' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"draw a tree with branches\") lacks algorithmic precision, randomness specification, or stopping condition — showing inability to translate the concept into a generative process.",
     "id": "gen_c8_math_ch11_q17",
     "nodeId": "c8_math_ch11_1",
@@ -6180,15 +6209,15 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is the self-similarity of a coastline called \"statistical\" rather than \"exact\"? Explain using the idea of zooming in.",
-    "answer": "Exact self-similarity means every small part is an identical copy of the whole (like in mathematical fractals)",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify self-similarity in at least three distinct natural objects (e.g., fern, tree, coastline, river network",
     "options": [
-     "At step \\(n\\), each of the \\(8^{n-1}\\) squares from step \\(n-1\\) is divided and its central square removed, creating \\(8^{n-1}\\) new holes",
-     "The middle third is removed and replaced by two segments that form an equilateral triangle, so one segment becomes 4 segments each of length 1/3",
-     "Exact self-similarity means every small part is an identical copy of the whole (like in mathematical fractals)"
+     "The formula is \\(R_n = 8^n\\)",
+     "The perimeter increases by a factor of 4/3 at each iteration",
+     "The student can identify self-similarity in at least three distinct natural objects (e.g., fern, tree, coastline, river network"
     ],
-    "hint": "Straight from the 'fractal' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"because coastlines are not perfectly symmetric\") shows the student hasn't grasped the distinction between exact geometric copying and statistical distribution of features across scales.",
+    "hint": "Straight from the 'A fractal is a geometric shape' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify self-similarity in at least three distinct natural objects (e.",
     "id": "gen_c8_math_ch11_q18",
     "nodeId": "c8_math_ch11_1",
     "difficulty": "standard"
@@ -6196,11 +6225,11 @@ export const C8_MATH_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about fractal?",
+    "What surprised you about a fractal is a geometric shape?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Fractal mastered! 🎯",
+  "successLine": "A Fractal Is a Geometric Shape mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -6253,13 +6282,13 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "A Dot Plot Displays Each",
+    "title": "A Dot Plot Displays Each Data",
     "text": "A dot plot displays each data value as a dot above a number line; the mean is the balance point where the sum of distances of dots to the left equals the sum of distances to the right, so the total signed deviation from the mean is zero.",
     "emoji": "🔢",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "When a New Value",
+    "title": "When a New Value Is Added To a Data Set",
     "text": "When a new value is added to a data set, the new mean equals the old mean plus the deviation of the new value from the old mean divided by the new number of values.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6277,25 +6306,25 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "When Every Value In a Data Set",
+    "title": "When Every Value In a Data",
     "text": "When every value in a data set is multiplied by a constant \\( k \\), the new mean becomes \\( k \\) times the original mean. This occurs because the sum of all values scales by \\( k \\) while the number of observations remains unchanged, so the quotient (sum",
     "emoji": "🔢",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Median",
+    "title": "The Median Is The Middle Value",
     "text": "The median is the middle value of a data set when the values are arranged in ascending or descending order. If the number of observations (n) is odd, the median is the value at the \\(\\frac{n+1}{2}\\)-th position; if n is even, the median is the average of the",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Mean",
+    "title": "The Mean Is The Arithmetic Average",
     "text": "The mean is the arithmetic average (sum of values divided by count) and is the appropriate measure of central tendency for symmetric distributions without extreme outliers.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Mode",
+    "title": "The Mode Is The Value",
     "text": "The mode is the value that appears most frequently in a data set; a data set can have one mode (unimodal), two modes (bimodal), more than two modes (multimodal), or no mode if all values occur with equal frequency.",
     "emoji": "🔢",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -6307,7 +6336,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Range",
+    "title": "Range Is The Difference Between",
     "text": "Range is the difference between the maximum and minimum values in a data set. It measures the total spread of the data by calculating the distance from the smallest to the largest observation.",
     "emoji": "🔢",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -6325,8 +6354,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the sum of the deviations of all data points from their mean? (Answer in one sentence.)",
     "answer": "The sum of deviations from the mean is always zero",
     "options": [
-     "Resistant (or resistance)",
-     "Each dot represents one occurrence of a data value. The mean is the point on the number line where the total distance of dots to the left equals the total distance of dots to the",
+     "The student can verify that the mean balances a data set by computing the sum of deviations on each side and showing they are equal",
+     "The student can compute the new mean after multiplying all data values by a constant without recalculating the entire sum",
      "The sum of deviations from the mean is always zero"
     ],
     "hint": "Straight from the 'mean of a data set' slide -- match the key terms.",
@@ -6472,8 +6501,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What condition must the sum of added values satisfy for the mean of a data set to remain unchanged?",
     "answer": "The sum of the added values must equal the original mean multiplied by the number of added values",
     "options": [
-     "The new mean equals \\( k \\) times the original mean",
-     "The median is 5. Steps: order the data (2, 3, 5, 8, 9), count n=5 (odd), middle position is (5+1)/2 = 3rd value, which is 5",
+     "The student can determine the value(s) to add or remove to keep the mean unchanged, and can solve for unknown values in a data set when the mean is stated to remain the same after",
+     "When a new value is added to a data set, the new mean equals the old mean plus the deviation of the new value from the old mean divided by the new number of values",
      "The sum of the added values must equal the original mean multiplied by the number of added values"
     ],
     "hint": "Straight from the 'mean of a data set remains' slide -- match the key terms.",
@@ -6497,7 +6526,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "Because the sum of signed deviations is zero, the total negative deviation (below the mean) must exactly cancel the total positive deviation (above the mean)",
      "The mean is the point where the sum of distances to the left equals the sum of distances to the right"
     ],
-    "hint": "Straight from the 'When a constant value \\' slide -- match the key terms.",
+    "hint": "Straight from the 'When a constant value k' slide -- match the key terms.",
     "misconception": "A wrong explanation (e.g., \"because there are 7 numbers\" or \"the sum increases by 7\") shows the student is memorising a rule without understanding the geometric meaning of the mean.",
     "id": "gen_c8_math_ch12_q5",
     "nodeId": "c8_math_ch12_5",
@@ -6514,11 +6543,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the rule for how the mean changes when every value in a data set is multiplied by a constant \\( k \\).",
     "answer": "The new mean equals \\( k \\) times the original mean",
     "options": [
-     "The median is resistant to outliers because it depends only on the middle position(s), whereas the mean incorporates every value's magnitude",
-     "The sum of deviations from the mean is always zero",
+     "When a new value is added to a data set, the new mean equals the old mean plus the deviation of the new value from the old mean divided by the new number of values",
+     "The student can determine the value(s) to add or remove to keep the mean unchanged, and can solve for unknown values in a data set when the mean is stated to remain the same after",
      "The new mean equals \\( k \\) times the original mean"
     ],
-    "hint": "Straight from the 'When every value in a data set' slide -- match the key terms.",
+    "hint": "Straight from the 'When every value in a data' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"the mean increases by \\( k \\)\" or \"the mean stays the same\") reveals that the student is confusing multiplication with addition or does not grasp that the sum scales proportionally while the count stays fixed.",
     "id": "gen_c8_math_ch12_q6",
     "nodeId": "c8_math_ch12_6",
@@ -6554,12 +6583,12 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the one-word property that makes the median a better choice than the mean when a data set contains extreme outliers.",
     "answer": "Resistant (or resistance)",
     "options": [
-     "The sum of deviations from the mean is always zero",
-     "The new mean equals \\( k \\) times the original mean",
+     "Each dot represents one occurrence of a data value. The mean is the point on the number line where the total distance of dots to the left equals the total distance of dots to the",
+     "The student can determine the value(s) to add or remove to keep the mean unchanged, and can solve for unknown values in a data set when the mean is stated to remain the same after",
      "Above (or resistance)",
      "Resistant (or resistance)"
     ],
-    "hint": "Straight from the 'mean' slide -- match the key terms.",
+    "hint": "Straight from the 'The mean is the arithmetic average' slide -- match the key terms.",
     "misconception": "A wrong answer like \"middle\" or \"position\" shows the student knows how to find the median but does not understand the statistical property that justifies its use over the mean in the presence of outliers.",
     "id": "gen_c8_math_ch12_q8",
     "nodeId": "c8_math_ch12_8",
@@ -6578,10 +6607,10 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "Ordered data: 2, 3, 3, 4, 5, 5, 6, 7. n=8 (even). Middle positions: 4th and 5th values are 4 and 5. Median = (4+5)/2 = 4.5",
      "Set A: median=14, mean=14. Set B: median=14, mean=30.4. The median is unchanged by the extreme value 100, while the mean increases dramatically",
-     "The mode is Plot (appears 6 times)",
+     "The mode is Resistant (appears 6 times)",
      "The mode is Apple (appears 6 times)"
     ],
-    "hint": "Straight from the 'mode' slide -- match the key terms.",
+    "hint": "Straight from the 'The mode is the value' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Mango\" (appears 5 times) reveals the student counted incorrectly or confused the second-most-frequent value with the mode. A wrong answer like \"Fruit\" reveals the student doesn't understand mode applies to the specific category, not the variable name.",
     "id": "gen_c8_math_ch12_q9",
     "nodeId": "c8_math_ch12_9",
@@ -6599,7 +6628,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "answer": "The median is resistant to outliers because it depends only on the middle position(s), whereas the mean incorporates every value's magnitude",
     "options": [
      "The median is 5. Steps: order the data (2, 3, 5, 8, 9), count n=5 (odd), middle position is (5+1)/2 = 3rd value, which is 5",
-     "Each dot represents one occurrence of a data value. The mean is the point on the number line where the total distance of dots to the left equals the total distance of dots to the",
+     "Student can examine a data set (raw values, dot plot, or frequency table), identify skewness or outliers, choose between mean and median as the better representative value",
      "The median is resistant to outliers because it depends only on the middle position(s), whereas the mean incorporates every value's magnitude"
     ],
     "hint": "Straight from the 'choice of the best measure' slide -- match the key terms.",
@@ -6623,7 +6652,7 @@ export const C8_MATH_GEN: SimDef[] = [
      "No, they do not have the same spread. Range only considers the extremes (min and max), ignoring how data is distributed between them",
      "Class A has more consistent performance because a smaller range (15) means the scores are clustered closer together, while Class B's larger range (40) indicates wider variability"
     ],
-    "hint": "Straight from the 'Range' slide -- match the key terms.",
+    "hint": "Straight from the 'Range is the difference between' slide -- match the key terms.",
     "misconception": "A wrong answer choosing Class B reveals the student thinks larger range means more consistency. An answer saying \"cannot tell\" reveals the student does not understand that range directly measures spread.",
     "id": "gen_c8_math_ch12_q11",
     "nodeId": "c8_math_ch12_11",
@@ -6640,11 +6669,11 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the fundamental difference between a line plot (dot plot) and a bar graph in how they represent data frequency?",
     "answer": "A line plot uses individual dots/X marks above a number line for each data point, preserving every value",
     "options": [
-     "Mean = (200+250+250+300+300+300+2000)/7 = 3600/7 ≈ ₹514.29. Ordered data: 200, 250, 250, 300, 300, 300, 2000",
-     "Plot A distances: |5-10|=5 three times → 15; |15-10|=5 three times → 15; total absolute deviation = 30",
+     "No, they do not have the same spread. Range only considers the extremes (min and max), ignoring how data is distributed between them",
+     "Line plot question: \"How many siblings do you have?\" (Discrete numerical, small range 0-5, small class size ~30)",
      "A line plot uses individual dots/X marks above a number line for each data point, preserving every value"
     ],
-    "hint": "Straight from the 'line plot  displays' slide -- match the key terms.",
+    "hint": "Straight from the 'line plot displays' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"line plots connect dots with lines\") reveals confusion with line graphs (trend over time) or misunderstanding that line plots show individual observations, not just counts.",
     "id": "gen_c8_math_ch12_q12",
     "nodeId": "c8_math_ch12_12",
@@ -6723,7 +6752,6 @@ export const C8_MATH_GEN: SimDef[] = [
     "options": [
      "Mean = (200+250+250+300+300+300+2000)/7 = 3600/7 ≈ ₹514.29. Ordered data: 200, 250, 250, 300, 300, 300, 2000",
      "The student is correct. The mean is (4+7+10+13)/4 = 34/4 = 8.5. Deviations: 4→-4.5, 7→-1.5, 10→+1.5, 13→+4",
-     "Mean = (12+15+18+21+24)/5 = 90/5 = 18 kg. Below mean: 12 (distance 6), 15 (distance 3) → sum = 9. Above mean: 21 (distance 3), 24 (distance 6) → sum = 9. Step are equal (9 = 9)",
      "Mean = (12+15+18+21+24)/5 = 90/5 = 18 kg. Below mean: 12 (distance 6), 15 (distance 3) → sum = 9. Above mean: 21 (distance 3), 24 (distance 6) → sum = 9. Sums are equal (9 = 9)"
     ],
     "hint": "Straight from the 'mean of a data set' slide -- match the key terms.",
@@ -6734,18 +6762,18 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "A shoe store owner records the sizes sold in a day: 6, 7, 8, 7, 9, 7, 8, 10, 7, 8. The mean is 7.7, median is 7.5, mode is 7. Which measure should the owner use to decide which size to stock the most? Explain why the other two are less suitable.",
-    "answer": "The mode (size 7) is best because the owner needs the most frequently sold size to maximise sales. The mean (7",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can verify that the mean balances a data set by computing the sum of deviations on each side and showing they are equal",
     "options": [
-     "Original mean = ₹850. Constant added = ₹150. New mean = 850 + 150 = ₹1000. Working: New sum = (850 × 6) + (150 × 6) = 5100 + 900 = 6000. New mean = 6000 ÷ 6 = 1000",
-     "Original mean = 12. Constant \\( k = 0.5 \\). New mean = \\( 12 \\times 0.5 = 6 \\). Steps: 1) Identify original mean = 12",
-     "The mode (size 7) is best because the owner needs the most frequently sold size to maximise sales. The mean (7"
+     "Given a dot plot, the student can locate the mean by balancing deviations and can verify it by calculating the arithmetic average",
+     "When a new value is added to a data set, the new mean equals the old mean plus the deviation of the new value from the old mean divided by the new number of values",
+     "The student can verify that the mean balances a data set by computing the sum of deviations on each side and showing they are equal"
     ],
-    "hint": "Straight from the 'choice of the best measure' slide -- match the key terms.",
-    "misconception": "A wrong answer choosing mean or median shows the student does not connect the measure to the decision context (categorical/inventory).",
+    "hint": "Straight from the 'mean of a data set' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can verify that the mean balances a data set by computing the sum of deviations on each side and showing",
     "id": "gen_c8_math_ch12_q18",
-    "nodeId": "c8_math_ch12_10",
-    "difficulty": "advanced"
+    "nodeId": "c8_math_ch12_1",
+    "difficulty": "standard"
    }
   ],
   "reflect": {
@@ -6836,7 +6864,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Adding And Subtracting Algebraic",
+    "title": "Adding And Subtracting Algebraic Expressions",
     "text": "Adding and subtracting algebraic expressions involves combining like terms by adding or subtracting their numerical coefficients while keeping the variable part unchanged.",
     "emoji": "🔢",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -6915,7 +6943,7 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "State the exact rule for finding the value of a block in a number pyramid (except the bottom row). Use the words \"below\", \"adjacent\", and \"sum\" in your answer.",
     "answer": "\"Each block (except those in the bottom row) equals the sum of the two adjacent blocks directly below it",
     "options": [
-     "Term 1: \\(\\frac{2}{3}a^2b\\) → coefficient \\(\\frac{2}{3}\\), variable part \\(a^2b\\). Term 2: \\(-4ab^2\\) → coefficient \\(-4\\), variable part \\(ab^2\\)",
+     "The student can decompose any algebraic expression (including those with multiple variables, powers, fractions, and nested brackets) into its individual terms",
      "The like terms are \\(7a^2b\\), \\(2a^2b\\), and \\(-4ba^2\\) (since \\(ba^2 = a^2b\\)). The terms \\(-3ab^2\\) and \\(5ab\\) are unlike any other term",
      "\"Each block (except those in the bottom row) equals the sum of the two adjacent blocks directly below it"
     ],
@@ -6936,8 +6964,8 @@ export const C8_MATH_GEN: SimDef[] = [
     "question": "What is the rule for constructing a number pyramid?",
     "answer": "The rule: Each number in a row (except the bottom row) is the sum of the two numbers directly below it in the next row",
     "options": [
-     "Term 1: \\(\\frac{2}{3}a^2b\\) → coefficient \\(\\frac{2}{3}\\), variable part \\(a^2b\\). Term 2: \\(-4ab^2\\) → coefficient \\(-4\\), variable part \\(ab^2\\)",
-     "The like terms are \\(7a^2b\\), \\(2a^2b\\), and \\(-4ba^2\\) (since \\(ba^2 = a^2b\\)). The terms \\(-3ab^2\\) and \\(5ab\\) are unlike any other term",
+     "The student can assign variables to unknown cells in a number pyramid, set up equations using the addition rule, solve the resulting linear equations",
+     "The rule: To add like terms, add their numerical coefficients and keep the variable part exactly the same. Example: 4x + 7x = (4+7)x = 11x",
      "The rule: Each number in a row (except the bottom row) is the sum of the two numbers directly below it in the next row"
     ],
     "hint": "Straight from the 'number pyramid' slide -- match the key terms.",
@@ -7141,16 +7169,58 @@ export const C8_MATH_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "A student writes the equation for \"Riya is 3 years older than twice Aman's age. The sum of their ages is 27\" as 2x + 3 = 27. What is the error in this equation?",
-    "answer": "The equation 2x + 3 = 27 only represents Riya's age (2x + 3) equalling 27, but the problem states the SUM of their ages is 27. The correct equation is x + (2x + 3) = 27",
-    "options": [
-     "The first translation \\(R = 2S + 5\\) is correct because \"5 years more than twice Sita's age\" means start with twice Sita's age (2S) and add 5",
-     "Equation: x + 5 = 17. Because the top number is the sum of the two bottom numbers",
-     "The equation 2x + 3 = 27 only represents Riya's age (2x + 3) equalling 27, but the problem states the SUM of their ages is 27. The correct equation is x + (2x + 3) = 27"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "solving the equations using balancing",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "constructing linear equations that model",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "defining appropriate variables for unknown",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "interpreting the numerical answer back",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
     ],
-    "hint": "Straight from the 'Applications of linear equations' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals the student treats \"sum of ages\" as applying to only one person's age expression, missing that both ages must be added.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently solve multi-step real-life problems by: (1) defining appropriate variables for unknown",
     "id": "gen_c8_math_ch13_q11",
     "nodeId": "c8_math_ch13_11",
     "difficulty": "advanced",
@@ -7253,15 +7323,15 @@ export const C8_MATH_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Compare these two problems: (A) \"A number increased by 15 equals 40\" and (B) \"A number increased by 15% equals 40.\" Why does (A) lead to a linear equation but (B) does not? What would the equation for (B) look like?",
-    "answer": "(A) gives x + 15 = 40 (linear, variable to power 1). (B) gives x + 0.15x = 40 or 1.15x = 40, which is still linear!",
+    "question": "A student writes the equation for \"Riya is 3 years older than twice Aman's age. The sum of their ages is 27\" as 2x + 3 = 27. What is the error in this equation?",
+    "answer": "The equation 2x + 3 = 27 only represents Riya's age (2x + 3) equalling 27, but the problem states the SUM of their ages is 27. The correct equation is x + (2x + 3) = 27",
     "options": [
-     "No, the second terms are not like terms. In the first expression the second term is \\(-2xy^2\\) (variable part \\(xy^2\\)), in the second it is \\(-2xy\\) (variable part \\(xy\\))",
-     "Balancing requires writing \"−2x\" and \"+9\" on both sides explicitly (4 lines minimum). Transposition combines these into two sign-change moves (2 lines)",
-     "(A) gives x + 15 = 40 (linear, variable to power 1). (B) gives x + 0.15x = 40 or 1.15x = 40, which is still linear!"
+     "The first translation \\(R = 2S + 5\\) is correct because \"5 years more than twice Sita's age\" means start with twice Sita's age (2S) and add 5",
+     "Equation: x + 5 = 17. Because the top number is the sum of the two bottom numbers",
+     "The equation 2x + 3 = 27 only represents Riya's age (2x + 3) equalling 27, but the problem states the SUM of their ages is 27. The correct equation is x + (2x + 3) = 27"
     ],
     "hint": "Straight from the 'Applications of linear equations' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: (A) gives x + 15 = 40 (linear, variable to power 1). (B) gives x + 0.",
+    "misconception": "A wrong answer reveals the student treats \"sum of ages\" as applying to only one person's age expression, missing that both ages must be added.",
     "id": "gen_c8_math_ch13_q18",
     "nodeId": "c8_math_ch13_11",
     "difficulty": "advanced"

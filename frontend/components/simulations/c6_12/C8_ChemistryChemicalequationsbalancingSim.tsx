@@ -774,11 +774,11 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
       {/* Header Banner */}
       <header className="w-full bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-4 backdrop-blur shadow-xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-2xl shadow-lg shadow-cyan-500/20">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-2xl shadow-lg shadow-gold-500/20">
             🧪
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">{SCENARIO.subtitle} • Class 8 ICSE</p>
@@ -789,9 +789,9 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
         <div className="flex items-center gap-4 bg-slate-950/70 border border-slate-800 px-4 py-2 rounded-xl">
           <div className="text-right">
             <div className="text-xs text-slate-400 font-semibold">Mastery Score</div>
-            <div className="text-lg font-bold text-cyan-400">{overallMastery}%</div>
+            <div className="text-lg font-bold text-gold-400">{overallMastery}%</div>
           </div>
-          <div className="w-12 h-12 rounded-full border-4 border-cyan-500/30 border-t-cyan-400 flex items-center justify-center text-xs font-bold text-slate-200">
+          <div className="w-12 h-12 rounded-full border-4 border-gold-500/30 border-t-gold-400 flex items-center justify-center text-xs font-bold text-slate-200">
             {score} pts
           </div>
         </div>
@@ -814,7 +814,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
             }}
             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/25 scale-[1.02]'
+                ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/25 scale-[1.02]'
                 : 'bg-slate-900 border border-slate-800 text-slate-400 hover:text-slate-200 hover:bg-slate-850'
             }`}
           >
@@ -836,7 +836,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 className="space-y-6"
               >
                 <div className="flex items-center justify-between">
-                  <span className="px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950 text-cyan-400 border border-cyan-800">
+                  <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gold-950 text-gold-400 border border-gold-800">
                     Node: {TEACHING_SLIDES[currentSlideIdx].nodeId}
                   </span>
                   <span className="text-xs text-slate-400">
@@ -853,23 +853,23 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 </p>
 
                 {TEACHING_SLIDES[currentSlideIdx].formula && (
-                  <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center font-mono text-xl font-bold text-cyan-300 shadow-inner">
+                  <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center font-mono text-xl font-bold text-gold-300 shadow-inner">
                     {TEACHING_SLIDES[currentSlideIdx].formula}
                   </div>
                 )}
 
                 <div className="p-4 bg-slate-950/60 rounded-xl border border-slate-850 space-y-2">
-                  <div className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">Key Takeaways & Details</div>
+                  <div className="text-xs font-semibold text-gold-400 uppercase tracking-wider">Key Takeaways & Details</div>
                   <div className="text-sm text-slate-300 whitespace-pre-line leading-relaxed">
                     {TEACHING_SLIDES[currentSlideIdx].subtext}
                   </div>
                 </div>
 
-                <div className="p-4 bg-indigo-950/30 border border-indigo-900/50 rounded-xl flex items-start gap-3">
+                <div className="p-4 bg-gold-950/30 border border-gold-900/50 rounded-xl flex items-start gap-3">
                   <span className="text-2xl">🧠</span>
                   <div>
-                    <h4 className="text-xs font-bold text-indigo-300 uppercase">ELI5 Analogy</h4>
-                    <p className="text-sm text-indigo-200 mt-0.5">
+                    <h4 className="text-xs font-bold text-gold-300 uppercase">ELI5 Analogy</h4>
+                    <p className="text-sm text-gold-200 mt-0.5">
                       {TEACHING_SLIDES[currentSlideIdx].analogy}
                     </p>
                   </div>
@@ -899,7 +899,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                       setCurrentSlideIdx(idx);
                     }}
                     className={`w-3 h-3 rounded-full transition-all ${
-                      idx === currentSlideIdx ? 'bg-cyan-400 w-6' : 'bg-slate-700'
+                      idx === currentSlideIdx ? 'bg-gold-400 w-6' : 'bg-slate-700'
                     }`}
                   />
                 ))}
@@ -911,7 +911,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                   audioManager.play('tap');
                   setCurrentSlideIdx(prev => prev + 1);
                 }}
-                className="px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-semibold text-sm hover:bg-cyan-400 disabled:opacity-40"
+                className="px-4 py-2 rounded-xl bg-gold-500 text-slate-950 font-semibold text-sm hover:bg-gold-400 disabled:opacity-40"
               >
                 Next Slide →
               </button>
@@ -940,13 +940,13 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                     }}
                     className={`w-full text-left p-3 rounded-xl border transition-all ${
                       selectedReactionId === rxn.id
-                        ? 'bg-cyan-950/70 border-cyan-500 text-slate-100 shadow-md'
+                        ? 'bg-gold-950/70 border-gold-500 text-slate-100 shadow-md'
                         : 'bg-slate-950/60 border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200'
                     }`}
                   >
                     <div className="flex items-center justify-between">
                       <span className="font-semibold text-sm">{rxn.name}</span>
-                      <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-slate-800 text-cyan-300">
+                      <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-slate-800 text-gold-300">
                         {rxn.type.replace('_', ' ')}
                       </span>
                     </div>
@@ -957,7 +957,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
             </div>
 
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-850 space-y-2 mt-4">
-              <div className="text-xs font-semibold text-cyan-400 uppercase">Reaction Observation</div>
+              <div className="text-xs font-semibold text-gold-400 uppercase">Reaction Observation</div>
               <p className="text-xs text-slate-300">{selectedReaction.observation}</p>
               {selectedReaction.condition && (
                 <div className="text-xs text-amber-400 font-mono mt-1">Condition: {selectedReaction.condition}</div>
@@ -992,16 +992,16 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                       <div className="flex flex-col items-center">
                         <button
                           onClick={() => handleCoefChange(r.formula, 1)}
-                          className="w-7 h-7 bg-slate-800 rounded hover:bg-cyan-600 text-slate-200 font-bold text-sm"
+                          className="w-7 h-7 bg-slate-800 rounded hover:bg-gold-600 text-slate-200 font-bold text-sm"
                         >
                           ▲
                         </button>
-                        <span className="text-xl font-bold text-cyan-400 my-1 font-mono">
+                        <span className="text-xl font-bold text-gold-400 my-1 font-mono">
                           {coefs[r.formula] || 1}
                         </span>
                         <button
                           onClick={() => handleCoefChange(r.formula, -1)}
-                          className="w-7 h-7 bg-slate-800 rounded hover:bg-cyan-600 text-slate-200 font-bold text-sm"
+                          className="w-7 h-7 bg-slate-800 rounded hover:bg-gold-600 text-slate-200 font-bold text-sm"
                         >
                           ▼
                         </button>
@@ -1011,7 +1011,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                   </React.Fragment>
                 ))}
 
-                <span className="text-2xl font-bold text-cyan-400 font-mono">→</span>
+                <span className="text-2xl font-bold text-gold-400 font-mono">→</span>
 
                 {/* Products */}
                 {selectedReaction.products.map((p, idx) => (
@@ -1021,16 +1021,16 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                       <div className="flex flex-col items-center">
                         <button
                           onClick={() => handleCoefChange(p.formula, 1)}
-                          className="w-7 h-7 bg-slate-800 rounded hover:bg-cyan-600 text-slate-200 font-bold text-sm"
+                          className="w-7 h-7 bg-slate-800 rounded hover:bg-gold-600 text-slate-200 font-bold text-sm"
                         >
                           ▲
                         </button>
-                        <span className="text-xl font-bold text-cyan-400 my-1 font-mono">
+                        <span className="text-xl font-bold text-gold-400 my-1 font-mono">
                           {coefs[p.formula] || 1}
                         </span>
                         <button
                           onClick={() => handleCoefChange(p.formula, -1)}
-                          className="w-7 h-7 bg-slate-800 rounded hover:bg-cyan-600 text-slate-200 font-bold text-sm"
+                          className="w-7 h-7 bg-slate-800 rounded hover:bg-gold-600 text-slate-200 font-bold text-sm"
                         >
                           ▼
                         </button>
@@ -1050,7 +1050,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 <div className="grid grid-cols-2 gap-4">
                   {/* Left Side */}
                   <div className="bg-slate-900/80 rounded-xl p-3 border border-slate-800">
-                    <div className="text-xs font-bold text-cyan-400 border-b border-slate-800 pb-1 mb-2">Reactants (Left Side)</div>
+                    <div className="text-xs font-bold text-gold-400 border-b border-slate-800 pb-1 mb-2">Reactants (Left Side)</div>
                     <div className="space-y-1">
                       {Object.entries(atomCounts.left).map(([elem, count]) => {
                         const rightCount = atomCounts.right[elem] || 0;
@@ -1069,7 +1069,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
 
                   {/* Right Side */}
                   <div className="bg-slate-900/80 rounded-xl p-3 border border-slate-800">
-                    <div className="text-xs font-bold text-cyan-400 border-b border-slate-800 pb-1 mb-2">Products (Right Side)</div>
+                    <div className="text-xs font-bold text-gold-400 border-b border-slate-800 pb-1 mb-2">Products (Right Side)</div>
                     <div className="space-y-1">
                       {Object.entries(atomCounts.right).map(([elem, count]) => {
                         const leftCount = atomCounts.left[elem] || 0;
@@ -1094,7 +1094,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
               <button
                 onClick={triggerReactionAnim}
                 disabled={!isBalanced}
-                className="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold hover:brightness-110 disabled:opacity-40 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/20"
+                className="px-6 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-bold hover:brightness-110 disabled:opacity-40 disabled:cursor-not-allowed shadow-lg shadow-gold-500/20"
               >
                 �� Run Chemical Reaction
               </button>
@@ -1119,7 +1119,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                   <div
                     key={m.symbol}
                     onClick={() => handleTestDisplacement(m.symbol)}
-                    className="flex items-center justify-between p-2.5 bg-slate-950 border border-slate-800 hover:border-cyan-500 rounded-xl cursor-pointer transition-all hover:scale-[1.01]"
+                    className="flex items-center justify-between p-2.5 bg-slate-950 border border-slate-800 hover:border-gold-500 rounded-xl cursor-pointer transition-all hover:scale-[1.01]"
                   >
                     <div className="flex items-center gap-3">
                       <span className="w-6 h-6 rounded-full bg-slate-800 text-slate-300 text-xs font-bold flex items-center justify-center font-mono">
@@ -1162,7 +1162,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                       }}
                       className={`p-3 rounded-xl border text-center transition-all ${
                         selectedSolution === sol.id
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-300 font-bold'
+                          ? 'bg-gold-950 border-gold-500 text-gold-300 font-bold'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                       }`}
                     >
@@ -1175,13 +1175,13 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
 
               {/* Displacement Visual Graphic */}
               <div className="bg-slate-950 border border-slate-850 rounded-2xl p-6 flex flex-col items-center justify-center min-h-[220px]">
-                <div className="relative w-32 h-40 border-b-4 border-x-4 border-slate-700 rounded-b-3xl bg-blue-900/30 overflow-hidden flex items-end justify-center">
+                <div className="relative w-32 h-40 border-b-4 border-x-4 border-slate-700 rounded-b-3xl bg-gold-900/30 overflow-hidden flex items-end justify-center">
                   <motion.div
                     animate={{ height: ['50%', '55%', '50%'] }}
                     transition={{ repeat: Infinity, duration: 2 }}
                     className={`w-full ${
-                      selectedSolution === 'CuSO4' ? 'bg-blue-600/70' :
-                      selectedSolution === 'FeSO4' ? 'bg-emerald-600/60' : 'bg-sky-400/30'
+                      selectedSolution === 'CuSO4' ? 'bg-gold-600/70' :
+                      selectedSolution === 'FeSO4' ? 'bg-emerald-600/60' : 'bg-gold-400/30'
                     }`}
                   />
                   <div className="absolute top-4 text-xs font-mono font-bold text-slate-200 bg-slate-900/80 px-2 py-0.5 rounded">
@@ -1246,7 +1246,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 <button
                   onClick={handleStartH2Gen}
                   disabled={isGasGenerating}
-                  className="px-4 py-2 mt-4 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs hover:bg-cyan-400 disabled:opacity-40 shadow-md shadow-cyan-500/20"
+                  className="px-4 py-2 mt-4 rounded-xl bg-gold-500 text-slate-950 font-bold text-xs hover:bg-gold-400 disabled:opacity-40 shadow-md shadow-gold-500/20"
                 >
                   {isGasGenerating ? 'Generating...' : '▶ Start Reaction'}
                 </button>
@@ -1259,7 +1259,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
               <div className="md:col-span-7 flex flex-col items-center justify-center bg-slate-900/60 rounded-xl p-4 min-h-[260px]">
                 <div className="flex items-end gap-6">
                   {/* Woulfe Bottle */}
-                  <div className="relative w-28 h-36 border-2 border-slate-600 rounded-b-2xl bg-cyan-950/30 flex flex-col items-center justify-end p-2">
+                  <div className="relative w-28 h-36 border-2 border-slate-600 rounded-b-2xl bg-gold-950/30 flex flex-col items-center justify-end p-2">
                     <div className="text-[10px] text-slate-400 font-mono absolute top-2">Woulfe Bottle</div>
                     {/* Metal Granules */}
                     <div className="w-full flex justify-center gap-1 mb-1">
@@ -1272,7 +1272,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                       <motion.div
                         animate={{ y: [-5, -40], opacity: [1, 0] }}
                         transition={{ repeat: Infinity, duration: 0.8 }}
-                        className="w-2 h-2 rounded-full bg-cyan-300"
+                        className="w-2 h-2 rounded-full bg-gold-300"
                       />
                     )}
                   </div>
@@ -1282,10 +1282,10 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
 
                   {/* Gas Jar over Water */}
                   <div className="relative w-24 h-40 border-2 border-slate-600 rounded-t-2xl bg-slate-900 flex flex-col items-center justify-between p-2">
-                    <div className="text-[10px] text-cyan-300 font-mono">Inverted Gas Jar</div>
+                    <div className="text-[10px] text-gold-300 font-mono">Inverted Gas Jar</div>
                     {/* Water Level */}
                     <div
-                      className="w-full bg-blue-600/40 transition-all duration-300 rounded-b-xl"
+                      className="w-full bg-gold-600/40 transition-all duration-300 rounded-b-xl"
                       style={{ height: `${100 - gasVolume}%` }}
                     />
                     <div className="text-[10px] text-slate-400">
@@ -1313,10 +1313,10 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 <button
                   onClick={handleCuOReduction}
                   disabled={gasVolume < 100}
-                  className="p-3 rounded-xl bg-indigo-950/60 border border-indigo-800 text-indigo-300 font-semibold text-xs text-left hover:bg-indigo-900/60 disabled:opacity-30 transition-all"
+                  className="p-3 rounded-xl bg-gold-950/60 border border-gold-800 text-gold-300 font-semibold text-xs text-left hover:bg-gold-900/60 disabled:opacity-30 transition-all"
                 >
                   🧱 2. Reduction of CuO (CuO + H₂ → Cu + H₂O)
-                  <p className="text-[10px] text-indigo-400/80 mt-1">
+                  <p className="text-[10px] text-gold-400/80 mt-1">
                     {reducedCuO ? '✓ Black CuO reduced to reddish-brown Copper metal!' : 'Pass dry H₂ gas over heated black Copper Oxide.'}
                   </p>
                 </button>
@@ -1337,7 +1337,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 </h2>
                 <p className="text-xs text-slate-400">Node: {CHALLENGES[currentChallengeIdx].nodeId}</p>
               </div>
-              <div className="text-xs font-semibold text-cyan-400 bg-slate-950 px-3 py-1.5 rounded-full border border-slate-800">
+              <div className="text-xs font-semibold text-gold-400 bg-slate-950 px-3 py-1.5 rounded-full border border-slate-800">
                 Challenge {currentChallengeIdx + 1} of {CHALLENGES.length}
               </div>
             </div>
@@ -1363,7 +1363,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                     placeholder="e.g. 2,1,2"
                     value={challengeAnswers[CHALLENGES[currentChallengeIdx].id] || ''}
                     onChange={(e) => handleBalanceInput(CHALLENGES[currentChallengeIdx].id, e.target.value)}
-                    className="w-full bg-slate-900 border border-slate-800 rounded-xl p-3 text-cyan-300 font-mono font-bold text-sm focus:outline-none focus:border-cyan-500"
+                    className="w-full bg-slate-900 border border-slate-800 rounded-xl p-3 text-gold-300 font-mono font-bold text-sm focus:outline-none focus:border-gold-500"
                   />
                 </div>
               ) : (
@@ -1374,11 +1374,11 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                       onClick={() => handleSelectOption(CHALLENGES[currentChallengeIdx].id, optIdx)}
                       className={`w-full text-left p-3.5 rounded-xl border text-sm transition-all ${
                         challengeAnswers[CHALLENGES[currentChallengeIdx].id] === optIdx
-                          ? 'bg-cyan-950 border-cyan-500 text-cyan-200 font-semibold'
+                          ? 'bg-gold-950 border-gold-500 text-gold-200 font-semibold'
                           : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
-                      <span className="font-mono text-cyan-400 mr-2">{String.fromCharCode(65 + optIdx)}.</span>
+                      <span className="font-mono text-gold-400 mr-2">{String.fromCharCode(65 + optIdx)}.</span>
                       {opt}
                     </button>
                   ))}
@@ -1413,7 +1413,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
 
             <button
               onClick={() => submitChallenge(CHALLENGES[currentChallengeIdx])}
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-bold text-sm shadow-md hover:brightness-110"
+              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-bold text-sm shadow-md hover:brightness-110"
             >
               Submit Answer
             </button>
@@ -1424,7 +1424,7 @@ export default function C8_ChemistryChemicalequationsbalancingSim() {
                 audioManager.play('tap');
                 setCurrentChallengeIdx(prev => prev + 1);
               }}
-              className="px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-semibold text-sm disabled:opacity-40"
+              className="px-4 py-2 rounded-xl bg-gold-500 text-slate-950 font-semibold text-sm disabled:opacity-40"
             >
               Next Challenge →
             </button>

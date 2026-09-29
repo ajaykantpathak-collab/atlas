@@ -71,9 +71,9 @@ export function C12_MathematicsChapter9DifferentialEquationsSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-2xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700 font-mono">dy</span>
+        <span className="text-2xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700 font-mono">dy</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">Class 12 -- Differential Equations</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 12 -- Differential Equations</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Slope Fields and Euler&apos;s Method, Live</h1>
         </div>
       </div>
@@ -112,7 +112,7 @@ export function C12_MathematicsChapter9DifferentialEquationsSim() {
               <div className="grid grid-cols-1 gap-1.5">
                 {(Object.keys(ODES) as OdeKey[]).map((k) => (
                   <button key={k} onClick={() => setOdeKey(k)}
-                    className={`px-3 py-2 rounded-xl text-xs font-mono font-bold text-left ${odeKey === k ? 'bg-indigo-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
+                    className={`px-3 py-2 rounded-xl text-xs font-mono font-bold text-left ${odeKey === k ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700 text-slate-300'}`}>
                     {ODES[k].label}
                   </button>
                 ))}
@@ -138,8 +138,8 @@ export function C12_MathematicsChapter9DifferentialEquationsSim() {
             </button>
           </div>
 
-          <div className="bg-slate-900/80 rounded-2xl border border-indigo-800/60 p-4 text-xs font-mono space-y-1">
-            <div className="text-indigo-300 font-bold">Euler recipe (order-1 accurate)</div>
+          <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1">
+            <div className="text-gold-300 font-bold">Euler recipe (order-1 accurate)</div>
             <div className="text-slate-400">y_(n+1) = y_n + h f(x_n, y_n)</div>
             <div className="text-slate-400">Last step used: y(1.60) + {hEff.toFixed(3)} x f(1.60, {euler[euler.length - 2]?.[1].toFixed(3)}) = {eulerAt2.toFixed(3)}</div>
             <div className="text-slate-500">Halve h --&gt; the error should roughly halve too (first-order method).</div>
@@ -155,8 +155,8 @@ export function C12_MathematicsChapter9DifferentialEquationsSim() {
             </p>
           </div>
 
-          <div className="bg-indigo-950/40 rounded-2xl border border-indigo-800/50 p-4 text-xs">
-            <p className="font-bold text-indigo-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. For dy/dx = y with y0 = 1: exact y(2) is 2e = 7.389. Find the largest h that lands within 0.5 of it.</p>
             <p>2. Switch to dy/dx = x + y and push y0 to -2: why does the solution dive to a minimum near x = 1 before recovering? (Check the slope field there.)</p>
           </div>

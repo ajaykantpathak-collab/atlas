@@ -11,7 +11,7 @@ export const w_c12_computersciencepacketjourneysim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Tree and Hybrid Topology',
     chapters: [],
     nodeIds: ['c12_cs_cbse_02_005', 'c12_cs_cbse_02_007', 'c12_cs_cbse_02_009', 'c12_cs_cbse_01_003', 'c12_cs_cbse_01_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine your school wants to connect three buildings — Admin Block, Science Block, and Library — each having.', goal: 'Master Tree and Hybrid Topology.' },
     discovery: {
         question: 'A company uses a hybrid topology combining star and ring. The star segment connects workstations to a switch in each department; the ring segment connects.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencepacketjourneysim: SimDef = {
         hook: 'Students often think "hybrid topology" means simply connecting two different topologies with a cable, without realizing.',
     },
     teaching: [
-        { title: 'Tree topology is a hierarchical network.', text: 'Tree topology is a hierarchical network structure where a root node (central hub) connects to multiple levels of subordinate nodes in a branching pattern, combining characteristics of star and bus.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Tree topology is a hierarchical network.', text: 'Tree topology is a hierarchical network structure where a root node (central hub) connects to multiple levels of subordinate nodes in a branching pattern, combining characteristics of star and bus.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_02_005', title: 'Tree topology is a hierarchical network.',

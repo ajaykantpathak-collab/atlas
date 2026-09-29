@@ -41,14 +41,14 @@ const TEACHING_SLIDES = [
     title: 'Mental Addition & Subtraction! 🧠',
     text: 'Do sums and differences in your head without paper! Use strategies like breaking into tens and ones (45 + 23 = 45 + 20 + 3 = 68) or compensation!',
     emoji: '➕',
-    bgColor: 'from-purple-500 to-indigo-600',
+    bgColor: 'from-purple-500 to-gold-600',
     spoken: 'Do sums and differences in your head without paper! Use strategies like breaking into tens and ones or compensation!',
   },
   {
     title: 'Mental Multiplication! ✖️',
     text: 'Multiply numbers without a pencil! Recall your tables instantly, or use the break-apart strategy for two-digit numbers (15 x 4: 10 x 4 = 40, 5 x 4 = 20, total 60)!',
     emoji: '✨',
-    bgColor: 'from-blue-500 to-cyan-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Multiply numbers without a pencil! Recall your tables or use the break-apart strategy for two-digit numbers!',
   },
   {
@@ -69,7 +69,7 @@ const TEACHING_SLIDES = [
     title: 'Be a Mental Math Wizard! 🧙‍♂️',
     text: 'With practice, you can calculate faster than lightning in your head. No paper, no eraser, just pure math wizardry!',
     emoji: '🌟',
-    bgColor: 'from-violet-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'With practice, you can calculate faster than lightning in your head. No paper, no eraser, just pure math wizardry!',
   },
 ];
@@ -302,13 +302,13 @@ function MathArenaScene({ width, height }: { width: number; height: number }) {
         <circle cx={width / 2} cy={height / 3} r={180} fill="url(#brain-glow)" />
       </svg>
       {/* Floating numbers & math symbols in background */}
-      <motion.div className="absolute top-12 left-16 text-indigo-300 font-bold text-2xl opacity-30" animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity }}>
+      <motion.div className="absolute top-12 left-16 text-gold-300 font-bold text-2xl opacity-30" animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity }}>
         48 + 31 = ?
       </motion.div>
       <motion.div className="absolute top-20 right-24 text-pink-300 font-bold text-xl opacity-30" animate={{ y: [0, 10, 0] }} transition={{ duration: 5, repeat: Infinity }}>
         15 × 4
       </motion.div>
-      <motion.div className="absolute bottom-20 left-20 text-cyan-300 font-bold text-xl opacity-30" animate={{ y: [0, -8, 0] }} transition={{ duration: 3.5, repeat: Infinity }}>
+      <motion.div className="absolute bottom-20 left-20 text-gold-300 font-bold text-xl opacity-30" animate={{ y: [0, -8, 0] }} transition={{ duration: 3.5, repeat: Infinity }}>
         80 - 35
       </motion.div>
     </div>
@@ -575,7 +575,7 @@ export function MentalMathGame({ width = 720, height = 560, onComplete }: Mental
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-between select-none overflow-hidden rounded-3xl shadow-2xl bg-indigo-950 font-sans" style={{ width, height }}>
+    <div className="relative flex flex-col items-center justify-between select-none overflow-hidden rounded-3xl shadow-2xl bg-gold-950 font-sans" style={{ width, height }}>
       {/* Background scene */}
       <MathArenaScene width={width} height={height} />
 
@@ -583,21 +583,21 @@ export function MentalMathGame({ width = 720, height = 560, onComplete }: Mental
       <WizardMira mood={mascotMood} speaking={mascotSpeech} />
 
       {/* Header bar */}
-      <div className="relative z-10 w-full flex items-center justify-between px-6 py-3 bg-indigo-900/80 backdrop-blur border-b border-indigo-700">
+      <div className="relative z-10 w-full flex items-center justify-between px-6 py-3 bg-gold-900/80 backdrop-blur border-b border-gold-700">
         <div className="flex items-center gap-3">
           <div className="p-2 rounded-xl bg-purple-600 shadow-inner">
             <BrainIcon size={28} />
           </div>
           <div>
             <h1 className="text-lg font-extrabold text-white tracking-wide">Mental Math Wizard</h1>
-            <p className="text-xs text-indigo-300">Class 3 CISCE Math</p>
+            <p className="text-xs text-gold-300">Class 3 CISCE Math</p>
           </div>
         </div>
 
         {screen === 'play' && (
           <div className="flex items-center gap-4">
             <div className="flex flex-col items-end">
-              <span className="text-xs font-bold text-indigo-300">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
+              <span className="text-xs font-bold text-gold-300">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
               <StarRow count={score} total={CHALLENGES.length} />
             </div>
           </div>
@@ -632,7 +632,7 @@ export function MentalMathGame({ width = 720, height = 560, onComplete }: Mental
                   Back
                 </button>
               ) : <div />}
-              <button onClick={handleNextSlide} className="px-8 py-2.5 rounded-xl bg-white text-indigo-900 font-extrabold shadow-lg hover:bg-amber-300 transition-all">
+              <button onClick={handleNextSlide} className="px-8 py-2.5 rounded-xl bg-white text-gold-900 font-extrabold shadow-lg hover:bg-amber-300 transition-all">
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
               </button>
             </div>
@@ -645,7 +645,7 @@ export function MentalMathGame({ width = 720, height = 560, onComplete }: Mental
               key={challengeIdx}
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="w-full bg-indigo-900/90 backdrop-blur border-2 border-indigo-600 rounded-2xl p-6 shadow-xl mb-6 text-center"
+              className="w-full bg-gold-900/90 backdrop-blur border-2 border-gold-600 rounded-2xl p-6 shadow-xl mb-6 text-center"
             >
               <h2 className="text-xl font-black text-white mb-2">{currentChallenge.question}</h2>
               {hintVisible && (
@@ -663,7 +663,7 @@ export function MentalMathGame({ width = 720, height = 560, onComplete }: Mental
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(opt)}
-                    className="py-5 px-4 rounded-2xl bg-gradient-to-br from-purple-600 to-indigo-700 hover:from-purple-500 hover:to-indigo-600 text-white font-black text-2xl shadow-xl border-2 border-purple-400 flex items-center justify-center"
+                    className="py-5 px-4 rounded-2xl bg-gradient-to-br from-purple-600 to-gold-700 hover:from-purple-500 hover:to-gold-600 text-white font-black text-2xl shadow-xl border-2 border-purple-400 flex items-center justify-center"
                   >
                     {opt}
                   </motion.button>
@@ -671,7 +671,7 @@ export function MentalMathGame({ width = 720, height = 560, onComplete }: Mental
               </div>
             ) : (
               /* Sort Challenge Arena */
-              <div className="relative w-full h-[285px] bg-indigo-900/60 rounded-2xl border-2 border-indigo-700 p-4 flex flex-col justify-between">
+              <div className="relative w-full h-[285px] bg-gold-900/60 rounded-2xl border-2 border-gold-700 p-4 flex flex-col justify-between">
                 {/* Bins at bottom */}
                 <div className="flex justify-around w-full mt-auto pt-16">
                   {currentChallenge.bins?.map((bin, idx) => (

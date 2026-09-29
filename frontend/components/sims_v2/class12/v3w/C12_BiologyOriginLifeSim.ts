@@ -11,7 +11,7 @@ export const w_c12_biologyoriginlifesim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Cancer: Types and Causes',
     chapters: [],
     nodeIds: ['c12_bio_cbse_08_007', 'c12_bio_cbse_08_002', 'c12_bio_cbse_08_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin with a real-world observation: a family member or neighbor diagnosed with "cancer" — the word carries.', goal: 'Master Cancer: Types and Causes.' },
     discovery: {
         question: 'A patient has a tumor originating from the epithelial lining of the bronchus.',
@@ -20,7 +20,7 @@ export const w_c12_biologyoriginlifesim: SimDef = {
         hook: 'Students think "cancer is a single disease" and "all cancers are caused by viruses" — they conflate infectious etiology.',
     },
     teaching: [
-        { title: 'Cancer is a group of diseases characterized.', text: 'Cancer is a group of diseases characterized by uncontrolled and abnormal cell division resulting from genetic mutations that disrupt normal cell cycle regulation, leading to the formation of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Cancer is a group of diseases characterized.', text: 'Cancer is a group of diseases characterized by uncontrolled and abnormal cell division resulting from genetic mutations that disrupt normal cell cycle regulation, leading to the formation of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_08_007', title: 'Cancer is a group of diseases.',

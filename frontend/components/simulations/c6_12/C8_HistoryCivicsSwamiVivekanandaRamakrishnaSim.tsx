@@ -1197,7 +1197,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                   ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                   : difficulty === 'advanced'
                   ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                  : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                  : 'bg-gold-950/80 text-gold-300 border-gold-600'
               }`}
             >
               Tier: {difficulty}
@@ -1225,7 +1225,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
             className="space-y-6 mt-4"
           >
             {/* Scenario Narrative Box */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-amber-950/40 rounded-2xl border border-indigo-700/40 shadow-xl relative">
+            <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-amber-950/40 rounded-2xl border border-gold-700/40 shadow-xl relative">
               <div className="absolute top-4 right-4 text-xs font-bold text-amber-400 bg-amber-950/80 px-3 py-1 rounded-full border border-amber-700/50">
                 Curiosity Discovery Hook
               </div>
@@ -1240,7 +1240,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
 
             {/* Discovery Question Card */}
             <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 shadow-xl">
-              <div className="flex items-center gap-2 text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2">
+              <div className="flex items-center gap-2 text-xs font-bold text-gold-400 uppercase tracking-wider mb-2">
                 <span>❓</span> Pre-Lesson Spark Puzzle
               </div>
               <p className="text-base md:text-lg font-semibold text-white mb-4">
@@ -1261,7 +1261,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-950/50'
                           : 'bg-slate-800/50 border-slate-700/50 text-slate-400 opacity-60'
-                        : 'bg-slate-800 hover:bg-slate-700/80 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800 hover:bg-slate-700/80 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <span className="font-bold mr-2 text-amber-400">{String.fromCharCode(65 + i)}.</span>
@@ -1334,7 +1334,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-xs text-white rounded-lg font-bold shadow-md shadow-indigo-900/40"
+                    className="px-3 py-1 bg-gold-600 hover:bg-gold-500 text-xs text-white rounded-lg font-bold shadow-md shadow-gold-900/40"
                   >
                     Next Lab →
                   </motion.button>
@@ -1401,7 +1401,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                     >
                       <div className="md:col-span-2 space-y-3">
                         <div className="flex items-center gap-2">
-                          <span className="text-xs px-2.5 py-0.5 bg-indigo-950 text-indigo-300 border border-indigo-800 rounded-full font-bold uppercase">
+                          <span className="text-xs px-2.5 py-0.5 bg-gold-950 text-gold-300 border border-gold-800 rounded-full font-bold uppercase">
                             Key Breakthrough
                           </span>
                           <span className="text-xs text-slate-400 font-mono">
@@ -1462,8 +1462,8 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                 <div className="space-y-4">
                   {/* Predict-Then-Check Hook */}
                   {!predictionMade ? (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300 uppercase">Step 1: Make a Prediction</p>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700 space-y-2">
+                      <p className="text-xs font-bold text-gold-300 uppercase">Step 1: Make a Prediction</p>
                       <p className="text-sm font-semibold text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1571,7 +1571,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-300">Foreign Factory Inflow</span>
-                        <span className="font-bold text-indigo-400">{drainImportPenetration}%</span>
+                        <span className="font-bold text-gold-400">{drainImportPenetration}%</span>
                       </div>
                       <input
                         type="range"
@@ -1580,7 +1580,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                         max={90}
                         value={drainImportPenetration}
                         onChange={e => handleDrainSlider('import', Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[11px] text-slate-400">Destroyed indigenous weavers and artisan handicraft guilds.</p>
                     </div>
@@ -1621,7 +1621,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                       <h4 className="text-base font-bold text-white">Gokuldas Tejpal Sanskrit College, Bombay (28–31 Dec 1885)</h4>
                     </div>
                     <div className="flex gap-2 text-xs">
-                      <span className="px-3 py-1 bg-indigo-950 text-indigo-300 rounded-lg border border-indigo-800 font-mono">
+                      <span className="px-3 py-1 bg-gold-950 text-gold-300 rounded-lg border border-gold-800 font-mono">
                         72 Delegates Present
                       </span>
                       <span className="px-3 py-1 bg-amber-950 text-amber-300 rounded-lg border border-amber-800 font-mono">
@@ -1633,7 +1633,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                   {/* Visual Layout of Early Congress Platforms */}
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                      <div className="text-xs font-bold text-indigo-400 uppercase">Organisational Architecture</div>
+                      <div className="text-xs font-bold text-gold-400 uppercase">Organisational Architecture</div>
                       <p className="text-xs text-slate-300">
                         Retired ICS officer <strong>A.O. Hume</strong> convened delegates across Bombay, Calcutta, and Madras. Viceroy Dufferin initially considered it a helpful &ldquo;safety valve&rdquo;.
                       </p>
@@ -1827,9 +1827,9 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                     </div>
 
                     <div className={`p-3 rounded-xl border timeline-node transition-all ${
-                      timelineYear >= 1916 ? 'bg-indigo-950/40 border-indigo-600/60 text-white' : 'bg-slate-900 border-slate-800 opacity-50'
+                      timelineYear >= 1916 ? 'bg-gold-950/40 border-gold-600/60 text-white' : 'bg-slate-900 border-slate-800 opacity-50'
                     }`}>
-                      <div className="text-xs font-bold text-indigo-400">1916: Home Rule Leagues</div>
+                      <div className="text-xs font-bold text-gold-400">1916: Home Rule Leagues</div>
                       <p className="text-[11px] text-slate-300 mt-1">
                         Tilak (April, Belgaum) & Annie Besant (Sept, Adyar) demand dominion status within Empire.
                       </p>
@@ -1952,7 +1952,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
 
               {/* Congress Ideology Filter */}
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <h4 className="text-xs font-bold text-indigo-400 uppercase">3. INC Ideological Faction</h4>
+                <h4 className="text-xs font-bold text-gold-400 uppercase">3. INC Ideological Faction</h4>
                 <div className="grid grid-cols-3 gap-1 text-[11px]">
                   {(['all', 'moderates', 'assertives'] as const).map(f => (
                     <button
@@ -1961,7 +1961,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                       onClick={() => setIncFilter(f)}
                       className={`p-1.5 rounded-lg font-bold capitalize border ${
                         incFilter === f
-                          ? 'bg-indigo-900 border-indigo-500 text-white'
+                          ? 'bg-gold-900 border-gold-500 text-white'
                           : 'bg-slate-950 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1996,7 +1996,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                 <span className="text-sm font-black text-white">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-[10px] px-2.5 py-0.5 bg-indigo-950 text-indigo-300 border border-indigo-800 rounded-full font-bold uppercase tracking-wider">
+                <span className="text-[10px] px-2.5 py-0.5 bg-gold-950 text-gold-300 border border-gold-800 rounded-full font-bold uppercase tracking-wider">
                   NEP: {challenge.competencyLevel}
                 </span>
               </div>
@@ -2011,7 +2011,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
             {/* Visual Progress Bar */}
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-amber-500 to-indigo-600 rounded-full"
+                className="h-full bg-gradient-to-r from-amber-500 to-gold-600 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2078,7 +2078,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                           className={`px-3 py-2 rounded-lg text-xs font-bold transition-all ${
                             isAssigned
                               ? 'bg-slate-800/50 text-slate-600 border border-slate-800 cursor-not-allowed'
-                              : 'bg-indigo-700 hover:bg-indigo-600 text-white cursor-grab border border-indigo-500 shadow-md'
+                              : 'bg-gold-700 hover:bg-gold-600 text-white cursor-grab border border-gold-500 shadow-md'
                           }`}
                         >
                           {item.label}
@@ -2121,7 +2121,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(droppedLabels)}
                     disabled={Object.keys(droppedLabels).length < (challenge.dragItems?.length || 4) || showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
                   >
                     Verify Label Mapping →
                   </motion.button>
@@ -2170,7 +2170,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                       handleAnswer(answer);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
                   >
                     Check Chronological Order →
                   </motion.button>
@@ -2196,7 +2196,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(numericInput)}
                       disabled={!numericInput || showExplanation}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
                     >
                       Submit Calculation →
                     </motion.button>
@@ -2225,7 +2225,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                           className={`px-3 py-1.5 rounded-lg text-xs font-semibold border ${
                             isUsed
                               ? 'bg-slate-800/40 text-slate-600 border-slate-800'
-                              : 'bg-indigo-950 border-indigo-600 text-indigo-200 hover:bg-indigo-900'
+                              : 'bg-gold-950 border-gold-600 text-gold-200 hover:bg-gold-900'
                           }`}
                         >
                           + {part}
@@ -2241,7 +2241,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                         key={idx}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1.5 bg-indigo-800 text-white rounded-lg text-xs font-bold flex items-center gap-2"
+                        className="px-3 py-1.5 bg-gold-800 text-white rounded-lg text-xs font-bold flex items-center gap-2"
                       >
                         <span>{idx + 1}. {part}</span>
                         {!showExplanation && (
@@ -2266,7 +2266,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0 || showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
                   >
                     Validate Causal Chain →
                   </motion.button>
@@ -2358,7 +2358,7 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
                 <span className="px-3 py-1 bg-slate-900 border border-slate-700 rounded-lg text-emerald-300">
                   Mastery Level: <strong>{masteryLevel.toUpperCase()}</strong>
                 </span>
-                <span className="px-3 py-1 bg-slate-900 border border-slate-700 rounded-lg text-indigo-300">
+                <span className="px-3 py-1 bg-slate-900 border border-slate-700 rounded-lg text-gold-300">
                   Total Challenges: <strong>{filteredChallenges.length}</strong>
                 </span>
               </div>
@@ -2415,8 +2415,8 @@ function C8_HistoryCivicsSwamiVivekanandaRamakrishnaSim({
             )}
 
             {/* Reflection Questions */}
-            <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-2 text-xs text-slate-300">
-              <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+            <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-2 text-xs text-slate-300">
+              <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                 🤔 Historical Reflection Prompts
               </h4>
               <ul className="space-y-1.5 list-disc pl-5">

@@ -1301,7 +1301,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-5">
           {/* Narrative Scenario Box */}
-          <div className="p-5 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-indigo-950/30 rounded-2xl border border-emerald-800/40 relative overflow-hidden shadow-lg">
+          <div className="p-5 bg-gradient-to-br from-emerald-950/40 via-slate-900 to-gold-950/30 rounded-2xl border border-emerald-800/40 relative overflow-hidden shadow-lg">
             <div className="absolute -right-8 -bottom-8 opacity-10 text-9xl select-none">🔬</div>
             <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm mb-1 uppercase tracking-wider">
               <span>🌾 Scenario Hook</span>
@@ -1618,7 +1618,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
 
                 <div className="lg:col-span-5 space-y-3">
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-[10px] uppercase font-bold text-indigo-400 px-2 py-0.5 bg-indigo-950 rounded border border-indigo-800">
+                    <span className="text-[10px] uppercase font-bold text-gold-400 px-2 py-0.5 bg-gold-950 rounded border border-gold-800">
                       {sacCellInfo.role}
                     </span>
                     <h3 className="text-base font-bold text-white mt-1">{sacCellInfo.name}</h3>
@@ -1643,7 +1643,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
                         }}
                         className={`p-2 rounded-lg text-xs font-semibold text-left border ${
                           selectedSacCell === cell.id
-                            ? 'bg-indigo-900/50 border-indigo-500 text-indigo-200'
+                            ? 'bg-gold-900/50 border-gold-500 text-gold-200'
                             : 'bg-slate-800/60 border-slate-700/50 text-slate-300'
                         }`}
                       >
@@ -1802,7 +1802,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
               >
                 Enter Free Sandbox Mode →
               </motion.button>
@@ -1848,7 +1848,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
                   audioManager.play('tap');
                 }}
                 className={`px-3 py-1 rounded-lg font-bold ${
-                  activeTab === 'human' ? 'bg-indigo-600 text-white' : 'text-slate-400'
+                  activeTab === 'human' ? 'bg-gold-600 text-white' : 'text-slate-400'
                 }`}
               >
                 Human Sperm Motility
@@ -1896,14 +1896,14 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
                   setSpermatogenesisDepth(Number(e.target.value));
                   audioManager.play('count');
                 }}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
             </div>
           </div>
 
           {/* Observation Question Hook */}
-          <div className="p-4 bg-gradient-to-r from-slate-900 to-indigo-950/40 rounded-2xl border border-indigo-900/50">
-            <h3 className="text-xs font-bold uppercase text-indigo-400 tracking-wider mb-2">Scientific Observation Check</h3>
+          <div className="p-4 bg-gradient-to-r from-slate-900 to-gold-950/40 rounded-2xl border border-gold-900/50">
+            <h3 className="text-xs font-bold uppercase text-gold-400 tracking-wider mb-2">Scientific Observation Check</h3>
             <p className="text-sm font-semibold text-white mb-3">{OBSERVATION_QUESTIONS[0].question}</p>
             <div className="space-y-2">
               {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => {
@@ -1964,7 +1964,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
                   difficulty === 'foundation'
                     ? 'bg-emerald-950/70 border-emerald-500 text-emerald-400'
                     : difficulty === 'standard'
-                    ? 'bg-blue-950/70 border-blue-500 text-blue-400'
+                    ? 'bg-gold-950/70 border-gold-500 text-gold-400'
                     : 'bg-purple-950/70 border-purple-500 text-purple-400'
                 }`}
               >
@@ -1983,12 +1983,12 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
           {/* Progress Bar */}
           <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -2180,7 +2180,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 text-gold-200 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2274,7 +2274,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
       {/* ─── PHASE 5: MASTERY SUMMARY & REAL-WORLD ACTIVITY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-indigo-950/40 rounded-3xl border border-emerald-600/50 text-center space-y-3 shadow-2xl">
+          <div className="p-6 bg-gradient-to-br from-emerald-950/60 via-slate-900 to-gold-950/40 rounded-3xl border border-emerald-600/50 text-center space-y-3 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl font-black text-white">Simulation Mastery Achieved!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2287,7 +2287,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
               </div>
               <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 min-w-[120px]">
                 <span className="text-xs text-slate-400 block font-mono">BKT Status</span>
-                <span className="text-xl font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-950 rounded-2xl border border-amber-800/60 min-w-[140px] bg-gradient-to-b from-amber-950/30 to-slate-950">
                 <span className="text-xs text-amber-400 block font-mono font-semibold">SRS Review Plan</span>
@@ -2359,7 +2359,7 @@ function C12_BiologyMicrosporogenesisPollenGrainSim({
 
           {/* Reflection Section */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-1">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-1">
               🤔 Conceptual Reflection
             </h3>
             <div className="space-y-3">

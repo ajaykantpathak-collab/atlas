@@ -46,7 +46,7 @@ const TEACHING_SLIDES = [
     { title: 'Numbers and Numerals 🍎', text: 'A number is the idea of how many things there are. A numeral is the written mark we use, like 7 or 15! Piku has 5 delicious red apples in her basket!', emoji: '🍎', bgColor: 'from-red-400 to-rose-500' },
     { title: 'Counting One by One 🖐️', text: 'When counting objects up to 20, touch each object exactly once and say the number names in order: one, two, three... up to twenty! Never skip or repeat a number!', emoji: '🔢', bgColor: 'from-emerald-400 to-teal-500' },
     { title: 'The Teen Numbers 🌟', text: 'Numbers from 11 to 20 have two digits! 11 has a 1 in the tens place and a 1 in the units place. They go: eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty!', emoji: '✨', bgColor: 'from-amber-400 to-orange-500' },
-    { title: 'Which is More? ⚖️', text: 'On the number line, numbers further along are greater! 14 is more than 9 because 14 comes after 9. The plate with 14 apples has more than the plate with 9 apples!', emoji: '⚖️', bgColor: 'from-blue-400 to-indigo-500' },
+    { title: 'Which is More? ⚖️', text: 'On the number line, numbers further along are greater! 14 is more than 9 because 14 comes after 9. The plate with 14 apples has more than the plate with 9 apples!', emoji: '⚖️', bgColor: 'from-gold-400 to-gold-500' },
     { title: 'Read the Whole Numeral! 🧠', text: 'Never judge a number by a single digit! 11 is more than 9 because eleven is a two-digit teen number that comes after nine on the number line. Always read the whole numeral!', emoji: '💡', bgColor: 'from-purple-400 to-pink-500' },
 ];
 // ─── Types ────────────────────────────────────────────────────

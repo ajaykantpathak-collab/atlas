@@ -1279,7 +1279,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
-                : 'bg-indigo-500/10 text-indigo-400 border-indigo-500/30'
+                : 'bg-gold-500/10 text-gold-400 border-gold-500/30'
             }`}
           >
             Tier: {difficulty}
@@ -1299,7 +1299,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
       {/* ─── DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6 mt-4">
-          <div className="p-5 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-indigo-950/40 rounded-2xl border border-emerald-800/40">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/40 via-slate-900 to-gold-950/40 rounded-2xl border border-emerald-800/40">
             <div className="flex items-center gap-2 text-emerald-400 font-bold mb-1">
               <span>🎯</span>
               <span>{SCENARIO.title}</span>
@@ -1415,8 +1415,8 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
               {currentSlide === 0 && (
                 <div className="space-y-4 bg-slate-950 p-4 sm:p-5 rounded-2xl border border-slate-800">
                   {!predictionMade && (
-                    <div className="p-3.5 bg-indigo-950/40 border border-indigo-800/60 rounded-xl mb-3">
-                      <p className="text-xs font-bold text-indigo-300 uppercase mb-1">Prediction Check</p>
+                    <div className="p-3.5 bg-gold-950/40 border border-gold-800/60 rounded-xl mb-3">
+                      <p className="text-xs font-bold text-gold-300 uppercase mb-1">Prediction Check</p>
                       <p className="text-sm text-slate-200 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1456,7 +1456,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300 font-medium">
                         <span>Interim Dividend (FY24)</span>
-                        <span className="text-indigo-400 font-bold">₹{simInterimDiv} cr</span>
+                        <span className="text-gold-400 font-bold">₹{simInterimDiv} cr</span>
                       </div>
                       <input
                         type="range"
@@ -1465,7 +1465,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                         step={25}
                         value={simInterimDiv}
                         onChange={(e) => setSimInterimDiv(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Interim Dividend"
                       />
                       <span className="text-[10px] text-slate-400">Paid immediately during FY24</span>
@@ -1528,7 +1528,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300 font-medium">
                         <span>Current Assets</span>
-                        <span className="text-cyan-400 font-bold">₹{simCurrentAssets}</span>
+                        <span className="text-gold-400 font-bold">₹{simCurrentAssets}</span>
                       </div>
                       <input
                         type="range"
@@ -1537,7 +1537,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                         step={50}
                         value={simCurrentAssets}
                         onChange={(e) => setSimCurrentAssets(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Current Assets"
                       />
                     </div>
@@ -1576,7 +1576,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300 font-medium">
                         <span>Current Liabilities</span>
-                        <span className="text-indigo-400 font-bold">₹{simCurrentLiabilities}</span>
+                        <span className="text-gold-400 font-bold">₹{simCurrentLiabilities}</span>
                       </div>
                       <input
                         type="range"
@@ -1585,7 +1585,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                         step={50}
                         value={simCurrentLiabilities}
                         onChange={(e) => setSimCurrentLiabilities(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Current Liabilities"
                       />
                     </div>
@@ -1593,9 +1593,9 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
 
                   {/* Dual Ratio Gauges */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-3">
-                    <div className="p-4 bg-slate-900 rounded-xl border border-cyan-800/40 text-center">
+                    <div className="p-4 bg-slate-900 rounded-xl border border-gold-800/40 text-center">
                       <span className="text-xs text-slate-400 font-medium">Current Ratio (Benchmark 2:1)</span>
-                      <div className="text-2xl sm:text-3xl font-black text-cyan-400 font-mono my-1">
+                      <div className="text-2xl sm:text-3xl font-black text-gold-400 font-mono my-1">
                         {derivedCurrentRatio} : 1
                       </div>
                       <p className="text-[11px] text-slate-400">
@@ -1657,7 +1657,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300 font-medium">
                         <span>Long-term Debt</span>
-                        <span className="text-indigo-400 font-bold">₹{derivedLongTermDebt} cr</span>
+                        <span className="text-gold-400 font-bold">₹{derivedLongTermDebt} cr</span>
                       </div>
                       <input
                         type="range"
@@ -1666,7 +1666,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                         step={50}
                         value={simLongTermBorrowings}
                         onChange={(e) => setSimLongTermBorrowings(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Long-term Borrowings"
                       />
                     </div>
@@ -1709,7 +1709,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                       </div>
                       <div
                         style={{ width: `${parseFloat(derivedDebtToTA) * 100}%` }}
-                        className="bg-indigo-500 flex items-center justify-center text-[10px] font-bold text-white"
+                        className="bg-gold-500 flex items-center justify-center text-[10px] font-bold text-white"
                         title="Debt to Total Assets"
                       >
                         Debt/TA {(parseFloat(derivedDebtToTA) * 100).toFixed(0)}%
@@ -1730,7 +1730,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                       </div>
                       <div className="p-2 bg-slate-800 rounded-lg">
                         <span className="text-slate-400 block text-[10px]">Debt to Total Assets</span>
-                        <span className="font-mono font-bold text-indigo-400">{derivedDebtToTA}</span>
+                        <span className="font-mono font-bold text-gold-400">{derivedDebtToTA}</span>
                       </div>
                       <div className="p-2 bg-slate-800 rounded-lg">
                         <span className="text-slate-400 block text-[10px]">CL to Total Assets</span>
@@ -1748,7 +1748,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300 font-medium">
                         <span>Net Profit After Tax (NPAT)</span>
-                        <span className="text-cyan-400 font-bold">₹{simNPAT} cr</span>
+                        <span className="text-gold-400 font-bold">₹{simNPAT} cr</span>
                       </div>
                       <input
                         type="range"
@@ -1757,14 +1757,14 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                         step={50}
                         value={simNPAT}
                         onChange={(e) => setSimNPAT(Number(e.target.value))}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set NPAT"
                       />
                     </div>
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs text-slate-300 font-medium">
                         <span>Tax Provision</span>
-                        <span className="text-indigo-400 font-bold">₹{simTaxProvision} cr</span>
+                        <span className="text-gold-400 font-bold">₹{simTaxProvision} cr</span>
                       </div>
                       <input
                         type="range"
@@ -1773,7 +1773,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                         step={25}
                         value={simTaxProvision}
                         onChange={(e) => setSimTaxProvision(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                         aria-label="Set Tax Provision"
                       />
                     </div>
@@ -1818,10 +1818,10 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
               {currentSlide === 4 && (
                 <div className="space-y-4 bg-slate-950 p-4 sm:p-5 rounded-2xl border border-slate-800">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="p-3.5 bg-slate-900 rounded-xl border border-cyan-800/40 space-y-3">
+                    <div className="p-3.5 bg-slate-900 rounded-xl border border-gold-800/40 space-y-3">
                       <div className="flex justify-between items-center">
-                        <span className="text-xs font-bold text-cyan-300 uppercase">Receivables (Debtors)</span>
-                        <span className="text-xs font-mono text-cyan-400">{derivedReceivablesTurnover}x / yr</span>
+                        <span className="text-xs font-bold text-gold-300 uppercase">Receivables (Debtors)</span>
+                        <span className="text-xs font-mono text-gold-400">{derivedReceivablesTurnover}x / yr</span>
                       </div>
                       <div className="space-y-1">
                         <div className="flex justify-between text-[11px] text-slate-300">
@@ -1835,13 +1835,13 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                           step={200}
                           value={simCreditSales}
                           onChange={(e) => setSimCreditSales(Number(e.target.value))}
-                          className="w-full accent-cyan-500"
+                          className="w-full accent-gold-500"
                           aria-label="Set Credit Sales"
                         />
                       </div>
                       <div className="p-2 bg-slate-800 rounded-lg text-center">
                         <span className="text-[10px] text-slate-400 block">Average Collection Period</span>
-                        <span className="text-base font-bold text-cyan-400 font-mono">
+                        <span className="text-base font-bold text-gold-400 font-mono">
                           {derivedCollectionDays} Days
                         </span>
                       </div>
@@ -1911,7 +1911,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-950/40"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950/40"
                 aria-label="Enter Sandbox"
               >
                 Free Sandbox Play →
@@ -1924,8 +1924,8 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
       {/* ─── SANDBOX PHASE ─── */}
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-5 mt-4">
-          <div className="p-5 bg-gradient-to-r from-slate-900 via-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-700/40">
-            <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gradient-to-r from-slate-900 via-gold-950/40 to-slate-900 rounded-2xl border border-gold-700/40">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🎮</span>
               <span>Financial Sandbox: Unlimited Free Exploration</span>
             </h3>
@@ -1980,7 +1980,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
               <div className="space-y-1">
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Long-term Borrowings</span>
-                  <span className="text-indigo-400 font-bold">₹{derivedLongTermDebt} cr</span>
+                  <span className="text-gold-400 font-bold">₹{derivedLongTermDebt} cr</span>
                 </div>
                 <input
                   type="range"
@@ -1989,7 +1989,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                   step={100}
                   value={simLongTermBorrowings}
                   onChange={(e) => setSimLongTermBorrowings(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                   aria-label="Sandbox Borrowings"
                 />
               </div>
@@ -1997,7 +1997,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-700/80 grid grid-cols-2 gap-2 text-center text-xs">
                 <div>
                   <span className="text-slate-400 block text-[10px]">Debt-to-Equity</span>
-                  <span className="font-mono font-bold text-indigo-400">
+                  <span className="font-mono font-bold text-gold-400">
                     {(derivedLongTermDebt / derivedEquity).toFixed(2)} : 1
                   </span>
                 </div>
@@ -2044,7 +2044,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
           {/* Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -2100,7 +2100,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                    className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                     role="button"
                     tabIndex={0}
                     aria-label={`Draggable item: ${item.label}`}
@@ -2115,9 +2115,9 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                 <div
                   onDragOver={(e) => e.preventDefault()}
                   onDrop={() => handleDragDrop('ca_box')}
-                  className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-cyan-700/60 text-center min-h-[90px] flex flex-col justify-center items-center"
+                  className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-gold-700/60 text-center min-h-[90px] flex flex-col justify-center items-center"
                 >
-                  <span className="text-xs text-cyan-400 font-bold mb-1">Current Assets Box</span>
+                  <span className="text-xs text-gold-400 font-bold mb-1">Current Assets Box</span>
                   <span className="text-sm font-semibold text-white">
                     {droppedLabels.ca_box || 'Drop Here'}
                   </span>
@@ -2137,9 +2137,9 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                 <div
                   onDragOver={(e) => e.preventDefault()}
                   onDrop={() => handleDragDrop('cl_box')}
-                  className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-indigo-700/60 text-center min-h-[90px] flex flex-col justify-center items-center"
+                  className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-gold-700/60 text-center min-h-[90px] flex flex-col justify-center items-center"
                 >
-                  <span className="text-xs text-indigo-400 font-bold mb-1">Current Liabilities Box</span>
+                  <span className="text-xs text-gold-400 font-bold mb-1">Current Liabilities Box</span>
                   <span className="text-sm font-semibold text-white">
                     {droppedLabels.cl_box || 'Drop Here'}
                   </span>
@@ -2243,7 +2243,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setConstructParts((prev) => [...prev, part])}
-                    className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                    className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                   >
                     + {part}
                   </motion.button>
@@ -2287,7 +2287,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-slate-900 to-indigo-950/40 border border-indigo-700/50 rounded-2xl space-y-3"
+              className="p-5 bg-gradient-to-br from-slate-900 to-gold-950/40 border border-gold-700/50 rounded-2xl space-y-3"
             >
               <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider block">
                 Accounting Solution & Rationale:
@@ -2316,7 +2316,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => setRevealedSteps((s) => s + 1)}
-                  className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                  className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                 >
                   Reveal Next Explanation Step →
                 </motion.button>
@@ -2346,7 +2346,7 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
             <p className="text-sm text-slate-300">
               Final Mastery Score:{' '}
               <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> |
-              Mastery Tier: <span className="text-indigo-400 font-bold capitalize">{masteryLevel}</span>
+              Mastery Tier: <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2386,8 +2386,8 @@ export default function C12_AccountancyTreatmentProposedDividendSim({
           </div>
 
           {/* Real-World Capstone */}
-          <div className="p-5 bg-indigo-950/40 border border-indigo-800/40 rounded-2xl space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 border border-gold-800/40 rounded-2xl space-y-3">
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

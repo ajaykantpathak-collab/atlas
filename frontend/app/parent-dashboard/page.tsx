@@ -170,7 +170,7 @@ export default function ParentDashboardPage() {
           <p className="text-slate-400 mb-6">Sign in with your parent account to follow your child&apos;s learning.</p>
           <Link
             href="/login"
-            className="inline-block px-6 py-3 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold text-sm transition-colors"
+            className="inline-block px-6 py-3 rounded-xl bg-gold-500 hover:bg-gold-400 text-white font-bold text-sm transition-colors"
           >
             Go to Sign In
           </Link>
@@ -240,7 +240,7 @@ export default function ParentDashboardPage() {
                 onClick={() => selectChild(c)}
                 className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all ${
                   c.student_id === child.student_id
-                    ? 'bg-indigo-500 text-white'
+                    ? 'bg-gold-500 text-white'
                     : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
@@ -277,7 +277,7 @@ export default function ParentDashboardPage() {
             label="Overall Mastery"
             value={child.has_mastery_data ? `${Math.round(child.overall_mastery)}%` : '—'}
             hint={child.has_mastery_data ? undefined : 'no mastery records yet'}
-            color="from-blue-500 to-indigo-500"
+            color="from-gold-500 to-gold-500"
             icon="🎯"
           />
           <StatCard
@@ -306,8 +306,8 @@ export default function ParentDashboardPage() {
         {(insights.length > 0 || alerts.length > 0) && (
           <div className="mb-8 space-y-3">
             {insights.map((ins, i) => (
-              <div key={i} className="bg-indigo-500/10 rounded-2xl p-4 border border-indigo-500/20">
-                <p className="text-indigo-300 font-bold text-sm">💡 {ins.title}</p>
+              <div key={i} className="bg-gold-500/10 rounded-2xl p-4 border border-gold-500/20">
+                <p className="text-gold-300 font-bold text-sm">💡 {ins.title}</p>
                 <p className="text-slate-300 text-sm mt-1">{ins.detail}</p>
               </div>
             ))}
@@ -442,7 +442,7 @@ export default function ParentDashboardPage() {
 
         {/* Back link */}
         <div className="mt-8 text-center">
-          <Link href="/" className="text-indigo-400 hover:text-indigo-300 font-semibold text-sm">
+          <Link href="/" className="text-gold-400 hover:text-gold-300 font-semibold text-sm">
             ← Back to Home
           </Link>
         </div>

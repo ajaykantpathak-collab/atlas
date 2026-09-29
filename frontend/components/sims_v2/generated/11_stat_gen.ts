@@ -82,7 +82,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Variable",
+    "title": "A Variable Is a Characteristic",
     "text": "A variable is a characteristic or attribute that can be measured or observed and takes different values for different units of a population or sample.",
     "emoji": "📊",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -184,8 +184,8 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "What is the fundamental limitation of statistics highlighted by the river-crossing story in the NCERT textbook?",
     "answer": "The story illustrates that statistical averages (mean depth, mean height) do not reflect the variation within the data",
     "options": [
-     "Expected answer: Example: \"The statistics (plural: data) on farm suicides are alarming, so the ministry hired experts in statistics (singular: methods) to design a better",
-     "Plural sense (the reported numbers/data). The critique targets the *data quality* — a small sample size produces unreliable numerical facts",
+     "Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a predetermined purpose (e",
+     "The student can correctly classify any given statistical statement as plural sense (data) or singular sense (method), and explain why the distinction matters for economic analysis",
      "The story illustrates that statistical averages (mean depth, mean height) do not reflect the variation within the data"
     ],
     "hint": "Straight from the 'Statistics has inherent' slide -- match the key terms.",
@@ -272,7 +272,7 @@ export const C11_STAT_GEN: SimDef[] = [
      "Plural sense = numerical data (e.g., \"The statistics of Class 11 marks show an average of 72%\"). Singular sense = statistical methods (e",
      "Good answer example: 1. Variable: \"Number of bus rides per week\" — Discrete — Instruction: \"Record the total count of boardings Monday–Sunday as a whole number"
     ],
-    "hint": "Straight from the 'variable' slide -- match the key terms.",
+    "hint": "Straight from the 'A variable is a characteristic' slide -- match the key terms.",
     "misconception": "A poor answer uses vague instructions (\"ask the student\") or misclassifies (e.g., distance as discrete), showing the student cannot operationalize the concept for real data collection.",
     "id": "gen_c11_stat_ch01_q7",
     "nodeId": "c11_stat_cbse_01_008",
@@ -470,6 +470,36 @@ export const C11_STAT_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What is Statistics in the plural sense? State the definition given in this lesson.",
+    "answer": "Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a predetermined purpose (e",
+    "options": [
+     "The student can correctly classify any given statistical statement as plural sense (data) or singular sense (method), and explain why the distinction matters for economic analysis",
+     "The story illustrates that statistical averages (mean depth, mean height) do not reflect the variation within the data",
+     "Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a predetermined purpose (e"
+    ],
+    "hint": "Straight from the 'Statistics in the plural sense' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a",
+    "id": "gen_c11_stat_ch01_q15",
+    "nodeId": "c11_stat_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can correctly classify any given statistical statement as plural sense (data) or singular sense (method), and explain why the distinction matters for economic analysis",
+    "options": [
+     "Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a predetermined purpose (e",
+     "The story illustrates that statistical averages (mean depth, mean height) do not reflect the variation within the data",
+     "The student can correctly classify any given statistical statement as plural sense (data) or singular sense (method), and explain why the distinction matters for economic analysis"
+    ],
+    "hint": "Straight from the 'Statistics in the plural sense' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can correctly classify any given statistical statement as plural sense (data) or singular sense (method),",
+    "id": "gen_c11_stat_ch01_q16",
+    "nodeId": "c11_stat_cbse_01_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Compare the statement \"Hundreds of people died in the earthquake\" with \"310 people died in the recent earthquake in Kashmir.\" Which statistical function does this contrast illustrate? Why is the second statement more useful for government relief operations?",
     "answer": "This illustrates the function \"presenting economic facts in a precise and definite form.\" The second statement enables: (1) exact compensation budgeting (₹X per family × 310)",
     "options": [
@@ -479,7 +509,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Statistics in economics' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both mean the same thing\" reveals the student treats precision as pedantry rather than operational necessity—they miss that vague data leads to vague (and often inadequate) policy response.",
-    "id": "gen_c11_stat_ch01_q15",
+    "id": "gen_c11_stat_ch01_q17",
     "nodeId": "c11_stat_cbse_01_003",
     "difficulty": "standard"
    },
@@ -494,38 +524,8 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Statistics in economics' slide -- match the key terms.",
     "misconception": "A wrong answer that agrees reveals the student treats statistical prediction as mechanical extrapolation, ignoring the ceteris paribus assumption and the role of structural breaks in economic time series.",
-    "id": "gen_c11_stat_ch01_q16",
-    "nodeId": "c11_stat_cbse_01_003",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the following two statements and identify which limitation of statistics each illustrates: (i) \"Statistics shows that 60% of voters support Policy P, so the policy is good for the country.",
-    "answer": "(i) illustrates the limitation that statistics deals with quantitative data and cannot judge qualitative value (good/bad) without a value judgment",
-    "options": [
-     "Scenario A: Population = all steel rods produced in that shift (finite, but destructive testing makes census impossible — testing destroys the unit)",
-     "(a) For nominal qualitative data (e.g., religion), only mode is meaningful—mean requires numerical values",
-     "(i) illustrates the limitation that statistics deals with quantitative data and cannot judge qualitative value (good/bad) without a value judgment"
-    ],
-    "hint": "Straight from the 'Statistics has inherent' slide -- match the key terms.",
-    "misconception": "A wrong answer that says both are correct uses of statistics shows the student cannot distinguish statistical facts from interpretation.",
-    "id": "gen_c11_stat_ch01_q17",
-    "nodeId": "c11_stat_cbse_01_004",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the claim: \"Since statistical methods can be misused, we should not trust any statistical data presented in the media.\" Provide a reasoned argument.",
-    "answer": "The claim is an overgeneralization. While misuse is possible, statistics is essential for informed decisions",
-    "options": [
-     "The statement is false. NCERT explicitly states: \"In addition to quantitative data, Economics also uses qualitative data",
-     "The plural sense defines the *output* (systematically collected numerical facts). The singular sense defines the *process* that produces that output",
-     "The claim is an overgeneralization. While misuse is possible, statistics is essential for informed decisions"
-    ],
-    "hint": "Straight from the 'Statistics has inherent' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees reveals the student thinks statistics is inherently unreliable rather than a tool that requires proper use.",
     "id": "gen_c11_stat_ch01_q18",
-    "nodeId": "c11_stat_cbse_01_004",
+    "nodeId": "c11_stat_cbse_01_003",
     "difficulty": "standard"
    }
   ],
@@ -605,7 +605,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Questionnaire/schedule",
+    "title": "A Questionnaire/schedule Is a Structured",
     "text": "A questionnaire/schedule is a structured research instrument consisting of a systematically ordered set of questions designed to elicit specific information from respondents; a questionnaire is self-administered by the respondent while a schedule is",
     "emoji": "📊",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1041,8 +1041,8 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "Define non-random sampling and state the fundamental characteristic that distinguishes it from random sampling in terms of probability of selection.",
     "answer": "Non-random sampling is a method where the investigator selects sample units based on judgment, convenience, or quotas rather than a random process",
     "options": [
-     "The defining characteristic is the investigator's physical, face-to-face presence with the respondent during data collection, enabling real-time clarification",
-     "Indirect Oral Investigation is a method where data is collected from third parties who have knowledge about the subject, rather than from the actual respondents",
+     "The student can correctly classify a given real-world sampling scenario as purposive, quota, or convenience sampling, explain the specific selection mechanism for each",
+     "Non-sampling errors are systematic deviations of survey estimates from true population values that arise from flaws in data collection, recording, processing, or analysis",
      "Non-random sampling is a method where the investigator selects sample units based on judgment, convenience, or quotas rather than a random process"
     ],
     "hint": "Straight from the 'Non-random sampling' slide -- match the key terms.",
@@ -1058,16 +1058,47 @@ export const C11_STAT_GEN: SimDef[] = [
     ]
    },
    {
-    "type": "mcq",
-    "question": "Define sampling error in your own words, using the terms 'population parameter' and 'sample statistic'. Give a one-sentence definition.",
-    "answer": "Sampling error is the difference between a sample statistic (e.g., sample mean) and the corresponding population parameter (e",
-    "options": [
-     "Simple Random Sampling is a method where every possible sample of size *n* from the population of size *N* has an equal probability of being selected",
-     "Non-random sampling is a method where the investigator selects sample units based on judgment, convenience, or quotas rather than a random process",
-     "Sampling error is the difference between a sample statistic (e.g., sample mean) and the corresponding population parameter (e"
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explain why increasing the sample size",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "define sampling error precisely using",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "calculate the sampling error for a given",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
     ],
-    "hint": "Straight from the 'Sampling error' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"error due to wrong calculations\" or \"bias in selection\") reveals the student confuses sampling error with non-sampling errors or human mistakes. They have not grasped that sampling error exists even in a perfectly conducted random sample.",
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to (1) define sampling error precisely using the terms 'sample statistic' and 'population",
     "id": "gen_c11_stat_ch02_q9",
     "nodeId": "c11_stat_cbse_02_009",
     "difficulty": "standard",
@@ -1146,8 +1177,8 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "Name the two main national-level agencies in India that collect, process, and tabulate statistical data on socio-economic issues, as mentioned in the NCERT textbook for Class 11 Statistics.",
     "answer": "The two main agencies are Census of India and National Sample Survey Office (NSSO)",
     "options": [
-     "In statistics, a population (or universe) is the complete set of all items/individuals possessing specific characteristics relevant to the study",
-     "The defining characteristic is the investigator's physical, face-to-face presence with the respondent during data collection, enabling real-time clarification",
+     "Indirect Oral Investigation is a method where data is collected from third parties who have knowledge about the subject, rather than from the actual respondents",
+     "Indirect Oral Investigation is a primary data collection method where the investigator gathers information from third parties (witnesses, experts",
      "The two main agencies are Census of India and National Sample Survey Office (NSSO)"
     ],
     "hint": "Straight from the 'Census of India' slide -- match the key terms.",
@@ -1358,6 +1389,52 @@ export const C11_STAT_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish non-sampling errors from",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "explain why increasing sample size",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "classify a given real-world data collection",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) distinguish non-sampling errors from sampling errors using the defining characteristic",
+    "id": "gen_c11_stat_ch02_q16",
+    "nodeId": "c11_stat_cbse_02_010",
+    "difficulty": "standard"
+   },
+   {
     "type": "mcq",
     "question": "Compare the following two scenarios and analyse which involves primary data collection and which involves secondary data use. Justify by identifying the *data generation process* in each.",
     "answer": "Scenario A is primary data collection—NSSO investigators generate the data by directly interacting with respondents using a designed schedule for the specific purpose of that",
@@ -1368,7 +1445,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Scenario A is primary data collection—NSSO investigators generate the data by directly interacting with respondents",
-    "id": "gen_c11_stat_ch02_q16",
+    "id": "gen_c11_stat_ch02_q17",
     "nodeId": "c11_stat_cbse_02_001",
     "difficulty": "standard"
    },
@@ -1383,21 +1460,6 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Primary data' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: For the Registrar General's office, the Census data is primary because they designed the questionnaire, deployed",
-    "id": "gen_c11_stat_ch02_q17",
-    "nodeId": "c11_stat_cbse_02_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "You are studying the impact of a new mid-day meal menu on student attendance in 50 government schools in Haryana. The state education department has a database of daily attendance records for all schools.",
-    "answer": "You are using secondary data (the education department's administrative records). Advantages: (1) Saves enormous time and cost—no need to deploy field investigators to 50 schools",
-    "options": [
-     "Published: (1) GST Council reports on revenue collection by state—shows macro trends; (2) RBI bulletin articles on informal sector credit—contextualises trader finances",
-     "The claim is flawed. The Census, despite being older, covers the entire population—its literacy rate has zero sampling error (though non-sampling errors like non-response or",
-     "You are using secondary data (the education department's administrative records). Advantages: (1) Saves enormous time and cost—no need to deploy field investigators to 50 schools"
-    ],
-    "hint": "Straight from the 'Primary data' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: You are using secondary data (the education department's administrative records).",
     "id": "gen_c11_stat_ch02_q18",
     "nodeId": "c11_stat_cbse_02_001",
     "difficulty": "standard"
@@ -1600,8 +1662,8 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "Define \"class frequency\" in a frequency distribution table and state what it represents.",
     "answer": "Class frequency is the number of observations (data values) that fall within a specific class interval. It represents how many times values in that range occur in the raw data",
     "options": [
-     "Lower class limit = 20, Upper class limit = 30, Class mark = (20+30)/2 = 25. Formula: Class Mark = (LCL + UCL)/2",
-     "The seven parts in top-to-bottom order: (1) Table Number, (2) Title, (3) Captions (Column Heads), (4) Stubs (Row Heads), (5) Body (Cells with data), (6) Footnotes, (7) Source Note",
+     "A bivariate frequency distribution shows the joint frequencies of two variables in a two-way table (rows for one variable, columns for the other)",
+     "The student can independently construct a bivariate frequency table from raw paired data by determining appropriate class intervals for both variables",
      "Class frequency is the number of observations (data values) that fall within a specific class interval. It represents how many times values in that range occur in the raw data"
     ],
     "hint": "Straight from the 'frequency distribution' slide -- match the key terms.",
@@ -1733,8 +1795,9 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "State the formula for class width and calculate it for the class interval 150–200.",
     "answer": "Class width = Upper Class Limit − Lower Class Limit = 200 − 150 = 50",
     "options": [
-     "Lower class limit = 20, Upper class limit = 30, Class mark = (20+30)/2 = 25. Formula: Class Mark = (LCL + UCL)/2",
-     "Class frequency is the number of observations (data values) that fall within a specific class interval. It represents how many times values in that range occur in the raw data",
+     "The student must be able to: (1) Identify whether a given frequency distribution uses exclusive or inclusive class intervals",
+     "Class limits are the smallest and largest values that can belong to a class; the lower class limit (LCL) is the minimum value and the upper class limit (UCL) is the maximum value",
+     "Class width = Sep − Lower Class Limit = 200 − 150 = 50",
      "Class width = Upper Class Limit − Lower Class Limit = 200 − 150 = 50"
     ],
     "hint": "Straight from the 'Class width' slide -- match the key terms.",
@@ -1754,8 +1817,8 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "What is the defining characteristic of a discrete variable that makes a frequency array the appropriate classification method instead of a grouped frequency distribution?",
     "answer": "A discrete variable takes only specific, isolated values (usually integers) with no possible intermediate values between them",
     "options": [
-     "Class width = Upper Class Limit − Lower Class Limit = 200 − 150 = 50",
-     "The seven parts in top-to-bottom order: (1) Table Number, (2) Title, (3) Captions (Column Heads), (4) Stubs (Row Heads), (5) Body (Cells with data), (6) Footnotes, (7) Source Note",
+     "A bivariate frequency distribution shows the joint frequencies of two variables in a two-way table (rows for one variable, columns for the other)",
+     "The student must be able to calculate class width from given class limits, determine appropriate class width when constructing a frequency distribution from raw data using the",
      "A discrete variable takes only specific, isolated values (usually integers) with no possible intermediate values between them"
     ],
     "hint": "Straight from the 'Frequency Array' slide -- match the key terms.",
@@ -1941,6 +2004,98 @@ export const C11_STAT_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "correctly identify whether a given dataset",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s1",
+      "label": "interpret cell frequencies in a bivariate",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "construct a bivariate frequency table",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can: (1) correctly identify whether a given dataset requires univariate, bivariate, or multivariate",
+    "id": "gen_c11_stat_ch03_q13",
+    "nodeId": "c11_stat_cbse_03_004",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Explain why the adjustment",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Identify whether a given frequency",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Convert inclusive class intervals",
+      "emoji": "📌",
+      "correctBin": "o1"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Identify whether a given frequency distribution uses exclusive or inclusive class",
+    "id": "gen_c11_stat_ch03_q14",
+    "nodeId": "c11_stat_cbse_03_005",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "A researcher publishes a table on \"Literacy Rates by State\" with a footnote: \"Data for Jammu & Kashmir is for 2011; all other states are for 2021.\" Evaluate whether this footnote is sufficient. What additional information should the source note provide to make the table fully credible?",
     "sortItems": [
      {
@@ -1992,7 +2147,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"footnote is enough\" or \"source note just needs website\") reveals the student confuses footnotes (explanations of specific cells/rows) with source notes (provenance of the entire dataset), and underestimates the verification standard in official statistics.",
-    "id": "gen_c11_stat_ch03_q13",
+    "id": "gen_c11_stat_ch03_q15",
     "nodeId": "c11_stat_cbse_03_010",
     "difficulty": "standard"
    },
@@ -2038,7 +2193,7 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"title already says rupees\") reveals the misconception that titles substitute for column-level metadata, violating the principle of self-explanatory tables.",
-    "id": "gen_c11_stat_ch03_q14",
+    "id": "gen_c11_stat_ch03_q16",
     "nodeId": "c11_stat_cbse_03_010",
     "difficulty": "standard"
    },
@@ -2095,43 +2250,31 @@ export const C11_STAT_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A wrong answer (e.g., \"both are fine\" or \"Table B is too long\") reveals the student doesn't apply the \"What, Where, When, Unit\" criteria for titles, treating titles as decorative rather than informative metadata.",
-    "id": "gen_c11_stat_ch03_q15",
+    "id": "gen_c11_stat_ch03_q17",
     "nodeId": "c11_stat_cbse_03_010",
     "difficulty": "standard"
    },
    {
     "type": "order",
-    "question": "Given the raw data below for 20 employees, construct a two-way table with \"Department\" (HR, IT, Finance) as rows and \"Performance Rating\" (Excellent, Good, Average) as columns.",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Compute row totals",
-      "emoji": "📌",
-      "correctBin": "o3"
-     },
-     {
-      "id": "s1",
-      "label": "Tally each data pair",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s2",
-      "label": "Create 3×3 grid with cells for each",
-      "emoji": "📌",
-      "correctBin": "o1"
-     },
-     {
-      "id": "s3",
-      "label": "List row categories",
+      "label": "Identify and label all seven parts",
       "emoji": "📌",
       "correctBin": "o0"
      },
      {
-      "id": "s4",
-      "label": "Present table with proper labels",
+      "id": "s1",
+      "label": "Construct a complete statistical table",
       "emoji": "📌",
-      "correctBin": "o4"
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Explain the purpose of each part and why",
+      "emoji": "📌",
+      "correctBin": "o2"
      }
     ],
     "bins": [
@@ -2149,52 +2292,12 @@ export const C11_STAT_GEN: SimDef[] = [
       "id": "o2",
       "label": "3rd",
       "color": "#10b981"
-     },
-     {
-      "id": "o3",
-      "label": "4th",
-      "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer with mismatched totals reveals failure to verify grand total consistency — a critical checking step.",
-    "id": "gen_c11_stat_ch03_q16",
-    "nodeId": "c11_stat_cbse_03_011",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A researcher has data on the 'number of children per family' for 500 families (values range 0–8). She wants to present this data. Should she use a Frequency Distribution (with class intervals) or a Frequency Array?",
-    "answer": "She should use a Frequency Array because 'number of children' is a DISCRETE variable taking only integral values (0,1,2",
-    "options": [
-     "The student's argument is flawed because it ignores the trade-off: while classification replaces individual observations with class marks (losing exact values)",
-     "The table design is inappropriate — 72% empty cells indicate class intervals are too narrow or too many for the sample size, creating a sparse matrix that obscures patterns",
-     "She should use a Frequency Array because 'number of children' is a DISCRETE variable taking only integral values (0,1,2"
-    ],
-    "hint": "Straight from the 'Classification of data' slide -- match the key terms.",
-    "misconception": "A wrong answer recommending class intervals reveals failure to distinguish discrete vs continuous variables and misunderstanding that frequency arrays exist PRECISELY for discrete variables with few distinct values.",
-    "id": "gen_c11_stat_ch03_q17",
-    "nodeId": "c11_stat_cbse_03_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "A student argues: \"Raw data is always better than classified data because classification causes loss of information. Therefore, we should never classify data.\" Evaluate this statement using the concept of 'loss of information' discussed in the chapter.",
-    "answer": "The student's argument is flawed because it ignores the trade-off: while classification replaces individual observations with class marks (losing exact values)",
-    "options": [
-     "The basis is Geographical because the data is grouped by spatial location (states)",
-     "The statement is partially correct but oversimplified. For discrete variables, inclusive intervals (0, 1, 2, 3",
-     "The student's argument is flawed because it ignores the trade-off: while classification replaces individual observations with class marks (losing exact values)"
-    ],
-    "hint": "Straight from the 'Classification of data' slide -- match the key terms.",
-    "misconception": "A wrong answer that agrees with the student reveals a misunderstanding of the PURPOSE of statistics: we classify not to preserve every detail but to extract actionable patterns. The NCERT explicitly states \"being able to make more sense of the raw data... more than makes this up.\"",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Identify and label all seven parts of a statistical table from a given table image or",
     "id": "gen_c11_stat_ch03_q18",
-    "nodeId": "c11_stat_cbse_03_001",
+    "nodeId": "c11_stat_cbse_03_010",
     "difficulty": "standard"
    }
   ],
@@ -2377,15 +2480,15 @@ export const C11_STAT_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_stat_ch05",
-  "title": "Average",
+  "title": "An Average",
   "subtitle": "Statistics · Chapter 5",
   "classLevel": 11,
   "mode": "senior",
   "subject": "statistics",
-  "topic": "Average",
+  "topic": "An Average",
   "chapters": [
-   "Statistics Ch5: Average",
-   "Statistics Ch6: Average"
+   "Statistics Ch5: An Average",
+   "Statistics Ch6: An Average"
   ],
   "nodeIds": [
    "c11_stat_cbse_05_001",
@@ -2401,7 +2504,7 @@ export const C11_STAT_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Average suddenly stops working?",
+   "question": "What happens if An Average suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -2412,7 +2515,7 @@ export const C11_STAT_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Average",
+    "title": "An Average",
     "text": "An average (or measure of central tendency) is a single representative value that summarises an entire data set by identifying the central position around which all observations tend to cluster, enabling meaningful comparison and analysis of large volumes of",
     "emoji": "📊",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2453,7 +2556,7 @@ export const C11_STAT_GEN: SimDef[] = [
      "The statement is partially true but misleading. Percentiles *can* be calculated for any N (e.g., P₉₀ for N=30 gives position 27",
      "Mode = 10 (appears 4 times). The owner should use the mode because she needs the size with maximum demand (most frequent), not the central tendency of sizes"
     ],
-    "hint": "Straight from the 'average' slide -- match the key terms.",
+    "hint": "Straight from the 'An average' slide -- match the key terms.",
     "misconception": "A wrong answer choosing mean or median shows the student cannot match the average to the decision context: mode for \"most popular\", median for \"middle\", mean for \"balance point\".",
     "id": "gen_c11_stat_ch05_q1",
     "nodeId": "c11_stat_cbse_05_001",
@@ -2637,11 +2740,11 @@ export const C11_STAT_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about average?",
+    "What surprised you about an average?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Average mastered! 🎯",
+  "successLine": "An Average mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -2690,7 +2793,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Correlation",
+    "title": "Correlation Is a Statistical Measure",
     "text": "Correlation is a statistical measure that quantifies the degree to which two variables move in relation to each other, while causation implies that a change in one variable directly produces a change in the other; the fundamental distinction is that",
     "emoji": "📊",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2790,7 +2893,7 @@ export const C11_STAT_GEN: SimDef[] = [
      "This violates Limitation 3: correlation does not imply causation. The confounding variable is \"severity of fire\" — larger fires cause more damage AND require more fire engines",
      "(iii) is the classic spurious correlation example. Storks and human births both correlate with rural/urban character and economic development"
     ],
-    "hint": "Straight from the 'Correlation' slide -- match the key terms.",
+    "hint": "Straight from the 'Correlation is a statistical' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student cannot distinguish confounding from spuriousness or misses the absurdity of a non-mechanistic link.",
     "id": "gen_c11_stat_ch07_q3",
     "nodeId": "c11_stat_cbse_07_010",
@@ -2826,7 +2929,7 @@ export const C11_STAT_GEN: SimDef[] = [
      "The argument commits the correlation-causation fallacy with reverse causality: sicker populations attract more hospitals",
      "Statistical significance (low p-value) only indicates the observed correlation is unlikely under the null hypothesis of zero population correlation"
     ],
-    "hint": "Straight from the 'Correlation' slide -- match the key terms.",
+    "hint": "Straight from the 'Correlation is a statistical' slide -- match the key terms.",
     "misconception": "A wrong answer conflates \"not due to random sampling error\" with \"reflects a genuine causal mechanism.\"",
     "id": "gen_c11_stat_ch07_q5",
     "nodeId": "c11_stat_cbse_07_010",
@@ -2841,7 +2944,7 @@ export const C11_STAT_GEN: SimDef[] = [
      "Statistical significance (low p-value) only indicates the observed correlation is unlikely under the null hypothesis of zero population correlation",
      "The argument commits the correlation-causation fallacy with reverse causality: sicker populations attract more hospitals"
     ],
-    "hint": "Straight from the 'Correlation' slide -- match the key terms.",
+    "hint": "Straight from the 'Correlation is a statistical' slide -- match the key terms.",
     "misconception": "A wrong answer fails to identify the confounding by population health severity or propose methods to address it.",
     "id": "gen_c11_stat_ch07_q6",
     "nodeId": "c11_stat_cbse_07_010",
@@ -2972,7 +3075,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "answer": "An index number is a statistical measure that shows the average relative change in a group of related variables between two periods, expressed as a percentage",
     "options": [
      "The formula is: Inflation Rate (%) = [(Index in Current Period - Index in Base Period) / Index in Base Period] × 100",
-     "Paasche's Price Index: Pₚ = (Σp₁q₁ / Σp₀q₁) × 100, where p₀ = base year price, p₁ = current year price, q₁ = current year quantity",
+     "Paasche's Price Index Number is a weighted aggregative index that measures the change in price level between a base period and a current period using current period quantities",
      "An index number is a statistical measure that shows the average relative change in a group of related variables between two periods, expressed as a percentage"
     ],
     "hint": "Straight from the 'index number' slide -- match the key terms.",
@@ -2992,8 +3095,8 @@ export const C11_STAT_GEN: SimDef[] = [
     "question": "What is the primary purpose of an index number in economics?",
     "answer": "The primary purpose is to measure relative changes in a group of related variables (like prices or quantities) over time or space, expressed as a percentage of a base period",
     "options": [
-     "The formula is \\( P_{01} = \\frac{\\sum P_1}{\\sum P_0} \\times 100 \\), where \\( P_1 \\) is the price in the current period, \\( P_0 \\) is the price in the base period",
-     "The computation runs: (1) Sum the products of current prices and base quantities for Laspeyres (2) Sum the products of current prices and current quantities for Paasche (3) Divide",
+     "Consumer Price Index (CPI) is a weighted index number that measures the average change over time in the retail prices of a fixed basket of goods and services typically consumed by",
+     "Paasche's Price Index: Pₚ = (Σp₁q₁ / Σp₀q₁) × 100, where p₀ = base year price, p₁ = current year price, q₁ = current year quantity",
      "The primary purpose is to measure relative changes in a group of related variables (like prices or quantities) over time or space, expressed as a percentage of a base period"
     ],
     "hint": "Straight from the 'Index numbers' slide -- match the key terms.",
@@ -3097,7 +3200,7 @@ export const C11_STAT_GEN: SimDef[] = [
     "options": [
      "The claim is valid. Laspeyre's index assumes fixed base-year consumption (q₀). When prices rise, consumers substitute toward relatively cheaper goods",
      "Textiles sub-index change = (143-130)/130 × 100 = 10%. Overall WPI change = (147-140)/140 × 100 = 5%",
-     "Their (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year",
+     "Paasche's (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year",
      "Laspeyre's Price Index (P₀₁) = [Σ(p₁q₀) / Σ(p₀q₀)] × 100, where p₀ = price in base year, p₁ = price in current year, q₀ = quantity in base year"
     ],
     "hint": "Straight from the 'Laspeyre's Price Index Number' slide -- match the key terms.",
@@ -3502,81 +3605,29 @@ export const C11_STAT_GEN: SimDef[] = [
    },
    {
     "type": "order",
-    "question": "Critique the statement: \"Since WPI is published weekly and covers a larger basket of goods, it is a superior measure of inflation for RBI's monetary policy decisions compared to CPI.\"",
+    "question": "What must you be able to do to master this topic?",
     "sortItems": [
      {
       "id": "s0",
-      "label": "Monetary policy aims to protect consumers'",
-      "emoji": "📌",
-      "correctBin": "o2"
-     },
-     {
-      "id": "s1",
-      "label": "CPI reflects the cost of living",
+      "label": "correctly identify and extract p₀",
       "emoji": "📌",
       "correctBin": "o0"
      },
      {
-      "id": "s2",
-      "label": "CPI includes services",
-      "emoji": "📌",
-      "correctBin": "o1"
-     }
-    ],
-    "bins": [
-     {
-      "id": "o0",
-      "label": "1st",
-      "color": "#3b82f6"
-     },
-     {
-      "id": "o1",
-      "label": "2nd",
-      "color": "#ef4444"
-     },
-     {
-      "id": "o2",
-      "label": "3rd",
-      "color": "#10b981"
-     }
-    ],
-    "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer agreeing with the statement confuses \"statistical convenience\" with \"policy relevance\" and ignores the legal mandate of inflation targeting.",
-    "id": "gen_c11_stat_ch08_q17",
-    "nodeId": "c11_stat_cbse_08_009",
-    "difficulty": "standard"
-   },
-   {
-    "type": "order",
-    "question": "Critique the statement: \"Since Fisher's Ideal Index satisfies both Time Reversal and Factor Reversal tests, it has no limitations and is the perfect index number for policy decisions.\"",
-    "sortItems": [
-     {
-      "id": "s0",
-      "label": "sampling errors. A perfect formula cannot",
-      "emoji": "📌",
-      "correctBin": "o4"
-     },
-     {
       "id": "s1",
-      "label": "new goods problem",
+      "label": "apply the Paasche formula to obtain the",
       "emoji": "📌",
       "correctBin": "o2"
      },
      {
       "id": "s2",
-      "label": "quality change neglect",
+      "label": "compute Σp₁q₁ and Σp₀q₁ accurately",
       "emoji": "📌",
       "correctBin": "o1"
      },
      {
       "id": "s3",
-      "label": "base year obsolescence",
-      "emoji": "📌",
-      "correctBin": "o0"
-     },
-     {
-      "id": "s4",
-      "label": "aggregation across diverse groups",
+      "label": "interpret the result in terms of percentage",
       "emoji": "📌",
       "correctBin": "o3"
      }
@@ -3601,17 +3652,58 @@ export const C11_STAT_GEN: SimDef[] = [
       "id": "o3",
       "label": "4th",
       "color": "#f59e0b"
-     },
-     {
-      "id": "o4",
-      "label": "5th",
-      "color": "#8b5cf6"
      }
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
-    "misconception": "A wrong answer agreeing reveals the student confuses formula properties with data/conceptual limitations – a critical senior-secondary error.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) correctly identify and extract p₀, p₁, and q₁ from a given data table, (2) compute",
+    "id": "gen_c11_stat_ch08_q17",
+    "nodeId": "c11_stat_cbse_08_006",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Interpret CPI values to compute inflation",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "Calculate CPI using Laspeyres formula given",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "Explain the step-by-step construction of CPI",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Explain the step-by-step construction of CPI including selection of base year,",
     "id": "gen_c11_stat_ch08_q18",
-    "nodeId": "c11_stat_cbse_08_011",
+    "nodeId": "c11_stat_cbse_08_008",
     "difficulty": "advanced"
    }
   ],

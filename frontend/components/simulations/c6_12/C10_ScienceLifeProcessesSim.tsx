@@ -350,8 +350,8 @@ function Chip({ children, tone = 'slate' }: { children: React.ReactNode; tone?: 
     green: 'bg-emerald-950 text-emerald-300 border-emerald-800',
     red: 'bg-rose-950 text-rose-300 border-rose-800',
     amber: 'bg-amber-950 text-amber-300 border-amber-800',
-    sky: 'bg-sky-950 text-sky-300 border-sky-800',
-    violet: 'bg-violet-950 text-violet-300 border-violet-800',
+    sky: 'bg-gold-950 text-gold-300 border-gold-800',
+    violet: 'bg-gold-950 text-gold-300 border-gold-800',
   };
   return (
     <span className={`px-2 py-0.5 rounded-lg text-[10px] font-bold border ${tones[tone] ?? tones.slate}`}>
@@ -665,7 +665,7 @@ export function C10_ScienceLifeProcessesSim() {
                 onClick={() => setBreathingOn((b) => !b)}
                 className={`flex-1 min-h-9 rounded-xl text-xs font-bold border transition-all ${
                   breathingOn
-                    ? 'bg-sky-600 border-sky-500 text-white'
+                    ? 'bg-gold-600 border-gold-500 text-white'
                     : 'bg-slate-800 border-slate-700 text-slate-300'
                 }`}
               >
@@ -681,8 +681,8 @@ export function C10_ScienceLifeProcessesSim() {
 
             {/* equations (preserved) */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
-              <div className="bg-slate-950 rounded-xl p-3 border border-sky-800/60">
-                <p className="text-[10px] uppercase tracking-wider text-sky-400 mb-1">
+              <div className="bg-slate-950 rounded-xl p-3 border border-gold-800/60">
+                <p className="text-[10px] uppercase tracking-wider text-gold-400 mb-1">
                   Aerobic (mitochondria)
                 </p>
                 <p className="text-xs font-mono text-slate-200">Glucose + 6 O2 \u2192 6 CO2 + 6 H2O</p>
@@ -716,7 +716,7 @@ export function C10_ScienceLifeProcessesSim() {
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Breathing rate</span>
-                  <span className="font-mono font-bold text-sky-400">{breathRate} /min</span>
+                  <span className="font-mono font-bold text-gold-400">{breathRate} /min</span>
                 </div>
                 <input
                   type="range"
@@ -725,13 +725,13 @@ export function C10_ScienceLifeProcessesSim() {
                   value={breathRate}
                   aria-label="breathing rate"
                   onChange={(e) => setBreathRate(Number(e.target.value))}
-                  className="w-full accent-sky-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div>
                 <div className="flex justify-between text-[11px] text-slate-400">
                   <span>Tidal volume</span>
-                  <span className="font-mono font-bold text-cyan-300">{tidalVol} mL</span>
+                  <span className="font-mono font-bold text-gold-300">{tidalVol} mL</span>
                 </div>
                 <input
                   type="range"
@@ -741,7 +741,7 @@ export function C10_ScienceLifeProcessesSim() {
                   value={tidalVol}
                   aria-label="tidal volume"
                   onChange={(e) => setTidalVol(Number(e.target.value))}
-                  className="w-full accent-cyan-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="grid grid-cols-2 gap-2">
@@ -768,11 +768,11 @@ export function C10_ScienceLifeProcessesSim() {
             <div className="bg-slate-900/80 rounded-2xl border border-red-800/60 p-4 text-xs font-mono space-y-1">
               <p className="text-slate-300">
                 Minute ventilation = {breathRate} \u00d7 {(tidalVol / 1000).toFixed(2)} L ={' '}
-                <span className="text-sky-300 font-bold">{minuteVent.toFixed(2)} L/min</span>
+                <span className="text-gold-300 font-bold">{minuteVent.toFixed(2)} L/min</span>
               </p>
               <p className="text-slate-500">
                 Alveolar (minus {DEAD_SPACE_ML} mL dead space) ={' '}
-                <span className="text-cyan-300">{alveolarVent.toFixed(2)} L/min</span>
+                <span className="text-gold-300">{alveolarVent.toFixed(2)} L/min</span>
               </p>
               <p className="text-slate-500">
                 Dead-space waste ={' '}
@@ -816,7 +816,7 @@ export function C10_ScienceLifeProcessesSim() {
               </p>
               <div className="relative h-4 rounded-full bg-slate-950 border border-slate-800 overflow-hidden">
                 <div
-                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-sky-600 to-cyan-400 transition-all duration-200"
+                  className="absolute inset-y-0 left-0 bg-gradient-to-r from-gold-600 to-gold-400 transition-all duration-200"
                   style={{ width: `${Math.min(100, (o2In / 3) * 100)}%` }}
                 />
                 <div
@@ -867,7 +867,7 @@ export function C10_ScienceLifeProcessesSim() {
       {tab === 'alveoli' && (
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-5">
           <div className="lg:col-span-3 bg-slate-900/80 rounded-2xl border border-slate-800 p-4">
-            <p className="text-xs font-bold uppercase tracking-wider text-sky-400 mb-2">
+            <p className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
               One alveolus, cross-section -- diffusion does the work
             </p>
             <svg viewBox="0 0 440 260" className="w-full" role="img" aria-label="alveolus cross section">
@@ -937,14 +937,14 @@ export function C10_ScienceLifeProcessesSim() {
               </text>
             </svg>
             <div className="grid grid-cols-3 gap-2 mt-3">
-              <StatCard label="Surface area" value="70 m\u00b2" sub="a tennis court, folded" color="text-sky-300" />
+              <StatCard label="Surface area" value="70 m\u00b2" sub="a tennis court, folded" color="text-gold-300" />
               <StatCard label="Wall thickness" value="0.5 \u00b5m" sub="one cell each side" color="text-amber-300" />
               <StatCard label="Alveoli count" value="~300 million" sub="per human lung pair" color="text-emerald-300" />
             </div>
           </div>
 
           <div className="lg:col-span-2 space-y-4">
-            <div className="bg-slate-900/80 rounded-2xl border border-sky-800/60 p-4 text-xs font-mono space-y-1.5">
+            <div className="bg-slate-900/80 rounded-2xl border border-gold-800/60 p-4 text-xs font-mono space-y-1.5">
               <p className="text-slate-300 font-bold">Partial-pressure logic (why diffusion always runs the right way)</p>
               <p className="text-slate-400">Alveolar air: O2 {ALVEOLAR_O2 * 100}% \u00b7 CO2 ~5.3%</p>
               <p className="text-slate-400">Inhaled air: O2 {O2_IN_AIR * 100}% \u00b7 CO2 {(CO2_IN_AIR * 100).toFixed(2)}%</p>
@@ -967,8 +967,8 @@ export function C10_ScienceLifeProcessesSim() {
               </p>
             </div>
 
-            <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-              <p className="font-bold text-sky-300 mb-1">What to try</p>
+            <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+              <p className="font-bold text-gold-300 mb-1">What to try</p>
               <p>
                 1. Trace one red blood cell in the animation. At 72 beats/min and ~5 L/min blood flow,
                 how many round trips does it make while you read this?
@@ -1043,12 +1043,12 @@ export function C10_ScienceLifeProcessesSim() {
                   </tr>
                   <tr className="border-t border-slate-800">
                     <td className="px-3 py-2 text-slate-300">O2 needed</td>
-                    <td className="px-3 py-2 text-right text-sky-300">6 mol / mol glucose</td>
+                    <td className="px-3 py-2 text-right text-gold-300">6 mol / mol glucose</td>
                     <td className="px-3 py-2 text-right text-slate-500">none</td>
                   </tr>
                   <tr className="border-t border-slate-800">
                     <td className="px-3 py-2 text-slate-300">Waste product</td>
-                    <td className="px-3 py-2 text-right text-sky-300">CO2 (exhaled)</td>
+                    <td className="px-3 py-2 text-right text-gold-300">CO2 (exhaled)</td>
                     <td className="px-3 py-2 text-right text-rose-300">lactic acid (muscle)</td>
                   </tr>
                   <tr className="border-t border-slate-800">
@@ -1109,7 +1109,7 @@ export function C10_ScienceLifeProcessesSim() {
                 label="Glucose burned"
                 value={`${Math.round(glucoseMgPerMin)} mg/min`}
                 sub={`mode: ${mode}`}
-                color="text-cyan-300"
+                color="text-gold-300"
               />
               <StatCard
                 label="Energy released"
@@ -1121,7 +1121,7 @@ export function C10_ScienceLifeProcessesSim() {
                 label="CO2 produced"
                 value={`${(o2Used * (mode === 'aerobic' ? 1 : 0)).toFixed(2)} L/min`}
                 sub={mode === 'aerobic' ? 'exhaled, 1:1 with O2' : 'zero -- anaerobic'}
-                color="text-violet-300"
+                color="text-gold-300"
               />
               <StatCard
                 label="Lactic acid tax"

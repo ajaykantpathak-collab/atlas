@@ -9,15 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C7_CIV_GEN: SimDef[] = [
  {
   "id": "gen_c7_civ_ch01",
-  "title": "Democracy",
+  "title": "A Government Is The Institutional System",
   "subtitle": "Civics · Chapter 1",
   "classLevel": 7,
   "mode": "senior",
   "subject": "civics",
-  "topic": "Democracy",
+  "topic": "A Government Is The Institutional System",
   "chapters": [
-   "Civics Ch1: Democracy",
-   "Civics Ch2: Democracy"
+   "Civics Ch1: A Government Is The Institutional System",
+   "Civics Ch2: A Government Is The Institutional System"
   ],
   "nodeIds": [
    "c7_civ_ch01_001",
@@ -41,7 +41,7 @@ export const C7_CIV_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Democracy outside the classroom?",
+   "question": "Quick guess -- where do you meet A Government Is The Institutional outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -52,7 +52,7 @@ export const C7_CIV_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Government",
+    "title": "A Government Is The Institutional System",
     "text": "A government is the institutional system through which a state or community is controlled, laws are made and enforced, and public services and welfare are managed for its citizens.",
     "emoji": "⚖️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -64,25 +64,25 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Monarchy",
+    "title": "A Monarchy Is a Form",
     "text": "A monarchy is a form of government in which a single ruler, usually called a king or a queen, holds supreme political power, which is typically inherited through a royal family line rather than obtained through public elections.",
     "emoji": "⚖️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Democracy",
+    "title": "Democracy Is a System Of Government",
     "text": "Democracy is a system of government where supreme political power rests with the people, who exercise it either directly or through freely elected representatives, operating under a constitutional framework that protects fundamental rights and equality",
     "emoji": "⚖️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Republic",
+    "title": "A Republic Is a Form",
     "text": "A republic is a form of government in which the head of state is not a monarch inheriting the position through family lineage, but is instead elected by the citizens or their representatives, either directly or indirectly, deriving all political power from",
     "emoji": "⚖️",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Dictatorship",
+    "title": "Dictatorship Is a Form Of Government",
     "text": "Dictatorship is a form of government where absolute political power is concentrated in the hands of a single individual—a dictator—or a small ruling group, maintained primarily through force, military control, and suppression of opposition rather than through",
     "emoji": "⚖️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -100,7 +100,7 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "How Government Interacts With People",
+    "title": "How Government Interacts With People Through",
     "text": "How government interacts with people through representation and participation refers to the institutional channels—such as regular elections, public consultations, petitioning, and organized interest groups—through which citizens voice their needs and hold",
     "emoji": "⚖️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -112,7 +112,7 @@ export const C7_CIV_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Democracy",
+    "title": "Democracy Is a Form Of Government",
     "text": "Democracy is a form of government where power rests with the citizens, who exercise it either directly or through freely elected representatives, governed by principles such as equality, individual liberty, popular sovereignty, and accountability.",
     "emoji": "⚖️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -136,11 +136,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary definition of a government in a political community?",
     "answer": "The government is the institutional system that makes laws, enforces them, maintains order, and provides public services for a community or nation",
     "options": [
-     "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
-     "In a republic, the head of state is elected by the people or their representatives, whereas in a constitutional monarchy",
+     "Students can accurately distinguish a dictatorship from a democracy and a monarchy by identifying how political power is acquired and retained",
+     "Can analyze a political scenario to distinguish a genuine democracy from other forms of government, explain the role of citizen participation and regular elections",
      "The government is the institutional system that makes laws, enforces them, maintains order, and provides public services for a community or nation"
     ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
+    "hint": "Straight from the 'A government is the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer often reveals the misconception that government is only a group of politicians rather than a permanent system of institutions, courts, and civil services that keeps society running.",
     "id": "gen_c7_civ_ch01_q1",
     "nodeId": "c7_civ_ch01_001",
@@ -157,8 +157,8 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "Which branch of government is primarily responsible for enforcing laws and maintaining internal order through police and security forces?",
     "answer": "The executive branch is responsible for enforcing laws and maintaining internal order",
     "options": [
-     "The fundamental source of political power in a democracy is the people",
-     "In a republic, the head of state is elected by the people or their representatives, whereas in a constitutional monarchy",
+     "Democracy is a form of government where power rests with the citizens, who exercise it either directly or through freely elected representatives",
+     "The student can distinguish between the roles and compositions of the Lok Sabha and Rajya Sabha, explain how laws are introduced and passed through Parliament",
      "The executive branch is responsible for enforcing laws and maintaining internal order"
     ],
     "hint": "Straight from the 'functions of government encompass' slide -- match the key terms.",
@@ -178,11 +178,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary method by which a leader acquires power in a traditional monarchy?",
     "answer": "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
     "options": [
+     "A dictator typically acquires and maintains power through force, military control, and coercion rather than through free and fair elections",
      "A hereditary monarch derives power through family lineage and birthright, whereas a democratically elected leader derives power from the consent of the citizens expressed through",
-     "The fundamental source of political power in a democracy is the people",
      "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child"
     ],
-    "hint": "Straight from the 'monarchy' slide -- match the key terms.",
+    "hint": "Straight from the 'A monarchy is a form' slide -- match the key terms.",
     "misconception": "A wrong answer like \"through a public election\" reveals a confusion between a monarchy and a democracy.",
     "id": "gen_c7_civ_ch01_q3",
     "nodeId": "c7_civ_ch01_003",
@@ -199,11 +199,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the fundamental source of political power and authority in a democratic system of government according to the Indian Constitution?",
     "answer": "The fundamental source of political power in a democracy is the people",
     "options": [
-     "The executive branch is responsible for enforcing laws and maintaining internal order",
-     "The government is the institutional system that makes laws, enforces them, maintains order, and provides public services for a community or nation",
+     "The student can distinguish between different sources of government authority (such as popular sovereignty, divine right, military force",
+     "Democracy is a form of government where power rests with the citizens, who exercise it either directly or through freely elected representatives",
      "The fundamental source of political power in a democracy is the people"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
+    "hint": "Straight from the 'Democracy is a system of' slide -- match the key terms.",
     "misconception": "A student who answers \"the Prime Minister\" or \"the King\" confuses the individuals holding temporary executive office or historical rulers with the true sovereign source of authority, which rests with the citizens through the preamble and constitutional framework (\"We the People\").",
     "id": "gen_c7_civ_ch01_q4",
     "nodeId": "c7_civ_ch01_004",
@@ -272,11 +272,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary method by which a dictator typically acquires and maintains political power in a state?",
     "answer": "A dictator typically acquires and maintains power through force, military control, and coercion rather than through free and fair elections",
     "options": [
-     "The government is the institutional system that makes laws, enforces them, maintains order, and provides public services for a community or nation",
-     "A hereditary monarch derives power through family lineage and birthright, whereas a democratically elected leader derives power from the consent of the citizens expressed through",
+     "In a republic, the head of state is elected by the people or their representatives, whereas in a constitutional monarchy",
+     "The primary purpose is to allow citizens to choose individuals who voice their interests, needs",
      "A dictator typically acquires and maintains power through force, military control, and coercion rather than through free and fair elections"
     ],
-    "hint": "Straight from the 'Dictatorship' slide -- match the key terms.",
+    "hint": "Straight from the 'Dictatorship is a form of' slide -- match the key terms.",
     "misconception": "If a student answers \"through regular citizen voting,\" it reveals a fundamental confusion between democratic systems and authoritarian regimes, showing they do not understand how leadership selection differs across government types.",
     "id": "gen_c7_civ_ch01_q6",
     "nodeId": "c7_civ_ch01_006",
@@ -356,11 +356,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the foundational document of India that outlines how the government derives its power and authority from the citizens?",
     "answer": "The correct answer is the Constitution of India",
     "options": [
-     "The primary purpose is to allow citizens to choose individuals who voice their interests, needs",
-     "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
+     "The student can distinguish between different sources of government authority (such as popular sovereignty, divine right, military force",
+     "Dictatorship is a form of government where absolute political power is concentrated in the hands of a single individual—a dictator—or a small ruling group",
      "The correct answer is the Constitution of India"
     ],
-    "hint": "Straight from the 'sources of authority refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'sources of authority' slide -- match the key terms.",
     "misconception": "A student who answers incorrectly by naming a specific politician or a political party confuses the temporary holders of political office with the permanent legal and moral source of governmental authority.",
     "id": "gen_c7_civ_ch01_q8",
     "nodeId": "c7_civ_ch01_007",
@@ -377,8 +377,8 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary purpose of political representation in a democratic government?",
     "answer": "The primary purpose is to allow citizens to choose individuals who voice their interests, needs",
     "options": [
-     "The executive branch is responsible for enforcing laws and maintaining internal order",
-     "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
+     "The fundamental source of political power in a democracy is the people",
+     "Students can define a government, distinguish its core functions from private organizations",
      "The primary purpose is to allow citizens to choose individuals who voice their interests, needs"
     ],
     "hint": "Straight from the 'How government interacts with' slide -- match the key terms.",
@@ -450,12 +450,12 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "Which core principle of democracy ensures that all adult citizens have the right to vote regardless of their caste, religion, wealth, or gender?",
     "answer": "Universal adult franchise",
     "options": [
-     "The executive branch is responsible for enforcing laws and maintaining internal order",
-     "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
+     "Can explain how citizens use democratic channels of representation and participation to influence government decisions",
+     "Students can accurately distinguish a dictatorship from a democracy and a monarchy by identifying how political power is acquired and retained",
      "Fixed-term adult franchise",
      "Universal adult franchise"
     ],
-    "hint": "Straight from the 'Democracy' slide -- match the key terms.",
+    "hint": "Straight from the 'Democracy is a form of government' slide -- match the key terms.",
     "misconception": "A student who answers \"majoritarian rule\" or \"hereditary succession\" misunderstands democracy as rule by a single group or family rather than political equality for every individual citizen.",
     "id": "gen_c7_civ_ch01_q11",
     "nodeId": "c7_civ_ch01_009",
@@ -476,7 +476,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "Power is acquired through hereditary succession, meaning it is passed down within a royal family from parent to child",
      "A hereditary monarch derives power through family lineage and birthright, whereas a democratically elected leader derives power from the consent of the citizens expressed through"
     ],
-    "hint": "Straight from the 'comparison of different types of' slide -- match the key terms.",
+    "hint": "Straight from the 'comparison of different types' slide -- match the key terms.",
     "misconception": "A wrong answer often reveals confusion between legal constitutional authority and traditional family succession, showing the student has not grasped how political power is initially acquired.",
     "id": "gen_c7_civ_ch01_q12",
     "nodeId": "c7_civ_ch01_010",
@@ -492,8 +492,8 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "Which Article of the Constitution of India establishes the Parliament, and what are its three components?",
     "answer": "Article 79 establishes the Parliament of India, which consists of the President, the Lok Sabha (House of the People), and the Rajya Sabha (Council of States)",
     "options": [
-     "In a republic, the head of state is elected by the people or their representatives, whereas in a constitutional monarchy",
-     "The correct answer is the Constitution of India",
+     "The government is the institutional system that makes laws, enforces them, maintains order, and provides public services for a community or nation",
+     "Students can define a government, distinguish its core functions from private organizations",
      "Article 79 establishes the Parliament of India, which consists of the President, the Lok Sabha (House of the People), and the Rajya Sabha (Council of States)"
     ],
     "hint": "Straight from the 'Indian Parliament' slide -- match the key terms.",
@@ -517,7 +517,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "The Indian Parliament must debate and approve the legislation and budget for the highway because it is a national-level infrastructure project falling under central jurisdiction",
      "The government is responsible for planning and funding large infrastructure projects because they require public funds (taxes) and legal authority over land use"
     ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
+    "hint": "Straight from the 'A government is the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student believes private companies or charity groups alone can manage national infrastructure without government coordination.",
     "id": "gen_c7_civ_ch01_q14",
     "nodeId": "c7_civ_ch01_001",
@@ -532,7 +532,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "A valid checklist should include: (1) Are citizens free to criticize the government and organize peaceful protests without fear of arrest?",
      "A strong answer will propose: 1) Maintaining internal security (making and enforcing basic rules against theft or violence)"
     ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
+    "hint": "Straight from the 'A government is the institutional' slide -- match the key terms.",
     "misconception": "A poor answer lists random wishes like \"everyone should get free toys\" without identifying core governance functions.",
     "id": "gen_c7_civ_ch01_q15",
     "nodeId": "c7_civ_ch01_001",
@@ -547,7 +547,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "Citizens do not vote because political power is concentrated entirely in the hands of the monarch, who is not accountable to an electorate",
      "This claim is practically unsound because total absence of rules leads to the infringement of weaker individuals' rights by stronger ones, creating chaos rather than freedom"
     ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
+    "hint": "Straight from the 'A government is the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer shows an oversimplified view of freedom that ignores how rules protect collective safety and equality.",
     "id": "gen_c7_civ_ch01_q16",
     "nodeId": "c7_civ_ch01_001",
@@ -562,7 +562,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "Rights allow citizens to peacefully critique government policies, share diverse viewpoints, and hold leaders responsible without fear of punishment",
      "Power is divided among different branches: the legislature makes the laws, the executive enforces them, and the judiciary interprets them to resolve disputes fairly"
     ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
+    "hint": "Straight from the 'A government is the institutional' slide -- match the key terms.",
     "misconception": "A wrong answer indicates the student thinks a single person or group holds absolute power over all decisions without any division of responsibilities.",
     "id": "gen_c7_civ_ch01_q17",
     "nodeId": "c7_civ_ch01_001",
@@ -570,15 +570,15 @@ export const C7_CIV_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why is a government considered necessary even if people agree to live peacefully together?",
-    "answer": "Even with peaceful intentions, a large society needs a central authority to coordinate major public goods like infrastructure, defense, dispute resolution",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students can define a government, distinguish its core functions from private organizations",
     "options": [
-     "In a monarchy, legitimacy is derived from tradition, divine right, or hereditary bloodlines, whereas in a democracy",
-     "Rights allow citizens to peacefully critique government policies, share diverse viewpoints, and hold leaders responsible without fear of punishment",
-     "Even with peaceful intentions, a large society needs a central authority to coordinate major public goods like infrastructure, defense, dispute resolution"
+     "The fundamental source of political power in a democracy is the people",
+     "Democracy is a system of government where supreme political power rests with the people, who exercise it either directly or through freely elected representatives",
+     "Students can define a government, distinguish its core functions from private organizations"
     ],
-    "hint": "Straight from the 'government' slide -- match the key terms.",
-    "misconception": "A wrong answer shows the misunderstanding that people can organize complex national services like railways or public health entirely without a structured institutional framework.",
+    "hint": "Straight from the 'A government is the institutional' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students can define a government, distinguish its core functions from private organizations, and explain why a",
     "id": "gen_c7_civ_ch01_q18",
     "nodeId": "c7_civ_ch01_001",
     "difficulty": "standard"
@@ -586,24 +586,24 @@ export const C7_CIV_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about democracy?",
+    "What surprised you about a government is the institutional system?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Democracy mastered! 🎯",
+  "successLine": "A Government Is mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c7_civ_ch03",
-  "title": "State",
+  "title": "The State Is a Permanent Political",
   "subtitle": "Civics · Chapter 3",
   "classLevel": 7,
   "mode": "senior",
   "subject": "civics",
-  "topic": "State",
+  "topic": "The State Is a Permanent Political",
   "chapters": [
-   "Civics Ch3: State"
+   "Civics Ch3: The State Is a Permanent Political"
   ],
   "nodeIds": [
    "c7_civ_ch03_001",
@@ -625,7 +625,7 @@ export const C7_CIV_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if State suddenly stops working?",
+   "question": "What happens if The State Is a Permanent Political suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -636,43 +636,43 @@ export const C7_CIV_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "State",
+    "title": "The State Is a Permanent Political",
     "text": "The state is a permanent political institution consisting of a defined territory, population, government, and sovereignty, whereas the government is the temporary set of elected or appointed officials who manage the state's daily administration and",
     "emoji": "⚖️",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "The Government Of a Democratic",
+    "title": "The Government Of a Democratic Nation",
     "text": "The government of a democratic nation functions through three primary organs: the Legislature (which makes laws), the Executive (which implements laws), and the Judiciary (which interprets and applies laws).",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Legislature",
+    "title": "Functions of Legislature: Making Laws",
     "text": "The legislature is the law-making organ of the government, responsible for debating, drafting, and passing new laws as well as amending existing ones to meet the changing needs of society.",
     "emoji": "⚖️",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Executive",
+    "title": "The Executive Is The Second Organ",
     "text": "The executive is the second organ of government responsible for enforcing and implementing the laws passed by the legislature, ensuring that national policies are executed in daily governance.",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Judiciary",
+    "title": "The Judiciary Is The Third Organ",
     "text": "The judiciary is the third organ of government responsible for interpreting laws, resolving disputes, and upholding the Constitution of India to ensure justice and protect citizens' rights.",
     "emoji": "⚖️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Democracy",
+    "title": "A Democracy Is a System",
     "text": "A democracy is a system of government where power rests with the people through free and fair elections, whereas a republic is a state where supreme power is held by the people and their elected representatives, and which has an elected or nominated head of",
     "emoji": "⚖️",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "India",
+    "title": "India Is a Democratic Republic Because",
     "text": "India is a democratic republic because its government is chosen by the people through free and fair elections (democracy) and its highest head of state, the President, is elected by the people's representatives rather than holding a hereditary crown",
     "emoji": "⚖️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -708,12 +708,12 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "Which of the four core elements of a state represents its supreme and independent authority to make decisions without external control?",
     "answer": "Sovereignty represents supreme and independent authority",
     "options": [
-     "The primary function of the legislature is to make, amend, and repeal laws for the country",
-     "The correct answer is that India's head of state (the President) is elected by the people's representatives for a fixed term, not holding a hereditary throne",
-     "Lok Sabha represents supreme and independent authority",
+     "India is a democratic republic because its government is chosen by the people through free and fair elections (democracy) and its highest head of state, the President",
+     "Can explain how India combines popular rule (democracy) with an elected head of state (republic), distinguishing its political system from monarchies and ordinary democracies",
+     "Government represents supreme and independent authority",
      "Sovereignty represents supreme and independent authority"
     ],
-    "hint": "Straight from the 'state' slide -- match the key terms.",
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
     "misconception": "If a student answers \"territory\" or \"population,\" it reveals a confusion between the physical components of a country and its political power to govern itself without foreign interference.",
     "id": "gen_c7_civ_ch03_q1",
     "nodeId": "c7_civ_ch03_001",
@@ -730,9 +730,9 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "Which of the three organs of government is primarily responsible for framing and passing new laws in India?",
     "answer": "The Legislature is responsible for framing and passing new laws",
     "options": [
-     "In a republic, the head of state is either elected or nominated by the people or their representatives for a fixed term, rather than inheriting power through a royal family line",
+     "India is a democratic republic because its government is chosen by the people through free and fair elections (democracy) and its highest head of state, the President",
      "The primary function of the legislature is to make, amend, and repeal laws for the country",
-     "Traffic is responsible for framing and passing new laws",
+     "Democracy is responsible for framing and passing new laws",
      "The Legislature is responsible for framing and passing new laws"
     ],
     "hint": "Straight from the 'The government of a democratic' slide -- match the key terms.",
@@ -752,11 +752,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary function of the legislature in a democratic government like India?",
     "answer": "The primary function of the legislature is to make, amend, and repeal laws for the country",
     "options": [
-     "The Legislature is responsible for framing and passing new laws",
-     "The primary role of the judiciary is to interpret laws, apply them to specific cases, and uphold the Constitution",
+     "Students can correctly distinguish between the roles of the Legislature, the Executive, and the Judiciary",
+     "Students can explain how the judiciary interprets laws made by the legislature, distinguish its role from the executive and legislature",
      "The primary function of the legislature is to make, amend, and repeal laws for the country"
     ],
-    "hint": "Straight from the 'legislature' slide -- match the key terms.",
+    "hint": "Straight from the 'legislature is the law-making' slide -- match the key terms.",
     "misconception": "A student who incorrectly states that the legislature implements laws is confusing the legislature with the executive organ.",
     "id": "gen_c7_civ_ch03_q3",
     "nodeId": "c7_civ_ch03_003",
@@ -773,11 +773,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary constitutional function of the executive branch of government?",
     "answer": "The primary function of the executive is to implement, enforce, and administer the laws enacted by the legislature",
     "options": [
-     "The correct answer is that India's head of state (the President) is elected by the people's representatives for a fixed term, not holding a hereditary throne",
-     "The primary function of the legislature is to make, amend, and repeal laws for the country",
+     "Students can distinguish between the law-making function of the legislature and the law-implementing function of the executive",
+     "Students can correctly distinguish between the roles of the Legislature, the Executive, and the Judiciary",
      "The primary function of the executive is to implement, enforce, and administer the laws enacted by the legislature"
     ],
-    "hint": "Straight from the 'executive' slide -- match the key terms.",
+    "hint": "Straight from the 'The executive is the second organ' slide -- match the key terms.",
     "misconception": "A student who answers that the executive \"writes new laws\" is confusing the executive branch with the legislature.",
     "id": "gen_c7_civ_ch03_q4",
     "nodeId": "c7_civ_ch03_004",
@@ -794,11 +794,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What is the primary role of the judiciary among the three organs of government?",
     "answer": "The primary role of the judiciary is to interpret laws, apply them to specific cases, and uphold the Constitution",
     "options": [
+     "The primary function of the legislature is to make, amend, and repeal laws for the country",
      "The primary function of the executive is to implement, enforce, and administer the laws enacted by the legislature",
-     "Sovereignty represents supreme and independent authority",
      "The primary role of the judiciary is to interpret laws, apply them to specific cases, and uphold the Constitution"
     ],
-    "hint": "Straight from the 'judiciary' slide -- match the key terms.",
+    "hint": "Straight from the 'The judiciary is the third organ' slide -- match the key terms.",
     "misconception": "A wrong answer—such as stating that the judiciary makes laws or implements administrative policies—reveals a confusion between the functions of the legislature (which makes laws) and the executive (which implements them).",
     "id": "gen_c7_civ_ch03_q5",
     "nodeId": "c7_civ_ch03_005",
@@ -867,11 +867,11 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What feature of India's political system makes it a \"republic\" rather than a monarchy?",
     "answer": "The correct answer is that India's head of state (the President) is elected by the people's representatives for a fixed term, not holding a hereditary throne",
     "options": [
-     "The primary role of the judiciary is to interpret laws, apply them to specific cases, and uphold the Constitution",
-     "In a republic, the head of state is either elected or nominated by the people or their representatives for a fixed term, rather than inheriting power through a royal family line",
+     "The Legislature is responsible for framing and passing new laws",
+     "Can explain how India combines popular rule (democracy) with an elected head of state (republic), distinguishing its political system from monarchies and ordinary democracies",
      "The correct answer is that India's head of state (the President) is elected by the people's representatives for a fixed term, not holding a hereditary throne"
     ],
-    "hint": "Straight from the 'India' slide -- match the key terms.",
+    "hint": "Straight from the 'India is a democratic republic' slide -- match the key terms.",
     "misconception": "A wrong answer—such as thinking a republic means having a Prime Minister—reveals that the student confuses the executive head of government with the head of state, missing the core definition of a republic as a state without a monarch.",
     "id": "gen_c7_civ_ch03_q7",
     "nodeId": "c7_civ_ch03_007",
@@ -961,9 +961,9 @@ export const C7_CIV_GEN: SimDef[] = [
     "question": "What constitutional part of India houses our Fundamental Rights, which form the bedrock of citizen entitlements?",
     "answer": "Fundamental Rights are enshrined in Part III of the Indian Constitution",
     "options": [
-     "The primary function of the legislature is to make, amend, and repeal laws for the country",
-     "The primary function of the executive is to implement, enforce, and administer the laws enacted by the legislature",
-     "Fundamental Rights are enshrined in Sovereignty of the Indian Constitution",
+     "India is a democratic republic because its government is chosen by the people through free and fair elections (democracy) and its highest head of state, the President",
+     "Can explain how India combines popular rule (democracy) with an elected head of state (republic), distinguishing its political system from monarchies and ordinary democracies",
+     "Fundamental Rights are enshrined in State of the Indian Constitution",
      "Fundamental Rights are enshrined in Part III of the Indian Constitution"
     ],
     "hint": "Straight from the 'Rights and responsibilities of' slide -- match the key terms.",
@@ -1008,7 +1008,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "No, that country is a constitutional monarchy, not a republic, because its head of state holds office through heredity rather than election",
      "Only the Government of India has changed, while the State of India remains the same"
     ],
-    "hint": "Straight from the 'state' slide -- match the key terms.",
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
     "misconception": "A student who answers \"the State\" fails to realize that the state's permanent legal framework, borders, and population persist regardless of which political party wins power.",
     "id": "gen_c7_civ_ch03_q12",
     "nodeId": "c7_civ_ch03_001",
@@ -1023,7 +1023,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "Transparency allows citizens and the media to examine government records, policies, and spending, which prevents corruption and enables informed voting",
      "A government cannot exist without a state because a government is simply the governing organ created *within* and *for* a state to manage its affairs"
     ],
-    "hint": "Straight from the 'state' slide -- match the key terms.",
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
     "misconception": "A wrong answer suggests the student views government as an abstract floating entity rather than an institutional component of a sovereign state.",
     "id": "gen_c7_civ_ch03_q13",
     "nodeId": "c7_civ_ch03_001",
@@ -1038,7 +1038,7 @@ export const C7_CIV_GEN: SimDef[] = [
      "The executive branch is responsible. Traffic police departments, operating under the Ministry of Home Affairs (part of the executive), deploy personnel, set up checkpoints",
      "A good response shows the cabinet minister (government) setting policy goals and allocating emergency funds"
     ],
-    "hint": "Straight from the 'state' slide -- match the key terms.",
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
     "misconception": "A poor answer confuses the two roles or assumes civil servants change every time an election occurs.",
     "id": "gen_c7_civ_ch03_q14",
     "nodeId": "c7_civ_ch03_001",
@@ -1053,9 +1053,24 @@ export const C7_CIV_GEN: SimDef[] = [
      "Democracy provides the mechanism for citizens to choose their leaders and express the will of the majority through voting",
      "Yes, this statement is sound. Citizens owe allegiance to the permanent political community (the state) and its constitutional framework"
     ],
-    "hint": "Straight from the 'state' slide -- match the key terms.",
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
     "misconception": "A wrong answer shows a lack of understanding regarding democratic accountability versus national loyalty.",
     "id": "gen_c7_civ_ch03_q15",
+    "nodeId": "c7_civ_ch03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students must be able to distinguish between the permanent institutions of the state and the temporary machinery of the government by giving real-world examples",
+    "options": [
+     "Students can explain how a bill transforms into a law through the legislative process, identify the roles of the two houses of Parliament in law-making",
+     "The primary function of the executive is to implement, enforce, and administer the laws enacted by the legislature",
+     "Students must be able to distinguish between the permanent institutions of the state and the temporary machinery of the government by giving real-world examples"
+    ],
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students must be able to distinguish between the permanent institutions of the state and the temporary machinery of the",
+    "id": "gen_c7_civ_ch03_q16",
     "nodeId": "c7_civ_ch03_001",
     "difficulty": "advanced"
    },
@@ -1068,9 +1083,9 @@ export const C7_CIV_GEN: SimDef[] = [
      "Paying taxes and utility bills directly funds public goods and services (like schools, roads, and sanitation) provided by government agencies",
      "The government is temporary because it is chosen by the citizens through elections for a fixed term and can be voted out, whereas the state—comprising its territory, population"
     ],
-    "hint": "Straight from the 'state' slide -- match the key terms.",
+    "hint": "Straight from the 'The state is a permanent political' slide -- match the key terms.",
     "misconception": "A wrong answer indicates that the student thinks a change in the ruling political party means the entire country is newly created.",
-    "id": "gen_c7_civ_ch03_q16",
+    "id": "gen_c7_civ_ch03_q17",
     "nodeId": "c7_civ_ch03_001",
     "difficulty": "advanced"
    },
@@ -1085,21 +1100,6 @@ export const C7_CIV_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'The government of a democratic' slide -- match the key terms.",
     "misconception": "A student who views them as completely isolated compartments without any connection fails to understand the parliamentary system where executive accountability is maintained continuously inside the legislature.",
-    "id": "gen_c7_civ_ch03_q17",
-    "nodeId": "c7_civ_ch03_002",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the argument that having three separate organs of government slows down decision-making. Is this delay a weakness or a strength for a democracy?",
-    "answer": "While separate organs can slow down rapid decision-making, this friction is a constitutional strength rather than a weakness because it prevents hasty, arbitrary",
-    "options": [
-     "Separating law-making from law-enforcement prevents tyranny and the abuse of power by ensuring that the authority making the rules is distinct from the authority enforcing them",
-     "I disagree. While both systems center on popular sovereignty, a democracy emphasizes popular participation and majority rule",
-     "While separate organs can slow down rapid decision-making, this friction is a constitutional strength rather than a weakness because it prevents hasty, arbitrary"
-    ],
-    "hint": "Straight from the 'The government of a democratic' slide -- match the key terms.",
-    "misconception": "A student who claims speed is always better than constitutional deliberation shows a preference for efficiency over democracy.",
     "id": "gen_c7_civ_ch03_q18",
     "nodeId": "c7_civ_ch03_002",
     "difficulty": "standard"
@@ -1107,11 +1107,11 @@ export const C7_CIV_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about state?",
+    "What surprised you about the state is a permanent political?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "State mastered! 🎯",
+  "successLine": "The State Is a Permanent mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

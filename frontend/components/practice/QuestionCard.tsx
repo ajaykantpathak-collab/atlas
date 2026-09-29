@@ -43,8 +43,8 @@ export interface QuestionCardProps {
 // ─── Constants ────────────────────────────────────────────────────────
 
 const BLOOMS_META: Record<BloomsLevel, { color: string; bg: string; icon: string }> = {
-  Remembering:   { color: 'text-blue-300',   bg: 'bg-blue-500/15 border-blue-400/30',  icon: '🧠' },
-  Understanding: { color: 'text-cyan-300',   bg: 'bg-cyan-500/15 border-cyan-400/30',   icon: '💡' },
+  Remembering:   { color: 'text-gold-300',   bg: 'bg-gold-500/15 border-gold-400/30',  icon: '🧠' },
+  Understanding: { color: 'text-gold-300',   bg: 'bg-gold-500/15 border-gold-400/30',   icon: '💡' },
   Applying:      { color: 'text-emerald-300',bg: 'bg-emerald-500/15 border-emerald-400/30', icon: '🔧' },
   Analyzing:     { color: 'text-amber-300',  bg: 'bg-amber-500/15 border-amber-400/30', icon: '🔍' },
   Evaluating:    { color: 'text-orange-300', bg: 'bg-orange-500/15 border-orange-400/30', icon: '⚖️' },
@@ -323,7 +323,7 @@ function MathInput({
           className={
             'w-full px-4 py-3 rounded-xl text-base leading-relaxed \
             bg-white/[0.06] border border-white/10 text-white placeholder-white/25 \
-            focus:outline-none focus:ring-2 focus:ring-indigo-400/60 focus:border-indigo-400/50 \
+            focus:outline-none focus:ring-2 focus:ring-gold-400/60 focus:border-gold-400/50 \
             focus:bg-white/[0.08] transition-all duration-200 resize-none \
             font-mono text-[15px] tracking-wide disabled:opacity-50'
           }
@@ -389,7 +389,7 @@ function NumericInput({
         className={
           'w-full px-4 py-3 rounded-xl text-base \
           bg-white/[0.06] border border-white/10 text-white placeholder-white/25 \
-          focus:outline-none focus:ring-2 focus:ring-indigo-400/60 focus:border-indigo-400/50 \
+          focus:outline-none focus:ring-2 focus:ring-gold-400/60 focus:border-gold-400/50 \
           focus:bg-white/[0.08] transition-all duration-200 disabled:opacity-50'
         }
       />
@@ -457,7 +457,7 @@ function MCQInput({
               '
               + (
                 isSelected
-                  ? 'bg-indigo-500/20 border-indigo-400/50 text-white shadow-lg shadow-indigo-500/10'
+                  ? 'bg-gold-500/20 border-gold-400/50 text-white shadow-lg shadow-gold-500/10'
                   : 'bg-white/[0.04] border-white/10 text-white/80 hover:bg-white/[0.07] hover:border-white/20'
               )
               + (disabled ? ' opacity-50 pointer-events-none' : '')
@@ -468,7 +468,7 @@ function MCQInput({
                 'flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold transition-all duration-200 '
                 + (
                   isSelected
-                    ? 'bg-indigo-500 text-white shadow-md shadow-indigo-500/30'
+                    ? 'bg-gold-500 text-white shadow-md shadow-gold-500/30'
                     : 'bg-white/[0.08] text-white/50 group-hover:bg-white/[0.12]'
                 )
               }
@@ -489,7 +489,7 @@ function MCQInput({
                 strokeWidth="3"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="text-indigo-300 flex-shrink-0"
+                className="text-gold-300 flex-shrink-0"
                 aria-hidden="true"
               >
                 <polyline points="20 6 9 17 4 12" />
@@ -535,7 +535,7 @@ function ProgressiveHints({ onRequestHint }: { onRequestHint: () => void }) {
             transition={{ duration: 0.25, ease: 'easeOut' }}
             className={
               'flex items-start gap-2 px-3 py-2.5 rounded-lg \
-              bg-indigo-500/10 border border-indigo-400/20'
+              bg-gold-500/10 border border-gold-400/20'
             }
           >
             <span
@@ -552,7 +552,7 @@ function ProgressiveHints({ onRequestHint }: { onRequestHint: () => void }) {
             >
               {i + 1}
             </span>
-            <span className="text-[13px] text-indigo-200/90 leading-relaxed">
+            <span className="text-[13px] text-gold-200/90 leading-relaxed">
               {hint}
             </span>
           </motion.div>
@@ -563,7 +563,7 @@ function ProgressiveHints({ onRequestHint }: { onRequestHint: () => void }) {
         <button
           type="button"
           onClick={handleHint}
-          className="text-xs text-indigo-300/70 hover:text-indigo-300 transition-colors py-1 flex items-center gap-1"
+          className="text-xs text-gold-300/70 hover:text-gold-300 transition-colors py-1 flex items-center gap-1"
         >
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <polyline points="9 18 15 12 9 6" />
@@ -686,7 +686,7 @@ export default function QuestionCard({
       >
         {/* ─── Top shimmer accent ──────────────────────────────── */}
         <div
-          className="h-[2px] bg-gradient-to-r from-indigo-500/0 via-indigo-400/60 to-pink-400/40"
+          className="h-[2px] bg-gradient-to-r from-gold-500/0 via-gold-400/60 to-pink-400/40"
           aria-hidden="true"
         />
 
@@ -722,7 +722,7 @@ export default function QuestionCard({
             aria-label={`Question ${questionNumber} of ${totalQuestions}`}
           >
             <motion.div
-              className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-indigo-400"
+              className="h-full rounded-full bg-gradient-to-r from-gold-500 to-gold-400"
               initial={{ width: `${((questionNumber - 1) / totalQuestions) * 100}%` }}
               animate={{ width: `${(questionNumber / totalQuestions) * 100}%` }}
               transition={{ duration: 0.5, ease: 'easeOut' }}
@@ -837,7 +837,7 @@ export default function QuestionCard({
                 border transition-all duration-200 '
                 + (
                   showHints
-                    ? 'bg-indigo-500/20 border-indigo-400/40 text-indigo-200'
+                    ? 'bg-gold-500/20 border-gold-400/40 text-gold-200'
                     : 'bg-white/[0.04] border-white/[0.08] text-white/50 hover:text-white/70 hover:bg-white/[0.07]'
                 )
                 + (isSubmitting ? ' opacity-40 pointer-events-none' : '')
@@ -911,11 +911,11 @@ export default function QuestionCard({
             className={
               'inline-flex items-center gap-2 py-2.5 px-6 rounded-xl \
               text-sm font-bold transition-all duration-200 \
-              shadow-lg shadow-indigo-500/20 '
+              shadow-lg shadow-gold-500/20 '
               + (
                 isSubmitting
-                  ? 'bg-indigo-500/30 text-indigo-200/50 cursor-wait'
-                  : 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white hover:from-indigo-400 hover:to-indigo-500 active:scale-[0.97] shadow-indigo-500/30'
+                  ? 'bg-gold-500/30 text-gold-200/50 cursor-wait'
+                  : 'bg-gradient-to-r from-gold-500 to-gold-600 text-white hover:from-gold-400 hover:to-gold-500 active:scale-[0.97] shadow-gold-500/30'
               )
             }
             aria-label="Submit answer"

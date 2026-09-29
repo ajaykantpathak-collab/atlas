@@ -91,7 +91,7 @@ export function AtlasDragon({ mood = 'idle', size = 160, speaking = null, onLoad
           >
             <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white rotate-45" />
             <p className="text-sm font-semibold text-gray-800 text-center">
-              <span className="text-blue-600">{dragonName}</span>: {speaking}
+              <span className="text-gold-600">{dragonName}</span>: {speaking}
             </p>
           </motion.div>
         )}
@@ -121,8 +121,8 @@ export function AtlasDragon({ mood = 'idle', size = 160, speaking = null, onLoad
 
       {/* Name tag below dragon */}
       {dragonName && !showNamingPrompt && (
-        <div className="mt-1 px-3 py-0.5 bg-blue-500/20 rounded-full">
-          <span className="text-xs font-bold text-blue-300">{dragonName}</span>
+        <div className="mt-1 px-3 py-0.5 bg-gold-500/20 rounded-full">
+          <span className="text-xs font-bold text-gold-300">{dragonName}</span>
         </div>
       )}
 
@@ -140,7 +140,7 @@ export function AtlasDragon({ mood = 'idle', size = 160, speaking = null, onLoad
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0, y: 30 }}
               transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-              className="bg-gradient-to-br from-indigo-50 to-purple-100 rounded-3xl p-8 max-w-md shadow-2xl text-center"
+              className="bg-gradient-to-br from-gold-50 to-purple-100 rounded-3xl p-8 max-w-md shadow-2xl text-center"
             >
               {/* Dragon preview */}
               <div className="flex justify-center mb-4">
@@ -165,13 +165,13 @@ export function AtlasDragon({ mood = 'idle', size = 160, speaking = null, onLoad
                 placeholder="Type a name..."
                 maxLength={20}
                 autoFocus
-                className="w-full px-4 py-3 rounded-xl border-2 border-indigo-300 focus:border-indigo-500 focus:outline-none text-lg text-center font-semibold text-gray-800 bg-white"
+                className="w-full px-4 py-3 rounded-xl border-2 border-gold-300 focus:border-gold-500 focus:outline-none text-lg text-center font-semibold text-gray-800 bg-white"
               />
 
               <button
                 onClick={handleNameSubmit}
                 disabled={!inputName.trim()}
-                className="mt-4 w-full px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="mt-4 w-full px-6 py-3 bg-gradient-to-r from-gold-500 to-purple-500 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 That's my dragon's name!
               </button>

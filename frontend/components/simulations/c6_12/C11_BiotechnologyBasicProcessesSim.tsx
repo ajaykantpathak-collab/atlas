@@ -122,9 +122,9 @@ export function C11_BiotechnologyBasicProcessesSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-violet-950/80 rounded-2xl border border-violet-700">🧬</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🧬</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-violet-400">Class 11 Biotechnology -- Basic Processes</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 Biotechnology -- Basic Processes</span>
           <h1 className="text-xl md:text-2xl font-extrabold">How Does DNA Copy Itself? Test All Three Models</h1>
         </div>
       </div>
@@ -174,7 +174,7 @@ export function C11_BiotechnologyBasicProcessesSim() {
             <div className="grid grid-cols-3 gap-2">
               {(['semi', 'cons', 'disp'] as Model[]).map((m) => (
                 <button key={m} onClick={() => { setModel(m); setGen(0); setPlaying(false); }}
-                  className={`min-h-11 rounded-xl text-[10px] font-bold ${model === m ? 'bg-violet-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                  className={`min-h-11 rounded-xl text-[10px] font-bold ${model === m ? 'bg-gold-500 text-slate-950' : 'bg-slate-800 hover:bg-slate-700'}`}>
                   {m === 'semi' ? 'Semi-conservative' : m === 'cons' ? 'Conservative' : 'Dispersive'}
                 </button>
               ))}
@@ -182,10 +182,10 @@ export function C11_BiotechnologyBasicProcessesSim() {
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
                 <span>Replication rounds</span>
-                <span className="font-mono font-bold text-violet-400">{gen} (duplexes 2^{gen} = {c.total})</span>
+                <span className="font-mono font-bold text-gold-400">{gen} (duplexes 2^{gen} = {c.total})</span>
               </div>
               <input type="range" min={0} max={MAX_GEN} step={1} value={gen} aria-label="generations"
-                onChange={(e) => setGen(Number(e.target.value))} className="w-full min-h-11 accent-violet-500" />
+                onChange={(e) => setGen(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <div className="grid grid-cols-3 gap-2">
               <button onClick={() => setPlaying((p) => !p)}

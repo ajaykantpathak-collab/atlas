@@ -245,13 +245,13 @@ export function BuddyHome({ width = 720, height = 340, compact = false }: {
             {/* HUD */}
             <div className="absolute top-3 left-3 bg-white/90 rounded-2xl px-4 py-2 shadow border-2 border-amber-200 backdrop-blur">
                 <div className="flex items-center gap-2">
-                    <span className="font-black text-violet-900">{buddy.name}</span>
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-violet-100 text-violet-700">
+                    <span className="font-black text-gold-900">{buddy.name}</span>
+                    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gold-100 text-gold-700">
                         {STAGE_NAMES[buddy.stage]}
                     </span>
                 </div>
                 <div className="w-36 h-2 bg-gray-200 rounded-full mt-1.5 overflow-hidden">
-                    <motion.div className="h-full bg-gradient-to-r from-violet-400 to-fuchsia-500 rounded-full"
+                    <motion.div className="h-full bg-gradient-to-r from-gold-400 to-fuchsia-500 rounded-full"
                         animate={{ width: `${Math.round(progress * 100)}%` }} />
                 </div>
                 <div className="text-[10px] font-bold text-gray-500 mt-0.5">

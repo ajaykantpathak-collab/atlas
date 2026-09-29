@@ -1064,10 +1064,10 @@ function C12_MathematicsAreaUnderSimpleSim({
         className="mb-6 flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-900/80 rounded-2xl border border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-500/10 rounded-xl border border-indigo-500/20">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-500/10 rounded-xl border border-gold-500/20">{subjectConfig.emoji}</span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase font-bold tracking-wider text-indigo-400">ISC Class 12 Science</span>
+              <span className="text-xs uppercase font-bold tracking-wider text-gold-400">ISC Class 12 Science</span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">NEP 2020 Aligned</span>
             </div>
             <h1 className="text-lg sm:text-xl font-bold text-white">{title}</h1>
@@ -1085,7 +1085,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-300 border-rose-700'
-                : 'bg-indigo-950/60 text-indigo-300 border-indigo-700'
+                : 'bg-gold-950/60 text-gold-300 border-gold-700'
             }`}
           >
             {difficulty.toUpperCase()} LEVEL
@@ -1099,8 +1099,8 @@ function C12_MathematicsAreaUnderSimpleSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               🚀 {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-3 leading-relaxed">{SCENARIO.intro}</p>
@@ -1129,11 +1129,11 @@ function C12_MathematicsAreaUnderSimpleSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-3">
-                    <span className="px-2 py-0.5 rounded bg-slate-950/60 text-xs font-mono text-indigo-400">
+                    <span className="px-2 py-0.5 rounded bg-slate-950/60 text-xs font-mono text-gold-400">
                       {String.fromCharCode(65 + i)}
                     </span>
                     <span>{opt}</span>
@@ -1153,7 +1153,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1176,7 +1176,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                 <div
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1192,7 +1192,7 @@ function C12_MathematicsAreaUnderSimpleSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
               <div>
-                <h3 className="text-xl font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-xl font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-amber-300 text-sm mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1273,7 +1273,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-400 block">Riemann Sum ({sliderRectanglesN} strips)</span>
-                        <span className="text-lg font-bold text-indigo-400">{riemannSumX2.toFixed(3)} sq units</span>
+                        <span className="text-lg font-bold text-gold-400">{riemannSumX2.toFixed(3)} sq units</span>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-400 block">Approximation Error</span>
@@ -1289,7 +1289,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs mb-2">
                         <span className="text-slate-300 font-bold">Upper Limit (b): {sliderLimitB}</span>
-                        <span className="text-indigo-400">Domain [0, 4]</span>
+                        <span className="text-gold-400">Domain [0, 4]</span>
                       </div>
                       <input
                         type="range"
@@ -1305,14 +1305,14 @@ function C12_MathematicsAreaUnderSimpleSim({
                             setPredictionVerified(true);
                           }
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                       <div className="flex justify-between text-xs mb-2">
                         <span className="text-slate-300 font-bold">Number of Strips (n): {sliderRectanglesN}</span>
-                        <span className="text-indigo-400">Convergence Speed</span>
+                        <span className="text-gold-400">Convergence Speed</span>
                       </div>
                       <input
                         type="range"
@@ -1325,14 +1325,14 @@ function C12_MathematicsAreaUnderSimpleSim({
                           setSliderRectanglesN(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
 
                   {/* Predict-Then-Check Section */}
-                  <div className="p-4 bg-indigo-950/30 rounded-xl border border-indigo-900/60">
-                    <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider block mb-2">
+                  <div className="p-4 bg-gold-950/30 rounded-xl border border-gold-900/60">
+                    <span className="text-xs font-bold text-gold-300 uppercase tracking-wider block mb-2">
                       🔮 Predict-Then-Check Investigation
                     </span>
                     <p className="text-sm text-slate-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
@@ -1344,7 +1344,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                             whileHover={{ scale: 1.02 }}
                             whileTap={{ scale: 0.98 }}
                             onClick={() => handlePrediction(i)}
-                            className="p-3 text-left bg-slate-900 border border-slate-700 hover:border-indigo-500 rounded-lg text-xs text-slate-200"
+                            className="p-3 text-left bg-slate-900 border border-slate-700 hover:border-gold-500 rounded-lg text-xs text-slate-200"
                           >
                             {opt}
                           </motion.button>
@@ -1410,7 +1410,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs mb-2">
                       <span className="text-slate-300 font-bold">Upper Curve Multiplier (k): {sliderCurveK}</span>
-                      <span className="text-indigo-400">Area Formula: ∫ [k√x - x²] dx</span>
+                      <span className="text-gold-400">Area Formula: ∫ [k√x - x²] dx</span>
                     </div>
                     <input
                       type="range"
@@ -1423,7 +1423,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                         setSliderCurveK(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="mt-3 p-3 bg-slate-900 rounded-lg text-xs text-slate-300 flex justify-between">
                       <span>Intersection Point: (1, 1)</span>
@@ -1451,11 +1451,11 @@ function C12_MathematicsAreaUnderSimpleSim({
                         onClick={() => setSelectedDeIndex(idx)}
                         className={`p-4 rounded-xl border text-left transition-all ${
                           selectedDeIndex === idx
-                            ? 'bg-indigo-950 border-indigo-500 shadow-md'
+                            ? 'bg-gold-950 border-gold-500 shadow-md'
                             : 'bg-slate-950 border-slate-800 hover:border-slate-700'
                         }`}
                       >
-                        <span className="text-xs text-indigo-400 font-mono block mb-2">Sample #{idx + 1}</span>
+                        <span className="text-xs text-gold-400 font-mono block mb-2">Sample #{idx + 1}</span>
                         <div className="font-mono text-sm text-white font-bold mb-2">{item.eq}</div>
                         <div className="flex justify-between text-xs text-slate-300">
                           <span>Order: <strong className="text-amber-400">{item.order}</strong></span>
@@ -1466,7 +1466,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-sm space-y-2">
-                    <span className="font-bold text-indigo-300">🏛️ The Building Analogy:</span>
+                    <span className="font-bold text-gold-300">🏛️ The Building Analogy:</span>
                     <p className="text-slate-300 leading-relaxed text-xs sm:text-sm">
                       • <strong>Order</strong> is the top floor of the building (the highest derivative level, like 2nd or 3rd derivative).
                       <br />
@@ -1480,7 +1480,7 @@ function C12_MathematicsAreaUnderSimpleSim({
               {currentSlide === 3 && (
                 <div className="space-y-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <div className="font-mono text-sm sm:text-base text-indigo-300 font-bold text-center p-3 bg-slate-900 rounded-xl border border-indigo-900/60">
+                    <div className="font-mono text-sm sm:text-base text-gold-300 font-bold text-center p-3 bg-slate-900 rounded-xl border border-gold-900/60">
                       dy/dx + ({sliderPVal})y = 0 ⟹ Integrating Factor IF = e^{`{${sliderPVal}x}`}
                     </div>
 
@@ -1492,7 +1492,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     <div className="pt-3">
                       <div className="flex justify-between text-xs mb-2">
                         <span className="text-slate-300 font-bold">Coefficient P: {sliderPVal}</span>
-                        <span className="text-indigo-400">Half-life Decay Speed</span>
+                        <span className="text-gold-400">Half-life Decay Speed</span>
                       </div>
                       <input
                         type="range"
@@ -1505,7 +1505,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                           setSliderPVal(Number(e.target.value));
                           audioManager.play('balance');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1516,7 +1516,7 @@ function C12_MathematicsAreaUnderSimpleSim({
               {currentSlide === 4 && (
                 <div className="space-y-6">
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
-                    <div className="text-2xl font-mono font-bold text-indigo-300 mb-2">
+                    <div className="text-2xl font-mono font-bold text-gold-300 mb-2">
                       v̄ = {vectorX}î + {vectorY}ĵ + {vectorZ}k̂
                     </div>
                     <div className="text-lg font-bold text-emerald-400">
@@ -1537,7 +1537,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                           setVectorX(Number(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1552,7 +1552,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                           setVectorY(Number(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -1567,7 +1567,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                           setVectorZ(Number(e.target.value));
                           audioManager.play('tap');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                   </div>
@@ -1591,7 +1591,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setCurrentSlide(s => s + 1)}
-                    className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm shadow-md"
+                    className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm shadow-md"
                   >
                     Next Lab Step →
                   </motion.button>
@@ -1628,7 +1628,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   key={tab}
                   onClick={() => setSandboxTab(tab)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize transition-all ${
-                    sandboxTab === tab ? 'bg-indigo-600 text-white shadow' : 'bg-slate-800 text-slate-400 hover:text-white'
+                    sandboxTab === tab ? 'bg-gold-600 text-white shadow' : 'bg-slate-800 text-slate-400 hover:text-white'
                   }`}
                 >
                   {tab}
@@ -1653,14 +1653,14 @@ function C12_MathematicsAreaUnderSimpleSim({
                   value={sliderLimitB}
                   aria-label="Sandbox limit slider"
                   onChange={(e) => setSliderLimitB(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             )}
 
             {sandboxTab === 'curves' && (
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center space-y-4">
-                <span className="text-indigo-300 font-bold">Lens Area Between y = {sliderCurveK}√x and y = x²</span>
+                <span className="text-gold-300 font-bold">Lens Area Between y = {sliderCurveK}√x and y = x²</span>
                 <div className="text-3xl font-mono text-emerald-400 font-bold">
                   {((2 / 3) * sliderCurveK - 1 / 3).toFixed(3)} sq units
                 </div>
@@ -1672,14 +1672,14 @@ function C12_MathematicsAreaUnderSimpleSim({
                   value={sliderCurveK}
                   aria-label="Sandbox curve K slider"
                   onChange={(e) => setSliderCurveK(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             )}
 
             {sandboxTab === 'de' && (
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3 font-mono text-sm">
-                <div className="text-indigo-300 font-bold">Linear Differential Equation Solver:</div>
+                <div className="text-gold-300 font-bold">Linear Differential Equation Solver:</div>
                 <div className="p-3 bg-slate-900 rounded-lg text-slate-200">
                   dy/dx + ({sliderPVal})y = 4 ⟹ IF = e^{`{${sliderPVal}x}`}
                 </div>
@@ -1693,14 +1693,14 @@ function C12_MathematicsAreaUnderSimpleSim({
                   value={sliderPVal}
                   aria-label="Sandbox linear DE P slider"
                   onChange={(e) => setSliderPVal(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
             )}
 
             {sandboxTab === 'vector' && (
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center space-y-3">
-                <div className="text-xl font-mono text-indigo-300">
+                <div className="text-xl font-mono text-gold-300">
                   Vector: {vectorX}î + {vectorY}ĵ + {vectorZ}k̂
                 </div>
                 <div className="text-2xl font-bold text-emerald-400">
@@ -1714,7 +1714,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     value={vectorX}
                     aria-label="Sandbox vector X"
                     onChange={(e) => setVectorX(Number(e.target.value))}
-                    className="accent-indigo-500"
+                    className="accent-gold-500"
                   />
                   <input
                     type="range"
@@ -1723,7 +1723,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     value={vectorY}
                     aria-label="Sandbox vector Y"
                     onChange={(e) => setVectorY(Number(e.target.value))}
-                    className="accent-indigo-500"
+                    className="accent-gold-500"
                   />
                   <input
                     type="range"
@@ -1732,7 +1732,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     value={vectorZ}
                     aria-label="Sandbox vector Z"
                     onChange={(e) => setVectorZ(Number(e.target.value))}
-                    className="accent-indigo-500"
+                    className="accent-gold-500"
                   />
                 </div>
               </div>
@@ -1767,7 +1767,7 @@ function C12_MathematicsAreaUnderSimpleSim({
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1784,7 +1784,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                 : 'bg-slate-900 border-slate-800'
             }`}
           >
-            <div className="text-xs uppercase font-bold tracking-wider text-indigo-400 mb-2">
+            <div className="text-xs uppercase font-bold tracking-wider text-gold-400 mb-2">
               Node: {challenge.nodeId}
             </div>
             <h2 className="text-base sm:text-lg font-bold text-white mb-4 leading-relaxed">
@@ -1808,11 +1808,11 @@ function C12_MathematicsAreaUnderSimpleSim({
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                         : showExplanation && i !== challenge.correctIndex
                         ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-start gap-3">
-                      <span className="px-2 py-0.5 rounded bg-slate-950/60 text-xs font-mono text-indigo-400">
+                      <span className="px-2 py-0.5 rounded bg-slate-950/60 text-xs font-mono text-gold-400">
                         {String.fromCharCode(65 + i)}
                       </span>
                       <span>{opt}</span>
@@ -1834,7 +1834,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1848,7 +1848,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[90px] flex flex-col justify-center items-center"
                   >
                     <span className="text-xs text-slate-400 font-bold mb-1">SCALAR (Magnitude Only)</span>
-                    <span className="text-sm font-bold text-indigo-300">{droppedLabels.box_scalar || 'Drop Here'}</span>
+                    <span className="text-sm font-bold text-gold-300">{droppedLabels.box_scalar || 'Drop Here'}</span>
                   </div>
 
                   <div
@@ -1857,7 +1857,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[90px] flex flex-col justify-center items-center"
                   >
                     <span className="text-xs text-slate-400 font-bold mb-1">VECTOR (Magnitude + Direction)</span>
-                    <span className="text-sm font-bold text-indigo-300">{droppedLabels.box_vector || 'Drop Here'}</span>
+                    <span className="text-sm font-bold text-gold-300">{droppedLabels.box_vector || 'Drop Here'}</span>
                   </div>
                 </div>
 
@@ -1867,7 +1867,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                 >
                   Verify Mapping ✓
                 </motion.button>
@@ -1894,7 +1894,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-700 flex items-center gap-3 cursor-grab text-sm text-slate-200"
                   >
-                    <span className="px-2 py-0.5 rounded bg-indigo-900/60 text-indigo-300 text-xs font-mono font-bold">
+                    <span className="px-2 py-0.5 rounded bg-gold-900/60 text-gold-300 text-xs font-mono font-bold">
                       {displayIdx + 1}
                     </span>
                     <span>{item}</span>
@@ -1908,7 +1908,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-2 px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                 >
                   Verify Sequence Order ✓
                 </motion.button>
@@ -1926,7 +1926,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     aria-label="Numeric answer input"
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-48"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-48"
                   />
                   <span className="text-slate-400 text-sm">{challenge.unit}</span>
                   <motion.button
@@ -1936,7 +1936,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md disabled:opacity-50"
+                    className="px-6 py-3 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md disabled:opacity-50"
                   >
                     Submit Answer
                   </motion.button>
@@ -1955,7 +1955,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -1964,7 +1964,7 @@ function C12_MathematicsAreaUnderSimpleSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[70px] flex flex-wrap items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-900/70 border border-indigo-700 rounded text-xs font-mono text-white flex items-center gap-1">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-900/70 border border-gold-700 rounded text-xs font-mono text-white flex items-center gap-1">
                       {part}
                       <button
                         onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))}
@@ -1986,7 +1986,7 @@ function C12_MathematicsAreaUnderSimpleSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow-md"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl text-sm shadow-md"
                 >
                   Test Construction ✓
                 </motion.button>
@@ -2051,7 +2051,7 @@ function C12_MathematicsAreaUnderSimpleSim({
       {/* ─── PHASE 5: COMPLETION & SYNTHESIS ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Calculus Mastery Attained!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2065,7 +2065,7 @@ function C12_MathematicsAreaUnderSimpleSim({
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">BKT Mastery</span>
-                <span className="text-xl font-bold text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-bold text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Questions Solved</span>
@@ -2116,7 +2116,7 @@ function C12_MathematicsAreaUnderSimpleSim({
 
           {/* Real-World Activity Completion Arc */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               🛠️ {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">

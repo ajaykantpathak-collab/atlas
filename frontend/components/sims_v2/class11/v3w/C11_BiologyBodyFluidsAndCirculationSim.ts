@@ -11,7 +11,7 @@ export const w_c11_biologybodyfluidsandcirculationsim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Lymph and Lymphatic System',
     chapters: [],
     nodeIds: ['c11_bio_cbse_15_008', 'c11_bio_cbse_15_005', 'c11_bio_cbse_15_003', 'c11_bio_cbse_15_004', 'c11_bio_cbse_15_001', 'c11_bio_cbse_04_012', 'c11_bio_cbse_18_005', 'c11_bio_cbse_15_006', 'c11_bio_cbse_16_006', 'c11_bio_cbse_16_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Start with a relatable observation: when you get a small cut or swelling, you may notice a clear fluid oozing.', goal: 'Master Lymph and Lymphatic System.' },
     discovery: {
         question: 'Why is lymph described as a "colourless fluid" despite being derived from blood, which is red?',
@@ -20,7 +20,7 @@ export const w_c11_biologybodyfluidsandcirculationsim: SimDef = {
         hook: 'Students often think lymph is simply "blood without red cells" and that it circulates in a loop like blood.',
     },
     teaching: [
-        { title: 'Lymph is a clear, colourless fluid derived.', text: 'Lymph is a clear, colourless fluid derived from interstitial fluid that enters the lymphatic capillaries, containing lymphocytes (mainly T and B cells) and serving as a medium for transport of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Lymph is a clear, colourless fluid derived.', text: 'Lymph is a clear, colourless fluid derived from interstitial fluid that enters the lymphatic capillaries, containing lymphocytes (mainly T and B cells) and serving as a medium for transport of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_15_008', title: 'Lymph is a clear, colourless fluid.',

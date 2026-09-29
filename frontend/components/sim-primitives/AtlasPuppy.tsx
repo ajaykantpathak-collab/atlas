@@ -88,7 +88,7 @@ export function AtlasPuppy({ mood = 'idle', size = 120, speaking = null, onLoad,
             {/* Speech bubble tail */}
             <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white rotate-45" />
             <p className="text-sm font-semibold text-gray-800 text-center">
-              <span className="text-blue-600">{puppyName}</span>: {speaking}
+              <span className="text-gold-600">{puppyName}</span>: {speaking}
             </p>
           </motion.div>
         )}
@@ -101,8 +101,8 @@ export function AtlasPuppy({ mood = 'idle', size = 120, speaking = null, onLoad,
 
       {/* Name tag below puppy */}
       {puppyName && !showNamingPrompt && (
-        <div className="mt-1 px-3 py-0.5 bg-blue-500/20 rounded-full">
-          <span className="text-xs font-bold text-blue-300">{puppyName}</span>
+        <div className="mt-1 px-3 py-0.5 bg-gold-500/20 rounded-full">
+          <span className="text-xs font-bold text-gold-300">{puppyName}</span>
         </div>
       )}
 

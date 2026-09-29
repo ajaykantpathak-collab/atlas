@@ -11,7 +11,7 @@ export const w_c12_computersciencejavastreamfiltersim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Client-Server Architecture and Peer-to-Peer Model',
     chapters: [],
     nodeIds: ['c12_cs_cbse_01_009', 'c12_cs_cbse_10_009', 'c12_cs_cbse_10_011', 'c12_cs_cbse_01_010', 'c12_cs_cbse_03_001', 'c12_cs_cbse_03_002', 'c12_cs_cbse_03_003', 'c12_cs_cbse_03_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you want to watch a movie: you open Netflix (client) which requests the video from Netflix\'s powerful.', goal: 'Master Client-Server Architecture and Peer-to-Peer Model.' },
     discovery: {
         question: 'A startup wants to build a real-time multiplayer game for 10,000 concurrent players with low latency. They have limited budget for server infrastructure.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencejavastreamfiltersim: SimDef = {
         hook: 'Students often believe "Peer-to-Peer means no server at all" — they confuse the absence of a *central application.',
     },
     teaching: [
-        { title: 'Client-Server architecture is a distributed.', text: 'Client-Server architecture is a distributed application structure that partitions tasks between service providers (servers) and service requesters (clients), where the server hosts, delivers, and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Client-Server architecture is a distributed.', text: 'Client-Server architecture is a distributed application structure that partitions tasks between service providers (servers) and service requesters (clients), where the server hosts, delivers, and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_01_009', title: 'Client-Server architecture is a.',

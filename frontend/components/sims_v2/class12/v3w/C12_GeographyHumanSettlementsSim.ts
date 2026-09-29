@@ -11,7 +11,7 @@ export const w_c12_geographyhumansettlementssim: SimDef = {
     classLevel: 12, subject: 'geography', topic: 'Human Geography vs Physical Geography: Interrelation',
     chapters: [],
     nodeIds: ['c12_geo_cbse_01_003', 'c12_geo_cbse_04_001', 'c12_geo_cbse_04_002', 'c12_geo_cbse_04_004', 'c12_geo_cbse_04_009', 'c12_geo_cbse_04_010', 'c12_geo_cbse_10_001', 'c12_geo_cbse_04_003', 'c12_geo_cbse_04_005', 'c12_geo_cbse_04_006', 'c12_geo_cbse_04_007', 'c12_geo_cbse_04_008', 'c12_geo_cbse_01_001', 'c12_geo_cbse_01_002', 'c12_geo_cbse_01_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Begin by observing your immediate surroundings: note the natural features (trees, slope, soil, temperature).', goal: 'Master Human Geography vs Physical Geography: Interrelation.' },
     discovery: {
         question: 'Analyze the neo-determinism (stop-and-go determinism) concept using the traffic light analogy.',
@@ -20,7 +20,7 @@ export const w_c12_geographyhumansettlementssim: SimDef = {
         hook: 'Students often think "humanisation of nature" means only modern, high-tech societies (like Trondheim), and.',
     },
     teaching: [
-        { title: 'Human geography and physical geography are.', text: 'Human geography and physical geography are inseparable components of geography that study the reciprocal relationship between human societies and the natural environment; physical geography examines.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Human geography and physical geography are.', text: 'Human geography and physical geography are inseparable components of geography that study the reciprocal relationship between human societies and the natural environment; physical geography examines.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_geo_cbse_01_003', title: 'Human geography and physical geography.',

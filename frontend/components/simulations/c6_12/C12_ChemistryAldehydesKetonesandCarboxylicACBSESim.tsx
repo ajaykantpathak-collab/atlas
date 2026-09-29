@@ -696,11 +696,11 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
       {/* Header Banner */}
       <header className="w-full bg-slate-900/90 border-b border-slate-800 px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-30 backdrop-blur">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-cyan-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-gold-500/20">
             C=O
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-400 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               Aldehydes, Ketones & Carboxylic Acids
             </h1>
             <p className="text-xs text-slate-400">Class 12 CBSE Chemistry • NCERT Interactive Masterclass</p>
@@ -713,7 +713,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             onClick={() => handleTabChange('lessons')}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
               currentTab === 'lessons'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
             }`}
           >
@@ -723,7 +723,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             onClick={() => handleTabChange('workbench')}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
               currentTab === 'workbench'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
             }`}
           >
@@ -733,7 +733,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             onClick={() => handleTabChange('acidity')}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
               currentTab === 'acidity'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
             }`}
           >
@@ -743,7 +743,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             onClick={() => handleTabChange('challenges')}
             className={`px-4 py-2 rounded-lg text-xs font-semibold transition-all ${
               currentTab === 'challenges'
-                ? 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-md'
+                ? 'bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-md'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
             }`}
           >
@@ -759,7 +759,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
           <div className="flex flex-col gap-6">
             {/* Slide Navigation Header */}
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-2xl border border-slate-800">
-              <span className="text-sm font-semibold text-cyan-400">
+              <span className="text-sm font-semibold text-gold-400">
                 Slide {slideIndex + 1} of {TEACHING_SLIDES.length}
               </span>
               <div className="flex items-center gap-2">
@@ -779,7 +779,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                     audioManager.play('swoop');
                     setSlideIndex(prev => prev + 1);
                   }}
-                  className="px-3 py-1.5 rounded-lg bg-cyan-600 text-white disabled:opacity-40 hover:bg-cyan-500 text-xs font-bold"
+                  className="px-3 py-1.5 rounded-lg bg-gold-600 text-white disabled:opacity-40 hover:bg-gold-500 text-xs font-bold"
                 >
                   Next Slide →
                 </button>
@@ -796,7 +796,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             >
               <div>
                 <h2 className="text-2xl font-black text-slate-100">{TEACHING_SLIDES[slideIndex].title}</h2>
-                <p className="text-xs font-mono text-cyan-400 mt-1">{TEACHING_SLIDES[slideIndex].subtitle}</p>
+                <p className="text-xs font-mono text-gold-400 mt-1">{TEACHING_SLIDES[slideIndex].subtitle}</p>
               </div>
 
               {/* Diagrams / Visuals per slide */}
@@ -845,7 +845,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                         <div className="w-12 h-16 bg-slate-800 rounded border border-slate-700 flex items-center justify-center text-slate-300 font-bold">
                           Ag
                         </div>
-                        <span className="text-[10px] text-cyan-400">Tollens Mirror</span>
+                        <span className="text-[10px] text-gold-400">Tollens Mirror</span>
                       </div>
                       <div className="text-center">
                         <div className="w-12 h-16 bg-red-900/60 rounded border border-red-700 flex items-center justify-center text-red-200 font-bold">
@@ -866,7 +866,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                 {slideIndex === 3 && (
                   <div className="flex flex-col items-center justify-center p-4">
                     <div className="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center w-full">
-                      <span className="text-xs font-bold text-cyan-400">Aldol vs Cannizzaro Decision Rule</span>
+                      <span className="text-xs font-bold text-gold-400">Aldol vs Cannizzaro Decision Rule</span>
                       <div className="grid grid-cols-2 gap-2 mt-3 text-xs">
                         <div className="p-2 bg-slate-800 rounded">
                           <p className="font-bold text-emerald-400">α-H Present</p>
@@ -909,9 +909,9 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
               </div>
 
               {/* Key Formula / Reactions Box */}
-              <div className="bg-cyan-950/40 p-4 rounded-xl border border-cyan-800/50 flex flex-col gap-1">
-                <span className="text-xs font-mono font-bold text-cyan-300">Reaction / Chemical Equation:</span>
-                <code className="text-sm font-mono text-cyan-100">{TEACHING_SLIDES[slideIndex].formula}</code>
+              <div className="bg-gold-950/40 p-4 rounded-xl border border-gold-800/50 flex flex-col gap-1">
+                <span className="text-xs font-mono font-bold text-gold-300">Reaction / Chemical Equation:</span>
+                <code className="text-sm font-mono text-gold-100">{TEACHING_SLIDES[slideIndex].formula}</code>
               </div>
             </motion.div>
           </div>
@@ -939,7 +939,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                       }}
                       className={`p-2.5 rounded-xl text-xs font-bold border capitalize transition-all ${
                         selectedSubstrate === sub
-                          ? 'bg-cyan-600/30 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-600/30 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
@@ -976,7 +976,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
               <div className="flex flex-col gap-2">
                 <div className="flex justify-between text-xs">
                   <span className="font-semibold text-slate-400">Attack Angle (Bürgi-Dunitz):</span>
-                  <span className="font-mono text-cyan-400 font-bold">{attackAngle}°</span>
+                  <span className="font-mono text-gold-400 font-bold">{attackAngle}°</span>
                 </div>
                 <input
                   type="range"
@@ -987,7 +987,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                     audioManager.play('tap');
                     setAttackAngle(Number(e.target.value));
                   }}
-                  className="w-full accent-cyan-500 cursor-pointer bg-slate-950 rounded-lg h-2"
+                  className="w-full accent-gold-500 cursor-pointer bg-slate-950 rounded-lg h-2"
                 />
                 <p className="text-[11px] text-slate-500">NCERT Note: Perpendicular trajectory (~107°) maximizes orbital overlap with π*.</p>
               </div>
@@ -1002,7 +1002,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                       setMechanismStep(1);
                     }}
                     className={`flex-1 py-2 rounded-lg text-xs font-bold border ${
-                      mechanismStep === 1 ? 'bg-cyan-500 text-slate-950 border-cyan-400' : 'bg-slate-950 border-slate-800 text-slate-400'
+                      mechanismStep === 1 ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-950 border-slate-800 text-slate-400'
                     }`}
                   >
                     1. Attack
@@ -1013,7 +1013,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                       setMechanismStep(2);
                     }}
                     className={`flex-1 py-2 rounded-lg text-xs font-bold border ${
-                      mechanismStep === 2 ? 'bg-cyan-500 text-slate-950 border-cyan-400' : 'bg-slate-950 border-slate-800 text-slate-400'
+                      mechanismStep === 2 ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-950 border-slate-800 text-slate-400'
                     }`}
                   >
                     2. Tetrahedral
@@ -1024,7 +1024,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                       setMechanismStep(3);
                     }}
                     className={`flex-1 py-2 rounded-lg text-xs font-bold border ${
-                      mechanismStep === 3 ? 'bg-cyan-500 text-slate-950 border-cyan-400' : 'bg-slate-950 border-slate-800 text-slate-400'
+                      mechanismStep === 3 ? 'bg-gold-500 text-slate-950 border-gold-400' : 'bg-slate-950 border-slate-800 text-slate-400'
                     }`}
                   >
                     3. Product
@@ -1036,7 +1036,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             {/* Canvas Interactive Simulation */}
             <div className="lg:col-span-2 bg-slate-900 rounded-3xl p-6 border border-slate-800 flex flex-col gap-4 items-center justify-center relative overflow-hidden">
               <div className="w-full flex items-center justify-between">
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   2D Dynamic Reaction Trajectory Canvas
                 </span>
                 <span className="text-xs font-mono text-slate-400">
@@ -1060,7 +1060,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                 )}
                 {mechanismStep === 2 && (
                   <p>
-                    <strong className="text-cyan-400">Step 2: Tetrahedral Intermediate.</strong> Carbon hybridization changes from sp² to sp³, creating a alkoxide anion intermediate with a full negative charge on oxygen.
+                    <strong className="text-gold-400">Step 2: Tetrahedral Intermediate.</strong> Carbon hybridization changes from sp² to sp³, creating a alkoxide anion intermediate with a full negative charge on oxygen.
                   </p>
                 )}
                 {mechanismStep === 3 && (
@@ -1094,7 +1094,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                       }}
                       className={`p-2 rounded-xl text-xs font-bold border transition-all ${
                         aciditySubstituent === sub
-                          ? 'bg-cyan-600/30 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-600/30 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:border-slate-700'
                       }`}
                     >
@@ -1108,7 +1108,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
               <div className="bg-slate-950 p-5 rounded-2xl border border-slate-800 flex flex-col gap-3">
                 <div className="flex justify-between items-center">
                   <span className="text-xs text-slate-400">Calculated Acid Strength (pKa):</span>
-                  <span className="text-2xl font-black text-cyan-400">{calculatedPka}</span>
+                  <span className="text-2xl font-black text-gold-400">{calculatedPka}</span>
                 </div>
 
                 <div className="w-full bg-slate-800 h-3 rounded-full overflow-hidden flex">
@@ -1126,7 +1126,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
 
               <div className="text-xs text-slate-300 bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
                 <p>
-                  <strong className="text-cyan-400">Electron Withdrawing Groups (-I, -R):</strong> Disperse negative charge on RCOO⁻ → Stabilize conjugate base → <strong>INCREASE Acidity</strong>.
+                  <strong className="text-gold-400">Electron Withdrawing Groups (-I, -R):</strong> Disperse negative charge on RCOO⁻ → Stabilize conjugate base → <strong>INCREASE Acidity</strong>.
                 </p>
                 <p>
                   <strong className="text-rose-400">Electron Donating Groups (+I):</strong> Intensify negative charge on RCOO⁻ → Destabilize conjugate base → <strong>DECREASE Acidity</strong>.
@@ -1148,7 +1148,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                     setTestResult(null);
                   }}
                   className={`flex-1 py-2 rounded-xl text-xs font-bold border ${
-                    activeTest === 'tollens' ? 'bg-cyan-600 text-white border-cyan-500' : 'bg-slate-950 border-slate-800 text-slate-400'
+                    activeTest === 'tollens' ? 'bg-gold-600 text-white border-gold-500' : 'bg-slate-950 border-slate-800 text-slate-400'
                   }`}
                 >
                   Tollens' Test
@@ -1192,7 +1192,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                         setTestResult(null);
                       }}
                       className={`p-2 rounded-xl text-xs font-bold capitalize border ${
-                        testSubstrate === sub ? 'bg-slate-800 border-cyan-400 text-cyan-300' : 'bg-slate-950 border-slate-800 text-slate-500'
+                        testSubstrate === sub ? 'bg-slate-800 border-gold-400 text-gold-300' : 'bg-slate-950 border-slate-800 text-slate-500'
                       }`}
                     >
                       {sub}
@@ -1204,7 +1204,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
               {/* Run Test Action */}
               <button
                 onClick={runDiagnosticTest}
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-white shadow-lg hover:brightness-110 active:scale-[0.98] transition-all text-xs"
+                className="w-full py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-white shadow-lg hover:brightness-110 active:scale-[0.98] transition-all text-xs"
               >
                 ▶ Run Reaction Test in Beaker
               </button>
@@ -1214,9 +1214,9 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                 <motion.div
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  className="bg-slate-950 p-4 rounded-xl border border-cyan-800/80 text-xs text-slate-200"
+                  className="bg-slate-950 p-4 rounded-xl border border-gold-800/80 text-xs text-slate-200"
                 >
-                  <p className="font-bold text-cyan-400 mb-1">Laboratory Observation:</p>
+                  <p className="font-bold text-gold-400 mb-1">Laboratory Observation:</p>
                   <p>{testResult}</p>
                 </motion.div>
               )}
@@ -1230,7 +1230,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
             {/* Progress Header */}
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   CBSE Mastery Challenge {currentChallengeIdx + 1} of {CHALLENGE_QUESTIONS.length}
                 </span>
                 <p className="text-xs text-slate-400 font-mono mt-0.5">Node: {currentChallenge.nodeId}</p>
@@ -1247,7 +1247,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                         : challengeScores[q.id] === false
                         ? 'bg-rose-500'
                         : idx === currentChallengeIdx
-                        ? 'bg-cyan-400 animate-pulse'
+                        ? 'bg-gold-400 animate-pulse'
                         : 'bg-slate-800'
                     }`}
                   />
@@ -1298,7 +1298,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
                   audioManager.play('chime');
                   setShowHint(prev => !prev);
                 }}
-                className="text-xs font-semibold text-cyan-400 hover:underline flex items-center gap-1"
+                className="text-xs font-semibold text-gold-400 hover:underline flex items-center gap-1"
               >
                 💡 {showHint ? 'Hide CBSE Hint' : 'Show CBSE Hint'}
               </button>
@@ -1306,7 +1306,7 @@ export const C12_ChemistryAldehydesKetonesandCarboxylicACBSESim: React.FC = () =
               {showAnswerFeedback && (
                 <button
                   onClick={handleNextChallenge}
-                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-white text-xs hover:brightness-110 active:scale-95 transition-all shadow-md"
+                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 font-bold text-white text-xs hover:brightness-110 active:scale-95 transition-all shadow-md"
                 >
                   {currentChallengeIdx < CHALLENGE_QUESTIONS.length - 1 ? 'Next Question →' : 'Complete Challenge Module 🎉'}
                 </button>

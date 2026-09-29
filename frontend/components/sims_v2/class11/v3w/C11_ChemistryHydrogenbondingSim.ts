@@ -11,7 +11,7 @@ export const w_c11_chemistryhydrogenbondingsim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Hydrogen Bonding: Intermolecular and Intramolecular',
     chapters: [],
     nodeIds: ['c11_chem_cbse_04_010', 'c11_chem_cbse_09_001', 'c11_chem_cbse_09_002', 'c11_chem_cbse_09_004', 'c11_chem_cbse_09_005', 'c11_chem_cbse_09_006', 'c11_chem_cbse_09_007', 'c11_chem_cbse_08_002', 'c11_chem_cbse_05_001', 'c11_chem_cbse_05_002', 'c11_chem_cbse_05_003', 'c11_chem_cbse_05_013', 'c11_chem_cbse_02_009', 'c11_chem_cbse_04_001', 'c11_chem_cbse_04_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe that water boils at 100 °C while hydrogen sulfide (H₂S, molar mass 34 g mol⁻¹, similar to water\'s 18.', goal: 'Master Hydrogen Bonding: Intermolecular and Intramolecular.' },
     discovery: {
         question: 'Write the electronic configuration of hydrogen and state the two ions it can form by losing or gaining one electron.',
@@ -20,7 +20,7 @@ export const w_c11_chemistryhydrogenbondingsim: SimDef = {
         hook: 'Students often think "hydrogen is a metal because it forms H⁺ ions" or "hydrogen is a non-metal because it\'s a gas at.',
     },
     teaching: [
-        { title: 'Hydrogen bonding is a special type of.', text: 'Hydrogen bonding is a special type of dipole-dipole interaction that occurs when a hydrogen atom covalently bonded to a highly electronegative atom (nitrogen, oxygen, or fluorine) experiences an.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Hydrogen bonding is a special type of.', text: 'Hydrogen bonding is a special type of dipole-dipole interaction that occurs when a hydrogen atom covalently bonded to a highly electronegative atom (nitrogen, oxygen, or fluorine) experiences an.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_04_010', title: 'Hydrogen bonding is a special type of.',

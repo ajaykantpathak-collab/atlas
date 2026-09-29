@@ -61,7 +61,7 @@ export const c3Water: SimDef = {
     id: 'c3_water', title: 'Water O\' Water!', subtitle: 'Where does water go?',
     classLevel: 3, subject: 'evs', topic: 'Water',
     chapters: ['Looking Around Ch3: Water O\' Water!', 'Ch20: Drop by Drop'],
-    emoji: '💧', theme: { bg: 'from-blue-100 to-cyan-200', accent: 'blue', scene: 'water' },
+    emoji: '💧', theme: { bg: 'from-gold-100 to-gold-200', accent: 'blue', scene: 'water' },
     scenario: { role: "a water-detective", intro: "Water evaporates and cycles — trace it!", goal: "Follow the water cycle." },
     discovery: {
         question: "When you leave a wet cloth out, where does the water go?",
@@ -71,10 +71,10 @@ export const c3Water: SimDef = {
     },
     observe: { prompt: "What happened to water when it got warm?", options: ["Turned to vapour", "Turned to ice", "Stayed"], answer: "Turned to vapour" },
     teaching: [
-        { title: 'Water is Precious! 💧', text: 'Only a tiny bit of Earth\'s water is drinkable. Rivers, ponds, wells, rain — we must save every drop!', emoji: '💧', bgColor: 'from-blue-400 to-cyan-500' },
-        { title: 'Water Changes! 🔄', text: 'Water evaporates into vapour, cools into rain, freezes into ice. The same water keeps cycling!', emoji: '🔄', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Water is Precious! 💧', text: 'Only a tiny bit of Earth\'s water is drinkable. Rivers, ponds, wells, rain — we must save every drop!', emoji: '💧', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Water Changes! 🔄', text: 'Water evaporates into vapour, cools into rain, freezes into ice. The same water keeps cycling!', emoji: '🔄', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Sources of Water 🏞️', text: 'Rain, rivers, lakes, ponds, wells, taps — where does YOUR water come from?', emoji: '🏞️', bgColor: 'from-teal-400 to-emerald-500' },
-        { title: 'Save Water 🚰', text: 'Turn off taps, fix leaks, reuse water. Drop by drop, we fill the pot — or waste it!', emoji: '🚰', bgColor: 'from-indigo-400 to-violet-500' },
+        { title: 'Save Water 🚰', text: 'Turn off taps, fix leaks, reuse water. Drop by drop, we fill the pot — or waste it!', emoji: '🚰', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { lab: "cycle", prompt: "Try the lab — what do you discover?" },
     challenges: [
@@ -123,7 +123,7 @@ export const c3Animals: SimDef = {
     },
     teaching: [
         { title: 'Animals are Our Friends! 🐘', text: 'Animals help us, live with us, and fill our world. Poonam saw so many on her day out!', emoji: '🐘', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'How They Move 🦅', text: 'Birds fly with wings, fish swim with fins, snakes slither, frogs hop, cheetahs run fast!', emoji: '🦅', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'How They Move 🦅', text: 'Birds fly with wings, fish swim with fins, snakes slither, frogs hop, cheetahs run fast!', emoji: '🦅', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'What They Eat 🌾', text: 'Some animals eat plants (herbivores like cows), some eat meat (carnivores like tigers), some eat both!', emoji: '🌾', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'Care for Animals ❤️', text: 'Animals feel pain and fear like us. Give them water, never hurt them, protect their homes!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
     ],
@@ -175,8 +175,8 @@ export const c3Family: SimDef = {
     },
     teaching: [
         { title: 'Families are Different! 👨‍👩‍👧', text: 'Some families are big, some small. Some have grandparents, some have just parents. Every family is special!', emoji: '👨‍👩‍👧', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Our First School 🏫', text: 'School is where we learn and make friends. Teachers, classmates, helpers — our school family!', emoji: '🏫', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Sharing Feelings 💗', text: 'Happy, sad, angry, scared — we all have feelings. Sharing them helps everyone understand each other!', emoji: '💗', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Our First School 🏫', text: 'School is where we learn and make friends. Teachers, classmates, helpers — our school family!', emoji: '🏫', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Sharing Feelings 💗', text: 'Happy, sad, angry, scared — we all have feelings. Sharing them helps everyone understand each other!', emoji: '💗', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: "tray", prompt: "Who is in your family?" },
     challenges: [
@@ -213,7 +213,7 @@ export const c3Shelter: SimDef = {
     },
     teaching: [
         { title: 'Many Kinds of Homes! 🏠', text: 'Huts, flats, igloos, houseboats, tents — homes differ by place, weather, and how people live!', emoji: '🏠', bgColor: 'from-orange-400 to-amber-500' },
-        { title: 'Homes Fit the Weather 🌦️', text: 'Houses in rainy places have sloping roofs. Houses in hot places stay cool. Igloos keep warm in snow!', emoji: '🌦️', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Homes Fit the Weather 🌦️', text: 'Houses in rainy places have sloping roofs. Houses in hot places stay cool. Igloos keep warm in snow!', emoji: '🌦️', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'A Home is More Than Walls ❤️', text: 'A home has family, love, and care. Chhotu made his home in a pipe — but a real home has family!', emoji: '❤️', bgColor: 'from-rose-400 to-pink-500' },
     ],
     explore: { widget: "tray", prompt: "Match houses to places!" },
@@ -241,7 +241,7 @@ export const c3Senses: SimDef = {
     id: 'c3_senses', title: 'Saying Without Speaking', subtitle: 'Sense and signal!',
     classLevel: 3, subject: 'evs', topic: 'Communication and Senses',
     chapters: ['Looking Around Ch7: Saying without Speaking'],
-    emoji: '🗣️', theme: { bg: 'from-violet-100 to-purple-200', accent: 'violet', scene: 'senses' },
+    emoji: '🗣️', theme: { bg: 'from-gold-100 to-purple-200', accent: 'violet', scene: 'senses' },
     scenario: { role: "a signal-reader", intro: "We talk without words — read body language!", goal: "Read every signal." },
     discovery: {
         question: "Can a smile tell someone something - without any words?",
@@ -250,8 +250,8 @@ export const c3Senses: SimDef = {
         hook: "We say a lot without words! Let's learn signals.",
     },
     teaching: [
-        { title: 'Talking Without Words! 🗣️', text: 'A smile, a frown, a wave, a thumbs-up — we can say a lot without speaking!', emoji: '🗣️', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'Body Language 🙋', text: 'Crossed arms, a hug, a nod — our body speaks. Reading faces and gestures is a skill!', emoji: '🙋', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Talking Without Words! 🗣️', text: 'A smile, a frown, a wave, a thumbs-up — we can say a lot without speaking!', emoji: '🗣️', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'Body Language 🙋', text: 'Crossed arms, a hug, a nod — our body speaks. Reading faces and gestures is a skill!', emoji: '🙋', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Signs and Signals 🚦', text: 'Traffic lights, signboards, symbols — they tell us things without words!', emoji: '🚦', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: "tray", prompt: "Show feelings with faces!" },
@@ -290,7 +290,7 @@ export const c3Waste: SimDef = {
     teaching: [
         { title: 'Three R\'s! ♻️', text: 'Reduce (use less), Reuse (use again), Recycle (make new from old). These keep our Earth clean!', emoji: '♻️', bgColor: 'from-emerald-400 to-green-500' },
         { title: 'Wet and Dry Waste 🗑️', text: 'Wet waste = food scraps, peels (can become compost). Dry waste = paper, plastic, metal (can be recycled)!', emoji: '🗑️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Old Becomes New 🔄', text: 'Old paper becomes new paper. Old plastic becomes new things. A beautiful cloth can become a quilt!', emoji: '🔄', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Old Becomes New 🔄', text: 'Old paper becomes new paper. Old plastic becomes new things. A beautiful cloth can become a quilt!', emoji: '🔄', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: "tray", prompt: "Sort the waste — wet or dry?" },
     challenges: [

@@ -212,7 +212,7 @@ export function C10_ScienceHereditySim() {
 
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-3">
-            {picker('Parent 1 genotype', p1, setP1, 'bg-sky-600')}
+            {picker('Parent 1 genotype', p1, setP1, 'bg-gold-600')}
             {picker('Parent 2 genotype', p2, setP2, 'bg-pink-600')}
             <div className="grid grid-cols-2 gap-2">
               <button onClick={sampleOffspring}

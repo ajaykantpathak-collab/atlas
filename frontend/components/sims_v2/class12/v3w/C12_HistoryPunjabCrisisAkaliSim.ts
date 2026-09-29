@@ -11,7 +11,7 @@ export const w_c12_historypunjabcrisisakalisim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the Jallianwala Bagh memorial in Amritsar today — the bullet marks on the walls,.', goal: 'Master The Rowlatt Satyagraha (1919): The Act, the Hartal and Jallianwala Bagh.' },
     discovery: {
         question: 'What was the specific date of the Jallianwala Bagh massacre, who gave the firing order, and what was the crowd gathered for?',
@@ -20,7 +20,7 @@ export const w_c12_historypunjabcrisisakalisim: SimDef = {
         hook: '**Three specific errors:** (1) **Conflating the Rowlatt Act with the Defence of India Act (1915)** — Students think the.',
     },
     teaching: [
-        { title: 'The Rowlatt Satyagraha (March–April 1919).', text: 'The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest organised by Mahatma Gandhi against the Rowlatt Act (Anarchical and Revolutionary Crimes Act, 1919), which extended.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Rowlatt Satyagraha (March–April 1919).', text: 'The Rowlatt Satyagraha (March–April 1919) was the first all-India mass protest organised by Mahatma Gandhi against the Rowlatt Act (Anarchical and Revolutionary Crimes Act, 1919), which extended.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_11_002', title: 'The Rowlatt Satyagraha (March–April.',

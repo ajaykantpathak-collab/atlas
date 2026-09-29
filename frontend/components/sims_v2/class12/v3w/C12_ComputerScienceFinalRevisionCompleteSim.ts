@@ -11,7 +11,7 @@ export const w_c12_computersciencefinalrevisioncompletesim: SimDef = {
     classLevel: 12, subject: 'computer_science', topic: 'Exception Handling in Database Connectivity',
     chapters: [],
     nodeIds: ['c12_cs_cbse_06_010', 'c12_cs_cbse_10_010', 'c12_cs_cbse_06_008', 'c12_cs_cbse_10_005', 'c12_cs_cbse_08_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are building an online fee-payment portal for your school.', goal: 'Master Exception Handling in Database Connectivity.' },
     discovery: {
         question: 'What is the base exception class for all mysql.connector errors, and which two specific subclasses would you catch to distinguish between "lost network.',
@@ -20,7 +20,7 @@ export const w_c12_computersciencefinalrevisioncompletesim: SimDef = {
         hook: 'Students believe `except mysql.connector.Error:` catches **only** database-related errors and is therefore "specific.',
     },
     teaching: [
-        { title: 'Exception handling in database connectivity.', text: 'Exception handling in database connectivity is the practice of using Python\'s try-except-else-finally blocks to catch and manage runtime errors (such as connection failures, SQL syntax errors,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Exception handling in database connectivity.', text: 'Exception handling in database connectivity is the practice of using Python\'s try-except-else-finally blocks to catch and manage runtime errors (such as connection failures, SQL syntax errors,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_cs_cbse_06_010', title: 'Exception handling in database.',

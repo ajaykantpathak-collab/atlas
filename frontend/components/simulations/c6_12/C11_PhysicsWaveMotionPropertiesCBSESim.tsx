@@ -847,7 +847,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
       <header className="w-full max-w-6xl bg-slate-900/90 backdrop-blur border border-slate-800 rounded-2xl p-4 md:p-6 mb-6 flex flex-col md:flex-row items-center justify-between gap-4 shadow-2xl">
         <div>
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 bg-blue-500/20 text-blue-400 border border-blue-500/30 text-xs font-semibold rounded-full uppercase tracking-wider">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 border border-gold-500/30 text-xs font-semibold rounded-full uppercase tracking-wider">
               CBSE Class 11 Physics
             </span>
             <span className="text-xs text-slate-400">Chapter: Waves & Acoustics</span>
@@ -889,7 +889,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
             }}
             className={`px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30 scale-105'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30 scale-105'
                 : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200 border border-slate-800'
             }`}
           >
@@ -926,7 +926,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                 }}
                 className={`w-full text-left p-4 rounded-xl border transition-all duration-200 flex items-center justify-between ${
                   discoverySelected === idx
-                    ? 'bg-blue-600/20 border-blue-500 text-blue-200 font-medium'
+                    ? 'bg-gold-600/20 border-gold-500 text-gold-200 font-medium'
                     : 'bg-slate-950/60 border-slate-800 hover:bg-slate-800/60 text-slate-300'
                 }`}
               >
@@ -944,7 +944,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
               disabled={discoverySelected === null}
               className={`w-full py-3.5 rounded-xl font-bold text-lg transition-all ${
                 discoverySelected !== null
-                  ? 'bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30'
+                  ? 'bg-gold-600 hover:bg-gold-500 text-white shadow-lg shadow-gold-600/30'
                   : 'bg-slate-800 text-slate-500 cursor-not-allowed'
               }`}
             >
@@ -1029,7 +1029,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                     setSlideIndex(idx);
                   }}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    slideIndex === idx ? 'bg-blue-500 w-6' : 'bg-slate-700'
+                    slideIndex === idx ? 'bg-gold-500 w-6' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1041,7 +1041,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                   audioManager.play('tap');
                   setSlideIndex(slideIndex + 1);
                 }}
-                className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm rounded-xl shadow-lg shadow-blue-600/30 transition-all"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-semibold text-sm rounded-xl shadow-lg shadow-gold-600/30 transition-all"
               >
                 Next Concept →
               </button>
@@ -1083,7 +1083,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                 }}
                 className={`px-4 py-2 rounded-xl text-sm font-bold transition-all ${
                   simMode === mode.id
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/30'
+                    ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                     : 'bg-slate-950 text-slate-400 border border-slate-800 hover:bg-slate-800'
                 }`}
               >
@@ -1108,14 +1108,14 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
               <>
                 <div>
                   <label className="text-xs font-semibold text-slate-400 block mb-2">
-                    Wave Type: <span className="text-blue-400 font-bold capitalize">{waveType}</span>
+                    Wave Type: <span className="text-gold-400 font-bold capitalize">{waveType}</span>
                   </label>
                   <div className="flex gap-2">
                     <button
                       onClick={() => setWaveType('transverse')}
                       className={`flex-1 py-2 text-xs font-bold rounded-lg border ${
                         waveType === 'transverse'
-                          ? 'bg-blue-600 border-blue-500 text-white'
+                          ? 'bg-gold-600 border-gold-500 text-white'
                           : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1125,7 +1125,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                       onClick={() => setWaveType('longitudinal')}
                       className={`flex-1 py-2 text-xs font-bold rounded-lg border ${
                         waveType === 'longitudinal'
-                          ? 'bg-blue-600 border-blue-500 text-white'
+                          ? 'bg-gold-600 border-gold-500 text-white'
                           : 'bg-slate-900 border-slate-800 text-slate-400'
                       }`}
                     >
@@ -1145,7 +1145,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                     max={50}
                     value={amplitude}
                     onChange={(e) => setAmplitude(Number(e.target.value))}
-                    className="w-full accent-blue-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
 
@@ -1161,7 +1161,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                     step={0.1}
                     value={frequency}
                     onChange={(e) => setFrequency(Number(e.target.value))}
-                    className="w-full accent-blue-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </>
@@ -1204,7 +1204,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                     step={0.1}
                     value={frequency}
                     onChange={(e) => setFrequency(Number(e.target.value))}
-                    className="w-full accent-blue-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </>
@@ -1287,7 +1287,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 border-b border-slate-800 pb-4">
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-blue-400 px-2.5 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full">
+                <span className="text-xs font-bold uppercase tracking-wider text-gold-400 px-2.5 py-1 bg-gold-500/10 border border-gold-500/20 rounded-full">
                   Challenge {challengeIndex + 1} of {CHALLENGES.length}
                 </span>
                 <span
@@ -1319,7 +1319,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                     onClick={() => handleSelectOption(idx)}
                     className={`w-full text-left p-4 rounded-xl border transition-all duration-200 flex items-center justify-between ${
                       selectedOption === idx
-                        ? 'bg-blue-600/20 border-blue-500 text-blue-200 font-medium'
+                        ? 'bg-gold-600/20 border-gold-500 text-gold-200 font-medium'
                         : 'bg-slate-950/60 border-slate-800 hover:bg-slate-800/60 text-slate-300'
                     }`}
                   >
@@ -1348,7 +1348,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                       setNumericAnswer(e.target.value);
                     }}
                     placeholder="Type number here..."
-                    className="flex-1 bg-slate-950 border border-slate-800 text-white font-mono text-lg rounded-xl p-3 focus:outline-none focus:border-blue-500"
+                    className="flex-1 bg-slate-950 border border-slate-800 text-white font-mono text-lg rounded-xl p-3 focus:outline-none focus:border-gold-500"
                   />
                   <span className="self-center font-bold text-slate-400 text-base">
                     {currentChallenge.unit}
@@ -1365,7 +1365,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                   {currentChallenge.dragItems.map((item, idx) => (
                     <div
                       key={idx}
-                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs font-semibold text-blue-300 flex items-center justify-between"
+                      className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs font-semibold text-gold-300 flex items-center justify-between"
                     >
                       <span>{item.label}</span>
                       <div className="flex gap-1">
@@ -1373,7 +1373,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                           <button
                             key={targetId}
                             onClick={() => handleDragAssign(targetId, item.label)}
-                            className="px-2 py-1 bg-blue-600/30 hover:bg-blue-600 text-[10px] text-white rounded"
+                            className="px-2 py-1 bg-gold-600/30 hover:bg-gold-600 text-[10px] text-white rounded"
                           >
                             Assign → {targetId.replace('target_', '')}
                           </button>
@@ -1415,7 +1415,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
                 (currentChallenge.type === 'classify' && selectedOption !== null) ||
                 (currentChallenge.type === 'numeric' && numericAnswer.trim()) ||
                 currentChallenge.type === 'drag-label'
-                  ? 'bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30'
+                  ? 'bg-gold-600 hover:bg-gold-500 text-white shadow-lg shadow-gold-600/30'
                   : 'bg-slate-800 text-slate-500 cursor-not-allowed'
               }`}
             >
@@ -1439,7 +1439,7 @@ export default function C11_PhysicsWaveMotionPropertiesCBSESim() {
               {challengeIndex < CHALLENGES.length - 1 ? (
                 <button
                   onClick={handleNextChallenge}
-                  className="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 transition-all"
+                  className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 transition-all"
                 >
                   Next Challenge →
                 </button>

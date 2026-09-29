@@ -1321,7 +1321,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                         }}
                         className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
                           microbeType === 'yeast'
-                            ? 'bg-sky-900/70 border-sky-500 text-sky-200'
+                            ? 'bg-gold-900/70 border-gold-500 text-gold-200'
                             : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
@@ -1370,7 +1370,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                     <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 space-y-1.5">
                       <div className="flex justify-between text-xs font-semibold">
                         <span className="text-slate-300">Sugar / Lactose Substrate</span>
-                        <span className="text-sky-400 font-mono">{bioSugar} %</span>
+                        <span className="text-gold-400 font-mono">{bioSugar} %</span>
                       </div>
                       <input
                         type="range"
@@ -1378,15 +1378,15 @@ function C8_BiologyMicrobesFoodProductionSim({
                         max={100}
                         value={bioSugar}
                         onChange={(e) => handleBioSugarChange(Number(e.target.value))}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Sugar concentration slider"
                       />
                     </div>
 
                     {/* Predict-then-Check Sub-Widget */}
                     {!predictionMade && (
-                      <motion.div className="p-3.5 bg-indigo-950/40 rounded-xl border border-indigo-800/50 space-y-2">
-                        <p className="text-xs font-bold text-indigo-300">{PREDICTION_QUESTIONS[0].question}</p>
+                      <motion.div className="p-3.5 bg-gold-950/40 rounded-xl border border-gold-800/50 space-y-2">
+                        <p className="text-xs font-bold text-gold-300">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-1.5">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1394,7 +1394,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                               whileHover={{ scale: 1.01 }}
                               whileTap={{ scale: 0.99 }}
                               onClick={() => handlePrediction(i)}
-                              className="w-full text-left p-2 rounded-lg bg-slate-900 hover:bg-indigo-900/50 text-[11px] text-slate-300 border border-slate-800"
+                              className="w-full text-left p-2 rounded-lg bg-slate-900 hover:bg-gold-900/50 text-[11px] text-slate-300 border border-slate-800"
                             >
                               {opt}
                             </motion.button>
@@ -1419,10 +1419,10 @@ function C8_BiologyMicrobesFoodProductionSim({
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <div className="flex justify-between text-xs text-slate-400">
                           <span>CO2 Bubble Release</span>
-                          <span className="font-mono text-sky-400">{co2Rate}%</span>
+                          <span className="font-mono text-gold-400">{co2Rate}%</span>
                         </div>
                         <div className="h-2 bg-slate-800 rounded-full mt-1.5 overflow-hidden">
-                          <motion.div className="h-full bg-sky-400 rounded-full" animate={{ width: `${co2Rate}%` }} />
+                          <motion.div className="h-full bg-gold-400 rounded-full" animate={{ width: `${co2Rate}%` }} />
                         </div>
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
@@ -1487,7 +1487,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                           audioManager.play('tap');
                         }}
                         className={`flex-1 py-2.5 rounded-xl text-xs font-bold border ${
-                          selectedSeason === 'rabi' ? 'bg-sky-900/60 border-sky-500 text-sky-200' : 'bg-slate-800 border-slate-700 text-slate-400'
+                          selectedSeason === 'rabi' ? 'bg-gold-900/60 border-gold-500 text-gold-200' : 'bg-slate-800 border-slate-700 text-slate-400'
                         }`}
                       >
                         ❄️ Rabi Season (Winter: Nov-April)
@@ -1542,7 +1542,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                             audioManager.play('tap');
                           }}
                           className={`flex-1 py-1.5 rounded-lg text-xs font-bold ${
-                            soilInputType === 'synthetic' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            soilInputType === 'synthetic' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           🧪 Synthetic NPK Fertilizer
@@ -1579,7 +1579,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   {/* Card 1: Dairy & White Revolution */}
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                    <h3 className="text-sm font-bold text-sky-300 flex items-center gap-1.5">
+                    <h3 className="text-sm font-bold text-gold-300 flex items-center gap-1.5">
                       <span>🐄</span> Dairy & White Revolution
                     </h3>
                     <p className="text-xs text-slate-400">Dr. Verghese Kurien / Amul Cooperative Model with Murrah Buffaloes & Gir Cows.</p>
@@ -1591,11 +1591,11 @@ function C8_BiologyMicrobesFoodProductionSim({
                         max={100}
                         value={dairyCareScore}
                         onChange={(e) => setDairyCareScore(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                         aria-label="Dairy hygiene slider"
                       />
                     </div>
-                    <p className="text-xs font-mono text-sky-400">Daily Milk Yield: {(dairyCareScore * 0.35).toFixed(1)} L/cow</p>
+                    <p className="text-xs font-mono text-gold-400">Daily Milk Yield: {(dairyCareScore * 0.35).toFixed(1)} L/cow</p>
                   </div>
 
                   {/* Card 2: Poultry Broiler vs Layer */}
@@ -1640,7 +1640,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                       <span>🐟</span> Composite Fish Culture
                     </h3>
                     <div className="text-xs space-y-1.5">
-                      <div className="p-1.5 bg-slate-900 rounded border border-slate-800 text-sky-300">Surface Feeder: {pondLayers.surface}</div>
+                      <div className="p-1.5 bg-slate-900 rounded border border-slate-800 text-gold-300">Surface Feeder: {pondLayers.surface}</div>
                       <div className="p-1.5 bg-slate-900 rounded border border-slate-800 text-emerald-300">Column Feeder: {pondLayers.column}</div>
                       <div className="p-1.5 bg-slate-900 rounded border border-slate-800 text-amber-300">Bottom Feeder: {pondLayers.bottom}</div>
                     </div>
@@ -1709,7 +1709,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                           <strong className="text-emerald-400">2. Meristematic Zone:</strong> Actively dividing apical cells adding root length.
                         </div>
                         <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
-                          <strong className="text-sky-400">3. Region of Maturation:</strong> Unicellular tubular root hairs maximize surface area for water & mineral salt absorption.
+                          <strong className="text-gold-400">3. Region of Maturation:</strong> Unicellular tubular root hairs maximize surface area for water & mineral salt absorption.
                         </div>
                       </div>
                     </div>
@@ -1936,19 +1936,19 @@ function C8_BiologyMicrobesFoodProductionSim({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Bioreactor controls */}
             <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-xs font-bold text-sky-400 uppercase">1. Bioreactor Temp & Substrate</h3>
+              <h3 className="text-xs font-bold text-gold-400 uppercase">1. Bioreactor Temp & Substrate</h3>
               <input
                 type="range"
                 min={5}
                 max={65}
                 value={bioTemp}
                 onChange={(e) => handleBioTempChange(Number(e.target.value))}
-                className="w-full accent-sky-500"
+                className="w-full accent-gold-500"
                 aria-label="Sandbox bioreactor temperature slider"
               />
               <div className="flex justify-between text-xs font-mono">
                 <span className="text-slate-400">Temp: {bioTemp}°C</span>
-                <span className="text-sky-300">{fermentStatus}</span>
+                <span className="text-gold-300">{fermentStatus}</span>
               </div>
             </div>
 
@@ -2003,7 +2003,7 @@ function C8_BiologyMicrobesFoodProductionSim({
                       ? 'bg-emerald-950 border-emerald-600 text-emerald-300'
                       : difficulty === 'advanced'
                       ? 'bg-rose-950 border-rose-600 text-rose-300'
-                      : 'bg-sky-950 border-sky-600 text-sky-300'
+                      : 'bg-gold-950 border-gold-600 text-gold-300'
                   }`}
                 >
                   {difficulty}
@@ -2023,13 +2023,13 @@ function C8_BiologyMicrobesFoodProductionSim({
           {/* Animated Progress Track */}
           <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-sky-400"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-400"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -2358,7 +2358,7 @@ function C8_BiologyMicrobesFoodProductionSim({
               </div>
               <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                 <p className="text-xs text-slate-400">BKT Competency Tier</p>
-                <p className="text-2xl font-black text-sky-400 uppercase font-mono">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-400 uppercase font-mono">{masteryLevel}</p>
               </div>
             </div>
           </div>
@@ -2439,7 +2439,7 @@ function C8_BiologyMicrobesFoodProductionSim({
 
           {/* Capstone Real-World Activity */}
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-sky-300 flex items-center gap-2">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

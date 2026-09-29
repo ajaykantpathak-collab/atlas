@@ -883,7 +883,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
     if (errors <= 3) {
       return {
         badge: 'Great work!',
-        color: 'text-blue-400 border-blue-500 bg-blue-950/60',
+        color: 'text-gold-400 border-gold-500 bg-gold-950/60',
         detail: 'Excellent effort! You have a solid grasp of Economic vs Social infrastructure synergy and Consumer Redressal legal frameworks.',
       };
     }
@@ -1210,17 +1210,17 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
       exit={{ opacity: 0, y: -20 }}
       className="space-y-6"
     >
-      <div className="p-6 bg-gradient-to-br from-indigo-950/80 to-slate-900 border border-indigo-700/60 rounded-2xl shadow-xl">
+      <div className="p-6 bg-gradient-to-br from-gold-950/80 to-slate-900 border border-gold-700/60 rounded-2xl shadow-xl">
         <div className="flex items-center gap-3 mb-3">
-          <span className="p-2 bg-indigo-600/30 rounded-xl text-2xl border border-indigo-500/30">🌾</span>
+          <span className="p-2 bg-gold-600/30 rounded-xl text-2xl border border-gold-500/30">🌾</span>
           <div>
-            <h2 className="text-xl font-bold text-indigo-200">{SCENARIO.title}</h2>
-            <p className="text-xs text-indigo-300">CISCE Class 9 Economics Applications • Interactive Simulation</p>
+            <h2 className="text-xl font-bold text-gold-200">{SCENARIO.title}</h2>
+            <p className="text-xs text-gold-300">CISCE Class 9 Economics Applications • Interactive Simulation</p>
           </div>
         </div>
         <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
         <div className="mt-4 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-slate-400">
-          <strong className="text-indigo-400">Policy Brief: </strong>{SCENARIO.context}
+          <strong className="text-gold-400">Policy Brief: </strong>{SCENARIO.context}
         </div>
       </div>
 
@@ -1244,7 +1244,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                     ? isChosen
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : 'bg-slate-900/60 border-slate-800 text-slate-400 opacity-60'
-                    : 'bg-slate-900 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-850'
+                    : 'bg-slate-900 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-850'
                 }`}
               >
                 <span>{option}</span>
@@ -1258,16 +1258,16 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
-            className="mt-6 p-4 bg-indigo-950/50 border border-indigo-700/50 rounded-xl"
+            className="mt-6 p-4 bg-gold-950/50 border border-gold-700/50 rounded-xl"
           >
-            <p className="text-sm text-indigo-200 mb-4">
+            <p className="text-sm text-gold-200 mb-4">
               {discoveryCorrect ? "✨ Brilliant intuition!" : "💡 A great learning moment!"} {DISCOVERY_QUESTION.hintAfter}
             </p>
             <motion.button
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.96 }}
               onClick={handleAdvanceToExploration}
-              className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-md flex items-center gap-2"
+              className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-md flex items-center gap-2"
             >
               Enter Interactive Labs →
             </motion.button>
@@ -1294,7 +1294,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
         {/* Step Header */}
         <div className="flex items-center justify-between p-4 bg-slate-800/90 border border-slate-700 rounded-2xl">
           <div>
-            <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400">Exploration Lab {currentSlide + 1} of 5</span>
+            <span className="text-xs font-semibold uppercase tracking-wider text-gold-400">Exploration Lab {currentSlide + 1} of 5</span>
             <h3 className="text-lg font-bold text-white">{step.title}</h3>
             <p className="text-xs text-amber-300 mt-0.5">👉 {step.instruction}</p>
           </div>
@@ -1383,7 +1383,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
               </svg>
 
               <div className="w-full mt-4 p-4 bg-slate-950/80 rounded-xl border border-slate-800 text-xs text-slate-300">
-                <span className="font-bold text-indigo-400">Interdependence Analysis: </span>
+                <span className="font-bold text-gold-400">Interdependence Analysis: </span>
                 {flowStage === 'primary' && "The Primary sector extracts raw materials (cotton, sugarcane, milk). It depends on Secondary for tractors/fertilizers and Tertiary for crop insurance and freight."}
                 {flowStage === 'secondary' && "The Secondary sector manufactures finished cloth and processed butter. It depends entirely on Primary supply and Tertiary marketing/transport."}
                 {flowStage === 'tertiary' && "The Tertiary sector distributes goods (railways, retail). If primary cotton yields drop, railway freight loads fall and retail prices rise."}
@@ -1398,7 +1398,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
           <div className="p-6 bg-slate-950 border border-slate-800 rounded-2xl space-y-6">
             {/* SVG DIAGRAM 2: Economic vs Social Infrastructure Seesaw / Fulcrum */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex flex-col items-center">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 mb-2">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-300 mb-2">
                 Infrastructure Dual Pillars & Synergy Bridge
               </span>
               <svg viewBox="0 0 650 200" className="w-full max-w-2xl">
@@ -1443,7 +1443,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 space-y-4">
                 <div className="flex justify-between items-center text-xs">
-                  <span className="text-blue-400 font-bold">🛣️ Economic Infra: {infraEconomicShare}%</span>
+                  <span className="text-gold-400 font-bold">🛣️ Economic Infra: {infraEconomicShare}%</span>
                   <span className="text-emerald-400 font-bold">🏥 Social Infra: {100 - infraEconomicShare}%</span>
                 </div>
                 <input
@@ -1456,7 +1456,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                     setInfraEconomicShare(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <div className="flex justify-between text-[10px] text-slate-400">
                   <span>100% Highways/Power</span>
@@ -1498,7 +1498,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                           whileHover={{ scale: 1.01 }}
                           whileTap={{ scale: 0.99 }}
                           onClick={() => handlePrediction(i)}
-                          className="w-full text-left p-2.5 bg-slate-950 border border-slate-800 rounded-lg text-xs text-slate-300 hover:border-indigo-500"
+                          className="w-full text-left p-2.5 bg-slate-950 border border-slate-800 rounded-lg text-xs text-slate-300 hover:border-gold-500"
                         >
                           {opt}
                         </motion.button>
@@ -1538,7 +1538,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400">Capital Investment (ΔI)</span>
-                <div className="text-2xl font-bold text-indigo-400 mt-1">₹{infraSpendingCr.toLocaleString()} Cr</div>
+                <div className="text-2xl font-bold text-gold-400 mt-1">₹{infraSpendingCr.toLocaleString()} Cr</div>
                 <input
                   type="range"
                   min={1000}
@@ -1550,7 +1550,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                     setInfraSpendingCr(Number(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full mt-3 accent-indigo-500"
+                  className="w-full mt-3 accent-gold-500"
                 />
               </div>
 
@@ -1617,7 +1617,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                   <div className="text-xs uppercase font-bold text-amber-400">{stall.tag}</div>
                   <div className="text-sm font-bold text-white mt-1">{stall.title}</div>
                   <div className="text-xs text-slate-400 mt-2">{stall.issue}</div>
-                  <div className="mt-3 text-[11px] text-indigo-400 font-semibold">
+                  <div className="mt-3 text-[11px] text-gold-400 font-semibold">
                     {inspectedStalls[stall.id] ? '✓ Inspected by Enforcement' : '🔍 Click to Inspect'}
                   </div>
                 </motion.button>
@@ -1644,7 +1644,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
           <div className="p-6 bg-slate-950 border border-slate-800 rounded-2xl space-y-6">
             {/* SVG DIAGRAM 3: 3-Tier Redressal Hierarchy */}
             <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 flex flex-col items-center">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-300 mb-2">
+              <span className="text-xs font-bold uppercase tracking-wider text-gold-300 mb-2">
                 CPA 2019 Three-Tier Redressal Jurisdiction Hierarchy
               </span>
               <svg viewBox="0 0 650 220" className="w-full max-w-2xl">
@@ -1711,7 +1711,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                   setTestClaimAmountCr(Number(e.target.value));
                   audioManager.play('count');
                 }}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
               <div className="flex justify-between text-[10px] text-slate-400">
                 <span>₹5 Lakh (Defective Fridge)</span>
@@ -1761,7 +1761,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 setCurrentSlide(s => s + 1);
                 audioManager.play('whoosh');
               }}
-              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+              className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
             >
               Next Lab →
             </motion.button>
@@ -1798,7 +1798,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="p-5 bg-slate-950 border border-slate-800 rounded-xl space-y-3">
-          <span className="text-xs font-bold text-indigo-400">Policy Simulator: Infrastructure Synergy</span>
+          <span className="text-xs font-bold text-gold-400">Policy Simulator: Infrastructure Synergy</span>
           <div className="flex justify-between text-xs text-slate-300">
             <span>Economic Infra: {infraEconomicShare}%</span>
             <span>Social Infra: {100 - infraEconomicShare}%</span>
@@ -1810,7 +1810,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
             value={infraEconomicShare}
             aria-label="Set Economic Share in Sandbox"
             onChange={(e) => setInfraEconomicShare(Number(e.target.value))}
-            className="w-full accent-indigo-500"
+            className="w-full accent-gold-500"
           />
           <div className="p-3 bg-slate-900 rounded-lg text-xs flex justify-between items-center">
             <span className="text-slate-400">Development Synergy Score:</span>
@@ -1873,7 +1873,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
-                <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-900/60 border border-indigo-700 text-indigo-300 uppercase font-semibold">
+                <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-900/60 border border-gold-700 text-gold-300 uppercase font-semibold">
                   {challenge.competencyLevel}
                 </span>
                 <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-700/60 text-slate-300">
@@ -1890,7 +1890,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 difficulty === 'foundation'
                   ? 'bg-emerald-900/60 text-emerald-300 border border-emerald-600'
                   : difficulty === 'standard'
-                  ? 'bg-blue-900/60 text-blue-300 border border-blue-600'
+                  ? 'bg-gold-900/60 text-gold-300 border border-gold-600'
                   : 'bg-rose-900/60 text-rose-300 border border-rose-600'
               }`}
             >
@@ -1900,7 +1900,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
 
           <div className="w-full h-2 bg-slate-700 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1930,7 +1930,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                         ? 'bg-rose-900/60 border-rose-500 text-rose-200'
                         : isSelected
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-medium'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-indigo-500 hover:bg-slate-850'
+                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500 hover:bg-slate-850'
                     }`}
                   >
                     <span>{option}</span>
@@ -1956,7 +1956,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.04 }}
                     whileTap={{ scale: 0.96 }}
-                    className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold rounded-lg cursor-grab shadow"
+                    className="px-3 py-2 bg-gold-600 hover:bg-gold-500 text-white text-xs font-semibold rounded-lg cursor-grab shadow"
                   >
                     {item.label}
                   </motion.div>
@@ -1980,7 +1980,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                     }`}
                   >
                     <div>
-                      <span className="text-[10px] uppercase font-bold text-indigo-400">{target.tag}</span>
+                      <span className="text-[10px] uppercase font-bold text-gold-400">{target.tag}</span>
                       <h4 className="text-xs font-semibold text-slate-300 mt-0.5">{target.title}</h4>
                     </div>
                     <div className="mt-3 p-2 bg-slate-900 rounded-lg text-xs font-bold text-center">
@@ -1997,7 +1997,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 transition={{ duration: 0.4 }}
                 disabled={Object.keys(droppedLabels).length < (challenge.dragItems?.length || 3)}
                 onClick={() => handleAnswer(droppedLabels)}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
+                className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
               >
                 Validate Labels ✓
               </motion.button>
@@ -2029,7 +2029,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                     className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 flex items-center justify-between cursor-grab"
                   >
                     <div className="flex items-center gap-3">
-                      <span className="w-6 h-6 rounded-full bg-indigo-900/60 border border-indigo-600 flex items-center justify-center font-bold text-[11px] text-indigo-300">
+                      <span className="w-6 h-6 rounded-full bg-gold-900/60 border border-gold-600 flex items-center justify-center font-bold text-[11px] text-gold-300">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2067,7 +2067,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                   const submitted = sortArrangement.length > 0 ? sortArrangement : challenge.sortItems!.map((_, i) => i);
                   handleAnswer(submitted);
                 }}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm mt-3"
+                className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm mt-3"
               >
                 Submit Sequence ✓
               </motion.button>
@@ -2084,7 +2084,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                   aria-label="Enter numerical answer"
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter calculated amount"
-                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-indigo-500 w-full"
+                  className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white text-sm focus:outline-none focus:border-gold-500 w-full"
                 />
                 <span className="text-xs text-slate-400 font-semibold whitespace-nowrap">{challenge.unit}</span>
               </div>
@@ -2095,7 +2095,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 transition={{ duration: 0.4 }}
                 disabled={!numericInput}
                 onClick={() => handleAnswer(numericInput)}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
+                className="w-full py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
               >
                 Check Calculation ✓
               </motion.button>
@@ -2118,7 +2118,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                         audioManager.play('tap');
                       }
                     }}
-                    className="px-3 py-1.5 bg-indigo-900/60 border border-indigo-700 hover:bg-indigo-700 text-indigo-200 text-xs rounded-lg font-medium"
+                    className="px-3 py-1.5 bg-gold-900/60 border border-gold-700 hover:bg-gold-700 text-gold-200 text-xs rounded-lg font-medium"
                   >
                     + {part}
                   </motion.button>
@@ -2134,14 +2134,14 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                       key={i}
                       initial={{ scale: 0.8, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
-                      className="px-3 py-1.5 bg-indigo-600 text-white text-xs rounded-lg flex items-center gap-2 shadow"
+                      className="px-3 py-1.5 bg-gold-600 text-white text-xs rounded-lg flex items-center gap-2 shadow"
                     >
                       <span>{i + 1}. {part}</span>
                       <button
                         type="button"
                         aria-label={`Remove ${part}`}
                         onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))}
-                        className="text-indigo-200 hover:text-white text-xs font-bold"
+                        className="text-gold-200 hover:text-white text-xs font-bold"
                       >
                         ✕
                       </button>
@@ -2165,7 +2165,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                   transition={{ duration: 0.4 }}
                   disabled={constructParts.length === 0}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="flex-1 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
+                  className="flex-1 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl disabled:opacity-40"
                 >
                   Validate Chain ✓
                 </motion.button>
@@ -2244,13 +2244,13 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
         className="space-y-6"
       >
         {/* Score Card */}
-        <div className="p-6 bg-gradient-to-br from-indigo-950 to-slate-900 border border-indigo-700/70 rounded-2xl text-center space-y-3 shadow-2xl">
+        <div className="p-6 bg-gradient-to-br from-gold-950 to-slate-900 border border-gold-700/70 rounded-2xl text-center space-y-3 shadow-2xl">
           <span className="text-4xl">🎓</span>
           <h2 className="text-2xl font-bold text-white">Mastery Assessment Complete!</h2>
           <div className="text-4xl font-extrabold text-emerald-400 my-2">{finalScore}%</div>
           <div className="flex justify-center gap-3 text-xs">
             <span className="px-3 py-1 bg-slate-800 rounded-full text-slate-300">
-              Mastery Tier: <strong className="text-indigo-300">{masteryLevel.toUpperCase()}</strong>
+              Mastery Tier: <strong className="text-gold-300">{masteryLevel.toUpperCase()}</strong>
             </span>
             <span className="px-3 py-1 bg-slate-800 rounded-full text-slate-300">
               Incorrect Attempts: <strong className="text-rose-300">{errors}</strong>
@@ -2270,11 +2270,11 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
         </div>
 
         {/* REFLECTION SECTION */}
-        <div className="p-6 bg-slate-900 border border-indigo-800/60 rounded-2xl space-y-4">
+        <div className="p-6 bg-slate-900 border border-gold-800/60 rounded-2xl space-y-4">
           <div className="flex items-center gap-2">
             <span className="text-2xl">🤔</span>
             <div>
-              <h3 className="text-base font-bold text-indigo-300">Post-Simulation Reflection</h3>
+              <h3 className="text-base font-bold text-gold-300">Post-Simulation Reflection</h3>
               <p className="text-xs text-slate-400">Deepen your economic intuition by reflecting on three key questions:</p>
             </div>
           </div>
@@ -2289,7 +2289,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 value={reflectionResponses.surprising}
                 onChange={(e) => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                 placeholder="e.g. How the infrastructure multiplier expands initial spending by 2.8x, or the ₹1 Crore District Commission limit under CPA 2019..."
-                className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
               />
             </div>
 
@@ -2302,20 +2302,20 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
                 value={reflectionResponses.explain}
                 onChange={(e) => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                 placeholder="e.g. The economy is a circle where farmers, factories, and services constantly rely on each other to create goods..."
-                className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
               />
             </div>
 
             {/* Question 3 */}
             <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-              <label className="text-xs font-semibold text-blue-300 block">
+              <label className="text-xs font-semibold text-gold-300 block">
                 3. Where in real life might you use this?
               </label>
               <textarea
                 value={reflectionResponses.realLife}
                 onChange={(e) => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                 placeholder="e.g. Checking MRP and ISI marks before buying groceries, or dialling 1915 on the National Consumer Helpline if overcharged..."
-                className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-16"
+                className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none h-16"
               />
             </div>
           </div>
@@ -2352,13 +2352,13 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
         <div className="p-6 bg-slate-900 border border-slate-800 rounded-2xl space-y-3">
           <div className="flex items-center gap-2">
             <span className="text-xl">📋</span>
-            <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
           </div>
           <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
           <div className="space-y-1.5 pt-2">
             {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
               <div key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                <span className="text-indigo-400 font-bold">{i + 1}.</span>
+                <span className="text-gold-400 font-bold">{i + 1}.</span>
                 <span>{st}</span>
               </div>
             ))}
@@ -2388,7 +2388,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
               setDiscoveryAnswered(false);
               audioManager.play('whoosh');
             }}
-            className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+            className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
           >
             Restart Simulation ↺
           </motion.button>
@@ -2405,7 +2405,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
       {/* Top Banner Header */}
       <div className="flex items-center justify-between pb-4 mb-4 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="p-2.5 bg-indigo-950/80 border border-indigo-700/60 rounded-xl text-2xl">
+          <span className="p-2.5 bg-gold-950/80 border border-gold-700/60 rounded-xl text-2xl">
             {subjectConfig.emoji || '📈'}
           </span>
           <div>
@@ -2421,7 +2421,7 @@ export function C9_EconApplicationsInterdependenceSectorsPrimarySim({
               key={p}
               className={`px-3 py-1 rounded-lg capitalize font-medium transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow font-semibold'
+                  ? 'bg-gold-600 text-white shadow font-semibold'
                   : 'text-slate-500'
               }`}
             >

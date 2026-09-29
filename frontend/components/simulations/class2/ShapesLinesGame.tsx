@@ -51,7 +51,7 @@ const TEACHING_SLIDES = [
     title: 'Sides and Corners! 🔺⏹️',
     text: 'A side is a straight line on the edge of a shape. A corner is where two sides meet! A triangle has 3 sides and 3 corners. A square has 4 equal sides and 4 corners. A rectangle has 4 sides (2 long, 2 short) and 4 corners!',
     emoji: '⭐',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
   },
   {
     title: 'Circles and Ovals! ⭕🥚',
@@ -69,7 +69,7 @@ const TEACHING_SLIDES = [
     title: 'Curved Lines! 🌈',
     text: 'A curved line bends smoothly as you trace it — like a rainbow, a river, or the rim of a round cup. Straight lines do not bend; curved lines bend!',
     emoji: '🌈',
-    bgColor: 'from-purple-400 to-violet-500',
+    bgColor: 'from-purple-400 to-gold-500',
   },
 ];
 
@@ -309,7 +309,7 @@ function ArtSceneBackground({ width, height }: { width: number; height: number }
         <rect width={width} height={height} fill="url(#art-sky)" />
       </svg>
       {/* Window showing blue sky */}
-      <div className="absolute top-6 left-8 w-28 h-36 bg-sky-200 border-4 border-amber-800 rounded-t-xl flex flex-col items-center justify-center opacity-60">
+      <div className="absolute top-6 left-8 w-28 h-36 bg-gold-200 border-4 border-amber-800 rounded-t-xl flex flex-col items-center justify-center opacity-60">
         <div className="w-full h-full border-b-4 border-r-4 border-amber-800 grid grid-cols-2 grid-rows-2">
           <div className="border-r border-b border-amber-800/40" />
           <div className="border-b border-amber-800/40" />
@@ -897,7 +897,7 @@ export function ShapesLinesGame({
                         {opt.includes('Vertical') && <VerticalLineIcon size={40} />}
                         {opt.includes('Slanting') && <SlantingLineIcon size={40} />}
                         {opt.includes('Curved') && <CurvedLineIcon size={40} />}
-                        {opt === '3' && <span className="text-3xl font-black text-blue-600">3</span>}
+                        {opt === '3' && <span className="text-3xl font-black text-gold-600">3</span>}
                         {opt === '4' && <span className="text-3xl font-black text-emerald-600">4</span>}
                         {opt === '0' && <span className="text-3xl font-black text-rose-600">0</span>}
                       </div>

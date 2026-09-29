@@ -51,7 +51,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Self",
+    "title": "Self Is The Totality Of An Individual's",
     "text": "The self is the totality of an individual's conscious experiences, ideas, thoughts, and feelings regarding themselves, defining their existence at both personal (unique attributes like name, qualities, beliefs) and social (group memberships like religion,",
     "emoji": "🧠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -154,7 +154,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "Oral fixation occurs when an infant’s needs for sucking/feeding are either over‑gratified or frustrated, causing libido to remain anchored to the mouth",
      "Rahul is partially correct but conceptually imprecise. He does not have two *different selves*"
     ],
-    "hint": "Straight from the 'self' slide -- match the key terms.",
+    "hint": "Straight from the 'self is the totality of an' slide -- match the key terms.",
     "misconception": "A wrong answer would either agree uncritically (\"yes, he has multiple selves\") or deny any change (\"no, self is always the same\"), missing the nuance of *context-dependent expression* of a unified self.",
     "id": "gen_c12_psy_ch02_q2",
     "nodeId": "c12_psy_cbse_02_001",
@@ -376,14 +376,14 @@ export const C12_PSY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_psy_ch03",
-  "title": "Stress",
+  "title": "Stress Is a Dynamic",
   "subtitle": "Psychology · Chapter 3",
   "classLevel": 12,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "Stress",
+  "topic": "Stress Is a Dynamic",
   "chapters": [
-   "Psychology Ch3: Stress"
+   "Psychology Ch3: Stress Is a Dynamic"
   ],
   "nodeIds": [
    "c12_psy_cbse_03_001",
@@ -401,7 +401,7 @@ export const C12_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Stress suddenly stops working?",
+   "question": "What happens if Stress Is a Dynamic suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -412,7 +412,7 @@ export const C12_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Stress",
+    "title": "Stress Is a Dynamic",
     "text": "Stress is a dynamic, transactional process in which an individual perceives and appraises a demand (stressor) as exceeding their coping resources, resulting in a pattern of physiological, emotional, cognitive, and behavioural responses (strain).",
     "emoji": "🧠",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -436,7 +436,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Psychoneuroimmunology",
+    "title": "Stress and the Immune System:",
     "text": "Psychoneuroimmunology (PNI) is the interdisciplinary field studying the bidirectional communication pathways between the central nervous system (brain), the endocrine system (hormones), and the immune system (white blood cells), explaining how psychological",
     "emoji": "🧠",
     "bgColor": "from-amber-400 to-orange-500"
@@ -464,7 +464,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "(a) Headaches/stomach aches → physiological (somatic complaints from sustained autonomic arousal). (b) Difficulty concentrating → cognitive (prefrontal cortex impairment)",
      "Correct analysis: The explosion is the external stressor; Rahul's immediate physiological freeze response and subsequent intrusive thoughts/avoidance are the strain"
     ],
-    "hint": "Straight from the 'Stress' slide -- match the key terms.",
+    "hint": "Straight from the 'Stress is a dynamic' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"the explosion caused the stress\" or \"the stress ended when he knew it was safe\" reveals the stimulus-response misconception and ignores the ongoing cognitive-emotional transaction.",
     "id": "gen_c12_psy_ch03_q1",
     "nodeId": "c12_psy_cbse_03_001",
@@ -678,7 +678,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "(i) Physical/environmental (pollution → bodily strain). (ii) Psychological (internal cognitive distortion)",
      "(1) The endpoint — natural killer cell cytotoxicity from blood drawn before and after exams, a biological parameter rather than self-report, (2) Reappraisal"
     ],
-    "hint": "Straight from the 'Psychoneuroimmunology' slide -- match the key terms.",
+    "hint": "Straight from the 'Psychoneuroimmunology is the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: (1) The endpoint — natural killer cell cytotoxicity from blood drawn before and after exams, a biological parameter",
     "id": "gen_c12_psy_ch03_q9",
     "nodeId": "c12_psy_cbse_03_006",
@@ -702,11 +702,11 @@ export const C12_PSY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about stress?",
+    "What surprised you about stress is a dynamic?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Stress mastered! 🎯",
+  "successLine": "Stress Is a Dynamic mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -772,7 +772,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Schizophrenia",
+    "title": "Schizophrenia Is a Severe Psychotic Disorder",
     "text": "Schizophrenia is a severe psychotic disorder characterised by a breakdown in thought processes, perception, emotional responsiveness, and social functioning.",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1035,7 +1035,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "Somatic Symptom Disorder is the correct diagnosis. The primary distinction: Somatic Symptom Disorder centers on distressing somatic symptoms (pain",
      "The argument is incorrect. NCERT explicitly lists psychomotor symptoms as a third, separate category — distinct from both positive and negative symptoms"
     ],
-    "hint": "Straight from the 'Schizophrenia' slide -- match the key terms.",
+    "hint": "Straight from the 'Schizophrenia is a severe' slide -- match the key terms.",
     "misconception": "A student who collapses catatonia into negative symptoms will lose marks on classification questions and fail to recognise catatonia as a specifier for schizophrenia subtype (catatonic type) in ICD-10/DSM-5.",
     "id": "gen_c12_psy_ch04_q9",
     "nodeId": "c12_psy_cbse_04_009",
@@ -1448,14 +1448,14 @@ export const C12_PSY_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_psy_ch06",
-  "title": "The Features Of Attitudes",
+  "title": "The Features Of Attitudes — Valence",
   "subtitle": "Psychology · Chapter 6",
   "classLevel": 12,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "The Features Of Attitudes",
+  "topic": "The Features Of Attitudes — Valence",
   "chapters": [
-   "Psychology Ch6: The Features Of Attitudes"
+   "Psychology Ch6: The Features Of Attitudes — Valence"
   ],
   "nodeIds": [
    "c12_psy_cbse_06_002",
@@ -1473,7 +1473,7 @@ export const C12_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if The Features Of Attitudes suddenly stops working?",
+   "question": "What happens if The Features Of Attitudes — suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -1484,7 +1484,7 @@ export const C12_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "The Features Of Attitudes",
+    "title": "The Features Of Attitudes — Valence",
     "text": "The features of attitudes — valence, extremeness, simplicity/complexity (multiplexity), and centrality — are structural properties that describe the qualitative nature of an attitude toward an attitude object.",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -1536,7 +1536,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "Scenario: Priya, a college student, uses UPI daily. Valence: Positive (rates 5/5). Extremeness: High (rating 5)",
      "Congruent change (more negative) would be easier because it aligns with the existing valence and centrality"
     ],
-    "hint": "Straight from the 'The features of attitudes' slide -- match the key terms.",
+    "hint": "Straight from the 'The features of attitudes —' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"both are equally easy\" ignores the NCERT principle that extreme and central attitudes resist incongruent change.",
     "id": "gen_c12_psy_ch06_q1",
     "nodeId": "c12_psy_cbse_06_002",
@@ -1810,10 +1810,10 @@ export const C12_PSY_GEN: SimDef[] = [
     "answer": "System A is more resistant. Centrality gives the attitude influence over the system, high extremeness means strong conviction",
     "options": [
      "(i) Heider: triadic (P-O-X); Festinger: dyadic (cognition-cognition or cognition-behaviour). (ii) Heider: drive for structural/logical balance in sentiment relations",
-     "Imbalanced. The three relations are: P-X = +, O-X = +, P-O = –. Multiplying: (+) × (+) × (–) = –. A negative product indicates imbalance",
+     "The student incorrectly assumes \"two positives and one negative\" always means balance. Heider's rule depends on the *product of signs*, not the count of positives",
      "System A is more resistant. Centrality gives the attitude influence over the system, high extremeness means strong conviction"
     ],
-    "hint": "Straight from the 'The features of attitudes' slide -- match the key terms.",
+    "hint": "Straight from the 'The features of attitudes —' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on valence misses the interaction of centrality and extremeness.",
     "id": "gen_c12_psy_ch06_q9",
     "nodeId": "c12_psy_cbse_06_002",
@@ -1828,7 +1828,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age, shared context) than a teacher",
      "Scenario: Priya, a college student, uses UPI daily. Valence: Positive (rates 5/5). Extremeness: High (rating 5)"
     ],
-    "hint": "Straight from the 'The features of attitudes' slide -- match the key terms.",
+    "hint": "Straight from the 'The features of attitudes —' slide -- match the key terms.",
     "misconception": "A poor answer would list features without integrating them into a coherent attitude system or would confuse member attitudes with A-B-C components.",
     "id": "gen_c12_psy_ch06_q10",
     "nodeId": "c12_psy_cbse_06_002",
@@ -1870,7 +1870,7 @@ export const C12_PSY_GEN: SimDef[] = [
     "answer": "(i) Heider: triadic (P-O-X); Festinger: dyadic (cognition-cognition or cognition-behaviour). (ii) Heider: drive for structural/logical balance in sentiment relations",
     "options": [
      "System A is more resistant. Centrality gives the attitude influence over the system, high extremeness means strong conviction",
-     "Factor: Family and School Environment. Learning process: Modelling (observational learning) — Priya observes her sister being rewarded (praise) for the behaviour, and imitates it",
+     "Scenario: Priya, a college student, uses UPI daily. Valence: Positive (rates 5/5). Extremeness: High (rating 5)",
      "(i) Heider: triadic (P-O-X); Festinger: dyadic (cognition-cognition or cognition-behaviour). (ii) Heider: drive for structural/logical balance in sentiment relations"
     ],
     "hint": "Straight from the 'Heider's Balance Theory' slide -- match the key terms.",
@@ -1896,6 +1896,51 @@ export const C12_PSY_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Heider's Balance Theory (P-O-X Triangle)?",
+    "answer": "Students memorise \"two positives and one negative = imbalance\" as a rigid rule, but then misapply it by counting positive *attitudes* instead of positive *relations*",
+    "options": [
+     "Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for psychological balance in their triadic relationships among a",
+     "The student must be able to: (1) correctly classify any given P-O-X triad as balanced or imbalanced by applying the multiplication-of-signs rule",
+     "Students memorise \"two positives and one negative = imbalance\" as a rigid rule, but then misapply it by counting positive *attitudes* instead of positive *relations*"
+    ],
+    "hint": "Straight from the 'Heider's Balance Theory' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students memorise \"two positives and one negative = imbalance\" as a rigid rule, but then misapply it by counting",
+    "id": "gen_c12_psy_ch06_q15",
+    "nodeId": "c12_psy_cbse_06_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Heider's Balance Theory (P-O-X Triangle)? State the definition given in this lesson.",
+    "answer": "Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for psychological balance in their triadic relationships among a",
+    "options": [
+     "The student must be able to: (1) correctly classify any given P-O-X triad as balanced or imbalanced by applying the multiplication-of-signs rule",
+     "Students memorise \"two positives and one negative = imbalance\" as a rigid rule, but then misapply it by counting positive *attitudes* instead of positive *relations*",
+     "Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for psychological balance in their triadic relationships among a"
+    ],
+    "hint": "Straight from the 'Heider's Balance Theory' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for",
+    "id": "gen_c12_psy_ch06_q16",
+    "nodeId": "c12_psy_cbse_06_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to: (1) correctly classify any given P-O-X triad as balanced or imbalanced by applying the multiplication-of-signs rule",
+    "options": [
+     "Students memorise \"two positives and one negative = imbalance\" as a rigid rule, but then misapply it by counting positive *attitudes* instead of positive *relations*",
+     "Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for psychological balance in their triadic relationships among a",
+     "The student must be able to: (1) correctly classify any given P-O-X triad as balanced or imbalanced by applying the multiplication-of-signs rule"
+    ],
+    "hint": "Straight from the 'Heider's Balance Theory' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) correctly classify any given P-O-X triad as balanced or imbalanced by applying the",
+    "id": "gen_c12_psy_ch06_q17",
+    "nodeId": "c12_psy_cbse_06_005",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A teacher wants students to develop a positive attitude toward reading classic literature. The teacher is well-liked but rarely reads classics themselves. A popular senior student starts a \"Classic Book Club\" and actively discusses novels.",
     "answer": "The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age, shared context) than a teacher",
     "options": [
@@ -1905,51 +1950,6 @@ export const C12_PSY_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age,",
-    "id": "gen_c12_psy_ch06_q15",
-    "nodeId": "c12_psy_cbse_06_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Critique this claim: \"Mohsin's Two-Step Concept is just Bandura's Observational Learning applied to attitudes.\" Defend or refute using specific elements of Mohsin's model.",
-    "answer": "Refute — it's an incomplete overlap. Bandura's observational learning (attention, retention, reproduction, motivation) explains *how* imitation works generally",
-    "options": [
-     "The senior student is more likely to succeed. Step 1: Students likely identify more strongly with a peer (similar age, shared context) than a teacher",
-     "The student incorrectly assumes \"two positives and one negative\" always means balance. Heider's rule depends on the *product of signs*, not the count of positives",
-     "Refute — it's an incomplete overlap. Bandura's observational learning (attention, retention, reproduction, motivation) explains *how* imitation works generally"
-    ],
-    "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Refute — it's an incomplete overlap. Bandura's observational learning (attention, retention, reproduction, motivation)",
-    "id": "gen_c12_psy_ch06_q16",
-    "nodeId": "c12_psy_cbse_06_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a real-world intervention to reduce plastic-bag use among shoppers in a local market using Mohsin's Two-Step Concept. Specify: (i) who the source(s) should be, (ii) how to establish Step 1 (identification), (iii) what behaviour change the source must demonstrate in Step 2, and (iv) why this would work better",
-    "answer": "Expected answer criteria: (i) Source: Respected local vendors / community elders / popular shopkeepers (not outsiders)",
-    "options": [
-     "Congruent change (more negative) would be easier because it aligns with the existing valence and centrality",
-     "(a) Imbalanced. Signs: P-O = +, O-X = +, P-X = –. Product = (+) × (+) × (–) = –. (b) P-O (+) is least likely to change because Riya's admiration for Anil is a strong",
-     "Expected answer criteria: (i) Source: Respected local vendors / community elders / popular shopkeepers (not outsiders)"
-    ],
-    "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Expected answer criteria: (i) Source: Respected local vendors / community elders / popular shopkeepers (not outsiders).",
-    "id": "gen_c12_psy_ch06_q17",
-    "nodeId": "c12_psy_cbse_06_007",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Preeti admires a sportsperson who endorses a soft drink. The sportsperson later switches to endorsing a health drink and stops consuming the soft drink. Preeti also stops consuming the soft drink.",
-    "answer": "Preeti changed because (Step 1) she identified with the sportsperson (liking, regard, psychological closeness) — this created the *readiness* to be influenced",
-    "options": [
-     "This is learning through modelling (observational learning). The teenager observes the sister (model) being rewarded (praised) and imitates the behaviour",
-     "Factor: Family and School Environment. Learning process: Modelling (observational learning) — Priya observes her sister being rewarded (praise) for the behaviour, and imitates it",
-     "Preeti changed because (Step 1) she identified with the sportsperson (liking, regard, psychological closeness) — this created the *readiness* to be influenced"
-    ],
-    "hint": "Straight from the 'S.M. Mohsin's Two-Step Concept of' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: Preeti changed because (Step 1) she identified with the sportsperson (liking, regard, psychological closeness) — this",
     "id": "gen_c12_psy_ch06_q18",
     "nodeId": "c12_psy_cbse_06_007",
     "difficulty": "standard"
@@ -1957,24 +1957,24 @@ export const C12_PSY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the features of attitudes?",
+    "What surprised you about the features of attitudes — valence?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "The Features Of Attitudes mastered! 🎯",
+  "successLine": "The Features Of Attitudes — mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c12_psy_ch07",
-  "title": "Group",
+  "title": "A Group Is An Organised System",
   "subtitle": "Psychology · Chapter 7",
   "classLevel": 12,
   "mode": "senior",
   "subject": "psychology",
-  "topic": "Group",
+  "topic": "A Group Is An Organised System",
   "chapters": [
-   "Psychology Ch7: Group"
+   "Psychology Ch7: A Group Is An Organised System"
   ],
   "nodeIds": [
    "c12_psy_cbse_07_001",
@@ -1996,7 +1996,7 @@ export const C12_PSY_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Group in real working life?",
+   "question": "Who uses A Group Is An Organised System in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
@@ -2007,7 +2007,7 @@ export const C12_PSY_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Group",
+    "title": "A Group Is An Organised System",
     "text": "A group is an organised system of two or more individuals who interact and are interdependent, share common motives and goals, have a set of defined role relationships among members, and adhere to norms that regulate behaviour, while perceiving themselves as",
     "emoji": "🧠",
     "bgColor": "from-rose-400 to-pink-500"
@@ -2037,19 +2037,19 @@ export const C12_PSY_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Groupthink",
+    "title": "Groupthink Is a Psychological Phenomenon",
     "text": "Groupthink is a psychological phenomenon identified by Irving Janis in which a highly cohesive, homogeneous group prioritizes unanimity and internal harmony over critical evaluation of alternatives, leading to irrational, uncritical, and often disastrous",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Groups",
+    "title": "Groups Are Organised Systems Of Two",
     "text": "Groups are organised systems of two or more interacting and interdependent individuals with common motives, defined role relationships, and shared norms; they are classified into primary/secondary (based on intimacy and choice), formal/informal (based on",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Ingroup",
+    "title": "Ingroup Refers To The Social Group",
     "text": "Ingroup refers to the social group to which an individual psychologically identifies as a member (\"we\"), while outgroup refers to any group to which the individual does not belong (\"they\").",
     "emoji": "🧠",
     "bgColor": "from-violet-400 to-purple-500"
@@ -2241,7 +2241,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "(a) Four groups: Formal-Primary (family business with roles), Formal-Secondary (corporate project team), Informal-Primary (close friend circle)",
      "Antecedent conditions: (1) High cohesiveness (long-time colleagues), (2) Insulation from outsiders (closed-door meeting), (3) Directive leadership (CEO strongly favors launch)"
     ],
-    "hint": "Straight from the 'Groupthink' slide -- match the key terms.",
+    "hint": "Straight from the 'Groupthink is a psychological' slide -- match the key terms.",
     "misconception": "A wrong answer that misses the directive leadership or insulation shows inability to map situational factors to Janis's model.",
     "id": "gen_c12_psy_ch07_q6",
     "nodeId": "c12_psy_cbse_07_006",
@@ -2262,7 +2262,7 @@ export const C12_PSY_GEN: SimDef[] = [
      "The group has re-entered Forming. Adding a new member disrupts established norms and roles, forcing the group to re-orient (“Who are we now?",
      "Coding club: Secondary (chosen membership, goal-oriented), Formal (constitution, elected roles, explicit rules), Ingroup for Rahul (he identifies as member, uses \"we\")"
     ],
-    "hint": "Straight from the 'Groups' slide -- match the key terms.",
+    "hint": "Straight from the 'Groups are organised systems of' slide -- match the key terms.",
     "misconception": "A wrong answer reveals inability to apply all three independent dimensions simultaneously, or confusing the café group as \"secondary\" because it originated from the club, missing that primary/secondary is about quality of interaction, not origin.",
     "id": "gen_c12_psy_ch07_q7",
     "nodeId": "c12_psy_cbse_07_007",
@@ -2331,8 +2331,8 @@ export const C12_PSY_GEN: SimDef[] = [
     "question": "Define social facilitation and state the two key factors that determine whether performance improves or declines.",
     "answer": "Social facilitation is the change in individual performance due to the presence of others. Performance improves on simple/well-learned tasks (dominant responses) and declines on",
     "options": [
+     "The student can (1) explain the Minimal Group Paradigm procedure and results in their own words, (2) distinguish between social categorisation, social identification",
      "The five characteristics are: (1) A social unit of two or more individuals who perceive themselves as belonging to the group, giving it a unique identity",
-     "Student Council = Group (also a Team subset). Justification: (a) Interdependence — portfolios are complementary; Treasurer's report affects Secretary's minutes",
      "Social facilitation is the change in individual performance due to the presence of others. Performance improves on simple/well-learned tasks (dominant responses) and declines on"
     ],
     "hint": "Straight from the 'Social facilitation' slide -- match the key terms.",
@@ -2482,6 +2482,52 @@ export const C12_PSY_GEN: SimDef[] = [
     "difficulty": "standard"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "distinguish between social categorisation",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "apply the paradigm to analyse a real-world",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s2",
+      "label": "explain the Minimal Group Paradigm procedure",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) explain the Minimal Group Paradigm procedure and results in their own words, (2) distinguish",
+    "id": "gen_c12_psy_ch07_q14",
+    "nodeId": "c12_psy_cbse_07_008",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Compare and contrast a group and a team on the dimensions of: (a) performance dependence, (b) leadership responsibility, and (c) synergy. Use the NCERT distinction to explain why a project group with a dominant leader who does all the work is *not* functioning as a team.",
     "answer": "(a) Performance dependence: Group — depends on individual contributions summed; Team — depends on individual contributions plus teamwork/coordination",
@@ -2490,9 +2536,9 @@ export const C12_PSY_GEN: SimDef[] = [
      "In a primary group (family), ingroup bias is amplified by deep emotional bonds, shared history, and perceived irreplaceability",
      "(a) Performance dependence: Group — depends on individual contributions summed; Team — depends on individual contributions plus teamwork/coordination"
     ],
-    "hint": "Straight from the 'group' slide -- match the key terms.",
+    "hint": "Straight from the 'A group is an organised system' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"teams have leaders, groups don't\") shows the student misses the core NCERT distinction: mutual accountability and positive synergy are the team differentiators, not the presence of a leader.",
-    "id": "gen_c12_psy_ch07_q14",
+    "id": "gen_c12_psy_ch07_q15",
     "nodeId": "c12_psy_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2505,9 +2551,9 @@ export const C12_PSY_GEN: SimDef[] = [
      "A roadside crowd fails three criteria: (1) No interdependence — one person leaving doesn't affect others' behaviour or outcomes",
      "Yes, the statement is logically consistent. Defence: (1) Necessary condition: A team *must* satisfy all group criteria (interdependence, roles, norms, common goals, identity)"
     ],
-    "hint": "Straight from the 'group' slide -- match the key terms.",
+    "hint": "Straight from the 'A group is an organised system' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"teams are bigger than groups\") reveals the student treats them as mutually exclusive categories rather than a subset-superset relationship, missing the hierarchical definitional structure.",
-    "id": "gen_c12_psy_ch07_q15",
+    "id": "gen_c12_psy_ch07_q16",
     "nodeId": "c12_psy_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2520,9 +2566,9 @@ export const C12_PSY_GEN: SimDef[] = [
      "The claim is partially true but insufficient. Diverse initial opinions (bimodal distribution) can reduce polarisation because there is no single dominant tendency to amplify",
      "A roadside crowd fails three criteria: (1) No interdependence — one person leaving doesn't affect others' behaviour or outcomes"
     ],
-    "hint": "Straight from the 'group' slide -- match the key terms.",
+    "hint": "Straight from the 'A group is an organised system' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they are just watching\") shows the student confuses physical co-presence with psychological group formation and cannot operationalise the abstract criteria to a concrete situation.",
-    "id": "gen_c12_psy_ch07_q16",
+    "id": "gen_c12_psy_ch07_q17",
     "nodeId": "c12_psy_cbse_07_001",
     "difficulty": "standard"
    },
@@ -2532,26 +2578,11 @@ export const C12_PSY_GEN: SimDef[] = [
     "answer": "The five characteristics are: (1) A social unit of two or more individuals who perceive themselves as belonging to the group, giving it a unique identity",
     "options": [
      "Social facilitation is the change in individual performance due to the presence of others. Performance improves on simple/well-learned tasks (dominant responses) and declines on",
-     "The statement is incorrect because the Minimal Group Paradigm explicitly *removed* competition over resources: boys allocated points/money using a matrix where ingroup and",
+     "Student can accurately define a group using all five NCERT criteria (interdependence, common motives, roles, norms, shared identity), list its key characteristics",
      "The five characteristics are: (1) A social unit of two or more individuals who perceive themselves as belonging to the group, giving it a unique identity"
     ],
-    "hint": "Straight from the 'group' slide -- match the key terms.",
+    "hint": "Straight from the 'A group is an organised system' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing only \"common goals\" and \"interaction\") reveals the student has memorised a partial definition and misses the structural (roles/norms) and psychological (identity, need satisfaction) dimensions that differentiate a group from a mere gathering.",
-    "id": "gen_c12_psy_ch07_q17",
-    "nodeId": "c12_psy_cbse_07_001",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Your school's Student Council (12 elected members, fixed portfolios, weekly meetings, constitution) and the spectators at the Annual Day function (500 parents/students watching performances) are both collections of people.",
-    "answer": "Student Council = Group (also a Team subset). Justification: (a) Interdependence — portfolios are complementary; Treasurer's report affects Secretary's minutes",
-    "options": [
-     "The student is a novice; solving the Rubik's cube is a complex, non-dominant task for her. Presence of others increases arousal",
-     "Riya's primary motivation is Security — the group reduces her insecurity and vulnerability to threats (crime)",
-     "Student Council = Group (also a Team subset). Justification: (a) Interdependence — portfolios are complementary; Treasurer's report affects Secretary's minutes"
-    ],
-    "hint": "Straight from the 'group' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., calling spectators a \"crowd\") reveals confusion between audience (assembled for a purpose, generally passive) and crowd (chance gathering, potential for irrationality/mob).",
     "id": "gen_c12_psy_ch07_q18",
     "nodeId": "c12_psy_cbse_07_001",
     "difficulty": "standard"
@@ -2559,11 +2590,11 @@ export const C12_PSY_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about group?",
+    "What surprised you about a group is an organised system?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Group mastered! 🎯",
+  "successLine": "A Group Is An Organised System mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

@@ -11,7 +11,7 @@ export const w_c12_biologypopulationinteractionssim: SimDef = {
     classLevel: 12, subject: 'biology', topic: 'Organism and Environment: Habitat and Niche',
     chapters: [],
     nodeIds: ['c12_bio_cbse_13_001', 'c12_bio_cbse_13_002', 'c12_bio_cbse_13_004', 'c12_bio_cbse_13_006', 'c12_bio_cbse_13_007', 'c12_bio_cbse_13_008', 'c12_bio_cbse_13_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a banyan tree (Ficus benghalensis) in your neighborhood: it provides habitat for epiphytes, birds,.', goal: 'Master Organism and Environment: Habitat and Niche.' },
     discovery: {
         question: 'Define habitat and niche. Give one example of an organism where the habitat and niche are clearly distinct.',
@@ -20,7 +20,7 @@ export const w_c12_biologypopulationinteractionssim: SimDef = {
         hook: 'Students think "niche = habitat + food" and omit reproductive strategy, temporal activity patterns, and behavioral.',
     },
     teaching: [
-        { title: 'Habitat is the specific physical location or.', text: 'Habitat is the specific physical location or environment where an organism lives, characterized by its abiotic factors (temperature, light, soil, water) and biotic components.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Habitat is the specific physical location or.', text: 'Habitat is the specific physical location or environment where an organism lives, characterized by its abiotic factors (temperature, light, soil, water) and biotic components.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bio_cbse_13_001', title: 'Habitat is the specific physical.',

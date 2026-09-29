@@ -23,7 +23,7 @@ export const c7_hin_ch10_p1: SimDef = {
         labels: ['मीरा के पद —'],
             observePrompt: 'What did the flow interactive show you?' } },
         { type: 'build', nodeId: 'c7_hin_cbse_10_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['जुड़ाव — कवि का अनुभव पाठ में झलकता है।', 'पाठ का विषय कृष्ण-भक्ति — नंदलाल की मोहिनी मूरत और सावन की.', 'रचनाकार मीराबाई का काल/परिचय।'], answer: 'रचनाकार मीराबाई का काल/परिचय। पाठ का विषय कृष्ण-भक्ति — नंदलाल की मोहिनी मूरत और सावन की. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['रचनाकार मीराबाई का काल/परिचय।', 'पाठ का विषय कृष्ण-भक्ति — नंदलाल की मोहिनी मूरत और सावन की.', 'जुड़ाव — कवि का अनुभव पाठ में झलकता है।'], answer: 'रचनाकार मीराबाई का काल/परिचय। पाठ का विषय कृष्ण-भक्ति — नंदलाल की मोहिनी मूरत और सावन की. जुड़ाव — कवि का अनुभव पाठ में झलकता है।' } },
         { type: 'case', nodeId: 'c7_hin_cbse_10_006', title: 'The bigger picture',
           caseStudy: { intro: 'You just worked through मीरा के पद like a real scientist — observed, predicted, tested, retried.',
             decisions: [{ prompt: 'What comes next? मीरा के पद · Part 2/3 picks up right here.', options: [

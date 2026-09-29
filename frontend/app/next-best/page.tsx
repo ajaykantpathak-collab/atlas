@@ -29,7 +29,7 @@ export default function NextBestPage() {
     <main className="min-h-screen bg-slate-950 text-slate-100">
       <div className="max-w-3xl mx-auto px-4 py-10 space-y-8">
         <h1 className="text-3xl font-display font-bold flex items-center gap-3">
-          <BookOpen className="w-8 h-8 text-cyan-300" /> Your next best lessons
+          <BookOpen className="w-8 h-8 text-gold-300" /> Your next best lessons
         </h1>
 
         {data.repair_first.length > 0 && (

@@ -11,11 +11,11 @@ export const w_c8_mathematicsdatahandlingsim: SimDef = {
     classLevel: 8, subject: 'mathematics', topic: 'Applications of Simple Interest in Real Life',
     chapters: [],
     nodeIds: ['c8_math_ch8_10', 'c8_math_ch8_4', 'c8_math_ch14_6', 'c8_math_ch6_2'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine your older sibling wants to buy a second-hand scooter for ₹45,000 but only has ₹30,000 saved.', goal: 'Master Applications of Simple Interest in Real Life.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Simple interest applications involve using.', text: 'Simple interest applications involve using the formula \\(SI = \\frac{P \\times R \\times T}{100}\\) to solve real-world financial problems where interest is calculated only on the original principal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Simple interest applications involve using.', text: 'Simple interest applications involve using the formula \\(SI = \\frac{P \\times R \\times T}{100}\\) to solve real-world financial problems where interest is calculated only on the original principal.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_math_ch8_10', title: 'Simple interest applications involve.',

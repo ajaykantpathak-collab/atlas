@@ -135,14 +135,14 @@ export function C12_MathematicsLinearProgrammingSim() {
 
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-slate-900/80 rounded-2xl border border-slate-800 p-4 space-y-2">
-            <p className="text-[11px] font-bold text-sky-300 font-mono">Constraint 1: a1 x + b1 y &lt;= c1</p>
+            <p className="text-[11px] font-bold text-gold-300 font-mono">Constraint 1: a1 x + b1 y &lt;= c1</p>
             {([['a1', a1, setA1], ['b1', b1, setB1], ['c1', c1, setC1]] as [string, number, (n: number) => void][]).map(([lbl, val, set]) => (
               <div key={lbl}>
                 <div className="flex justify-between text-[11px] text-slate-400">
-                  <span>{lbl}</span><span className="font-mono font-bold text-sky-400">{val}</span>
+                  <span>{lbl}</span><span className="font-mono font-bold text-gold-400">{val}</span>
                 </div>
                 <input type="range" min={lbl.startsWith('c') ? 1 : 0} max={9} step={1} value={val} aria-label={lbl}
-                  onChange={(e) => set(Number(e.target.value))} className="w-full accent-sky-500" />
+                  onChange={(e) => set(Number(e.target.value))} className="w-full accent-gold-500" />
               </div>
             ))}
           </div>

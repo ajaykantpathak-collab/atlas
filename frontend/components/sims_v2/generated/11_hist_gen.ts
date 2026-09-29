@@ -9,13 +9,15 @@ import type { SimDef } from '../engine/types';
 export const C11_HIST_GEN: SimDef[] = [
  {
   "id": "gen_c11_hist_ch01",
-  "title": "Mesopotamia: Geography and the Significance",
+  "title": "Mesopotamia",
   "subtitle": "History · Chapter 1",
   "classLevel": 11,
   "mode": "senior",
   "subject": "history",
-  "topic": "Mesopotamia: Geography and the Significance",
-  "chapters": ["History Ch1: Mesopotamia: Geography and the Significance"],
+  "topic": "Mesopotamia",
+  "chapters": [
+   "History Ch1: Mesopotamia"
+  ],
   "nodeIds": [
    "c11_hist_cbse_01_001",
    "c11_hist_cbse_01_002",
@@ -36,7 +38,7 @@ export const C11_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Mesopotamia: Geography and the outside the classroom?",
+   "question": "Quick guess -- where do you meet Mesopotamia outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
@@ -182,8 +184,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the primary material used for writing in early Mesopotamia, and approximately when do the earliest written tablets date to?",
     "answer": "The primary material was clay, and the earliest tablets date to c. 3200 BCE from Uruk",
     "options": [
+     "The student can explain how Mesopotamian writing enabled the creation of a cumulative scholarly tradition",
      "Mesopotamia exported abundant textiles (woollen cloth) and agricultural produce (grain, dates, oil)",
-     "The two primary challenges were: (1) Unpredictable flooding of the Euphrates and Tigris — channels could flood crops one year and change course the next",
      "The primary material was clay, and the earliest tablets date to c. 3200 BCE from Uruk"
     ],
     "hint": "Straight from the 'origins of writing in Mesopotamia' slide -- match the key terms.",
@@ -340,7 +342,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What were the two primary institutional centres of power in early Mesopotamian city-states, and which gods were associated with the earliest known temples at Ur and Uruk?",
     "answer": "The two primary centres were the Temple (residence of the patron deity) and the Palace (residence of the king)",
     "options": [
-     "The base is 60. The three modern divisions are: 60 seconds in a minute, 60 minutes in an hour (and degree), and 360 degrees in a circle (60×6)",
+     "The two rivers are the Tigris and the Euphrates; the southern alluvial zone lies in modern-day Iraq (Republic of Iraq)",
      "The primary material was clay, and the earliest tablets date to c. 3200 BCE from Uruk",
      "The two primary centres were the Temple (residence of the patron deity) and the Palace (residence of the king)"
     ],
@@ -495,8 +497,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What were the two primary categories of goods that Mesopotamia exported to obtain copper, tin, and timber from Anatolia, Iran, and the Gulf?",
     "answer": "Mesopotamia exported abundant textiles (woollen cloth) and agricultural produce (grain, dates, oil)",
     "options": [
-     "The two rivers are the Tigris and the Euphrates; the southern alluvial zone lies in modern-day Iraq (Republic of Iraq)",
-     "The earliest cuneiform tablets date to c. 3200 BCE from Uruk and record lists of commodities (oxen, fish, grain, bread loaves) brought into or distributed from temples",
+     "Cuneiform script is the wedge-shaped writing system developed in ancient Mesopotamia (modern Iraq) around 3200 BCE",
+     "Southern Mesopotamia lacked copper, tin, and quality timber. Copper came from Oman (Magan) and Cyprus (Alashiya), tin likely from Afghanistan/Central Asia via Iran",
      "Mesopotamia exported abundant textiles (woollen cloth) and agricultural produce (grain, dates, oil)"
     ],
     "hint": "Straight from the 'Trade, Commerce and Long-Distance' slide -- match the key terms.",
@@ -863,7 +865,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "The evolution was: 3D tokens (c. 8000 BCE) → impressed token shapes on clay envelopes → pictographs drawn with stylus (c",
      "A strong counter-argument: (1) Agency: Mesopotamians *chose* to build canals, organise temple labour, and invent writing—other societies in similar zones (e"
     ],
-    "hint": "Straight from the 'Mesopotamia (Greek' slide -- match the key terms.",
+    "hint": "Straight from the 'Mesopotamia' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: A strong counter-argument: (1) Agency: Mesopotamians *chose* to build canals, organise temple labour, and invent",
     "id": "gen_c11_hist_ch01_q16",
     "nodeId": "c11_hist_cbse_01_001",
@@ -878,7 +880,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "Cuneiform: syllabic (signs = syllables like *put, la, in*), hundreds of signs, required years of scribal training",
      "Similarities: (1) Both rivers deposited fertile silt enabling intensive agriculture. (2) Both served as primary transport arteries for internal trade"
     ],
-    "hint": "Straight from the 'Mesopotamia (Greek' slide -- match the key terms.",
+    "hint": "Straight from the 'Mesopotamia' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Similarities: (1) Both rivers deposited fertile silt enabling intensive agriculture.",
     "id": "gen_c11_hist_ch01_q17",
     "nodeId": "c11_hist_cbse_01_001",
@@ -889,11 +891,11 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the two rivers that define Mesopotamia and state the modern country where the southern alluvial zone (Sumer/Babylonia) is located.",
     "answer": "The two rivers are the Tigris and the Euphrates; the southern alluvial zone lies in modern-day Iraq (Republic of Iraq)",
     "options": [
-     "The base is 60. The three modern divisions are: 60 seconds in a minute, 60 minutes in an hour (and degree), and 360 degrees in a circle (60×6)",
-     "Mesopotamia exported abundant textiles (woollen cloth) and agricultural produce (grain, dates, oil)",
+     "Student can explain how the lack of local raw materials in southern Mesopotamia drove long-distance trade networks",
+     "The student can explain how environmental constraints (lack of stone, metal, timber) and agricultural surplus in southern Mesopotamia drove the emergence of city-states",
      "The two rivers are the Tigris and the Euphrates; the southern alluvial zone lies in modern-day Iraq (Republic of Iraq)"
     ],
-    "hint": "Straight from the 'Mesopotamia (Greek' slide -- match the key terms.",
+    "hint": "Straight from the 'Mesopotamia' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming the Indus or Nile, or placing Sumer in Iran/Syria) reveals the student has not internalised the basic geographical frame—essential because every subsequent concept (irrigation, trade routes, city locations) depends on this spatial orientation.",
     "id": "gen_c11_hist_ch01_q18",
     "nodeId": "c11_hist_cbse_01_001",
@@ -902,23 +904,25 @@ export const C11_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about mesopotamia: geography and the significance?",
+    "What surprised you about mesopotamia?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Mesopotamia: Geography mastered! 🎯",
+  "successLine": "Mesopotamia mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c11_hist_ch02",
-  "title": "The Roman Empire: Geography and the Three",
+  "title": "Roman Empire",
   "subtitle": "History · Chapter 2",
   "classLevel": 11,
   "mode": "senior",
   "subject": "history",
-  "topic": "The Roman Empire: Geography and the Three",
-  "chapters": ["History Ch2: The Roman Empire: Geography and the Three"],
+  "topic": "Roman Empire",
+  "chapters": [
+   "History Ch2: Roman Empire"
+  ],
   "nodeIds": [
    "c11_hist_cbse_02_001",
    "c11_hist_cbse_02_002",
@@ -939,7 +943,7 @@ export const C11_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Can you see The Roman Empire: Geography and directly with your eyes?",
+   "question": "Can you see Roman Empire directly with your eyes?",
    "options": [
     "Often only through its effects",
     "Always directly visible",
@@ -1326,8 +1330,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the primary container used for transporting Spanish olive oil during the peak years 140-160 CE, and what does its widespread distribution reveal about Roman economic integration?",
     "answer": "The primary container was the *Dressel 20* amphora, a globular vessel with thick handles stamped with producer marks",
     "options": [
-     "The Romans called it *Mare Nostrum* (\"Our Sea\"), signifying their perception of the Mediterranean as an internal Roman lake rather than an international frontier",
-     "Octavian took the title Augustus ('revered one') and Princeps ('first citizen')",
+     "The student can explain how Mediterranean geography shaped Roman imperial expansion, administration, and economy",
+     "The student can explain the tripartite power structure (emperor, Senate, army) of the early Roman Empire",
      "The primary container was the *Dressel 20* amphora, a globular vessel with thick handles stamped with producer marks"
     ],
     "hint": "Straight from the 'Roman countryside was organised' slide -- match the key terms.",
@@ -1369,7 +1373,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "Disguised monarchy. Evidence: (1) 'The fiction was kept alive that he was actually only the leading citizen (Princeps), not the absolute ruler' — explicit admission of façade",
      "The Edict of Milan was issued in 313 CE by Constantine and Licinius. Its immediate significance was ending state persecution of Christians and restoring confiscated church"
     ],
-    "hint": "Straight from the 'Late Roman Empire (c. 284–476' slide -- match the key terms.",
+    "hint": "Straight from the 'Late Roman Empire' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 312 CE after Milvian Bridge, or 325 CE at Nicaea) reveals confusion between Constantine's personal conversion, the legal toleration edict, and the theological council — three distinct steps in the Christianisation process.",
     "id": "gen_c11_hist_ch02_q8",
     "nodeId": "c11_hist_cbse_02_008",
@@ -1789,7 +1793,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "The Spanish silver mines (Rio Tinto) were exhausted by the mid-third century, and the state lacked bullion to maintain a stable silver currency",
      "The Rhine-Danube line marked the ecological limit of Mediterranean agriculture (olive/wine/wheat zone)"
     ],
-    "hint": "Straight from the 'Roman Empire (27 BCE –' slide -- match the key terms.",
+    "hint": "Straight from the 'Roman Empire' slide -- match the key terms.",
     "misconception": "A student who says \"the army got weak\" confuses *strategic choice* with *capacity* — the army remained strong, but emperors rationally chose *consolidation* over *expansion* at negative marginal returns.",
     "id": "gen_c11_hist_ch02_q17",
     "nodeId": "c11_hist_cbse_02_001",
@@ -1804,7 +1808,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "Similarities: (1) Both had a defined urban core with surrounding villages under its jurisdiction (Roman territorium; Harappan citadel-lower town hierarchy)",
      "Similarity: Both used cities as administrative hubs for tax collection from surrounding countryside"
     ],
-    "hint": "Straight from the 'Roman Empire (27 BCE –' slide -- match the key terms.",
+    "hint": "Straight from the 'Roman Empire' slide -- match the key terms.",
     "misconception": "A wrong answer that claims both had \"direct royal control\" misses the Roman reliance on *local elite co-option* — a unique feature enabling low-cost administration across 60 million people.",
     "id": "gen_c11_hist_ch02_q18",
     "nodeId": "c11_hist_cbse_02_001",
@@ -1813,11 +1817,11 @@ export const C11_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about the roman empire: geography and the three?",
+    "What surprised you about roman empire?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "The Roman Empire: Geography mastered! 🎯",
+  "successLine": "Roman Empire mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1880,13 +1884,13 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Monasticism",
+    "title": "Monasticism Refers To a Religious Way",
     "text": "Monasticism refers to a religious way of life in which individuals (monks/nuns) renounce worldly pursuits to devote themselves fully to spiritual work, often living in communities (monasteries) under a common rule.",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Byzantine Empire Was",
+    "title": "Byzantine Empire",
     "text": "The Byzantine Empire (330–1453 CE) was the eastern continuation of the Roman Empire centred on Constantinople, characterised by a unique synthesis of Roman law, Greek culture, and Imperial Christianity where the emperor exercised supreme authority over both",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1898,13 +1902,13 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Sassanid Empire Was",
+    "title": "Sassanid Empire",
     "text": "The Sassanid Empire (224–651 CE) was the last pre-Islamic Persian imperial dynasty, founded by Ardashir I after overthrowing the Parthians, which established a centralized state in Iran and Mesopotamia with Zoroastrianism as the official religion and engaged",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Great Schism Of 1054 Was",
+    "title": "Great Schism Of 1054",
     "text": "The Great Schism of 1054 was the formal separation between the Roman Catholic Church (centred in Rome, Latin-speaking, under papal supremacy) and the Eastern Orthodox Church (centred in Constantinople, Greek-speaking, under a conciliar model of five",
     "emoji": "🏛️",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -1928,8 +1932,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the immediate trigger for the Crisis of the Third Century in 235 CE?",
     "answer": "The assassination of Emperor Severus Alexander by his own troops, which began a 50-year period where generals were proclaimed emperor by their armies",
     "options": [
-     "The *Filioque* (\"and the Son\") clause asserts that the Holy Spirit proceeds from the Father and the Son",
-     "The five major kingdoms: Visigothic Kingdom (Iberia/Spain), Ostrogothic Kingdom (Italy), Frankish Kingdom (Gaul/France), Vandal Kingdom (North Africa/Tunisia)",
+     "The student can explain the theological, political, and cultural causes of the 1054 Schism, distinguish between immediate triggers and long-term structural factors",
+     "Late Antiquity spans roughly 250–750 CE. The two traditional narratives are \"Decline and Fall\" (Gibbon) and \"Transformation\" (Peter Brown)",
      "The assassination of Emperor Severus Alexander by his own troops, which began a 50-year period where generals were proclaimed emperor by their armies"
     ],
     "hint": "Straight from the 'Crisis of the Third Century' slide -- match the key terms.",
@@ -2033,11 +2037,11 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Who is considered the father of Christian monasticism, and in which region did he live as a hermit in the 3rd-4th century CE?",
     "answer": "Saint Anthony of Egypt (Anthony the Great) is regarded as the father of Christian monasticism; he lived as a hermit in the Egyptian desert",
     "options": [
-     "The five major kingdoms: Visigothic Kingdom (Iberia/Spain), Ostrogothic Kingdom (Italy), Frankish Kingdom (Gaul/France), Vandal Kingdom (North Africa/Tunisia)",
      "The *Filioque* (\"and the Son\") clause asserts that the Holy Spirit proceeds from the Father and the Son",
+     "The student can explain the causal chain linking the Crisis of the Third Century to Constantine's adoption of Christianity",
      "Saint Anthony of Egypt (Anthony the Great) is regarded as the father of Christian monasticism; he lived as a hermit in the Egyptian desert"
     ],
-    "hint": "Straight from the 'Monasticism' slide -- match the key terms.",
+    "hint": "Straight from the 'Monasticism refers to a religious' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Saint Benedict or placing him in Europe) reveals confusion between the early Desert Fathers and the later Western monastic reformers, and a lack of geographical context for the origins of monasticism.",
     "id": "gen_c11_hist_ch03_q4",
     "nodeId": "c11_hist_cbse_03_004",
@@ -2058,7 +2062,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "Charlemagne's coronation by Pope Leo III created a rival \"Roman Emperor\" in the West, directly challenging the Byzantine emperor's claim to be the sole legitimate Roman ruler (the",
      "The emperor appointed the patriarch, convened councils, and enforced doctrinal decisions, making the church an arm of the state"
     ],
-    "hint": "Straight from the 'Byzantine Empire  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Byzantine Empire' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"the emperor controlled the church\" misses the diplomatic consequence: the Latin West viewed Byzantine Caesaropapism as heretical subordination of spiritual to temporal power, fueling the 1054 Schism.",
     "id": "gen_c11_hist_ch03_q5",
     "nodeId": "c11_hist_cbse_03_005",
@@ -2131,7 +2135,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "Emperors debased the denarius to pay armies whose loyalty had to be bought repeatedly; by 270 CE the coin contained <5% silver, causing hyperinflation",
      "To legitimize their rule as restorers of authentic Persian tradition and create ideological unity against Rome's Christianization"
     ],
-    "hint": "Straight from the 'Sassanid Empire  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Sassanid Empire' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"religious devotion\" misses the political instrumentality — the student fails to see religion as a tool of state centralization, a concept linked to Ashoka's Dhamma (c6_history_ch05_009) but with coercive enforcement.",
     "id": "gen_c11_hist_ch03_q7",
     "nodeId": "c11_hist_cbse_03_007",
@@ -2200,11 +2204,11 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the five major Germanic kingdoms established in the Western Roman Empire by 500 CE and the modern regions they roughly correspond to.",
     "answer": "The five major kingdoms: Visigothic Kingdom (Iberia/Spain), Ostrogothic Kingdom (Italy), Frankish Kingdom (Gaul/France), Vandal Kingdom (North Africa/Tunisia)",
     "options": [
-     "The *Filioque* (\"and the Son\") clause asserts that the Holy Spirit proceeds from the Father and the Son",
-     "Late Antiquity spans roughly 250–750 CE. The two traditional narratives are \"Decline and Fall\" (Gibbon) and \"Transformation\" (Peter Brown)",
+     "The four main tiers are: (1) Pope (Bishop of Rome), (2) Cardinals (princes of the Church, papal electors), (3) Archbishops/Bishops (diocesan ordinaries)",
+     "The student can explain how Germanic kingdoms adapted Roman institutions (law, taxation, administration) while introducing tribal practices (kingship, land tenure",
      "The five major kingdoms: Visigothic Kingdom (Iberia/Spain), Ostrogothic Kingdom (Italy), Frankish Kingdom (Gaul/France), Vandal Kingdom (North Africa/Tunisia)"
     ],
-    "hint": "Straight from the 'Barbarian Kingdoms refer to the' slide -- match the key terms.",
+    "hint": "Straight from the 'Barbarian Kingdoms' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing Anglo-Saxons or Lombards as pre-500 CE) reveals confusion about chronological sequence — Anglo-Saxon settlement in Britain accelerated after 450 CE but kingdoms consolidated later; Lombards entered Italy only in 568 CE.",
     "id": "gen_c11_hist_ch03_q9",
     "nodeId": "c11_hist_cbse_03_009",
@@ -2221,7 +2225,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the approximate chronological boundaries of \"Late Antiquity\" as used in current historiography and state the two traditional competing narratives (labels only) that historians use to characterize this period.",
     "answer": "Late Antiquity spans roughly 250–750 CE. The two traditional narratives are \"Decline and Fall\" (Gibbon) and \"Transformation\" (Peter Brown)",
     "options": [
-     "The assassination of Emperor Severus Alexander by his own troops, which began a 50-year period where generals were proclaimed emperor by their armies",
+     "The student can explain the causal chain linking the Crisis of the Third Century to Constantine's adoption of Christianity",
      "The four main tiers are: (1) Pope (Bishop of Rome), (2) Cardinals (princes of the Church, papal electors), (3) Archbishops/Bishops (diocesan ordinaries)",
      "Late Antiquity spans roughly 250–750 CE. The two traditional narratives are \"Decline and Fall\" (Gibbon) and \"Transformation\" (Peter Brown)"
     ],
@@ -2437,15 +2441,15 @@ export const C11_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did the Roman silver currency (denarius) collapse during the third century, and how did this worsen the military crisis?",
-    "answer": "Emperors debased the denarius to pay armies whose loyalty had to be bought repeatedly; by 270 CE the coin contained <5% silver, causing hyperinflation",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain the interconnected political, military, and economic causes of the Crisis of the Third Century and evaluate how Diocletian's reforms addressed each",
     "options": [
-     "Charlemagne's coronation by Pope Leo III created a rival \"Roman Emperor\" in the West, directly challenging the Byzantine emperor's claim to be the sole legitimate Roman ruler (the",
-     "It removed ethnic and ritual barriers, allowing Christianity to become a universal (katholikos) religion accessible to any Roman citizen or provincial",
-     "Emperors debased the denarius to pay armies whose loyalty had to be bought repeatedly; by 270 CE the coin contained <5% silver, causing hyperinflation"
+     "The student can explain the causal chain linking the Crisis of the Third Century to Constantine's adoption of Christianity",
+     "The four main tiers are: (1) Pope (Bishop of Rome), (2) Cardinals (princes of the Church, papal electors), (3) Archbishops/Bishops (diocesan ordinaries)",
+     "The student can explain the interconnected political, military, and economic causes of the Crisis of the Third Century and evaluate how Diocletian's reforms addressed each"
     ],
     "hint": "Straight from the 'Crisis of the Third Century' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"trade deficit with India\") shows the student misses the fiscal-military feedback loop: debasement → inflation → higher army pay demands → more debasement.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain the interconnected political, military, and economic causes of the Crisis of the Third Century",
     "id": "gen_c11_hist_ch03_q18",
     "nodeId": "c11_hist_cbse_03_001",
     "difficulty": "advanced"
@@ -2521,25 +2525,25 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Quran",
+    "title": "Quran Is The Central Religious Text Of Islam",
     "text": "The Quran is the central religious text of Islam, believed by Muslims to be the verbatim word of God (Allah) revealed to the Prophet Muhammad over 23 years (610–632 CE) in Mecca and Medina, compiled into a single authoritative codex under Caliph Abu Bakr (c.",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Rashidun Caliphate Was",
+    "title": "Rashidun Caliphate",
     "text": "The Rashidun Caliphate (632–661 CE) was the first Islamic state led by four \"Rightly Guided\" caliphs—Abu Bakr, Umar, Uthman, and Ali—chosen through community consultation (shura) or designation, marking the formative period when the question of legitimate",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Umayyad Caliphate Was",
+    "title": "Umayyad Caliphate",
     "text": "The Umayyad Caliphate (661–750 CE) was the first hereditary Islamic dynasty, ruling from Damascus, that transformed the Caliphate into an imperial Arab empire through rapid territorial expansion across North Africa, Spain, Central Asia, and Sindh, while",
     "emoji": "🏛️",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Abbasid Caliphate Was",
+    "title": "Abbasid Caliphate",
     "text": "The Abbasid Caliphate (750–1258 CE) was the third Islamic caliphate, founded by descendants of the Prophet's uncle Abbas ibn Abd al-Muttalib, which overthrew the Umayyads and established its capital at Baghdad (founded 762 CE).",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -2575,8 +2579,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What were the two primary ecological zones of the Arabian Peninsula that determined whether a group lived as pastoral nomads (Bedouins) or settled agriculturalists, and name one major settlement in each zone?",
     "answer": "The two zones were: (1) the desert interior (Najd) supporting pastoral nomadism — major group: Bedouin tribes",
     "options": [
-     "Abu Bakr (632–634): chosen by shura (consultation) of prominent companions at Saqifah. Umar (634–644): appointed by Abu Bakr's written testament (nass)",
-     "Mu'awiya I became caliph in 661 CE and made Damascus the capital",
+     "The student can explain the causal relationship between the socio-economic conditions of pre-Islamic Arabia and the Prophet's message",
+     "Student can explain each pillar's theological significance, ritual requirements, and social function",
      "The two zones were: (1) the desert interior (Najd) supporting pastoral nomadism — major group: Bedouin tribes"
     ],
     "hint": "Straight from the 'Arabia before Islam' slide -- match the key terms.",
@@ -2671,7 +2675,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "Timeline: 570 Birth (social — orphanhood shaped empathy); 610 First Revelation (spiritual); 613 Public Preaching (social/spiritual)",
      "The first compilation was undertaken during the caliphate of Abu Bakr (632–634 CE) on the urging of Umar ibn al-Khattab after the Battle of Yamama (633 CE)"
     ],
-    "hint": "Straight from the 'Quran' slide -- match the key terms.",
+    "hint": "Straight from the 'Quran is the central religious' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., attributing it to Uthman or the Prophet's lifetime) reveals confusion between the initial compilation and the later standardization, or ignorance of the oral-preservation crisis.",
     "id": "gen_c11_hist_ch04_q4",
     "nodeId": "c11_hist_cbse_04_004",
@@ -2688,11 +2692,11 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the four Rashidun caliphs in chronological order and state the distinct method by which each assumed office.",
     "answer": "Abu Bakr (632–634): chosen by shura (consultation) of prominent companions at Saqifah. Umar (634–644): appointed by Abu Bakr's written testament (nass)",
     "options": [
-     "The Arabic term is Shahada (الشهادة). Its two components are: (1) *La ilaha illa Allah* — \"There is no deity but Allah\" (absolute monotheism), and (2) *Muhammadun rasul Allah*",
-     "Mu'awiya I became caliph in 661 CE and made Damascus the capital",
+     "Student can explain the three distinct methods of caliphal selection used during the Rashidun period",
+     "The student can explain the structural causes of Abbasid decline (fiscal, military, administrative), trace the chronological emergence of at least four major regional powers",
      "Abu Bakr (632–634): chosen by shura (consultation) of prominent companions at Saqifah. Umar (634–644): appointed by Abu Bakr's written testament (nass)"
     ],
-    "hint": "Straight from the 'Rashidun Caliphate  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Rashidun Caliphate' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing them as hereditary or all elected identically) reveals the student misses the evolving, ad-hoc nature of early caliphal legitimacy—a core board exam concept.",
     "id": "gen_c11_hist_ch04_q5",
     "nodeId": "c11_hist_cbse_04_005",
@@ -2709,11 +2713,11 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the first Umayyad caliph, the year he assumed power, and the capital city he established.",
     "answer": "Mu'awiya I became caliph in 661 CE and made Damascus the capital",
     "options": [
-     "The Bayt al-Hikma (House of Wisdom), founded by Caliph Harun al-Rashid (r. 786–809) and expanded by his son Al-Ma'mun (r. 813–833)",
+     "The student must be able to explain the multi-causal origins (religious, economic, political) of the Crusades, trace the trajectory of the major expeditions (First through Ninth)",
      "The two zones were: (1) the desert interior (Najd) supporting pastoral nomadism — major group: Bedouin tribes",
      "Mu'awiya I became caliph in 661 CE and made Damascus the capital"
     ],
-    "hint": "Straight from the 'Umayyad Caliphate  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Umayyad Caliphate' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming Yazid I or selecting Medina) reveals confusion between the Rashidun practice of elective succession and Umayyad hereditary rule, or ignorance of the strategic shift from Arabia to Syria.",
     "id": "gen_c11_hist_ch04_q6",
     "nodeId": "c11_hist_cbse_04_006",
@@ -3434,13 +3438,13 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Mongol Army Was",
+    "title": "Mongol Army",
     "text": "The Mongol Army (1206–1368 CE) was a highly disciplined, decimal-based military force organized into units of 10 (arban), 100 (jaghun), 1,000 (mingghan), and 10,000 (tumen), which combined steppe mobility, composite bow mastery, and innovative siege tactics",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Yasa Was",
+    "title": "The Yasa",
     "text": "The Yasa (also spelled Yassa) was the comprehensive code of laws promulgated by Genghis Khan around 1206 CE at the Kurultai that proclaimed him Great Khan, governing the Mongol Empire's military organisation, social conduct, religious policy, and",
     "emoji": "🏛️",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -3488,8 +3492,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Identify the five domesticated animals (tavan hoshuu) that formed the core of the Mongol pastoral economy and state the primary product or function each provided for steppe survival.",
     "answer": "The five animals are: horse (transport, warfare, fermented mare's milk/airag), sheep (meat, wool, felt for gers), goat (meat, cashmere, milk)",
     "options": [
-     "Hulagu Khan, 1258, Abbasid Caliphate",
-     "The death of Möngke Khan in 1259 without a designated successor triggered a civil war (1260–1264) between his brothers Kublai and Ariq Böke for the Great Khan title",
+     "The student can explain how Mongol imperial policies (yassa, yam system, meritocratic administration) created conditions for safe transit",
+     "The student can explain how specific steppe ecological constraints (aridity, seasonality, lack of surplus) directly produced nomadic pastoralism",
      "The five animals are: horse (transport, warfare, fermented mare's milk/airag), sheep (meat, wool, felt for gers), goat (meat, cashmere, milk)"
     ],
     "hint": "Straight from the 'Mongol Steppe' slide -- match the key terms.",
@@ -3509,8 +3513,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What are the 'five snouts' (tabun qosighu mal) in the Mongol pastoral economy, and why is the horse considered the most strategically significant among them?",
     "answer": "The five snouts are horses, sheep, goats, cattle (including yaks), and camels. The horse is strategically supreme because it provides mobility for migration, warfare",
     "options": [
-     "The basic building block was the *arban*, comprising 10 soldiers",
-     "Western Xia (1209), Jin Dynasty (1211), Khwarazmian Empire (1219)",
+     "The five animals are: horse (transport, warfare, fermented mare's milk/airag), sheep (meat, wool, felt for gers), goat (meat, cashmere, milk)",
+     "The student can explain how the Yasa transformed Mongol tribal customs into an imperial legal framework",
      "The five snouts are horses, sheep, goats, cattle (including yaks), and camels. The horse is strategically supreme because it provides mobility for migration, warfare"
     ],
     "hint": "Straight from the 'Mongol society in the 12th–13th' slide -- match the key terms.",
@@ -3664,12 +3668,12 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the three major sedentary powers conquered by Genghis Khan between 1206 and 1227, and state the year each campaign began.",
     "answer": "Western Xia (1209), Jin Dynasty (1211), Khwarazmian Empire (1219)",
     "options": [
-     "Hulagu Khan, 1258, Abbasid Caliphate",
-     "The death of Möngke Khan in 1259 without a designated successor triggered a civil war (1260–1264) between his brothers Kublai and Ariq Böke for the Great Khan title",
-     "Strongest (1209), Jin Dynasty (1211), Khwarazmian Empire (1219)",
+     "Student can explain how Kublai Khan adapted Mongol steppe governance to sedentary Chinese administration",
+     "Can explain the strategic sequence and distinct military adaptations used in the three major conquest theatres (Western Xia/Jin China, Kara-Khitai, Khwarazmian Empire)",
+     "Yuan China (1209), Jin Dynasty (1211), Khwarazmian Empire (1219)",
      "Western Xia (1209), Jin Dynasty (1211), Khwarazmian Empire (1219)"
     ],
-    "hint": "Straight from the 'Mongol Conquests  refer to' slide -- match the key terms.",
+    "hint": "Straight from the 'Mongol Conquests' slide -- match the key terms.",
     "misconception": "A wrong answer—such as including the Song Dynasty or the Abbasid Caliphate—reveals confusion between Genghis Khan's lifetime conquests and those of his successors (Ögedei, Möngke, Kublai).",
     "id": "gen_c11_hist_ch05_q6",
     "nodeId": "c11_hist_cbse_05_006",
@@ -3822,9 +3826,9 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the founder of the Il-Khanate, the year he captured Baghdad, and the caliphate he ended.",
     "answer": "Hulagu Khan, 1258, Abbasid Caliphate",
     "options": [
-     "The five snouts are horses, sheep, goats, cattle (including yaks), and camels. The horse is strategically supreme because it provides mobility for migration, warfare",
-     "The basic building block was the *arban*, comprising 10 soldiers",
-     "Dughlat, 1258, Abbasid Caliphate",
+     "Can explain the sequence of Temujin's rise from 1180s to 1206, analyze how he transformed kinship-based tribal loyalty into a supra-tribal imperial identity",
+     "The five animals are: horse (transport, warfare, fermented mare's milk/airag), sheep (meat, wool, felt for gers), goat (meat, cashmere, milk)",
+     "Grand Canal, 1258, Abbasid Caliphate",
      "Hulagu Khan, 1258, Abbasid Caliphate"
     ],
     "hint": "Straight from the 'Il-Khanate , Golden Horde' slide -- match the key terms.",
@@ -3844,8 +3848,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the immediate trigger for the Mongol Empire's division into competing khanates after 1259?",
     "answer": "The death of Möngke Khan in 1259 without a designated successor triggered a civil war (1260–1264) between his brothers Kublai and Ariq Böke for the Great Khan title",
     "options": [
-     "The basic building block was the *arban*, comprising 10 soldiers",
-     "The yam (örtege) system – a network of relay stations spaced 20–30 km apart providing fresh horses, lodging, and safe passage for envoys, officials",
+     "The student can explain the structural causes of Mongol imperial fragmentation using specific evidence from each khanate",
+     "Student can compare the three khanates across four dimensions (legitimacy, Islamisation, administration, cultural legacy)",
      "The death of Möngke Khan in 1259 without a designated successor triggered a civil war (1260–1264) between his brothers Kublai and Ariq Böke for the Great Khan title"
     ],
     "hint": "Straight from the 'decline of the Mongol Empire' slide -- match the key terms.",
@@ -4005,7 +4009,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "options": [
      "Three reforms: (1) Decimal reorganisation dissolving tribal units into mixed-arbitrary units; (2) Yasa promulgation establishing rule of law above khan's whim (theoretically)",
      "Shared: use of the Mongol *jarliqs* (patents) and *paiza* (passports) for merchant protection across all three",
-     "Total sheep units from listed animals: 20×7 + 10×5 + 15×6 = 140 + 50 + 90 = 280. Tughlugh Timur for sheep/goats = 300 − 280 = 20 sheep units = 20 sheep/goats",
+     "Total sheep units from listed animals: 20×7 + 10×5 + 15×6 = 140 + 50 + 90 = 280. Song Dynasty for sheep/goats = 300 − 280 = 20 sheep units = 20 sheep/goats",
      "Total sheep units from listed animals: 20×7 + 10×5 + 15×6 = 140 + 50 + 90 = 280. Remaining for sheep/goats = 300 − 280 = 20 sheep units = 20 sheep/goats"
     ],
     "hint": "Straight from the 'Mongol Steppe' slide -- match the key terms.",
@@ -4072,13 +4076,15 @@ export const C11_HIST_GEN: SimDef[] = [
  },
  {
   "id": "gen_c11_hist_ch06",
-  "title": "Feudal Society: The Three Orders of Medieval",
+  "title": "Feudal Society In Medieval Europe",
   "subtitle": "History · Chapter 6",
   "classLevel": 11,
   "mode": "senior",
   "subject": "history",
-  "topic": "Feudal Society: The Three Orders of Medieval",
-  "chapters": ["History Ch6: Feudal Society: The Three Orders of Medieval"],
+  "topic": "Feudal Society In Medieval Europe",
+  "chapters": [
+   "History Ch6: Feudal Society In Medieval Europe"
+  ],
   "nodeIds": [
    "c11_hist_cbse_06_001",
    "c11_hist_cbse_06_002",
@@ -4099,7 +4105,7 @@ export const C11_HIST_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Feudal Society: The Three Orders suddenly stops working?",
+   "question": "What happens if Feudal Society In Medieval Europe suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -4256,7 +4262,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "answer": "The ceremony was called *homage and fealty*. The vassal knelt, placed his hands between the lord's (homage), and swore an oath of loyalty on a relic or the Gospels (fealty)",
     "options": [
      "The two categories are the secular clergy (living in the world, e.g., parish priest administering sacraments to laypeople) and the regular clergy (living under a regula/rule, e",
-     "The demesne was the portion of the manor’s arable land directly cultivated by the lord (using peasant labour services) for his own profit",
+     "The student must be able to: (1) map the hierarchical structure of the medieval Church from Pope to parish priest and distinguish secular from regular clergy",
      "The ceremony was called *homage and fealty*. The vassal knelt, placed his hands between the lord's (homage), and swore an oath of loyalty on a relic or the Gospels (fealty)"
     ],
     "hint": "Straight from the 'Second Order' slide -- match the key terms.",
@@ -4480,7 +4486,7 @@ export const C11_HIST_GEN: SimDef[] = [
      "(1) 843 – Treaty of Verdun fragments Carolingian Empire → (2) 888 – Carolingian dynasty ends; local counts become hereditary lords → (3) c",
      "1075 CE; it challenged lay investiture — the practice where secular rulers (kings, dukes) appointed bishops and abbots and invested them with the symbols of spiritual office (ring"
     ],
-    "hint": "Straight from the 'medieval Catholic Church (c.' slide -- match the key terms.",
+    "hint": "Straight from the 'medieval Catholic Church' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., naming 1054 or 1215, or citing clerical marriage) reveals confusion between the Investiture Controversy, the East-West Schism, and the Fourth Lateran Council — three distinct crises of papal authority.",
     "id": "gen_c11_hist_ch06_q7",
     "nodeId": "c11_hist_cbse_06_007",
@@ -4549,8 +4555,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "Name the three hierarchical ranks within a craft guild and state the typical duration (in years) an apprentice served before becoming a journeyman.",
     "answer": "The three ranks are Master, Journeyman, and Apprentice. Apprenticeship typically lasted 7 years (range 5–9 years depending on the craft and region)",
     "options": [
-     "The ceremony was called *homage and fealty*. The vassal knelt, placed his hands between the lord's (homage), and swore an oath of loyalty on a relic or the Gospels (fealty)",
-     "The demesne was the portion of the manor’s arable land directly cultivated by the lord (using peasant labour services) for his own profit",
+     "The student can explain the structural differences between merchant and craft guilds, analyse how the master-journeyman-apprentice hierarchy controlled labour and quality",
+     "The student can explain how cathedral construction integrated feudal obligations, urban craft guilds, and Church authority",
      "The three ranks are Master, Journeyman, and Apprentice. Apprenticeship typically lasted 7 years (range 5–9 years depending on the craft and region)"
     ],
     "hint": "Straight from the 'guild system in medieval Europe' slide -- match the key terms.",
@@ -4570,8 +4576,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What is the approximate time period when the Gothic style of cathedral architecture emerged in France?",
     "answer": "The Gothic style emerged in the Île-de-France region around 1140, with the rebuilding of the Abbey Church of Saint-Denis under Abbot Suger",
     "options": [
-     "The demesne was the portion of the manor’s arable land directly cultivated by the lord (using peasant labour services) for his own profit",
-     "The two ceremonies were homage (vassal kneels, places hands between lord's hands, pledges loyalty) and fealty (vassal swears oath on relics/Bible to be faithful)",
+     "The ceremony was called *homage and fealty*. The vassal knelt, placed his hands between the lord's (homage), and swore an oath of loyalty on a relic or the Gospels (fealty)",
+     "The student can explain how cathedral construction integrated feudal obligations, urban craft guilds, and Church authority",
      "The Gothic style emerged in the Île-de-France region around 1140, with the rebuilding of the Abbey Church of Saint-Denis under Abbot Suger"
     ],
     "hint": "Straight from the 'Cathedral construction in' slide -- match the key terms.",
@@ -4783,15 +4789,15 @@ export const C11_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
-    "question": "Why did the Three Orders model place the clergy (Oratores) at the top of the social hierarchy, above the nobility (Bellatores), even though kings and nobles held military and political power?",
-    "answer": "The clergy claimed primacy because their function — prayer and salvation — concerned the eternal soul, which medieval theology ranked above temporal life",
+    "question": "What is Feudal society in medieval Europe (c? State the definition given in this lesson.",
+    "answer": "9th–15th century) was a hierarchical social, economic, and political system structured around land tenure and reciprocal obligations",
     "options": [
-     "Primogeniture prevented the fragmentation of fiefs, which would weaken the military capacity of the vassal and undermine the lord's ability to summon a coherent force",
-     "False. Evidence: (1) Serfs held hereditary plots they could not be arbitrarily deprived of; (2) They had access to manorial courts and customary law",
-     "The clergy claimed primacy because their function — prayer and salvation — concerned the eternal soul, which medieval theology ranked above temporal life"
+     "The student can explain how cathedral construction integrated feudal obligations, urban craft guilds, and Church authority",
+     "The student must be able to: (1) map the hierarchical structure of the medieval Church from Pope to parish priest and distinguish secular from regular clergy",
+     "9th–15th century) was a hierarchical social, economic, and political system structured around land tenure and reciprocal obligations"
     ],
     "hint": "Straight from the 'Feudal society in medieval Europe' slide -- match the key terms.",
-    "misconception": "A wrong answer focusing on \"wealth\" or \"land ownership\" misses the *ideological* nature of the hierarchy: it was about spiritual function, not material power, though the Church did accumulate both.",
+    "misconception": "Recheck the lesson slide -- the key claim is: 9th–15th century) was a hierarchical social, economic, and political system structured around land tenure and",
     "id": "gen_c11_hist_ch06_q18",
     "nodeId": "c11_hist_cbse_06_001",
     "difficulty": "standard"
@@ -4799,11 +4805,11 @@ export const C11_HIST_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about feudal society: the three orders of medieval?",
+    "What surprised you about feudal society in medieval europe?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Feudal Society: The Three mastered! 🎯",
+  "successLine": "Feudal Society In Medieval mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4891,7 +4897,7 @@ export const C11_HIST_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Scientific Revolution Was",
+    "title": "Scientific Revolution",
     "text": "The Scientific Revolution (c. 1543–1687) was a transformative period in European intellectual history when the geocentric, Aristotelian-Ptolemaic worldview was replaced by a heliocentric, mathematically grounded understanding of the cosmos through the works",
     "emoji": "🏛️",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -5058,9 +5064,9 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the primary language of the Greek classical texts brought to Italy by Byzantine scholars after 1453, and why did this create a translation bottleneck in Western Europe?",
     "answer": "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c",
     "options": [
-     "Gutenberg's key innovation was the *combination* of movable *metal* type (cast from a durable lead-antimony-tin alloy), oil-based ink (adhering to metal)",
-     "The immediate trigger was the sale of indulgences by Johann Tetzel in German territories to fund the rebuilding of St. Peter's Basilica in Rome",
-     "The primary language was Greek. The bottleneck arose because very few Arabic scholars knew Greek before c",
+     "The student can explain the core principles of Renaissance humanism, identify its key figures (Petrarch, Erasmus, Pico della Mirandola)",
+     "The student can explain the multi-channel transmission of classical texts (Greek → Arabic → Latin, Byzantine → Italian, monastic preservation → humanist recovery)",
+     "The primary language was Greek. The bottleneck arose because very few Switzerland scholars knew Greek before c",
      "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c"
     ],
     "hint": "Straight from the 'Revival of Classical Learning' slide -- match the key terms.",
@@ -5101,8 +5107,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the key technical innovation that distinguished Gutenberg's press from earlier Chinese/Korean movable type, and in what year was the Gutenberg Bible completed?",
     "answer": "Gutenberg's key innovation was the *combination* of movable *metal* type (cast from a durable lead-antimony-tin alloy), oil-based ink (adhering to metal)",
     "options": [
-     "Florence – wool textiles and banking (especially the florin); Venice – maritime trade and spice monopoly; Milan – arms manufacturing and agriculture",
-     "Petrarch (1304–1374) is called the father of humanism; he actively searched for and copied lost Cicero manuscripts, wrote letters to ancient authors as if they were alive",
+     "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c",
+     "The movable-type printing press perfected by Johannes Gutenberg in Mainz c. 1450",
      "Gutenberg's key innovation was the *combination* of movable *metal* type (cast from a durable lead-antimony-tin alloy), oil-based ink (adhering to metal)"
     ],
     "hint": "Straight from the 'Printing Revolution' slide -- match the key terms.",
@@ -5122,8 +5128,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What was the immediate trigger for Martin Luther writing the 95 Theses in 1517?",
     "answer": "The immediate trigger was the sale of indulgences by Johann Tetzel in German territories to fund the rebuilding of St. Peter's Basilica in Rome",
     "options": [
-     "*De Revolutionibus Orbium Coelestium* (On the Revolutions of the Heavenly Spheres), published in 1543",
-     "The movable-type printing press perfected by Johannes Gutenberg in Mainz c. 1450",
+     "The student can explain the core principles of Renaissance humanism, identify its key figures (Petrarch, Erasmus, Pico della Mirandola)",
+     "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c",
      "The immediate trigger was the sale of indulgences by Johann Tetzel in German territories to fund the rebuilding of St. Peter's Basilica in Rome"
     ],
     "hint": "Straight from the 'Protestant Reformation was a' slide -- match the key terms.",
@@ -5145,9 +5151,10 @@ export const C11_HIST_GEN: SimDef[] = [
     "options": [
      "Most reliable: (c) Aldine edition — based on collated Greek manuscripts, edited by a competent Greek scholar, standardised",
      "A strong answer links: *Textual practice* — Angelo Poliziano's *Miscellaneorum* (1489) used manuscript genealogy (stemmatics) to reject a single authority in favour of",
+     "Western European of Trent opened on 13 December 1545 under Pope Paul III",
      "The Council of Trent opened on 13 December 1545 under Pope Paul III"
     ],
-    "hint": "Straight from the 'Catholic Counter-Reformation  was' slide -- match the key terms.",
+    "hint": "Straight from the 'Catholic Counter-Reformation' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., 1517 or 1563) reveals confusion between the start of the Protestant Reformation, the council's opening, and its closing — indicating the student cannot anchor the Counter-Reformation chronologically.",
     "id": "gen_c11_hist_ch07_q7",
     "nodeId": "c11_hist_cbse_07_007",
@@ -5301,8 +5308,8 @@ export const C11_HIST_GEN: SimDef[] = [
     "question": "What invention, perfected in Mainz c. 1450, accelerated the spread of Renaissance texts to Northern Europe more than any other factor?",
     "answer": "The movable-type printing press perfected by Johannes Gutenberg in Mainz c. 1450",
     "options": [
-     "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c",
-     "Gutenberg's key innovation was the *combination* of movable *metal* type (cast from a durable lead-antimony-tin alloy), oil-based ink (adhering to metal)",
+     "The student can explain how the rediscovery of Vitruvius provided a theoretical framework that transformed Renaissance architecture from mere imitation of ruins into a principled",
+     "The student can explain the multi-channel transmission of classical texts (Greek → Arabic → Latin, Byzantine → Italian, monastic preservation → humanist recovery)",
      "The movable-type printing press perfected by Johannes Gutenberg in Mainz c. 1450"
     ],
     "hint": "Straight from the 'spread of Renaissance ideas to' slide -- match the key terms.",
@@ -5400,16 +5407,31 @@ export const C11_HIST_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain how the unique political economy of Italian city-states—specifically their merchant-based governance, trade networks linking Europe to the Levant",
+    "options": [
+     "Petrarch (1304–1374) is called the father of humanism; he actively searched for and copied lost Cicero manuscripts, wrote letters to ancient authors as if they were alive",
+     "The student can explain the core principles of Renaissance humanism, identify its key figures (Petrarch, Erasmus, Pico della Mirandola)",
+     "The student can explain how the unique political economy of Italian city-states—specifically their merchant-based governance, trade networks linking Europe to the Levant"
+    ],
+    "hint": "Straight from the 'Italian Renaissance' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain how the unique political economy of Italian city-states—specifically their merchant-based",
+    "id": "gen_c11_hist_ch07_q16",
+    "nodeId": "c11_hist_cbse_07_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Which Italian city-state is correctly paired with its primary source of wealth that funded Renaissance patronage?",
     "answer": "Florence – wool textiles and banking (especially the florin); Venice – maritime trade and spice monopoly; Milan – arms manufacturing and agriculture",
     "options": [
-     "The movable-type printing press perfected by Johannes Gutenberg in Mainz c. 1450",
-     "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c",
+     "The student can explain the core principles of Renaissance humanism, identify its key figures (Petrarch, Erasmus, Pico della Mirandola)",
+     "The student can explain how the rediscovery of Vitruvius provided a theoretical framework that transformed Renaissance architecture from mere imitation of ruins into a principled",
      "Florence – wool textiles and banking (especially the florin); Venice – maritime trade and spice monopoly; Milan – arms manufacturing and agriculture"
     ],
     "hint": "Straight from the 'Italian Renaissance' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Rome – papal taxes\" as the primary driver) reveals the student confuses the later High Renaissance papal patronage with the early commercial foundations in merchant republics.",
-    "id": "gen_c11_hist_ch07_q16",
+    "id": "gen_c11_hist_ch07_q17",
     "nodeId": "c11_hist_cbse_07_001",
     "difficulty": "advanced"
    },
@@ -5424,24 +5446,9 @@ export const C11_HIST_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Italian Renaissance' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"Italy had Roman ruins\" misses the socioeconomic and political structures that turned access to ruins into a cultural movement.",
-    "id": "gen_c11_hist_ch07_q17",
+    "id": "gen_c11_hist_ch07_q18",
     "nodeId": "c11_hist_cbse_07_001",
     "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student reads Pico della Mirandola's *Oration on the Dignity of Man* (1486) and claims it proves Renaissance humanism was secular and anti-church. Using the text's context, evaluate this claim.",
-    "answer": "The *Oration* argues humans have free will to choose their nature — ascending to the divine or descending to the brute",
-    "options": [
-     "A strong answer links: *Textual practice* — Angelo Poliziano's *Miscellaneorum* (1489) used manuscript genealogy (stemmatics) to reject a single authority in favour of",
-     "The claim is partially correct but incomplete. Princes like Frederick the Wise protected Luther for political autonomy",
-     "The *Oration* argues humans have free will to choose their nature — ascending to the divine or descending to the brute"
-    ],
-    "hint": "Straight from the 'Humanism was an intellectual' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The *Oration* argues humans have free will to choose their nature — ascending to the divine or descending to the brute",
-    "id": "gen_c11_hist_ch07_q18",
-    "nodeId": "c11_hist_cbse_07_002",
-    "difficulty": "standard"
    }
   ],
   "reflect": {

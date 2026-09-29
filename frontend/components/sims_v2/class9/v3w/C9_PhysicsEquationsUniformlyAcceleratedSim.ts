@@ -11,7 +11,7 @@ export const w_c9_physicsequationsuniformlyacceleratedsim: SimDef = {
     classLevel: 9, subject: 'physics', topic: 'Equations of Motion: Derivation',
     chapters: [],
     nodeIds: ['c9_physics_ch2_8', 'c9_physics_ch2_9', 'c9_physics_ch2_7', 'c9_physics_ch2_3', 'c9_physics_ch2_11', 'c9_physics_ch2_10', 'c9_physics_ch2_2', 'c9_physics_ch2_4', 'c9_physics_ch2_5', 'c9_physics_ch2_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine a motorcycle at a traffic signal in Delhi – it starts from rest and accelerates uniformly to cross.', goal: 'Master Equations of Motion: Derivation.' },
     discovery: {
         question: 'Two cyclists start from the same point on a straight road. Cyclist A moves with constant velocity 5 m/s.',
@@ -20,7 +20,7 @@ export const w_c9_physicsequationsuniformlyacceleratedsim: SimDef = {
         hook: 'Students believe the equations of motion (v = u + at, s = ut + ½at², v² = u² + 2as) are universal formulas that work.',
     },
     teaching: [
-        { title: 'The three equations of motion are.', text: 'The three equations of motion are mathematical relationships that connect the five kinematic variables – initial velocity (u), final velocity (v), uniform acceleration (a), time (t), and displacement.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The three equations of motion are.', text: 'The three equations of motion are mathematical relationships that connect the five kinematic variables – initial velocity (u), final velocity (v), uniform acceleration (a), time (t), and displacement.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_physics_ch2_8', title: 'The three equations of motion are.',

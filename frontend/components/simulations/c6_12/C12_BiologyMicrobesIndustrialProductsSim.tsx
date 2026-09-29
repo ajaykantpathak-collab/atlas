@@ -1168,7 +1168,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
                 : difficulty === 'advanced'
                 ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
-                : 'bg-indigo-500/10 text-indigo-400 border-indigo-500/30'
+                : 'bg-gold-500/10 text-gold-400 border-gold-500/30'
             }`}
           >
             {difficulty}
@@ -1182,7 +1182,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
       {/* ─── 1. DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-6">
-          <div className="p-5 bg-gradient-to-r from-emerald-950/60 to-indigo-950/60 rounded-2xl border border-emerald-800/40">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/60 to-gold-950/60 rounded-2xl border border-emerald-800/40">
             <h3 className="text-lg font-bold text-emerald-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h3>
@@ -1329,7 +1329,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Impeller Agitation (RPM):</span>
-                        <span className="font-bold text-sky-400">{bioreactorRpm} RPM</span>
+                        <span className="font-bold text-gold-400">{bioreactorRpm} RPM</span>
                       </div>
                       <input
                         type="range"
@@ -1338,7 +1338,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                         value={bioreactorRpm}
                         aria-label="Impeller Agitation RPM slider"
                         onChange={(e) => setBioreactorRpm(Number(e.target.value))}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1421,8 +1421,8 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                 <div className="space-y-4 bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   {/* Predict-then-check block */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                      <p className="text-sm font-bold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                      <p className="text-sm font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="space-y-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, idx) => (
                           <motion.button
@@ -1490,7 +1490,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                         <button
                           onClick={() => setPopModelType('exponential')}
                           className={`flex-1 py-1.5 text-xs font-bold rounded-lg ${
-                            popModelType === 'exponential' ? 'bg-sky-600 text-white' : 'bg-slate-800 text-slate-400'
+                            popModelType === 'exponential' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           J-Curve (Exponential)
@@ -1567,7 +1567,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                           audioManager.play('pickup');
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold border ${
-                          selectedVector ? 'bg-indigo-600 border-indigo-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'
+                          selectedVector ? 'bg-gold-600 border-gold-400 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
                         🦠 Disarmed Retrovirus Casing
@@ -1730,7 +1730,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
                       <span>Calculated Richness S:</span>
-                      <span className="text-base font-extrabold text-indigo-400">{estimatedSpeciesRichness} species</span>
+                      <span className="text-base font-extrabold text-gold-400">{estimatedSpeciesRichness} species</span>
                     </div>
                   </div>
 
@@ -1755,7 +1755,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300">
                         <span>Survey Area (A km²):</span>
-                        <span className="font-bold text-sky-400">{surveyArea} km²</span>
+                        <span className="font-bold text-gold-400">{surveyArea} km²</span>
                       </div>
                       <input
                         type="range"
@@ -1765,7 +1765,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                         value={surveyArea}
                         aria-label="Survey area slider"
                         onChange={(e) => setSurveyArea(Number(e.target.value))}
-                        className="w-full accent-sky-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
@@ -1849,7 +1849,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleAdvanceToChallenge}
-              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white font-bold rounded-xl shadow-lg"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-600 to-gold-600 text-white font-bold rounded-xl shadow-lg"
             >
               Ready for Graded Challenges! 🎯
             </motion.button>
@@ -1872,7 +1872,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                 value={bioreactorRpm}
                 aria-label="Sandbox vessel RPM slider"
                 onChange={(e) => setBioreactorRpm(Number(e.target.value))}
-                className="w-full accent-sky-400"
+                className="w-full accent-gold-400"
               />
               <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-center">
                 <span className="text-xs text-slate-400 uppercase font-semibold">Active Bioprocess Output</span>
@@ -1905,7 +1905,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
           {/* Animated Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1951,7 +1951,7 @@ function C12_BiologyMicrobesIndustrialProductsSim({
                     onDragStart={() => handleDragStart(item.label)}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
+                    className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg cursor-grab text-white text-xs font-bold shadow"
                   >
                     ⠿ {item.label}
                   </motion.div>
@@ -2171,12 +2171,12 @@ function C12_BiologyMicrobesIndustrialProductsSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-indigo-950 rounded-3xl border border-emerald-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-r from-emerald-950 via-slate-900 to-gold-950 rounded-3xl border border-emerald-700/60 text-center space-y-3">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">ISC Biology Master Simulation Completed!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
               Final Competency Score: <span className="text-emerald-400 font-extrabold">{Math.max(0, 100 - errors * 5)}%</span> •
-              Mastery Tier: <span className="text-indigo-400 font-bold uppercase">{masteryLevel}</span>
+              Mastery Tier: <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2225,13 +2225,13 @@ function C12_BiologyMicrobesIndustrialProductsSim({
           )}
 
           {/* Spaced Repetition Notification */}
-          <div className="p-5 bg-indigo-950/40 border border-indigo-800 rounded-2xl flex items-center gap-4 text-xs">
+          <div className="p-5 bg-gold-950/40 border border-gold-800 rounded-2xl flex items-center gap-4 text-xs">
             <span className="text-2xl">📅</span>
             <div>
-              <p className="font-bold text-indigo-300">Spaced Repetition Schedule (SM-2 Active)</p>
+              <p className="font-bold text-gold-300">Spaced Repetition Schedule (SM-2 Active)</p>
               <p className="text-slate-300 mt-0.5">
                 Next adaptive review session scheduled in{' '}
-                <strong className="text-indigo-400 font-bold">
+                <strong className="text-gold-400 font-bold">
                   {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
                 </strong>
                 .

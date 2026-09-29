@@ -11,7 +11,7 @@ export const w_c12_biotechnologygenomiccdnalibrariessim: SimDef = {
     classLevel: 12, subject: 'biotechnology', topic: 'Genomic Library: Construction and Representation',
     chapters: [],
     nodeIds: ['c12_biotech_cbse_03_002', 'c12_biotech_cbse_03_003', 'c12_biotech_cbse_03_004', 'c12_biotech_cbse_03_008', 'c12_biotech_cbse_01_008', 'c12_biotech_cbse_01_010', 'c12_biotech_cbse_02_005', 'c12_biotech_cbse_05_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you have the entire instruction manual for building a human (the genome) but it\'s one massive.', goal: 'Master Genomic Library: Construction and Representation.' },
     discovery: {
         question: 'A research team constructs a genomic library using a plasmid vector (max insert 10 kb) for a 3 Gb mammalian genome. They obtain 50,000 independent clones.',
@@ -20,7 +20,7 @@ export const w_c12_biotechnologygenomiccdnalibrariessim: SimDef = {
         hook: 'Students often believe a genomic library contains "only genes" or "only exons" because they equate "genome" with "gene.',
     },
     teaching: [
-        { title: 'A genomic library is a collection of.', text: 'A genomic library is a collection of recombinant DNA clones, each containing a different fragment of an organism\'s entire genomic DNA, that together represent the complete genome including both.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A genomic library is a collection of.', text: 'A genomic library is a collection of recombinant DNA clones, each containing a different fragment of an organism\'s entire genomic DNA, that together represent the complete genome including both.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_biotech_cbse_03_002', title: 'A genomic library is a collection of.',

@@ -11,7 +11,7 @@ export const w_c12_commercemarketsmeaningtypessim: SimDef = {
     classLevel: 12, subject: 'business_studies', topic: 'Secondary Market: Stock Exchanges and their Functions',
     chapters: [],
     nodeIds: ['c12_bs_cbse_10_005', 'c12_bs_cbse_11_001', 'c12_bs_cbse_11_007', 'c12_bs_cbse_10_006', 'c12_bs_cbse_10_009', 'c12_bs_cbse_10_001', 'c12_bs_cbse_10_003', 'c12_bs_cbse_10_008', 'c12_bs_cbse_11_004', 'c12_bs_cbse_11_005', 'c12_bs_cbse_05_006', 'c12_bs_cbse_05_009', 'c12_bs_cbse_11_008', 'c12_bs_cbse_11_009', 'c12_bs_cbse_11_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you bought 100 shares of Reliance Industries in an IPO two years ago.', goal: 'Master Secondary Market: Stock Exchanges and their Functions.' },
     discovery: {
         question: 'A company\'s shares are listed on both BSE and NSE. On a particular day, the share price on BSE is ₹2,450 and on NSE is ₹2,455. An arbitrageur notices this.',
@@ -20,7 +20,7 @@ export const w_c12_commercemarketsmeaningtypessim: SimDef = {
         hook: 'Students believe "secondary market trading helps the company raise more capital." They write: "When share price rises.',
     },
     teaching: [
-        { title: 'The secondary market is a financial market.', text: 'The secondary market is a financial market where previously issued securities (shares, debentures, bonds) are bought and sold among investors without involvement of the issuing company.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The secondary market is a financial market.', text: 'The secondary market is a financial market where previously issued securities (shares, debentures, bonds) are bought and sold among investors without involvement of the issuing company.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_bs_cbse_10_005', title: 'The secondary market is a financial.',

@@ -383,8 +383,8 @@ export function C10_ScienceChemicalReactionsAndEquationsSim() {
             </div>
           </div>
 
-          <div className="mt-4 bg-slate-950 rounded-xl border border-indigo-800/60 p-3 text-center">
-            <p className="text-[10px] uppercase tracking-wider text-indigo-400">Balanced equation</p>
+          <div className="mt-4 bg-slate-950 rounded-xl border border-gold-800/60 p-3 text-center">
+            <p className="text-[10px] uppercase tracking-wider text-gold-400">Balanced equation</p>
             <p className={`font-mono font-bold text-lg transition-colors ${done ? 'text-emerald-300' : 'text-slate-500'}`}>
               {rxn.equation}
             </p>
@@ -406,11 +406,11 @@ export function C10_ScienceChemicalReactionsAndEquationsSim() {
             </button>
             <div className="flex items-center gap-2 bg-slate-950 rounded-xl px-3 py-2">
               <span className="text-xs text-slate-400">Tube temperature</span>
-              <span className={`ml-auto font-mono font-bold ${temp > 40 ? 'text-red-400' : temp < 30 ? 'text-sky-300' : 'text-amber-300'}`}>
+              <span className={`ml-auto font-mono font-bold ${temp > 40 ? 'text-red-400' : temp < 30 ? 'text-gold-300' : 'text-amber-300'}`}>
                 {temp.toFixed(0)} deg C
               </span>
             </div>
-            <span className={`inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase ${rxn.energy === 'exothermic' ? 'bg-red-950 text-red-300 border border-red-700' : 'bg-sky-950 text-sky-300 border border-sky-700'}`}>
+            <span className={`inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase ${rxn.energy === 'exothermic' ? 'bg-red-950 text-red-300 border border-red-700' : 'bg-gold-950 text-gold-300 border border-gold-700'}`}>
               {rxn.energy}
             </span>
           </div>

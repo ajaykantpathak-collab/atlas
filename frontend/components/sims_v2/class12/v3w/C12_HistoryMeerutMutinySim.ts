@@ -11,7 +11,7 @@ export const w_c12_historymeerutmutinysim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark',
     chapters: [],
     nodeIds: ['c12_hist_cbse_10_001', 'c12_hist_cbse_10_002', 'c12_hist_cbse_10_003', 'c12_hist_cbse_10_008', 'c12_hist_cbse_10_005', 'c12_hist_cbse_10_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a sepoy in the 3rd Light Cavalry at Meerut on 9 May 1857, watching 85 comrades sentenced to.', goal: 'Master The Mutiny at Meerut: Mangal Pandey, the Greased Cartridges and the Spark.' },
     discovery: {
         question: 'On what date did the sepoys at Meerut break into open mutiny, and what was the immediate trigger that afternoon?',
@@ -20,7 +20,7 @@ export const w_c12_historymeerutmutinysim: SimDef = {
         hook: 'Students believe Mangal Pandey\'s action at Barrackpore (29 March 1857) directly caused the Meerut mutiny.',
     },
     teaching: [
-        { title: 'The Mutiny at Meerut (10 May 1857) was the.', text: 'The Mutiny at Meerut (10 May 1857) was the violent outbreak by Bengal Army sepoys in Meerut cantonment triggered by the refusal to use Enfield rifle cartridges rumoured to be greased with cow and pig.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Mutiny at Meerut (10 May 1857) was the.', text: 'The Mutiny at Meerut (10 May 1857) was the violent outbreak by Bengal Army sepoys in Meerut cantonment triggered by the refusal to use Enfield rifle cartridges rumoured to be greased with cow and pig.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_10_001', title: 'The Mutiny at Meerut (10 May 1857) was.',

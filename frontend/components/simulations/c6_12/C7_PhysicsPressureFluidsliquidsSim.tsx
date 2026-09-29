@@ -1303,7 +1303,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-cyan-950/80 border border-cyan-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-950/80 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
@@ -1311,7 +1311,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
             </h1>
-            <p className="text-xs text-cyan-400 font-medium">ICSE Class 7 Physics • Pressure, Energy & Optics</p>
+            <p className="text-xs text-gold-400 font-medium">ICSE Class 7 Physics • Pressure, Energy & Optics</p>
           </div>
         </div>
 
@@ -1326,7 +1326,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-500/40'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-400 border-rose-500/40'
-                : 'bg-cyan-950/80 text-cyan-400 border-cyan-500/40'
+                : 'bg-gold-950/80 text-gold-400 border-gold-500/40'
             }`}
           >
             {difficulty}
@@ -1337,19 +1337,19 @@ function C7_PhysicsPressureFluidsliquidsSim({
       {/* ── PHASE 1: DISCOVERY HOOK ── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900 rounded-2xl border border-indigo-800/50 relative overflow-hidden">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900 rounded-2xl border border-gold-800/50 relative overflow-hidden">
             <div className="absolute top-0 right-0 p-8 opacity-10 text-8xl font-black select-none">P=hρg</div>
-            <h2 className="text-lg font-bold text-indigo-300 mb-2 flex items-center gap-2">
+            <h2 className="text-lg font-bold text-gold-300 mb-2 flex items-center gap-2">
               🏔️ {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 bg-indigo-950/60 p-3 rounded-xl border border-indigo-900/60">
+            <p className="text-xs text-gold-300/80 bg-gold-950/60 p-3 rounded-xl border border-gold-900/60">
               {SCENARIO.context}
             </p>
           </div>
 
           <div className="p-6 bg-slate-900/80 rounded-2xl border border-slate-800">
-            <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span>🎯 Curiosity Discovery Question</span>
             </div>
             <p className="text-base font-semibold text-white mb-4">{DISCOVERY_QUESTION.question}</p>
@@ -1385,7 +1385,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold rounded-xl shadow-lg shadow-cyan-900/40 text-sm whitespace-nowrap"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-600 text-white font-bold rounded-xl shadow-lg shadow-gold-900/40 text-sm whitespace-nowrap"
                 >
                   Enter Visual Labs →
                 </motion.button>
@@ -1399,7 +1399,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between bg-slate-900/60 p-3 rounded-xl border border-slate-800">
-            <span className="text-xs text-cyan-400 font-bold uppercase tracking-wider">
+            <span className="text-xs text-gold-400 font-bold uppercase tracking-wider">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <span className="text-xs text-slate-400">Node: {EXPLORATION_STEPS[currentSlide].nodeId}</span>
@@ -1414,7 +1414,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div>
-                <h3 className="text-lg font-black text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs text-amber-300 font-semibold mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
               </div>
 
@@ -1424,7 +1424,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                   <div className="lg:col-span-7 flex flex-col items-center justify-center bg-slate-900/40 rounded-xl p-3 relative">
                     <canvas ref={fluidCanvasRef} width={360} height={240} className="w-full max-w-[360px] h-[240px]" />
                     <div className="absolute top-3 left-3 text-[11px] text-slate-400 font-mono">
-                      Liquid: <span className="text-cyan-400 uppercase font-bold">{fluidDensityType}</span> ({currentDensity} kg/m³)
+                      Liquid: <span className="text-gold-400 uppercase font-bold">{fluidDensityType}</span> ({currentDensity} kg/m³)
                     </div>
                   </div>
 
@@ -1432,7 +1432,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                         <span>Water Column Depth (h)</span>
-                        <span className="text-cyan-400 font-mono">{fluidDepth} cm</span>
+                        <span className="text-gold-400 font-mono">{fluidDepth} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1441,7 +1441,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                         value={fluidDepth}
                         onChange={(e) => setFluidDepth(Number(e.target.value))}
                         aria-label="Liquid column depth slider"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1456,7 +1456,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                             onClick={() => handleFluidDensitySelect(type)}
                             className={`py-2 px-3 rounded-lg text-xs font-bold capitalize transition-all border ${
                               fluidDensityType === type
-                                ? 'bg-cyan-600 text-white border-cyan-400 shadow-md shadow-cyan-900/50'
+                                ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-900/50'
                                 : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
                             }`}
                           >
@@ -1477,8 +1477,8 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     </div>
 
                     {!predictionMade ? (
-                      <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800 text-xs">
-                        <p className="font-bold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                      <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800 text-xs">
+                        <p className="font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1508,7 +1508,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                   <div className="lg:col-span-6 space-y-4">
                     <div className="flex justify-between text-xs text-slate-300 font-semibold">
                       <span>Altitude Above Sea Level (h)</span>
-                      <span className="text-cyan-400 font-mono">{altitudeMeters} m ({altitudeMeters === 0 ? 'Sea Level (Mumbai)' : altitudeMeters > 8000 ? 'Everest Summit' : 'Hill Station (Darjeeling)'})</span>
+                      <span className="text-gold-400 font-mono">{altitudeMeters} m ({altitudeMeters === 0 ? 'Sea Level (Mumbai)' : altitudeMeters > 8000 ? 'Everest Summit' : 'Hill Station (Darjeeling)'})</span>
                     </div>
                     <input
                       type="range"
@@ -1518,7 +1518,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                       value={altitudeMeters}
                       onChange={(e) => setAltitudeMeters(Number(e.target.value))}
                       aria-label="Altitude slider"
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     <div className="bg-slate-900/60 p-4 rounded-xl border border-slate-800 flex items-center justify-around">
@@ -1544,7 +1544,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                       <div className="space-y-2 text-xs">
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">Atmospheric Pressure:</span>
-                          <span className="text-cyan-400 font-mono font-bold text-sm">{currentBarometer.pressureKPa} kPa</span>
+                          <span className="text-gold-400 font-mono font-bold text-sm">{currentBarometer.pressureKPa} kPa</span>
                         </div>
                         <div className="p-2 bg-slate-950 rounded-lg border border-slate-800">
                           <span className="text-slate-400 block text-[10px]">Mercury Column:</span>
@@ -1560,7 +1560,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
 
                   <div className="lg:col-span-6 space-y-4 flex flex-col justify-center">
                     <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800">
-                      <h4 className="text-xs font-bold text-cyan-300 uppercase mb-2">Suction Straw Demonstration</h4>
+                      <h4 className="text-xs font-bold text-gold-300 uppercase mb-2">Suction Straw Demonstration</h4>
                       <p className="text-xs text-slate-300 mb-3">
                         Test how atmospheric pressure on the open glass surface forces juice upward into the straw when pressure is reduced.
                       </p>
@@ -1571,7 +1571,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                         className={`w-full py-3 rounded-xl font-bold text-xs flex items-center justify-center gap-2 border ${
                           strawSucked
                             ? 'bg-emerald-600 text-white border-emerald-400'
-                            : 'bg-indigo-600 text-white border-indigo-400'
+                            : 'bg-gold-600 text-white border-gold-400'
                         }`}
                       >
                         {strawSucked ? 'Release Suction (Air Re-enters)' : 'Suck Air Out from Straw (Lower Pressure)'}
@@ -1607,7 +1607,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                         <span>Release Amplitude Angle (θ)</span>
-                        <span className="text-cyan-400 font-mono">{pendulumAngle}°</span>
+                        <span className="text-gold-400 font-mono">{pendulumAngle}°</span>
                       </div>
                       <input
                         type="range"
@@ -1616,7 +1616,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                         value={pendulumAngle}
                         onChange={(e) => setPendulumAngle(Number(e.target.value))}
                         aria-label="Pendulum release angle"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1637,11 +1637,11 @@ function C7_PhysicsPressureFluidsliquidsSim({
                       <div>
                         <div className="flex justify-between text-[11px] text-slate-300 mb-1">
                           <span>Kinetic Energy (KE = ½mv²)</span>
-                          <span className="text-cyan-400 font-mono font-bold">Max at Equilibrium</span>
+                          <span className="text-gold-400 font-mono font-bold">Max at Equilibrium</span>
                         </div>
                         <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden">
                           <motion.div
-                            className="h-full bg-cyan-500 rounded-full"
+                            className="h-full bg-gold-500 rounded-full"
                             animate={{ width: `${Math.round((pendulumAngle / 70) * 100)}%` }}
                           />
                         </div>
@@ -1654,8 +1654,8 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     </div>
 
                     {!observationAnswered && (
-                      <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800 text-xs">
-                        <p className="font-bold text-indigo-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                      <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800 text-xs">
+                        <p className="font-bold text-gold-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                             <motion.button
@@ -1769,7 +1769,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                             onClick={() => handleMirrorTypeSwitch(type)}
                             className={`py-2 rounded-lg text-xs font-bold capitalize border ${
                               mirrorType === type
-                                ? 'bg-cyan-600 text-white border-cyan-400'
+                                ? 'bg-gold-600 text-white border-gold-400'
                                 : 'bg-slate-800 text-slate-300 border-slate-700'
                             }`}
                           >
@@ -1782,7 +1782,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                         <span>Object Distance from Pole (u)</span>
-                        <span className="text-cyan-400 font-mono">{objectDistanceMirror} cm</span>
+                        <span className="text-gold-400 font-mono">{objectDistanceMirror} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1791,7 +1791,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                         value={objectDistanceMirror}
                         onChange={(e) => setObjectDistanceMirror(Number(e.target.value))}
                         aria-label="Mirror object distance slider"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                         <span>Near (5-14 cm)</span>
@@ -1858,7 +1858,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                             onClick={() => handleLensTypeSwitch(type)}
                             className={`py-2 rounded-lg text-xs font-bold capitalize border ${
                               lensType === type
-                                ? 'bg-cyan-600 text-white border-cyan-400'
+                                ? 'bg-gold-600 text-white border-gold-400'
                                 : 'bg-slate-800 text-slate-300 border-slate-700'
                             }`}
                           >
@@ -1871,7 +1871,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     <div>
                       <div className="flex justify-between text-xs text-slate-300 font-semibold mb-1">
                         <span>Object Distance from Lens (u)</span>
-                        <span className="text-cyan-400 font-mono">{objectDistanceLens} cm</span>
+                        <span className="text-gold-400 font-mono">{objectDistanceLens} cm</span>
                       </div>
                       <input
                         type="range"
@@ -1880,7 +1880,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                         value={objectDistanceLens}
                         onChange={(e) => setObjectDistanceLens(Number(e.target.value))}
                         aria-label="Lens object distance slider"
-                        className="w-full accent-cyan-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
@@ -1912,7 +1912,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-900/40"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/40"
               >
                 Next Lab →
               </motion.button>
@@ -1934,7 +1934,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800">
-            <h3 className="text-lg font-black text-cyan-300">Physics Sandbox • Free Experimentation</h3>
+            <h3 className="text-lg font-black text-gold-300">Physics Sandbox • Free Experimentation</h3>
             <p className="text-xs text-slate-400 mt-1">
               Test all variables simultaneously with zero grading pressure. Check how fluid pressure, pendulum swings, and optics behave!
             </p>
@@ -1942,7 +1942,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase">1. Fluid Pressure Controls</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">1. Fluid Pressure Controls</span>
               <input
                 type="range"
                 min={10}
@@ -1950,7 +1950,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                 value={fluidDepth}
                 onChange={(e) => setFluidDepth(Number(e.target.value))}
                 aria-label="Sandbox fluid depth"
-                className="w-full accent-cyan-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="text-xs text-slate-300 font-mono">
                 Depth: {fluidDepth} cm | Liquid: {fluidDensityType} | Base Pressure: {((fluidDepth / 100) * currentDensity * 9.8).toFixed(0)} Pa
@@ -1958,7 +1958,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
             </div>
 
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800 space-y-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase">2. Optical Mirror Position</span>
+              <span className="text-xs font-bold text-gold-400 uppercase">2. Optical Mirror Position</span>
               <input
                 type="range"
                 min={5}
@@ -1966,7 +1966,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                 value={objectDistanceMirror}
                 onChange={(e) => setObjectDistanceMirror(Number(e.target.value))}
                 aria-label="Sandbox mirror object distance"
-                className="w-full accent-cyan-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <div className="text-xs text-emerald-300 font-mono">
                 Object: {objectDistanceMirror} cm | Type: {mirrorType} | {mirrorCalculations.nature}
@@ -1978,7 +1978,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-4 bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600 text-white font-black text-sm rounded-2xl shadow-xl shadow-cyan-900/50"
+            className="w-full py-4 bg-gradient-to-r from-gold-600 via-gold-600 to-gold-600 text-white font-black text-sm rounded-2xl shadow-xl shadow-gold-900/50"
           >
             Ready for Challenges! Unlock Graded Assessment →
           </motion.button>
@@ -1993,13 +1993,13 @@ function C7_PhysicsPressureFluidsliquidsSim({
               <span className="font-bold text-slate-300">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-cyan-400 font-semibold capitalize">
+              <span className="text-gold-400 font-semibold capitalize">
                 Competency: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2018,7 +2018,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
               <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">
                 {challenge.nodeId}
               </span>
-              <span className="text-[11px] font-bold uppercase tracking-wider text-cyan-400">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-gold-400">
                 {challenge.type.toUpperCase()}
               </span>
             </div>
@@ -2060,7 +2060,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-cyan-900/80 border border-cyan-500/40 rounded-lg text-xs font-bold text-cyan-200 cursor-grab"
+                        className="px-3 py-1.5 bg-gold-900/80 border border-gold-500/40 rounded-lg text-xs font-bold text-gold-200 cursor-grab"
                       >
                         ☰ {item.label}
                       </motion.div>
@@ -2093,7 +2093,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-900/40"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/40"
                 >
                   Verify Labels
                 </motion.button>
@@ -2117,7 +2117,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800/90 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-slate-700 text-cyan-300 font-bold flex items-center justify-center text-[11px]">
+                      <span className="w-5 h-5 rounded-full bg-slate-700 text-gold-300 font-bold flex items-center justify-center text-[11px]">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2130,7 +2130,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-900/40"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/40"
                 >
                   Check Sequence
                 </motion.button>
@@ -2146,7 +2146,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Numeric answer input"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm font-mono text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2154,7 +2154,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-900/40"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/40"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2172,7 +2172,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleConstructAdd(part)}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-cyan-300 rounded-lg text-xs font-bold border border-slate-700"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-gold-300 rounded-lg text-xs font-bold border border-slate-700"
                     >
                       + {part}
                     </motion.button>
@@ -2185,7 +2185,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                       key={idx}
                       initial={{ scale: 0.8 }}
                       animate={{ scale: 1 }}
-                      className="px-2.5 py-1 bg-cyan-950 border border-cyan-500/40 text-cyan-200 rounded-lg text-xs font-bold flex items-center gap-1.5"
+                      className="px-2.5 py-1 bg-gold-950 border border-gold-500/40 text-gold-200 rounded-lg text-xs font-bold flex items-center gap-1.5"
                     >
                       {part}
                       <button onClick={() => handleConstructRemove(idx)} className="text-rose-400 font-bold ml-1 hover:text-rose-300">✕</button>
@@ -2199,7 +2199,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleConstructSubmit}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold shadow-md shadow-cyan-900/40"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-900/40"
                 >
                   Verify Constructed Chain
                 </motion.button>
@@ -2256,7 +2256,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
             <h2 className="text-2xl font-black text-emerald-300">Physics Mastery Accomplished! 🎓</h2>
             <p className="text-sm text-slate-300">
               Final Score: <span className="font-bold text-white font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span> • Mastery Tier:{' '}
-              <span className="text-cyan-400 font-bold uppercase">{masteryLevel}</span>
+              <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span>
             </p>
             <p className="text-xs text-emerald-200/80 max-w-xl mx-auto">
               {errors === 0
@@ -2287,7 +2287,7 @@ function C7_PhysicsPressureFluidsliquidsSim({
 
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 flex items-center justify-between">
             <div>
-              <span className="text-cyan-400 font-bold block">📅 Spaced Repetition (SM-2 Schedule):</span>
+              <span className="text-gold-400 font-bold block">📅 Spaced Repetition (SM-2 Schedule):</span>
               Next automated review scheduled in{' '}
               <span className="text-amber-300 font-bold">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span>.
             </div>
@@ -2295,14 +2295,14 @@ function C7_PhysicsPressureFluidsliquidsSim({
           </div>
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               🛠️ {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800/80 text-xs text-slate-400">
-                  <span className="font-bold text-cyan-400 mr-2">{idx + 1}.</span> {step}
+                  <span className="font-bold text-gold-400 mr-2">{idx + 1}.</span> {step}
                 </div>
               ))}
             </div>

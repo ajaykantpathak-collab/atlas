@@ -1140,10 +1140,10 @@ function C8_MathematicsPropertiesRationalNumbersSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">{subjectConfig.emoji}</span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">CISCE Class 8 Mathematics • Brilliant Interactive Simulator</p>
+            <p className="text-xs text-gold-300 font-medium">CISCE Class 8 Mathematics • Brilliant Interactive Simulator</p>
           </div>
         </div>
         <div className="flex items-center gap-3">
@@ -1155,7 +1155,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/80 text-blue-400 border-blue-700'
+                ? 'bg-gold-950/80 text-gold-400 border-gold-700'
                 : 'bg-purple-950/80 text-purple-400 border-purple-700'
             }`}
           >
@@ -1171,8 +1171,8 @@ function C8_MathematicsPropertiesRationalNumbersSim({
       {/* ─── DISCOVERY PHASE (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-800/60 rounded-2xl border border-indigo-800/40">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-800/60 rounded-2xl border border-gold-800/40">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🚀</span> {SCENARIO.title}
             </h2>
             <p className="text-slate-300 text-sm mt-3 leading-relaxed">{SCENARIO.intro}</p>
@@ -1200,13 +1200,13 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       : 'bg-slate-800 hover:bg-slate-750 text-slate-200 border border-slate-700'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                 </motion.button>
               ))}
             </div>
 
             {discoveryAnswered && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-xl bg-slate-900 border border-indigo-800/60">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 rounded-xl bg-slate-900 border border-gold-800/60">
                 <p className={discoveryCorrect ? 'text-emerald-400 text-sm font-semibold' : 'text-amber-400 text-sm font-semibold'}>
                   {discoveryCorrect
                     ? '✓ Brilliant intuition! Rational numbers are continuous and dense — you can zoom and cut forever.'
@@ -1216,7 +1216,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="mt-4 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="mt-4 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   <span>Enter Interactive Labs</span> →
                 </motion.button>
@@ -1230,7 +1230,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1">
@@ -1238,7 +1238,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                 <div
                   key={i}
                   className={`h-1.5 w-6 rounded-full transition-colors ${
-                    i === currentSlide ? 'bg-indigo-500' : 'bg-slate-700'
+                    i === currentSlide ? 'bg-gold-500' : 'bg-slate-700'
                   }`}
                 />
               ))}
@@ -1254,7 +1254,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
               className="p-6 bg-slate-800/80 rounded-2xl border border-slate-700"
             >
               <h2 className="text-xl font-bold text-white flex items-center gap-2">
-                <span className="p-1.5 bg-indigo-900/60 rounded-lg text-indigo-300">⚙️</span>
+                <span className="p-1.5 bg-gold-900/60 rounded-lg text-gold-300">⚙️</span>
                 {EXPLORATION_STEPS[currentSlide].title}
               </h2>
               <p className="text-amber-300 text-sm mt-2 mb-6 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
@@ -1274,7 +1274,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       value={subdivisionDepth}
                       onChange={e => handleSliderNumberLine(Number(e.target.value))}
                       aria-label="Adjust bisection depth for density property"
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     {/* SVG Number Line */}
@@ -1306,7 +1306,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       })}
                     </svg>
 
-                    <div className="mt-3 p-3 bg-indigo-950/40 rounded-xl border border-indigo-900/50 text-xs text-indigo-300">
+                    <div className="mt-3 p-3 bg-gold-950/40 rounded-xl border border-gold-900/50 text-xs text-gold-300">
                       <strong>The Density Law:</strong> For any rational a/b and c/d, the midpoint <code className="bg-slate-900 px-1.5 py-0.5 rounded text-amber-300 font-mono">((a/b) + (c/d)) / 2</code> is ALWAYS another rational number strictly between them. This process repeats infinitely.
                     </div>
                   </div>
@@ -1325,7 +1325,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                         onClick={() => handleTabSwitchProperty(tab)}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-colors ${
                           activePropertyTab === tab
-                            ? 'bg-indigo-600 text-white'
+                            ? 'bg-gold-600 text-white'
                             : 'bg-slate-900 text-slate-400 hover:bg-slate-750'
                         }`}
                       >
@@ -1345,7 +1345,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={propA}
                           onChange={e => setPropA(Number(e.target.value))}
                           aria-label="Set numerator p"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1357,7 +1357,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={propB}
                           onChange={e => setPropB(Number(e.target.value))}
                           aria-label="Set numerator r"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1369,7 +1369,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={propC}
                           onChange={e => setPropC(Number(e.target.value))}
                           aria-label="Set constant k"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1445,7 +1445,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={exponentBase}
                           onChange={e => setExponentBase(Number(e.target.value))}
                           aria-label="Set exponent base"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1457,7 +1457,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={exponentPower}
                           onChange={e => handleSliderPower(Number(e.target.value))}
                           aria-label="Set integral power exponent"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1465,7 +1465,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     <div className="flex flex-col md:flex-row items-center justify-around p-4 bg-slate-900 rounded-xl gap-4">
                       <div className="text-center">
                         <span className="text-xs text-slate-400">Algebraic Form</span>
-                        <div className="text-2xl font-black text-indigo-400 mt-1 font-mono">
+                        <div className="text-2xl font-black text-gold-400 mt-1 font-mono">
                           {exponentBase}<sup>{exponentPower}</sup>
                         </div>
                       </div>
@@ -1489,8 +1489,8 @@ function C8_MathematicsPropertiesRationalNumbersSim({
 
                     {/* OBSERVATION QUESTION */}
                     {predictionMade && !observationAnswered && (
-                      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-slate-900/90 rounded-xl border border-indigo-700/60">
-                        <p className="text-xs font-bold text-indigo-300 uppercase mb-1">Scientific Observation</p>
+                      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-4 p-4 bg-slate-900/90 rounded-xl border border-gold-700/60">
+                        <p className="text-xs font-bold text-gold-300 uppercase mb-1">Scientific Observation</p>
                         <h4 className="text-sm font-semibold text-white mb-3">{OBSERVATION_QUESTIONS[1].question}</h4>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                           {OBSERVATION_QUESTIONS[1].observableOptions.map((opt, i) => (
@@ -1525,7 +1525,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={divDigitA}
                           onChange={e => setDivDigitA(Number(e.target.value))}
                           aria-label="Set hundreds digit a"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1537,7 +1537,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={divDigitB}
                           onChange={e => setDivDigitB(Number(e.target.value))}
                           aria-label="Set tens digit b"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1549,13 +1549,13 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           value={divDigitC}
                           onChange={e => setDivDigitC(Number(e.target.value))}
                           aria-label="Set units digit c"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl space-y-3 font-mono text-xs">
-                      <div className="text-indigo-300 font-bold text-sm">
+                      <div className="text-gold-300 font-bold text-sm">
                         Generalized Place Value: 100({divDigitA}) + 10({divDigitB}) + {divDigitC} = {divisibilityData.fullNum}
                       </div>
                       <div className="text-amber-300">
@@ -1601,7 +1601,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                           onClick={() => setSelectedVennRegion(reg)}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize ${
                             selectedVennRegion === reg
-                              ? 'bg-indigo-600 text-white'
+                              ? 'bg-gold-600 text-white'
                               : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1654,8 +1654,8 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300">
                       <strong>Current Selection Elements:</strong>{' '}
                       {selectedVennRegion === 'intersection' && <span className="text-amber-400 font-mono font-bold">A ∩ B = {'{3, 5, 7, 11, 13}'} (Size 5)</span>}
-                      {selectedVennRegion === 'union' && <span className="text-indigo-400 font-mono font-bold">A ∪ B = {'{1, 2, 3, 5, 7, 9, 11, 13}'} (Size 8)</span>}
-                      {selectedVennRegion === 'A_only' && <span className="text-indigo-300 font-mono font-bold">A Only = {'{2}'} (Even Prime)</span>}
+                      {selectedVennRegion === 'union' && <span className="text-gold-400 font-mono font-bold">A ∪ B = {'{1, 2, 3, 5, 7, 9, 11, 13}'} (Size 8)</span>}
+                      {selectedVennRegion === 'A_only' && <span className="text-gold-300 font-mono font-bold">A Only = {'{2}'} (Even Prime)</span>}
                       {selectedVennRegion === 'B_only' && <span className="text-emerald-300 font-mono font-bold">B Only = {'{1, 9}'} (Composite/Non-prime Odds)</span>}
                       {selectedVennRegion === 'none' && <span className="text-slate-500 font-mono">Click a region above to inspect</span>}
                     </div>
@@ -1682,7 +1682,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1717,7 +1717,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setSandboxFreeMode(mode)}
                     className={`px-3 py-1.5 rounded-lg text-xs font-bold capitalize ${
-                      sandboxFreeMode === mode ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400 hover:bg-slate-750'
+                      sandboxFreeMode === mode ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400 hover:bg-slate-750'
                     }`}
                   >
                     {mode}
@@ -1738,7 +1738,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     value={subdivisionDepth}
                     onChange={e => setSubdivisionDepth(Number(e.target.value))}
                     aria-label="Sandbox bisection depth slider"
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                   <div className="text-center font-mono text-sm text-emerald-400 font-bold">
                     Inserted {densityPoints.length} rational fractions between 0 and 1.
@@ -1757,7 +1757,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       value={exponentBase}
                       onChange={e => setExponentBase(Number(e.target.value))}
                       aria-label="Sandbox exponent base"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1769,10 +1769,10 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       value={exponentPower}
                       onChange={e => setExponentPower(Number(e.target.value))}
                       aria-label="Sandbox exponent power"
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
-                  <div className="col-span-2 text-center text-lg font-mono text-indigo-300">
+                  <div className="col-span-2 text-center text-lg font-mono text-gold-300">
                     {exponentBase}<sup>{exponentPower}</sup> = {exponentCalculated.text}
                   </div>
                 </div>
@@ -1788,7 +1788,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       value={divDigitA}
                       onChange={e => setDivDigitA(Number(e.target.value))}
                       aria-label="Sandbox digit a"
-                      className="accent-indigo-500"
+                      className="accent-gold-500"
                     />
                     <input
                       type="range"
@@ -1797,7 +1797,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       value={divDigitB}
                       onChange={e => setDivDigitB(Number(e.target.value))}
                       aria-label="Sandbox digit b"
-                      className="accent-indigo-500"
+                      className="accent-gold-500"
                     />
                     <input
                       type="range"
@@ -1806,7 +1806,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       value={divDigitC}
                       onChange={e => setDivDigitC(Number(e.target.value))}
                       aria-label="Sandbox digit c"
-                      className="accent-indigo-500"
+                      className="accent-gold-500"
                     />
                   </div>
                   <div className="text-center text-amber-300 font-mono text-sm">
@@ -1826,7 +1826,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleAdvanceToChallenge}
-              className="mt-6 w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white rounded-xl font-black text-sm shadow-xl flex items-center justify-center gap-2"
+              className="mt-6 w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 text-white rounded-xl font-black text-sm shadow-xl flex items-center justify-center gap-2"
             >
               <span>🚀 Ready For CISCE Board & Competency Challenges!</span> →
             </motion.button>
@@ -1843,11 +1843,11 @@ function C8_MathematicsPropertiesRationalNumbersSim({
           {/* Progress Header */}
           <div className="flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-1">
-                <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800 font-mono uppercase">
+                <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-800 font-mono uppercase">
                   NEP: {challenge.competencyLevel}
                 </span>
                 <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
@@ -1863,7 +1863,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                 challenge.difficulty === 'foundation'
                   ? 'bg-emerald-950/70 text-emerald-400 border-emerald-700'
                   : challenge.difficulty === 'standard'
-                  ? 'bg-blue-950/70 text-blue-400 border-blue-700'
+                  ? 'bg-gold-950/70 text-gold-400 border-gold-700'
                   : 'bg-purple-950/70 text-purple-400 border-purple-700'
               }`}
             >
@@ -1874,7 +1874,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1908,7 +1908,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                         : 'bg-slate-900 hover:bg-slate-750 text-slate-200 border border-slate-700/60'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1926,7 +1926,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     placeholder="Enter numeric value..."
                     disabled={showExplanation}
                     aria-label="Enter numeric answer"
-                    className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-base font-mono w-64 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-3 bg-slate-900 border border-slate-700 rounded-xl text-white text-base font-mono w-64 focus:outline-none focus:border-gold-500"
                   />
                   {challenge.unit && <span className="text-slate-400 text-sm font-medium">{challenge.unit}</span>}
                   <motion.button
@@ -1934,7 +1934,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30"
                   >
                     Submit Answer
                   </motion.button>
@@ -1954,7 +1954,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1989,7 +1989,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
                 >
                   Verify All Labels
                 </motion.button>
@@ -2017,7 +2017,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                     whileTap={{ scale: 0.99 }}
                     className="p-3 bg-slate-900 rounded-xl border border-slate-700/80 flex items-center gap-3 cursor-grab text-xs font-medium text-slate-200"
                   >
-                    <span className="font-mono text-indigo-400 font-bold">{displayIdx + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{displayIdx + 1}.</span>
                     {item}
                   </motion.div>
                 ))}
@@ -2026,7 +2026,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-3 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold"
+                  className="mt-3 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold"
                 >
                   Check Sequence Order
                 </motion.button>
@@ -2044,7 +2044,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1 bg-indigo-800 text-white rounded-lg text-xs font-bold"
+                      className="px-3 py-1 bg-gold-800 text-white rounded-lg text-xs font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2053,7 +2053,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-700 min-h-[60px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-2.5 py-1 bg-indigo-900/80 border border-indigo-700 text-indigo-200 rounded text-xs font-mono flex items-center gap-1">
+                    <span key={i} className="px-2.5 py-1 bg-gold-900/80 border border-gold-700 text-gold-200 rounded text-xs font-mono flex items-center gap-1">
                       {p}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-400 ml-1">✕</button>
                     </span>
@@ -2066,7 +2066,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold"
                 >
                   Verify Constructed Proof
                 </motion.button>
@@ -2116,10 +2116,10 @@ function C8_MathematicsPropertiesRationalNumbersSim({
       {/* ─── COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-3xl border border-indigo-700/50 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-3xl border border-gold-700/50 text-center space-y-4">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Module Mastery Achieved!</h2>
-            <p className="text-indigo-200 text-sm max-w-xl mx-auto">
+            <p className="text-gold-200 text-sm max-w-xl mx-auto">
               You have completed all Class 8 rational number, exponent, root, divisibility, and set partition challenges.
             </p>
 
@@ -2147,12 +2147,12 @@ function C8_MathematicsPropertiesRationalNumbersSim({
           </div>
 
           {/* ─── REFLECTION & METACOGNITION SECTION ─── */}
-          <div className="p-6 bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900 rounded-3xl border border-indigo-700/60 shadow-xl space-y-5">
+          <div className="p-6 bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 rounded-3xl border border-gold-700/60 shadow-xl space-y-5">
             <div className="flex items-center gap-3">
-              <span className="text-2xl p-2 bg-indigo-900/60 rounded-xl border border-indigo-600/40">🤔</span>
+              <span className="text-2xl p-2 bg-gold-900/60 rounded-xl border border-gold-600/40">🤔</span>
               <div>
                 <h3 className="text-lg font-bold text-white">Reflect & Deepen Understanding</h3>
-                <p className="text-xs text-indigo-300 font-medium">Metacognitive synthesis: solidifying insights beyond formula memorization.</p>
+                <p className="text-xs text-gold-300 font-medium">Metacognitive synthesis: solidifying insights beyond formula memorization.</p>
               </div>
             </div>
 
@@ -2168,7 +2168,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   onChange={e => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                   placeholder="e.g., Negative exponents make numbers into reciprocals, not negative numbers; or density allows infinite rational numbers between any two fractions..."
                   rows={2}
-                  className="w-full p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                  className="w-full p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 transition-colors"
                 />
               </div>
 
@@ -2183,14 +2183,14 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   onChange={e => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                   placeholder="e.g., Rational numbers are fractions that follow algebra rules. Divisibility works because place values like 100a + 10b split cleanly into multiples of 9 plus digit sums..."
                   rows={2}
-                  className="w-full p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                  className="w-full p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 transition-colors"
                 />
               </div>
 
               {/* Reflection Question 3 */}
               <div className="p-4 bg-slate-950/70 rounded-2xl border border-slate-800 space-y-2">
-                <label className="text-xs font-bold text-indigo-300 flex items-center gap-2">
-                  <span className="w-5 h-5 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-xs">3</span>
+                <label className="text-xs font-bold text-gold-300 flex items-center gap-2">
+                  <span className="w-5 h-5 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center text-xs">3</span>
                   Where in real life might you use this?
                 </label>
                 <textarea
@@ -2198,7 +2198,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   onChange={e => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                   placeholder="e.g., In engineering blueprints, calculating scale factors, solar panel tiling budgets, modular construction dimensions, or satellite telemetry set filters..."
                   rows={2}
-                  className="w-full p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
+                  className="w-full p-3 bg-slate-900 border border-slate-700/80 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500 transition-colors"
                 />
               </div>
             </div>
@@ -2215,7 +2215,7 @@ function C8_MathematicsPropertiesRationalNumbersSim({
                   audioManager.play('success');
                   speechManager.speak('Great reflections! Thinking about what you learned solidifies mastery.');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 {reflectionSaved ? 'Update Reflection' : 'Save Reflection'}
               </motion.button>
@@ -2259,14 +2259,14 @@ function C8_MathematicsPropertiesRationalNumbersSim({
 
           {/* Real World Activity */}
           <div className="p-6 bg-slate-800/80 rounded-2xl border border-slate-700 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📐</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <div key={i} className="p-2.5 bg-slate-900 rounded-lg text-xs text-slate-300 border border-slate-800">
-                  <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span> {st}
                 </div>
               ))}
             </div>

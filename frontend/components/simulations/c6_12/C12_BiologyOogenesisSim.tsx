@@ -1142,7 +1142,7 @@ function C12_BiologyOogenesisSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-600'
                 : difficulty === 'standard'
-                ? 'bg-blue-950/80 text-blue-400 border-blue-600'
+                ? 'bg-gold-950/80 text-gold-400 border-gold-600'
                 : 'bg-rose-950/80 text-rose-400 border-rose-600'
             }`}
           >
@@ -1150,7 +1150,7 @@ function C12_BiologyOogenesisSim({
           </motion.span>
           <div className="text-right">
             <p className="text-xs text-slate-400">Mastery</p>
-            <p className="text-xs font-bold text-indigo-300 uppercase">{masteryLevel}</p>
+            <p className="text-xs font-bold text-gold-300 uppercase">{masteryLevel}</p>
           </div>
         </div>
       </motion.header>
@@ -1159,7 +1159,7 @@ function C12_BiologyOogenesisSim({
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="mt-6 space-y-5">
           {/* Narrative Scenario Box */}
-          <div className="p-5 bg-gradient-to-r from-emerald-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-emerald-800/60 shadow-lg">
+          <div className="p-5 bg-gradient-to-r from-emerald-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-emerald-800/60 shadow-lg">
             <h2 className="text-lg font-bold text-emerald-300 flex items-center gap-2">
               <span>🔬</span> {SCENARIO.title}
             </h2>
@@ -1191,7 +1191,7 @@ function C12_BiologyOogenesisSim({
                       : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   {discoveryAnswered && i === DISCOVERY_QUESTION.correctIndex && ' ✓'}
                 </motion.button>
               ))}
@@ -1304,7 +1304,7 @@ function C12_BiologyOogenesisSim({
 
                     <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 text-xs space-y-1.5 leading-relaxed">
                       <p className="text-slate-200">
-                        <strong className="text-indigo-300">Key Feature:</strong>{' '}
+                        <strong className="text-gold-300">Key Feature:</strong>{' '}
                         {oogenesisStage === 0 && 'Millions of oogonia proliferate via mitosis in the fetal ovary.'}
                         {oogenesisStage === 1 && 'Enters Meiosis I but pauses at Diplotene of Prophase I inside primordial follicles until puberty.'}
                         {oogenesisStage === 2 && 'Pubertal LH surge drives unequal Meiosis I -> Secondary oocyte (n) + 1st polar body; arrested at Metaphase II.'}
@@ -1341,8 +1341,8 @@ function C12_BiologyOogenesisSim({
                 <div className="space-y-4 bg-slate-950 p-4 rounded-2xl border border-slate-800/80">
                   {/* Predict Then Check Box */}
                   {!predictionMade && (
-                    <div className="p-3.5 bg-indigo-950/60 rounded-xl border border-indigo-800/60">
-                      <p className="text-xs font-bold text-indigo-300 mb-2">Predict Before Testing:</p>
+                    <div className="p-3.5 bg-gold-950/60 rounded-xl border border-gold-800/60">
+                      <p className="text-xs font-bold text-gold-300 mb-2">Predict Before Testing:</p>
                       <p className="text-xs text-white mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1419,7 +1419,7 @@ function C12_BiologyOogenesisSim({
                     </div>
                     <div className="p-2.5 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-[10px] text-slate-400">Ovarian Event</p>
-                      <p className="font-bold text-indigo-400">
+                      <p className="font-bold text-gold-400">
                         {cycleDay < 14 ? 'Follicle Growth (FSH)' : cycleDay === 14 ? 'Graafian Rupture' : 'Corpus Luteum Secretion'}
                       </p>
                     </div>
@@ -1442,7 +1442,7 @@ function C12_BiologyOogenesisSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={handleFertilizationTrigger}
-                      className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-xl shadow transition-colors"
+                      className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-xl shadow transition-colors"
                     >
                       Trigger Next Step ⚡
                     </motion.button>
@@ -1552,9 +1552,9 @@ function C12_BiologyOogenesisSim({
 
                   {/* Dynamic 2x2 Punnett Grid */}
                   <div className="p-4 bg-slate-900 rounded-xl border border-slate-800">
-                    <p className="text-xs font-bold text-indigo-300 mb-3 text-center">Calculated 2x2 Offspring Genotype & Phenotype Matrix</p>
+                    <p className="text-xs font-bold text-gold-300 mb-3 text-center">Calculated 2x2 Offspring Genotype & Phenotype Matrix</p>
                     <div className="grid grid-cols-2 gap-3 max-w-md mx-auto">
-                      <div className="p-3 bg-slate-950 rounded-lg border border-indigo-700/50 text-center">
+                      <div className="p-3 bg-slate-950 rounded-lg border border-gold-700/50 text-center">
                         <p className="text-xs text-slate-400 font-mono">Top-Left Box</p>
                         <p className="text-sm font-bold text-white mt-1">
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_i' && 'I^A I^B (Group AB)'}
@@ -1564,7 +1564,7 @@ function C12_BiologyOogenesisSim({
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_IB' && 'I^A I^B (Group AB)'}
                         </p>
                       </div>
-                      <div className="p-3 bg-slate-950 rounded-lg border border-indigo-700/50 text-center">
+                      <div className="p-3 bg-slate-950 rounded-lg border border-gold-700/50 text-center">
                         <p className="text-xs text-slate-400 font-mono">Top-Right Box</p>
                         <p className="text-sm font-bold text-white mt-1">
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_i' && 'I^A i (Group A)'}
@@ -1574,7 +1574,7 @@ function C12_BiologyOogenesisSim({
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_IB' && 'I^A I^B (Group AB)'}
                         </p>
                       </div>
-                      <div className="p-3 bg-slate-950 rounded-lg border border-indigo-700/50 text-center">
+                      <div className="p-3 bg-slate-950 rounded-lg border border-gold-700/50 text-center">
                         <p className="text-xs text-slate-400 font-mono">Bottom-Left Box</p>
                         <p className="text-sm font-bold text-white mt-1">
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_i' && 'I^B i (Group B)'}
@@ -1584,7 +1584,7 @@ function C12_BiologyOogenesisSim({
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_IB' && 'I^B i (Group B)'}
                         </p>
                       </div>
-                      <div className="p-3 bg-slate-950 rounded-lg border border-indigo-700/50 text-center">
+                      <div className="p-3 bg-slate-950 rounded-lg border border-gold-700/50 text-center">
                         <p className="text-xs text-slate-400 font-mono">Bottom-Right Box</p>
                         <p className="text-sm font-bold text-white mt-1">
                           {selectedParentA === 'IA_i' && selectedParentB === 'IB_i' && 'i i (Group O)'}
@@ -1622,7 +1622,7 @@ function C12_BiologyOogenesisSim({
                         audioManager.play('tap');
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                        pedigreeMode === 'x_linked_recessive' ? 'bg-indigo-600 text-white' : 'bg-slate-900 text-slate-400'
+                        pedigreeMode === 'x_linked_recessive' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-slate-400'
                       }`}
                     >
                       X-Linked Recessive (Hemophilia)
@@ -1731,7 +1731,7 @@ function C12_BiologyOogenesisSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-indigo-600 text-white text-xs font-black rounded-xl shadow-lg uppercase tracking-wider"
+                className="px-6 py-2 bg-gradient-to-r from-emerald-600 to-gold-600 text-white text-xs font-black rounded-xl shadow-lg uppercase tracking-wider"
               >
                 Open Free Sandbox Mode →
               </motion.button>
@@ -1762,7 +1762,7 @@ function C12_BiologyOogenesisSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Oogenesis Sandbox */}
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <label htmlFor="sandbox-oogenesis-slider" className="block text-xs font-bold uppercase text-indigo-400">
+              <label htmlFor="sandbox-oogenesis-slider" className="block text-xs font-bold uppercase text-gold-400">
                 Oogenesis Stage Controller (Stage {oogenesisStage})
               </label>
               <input
@@ -1773,7 +1773,7 @@ function C12_BiologyOogenesisSim({
                 max={3}
                 value={oogenesisStage}
                 onChange={(e) => setOogenesisStage(Number(e.target.value))}
-                className="w-full accent-indigo-500 cursor-pointer"
+                className="w-full accent-gold-500 cursor-pointer"
               />
               <p className="text-xs text-slate-300">
                 Ploidy & Chromosomes: {oogenesisStage <= 1 ? 'Diploid (2n = 46)' : 'Haploid (n = 23 with polar bodies)'}
@@ -1817,7 +1817,7 @@ function C12_BiologyOogenesisSim({
           </div>
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-indigo-500 to-purple-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-gold-500 to-purple-500"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.3 }}
             />
@@ -1835,7 +1835,7 @@ function C12_BiologyOogenesisSim({
               <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-slate-800 text-slate-300 rounded">
                 {activeChallenge.nodeId}
               </span>
-              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded border border-indigo-800">
+              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 bg-gold-950 text-gold-300 rounded border border-gold-800">
                 Type: {activeChallenge.type}
               </span>
             </div>
@@ -1861,7 +1861,7 @@ function C12_BiologyOogenesisSim({
                           : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                       {showExplanation && i === activeChallenge.correctIndex && ' ✓'}
                     </motion.button>
                   ))}
@@ -1881,7 +1881,7 @@ function C12_BiologyOogenesisSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.04 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-semibold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-semibold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1952,7 +1952,7 @@ function C12_BiologyOogenesisSim({
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Check Sequence
                 </motion.button>
@@ -1997,7 +1997,7 @@ function C12_BiologyOogenesisSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs rounded-lg font-mono"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs rounded-lg font-mono"
                     >
                       + {part}
                     </motion.button>
@@ -2033,8 +2033,8 @@ function C12_BiologyOogenesisSim({
 
             {/* Step-by-Step Progressive Disclosure Explanation */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800/80 space-y-3">
-                <p className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Step-by-Step Clinical Explanation</p>
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-800/80 space-y-3">
+                <p className="text-xs font-bold text-gold-300 uppercase tracking-wider">Step-by-Step Clinical Explanation</p>
                 {activeChallenge.explanation
                   .split('. ')
                   .filter((s) => s.trim().length > 0)
@@ -2053,7 +2053,7 @@ function C12_BiologyOogenesisSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps((s) => s + 1)}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                     >
                       Show Next Step →
                     </motion.button>
@@ -2078,12 +2078,12 @@ function C12_BiologyOogenesisSim({
       {/* ─── PHASE 5: COMPLETION, REFLECTION & REAL WORLD ACTIVITY ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
-          <div className="p-6 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-emerald-700/60 shadow-2xl text-center space-y-2">
+          <div className="p-6 bg-gradient-to-r from-emerald-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-emerald-700/60 shadow-2xl text-center space-y-2">
             <span className="text-4xl">🎓</span>
             <h2 className="text-2xl font-black text-white">ISC Biology Mastery Achieved!</h2>
             <p className="text-sm text-slate-300">
               Final Examination Score: <strong className="text-emerald-400">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Level:{' '}
-              <strong className="text-indigo-300 uppercase">{masteryLevel}</strong>
+              <strong className="text-gold-300 uppercase">{masteryLevel}</strong>
             </p>
           </div>
 
@@ -2114,8 +2114,8 @@ function C12_BiologyOogenesisSim({
           )}
 
           {/* Real World Activity Arc */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>🩺</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>

@@ -79,8 +79,8 @@ export const c12_ca_ch01_p1: SimDef = {
             ] }] } },
         { type: 'case', nodeId: 'c12_ca_cbse_01_006', title: 'The bigger picture',
           caseStudy: { intro: 'You can now explain why CAS is a system, not a download — and why one entry replaces the whole posting phase. Boards love the \'five components\' question; businesses live by it.',
-            decisions: [{ prompt: 'What comes next? OVERVIEW OF · Part 2/2 picks up right here.', options: [
-                { text: 'Continue — next part awaits', outcome: 'Onward — OVERVIEW OF · Part 2/2 builds on exactly this.' },
+            decisions: [{ prompt: 'What comes next? Computerised Accounting System · Part 2/2 picks up right here.', options: [
+                { text: 'Continue — next part awaits', outcome: 'Onward — Computerised Accounting System · Part 2/2 builds on exactly this.' },
                 { text: 'Replay this part first', outcome: 'Go again — mastery loves a second pass.' }
             ] }] } }
     ],

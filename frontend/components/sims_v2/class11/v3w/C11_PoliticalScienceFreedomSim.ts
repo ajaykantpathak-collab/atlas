@@ -11,7 +11,7 @@ export const w_c11_politicalsciencefreedomsim: SimDef = {
     classLevel: 11, subject: 'political_science', topic: 'The Ideal of Freedom: Why freedom is valued',
     chapters: [],
     nodeIds: ['c11_ps_cbse_02_001', 'c11_ps_cbse_02_002', 'c11_ps_cbse_02_003', 'c11_ps_cbse_02_004', 'c11_ps_cbse_02_005', 'c11_ps_cbse_02_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a Class 11 student, Priya, who wants to pursue a career in music, but her parents insist she prepare.', goal: 'Master The Ideal of Freedom: Why freedom is valued.' },
     discovery: {
         question: 'According to the NCERT text, what are the two dimensions of freedom discussed in the chapter "Freedom"?',
@@ -20,7 +20,7 @@ export const w_c11_politicalsciencefreedomsim: SimDef = {
         hook: '**Misconception:** "Freedom means I can do whatever I want, whenever I want, without anyone stopping me." (Equating.',
     },
     teaching: [
-        { title: 'Freedom, as an ideal, is the condition that.', text: 'Freedom, as an ideal, is the condition that allows individuals to be in control of their own lives and destinies, enabling them to make autonomous choices and develop their potential.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Freedom, as an ideal, is the condition that.', text: 'Freedom, as an ideal, is the condition that allows individuals to be in control of their own lives and destinies, enabling them to make autonomous choices and develop their potential.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_ps_cbse_02_001', title: 'Freedom, as an ideal, is the condition.',

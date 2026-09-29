@@ -1387,13 +1387,13 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
         className="flex flex-wrap items-center justify-between pb-4 mb-6 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-cyan-950/60 rounded-2xl border border-cyan-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/60 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center gap-2">
               {title}
-              <span className="text-xs px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 font-semibold">
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-gold-500/20 text-gold-300 border border-gold-500/30 font-semibold">
                 Class 8 ICSE
               </span>
             </h1>
@@ -1414,7 +1414,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                 ? 'bg-emerald-950/70 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 text-rose-300 border-rose-600'
-                : 'bg-cyan-950/70 text-cyan-300 border-cyan-600'
+                : 'bg-gold-950/70 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
@@ -1429,14 +1429,14 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
       {/* ─── 1. DISCOVERY PHASE (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-cyan-950/40 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm mb-1 uppercase tracking-wider">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm mb-1 uppercase tracking-wider">
               <span>🔬 Investigation Scenario</span>
             </div>
             <h2 className="text-lg md:text-xl font-black text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
             <div className="mt-3 p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs text-slate-300">
-              <strong className="text-cyan-300">Mission Context:</strong> {SCENARIO.context}
+              <strong className="text-gold-300">Mission Context:</strong> {SCENARIO.context}
             </div>
           </div>
 
@@ -1491,7 +1491,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-cyan-900/40 shrink-0"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-900/40 shrink-0"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1507,7 +1507,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
           {/* Lab Steps Progress Bar */}
           <div className="flex items-center justify-between bg-slate-900 p-3 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-cyan-400">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
+              <span className="text-xs font-bold text-gold-400">Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}:</span>
               <span className="text-xs font-medium text-slate-200">{EXPLORATION_STEPS[currentSlide].title}</span>
             </div>
             <div className="flex gap-1.5">
@@ -1515,7 +1515,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                 <div
                   key={sIdx}
                   className={`h-2 rounded-full transition-all ${
-                    sIdx === currentSlide ? 'w-8 bg-cyan-400' : sIdx < currentSlide ? 'w-3 bg-cyan-800' : 'w-3 bg-slate-800'
+                    sIdx === currentSlide ? 'w-8 bg-gold-400' : sIdx < currentSlide ? 'w-3 bg-gold-800' : 'w-3 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1531,7 +1531,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
               className="p-5 md:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-5"
             >
               <div className="border-b border-slate-800 pb-3">
-                <h3 className="text-lg font-black text-cyan-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <h3 className="text-lg font-black text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                 <p className="text-xs md:text-sm text-amber-300 mt-1 flex items-center gap-1.5">
                   <span>👉</span> {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
@@ -1545,15 +1545,15 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     <div className="w-full mt-3 grid grid-cols-3 gap-2 text-center text-[10px]">
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400">Location</span>
-                        <div className="font-bold text-cyan-300">{labTemp >= 100 ? 'Bulk & Surface' : 'Surface Only'}</div>
+                        <div className="font-bold text-gold-300">{labTemp >= 100 ? 'Bulk & Surface' : 'Surface Only'}</div>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400">Fixed Temp?</span>
-                        <div className="font-bold text-cyan-300">{labTemp >= 100 ? 'Yes (100°C)' : 'Any Temp'}</div>
+                        <div className="font-bold text-gold-300">{labTemp >= 100 ? 'Yes (100°C)' : 'Any Temp'}</div>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400">Thermal Effect</span>
-                        <div className="font-bold text-cyan-300">{labTemp >= 100 ? 'Needs Heat' : 'Causes Cooling'}</div>
+                        <div className="font-bold text-gold-300">{labTemp >= 100 ? 'Needs Heat' : 'Causes Cooling'}</div>
                       </div>
                     </div>
                   </div>
@@ -1562,7 +1562,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs font-semibold">
                         <span className="text-slate-300">Water Temperature:</span>
-                        <span className={labTemp >= 100 ? 'text-rose-400 font-bold' : 'text-cyan-400 font-bold'}>
+                        <span className={labTemp >= 100 ? 'text-rose-400 font-bold' : 'text-gold-400 font-bold'}>
                           {labTemp}°C {labTemp >= 100 ? '(Boiling Point!)' : ''}
                         </span>
                       </div>
@@ -1576,7 +1576,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                           audioManager.play('count');
                         }}
                         aria-label="Water Temperature Slider"
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
 
                       <div className="flex justify-between text-xs font-semibold pt-1">
@@ -1595,7 +1595,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
 
                       <div className="flex justify-between text-xs font-semibold pt-1">
                         <span className="text-slate-300">Relative Humidity:</span>
-                        <span className="text-indigo-300 font-bold">{humidityLevel}%</span>
+                        <span className="text-gold-300 font-bold">{humidityLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1604,14 +1604,14 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                         value={humidityLevel}
                         onChange={e => setHumidityLevel(Number(e.target.value))}
                         aria-label="Humidity level slider"
-                        className="w-full accent-indigo-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
 
                     {/* Predict-then-check mini hook */}
                     {!predictionMade ? (
-                      <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-800 text-xs space-y-2">
-                        <p className="font-bold text-indigo-300">{PREDICTION_QUESTIONS[0].question}</p>
+                      <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-800 text-xs space-y-2">
+                        <p className="font-bold text-gold-300">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-2 gap-1.5">
                           {PREDICTION_QUESTIONS[0].options.slice(0, 2).map((opt, pI) => (
                             <motion.button
@@ -1748,7 +1748,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                           }}
                           className={`flex-1 py-2 text-xs font-bold rounded-xl border transition-all ${
                             expansionMode === mode
-                              ? 'bg-cyan-600 border-cyan-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1760,7 +1760,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs font-semibold">
                         <span className="text-slate-300">Temperature Rise (ΔT):</span>
-                        <span className="text-cyan-400 font-bold">+{expansionDeltaT}°C</span>
+                        <span className="text-gold-400 font-bold">+{expansionDeltaT}°C</span>
                       </div>
                       <input
                         type="range"
@@ -1769,7 +1769,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                         value={expansionDeltaT}
                         onChange={e => setExpansionDeltaT(Number(e.target.value))}
                         aria-label="Temperature rise slider"
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
 
                       <div className="flex justify-between text-xs font-semibold pt-1">
@@ -1807,7 +1807,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     <div className="w-full mt-3 grid grid-cols-2 gap-2 text-center text-xs">
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400">Pitch Characteristic</span>
-                        <div className="font-black text-cyan-300">{acousticFrequency} Hz ({acousticFrequency > 500 ? 'High Treble' : 'Deep Bass'})</div>
+                        <div className="font-black text-gold-300">{acousticFrequency} Hz ({acousticFrequency > 500 ? 'High Treble' : 'Deep Bass'})</div>
                       </div>
                       <div className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                         <span className="text-slate-400">Loudness Level</span>
@@ -1820,7 +1820,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs font-semibold">
                         <span className="text-slate-300">Vibrating String Length:</span>
-                        <span className="text-cyan-400 font-bold">{stringLength} cm (Shorter = Higher Pitch)</span>
+                        <span className="text-gold-400 font-bold">{stringLength} cm (Shorter = Higher Pitch)</span>
                       </div>
                       <input
                         type="range"
@@ -1829,7 +1829,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                         value={stringLength}
                         onChange={e => setStringLength(Number(e.target.value))}
                         aria-label="String length slider"
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
 
                       <div className="flex justify-between text-xs font-semibold pt-1">
@@ -1940,7 +1940,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                         }}
                         className={`flex-1 py-2 text-xs font-bold rounded-xl border ${
                           frictionMaterialPair === 'glass-silk'
-                            ? 'bg-cyan-600 border-cyan-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -2095,7 +2095,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                             audioManager.play('tap');
                           }}
                           className={`py-1.5 text-[10px] rounded-lg border font-semibold ${
-                            approachRodCharge === 'neg' ? 'bg-blue-600 text-white' : 'bg-slate-900 text-blue-300'
+                            approachRodCharge === 'neg' ? 'bg-gold-600 text-white' : 'bg-slate-900 text-gold-300'
                           }`}
                         >
                           − Negative
@@ -2105,7 +2105,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                       <div className="pt-2">
                         <div className="flex justify-between text-[11px] text-slate-300">
                           <span>Rod Distance:</span>
-                          <span className="font-bold text-cyan-400">{approachRodDistance} mm</span>
+                          <span className="font-bold text-gold-400">{approachRodDistance} mm</span>
                         </div>
                         <input
                           type="range"
@@ -2114,7 +2114,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                           value={approachRodDistance}
                           onChange={e => setApproachRodDistance(Number(e.target.value))}
                           aria-label="Rod distance slider"
-                          className="w-full accent-cyan-400"
+                          className="w-full accent-gold-400"
                         />
                       </div>
                     </div>
@@ -2179,7 +2179,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -2202,7 +2202,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
-              <h2 className="text-lg font-black text-cyan-300">Free Exploration Sandbox</h2>
+              <h2 className="text-lg font-black text-gold-300">Free Exploration Sandbox</h2>
               <p className="text-xs text-slate-400 mt-1">
                 Zero pressure, un-graded laboratory sandbox. Manipulate temperature, acoustics, and electroscopes freely.
               </p>
@@ -2220,10 +2220,10 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Quick Sandbox 1: Boiling vs Evaporation */}
             <div className="p-4 bg-slate-900/80 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-cyan-300 uppercase tracking-wider">Vaporization Apparatus</h4>
+              <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Vaporization Apparatus</h4>
               <div className="flex justify-between text-xs font-semibold">
                 <span>Temperature: {labTemp}°C</span>
-                <span className={labTemp >= 100 ? 'text-rose-400 font-bold' : 'text-cyan-400'}>
+                <span className={labTemp >= 100 ? 'text-rose-400 font-bold' : 'text-gold-400'}>
                   {labTemp >= 100 ? 'Boiling (Bulk)' : 'Evaporation (Surface)'}
                 </span>
               </div>
@@ -2234,10 +2234,10 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                 value={labTemp}
                 onChange={e => setLabTemp(Number(e.target.value))}
                 aria-label="Sandbox temperature slider"
-                className="w-full accent-cyan-400"
+                className="w-full accent-gold-400"
               />
               <p className="text-[11px] text-slate-400">
-                Evaporative cooling rate: <strong className="text-cyan-300">{evaporationRate} g/min</strong>. At 100°C, bubbles form throughout the entire liquid body.
+                Evaporative cooling rate: <strong className="text-gold-300">{evaporationRate} g/min</strong>. At 100°C, bubbles form throughout the entire liquid body.
               </p>
             </div>
 
@@ -2300,7 +2300,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
               </div>
               <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 to-gold-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -2365,7 +2365,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                       role="button"
                       tabIndex={0}
                       aria-label={`Drag item: ${item.label}`}
-                      className="px-3 py-1.5 bg-cyan-700 hover:bg-cyan-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-sm"
                     >
                       🏷️ {item.label}
                     </motion.div>
@@ -2453,7 +2453,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Verify Diagram Labels ✓
                 </motion.button>
@@ -2483,7 +2483,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 flex items-center justify-between gap-3 cursor-grab"
                   >
                     <div className="flex items-center gap-3 text-sm">
-                      <span className="w-6 h-6 rounded-full bg-cyan-950 text-cyan-300 font-bold flex items-center justify-center text-xs border border-cyan-800 shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-gold-950 text-gold-300 font-bold flex items-center justify-center text-xs border border-gold-800 shrink-0">
                         {dIdx + 1}
                       </span>
                       <span className="text-slate-200">{item}</span>
@@ -2516,7 +2516,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     const ans = sortArrangement.length > 0 ? sortArrangement : activeChallenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(ans);
                   }}
-                  className="mt-2 px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold"
+                  className="mt-2 px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
                 >
                   Confirm Physical Order ✓
                 </motion.button>
@@ -2534,14 +2534,14 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value"
                     aria-label="Numeric calculation answer"
-                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-cyan-500"
+                    className="px-4 py-2.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                   />
-                  <span className="text-sm font-bold text-cyan-400">{activeChallenge.unit}</span>
+                  <span className="text-sm font-bold text-gold-400">{activeChallenge.unit}</span>
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2560,7 +2560,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-900/70 hover:bg-indigo-800 border border-indigo-700 rounded-lg text-xs font-medium text-indigo-200"
+                      className="px-3 py-1.5 bg-gold-900/70 hover:bg-gold-800 border border-gold-700 rounded-lg text-xs font-medium text-gold-200"
                     >
                       + {part}
                     </motion.button>
@@ -2573,7 +2573,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                       key={cI}
                       initial={{ opacity: 0, scale: 0.9 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-3 py-1 bg-cyan-900/60 border border-cyan-700 rounded-lg text-xs text-cyan-200 flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/60 border border-gold-700 rounded-lg text-xs text-gold-200 flex items-center gap-2"
                     >
                       {item}
                       <button
@@ -2595,7 +2595,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold disabled:opacity-40"
                 >
                   Verify Definition ✓
                 </motion.button>
@@ -2608,10 +2608,10 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-700/60 rounded-2xl space-y-3"
+              className="p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-700/60 rounded-2xl space-y-3"
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                   Physics Mechanism & Step-by-Step Breakdown
                 </span>
                 <span className="text-xs text-slate-400">Step {revealedSteps + 1}</span>
@@ -2628,7 +2628,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     animate={{ opacity: 1, x: 0 }}
                     className="text-sm text-slate-200 leading-relaxed"
                   >
-                    <strong className="text-cyan-400">{sIdx + 1}.</strong> {sentence}
+                    <strong className="text-gold-400">{sIdx + 1}.</strong> {sentence}
                     {!sentence.endsWith('.') && '.'}
                   </motion.p>
                 ))}
@@ -2640,7 +2640,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps(r => r + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-xl text-xs font-bold"
                   >
                     Reveal Next Reasoning Step →
                   </motion.button>
@@ -2663,8 +2663,8 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
       {/* ─── 5. COMPLETION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.92 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 md:p-8 bg-gradient-to-br from-slate-900 via-indigo-950/60 to-cyan-950/70 rounded-3xl border border-cyan-800 text-center space-y-4">
-            <div className="inline-flex p-4 bg-cyan-500/20 rounded-full border border-cyan-400/30 text-4xl mb-1">
+          <div className="p-6 md:p-8 bg-gradient-to-br from-slate-900 via-gold-950/60 to-gold-950/70 rounded-3xl border border-gold-800 text-center space-y-4">
+            <div className="inline-flex p-4 bg-gold-500/20 rounded-full border border-gold-400/30 text-4xl mb-1">
               🏆
             </div>
             <h2 className="text-2xl md:text-3xl font-black text-white">Investigation Certified!</h2>
@@ -2675,7 +2675,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
             <div className="grid grid-cols-3 gap-3 max-w-md mx-auto pt-2">
               <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400">Final Score</div>
-                <div className="text-lg font-black text-cyan-300">{Math.max(0, 100 - errors * 5)}%</div>
+                <div className="text-lg font-black text-gold-300">{Math.max(0, 100 - errors * 5)}%</div>
               </div>
               <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800">
                 <div className="text-[10px] text-slate-400">Mastery Level</div>
@@ -2707,21 +2707,21 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h5 className="text-xs font-bold text-cyan-300">1. Surprising Insight</h5>
+                <h5 className="text-xs font-bold text-gold-300">1. Surprising Insight</h5>
                 <p className="text-xs text-slate-300 font-semibold">What was the most surprising thing you learned?</p>
                 <p className="text-[11px] text-slate-400 leading-relaxed">
                   Notice how evaporation continuously cools the liquid by shedding high-energy molecules at any temperature, unlike boiling which requires an entire bulk phase equilibrium.
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h5 className="text-xs font-bold text-cyan-300">2. Teaching Others</h5>
+                <h5 className="text-xs font-bold text-gold-300">2. Teaching Others</h5>
                 <p className="text-xs text-slate-300 font-semibold">How would you explain this to a friend?</p>
                 <p className="text-[11px] text-slate-400 leading-relaxed">
                   Conduction shares the same sign by direct touch, while induction rearranges mobile electrons from a distance, yielding the opposite permanent sign once grounded.
                 </p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <h5 className="text-xs font-bold text-cyan-300">3. Practical Application</h5>
+                <h5 className="text-xs font-bold text-gold-300">3. Practical Application</h5>
                 <p className="text-xs text-slate-300 font-semibold">Where in real life might you use this?</p>
                 <p className="text-[11px] text-slate-400 leading-relaxed">
                   From leaving expansion gaps on railway tracks in scorching summers to grounding aviation fuel tankers to dissipate hazardous electrostatic sparks safely.
@@ -2751,7 +2751,7 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
           )}
 
           {/* Visible Spaced Repetition (SRS) Schedule */}
-          <div className="p-5 bg-gradient-to-r from-amber-950/50 via-slate-900 to-indigo-950/50 rounded-2xl border border-amber-500/40 shadow-lg space-y-3">
+          <div className="p-5 bg-gradient-to-r from-amber-950/50 via-slate-900 to-gold-950/50 rounded-2xl border border-amber-500/40 shadow-lg space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🧠</span>
@@ -2794,12 +2794,12 @@ function C8_PhysicsBoilingEvaporationdifferencesSim({
 
           {/* Final Real-World Scenario Activity */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
-            <h3 className="text-base font-black text-cyan-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-black text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-cyan-400">{idx + 1}.</span>
+                  <span className="font-bold text-gold-400">{idx + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

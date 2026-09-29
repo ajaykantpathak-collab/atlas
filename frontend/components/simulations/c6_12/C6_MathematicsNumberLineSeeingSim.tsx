@@ -1147,13 +1147,13 @@ function C6_MathematicsNumberLineSeeingSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: [0, -10, 10, 0] }}
-            className="text-3xl p-2 bg-blue-900/40 border border-blue-600/50 rounded-2xl shadow-inner"
+            className="text-3xl p-2 bg-gold-900/40 border border-gold-600/50 rounded-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-blue-400 font-medium">Class 6 ICSE Mathematics • NEP 2020 Conceptual Mastery</p>
+            <p className="text-xs text-gold-400 font-medium">Class 6 ICSE Mathematics • NEP 2020 Conceptual Mastery</p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -1166,7 +1166,7 @@ function C6_MathematicsNumberLineSeeingSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-600'
-                : 'bg-indigo-950/60 text-indigo-400 border-indigo-600'
+                : 'bg-gold-950/60 text-gold-400 border-gold-600'
             }`}
           >
             {difficulty} Tier
@@ -1187,12 +1187,12 @@ function C6_MathematicsNumberLineSeeingSim({
           <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="p-5 sm:p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-blue-950/40 rounded-2xl border border-indigo-800/60 shadow-lg"
+            className="p-5 sm:p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-gold-950/40 rounded-2xl border border-gold-800/60 shadow-lg"
           >
-            <span className="text-xs font-bold uppercase tracking-widest text-indigo-400">Mission Briefing</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-gold-400">Mission Briefing</span>
             <h2 className="text-xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 bg-indigo-900/30 p-3 rounded-xl border border-indigo-700/40">
+            <p className="text-xs text-gold-300/80 mt-3 bg-gold-900/30 p-3 rounded-xl border border-gold-700/40">
               {SCENARIO.context}
             </p>
           </motion.div>
@@ -1222,7 +1222,7 @@ function C6_MathematicsNumberLineSeeingSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-50'
-                      : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-blue-500'
+                      : 'bg-slate-800/90 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                   }`}
                 >
                   <span className="text-xs text-slate-400 mr-2 font-mono">[{String.fromCharCode(65 + i)}]</span>
@@ -1251,7 +1251,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Launch Interactive Lab →
                 </motion.button>
@@ -1272,7 +1272,7 @@ function C6_MathematicsNumberLineSeeingSim({
                 <motion.div
                   key={idx}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-6 bg-blue-500' : idx < currentSlide ? 'w-2 bg-emerald-500' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-6 bg-gold-500' : idx < currentSlide ? 'w-2 bg-emerald-500' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1292,7 +1292,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-amber-400 mt-1 font-medium">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
-                <span className="text-xs px-2.5 py-1 bg-blue-950 text-blue-300 rounded-lg font-mono border border-blue-800">
+                <span className="text-xs px-2.5 py-1 bg-gold-950 text-gold-300 rounded-lg font-mono border border-gold-800">
                   {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1364,7 +1364,7 @@ function C6_MathematicsNumberLineSeeingSim({
                             setOperationType((o) => (o === 'add' ? 'subtract' : 'add'));
                             audioManager.play('tap');
                           }}
-                          className="px-3 py-1.5 bg-slate-800 border border-slate-700 hover:border-blue-500 rounded-lg text-xs font-bold text-blue-300 uppercase"
+                          className="px-3 py-1.5 bg-slate-800 border border-slate-700 hover:border-gold-500 rounded-lg text-xs font-bold text-gold-300 uppercase"
                         >
                           {operationType}
                         </motion.button>
@@ -1375,7 +1375,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   <motion.div
                     initial={{ scale: 0.98 }}
                     animate={{ scale: 1 }}
-                    className="p-3 bg-blue-950/40 border border-blue-800/60 rounded-xl flex items-center justify-between text-xs sm:text-sm"
+                    className="p-3 bg-gold-950/40 border border-gold-800/60 rounded-xl flex items-center justify-between text-xs sm:text-sm"
                   >
                     <span className="text-slate-300">Live Mathematical Formula:</span>
                     <span className="font-mono font-bold text-white bg-slate-900 px-3 py-1 rounded-lg border border-slate-700">
@@ -1400,7 +1400,7 @@ function C6_MathematicsNumberLineSeeingSim({
                         audioManager.play('tap');
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                        elevationMode === 'mountain' ? 'bg-blue-600 text-white shadow-lg' : 'bg-slate-800 text-slate-400'
+                        elevationMode === 'mountain' ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       🏔️ Himalayan Peak (+ Altitude)
@@ -1415,7 +1415,7 @@ function C6_MathematicsNumberLineSeeingSim({
                         audioManager.play('tap');
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
-                        elevationMode === 'sea' ? 'bg-cyan-600 text-white shadow-lg' : 'bg-slate-800 text-slate-400'
+                        elevationMode === 'sea' ? 'bg-gold-600 text-white shadow-lg' : 'bg-slate-800 text-slate-400'
                       }`}
                     >
                       🌊 Deep Trench (- Submersible Depth)
@@ -1438,7 +1438,7 @@ function C6_MathematicsNumberLineSeeingSim({
                           setAltitudeValue(parseInt(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-cyan-500"
+                        className="w-full accent-gold-500"
                       />
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-sm space-y-1">
                         <p className="text-slate-400 text-xs">Reference Origin:</p>
@@ -1516,7 +1516,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div>
                       <label className="text-xs font-semibold text-slate-400 block mb-1">
-                        First Integer (Coordinate A): <span className="text-blue-400 font-mono font-bold">{compA}</span>
+                        First Integer (Coordinate A): <span className="text-gold-400 font-mono font-bold">{compA}</span>
                       </label>
                       <input
                         aria-label="First integer coordinate slider"
@@ -1528,7 +1528,7 @@ function C6_MathematicsNumberLineSeeingSim({
                           setCompA(parseInt(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-blue-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1610,7 +1610,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   >
                     <span className="text-xs text-slate-400 font-bold uppercase tracking-widest">Inequality Evaluation</span>
                     <div className="text-2xl sm:text-3xl font-mono font-black text-white">
-                      <span className="text-blue-400">{compA}</span>{' '}
+                      <span className="text-gold-400">{compA}</span>{' '}
                       <span className="text-amber-400 px-3 py-1 bg-slate-800 rounded-xl border border-slate-700">
                         {compA > compB ? '>' : compA < compB ? '<' : '='}
                       </span>{' '}
@@ -1724,7 +1724,7 @@ function C6_MathematicsNumberLineSeeingSim({
                             </span>
                           ))}
                         </div>
-                        <p className="text-blue-300 pt-1">
+                        <p className="text-gold-300 pt-1">
                           Roster Form S = {'{'}{distinctSetMembers.join(', ')}{'}'}
                         </p>
                         <p className="text-emerald-400 font-bold">
@@ -1764,7 +1764,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-blue-600/30"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1819,7 +1819,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     setFrogStart(parseInt(e.target.value));
                     audioManager.play('count');
                   }}
-                  className="w-full accent-blue-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="space-y-2">
@@ -1848,14 +1848,14 @@ function C6_MathematicsNumberLineSeeingSim({
           {/* Progress Header */}
           <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900 p-4 rounded-2xl border border-slate-800">
             <div>
-              <span className="text-xs font-mono text-blue-400">
+              <span className="text-xs font-mono text-gold-400">
                 CHALLENGE {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2 mt-0.5">
                 <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
                   {challenge.nodeId}
                 </span>
-                <span className="text-xs px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 uppercase tracking-wider font-bold">
+                <span className="text-xs px-2 py-0.5 rounded bg-gold-950 text-gold-300 uppercase tracking-wider font-bold">
                   NEP Level: {challenge.competencyLevel}
                 </span>
               </div>
@@ -1863,13 +1863,13 @@ function C6_MathematicsNumberLineSeeingSim({
 
             <div className="w-full sm:w-48 h-2.5 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-blue-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
           </div>
 
-          <div className="text-xs text-indigo-300 mt-1">
+          <div className="text-xs text-gold-300 mt-1">
             📅 SM-2 Spaced Repetition: review in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'} to strengthen your memory.
           </div>
 
@@ -1898,7 +1898,7 @@ function C6_MathematicsNumberLineSeeingSim({
                       className={`w-full text-left p-4 rounded-xl text-sm font-semibold border transition-all ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-blue-500'
+                          : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                       }`}
                     >
                       <span className="text-xs text-slate-400 font-mono mr-3">[{String.fromCharCode(65 + i)}]</span>
@@ -1922,7 +1922,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
                     disabled={showExplanation}
-                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-blue-500 outline-none w-48"
+                    className="p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-48"
                   />
                   {challenge.unit && <span className="text-slate-400 font-semibold">{challenge.unit}</span>}
                   <motion.button
@@ -1931,7 +1931,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || numericInput === ''}
-                    className="px-6 py-3 bg-blue-600 hover:bg-blue-500 disabled:opacity-40 text-white font-bold rounded-xl shadow-md"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl shadow-md"
                   >
                     Submit Answer
                   </motion.button>
@@ -1964,7 +1964,7 @@ function C6_MathematicsNumberLineSeeingSim({
                       className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-slate-200 text-sm font-semibold flex items-center justify-between cursor-grab"
                     >
                       <span className="flex items-center gap-3">
-                        <span className="w-6 h-6 rounded-full bg-blue-950 border border-blue-700 text-blue-300 text-xs flex items-center justify-center font-mono">
+                        <span className="w-6 h-6 rounded-full bg-gold-950 border border-gold-700 text-gold-300 text-xs flex items-center justify-center font-mono">
                           {displayIdx + 1}
                         </span>
                         {item}
@@ -1979,7 +1979,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-3 px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl"
+                  className="mt-3 px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl"
                 >
                   Confirm Sequence
                 </motion.button>
@@ -1999,7 +1999,7 @@ function C6_MathematicsNumberLineSeeingSim({
                       draggable
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
-                      className="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 rounded-lg text-white font-mono text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 rounded-lg text-white font-mono text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2033,7 +2033,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl"
                 >
                   Check Coordinates
                 </motion.button>
@@ -2055,7 +2055,7 @@ function C6_MathematicsNumberLineSeeingSim({
                         setConstructParts((prev) => [...prev, part]);
                         audioManager.play('pop');
                       }}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono font-bold text-blue-300"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs font-mono font-bold text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -2090,7 +2090,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl"
                 >
                   Verify Constructed Set
                 </motion.button>
@@ -2103,10 +2103,10 @@ function C6_MathematicsNumberLineSeeingSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/80 space-y-4"
+              className="p-6 bg-slate-900 rounded-2xl border border-gold-800/80 space-y-4"
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   📖 Complete Step-by-Step Mathematical Explanation
                 </span>
                 <span className="text-xs text-slate-400">
@@ -2126,7 +2126,7 @@ function C6_MathematicsNumberLineSeeingSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-slate-200 text-sm leading-relaxed"
                     >
-                      <span className="text-indigo-400 font-bold font-mono mr-2">{idx + 1}.</span>
+                      <span className="text-gold-400 font-bold font-mono mr-2">{idx + 1}.</span>
                       {sentence.endsWith('.') ? sentence : `${sentence}.`}
                     </motion.p>
                   ))}
@@ -2139,7 +2139,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-900/60 hover:bg-indigo-900 text-indigo-200 border border-indigo-700 text-xs font-bold rounded-xl"
+                    className="px-4 py-2 bg-gold-900/60 hover:bg-gold-900 text-gold-200 border border-gold-700 text-xs font-bold rounded-xl"
                   >
                     Reveal Next Step →
                   </motion.button>
@@ -2170,7 +2170,7 @@ function C6_MathematicsNumberLineSeeingSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center p-8 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-emerald-950/40 rounded-3xl border border-emerald-600/50 space-y-3"
+            className="text-center p-8 bg-gradient-to-br from-gold-950/60 via-slate-900 to-emerald-950/40 rounded-3xl border border-emerald-600/50 space-y-3"
           >
             <motion.span
               animate={{ rotate: [0, -10, 10, -10, 0], scale: [1, 1.15, 1] }}
@@ -2190,7 +2190,7 @@ function C6_MathematicsNumberLineSeeingSim({
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} className="bg-slate-900/90 px-4 py-2 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Mastery Level</span>
-                <span className="text-xl font-mono font-black text-blue-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-mono font-black text-gold-400 capitalize">{masteryLevel}</span>
               </motion.div>
             </div>
           </motion.div>
@@ -2262,7 +2262,7 @@ function C6_MathematicsNumberLineSeeingSim({
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="text-blue-400 font-bold font-mono">{i + 1}.</span>
+                  <span className="text-gold-400 font-bold font-mono">{i + 1}.</span>
                   {step}
                 </li>
               ))}
@@ -2273,9 +2273,9 @@ function C6_MathematicsNumberLineSeeingSim({
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            className="p-6 bg-slate-900 rounded-2xl border border-blue-900/60 space-y-4"
+            className="p-6 bg-slate-900 rounded-2xl border border-gold-900/60 space-y-4"
           >
-            <div className="flex items-center gap-2 text-blue-400">
+            <div className="flex items-center gap-2 text-gold-400">
               <span className="text-xl">🤔</span>
               <h3 className="text-base font-bold text-white">Reflective Synthesis & Metacognition</h3>
             </div>
@@ -2295,7 +2295,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     value={reflectionAnswers.surprising}
                     onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, surprising: e.target.value })}
                     placeholder="E.g., Subtracting a negative integer actually moves to the right and increases value..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-blue-500 outline-none"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none"
                     required
                   />
                 </div>
@@ -2310,7 +2310,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     value={reflectionAnswers.explanation}
                     onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, explanation: e.target.value })}
                     placeholder="E.g., Zero is sea level or freezing point; negative is stepping opposite from the zero mark..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-blue-500 outline-none"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none"
                     required
                   />
                 </div>
@@ -2325,7 +2325,7 @@ function C6_MathematicsNumberLineSeeingSim({
                     value={reflectionAnswers.realLife}
                     onChange={(e) => setReflectionAnswers({ ...reflectionAnswers, realLife: e.target.value })}
                     placeholder="E.g., Bank account balances, elevator basements, flight altitudes, organizing unique music playlists..."
-                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-blue-500 outline-none"
+                    className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none"
                     required
                   />
                 </div>
@@ -2335,7 +2335,7 @@ function C6_MathematicsNumberLineSeeingSim({
                   type="submit"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs rounded-xl shadow-lg shadow-blue-600/30"
+                  className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow-lg shadow-gold-600/30"
                 >
                   Submit Reflections ✓
                 </motion.button>

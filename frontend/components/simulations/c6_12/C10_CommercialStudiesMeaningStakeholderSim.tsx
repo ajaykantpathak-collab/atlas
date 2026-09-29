@@ -1448,13 +1448,13 @@ function C10_CommercialStudiesMeaningStakeholderSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="text-3xl p-2 bg-indigo-900/50 rounded-xl border border-indigo-700/50"
+            className="text-3xl p-2 bg-gold-900/50 rounded-xl border border-gold-700/50"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl font-extrabold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-300 font-medium">
+            <p className="text-xs text-gold-300 font-medium">
               ICSE Class 10 Commercial Studies • Comprehensive Stakeholder & Marketing Engine
             </p>
           </div>
@@ -1470,7 +1470,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                 ? 'bg-emerald-950 border border-emerald-500 text-emerald-400'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950 border border-rose-500 text-rose-400'
-                : 'bg-indigo-950 border border-indigo-500 text-indigo-400'
+                : 'bg-gold-950 border border-gold-500 text-gold-400'
             }`}
           >
             {difficulty} TIER
@@ -1489,8 +1489,8 @@ function C10_CommercialStudiesMeaningStakeholderSim({
           animate={{ opacity: 1, y: 0 }}
           className="space-y-6"
         >
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🌟</span> Real-World Business Dilemma
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
@@ -1539,7 +1539,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 rounded-xl bg-slate-950 border border-indigo-700/60 flex flex-col sm:flex-row items-center justify-between gap-4"
+                className="mt-4 p-4 rounded-xl bg-slate-950 border border-gold-700/60 flex flex-col sm:flex-row items-center justify-between gap-4"
               >
                 <div>
                   <p
@@ -1559,7 +1559,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Visual Lab →
                 </motion.button>
@@ -1573,7 +1573,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Interactive Concept Discovery Lab
             </span>
             <div className="flex items-center gap-1">
@@ -1581,7 +1581,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                 <div
                   key={i}
                   className={`h-2 rounded-full transition-all ${
-                    currentSlide === i ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-700'
+                    currentSlide === i ? 'w-8 bg-gold-500' : 'w-2 bg-slate-700'
                   }`}
                 />
               ))}
@@ -1706,7 +1706,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                           <h4 className="text-base font-extrabold text-white">
                             {stakeholderInfo[selectedStakeholder].title}
                           </h4>
-                          <span className="text-[10px] px-2 py-0.5 rounded-full font-bold bg-indigo-950 text-indigo-400 border border-indigo-700">
+                          <span className="text-[10px] px-2 py-0.5 rounded-full font-bold bg-gold-950 text-gold-400 border border-gold-700">
                             {stakeholderInfo[selectedStakeholder].category}
                           </span>
                         </div>
@@ -1718,7 +1718,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                             Primary Stake: <span className="text-amber-300 font-normal">{stakeholderInfo[selectedStakeholder].expected}</span>
                           </p>
                           <p className="text-slate-400 font-semibold">
-                            Indian Example: <span className="text-indigo-300 font-normal">{stakeholderInfo[selectedStakeholder].example}</span>
+                            Indian Example: <span className="text-gold-300 font-normal">{stakeholderInfo[selectedStakeholder].example}</span>
                           </p>
                         </div>
                       </div>
@@ -1748,7 +1748,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                         }}
                         className={`px-3 py-1.5 rounded-xl text-xs font-bold uppercase transition-all ${
                           boundaryFilter === mode
-                            ? 'bg-indigo-600 text-white shadow-md'
+                            ? 'bg-gold-600 text-white shadow-md'
                             : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
@@ -1825,7 +1825,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-indigo-950/70 rounded-2xl border border-indigo-700 space-y-3"
+                      className="p-4 bg-gold-950/70 rounded-2xl border border-gold-700 space-y-3"
                     >
                       <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
                         Step 1: Make Your Commercial Prediction
@@ -1863,7 +1863,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                         <div className="space-y-1">
                           <div className="flex justify-between text-xs text-slate-300">
                             <span>EV Selling Price Adjustment</span>
-                            <span className="font-mono font-bold text-indigo-400">
+                            <span className="font-mono font-bold text-gold-400">
                               {priceSlider > 0 ? `+${priceSlider}%` : `${priceSlider}%`}
                             </span>
                           </div>
@@ -1874,7 +1874,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                             value={priceSlider}
                             onChange={(e) => handlePriceChange(Number(e.target.value))}
                             aria-label="Price adjustment slider"
-                            className="w-full accent-indigo-500"
+                            className="w-full accent-gold-500"
                           />
                         </div>
 
@@ -1935,9 +1935,9 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                         <motion.div
                           initial={{ opacity: 0, y: 10 }}
                           animate={{ opacity: 1, y: 0 }}
-                          className="mt-3 p-3 bg-slate-900 rounded-xl border border-indigo-700/60 space-y-2"
+                          className="mt-3 p-3 bg-slate-900 rounded-xl border border-gold-700/60 space-y-2"
                         >
-                          <p className="text-xs font-bold text-indigo-300">
+                          <p className="text-xs font-bold text-gold-300">
                             🔍 Observation: {OBSERVATION_QUESTIONS[0].question}
                           </p>
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -2067,7 +2067,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                         }}
                         className={`p-2 rounded-xl text-xs font-bold text-center transition-all ${
                           funnelStage === idx
-                            ? 'bg-indigo-600 text-white shadow-lg'
+                            ? 'bg-gold-600 text-white shadow-lg'
                             : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                         }`}
                       >
@@ -2078,7 +2078,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
 
                   <div className="p-5 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs px-2.5 py-1 rounded-full bg-indigo-950 text-indigo-300 font-bold border border-indigo-700">
+                      <span className="text-xs px-2.5 py-1 rounded-full bg-gold-950 text-gold-300 font-bold border border-gold-700">
                         {funnelStage < 4 || funnelStage === 5 ? 'MARKETING DOMAIN' : 'TRANSACTIONAL SALES DOMAIN'}
                       </span>
                       <span className="text-xs text-slate-400 font-mono">
@@ -2179,7 +2179,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs text-slate-400">
                         <span>3. Desired Mark-up</span>
-                        <span className="font-mono font-bold text-indigo-400">+{markupSlider}%</span>
+                        <span className="font-mono font-bold text-gold-400">+{markupSlider}%</span>
                       </div>
                       <input
                         type="range"
@@ -2187,14 +2187,14 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                         max={100}
                         value={markupSlider}
                         onChange={(e) => setMarkupSlider(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[11px] text-slate-500">Mark-up determines your final selling price MRP.</p>
                     </div>
                   </div>
 
                   {/* Pricing Output Dashboard */}
-                  <div className="p-4 bg-gradient-to-r from-slate-900 to-indigo-950/60 rounded-2xl border border-indigo-800 flex flex-wrap items-center justify-between gap-4">
+                  <div className="p-4 bg-gradient-to-r from-slate-900 to-gold-950/60 rounded-2xl border border-gold-800 flex flex-wrap items-center justify-between gap-4">
                     <div>
                       <p className="text-xs text-slate-400">Calculated Selling Price (MRP)</p>
                       <p className="text-2xl font-black text-white font-mono">₹{simMetrics.sellingPrice}</p>
@@ -2205,7 +2205,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     </div>
                     <div>
                       <p className="text-xs text-slate-400">Estimated Monthly Units</p>
-                      <p className="text-xl font-bold text-indigo-300 font-mono">{simMetrics.volume.toLocaleString()}</p>
+                      <p className="text-xl font-bold text-gold-300 font-mono">{simMetrics.volume.toLocaleString()}</p>
                     </div>
                     <div>
                       <p className="text-xs text-slate-400">Total Monthly Gross Profit</p>
@@ -2244,7 +2244,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                   setCurrentSlide((s) => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -2302,7 +2302,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                 }}
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
                   activeTab === tab.id
-                    ? 'bg-indigo-600 text-white shadow'
+                    ? 'bg-gold-600 text-white shadow'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -2323,7 +2323,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     onClick={() => handleStakeholderSelect(key)}
                     className={`p-3 rounded-xl text-left border transition-all ${
                       selectedStakeholder === key
-                        ? 'bg-indigo-950 border-indigo-500 text-white'
+                        ? 'bg-gold-950 border-gold-500 text-white'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:bg-slate-800'
                     }`}
                   >
@@ -2335,7 +2335,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
 
               {selectedStakeholder && stakeholderInfo[selectedStakeholder] && (
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-2">
-                  <p className="font-bold text-indigo-300">{stakeholderInfo[selectedStakeholder].title}</p>
+                  <p className="font-bold text-gold-300">{stakeholderInfo[selectedStakeholder].title}</p>
                   <p className="text-slate-300">
                     <strong>Governing Statute:</strong> {stakeholderInfo[selectedStakeholder].law}
                   </p>
@@ -2358,7 +2358,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     max={40}
                     value={priceSlider}
                     onChange={(e) => handlePriceChange(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div className="space-y-1">
@@ -2392,7 +2392,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-center">
                   <p className="text-[11px] text-slate-400">Customer Demand</p>
-                  <p className="text-lg font-bold text-indigo-300">{simMetrics.customerScore}%</p>
+                  <p className="text-lg font-bold text-gold-300">{simMetrics.customerScore}%</p>
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-center">
                   <p className="text-[11px] text-slate-400">Employee Morale</p>
@@ -2415,7 +2415,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     key={type}
                     onClick={() => setDemandElasticity(type)}
                     className={`px-3 py-1 rounded-xl text-xs font-bold uppercase ${
-                      demandElasticity === type ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      demandElasticity === type ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {type}
@@ -2434,7 +2434,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                 </div>
                 <div>
                   <p className="text-xs text-slate-400">Monthly Volume</p>
-                  <p className="text-xl font-bold text-indigo-300 font-mono">{simMetrics.volume.toLocaleString()}</p>
+                  <p className="text-xl font-bold text-gold-300 font-mono">{simMetrics.volume.toLocaleString()}</p>
                 </div>
                 <div>
                   <p className="text-xs text-slate-400">Gross Total Profit</p>
@@ -2455,14 +2455,14 @@ function C10_CommercialStudiesMeaningStakeholderSim({
               <span className="text-sm font-bold text-white">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase bg-slate-800 text-indigo-300 border border-slate-700">
+              <span className="text-[10px] px-2.5 py-0.5 rounded-full font-bold uppercase bg-slate-800 text-gold-300 border border-slate-700">
                 Competency: {currentChallengeObj.competencyLevel}
               </span>
             </div>
 
             <div className="w-full sm:w-48 h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500"
                 animate={{
                   width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
                 }}
@@ -2532,7 +2532,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 hover:bg-gold-600 rounded-xl text-xs font-bold text-white cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2565,7 +2565,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2593,7 +2593,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-700 text-xs text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="px-2 py-1 bg-slate-800 rounded font-bold text-indigo-400">
+                      <span className="px-2 py-1 bg-slate-800 rounded font-bold text-gold-400">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2605,7 +2605,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Check Sequence
                 </motion.button>
@@ -2621,7 +2621,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated number"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-indigo-500 outline-none"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:border-gold-500 outline-none"
                   />
                   <span className="text-xs font-bold text-slate-400">{currentChallengeObj.unit}</span>
                   <motion.button
@@ -2629,7 +2629,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2648,7 +2648,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs text-indigo-300 rounded-xl font-medium"
+                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs text-gold-300 rounded-xl font-medium"
                     >
                       + {part}
                     </motion.button>
@@ -2659,7 +2659,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                   {constructParts.map((p, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 rounded-lg text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-950 text-gold-200 border border-gold-700 rounded-lg text-xs flex items-center gap-2"
                     >
                       <span>{p}</span>
                       <button
@@ -2680,7 +2680,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow"
                 >
                   Verify Constructed Offering
                 </motion.button>
@@ -2752,7 +2752,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
           animate={{ opacity: 1, scale: 1 }}
           className="space-y-6"
         >
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-4 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-4 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-3xl font-black text-white">Commercial Studies Mastered!</h2>
             <p className="text-sm text-slate-300 max-w-xl mx-auto">
@@ -2768,7 +2768,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
               </div>
               <div className="px-5 py-3 bg-slate-900/90 rounded-2xl border border-slate-800">
                 <p className="text-xs text-slate-400">BKT Knowledge State</p>
-                <p className="text-2xl font-black text-indigo-300 capitalize font-mono">{masteryLevel}</p>
+                <p className="text-2xl font-black text-gold-300 capitalize font-mono">{masteryLevel}</p>
               </div>
             </div>
           </div>
@@ -2811,8 +2811,8 @@ function C10_CommercialStudiesMeaningStakeholderSim({
           )}
 
           {/* Spaced Repetition SRS Schedule */}
-          <div className="p-5 bg-indigo-950/50 rounded-2xl border border-indigo-800 space-y-2">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+          <div className="p-5 bg-gold-950/50 rounded-2xl border border-gold-800 space-y-2">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-gold-300">
               Spaced Repetition Review Schedule (SM-2 Algorithm)
             </h3>
             <p className="text-xs text-slate-300">
@@ -2831,7 +2831,7 @@ function C10_CommercialStudiesMeaningStakeholderSim({
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <span>{step}</span>
                 </div>
               ))}

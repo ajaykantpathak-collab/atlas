@@ -1232,12 +1232,12 @@ function C12_HomeScienceSpecialDietsFeverSim({
       {/* ─── 1. DISCOVERY PHASE (CURIOSITY HOOK) ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-inner">
-            <h3 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-inner">
+            <h3 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🩺</span> {SCENARIO.title}
             </h3>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-400 mt-3 font-medium bg-indigo-950/60 p-3 rounded-xl border border-indigo-800/40">
+            <p className="text-xs text-gold-400 mt-3 font-medium bg-gold-950/60 p-3 rounded-xl border border-gold-800/40">
               💡 {SCENARIO.context}
             </p>
           </div>
@@ -1264,7 +1264,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                       : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1316,8 +1316,8 @@ function C12_HomeScienceSpecialDietsFeverSim({
               <div className="space-y-6">
                 {/* PREDICTION HOOK */}
                 {!predictionMade && (
-                  <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
-                    <p className="text-sm font-semibold text-indigo-200">🔍 Predict First: {PREDICTION_QUESTIONS[0].question}</p>
+                  <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
+                    <p className="text-sm font-semibold text-gold-200">🔍 Predict First: {PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                         <motion.button
@@ -1514,7 +1514,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-300">Tenure (Years):</span>
-                        <span className="text-indigo-400 font-mono text-sm">{savingTenure} Years</span>
+                        <span className="text-gold-400 font-mono text-sm">{savingTenure} Years</span>
                       </div>
                       <input
                         type="range"
@@ -1523,7 +1523,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                         step={1}
                         value={savingTenure}
                         onChange={e => handleTenureChange(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Savings Tenure"
                       />
                       <div className="flex justify-between text-[10px] text-slate-500">
@@ -1595,7 +1595,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                           }}
                           className={`p-3 text-left rounded-xl border text-xs ${
                             adulterationSample === s.id
-                              ? 'bg-indigo-900/60 border-indigo-400 text-white'
+                              ? 'bg-gold-900/60 border-gold-400 text-white'
                               : 'bg-slate-800 border-slate-700 text-slate-300'
                           }`}
                         >
@@ -1731,7 +1731,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                     <div>
                       <div className="flex justify-between text-xs font-semibold mb-1">
                         <span className="text-slate-300">Demandingness & Behavioural Control:</span>
-                        <span className="text-indigo-400 font-mono text-sm">{parentingDemandingness}%</span>
+                        <span className="text-gold-400 font-mono text-sm">{parentingDemandingness}%</span>
                       </div>
                       <input
                         type="range"
@@ -1739,7 +1739,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                         max={100}
                         value={parentingDemandingness}
                         onChange={e => setParentingDemandingness(parseInt(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Parenting Demandingness"
                       />
                     </div>
@@ -1803,7 +1803,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-semibold shadow-lg shadow-indigo-900/40"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-semibold shadow-lg shadow-gold-900/40"
               >
                 Next Lab →
               </motion.button>
@@ -1873,7 +1873,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
             </div>
 
             <div className="space-y-4">
-              <h4 className="text-xs font-bold text-indigo-400 uppercase tracking-wide">Financial Compounding Controls</h4>
+              <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wide">Financial Compounding Controls</h4>
               <div>
                 <label className="text-xs text-slate-300 flex justify-between mb-1">
                   <span>Monthly PPF:</span> <span className="text-emerald-400 font-mono font-bold">₹{monthlySaving.toLocaleString('en-IN')}</span>
@@ -1890,7 +1890,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
               </div>
               <div>
                 <label className="text-xs text-slate-300 flex justify-between mb-1">
-                  <span>Tenure:</span> <span className="text-indigo-400 font-mono font-bold">{savingTenure} Years</span>
+                  <span>Tenure:</span> <span className="text-gold-400 font-mono font-bold">{savingTenure} Years</span>
                 </label>
                 <input
                   type="range"
@@ -1899,7 +1899,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                   step={1}
                   value={savingTenure}
                   onChange={e => handleTenureChange(parseInt(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
               </div>
               <div className="p-3 bg-slate-950 rounded-xl text-xs space-y-1">
@@ -1913,7 +1913,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white rounded-2xl font-bold text-base shadow-xl shadow-emerald-950/60"
+            className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white rounded-2xl font-bold text-base shadow-xl shadow-emerald-950/60"
           >
             I am Ready for Structured Challenges! →
           </motion.button>
@@ -1931,7 +1931,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
               <span className="text-xs text-slate-400 font-bold uppercase tracking-wider block">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="text-[11px] text-indigo-400 font-mono">Competency: {challenge.competencyLevel.toUpperCase()}</span>
+              <span className="text-[11px] text-gold-400 font-mono">Competency: {challenge.competencyLevel.toUpperCase()}</span>
             </div>
 
             <motion.span
@@ -1943,7 +1943,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                   ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40'
                   : difficulty === 'advanced'
                   ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
-                  : 'bg-blue-500/20 text-blue-400 border-blue-500/40'
+                  : 'bg-gold-500/20 text-gold-400 border-gold-500/40'
               }`}
             >
               Tier: {difficulty}
@@ -1953,7 +1953,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
           {/* Progress Bar */}
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 to-indigo-500 rounded-full"
+              className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1982,7 +1982,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                         : 'bg-slate-800/90 hover:bg-slate-700/90 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2000,7 +2000,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
+                      className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2018,7 +2018,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                       key={target.id}
                       onDragOver={e => e.preventDefault()}
                       onDrop={() => handleDragDrop(target.id)}
-                      className="p-4 bg-slate-950 border-2 border-dashed border-slate-700 hover:border-indigo-500 rounded-xl transition-all"
+                      className="p-4 bg-slate-950 border-2 border-dashed border-slate-700 hover:border-gold-500 rounded-xl transition-all"
                     >
                       <span className="text-xs text-slate-400 font-bold block mb-2">{target.title}:</span>
                       <div className="p-2.5 bg-slate-900 rounded-lg text-xs font-semibold text-emerald-400 min-h-[36px] flex items-center">
@@ -2056,7 +2056,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                     className="p-3.5 bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-xl text-xs font-medium text-slate-200 flex items-center justify-between cursor-grab"
                   >
                     <span>
-                      <strong className="text-indigo-400 mr-2">{idx + 1}.</strong> {item}
+                      <strong className="text-gold-400 mr-2">{idx + 1}.</strong> {item}
                     </span>
                     <span className="text-slate-500 text-xs">↕ Drag</span>
                   </motion.div>
@@ -2087,7 +2087,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 focus:border-indigo-500 rounded-xl text-white font-mono text-sm w-44"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 focus:border-gold-500 rounded-xl text-white font-mono text-sm w-44"
                     aria-label="Numeric answer input"
                   />
                   <span className="text-slate-400 text-xs font-semibold">{challenge.unit}</span>
@@ -2095,7 +2095,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                   >
                     Check Value
                   </motion.button>
@@ -2114,7 +2114,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 text-indigo-200 rounded-lg text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 text-gold-200 rounded-lg text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2207,7 +2207,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
               errors === 0
                 ? 'bg-emerald-950/60 border-emerald-500/60 text-emerald-300'
                 : errors <= 3
-                ? 'bg-blue-950/60 border-blue-500/60 text-blue-300'
+                ? 'bg-gold-950/60 border-gold-500/60 text-gold-300'
                 : errors <= 7
                 ? 'bg-amber-950/60 border-amber-500/60 text-amber-300'
                 : 'bg-rose-950/60 border-rose-500/60 text-rose-300'
@@ -2233,7 +2233,7 @@ function C12_HomeScienceSpecialDietsFeverSim({
               </div>
               <div className="p-4 bg-slate-950/70 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 font-bold block">Mastery Tier</span>
-                <span className="text-xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="p-4 bg-slate-950/70 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 font-bold block">Errors Incurred</span>
@@ -2288,14 +2288,14 @@ function C12_HomeScienceSpecialDietsFeverSim({
 
           {/* CAPSTONE REAL WORLD AUDIT */}
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((st, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {st}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {st}
                 </li>
               ))}
             </ul>

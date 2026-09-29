@@ -11,7 +11,7 @@ export const w_c11_biologyexcretorynephronsim: SimDef = {
     classLevel: 11, subject: 'biology', topic: 'Human Excretory System: Kidney Structure',
     chapters: [],
     nodeIds: ['c11_bio_cbse_16_001', 'c11_bio_cbse_07_009', 'c11_bio_cbse_16_002', 'c11_bio_cbse_16_004', 'c11_bio_cbse_16_005', 'c11_bio_cbse_16_008', 'c11_bio_cbse_07_005', 'c11_bio_cbse_07_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to place their hands on their lower back, just below the rib cage — this is where.', goal: 'Master Human Excretory System: Kidney Structure.' },
     discovery: {
         question: 'A patient has a congenital defect where the tight junctions between PCT epithelial cells are "leaky" (abnormally high paracellular permeability).',
@@ -20,7 +20,7 @@ export const w_c11_biologyexcretorynephronsim: SimDef = {
         hook: '**Misconception:** "The loop of Henle *concentrates* the filtrate throughout its length." Students think filtrate gets.',
     },
     teaching: [
-        { title: 'The human excretory system consists of a.', text: 'The human excretory system consists of a pair of bean-shaped kidneys located retroperitoneally between the last thoracic and third lumbar vertebrae, each containing approximately one million nephrons.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The human excretory system consists of a.', text: 'The human excretory system consists of a pair of bean-shaped kidneys located retroperitoneally between the last thoracic and third lumbar vertebrae, each containing approximately one million nephrons.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_bio_cbse_16_001', title: 'The human excretory system consists of.',

@@ -1265,12 +1265,12 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
       {/* ─── HEADER BAR ─── */}
       <motion.header initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="flex flex-wrap items-center justify-between gap-4 pb-4 mb-6 border-b border-slate-800">
         <div className="flex items-center gap-3">
-          <span className="p-2.5 bg-indigo-950/80 border border-indigo-700/50 rounded-xl text-2xl" role="img" aria-label="Computer Science Icon">
+          <span className="p-2.5 bg-gold-950/80 border border-gold-700/50 rounded-xl text-2xl" role="img" aria-label="Computer Science Icon">
             {subjectConfig.emoji}
           </span>
           <div>
             <h1 className="text-xl font-bold text-white tracking-tight">{title}</h1>
-            <p className="text-xs text-indigo-300">ISC Class 11 Computer Science | Paper 1 (Theory) & System Architecture</p>
+            <p className="text-xs text-gold-300">ISC Class 11 Computer Science | Paper 1 (Theory) & System Architecture</p>
           </div>
         </div>
 
@@ -1286,7 +1286,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                 audioManager.play('tap');
               }}
               className={`px-3 py-1.5 rounded-lg font-medium capitalize transition-all ${
-                phase === p ? 'bg-indigo-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+                phase === p ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
               }`}
             >
               {p}
@@ -1298,13 +1298,13 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
       {/* ─── PHASE 1: DISCOVERY (Curiosity Hook) ─── */}
       {phase === 'discovery' && (
         <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 font-semibold text-sm mb-1">
+          <div className="p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 font-semibold text-sm mb-1">
               <span>🏛️</span> NARRATIVE CASE STUDY
             </div>
             <h2 className="text-xl font-bold text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-2">{SCENARIO.context}</p>
+            <p className="text-xs text-gold-300/80 mt-2">{SCENARIO.context}</p>
           </div>
 
           <div className="p-5 bg-slate-800/80 rounded-2xl border border-slate-700 shadow-md">
@@ -1327,7 +1327,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       : 'bg-slate-800 hover:bg-slate-700/80 border-slate-700 text-slate-200'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1342,7 +1342,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                 >
                   Launch Interactive Systems Lab →
                 </motion.button>
@@ -1369,7 +1369,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                     }}
                     className={`px-2.5 py-1 text-xs rounded-md font-medium transition-all ${
                       representationView === view
-                        ? 'bg-indigo-600 text-white font-semibold shadow'
+                        ? 'bg-gold-600 text-white font-semibold shadow'
                         : 'bg-slate-800 text-slate-400 hover:text-slate-200'
                     }`}
                   >
@@ -1378,7 +1378,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                 ))}
               </div>
             </div>
-            <span className="text-xs text-indigo-300 font-mono">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}</span>
+            <span className="text-xs text-gold-300 font-mono">LAB {currentSlide + 1} OF {EXPLORATION_STEPS.length}</span>
           </div>
 
           {/* Exploration Step Card */}
@@ -1398,7 +1398,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                 {/* SVG 1: SQL Schema & Transaction Architecture Diagram */}
                 {representationView === 'flow' && (
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <div className="text-xs font-semibold text-indigo-300 mb-2">SVG Diagram 1: RDBMS Storage Engine (DDL vs DML Mechanism)</div>
+                    <div className="text-xs font-semibold text-gold-300 mb-2">SVG Diagram 1: RDBMS Storage Engine (DDL vs DML Mechanism)</div>
                     <svg viewBox="0 0 600 160" className="w-full h-auto text-xs font-mono">
                       <rect x="10" y="10" width="270" height="140" rx="10" fill="#1e1b4b" stroke="#6366f1" strokeWidth="1.5" />
                       <text x="25" y="32" fill="#a5b4fc" fontWeight="bold">DDL (Data Definition Language)</text>
@@ -1431,7 +1431,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                         cmd === 'DROP' || cmd === 'TRUNCATE'
                           ? 'bg-rose-950 hover:bg-rose-900 text-rose-300 border border-rose-700/60'
                           : cmd === 'CREATE' || cmd === 'ALTER'
-                          ? 'bg-indigo-950 hover:bg-indigo-900 text-indigo-300 border border-indigo-700/60'
+                          ? 'bg-gold-950 hover:bg-gold-900 text-gold-300 border border-gold-700/60'
                           : 'bg-emerald-950 hover:bg-emerald-900 text-emerald-300 border border-emerald-700/60'
                       }`}
                     >
@@ -1443,7 +1443,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                 {/* SQL Execution Output Display */}
                 <div className="p-3 bg-slate-900/90 rounded-xl border border-slate-800 font-mono text-xs flex items-center justify-between">
                   <span className="text-slate-300">{sqlLastAction}</span>
-                  <span className={`px-2 py-0.5 rounded font-bold ${sqlCommandType === 'DDL' ? 'bg-indigo-900/70 text-indigo-300' : 'bg-emerald-900/70 text-emerald-300'}`}>
+                  <span className={`px-2 py-0.5 rounded font-bold ${sqlCommandType === 'DDL' ? 'bg-gold-900/70 text-gold-300' : 'bg-emerald-900/70 text-emerald-300'}`}>
                     {sqlCommandType} COMMAND
                   </span>
                 </div>
@@ -1457,7 +1457,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   ) : (
                     <table className="w-full text-left text-xs font-mono">
                       <thead>
-                        <tr className="border-b border-slate-800 text-indigo-300">
+                        <tr className="border-b border-slate-800 text-gold-300">
                           {sqlColumns.map((col) => (
                             <th key={col} className="p-2.5">
                               {col.toUpperCase()} {col === 'id' && <span className="text-amber-400 font-normal">[PK]</span>}
@@ -1479,7 +1479,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                               <td className="p-2.5 text-slate-200">{row.name}</td>
                               <td className="p-2.5 text-slate-300">{row.branch}</td>
                               <td className="p-2.5 text-emerald-300 font-bold">₹{row.balance.toLocaleString('en-IN')}</td>
-                              {sqlColumns.includes('email') && <td className="p-2.5 text-indigo-300 font-sans">{row.name.toLowerCase().replace(' ', '.')}@sbi.in</td>}
+                              {sqlColumns.includes('email') && <td className="p-2.5 text-gold-300 font-sans">{row.name.toLowerCase().replace(' ', '.')}@sbi.in</td>}
                             </motion.tr>
                           ))
                         )}
@@ -1490,8 +1490,8 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
 
                 {/* Predict-Then-Check Hook in Lab 1 */}
                 {!predictionMade ? (
-                  <div className="p-4 bg-indigo-950/40 border border-indigo-800/60 rounded-xl">
-                    <p className="text-xs font-bold text-indigo-300 uppercase mb-2">🔮 Step Predictor</p>
+                  <div className="p-4 bg-gold-950/40 border border-gold-800/60 rounded-xl">
+                    <p className="text-xs font-bold text-gold-300 uppercase mb-2">🔮 Step Predictor</p>
                     <p className="text-xs text-slate-200 mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                     <div className="grid sm:grid-cols-2 gap-2">
                       {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1510,7 +1510,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                 ) : (
                   <div className="p-3 bg-emerald-950/40 border border-emerald-800/60 rounded-xl text-xs text-emerald-300 flex items-center justify-between">
                     <span>✓ Prediction logged. Try clicking DELETE above to observe schema retention.</span>
-                    <button onClick={() => setPredictionMade(false)} className="underline text-indigo-300">
+                    <button onClick={() => setPredictionMade(false)} className="underline text-gold-300">
                       Reset
                     </button>
                   </div>
@@ -1531,7 +1531,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       step={5000}
                       value={dqlMinBalance}
                       onChange={(e) => setDqlMinBalance(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                   <div>
@@ -1553,16 +1553,16 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       id="groupBy"
                       checked={dqlGroupByBranch}
                       onChange={(e) => setDqlGroupByBranch(e.target.checked)}
-                      className="rounded accent-indigo-500"
+                      className="rounded accent-gold-500"
                     />
-                    <label htmlFor="groupBy" className="text-xs text-indigo-300 font-semibold cursor-pointer">
+                    <label htmlFor="groupBy" className="text-xs text-gold-300 font-semibold cursor-pointer">
                       GROUP BY Branch (HAVING AVG &gt; ₹40k)
                     </label>
                   </div>
                 </div>
 
                 {/* Generated SQL query preview */}
-                <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs text-indigo-300">
+                <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 font-mono text-xs text-gold-300">
                   SELECT {dqlGroupByBranch ? 'branch, AVG(balance), COUNT(*)' : 'id, name, branch, balance'} FROM Accounts
                   {dqlSelectedBranch !== 'ALL' || dqlMinBalance > 0
                     ? ` WHERE ${[dqlSelectedBranch !== 'ALL' ? `branch = '${dqlSelectedBranch}'` : null, dqlMinBalance > 0 ? `balance >= ${dqlMinBalance}` : null]
@@ -1581,7 +1581,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       .map((row) => (
                         <div key={row.id} className="p-2.5 bg-slate-900 border border-slate-800 rounded-lg text-xs">
                           <div className="font-bold text-white">{row.name}</div>
-                          <div className="text-indigo-400">{row.branch}</div>
+                          <div className="text-gold-400">{row.branch}</div>
                           <div className="text-emerald-300 font-bold mt-1">₹{row.balance.toLocaleString('en-IN')}</div>
                         </div>
                       ))}
@@ -1595,7 +1595,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
               <div className="space-y-4">
                 {/* SVG 2: Java Character Stream Pipeline Architecture Diagram */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                  <div className="text-xs font-semibold text-indigo-300 mb-2">SVG Diagram 2: Java I/O Stream Hierarchy & Buffer Pipeline</div>
+                  <div className="text-xs font-semibold text-gold-300 mb-2">SVG Diagram 2: Java I/O Stream Hierarchy & Buffer Pipeline</div>
                   <svg viewBox="0 0 600 130" className="w-full h-auto text-xs font-mono">
                     {/* Disk File Handle */}
                     <rect x="10" y="25" width="110" height="80" rx="8" fill="#1e293b" stroke="#64748b" strokeWidth="1.5" />
@@ -1635,7 +1635,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                 <div className="grid md:grid-cols-2 gap-4">
                   {/* Buffer writing pane */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                    <h3 className="text-xs font-bold text-indigo-300 uppercase">1. JVM In-Memory Buffer (BufferedWriter)</h3>
+                    <h3 className="text-xs font-bold text-gold-300 uppercase">1. JVM In-Memory Buffer (BufferedWriter)</h3>
                     <input
                       type="text"
                       value={streamInputText}
@@ -1649,7 +1649,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                         whileTap={{ scale: 0.97 }}
                         onClick={handleStreamWrite}
                         disabled={streamIsClosed}
-                        className="px-4 py-2 bg-indigo-600 disabled:opacity-50 text-xs font-bold text-white rounded-lg"
+                        className="px-4 py-2 bg-gold-600 disabled:opacity-50 text-xs font-bold text-white rounded-lg"
                       >
                         bw.write(text); bw.newLine();
                       </motion.button>
@@ -1726,7 +1726,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
               <div className="space-y-4">
                 {/* SVG 3: RandomAccessFile Binary Byte Offset Architecture Diagram */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800">
-                  <div className="text-xs font-semibold text-indigo-300 mb-2">SVG Diagram 3: RandomAccessFile Binary Record Layout & Offset Seek Math</div>
+                  <div className="text-xs font-semibold text-gold-300 mb-2">SVG Diagram 3: RandomAccessFile Binary Record Layout & Offset Seek Math</div>
                   <svg viewBox="0 0 600 120" className="w-full h-auto text-xs font-mono">
                     <rect x="10" y="30" width="580" height="50" rx="6" fill="#0f172a" stroke="#334155" strokeWidth="1.5" />
                     {[0, 1, 2, 3, 4, 5, 6, 7].map((rec) => {
@@ -1786,7 +1786,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       max={7}
                       value={rafRecordIndex}
                       onChange={(e) => setRafRecordIndex(Number(e.target.value))}
-                      className="w-full accent-indigo-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
 
@@ -1804,8 +1804,8 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   {/* Account Console */}
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-indigo-300">BankAccount Instance (Acc: 9876543210)</span>
-                      <span className="text-xs px-2 py-0.5 bg-indigo-900/60 text-indigo-300 rounded font-mono">private double balance</span>
+                      <span className="text-xs font-bold text-gold-300">BankAccount Instance (Acc: 9876543210)</span>
+                      <span className="text-xs px-2 py-0.5 bg-gold-900/60 text-gold-300 rounded font-mono">private double balance</span>
                     </div>
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-center">
@@ -1885,7 +1885,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleNextSlide}
-              className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-bold shadow-lg"
+              className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-sm font-bold shadow-lg"
             >
               {currentSlide === EXPLORATION_STEPS.length - 1 ? 'Go to Free Sandbox →' : 'Next Lab →'}
             </motion.button>
@@ -1910,7 +1910,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
             <div className="grid md:grid-cols-2 gap-4 pt-2">
               {/* Mini SQL Sandbox */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <div className="text-xs font-bold text-indigo-300">1. Instant SQL Console</div>
+                <div className="text-xs font-bold text-gold-300">1. Instant SQL Console</div>
                 <div className="flex flex-wrap gap-1.5">
                   {(['INSERT', 'UPDATE', 'DELETE', 'TRUNCATE'] as const).map((cmd) => (
                     <button
@@ -1927,7 +1927,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
 
               {/* Mini Bank Sandbox */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <div className="text-xs font-bold text-indigo-300">2. BankAccount Runtime</div>
+                <div className="text-xs font-bold text-gold-300">2. BankAccount Runtime</div>
                 <div className="flex items-center justify-between font-mono text-xs">
                   <span className="text-slate-400">Balance:</span>
                   <span className="text-emerald-400 font-bold">₹{bankBalance.toLocaleString('en-IN')}</span>
@@ -1973,7 +1973,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   difficulty === 'foundation'
                     ? 'bg-emerald-950 text-emerald-300 border border-emerald-700'
                     : difficulty === 'standard'
-                    ? 'bg-indigo-950 text-indigo-300 border border-indigo-700'
+                    ? 'bg-gold-950 text-gold-300 border border-gold-700'
                     : 'bg-rose-950 text-rose-300 border border-rose-700'
                 }`}
               >
@@ -1992,7 +1992,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
             </div>
             <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2005,7 +2005,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
             }`}
           >
             <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-              <span className="text-xs px-2.5 py-0.5 rounded bg-indigo-950 text-indigo-300 font-semibold uppercase">
+              <span className="text-xs px-2.5 py-0.5 rounded bg-gold-950 text-gold-300 font-semibold uppercase">
                 NEP Competency: {challenge.competencyLevel}
               </span>
               <span className="text-xs text-slate-400 font-mono">{challenge.nodeId}</span>
@@ -2031,7 +2031,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                         : 'bg-slate-900/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {opt}
                   </motion.button>
                 ))}
@@ -2050,7 +2050,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white font-mono text-xs cursor-grab active:cursor-grabbing shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-white font-mono text-xs cursor-grab active:cursor-grabbing shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2088,7 +2088,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                 >
                   Verify Pipeline Architecture
                 </motion.button>
@@ -2117,7 +2117,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-slate-200 text-xs font-mono cursor-grab active:cursor-grabbing flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{displayIndex + 1}.</strong> {item}
+                        <strong className="text-gold-400 mr-2">{displayIndex + 1}.</strong> {item}
                       </span>
                       <span className="text-slate-500 text-xs">↕ Drag to reorder</span>
                     </motion.div>
@@ -2133,7 +2133,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                     handleAnswer(ans);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                 >
                   Submit Clause Evaluation Order
                 </motion.button>
@@ -2157,7 +2157,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                   >
                     Check Offset
                   </motion.button>
@@ -2177,7 +2177,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="p-2 bg-indigo-950 border border-indigo-700 hover:bg-indigo-900 rounded-lg text-xs font-mono text-indigo-300"
+                      className="p-2 bg-gold-950 border border-gold-700 hover:bg-gold-900 rounded-lg text-xs font-mono text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -2204,7 +2204,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow-lg"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow-lg"
                 >
                   Validate Constructed Code
                 </motion.button>
@@ -2256,11 +2256,11 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
       {/* ─── PHASE 5: COMPLETION & REFLECTION PHASE ─── */}
       {phase === 'complete' && (
         <motion.section initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700 shadow-2xl text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-2xl border border-gold-700 shadow-2xl text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl font-bold text-white">ISC Computer Science Mastery Certified</h2>
             <div className="text-3xl font-extrabold font-mono text-emerald-400">{Math.max(0, 100 - errors * 5)}%</div>
-            <p className="text-xs text-indigo-300">Mastery Classification: <span className="font-bold text-white capitalize">{masteryLevel}</span></p>
+            <p className="text-xs text-gold-300">Mastery Classification: <span className="font-bold text-white capitalize">{masteryLevel}</span></p>
           </div>
 
           {/* Personalized Motivational Feedback */}
@@ -2273,8 +2273,8 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
           </div>
 
           {/* ─── REFLECTION SECTION (Structural Requirement) ─── */}
-          <div className="p-5 bg-slate-800 rounded-2xl border border-indigo-800/60 shadow-xl space-y-4">
-            <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+          <div className="p-5 bg-slate-800 rounded-2xl border border-gold-800/60 shadow-xl space-y-4">
+            <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
               <span>🧠</span> ARCHITECTURAL REFLECTION & SYNTHESIS
             </div>
             <p className="text-xs text-slate-300">
@@ -2290,19 +2290,19 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   value={reflections.surprising}
                   onChange={(e) => setReflections((r) => ({ ...r, surprising: e.target.value }))}
                   placeholder="E.g., How TRUNCATE bypasses row-level undo logs compared to DELETE, or how buffered writers require flush/close..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 min-h-[60px]"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 min-h-[60px]"
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-indigo-300 mb-1">
+                <label className="block text-xs font-semibold text-gold-300 mb-1">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflections.explainFriend}
                   onChange={(e) => setReflections((r) => ({ ...r, explainFriend: e.target.value }))}
                   placeholder="E.g., SQL is like the master ledger book in a vault, while Java streams are conveyor belts carrying parcels to disk..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 min-h-[60px]"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 min-h-[60px]"
                 />
               </div>
 
@@ -2314,7 +2314,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   value={reflections.realLife}
                   onChange={(e) => setReflections((r) => ({ ...r, realLife: e.target.value }))}
                   placeholder="E.g., Building UPI payments engines, airline seat reservations, or database caching architectures..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500 min-h-[60px]"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500 min-h-[60px]"
                 />
               </div>
 
@@ -2326,7 +2326,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
                   audioManager.play('drop-correct');
                   speechManager.speak('Your architectural reflections have been saved to your learning portfolio.');
                 }}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs shadow"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs shadow"
               >
                 {reflectionSubmitted ? '✓ Reflections Saved' : 'Save Reflection Entry'}
               </motion.button>
@@ -2361,7 +2361,7 @@ export function C11_ComputerScienceCreateAlterDropSim(props: Props = DEFAULT_PRO
 
           {/* Real World Activity Arc Completion */}
           <div className="p-5 bg-slate-800 rounded-2xl border border-slate-700 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (

@@ -11,7 +11,7 @@ export const w_c11_sociologyemergencesociologyanthropologysim: SimDef = {
     classLevel: 11, subject: 'sociology', topic: 'Colonial Context and the Specificity of Indian Modernity',
     chapters: [],
     nodeIds: ['c11_soc_cbse_10_002', 'c11_soc_cbse_01_003', 'c11_soc_cbse_01_005', 'c11_soc_cbse_01_010', 'c11_soc_cbse_01_006', 'c11_soc_cbse_01_007', 'c11_soc_cbse_01_008', 'c11_soc_cbse_01_009', 'c11_soc_cbse_10_001', 'c11_soc_cbse_10_003', 'c11_soc_cbse_10_004', 'c11_soc_cbse_10_006', 'c11_soc_cbse_10_009', 'c11_soc_cbse_03_009', 'c11_soc_cbse_05_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you are a university student in 1920s Bombay, told to study "sociology" — a new subject imported from.', goal: 'Master Colonial Context and the Specificity of Indian Modernity.' },
     discovery: {
         question: 'What is the fundamental difference between the emergence of modernity in Western Europe and its emergence in colonial India, as stated in the NCERT text?',
@@ -20,7 +20,7 @@ export const w_c11_sociologyemergencesociologyanthropologysim: SimDef = {
         hook: 'Students often think "colonial context" means only that British rule was bad or exploitative, and therefore Indian.',
     },
     teaching: [
-        { title: 'The colonial context of Indian modernity.', text: 'The colonial context of Indian modernity refers to the historical condition where India\'s encounter with modern institutions, ideas, and social changes occurred under British colonial rule, making.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The colonial context of Indian modernity.', text: 'The colonial context of Indian modernity refers to the historical condition where India\'s encounter with modern institutions, ideas, and social changes occurred under British colonial rule, making.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_soc_cbse_10_002', title: 'The colonial context of Indian.',

@@ -46,7 +46,7 @@ export function C11_EconomicsIndianArtArchitectureSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">The Architecture Timeline Mapper</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">The Architecture Timeline Mapper</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Timeline */}
@@ -82,9 +82,9 @@ export function C11_EconomicsIndianArtArchitectureSim() {
         {/* Era card */}
         <div className="p-4 bg-slate-950 rounded-2xl border border-slate-700 text-sm space-y-2">
           <div className="text-xs uppercase tracking-wide text-slate-400">Era record: {era.display}</div>
-          <div className="font-bold text-indigo-300">{era.name}</div>
-          <div className="text-slate-300">Material: <span className="font-mono text-sky-300">{era.material}</span></div>
-          <div className="text-slate-300">Function: <span className="font-mono text-sky-300">{era.fn}</span></div>
+          <div className="font-bold text-gold-300">{era.name}</div>
+          <div className="text-slate-300">Material: <span className="font-mono text-gold-300">{era.material}</span></div>
+          <div className="text-slate-300">Function: <span className="font-mono text-gold-300">{era.fn}</span></div>
           <div className="text-slate-300">Signature: <span className="font-mono text-emerald-300">{era.feature}</span></div>
           <div className="flex flex-wrap gap-1 pt-1">
             {era.tags.map((t) => (
@@ -101,7 +101,7 @@ export function C11_EconomicsIndianArtArchitectureSim() {
               <button
                 key={k}
                 onClick={() => setFilter(filter === k ? null : k)}
-                className={`min-h-11 rounded-xl text-[11px] font-semibold border ${filter === k ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
+                className={`min-h-11 rounded-xl text-[11px] font-semibold border ${filter === k ? 'bg-gold-600 border-gold-400' : 'bg-slate-900 border-slate-600 hover:bg-slate-700'}`}
               >
                 {label}
                 <span className="block text-[9px] font-normal text-slate-400">{ERAS.filter((e) => e.tags.includes(k)).length} of 7 eras</span>
@@ -119,19 +119,19 @@ export function C11_EconomicsIndianArtArchitectureSim() {
       <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600 mt-4">
         <label className="text-xs text-slate-300 flex justify-between">
           <span>Scrub the timeline</span>
-          <span className="font-mono font-bold text-sky-300">{era.display}</span>
+          <span className="font-mono font-bold text-gold-300">{era.display}</span>
         </label>
         <input type="range" aria-label="timeline" min={0} max={ERAS.length - 1} step={1} value={idx}
-          onChange={(e) => setIdx(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          onChange={(e) => setIdx(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         <div className="flex justify-between text-[10px] text-slate-500 px-1">
           {ERAS.map((e, i) => (
-            <span key={e.display} className={i === idx ? 'text-sky-300 font-bold' : ''}>{i % 2 === 0 ? e.display : ''}</span>
+            <span key={e.display} className={i === idx ? 'text-gold-300 font-bold' : ''}>{i % 2 === 0 ? e.display : ''}</span>
           ))}
         </div>
       </div>
 
       <div className="flex flex-wrap gap-2 mt-4">
-        <button onClick={() => { setFilter('arch'); setIdx(4); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500">
+        <button onClick={() => { setFilter('arch'); setIdx(4); }} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500">
           Show when the dome arrived
         </button>
         <button onClick={reset} className="px-4 py-2 min-h-11 rounded-xl text-sm font-semibold border bg-slate-800 border-slate-600 hover:bg-slate-700">
@@ -139,8 +139,8 @@ export function C11_EconomicsIndianArtArchitectureSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Filter by &quot;Water design&quot;. Which two eras engineer water, and what changed between Harappan drains and Mughal charbagh canals?</li>
           <li>Jump to 1250 CE, then 1650 CE. List what the Mughal era KEEPS from the Sultanate era and what it adds -- borrow, not replace?</li>

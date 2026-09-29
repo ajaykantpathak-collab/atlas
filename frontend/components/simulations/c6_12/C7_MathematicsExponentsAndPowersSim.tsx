@@ -24,13 +24,13 @@ export function C7_MathematicsExponentsAndPowersSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Exponents and Powers</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Exponents and Powers</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Big expression */}
       <div className="mt-4 p-5 bg-slate-950 rounded-2xl border border-slate-700 text-center">
         <div className="font-mono text-4xl md:text-5xl">
-          <span className="text-sky-300 font-black">{base}</span>
+          <span className="text-gold-300 font-black">{base}</span>
           <sup className="text-amber-300 text-2xl md:text-3xl font-black">{expo}</sup>
           <span className="text-slate-400 mx-3">=</span>
           <span className="text-emerald-400 font-black">{fmt(value)}</span>
@@ -55,10 +55,10 @@ export function C7_MathematicsExponentsAndPowersSim() {
               key={e}
               onClick={() => setExpo(e)}
               className={`w-full flex items-center gap-2 rounded-lg px-2 py-1 text-left font-mono text-xs transition-colors ${
-                expo === e ? 'bg-indigo-600/60 border border-indigo-400' : 'hover:bg-slate-800 border border-transparent'
+                expo === e ? 'bg-gold-600/60 border border-gold-400' : 'hover:bg-slate-800 border border-transparent'
               }`}
             >
-              <span className="text-sky-300 font-bold w-10">
+              <span className="text-gold-300 font-bold w-10">
                 {base}
                 <sup>{e}</sup>
               </span>
@@ -77,9 +77,9 @@ export function C7_MathematicsExponentsAndPowersSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>Base</span>
-            <span className="font-mono font-bold text-sky-300">{base}</span>
+            <span className="font-mono font-bold text-gold-300">{base}</span>
           </label>
-          <input type="range" aria-label="base" min={2} max={10} value={base} onChange={(e) => setBase(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="base" min={2} max={10} value={base} onChange={(e) => setBase(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -99,7 +99,7 @@ export function C7_MathematicsExponentsAndPowersSim() {
         </button>
         <button
           onClick={() => setExpo((e) => Math.min(12, e + 1))}
-          className="px-4 py-2 rounded-xl text-sm font-semibold border bg-indigo-600 border-indigo-400 hover:bg-indigo-500"
+          className="px-4 py-2 rounded-xl text-sm font-semibold border bg-gold-600 border-gold-400 hover:bg-gold-500"
         >
           Multiply by {base} again
         </button>
@@ -111,8 +111,8 @@ export function C7_MathematicsExponentsAndPowersSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Climb the ladder with base 2: at which exponent does the value first cross 1,000? Predict before you click.</li>
           <li>Find two different base-exponent pairs that give the SAME value. (Hint: try 4 and 2, or 9 and 3.)</li>

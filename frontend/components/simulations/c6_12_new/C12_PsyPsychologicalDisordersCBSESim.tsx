@@ -893,7 +893,7 @@ const NeurochemicalBrainDiagram: React.FC<{
   return (
     <div className="w-full bg-slate-900 p-4 rounded-xl border border-slate-700 flex flex-col items-center">
       <div className="text-xs font-semibold text-slate-300 mb-2 uppercase tracking-wider flex items-center gap-2">
-        <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+        <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
         Neural Pathway & Neurochemical Dynamics Simulator
       </div>
       <svg viewBox="0 0 500 300" className="w-full h-56 max-w-lg drop-shadow-md">
@@ -937,7 +937,7 @@ const NeurochemicalBrainDiagram: React.FC<{
       <div className="flex flex-wrap gap-4 text-xs mt-2 justify-center">
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-emerald-500"></span> Normal Baseline</span>
         <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-red-500"></span> Excessive / Hyperactive</span>
-        <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-blue-500"></span> Deficient / Hypoactive</span>
+        <span className="flex items-center gap-1"><span className="w-3 h-3 rounded-full bg-gold-500"></span> Deficient / Hypoactive</span>
       </div>
     </div>
   );
@@ -1020,12 +1020,12 @@ const DiathesisStressGraph: React.FC<{ diathesis: number; stress: number }> = ({
           {/* Diathesis Bar */}
           <div className="w-20 flex flex-col items-center">
             <div
-              className="w-full bg-gradient-to-t from-indigo-700 to-indigo-500 rounded-t transition-all duration-300 flex items-center justify-center text-xs text-white font-bold"
+              className="w-full bg-gradient-to-t from-gold-700 to-gold-500 rounded-t transition-all duration-300 flex items-center justify-center text-xs text-white font-bold"
               style={{ height: `${(diathesis / 100) * 100}px` }}
             >
               {diathesis}
             </div>
-            <span className="text-[11px] text-indigo-300 font-medium mt-1">Diathesis (Bio/Genetic)</span>
+            <span className="text-[11px] text-gold-300 font-medium mt-1">Diathesis (Bio/Genetic)</span>
           </div>
 
           <span className="text-xl font-bold text-slate-500 mb-4">+</span>
@@ -1251,11 +1251,11 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
       {/* HEADER BAR */}
       <header className="bg-slate-900 border border-slate-800 rounded-2xl p-4 sm:p-6 shadow-2xl flex flex-col md:flex-row justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-500 flex items-center justify-center text-white text-2xl font-black shadow-lg shadow-purple-900/40">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-purple-600 to-gold-500 flex items-center justify-center text-white text-2xl font-black shadow-lg shadow-purple-900/40">
             Ψ
           </div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold bg-gradient-to-r from-purple-400 via-indigo-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-2xl font-extrabold bg-gradient-to-r from-purple-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               Psychological Disorders Clinical Suite
             </h1>
             <p className="text-xs sm:text-sm text-slate-400 font-medium">
@@ -1273,7 +1273,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
           <div className="h-8 w-px bg-slate-800"></div>
           <div className="text-right">
             <div className="text-[10px] uppercase tracking-wider text-slate-400 font-bold">Challenges</div>
-            <div className="text-sm font-bold text-cyan-400">{completedChallenges.length} / {CHALLENGES.length}</div>
+            <div className="text-sm font-bold text-gold-400">{completedChallenges.length} / {CHALLENGES.length}</div>
           </div>
         </div>
       </header>
@@ -1295,7 +1295,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
             }}
             className={`flex items-center gap-2 px-4 py-2.5 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg shadow-purple-900/30 font-bold scale-[1.02]'
+                ? 'bg-gradient-to-r from-purple-600 to-gold-600 text-white shadow-lg shadow-purple-900/30 font-bold scale-[1.02]'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
@@ -1316,7 +1316,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
             </h2>
             <p className="text-slate-300 leading-relaxed text-sm sm:text-base mb-4">{SCENARIO.intro}</p>
             <div className="bg-slate-950/70 border border-slate-800 p-4 rounded-xl text-xs sm:text-sm text-slate-300">
-              <strong className="text-cyan-400">Clinical Objective: </strong> {SCENARIO.context}
+              <strong className="text-gold-400">Clinical Objective: </strong> {SCENARIO.context}
             </div>
           </div>
 
@@ -1371,19 +1371,19 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
 
           {/* Prediction Questions Section */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6">
-            <h3 className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🔮</span> Hypothesis & Prediction Tasks
             </h3>
 
             {PREDICTION_QUESTIONS.map((pq, qIdx) => (
               <div key={qIdx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-3">
-                <div className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Prediction #{qIdx + 1}</div>
+                <div className="text-xs font-bold text-gold-400 uppercase tracking-wider">Prediction #{qIdx + 1}</div>
                 <div className="text-sm font-semibold text-slate-200">{pq.question}</div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {pq.options.map((opt, oIdx) => {
                     const selected = predictionAnswers[qIdx] === oIdx;
                     const isCorrect = oIdx === pq.correctIndex;
-                    let style = 'bg-slate-900 border-slate-800 text-slate-300 hover:border-cyan-500/50';
+                    let style = 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500/50';
                     if (predictionAnswers[qIdx] !== null) {
                       if (isCorrect) style = 'bg-emerald-950 border-emerald-500 text-emerald-300 font-bold';
                       else if (selected) style = 'bg-red-950 border-red-500 text-red-300';
@@ -1530,7 +1530,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
 
                   <div className="mt-2 p-3 rounded-lg bg-slate-900 border border-slate-800 text-xs">
                     <span className="text-slate-400">Clinical Evaluation: </span>
-                    <strong className="text-cyan-300">
+                    <strong className="text-gold-300">
                       {sliderDeviance + sliderDistress + sliderDysfunction + sliderDanger > 220
                         ? 'High Clinical Abnormality Threshold Exceeded (Clinical Intervention Warranted)'
                         : 'Sub-clinical or Normative Variance Range'}
@@ -1545,12 +1545,12 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                 <DiathesisStressGraph diathesis={diathesisVal} stress={stressVal} />
 
                 <div className="flex flex-col gap-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">Diathesis-Stress Variables</h4>
+                  <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Diathesis-Stress Variables</h4>
 
                   <div>
                     <div className="flex justify-between text-xs text-slate-300 mb-1">
                       <span>Diathesis (Genetic/Biological Vulnerability)</span>
-                      <span className="text-indigo-400 font-bold">{diathesisVal}</span>
+                      <span className="text-gold-400 font-bold">{diathesisVal}</span>
                     </div>
                     <input
                       type="range"
@@ -1558,7 +1558,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                       max="100"
                       value={diathesisVal}
                       onChange={e => setDiathesisVal(Number(e.target.value))}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1597,7 +1597,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                 />
 
                 <div className="flex flex-col gap-3 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                  <h4 className="text-sm font-bold text-cyan-300 uppercase tracking-wider">Neurotransmitter Modulation Controls</h4>
+                  <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider">Neurotransmitter Modulation Controls</h4>
 
                   {[
                     { label: 'Dopamine (Motivation & Reality Testing)', state: dopamine, setter: setDopamine },
@@ -1620,7 +1620,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                                 ? mode === 'excessive'
                                   ? 'bg-red-600 text-white'
                                   : mode === 'deficient'
-                                  ? 'bg-blue-600 text-white'
+                                  ? 'bg-gold-600 text-white'
                                   : 'bg-emerald-600 text-white'
                                 : 'bg-slate-900 text-slate-400 hover:text-white'
                             }`}
@@ -1632,7 +1632,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                     </div>
                   ))}
 
-                  <div className="mt-2 p-3 bg-cyan-950/40 border border-cyan-800/50 rounded-lg text-xs text-cyan-200">
+                  <div className="mt-2 p-3 bg-gold-950/40 border border-gold-800/50 rounded-lg text-xs text-gold-200">
                     <strong>Predicted Neuro-Clinical State: </strong>
                     {getNeurochemicalDiagnosticLabel()}
                   </div>
@@ -1676,7 +1676,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                   </div>
 
                   <div className="flex flex-col gap-3 bg-slate-900 p-4 rounded-lg border border-slate-800">
-                    <h5 className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Multi-Axial Differential Diagnosis</h5>
+                    <h5 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Multi-Axial Differential Diagnosis</h5>
                     <div className="text-xs flex flex-col gap-2 text-slate-300">
                       <div><strong className="text-slate-400">Diagnostic Category: </strong>{selectedCase.primaryCategory}</div>
                       <div><strong className="text-purple-400">DSM-5 Classification: </strong>{selectedCase.dsm5Code}</div>
@@ -1700,7 +1700,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                       }}
                       className={`p-3 rounded-xl text-xs font-bold border transition-all ${
                         selectedModel === mod
-                          ? 'bg-indigo-600 border-indigo-400 text-white shadow-md'
+                          ? 'bg-gold-600 border-gold-400 text-white shadow-md'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-800'
                       }`}
                     >
@@ -1710,7 +1710,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 text-xs sm:text-sm text-slate-300 leading-relaxed flex flex-col gap-3">
-                  <h4 className="text-lg font-bold text-indigo-300">{selectedModel} Perspective on Psychological Disorders</h4>
+                  <h4 className="text-lg font-bold text-gold-300">{selectedModel} Perspective on Psychological Disorders</h4>
                   {selectedModel === 'Biological' && (
                     <p>Root Cause: Structural brain abnormalities, neurochemical imbalances (Dopamine, Serotonin, GABA), and genetic vulnerabilities.<br/>Primary Intervention: Psychopharmacology (antipsychotics, SSRIs, anxiolytics) and ECT.</p>
                   )}
@@ -1785,7 +1785,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                 CHALLENGE {currentChallengeIdx + 1} OF {CHALLENGES.length}
               </span>
               <h2 className="text-lg font-bold text-white">
-                Tier: <span className="capitalize text-indigo-400">{CHALLENGES[currentChallengeIdx].difficulty}</span> | Competency: <span className="capitalize text-cyan-400">{CHALLENGES[currentChallengeIdx].competencyLevel}</span>
+                Tier: <span className="capitalize text-gold-400">{CHALLENGES[currentChallengeIdx].difficulty}</span> | Competency: <span className="capitalize text-gold-400">{CHALLENGES[currentChallengeIdx].competencyLevel}</span>
               </h2>
             </div>
 
@@ -1871,7 +1871,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
 
                 <button
                   onClick={handleNextChallenge}
-                  className="mt-2 self-end px-6 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white text-xs sm:text-sm font-bold rounded-xl shadow-lg transition-all transform hover:scale-105"
+                  className="mt-2 self-end px-6 py-2.5 bg-gradient-to-r from-purple-600 to-gold-600 hover:from-purple-500 hover:to-gold-500 text-white text-xs sm:text-sm font-bold rounded-xl shadow-lg transition-all transform hover:scale-105"
                 >
                   {currentChallengeIdx < CHALLENGES.length - 1 ? 'Next Challenge →' : 'Finish Challenges 🎉'}
                 </button>
@@ -1887,7 +1887,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6">
             <div className="flex justify-between items-center border-b border-slate-800 pb-4">
               <div>
-                <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider font-mono">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider font-mono">
                   DIAGNOSTIC QUESTION {diagIdx + 1} OF {DIAGNOSTIC_QUESTIONS.length}
                 </span>
                 <h2 className="text-xl font-bold text-white mt-1">Class 12 Comprehensive Diagnostic Evaluation</h2>
@@ -1905,7 +1905,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
 
                 <div className="grid grid-cols-1 gap-3">
                   {DIAGNOSTIC_QUESTIONS[diagIdx].options.map((opt, oIdx) => {
-                    let style = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-cyan-500/60';
+                    let style = 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500/60';
                     if (diagSelected !== null) {
                       if (oIdx === DIAGNOSTIC_QUESTIONS[diagIdx].correctIndex) style = 'bg-emerald-950 border-emerald-500 text-emerald-300 font-bold';
                       else if (oIdx === diagSelected) style = 'bg-red-950 border-red-500 text-red-300';
@@ -1925,7 +1925,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                         }}
                         className={`p-4 rounded-xl border text-left text-xs sm:text-sm font-medium transition-all ${style}`}
                       >
-                        <strong className="text-cyan-400 mr-2 font-mono">[{String.fromCharCode(65 + oIdx)}]</strong>
+                        <strong className="text-gold-400 mr-2 font-mono">[{String.fromCharCode(65 + oIdx)}]</strong>
                         {opt}
                       </button>
                     );
@@ -1949,7 +1949,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
                           speakText(`Diagnostic exam completed! You scored ${diagScore + (diagSelected === DIAGNOSTIC_QUESTIONS[diagIdx].correctIndex ? 1 : 0)} out of ${DIAGNOSTIC_QUESTIONS.length}.`);
                         }
                       }}
-                      className="self-end px-5 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs sm:text-sm rounded-lg shadow-md transition-all"
+                      className="self-end px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs sm:text-sm rounded-lg shadow-md transition-all"
                     >
                       {diagIdx < DIAGNOSTIC_QUESTIONS.length - 1 ? 'Next Question →' : 'Complete Diagnostic Exam 🎉'}
                     </button>
@@ -2001,18 +2001,18 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
           </div>
 
           {/* Real World Extension Activity Rendered */}
-          <div className="bg-slate-900 border border-indigo-900/50 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-            <h3 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="bg-slate-900 border border-gold-900/50 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
+            <h3 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>🌐</span> Real-World Extension Activity
             </h3>
             <h4 className="text-lg font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h4>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="mt-2 flex flex-col gap-3">
-              <span className="text-xs font-bold text-cyan-400 uppercase tracking-wider">Step-by-Step Practical Guidelines:</span>
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Step-by-Step Practical Guidelines:</span>
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <div key={idx} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 flex items-start gap-3 text-xs sm:text-sm text-slate-200">
-                  <span className="w-6 h-6 rounded-full bg-indigo-600/40 text-indigo-300 font-bold flex items-center justify-center shrink-0 border border-indigo-500 text-xs">
+                  <span className="w-6 h-6 rounded-full bg-gold-600/40 text-gold-300 font-bold flex items-center justify-center shrink-0 border border-gold-500 text-xs">
                     {idx + 1}
                   </span>
                   <span>{step}</span>
@@ -2023,7 +2023,7 @@ export const C12_PsyPsychologicalDisordersCBSESim: React.FC<{
 
           {/* Final Node Mastery Summary */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-            <h3 className="text-xl font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>📊</span> ISC Topic Mastery Status ({ALL_NODE_IDS.length} Nodes Covered)
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 max-h-60 overflow-y-auto p-2 bg-slate-950 rounded-xl border border-slate-800">

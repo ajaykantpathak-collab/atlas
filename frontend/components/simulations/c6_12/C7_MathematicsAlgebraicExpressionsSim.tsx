@@ -22,13 +22,13 @@ export function C7_MathematicsAlgebraicExpressionsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Algebraic Expressions: The Tile Machine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Algebraic Expressions: The Tile Machine</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Expression bar */}
       <div className="mt-4 flex flex-wrap items-center justify-center gap-2 p-3 bg-slate-950 rounded-2xl border border-slate-700 font-mono">
         <span className="text-slate-400 text-sm">Expression:</span>
-        <span className="px-2 py-1 rounded-lg bg-sky-800 text-sky-200 font-bold">{coefA}x</span>
+        <span className="px-2 py-1 rounded-lg bg-gold-800 text-gold-200 font-bold">{coefA}x</span>
         {constB >= 0 ? (
           <span className="text-slate-300 font-bold">+</span>
         ) : (
@@ -91,7 +91,7 @@ export function C7_MathematicsAlgebraicExpressionsSim() {
             <span>Number of x groups (a)</span>
             <span className="font-mono font-bold">{coefA}</span>
           </label>
-          <input type="range" aria-label="coefficient a" min={0} max={6} value={coefA} onChange={(e) => setCoefA(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="coefficient a" min={0} max={6} value={coefA} onChange={(e) => setCoefA(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -112,7 +112,7 @@ export function C7_MathematicsAlgebraicExpressionsSim() {
       <div className="flex flex-wrap gap-2 mt-4">
         <button
           onClick={() => setShowAdd((s) => !s)}
-          className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${showAdd ? 'bg-sky-600 border-sky-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+          className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${showAdd ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
         >
           {showAdd ? 'Hide' : 'Show'} repeated addition ({coefA * xVal} = {Array(coefA).fill(xVal).join(' + ') || '0'})
         </button>
@@ -124,8 +124,8 @@ export function C7_MathematicsAlgebraicExpressionsSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Keep the expression fixed and slide x from 0 to 10. Each time x grows by 1, by how much does the answer grow? (Clue: watch the blue part.)</li>
           <li>Find an expression and an x where the answer is exactly 20. How many different ways can you do it?</li>

@@ -26,7 +26,7 @@ export function LoadingScreen({
       initial={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.4 }}
-      className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-gradient-to-b from-indigo-100 to-purple-100"
+      className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-gradient-to-b from-gold-100 to-purple-100"
     >
       {/* Mascot animation */}
       <div className="mb-6">
@@ -42,22 +42,22 @@ export function LoadingScreen({
       <motion.p
         animate={{ opacity: [0.5, 1, 0.5] }}
         transition={{ duration: 1.5, repeat: Infinity }}
-        className="text-lg font-bold text-indigo-600 mb-4"
+        className="text-lg font-bold text-gold-600 mb-4"
       >
         {message}
       </motion.p>
 
       {/* Progress bar */}
-      <div className="w-64 h-3 bg-indigo-200 rounded-full overflow-hidden">
+      <div className="w-64 h-3 bg-gold-200 rounded-full overflow-hidden">
         <motion.div
-          className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+          className="h-full bg-gradient-to-r from-gold-500 to-purple-500 rounded-full"
           animate={{ width: `${Math.max(10, progress)}%` }}
           transition={{ duration: 0.3 }}
         />
       </div>
 
       {/* Progress percentage */}
-      <p className="text-sm text-indigo-400 mt-2 font-semibold">
+      <p className="text-sm text-gold-400 mt-2 font-semibold">
         {Math.round(progress)}%
       </p>
 

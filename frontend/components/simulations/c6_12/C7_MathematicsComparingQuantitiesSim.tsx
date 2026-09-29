@@ -23,7 +23,7 @@ export function C7_MathematicsComparingQuantitiesSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Comparing Quantities: The Percentage Shop</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Comparing Quantities: The Percentage Shop</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Mode */}
@@ -35,7 +35,7 @@ export function C7_MathematicsComparingQuantitiesSim() {
           <button
             key={m.id}
             onClick={() => setMode(m.id)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${mode === m.id ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${mode === m.id ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {m.emoji} {m.label}
           </button>
@@ -49,7 +49,7 @@ export function C7_MathematicsComparingQuantitiesSim() {
           <div className="space-y-2 text-sm font-mono">
             <div className="flex justify-between"><span className="text-slate-400">{mode === 'discount' ? 'Marked price' : 'Cost price'}</span><span>Rs {price}</span></div>
             <div className="flex justify-between"><span className="text-slate-400">{mode === 'discount' ? 'Discount' : 'Profit'} ({percent}%)</span><span className={mode === 'discount' ? 'text-pink-300' : 'text-emerald-300'}>{mode === 'discount' ? '- ' : '+ '}Rs {share}</span></div>
-            <div className="flex justify-between border-t border-slate-700 pt-2 font-bold"><span>{mode === 'discount' ? 'You pay' : 'Selling price'}</span><span className="text-indigo-300">Rs {final}</span></div>
+            <div className="flex justify-between border-t border-slate-700 pt-2 font-bold"><span>{mode === 'discount' ? 'You pay' : 'Selling price'}</span><span className="text-gold-300">Rs {final}</span></div>
           </div>
           <div className="mt-3 text-xs text-slate-400 leading-relaxed">
             Working: {percent}/100 x Rs {price} = Rs {share}
@@ -93,9 +93,9 @@ export function C7_MathematicsComparingQuantitiesSim() {
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
             <span>{mode === 'discount' ? 'Marked / cost price' : 'Cost price'}</span>
-            <span className="font-mono font-bold text-sky-300">Rs {price}</span>
+            <span className="font-mono font-bold text-gold-300">Rs {price}</span>
           </label>
-          <input type="range" aria-label="price" min={50} max={2000} step={10} value={price} onChange={(e) => setPrice(Number(e.target.value))} className="w-full mt-2 accent-sky-400" />
+          <input type="range" aria-label="price" min={50} max={2000} step={10} value={price} onChange={(e) => setPrice(Number(e.target.value))} className="w-full mt-2 accent-gold-400" />
         </div>
         <div className="p-3 bg-slate-800 rounded-2xl border border-slate-600">
           <label className="text-xs text-slate-300 flex justify-between">
@@ -127,8 +127,8 @@ export function C7_MathematicsComparingQuantitiesSim() {
         </button>
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Find a price and percent where the discount is EXACTLY Rs 150. How many different pairs can you find?</li>
           <li>Switch to profit mode: if a seller buys at Rs 400 and wants 25% profit, what selling price must they write? Check with the sliders.</li>

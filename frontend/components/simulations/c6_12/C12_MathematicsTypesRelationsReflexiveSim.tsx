@@ -1232,11 +1232,11 @@ function C12_MathematicsTypesRelationsReflexiveSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50 shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
-            <span className="text-xs font-semibold text-indigo-400 uppercase tracking-widest">
+            <span className="text-xs font-semibold text-gold-400 uppercase tracking-widest">
               ISC Class 12 Science • {subjectConfig.name}
             </span>
             <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">{title}</h1>
@@ -1253,7 +1253,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                 ? 'bg-emerald-950/80 text-emerald-400 border-emerald-700/60'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-400 border-rose-700/60'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-700/60'
+                : 'bg-gold-950/80 text-gold-300 border-gold-700/60'
             }`}
           >
             Tier: {difficulty}
@@ -1274,16 +1274,16 @@ function C12_MathematicsTypesRelationsReflexiveSim({
           className="mt-6 space-y-6"
         >
           {/* Mission Scenario Card */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/60 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/60 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2 py-0.5 bg-indigo-600/40 text-indigo-300 text-xs font-bold rounded">
+              <span className="px-2 py-0.5 bg-gold-600/40 text-gold-300 text-xs font-bold rounded">
                 MISSION BRIEFING
               </span>
-              <h2 className="text-lg font-bold text-indigo-200">{SCENARIO.title}</h2>
+              <h2 className="text-lg font-bold text-gold-200">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 pt-3 border-t border-indigo-900/50">
+            <p className="text-xs text-gold-300/80 mt-3 pt-3 border-t border-gold-900/50">
               🛰️ <span className="font-semibold">Context:</span> {SCENARIO.context}
             </p>
           </div>
@@ -1347,7 +1347,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
                   aria-label="Launch interactive exploration phase"
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 hover:from-gold-500 hover:to-purple-500 text-white font-bold rounded-xl shadow-lg flex items-center gap-2"
                 >
                   <span>Launch Interactive Labs</span>
                   <span>→</span>
@@ -1363,7 +1363,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 space-y-6">
           {/* Step Navigation Pill */}
           <div className="flex flex-wrap items-center justify-between gap-2 p-3 bg-slate-900 rounded-2xl border border-slate-800">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </span>
             <div className="flex gap-1">
@@ -1375,7 +1375,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     setCurrentSlide(i);
                   }}
                   className={`w-8 h-2 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-500 w-12' : 'bg-slate-700'
+                    i === currentSlide ? 'bg-gold-500 w-12' : 'bg-slate-700'
                   }`}
                   aria-label={`Go to slide ${i + 1}`}
                 />
@@ -1408,7 +1408,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     {/* Interactive 3x3 Matrix Table */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex items-center justify-between">
-                        <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                        <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                           Matrix Representation (A × A)
                         </span>
                         <span className="text-xs text-slate-400">Click cells to toggle</span>
@@ -1417,14 +1417,14 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                       <div className="grid grid-cols-4 gap-2 text-center text-xs font-mono">
                         <div className="p-2 text-slate-500 font-bold">R</div>
                         {[1, 2, 3].map(col => (
-                          <div key={col} className="p-2 bg-slate-900 rounded font-bold text-indigo-400">
+                          <div key={col} className="p-2 bg-slate-900 rounded font-bold text-gold-400">
                             col {col}
                           </div>
                         ))}
 
                         {[1, 2, 3].map(row => (
                           <React.Fragment key={row}>
-                            <div className="p-2 bg-slate-900 rounded font-bold text-indigo-400 flex items-center justify-center">
+                            <div className="p-2 bg-slate-900 rounded font-bold text-gold-400 flex items-center justify-center">
                               row {row}
                             </div>
                             {[1, 2, 3].map(col => {
@@ -1442,7 +1442,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                                     active
                                       ? isDiag
                                         ? 'bg-emerald-600 border-emerald-400 text-white shadow-lg shadow-emerald-900/40'
-                                        : 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-900/40'
+                                        : 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-900/40'
                                       : isDiag
                                       ? 'bg-slate-900 border-emerald-900/50 text-slate-500 hover:border-emerald-700'
                                       : 'bg-slate-900 border-slate-800 text-slate-600 hover:border-slate-700'
@@ -1461,7 +1461,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     {/* SVG Directed Graph Visualizer */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                        <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                           Directed Graph (Digraph)
                         </span>
                         <span className="text-xs text-slate-400">Nodes: 1, 2, 3</span>
@@ -1523,7 +1523,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   </div>
 
                   {/* Real-time Status Card */}
-                  <div className={`p-4 rounded-xl border flex items-center justify-between ${relationProperties.isEquivalence ? 'bg-emerald-950/50 border-emerald-500 text-emerald-200' : 'bg-indigo-950/40 border-indigo-800/60 text-slate-300'}`}>
+                  <div className={`p-4 rounded-xl border flex items-center justify-between ${relationProperties.isEquivalence ? 'bg-emerald-950/50 border-emerald-500 text-emerald-200' : 'bg-gold-950/40 border-gold-800/60 text-slate-300'}`}>
                     <div>
                       <span className="text-xs font-bold uppercase tracking-wider">Classification Verdict:</span>
                       <h4 className="text-base font-bold text-white">
@@ -1542,7 +1542,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                 <div className="space-y-6">
                   <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
                     <div>
-                      <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Select Congruence Modulo m:</span>
+                      <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">Select Congruence Modulo m:</span>
                       <p className="text-xs text-slate-400">Rule: a R b iff m divides (a - b)</p>
                     </div>
                     <div className="flex gap-2">
@@ -1555,7 +1555,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                           aria-label={`Set modulo ${m}`}
                           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                             moduloM === m
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-900/50'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-900/50'
                               : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                           }`}
                         >
@@ -1567,7 +1567,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
 
                   {/* Disjoint Partition Blocks Visualization */}
                   <div className="p-5 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                    <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                       Induced Disjoint Equivalence Classes on A = {'{0, 1, 2, 3, 4, 5, 6, 7}'}
                     </span>
 
@@ -1577,13 +1577,13 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                         return (
                           <div
                             key={rem}
-                            className="p-4 bg-slate-900 rounded-xl border border-indigo-800/50 space-y-2 shadow-md"
+                            className="p-4 bg-slate-900 rounded-xl border border-gold-800/50 space-y-2 shadow-md"
                           >
                             <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-                              <span className="text-xs font-bold text-indigo-400">
+                              <span className="text-xs font-bold text-gold-400">
                                 Class [{rem}] (Remainder {rem})
                               </span>
-                              <span className="text-[10px] px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded font-mono">
+                              <span className="text-[10px] px-2 py-0.5 bg-gold-950 text-gold-300 rounded font-mono">
                                 Size: {members.length}
                               </span>
                             </div>
@@ -1592,7 +1592,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                               {members.map(elem => (
                                 <span
                                   key={elem}
-                                  className="w-8 h-8 rounded-lg bg-indigo-950 border border-indigo-600 flex items-center justify-center font-bold text-white text-sm"
+                                  className="w-8 h-8 rounded-lg bg-gold-950 border border-gold-600 flex items-center justify-center font-bold text-white text-sm"
                                 >
                                   {elem}
                                 </span>
@@ -1603,7 +1603,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                       })}
                     </div>
 
-                    <div className="p-3 bg-indigo-950/30 rounded-lg border border-indigo-800/40 text-xs text-indigo-300 flex items-center gap-2">
+                    <div className="p-3 bg-gold-950/30 rounded-lg border border-gold-800/40 text-xs text-gold-300 flex items-center gap-2">
                       <span>💡</span>
                       <span>
                         Notice that every single element from 0 to 7 belongs to EXACTLY ONE class, with ZERO overlap! The union equals set A.
@@ -1619,14 +1619,14 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     {/* Controls with real-time sliders */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-4">
-                      <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                      <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                         Linear Function Controls: y = mx + c
                       </span>
 
                       <div>
                         <label className="text-xs text-slate-300 flex justify-between">
                           <span>Slope (m): {funcSlope}</span>
-                          <span className="text-indigo-400">f(x) = {funcSlope}x + {funcIntercept}</span>
+                          <span className="text-gold-400">f(x) = {funcSlope}x + {funcIntercept}</span>
                         </label>
                         <input
                           type="range"
@@ -1635,7 +1635,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                           step={0.5}
                           value={funcSlope}
                           onChange={(e) => setFuncSlope(Number(e.target.value))}
-                          className="w-full mt-1 accent-indigo-500 cursor-pointer"
+                          className="w-full mt-1 accent-gold-500 cursor-pointer"
                         />
                       </div>
 
@@ -1671,7 +1671,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                       </div>
 
                       <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs space-y-1">
-                        <div className="text-indigo-300 font-bold">
+                        <div className="text-gold-300 font-bold">
                           Point on f: ({probeX}, {(funcSlope * probeX + funcIntercept).toFixed(1)})
                         </div>
                         <div className="text-emerald-300 font-bold">
@@ -1683,11 +1683,11 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     {/* Coordinate Graph */}
                     <div className="lg:col-span-2 p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between">
                       <div className="flex items-center justify-between mb-2">
-                        <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                        <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                           Reflection Mirror Graph
                         </span>
                         <div className="flex gap-3 text-xs">
-                          <span className="text-indigo-400 font-bold">— f(x)</span>
+                          <span className="text-gold-400 font-bold">— f(x)</span>
                           <span className="text-amber-400 font-bold">--- y = x (Mirror)</span>
                           <span className="text-emerald-400 font-bold">— f⁻¹(x)</span>
                         </div>
@@ -1749,7 +1749,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Unit Circle Visualizer with real-time slider */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                      <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                      <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                         Unit Circle Phase Angle θ = {circleAngleDeg}° ({(circleAngleDeg * Math.PI / 180).toFixed(2)} rad)
                       </span>
 
@@ -1792,13 +1792,13 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                         step={5}
                         value={circleAngleDeg}
                         onChange={(e) => setCircleAngleDeg(Number(e.target.value))}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
 
                     {/* Principal Evaluation Feedback */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-col justify-between space-y-4">
-                      <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                      <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                         Trigonometric Invertibility Test
                       </span>
 
@@ -1812,7 +1812,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                           <div className="space-y-3 text-sm">
                             <div className="p-3 bg-slate-900 rounded-lg border border-slate-800">
                               <div className="text-slate-400 text-xs">Current Input sin(θ):</div>
-                              <div className="text-lg font-bold text-indigo-300">
+                              <div className="text-lg font-bold text-gold-300">
                                 sin({circleAngleDeg}°) = {sinVal.toFixed(3)}
                               </div>
                             </div>
@@ -1848,7 +1848,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
               {currentSlide === 4 && (
                 <div className="space-y-6">
                   <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                    <span className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                       Select Inverse Trigonometric Function:
                     </span>
                     <div className="flex gap-2">
@@ -1863,7 +1863,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                           }}
                           className={`px-4 py-2 rounded-xl text-xs font-bold transition-all border ${
                             selectedGraphType === type
-                              ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-900/50'
+                              ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-900/50'
                               : 'bg-slate-800 border-slate-700 text-slate-300 hover:bg-slate-750'
                           }`}
                         >
@@ -1878,7 +1878,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     <div className="flex items-center justify-between text-xs text-slate-400">
                       <span>
                         Domain:{' '}
-                        <strong className="text-indigo-300">
+                        <strong className="text-gold-300">
                           {selectedGraphType === 'arctan' ? '(-∞, ∞)' : '[-1, 1]'}
                         </strong>
                       </span>
@@ -1968,7 +1968,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   setCurrentSlide(s => s + 1);
                 }}
                 aria-label="Next Lab"
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg"
+                className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg"
               >
                 Next Lab →
               </motion.button>
@@ -2020,11 +2020,11 @@ function C12_MathematicsTypesRelationsReflexiveSim({
             <div className="grid grid-cols-4 gap-2 text-center text-xs font-mono max-w-md mx-auto p-4 bg-slate-950 rounded-xl border border-slate-800">
               <div className="p-2 text-slate-500 font-bold">A×A</div>
               {[1, 2, 3].map(col => (
-                <div key={col} className="p-2 font-bold text-indigo-400">c{col}</div>
+                <div key={col} className="p-2 font-bold text-gold-400">c{col}</div>
               ))}
               {[1, 2, 3].map(row => (
                 <React.Fragment key={row}>
-                  <div className="p-2 font-bold text-indigo-400 flex items-center justify-center">r{row}</div>
+                  <div className="p-2 font-bold text-gold-400 flex items-center justify-center">r{row}</div>
                   {[1, 2, 3].map(col => {
                     const key = `${row}-${col}`;
                     const active = matrixPairs[key];
@@ -2034,7 +2034,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                         onClick={() => handleToggleMatrixPair(key)}
                         className={`p-3 rounded-lg font-bold border transition-all ${
                           active
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-900 border-slate-800 text-slate-600'
                         }`}
                       >
@@ -2095,7 +2095,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
           {/* Progress Header */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold px-2 py-0.5 bg-indigo-950 text-indigo-300 rounded border border-indigo-700 uppercase">
+              <span className="text-xs font-bold px-2 py-0.5 bg-gold-950 text-gold-300 rounded border border-gold-700 uppercase">
                 {challenge.competencyLevel}
               </span>
               <h2 className="text-base sm:text-lg font-bold text-white">
@@ -2111,7 +2111,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
           {/* Animated Progress Bar */}
           <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               initial={{ width: 0 }}
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               transition={{ duration: 0.4 }}
@@ -2174,7 +2174,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-md"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-lg text-xs font-bold text-white cursor-grab shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -2206,7 +2206,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   aria-label="Verify Dropped Labels"
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl"
                 >
                   Verify Matrix Labels
                 </motion.button>
@@ -2247,7 +2247,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   onClick={() => handleAnswer(sortArrangement)}
                   disabled={showExplanation}
                   aria-label="Submit Sorted Order"
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl"
                 >
                   Verify Pipeline Order
                 </motion.button>
@@ -2263,7 +2263,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical value"
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-48"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-48"
                   />
                   <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2272,7 +2272,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
                     aria-label="Submit Numeric Answer"
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl shadow-lg"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl shadow-lg"
                   >
                     Submit
                   </motion.button>
@@ -2291,7 +2291,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-2 bg-indigo-900/80 hover:bg-indigo-800 border border-indigo-600 rounded-lg text-xs font-mono font-bold text-white"
+                      className="px-3 py-2 bg-gold-900/80 hover:bg-gold-800 border border-gold-600 rounded-lg text-xs font-mono font-bold text-white"
                     >
                       + {part}
                     </motion.button>
@@ -2300,7 +2300,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 min-h-[60px] flex items-center gap-2">
                   {constructParts.map((part, idx) => (
-                    <div key={idx} className="px-3 py-1 bg-indigo-600 rounded-lg text-xs font-bold text-white flex items-center gap-2">
+                    <div key={idx} className="px-3 py-1 bg-gold-600 rounded-lg text-xs font-bold text-white flex items-center gap-2">
                       <span>{part}</span>
                       <button onClick={() => setConstructParts(prev => prev.filter((_, i) => i !== idx))} className="text-rose-300 font-bold">×</button>
                     </div>
@@ -2313,7 +2313,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl"
+                  className="px-6 py-2.5 bg-gold-600 text-white font-bold rounded-xl"
                 >
                   Submit Construction
                 </motion.button>
@@ -2325,9 +2325,9 @@ function C12_MathematicsTypesRelationsReflexiveSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 p-5 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-xl border border-indigo-800/80 space-y-3"
+                className="mt-6 p-5 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-xl border border-gold-800/80 space-y-3"
               >
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-sm">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-sm">
                   <span>📜</span> Rigorous Mathematical Explanation:
                 </div>
 
@@ -2343,7 +2343,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                         animate={{ opacity: 1, x: 0 }}
                         className="text-xs sm:text-sm text-slate-300 leading-relaxed"
                       >
-                        <span className="text-indigo-400 font-bold">{sIdx + 1}.</span> {sentence}
+                        <span className="text-gold-400 font-bold">{sIdx + 1}.</span> {sentence}
                         {!sentence.endsWith('.') && '.'}
                       </motion.p>
                     ))}
@@ -2355,7 +2355,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps(s => s + 1)}
-                      className="px-4 py-2 bg-indigo-800 hover:bg-indigo-750 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-2 bg-gold-800 hover:bg-gold-750 text-white rounded-lg text-xs font-bold"
                     >
                       Reveal Next Proof Step →
                     </motion.button>
@@ -2381,7 +2381,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="mt-6 space-y-6">
           {/* Completion Header */}
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-2xl border border-indigo-700/60 text-center space-y-3 shadow-2xl">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-2xl border border-gold-700/60 text-center space-y-3 shadow-2xl">
             <span className="text-5xl">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Spacecraft Telemetry Protocol Certified!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2398,7 +2398,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
 
               <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 text-center min-w-[120px]">
                 <span className="text-xs text-slate-400 uppercase font-bold">BKT Mastery Tier</span>
-                <div className="text-2xl font-black text-indigo-300 mt-1 capitalize">
+                <div className="text-2xl font-black text-gold-300 mt-1 capitalize">
                   {masteryLevel}
                 </div>
               </div>
@@ -2406,7 +2406,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
           </div>
 
           {/* Motivational Feedback Banner (Personalised by Error Count) */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/90 to-slate-900 rounded-xl border border-indigo-700/60 text-center space-y-1">
+          <div className="p-5 bg-gradient-to-r from-gold-950/90 to-slate-900 rounded-xl border border-gold-700/60 text-center space-y-1">
             <div className="text-lg font-black text-amber-300">
               {errors === 0 && 'PERFECT SCORE!'}
               {errors >= 1 && errors <= 3 && 'Great work!'}
@@ -2460,7 +2460,7 @@ function C12_MathematicsTypesRelationsReflexiveSim({
           </div>
 
           {/* Real-World Mission Activity */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/40 to-slate-900 rounded-2xl border border-indigo-800/50 space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/40 to-slate-900 rounded-2xl border border-gold-800/50 space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-xl">🛰️</span>
               <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2468,8 +2468,8 @@ function C12_MathematicsTypesRelationsReflexiveSim({
             <p className="text-xs sm:text-sm text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
-                <li key={idx} className="text-xs text-indigo-300/90 flex items-start gap-2">
-                  <span className="text-indigo-400 font-bold">{idx + 1}.</span>
+                <li key={idx} className="text-xs text-gold-300/90 flex items-start gap-2">
+                  <span className="text-gold-400 font-bold">{idx + 1}.</span>
                   <span>{step}</span>
                 </li>
               ))}

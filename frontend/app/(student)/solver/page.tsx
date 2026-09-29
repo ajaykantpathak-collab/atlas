@@ -169,7 +169,7 @@ function SolvingAnimation() {
     >
       <div className="relative w-20 h-20">
         <motion.div
-          className="absolute inset-0 rounded-full border-3 border-indigo-500/30"
+          className="absolute inset-0 rounded-full border-3 border-gold-500/30"
           animate={{ scale: [1, 1.3, 1], opacity: [0.5, 0, 0.5] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
         />
@@ -233,7 +233,7 @@ function ProblemTypeGrid({ onSelect, selectedType }: { onSelect: (type: string) 
           placeholder="Search problem type..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 pl-10 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500/50 focus:bg-white/[0.07] transition-all font-body"
+          className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 pl-10 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-gold-500/50 focus:bg-white/[0.07] transition-all font-body"
         />
         <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-sm">🔍</span>
       </div>
@@ -249,7 +249,7 @@ function ProblemTypeGrid({ onSelect, selectedType }: { onSelect: (type: string) 
               onClick={() => setExpandedCategory(expandedCategory === cat.category ? null : cat.category)}
               className="w-full flex items-center gap-3 p-4 hover:bg-white/5 transition-colors"
             >
-              <span className="text-2xl w-8 h-8 flex items-center justify-center bg-indigo-500/10 rounded-lg">
+              <span className="text-2xl w-8 h-8 flex items-center justify-center bg-gold-500/10 rounded-lg">
                 {cat.icon}
               </span>
               <div className="text-left flex-1">
@@ -280,12 +280,12 @@ function ProblemTypeGrid({ onSelect, selectedType }: { onSelect: (type: string) 
                         onClick={() => onSelect(type)}
                         className={`w-full text-left px-3 py-2.5 rounded-xl text-sm font-body transition-all ${
                           selectedType === type
-                            ? "bg-indigo-500/20 text-indigo-300 border border-indigo-500/30"
+                            ? "bg-gold-500/20 text-gold-300 border border-gold-500/30"
                             : "bg-white/5 text-gray-300 hover:bg-white/10 border border-transparent"
                         }`}
                       >
                         {selectedType === type && (
-                          <span className="inline-block w-1.5 h-1.5 rounded-full bg-indigo-400 mr-2" />
+                          <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold-400 mr-2" />
                         )}
                         {type}
                       </motion.button>
@@ -340,7 +340,7 @@ function ThinkingQuestionBlock({
           {question.question}
         </p>
 
-        <p className="text-xs text-indigo-400 mb-4 font-body">Concept: {question.concept_tag}</p>
+        <p className="text-xs text-gold-400 mb-4 font-body">Concept: {question.concept_tag}</p>
 
         <div className="space-y-2">
           {question.options.map((option, i) => {
@@ -385,9 +385,9 @@ function ThinkingQuestionBlock({
             <motion.div
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mt-3 p-3 rounded-xl bg-indigo-500/10 border border-indigo-500/20"
+              className="mt-3 p-3 rounded-xl bg-gold-500/10 border border-gold-500/20"
             >
-              <p className="text-xs text-indigo-300 font-body">{question.explanation}</p>
+              <p className="text-xs text-gold-300 font-body">{question.explanation}</p>
             </motion.div>
           )}
         </AnimatePresence>
@@ -447,8 +447,8 @@ function StepDisplay({ step, isActive, totalSteps }: { step: Step; isActive: boo
     >
       <div className="glass-card rounded-2xl p-5 border border-white/10">
         <div className="flex items-center gap-3 mb-3">
-          <div className="w-8 h-8 rounded-full bg-indigo-500/20 border border-indigo-500/30 flex items-center justify-center">
-            <span className="text-xs font-bold text-indigo-300 font-mono">{step.step_number}</span>
+          <div className="w-8 h-8 rounded-full bg-gold-500/20 border border-gold-500/30 flex items-center justify-center">
+            <span className="text-xs font-bold text-gold-300 font-mono">{step.step_number}</span>
           </div>
           <div className="flex-1">
             <h3 className="text-sm font-semibold text-white font-body">{step.title}</h3>
@@ -477,7 +477,7 @@ function StepDisplay({ step, isActive, totalSteps }: { step: Step; isActive: boo
           <div className="mt-3">
             <button
               onClick={() => setShowHint(!showHint)}
-              className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors font-body"
+              className="text-xs text-gold-400 hover:text-gold-300 transition-colors font-body"
             >
               {showHint ? "🙈 Hide hint" : "💡 Need a hint?"}
             </button>
@@ -515,7 +515,7 @@ function MasteryProgress({ problemType, compact = false }: { problemType: string
       <div className="flex items-center gap-2">
         <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
           <motion.div
-            className="h-full bg-gradient-to-r from-indigo-500 to-pink-500 rounded-full"
+            className="h-full bg-gradient-to-r from-gold-500 to-pink-500 rounded-full"
             initial={{ width: 0 }}
             animate={{ width: `${mastery}%` }}
             transition={{ duration: 0.6, ease: "easeOut" }}
@@ -541,7 +541,7 @@ function MasteryProgress({ problemType, compact = false }: { problemType: string
       </div>
       <div className="flex-1 h-2 bg-white/10 rounded-full overflow-hidden mb-1">
         <motion.div
-          className="h-full bg-gradient-to-r from-indigo-500 via-pink-500 to-amber-500 rounded-full"
+          className="h-full bg-gradient-to-r from-gold-500 via-pink-500 to-amber-500 rounded-full"
           initial={{ width: 0 }}
           animate={{ width: `${mastery}%` }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -566,12 +566,12 @@ function SocraticTeacherButton({ problemType, expression }: { problemType: strin
       <motion.button
         whileTap={{ scale: 0.97 }}
         onClick={() => setIsOpen(true)}
-        className="w-full mt-4 p-4 rounded-2xl border border-dashed border-gray-700 hover:border-indigo-500/40 hover:bg-indigo-500/5 transition-all group"
+        className="w-full mt-4 p-4 rounded-2xl border border-dashed border-gray-700 hover:border-gold-500/40 hover:bg-gold-500/5 transition-all group"
       >
         <div className="flex items-center gap-3">
           <span className="text-2xl group-hover:scale-110 transition-transform">👨‍🏫</span>
           <div className="text-left">
-            <span className="text-sm text-gray-400 group-hover:text-indigo-300 transition-colors font-body">
+            <span className="text-sm text-gray-400 group-hover:text-gold-300 transition-colors font-body">
               I can't solve this yet
             </span>
             <span className="block text-xs text-gray-600 font-body">
@@ -609,7 +609,7 @@ function SocraticTeacherButton({ problemType, expression }: { problemType: strin
               <div className="bg-white/5 rounded-xl p-4 mb-4">
                 <p className="text-xs text-gray-500 mb-1 font-body">Your problem:</p>
                 <p className="text-sm text-white font-mono">{expression || "not specified"}</p>
-                <p className="text-xs text-indigo-400 mt-1 font-body">{problemType}</p>
+                <p className="text-xs text-gold-400 mt-1 font-body">{problemType}</p>
               </div>
 
               <div className="space-y-3 mb-4">
@@ -618,7 +618,7 @@ function SocraticTeacherButton({ problemType, expression }: { problemType: strin
                   {["Step-by-step hints mangwao", "Similar example dekho", "Concept revision karo", "Live doubt session join karo"].map((opt, i) => (
                     <button
                       key={i}
-                      className="w-full text-left px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 hover:bg-indigo-500/10 hover:border-indigo-500/30 transition-all font-body"
+                      className="w-full text-left px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 hover:bg-gold-500/10 hover:border-gold-500/30 transition-all font-body"
                     >
                       {opt}
                     </button>
@@ -664,7 +664,7 @@ function MathInputField({
       <div
         ref={inputRef}
         className={`relative rounded-2xl transition-all duration-200 ${
-          focused ? "border-indigo-500/50 bg-white/[0.07]" : "border-white/10 bg-white/5"
+          focused ? "border-gold-500/50 bg-white/[0.07]" : "border-white/10 bg-white/5"
         } border`}
       >
         <MathInput
@@ -701,7 +701,7 @@ function MathInputField({
           whileTap={{ scale: 0.97 }}
           onClick={onSubmit}
           disabled={disabled || !value.trim()}
-          className="flex-1 py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white text-sm font-semibold font-body hover:from-indigo-400 hover:to-indigo-500 disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-lg shadow-indigo-500/20"
+          className="flex-1 py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white text-sm font-semibold font-body hover:from-gold-400 hover:to-gold-500 disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-lg shadow-gold-500/20"
         >
           🔍 Solve Karo
         </motion.button>
@@ -765,7 +765,7 @@ function StepNavigation({
       <div className="flex items-center gap-3">
         <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
           <motion.div
-            className="h-full bg-gradient-to-r from-indigo-500 to-pink-500 rounded-full"
+            className="h-full bg-gradient-to-r from-gold-500 to-pink-500 rounded-full"
             animate={{ width: `${progress}%` }}
             transition={{ duration: 0.3 }}
           />
@@ -790,7 +790,7 @@ function StepNavigation({
           <motion.button
             whileTap={{ scale: 0.97 }}
             onClick={onNext}
-            className="flex-1 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 text-white text-sm font-semibold font-body shadow-lg shadow-indigo-500/20"
+            className="flex-1 py-3 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 text-white text-sm font-semibold font-body shadow-lg shadow-gold-500/20"
           >
             Agla Step →
           </motion.button>
@@ -825,7 +825,7 @@ function TryAnotherButton({ onGenerate, isLoading }: { onGenerate: (seed: number
       whileTap={{ scale: 0.97 }}
       onClick={handleClick}
       disabled={isLoading}
-      className="w-full py-3.5 rounded-xl border-2 border-dashed border-white/15 hover:border-indigo-500/40 text-sm font-body text-gray-400 hover:text-indigo-300 hover:bg-indigo-500/5 disabled:opacity-40 transition-all"
+      className="w-full py-3.5 rounded-xl border-2 border-dashed border-white/15 hover:border-gold-500/40 text-sm font-body text-gray-400 hover:text-gold-300 hover:bg-gold-500/5 disabled:opacity-40 transition-all"
     >
       <span className="flex items-center justify-center gap-2">
         <span>🔄</span>
@@ -889,7 +889,7 @@ function SampleProblemChips({ type, onSelect }: { type: string; onSelect: (expr:
             key={sample}
             whileTap={{ scale: 0.95 }}
             onClick={() => onSelect(sample)}
-            className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-gray-400 hover:text-indigo-300 hover:border-indigo-500/30 hover:bg-indigo-500/5 transition-all font-mono"
+            className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-gray-400 hover:text-gold-300 hover:border-gold-500/30 hover:bg-gold-500/5 transition-all font-mono"
           >
             {sample}
           </motion.button>
@@ -1100,7 +1100,7 @@ export default function SolverPage() {
     <div ref={topRef} className="min-h-screen bg-[#0a0a0f] text-white font-body">
       {/* Background ambient */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-indigo-500/[0.03] blur-[100px]" />
+        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-gold-500/[0.03] blur-[100px]" />
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-pink-500/[0.03] blur-[100px]" />
       </div>
 
@@ -1187,9 +1187,9 @@ export default function SolverPage() {
             <motion.div key="input" className="space-y-4">
               <div className="flex items-center gap-2 mb-2">
                 <div className="flex items-center gap-1 text-xs font-body">
-                  <span className={stage === STAGES.THINKING && thinkingAnswered ? "text-indigo-400" : "text-gray-600"}>1</span>
+                  <span className={stage === STAGES.THINKING && thinkingAnswered ? "text-gold-400" : "text-gray-600"}>1</span>
                   <span className="w-4 h-px bg-gray-700"></span>
-                  <span className={stage === STAGES.INPUT ? "text-indigo-400" : "text-gray-600"}>2</span>
+                  <span className={stage === STAGES.INPUT ? "text-gold-400" : "text-gray-600"}>2</span>
                   <span className="w-4 h-px bg-gray-700"></span>
                   <span className="text-gray-600">3</span>
                 </div>
@@ -1198,7 +1198,7 @@ export default function SolverPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm text-gray-400 font-body">Ab apna expression type karo</p>
-                  <p className="text-xs text-indigo-400 font-body">{selectedType}</p>
+                  <p className="text-xs text-gold-400 font-body">{selectedType}</p>
                 </div>
               </div>
 
@@ -1285,7 +1285,7 @@ export default function SolverPage() {
                 <motion.button
                   whileTap={{ scale: 0.97 }}
                   onClick={handleRetry}
-                  className="flex-1 py-3 rounded-xl bg-indigo-500/20 border border-indigo-500/30 text-indigo-300 text-sm font-body"
+                  className="flex-1 py-3 rounded-xl bg-gold-500/20 border border-gold-500/30 text-gold-300 text-sm font-body"
                 >
                   Phir try karo
                 </motion.button>
@@ -1309,7 +1309,7 @@ export default function SolverPage() {
             <button
               key={i}
               className={`flex flex-col items-center gap-0.5 py-1 px-3 rounded-lg transition-colors ${
-                item.includes("Solver") ? "text-indigo-400" : "text-gray-600"
+                item.includes("Solver") ? "text-gold-400" : "text-gray-600"
               }`}
             >
               <span className="text-sm">{item.split(" ")[0]}</span>

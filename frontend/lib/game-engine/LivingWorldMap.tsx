@@ -119,7 +119,7 @@ export function LivingWorldMap({ nodes, onNodeClick, width = 720, height = 480 }
   };
 
   return (
-    <div className="relative rounded-2xl overflow-hidden border-2 border-indigo-200 bg-gradient-to-b from-sky-100 to-emerald-100" style={{ width, height }}>
+    <div className="relative rounded-2xl overflow-hidden border-2 border-gold-200 bg-gradient-to-b from-gold-100 to-emerald-100" style={{ width, height }}>
       {/* Map background */}
       <svg className="absolute inset-0 w-full h-full" viewBox={`0 0 ${width} ${height}`}>
         {/* Regions as colored areas */}
@@ -187,7 +187,7 @@ export function LivingWorldMap({ nodes, onNodeClick, width = 720, height = 480 }
               node.completed
                 ? 'bg-emerald-400 text-white'
                 : unlocked
-                ? 'bg-white text-indigo-600 hover:scale-110'
+                ? 'bg-white text-gold-600 hover:scale-110'
                 : 'bg-gray-300 text-gray-400 cursor-not-allowed'
             }`}
             style={{
@@ -220,7 +220,7 @@ export function LivingWorldMap({ nodes, onNodeClick, width = 720, height = 480 }
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
-            className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md rounded-xl p-4 shadow-xl border-2 border-indigo-200"
+            className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md rounded-xl p-4 shadow-xl border-2 border-gold-200"
           >
             <div className="flex items-center justify-between">
               <div>
@@ -236,7 +236,7 @@ export function LivingWorldMap({ nodes, onNodeClick, width = 720, height = 480 }
               </div>
               <button
                 onClick={() => onNodeClick?.(selectedNode)}
-                className="px-4 py-2 bg-indigo-500 text-white rounded-lg font-bold text-sm hover:bg-indigo-600"
+                className="px-4 py-2 bg-gold-500 text-white rounded-lg font-bold text-sm hover:bg-gold-600"
               >
                 {selectedNode.completed ? 'Play Again' : 'Start'}
               </button>
@@ -269,8 +269,8 @@ export function ProgressDashboard({ nodes }: { nodes: WorldNode[] }) {
         <div className="text-3xl font-black text-yellow-600">{totalStars}</div>
         <div className="text-xs text-gray-500 font-semibold">Total Stars</div>
       </div>
-      <div className="bg-white rounded-xl p-4 shadow-md border-2 border-indigo-200">
-        <div className="text-3xl font-black text-indigo-600">{Math.round(avgScore)}</div>
+      <div className="bg-white rounded-xl p-4 shadow-md border-2 border-gold-200">
+        <div className="text-3xl font-black text-gold-600">{Math.round(avgScore)}</div>
         <div className="text-xs text-gray-500 font-semibold">Average Score</div>
       </div>
     </div>

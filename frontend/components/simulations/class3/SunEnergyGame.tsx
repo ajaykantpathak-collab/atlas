@@ -50,7 +50,7 @@ const TEACHING_SLIDES = [
     title: 'Conservation of Energy 💡',
     text: 'Conserve energy by switching off lights and fans when leaving a room! Saving electricity saves coal and gas at power stations, reduces pollution, and protects our Earth.',
     emoji: '💡',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Conserve energy by switching off lights and fans when leaving a room! Saving electricity protects our Earth and reduces pollution.',
   },
 ];
@@ -687,7 +687,7 @@ export function SunEnergyGame({ width = 720, height = 560, onComplete }: SunEner
   };
 
   return (
-    <div className="relative overflow-hidden bg-sky-100 select-none flex flex-col items-center justify-between" style={{ width, height }}>
+    <div className="relative overflow-hidden bg-gold-100 select-none flex flex-col items-center justify-between" style={{ width, height }}>
       {/* Background scene */}
       <SolarSceneBackground width={width} height={height} />
 

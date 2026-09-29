@@ -1158,7 +1158,7 @@ export function C12_BiologyPopulationInteractionsSim({
               animate={{ scale: 1 }}
               className={`px-3 py-1 rounded-full text-xs font-bold border uppercase tracking-wider ${
                 difficulty === 'foundation' ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300' :
-                difficulty === 'standard' ? 'bg-sky-950/80 border-sky-500 text-sky-300' :
+                difficulty === 'standard' ? 'bg-gold-950/80 border-gold-500 text-gold-300' :
                 'bg-rose-950/80 border-rose-500 text-rose-300'
               }`}
             >
@@ -1563,7 +1563,7 @@ export function C12_BiologyPopulationInteractionsSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold mb-1">
                         <span className="text-slate-300">Soil Moisture:</span>
-                        <span className="text-sky-400 font-mono">{decompMoisture}%</span>
+                        <span className="text-gold-400 font-mono">{decompMoisture}%</span>
                       </div>
                       <input
                         type="range"
@@ -1572,7 +1572,7 @@ export function C12_BiologyPopulationInteractionsSim({
                         value={decompMoisture}
                         onChange={(e) => setDecompMoisture(Number(e.target.value))}
                         aria-label="Soil moisture percentage slider"
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -1659,9 +1659,9 @@ export function C12_BiologyPopulationInteractionsSim({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="p-4 bg-slate-950 rounded-2xl border border-indigo-500/30 space-y-2"
+                      className="p-4 bg-slate-950 rounded-2xl border border-gold-500/30 space-y-2"
                     >
-                      <p className="text-sm font-bold text-indigo-300">{OBSERVATION_QUESTIONS[0].question}</p>
+                      <p className="text-sm font-bold text-gold-300">{OBSERVATION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                           <motion.button
@@ -1778,7 +1778,7 @@ export function C12_BiologyPopulationInteractionsSim({
                     >
                       <div className="flex justify-between items-center">
                         <span className="text-xs font-bold text-slate-300 uppercase">PCR Thermal Cycler:</span>
-                        <span className="text-xs font-mono font-bold text-sky-400">{pcrTemp}°C</span>
+                        <span className="text-xs font-mono font-bold text-gold-400">{pcrTemp}°C</span>
                       </div>
 
                       <div className="grid grid-cols-3 gap-2">
@@ -1799,7 +1799,7 @@ export function C12_BiologyPopulationInteractionsSim({
                           onClick={() => setPcrTemp(55)}
                           aria-label="Set annealing 55 degrees"
                           className={`p-2 rounded-xl border text-xs font-bold transition-all ${
-                            pcrTemp <= 60 ? 'bg-indigo-950 border-indigo-500 text-indigo-200' : 'bg-slate-900 border-slate-800 text-slate-400'
+                            pcrTemp <= 60 ? 'bg-gold-950 border-gold-500 text-gold-200' : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
                           55°C Annealing
@@ -1829,7 +1829,7 @@ export function C12_BiologyPopulationInteractionsSim({
                           value={pcrCycles}
                           onChange={(e) => setPcrCycles(Number(e.target.value))}
                           aria-label="PCR cycles slider"
-                          className="w-full accent-sky-500 cursor-pointer"
+                          className="w-full accent-gold-500 cursor-pointer"
                         />
                       </div>
                     </motion.div>
@@ -1869,7 +1869,7 @@ export function C12_BiologyPopulationInteractionsSim({
                               key="blue-colony"
                               initial={{ scale: 0.5, opacity: 0 }}
                               animate={{ scale: 1, opacity: 1 }}
-                              className="w-16 h-16 rounded-full bg-blue-600 border-2 border-blue-400 shadow-lg flex items-center justify-center text-white font-bold text-xs"
+                              className="w-16 h-16 rounded-full bg-gold-600 border-2 border-gold-400 shadow-lg flex items-center justify-center text-white font-bold text-xs"
                             >
                               BLUE
                             </motion.div>
@@ -2026,11 +2026,11 @@ export function C12_BiologyPopulationInteractionsSim({
                 transition={{ delay: 0.1 }}
                 className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3"
               >
-                <p className="text-xs font-bold text-sky-400 uppercase">Population Allele Pool</p>
+                <p className="text-xs font-bold text-gold-400 uppercase">Population Allele Pool</p>
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-400">Dominant (p):</span>
-                    <span className="text-sky-400 font-mono">{alleleP.toFixed(2)}</span>
+                    <span className="text-gold-400 font-mono">{alleleP.toFixed(2)}</span>
                   </div>
                   <input
                     type="range"
@@ -2040,7 +2040,7 @@ export function C12_BiologyPopulationInteractionsSim({
                     value={alleleP}
                     onChange={(e) => setAlleleP(Number(e.target.value))}
                     aria-label="Sandbox allele p"
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
                 <div className="text-[11px] text-slate-300 font-mono">
@@ -2078,7 +2078,7 @@ export function C12_BiologyPopulationInteractionsSim({
 
             <div className="h-2 bg-slate-950 rounded-full overflow-hidden p-0.5 border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-sky-500 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2396,7 +2396,7 @@ export function C12_BiologyPopulationInteractionsSim({
                 whileHover={{ scale: 1.05 }}
                 className="px-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs font-mono"
               >
-                Mastery Level: <span className="text-sky-400 font-bold uppercase">{masteryLevel}</span>
+                Mastery Level: <span className="text-gold-400 font-bold uppercase">{masteryLevel}</span>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -2487,14 +2487,14 @@ export function C12_BiologyPopulationInteractionsSim({
 
               {/* Question 2 */}
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-sky-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
                   value={reflectionResponses.explain}
                   onChange={(e) => setReflectionResponses({ ...reflectionResponses, explain: e.target.value })}
                   placeholder="e.g., I would explain the rivet popper hypothesis like an airplane where rivets are species..."
-                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-sky-500 outline-none resize-none h-20"
+                  className="w-full p-3 bg-slate-950 border border-slate-700 rounded-xl text-xs text-slate-200 focus:border-gold-500 outline-none resize-none h-20"
                 />
               </div>
 

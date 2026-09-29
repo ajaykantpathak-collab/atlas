@@ -56,10 +56,10 @@ export function C9_ScienceDescribingMotionAroundUsSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Motion</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Motion</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Describing Motion Around Us: The 100 m Photo Finish</h1>
         </div>
-        <span className="px-3 py-1 text-xs font-bold rounded-full bg-sky-950 border border-sky-700 text-sky-300 font-mono">
+        <span className="px-3 py-1 text-xs font-bold rounded-full bg-gold-950 border border-gold-700 text-gold-300 font-mono">
           t = {t.toFixed(1)} s
         </span>
       </header>
@@ -77,18 +77,18 @@ export function C9_ScienceDescribingMotionAroundUsSim() {
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>B start speed</span>
-            <span className="text-sky-300 font-mono font-bold">{vB} m/s</span>
+            <span className="text-gold-300 font-mono font-bold">{vB} m/s</span>
           </label>
           <input type="range" min={0} max={10} value={vB} aria-label="runner B starting speed"
-            onChange={(e) => { setVB(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-sky-500" />
+            onChange={(e) => { setVB(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-gold-500" />
         </div>
         <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800">
           <label className="text-xs text-slate-400 flex justify-between">
             <span>B acceleration</span>
-            <span className="text-indigo-300 font-mono font-bold">{aB.toFixed(1)} m/s2</span>
+            <span className="text-gold-300 font-mono font-bold">{aB.toFixed(1)} m/s2</span>
           </label>
           <input type="range" min={0} max={2} step={0.1} value={aB} aria-label="runner B acceleration"
-            onChange={(e) => { setAB(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-indigo-500" />
+            onChange={(e) => { setAB(Number(e.target.value)); reset(); }} className="w-full mt-2 accent-gold-500" />
         </div>
         <button
           onClick={() => setRunning(!running)}
@@ -144,9 +144,9 @@ export function C9_ScienceDescribingMotionAroundUsSim() {
         {/* READOUTS */}
         <div className="md:col-span-2 space-y-3">
           <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-1 text-sm font-mono">
-            <p className="text-xs uppercase font-bold text-indigo-400 tracking-wider font-sans">Live data</p>
+            <p className="text-xs uppercase font-bold text-gold-400 tracking-wider font-sans">Live data</p>
             <p className="text-emerald-300">A: {posA.toFixed(1)} m at {vA} m/s (uniform)</p>
-            <p className="text-sky-300">B: {posB.toFixed(1)} m at {instB.toFixed(1)} m/s (changing)</p>
+            <p className="text-gold-300">B: {posB.toFixed(1)} m at {instB.toFixed(1)} m/s (changing)</p>
             <p className="text-slate-400">xA = v t = {vA} x {t.toFixed(1)}</p>
             <p className="text-slate-400">xB = u t + (1/2) a t^2</p>
           </div>
@@ -166,14 +166,14 @@ export function C9_ScienceDescribingMotionAroundUsSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> motion is described by distance covered per unit time. For uniform
+          <span className="font-bold text-gold-300">Big idea:</span> motion is described by distance covered per unit time. For uniform
           motion x = v t, a straight-line graph whose slope is the speed. With constant acceleration x = u t + (1/2) a t^2 and the
           instantaneous speed grows as v = u + a t, so the graph bends upward.
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Give B u = 0 and a = 1.0 m/s2 and find which A speed produces a dead heat (both cross 100 m at the same instant).</p>
         <p className="mt-1">2. Set aB = 0 so both runners are uniform, then explain what the graph looks like when A and B have equal speeds.</p>

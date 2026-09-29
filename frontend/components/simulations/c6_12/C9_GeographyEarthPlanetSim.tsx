@@ -1183,7 +1183,7 @@ function C9_GeographyEarthPlanetSim({
                 ? 'bg-emerald-950/70 border-emerald-600 text-emerald-300'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 border-rose-600 text-rose-300'
-                : 'bg-indigo-950/70 border-indigo-600 text-indigo-300'
+                : 'bg-gold-950/70 border-gold-600 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1204,9 +1204,9 @@ function C9_GeographyEarthPlanetSim({
             {/* Narrative Scenario Box */}
             <motion.div
               whileHover={{ scale: 1.005 }}
-              className="p-5 rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950/40 to-slate-900 border border-indigo-800/40 shadow-xl"
+              className="p-5 rounded-2xl bg-gradient-to-br from-slate-900 via-gold-950/40 to-slate-900 border border-gold-800/40 shadow-xl"
             >
-              <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm mb-1">
+              <div className="flex items-center gap-2 text-gold-400 font-bold text-sm mb-1">
                 <span aria-hidden="true">🛰️</span>
                 <span>{SCENARIO.title}</span>
               </div>
@@ -1277,7 +1277,7 @@ function C9_GeographyEarthPlanetSim({
                         ? i === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                           : 'bg-slate-900/60 border-slate-800 text-slate-500'
-                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500'
+                        : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500'
                     }`}
                   >
                     <div className="flex items-center justify-between">
@@ -1467,9 +1467,9 @@ function C9_GeographyEarthPlanetSim({
                           <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="p-3 bg-indigo-950/40 rounded-xl border border-indigo-800/40"
+                            className="p-3 bg-gold-950/40 rounded-xl border border-gold-800/40"
                           >
-                            <p className="text-xs font-bold text-indigo-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                            <p className="text-xs font-bold text-gold-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                             <div className="space-y-1.5">
                               {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                                 <motion.button
@@ -1542,8 +1542,8 @@ function C9_GeographyEarthPlanetSim({
                             <span className="text-[10px] text-amber-300 block">Temperate</span>
                             <span className="font-bold text-white">23.5° - 66.5°</span>
                           </div>
-                          <div className="p-2.5 bg-sky-950/40 rounded-lg border border-sky-800/40">
-                            <span className="text-[10px] text-sky-300 block">Frigid</span>
+                          <div className="p-2.5 bg-gold-950/40 rounded-lg border border-gold-800/40">
+                            <span className="text-[10px] text-gold-300 block">Frigid</span>
                             <span className="font-bold text-white">66.5° - 90°</span>
                           </div>
                         </div>
@@ -1557,8 +1557,8 @@ function C9_GeographyEarthPlanetSim({
                   <div className="space-y-4">
                     {/* Predict-Then-Check Interface */}
                     {!predictionMade && (
-                      <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/40 mb-4">
-                        <p className="text-xs font-bold text-indigo-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
+                      <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/40 mb-4">
+                        <p className="text-xs font-bold text-gold-300 mb-2">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-2">
                           {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                             <motion.button
@@ -1764,7 +1764,7 @@ function C9_GeographyEarthPlanetSim({
                         <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-xs space-y-1.5 font-mono">
                           {simEarthLayer === 'crust' && (
                             <>
-                              <p className="text-sky-400 font-bold">CRUST (5 - 30 km):</p>
+                              <p className="text-gold-400 font-bold">CRUST (5 - 30 km):</p>
                               <p className="text-slate-300">Continental: Sial (Silica + Alumina, 2.7 g/cm³)</p>
                               <p className="text-slate-300">Oceanic: Sima (Silica + Magnesium, 3.0 g/cm³)</p>
                             </>
@@ -1796,14 +1796,14 @@ function C9_GeographyEarthPlanetSim({
                             <button
                               aria-label="Set mountain force to Compression (Fold Mountains like Himalayas)"
                               onClick={() => handleMountainForceToggle('compress')}
-                              className={`px-2 py-1 rounded text-[11px] ${mountainForce === 'compress' ? 'bg-indigo-600 text-white font-bold' : 'bg-slate-800 text-slate-400'}`}
+                              className={`px-2 py-1 rounded text-[11px] ${mountainForce === 'compress' ? 'bg-gold-600 text-white font-bold' : 'bg-slate-800 text-slate-400'}`}
                             >
                               {mountainForce === 'compress' ? '✓ ' : ''}Compression (Fold: Himalayas)
                             </button>
                             <button
                               aria-label="Set mountain force to Faulting (Block Mountains like Vindhyas)"
                               onClick={() => handleMountainForceToggle('fault')}
-                              className={`px-2 py-1 rounded text-[11px] ${mountainForce === 'fault' ? 'bg-indigo-600 text-white font-bold' : 'bg-slate-800 text-slate-400'}`}
+                              className={`px-2 py-1 rounded text-[11px] ${mountainForce === 'fault' ? 'bg-gold-600 text-white font-bold' : 'bg-slate-800 text-slate-400'}`}
                             >
                               {mountainForce === 'fault' ? '✓ ' : ''}Faulting (Block: Vindhyas)
                             </button>
@@ -1881,7 +1881,7 @@ function C9_GeographyEarthPlanetSim({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {/* Sandbox Card 1: Rotational Velocity by Latitude */}
               <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <p className="text-xs font-bold text-sky-400">Rotational Speed Calculator</p>
+                <p className="text-xs font-bold text-gold-400">Rotational Speed Calculator</p>
                 <div>
                   <label htmlFor="rot-speed-slider" className="text-[11px] text-slate-400">Test Latitude: {rotationalSpeedLat}°</label>
                   <input
@@ -1892,12 +1892,12 @@ function C9_GeographyEarthPlanetSim({
                     max={90}
                     value={rotationalSpeedLat}
                     onChange={(e) => setRotationalSpeedLat(Number(e.target.value))}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 font-mono text-center">
                   <span className="text-[10px] text-slate-500 block">Linear Surface Velocity:</span>
-                  <span className="text-xl font-bold text-sky-300">{linearSpeedAtLatitude} km/h</span>
+                  <span className="text-xl font-bold text-gold-300">{linearSpeedAtLatitude} km/h</span>
                 </div>
               </div>
 
@@ -1956,7 +1956,7 @@ function C9_GeographyEarthPlanetSim({
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleAdvanceToChallenge}
-              className="w-full py-4 bg-gradient-to-r from-emerald-600 via-teal-600 to-indigo-600 text-white font-extrabold rounded-2xl shadow-xl shadow-emerald-950 text-center text-sm tracking-wider uppercase"
+              className="w-full py-4 bg-gradient-to-r from-emerald-600 via-teal-600 to-gold-600 text-white font-extrabold rounded-2xl shadow-xl shadow-emerald-950 text-center text-sm tracking-wider uppercase"
             >
               Ready for Examination Challenges! →
             </motion.button>
@@ -2060,7 +2060,7 @@ function C9_GeographyEarthPlanetSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
+                        className="px-3.5 py-2 bg-gold-700 hover:bg-gold-600 rounded-lg text-white text-xs font-bold cursor-grab active:cursor-grabbing shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2163,7 +2163,7 @@ function C9_GeographyEarthPlanetSim({
                         whileTap={{ scale: 0.99 }}
                         className="p-3.5 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs md:text-sm font-medium cursor-grab flex items-center gap-3"
                       >
-                        <span className="w-6 h-6 rounded-lg bg-indigo-900 text-indigo-300 flex items-center justify-center font-bold text-xs">
+                        <span className="w-6 h-6 rounded-lg bg-gold-900 text-gold-300 flex items-center justify-center font-bold text-xs">
                           {displayIndex + 1}
                         </span>
                         <span>{item}</span>
@@ -2212,7 +2212,7 @@ function C9_GeographyEarthPlanetSim({
                         key={i}
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        className="px-3 py-1 bg-indigo-900/80 border border-indigo-700 rounded-lg text-xs text-white flex items-center gap-2"
+                        className="px-3 py-1 bg-gold-900/80 border border-gold-700 rounded-lg text-xs text-white flex items-center gap-2"
                       >
                         <span>{part}</span>
                         <button
@@ -2317,7 +2317,7 @@ function C9_GeographyEarthPlanetSim({
               <h2 className="text-2xl md:text-3xl font-black text-white">Expedition Terra-Nav Completed!</h2>
               <p className="text-slate-300 text-sm max-w-lg mx-auto">
                 Final Assessment Score: <strong className="text-emerald-400 font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</strong> | Mastery Level:{' '}
-                <strong className="text-indigo-300 uppercase font-mono">{masteryLevel}</strong>
+                <strong className="text-gold-300 uppercase font-mono">{masteryLevel}</strong>
               </p>
             </div>
 
@@ -2370,7 +2370,7 @@ function C9_GeographyEarthPlanetSim({
 
             {/* Real World Geodesy Activity */}
             <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-              <h3 className="text-base font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-base font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
               <ul className="space-y-1.5 mt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((st, i) => (

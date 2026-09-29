@@ -1145,7 +1145,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
               className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${
                 difficulty === 'foundation' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40' :
                 difficulty === 'advanced' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' :
-                'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40'
+                'bg-gold-500/20 text-gold-300 border border-gold-500/40'
               }`}
             >
               Tier: {difficulty}
@@ -1274,7 +1274,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                     <div>
                       <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                         <span>💧 Abiotic Water Supply:</span>
-                        <span className="text-cyan-400">{waterLevel}%</span>
+                        <span className="text-gold-400">{waterLevel}%</span>
                       </div>
                       <input
                         type="range"
@@ -1283,13 +1283,13 @@ function C6_EVSEnvironmentBioticAbioticSim({
                         value={waterLevel}
                         onChange={e => handleWaterChange(Number(e.target.value))}
                         aria-label="Set water supply level"
-                        className="w-full accent-cyan-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
                   </div>
 
                   {/* SVG Living Plant & Photosynthesis Engine */}
-                  <div className="bg-gradient-to-b from-sky-950/60 to-slate-900 p-4 rounded-xl border border-slate-800 flex justify-center">
+                  <div className="bg-gradient-to-b from-gold-950/60 to-slate-900 p-4 rounded-xl border border-slate-800 flex justify-center">
                     <svg viewBox="0 0 500 240" className="w-full max-w-lg">
                       {/* Sun Representation */}
                       <motion.circle
@@ -1336,7 +1336,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Nutrient Uptake</p>
-                      <p className="text-base font-bold text-cyan-400">{waterLevel > 30 ? 'High' : 'Stunted'}</p>
+                      <p className="text-base font-bold text-gold-400">{waterLevel > 30 ? 'High' : 'Stunted'}</p>
                     </div>
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                       <p className="text-xs text-slate-400">Biotic Status</p>
@@ -1477,8 +1477,8 @@ function C6_EVSEnvironmentBioticAbioticSim({
                 <div className="space-y-4">
                   {/* Predict-Then-Check */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/50 rounded-xl border border-indigo-800 mb-2">
-                      <p className="text-xs font-bold text-indigo-300 mb-1">Scientific Prediction Challenge:</p>
+                    <div className="p-4 bg-gold-950/50 rounded-xl border border-gold-800 mb-2">
+                      <p className="text-xs font-bold text-gold-300 mb-1">Scientific Prediction Challenge:</p>
                       <p className="text-sm font-semibold text-white mb-3">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1506,7 +1506,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                   <div className="bg-slate-900 p-4 rounded-xl border border-slate-800">
                     <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                       <span>🌧️ Annual Monsoon Rainfall (cm):</span>
-                      <span className="text-cyan-400 font-extrabold">{rainfallAnnual} cm/year</span>
+                      <span className="text-gold-400 font-extrabold">{rainfallAnnual} cm/year</span>
                     </div>
                     <input
                       type="range"
@@ -1515,7 +1515,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                       value={rainfallAnnual}
                       onChange={e => handleRainfallChange(Number(e.target.value))}
                       aria-label="Set annual monsoon rainfall"
-                      className="w-full accent-cyan-400 cursor-pointer"
+                      className="w-full accent-gold-400 cursor-pointer"
                     />
                   </div>
 
@@ -1569,7 +1569,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                       </p>
                     </div>
                     <div className="p-3 bg-slate-950 rounded-lg border border-slate-800">
-                      <p className="text-xs font-bold text-cyan-400">Key Indian Staple Crops:</p>
+                      <p className="text-xs font-bold text-gold-400">Key Indian Staple Crops:</p>
                       <p className="text-sm font-semibold text-white mt-1">
                         {cropSeason === 'kharif' ? 'Paddy (Rice), Cotton, Maize, Jowar, Groundnut' : 'Wheat, Barley, Mustard, Gram, Peas'}
                       </p>
@@ -1649,7 +1649,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
             <div>
               <div className="flex justify-between text-xs font-bold text-slate-300 mb-1">
                 <span>💧 Rainfall/Water:</span>
-                <span className="text-cyan-400">{waterLevel}%</span>
+                <span className="text-gold-400">{waterLevel}%</span>
               </div>
               <input
                 type="range"
@@ -1658,7 +1658,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                 value={waterLevel}
                 onChange={e => handleWaterChange(Number(e.target.value))}
                 aria-label="Sandbox water slider"
-                className="w-full accent-cyan-400 cursor-pointer"
+                className="w-full accent-gold-400 cursor-pointer"
               />
             </div>
             <div>
@@ -1707,7 +1707,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
             </div>
             <div className="h-2.5 bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-700">
               <motion.div
-                className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400 rounded-full"
+                className="h-full bg-gradient-to-r from-emerald-500 to-gold-400 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1724,7 +1724,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-md font-mono text-cyan-300 border border-slate-700">
+              <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-md font-mono text-gold-300 border border-slate-700">
                 {challenge.nodeId}
               </span>
               <span className="text-xs px-2.5 py-1 bg-slate-800 rounded-md font-semibold text-emerald-300 border border-slate-700">
@@ -2032,7 +2032,7 @@ function C6_EVSEnvironmentBioticAbioticSim({
                 />
               </div>
               <div className="p-3.5 bg-slate-900/90 rounded-lg border border-slate-700/60">
-                <p className="text-xs font-bold text-cyan-300 mb-1.5">2. How would you explain this to a friend?</p>
+                <p className="text-xs font-bold text-gold-300 mb-1.5">2. How would you explain this to a friend?</p>
                 <textarea
                   value={reflection2}
                   onChange={e => setReflection2(e.target.value)}
@@ -2083,15 +2083,15 @@ function C6_EVSEnvironmentBioticAbioticSim({
           </div>
 
           {/* Real-World Activity Card */}
-          <div className="p-5 bg-indigo-950/50 rounded-xl border border-indigo-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-5 bg-gold-950/50 rounded-xl border border-gold-800 space-y-3">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📋</span> {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

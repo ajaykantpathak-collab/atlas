@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C8_ENG_GEN: SimDef[] = [
  {
   "id": "gen_c8_eng_ch01_p1",
-  "title": "Setting",
+  "title": "From 'English Chapter C8_engl_ch1'",
   "subtitle": "English · Chapter 1 · Part 1",
   "classLevel": 8,
   "mode": "senior",
   "subject": "english",
-  "topic": "Setting",
+  "topic": "From 'English Chapter C8_engl_ch1'",
   "chapters": [
-   "English Ch1: Setting"
+   "English Ch1: From 'English Chapter C8_engl_ch1'"
   ],
   "nodeIds": [
    "c8_engl_ch1_1",
@@ -36,36 +36,36 @@ export const C8_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Setting suddenly stops working?",
+   "question": "What happens if From 'English Chapter C8_engl_ch1' suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
     "Only textbooks would change"
    ],
    "answer": "Things around us change in noticeable ways",
-   "hook": "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire"
+   "hook": "From 'English chapter c8_engl_ch1': the skill or concept this node teaches, applied to the actual text."
   },
   "teaching": [
    {
-    "title": "Setting",
-    "text": "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya, the setting encompasses opulent royal courts, patronized arts, strict court",
+    "title": "From 'English Chapter C8_engl_ch1'",
+    "text": "From 'English chapter c8_engl_ch1': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of Tenali Ramakrishna As",
-    "text": "Character analysis of Tenali Ramakrishna as a witty advisor examines his defining personality traits—intellect, quick wit, diplomacy, and keen observation—demonstrating how he uses humor and clever strategy to solve complex problems and guide the King without",
+    "title": "From 'English Chapter C8_engl_ch1'",
+    "text": "From 'English chapter c8_engl_ch1': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of King Krishnadeva Raya",
-    "text": "Character analysis of King Krishnadeva Raya as a wise ruler involves examining his actions, decisions, and reactions in \"The Wit that Won Hearts\" to show how he balances royal authority with humility, self-reflection, and a deep appreciation for intellect and",
+    "title": "From 'English Chapter C8_engl_ch1'",
+    "text": "From 'English chapter c8_engl_ch1': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Plot",
+    "title": "Plot Is The Sequence Of Events",
     "text": "Plot is the sequence of events that make up a story, arranged in a cause-and-effect chain. The quarrel between King Krishnadeva Raya and Queen Thirumalambal is a specific conflict episode that serves as the inciting incident for the central problem Tenali",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -77,13 +77,13 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Wit",
+    "title": "Wit Is The Ability To Use Quick",
     "text": "Wit is the ability to use quick, inventive, and sharp intelligence, while humour is the quality of being amusing or light-hearted. When used in problem-solving, wit and humour serve as strategic tools that defuse high-tension conflicts, bypass fragile human",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Ashtadiggajas",
+    "title": "The Ashtadiggajas",
     "text": "The Ashtadiggajas (literally meaning \"eight elephants of the directions\") refers to the collective group of eight legendary Telugu poets and scholars who adorned the court of King Krishnadeva Raya of the Vijayanagara Empire.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -211,11 +211,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is a \"dynamic character,\" and would you classify King Krishnadeva Raya as one based on his actions in the story?",
     "answer": "A dynamic character is one who undergoes an internal change, growth, or development throughout a story",
     "options": [
-     "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
-     "Humour as a literary device is the use of wit, irony, exaggeration, or absurdity to amuse while also serving a narrative purpose such as character revelation, plot advancement",
+     "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya",
+     "The student can trace the sequence of events leading to the reconciliation of King Krishnadeva Raya and Queen Tirumalamba",
      "A dynamic character is one who undergoes an internal change, growth, or development throughout a story"
     ],
-    "hint": "Straight from the 'Character analysis of King' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student states that the King is a \"static\" or unchanging character, it reveals that they are only focusing on his royal status and are unable to track his emotional and behavioral shift from the beginning to the end of the narrative.",
     "id": "gen_c8_eng_ch01_p1_q3",
     "nodeId": "c8_engl_ch1_3",
@@ -232,11 +232,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the immediate cause of the quarrel between King Krishnadeva Raya and Queen Thirumalambal in the story?",
     "answer": "The quarrel begins over a trivial matter: the King casually remarks that the Queen's favourite flower (or dish/ornament) is not as special as she believes, hurting her pride",
     "options": [
-     "A dynamic character is one who undergoes an internal change, growth, or development throughout a story",
-     "The primary reason was a royal quarrel fueled by false pride and ego, where neither monarch wanted to compromise or risk losing face by making the first gesture of reconciliation",
+     "The student must be able to write a structured, evidence-based character analysis of King Krishnadeva Raya using the PEEL (Point, Evidence, Explanation, Link) method",
+     "Plot is the sequence of events that make up a story, arranged in a cause-and-effect chain",
      "The quarrel begins over a trivial matter: the King casually remarks that the Queen's favourite flower (or dish/ornament) is not as special as she believes, hurting her pride"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'Plot is the sequence of events' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a political dispute\" or \"money\") reveals the student is confusing this personal, domestic conflict with larger kingdom matters, missing the story's point that great conflicts can spring from petty ego.",
     "id": "gen_c8_eng_ch01_p1_q4",
     "nodeId": "c8_engl_ch1_4",
@@ -320,7 +320,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "A force-driven character would use commands, authority, or strict rules, which often escalates personal tensions and alienates royalty",
      "Authority or direct force relies on power to compel obedience, which often hurts pride and causes hidden resentment"
     ],
-    "hint": "Straight from the 'Wit' slide -- match the key terms.",
+    "hint": "Straight from the 'Wit is the ability to use quick' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Authority or direct force relies on power to compel obedience, which often hurts pride and causes hidden resentment;",
     "id": "gen_c8_eng_ch01_p1_q6",
     "nodeId": "c8_engl_ch1_6",
@@ -337,11 +337,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What does the term \"Ashtadiggajas\" literally mean, and whose royal court did they adorn?",
     "answer": "The term \"Ashtadiggajas\" literally means \"eight elephants in the eight directions\" (the pillars of the world)",
     "options": [
-     "The primary reason was a royal quarrel fueled by false pride and ego, where neither monarch wanted to compromise or risk losing face by making the first gesture of reconciliation",
-     "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
+     "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya",
+     "The student must be able to analyze Tenali Ramakrishna's character traits by citing textual evidence from his actions, dialogue, and strategies",
      "The term \"Ashtadiggajas\" literally means \"eight elephants in the eight directions\" (the pillars of the world)"
     ],
-    "hint": "Straight from the 'Ashtadiggajas' slide -- match the key terms.",
+    "hint": "Straight from the 'The Ashtadiggajas' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student simply says \"eight poets,\" they have missed the rich cosmological metaphor of the \"elephants\" as pillars of strength and support, showing they do not understand how literature was used to project imperial power.",
     "id": "gen_c8_eng_ch01_p1_q7",
     "nodeId": "c8_engl_ch1_7",
@@ -358,8 +358,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the definition of humour as a literary device in a narrative?",
     "answer": "Humour as a literary device is the use of wit, irony, exaggeration, or absurdity to amuse while also serving a narrative purpose such as character revelation, plot advancement",
     "options": [
-     "The primary reason was a royal quarrel fueled by false pride and ego, where neither monarch wanted to compromise or risk losing face by making the first gesture of reconciliation",
-     "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
+     "The student can rewrite a plain narrative passage into a witty retelling by incorporating at least two comic techniques (such as exaggerated reactions, ironic commentary",
+     "Students frequently mistake \"wit and humour\" for \"clowning around or distraction.\" They assume Tenali Ramakrishna is merely telling jokes or acting silly to make the King happy so",
      "Humour as a literary device is the use of wit, irony, exaggeration, or absurdity to amuse while also serving a narrative purpose such as character revelation, plot advancement"
     ],
     "hint": "Straight from the 'Humour as a literary device' slide -- match the key terms.",
@@ -379,8 +379,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "Define the word insurmountable and break it down into its prefix, root word, and suffix.",
     "answer": "*Insurmountable* means \"impossible to overcome.\" * Prefix: *in-* (not) * Root Word: *surmount* (to overcome or rise above) * Suffix: *-able* (capable of) What a wrong answer",
     "options": [
-     "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
-     "A dynamic character is one who undergoes an internal change, growth, or development throughout a story",
+     "The student can identify textual details describing the physical, historical, and cultural backdrop of the Vijayanagara court under Krishnadeva Raya and explain step-by-step how",
+     "The student must be able to analyze Tenali Ramakrishna's character traits by citing textual evidence from his actions, dialogue, and strategies",
      "*Insurmountable* means \"impossible to overcome.\" * Prefix: *in-* (not) * Root Word: *surmount* (to overcome or rise above) * Suffix: *-able* (capable of) What a wrong answer"
     ],
     "hint": "Straight from the 'Vocabulary in Context involves' slide -- match the key terms.",
@@ -404,7 +404,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The student's claim is incorrect. In classical court poetry, hyperbole is not a sign of lying, but a key literary tool used to build a tone of reverence",
      "The claim is inaccurate. While interpersonal conflicts exist everywhere, the high stakes of absolute royal power, palace decorum"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "If a student agrees with the claim, they reveal an inability to evaluate how historical setting dictates the magnitude of stakes, power dynamics, and resolution tools in literature.",
     "id": "gen_c8_eng_ch01_p1_q10",
     "nodeId": "c8_engl_ch1_1",
@@ -419,7 +419,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "Line A uses a metaphor (\"wit is a double-edged sword\") to highlight the *dual function* of wit—that it can both protect the king and cut down foolish court opponents",
      "The Vijayanagara court under Krishnadeva Raya was renowned for intellectual flourishing, art patronage, and the presence of the *Ashtadiggajas* (eight great court poets)"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "If a student answers that Tenali could do this anywhere without royalty, they fail to analyze how the specific cultural value placed on literary intellect in Krishnadeva Raya's court enabled his unique role.",
     "id": "gen_c8_eng_ch01_p1_q11",
     "nodeId": "c8_engl_ch1_1",
@@ -434,7 +434,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The statement is incorrect because rhythm depends on the pattern of stressed and unstressed syllables and line movement, not on end-rhymes",
      "The description uses details like \"towering carved granite pillars\" and \"hushed silence\" to create a grand, formal, and highly serious atmosphere"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "If a student says \"it shows the palace was noisy,\" they misunderstand how descriptive words like \"hushed silence\" and \"towering pillars\" create a specific respectful atmosphere.",
     "id": "gen_c8_eng_ch01_p1_q12",
     "nodeId": "c8_engl_ch1_1",
@@ -449,7 +449,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The description uses details like \"towering carved granite pillars\" and \"hushed silence\" to create a grand, formal, and highly serious atmosphere",
      "Step 1: Identify setting context—16th-century royal court with absolute monarchical authority and strict protocols"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "If a student suggests shouting or arguing directly, they fail to apply historical setting constraints on character speech and social hierarchy.",
     "id": "gen_c8_eng_ch01_p1_q13",
     "nodeId": "c8_engl_ch1_1",
@@ -460,13 +460,43 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What are the three main components that make up the setting of a literary story set in a historical kingdom like Vijayanagara?",
     "answer": "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
     "options": [
-     "The line contains Hyperbole (\"shattered the moon into a thousand silver pieces\" — an physically impossible exaggeration of sound volume) and a Simile (\"freeze like ice\")",
-     "When Tenali tells the king that the queen's anger is so great she could \"drink the ocean dry,\" he uses hyperbole to make the king visualize the depth of her hurt without directly",
+     "Humour as a literary device is the deliberate use of wit, irony, exaggeration, or absurdity to amuse the reader while simultaneously revealing character traits",
+     "Humour as a literary device is the use of wit, irony, exaggeration, or absurdity to amuse while also serving a narrative purpose such as character revelation, plot advancement",
      "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "If a student only mentions \"a palace in India,\" it reveals they confuse setting purely with physical location, ignoring time and socio-cultural context.",
     "id": "gen_c8_eng_ch01_p1_q14",
+    "nodeId": "c8_engl_ch1_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Setting? State the definition given in this lesson.",
+    "answer": "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya",
+    "options": [
+     "The quarrel begins over a trivial matter: the King casually remarks that the Queen's favourite flower (or dish/ornament) is not as special as she believes, hurting her pride",
+     "Plot is the sequence of events that make up a story, arranged in a cause-and-effect chain",
+     "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya"
+    ],
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set",
+    "id": "gen_c8_eng_ch01_p1_q15",
+    "nodeId": "c8_engl_ch1_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify textual details describing the physical, historical, and cultural backdrop of the Vijayanagara court under Krishnadeva Raya and explain step-by-step how",
+    "options": [
+     "A dynamic character is one who undergoes an internal change, growth, or development throughout a story",
+     "The quarrel begins over a trivial matter: the King casually remarks that the Queen's favourite flower (or dish/ornament) is not as special as she believes, hurting her pride",
+     "The student can identify textual details describing the physical, historical, and cultural backdrop of the Vijayanagara court under Krishnadeva Raya and explain step-by-step how"
+    ],
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify textual details describing the physical, historical, and cultural backdrop of the Vijayanagara",
+    "id": "gen_c8_eng_ch01_p1_q16",
     "nodeId": "c8_engl_ch1_1",
     "difficulty": "advanced"
    },
@@ -479,9 +509,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "Line B carries a tone of admiration. Steps to solve: 1. Look at the adjectives: Line B uses \"silver tongue\" (meaning eloquent speech) and \"peerless grace\" (meaning unmatched",
      "A strong answer might read: \"Flickering bronze lamps illuminated the vast marble hall, casting golden light upon the silk robes of gathered scholars and nobles"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "A weak answer will lack specific sensory details (e.g., \"The king was sitting in his palace. It was night time. People were happy.\") showing a failure to actively construct a rich literary setting.",
-    "id": "gen_c8_eng_ch01_p1_q15",
+    "id": "gen_c8_eng_ch01_p1_q17",
     "nodeId": "c8_engl_ch1_1",
     "difficulty": "advanced"
    },
@@ -494,38 +524,8 @@ export const C8_ENG_GEN: SimDef[] = [
      "Humour refers generally to anything funny or amusing, whereas 'wit' specifically refers to mental sharpness, clever wordplay, quick thinking",
      "A force-driven character would use commands, authority, or strict rules, which often escalates personal tensions and alienates royalty"
     ],
-    "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch1'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student suggests force is better because it is direct, it shows an inability to analyze how character approach influences narrative outcomes in interpersonal conflicts.",
-    "id": "gen_c8_eng_ch01_p1_q16",
-    "nodeId": "c8_engl_ch1_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a short 2-line dialogue where Tenali Ramakrishna gently corrects a proud nobleman who claims, \"My wealth makes me wiser than any scholar in Vijayanagara!\"",
-    "answer": "Expected Answer: Tenali might reply, \"Indeed, My Lord! Just as a heavy bag of gold makes a donkey walk with great dignity, wealth surely lifts your status higher every step!",
-    "options": [
-     "A witty revision would include sharp dialogue or clever commentary, such as: \"The guard puffed out his chest and declared, 'None may enter without my permission!",
-     "A good response provides 4 lines where lines 1 and 2 end with matching sound 'A', lines 3 and 4 end with matching sound 'B', each line contains 8 syllables",
-     "Expected Answer: Tenali might reply, \"Indeed, My Lord! Just as a heavy bag of gold makes a donkey walk with great dignity, wealth surely lifts your status higher every step!"
-    ],
-    "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
-    "misconception": "a poor answer reveals:* If the student writes a direct insult (\"No, you are stupid\") or an unfunny response, it shows they have not mastered creating tone and dialogue that reflect Tenali's characteristic subtle, double-edged wit.",
-    "id": "gen_c8_eng_ch01_p1_q17",
-    "nodeId": "c8_engl_ch1_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the statement: \"Tenali Ramakrishna's wit is a shield that protects him from the King's royal wrath.\" Do you agree or disagree? Justify your answer using evidence from his role as an advisor.",
-    "answer": "Agreed. Tenali's humor acts as a protective shield because kings rarely punish someone while laughing",
-    "options": [
-     "Necessary. Without the quarrel, there is no stakes: Tenali's wit would be mere entertainment, not diplomacy",
-     "I disagree with this statement. Seeking and accepting advice does not make a ruler weak; it proves their wisdom",
-     "Agreed. Tenali's humor acts as a protective shield because kings rarely punish someone while laughing"
-    ],
-    "hint": "Straight from the 'Character analysis of Tenali' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* If a student disagrees by claiming humor is useless in politics, it demonstrates a failure to evaluate how tone and delivery affect communication dynamics in courtly literature.",
     "id": "gen_c8_eng_ch01_p1_q18",
     "nodeId": "c8_engl_ch1_2",
     "difficulty": "advanced"
@@ -533,11 +533,11 @@ export const C8_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about setting?",
+    "What surprised you about from 'english chapter c8_engl_ch1'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Setting mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -610,7 +610,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Metaphor",
+    "title": "A Metaphor Is a Figure",
     "text": "A metaphor is a figure of speech that directly equates two unrelated things to transfer qualities from one to the other (without using \"like\" or \"as\"), while a hyperbole is deliberate, extreme exaggeration used to emphasize a point or evoke strong emotion.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -634,8 +634,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What was the primary reason for the prolonged silence between King Krishnadeva Raya and Queen Tirumalamba before Tenali intervened?",
     "answer": "The primary reason was a royal quarrel fueled by false pride and ego, where neither monarch wanted to compromise or risk losing face by making the first gesture of reconciliation",
     "options": [
-     "The quarrel begins over a trivial matter: the King casually remarks that the Queen's favourite flower (or dish/ornament) is not as special as she believes, hurting her pride",
-     "A dynamic character is one who undergoes an internal change, growth, or development throughout a story",
+     "The student can trace the sequence of events leading to the reconciliation of King Krishnadeva Raya and Queen Tirumalamba",
+     "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya",
      "The primary reason was a royal quarrel fueled by false pride and ego, where neither monarch wanted to compromise or risk losing face by making the first gesture of reconciliation"
     ],
     "hint": "Straight from the 'Comprehension of narrative' slide -- match the key terms.",
@@ -722,7 +722,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "Direct confrontation openly accuses a person of being wrong, which triggers defensiveness and anger",
      "Humour refers generally to anything funny or amusing, whereas 'wit' specifically refers to mental sharpness, clever wordplay, quick thinking"
     ],
-    "hint": "Straight from the 'Retelling a story with wit and' slide -- match the key terms.",
+    "hint": "Straight from the 'Retelling a story with wit' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Humour refers generally to anything funny or amusing, whereas 'wit' specifically refers to mental sharpness, clever",
     "id": "gen_c8_eng_ch01_p2_q3",
     "nodeId": "c8_engl_ch1_12",
@@ -760,9 +760,9 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What letter notation represents a four-line stanza where the first line rhymes with the third line, and the second line rhymes with the fourth line?",
     "answer": "The correct letter notation is ABAB",
     "options": [
-     "The quarrel begins over a trivial matter: the King casually remarks that the Queen's favourite flower (or dish/ornament) is not as special as she believes, hurting her pride",
-     "The term \"Ashtadiggajas\" literally means \"eight elephants in the eight directions\" (the pillars of the world)",
-     "The correct letter notation is Reasoning",
+     "The student can identify textual details describing the physical, historical, and cultural backdrop of the Vijayanagara court under Krishnadeva Raya and explain step-by-step how",
+     "The student must be able to analyze Tenali Ramakrishna's character traits by citing textual evidence from his actions, dialogue, and strategies",
+     "The correct letter notation is Agreed",
      "The correct letter notation is ABAB"
     ],
     "hint": "Straight from the 'Rhyme scheme' slide -- match the key terms.",
@@ -786,7 +786,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "A force-driven character would use commands, authority, or strict rules, which often escalates personal tensions and alienates royalty",
      "A simile compares two things using comparison words such as \"like\" or \"as\" (e.g., \"The king is as brave as a lion\")"
     ],
-    "hint": "Straight from the 'metaphor' slide -- match the key terms.",
+    "hint": "Straight from the 'A metaphor is a figure' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks metaphors also use \"like\" or \"as,\" they are confusing similes with metaphors and missing the direct equivalence that defines a metaphor.",
     "id": "gen_c8_eng_ch01_p2_q6",
     "nodeId": "c8_engl_ch1_15",
@@ -901,6 +901,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can trace the sequence of events leading to the reconciliation of King Krishnadeva Raya and Queen Tirumalamba",
+    "options": [
+     "The three main components are physical place (the geography, palace, courtrooms), time period (the historical era, such as the 16th century during Krishnadeva Raya's rule)",
+     "Setting refers to the time, place, and socio-cultural environment in which a story occurs; in historical narratives set in the Vijayanagara Empire under King Krishnadeva Raya",
+     "The student can trace the sequence of events leading to the reconciliation of King Krishnadeva Raya and Queen Tirumalamba"
+    ],
+    "hint": "Straight from the 'Comprehension of narrative' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can trace the sequence of events leading to the reconciliation of King Krishnadeva Raya and Queen",
+    "id": "gen_c8_eng_ch01_p2_q13",
+    "nodeId": "c8_engl_ch1_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Why did Tenali Ramakrishna use a humorous setup rather than openly advising King Krishnadeva Raya to apologize to the Queen?",
     "answer": "Tenali recognized that giving direct advice to an absolute monarch would insult the King's authority and cause defensive anger",
     "options": [
@@ -910,7 +925,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Comprehension of narrative' slide -- match the key terms.",
     "misconception": "A wrong answer stating Tenali was simply afraid of being executed ignores the diplomatic function of court humor and character intelligence.*",
-    "id": "gen_c8_eng_ch01_p2_q13",
+    "id": "gen_c8_eng_ch01_p2_q14",
     "nodeId": "c8_engl_ch1_10",
     "difficulty": "advanced"
    },
@@ -925,7 +940,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student disagrees by arguing that force is permanent because a defeated enemy cannot fight back, they misunderstand the nature of diplomacy, which aims for sustainable peace rather than suppressed hostility.",
-    "id": "gen_c8_eng_ch01_p2_q14",
+    "id": "gen_c8_eng_ch01_p2_q15",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
    },
@@ -940,7 +955,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If the student states that the ruler's method was better because it was direct, they fail to apply the principle that self-realization through wit creates superior diplomatic outcomes compared to coercive commands.",
-    "id": "gen_c8_eng_ch01_p2_q15",
+    "id": "gen_c8_eng_ch01_p2_q16",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
    },
@@ -955,7 +970,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If the student simply summarizes the story's plot without contrasting the *emotional and diplomatic effects* of the two approaches, they struggle with textual analysis and comparative breakdown.",
-    "id": "gen_c8_eng_ch01_p2_q16",
+    "id": "gen_c8_eng_ch01_p2_q17",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
    },
@@ -970,21 +985,6 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
     "misconception": "a poor answer reveals:* If the student suggests threatening economic blockades, sending armies, or simply ordering one nation to surrender the water, they have reverted to force/coercion rather than creative diplomatic wit.",
-    "id": "gen_c8_eng_ch01_p2_q17",
-    "nodeId": "c8_engl_ch1_11",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "What is the primary difference between using 'force' and using 'wit' to resolve a conflict?",
-    "answer": "'Force' relies on power, threats, authority, or physical strength to compel obedience, whereas 'wit' relies on intelligence, tact, humor",
-    "options": [
-     "The first episode uses verbal wit/riddle to establish Tenali's intelligence and earn his place in court (character introduction)",
-     "Humour refers generally to anything funny or amusing, whereas 'wit' specifically refers to mental sharpness, clever wordplay, quick thinking",
-     "'Force' relies on power, threats, authority, or physical strength to compel obedience, whereas 'wit' relies on intelligence, tact, humor"
-    ],
-    "hint": "Straight from the 'Wit versus force as tools of' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* If a student defines wit simply as \"telling jokes\" or force as \"only fighting in wars,\" they lack a broad conceptual understanding of these terms as diplomatic tools in human relationships and conflict resolution.",
     "id": "gen_c8_eng_ch01_p2_q18",
     "nodeId": "c8_engl_ch1_11",
     "difficulty": "advanced"
@@ -1046,8 +1046,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Character Analysis Of Major Somnath Sharma",
-    "text": "Character analysis of Major Somnath Sharma involves examining his traits (such as bravery, leadership, patriotism) as revealed through his actions, decisions, and words during the Battle of Badgam, and explaining how these traits exemplify the qualities of a",
+    "title": "From 'English Chapter C8_engl_ch2'",
+    "text": "From 'English chapter c8_engl_ch2': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
@@ -1058,7 +1058,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Plot",
+    "title": "Plot Is The Sequence Of Causally",
     "text": "Plot is the sequence of causally linked events that form the narrative structure of a story, including exposition (introduction of characters, setting, and conflict), rising action (escalating challenges), climax (the turning point of highest tension),",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
@@ -1070,7 +1070,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Theme",
+    "title": "Theme: Sacrifice",
     "text": "Theme: Sacrifice, Patriotism, and Duty refers to the central idea that individuals may give up personal safety, comfort, or desires (sacrifice) out of love for their country (patriotism) and a sense of responsibility to protect others (duty).",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1100,8 +1100,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What was the immediate trigger for India's military intervention in Jammu and Kashmir in October 1947?",
     "answer": "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
     "options": [
-     "First-person narrative uses pronouns like I, me, my, we, us, our",
-     "The Param Vir Chakra is India's highest military decoration awarded for the most conspicuous bravery or daring or pre-eminent act of valour or self-sacrifice in the presence of",
+     "Students can analyze how specific geographical features of the Badgam setting (e.g., elevation, proximity to Srinagar airport",
+     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
      "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar"
     ],
     "hint": "Straight from the 'historical context of the Kashmir' slide -- match the key terms.",
@@ -1121,11 +1121,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the first step in analyzing a character's traits from a text?",
     "answer": "The first step is to identify specific actions, speech, or thoughts of the character described in the text",
     "options": [
-     "First-person narrative uses pronouns like I, me, my, we, us, our",
-     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
+     "The first step is to identify the central theme (valour) in both texts by reading each carefully and noting how the theme is presented",
+     "Students will be able to explain the significance of the Param Vir Chakra by analyzing its criteria, connecting it to specific acts of valour in the text",
      "The first step is to identify specific actions, speech, or thoughts of the character described in the text"
     ],
-    "hint": "Straight from the 'Character analysis of Major' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"List the character's age and birthplace first\" reveals the student is confusing character analysis with biographical facts, missing that traits are inferred from behavior in context, not static details.",
     "id": "gen_c8_eng_ch02_p1_q2",
     "nodeId": "c8_engl_ch2_2",
@@ -1205,11 +1205,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What are the five standard stages of a plot diagram, in correct order?",
     "answer": "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
     "options": [
-     "Imagery is descriptive language that appeals to the five senses (e.g., \"the river murmured\" – auditory imagery from Class 6 'The Day the River Spoke')",
-     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
+     "The student must be able to write a structured character analysis paragraph (using PEEL: Point, Evidence, Explanation",
+     "Badgam's elevation—its position on rising ground approximately 6 km west of Srinagar airport—provided a commanding view of the airport approaches",
      "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'Plot is the sequence of causally' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., listing \"Introduction, Conflict, Ending\" or missing Rising Action) reveals the student remembers generic story parts but not the precise structural vocabulary needed to analyze a complex historical narrative where multiple small engagements form the rising action.",
     "id": "gen_c8_eng_ch02_p1_q4",
     "nodeId": "c8_engl_ch2_4",
@@ -1226,8 +1226,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the Param Vir Chakra?",
     "answer": "The Param Vir Chakra is India's highest military decoration awarded for the most conspicuous bravery or daring or pre-eminent act of valour or self-sacrifice in the presence of",
     "options": [
-     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
-     "The story mentions the Kumaon Regiment to show how its history and traditions influenced Major Somnath Sharma's bravery and sense of duty during the Battle of Badgam",
+     "The student can map the Battle of Badgam onto a five-stage plot diagram, identify the specific tactical decisions that constitute the rising action and climax",
+     "Theme: Sacrifice, Patriotism, and Duty refers to the central idea that individuals may give up personal safety, comfort",
      "The Param Vir Chakra is India's highest military decoration awarded for the most conspicuous bravery or daring or pre-eminent act of valour or self-sacrifice in the presence of"
     ],
     "hint": "Straight from the 'Param Vir Chakra' slide -- match the key terms.",
@@ -1251,7 +1251,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The trait is loyalty or courage. Evidence: guarding the bridge despite retreat order. Explanation: This shows he prioritizes his duty over personal safety",
      "The theme is the central idea or underlying message that the author explores through the story, characters, and events"
     ],
-    "hint": "Straight from the 'Theme' slide -- match the key terms.",
+    "hint": "Straight from the 'Theme: Sacrifice' slide -- match the key terms.",
     "misconception": "A wrong answer such as “the theme is the setting of the story” reveals the student confuses theme with setting, indicating they need to revisit how theme differs from story elements like time and place.",
     "id": "gen_c8_eng_ch02_p1_q6",
     "nodeId": "c8_engl_ch2_6",
@@ -1342,8 +1342,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What pronouns identify a text as using first-person narrative?",
     "answer": "First-person narrative uses pronouns like I, me, my, we, us, our",
     "options": [
-     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
-     "Badgam's elevation—its position on rising ground approximately 6 km west of Srinagar airport—provided a commanding view of the airport approaches",
+     "The first step is to read the sentence containing the word carefully to look for context clues",
+     "Students must be able to write a structured answer (using PEEL: Point, Evidence, Explanation",
      "First-person narrative uses pronouns like I, me, my, we, us, our"
     ],
     "hint": "Straight from the 'First-person narrative' slide -- match the key terms.",
@@ -1363,8 +1363,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the very first thing you should do when you come across an unfamiliar word while reading a passage?",
     "answer": "The first step is to read the sentence containing the word carefully to look for context clues",
     "options": [
-     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
-     "Badgam's elevation—its position on rising ground approximately 6 km west of Srinagar airport—provided a commanding view of the airport approaches",
+     "The student can identify the poet’s tone in a patriotic poem, trace how specific word choices (diction) and imagery shape that tone across stanzas, distinguish tone from mood",
+     "The student must be able to identify first-person pronouns and patriotic language in a text",
      "The first step is to read the sentence containing the word carefully to look for context clues"
     ],
     "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
@@ -1502,6 +1502,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students must be able to explain the sequence of events leading to Operation Gulmarg, identify key geopolitical factors (like the Instrument of Accession)",
+    "options": [
+     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
+     "The student must be able to identify first-person pronouns and patriotic language in a text",
+     "Students must be able to explain the sequence of events leading to Operation Gulmarg, identify key geopolitical factors (like the Instrument of Accession)"
+    ],
+    "hint": "Straight from the 'historical context of the Kashmir' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students must be able to explain the sequence of events leading to Operation Gulmarg, identify key geopolitical factors",
+    "id": "gen_c8_eng_ch02_p1_q16",
+    "nodeId": "c8_engl_ch2_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Compare how Major Somnath Sharma's actions in the Battle of Badgam and Jahnavi's actions in \"The Day the River Spoke\" (from Class 6) both show courage, but in different ways.",
     "answer": "Major Somnath Sharma showed courage by staying to fight in a military battle despite overwhelming odds, risking his life for national duty",
     "options": [
@@ -1509,9 +1524,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "Holding the defensive position allowed soldiers to use terrain for cover and force attackers into exposed uphill assaults",
      "Major Somnath Sharma showed courage by staying to fight in a military battle despite overwhelming odds, risking his life for national duty"
     ],
-    "hint": "Straight from the 'Character analysis of Major' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"Both showed the same type of physical courage\" reveals the student fails to recognize that courage manifests differently based on context—ignoring how Jahnavi's courage was social/moral while Sharma's was physical/military.",
-    "id": "gen_c8_eng_ch02_p1_q16",
+    "id": "gen_c8_eng_ch02_p1_q17",
     "nodeId": "c8_engl_ch2_2",
     "difficulty": "advanced"
    },
@@ -1524,23 +1539,8 @@ export const C8_ENG_GEN: SimDef[] = [
      "Sentence: “I will not withdraw but will fight till the last man and the last round.” Explanation: This sentence shows duty because he states his obligation to hold the position",
      "Example: \"Men, we are the last line of defense for Srinagar. If we fall, the city falls. Hold your fire until you see the whites of their eyes"
     ],
-    "hint": "Straight from the 'Character analysis of Major' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A poor answer like \"Let's fight hard!\" reveals the student lacks specific textual grounding—missing patriotic/tactical elements that would reflect Sharma's actual character as depicted in the text.",
-    "id": "gen_c8_eng_ch02_p1_q17",
-    "nodeId": "c8_engl_ch2_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Given a new scenario: A soldier in a story continues to guard a bridge even after his commander orders retreat, knowing he might not survive. Using the same method as for Major Somnath Sharma, what trait would you infer and what evidence supports it?",
-    "answer": "The trait is loyalty or courage. Evidence: guarding the bridge despite retreat order. Explanation: This shows he prioritizes his duty over personal safety",
-    "options": [
-     "Disagree. While subjective, first-person reveals genuine emotional truth—like a soldier writing",
-     "The claim is unfounded because his actions delayed the enemy, allowing reinforcements to arrive and ultimately saving Srinagar Airport",
-     "The trait is loyalty or courage. Evidence: guarding the bridge despite retreat order. Explanation: This shows he prioritizes his duty over personal safety"
-    ],
-    "hint": "Straight from the 'Character analysis of Major' slide -- match the key terms.",
-    "misconception": "A wrong answer like \"The trait is kindness\" or stating the trait without linking evidence reveals the student is not applying the analysis method—either inventing unrelated traits or skipping the explanation step that connects action to trait.",
     "id": "gen_c8_eng_ch02_p1_q18",
     "nodeId": "c8_engl_ch2_2",
     "difficulty": "advanced"
@@ -1601,13 +1601,13 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Critical Thinking In This Context",
-    "text": "Critical thinking in this context means analyzing the concepts of valour and sacrifice by examining Major Somnath Sharma's actions in the Battle of Badgam, evaluating their deeper meaning beyond surface-level bravery, and connecting them to broader themes of",
+    "title": "From 'English Chapter C8_engl_ch2'",
+    "text": "From 'English chapter c8_engl_ch2': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Tribute",
+    "title": "Tribute Is a Structured Piece Of Writing",
     "text": "A tribute is a structured piece of writing (speech, essay, or article) that honours a national hero by combining verified facts about their deeds with emotive language to inspire the reader, moving beyond a simple biography to highlight the *significance* of",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -1649,8 +1649,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What was the approximate ratio of Indian soldiers to infiltrators in the Battle of Badgam?",
     "answer": "The ratio was approximately 1:5.5 (90 soldiers to 500 infiltrators)",
     "options": [
-     "The story mentions the Kumaon Regiment to show how its history and traditions influenced Major Somnath Sharma's bravery and sense of duty during the Battle of Badgam",
-     "Badgam's elevation—its position on rising ground approximately 6 km west of Srinagar airport—provided a commanding view of the airport approaches",
+     "The student can write a 5-6 sentence summary that identifies the poem's setting, speaker, central conflict, progression of ideas, and concluding message about soldiers' sacrifice",
+     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
      "The ratio was approximately 1:5.5 (90 soldiers to 500 infiltrators)"
     ],
     "hint": "Straight from the 'Comprehension of historical' slide -- match the key terms.",
@@ -1674,7 +1674,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "A poet might use AAAA to create a hypnotic, insistent rhythm that emphasizes a single, powerful idea (like unyielding courage)",
      "Bravery is facing danger without fear, while valour involves courageous action taken for a noble cause or to protect others, often involving personal sacrifice"
     ],
-    "hint": "Straight from the 'Critical thinking in this context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A student who says \"bravery and valour mean the same thing\" reveals a misunderstanding that valour requires an element of selfless sacrifice for others or a higher purpose, not just personal courage.",
     "id": "gen_c8_eng_ch02_p2_q2",
     "nodeId": "c8_engl_ch2_11",
@@ -1695,7 +1695,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "A poet might use AAAA to create a hypnotic, insistent rhythm that emphasizes a single, powerful idea (like unyielding courage)",
      "A biography aims for a comprehensive, chronological, and objective account of a person's entire life"
     ],
-    "hint": "Straight from the 'tribute' slide -- match the key terms.",
+    "hint": "Straight from the 'tribute is a structured piece of' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"a tribute is shorter\") reveals the student confuses *length* with *purpose*; they haven't grasped that a tribute is an argument about the hero's meaning, not a summary of their timeline.",
     "id": "gen_c8_eng_ch02_p2_q3",
     "nodeId": "c8_engl_ch2_12",
@@ -1712,8 +1712,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of a poem summary, and how does it differ from a paraphrase?",
     "answer": "A poem summary captures the main ideas, narrative arc, and central message in the student's own words, condensing the poem's essence",
     "options": [
-     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
-     "The Param Vir Chakra is India's highest military decoration awarded for the most conspicuous bravery or daring or pre-eminent act of valour or self-sacrifice in the presence of",
+     "Badgam's elevation—its position on rising ground approximately 6 km west of Srinagar airport—provided a commanding view of the airport approaches",
+     "Students can analyze how specific geographical features of the Badgam setting (e.g., elevation, proximity to Srinagar airport",
      "A poem summary captures the main ideas, narrative arc, and central message in the student's own words, condensing the poem's essence"
     ],
     "hint": "Straight from the 'poem summary condenses the' slide -- match the key terms.",
@@ -1754,8 +1754,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "Define 'imagery' and 'symbolism' in your own words, and give one example of each from any poem you have studied in Class 6 or 7.",
     "answer": "Imagery is descriptive language that appeals to the five senses (e.g., \"the river murmured\" – auditory imagery from Class 6 'The Day the River Spoke')",
     "options": [
-     "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution",
-     "The Param Vir Chakra is India's highest military decoration awarded for the most conspicuous bravery or daring or pre-eminent act of valour or self-sacrifice in the presence of",
+     "The student can independently identify specific images and symbols in the war poem, explain their literal and figurative meanings",
+     "Vocabulary in context is the strategy of using surrounding words, sentences, or paragraphs to infer the meaning of an unfamiliar word by examining clues such as definitions",
      "Imagery is descriptive language that appeals to the five senses (e.g., \"the river murmured\" – auditory imagery from Class 6 'The Day the River Spoke')"
     ],
     "hint": "Straight from the 'Imagery in war poetry uses vivid' slide -- match the key terms.",
@@ -1775,8 +1775,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the poetic definition of 'tone'? A) The reader's personal emotional reaction to the poem. B) The poet's attitude toward the subject or audience, conveyed through word choice and imagery.",
     "answer": "B Option B is correct because tone strictly refers to the speaker's or poet's attitude toward the theme or topic",
     "options": [
-     "Imagery is descriptive language that appeals to the five senses (e.g., \"the river murmured\" – auditory imagery from Class 6 'The Day the River Spoke')",
-     "A poem summary captures the main ideas, narrative arc, and central message in the student's own words, condensing the poem's essence",
+     "The student can independently identify specific images and symbols in the war poem, explain their literal and figurative meanings",
+     "First-person narrative is a storytelling perspective where the narrator uses \"I\" or \"we\" to share personal experiences and thoughts directly",
      "B Option B is correct because tone strictly refers to the speaker's or poet's attitude toward the theme or topic"
     ],
     "hint": "Straight from the 'tone of a poem' slide -- match the key terms.",
@@ -1796,11 +1796,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the first step when writing a comparison between a prose passage and a poem on the same theme?",
     "answer": "The first step is to identify the central theme (valour) in both texts by reading each carefully and noting how the theme is presented",
     "options": [
-     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
-     "The first step is to identify specific actions, speech, or thoughts of the character described in the text",
+     "A poem summary captures the main ideas, narrative arc, and central message in the student's own words, condensing the poem's essence",
+     "Students will be able to write a well-organized comparison (using PEEL: Point, Evidence, Explanation, Link) of a prose passage and a poem on valour",
      "The first step is to identify the central theme (valour) in both texts by reading each carefully and noting how the theme is presented"
     ],
-    "hint": "Straight from the 'Writing a comparison between' slide -- match the key terms.",
+    "hint": "Straight from the 'Writing a comparison between prose' slide -- match the key terms.",
     "misconception": "A wrong answer like \"start writing immediately\" reveals the student misunderstands that comparison requires analysis before writing, leading to unsupported claims. They might skip identifying the theme and jump to superficial similarities.",
     "id": "gen_c8_eng_ch02_p2_q8",
     "nodeId": "c8_engl_ch2_17",
@@ -1889,6 +1889,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students must be able to write a structured answer (using PEEL: Point, Evidence, Explanation",
+    "options": [
+     "The immediate trigger was the invasion of Jammu and Kashmir by Pakistani-supported tribal lashkars (militias) starting October 22, 1947, which rapidly advanced toward Srinagar",
+     "The first step is to identify specific actions, speech, or thoughts of the character described in the text",
+     "Students must be able to write a structured answer (using PEEL: Point, Evidence, Explanation"
+    ],
+    "hint": "Straight from the 'Comprehension of historical' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students must be able to write a structured answer (using PEEL: Point, Evidence, Explanation, Link) that explains the",
+    "id": "gen_c8_eng_ch02_p2_q14",
+    "nodeId": "c8_engl_ch2_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze how the theme of sacrifice in Major Somnath Sharma's story connects to the broader idea of patriotism. Use evidence from the text to show this relationship is not just about loving one's country but about active commitment.",
     "answer": "Sacrifice in the story is not passive patriotism (like feeling proud of the flag) but active commitment: Sharma sacrificed his life to prevent the airfield from falling",
     "options": [
@@ -1896,9 +1911,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "Ending with reinforcements arriving better serves collective sacrifice because it shows the 90 men's stand achieved its military purpose",
      "Sacrifice in the story is not passive patriotism (like feeling proud of the flag) but active commitment: Sharma sacrificed his life to prevent the airfield from falling"
     ],
-    "hint": "Straight from the 'Critical thinking in this context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A student who says \"he loved India so he fought\" reveals a misunderstanding—they reduce patriotism to emotion rather than recognizing it as demonstrated through concrete, costly actions for collective safety, confusing sentiment with sacrificial duty.",
-    "id": "gen_c8_eng_ch02_p2_q14",
+    "id": "gen_c8_eng_ch02_p2_q15",
     "nodeId": "c8_engl_ch2_11",
     "difficulty": "advanced"
    },
@@ -1911,9 +1926,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "This action most likely reveals his bravery and sense of duty, as he chose to stay and fight rather than retreat to save himself",
      "Point: The firefighter's action demonstrates valour. Evidence: They knowingly enter a collapsing building to save a child"
     ],
-    "hint": "Straight from the 'Critical thinking in this context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A student who only states \"the firefighter is brave\" without explaining the selfless purpose or connection to duty reveals they cannot apply the concept to new contexts or use structured reasoning.",
-    "id": "gen_c8_eng_ch02_p2_q15",
+    "id": "gen_c8_eng_ch02_p2_q16",
     "nodeId": "c8_engl_ch2_11",
     "difficulty": "advanced"
    },
@@ -1926,9 +1941,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "A strong answer will state: \"Strong action verbs like *guarding* and *defying* show energy, courage, and proactive defense, building a tone of resolute bravery",
      "Student A: \"You can't be valiant if you're not strong—Sharma must have been super strong to fight 500 men"
     ],
-    "hint": "Straight from the 'Critical thinking in this context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A poor answer would show Student B agreeing with Student A or missing the choice element (e.g., \"He was strong so he fought\"), revealing they don't grasp that valour stems from ethical decisions in adversity, not innate traits.",
-    "id": "gen_c8_eng_ch02_p2_q16",
+    "id": "gen_c8_eng_ch02_p2_q17",
     "nodeId": "c8_engl_ch2_11",
     "difficulty": "advanced"
    },
@@ -1941,23 +1956,8 @@ export const C8_ENG_GEN: SimDef[] = [
      "Knowing the motto reveals that Major Somnath Sharma was likely drawing strength from a core belief that courage leads to success",
      "The statement is flawed because valour and sacrifice are not measured solely by immediate tactical success"
     ],
-    "hint": "Straight from the 'Critical thinking in this context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch2'' slide -- match the key terms.",
     "misconception": "A student who agrees with the statement reveals a misunderstanding: they judge valour by visible results only, ignoring that moral courage and sacrificial commitment have intrinsic value and long-term inspirational impact beyond immediate battlefield metrics, failing to evaluate the ethical dimension of his choice.",
-    "id": "gen_c8_eng_ch02_p2_q17",
-    "nodeId": "c8_engl_ch2_11",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Explain in your own words how Major Somnath Sharma's decision to defend the airfield despite being outnumbered demonstrates sacrifice, using one specific detail from the story.",
-    "answer": "His decision to stay and fight when communication lines were cut and reinforcements were delayed shows sacrifice because he chose to risk his life to protect the airfield and",
-    "options": [
-     "Touching the regimental badge shows Major Somnath Sharma seeking a physical connection to his unit's identity and values",
-     "Patriotism fuels his love for the nation, making him want to protect the airfield; duty translates that love into concrete action—he follows orders and his oath to defend the post",
-     "His decision to stay and fight when communication lines were cut and reinforcements were delayed shows sacrifice because he chose to risk his life to protect the airfield and"
-    ],
-    "hint": "Straight from the 'Critical thinking in this context' slide -- match the key terms.",
-    "misconception": "A student who says \"he sacrificed by not eating food\" reveals a misunderstanding—they focus on minor discomfort rather than the ultimate sacrifice of life for a strategic and humanitarian goal (preventing enemy capture of the airfield which would have doomed Srinagar).",
     "id": "gen_c8_eng_ch02_p2_q18",
     "nodeId": "c8_engl_ch2_11",
     "difficulty": "advanced"
@@ -1975,14 +1975,14 @@ export const C8_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_eng_ch03_p1",
-  "title": "Character Analysis Involves Examining",
+  "title": "From 'English Chapter C8_engl_ch3'",
   "subtitle": "English · Chapter 3 · Part 1",
   "classLevel": 8,
   "mode": "senior",
   "subject": "english",
-  "topic": "Character Analysis Involves Examining a Fictional",
+  "topic": "From 'English Chapter C8_engl_ch3'",
   "chapters": [
-   "English Ch3: Character Analysis Involves Examining a Fictional"
+   "English Ch3: From 'English Chapter C8_engl_ch3'"
   ],
   "nodeIds": [
    "c8_engl_ch3_1",
@@ -2002,19 +2002,19 @@ export const C8_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Quick guess -- where do you meet Character Analysis Involves outside the classroom?",
+   "question": "Quick guess -- where do you meet From 'English Chapter C8_engl_ch3' outside the classroom?",
    "options": [
     "Hidden in everyday things around us",
     "Only inside exam papers",
     "Nowhere -- it is pure theory"
    ],
    "answer": "Hidden in everyday things around us",
-   "hook": "Character analysis involves examining a fictional character's traits, motivations, and development by identifying textual evidence (actions,"
+   "hook": "From 'English chapter c8_engl_ch3': the skill or concept this node teaches, applied to the actual text."
   },
   "teaching": [
    {
-    "title": "Character Analysis: Encyclopedia Brown as",
-    "text": "Character analysis involves examining a fictional character's traits, motivations, and development by identifying textual evidence (actions, dialogue, thoughts, relationships) and explaining how these elements reveal their role in advancing the story's",
+    "title": "From 'English Chapter C8_engl_ch3'",
+    "text": "From 'English chapter c8_engl_ch3': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -2025,7 +2025,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Plot",
+    "title": "Plot Is The Sequence Of Causally",
     "text": "Plot is the sequence of causally linked events that make up a mystery story, including the introduction of the crime, the investigation with clues and red herrings, the moment of deduction, and the resolution that reveals the culprit and explains how the",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2037,8 +2037,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis Of Chief Brown Focuses",
-    "text": "Character analysis of Chief Brown focuses on identifying his personality traits, motivations, and relationship dynamics—specifically his habitual reliance on his son Encyclopedia to solve baffling cases—by using textual evidence such as dialogue, actions, and",
+    "title": "From 'English Chapter C8_engl_ch3'",
+    "text": "From 'English chapter c8_engl_ch3': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
@@ -2305,11 +2305,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is Chief Brown’s profession, and whom does he consistently consult when he cannot crack a case?",
     "answer": "Chief Brown is the police chief of Idaville, and he consistently consults his son, Encyclopedia Brown, when he is stuck on a case",
     "options": [
-     "Foreshadowing in a detective story is when the author gives hints or clues early in the narrative that suggest future events or the solution to the mystery",
-     "The two primary settings are the town of Idaville (macro-setting) and the Brown family dining table (micro-setting)",
+     "Students will be able to identify specific textual evidence where characters use observation and logical reasoning to solve mysteries",
+     "The student can cite at least three specific textual details that demonstrate Chief Brown’s dependence on Encyclopedia",
      "Chief Brown is the police chief of Idaville, and he consistently consults his son, Encyclopedia Brown, when he is stuck on a case"
     ],
-    "hint": "Straight from the 'Character analysis of Chief Brown' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., saying he consults his partner or a forensic expert) reveals that the student has not retained the basic father-son dynamic that drives the series.",
     "id": "gen_c8_eng_ch03_p1_q5",
     "nodeId": "c8_engl_ch3_5",
@@ -2400,8 +2400,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the definition of foreshadowing in the context of a detective story?",
     "answer": "Foreshadowing in a detective story is when the author gives hints or clues early in the narrative that suggest future events or the solution to the mystery",
     "options": [
-     "Chief Brown is the police chief of Idaville, and he consistently consults his son, Encyclopedia Brown, when he is stuck on a case",
-     "The primary purpose is to understand how a character's traits, actions, and motivations contribute to the story's themes and plot development",
+     "Students can identify relevant clues in a short mystery, explain the logical steps that connect those clues to a conclusion",
+     "Foreshadowing in detective fiction is the author's technique of planting subtle hints or clues early in the story that suggest future plot developments or the solution to the",
      "Foreshadowing in a detective story is when the author gives hints or clues early in the narrative that suggest future events or the solution to the mystery"
     ],
     "hint": "Straight from the 'Foreshadowing in detective fiction' slide -- match the key terms.",
@@ -2422,7 +2422,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "answer": "A nickname is an alternative name given to a character that reveals something about their personality, appearance, role, or relationships within the story",
     "options": [
      "A clue is any piece of information—something seen, heard, or found—that helps the investigator solve the mystery",
-     "Chief Brown is the police chief of Idaville, and he consistently consults his son, Encyclopedia Brown, when he is stuck on a case",
+     "Students can identify relevant clues in a short mystery, explain the logical steps that connect those clues to a conclusion",
      "A nickname is an alternative name given to a character that reveals something about their personality, appearance, role, or relationships within the story"
     ],
     "hint": "Straight from the 'Vocabulary in context involves' slide -- match the key terms.",
@@ -2442,8 +2442,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is a \"verbal clue\" in a detective story? 1. A physical fingerprint left at the scene of the crime. 2. A slip-up or contradiction in what a suspect or witness says. 3. A secret code written in invisible ink on paper. 4. A warning spoken by the detective before making an arrest.",
     "answer": "Option 2 is correct. A verbal clue is a statement containing a slip-up, logical impossibility, or contradiction that reveals a liar or solves a mystery",
     "options": [
-     "A clue is any piece of information—something seen, heard, or found—that helps the investigator solve the mystery",
-     "The primary purpose is to understand how a character's traits, actions, and motivations contribute to the story's themes and plot development",
+     "To demonstrate mastery, students must identify the critical verbal clue or logical flaw in a suspect's claim and write a complete, structured 4-part response (Point, Evidence",
+     "Foreshadowing in a detective story is when the author gives hints or clues early in the narrative that suggest future events or the solution to the mystery",
      "Option 2 is correct. A verbal clue is a statement containing a slip-up, logical impossibility, or contradiction that reveals a liar or solves a mystery"
     ],
     "hint": "Straight from the 'Comprehension of a detective' slide -- match the key terms.",
@@ -2467,7 +2467,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The dining table is an information-rich hub: Encyclopedia gains knowledge through dialogue, observation of Chief Brown's tone, and access to case details shared casually",
      "Chief Brown likely accepts witness statements at face value due to his adult role and reliance on procedure"
     ],
-    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"Chief Brown is the dad and Encyclopedia is the son\" reveals the student reduces character analysis to superficial relationship labels instead of analyzing how their differing approaches to evidence demonstrate core traits (trust vs.",
     "id": "gen_c8_eng_ch03_p1_q10",
     "nodeId": "c8_engl_ch3_1",
@@ -2482,7 +2482,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The matter-of-fact element is the phrase \"Here it is\" delivered calmly despite returning a valuable stolen diamond",
      "Expected answer: A trait like \"noticing which books are slightly warmer on the shelf\" (indicating recent removal) connects to theme because it shows using sensory observation"
     ],
-    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A poor answer like \"He would be really fast at running\" reveals the student invents traits unrelated to observation or theme, showing they don't grasp that useful character traits must logically stem from and reinforce the story's core message about how mysteries are solved.",
     "id": "gen_c8_eng_ch03_p1_q11",
     "nodeId": "c8_engl_ch3_1",
@@ -2497,7 +2497,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The statement is false. While words like \"broken,\" \"crazy,\" or \"strange\" are common anagram indicators in cryptic crosswords",
      "Refute: Luck implies random chance, but Brown consistently succeeds by methodically observing details others ignore (e"
     ],
-    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A wrong answer agreeing with luck (\"He just happened to see the clock\") reveals the student misunderstands character-driven plot as accidental, failing to see how Brown's deliberate actions (evidence gathering, logical steps) are intentional traits that define his role and support the theme that observation beats",
     "id": "gen_c8_eng_ch03_p1_q12",
     "nodeId": "c8_engl_ch3_1",
@@ -2512,7 +2512,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "\"Fair play\" means the writer gives the reader all the necessary clues to solve the mystery before the detective reveals the solution",
      "As a child, Encyclopedia Brown is less likely to assume adults are always truthful or overlook details children notice (like a misplaced toy or an odd phrase)"
     ],
-    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A wrong answer such as \"He solves mysteries because he reads more books than adults\" reveals the student misses the core idea that his advantage comes from his unbiased, childlike perspective—not superior knowledge—showing they conflate intelligence with experience rather than observational openness.",
     "id": "gen_c8_eng_ch03_p1_q13",
     "nodeId": "c8_engl_ch3_1",
@@ -2527,7 +2527,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "Example line: \"I don't know what I'd do without you, son.\" This reveals a relationship built on mutual trust and affection",
      "STEP 1: Identify the given detail (Tim's alibi vs. stopped clock) and what's asked (how it aids solving)"
     ],
-    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"He saw the clock was broken\" stops at recall without explaining how this action reveals his character trait or connects to theme, showing failure to move from evidence to analytical insight.",
     "id": "gen_c8_eng_ch03_p1_q14",
     "nodeId": "c8_engl_ch3_1",
@@ -2542,9 +2542,24 @@ export const C8_ENG_GEN: SimDef[] = [
      "Chief Brown is the police chief of Idaville, and he consistently consults his son, Encyclopedia Brown, when he is stuck on a case",
      "The primary purpose is to understand how a character's traits, actions, and motivations contribute to the story's themes and plot development"
     ],
-    "hint": "Straight from the 'Character analysis involves' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
     "misconception": "A wrong answer like \"to describe what the character looks like\" reveals the student misunderstands character analysis as merely physical description, missing the deeper need to connect traits to narrative meaning and theme— a common error from earlier grades where focus was more on surface-level identification.",
     "id": "gen_c8_eng_ch03_p1_q15",
+    "nodeId": "c8_engl_ch3_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Students must be able to write a structured character analysis paragraph using the PEEL format (Point, Evidence, Explanation",
+    "options": [
+     "Plot is the sequence of causally linked events that make up a mystery story, including the introduction of the crime, the investigation with clues and red herrings",
+     "The student can break down the mystery plot into its five structural stages (exposition, rising action, climax, falling action, resolution)",
+     "Students must be able to write a structured character analysis paragraph using the PEEL format (Point, Evidence, Explanation"
+    ],
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch3'' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students must be able to write a structured character analysis paragraph using the PEEL format (Point, Evidence,",
+    "id": "gen_c8_eng_ch03_p1_q16",
     "nodeId": "c8_engl_ch3_1",
     "difficulty": "advanced"
    },
@@ -2559,7 +2574,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it would be harder\" without specifying the shift from social to forensic detection shows incomplete application.",
-    "id": "gen_c8_eng_ch03_p1_q16",
+    "id": "gen_c8_eng_ch03_p1_q17",
     "nodeId": "c8_engl_ch3_2",
     "difficulty": "advanced"
    },
@@ -2574,21 +2589,6 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
     "misconception": "A wrong answer that only lists physical differences (table vs. cave) misses the analytical point: setting as an epistemic filter that determines the *mode* of discovery (social/conversational vs. sensory/solitary).",
-    "id": "gen_c8_eng_ch03_p1_q17",
-    "nodeId": "c8_engl_ch3_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a one-paragraph opening for a new Encyclopedia Brown mystery set in a *different* micro-setting (not the dining table) but still in Idaville. The setting must shape how the case arrives and how Encyclopedia begins to solve it.",
-    "answer": "A strong answer places Encyclopedia in a setting that naturally delivers a specific type of clue—e",
-    "options": [
-     "Chief Brown relies on Encyclopedia because he recognizes that his son possesses exceptional observational skills and a knack for logical deduction that complement his own",
-     "The claim misunderstands the \"fair play\" convention: foreshadowing and clue-planting are *required* so the reader has a fair chance to solve the mystery alongside the detective",
-     "A strong answer places Encyclopedia in a setting that naturally delivers a specific type of clue—e"
-    ],
-    "hint": "Straight from the 'Setting in detective fiction' slide -- match the key terms.",
-    "misconception": "A weak answer merely moves the dining table conversation to a park bench without changing how the case arrives or how clues operate.",
     "id": "gen_c8_eng_ch03_p1_q18",
     "nodeId": "c8_engl_ch3_2",
     "difficulty": "advanced"
@@ -2596,24 +2596,24 @@ export const C8_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about character analysis involves examining a fictional?",
+    "What surprised you about from 'english chapter c8_engl_ch3'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Character Analysis Involves mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_eng_ch03_p2",
-  "title": "Evidence Consists Of Verifiable, Explicit",
+  "title": "Evidence Consists Of Verifiable, Explicit Facts",
   "subtitle": "English · Chapter 3 · Part 2",
   "classLevel": 8,
   "mode": "senior",
   "subject": "english",
-  "topic": "Evidence Consists Of Verifiable, Explicit",
+  "topic": "Evidence Consists Of Verifiable, Explicit Facts",
   "chapters": [
-   "English Ch3: Evidence Consists Of Verifiable, Explicit"
+   "English Ch3: Evidence Consists Of Verifiable, Explicit Facts"
   ],
   "nodeIds": [
    "c8_engl_ch3_10",
@@ -2649,7 +2649,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Anagram",
+    "title": "An Anagram Is a Word Play",
     "text": "An anagram is a word play technique where the letters of a word or phrase are rearranged to form a new word or phrase, using all the original letters exactly once.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -2673,7 +2673,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Alliteration",
+    "title": "Alliteration Is The Deliberate Repetition",
     "text": "Alliteration is the deliberate repetition of the same initial consonant sound in a sequence of nearby words to create a musical rhythm or sound pattern.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2718,11 +2718,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the core rule that distinguishes a true anagram from a simple spelling variation or a shorter word made from the same letters?",
     "answer": "A true anagram must use all the original letters of the source word exactly once to form a completely new, meaningful word",
     "options": [
-     "Chief Brown is the police chief of Idaville, and he consistently consults his son, Encyclopedia Brown, when he is stuck on a case",
-     "The central theme is that observation and logical reasoning are essential for solving mysteries",
+     "Students must be able to write a structured character analysis paragraph using the PEEL format (Point, Evidence, Explanation",
+     "The two primary settings are the town of Idaville (macro-setting) and the Brown family dining table (micro-setting)",
      "A true anagram must use all the original letters of the source word exactly once to form a completely new, meaningful word"
     ],
-    "hint": "Straight from the 'anagram' slide -- match the key terms.",
+    "hint": "Straight from the 'An anagram is a word play' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student answers that it just needs to contain some of the same letters (e.g., calling \"cat\" an anagram of \"track\"), they do not understand the rule of letter conservation (using every letter exactly once).",
     "id": "gen_c8_eng_ch03_p2_q2",
     "nodeId": "c8_engl_ch3_11",
@@ -2823,8 +2823,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the basic definition of \"rhyme\" in poetry?",
     "answer": "Rhyme is the repetition of similar ending sounds in two or more words, typically at the end of poetic lines (e.g., \"cat\" and \"hat\")",
     "options": [
-     "The primary purpose is to understand how a character's traits, actions, and motivations contribute to the story's themes and plot development",
-     "The two primary settings are the town of Idaville (macro-setting) and the Brown family dining table (micro-setting)",
+     "Embedding quotes in poetry answers means seamlessly integrating brief, specific text evidence (words, phrases",
+     "Tone in poetry refers to the poet's attitude toward the subject, conveyed through word choice, rhythm, and literary devices",
      "Rhyme is the repetition of similar ending sounds in two or more words, typically at the end of poetic lines (e.g., \"cat\" and \"hat\")"
     ],
     "hint": "Straight from the 'Rhyme and rhythm in light verse' slide -- match the key terms.",
@@ -2848,7 +2848,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The dining table is an information-rich hub: Encyclopedia gains knowledge through dialogue, observation of Chief Brown's tone, and access to case details shared casually",
      "Alliteration is identified through repeating initial consonant sounds (an auditory pattern)"
     ],
-    "hint": "Straight from the 'Alliteration' slide -- match the key terms.",
+    "hint": "Straight from the 'Alliteration is the deliberate' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks both are based on spelling or sound alone, they do not understand that puns require semantic analysis (understanding word meanings) rather than just listening to phonetic patterns.",
     "id": "gen_c8_eng_ch03_p2_q6",
     "nodeId": "c8_engl_ch3_15",
@@ -2979,6 +2979,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can systematically examine a prose passage or mystery scenario, differentiate stated textual evidence from unstated assumptions",
+    "options": [
+     "Plot is the sequence of causally linked events that make up a mystery story, including the introduction of the crime, the investigation with clues and red herrings",
+     "The student can break down the mystery plot into its five structural stages (exposition, rising action, climax, falling action, resolution)",
+     "The student can systematically examine a prose passage or mystery scenario, differentiate stated textual evidence from unstated assumptions"
+    ],
+    "hint": "Straight from the 'Evidence consists of verifiable,' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can systematically examine a prose passage or mystery scenario, differentiate stated textual evidence from",
+    "id": "gen_c8_eng_ch03_p2_q14",
+    "nodeId": "c8_engl_ch3_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Create a cryptic crossword clue for the word \"HEART\" (5 letters) using the word \"EARTH\" as your source word and a creative anagram indicator. Explain how your clue works.",
     "answer": "* Clue: *\"The planet is spinning at the center of our chest (5 letters).\"* * Explanation: 1. \"The planet\" represents the source word \"EARTH\" (5 letters)",
     "options": [
@@ -2986,9 +3001,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "The word \"letters\" refers both to postal mail (which a thief might steal) and the individual units of the alphabet (A, B, C, etc",
      "* Clue: *\"The planet is spinning at the center of our chest (5 letters).\"* * Explanation: 1. \"The planet\" represents the source word \"EARTH\" (5 letters)"
     ],
-    "hint": "Straight from the 'anagram' slide -- match the key terms.",
+    "hint": "Straight from the 'An anagram is a word play' slide -- match the key terms.",
     "misconception": "a poor answer reveals:* A weak answer might lack a clear anagram indicator (e.g., \"Earth is a heart\") or fail to provide a definition part to the clue, showing they do not understand that a cryptic clue must have two parts: a definition and a wordplay route.",
-    "id": "gen_c8_eng_ch03_p2_q14",
+    "id": "gen_c8_eng_ch03_p2_q15",
     "nodeId": "c8_engl_ch3_11",
     "difficulty": "advanced"
    },
@@ -3001,9 +3016,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "As a child, Encyclopedia Brown is less likely to assume adults are always truthful or overlook details children notice (like a misplaced toy or an odd phrase)",
      "The statement is false. While words like \"broken,\" \"crazy,\" or \"strange\" are common anagram indicators in cryptic crosswords"
     ],
-    "hint": "Straight from the 'anagram' slide -- match the key terms.",
+    "hint": "Straight from the 'An anagram is a word play' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student agrees with the statement, they are applying \"rules\" rigidly without evaluating the context, showing a lack of critical thinking when encountering flexible literary devices.",
-    "id": "gen_c8_eng_ch03_p2_q15",
+    "id": "gen_c8_eng_ch03_p2_q16",
     "nodeId": "c8_engl_ch3_11",
     "difficulty": "advanced"
    },
@@ -3016,63 +3031,48 @@ export const C8_ENG_GEN: SimDef[] = [
      "The conclusion is not justified. A broken vase on the right side only tells us where the pieces landed; it does not directly indicate the thief’s handedness",
      "The word \"scrambled\" acts as an anagram indicator. It signals to the solver that they need to rearrange (scramble) the letters of another word in the clue—specifically \"eggs\" (a"
     ],
-    "hint": "Straight from the 'anagram' slide -- match the key terms.",
+    "hint": "Straight from the 'An anagram is a word play' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student tries to define \"scrambled eggs\" literally or suggests cooking terms, they are missing the meta-language of literary puzzles, showing they cannot distinguish between literal clues and wordplay indicators.",
-    "id": "gen_c8_eng_ch03_p2_q16",
+    "id": "gen_c8_eng_ch03_p2_q17",
     "nodeId": "c8_engl_ch3_11",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Create a three-sentence mystery setup where a missing chocolate bar is the mystery, and the clue is temperature-sensitive (related to heat or cold).",
-    "answer": "Example Answer: *“Aarav’s imported Swiss chocolate bar vanished from the dining table right after lunch on a scorching 42-degree summer day in Delhi",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify, decode, and construct anagrams from a given set of words",
     "options": [
-     "A strong answer creates a mini-narrative with mock gravity (e.g., \"The comma fled the sentence scene / A fugitive from grammar's queen / Without its pause",
-     "Correct Rewritten Sentence: *“Rohan stepped into the clean living room, carefully wiping his sneakers on the doormat, though a tiny speck of dark",
-     "Example Answer: *“Aarav’s imported Swiss chocolate bar vanished from the dining table right after lunch on a scorching 42-degree summer day in Delhi"
+     "Students will be able to identify specific textual evidence where characters use observation and logical reasoning to solve mysteries",
+     "The student must be able to write a structured 4-step paragraph (using the PEEL method) that summarizes a stanza of a wordplay poem and explains how a specific linguistic trick",
+     "The student must be able to identify, decode, and construct anagrams from a given set of words"
     ],
-    "hint": "Straight from the 'short mystery story with clues' slide -- match the key terms.",
-    "misconception": "a poor answer reveals:* A weak response might fail to connect the temperature (the scorching summer heat) to the state of the chocolate (melted vs solid), or fail to create a logical contradiction in the suspect's alibi.",
-    "id": "gen_c8_eng_ch03_p2_q17",
-    "nodeId": "c8_engl_ch3_12",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Evaluate the ending of this mystery: *“Sherlock Kabir looked at the three suspects. 'One of you stole the school bell!' he declared. Suddenly, Rohan broke down in tears and cried, 'I am sorry!",
-    "answer": "This is a weak mystery climax because it relies entirely on a sudden confession rather than logical deduction",
-    "options": [
-     "As a child, Encyclopedia Brown is less likely to assume adults are always truthful or overlook details children notice (like a misplaced toy or an odd phrase)",
-     "Refute: Luck implies random chance, but Brown consistently succeeds by methodically observing details others ignore (e",
-     "This is a weak mystery climax because it relies entirely on a sudden confession rather than logical deduction"
-    ],
-    "hint": "Straight from the 'short mystery story with clues' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* The student might think any confession makes a good ending, failing to see that a satisfying mystery requires the detective's intellect and evidence to *force* the confession or prove the guilt.",
+    "hint": "Straight from the 'An anagram is a word play' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify, decode, and construct anagrams from a given set of words, and systematically",
     "id": "gen_c8_eng_ch03_p2_q18",
-    "nodeId": "c8_engl_ch3_12",
+    "nodeId": "c8_engl_ch3_11",
     "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about evidence consists of verifiable, explicit?",
+    "What surprised you about evidence consists of verifiable, explicit facts?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Evidence Consists Of mastered! 🎯",
+  "successLine": "Evidence Consists mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c8_eng_ch04_p1",
-  "title": "Setting",
+  "title": "From 'English Chapter C8_engl_ch4'",
   "subtitle": "English · Chapter 4 · Part 1",
   "classLevel": 8,
   "mode": "senior",
   "subject": "english",
-  "topic": "Setting",
+  "topic": "From 'English Chapter C8_engl_ch4'",
   "chapters": [
-   "English Ch4: Setting"
+   "English Ch4: From 'English Chapter C8_engl_ch4'"
   ],
   "nodeIds": [
    "c8_engl_ch4_1",
@@ -3092,31 +3092,31 @@ export const C8_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Who uses Setting in real working life?",
+   "question": "Who uses From 'English Chapter C8_engl_ch4' in real working life?",
    "options": [
     "Scientists, engineers and professionals use it daily",
     "Nobody actually uses it",
     "Only teachers use it"
    ],
    "answer": "Scientists, engineers and professionals use it daily",
-   "hook": "Setting refers to the physical environment, geographical location, climate, and time period in which a narrative occurs; in \"The Cherry Tree,\" the"
+   "hook": "From 'English chapter c8_engl_ch4': the skill or concept this node teaches, applied to the actual text."
   },
   "teaching": [
    {
-    "title": "Setting",
-    "text": "Setting refers to the physical environment, geographical location, climate, and time period in which a narrative occurs; in \"The Cherry Tree,\" the rugged setting of Mussoorie in the Himalayan foothills directly shapes the plot by creating harsh natural",
+    "title": "From 'English Chapter C8_engl_ch4'",
+    "text": "From 'English chapter c8_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis",
-    "text": "Character analysis is the evaluation of a character's traits, role, and growth throughout a story. In *The Cherry Tree*, Rakesh’s traits of curiosity (a strong desire to learn and explore) and patience (the capacity to accept delay or trouble without getting",
+    "title": "From 'English Chapter C8_engl_ch4'",
+    "text": "From 'English chapter c8_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Grandfather Involves",
-    "text": "Character analysis of Grandfather involves examining his dialogue, actions, attitudes, and relationship with Rakesh in Ruskin Bond's prose narrative to demonstrate how he functions as a wise mentor who guides through gentle encouragement rather than strict",
+    "title": "From 'English Chapter C8_engl_ch4'",
+    "text": "From 'English chapter c8_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -3139,8 +3139,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Imagery",
-    "text": "Imagery is a literary device that uses descriptive language to appeal to the senses and create vivid mental pictures. In \"The Cherry Tree\", imagery of nature (such as stony soil, dry winds, and forests) highlights the harsh environment in which the tree",
+    "title": "From 'English Chapter C8_engl_ch4'",
+    "text": "From 'English chapter c8_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -3163,11 +3163,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the geographical setting of Ruskin Bond's story \"The Cherry Tree\"?",
     "answer": "The geographical setting is Mussoorie, located in the Himalayan foothills, characterized by stony hillside soil, cold winter winds",
     "options": [
-     "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew",
-     "The inciting incident is when Rakesh decides to plant his last remaining cherry seed in a corner of his grandfather's garden instead of throwing it away",
+     "Students can compose a structured comparative analysis (2-3 paragraphs using the PEEL method) that clearly states a shared theme between a prose story and a poem",
+     "The cherry tree primarily symbolizes growth and hope",
      "The geographical setting is Mussoorie, located in the Himalayan foothills, characterized by stony hillside soil, cold winter winds"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student answers with generic terms like \"a big forest\" or \"a village in the plains,\" it indicates they failed to note specific text clues or understand how location grounds a story.",
     "id": "gen_c8_eng_ch04_p1_q1",
     "nodeId": "c8_engl_ch4_1",
@@ -3184,11 +3184,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "State two specific physical actions Rakesh performs immediately after planting the cherry seed that demonstrate his curiosity.",
     "answer": "Rakesh pats the soil flat with his hands and immediately looks for signs of growth, and later, when the shoot first appears",
     "options": [
-     "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
-     "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew",
+     "The student can identify specific instances of personification and imagery in \"The Cherry Tree\" poem, explain how each device works (what human quality is given",
+     "The student must be able to write a structured, four-step character analysis paragraph (using the PEEL format) that contrasts Rakesh's initial childish impatience with his mature",
      "Rakesh pats the soil flat with his hands and immediately looks for signs of growth, and later, when the shoot first appears"
     ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student simply says, \"He ate cherries and threw the seed,\" they are recalling basic plot points rather than identifying the specific physical actions that reveal Rakesh's curious nature.",
     "id": "gen_c8_eng_ch04_p1_q2",
     "nodeId": "c8_engl_ch4_2",
@@ -3205,12 +3205,12 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What core trait does Grandfather demonstrate when he tells Rakesh, \"Nothing is lucky if you put it away. If you want luck, you must put it to some use\"?",
     "answer": "Grandfather demonstrates practical wisdom and encouraging guidance",
     "options": [
-     "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
-     "The inciting incident is when Rakesh decides to plant his last remaining cherry seed in a corner of his grandfather's garden instead of throwing it away",
-     "Day demonstrates practical wisdom and encouraging guidance",
+     "To demonstrate mastery, students must be able to: 1",
+     "Students confuse tone with mood and use them interchangeably",
+     "Initially demonstrates practical wisdom and encouraging guidance",
      "Grandfather demonstrates practical wisdom and encouraging guidance"
     ],
-    "hint": "Straight from the 'Character analysis of Grandfather' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "A wrong answer claiming Grandfather is being strict or dismissive reveals that the student confuses direct, thought-provoking advice with criticism or harshness.",
     "id": "gen_c8_eng_ch04_p1_q3",
     "nodeId": "c8_engl_ch4_3",
@@ -3248,8 +3248,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "Define what a \"theme\" in literature is, and state the main theme of \"The Cherry Tree\".",
     "answer": "A theme is the underlying central message, lesson, or main idea that an author explores throughout a text",
     "options": [
-     "The geographical setting is Mussoorie, located in the Himalayan foothills, characterized by stony hillside soil, cold winter winds",
-     "The cherry tree primarily symbolizes growth and hope",
+     "The student can identify specific instances of personification and imagery in \"The Cherry Tree\" poem, explain how each device works (what human quality is given",
+     "Tone in \"The Cherry Tree\" poem is the poet's attitude toward the subject — primarily one of wonder at the miracle of growth and reverence for the tree's persistence",
      "A theme is the underlying central message, lesson, or main idea that an author explores throughout a text"
     ],
     "hint": "Straight from the 'theme of patience, growth, and' slide -- match the key terms.",
@@ -3269,11 +3269,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What question does Rakesh ask at the very end of the story as he looks at the grown cherry tree?",
     "answer": "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew",
     "options": [
-     "The cherry tree primarily symbolizes growth and hope",
-     "Rakesh presses the hard cherry seed into the soft, damp soil with his thumb until it is buried. *What a wrong answer reveals:* If a student says \"he planted a sapling\" or \"he",
+     "B) To divide the poem into distinct structural units that develop a step in the story or idea *Misconception:* If a student selects A or C",
+     "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
      "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew"
     ],
-    "hint": "Straight from the 'theme of \"The Reward of' slide -- match the key terms.",
+    "hint": "Straight from the 'theme of \"The Reward' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter",
     "id": "gen_c8_eng_ch04_p1_q6",
     "nodeId": "c8_engl_ch4_6",
@@ -3353,8 +3353,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the primary symbolic meaning of the cherry tree in \"The Cherry Tree\" as discussed in this node?",
     "answer": "The cherry tree primarily symbolizes growth and hope",
     "options": [
-     "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
-     "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew",
+     "Students must be able to identify and explain how the cherry tree functions as a dual symbol of growth and hope in the text",
+     "The student must be able to trace the chronological milestones of the cherry tree's growth, identify the key conflicts and setbacks it faces",
      "The cherry tree primarily symbolizes growth and hope"
     ],
     "hint": "Straight from the 'In Ruskin Bond's \"The Cherry Tree\"' slide -- match the key terms.",
@@ -3399,7 +3399,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "To correct this, state: Grandfather does not plant or water the seed for Rakesh; instead, he advises Rakesh to plant it himself so Rakesh learns responsibility",
      "The statement is incorrect because Mussoorie's environment acts as an active force in the plot. The stony soil tests Rakesh's patience"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student agrees with the classmate, they are missing the concept that environmental conditions create external conflicts that drive character actions and emotional growth in prose literature.",
     "id": "gen_c8_eng_ch04_p1_q10",
     "nodeId": "c8_engl_ch4_1",
@@ -3414,7 +3414,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "A strong answer identifies both schemes and connects each to its subject. For example: \"The Cherry Tree\" uses aabb (paired) to mirror steady growth",
      "In flat agricultural plains, rich fertile soil and gentle weather make growing plants easy, removing physical struggle"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student thinks location does not matter and any place would yield the same story meaning, they lack the analytical skill to see how setting directly reinforces literary themes.",
     "id": "gen_c8_eng_ch04_p1_q11",
     "nodeId": "c8_engl_ch4_1",
@@ -3429,7 +3429,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "The tree's survival despite harsh conditions shows that hope persists even when growth seems impossible",
      "The harsh winter brings cold mountain winds and frost, which freezes the ground and stunts the plant's growth"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student states that seasons do not impact the plant or that weather stays warm and calm year-round, it shows they misunderstand the active role seasonal shifts in high-altitude environments play in shaping narrative conflicts.",
     "id": "gen_c8_eng_ch04_p1_q12",
     "nodeId": "c8_engl_ch4_1",
@@ -3444,9 +3444,39 @@ export const C8_ENG_GEN: SimDef[] = [
      "The statement is incorrect because Mussoorie's environment acts as an active force in the plot. The stony soil tests Rakesh's patience",
      "Steps: 1. Identify sensory words in the passage (\"cold air,\" \"cheeks red,\" \"dry mountain breeze,\" \"rustling pine needles,\" \"winding slope\")"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student says it creates a scary or chaotic mood, they are confusing physical high-altitude cold with dramatic danger, failing to interpret sensory details correctly.",
     "id": "gen_c8_eng_ch04_p1_q13",
+    "nodeId": "c8_engl_ch4_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Setting? State the definition given in this lesson.",
+    "answer": "Setting refers to the physical environment, geographical location, climate, and time period in which a narrative occurs",
+    "options": [
+     "Grandfather demonstrates practical wisdom and encouraging guidance",
+     "Students must be able to analyze Grandfather's character traits (wisdom, patience, nurturing nature",
+     "Setting refers to the physical environment, geographical location, climate, and time period in which a narrative occurs"
+    ],
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Setting refers to the physical environment, geographical location, climate, and time period in which a narrative",
+    "id": "gen_c8_eng_ch04_p1_q14",
+    "nodeId": "c8_engl_ch4_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to analyze how specific physical features of Mussoorie (such as cold mountain winds, stony soil, steep valley slopes",
+    "options": [
+     "Rakesh pats the soil flat with his hands and immediately looks for signs of growth, and later, when the shoot first appears",
+     "Character analysis is the evaluation of a character's traits, role, and growth throughout a story",
+     "The student must be able to analyze how specific physical features of Mussoorie (such as cold mountain winds, stony soil, steep valley slopes"
+    ],
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to analyze how specific physical features of Mussoorie (such as cold mountain winds, stony",
+    "id": "gen_c8_eng_ch04_p1_q15",
     "nodeId": "c8_engl_ch4_1",
     "difficulty": "advanced"
    },
@@ -3459,9 +3489,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "The word \"stony\" primarily evokes the sense of touch and sight, suggesting a hard, rocky ground that is difficult to dig in and unfavorable for planting",
      "Expected response: A good paragraph should include high-altitude monsoon elements (e.g., thick mist drifting through pine trees, heavy raindrops clattering on tin roofs"
     ],
-    "hint": "Straight from the 'Setting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a poor answer reveals:* A poor answer uses generic rain terms without specifying mountain terrain, high-altitude fog, pine vegetation, or cold temperatures unique to the Himalayan foothills.",
-    "id": "gen_c8_eng_ch04_p1_q14",
+    "id": "gen_c8_eng_ch04_p1_q16",
     "nodeId": "c8_engl_ch4_1",
     "difficulty": "advanced"
    },
@@ -3474,9 +3504,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "During the monsoon, Rakesh is busy playing and going to school, which temporarily takes his focus away from the tree",
      "I disagree with this statement. While Rakesh initially saves the seed because he loves the taste of cherries"
     ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student agrees with the statement simply because Rakesh bought the cherries to eat at the beginning, they are failing to evaluate the character's long-term emotional evolution. This indicates they struggle to weigh conflicting evidence across a narrative arc.",
-    "id": "gen_c8_eng_ch04_p1_q15",
+    "id": "gen_c8_eng_ch04_p1_q17",
     "nodeId": "c8_engl_ch4_2",
     "difficulty": "advanced"
    },
@@ -3489,38 +3519,8 @@ export const C8_ENG_GEN: SimDef[] = [
      "This interpretation is incomplete; the tree symbolizes both growth AND hope. While the physical process is described",
      "Initially, Rakesh is highly impatient and checks the spot daily. When he realizes it takes time, he tries to \"forget\" about it by looking away and focusing on other things"
     ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch4'' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student says, \"He forgot about it completely and stopped caring,\" they miss the subtle transition in his behavior. This reveals a misconception that character traits are static (unchanging) rather than dynamic (developing over time).",
-    "id": "gen_c8_eng_ch04_p1_q16",
-    "nodeId": "c8_engl_ch4_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Imagine Rakesh is now an adult reflecting on his childhood. Write a short, 3-4 sentence diary entry from adult Rakesh's perspective, explaining to his younger self why both curiosity and patience were necessary to grow the cherry tree.",
-    "answer": "\"Dear younger self, I remember how eagerly you stared at the dry soil, wishing that tiny seed would sprout overnight",
-    "options": [
-     "Rakesh would not give up on the broken sapling. When a goat ate all the leaves of his young cherry tree, and later when a grasscutter sliced it in half",
-     "*Sample Answer:* \"We call ourselves lucky today as we taste these small sour cherries, but I know in my heart that this tree is Rakesh's patience made visible",
-     "\"Dear younger self, I remember how eagerly you stared at the dry soil, wishing that tiny seed would sprout overnight"
-    ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "a poor answer reveals:* A weak response would simply summarize the plot (\"I planted a tree, a goat ate it, and then it grew\") without reflecting on the internal qualities of curiosity and patience. This reveals that the student struggles to write from a character's internal psychological perspective.",
-    "id": "gen_c8_eng_ch04_p1_q17",
-    "nodeId": "c8_engl_ch4_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Read this scenario: *Amit plants a mango sapling but gets angry and stops watering it when a stray dog breaks its main branch.* If Rakesh were in Amit's place, how would he react based on his actions in \"The Cherry Tree\"? Apply evidence from the story to support your prediction.",
-    "answer": "Rakesh would not give up on the broken sapling. When a goat ate all the leaves of his young cherry tree, and later when a grasscutter sliced it in half",
-    "options": [
-     "A break in rhyme scheme signals a disruption — the tree faces an obstacle (storm, drought, pest) that interrupts its steady growth",
-     "Grandfather's calm reaction shows that a wise guide provides perspective and emotional support during setbacks, teaching patience rather than panicking",
-     "Rakesh would not give up on the broken sapling. When a goat ate all the leaves of his young cherry tree, and later when a grasscutter sliced it in half"
-    ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
-    "misconception": "a wrong answer reveals:* If a student suggests that Rakesh would get angry or ask his grandfather to buy a new plant, they fail to apply Rakesh's established trait of resilient care to a new context. This shows they do not yet understand how a character's core traits dictate their behavior in hypothetical situations.",
     "id": "gen_c8_eng_ch04_p1_q18",
     "nodeId": "c8_engl_ch4_2",
     "difficulty": "advanced"
@@ -3528,11 +3528,11 @@ export const C8_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about setting?",
+    "What surprised you about from 'english chapter c8_engl_ch4'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Setting mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -3544,7 +3544,9 @@ export const C8_ENG_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "english",
   "topic": "Comprehension Of The Narrative Journey",
-  "chapters": ["English Ch4: Comprehension Of The Narrative Journey"],
+  "chapters": [
+   "English Ch4: Comprehension Of The Narrative Journey"
+  ],
   "nodeIds": [
    "c8_engl_ch4_10",
    "c8_engl_ch4_11",
@@ -3603,7 +3605,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Personification",
+    "title": "Personification Is a Poetic Device That",
     "text": "Personification is a poetic device that gives human qualities (actions, emotions, thoughts) to non-human things; in \"The Cherry Tree\" poem, the tree is personified as a struggling, determined living being rather than a passive plant.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -3627,8 +3629,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the very first action Rakesh takes that begins the journey of the cherry tree?",
     "answer": "Rakesh presses the hard cherry seed into the soft, damp soil with his thumb until it is buried. *What a wrong answer reveals:* If a student says \"he planted a sapling\" or \"he",
     "options": [
-     "The cherry tree primarily symbolizes growth and hope",
-     "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
+     "Rakesh pats the soil flat with his hands and immediately looks for signs of growth, and later, when the shoot first appears",
+     "The student can identify the dominant tone of each stanza in \"The Cherry Tree\" (wonder, anxiety, admiration), trace how the tone shifts across the poem",
      "Rakesh presses the hard cherry seed into the soft, damp soil with his thumb until it is buried. *What a wrong answer reveals:* If a student says \"he planted a sapling\" or \"he"
     ],
     "hint": "Straight from the 'Comprehension of the narrative' slide -- match the key terms.",
@@ -3648,8 +3650,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What question does Grandfather ask Rakesh near the end of *The Cherry Tree* when they look at the fully grown tree?",
     "answer": "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
     "options": [
-     "The inciting incident is when Rakesh decides to plant his last remaining cherry seed in a corner of his grandfather's garden instead of throwing it away",
-     "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew",
+     "Students must be able to analyze Grandfather's character traits (wisdom, patience, nurturing nature",
+     "Students treat rhyme scheme as a label to identify (\"it's abab\") and stop there, without explaining what the scheme does",
      "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree"
     ],
     "hint": "Straight from the 'In literary analysis, examining' slide -- match the key terms.",
@@ -3669,8 +3671,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the main purpose of using sequence words like \"first,\" \"then,\" \"finally\" when describing plant growth?",
     "answer": "Sequence words show the order of events, helping the reader follow the stages of growth in time",
     "options": [
-     "Grandfather asks Rakesh, \"Is this what it feels like to be God?\" or asks whether they are lucky to have grown the tree",
-     "Rakesh asks, \"Is this what it feels like to be God?\" If a student answers that he asks when the tree will bear sweeter fruit or how many cherries grew",
+     "Students can write a paragraph of at least 120 words describing a plant’s growth through four observable stages, using correct sequence words, vivid adjectives",
+     "Rakesh pats the soil flat with his hands and immediately looks for signs of growth, and later, when the shoot first appears",
      "Sequence words show the order of events, helping the reader follow the stages of growth in time"
     ],
     "hint": "Straight from the 'Writing a clear, ordered' slide -- match the key terms.",
@@ -3690,8 +3692,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the primary function of a stanza in a narrative nature poem? A) To repeat the same line at the end of every sentence B) To divide the poem into distinct structural units that develop a step in the story or idea C) To list rhyming words in alphabetical order D) To hide the true meaning of the poem from the",
     "answer": "B) To divide the poem into distinct structural units that develop a step in the story or idea *Misconception:* If a student selects A or C",
     "options": [
-     "Sequence words show the order of events, helping the reader follow the stages of growth in time",
-     "\"Small\" and \"ground\" do not rhyme. \"Name\" and \"same\" rhyme. So the pattern is: line 1 (small) = a, line 2 (name) = b, line 3 (ground) = c, line 4 (same) = b",
+     "Students must be able to analyze Grandfather's character traits (wisdom, patience, nurturing nature",
+     "Setting refers to the physical environment, geographical location, climate, and time period in which a narrative occurs",
      "B) To divide the poem into distinct structural units that develop a step in the story or idea *Misconception:* If a student selects A or C"
     ],
     "hint": "Straight from the 'stanza-by-stanza summary breaks' slide -- match the key terms.",
@@ -3711,8 +3713,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the rhyme scheme of a 4-line stanza where lines 1 and 3 rhyme, and lines 2 and 4 rhyme?",
     "answer": "The rhyme scheme is abab — alternating rhyme. Lines 1 and 3 share the \"a\" sound, lines 2 and 4 share the \"b\" sound",
     "options": [
-     "\"Small\" and \"ground\" do not rhyme. \"Name\" and \"same\" rhyme. So the pattern is: line 1 (small) = a, line 2 (name) = b, line 3 (ground) = c, line 4 (same) = b",
-     "The geographical setting is Mussoorie, located in the Himalayan foothills, characterized by stony hillside soil, cold winter winds",
+     "Rhyme scheme is the ordered pattern of rhyming words at the ends of lines in a poem, typically marked with letters (a, b, a, b) where matching letters indicate rhyming lines",
+     "Students treat rhyme scheme as a label to identify (\"it's abab\") and stop there, without explaining what the scheme does",
      "The rhyme scheme is abab — alternating rhyme. Lines 1 and 3 share the \"a\" sound, lines 2 and 4 share the \"b\" sound"
     ],
     "hint": "Straight from the 'Rhyme scheme' slide -- match the key terms.",
@@ -3736,7 +3738,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "This is not bad luck because luck requires creating the right conditions through effort. The student neglected basic needs—light, consistent water, and care",
      "The personification is \"thrust its head\" — \"thrust\" is a forceful, deliberate action (a human choice, not a plant's passive growth), and \"head\" gives the tree a human body part"
     ],
-    "hint": "Straight from the 'Personification' slide -- match the key terms.",
+    "hint": "Straight from the 'Personification is a poetic' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it's imagery\" confuses personification (giving human qualities) with imagery (sensory description).",
     "id": "gen_c8_eng_ch04_p2_q6",
     "nodeId": "c8_engl_ch4_15",
@@ -3867,6 +3869,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can map the chronological stages of the cherry tree's growth, analyze the specific environmental and human threats faced at each stage",
+    "options": [
+     "The student must be able to analyze how specific physical features of Mussoorie (such as cold mountain winds, stony soil, steep valley slopes",
+     "Students will be able to identify at least two examples of nature imagery from the text, explain the sensory details they evoke",
+     "The student can map the chronological stages of the cherry tree's growth, analyze the specific environmental and human threats faced at each stage"
+    ],
+    "hint": "Straight from the 'Comprehension of the narrative' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can map the chronological stages of the cherry tree's growth, analyze the specific environmental and human",
+    "id": "gen_c8_eng_ch04_p2_q14",
+    "nodeId": "c8_engl_ch4_10",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze the contrast between the stony, harsh soil of Mussoorie and the final flourishing cherry tree. How does this setting prove that effort outweighs chance?",
     "answer": "Mussoorie's stony soil and cold climate are unfavorable conditions where seeds rarely survive on their own by chance",
     "options": [
@@ -3876,7 +3893,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In literary analysis, examining' slide -- match the key terms.",
     "misconception": "A wrong answer showing reliance on \"the mountain soil was naturally rich\" reveals a failure to analyze how setting details emphasize character struggle and effort.",
-    "id": "gen_c8_eng_ch04_p2_q14",
+    "id": "gen_c8_eng_ch04_p2_q15",
     "nodeId": "c8_engl_ch4_11",
     "difficulty": "advanced"
    },
@@ -3891,7 +3908,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In literary analysis, examining' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Disagree. While seeds have biological potential, potential alone is destroyed without protection.",
-    "id": "gen_c8_eng_ch04_p2_q15",
+    "id": "gen_c8_eng_ch04_p2_q16",
     "nodeId": "c8_engl_ch4_11",
     "difficulty": "advanced"
    },
@@ -3906,7 +3923,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In literary analysis, examining' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: *Sample Answer:* \"We call ourselves lucky today as we taste these small sour cherries, but I know in my heart that this",
-    "id": "gen_c8_eng_ch04_p2_q16",
+    "id": "gen_c8_eng_ch04_p2_q17",
     "nodeId": "c8_engl_ch4_11",
     "difficulty": "advanced"
    },
@@ -3921,21 +3938,6 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'In literary analysis, examining' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: This is not bad luck because luck requires creating the right conditions through effort.",
-    "id": "gen_c8_eng_ch04_p2_q17",
-    "nodeId": "c8_engl_ch4_11",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why might a reader who reads only the final scene incorrectly assume that Rakesh and Grandfather were simply \"lucky\"?",
-    "answer": "A reader looking only at the final scene sees a grand, beautiful cherry tree laden with pink blossoms and ripe fruit, making it look like a magical",
-    "options": [
-     "Grandfather's statement is justified because the tree's journey required patient nurturing without expecting immediate material gain",
-     "I disagree with the statement. Although Grandfather leads a quiet, retired life, his role is central because his timely advice and reassuring presence direct Rakesh's emotional",
-     "A reader looking only at the final scene sees a grand, beautiful cherry tree laden with pink blossoms and ripe fruit, making it look like a magical"
-    ],
-    "hint": "Straight from the 'In literary analysis, examining' slide -- match the key terms.",
-    "misconception": "A wrong answer indicates that the student cannot differentiate between an ultimate outcome (the final tree) and the long process of effort that led to it.",
     "id": "gen_c8_eng_ch04_p2_q18",
     "nodeId": "c8_engl_ch4_11",
     "difficulty": "advanced"
@@ -3943,7 +3945,7 @@ export const C8_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about comprehension of the narrative journey from?",
+    "What surprised you about comprehension of the narrative journey?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -3953,14 +3955,14 @@ export const C8_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c8_eng_ch05_p1",
-  "title": "In Science Fiction, The Setting",
+  "title": "From 'English Chapter C8_engl_ch5'",
   "subtitle": "English · Chapter 5 · Part 1",
   "classLevel": 8,
   "mode": "senior",
   "subject": "english",
-  "topic": "In Science Fiction, The Setting",
+  "topic": "From 'English Chapter C8_engl_ch5'",
   "chapters": [
-   "English Ch5: In Science Fiction, The Setting"
+   "English Ch5: From 'English Chapter C8_engl_ch5'"
   ],
   "nodeIds": [
    "c8_engl_ch5_1",
@@ -3980,7 +3982,7 @@ export const C8_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if In Science Fiction, The Setting suddenly stops working?",
+   "question": "What happens if From 'English Chapter C8_engl_ch5' suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -3997,19 +3999,19 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Sven Olsen Involves",
-    "text": "Character analysis of Sven Olsen involves examining how Arthur C. Clarke combines Sven's occupational role as a tough space construction worker with his unexpected traits of artistic creativity, gentleness, and ingenuity to drive the narrative forward.",
+    "title": "From 'English Chapter C8_engl_ch5'",
+    "text": "From 'English chapter c8_engl_ch5': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
    {
-    "title": "Character Analysis Of Claribel The Canary",
-    "text": "Character analysis of Claribel the Canary involves examining her specific actions, reactions, and symbolic role in the space station narrative to reveal how she develops the theme of companionship in isolation, going beyond listing traits to explain *why* her",
+    "title": "From 'English Chapter C8_engl_ch5'",
+    "text": "From 'English chapter c8_engl_ch5': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Plot",
+    "title": "Plot: Keeping a Pet Bird in a Space Station",
     "text": "Plot is the ordered sequence of events in a story—exposition, rising action, climax, falling action, and resolution—shaped by setting, character choices, and conflict, especially in a science‑fiction context where unusual environments drive the action.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
@@ -4039,8 +4041,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to determining the precise meaning and grammatical function of words (such as *regulation*, *forbid*, *fuse*, *abruptly*, and *dietitian*) by analyzing the clues, tone, and technical setting of the surrounding text.",
+    "title": "From 'English Chapter C8_engl_ch5'",
+    "text": "From 'English chapter c8_engl_ch5': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    }
@@ -4051,8 +4053,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What are the two primary physical limitations of the space station setting in \"Feathered Friend\" that differ from a typical Earth setting?",
     "answer": "The two primary physical limitations are the lack of natural gravity (resulting in a low-gravity or zero-gravity environment) and the lack of a natural atmosphere (requiring",
     "options": [
-     "Sven Olsen brings a small, yellow canary named Claribel to the space station. *Explanation of wrong answer:* If a student answers that Sven brought \"high-tech survival gear\" or \"a",
      "C Explanation: Science fiction relies on real or plausible scientific ideas, future technology, or space settings",
+     "In science fiction, the setting is the specific time and place (often futuristic or technologically advanced) where the story occurs",
      "The two primary physical limitations are the lack of natural gravity (resulting in a low-gravity or zero-gravity environment) and the lack of a natural atmosphere (requiring"
     ],
     "hint": "Straight from the 'In science fiction, the setting' slide -- match the key terms.",
@@ -4072,11 +4074,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is Sven Olsen's job on the space station, and what unusual item or creature does he bring aboard?",
     "answer": "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
     "options": [
+     "The student can identify three categories of challenges in space station life (physical, psychological, social)",
      "The physical environment is a sterile, artificial space station orbiting Earth, and the companion is a tiny yellow canary named Claribel",
-     "The primary source of humor is that a multi-million-dollar space station with advanced electronic air sensors is saved by a tiny, cheap",
      "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard"
     ],
-    "hint": "Straight from the 'Character analysis of Sven Olsen' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "Misconception:* If a student states Sven is a scientist or doctor who bought a robotic pet, it reveals they have confused his character role with standard sci-fi tropes instead of recalling specific character details from the text.",
     "id": "gen_c8_eng_ch05_p1_q2",
     "nodeId": "c8_engl_ch5_2",
@@ -4093,11 +4095,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of analyzing a character like Claribel in a story? A) To list all her physical features B) To explain how she helps develop the story's theme C) To describe what she eats and where she sleeps D) To compare her to real-life canaries",
     "answer": "B) To explain how she helps develop the story's theme",
     "options": [
-     "Physical: muscle and bone loss due to zero gravity (no resistance for muscles to work against). Psychological: isolation and monotony causing stress and depression (same",
-     "The two primary physical limitations are the lack of natural gravity (resulting in a low-gravity or zero-gravity environment) and the lack of a natural atmosphere (requiring",
+     "The primary source of humor is that a multi-million-dollar space station with advanced electronic air sensors is saved by a tiny, cheap",
+     "Students can write a structured PEEL paragraph (Point, Evidence, Explanation, Link) using two specific textual details about Claribel's behavior to show how her character",
      "B) To explain how she helps develop the story's theme"
     ],
-    "hint": "Straight from the 'Character analysis of Claribel' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "A wrong answer choosing A or C shows the student misunderstands character analysis as mere description (remembering surface details) rather than interpretation (analyzing function).",
     "id": "gen_c8_eng_ch05_p1_q3",
     "nodeId": "c8_engl_ch5_3",
@@ -4115,10 +4117,10 @@ export const C8_ENG_GEN: SimDef[] = [
     "answer": "The five parts are exposition, rising action, climax, falling action, and resolution",
     "options": [
      "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
-     "B) To explain how she helps develop the story's theme",
+     "The student must be able to analyze Sven Olsen's character traits by selecting direct textual evidence of his speech, actions, and craftsmanship",
      "The five parts are exposition, rising action, climax, falling action, and resolution"
     ],
-    "hint": "Straight from the 'Plot' slide -- match the key terms.",
+    "hint": "Straight from the 'Plot is the ordered sequence of' slide -- match the key terms.",
     "misconception": "If a student lists only “beginning, middle, end” or omits falling action, it shows they have not internalised the formal plot structure needed for deeper analysis.",
     "id": "gen_c8_eng_ch05_p1_q4",
     "nodeId": "c8_engl_ch5_4",
@@ -4135,8 +4137,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the primary defining characteristic of the science fiction genre? A. Stories about historical figures set in ancient kingdoms. B. Stories featuring magical creatures, talking trees, and spells.",
     "answer": "C Explanation: Science fiction relies on real or plausible scientific ideas, future technology, or space settings",
     "options": [
+     "The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze how these environmental constraints directly drive the",
      "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
-     "B) To explain how she helps develop the story's theme",
      "C Explanation: Science fiction relies on real or plausible scientific ideas, future technology, or space settings"
     ],
     "hint": "Straight from the 'Science fiction' slide -- match the key terms.",
@@ -4156,8 +4158,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the primary physical environment in *Feathered Friend*, and who is the companion that brings joy to this environment?",
     "answer": "The physical environment is a sterile, artificial space station orbiting Earth, and the companion is a tiny yellow canary named Claribel",
     "options": [
-     "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
-     "Physical: muscle and bone loss due to zero gravity (no resistance for muscles to work against). Psychological: isolation and monotony causing stress and depression (same",
+     "The student can identify each plot element in “Feathered Friend,” cite specific textual evidence",
+     "Students will be able to write a coherent, multi-paragraph comparative answer comparing the prose story \"Feathered Friend\" and a companion bird poem by using the Point-by-Point",
      "The physical environment is a sterile, artificial space station orbiting Earth, and the companion is a tiny yellow canary named Claribel"
     ],
     "hint": "Straight from the 'Companionship and joy in isolated' slide -- match the key terms.",
@@ -4177,8 +4179,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What does the character Sven Olsen bring to the space station that represents a physical connection to Earthly life?",
     "answer": "Sven Olsen brings a small, yellow canary named Claribel to the space station. *Explanation of wrong answer:* If a student answers that Sven brought \"high-tech survival gear\" or \"a",
     "options": [
+     "The student can identify three categories of challenges in space station life (physical, psychological, social)",
      "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
-     "The physical environment is a sterile, artificial space station orbiting Earth, and the companion is a tiny yellow canary named Claribel",
      "Sven Olsen brings a small, yellow canary named Claribel to the space station. *Explanation of wrong answer:* If a student answers that Sven brought \"high-tech survival gear\" or \"a"
     ],
     "hint": "Straight from the '\"human need for connection beyond' slide -- match the key terms.",
@@ -4261,11 +4263,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What is the difference in part of speech and basic meaning between the verb \"to fuse\" and the noun \"a fuse\"?",
     "answer": "The verb \"to fuse\" means to join, blend, or melt together into a single entity (e.g., \"to fuse metals\")",
     "options": [
+     "Students can write a structured PEEL paragraph (Point, Evidence, Explanation, Link) using two specific textual details about Claribel's behavior to show how her character",
      "The five parts are exposition, rising action, climax, falling action, and resolution",
-     "C Explanation: Science fiction relies on real or plausible scientific ideas, future technology, or space settings",
      "The verb \"to fuse\" means to join, blend, or melt together into a single entity (e.g., \"to fuse metals\")"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The verb \"to fuse\" means to join, blend, or melt together into a single entity (e.",
     "id": "gen_c8_eng_ch05_p1_q9",
     "nodeId": "c8_engl_ch5_9",
@@ -4339,6 +4341,36 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What is In science fiction, the setting? State the definition given in this lesson.",
+    "answer": "In science fiction, the setting is the specific time and place (often futuristic or technologically advanced) where the story occurs",
+    "options": [
+     "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
+     "The student must be able to analyze Sven Olsen's character traits by selecting direct textual evidence of his speech, actions, and craftsmanship",
+     "In science fiction, the setting is the specific time and place (often futuristic or technologically advanced) where the story occurs"
+    ],
+    "hint": "Straight from the 'In science fiction, the setting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: In science fiction, the setting is the specific time and place (often futuristic or technologically advanced) where the",
+    "id": "gen_c8_eng_ch05_p1_q14",
+    "nodeId": "c8_engl_ch5_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze how these environmental constraints directly drive the",
+    "options": [
+     "Plot is the ordered sequence of events in a story—exposition, rising action, climax, falling action, and resolution—shaped by setting, character choices, and conflict",
+     "The student must be able to trace the theme of human-nature connection across the events of a science fiction story",
+     "The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze how these environmental constraints directly drive the"
+    ],
+    "hint": "Straight from the 'In science fiction, the setting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze",
+    "id": "gen_c8_eng_ch05_p1_q15",
+    "nodeId": "c8_engl_ch5_1",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
     "question": "A student writes: \"Sven is just a rough manual laborer who got lucky that his pet saved the crew.\" Rewrite this assertion to form a balanced analytical statement about Sven's character using textual evidence.",
     "answer": "Steps to construct a strong answer: 1. Identify the flaw: The student's claim reduces Sven to an unthinking laborer",
     "options": [
@@ -4346,9 +4378,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "The student is incorrect. While a chef focuses on preparing tasty meals, a *dietitian* is a scientific expert who calculates nutritional value and precise weights to ensure health",
      "Steps to construct a strong answer: 1. Identify the flaw: The student's claim reduces Sven to an unthinking laborer"
     ],
-    "hint": "Straight from the 'Character analysis of Sven Olsen' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "Misconception:* A student who fails to include both his technical job and his creative nature fails to demonstrate multi-dimensional character analysis.",
-    "id": "gen_c8_eng_ch05_p1_q14",
+    "id": "gen_c8_eng_ch05_p1_q16",
     "nodeId": "c8_engl_ch5_2",
     "difficulty": "advanced"
    },
@@ -4361,9 +4393,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "Sven's decision was highly responsible from a psychological standpoint. While he violated technical safety rules",
      "Clarke contrasts Sven's tough, wiry physique and hard industrial job as a space construction worker with his soft-spoken, gentle care for a tiny, fragile canary"
     ],
-    "hint": "Straight from the 'Character analysis of Sven Olsen' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "Misconception:* If a student only describes his physical appearance without linking it to his emotional behavior, they are summarizing character description rather than analyzing literary contrast.",
-    "id": "gen_c8_eng_ch05_p1_q15",
+    "id": "gen_c8_eng_ch05_p1_q17",
     "nodeId": "c8_engl_ch5_2",
     "difficulty": "advanced"
    },
@@ -4376,38 +4408,8 @@ export const C8_ENG_GEN: SimDef[] = [
      "The space station is described as a highly engineered, noisy, and sterile environment full of metal and regulations",
      "Sven's most important contribution stems from his personal creative instincts combined with practical observation"
     ],
-    "hint": "Straight from the 'Character analysis of Sven Olsen' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "Misconception:* If a student chooses one side without acknowledging how his professional skill enabled his creative action, they miss the synthesis of character traits required in higher-order evaluation.",
-    "id": "gen_c8_eng_ch05_p1_q16",
-    "nodeId": "c8_engl_ch5_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "How does Sven Olsen's decision to bring Claribel aboard the space station demonstrate his creativity and resourcefulness rather than mere carelessness?",
-    "answer": "Sven's decision demonstrates creativity and resourcefulness because he recognized the psychological need for nature and warmth in a sterile space environment",
-    "options": [
-     "Sven's decision was highly responsible from a psychological standpoint. While he violated technical safety rules",
-     "Sven's most important contribution stems from his personal creative instincts combined with practical observation",
-     "Sven's decision demonstrates creativity and resourcefulness because he recognized the psychological need for nature and warmth in a sterile space environment"
-    ],
-    "hint": "Straight from the 'Character analysis of Sven Olsen' slide -- match the key terms.",
-    "misconception": "Misconception:* A wrong answer claiming Sven was simply breaking rules out of recklessness reveals that the student views character actions as binary (obedient vs. disobedient) without understanding underlying creative motivations and emotional intelligence.",
-    "id": "gen_c8_eng_ch05_p1_q17",
-    "nodeId": "c8_engl_ch5_2",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Write a 3-4 sentence passage from the perspective of another crew member describing Sven Olsen at work, highlighting both his technical construction skills and his creative, quiet personality.",
-    "answer": "Expected response: \"Watching Sven weld steel girders against the black void of space, you would think he was made of iron himself",
-    "options": [
-     "The sentence is weak because it lacks a comparative transition word to connect the two ideas. Without a transition, the comparison feels like two unrelated facts",
-     "Draft B is significantly stronger because it uses auditory imagery (*rhythmic vibration*), precise technical setting detail (*oxygen recycler, bulkhead panel*)",
-     "Expected response: \"Watching Sven weld steel girders against the black void of space, you would think he was made of iron himself"
-    ],
-    "hint": "Straight from the 'Character analysis of Sven Olsen' slide -- match the key terms.",
-    "misconception": "Misconception:* A weak response will describe him as either purely noisy and aggressive like a stereotypical worker, or purely a daydreamer who neglects his construction work, failing to capture his dual identity.",
     "id": "gen_c8_eng_ch05_p1_q18",
     "nodeId": "c8_engl_ch5_2",
     "difficulty": "advanced"
@@ -4415,11 +4417,11 @@ export const C8_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about in science fiction, the setting?",
+    "What surprised you about from 'english chapter c8_engl_ch5'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "In Science Fiction, The mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -4468,8 +4470,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Critical Thinking About Adapting To Life",
-    "text": "Critical thinking about adapting to life in space involves evaluating the challenges humans face in space station environments (zero gravity, isolation, recycled air, confined space, limited resources) and analyzing the solutions — both technological (life",
+    "title": "From 'English Chapter C8_engl_ch5'",
+    "text": "From 'English chapter c8_engl_ch5': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -4492,7 +4494,7 @@ export const C8_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Simile",
+    "title": "A Simile Is a Figure",
     "text": "A simile is a figure of speech that directly compares two different things using explicit comparative words such as \"like\" or \"as\". A metaphor is a figure of speech that makes an implicit, direct comparison by stating that one thing *is* another, transferring",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4537,11 +4539,11 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What are the three categories of challenges humans face in long-term space station life? Give one example of each.",
     "answer": "Physical: muscle and bone loss due to zero gravity (no resistance for muscles to work against). Psychological: isolation and monotony causing stress and depression (same",
     "options": [
-     "C Explanation: Science fiction relies on real or plausible scientific ideas, future technology, or space settings",
-     "The two primary physical limitations are the lack of natural gravity (resulting in a low-gravity or zero-gravity environment) and the lack of a natural atmosphere (requiring",
+     "The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze how these environmental constraints directly drive the",
+     "The primary source of humor is that a multi-million-dollar space station with advanced electronic air sensors is saved by a tiny, cheap",
      "Physical: muscle and bone loss due to zero gravity (no resistance for muscles to work against). Psychological: isolation and monotony causing stress and depression (same"
     ],
-    "hint": "Straight from the 'Critical thinking about adapting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only physical challenges reveals the student sees space adaptation as purely engineering, missing the psychological and social dimensions that the story highlights through Claribel's role.",
     "id": "gen_c8_eng_ch05_p2_q2",
     "nodeId": "c8_engl_ch5_11",
@@ -4558,8 +4560,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "What are two essential sensory details required to establish a believable space station setting in creative writing?",
     "answer": "Two essential sensory details are describing microgravity movement (e.g., tethered equipment, drifting objects, magnetic boots) and ambient mechanical sounds (e",
     "options": [
-     "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
-     "Sven Olsen brings a small, yellow canary named Claribel to the space station. *Explanation of wrong answer:* If a student answers that Sven brought \"high-tech survival gear\" or \"a",
+     "The physical environment is a sterile, artificial space station orbiting Earth, and the companion is a tiny yellow canary named Claribel",
+     "The primary source of humor is that a multi-million-dollar space station with advanced electronic air sensors is saved by a tiny, cheap",
      "Two essential sensory details are describing microgravity movement (e.g., tethered equipment, drifting objects, magnetic boots) and ambient mechanical sounds (e"
     ],
     "hint": "Straight from the 'Imaginative writing about life in' slide -- match the key terms.",
@@ -4625,7 +4627,7 @@ export const C8_ENG_GEN: SimDef[] = [
      "Claribel is a canary — evolved for Earth's gravity, air pressure, and atmosphere. She did not \"adapt\" to space (evolution takes generations)",
      "A simile compares two things using \"like\" or \"as\" (e.g., \"The eagle swooped like a thunderbolt\"), while a metaphor compares them by directly equating them without these words (e"
     ],
-    "hint": "Straight from the 'simile' slide -- match the key terms.",
+    "hint": "Straight from the 'A simile is a figure' slide -- match the key terms.",
     "misconception": "a wrong answer reveals:* If a student cannot state the structural difference, they are struggling with basic pattern recognition and cannot yet look for syntactic clues like \"like\" or \"as\" in poetic lines.",
     "id": "gen_c8_eng_ch05_p2_q6",
     "nodeId": "c8_engl_ch5_15",
@@ -4642,8 +4644,8 @@ export const C8_ENG_GEN: SimDef[] = [
     "question": "Define poetic 'tone' in your own words, and list two specific word choices (diction) that indicate a joyful tone in bird poetry.",
     "answer": "Poetic tone is the author's or speaker's attitude toward the subject matter, conveyed through word choice and imagery",
     "options": [
-     "Sven Olsen is a space construction worker (girder-man/construction worker) on the space station, and he secretly brings a small yellow canary named Claribel aboard",
-     "B) To explain how she helps develop the story's theme",
+     "The student must be able to identify specific diction, kinetic verbs, and sensory imagery in a poem, and explain in a structured 4-part response (Point, Evidence, Explanation",
+     "Students can write a structured PEEL paragraph (Point, Evidence, Explanation, Link) using two specific textual details about Claribel's behavior to show how her character",
      "Poetic tone is the author's or speaker's attitude toward the subject matter, conveyed through word choice and imagery"
     ],
     "hint": "Straight from the 'Tone in poetry' slide -- match the key terms.",
@@ -4783,6 +4785,21 @@ export const C8_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can explain three specific challenges Claribel faced in zero gravity (eating, drinking, breathing in recycled air)",
+    "options": [
+     "The two primary physical limitations are the lack of natural gravity (resulting in a low-gravity or zero-gravity environment) and the lack of a natural atmosphere (requiring",
+     "In science fiction, the setting is the specific time and place (often futuristic or technologically advanced) where the story occurs",
+     "The student can explain three specific challenges Claribel faced in zero gravity (eating, drinking, breathing in recycled air)"
+    ],
+    "hint": "Straight from the 'Comprehension of how Claribel the' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can explain three specific challenges Claribel faced in zero gravity (eating, drinking, breathing in",
+    "id": "gen_c8_eng_ch05_p2_q13",
+    "nodeId": "c8_engl_ch5_10",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Why was Claribel more vulnerable to air quality problems than the human crew?",
     "answer": "Birds have a faster metabolism and more efficient respiratory system than humans — they breathe more rapidly and exchange more air per breath",
     "options": [
@@ -4792,7 +4809,7 @@ export const C8_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Comprehension of how Claribel the' slide -- match the key terms.",
     "misconception": "A wrong answer like \"she was smaller\" is partially correct but misses the physiological reason — it is the respiratory rate, not just size, that makes birds sensitive.",
-    "id": "gen_c8_eng_ch05_p2_q13",
+    "id": "gen_c8_eng_ch05_p2_q14",
     "nodeId": "c8_engl_ch5_10",
     "difficulty": "standard"
    },
@@ -4805,9 +4822,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "In the bird story, the climax is Claribel getting sucked into the ventilation shaft—a life‑threatening event caused by zero‑gravity air currents that could endanger both the bird",
      "Neither type alone is sufficient — both are needed. Technological solutions keep the body alive (air, water, food, exercise) but cannot address loneliness, monotony"
     ],
-    "hint": "Straight from the 'Critical thinking about adapting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"technology is more important\" misses that a physically alive but psychologically broken crew cannot function — both dimensions are mission-critical.",
-    "id": "gen_c8_eng_ch05_p2_q14",
+    "id": "gen_c8_eng_ch05_p2_q15",
     "nodeId": "c8_engl_ch5_11",
     "difficulty": "advanced"
    },
@@ -4820,9 +4837,9 @@ export const C8_ENG_GEN: SimDef[] = [
      "The statement is incorrect. The presence of a bird (the subject) does not automatically dictate tone",
      "Claribel gives the crew something to care for, observe, and talk about — she creates a shared focus that is not work-related, reducing monotony and social friction"
     ],
-    "hint": "Straight from the 'Critical thinking about adapting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"she made them happy\" is too vague — the specific functions (nurturing, shared focus, routine) are what make her valuable.",
-    "id": "gen_c8_eng_ch05_p2_q15",
+    "id": "gen_c8_eng_ch05_p2_q16",
     "nodeId": "c8_engl_ch5_11",
     "difficulty": "advanced"
    },
@@ -4835,40 +4852,25 @@ export const C8_ENG_GEN: SimDef[] = [
      "The statement is flawed. Technology provides the backdrop, but emotional themes—such as longing for nature, homesickness, or human bonding—give the story its heart and purpose",
      "Exercise is necessary because zero gravity removes the resistance that muscles and bones normally work against, causing atrophy"
     ],
-    "hint": "Straight from the 'Critical thinking about adapting' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"exercise keeps them fit\" misses the zero-gravity reasoning — it is not about fitness but about preventing atrophy from lack of resistance.",
-    "id": "gen_c8_eng_ch05_p2_q16",
-    "nodeId": "c8_engl_ch5_11",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Why does the crew in \"Feathered Friend\" keep Claribel despite regulations forbidding pets? What does this reveal about the gap between rules and human needs?",
-    "answer": "The crew keeps Claribel because the psychological benefit — companionship, joy, something alive to nurture — outweighs the rule violation",
-    "options": [
-     "The space station is described as a highly engineered, noisy, and sterile environment full of metal and regulations",
-     "Sven's decision was highly responsible from a psychological standpoint. While he violated technical safety rules",
-     "The crew keeps Claribel because the psychological benefit — companionship, joy, something alive to nurture — outweighs the rule violation"
-    ],
-    "hint": "Straight from the 'Critical thinking about adapting' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"they just wanted a pet\" misses the critical insight — the bird serves a psychological function that rules cannot provide.",
     "id": "gen_c8_eng_ch05_p2_q17",
     "nodeId": "c8_engl_ch5_11",
     "difficulty": "advanced"
    },
    {
     "type": "mcq",
-    "question": "Critique this statement from a student writer: *\"In imaginative space writing, we should not talk about Earth or feeling homesick, because space stories must focus entirely on futuristic machines.\"*",
-    "answer": "The statement is flawed. Technology provides the backdrop, but emotional themes—such as longing for nature, homesickness, or human bonding—give the story its heart and purpose",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can identify three categories of challenges in space station life (physical, psychological, social)",
     "options": [
-     "Line 2 has a much higher musical quality. It uses alliteration (the repetition of the soft 's' sound in \"silver,\" \"sliver,\" \"slips,\" \"silent,\" and \"space\") and consonance (the 'l'",
-     "Expected response: \"Watching Sven weld steel girders against the black void of space, you would think he was made of iron himself",
-     "The statement is flawed. Technology provides the backdrop, but emotional themes—such as longing for nature, homesickness, or human bonding—give the story its heart and purpose"
+     "The student must be able to identify the correct contextual meaning and part of speech of the five target words in technical or narrative passages",
+     "The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze how these environmental constraints directly drive the",
+     "The student can identify three categories of challenges in space station life (physical, psychological, social)"
     ],
-    "hint": "Straight from the 'Imaginative writing about life in' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: The statement is flawed. Technology provides the backdrop, but emotional themes—such as longing for nature,",
+    "hint": "Straight from the 'From 'English chapter c8_engl_ch5'' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can identify three categories of challenges in space station life (physical, psychological, social),",
     "id": "gen_c8_eng_ch05_p2_q18",
-    "nodeId": "c8_engl_ch5_12",
+    "nodeId": "c8_engl_ch5_11",
     "difficulty": "advanced"
    }
   ],

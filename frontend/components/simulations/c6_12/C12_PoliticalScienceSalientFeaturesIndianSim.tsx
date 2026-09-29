@@ -1140,12 +1140,12 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-800 mb-6"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 border border-indigo-700/50 rounded-2xl shadow-inner">
+          <span className="text-3xl p-2 bg-gold-950/80 border border-gold-700/50 rounded-2xl shadow-inner">
             {subjectConfig.emoji}
           </span>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-widest text-indigo-400 bg-indigo-950/60 px-2 py-0.5 rounded-md border border-indigo-800/40">
+              <span className="text-xs font-bold uppercase tracking-widest text-gold-400 bg-gold-950/60 px-2 py-0.5 rounded-md border border-gold-800/40">
                 ISC Class 12 • Section B
               </span>
               <motion.span
@@ -1155,7 +1155,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                 className={`text-xs px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-950/80 text-emerald-400 border border-emerald-700/50' :
                   difficulty === 'advanced' ? 'bg-rose-950/80 text-rose-400 border border-rose-700/50' :
-                  'bg-indigo-950/80 text-indigo-400 border border-indigo-700/50'
+                  'bg-gold-950/80 text-gold-400 border border-gold-700/50'
                 }`}
               >
                 {difficulty} Tier
@@ -1180,7 +1180,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
               }}
               className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md'
+                  ? 'bg-gradient-to-r from-gold-600 to-purple-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
               }`}
               aria-label={`Switch to ${p} phase`}
@@ -1194,8 +1194,8 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
       {/* ─── 1. DISCOVERY HOOK PHASE ─────────────────────────────────────────── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800/50 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-3xl border border-gold-800/50 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-gold-600/10 rounded-full blur-3xl pointer-events-none" />
             <div className="flex items-center gap-2 mb-2">
               <span className="text-amber-400 font-black text-xs uppercase tracking-widest bg-amber-950/60 border border-amber-700/50 px-2.5 py-0.5 rounded-lg">
                 Scenario Hook
@@ -1203,7 +1203,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
               <h2 className="text-xl font-black text-white">{SCENARIO.title}</h2>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-            <div className="p-3 bg-slate-950/60 rounded-2xl border border-slate-800 text-xs text-indigo-300 font-medium">
+            <div className="p-3 bg-slate-950/60 rounded-2xl border border-slate-800 text-xs text-gold-300 font-medium">
               ⚖️ <span className="font-bold text-white">Your Role:</span> {SCENARIO.context}
             </div>
           </div>
@@ -1228,7 +1228,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                       ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/60 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-800 border-slate-700/60 text-slate-200 hover:border-gold-500'
                   }`}
                   aria-label={`Option: ${opt}`}
                 >
@@ -1251,7 +1251,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-2xl font-black text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-purple-600 text-white rounded-2xl font-black text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Constitutional Labs →
                 </motion.button>
@@ -1281,7 +1281,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                   key={idx}
                   onClick={() => setCurrentSlide(idx)}
                   className={`w-3 h-3 rounded-full transition-all ${
-                    currentSlide === idx ? 'bg-indigo-500 w-8' : 'bg-slate-700 hover:bg-slate-600'
+                    currentSlide === idx ? 'bg-gold-500 w-8' : 'bg-slate-700 hover:bg-slate-600'
                   }`}
                   aria-label={`Jump to lab ${idx + 1}`}
                 />
@@ -1292,7 +1292,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide(s => s + 1)}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 Next Lab →
               </motion.button>
@@ -1312,7 +1312,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
           <div ref={timelineRef} className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 shadow-xl space-y-6">
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div>
-                <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                   Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
                 </span>
                 <h3 className="text-xl font-black text-white mt-0.5">{EXPLORATION_STEPS[currentSlide].title}</h3>
@@ -1331,7 +1331,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                 <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-xs font-bold text-emerald-400 uppercase">State Autonomy (Federal Form)</span>
-                    <span className="text-xs font-bold text-indigo-300 font-mono">Centralization: {centralizationLevel}%</span>
+                    <span className="text-xs font-bold text-gold-300 font-mono">Centralization: {centralizationLevel}%</span>
                     <span className="text-xs font-bold text-rose-400 uppercase">Union Overriding (Unitary Spirit)</span>
                   </div>
                   <input
@@ -1340,7 +1340,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                     max={100}
                     value={centralizationLevel}
                     onChange={(e) => setCentralizationLevel(Number(e.target.value))}
-                    className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     aria-label="Centralization balance slider"
                   />
                 </div>
@@ -1369,7 +1369,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                     <span className="font-bold text-emerald-400">Federal Autonomy (Normal Time):</span> State List gives exclusive power over police, public health, local bodies.
                   </div>
                   <div className="p-3 bg-slate-950 rounded-xl border border-slate-800">
-                    <span className="font-bold text-indigo-400">Unitary Dominance (Emergency/Residuary):</span> Single citizenship, single integrated judiciary, Governors, Central civil services (IAS/IPS).
+                    <span className="font-bold text-gold-400">Unitary Dominance (Emergency/Residuary):</span> Single citizenship, single integrated judiciary, Governors, Central civil services (IAS/IPS).
                   </div>
                 </div>
               </div>
@@ -1380,7 +1380,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
               <div className="space-y-6">
                 <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800">
                   <div className="flex justify-between items-center mb-2">
-                    <span className="text-xs font-bold text-indigo-400 uppercase">Part III Focus (Negative Injunctions)</span>
+                    <span className="text-xs font-bold text-gold-400 uppercase">Part III Focus (Negative Injunctions)</span>
                     <span className="text-xs font-bold text-emerald-300 font-mono">Harmonious Balance: {harmonyBalance}%</span>
                     <span className="text-xs font-bold text-amber-400 uppercase">Part IV Focus (Positive Directives)</span>
                   </div>
@@ -1442,7 +1442,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                     onClick={() => handlePillarSelect('fr')}
                     className={`flex-1 p-3 rounded-2xl font-bold text-xs md:text-sm border transition-all ${
                       activePillar === 'fr'
-                        ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200'
                         : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-slate-200'
                     }`}
                   >
@@ -1486,7 +1486,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                     onClick={() => handleLocalGovTierToggle('urban')}
                     className={`flex-1 p-3 rounded-2xl font-bold text-xs md:text-sm border transition-all ${
                       localGovTier === 'urban'
-                        ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200'
                         : 'bg-slate-950 border-slate-800 text-slate-400'
                     }`}
                   >
@@ -1646,12 +1646,12 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                         className={`p-4 rounded-2xl text-left border transition-all ${
                           isDeployed
                             ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 opacity-80'
-                            : 'bg-slate-950 hover:bg-slate-900 border-slate-800 hover:border-indigo-500 text-slate-200'
+                            : 'bg-slate-950 hover:bg-slate-900 border-slate-800 hover:border-gold-500 text-slate-200'
                         }`}
                       >
                         <div className="flex items-center justify-between mb-1">
                           <span className="text-xs font-black">{reform.label}</span>
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-800 text-indigo-300">
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-slate-800 text-gold-300">
                             {isDeployed ? '✓ Active' : '+10% Health'}
                           </span>
                         </div>
@@ -1692,14 +1692,14 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                 placeholder="Search articles (e.g. Art 21, 243, 356, 368)..."
                 value={searchTerm}
                 onChange={e => setSearchTerm(e.target.value)}
-                className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 flex-1"
+                className="px-4 py-2 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-gold-500 flex-1"
                 aria-label="Search Constitution Articles"
               />
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleBillAdvance}
-                className="px-4 py-2 bg-indigo-950 border border-indigo-700 rounded-xl text-xs font-bold text-indigo-300"
+                className="px-4 py-2 bg-gold-950 border border-gold-700 rounded-xl text-xs font-bold text-gold-300"
               >
                 📜 Pass Bill Stage ({billStage + 1}/4)
               </motion.button>
@@ -1708,7 +1708,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
             {/* Bill Passing Stage Simulator */}
             <div className="p-3 bg-slate-950 rounded-2xl border border-slate-800 flex items-center justify-between text-xs">
               <span className="font-bold text-slate-400">Parliamentary Procedure:</span>
-              <span className="font-mono text-indigo-300 font-bold">
+              <span className="font-mono text-gold-300 font-bold">
                 {billStage === 0 ? '1. Introduction & 1st Reading in Lok Sabha' :
                  billStage === 1 ? '2. Committee Scrutiny & Clause-by-Clause 2nd Reading' :
                  billStage === 2 ? '3. Passed by Both Houses (Special Majority under Art 368)' :
@@ -1722,11 +1722,11 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                 <motion.div
                   key={idx}
                   whileHover={{ scale: 1.02 }}
-                  className="p-3 bg-slate-950 rounded-xl border border-slate-800 hover:border-indigo-500/60 transition-all cursor-pointer"
+                  className="p-3 bg-slate-950 rounded-xl border border-slate-800 hover:border-gold-500/60 transition-all cursor-pointer"
                   onClick={() => setSelectedArticleDetail(art.num + ': ' + art.title)}
                 >
                   <div className="flex justify-between items-center mb-1">
-                    <span className="font-mono font-bold text-indigo-400 text-xs">{art.num}</span>
+                    <span className="font-mono font-bold text-gold-400 text-xs">{art.num}</span>
                     <span className="text-[10px] text-slate-500 bg-slate-900 px-1.5 py-0.5 rounded">{art.part}</span>
                   </div>
                   <p className="text-xs text-slate-300 line-clamp-2">{art.title}</p>
@@ -1743,14 +1743,14 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
           {/* Challenge Header & Live Progress */}
           <div className="p-4 bg-slate-900/90 rounded-2xl border border-slate-800 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <span className="w-8 h-8 rounded-full bg-indigo-950 border border-indigo-700/60 text-indigo-300 font-black text-xs flex items-center justify-center">
+              <span className="w-8 h-8 rounded-full bg-gold-950 border border-gold-700/60 text-gold-300 font-black text-xs flex items-center justify-center">
                 {currentChallenge + 1}
               </span>
               <div>
                 <span className="text-xs text-slate-400 font-bold block">
                   Challenge {currentChallenge + 1} of {filteredChallenges.length}
                 </span>
-                <span className="text-[11px] text-indigo-400 font-mono">
+                <span className="text-[11px] text-gold-400 font-mono">
                   Competency: {challenge.competencyLevel.toUpperCase()}
                 </span>
               </div>
@@ -1760,7 +1760,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
               <span className="text-xs font-bold text-slate-400">Errors: {errors}</span>
               <div className="w-24 md:w-36 h-2 bg-slate-800 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500"
+                  className="h-full bg-gradient-to-r from-gold-500 to-purple-500"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -1796,7 +1796,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : showExplanation && i !== challenge.correctIndex
                         ? 'bg-slate-900 border-slate-800 text-slate-500 opacity-60'
-                        : 'bg-slate-950/80 hover:bg-slate-800/80 border-slate-800 hover:border-indigo-500 text-slate-200'
+                        : 'bg-slate-950/80 hover:bg-slate-800/80 border-slate-800 hover:border-gold-500 text-slate-200'
                     }`}
                     aria-label={`Option ${String.fromCharCode(65 + i)}: ${opt}`}
                   >
@@ -1823,7 +1823,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
+                      className="px-3 py-2 bg-gold-600 hover:bg-gold-500 rounded-xl cursor-grab text-white text-xs font-bold shadow-md"
                     >
                       {item.label}
                     </motion.div>
@@ -1854,7 +1854,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Check Label Placements
                 </motion.button>
@@ -1883,7 +1883,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                       whileTap={{ scale: 0.99 }}
                       className="p-3 bg-slate-950 rounded-xl border border-slate-700 text-slate-200 text-xs md:text-sm flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-5 h-5 rounded-md bg-indigo-950 border border-indigo-700 text-indigo-300 font-bold text-xs flex items-center justify-center">
+                      <span className="w-5 h-5 rounded-md bg-gold-950 border border-gold-700 text-gold-300 font-bold text-xs flex items-center justify-center">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -1895,7 +1895,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Order
                 </motion.button>
@@ -1912,7 +1912,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                     placeholder="Enter value"
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                     aria-label="Numeric input"
                   />
                   <span className="text-slate-400 text-sm font-bold">{challenge.unit}</span>
@@ -1921,7 +1921,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                   >
                     Submit Value
                   </motion.button>
@@ -1940,7 +1940,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-950 hover:bg-indigo-900 border border-indigo-700 rounded-xl text-xs font-bold text-indigo-300"
+                      className="px-3 py-1.5 bg-gold-950 hover:bg-gold-900 border border-gold-700 rounded-xl text-xs font-bold text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -1949,7 +1949,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
 
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 min-h-[70px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, i) => (
-                    <span key={i} className="px-3 py-1 bg-indigo-600 text-white rounded-lg text-xs font-bold flex items-center gap-2">
+                    <span key={i} className="px-3 py-1 bg-gold-600 text-white rounded-lg text-xs font-bold flex items-center gap-2">
                       {p}
                       <button onClick={() => setConstructParts(prev => prev.filter((_, idx) => idx !== i))} className="text-rose-300 hover:text-white">✕</button>
                     </span>
@@ -1962,7 +1962,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs"
+                  className="px-6 py-2.5 bg-gold-600 text-white rounded-xl font-bold text-xs"
                 >
                   Verify Constructed Sequence
                 </motion.button>
@@ -2027,7 +2027,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
       {/* ─── 5. COMPLETION & MASTERY PROFILE PHASE ──────────────────────────── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700 shadow-2xl text-center space-y-4">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Constitutional Simulation Complete!</h2>
             <p className="text-slate-300 text-sm max-w-xl mx-auto">
@@ -2041,7 +2041,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
               </div>
               <div className="px-5 py-3 bg-slate-950 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block font-bold">BKT Mastery Level</span>
-                <span className="text-2xl font-black text-indigo-400 capitalize">{masteryLevel}</span>
+                <span className="text-2xl font-black text-gold-400 capitalize">{masteryLevel}</span>
               </div>
               <div className="px-5 py-3 bg-slate-950 rounded-2xl border border-slate-800">
                 <span className="text-xs text-slate-400 block font-bold">Total Errors</span>
@@ -2052,7 +2052,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
             {/* Motivational Feedback Banner */}
             <div className="p-4 bg-slate-950/80 rounded-2xl border border-slate-800 max-w-2xl mx-auto">
               <h3 className="text-lg font-black text-amber-300 mb-1">{motivationalMessage}</h3>
-              <p className="text-xs md:text-sm font-semibold text-indigo-200">
+              <p className="text-xs md:text-sm font-semibold text-gold-200">
                 {errors === 0
                   ? 'You have mastered all 12 ISC constitutional nodes with pristine analytical precision!'
                   : errors <= 3
@@ -2104,7 +2104,7 @@ export function C12_PoliticalScienceSalientFeaturesIndianSim({
 
           {/* Real-World Civic Action Activity */}
           <div className="p-6 bg-slate-900/90 rounded-3xl border border-slate-800 shadow-xl space-y-3">
-            <h3 className="text-base font-black text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-base font-black text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

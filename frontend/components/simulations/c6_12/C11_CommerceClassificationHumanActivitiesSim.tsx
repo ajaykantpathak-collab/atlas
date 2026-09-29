@@ -819,7 +819,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
   // ─── DERIVED VALUES FOR LIVE VISUALS ───
   const dynamicMsmeCategory = useMemo(() => {
     if (msmeInvestment <= 1 && msmeTurnover <= 5) return { category: 'MICRO', color: 'emerald', bg: 'bg-emerald-500/20 text-emerald-400 border-emerald-500' };
-    if (msmeInvestment <= 10 && msmeTurnover <= 50) return { category: 'SMALL', color: 'blue', bg: 'bg-blue-500/20 text-blue-400 border-blue-500' };
+    if (msmeInvestment <= 10 && msmeTurnover <= 50) return { category: 'SMALL', color: 'blue', bg: 'bg-gold-500/20 text-gold-400 border-gold-500' };
     if (msmeInvestment <= 50 && msmeTurnover <= 250) return { category: 'MEDIUM', color: 'amber', bg: 'bg-amber-500/20 text-amber-400 border-amber-500' };
     return { category: 'LARGE', color: 'rose', bg: 'bg-rose-500/20 text-rose-400 border-rose-500' };
   }, [msmeInvestment, msmeTurnover]);
@@ -1150,13 +1150,13 @@ function C11_CommerceClassificationHumanActivitiesSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ scale: 1.1, rotate: 10 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-600/30 border border-indigo-500/50 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/30 border border-gold-500/50 flex items-center justify-center text-2xl shadow-inner"
             aria-label="Commerce Subject Icon"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs uppercase font-bold tracking-wider text-indigo-400">
+            <span className="text-xs uppercase font-bold tracking-wider text-gold-400">
               ISC Class 11 • {subjectConfig.name}
             </span>
             <h1 className="text-lg sm:text-xl font-extrabold text-white">{title}</h1>
@@ -1181,7 +1181,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
               }}
               className={`px-3 py-1 rounded-lg text-xs font-semibold capitalize transition-all ${
                 phase === p
-                  ? 'bg-indigo-600 text-white shadow-md'
+                  ? 'bg-gold-600 text-white shadow-md'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1194,7 +1194,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 to-slate-900/80 rounded-2xl border border-indigo-800/40">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 to-slate-900/80 rounded-2xl border border-gold-800/40">
             <div className="flex items-center gap-2 mb-2">
               <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
                 Curiosity Hook
@@ -1202,7 +1202,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
               <h2 className="text-lg font-bold text-white">{SCENARIO.title}</h2>
             </div>
             <p className="text-sm text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300 bg-indigo-950/70 p-3 rounded-xl border border-indigo-900/50">
+            <p className="text-xs text-gold-300 bg-gold-950/70 p-3 rounded-xl border border-gold-900/50">
               📜 <strong>Legal Context:</strong> {SCENARIO.context}
             </p>
           </div>
@@ -1262,7 +1262,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap"
                 >
                   Enter Interactive Labs →
                 </motion.button>
@@ -1277,7 +1277,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           {/* Step Progress & Navigation */}
           <div className="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-800">
-            <span className="text-xs font-bold text-indigo-400 uppercase">
+            <span className="text-xs font-bold text-gold-400 uppercase">
               Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}: {EXPLORATION_STEPS[currentSlide].title}
             </span>
             <div className="flex gap-1.5" aria-label={`Lab progress step ${currentSlide + 1} of ${EXPLORATION_STEPS.length}`}>
@@ -1285,7 +1285,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                 <div
                   key={i}
                   className={`w-6 h-1.5 rounded-full transition-all ${
-                    i === currentSlide ? 'bg-indigo-500' : i < currentSlide ? 'bg-indigo-900' : 'bg-slate-800'
+                    i === currentSlide ? 'bg-gold-500' : i < currentSlide ? 'bg-gold-900' : 'bg-slate-800'
                   }`}
                 />
               ))}
@@ -1301,11 +1301,11 @@ function C11_CommerceClassificationHumanActivitiesSim({
               exit={{ opacity: 0, x: -20 }}
               className="p-5 sm:p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6"
             >
-              <div className="border-l-4 border-indigo-500 pl-3">
+              <div className="border-l-4 border-gold-500 pl-3">
                 <h3 className="text-base sm:text-lg font-bold text-white">
                   {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
-                <p className="text-xs sm:text-sm text-indigo-300 mt-0.5">
+                <p className="text-xs sm:text-sm text-gold-300 mt-0.5">
                   👉 {EXPLORATION_STEPS[currentSlide].instruction}
                 </p>
               </div>
@@ -1331,12 +1331,12 @@ function C11_CommerceClassificationHumanActivitiesSim({
                         }}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedActivityTab === tab.id
-                            ? 'bg-indigo-600/30 border-indigo-500 text-white shadow-lg'
+                            ? 'bg-gold-600/30 border-gold-500 text-white shadow-lg'
                             : 'bg-slate-800/60 border-slate-700/60 text-slate-400 hover:text-slate-200'
                         }`}
                       >
                         <p className="text-xs font-bold truncate">{tab.label}</p>
-                        <span className="text-[10px] text-indigo-300">{tab.tag}</span>
+                        <span className="text-[10px] text-gold-300">{tab.tag}</span>
                       </motion.button>
                     ))}
                   </div>
@@ -1395,7 +1395,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">Capital Commitment</span>
-                        <span className="text-indigo-400 font-bold">{triadCapital > 60 ? 'High (Business)' : triadCapital > 20 ? 'Modest (Profession)' : 'Nil (Employment)'}</span>
+                        <span className="text-gold-400 font-bold">{triadCapital > 60 ? 'High (Business)' : triadCapital > 20 ? 'Modest (Profession)' : 'Nil (Employment)'}</span>
                       </div>
                       <input
                         type="range"
@@ -1407,7 +1407,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                           setTriadCapital(Number(e.target.value));
                           audioManager.play('pop');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -1432,19 +1432,19 @@ function C11_CommerceClassificationHumanActivitiesSim({
 
                   {/* Comparative Matrix Cards */}
                   <div className="grid grid-cols-3 gap-2 text-center">
-                    <div className={`p-3 rounded-xl border transition-all ${triadCapital > 50 && triadRisk > 50 ? 'bg-indigo-950 border-indigo-500 ring-2 ring-indigo-500/50' : 'bg-slate-900 border-slate-800'}`}>
+                    <div className={`p-3 rounded-xl border transition-all ${triadCapital > 50 && triadRisk > 50 ? 'bg-gold-950 border-gold-500 ring-2 ring-gold-500/50' : 'bg-slate-900 border-slate-800'}`}>
                       <p className="text-xs font-bold text-white">Business</p>
                       <p className="text-[11px] text-emerald-400 mt-1">Reward: Profit</p>
                       <p className="text-[10px] text-slate-400">Owner bears full risk</p>
                     </div>
-                    <div className={`p-3 rounded-xl border transition-all ${triadCapital <= 50 && triadCapital > 20 ? 'bg-indigo-950 border-indigo-500 ring-2 ring-indigo-500/50' : 'bg-slate-900 border-slate-800'}`}>
+                    <div className={`p-3 rounded-xl border transition-all ${triadCapital <= 50 && triadCapital > 20 ? 'bg-gold-950 border-gold-500 ring-2 ring-gold-500/50' : 'bg-slate-900 border-slate-800'}`}>
                       <p className="text-xs font-bold text-white">Profession</p>
-                      <p className="text-[11px] text-indigo-400 mt-1">Reward: Fees</p>
+                      <p className="text-[11px] text-gold-400 mt-1">Reward: Fees</p>
                       <p className="text-[10px] text-slate-400">ICAI / NMC / Bar Council</p>
                     </div>
-                    <div className={`p-3 rounded-xl border transition-all ${triadCapital <= 20 && triadRisk <= 20 ? 'bg-indigo-950 border-indigo-500 ring-2 ring-indigo-500/50' : 'bg-slate-900 border-slate-800'}`}>
+                    <div className={`p-3 rounded-xl border transition-all ${triadCapital <= 20 && triadRisk <= 20 ? 'bg-gold-950 border-gold-500 ring-2 ring-gold-500/50' : 'bg-slate-900 border-slate-800'}`}>
                       <p className="text-xs font-bold text-white">Employment</p>
-                      <p className="text-[11px] text-sky-400 mt-1">Reward: Salary</p>
+                      <p className="text-[11px] text-gold-400 mt-1">Reward: Salary</p>
                       <p className="text-[10px] text-slate-400">Contract of service</p>
                     </div>
                   </div>
@@ -1455,8 +1455,8 @@ function C11_CommerceClassificationHumanActivitiesSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/70 rounded-xl border border-indigo-800 space-y-2">
-                      <p className="text-xs font-bold text-indigo-300">PREDICTION CHALLENGE:</p>
+                    <div className="p-4 bg-gold-950/70 rounded-xl border border-gold-800 space-y-2">
+                      <p className="text-xs font-bold text-gold-300">PREDICTION CHALLENGE:</p>
                       <p className="text-sm font-medium text-white">{PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
@@ -1528,7 +1528,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                           setMsmeInvestment(Number(e.target.value));
                           audioManager.play('pop');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[10px] text-slate-500">Micro ≤ ₹1Cr | Small ≤ ₹10Cr | Medium ≤ ₹50Cr</p>
                     </div>
@@ -1549,7 +1549,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                           setMsmeTurnover(Number(e.target.value));
                           audioManager.play('pop');
                         }}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                       <p className="text-[10px] text-slate-500">Micro ≤ ₹5Cr | Small ≤ ₹50Cr | Medium ≤ ₹250Cr</p>
                     </div>
@@ -1654,7 +1654,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                           }}
                           className={`p-3 rounded-xl text-left border transition-all ${
                             activeAidStep === idx
-                              ? 'bg-indigo-600/30 border-indigo-400 text-white shadow-lg'
+                              ? 'bg-gold-600/30 border-gold-400 text-white shadow-lg'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                           }`}
                         >
@@ -1673,7 +1673,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {/* Section 135 CSR Calculator */}
                     <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                      <h4 className="text-xs font-bold text-indigo-400 uppercase">
+                      <h4 className="text-xs font-bold text-gold-400 uppercase">
                         1. Companies Act Sec 135 CSR Mandate
                       </h4>
                       <div className="flex justify-between text-xs">
@@ -1759,7 +1759,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={handleNextSlide}
-              className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold shadow-lg shadow-indigo-600/30"
+              className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold shadow-lg shadow-gold-600/30"
             >
               {currentSlide < EXPLORATION_STEPS.length - 1 ? 'Next Lab →' : 'Enter Free Sandbox →'}
             </motion.button>
@@ -1783,7 +1783,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     aria-label={`Switch sandbox mode to ${m}`}
                     onClick={() => setSandboxMode(m)}
                     className={`px-3 py-1 rounded-lg text-xs font-bold uppercase transition-all ${
-                      sandboxMode === m ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                      sandboxMode === m ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                     }`}
                   >
                     {m}
@@ -1812,7 +1812,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     step={0.5}
                     value={msmeInvestment}
                     onChange={(e) => setMsmeInvestment(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
                 <div className="space-y-2">
@@ -1827,7 +1827,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     step={1}
                     value={msmeTurnover}
                     onChange={(e) => setMsmeTurnover(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                   />
                 </div>
               </div>
@@ -1835,7 +1835,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
 
             {sandboxMode === 'supply' && (
               <div className="p-4 bg-slate-950 rounded-xl text-center space-y-2">
-                <p className="text-xs text-indigo-300">Industry (Form) ➔ Transport (Place) ➔ Warehouse (Time) ➔ Trade (Possession)</p>
+                <p className="text-xs text-gold-300">Industry (Form) ➔ Transport (Place) ➔ Warehouse (Time) ➔ Trade (Possession)</p>
                 <p className="text-xs text-slate-400">All 6 Aids to Trade are currently active and running at 100% capacity.</p>
               </div>
             )}
@@ -1890,13 +1890,13 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     difficulty === 'foundation'
                       ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
                       : difficulty === 'standard'
-                      ? 'bg-blue-500/20 text-blue-300 border-blue-500/40'
+                      ? 'bg-gold-500/20 text-gold-300 border-gold-500/40'
                       : 'bg-rose-500/20 text-rose-300 border-rose-500/40'
                   }`}
                 >
                   {difficulty} TIER
                 </motion.span>
-                <span className="text-xs text-indigo-400 font-bold uppercase">
+                <span className="text-xs text-gold-400 font-bold uppercase">
                   • NEP Level: {challenge.competencyLevel}
                 </span>
               </div>
@@ -1910,7 +1910,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentChallenge + 1} aria-valuemin={1} aria-valuemax={filteredChallenges.length}>
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
               animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
             />
           </div>
@@ -1977,7 +1977,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3.5 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3.5 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2022,7 +2022,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify All Matches
                 </motion.button>
@@ -2051,7 +2051,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-indigo-600 text-[10px] font-bold text-center leading-5 text-white">
+                    <span className="w-5 h-5 rounded-full bg-gold-600 text-[10px] font-bold text-center leading-5 text-white">
                       {displayIdx + 1}
                     </span>
                     {item}
@@ -2069,7 +2069,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                         : challenge.sortItems?.map((_, i) => i) || [];
                     handleAnswer(ans);
                   }}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Validate Sequence
                 </motion.button>
@@ -2086,7 +2086,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter value"
-                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-bold text-sm w-48 focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white font-bold text-sm w-48 focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-sm font-semibold text-slate-400">{challenge.unit}</span>
                   <motion.button
@@ -2094,7 +2094,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
-                    className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                    className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                   >
                     Check Calculation
                   </motion.button>
@@ -2113,7 +2113,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-semibold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white text-xs font-semibold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2124,7 +2124,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   {constructParts.map((p, idx) => (
                     <div
                       key={idx}
-                      className="px-3 py-1 bg-indigo-900 border border-indigo-500 text-indigo-200 rounded-lg text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900 border border-gold-500 text-gold-200 rounded-lg text-xs flex items-center gap-2"
                     >
                       {p}
                       <button
@@ -2146,7 +2146,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
-                  className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Verify Export Architecture
                 </motion.button>
@@ -2159,10 +2159,10 @@ function C11_CommerceClassificationHumanActivitiesSim({
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
-              className="p-5 bg-gradient-to-br from-indigo-950/80 to-slate-900 rounded-2xl border border-indigo-700/60 space-y-4"
+              className="p-5 bg-gradient-to-br from-gold-950/80 to-slate-900 rounded-2xl border border-gold-700/60 space-y-4"
             >
               <div className="flex items-center gap-2">
-                <span className="text-indigo-400 text-sm font-bold">📖 Step-by-Step Statutory Breakdown:</span>
+                <span className="text-gold-400 text-sm font-bold">📖 Step-by-Step Statutory Breakdown:</span>
               </div>
 
               <div className="space-y-2">
@@ -2175,9 +2175,9 @@ function C11_CommerceClassificationHumanActivitiesSim({
                       key={i}
                       initial={{ opacity: 0, x: -10 }}
                       animate={{ opacity: 1, x: 0 }}
-                      className="text-xs sm:text-sm text-indigo-200 leading-relaxed"
+                      className="text-xs sm:text-sm text-gold-200 leading-relaxed"
                     >
-                      <span className="font-bold text-indigo-400 mr-1.5">{i + 1}.</span>
+                      <span className="font-bold text-gold-400 mr-1.5">{i + 1}.</span>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2192,7 +2192,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setRevealedSteps((s) => s + 1)}
-                    className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold rounded-lg"
+                    className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold rounded-lg"
                   >
                     Reveal Next Reasoning Step →
                   </motion.button>
@@ -2225,7 +2225,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
             <h2 className="text-2xl font-extrabold text-white">Simulation Complete!</h2>
             <p className="text-sm text-slate-300">
               Final Score: <span className="text-emerald-400 font-bold">{Math.max(0, 100 - errors * 5)}%</span> • Mastery Tier:{' '}
-              <span className="text-indigo-400 font-bold capitalize">{masteryLevel}</span>
+              <span className="text-gold-400 font-bold capitalize">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2277,7 +2277,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections({ ...reflections, surprising: e.target.value })}
                   placeholder="e.g., How breaching turnover in MSME changes classification even if investment is low..."
-                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2291,7 +2291,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   value={reflections.explain}
                   onChange={(e) => setReflections({ ...reflections, explain: e.target.value })}
                   placeholder="e.g., Business makes goods, trade sells them, and the 6 aids bridge place, time, risk and knowledge..."
-                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2305,7 +2305,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections({ ...reflections, realLife: e.target.value })}
                   placeholder="e.g., When launching an MSME startup or advising a family business on unlimited liability..."
-                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2321,7 +2321,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
                     setReflectionSaved(true);
                     audioManager.play('success');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs rounded-xl shadow"
                 >
                   Save Reflection
                 </motion.button>
@@ -2340,7 +2340,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
           </div>
 
           {/* Real-World Capstone Activity */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 to-slate-900 rounded-3xl border border-indigo-800/50 space-y-4">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 to-slate-900 rounded-3xl border border-gold-800/50 space-y-4">
             <div className="flex items-center gap-2">
               <span className="text-xl">💼</span>
               <h3 className="text-base font-bold text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2349,7 +2349,7 @@ function C11_CommerceClassificationHumanActivitiesSim({
             <div className="space-y-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="flex gap-2.5 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span>
+                  <span className="font-bold text-gold-400">{i + 1}.</span>
                   <p>{step}</p>
                 </div>
               ))}

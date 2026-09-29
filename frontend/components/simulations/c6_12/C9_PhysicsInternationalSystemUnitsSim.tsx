@@ -1198,14 +1198,14 @@ export function C9_PhysicsInternationalSystemUnitsSim({
       <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-800">
         <div className="flex items-center gap-3">
           <motion.div
-            className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/30 flex items-center justify-center text-2xl shadow-inner"
             whileHover={{ rotate: 15, scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <span className="text-xs font-semibold tracking-wider uppercase text-indigo-400">ICSE Class 9 Physics Core</span>
+            <span className="text-xs font-semibold tracking-wider uppercase text-gold-400">ICSE Class 9 Physics Core</span>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
           </div>
         </div>
@@ -1221,7 +1221,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/60 text-rose-400 border-rose-700'
-                : 'bg-cyan-950/60 text-cyan-400 border-cyan-700'
+                : 'bg-gold-950/60 text-gold-400 border-gold-700'
             }`}
           >
             Tier: {difficulty}
@@ -1236,13 +1236,13 @@ export function C9_PhysicsInternationalSystemUnitsSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-8 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/50 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/40 shadow-lg">
-            <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/50 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/40 shadow-lg">
+            <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-widest mb-2">
               <span>🚀 Telemetry Mission Brief</span>
             </div>
             <h2 className="text-2xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-slate-300 text-sm md:text-base leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/30 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/30 text-xs text-gold-200">
               💡 <strong>Objective:</strong> {SCENARIO.context}
             </div>
           </div>
@@ -1267,11 +1267,11 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-md shadow-emerald-950/50'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-900/50 border-slate-800 text-slate-500 opacity-60'
-                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                      : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                   }`}
                 >
                   <div className="flex items-start gap-2">
-                    <span className="font-bold text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     <span>{opt}</span>
                   </div>
                 </motion.button>
@@ -1296,7 +1296,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full md:w-auto px-8 py-3.5 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2"
+                  className="w-full md:w-auto px-8 py-3.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center justify-center gap-2"
                 >
                   <span>Enter Virtual Science Labs</span>
                   <span>→</span>
@@ -1313,7 +1313,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
           {/* Lab Progress Navigation Bar */}
           <div className="flex items-center justify-between p-3 bg-slate-900 rounded-2xl border border-slate-800">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-indigo-400">LAB {currentSlide + 1} OF 5</span>
+              <span className="text-xs font-bold text-gold-400">LAB {currentSlide + 1} OF 5</span>
               <span className="text-slate-600">|</span>
               <span className="text-xs text-slate-300 font-medium hidden sm:inline">
                 {EXPLORATION_STEPS[currentSlide].title}
@@ -1325,7 +1325,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                   key={idx}
                   onClick={() => setCurrentSlide(idx)}
                   className={`h-2 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-8 bg-indigo-500' : 'w-2 bg-slate-700 hover:bg-slate-600'
+                    idx === currentSlide ? 'w-8 bg-gold-500' : 'w-2 bg-slate-700 hover:bg-slate-600'
                   }`}
                   aria-label={`Jump to lab ${idx + 1}`}
                 />
@@ -1344,7 +1344,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
             >
               <div>
                 <h2 className="text-xl md:text-2xl font-bold text-white">{EXPLORATION_STEPS[currentSlide].title}</h2>
-                <p className="text-sm text-cyan-300 mt-1 flex items-center gap-1.5">
+                <p className="text-sm text-gold-300 mt-1 flex items-center gap-1.5">
                   <span>👉</span>
                   <span>{EXPLORATION_STEPS[currentSlide].instruction}</span>
                 </p>
@@ -1358,7 +1358,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       <div className="text-xs font-mono text-slate-400">
                         Object Jaw Opening: <span className="text-amber-400 font-bold text-sm">{(vernierValueMm / 10).toFixed(2)} cm</span> ({vernierValueMm.toFixed(1)} mm)
                       </div>
-                      <div className="text-xs font-mono text-cyan-400">
+                      <div className="text-xs font-mono text-gold-400">
                         Formula: TR = MSR ({vernierMSR_mm} mm) + [VSR ({vernierCoincidence}) × LC (0.1 mm)]
                       </div>
                     </div>
@@ -1375,7 +1375,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                           setVernierValueMm(parseFloat(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full mt-2 accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         aria-label="Vernier caliper slider"
                       />
                     </label>
@@ -1488,8 +1488,8 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                         <span className="text-xs text-slate-400 block">Coinciding Mark</span>
                         <span className="text-sm font-bold text-emerald-400">{vernierCoincidence}th Division</span>
                       </div>
-                      <div className="p-3 bg-slate-900 rounded-xl border border-indigo-700/50 bg-indigo-950/30">
-                        <span className="text-xs text-indigo-300 block">Total Reading</span>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-700/50 bg-gold-950/30">
+                        <span className="text-xs text-gold-300 block">Total Reading</span>
                         <span className="text-sm font-black text-amber-300">{vernierCalculatedMm.toFixed(2)} mm</span>
                       </div>
                     </div>
@@ -1505,7 +1505,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       <div className="text-xs font-mono text-slate-400">
                         Spindle Linear Advance: <span className="text-amber-400 font-bold text-sm">{screwGaugeMm.toFixed(2)} mm</span>
                       </div>
-                      <div className="text-xs font-mono text-cyan-400">
+                      <div className="text-xs font-mono text-gold-400">
                         Pitch = 1.0 mm | Divs = 100 | LC = 0.01 mm
                       </div>
                     </div>
@@ -1522,7 +1522,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                           setScrewGaugeMm(parseFloat(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full mt-2 accent-cyan-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                        className="w-full mt-2 accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                         aria-label="Screw gauge slider"
                       />
                     </label>
@@ -1630,10 +1630,10 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-slate-400 block">Least Count</span>
-                        <span className="text-sm font-bold text-cyan-300">0.01 mm (0.001 cm)</span>
+                        <span className="text-sm font-bold text-gold-300">0.01 mm (0.001 cm)</span>
                       </div>
-                      <div className="p-3 bg-slate-900 rounded-xl border border-cyan-800/50 bg-cyan-950/30">
-                        <span className="text-cyan-300 block">Total Diameter</span>
+                      <div className="p-3 bg-slate-900 rounded-xl border border-gold-800/50 bg-gold-950/30">
+                        <span className="text-gold-300 block">Total Diameter</span>
                         <span className="text-sm font-black text-amber-300">
                           {(screwMSR_mm + screwCircularDiv * 0.01).toFixed(2)} mm
                         </span>
@@ -1648,8 +1648,8 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 <div className="space-y-6">
                   {/* PREDICT-THEN-CHECK HOOK */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-2xl border border-indigo-800 space-y-3">
-                      <span className="px-2 py-0.5 bg-indigo-500/30 text-indigo-300 text-xs font-bold rounded">
+                    <div className="p-4 bg-gold-950/60 rounded-2xl border border-gold-800 space-y-3">
+                      <span className="px-2 py-0.5 bg-gold-500/30 text-gold-300 text-xs font-bold rounded">
                         Predict-Then-Check
                       </span>
                       <h4 className="text-sm font-bold text-white">{PREDICTION_QUESTIONS[0].question}</h4>
@@ -1700,7 +1700,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => setPendulumIsPlaying(!pendulumIsPlaying)}
-                          className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                          className="px-4 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                         >
                           {pendulumIsPlaying ? '⏸ Pause Swing' : '▶ Release Swing'}
                         </motion.button>
@@ -1715,7 +1715,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Length (l): <strong>{pendulumLength.toFixed(2)} m</strong></span>
-                          <span className="text-indigo-400">Range: 0.2m - 2.0m</span>
+                          <span className="text-gold-400">Range: 0.2m - 2.0m</span>
                         </div>
                         <input
                           type="range"
@@ -1727,7 +1727,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                             setPendulumLength(parseFloat(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-indigo-500 bg-slate-800 h-2 rounded-lg"
+                          className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                           aria-label="Pendulum length slider"
                         />
                       </div>
@@ -1735,7 +1735,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       <div>
                         <div className="flex justify-between text-slate-300 mb-1">
                           <span>Gravity (g): <strong>{pendulumGravity.toFixed(1)} m/s²</strong></span>
-                          <span className="text-cyan-400">Earth (9.8) / Moon (1.6)</span>
+                          <span className="text-gold-400">Earth (9.8) / Moon (1.6)</span>
                         </div>
                         <input
                           type="range"
@@ -1747,7 +1747,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                             setPendulumGravity(parseFloat(e.target.value));
                             audioManager.play('count');
                           }}
-                          className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg"
+                          className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                           aria-label="Pendulum gravity slider"
                         />
                       </div>
@@ -1776,7 +1776,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       </div>
                       <div className="text-slate-400">
                         Net Change (Displacement):{' '}
-                        <strong className={`text-sm ${roverPosition >= 0 ? 'text-indigo-400' : 'text-rose-400'}`}>
+                        <strong className={`text-sm ${roverPosition >= 0 ? 'text-gold-400' : 'text-rose-400'}`}>
                           {Math.abs(roverPosition)} m {roverPosition > 0 ? 'East (+)' : roverPosition < 0 ? 'West (-)' : 'Origin'}
                         </strong>{' '}
                         (Vector)
@@ -1898,7 +1898,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                         <button
                           onClick={() => setActiveGraphTab('vt')}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                            activeGraphTab === 'vt' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeGraphTab === 'vt' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Velocity-Time (v-t)
@@ -1906,14 +1906,14 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                         <button
                           onClick={() => setActiveGraphTab('dt')}
                           className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                            activeGraphTab === 'dt' ? 'bg-indigo-600 text-white' : 'bg-slate-800 text-slate-400'
+                            activeGraphTab === 'dt' ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                           }`}
                         >
                           Distance-Time (d-t)
                         </button>
                       </div>
 
-                      <div className="text-xs font-mono text-cyan-300">
+                      <div className="text-xs font-mono text-gold-300">
                         {activeGraphTab === 'vt'
                           ? `Slope = a = ${kinAcceleration} m/s² | Area = s = ${kinDisplacement.toFixed(1)} m`
                           : `Curvature indicates acceleration`}
@@ -2000,7 +2000,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                           max={25}
                           value={kinInitialVelocity}
                           onChange={(e) => setKinInitialVelocity(parseInt(e.target.value))}
-                          className="w-full accent-indigo-500 bg-slate-800 h-2 rounded-lg"
+                          className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                           aria-label="Initial velocity slider"
                         />
                       </div>
@@ -2015,7 +2015,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                           max={8}
                           value={kinAcceleration}
                           onChange={(e) => setKinAcceleration(parseInt(e.target.value))}
-                          className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg"
+                          className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                           aria-label="Acceleration slider"
                         />
                       </div>
@@ -2058,7 +2058,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.96 }}
                 onClick={handleNextSlide}
-                className="px-6 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2105,7 +2105,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     }}
                     className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
                       sandboxTool === t.id
-                        ? 'bg-gradient-to-r from-indigo-600 to-cyan-600 text-white shadow-md'
+                        ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md'
                         : 'bg-slate-800 text-slate-400 hover:text-white'
                     }`}
                   >
@@ -2130,7 +2130,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     step={0.1}
                     value={vernierValueMm}
                     onChange={(e) => setVernierValueMm(parseFloat(e.target.value))}
-                    className="w-full accent-indigo-500 bg-slate-800 h-2 rounded-lg"
+                    className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                     aria-label="Sandbox vernier slider"
                   />
                   <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300">
@@ -2143,7 +2143,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 <div className="space-y-4">
                   <div className="flex justify-between text-xs text-slate-400">
                     <span>Pitch: 1 mm | Circular Div: {screwCircularDiv}</span>
-                    <span className="text-cyan-400 font-bold">Reading: {(screwMSR_mm + screwCircularDiv * 0.01).toFixed(2)} mm</span>
+                    <span className="text-gold-400 font-bold">Reading: {(screwMSR_mm + screwCircularDiv * 0.01).toFixed(2)} mm</span>
                   </div>
                   <input
                     type="range"
@@ -2152,7 +2152,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     step={0.01}
                     value={screwGaugeMm}
                     onChange={(e) => setScrewGaugeMm(parseFloat(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg"
+                    className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                     aria-label="Sandbox screw gauge slider"
                   />
                   <div className="p-3 bg-slate-900 rounded-xl text-xs text-slate-300">
@@ -2174,7 +2174,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     step={0.05}
                     value={pendulumLength}
                     onChange={(e) => setPendulumLength(parseFloat(e.target.value))}
-                    className="w-full accent-indigo-500 bg-slate-800 h-2 rounded-lg"
+                    className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                     aria-label="Sandbox pendulum slider"
                   />
                 </div>
@@ -2184,7 +2184,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 <div className="space-y-4">
                   <div className="flex justify-between text-xs text-slate-400">
                     <span>Distance (Total Path): <strong className="text-emerald-400">{roverTotalDistance} m</strong></span>
-                    <span>Displacement (Vector): <strong className="text-indigo-400">{roverPosition} m</strong></span>
+                    <span>Displacement (Vector): <strong className="text-gold-400">{roverPosition} m</strong></span>
                   </div>
                   <div className="flex gap-2">
                     <button onClick={() => handleRoverMove(-10)} className="px-3 py-1.5 bg-rose-700 text-white rounded-lg text-xs">West (-10m)</button>
@@ -2198,7 +2198,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 <div className="space-y-4">
                   <div className="flex justify-between text-xs text-slate-400">
                     <span>v = u + at = {kinFinalVelocity} m/s</span>
-                    <span className="text-cyan-400 font-bold">Displacement s = {kinDisplacement.toFixed(1)} m</span>
+                    <span className="text-gold-400 font-bold">Displacement s = {kinDisplacement.toFixed(1)} m</span>
                   </div>
                   <input
                     type="range"
@@ -2206,7 +2206,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     max={6}
                     value={kinAcceleration}
                     onChange={(e) => setKinAcceleration(parseInt(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-800 h-2 rounded-lg"
+                    className="w-full accent-gold-500 bg-slate-800 h-2 rounded-lg"
                     aria-label="Sandbox acceleration slider"
                   />
                 </div>
@@ -2218,7 +2218,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={handleAdvanceToChallenge}
-                className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-indigo-600 hover:from-emerald-500 hover:to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/30 text-sm flex items-center justify-center gap-2"
+                className="w-full py-3.5 bg-gradient-to-r from-emerald-600 to-gold-600 hover:from-emerald-500 hover:to-gold-500 text-white font-bold rounded-xl shadow-lg shadow-emerald-600/30 text-sm flex items-center justify-center gap-2"
               >
                 <span>Ready for Flight Certification Challenges!</span>
                 <span>→</span>
@@ -2240,12 +2240,12 @@ export function C9_PhysicsInternationalSystemUnitsSim({
               <span>
                 CHALLENGE {currentChallenge + 1} OF {filteredChallenges.length}
               </span>
-              <span className="text-indigo-400 uppercase">NEP Level: {challenge.competencyLevel}</span>
+              <span className="text-gold-400 uppercase">NEP Level: {challenge.competencyLevel}</span>
             </div>
 
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-cyan-400 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2262,7 +2262,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-0.5 bg-indigo-500/20 text-indigo-400 rounded text-xs font-bold uppercase">
+              <span className="px-2.5 py-0.5 bg-gold-500/20 text-gold-400 rounded text-xs font-bold uppercase">
                 {challenge.type}
               </span>
               <span className="text-xs text-slate-500">Node: {challenge.nodeId}</span>
@@ -2288,10 +2288,10 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                           : wrongFlash
                           ? 'bg-rose-950/40 border-rose-600 text-rose-200'
-                          : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-indigo-500'
+                          : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200 hover:border-gold-500'
                       }`}
                     >
-                      <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-xs font-bold text-indigo-400 shrink-0">
+                      <span className="w-6 h-6 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-xs font-bold text-gold-400 shrink-0">
                         {String.fromCharCode(65 + i)}
                       </span>
                       <span>{opt}</span>
@@ -2310,7 +2310,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     value={numericInput}
                     onChange={(e) => setNumericInput(e.target.value)}
                     placeholder="Enter calculated value..."
-                    className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 focus:outline-none w-full max-w-xs"
+                    className="p-3.5 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 focus:outline-none w-full max-w-xs"
                     aria-label="Numeric answer input"
                   />
                   <span className="text-slate-300 font-bold text-sm">{challenge.unit}</span>
@@ -2319,7 +2319,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     whileTap={{ scale: 0.96 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
+                    className="px-6 py-3.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-sm disabled:opacity-40"
                   >
                     Submit
                   </motion.button>
@@ -2339,7 +2339,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold rounded-lg cursor-grab select-none shadow"
+                      className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white text-xs font-bold rounded-lg cursor-grab select-none shadow"
                     >
                       :: {item.label}
                     </motion.div>
@@ -2353,7 +2353,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       key={idx}
                       onDragOver={(e) => e.preventDefault()}
                       onDrop={() => handleDragDrop(item.targetId)}
-                      className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-indigo-500 flex flex-col items-center justify-center min-h-[90px] text-center"
+                      className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 hover:border-gold-500 flex flex-col items-center justify-center min-h-[90px] text-center"
                     >
                       <span className="text-xs text-slate-500 uppercase font-semibold">Target: {item.targetId.replace('_', ' ')}</span>
                       {droppedLabels[item.targetId] ? (
@@ -2370,7 +2370,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify All Targets
                 </motion.button>
@@ -2398,7 +2398,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       whileHover={{ scale: 1.01 }}
                       className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs font-medium text-slate-200 cursor-grab flex items-center gap-3"
                     >
-                      <span className="w-5 h-5 rounded-full bg-slate-900 text-indigo-400 flex items-center justify-center font-bold text-xs">
+                      <span className="w-5 h-5 rounded-full bg-slate-900 text-gold-400 flex items-center justify-center font-bold text-xs">
                         {displayIndex + 1}
                       </span>
                       <span>{item}</span>
@@ -2415,7 +2415,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                     )
                   }
                   disabled={showExplanation}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Confirm Order
                 </motion.button>
@@ -2442,7 +2442,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
 
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 flex flex-wrap gap-2 min-h-[50px] items-center">
                   {constructParts.map((p, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-700 text-white rounded-lg text-xs font-mono flex items-center gap-1">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-700 text-white rounded-lg text-xs font-mono flex items-center gap-1">
                       {p}
                       <button onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))} className="text-rose-300 font-bold ml-1">
                         ×
@@ -2457,7 +2457,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Construction
                 </motion.button>
@@ -2466,8 +2466,8 @@ export function C9_PhysicsInternationalSystemUnitsSim({
 
             {/* Step-by-Step Progressive Explanation Card */}
             {showExplanation && (
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 bg-indigo-950/40 rounded-2xl border border-indigo-700 space-y-3">
-                <div className="flex items-center gap-2 text-indigo-300 font-bold text-xs uppercase">
+              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-6 p-4 bg-gold-950/40 rounded-2xl border border-gold-700 space-y-3">
+                <div className="flex items-center gap-2 text-gold-300 font-bold text-xs uppercase">
                   <span>🔬 Scientific Solution Breakdown</span>
                 </div>
 
@@ -2482,7 +2482,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400">{idx + 1}.</strong> {sentence}
+                      <strong className="text-gold-400">{idx + 1}.</strong> {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
                   ))}
@@ -2494,7 +2494,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
                       whileHover={{ scale: 1.03 }}
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setRevealedSteps((s) => s + 1)}
-                      className="px-4 py-2 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold"
+                      className="px-4 py-2 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold"
                     >
                       Reveal Next Step →
                     </motion.button>
@@ -2521,13 +2521,13 @@ export function C9_PhysicsInternationalSystemUnitsSim({
       {/* ─── PHASE 5: COMPLETE & MISSION DEBRIEF ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="py-8 space-y-6">
-          <div className="p-8 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700 text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 rounded-3xl border border-gold-700 text-center space-y-4">
             <div className="w-16 h-16 mx-auto rounded-full bg-emerald-500/20 border border-emerald-500/50 flex items-center justify-center text-3xl">
               🚀
             </div>
 
             {/* Motivational Feedback Banner */}
-            <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-amber-300 font-extrabold text-sm uppercase tracking-wider">
+            <div className="inline-block px-4 py-1.5 rounded-full bg-gold-500/20 border border-gold-400/30 text-amber-300 font-extrabold text-sm uppercase tracking-wider">
               {getMotivationalFeedback(errors)}
             </div>
 
@@ -2547,7 +2547,7 @@ export function C9_PhysicsInternationalSystemUnitsSim({
               </div>
               <div className="px-5 py-3 bg-slate-900 rounded-2xl border border-slate-800 text-center">
                 <span className="text-xs text-slate-400 block">Errors Corrected</span>
-                <span className="text-xl font-bold text-cyan-400">{errors}</span>
+                <span className="text-xl font-bold text-gold-400">{errors}</span>
               </div>
             </div>
           </div>
@@ -2581,13 +2581,13 @@ export function C9_PhysicsInternationalSystemUnitsSim({
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <span className="px-2 py-0.5 bg-indigo-500/20 text-indigo-400 font-bold rounded uppercase">
+                <span className="px-2 py-0.5 bg-gold-500/20 text-gold-400 font-bold rounded uppercase">
                   Reflection 1
                 </span>
                 <p className="text-slate-200 font-medium">What was the most surprising thing you learned?</p>
               </div>
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                <span className="px-2 py-0.5 bg-cyan-500/20 text-cyan-400 font-bold rounded uppercase">
+                <span className="px-2 py-0.5 bg-gold-500/20 text-gold-400 font-bold rounded uppercase">
                   Reflection 2
                 </span>
                 <p className="text-slate-200 font-medium">How would you explain this to a friend?</p>
@@ -2602,9 +2602,9 @@ export function C9_PhysicsInternationalSystemUnitsSim({
           </div>
 
           {/* Spaced Repetition Schedule */}
-          <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800 text-xs text-indigo-300 flex items-center justify-between">
+          <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800 text-xs text-gold-300 flex items-center justify-between">
             <span>📅 <strong>Spaced Repetition Schedule:</strong> Review due in {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span>
-            <span className="font-mono text-cyan-300">Algorithm: SM-2</span>
+            <span className="font-mono text-gold-300">Algorithm: SM-2</span>
           </div>
 
           {/* Real-World Activity Card */}

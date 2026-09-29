@@ -765,7 +765,7 @@ const CHALLENGES: ChallengeItem[] = [
 const SolvationMolecularDiagram: React.FC<{ soluteType: string; concentration: number }> = ({ soluteType, concentration }) => {
   return (
     <div className="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 flex flex-col items-center">
-      <div className="text-xs font-mono text-cyan-400 mb-2 uppercase tracking-wider">
+      <div className="text-xs font-mono text-gold-400 mb-2 uppercase tracking-wider">
         Molecular Solvation Sphere & Lattice Breakdown
       </div>
       <svg viewBox="0 0 500 240" className="w-full h-56 bg-slate-950 rounded-lg shadow-inner">
@@ -1358,11 +1358,11 @@ export default function C12_ChemistrySolutionsCBSESim({
       {/* TOP NAVBAR HEADER */}
       <header className="w-full bg-slate-900/80 border border-slate-800 rounded-2xl p-4 mb-6 backdrop-blur flex flex-col md:flex-row justify-between items-center gap-4 shadow-xl">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-2xl shadow-lg shadow-cyan-500/20">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center font-bold text-2xl shadow-lg shadow-gold-500/20">
             🧪
           </div>
           <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-500 bg-clip-text text-transparent">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 bg-clip-text text-transparent">
               ISC Chemistry Solutions Lab
             </h1>
             <p className="text-xs text-slate-400 font-mono">
@@ -1387,7 +1387,7 @@ export default function C12_ChemistrySolutionsCBSESim({
               }}
               className={`px-3 py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all flex items-center gap-2 ${
                 activeTab === tab.id
-                  ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg'
                   : 'text-slate-400 hover:text-white hover:bg-slate-900'
               }`}
             >
@@ -1401,7 +1401,7 @@ export default function C12_ChemistrySolutionsCBSESim({
         <div className="flex items-center gap-4 bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
           <div className="text-right">
             <div className="text-xs text-slate-400 font-mono">LAB MASTERY</div>
-            <div className="text-lg font-bold text-cyan-400">{score} PTS</div>
+            <div className="text-lg font-bold text-gold-400">{score} PTS</div>
           </div>
         </div>
       </header>
@@ -1414,12 +1414,12 @@ export default function C12_ChemistrySolutionsCBSESim({
         {activeTab === 'discovery' && (
           <div className="flex flex-col gap-6 max-w-5xl mx-auto w-full">
             {/* Scenario Narrative Box */}
-            <div className="bg-slate-900 border border-cyan-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full filter blur-3xl pointer-events-none" />
-              <h2 className="text-2xl font-bold text-cyan-400 mb-2">{SCENARIO.title}</h2>
+            <div className="bg-slate-900 border border-gold-500/30 rounded-2xl p-6 shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full filter blur-3xl pointer-events-none" />
+              <h2 className="text-2xl font-bold text-gold-400 mb-2">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-base leading-relaxed mb-4">{SCENARIO.intro}</p>
               <div className="bg-slate-950/60 rounded-xl p-4 border border-slate-800 text-sm text-slate-400">
-                <span className="text-cyan-400 font-semibold">Lab Context: </span>
+                <span className="text-gold-400 font-semibold">Lab Context: </span>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1456,7 +1456,7 @@ export default function C12_ChemistrySolutionsCBSESim({
               </div>
 
               {discoveryAnswered && (
-                <div className="mt-4 p-4 rounded-xl bg-cyan-950/40 border border-cyan-500/40 text-sm text-cyan-200 animate-fadeIn">
+                <div className="mt-4 p-4 rounded-xl bg-gold-950/40 border border-gold-500/40 text-sm text-gold-200 animate-fadeIn">
                   <span className="font-bold">Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1465,7 +1465,7 @@ export default function C12_ChemistrySolutionsCBSESim({
 
             {/* PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>🔮</span> Diagnostic Predictions
               </h3>
               <div className="flex flex-col gap-6">
@@ -1492,7 +1492,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                     </div>
                     {predictionChecked[pIdx] && (
                       <div className="text-xs text-slate-400 font-mono bg-slate-900 p-2.5 rounded-lg border border-slate-800">
-                        🔍 <span className="text-cyan-400">Verification Instruction:</span> {pq.verifyInstruction}
+                        🔍 <span className="text-gold-400">Verification Instruction:</span> {pq.verifyInstruction}
                       </div>
                     )}
                   </div>
@@ -1510,7 +1510,7 @@ export default function C12_ChemistrySolutionsCBSESim({
             {/* LAB NAVIGATION SIDEBAR */}
             <div className="lg:col-span-4 flex flex-col gap-3">
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4">
-                <h3 className="text-xs font-mono text-cyan-400 uppercase tracking-wider mb-3">
+                <h3 className="text-xs font-mono text-gold-400 uppercase tracking-wider mb-3">
                   Select Interactive Lab Module
                 </h3>
                 <div className="flex flex-col gap-2">
@@ -1524,7 +1524,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                       }}
                       className={`p-3 rounded-xl border text-left transition-all flex flex-col gap-1 ${
                         currentStepIndex === idx
-                          ? 'bg-gradient-to-r from-cyan-950 to-slate-900 border-cyan-500 text-cyan-100 shadow-lg'
+                          ? 'bg-gradient-to-r from-gold-950 to-slate-900 border-gold-500 text-gold-100 shadow-lg'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                       }`}
                     >
@@ -1553,7 +1553,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                       }}
                       className={`py-2 px-2 text-xs rounded-lg border font-semibold ${
                         soluteType === s.value
-                          ? 'bg-cyan-600 border-cyan-400 text-white'
+                          ? 'bg-gold-600 border-gold-400 text-white'
                           : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                       }`}
                     >
@@ -1567,7 +1567,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                   <div>
                     <div className="flex justify-between text-xs font-mono mb-1">
                       <span className="text-slate-400">Solute Mass (w₂):</span>
-                      <span className="text-cyan-400 font-bold">{soluteMass} g</span>
+                      <span className="text-gold-400 font-bold">{soluteMass} g</span>
                     </div>
                     <input
                       type="range"
@@ -1575,14 +1575,14 @@ export default function C12_ChemistrySolutionsCBSESim({
                       max="100"
                       value={soluteMass}
                       onChange={(e) => setSoluteMass(Number(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs font-mono mb-1">
                       <span className="text-slate-400">Solvent Volume (V):</span>
-                      <span className="text-cyan-400 font-bold">{solventVolume} mL</span>
+                      <span className="text-gold-400 font-bold">{solventVolume} mL</span>
                     </div>
                     <input
                       type="range"
@@ -1591,14 +1591,14 @@ export default function C12_ChemistrySolutionsCBSESim({
                       step="50"
                       value={solventVolume}
                       onChange={(e) => setSolventVolume(Number(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
 
                   <div>
                     <div className="flex justify-between text-xs font-mono mb-1">
                       <span className="text-slate-400">Temperature (T):</span>
-                      <span className="text-cyan-400 font-bold">{temperature} K ({(temperature - 273.15).toFixed(0)}°C)</span>
+                      <span className="text-gold-400 font-bold">{temperature} K ({(temperature - 273.15).toFixed(0)}°C)</span>
                     </div>
                     <input
                       type="range"
@@ -1606,7 +1606,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                       max="373"
                       value={temperature}
                       onChange={(e) => setTemperature(Number(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-950 h-2 rounded-lg cursor-pointer"
                     />
                   </div>
                 </div>
@@ -1618,17 +1618,17 @@ export default function C12_ChemistrySolutionsCBSESim({
               {/* LAB STEP 1: CONCENTRATION & SOLVATION DYNAMICS */}
               {currentStepIndex === 0 && (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-                  <h3 className="text-lg font-bold text-cyan-400">Lab 1: Concentration & Solvation Sphere Visualizer</h3>
+                  <h3 className="text-lg font-bold text-gold-400">Lab 1: Concentration & Solvation Sphere Visualizer</h3>
                   <SolvationMolecularDiagram soluteType={soluteType} concentration={computedMolarity} />
 
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="text-center">
                       <div className="text-[10px] text-slate-500 font-mono">MOLARITY (M)</div>
-                      <div className="text-lg font-bold text-cyan-400">{computedMolarity.toFixed(3)} M</div>
+                      <div className="text-lg font-bold text-gold-400">{computedMolarity.toFixed(3)} M</div>
                     </div>
                     <div className="text-center">
                       <div className="text-[10px] text-slate-500 font-mono">MOLAL MASS ($M_r$)</div>
-                      <div className="text-lg font-bold text-sky-400">{soluteMolarMass.toFixed(1)} g/mol</div>
+                      <div className="text-lg font-bold text-gold-400">{soluteMolarMass.toFixed(1)} g/mol</div>
                     </div>
                     <div className="text-center">
                       <div className="text-[10px] text-slate-500 font-mono">VAN 'T HOFF ($i$)</div>
@@ -1646,7 +1646,7 @@ export default function C12_ChemistrySolutionsCBSESim({
               {currentStepIndex === 1 && (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
                   <div className="flex justify-between items-center">
-                    <h3 className="text-lg font-bold text-cyan-400">Lab 2: Vapor Pressure & Raoult Non-Ideality</h3>
+                    <h3 className="text-lg font-bold text-gold-400">Lab 2: Vapor Pressure & Raoult Non-Ideality</h3>
                     <div className="flex gap-2">
                       {(['ideal', 'positive', 'negative'] as const).map((mode) => (
                         <button
@@ -1679,9 +1679,9 @@ export default function C12_ChemistrySolutionsCBSESim({
                       step="0.05"
                       value={moleFractionA}
                       onChange={(e) => setMoleFractionA(Number(e.target.value))}
-                      className="w-full accent-cyan-500 bg-slate-900 h-2 rounded-lg cursor-pointer"
+                      className="w-full accent-gold-500 bg-slate-900 h-2 rounded-lg cursor-pointer"
                     />
-                    <span className="font-bold text-cyan-400">{moleFractionA.toFixed(2)}</span>
+                    <span className="font-bold text-gold-400">{moleFractionA.toFixed(2)}</span>
                   </div>
                 </div>
               )}
@@ -1689,7 +1689,7 @@ export default function C12_ChemistrySolutionsCBSESim({
               {/* LAB STEP 3: COLLIGATIVE EBULLIOSCOPY & CRYOSCOPY */}
               {currentStepIndex === 2 && (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-                  <h3 className="text-lg font-bold text-cyan-400">Lab 3: Phase Transitions ($\Delta T_b$ & $\Delta T_f$)</h3>
+                  <h3 className="text-lg font-bold text-gold-400">Lab 3: Phase Transitions ($\Delta T_b$ & $\Delta T_f$)</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col items-center justify-center">
                       <div className="text-xs text-amber-400 font-mono uppercase mb-2">Boiling Point Elevation ($\Delta T_b$)</div>
@@ -1703,8 +1703,8 @@ export default function C12_ChemistrySolutionsCBSESim({
                     </div>
 
                     <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 flex flex-col items-center justify-center">
-                      <div className="text-xs text-sky-400 font-mono uppercase mb-2">Freezing Point Depression ($\Delta T_f$)</div>
-                      <div className="text-3xl font-bold text-sky-300 mb-1">
+                      <div className="text-xs text-gold-400 font-mono uppercase mb-2">Freezing Point Depression ($\Delta T_f$)</div>
+                      <div className="text-3xl font-bold text-gold-300 mb-1">
                         -{(computedFreezingDepression).toFixed(3)} °C
                       </div>
                       <div className="text-xs text-slate-400">
@@ -1719,7 +1719,7 @@ export default function C12_ChemistrySolutionsCBSESim({
               {/* LAB STEP 4: OSMOSIS & REVERSE OSMOSIS */}
               {currentStepIndex === 3 && (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-                  <h3 className="text-lg font-bold text-cyan-400">Lab 4: Osmotic Pressure Chamber</h3>
+                  <h3 className="text-lg font-bold text-gold-400">Lab 4: Osmotic Pressure Chamber</h3>
                   <OsmosisDiagram
                     isReverse={appliedHydraulicPressure > computedOsmoticPressure}
                     appliedPressure={appliedHydraulicPressure}
@@ -1740,7 +1740,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                       className="w-full accent-purple-500 bg-slate-900 h-2 rounded-lg cursor-pointer"
                     />
                     <div className="text-xs text-slate-400 flex justify-between mt-1 font-mono">
-                      <span>Calculated Osmotic Pressure ($\Pi$): <strong className="text-cyan-400">{computedOsmoticPressure.toFixed(2)} atm</strong></span>
+                      <span>Calculated Osmotic Pressure ($\Pi$): <strong className="text-gold-400">{computedOsmoticPressure.toFixed(2)} atm</strong></span>
                       <span className={appliedHydraulicPressure > computedOsmoticPressure ? 'text-emerald-400 font-bold' : 'text-amber-400'}>
                         {appliedHydraulicPressure > computedOsmoticPressure ? 'REVERSE OSMOSIS ACTIVE' : 'DIRECT OSMOSIS ACTIVE'}
                       </span>
@@ -1752,16 +1752,16 @@ export default function C12_ChemistrySolutionsCBSESim({
               {/* LAB STEP 5: VAN 'T HOFF FACTOR ($i$) CALCULATOR */}
               {currentStepIndex === 4 && (
                 <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-4">
-                  <h3 className="text-lg font-bold text-cyan-400">Lab 5: van 't Hoff Electrolyte & Dimer Dynamics</h3>
+                  <h3 className="text-lg font-bold text-gold-400">Lab 5: van 't Hoff Electrolyte & Dimer Dynamics</h3>
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs space-y-2 text-slate-300">
-                    <div>Selected Compound: <span className="text-cyan-400 font-bold">{soluteType}</span></div>
+                    <div>Selected Compound: <span className="text-gold-400 font-bold">{soluteType}</span></div>
                     <div>van 't Hoff factor ($i$): <span className="text-emerald-400 font-bold">{vanTHoffFactor}</span></div>
                     {soluteType === 'BenzoicAcid' ? (
                       <div className="text-amber-300">
                         Notice: $i &lt; 1.0$ due to hydrogen-bonded dimerization in non-polar organic solvents ($2 C_6H_5COOH \rightleftharpoons (C_6H_5COOH)_2$).
                       </div>
                     ) : soluteType === 'Glucose' ? (
-                      <div className="text-sky-300">Notice: $i = 1.0$ because glucose is a non-electrolyte and does not dissociate.</div>
+                      <div className="text-gold-300">Notice: $i = 1.0$ because glucose is a non-electrolyte and does not dissociate.</div>
                     ) : (
                       <div className="text-purple-300">Notice: $i &gt; 1.0$ due to ionic dissociation into individual cations and anions.</div>
                     )}
@@ -1771,7 +1771,7 @@ export default function C12_ChemistrySolutionsCBSESim({
 
               {/* OBSERVATION QUESTIONS SECTION */}
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-                <h3 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+                <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                   <span>👀</span> Observation Checkpoints
                 </h3>
                 <div className="flex flex-col gap-6">
@@ -1813,13 +1813,13 @@ export default function C12_ChemistrySolutionsCBSESim({
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col gap-2">
               <div className="flex justify-between items-center text-xs font-mono">
                 <span className="text-slate-400">CHALLENGE {challengeIndex + 1} OF {CHALLENGES.length}</span>
-                <span className="text-cyan-400 uppercase font-bold">
+                <span className="text-gold-400 uppercase font-bold">
                   {currentChallenge.difficulty} • {currentChallenge.competencyLevel}
                 </span>
               </div>
               <div className="w-full bg-slate-950 h-2 rounded-full overflow-hidden border border-slate-800">
                 <div
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full transition-all duration-300"
+                  className="bg-gradient-to-r from-gold-500 to-gold-500 h-full transition-all duration-300"
                   style={{ width: `${((challengeIndex + 1) / CHALLENGES.length) * 100}%` }}
                 />
               </div>
@@ -1828,7 +1828,7 @@ export default function C12_ChemistrySolutionsCBSESim({
             {/* Challenge Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col gap-6">
               <div>
-                <div className="text-xs font-mono text-cyan-400 mb-2">Node ID: {currentChallenge.nodeId}</div>
+                <div className="text-xs font-mono text-gold-400 mb-2">Node ID: {currentChallenge.nodeId}</div>
                 <h3 className="text-lg sm:text-xl font-bold text-slate-100">{currentChallenge.question}</h3>
               </div>
 
@@ -1844,7 +1844,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                       }}
                       className={`p-4 rounded-xl text-left border transition-all text-sm flex items-start gap-3 ${
                         userMcqOption === idx
-                          ? 'bg-cyan-950/70 border-cyan-500 text-cyan-200'
+                          ? 'bg-gold-950/70 border-gold-500 text-gold-200'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1867,7 +1867,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                       placeholder="Enter numerical answer..."
                       value={userNumericInput}
                       onChange={(e) => setUserNumericInput(e.target.value)}
-                      className="bg-slate-950 border border-slate-800 text-white px-4 py-3 rounded-xl font-mono text-base focus:outline-none focus:border-cyan-500 w-full sm:w-64"
+                      className="bg-slate-950 border border-slate-800 text-white px-4 py-3 rounded-xl font-mono text-base focus:outline-none focus:border-gold-500 w-full sm:w-64"
                     />
                     <span className="text-sm font-mono text-slate-400">{currentChallenge.unit || ''}</span>
                   </div>
@@ -1904,7 +1904,7 @@ export default function C12_ChemistrySolutionsCBSESim({
                   <button
                     onClick={handleChallengeSubmit}
                     disabled={userMcqOption === null && !userNumericInput}
-                    className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl text-sm shadow-lg hover:opacity-90 disabled:opacity-40"
+                    className="px-6 py-2.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold rounded-xl text-sm shadow-lg hover:opacity-90 disabled:opacity-40"
                   >
                     Submit Answer
                   </button>
@@ -1939,7 +1939,7 @@ export default function C12_ChemistrySolutionsCBSESim({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <span className="text-cyan-400 font-bold block mb-1">Step {idx + 1}</span>
+                    <span className="text-gold-400 font-bold block mb-1">Step {idx + 1}</span>
                     {step}
                   </div>
                 ))}
@@ -1967,14 +1967,14 @@ export default function C12_ChemistrySolutionsCBSESim({
 
             {/* DIAGNOSTIC RECAP ARRAY */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-400 mb-4 flex items-center gap-2">
                 <span>📝</span> Diagnostic Question Bank Review
               </h3>
               <div className="grid grid-cols-1 gap-3">
                 {DIAGNOSTIC_QUESTIONS.map((dq) => (
                   <div key={dq.id} className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col gap-1 text-xs">
                     <div className="text-slate-200 font-semibold">{dq.question}</div>
-                    <div className="text-cyan-400 font-mono">
+                    <div className="text-gold-400 font-mono">
                       Answer: {dq.options[dq.correctIndex]}
                     </div>
                     <div className="text-slate-400 text-[11px] mt-1">{dq.explanation}</div>

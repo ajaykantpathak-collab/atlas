@@ -1183,9 +1183,9 @@ function C9_MathematicsRationalNumbersRealSim({
         className="flex flex-wrap items-center justify-between border-b border-slate-800 pb-4 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 border border-indigo-700/50 rounded-2xl">{subjectConfig.emoji}</span>
+          <span className="text-3xl p-2 bg-gold-950/80 border border-gold-700/50 rounded-2xl">{subjectConfig.emoji}</span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400">ICSE Class 9 Mathematics • CISCE Real Numbers & Surds Hub</p>
@@ -1206,7 +1206,7 @@ function C9_MathematicsRationalNumbersRealSim({
               }}
               className={`px-3 py-1 text-xs font-bold rounded-xl transition-all capitalize ${
                 phase === p
-                  ? 'bg-gradient-to-r from-indigo-600 to-sky-600 text-white shadow-md shadow-indigo-500/20'
+                  ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-md shadow-gold-500/20'
                   : 'text-slate-400 hover:text-slate-200'
               }`}
             >
@@ -1219,19 +1219,19 @@ function C9_MathematicsRationalNumbersRealSim({
       {/* ─── DISCOVERY HOOK PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-950 rounded-2xl border border-indigo-800/50 shadow-inner">
-            <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-950 rounded-2xl border border-gold-800/50 shadow-inner">
+            <h2 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <span>🏛️</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/30 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/30 text-xs text-gold-200">
               💡 <strong>Scenario Challenge:</strong> {SCENARIO.context}
             </div>
           </div>
 
           <div className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-4">
             <p className="text-sm font-semibold text-slate-200 flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-sky-400 animate-ping" />
+              <span className="w-2 h-2 rounded-full bg-gold-400 animate-ping" />
               {DISCOVERY_QUESTION.question}
             </p>
 
@@ -1249,10 +1249,10 @@ function C9_MathematicsRationalNumbersRealSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-semibold'
                         : 'bg-slate-900/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                      : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {discoveryAnswered && (i === DISCOVERY_QUESTION.correctIndex ? '✓ ' : '✗ ')}
                   {opt}
                 </motion.button>
@@ -1281,7 +1281,7 @@ function C9_MathematicsRationalNumbersRealSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-4 py-2 bg-gradient-to-r from-indigo-600 to-sky-600 text-white text-xs md:text-sm font-bold rounded-xl shadow-lg shadow-indigo-500/25"
+                    className="px-4 py-2 bg-gradient-to-r from-gold-600 to-gold-600 text-white text-xs md:text-sm font-bold rounded-xl shadow-lg shadow-gold-500/25"
                   >
                     Direct to Labs →
                   </motion.button>
@@ -1334,7 +1334,7 @@ function C9_MathematicsRationalNumbersRealSim({
                               ? isCorrect
                                 ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                                 : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                              : 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              : 'bg-gold-950 border-gold-500 text-gold-200'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-800'
                         }`}
                       >
@@ -1363,7 +1363,7 @@ function C9_MathematicsRationalNumbersRealSim({
                         {isCorrect ? '✓ Your prediction is mathematically correct!' : '🔍 Interesting hypothesis! Let\'s test why:'}
                       </p>
                       <p className="text-xs text-slate-300">{pq.explanation}</p>
-                      <p className="text-[11px] text-sky-300 bg-sky-950/40 p-2 rounded border border-sky-800/40">
+                      <p className="text-[11px] text-gold-300 bg-gold-950/40 p-2 rounded border border-gold-800/40">
                         🔭 <strong>How to verify:</strong> {pq.verifyInstruction}
                       </p>
                     </motion.div>
@@ -1376,7 +1376,7 @@ function C9_MathematicsRationalNumbersRealSim({
           <div className="flex justify-end">
             <button
               onClick={handleAdvanceToExploration}
-              className="px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-sky-600 text-white text-sm font-bold rounded-xl shadow-lg"
+              className="px-6 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 text-white text-sm font-bold rounded-xl shadow-lg"
             >
               Enter Interactive Labs →
             </button>
@@ -1397,7 +1397,7 @@ function C9_MathematicsRationalNumbersRealSim({
             >
               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
                 <div>
-                  <h3 className="text-base md:text-lg font-bold text-sky-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                  <h3 className="text-base md:text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
                   <p className="text-xs text-amber-300 mt-1">👉 {EXPLORATION_STEPS[currentSlide].instruction}</p>
                 </div>
                 <span className="text-xs font-mono px-3 py-1 bg-slate-800 text-slate-300 rounded-full border border-slate-700">
@@ -1434,7 +1434,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   </div>
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                    <p className="text-xs font-bold text-indigo-300">Select Nested Set:</p>
+                    <p className="text-xs font-bold text-gold-300">Select Nested Set:</p>
                     <div className="grid grid-cols-2 gap-2">
                       {[
                         { id: 'N' as const, name: 'ℕ Naturals', ex: '1, 2, 3, ...' },
@@ -1456,7 +1456,7 @@ function C9_MathematicsRationalNumbersRealSim({
                           }}
                           className={`p-2 rounded-xl text-left text-xs border transition-all ${
                             selectedHierarchy === item.id
-                              ? 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1474,11 +1474,11 @@ function C9_MathematicsRationalNumbersRealSim({
                 <div className="space-y-4">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
-                      <p className="text-xs text-sky-300 font-bold mb-2">Dynamic Canvas Projection</p>
+                      <p className="text-xs text-gold-300 font-bold mb-2">Dynamic Canvas Projection</p>
                       <canvas ref={canvasRef} width={400} height={180} className="w-full h-auto bg-slate-950 rounded-xl" />
                     </div>
                     <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 flex flex-col justify-center">
-                      <p className="text-xs text-indigo-300 font-bold mb-1">SVG Geometric Root Construction Blueprint</p>
+                      <p className="text-xs text-gold-300 font-bold mb-1">SVG Geometric Root Construction Blueprint</p>
                       <svg viewBox="0 0 320 180" className="w-full h-auto max-h-[170px]" role="img" aria-label="Spiral of Theodorus Geometric Construction">
                         <title>Pythagoras Geometric Root Generator</title>
                         <line x1="30" y1="140" x2="290" y2="140" stroke="#475569" strokeWidth="2" />
@@ -1526,7 +1526,7 @@ function C9_MathematicsRationalNumbersRealSim({
                           }}
                           className={`px-3 py-1.5 text-xs font-bold rounded-xl border transition-all ${
                             ladderStep === btn.step
-                              ? 'bg-sky-600 border-sky-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-900 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1543,7 +1543,7 @@ function C9_MathematicsRationalNumbersRealSim({
                 <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-4">
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <label htmlFor="radicand-slider" className="text-xs text-slate-300">
-                      Radicand Input (n): <span className="text-sky-300 font-mono font-bold text-sm">{surdSimplification.n}</span>
+                      Radicand Input (n): <span className="text-gold-300 font-mono font-bold text-sm">{surdSimplification.n}</span>
                     </label>
                     <span className="text-xs text-slate-400">Pure Surd: √{surdSimplification.n}</span>
                   </div>
@@ -1558,7 +1558,7 @@ function C9_MathematicsRationalNumbersRealSim({
                       setRadicandInput(Number(e.target.value));
                       audioManager.play('count');
                     }}
-                    className="w-full accent-sky-500"
+                    className="w-full accent-gold-500"
                   />
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
@@ -1578,7 +1578,7 @@ function C9_MathematicsRationalNumbersRealSim({
 
                     <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                       <p className="text-[10px] text-slate-400 uppercase">Simplest Form</p>
-                      <p className="text-base font-bold text-sky-300 mt-1">
+                      <p className="text-base font-bold text-gold-300 mt-1">
                         {surdSimplification.isPerfect
                           ? `${surdSimplification.coeff} (Rational ✓)`
                           : surdSimplification.coeff === 1
@@ -1667,7 +1667,7 @@ function C9_MathematicsRationalNumbersRealSim({
                         step={1000}
                         value={simPrincipal}
                         onChange={(e) => setSimPrincipal(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1680,7 +1680,7 @@ function C9_MathematicsRationalNumbersRealSim({
                         max={20}
                         value={simRate}
                         onChange={(e) => setSimRate(Number(e.target.value))}
-                        className="w-full accent-sky-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
                     <div>
@@ -1718,8 +1718,8 @@ function C9_MathematicsRationalNumbersRealSim({
           </AnimatePresence>
 
           {/* ── OBSERVATION QUESTIONS SECTION (What do you notice?) ── */}
-          <div className="p-5 bg-slate-900/90 rounded-3xl border border-sky-900/40 space-y-4">
-            <h4 className="text-sm font-bold text-sky-300 flex items-center gap-2">
+          <div className="p-5 bg-slate-900/90 rounded-3xl border border-gold-900/40 space-y-4">
+            <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>👁️</span> Guided Observations ("What do you notice?")
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1731,7 +1731,7 @@ function C9_MathematicsRationalNumbersRealSim({
                 return (
                   <div key={oq.id} className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2.5">
                     <p className="text-xs font-semibold text-slate-200">
-                      <span className="text-sky-400 font-bold mr-1">{oIdx + 1}.</span> {oq.question}
+                      <span className="text-gold-400 font-bold mr-1">{oIdx + 1}.</span> {oq.question}
                     </p>
                     <div className="space-y-1.5">
                       {(oq.observableOptions || oq.options).map((opt, optIdx) => (
@@ -1748,7 +1748,7 @@ function C9_MathematicsRationalNumbersRealSim({
                                 ? isCorrect
                                   ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-medium'
                                   : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                                : 'bg-indigo-950 border-indigo-500 text-indigo-200'
+                                : 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800'
                           }`}
                         >
@@ -1796,7 +1796,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-4 py-2 bg-indigo-600 text-white text-xs md:text-sm font-bold rounded-xl"
+                className="px-4 py-2 bg-gold-600 text-white text-xs md:text-sm font-bold rounded-xl"
               >
                 Next Lab →
               </motion.button>
@@ -1829,7 +1829,7 @@ function C9_MathematicsRationalNumbersRealSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToChallenge}
-                className="px-5 py-2 bg-gradient-to-r from-indigo-600 to-sky-600 text-white text-xs md:text-sm font-bold rounded-xl shadow-lg"
+                className="px-5 py-2 bg-gradient-to-r from-gold-600 to-gold-600 text-white text-xs md:text-sm font-bold rounded-xl shadow-lg"
               >
                 I Am Ready For Challenges! →
               </motion.button>
@@ -1837,7 +1837,7 @@ function C9_MathematicsRationalNumbersRealSim({
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <p className="text-xs font-bold text-sky-300">Real-Time Surd Factoring Machine</p>
+                <p className="text-xs font-bold text-gold-300">Real-Time Surd Factoring Machine</p>
                 <div className="flex items-center gap-2">
                   <label htmlFor="sandbox-radicand" className="text-xs text-slate-400">Radicand:</label>
                   <input
@@ -1848,7 +1848,7 @@ function C9_MathematicsRationalNumbersRealSim({
                     max={500}
                     value={radicandInput}
                     onChange={(e) => setRadicandInput(Number(e.target.value))}
-                    className="w-24 px-3 py-1 bg-slate-900 border border-slate-700 rounded-lg text-sm text-sky-300 font-mono"
+                    className="w-24 px-3 py-1 bg-slate-900 border border-slate-700 rounded-lg text-sm text-gold-300 font-mono"
                   />
                 </div>
                 <div className="p-3 bg-slate-900/80 rounded-xl border border-slate-800">
@@ -1861,7 +1861,7 @@ function C9_MathematicsRationalNumbersRealSim({
               </div>
 
               <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-3">
-                <p className="text-xs font-bold text-indigo-300">Instant Compounding Gap Checker</p>
+                <p className="text-xs font-bold text-gold-300">Instant Compounding Gap Checker</p>
                 <div className="grid grid-cols-3 gap-2 text-center text-xs">
                   <div className="p-2 bg-slate-900 rounded-lg">
                     <span className="text-slate-400">SI Yield</span>
@@ -1869,7 +1869,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   </div>
                   <div className="p-2 bg-slate-900 rounded-lg">
                     <span className="text-slate-400">CI Annual</span>
-                    <p className="font-bold text-sky-400">
+                    <p className="font-bold text-gold-400">
                       ₹{Math.round(simPrincipal * Math.pow(1 + simRate / 100, simYears) - simPrincipal)}
                     </p>
                   </div>
@@ -1902,7 +1902,7 @@ function C9_MathematicsRationalNumbersRealSim({
               </p>
               <div className="w-48 md:w-64 h-2 bg-slate-800 rounded-full mt-1.5 overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+                  className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -1918,7 +1918,7 @@ function C9_MathematicsRationalNumbersRealSim({
                     ? 'bg-emerald-950/60 text-emerald-400 border-emerald-700/50'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/60 text-rose-400 border-rose-700/50'
-                    : 'bg-sky-950/60 text-sky-400 border-sky-700/50'
+                    : 'bg-gold-950/60 text-gold-400 border-gold-700/50'
                 }`}
               >
                 {difficulty} TIER
@@ -1955,10 +1955,10 @@ function C9_MathematicsRationalNumbersRealSim({
                     className={`p-4 text-left text-xs md:text-sm rounded-2xl border transition-all ${
                       showExplanation && i === challenge.correctIndex
                         ? 'bg-emerald-950/70 border-emerald-500 text-emerald-200 font-bold'
-                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-indigo-500'
+                        : 'bg-slate-800/80 border-slate-700 text-slate-200 hover:bg-slate-750 hover:border-gold-500'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                     {showExplanation && (i === challenge.correctIndex ? '✓ ' : '✗ ')}
                     {opt}
                   </motion.button>
@@ -1974,7 +1974,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric answer"
-                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 text-sm focus:outline-none focus:border-sky-500 font-mono"
+                  className="px-4 py-2.5 bg-slate-950 border border-slate-700 rounded-xl text-slate-100 text-sm focus:outline-none focus:border-gold-500 font-mono"
                 />
                 <span className="text-slate-400 text-xs font-bold">{challenge.unit}</span>
                 <motion.button
@@ -1983,7 +1983,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-5 py-2.5 bg-indigo-600 text-white text-xs md:text-sm font-bold rounded-xl"
+                  className="px-5 py-2.5 bg-gold-600 text-white text-xs md:text-sm font-bold rounded-xl"
                 >
                   Submit Answer
                 </motion.button>
@@ -2003,7 +2003,7 @@ function C9_MathematicsRationalNumbersRealSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 text-white text-xs font-bold rounded-lg cursor-grab shadow"
+                      className="px-3 py-1.5 bg-gold-700 text-white text-xs font-bold rounded-lg cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2019,7 +2019,7 @@ function C9_MathematicsRationalNumbersRealSim({
                       onDrop={() => handleDragDrop(slotId)}
                       className="p-3 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 text-center min-h-[60px] flex items-center justify-center"
                     >
-                      <span className="text-xs text-sky-300 font-bold">
+                      <span className="text-xs text-gold-300 font-bold">
                         {droppedLabels[slotId] ? `✓ ${droppedLabels[slotId]}` : `Drop: ${slotId}`}
                       </span>
                     </div>
@@ -2032,7 +2032,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Check Diagram Labels
                 </motion.button>
@@ -2060,7 +2060,7 @@ function C9_MathematicsRationalNumbersRealSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3 bg-slate-950 rounded-xl border border-slate-700 text-xs md:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                   >
-                    <span className="px-2 py-0.5 bg-slate-800 text-indigo-300 font-bold rounded-md">{displayIndex + 1}</span>
+                    <span className="px-2 py-0.5 bg-slate-800 text-gold-300 font-bold rounded-md">{displayIndex + 1}</span>
                     {item}
                   </motion.div>
                 ))}
@@ -2074,7 +2074,7 @@ function C9_MathematicsRationalNumbersRealSim({
                     handleAnswer(answer);
                   }}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Logical Sequence
                 </motion.button>
@@ -2092,7 +2092,7 @@ function C9_MathematicsRationalNumbersRealSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-bold text-sky-300"
+                      className="px-3 py-1.5 bg-slate-800 border border-slate-700 rounded-lg text-xs font-bold text-gold-300"
                     >
                       + {part}
                     </motion.button>
@@ -2101,7 +2101,7 @@ function C9_MathematicsRationalNumbersRealSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((part, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 rounded text-xs text-indigo-200 flex items-center gap-1.5">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-950 border border-gold-700 rounded text-xs text-gold-200 flex items-center gap-1.5">
                       {part}
                       <button aria-label={`Remove token ${part}`} onClick={() => setConstructParts(p => p.filter((_, i) => i !== idx))} className="text-rose-400">✕</button>
                     </span>
@@ -2114,7 +2114,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   whileTap={{ scale: 0.95 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl"
                 >
                   Verify Constructed Proof Step
                 </motion.button>
@@ -2150,15 +2150,15 @@ function C9_MathematicsRationalNumbersRealSim({
       {/* ─── COMPLETION, SYNTHESIS & REFLECTION PHASE ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 rounded-3xl border border-indigo-700/50 text-center space-y-3">
-            <h2 className="text-2xl md:text-3xl font-black bg-gradient-to-r from-emerald-300 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
+          <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-950 rounded-3xl border border-gold-700/50 text-center space-y-3">
+            <h2 className="text-2xl md:text-3xl font-black bg-gradient-to-r from-emerald-300 via-gold-300 to-gold-300 bg-clip-text text-transparent">
               ✓ Mastery Certified!
             </h2>
             <p className="text-xs md:text-sm text-slate-300">
               Final Composite Score: <span className="font-bold text-emerald-400 font-mono text-lg">{Math.max(0, 100 - errors * 5)}%</span>
             </p>
             <p className="text-xs text-slate-400">
-              BKT Adaptive Mastery Level: <span className="text-sky-300 font-bold uppercase">{masteryLevel}</span>
+              BKT Adaptive Mastery Level: <span className="text-gold-300 font-bold uppercase">{masteryLevel}</span>
             </p>
           </div>
 
@@ -2173,19 +2173,19 @@ function C9_MathematicsRationalNumbersRealSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD (SRS INTERVAL) ─── */}
-          <div className="p-5 bg-gradient-to-br from-sky-950/60 via-slate-900 to-indigo-950/60 rounded-3xl border border-sky-600/40 space-y-3 shadow-lg">
+          <div className="p-5 bg-gradient-to-br from-gold-950/60 via-slate-900 to-gold-950/60 rounded-3xl border border-gold-600/40 space-y-3 shadow-lg">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="space-y-1">
-                <h4 className="text-sm font-bold text-sky-300 flex items-center gap-2">
+                <h4 className="text-sm font-bold text-gold-300 flex items-center gap-2">
                   <span>📅</span> SM-2 Spaced Repetition Memory Schedule
                 </h4>
                 <p className="text-xs text-slate-300">
                   Adaptive review timing based on your performance ({errors} {errors === 1 ? 'error' : 'errors'} recorded):
                 </p>
               </div>
-              <div className="px-4 py-2 bg-sky-900/80 border border-sky-400 rounded-2xl text-center shadow">
-                <p className="text-[10px] text-sky-200 uppercase font-bold tracking-wider">Next Recommended Review</p>
-                <p className="text-base font-extrabold text-sky-300">
+              <div className="px-4 py-2 bg-gold-900/80 border border-gold-400 rounded-2xl text-center shadow">
+                <p className="text-[10px] text-gold-200 uppercase font-bold tracking-wider">Next Recommended Review</p>
+                <p className="text-base font-extrabold text-gold-300">
                   {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
                 </p>
               </div>
@@ -2208,8 +2208,8 @@ function C9_MathematicsRationalNumbersRealSim({
           </div>
 
           {/* ─── REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-900/60 space-y-4">
-            <h3 className="text-sm font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-900/60 space-y-4">
+            <h3 className="text-sm font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Key Synthesis & Reflection
             </h3>
             <p className="text-xs text-slate-400">Solidify your long-term memory by thinking about these three core concepts:</p>
@@ -2226,7 +2226,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   placeholder="e.g., How exact irrational lengths like √2 can be physically drawn with Pythagoras..."
                   value={reflectionAnswers.surprising}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, surprising: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2241,7 +2241,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   placeholder="e.g., Surds are square roots that can't simplify to integers, and multiplying conjugates clears radicals..."
                   value={reflectionAnswers.explain}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, explain: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2256,7 +2256,7 @@ function C9_MathematicsRationalNumbersRealSim({
                   placeholder="e.g., Calculating bank fixed deposit growth or engineering diagonal braces in architecture..."
                   value={reflectionAnswers.realLife}
                   onChange={(e) => setReflectionAnswers(prev => ({ ...prev, realLife: e.target.value }))}
-                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2281,12 +2281,12 @@ function C9_MathematicsRationalNumbersRealSim({
 
           {/* Real-World Activity */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <li key={i} className="text-xs text-slate-400 flex items-start gap-2">
-                  <span className="font-bold text-indigo-400">{i + 1}.</span> {step}
+                  <span className="font-bold text-gold-400">{i + 1}.</span> {step}
                 </li>
               ))}
             </ul>

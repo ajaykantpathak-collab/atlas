@@ -11,7 +11,7 @@ export const w_c7_sciencelifeprocessesinanimalssim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Life Processes: Nutrition, Respiration, Excretion Overview',
     chapters: [],
     nodeIds: ['c7_bio_ch02_001', 'c7_bio_ch03_010', 'c7_bio_ch03_001', 'c7_bio_ch01_011', 'c7_bio_ch02_002', 'c7_bio_ch02_005', 'c7_bio_ch02_008', 'c7_bio_ch02_009', 'c7_bio_ch02_012', 'c7_bio_ch02_003', 'c7_bio_ch02_004', 'c7_bio_ch02_007', 'c7_bio_ch03_002', 'c7_bio_ch03_006', 'c7_bio_ch03_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you eat a heavy meal of *parathas* during lunch, your body does not just store the food; it immediately.', goal: 'Master Life Processes: Nutrition, Respiration, Excretion Overview.' },
     discovery: {
         question: 'A student claims that plants can grow taller and healthier in a dark room as long as they are given plenty of water and rich soil.',
@@ -20,7 +20,7 @@ export const w_c7_sciencelifeprocessesinanimalssim: SimDef = {
         hook: 'Students often think that soil acts as the "food" for plants, similar to how animals eat food.',
     },
     teaching: [
-        { title: 'Life processes are the essential biological.', text: 'Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport, and excretion—that work together to maintain life, repair damaged.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Life processes are the essential biological.', text: 'Life processes are the essential biological activities performed by all living organisms—such as nutrition, respiration, transport, and excretion—that work together to maintain life, repair damaged.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_bio_ch02_001', title: 'Life processes are the essential.',

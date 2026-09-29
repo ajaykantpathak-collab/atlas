@@ -59,7 +59,7 @@ const TEACHING_SLIDES = [
     title: 'Straight & Curved Lines! 📏',
     text: 'A straight line is the shortest path between two points and does not bend (like a ruler edge). A curved line bends smoothly (like a rainbow or a slide)! On a dot grid, we connect dots to make shapes.',
     emoji: '📏',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'A straight line does not bend like a ruler. A curved line bends smoothly like a rainbow! On a dot grid, we connect dots to make shapes.',
   },
   {
@@ -73,7 +73,7 @@ const TEACHING_SLIDES = [
     title: 'Square vs Rectangle! 🟦',
     text: 'Both squares and rectangles have 4 sides and 4 corners! But in a square, all four sides are equal in length. In a rectangle, only opposite sides are equal (two long, two short)!',
     emoji: '🟦',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Both squares and rectangles have four sides and four corners. But in a square, all four sides are equal. In a rectangle, opposite sides are equal with two long and two short sides!',
   },
   {
@@ -421,7 +421,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={120} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-indigo-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-3 py-2`} style={{ width: 120, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-xl border-2 border-gold-300 ${placed ? 'opacity-40 bg-gray-100' : 'bg-white'} px-3 py-2`} style={{ width: 120, height: 95 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1">{label}</span>
       </div>
@@ -623,7 +623,7 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl shadow-2xl border-4 border-indigo-400 select-none" style={{ width, height }}>
+    <div className="relative overflow-hidden rounded-3xl shadow-2xl border-4 border-gold-400 select-none" style={{ width, height }}>
       {/* Background scene */}
       <ArtScene width={width} height={height} />
 
@@ -631,10 +631,10 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
       <ArtistAnjali mood={mascotMood} speaking={mascotSpeech} />
 
       {/* Top Bar */}
-      <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-10 border-b-2 border-indigo-100 shadow-sm">
+      <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-10 border-b-2 border-gold-100 shadow-sm">
         <div className="flex items-center gap-3">
-          <span className="text-xl font-black text-indigo-600">📐 Shapes & Tessellation</span>
-          <span className="text-xs font-bold bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full">CISCE Class 3</span>
+          <span className="text-xl font-black text-gold-600">📐 Shapes & Tessellation</span>
+          <span className="text-xs font-bold bg-gold-100 text-gold-700 px-2 py-1 rounded-full">CISCE Class 3</span>
         </div>
         <div className="flex items-center gap-4">
           {screen === 'play' && (
@@ -668,7 +668,7 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
                 <button
                   key={i}
                   onClick={() => { setSlideIdx(i); audioManager.play('tap'); }}
-                  className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-indigo-600 w-8' : 'bg-gray-300'}`}
+                  className={`w-3 h-3 rounded-full transition-all ${i === slideIdx ? 'bg-gold-600 w-8' : 'bg-gray-300'}`}
                 />
               ))}
             </div>
@@ -676,7 +676,7 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
               {slideIdx > 0 && (
                 <button
                   onClick={() => { setSlideIdx(prev => prev - 1); audioManager.play('tap'); }}
-                  className="px-5 py-2.5 rounded-2xl bg-white font-bold text-indigo-600 shadow-md hover:bg-indigo-50 transition-all"
+                  className="px-5 py-2.5 rounded-2xl bg-white font-bold text-gold-600 shadow-md hover:bg-gold-50 transition-all"
                 >
                   Back
                 </button>
@@ -684,7 +684,7 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
               {slideIdx < TEACHING_SLIDES.length - 1 ? (
                 <button
                   onClick={() => { setSlideIdx(prev => prev + 1); audioManager.play('tap'); }}
-                  className="px-6 py-2.5 rounded-2xl bg-indigo-600 font-bold text-white shadow-lg hover:bg-indigo-700 transition-all"
+                  className="px-6 py-2.5 rounded-2xl bg-gold-600 font-bold text-white shadow-lg hover:bg-gold-700 transition-all"
                 >
                   Next ➡️
                 </button>
@@ -705,8 +705,8 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
       {screen === 'play' && (
         <div className="absolute inset-0 pt-16 pb-4 px-6 flex flex-col items-center justify-between z-10 overflow-hidden">
           {/* Question Banner */}
-          <div className="w-full max-w-2xl bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg border-2 border-indigo-200 text-center mt-2">
-            <p className="text-base font-black text-indigo-900">{currentChallenge.question}</p>
+          <div className="w-full max-w-2xl bg-white/90 backdrop-blur-md rounded-2xl p-4 shadow-lg border-2 border-gold-200 text-center mt-2">
+            <p className="text-base font-black text-gold-900">{currentChallenge.question}</p>
           </div>
 
           {/* Challenge Content */}
@@ -719,10 +719,10 @@ export function ShapesTessellationGame({ width = 720, height = 560, onComplete }
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleMultipleChoice(option)}
-                    className="w-full py-4 px-6 rounded-2xl bg-white hover:bg-indigo-50 text-gray-800 font-bold shadow-md border-2 border-indigo-200 text-left transition-all flex items-center justify-between"
+                    className="w-full py-4 px-6 rounded-2xl bg-white hover:bg-gold-50 text-gray-800 font-bold shadow-md border-2 border-gold-200 text-left transition-all flex items-center justify-between"
                   >
                     <span>{option}</span>
-                    <span className="w-6 h-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-xs font-black">
+                    <span className="w-6 h-6 rounded-full bg-gold-100 text-gold-600 flex items-center justify-center text-xs font-black">
                       {['A', 'B', 'C'][idx]}
                     </span>
                   </motion.button>

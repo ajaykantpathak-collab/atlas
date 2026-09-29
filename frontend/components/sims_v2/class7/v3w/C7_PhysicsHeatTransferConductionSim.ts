@@ -11,7 +11,7 @@ export const w_c7_physicsheattransferconductionsim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Conduction of Heat: Transfer Through Solids',
     chapters: [],
     nodeIds: ['c7_physics_ch03_002', 'c7_physics_ch03_003', 'c7_physics_ch03_004', 'c7_physics_ch03_006', 'c7_physics_ch03_007', 'c7_physics_ch03_010', 'c7_physics_ch03_001', 'c7_physics_ch03_008', 'c7_physics_ch03_005', 'c7_physics_ch01_006', 'c7_physics_ch01_007', 'c7_physics_ch01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine touching a steel spoon left inside a hot bowl of dal—your hand immediately feels the heat.', goal: 'Master Conduction of Heat: Transfer Through Solids.' },
     discovery: {
         question: 'Which method of heat transfer is primarily responsible for the handle of a metal frying pan staying relatively cool or being made of insulating plastic?',
@@ -20,7 +20,7 @@ export const w_c7_physicsheattransferconductionsim: SimDef = {
         hook: 'Students often believe that materials like woolen sweaters or quilts "produce" heat to keep our bodies warm in winter.',
     },
     teaching: [
-        { title: 'Conduction is the process of heat transfer.', text: 'Conduction is the process of heat transfer through solid materials from particle to particle without the actual movement of the particles themselves, measured in Joules (J) or Watts (W) for rate of.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Conduction is the process of heat transfer.', text: 'Conduction is the process of heat transfer through solid materials from particle to particle without the actual movement of the particles themselves, measured in Joules (J) or Watts (W) for rate of.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch03_002', title: 'Conduction is the process of heat.',

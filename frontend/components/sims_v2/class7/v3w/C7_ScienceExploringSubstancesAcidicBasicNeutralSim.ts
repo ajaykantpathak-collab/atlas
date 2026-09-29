@@ -11,7 +11,7 @@ export const w_c7_scienceexploringsubstancesacidicbasicneutralsim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Acids and Bases: Introduction and Examples',
     chapters: [],
     nodeIds: ['c7_physics_ch07_001', 'c7_physics_ch07_002', 'c7_physics_ch07_003', 'c7_physics_ch07_004', 'c7_physics_ch07_007', 'c7_physics_ch07_008', 'c7_physics_ch07_010', 'c7_physics_ch07_005', 'c7_physics_ch07_009', 'c7_physics_ch07_006'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you squeeze a lemon in the kitchen or touch a bar of soapy water during a bath, you experience two very.', goal: 'Master Acids and Bases: Introduction and Examples.' },
     discovery: {
         question: 'What color does a yellow turmeric paste turn when it comes into contact with a basic substance like washing powder solution?',
@@ -20,7 +20,7 @@ export const w_c7_scienceexploringsubstancesacidicbasicneutralsim: SimDef = {
         hook: 'Students often think that every natural plant indicator turns red in acids and blue in bases, assuming all indicators.',
     },
     teaching: [
-        { title: 'Acids and bases are two major classes of.', text: 'Acids and bases are two major classes of chemical substances defined by their distinct properties, where acids generally taste sour and turn blue litmus red, while bases taste bitter, feel soapy to.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Acids and bases are two major classes of.', text: 'Acids and bases are two major classes of chemical substances defined by their distinct properties, where acids generally taste sour and turn blue litmus red, while bases taste bitter, feel soapy to.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch07_001', title: 'Acids and bases are two major classes.',

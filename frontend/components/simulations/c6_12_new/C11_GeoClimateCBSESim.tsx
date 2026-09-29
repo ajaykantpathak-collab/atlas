@@ -1220,7 +1220,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
       <header className="w-full max-w-6xl bg-slate-900 border border-slate-800 rounded-2xl p-6 mb-6 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div>
           <div className="flex items-center gap-3 mb-1">
-            <span className="px-3 py-1 bg-sky-500/20 text-sky-400 text-xs font-bold rounded-full uppercase tracking-wider border border-sky-500/30">
+            <span className="px-3 py-1 bg-gold-500/20 text-gold-400 text-xs font-bold rounded-full uppercase tracking-wider border border-gold-500/30">
               CISCE / CBSE Class 11 Geography
             </span>
             <span className="text-slate-400 text-xs font-mono">Chapter: Climate</span>
@@ -1242,7 +1242,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
           <div className="h-8 w-px bg-slate-800" />
           <div className="text-center">
             <div className="text-xs text-slate-400 uppercase font-semibold">Sim Points</div>
-            <div className="text-xl font-bold text-sky-400">{challengeScore}</div>
+            <div className="text-xl font-bold text-gold-400">{challengeScore}</div>
           </div>
         </div>
       </header>
@@ -1263,7 +1263,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
             }}
             className={`flex-1 py-3 text-sm font-bold rounded-lg transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-sky-600 text-white shadow-lg shadow-sky-600/30'
+                ? 'bg-gold-600 text-white shadow-lg shadow-gold-600/30'
                 : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
             }`}
           >
@@ -1279,8 +1279,8 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
           <div className="space-y-6">
             {/* Scenario Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl">
-              <h2 className="text-xl font-bold text-sky-400 mb-3 flex items-center gap-2">
-                <span className="w-3 h-3 rounded-full bg-sky-500 animate-pulse" />
+              <h2 className="text-xl font-bold text-gold-400 mb-3 flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full bg-gold-500 animate-pulse" />
                 {SCENARIO.title}
               </h2>
               <p className="text-slate-300 leading-relaxed mb-4 text-base">{SCENARIO.intro}</p>
@@ -1318,7 +1318,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-slate-950 p-4 rounded-xl border border-sky-500/30 text-sky-300 text-sm animate-fadeIn">
+                <div className="bg-slate-950 p-4 rounded-xl border border-gold-500/30 text-gold-300 text-sm animate-fadeIn">
                   <strong>Climatological Insight: </strong>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
@@ -1327,7 +1327,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
 
             {/* Prediction Questions */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-xl space-y-6">
-              <h3 className="text-lg font-bold text-sky-400">Hypothesis & Predictions</h3>
+              <h3 className="text-lg font-bold text-gold-400">Hypothesis & Predictions</h3>
 
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
                 <div key={pIdx} className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
@@ -1381,11 +1381,11 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                   }}
                   className={`w-full text-left p-3 rounded-xl border transition-all ${
                     activeLabIndex === idx
-                      ? 'bg-sky-950/80 border-sky-500 text-sky-200 font-bold'
+                      ? 'bg-gold-950/80 border-gold-500 text-gold-200 font-bold'
                       : 'bg-slate-950/50 border-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  <div className="text-xs text-sky-400 font-semibold mb-0.5">Lab {idx + 1}</div>
+                  <div className="text-xs text-gold-400 font-semibold mb-0.5">Lab {idx + 1}</div>
                   <div className="text-sm line-clamp-1">{step.title}</div>
                 </button>
               ))}
@@ -1403,7 +1403,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-lg font-bold text-white">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
-                  <span className="text-xs font-mono text-sky-400 bg-sky-950 px-2.5 py-1 rounded-md border border-sky-800">
+                  <span className="text-xs font-mono text-gold-400 bg-gold-950 px-2.5 py-1 rounded-md border border-gold-800">
                     Node ID: {EXPLORATION_STEPS[activeLabIndex].nodeId}
                   </span>
                 </div>
@@ -1427,7 +1427,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                           max="120"
                           value={solarConstant}
                           onChange={(e) => setSolarConstant(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1476,7 +1476,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                           max="90"
                           value={latitude}
                           onChange={(e) => setLatitude(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                       <div>
@@ -1526,7 +1526,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                           step="25"
                           value={koppenPrec}
                           onChange={(e) => setKoppenPrec(Number(e.target.value))}
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1560,7 +1560,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                           }}
                           className={`px-4 py-2 rounded-lg text-xs font-bold transition-all ${
                             monsoonSeason === 'winter'
-                              ? 'bg-sky-500 text-slate-950'
+                              ? 'bg-gold-500 text-slate-950'
                               : 'bg-slate-900 text-slate-400 border border-slate-800'
                           }`}
                         >
@@ -1615,7 +1615,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
 
               {/* Observation Section inside Lab Tab */}
               <div className="mt-8 border-t border-slate-800 pt-6">
-                <h4 className="text-sm font-bold text-sky-400 mb-3 uppercase tracking-wider">
+                <h4 className="text-sm font-bold text-gold-400 mb-3 uppercase tracking-wider">
                   Field Observation Checkpoint
                 </h4>
                 {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
@@ -1651,7 +1651,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl max-w-4xl mx-auto space-y-6">
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
               <div>
-                <span className="px-3 py-1 bg-sky-500/20 text-sky-400 text-xs font-bold rounded-md uppercase mr-2">
+                <span className="px-3 py-1 bg-gold-500/20 text-gold-400 text-xs font-bold rounded-md uppercase mr-2">
                   {currentChallenge.difficulty} Tier
                 </span>
                 <span className="text-xs text-slate-400 font-mono">
@@ -1682,7 +1682,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                         ? idx === currentChallenge.correctIndex
                           ? 'bg-emerald-950 border-emerald-500 text-emerald-200'
                           : 'bg-rose-950 border-rose-500 text-rose-200'
-                        : 'bg-sky-950 border-sky-500 text-sky-100'
+                        : 'bg-gold-950 border-gold-500 text-gold-100'
                       : isAnswerSubmitted && idx === currentChallenge.correctIndex
                       ? 'bg-emerald-950/50 border-emerald-500/50 text-emerald-300'
                       : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
@@ -1700,7 +1700,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
 
             {isAnswerSubmitted && (
               <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-2 animate-fadeIn">
-                <div className="text-xs font-bold uppercase text-sky-400">Scientific Explanation</div>
+                <div className="text-xs font-bold uppercase text-gold-400">Scientific Explanation</div>
                 <p className="text-sm text-slate-300">{currentChallenge.explanation}</p>
               </div>
             )}
@@ -1721,7 +1721,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
                 <button
                   onClick={handleChallengeSubmit}
                   disabled={selectedOption === null}
-                  className="px-6 py-2.5 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold text-sm rounded-lg shadow-lg shadow-sky-600/30 transition-all"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-50 text-white font-bold text-sm rounded-lg shadow-lg shadow-gold-600/30 transition-all"
                 >
                   Submit Answer
                 </button>
@@ -1751,7 +1751,7 @@ export const C11_GeoClimateCBSESim: React.FC<C11_GeoClimateCBSESimProps> = ({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-1">
-                    <div className="text-xs font-bold text-sky-400">Phase {idx + 1}</div>
+                    <div className="text-xs font-bold text-gold-400">Phase {idx + 1}</div>
                     <p className="text-slate-300 text-xs leading-relaxed">{step}</p>
                   </div>
                 ))}

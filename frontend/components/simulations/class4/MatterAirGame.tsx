@@ -48,21 +48,21 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Three States of Matter! 🧊",
     text: "Matter is anything that takes up space and has weight! Solids have a definite shape and volume (stone, book). Liquids have a definite volume but take the container shape (water, milk). Gases have neither definite shape nor volume, filling any space (air, steam)!",
     emoji: "🧊",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Matter is anything that takes up space and has weight! Solids have a definite shape and volume. Liquids take the shape of their container. Gases fill any space completely!"
   },
   {
     title: "Properties of Air! 💨",
     text: "Air is invisible, has weight, occupies space, and expands when heated! A balloon filled with air weighs more than an empty one. Water cannot enter an inverted tumbler because air already occupies that space!",
     emoji: "💨",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Air is invisible, has weight, occupies space, and expands when heated! A balloon filled with air weighs more than an empty one."
   },
   {
     title: "Composition of Air! 🌍",
     text: "Air is not a single gas — it is a mixture! The major component is Nitrogen (about 78 percent), which is the largest part. Oxygen makes up about 21 percent and is essential for breathing and burning. Carbon dioxide and water vapour make up the rest!",
     emoji: "🌍",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "Air is a mixture of gases! Nitrogen makes up seventy-eight percent, and oxygen makes up twenty-one percent. There is also carbon dioxide and water vapour!"
   },
   {
@@ -287,7 +287,7 @@ function ChemistChetan({ mood, speaking }: { mood: MascotMood; speaking: string 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-400"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-400"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -403,7 +403,7 @@ interface SortCardProps {
 function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: SortCardProps) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={110} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-blue-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 110, height: 95 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[10px] font-bold text-gray-800 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -783,7 +783,7 @@ export function MatterAirGame({ width = 720, height = 560, onComplete }: MatterA
         <div className="flex items-center gap-3">
           <span className="text-xl font-black text-white tracking-wide">Matter & Air Lab 🧪</span>
           {screen === 'play' && (
-            <span className="text-xs font-bold px-2.5 py-1 bg-blue-600/80 text-white rounded-full">
+            <span className="text-xs font-bold px-2.5 py-1 bg-gold-600/80 text-white rounded-full">
               Level {challengeIdx + 1} / {CHALLENGES.length}
             </span>
           )}

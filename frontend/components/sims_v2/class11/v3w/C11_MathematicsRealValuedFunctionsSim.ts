@@ -11,11 +11,11 @@ export const w_c11_mathematicsrealvaluedfunctionssim: SimDef = {
     classLevel: 11, subject: 'mathematics', topic: 'Trigonometric Functions: sin, cos, tan Definition',
     chapters: [],
     nodeIds: ['c11_math_cbse_03_003', 'c11_math_cbse_03_005', 'c11_math_cbse_03_007', 'c11_math_cbse_03_008', 'c11_math_cbse_03_009', 'c11_math_cbse_06_006', 'c11_math_cbse_02_006', 'c11_math_cbse_02_007', 'c11_math_cbse_02_008', 'c11_math_cbse_02_009', 'c11_math_cbse_02_010', 'c11_math_cbse_02_012', 'c11_math_cbse_03_004', 'c11_math_cbse_03_006', 'c11_math_cbse_03_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine a giant Ferris wheel at a fair in Delhi with radius 10 metres.', goal: 'Master Trigonometric Functions: sin, cos, tan Definition.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'For any angle \\(x\\) measured in radians, let.', text: 'For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the unit circle \\(x^2 + y^2 = 1\\) such that the arc length from \\((1,0)\\) to \\(P\\) along the circle is \\(x\\) (anticlockwise.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'For any angle \\(x\\) measured in radians, let.', text: 'For any angle \\(x\\) measured in radians, let \\(P(a, b)\\) be the point on the unit circle \\(x^2 + y^2 = 1\\) such that the arc length from \\((1,0)\\) to \\(P\\) along the circle is \\(x\\) (anticlockwise.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_math_cbse_03_003', title: 'For any angle \\(x\\) measured in.',

@@ -11,7 +11,7 @@ export const w_c7_historycivicsmeaningmedievalbeginningsim: SimDef = {
     classLevel: 7, subject: 'history', topic: 'Janapadas: Early Kingdoms and Their Formation',
     chapters: [],
     nodeIds: ['c7_hist_ch01_002', 'c7_hist_ch01_001'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine visiting an old village where generations of your family have farmed the exact same plots of land,.', goal: 'Master Janapadas: Early Kingdoms and Their Formation.' },
     discovery: {
         question: 'What major metal technology became widespread around the 6th century BCE and helped clear the dense forests of the Gangetic plains?',
@@ -20,7 +20,7 @@ export const w_c7_historycivicsmeaningmedievalbeginningsim: SimDef = {
         hook: 'Students often confuse the First Urbanisation (Harappan Civilisation) with the Second Urbanisation, assuming that.',
     },
     teaching: [
-        { title: 'Janapadas were early territorial states that.', text: 'Janapadas were early territorial states that emerged in the Indian subcontinent around the 6th century BCE, representing a major shift from tribal nomadic life to settled, land-based kingdoms ruled.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Janapadas were early territorial states that.', text: 'Janapadas were early territorial states that emerged in the Indian subcontinent around the 6th century BCE, representing a major shift from tribal nomadic life to settled, land-based kingdoms ruled.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_hist_ch01_002', title: 'Janapadas were early territorial states.',

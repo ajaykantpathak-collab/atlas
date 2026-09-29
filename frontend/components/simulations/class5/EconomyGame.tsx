@@ -179,7 +179,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Industries in India 🏭",
     text: "Industries convert raw materials into finished products. Agro-based industries use farm products like cotton and sugar. Mineral-based industries use minerals like iron, steel, and cement to build our nation's infrastructure!",
     emoji: "🏭",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Industries convert raw materials into finished products. Agro-based industries use farm products, while mineral-based industries use minerals like iron and steel."
   },
   {
@@ -200,7 +200,7 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Economic Growth & Development 📈",
     text: "Balancing agriculture, modern industries, efficient transport, and population control ensures that India's economy grows steadily, providing a prosperous and healthy life for every citizen!",
     emoji: "📈",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "Balancing agriculture, industries, transport, and population control ensures India's economy grows steadily, providing prosperity for all."
   }
 ];
@@ -727,7 +727,7 @@ export function EconomyGame({ width = 720, height = 560, onComplete }: EconomyGa
 
   return (
     <div
-      className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-emerald-50 select-none font-sans"
+      className="relative overflow-hidden bg-gradient-to-br from-gold-50 to-emerald-50 select-none font-sans"
       style={{ width, height }}
     >
       <EconomySceneBackground width={width} height={height} />

@@ -206,7 +206,7 @@ function DrDevika({ mood, speaking }: { mood: MascotMood; speaking: string | nul
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-cyan-300"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-300"
           >
             <p className="text-sm font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -335,7 +335,7 @@ interface SortCardProps {
 function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: SortCardProps) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-cyan-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-1`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[10px] font-bold text-gray-800 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -390,28 +390,28 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: 'Welcome to the Digestive System! 🦷',
     text: 'Digestion begins in the mouth! Teeth cut, tear, and grind food into tiny pieces, while saliva wets the food and starts breaking down starch so it can be swallowed easily.',
     emoji: '🦷',
-    bgColor: 'from-cyan-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Digestion begins in the mouth! Teeth cut and grind food, while saliva wets it and starts breaking down starch!',
   },
   {
     title: 'The Food Pipe & Stomach! 🍲',
     text: 'The food pipe (oesophagus) carries chewed food down to the stomach. The stomach is a muscular bag that churns food with strong digestive juices and acid to form a soupy mixture!',
     emoji: '🍲',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'The food pipe carries food to the stomach. The stomach churns food with acid and digestive juices into a soupy mixture!',
   },
   {
     title: 'Small & Large Intestines! 🌀',
     text: 'The small intestine is a long coiled tube where nutrients are absorbed into the blood. The large intestine absorbs water from leftover waste before it leaves the body.',
     emoji: '🌀',
-    bgColor: 'from-teal-400 to-cyan-500',
+    bgColor: 'from-teal-400 to-gold-500',
     spoken: 'The small intestine absorbs nutrients into the blood, while the large intestine absorbs water from leftover waste!',
   },
   {
     title: 'The Liver and Bile! 🫀',
     text: 'The liver is a large reddish-brown organ that produces a liquid called bile. Bile helps the body to digest fats! Remember, the liver does not hold food directly.',
     emoji: '🫀',
-    bgColor: 'from-purple-400 to-indigo-500',
+    bgColor: 'from-purple-400 to-gold-500',
     spoken: 'The liver produces bile, which helps the body to digest fats! The liver is a vital helper in digestion.',
   },
   {
@@ -743,18 +743,18 @@ export function DigestionGame({ width = 720, height = 560, onComplete }: Digesti
 
   return (
     <div
-      className="relative select-none overflow-hidden rounded-3xl shadow-2xl font-sans bg-cyan-900"
+      className="relative select-none overflow-hidden rounded-3xl shadow-2xl font-sans bg-gold-900"
       style={{ width, height }}
     >
       <SceneBackground width={width} height={height} />
 
       {/* Top Header Bar */}
-      <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-30 shadow-sm border-b border-cyan-100">
+      <div className="absolute top-0 left-0 right-0 h-14 bg-white/80 backdrop-blur-md px-6 flex items-center justify-between z-30 shadow-sm border-b border-gold-100">
         <div className="flex items-center gap-3">
           <span className="text-xl">🩺</span>
           <div>
-            <h1 className="text-sm font-black text-cyan-900">Dr. Devika's Digestion Lab</h1>
-            <p className="text-[10px] text-cyan-700 font-semibold">ICSE Class 4 Biology</p>
+            <h1 className="text-sm font-black text-gold-900">Dr. Devika's Digestion Lab</h1>
+            <p className="text-[10px] text-gold-700 font-semibold">ICSE Class 4 Biology</p>
           </div>
         </div>
 
@@ -764,7 +764,7 @@ export function DigestionGame({ width = 720, height = 560, onComplete }: Digesti
               <span className="text-xs font-bold text-gray-600">Challenge {challengeIdx + 1}/8</span>
               <div className="w-24 h-2.5 bg-gray-200 rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-cyan-500 transition-all duration-300"
+                  className="h-full bg-gold-500 transition-all duration-300"
                   style={{ width: `${((challengeIdx + 1) / 8) * 100}%` }}
                 />
               </div>
@@ -785,7 +785,7 @@ export function DigestionGame({ width = 720, height = 560, onComplete }: Digesti
               setErrors(0);
             }
           }}
-          className="px-4 py-1.5 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold text-xs rounded-xl shadow hover:opacity-90 transition active:scale-95"
+          className="px-4 py-1.5 bg-gradient-to-r from-gold-500 to-gold-600 text-white font-bold text-xs rounded-xl shadow hover:opacity-90 transition active:scale-95"
         >
           {screen === 'teaching' ? 'Start Game 🚀' : 'Restart 🔄'}
         </button>
@@ -839,7 +839,7 @@ export function DigestionGame({ width = 720, height = 560, onComplete }: Digesti
                     setScreen('play');
                   }
                 }}
-                className="px-5 py-2 rounded-xl font-bold text-sm bg-white text-cyan-900 shadow-lg hover:bg-cyan-50 transition active:scale-95"
+                className="px-5 py-2 rounded-xl font-bold text-sm bg-white text-gold-900 shadow-lg hover:bg-gold-50 transition active:scale-95"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Let\'s Play! 🚀' : 'Next ➡️'}
               </button>
@@ -852,7 +852,7 @@ export function DigestionGame({ width = 720, height = 560, onComplete }: Digesti
       {screen === 'play' && (
         <div className="absolute inset-0 pt-20 pb-6 px-6 flex flex-col items-center justify-between z-10">
           {/* Question Banner */}
-          <div className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg max-w-xl w-full text-center border-2 border-cyan-200 mt-2">
+          <div className="bg-white/95 backdrop-blur-md rounded-2xl px-6 py-3 shadow-lg max-w-xl w-full text-center border-2 border-gold-200 mt-2">
             <h2 className="text-base font-black text-gray-800">{currentChallenge.question}</h2>
           </div>
 
@@ -862,7 +862,7 @@ export function DigestionGame({ width = 720, height = 560, onComplete }: Digesti
               {currentChallenge.options.map((opt, i) => {
                 const isSelected = selectedOpt === opt;
                 const isCorrectOpt = opt === currentChallenge.answer;
-                let btnStyle = 'bg-white text-gray-800 border-cyan-200 hover:bg-cyan-50';
+                let btnStyle = 'bg-white text-gray-800 border-gold-200 hover:bg-gold-50';
                 if (selectedOpt) {
                   if (isCorrectOpt) btnStyle = 'bg-green-500 text-white border-green-600 shadow-lg scale-102';
                   else if (isSelected) btnStyle = 'bg-red-500 text-white border-red-600';

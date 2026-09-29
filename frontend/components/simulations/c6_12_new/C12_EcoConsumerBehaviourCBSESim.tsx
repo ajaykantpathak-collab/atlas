@@ -850,9 +850,9 @@ const IndifferenceBudgetDiagram: React.FC<{
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-xl">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-semibold text-cyan-400">Ordinal Consumer Equilibrium (Tangency Condition)</h4>
+        <h4 className="text-sm font-semibold text-gold-400">Ordinal Consumer Equilibrium (Tangency Condition)</h4>
         <div className="text-xs text-slate-300 bg-slate-800 px-2 py-1 rounded border border-slate-700">
-          Optimal Tangency: <span className="text-cyan-300 font-bold">MRS_xy ({budgetSlope}) = Px/Py ({budgetSlope})</span>
+          Optimal Tangency: <span className="text-gold-300 font-bold">MRS_xy ({budgetSlope}) = Px/Py ({budgetSlope})</span>
         </div>
       </div>
 
@@ -1195,10 +1195,10 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
 
       {/* HEADER SECTION */}
       <header className="mb-6 bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full filter blur-3xl pointer-events-none"></div>
+        <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full filter blur-3xl pointer-events-none"></div>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
           <div>
-            <div className="flex items-center space-x-2 text-cyan-400 text-xs font-bold tracking-wider uppercase mb-1">
+            <div className="flex items-center space-x-2 text-gold-400 text-xs font-bold tracking-wider uppercase mb-1">
               <span>ISC Class 12 Economics</span>
               <span>•</span>
               <span>Microeconomics Unit 2</span>
@@ -1215,7 +1215,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             <div className="h-8 w-px bg-slate-700"></div>
             <div className="text-center">
               <div className="text-xs text-slate-400">Challenges</div>
-              <div className="text-xl font-black text-cyan-400">
+              <div className="text-xl font-black text-gold-400">
                 {completedChallenges.filter(Boolean).length}/{CHALLENGES.length}
               </div>
             </div>
@@ -1231,7 +1231,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
               activeTab === 'discovery'
-                ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/25'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -1244,7 +1244,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
               activeTab === 'lab'
-                ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/25'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -1257,7 +1257,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
               activeTab === 'challenges'
-                ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/25'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -1270,7 +1270,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             }}
             className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
               activeTab === 'summary'
-                ? 'bg-cyan-500 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gold-500 text-white shadow-lg shadow-gold-500/25'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800'
             }`}
           >
@@ -1283,7 +1283,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
       {activeTab === 'discovery' && (
         <div className="space-y-6">
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h2 className="text-xl font-bold text-cyan-400 mb-2">Scenario Context</h2>
+            <h2 className="text-xl font-bold text-gold-400 mb-2">Scenario Context</h2>
             <p className="text-slate-300 text-sm leading-relaxed mb-6">{SCENARIO.context}</p>
 
             {/* DISCOVERY QUESTION CARD */}
@@ -1305,7 +1305,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                     }}
                     className={`p-3 text-left rounded-xl border text-sm transition-all ${
                       selectedDiscoveryOpt === idx
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-200 font-medium'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200 font-medium'
                         : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-850'
                     }`}
                   >
@@ -1319,7 +1319,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                 <button
                   onClick={handleDiscoverySubmit}
                   disabled={selectedDiscoveryOpt === null}
-                  className="w-full py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 disabled:opacity-50 text-white font-bold rounded-xl transition-all shadow-lg"
+                  className="w-full py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 disabled:opacity-50 text-white font-bold rounded-xl transition-all shadow-lg"
                 >
                   Verify Discovery Answer
                 </button>
@@ -1410,7 +1410,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                 }}
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                   activeLabIndex === idx
-                    ? 'bg-cyan-600 text-white shadow-md'
+                    ? 'bg-gold-600 text-white shadow-md'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
                 }`}
               >
@@ -1420,7 +1420,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
           </div>
 
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-            <h3 className="text-lg font-bold text-cyan-400 mb-1">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
+            <h3 className="text-lg font-bold text-gold-400 mb-1">{EXPLORATION_STEPS[activeLabIndex].title}</h3>
             <p className="text-slate-400 text-xs mb-6">{EXPLORATION_STEPS[activeLabIndex].instruction}</p>
 
             {/* LAB 1 INTERACTIVE UI */}
@@ -1476,7 +1476,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                         setIncome(parseInt(e.target.value));
                         resetHintTimer("Increasing income shifts the budget line outwards parallelly.");
                       }}
-                      className="w-full accent-cyan-500 mt-1"
+                      className="w-full accent-gold-500 mt-1"
                     />
                   </div>
                   <div>
@@ -1517,7 +1517,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             {activeLabIndex === 2 && (
               <div className="space-y-6">
                 <div className="bg-slate-850 border border-slate-700 rounded-xl p-4">
-                  <h4 className="text-sm font-semibold text-cyan-300 mb-2">Price Consumption Curve (PCC) Derivation</h4>
+                  <h4 className="text-sm font-semibold text-gold-300 mb-2">Price Consumption Curve (PCC) Derivation</h4>
                   <p className="text-xs text-slate-400 mb-4">
                     As Px changes from ₹5 to ₹20 while Py=₹10 and M=₹100 remain fixed, the tangency point traces out the demand curve for Good X.
                   </p>
@@ -1534,7 +1534,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                           }}
                           className={`p-3 rounded-lg border cursor-pointer transition-all ${
                             priceX === pVal
-                              ? 'bg-cyan-950 border-cyan-500 text-cyan-200'
+                              ? 'bg-gold-950 border-gold-500 text-gold-200'
                               : 'bg-slate-800 border-slate-700 text-slate-400 hover:bg-slate-750'
                           }`}
                         >
@@ -1594,7 +1594,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-700 text-center">
                       <div className="text-xs text-slate-400">Consumer A (Qa = 20 - 2P)</div>
-                      <div className="text-lg font-bold text-cyan-400">{qA} units</div>
+                      <div className="text-lg font-bold text-gold-400">{qA} units</div>
                     </div>
                     <div className="bg-slate-900 p-3 rounded-lg border border-slate-700 text-center">
                       <div className="text-xs text-slate-400">Consumer B (Qb = 30 - 3P)</div>
@@ -1687,13 +1687,13 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
           {/* Challenge progress bar */}
           <div className="flex justify-between items-center text-xs text-slate-400">
             <span>Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}</span>
-            <span className="capitalize font-semibold text-cyan-400">
+            <span className="capitalize font-semibold text-gold-400">
               Tier: {CHALLENGES[currentChallengeIndex].difficulty} ({CHALLENGES[currentChallengeIndex].competencyLevel})
             </span>
           </div>
           <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
             <div
-              className="bg-cyan-500 h-full transition-all duration-300"
+              className="bg-gold-500 h-full transition-all duration-300"
               style={{ width: `${((currentChallengeIndex + 1) / CHALLENGES.length) * 100}%` }}
             ></div>
           </div>
@@ -1717,7 +1717,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                     }}
                     className={`p-3 text-left rounded-xl border text-sm transition-all ${
                       userMcqChoice === oIdx
-                        ? 'bg-cyan-950 border-cyan-500 text-cyan-200 font-semibold'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200 font-semibold'
                         : 'bg-slate-900 border-slate-700 text-slate-300 hover:bg-slate-850'
                     }`}
                   >
@@ -1738,7 +1738,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                   value={userNumericInput}
                   onChange={(e) => setUserNumericInput(e.target.value)}
                   placeholder="Enter numerical answer..."
-                  className="w-full md:w-64 p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-cyan-500"
+                  className="w-full md:w-64 p-3 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -1751,7 +1751,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
                   (CHALLENGES[currentChallengeIndex].type === 'multiple_choice' && userMcqChoice === null) ||
                   (CHALLENGES[currentChallengeIndex].type === 'numeric' && userNumericInput === '')
                 }
-                className="w-full py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 disabled:opacity-50 text-white font-bold rounded-xl transition-all shadow-lg"
+                className="w-full py-3 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 disabled:opacity-50 text-white font-bold rounded-xl transition-all shadow-lg"
               >
                 Submit Answer
               </button>
@@ -1792,7 +1792,7 @@ export default function C12_EcoConsumerBehaviourCBSESim({ onComplete }: { onComp
             <p className="text-slate-300 text-sm mb-6">{REAL_WORLD_ACTIVITY.description}</p>
 
             <div className="bg-slate-800/60 border border-slate-700 rounded-xl p-5 space-y-4">
-              <h3 className="text-sm font-semibold text-cyan-300">Step-by-Step Analytical Execution:</h3>
+              <h3 className="text-sm font-semibold text-gold-300">Step-by-Step Analytical Execution:</h3>
               <ol className="list-decimal list-inside space-y-3 text-sm text-slate-300">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <li key={idx} className="bg-slate-900/80 p-3 rounded-lg border border-slate-700/80">

@@ -413,10 +413,10 @@ export function C10_ScienceLightReflectionRefractionSim() {
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 rounded-3xl border border-slate-800 font-sans text-slate-100 shadow-2xl">
       {/* header */}
       <div className="flex flex-wrap items-center gap-3 pb-3 mb-3 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">🔍</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🔍</span>
         <div className="flex-1 min-w-[220px]">
-          <p className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 10 Science -- Light: Reflection and Refraction</p>
-          <h1 className="text-xl md:text-2xl font-black text-sky-300">Ray-Traced Bench: mirrors, lenses &amp; Snell</h1>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 10 Science -- Light: Reflection and Refraction</p>
+          <h1 className="text-xl md:text-2xl font-black text-gold-300">Ray-Traced Bench: mirrors, lenses &amp; Snell</h1>
         </div>
         <div className="text-right">
           <span className="font-mono text-xs text-slate-400 block">1/v + 1/u = 1/f</span>
@@ -435,7 +435,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
             onClick={() => setTab(t.id)}
             className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold transition-all border ${
               tab === t.id
-                ? 'bg-sky-600 border-sky-500 text-white shadow-lg shadow-sky-900/40'
+                ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                 : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200 hover:border-slate-600'
             }`}
           >
@@ -450,8 +450,8 @@ export function C10_ScienceLightReflectionRefractionSim() {
       {/* ============================================================ */}
       {tab === 'predict' && (
         <div className="space-y-4">
-          <div className="p-5 bg-slate-900/70 rounded-2xl border border-sky-900/60">
-            <p className="text-[11px] font-bold uppercase tracking-wider text-sky-400 mb-2">Predict before you play</p>
+          <div className="p-5 bg-slate-900/70 rounded-2xl border border-gold-900/60">
+            <p className="text-[11px] font-bold uppercase tracking-wider text-gold-400 mb-2">Predict before you play</p>
             <p className="text-sm text-slate-200 leading-relaxed">
               A candle is placed 30 cm in front of a concave mirror of focal length 20 cm -- that is
               BETWEEN the focus (20 cm) and twice the focus (40 cm). What does the mirror show?
@@ -465,7 +465,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
               ].map((opt, i) => {
                 const chosen = predicted === i;
                 const isCorrect = i === 1;
-                let cls = 'border-slate-700 bg-slate-900 hover:border-sky-600';
+                let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                 if (predicted !== null && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                 else if (chosen && !isCorrect) cls = 'border-rose-600 bg-rose-950/40';
                 return (
@@ -502,7 +502,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
             ].map((s, i) => (
               <div key={i} className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
                 <p className="text-xs font-bold text-slate-200 mb-1">
-                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-sky-600 text-[10px] font-black mr-1.5">{i + 1}</span>
+                  <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gold-600 text-[10px] font-black mr-1.5">{i + 1}</span>
                   {s.t}
                 </p>
                 <p className="text-xs text-slate-400 leading-relaxed">{s.d}</p>
@@ -525,7 +525,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
                 onClick={() => setEl(k)}
                 className={`min-h-11 px-3 py-2 rounded-xl text-xs font-bold border transition-all ${
                   el === k
-                    ? 'bg-sky-600 border-sky-500 text-white shadow-lg shadow-sky-900/40'
+                    ? 'bg-gold-600 border-gold-500 text-white shadow-lg shadow-gold-900/40'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-600'
                 }`}
               >
@@ -539,26 +539,26 @@ export function C10_ScienceLightReflectionRefractionSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Object distance u</span>
-                <span className="font-mono text-sky-300">{uMag} cm</span>
+                <span className="font-mono text-gold-300">{uMag} cm</span>
               </label>
               <input type="range" min={5} max={60} step={1} value={uMag} aria-label="object distance"
-                onChange={(e) => setUMag(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-sky-500" />
+                onChange={(e) => setUMag(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Focal length |f|</span>
-                <span className="font-mono text-sky-300">{fMag} cm</span>
+                <span className="font-mono text-gold-300">{fMag} cm</span>
               </label>
               <input type="range" min={5} max={40} step={1} value={fMag} aria-label="focal length"
-                onChange={(e) => setFMag(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-sky-500" />
+                onChange={(e) => setFMag(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Object height h</span>
-                <span className="font-mono text-sky-300">{h1} cm</span>
+                <span className="font-mono text-gold-300">{h1} cm</span>
               </label>
               <input type="range" min={1} max={7} step={0.5} value={h1} aria-label="object height"
-                onChange={(e) => setH1(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-sky-500" />
+                onChange={(e) => setH1(Number(e.target.value))} className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
           </div>
 
@@ -645,7 +645,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
             {[
               { k: 'u', v: `−${uMag} cm`, c: 'text-slate-200' },
               { k: '|f|', v: `${fMag} cm`, c: 'text-slate-200' },
-              { k: 'v', v: bench.atInfinity ? '∞' : `${bench.v.toFixed(1)} cm`, c: bench.real ? 'text-rose-300' : 'text-violet-300' },
+              { k: 'v', v: bench.atInfinity ? '∞' : `${bench.v.toFixed(1)} cm`, c: bench.real ? 'text-rose-300' : 'text-gold-300' },
               { k: 'm', v: bench.atInfinity ? '∞' : bench.m.toFixed(2), c: 'text-amber-300' },
               { k: "h'", v: bench.atInfinity ? '∞' : `${bench.h2.toFixed(1)} cm`, c: 'text-amber-300' },
               { k: 'nature', v: bench.atInfinity ? 'at infinity' : bench.nature, c: 'text-emerald-300' },
@@ -711,11 +711,11 @@ export function C10_ScienceLightReflectionRefractionSim() {
             <div>
               <label className="text-xs font-semibold text-slate-400 flex justify-between">
                 <span>Angle of incidence i</span>
-                <span className="font-mono text-sky-300">{incidence.toFixed(1)}°</span>
+                <span className="font-mono text-gold-300">{incidence.toFixed(1)}°</span>
               </label>
               <input type="range" min={0} max={89.5} step={0.5} value={incidence} aria-label="angle of incidence"
                 onChange={(e) => { setTankAnim(false); setIncidence(Number(e.target.value)); }}
-                className="w-full mt-1 min-h-11 accent-sky-500" />
+                className="w-full mt-1 min-h-11 accent-gold-500" />
             </div>
           </div>
 
@@ -782,13 +782,13 @@ export function C10_ScienceLightReflectionRefractionSim() {
             ].map((x) => (
               <div key={x.k} className="p-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
                 <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">{x.k}</p>
-                <p className="font-mono text-sm font-bold text-sky-300">{x.v}</p>
+                <p className="font-mono text-sm font-bold text-gold-300">{x.v}</p>
               </div>
             ))}
           </div>
 
           <div className="flex flex-wrap gap-2 items-center">
-            <button onClick={() => setTankAnim(!tankAnim)} className={`min-h-11 px-4 py-2 rounded-xl text-xs font-bold border transition-all ${tankAnim ? 'bg-sky-600 border-sky-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-200'}`}>
+            <button onClick={() => setTankAnim(!tankAnim)} className={`min-h-11 px-4 py-2 rounded-xl text-xs font-bold border transition-all ${tankAnim ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-200'}`}>
               {tankAnim ? '⏸ pause sweep' : '▶ sweep angle'}
             </button>
             <span className="text-xs text-slate-500 font-mono">n1 sin i = n2 sin r &middot; sin(ic) = n2/n1</span>
@@ -818,7 +818,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
             {(['all', 'foundation', 'standard', 'advanced'] as const).map((t) => (
               <button key={t} onClick={() => setTierFilter(t)}
                 className={`min-h-9 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all capitalize ${
-                  tierFilter === t ? 'bg-sky-600 border-sky-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
+                  tierFilter === t ? 'bg-gold-600 border-gold-500 text-white' : 'bg-slate-900 border-slate-800 text-slate-400'
                 }`}>
                 {t}
               </button>
@@ -844,7 +844,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {ch.options.map((opt, i) => {
                     const isCorrect = i === ch.correctIndex;
-                    let cls = 'border-slate-700 bg-slate-900 hover:border-sky-600';
+                    let cls = 'border-slate-700 bg-slate-900 hover:border-gold-600';
                     if (done && isCorrect) cls = 'border-emerald-600 bg-emerald-950/40';
                     else if (done && picked === i) cls = 'border-rose-600 bg-rose-950/40';
                     return (
@@ -907,7 +907,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-sky-300 uppercase tracking-wider mb-2">Formula sheet (all live in this sim)</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Formula sheet (all live in this sim)</p>
               <ul className="text-xs text-slate-300 space-y-1.5 font-mono">
                 <li>spherical mirror &nbsp;1/v + 1/u = 1/f, f = R/2</li>
                 <li>thin lens &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1/v − 1/u = 1/f</li>
@@ -919,7 +919,7 @@ export function C10_ScienceLightReflectionRefractionSim() {
               </ul>
             </div>
             <div className="p-4 bg-slate-900/70 rounded-2xl border border-slate-800">
-              <p className="text-xs font-bold text-sky-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
+              <p className="text-xs font-bold text-gold-300 uppercase tracking-wider mb-2">Honest-numerics notes</p>
               <ul className="text-xs text-slate-400 space-y-1.5 leading-relaxed">
                 <li>• The Bench draws only 2 of infinitely many rays -- the image point is where ALL reflected/refracted rays of that pencil meet (paraxial approximation).</li>
                 <li>• Mirror sign rule (Cartesian): light left→right, distances measured from the pole, against-light = negative. That is why u is shown as −u.</li>

@@ -11,7 +11,7 @@ export const w_c9_economicsbasiceconomicproblemsim: SimDef = {
     classLevel: 9, subject: 'economics', topic: 'Public Goods: Characteristics and Government Provision',
     chapters: [],
     nodeIds: ['c9_eco_ch1_10', 'c9_eco_ch1_1', 'c9_eco_ch1_2', 'c9_eco_ch1_4', 'c9_eco_ch1_5', 'c9_eco_ch1_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 9 learner', intro: 'Imagine you are walking home at 8 PM in your neighbourhood in Bengaluru.', goal: 'Master Public Goods: Characteristics and Government Provision.' },
     discovery: {
         question: 'A farmer in Punjab has 10 hectares of land. He can grow either wheat (yield 5 tonnes/hectare, price ₹2200/tonne) or rice (yield 4 tonnes/hectare, price.',
@@ -20,7 +20,7 @@ export const w_c9_economicsbasiceconomicproblemsim: SimDef = {
         hook: 'Students believe scarcity is the same as "shortage" or "poverty".',
     },
     teaching: [
-        { title: 'Public goods are goods characterized by.', text: 'Public goods are goods characterized by **non-excludability** (impossible or extremely costly to prevent anyone from using them) and **non-rivalry** (one person\'s consumption does not reduce.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Public goods are goods characterized by.', text: 'Public goods are goods characterized by **non-excludability** (impossible or extremely costly to prevent anyone from using them) and **non-rivalry** (one person\'s consumption does not reduce.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c9_eco_ch1_10', title: 'Public goods are goods characterized by.',

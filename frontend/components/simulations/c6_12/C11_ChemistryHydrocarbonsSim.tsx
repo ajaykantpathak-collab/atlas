@@ -150,7 +150,7 @@ export function C11_ChemistryHydrocarbonsSim() {
           <div className="bg-slate-900/80 rounded-2xl border border-lime-800/60 p-4 text-xs font-mono grid grid-cols-2 gap-2">
             <div><span className="text-slate-500">Molar mass</span><div className="text-lime-300 font-bold text-sm">{exists ? molMass.toFixed(2) + ' g/mol' : '--'}</div></div>
             <div><span className="text-slate-500">Structural isomers</span><div className="text-amber-300 font-bold text-sm">{isomers === null ? '--' : isomers}</div></div>
-            <div><span className="text-slate-500">Boiling point</span><div className="text-sky-300 font-bold text-sm">{bp === null ? '--' : bp + ' deg C'}</div></div>
+            <div><span className="text-slate-500">Boiling point</span><div className="text-gold-300 font-bold text-sm">{bp === null ? '--' : bp + ' deg C'}</div></div>
             <div><span className="text-slate-500">State at 25 C</span><div className="text-slate-300 font-bold text-sm">{bp === null ? '--' : bp < 25 ? 'gas' : 'liquid'}</div></div>
           </div>
 

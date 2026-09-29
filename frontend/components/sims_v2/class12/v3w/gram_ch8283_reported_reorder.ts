@@ -9,7 +9,7 @@ export const c12_gram_ch8283: SimDef = {
     classLevel: 12, subject: 'english-grammar', topic: 'Advanced reported speech and sentence reordering',
     chapters: ['c12_gram_ch82', 'c12_gram_ch83'],
     nodeIds: ['c12_gram_cbse_82_001', 'c12_gram_cbse_83_001'],
-    emoji: '🔗', theme: { bg: 'from-slate-900 to-sky-950', accent: 'sky', scene: 'senior' },
+    emoji: '🔗', theme: { bg: 'from-slate-900 to-gold-950', accent: 'sky', scene: 'senior' },
 
     scenario: {
         role: 'an archivist who converts live exclamations and questions into the record — and reconstructs scrambled paragraphs',
@@ -28,8 +28,8 @@ export const c12_gram_ch8283: SimDef = {
         hook: 'The sentence asks a question — but "where he lives" is a noun clause inside it, and noun clauses keep statement order. The most-tested senior structure.',
     },
     teaching: [
-        { title: 'The leftover frames', text: 'Exclamation → exclaimed + that + flattened statement. Embedded Q → wh-word heads a noun clause, statement order inside. Reporting verb carries the force.', emoji: '🗃️', bgColor: 'from-sky-500 to-blue-600' },
-        { title: 'The chain rules', text: 'Opener introduces with "a" and no backward pronouns. "the/he/this" refer backward. Connectors demand their logic-predecessor.', emoji: '⛓️', bgColor: 'from-blue-500 to-indigo-600' },
+        { title: 'The leftover frames', text: 'Exclamation → exclaimed + that + flattened statement. Embedded Q → wh-word heads a noun clause, statement order inside. Reporting verb carries the force.', emoji: '🗃️', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'The chain rules', text: 'Opener introduces with "a" and no backward pronouns. "the/he/this" refer backward. Connectors demand their logic-predecessor.', emoji: '⛓️', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

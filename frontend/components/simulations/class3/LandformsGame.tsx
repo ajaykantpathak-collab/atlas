@@ -44,7 +44,7 @@ const TEACHING_SLIDES = [
     title: 'Welcome to Landforms! ⛰️',
     text: 'A landform is a natural shape on the Earth. Mountains are very tall with pointed peaks and snow! Hills are smaller with rounded tops. Plains are wide flat land, great for farming and building cities!',
     emoji: '🏔️',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Welcome to landforms! Mountains are very tall with pointed peaks and snow! Hills are smaller with rounded tops. Plains are wide flat land, great for farming and building cities!',
   },
   {
@@ -58,7 +58,7 @@ const TEACHING_SLIDES = [
     title: 'Mighty Rivers of India! 🌊',
     text: 'A river is a natural stream of water starting in mountains and flowing to the sea. The Ganga is India is most important river! The Yamuna is its tributary, joining at Prayagraj.',
     emoji: '💧',
-    bgColor: 'from-cyan-400 to-blue-600',
+    bgColor: 'from-gold-400 to-gold-600',
     spoken: 'A river is a natural stream of water starting in mountains and flowing to the sea. The Ganga is India is most important river! The Yamuna is its tributary, joining at Prayagraj.',
   },
   {
@@ -72,7 +72,7 @@ const TEACHING_SLIDES = [
     title: 'Be a Geography Hero! 🌟',
     text: 'Plains are densely populated because life is easy there. Mountains are sparsely populated because they are cold and steep. Keep our rivers clean and protect nature!',
     emoji: '🌿',
-    bgColor: 'from-purple-400 to-indigo-600',
+    bgColor: 'from-purple-400 to-gold-600',
     spoken: 'Plains are densely populated because life is easy there. Mountains are sparsely populated because they are cold and steep. Keep our rivers clean and protect nature!',
   },
 ];
@@ -742,7 +742,7 @@ export function LandformsGame({ width = 720, height = 560, onComplete }: Landfor
         <div className="flex items-center gap-3">
           <span className="text-xl font-black text-amber-300 drop-shadow">⛰️ Ranger Ravi's Landforms</span>
           {screen === 'play' && (
-            <span className="text-xs font-bold text-cyan-200 bg-white/10 px-2.5 py-1 rounded-full">
+            <span className="text-xs font-bold text-gold-200 bg-white/10 px-2.5 py-1 rounded-full">
               Challenge {challengeIdx + 1} / {CHALLENGES.length}
             </span>
           )}
@@ -821,7 +821,7 @@ export function LandformsGame({ width = 720, height = 560, onComplete }: Landfor
           >
             {/* Question Header */}
             <div className="text-center mb-4">
-              <span className="text-xs font-black tracking-wider text-indigo-600 uppercase bg-indigo-50 px-3 py-1 rounded-full">
+              <span className="text-xs font-black tracking-wider text-gold-600 uppercase bg-gold-50 px-3 py-1 rounded-full">
                 Question {challengeIdx + 1} of {CHALLENGES.length}
               </span>
               <h2 className="text-xl font-black text-gray-800 mt-2">{challenge.question}</h2>

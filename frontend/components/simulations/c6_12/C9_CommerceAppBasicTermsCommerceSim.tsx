@@ -1299,7 +1299,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
                       }}
                       className={`px-5 py-2 rounded-xl text-sm font-bold border transition-colors ${
                         activeHierarchyTab === 'industry'
-                          ? 'bg-indigo-600 text-white border-indigo-500 shadow-lg shadow-indigo-600/30'
+                          ? 'bg-gold-600 text-white border-gold-500 shadow-lg shadow-gold-600/30'
                           : 'bg-slate-900 text-slate-400 border-slate-800'
                       }`}
                     >
@@ -1509,7 +1509,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
                 <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-slate-300">
-                      Tubewell Extraction Rate: <strong className="text-cyan-400">{pumpingRate}% of Recharge</strong>
+                      Tubewell Extraction Rate: <strong className="text-gold-400">{pumpingRate}% of Recharge</strong>
                     </span>
                     <span className="text-amber-400 font-bold bg-amber-950/60 px-3 py-1 rounded-lg border border-amber-800">
                       Punjab CGWB Benchmark: 165%
@@ -1522,7 +1522,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
                     value={pumpingRate}
                     onChange={(e) => handlePumpingSliderChange(Number(e.target.value))}
                     aria-label="Set Pumping Extraction Rate as percentage of recharge"
-                    className="w-full accent-cyan-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
 
                   <svg viewBox="0 0 500 180" className="w-full bg-slate-900 rounded-xl p-2 border border-slate-800">
@@ -1606,7 +1606,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
                       }}
                       className={`px-4 py-2 rounded-xl text-xs font-bold border ${
                         zldActive
-                          ? 'bg-cyan-600 text-white border-cyan-400'
+                          ? 'bg-gold-600 text-white border-gold-400'
                           : 'bg-slate-900 text-slate-400 border-slate-800'
                       }`}
                     >
@@ -1641,7 +1641,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
 
                     <div className="p-4 bg-slate-900 rounded-xl border border-slate-800 text-center">
                       <p className="text-xs text-slate-400 uppercase font-semibold">Water Recirculation</p>
-                      <p className={`text-xl font-extrabold mt-1 ${zldActive ? 'text-cyan-400' : 'text-slate-400'}`}>
+                      <p className={`text-xl font-extrabold mt-1 ${zldActive ? 'text-gold-400' : 'text-slate-400'}`}>
                         {zldActive ? '100% Closed Loop' : etpActive ? '35% Recycled' : '0% Recycled'}
                       </p>
                       <p className="text-[10px] text-slate-500 mt-0.5">Tata Steel & ITC Benchmark</p>
@@ -1702,7 +1702,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
               {/* ─── PREDICTION & OBSERVATION CHECKS INSIDE EXPLORATION ─── */}
               <div className="pt-4 border-t border-slate-800 space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-extrabold uppercase tracking-widest text-indigo-400">
+                  <span className="text-xs font-extrabold uppercase tracking-widest text-gold-400">
                     💡 Predict & Notice Verification Checks
                   </span>
                 </div>
@@ -1710,8 +1710,8 @@ function C9_CommerceAppBasicTermsCommerceSim({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* Prediction Question Widget */}
                   {PREDICTION_QUESTIONS.slice(0, 2).map((pq, pIdx) => (
-                    <div key={pq.id} className="p-4 bg-slate-950/80 rounded-xl border border-indigo-900/60 space-y-3">
-                      <div className="flex items-center gap-2 text-xs font-bold text-indigo-300 uppercase">
+                    <div key={pq.id} className="p-4 bg-slate-950/80 rounded-xl border border-gold-900/60 space-y-3">
+                      <div className="flex items-center gap-2 text-xs font-bold text-gold-300 uppercase">
                         <span>🎯 Prediction {pIdx + 1}</span>
                       </div>
                       <p className="text-xs font-semibold text-slate-200">{pq.question}</p>
@@ -1734,14 +1734,14 @@ function C9_CommerceAppBasicTermsCommerceSim({
                                 : 'bg-slate-900 hover:bg-slate-800 border-slate-800 text-slate-300'
                             }`}
                           >
-                            <span className="font-bold text-indigo-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span>
+                            <span className="font-bold text-gold-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span>
                             {opt}
                           </button>
                         ))}
                       </div>
 
                       {predictionAnswered[pIdx] !== undefined && (
-                        <div className="p-2.5 bg-indigo-950/40 rounded-lg border border-indigo-800/40 text-[11px] text-indigo-200 space-y-1">
+                        <div className="p-2.5 bg-gold-950/40 rounded-lg border border-gold-800/40 text-[11px] text-gold-200 space-y-1">
                           <p><strong className="text-amber-300">How to Verify:</strong> {pq.verifyInstruction}</p>
                           <p className="text-slate-400">{pq.explanation}</p>
                         </div>
@@ -1894,14 +1894,14 @@ function C9_CommerceAppBasicTermsCommerceSim({
             </div>
 
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h4 className="text-xs font-bold text-cyan-300 uppercase tracking-wider">
+              <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                 2. Environmental Compliance Switchboard
               </h4>
               <div className="flex flex-wrap gap-2">
                 <button
                   onClick={() => setZldActive(!zldActive)}
                   className={`px-3 py-1.5 rounded-lg text-xs font-bold ${
-                    zldActive ? 'bg-cyan-600 text-white' : 'bg-slate-800 text-slate-400'
+                    zldActive ? 'bg-gold-600 text-white' : 'bg-slate-800 text-slate-400'
                   }`}
                 >
                   ZLD Water Loop {zldActive ? 'ON' : 'OFF'}
@@ -1923,7 +1923,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
                 value={pumpingRate}
                 onChange={(e) => setPumpingRate(Number(e.target.value))}
                 aria-label="Set sandbox extraction rate"
-                className="w-full accent-cyan-500"
+                className="w-full accent-gold-500"
               />
               <p className="text-xs text-slate-300">
                 Water Table Status:{' '}
@@ -1968,7 +1968,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
 
           <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500"
+              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-gold-500"
               animate={{
                 width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
               }}
@@ -2157,7 +2157,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
                       whileTap={{ scale: 0.97 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
                       aria-label={`Add part: ${part}`}
-                      className="px-3 py-1.5 bg-indigo-900/70 hover:bg-indigo-800 text-indigo-200 rounded-lg text-xs border border-indigo-700"
+                      className="px-3 py-1.5 bg-gold-900/70 hover:bg-gold-800 text-gold-200 rounded-lg text-xs border border-gold-700"
                     >
                       + {part}
                     </motion.button>
@@ -2286,7 +2286,7 @@ function C9_CommerceAppBasicTermsCommerceSim({
               </div>
               <div className="px-5 py-2.5 bg-slate-900/80 rounded-xl border border-slate-800">
                 <span className="text-xs text-slate-400 block">Calculated Mastery Tier</span>
-                <strong className="text-xl text-cyan-400 font-black capitalize">
+                <strong className="text-xl text-gold-400 font-black capitalize">
                   {masteryLevel}
                 </strong>
               </div>
@@ -2364,10 +2364,10 @@ function C9_CommerceAppBasicTermsCommerceSim({
           )}
 
           {/* Spaced Repetition SRS Notice */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex items-center gap-4">
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex items-center gap-4">
             <span className="text-2xl">📅</span>
             <div>
-              <h4 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">
+              <h4 className="text-xs font-bold text-gold-300 uppercase tracking-wider">
                 Spaced Repetition Review Schedule
               </h4>
               <p className="text-xs text-slate-300 mt-0.5">

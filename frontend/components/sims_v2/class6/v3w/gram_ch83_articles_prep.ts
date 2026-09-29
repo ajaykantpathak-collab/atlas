@@ -9,7 +9,7 @@ export const c6_gram_ch83: SimDef = {
     classLevel: 6, subject: 'english-grammar', topic: 'Articles, prepositions and conjunctions',
     chapters: ['c6_gram_ch83'],
     nodeIds: ['c6_gram_cbse_83_001', 'c6_gram_cbse_83_002', 'c6_gram_cbse_83_003'],
-    emoji: '🧩', theme: { bg: 'from-slate-900 to-violet-950', accent: 'violet', scene: 'junior' },
+    emoji: '🧩', theme: { bg: 'from-slate-900 to-gold-950', accent: 'violet', scene: 'junior' },
 
     scenario: {
         role: 'a puzzle solver placing the smallest pieces that hold sentences together',
@@ -28,7 +28,7 @@ export const c6_gram_ch83: SimDef = {
         hook: 'First mention = a (new). Second mention = the (we both know it). That is the whole story-rule.',
     },
     teaching: [
-        { title: 'The story rule', text: 'a/an introduces something new; the points at something we both know. And an listens to SOUND — an hour, a university.', emoji: '📖', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'The story rule', text: 'a/an introduces something new; the points at something we both know. And an listens to SOUND — an hour, a university.', emoji: '📖', bgColor: 'from-gold-500 to-purple-600' },
         { title: 'The calendar and the picture', text: 'Time: at + clock, on + day, in + month. Space: in = inside, on = surface, between = two, among = a crowd.', emoji: '📅', bgColor: 'from-purple-500 to-fuchsia-600' },
     ],
 

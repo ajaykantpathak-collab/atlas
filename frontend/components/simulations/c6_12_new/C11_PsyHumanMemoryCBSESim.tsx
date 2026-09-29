@@ -1258,10 +1258,10 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
           <div className="bg-slate-800 p-6 rounded-2xl border border-slate-700 shadow-xl space-y-6">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-xl font-bold text-sky-400">Lab 1: Sperling Visual Sensory Memory (Iconic Flash)</h3>
+                <h3 className="text-xl font-bold text-gold-400">Lab 1: Sperling Visual Sensory Memory (Iconic Flash)</h3>
                 <p className="text-sm text-slate-300">Node: {NODE_031} | Sensory Memory System</p>
               </div>
-              <span className="bg-sky-950 text-sky-300 text-xs px-3 py-1 rounded-full border border-sky-700 font-mono">50ms Exposure</span>
+              <span className="bg-gold-950 text-gold-300 text-xs px-3 py-1 rounded-full border border-gold-700 font-mono">50ms Exposure</span>
             </div>
 
             <AtkinsonShiffrinDiagram activeStage="sensory" />
@@ -1276,7 +1276,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 {sperlingState === 'flashing' && (
                   <div className="grid grid-cols-4 gap-4 animate-pulse">
                     {sperlingGrid.flat().map((char, idx) => (
-                      <div key={idx} className="w-12 h-12 bg-sky-600 text-white font-mono font-bold text-2xl rounded flex items-center justify-center shadow-lg">
+                      <div key={idx} className="w-12 h-12 bg-gold-600 text-white font-mono font-bold text-2xl rounded flex items-center justify-center shadow-lg">
                         {char}
                       </div>
                     ))}
@@ -1302,7 +1302,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 <div className="flex gap-3">
                   <button
                     onClick={() => runSperlingFlash(false)}
-                    className="flex-1 bg-sky-600 hover:bg-sky-500 text-white font-semibold py-2.5 px-4 rounded-lg transition shadow-md text-sm"
+                    className="flex-1 bg-gold-600 hover:bg-gold-500 text-white font-semibold py-2.5 px-4 rounded-lg transition shadow-md text-sm"
                   >
                     1. Flash Full Report
                   </button>
@@ -1352,7 +1352,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
           <div className="bg-slate-800 p-6 rounded-2xl border border-slate-700 shadow-xl space-y-6">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-xl font-bold text-sky-400">Lab 2: STM Digit Span & Chunking Dynamics</h3>
+                <h3 className="text-xl font-bold text-gold-400">Lab 2: STM Digit Span & Chunking Dynamics</h3>
                 <p className="text-sm text-slate-300">Node: {NODE_036} | Chunking Strategy</p>
               </div>
               <span className="bg-purple-950 text-purple-300 text-xs px-3 py-1 rounded-full border border-purple-700 font-mono">Miller 7 ± 2</span>
@@ -1378,13 +1378,13 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 <div className="flex rounded-lg bg-slate-900 p-1 border border-slate-700">
                   <button
                     onClick={() => setChunkingMode('unchunked')}
-                    className={`flex-1 py-1.5 rounded-md text-xs font-semibold transition ${chunkingMode === 'unchunked' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                    className={`flex-1 py-1.5 rounded-md text-xs font-semibold transition ${chunkingMode === 'unchunked' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                   >
                     16 Unchunked Digits
                   </button>
                   <button
                     onClick={() => setChunkingMode('chunked')}
-                    className={`flex-1 py-1.5 rounded-md text-xs font-semibold transition ${chunkingMode === 'chunked' ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}
+                    className={`flex-1 py-1.5 rounded-md text-xs font-semibold transition ${chunkingMode === 'chunked' ? 'bg-gold-600 text-white' : 'text-slate-400'}`}
                   >
                     4 Semantic Chunks (Years)
                   </button>
@@ -1417,7 +1417,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 )}
 
                 {chunkingResult && (
-                  <div className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-sky-300 leading-relaxed font-mono">
+                  <div className="p-3 bg-slate-900 border border-slate-700 rounded-xl text-xs text-gold-300 leading-relaxed font-mono">
                     {chunkingResult}
                   </div>
                 )}
@@ -1431,7 +1431,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
           <div className="bg-slate-800 p-6 rounded-2xl border border-slate-700 shadow-xl space-y-6">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-xl font-bold text-sky-400">Lab 3: Baddeley Working Memory Dual-Task Visualizer</h3>
+                <h3 className="text-xl font-bold text-gold-400">Lab 3: Baddeley Working Memory Dual-Task Visualizer</h3>
                 <p className="text-sm text-slate-300">Node: {NODE_038} | Working Memory Model (1986)</p>
               </div>
               <span className="bg-emerald-950 text-emerald-300 text-xs px-3 py-1 rounded-full border border-emerald-700 font-mono">Multi-Component</span>
@@ -1505,7 +1505,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
           <div className="bg-slate-800 p-6 rounded-2xl border border-slate-700 shadow-xl space-y-6">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-xl font-bold text-sky-400">Lab 4: Craik & Lockhart Depth of Processing Engine</h3>
+                <h3 className="text-xl font-bold text-gold-400">Lab 4: Craik & Lockhart Depth of Processing Engine</h3>
                 <p className="text-sm text-slate-300">Node: {NODE_039} | Levels of Processing Model</p>
               </div>
               <span className="bg-teal-950 text-teal-300 text-xs px-3 py-1 rounded-full border border-teal-700 font-mono">Structural vs Semantic</span>
@@ -1582,7 +1582,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
           <div className="bg-slate-800 p-6 rounded-2xl border border-slate-700 shadow-xl space-y-6">
             <div className="flex justify-between items-center">
               <div>
-                <h3 className="text-xl font-bold text-sky-400">Lab 5: Ebbinghaus Forgetting & Retention Simulator</h3>
+                <h3 className="text-xl font-bold text-gold-400">Lab 5: Ebbinghaus Forgetting & Retention Simulator</h3>
                 <p className="text-sm text-slate-300">Node: {NODE_047} | Forgetting Curve & Savings Score</p>
               </div>
               <span className="bg-rose-950 text-rose-300 text-xs px-3 py-1 rounded-full border border-rose-700 font-mono">Exponential Decay</span>
@@ -1590,7 +1590,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
 
             <div className="bg-slate-900 p-5 rounded-xl border border-slate-700 space-y-4">
               <div className="flex justify-between text-xs text-slate-300">
-                <span>Time Elapsed: <strong className="text-sky-400 font-mono text-sm">{ebbinghausDays} Days</strong></span>
+                <span>Time Elapsed: <strong className="text-gold-400 font-mono text-sm">{ebbinghausDays} Days</strong></span>
                 <span>Spaced Review Repetitions: <strong className="text-emerald-400 font-mono text-sm">{ebbinghausReviews} Reviews</strong></span>
                 <span>Retention Level: <strong className="text-amber-400 font-mono text-sm">{ebbinghausRetention}%</strong></span>
               </div>
@@ -1619,7 +1619,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                       setEbbinghausDays(parseInt(e.target.value));
                       audioManager.play('tap');
                     }}
-                    className="w-full accent-sky-500 cursor-pointer"
+                    className="w-full accent-gold-500 cursor-pointer"
                   />
                 </div>
 
@@ -1656,7 +1656,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
       {/* TOP BAR BRANDING */}
       <header className="max-w-6xl mx-auto mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-800 pb-4">
         <div>
-          <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">CISCE Class 11 Psychology • Memory Unit</span>
+          <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">CISCE Class 11 Psychology • Memory Unit</span>
           <h1 className="text-2xl md:text-3xl font-extrabold text-white">Human Memory Cognitive Dynamics Lab</h1>
         </div>
 
@@ -1684,7 +1684,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
             setActiveTab('discovery');
             audioManager.play('tap');
           }}
-          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'discovery' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
+          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'discovery' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
         >
           1. Discovery
         </button>
@@ -1693,7 +1693,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
             setActiveTab('labs');
             audioManager.play('tap');
           }}
-          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'labs' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
+          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'labs' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
         >
           2. Interactive Labs ({EXPLORATION_STEPS.length})
         </button>
@@ -1702,7 +1702,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
             setActiveTab('challenges');
             audioManager.play('tap');
           }}
-          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'challenges' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
+          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'challenges' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
         >
           3. Challenges ({CHALLENGES.length})
         </button>
@@ -1711,7 +1711,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
             setActiveTab('misconceptions');
             audioManager.play('tap');
           }}
-          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'misconceptions' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
+          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'misconceptions' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
         >
           4. Misconceptions ({MISCONCEPTIONS.length})
         </button>
@@ -1720,7 +1720,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
             setActiveTab('summary');
             audioManager.play('tap');
           }}
-          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'summary' ? 'bg-sky-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
+          className={`px-4 py-2 rounded-lg font-semibold text-sm transition ${activeTab === 'summary' ? 'bg-gold-600 text-white shadow-md' : 'text-slate-400 hover:bg-slate-900'}`}
         >
           5. PQRST Real-World Lab
         </button>
@@ -1731,7 +1731,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
         <main className="max-w-4xl mx-auto space-y-8">
           {/* SCENARIO CARD */}
           <section className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-3 shadow-xl">
-            <span className="text-xs font-bold text-sky-400 uppercase tracking-widest">Lab Context</span>
+            <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">Lab Context</span>
             <h2 className="text-xl font-bold text-white">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
             <p className="text-sm text-slate-400 leading-relaxed">{SCENARIO.context}</p>
@@ -1769,14 +1769,14 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
 
           {/* PREDICTION QUESTIONS ARRAY */}
           <section className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-6 shadow-xl">
-            <h3 className="text-lg font-bold text-sky-400">Hypothesis & Prediction Tasks</h3>
+            <h3 className="text-lg font-bold text-gold-400">Hypothesis & Prediction Tasks</h3>
             {PREDICTION_QUESTIONS.map((pq, idx) => (
               <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
                 <p className="text-sm font-semibold text-slate-200">{pq.question}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                   {pq.options.map((opt, oIdx) => (
                     <div key={oIdx} className="p-2.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300">
-                      <span className="font-bold text-sky-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span>
+                      <span className="font-bold text-gold-400 mr-1.5">{String.fromCharCode(65 + oIdx)}.</span>
                       {opt}
                     </div>
                   ))}
@@ -1802,7 +1802,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 }}
                 className={`p-3 rounded-xl border text-left text-xs font-semibold transition ${
                   currentLabIndex === idx
-                    ? 'bg-sky-600 border-sky-400 text-white shadow-lg'
+                    ? 'bg-gold-600 border-gold-400 text-white shadow-lg'
                     : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                 }`}
               >
@@ -1842,7 +1842,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
           {/* CHALLENGE PROGRESS & HEADER */}
           <div className="flex justify-between items-center bg-slate-900 p-4 rounded-xl border border-slate-800">
             <div>
-              <span className="text-xs font-bold text-sky-400 uppercase">
+              <span className="text-xs font-bold text-gold-400 uppercase">
                 Challenge {activeChallengeIdx + 1} of {CHALLENGES.length}
               </span>
               <h2 className="text-sm font-semibold text-slate-200">
@@ -1877,11 +1877,11 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                     onClick={() => handleMcqSelect(idx)}
                     className={`w-full text-left p-3.5 rounded-xl border text-sm font-medium transition ${
                       selectedMcqOption === idx
-                        ? 'bg-sky-950 border-sky-500 text-sky-200'
+                        ? 'bg-gold-950 border-gold-500 text-gold-200'
                         : 'bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-sky-400">{String.fromCharCode(65 + idx)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span> {opt}
                   </button>
                 ))}
               </div>
@@ -1896,7 +1896,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                   value={numericAnswer}
                   onChange={e => setNumericAnswer(e.target.value)}
                   placeholder="e.g. 55"
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono text-lg focus:outline-none focus:border-sky-500"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white font-mono text-lg focus:outline-none focus:border-gold-500"
                 />
               </div>
             )}
@@ -1907,7 +1907,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 <p className="text-xs text-slate-400 font-semibold">Select matching pairing for each left item:</p>
                 {CHALLENGES[activeChallengeIdx].matchPairs!.map((pair, idx) => (
                   <div key={idx} className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 bg-slate-950 p-3 rounded-xl border border-slate-800">
-                    <span className="text-xs font-semibold text-sky-300 md:w-1/3">{pair.left}</span>
+                    <span className="text-xs font-semibold text-gold-300 md:w-1/3">{pair.left}</span>
                     <select
                       value={userMatchPairs[pair.left] || ''}
                       onChange={e => handleMatchSelect(pair.left, e.target.value)}
@@ -1930,7 +1930,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
                 <div className="space-y-2">
                   {userSortOrder.map((item, idx) => (
                     <div key={idx} className="flex items-center justify-between bg-slate-950 p-3 rounded-xl border border-slate-800">
-                      <span className="text-xs font-mono font-bold text-sky-400 mr-3">{idx + 1}.</span>
+                      <span className="text-xs font-mono font-bold text-gold-400 mr-3">{idx + 1}.</span>
                       <span className="text-xs text-slate-200 flex-1">{item}</span>
                       <div className="flex gap-1">
                         <button
@@ -1996,7 +1996,7 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
       {/* TAB 4: MISCONCEPTIONS */}
       {activeTab === 'misconceptions' && (
         <main className="max-w-4xl mx-auto space-y-6">
-          <h2 className="text-xl font-bold text-sky-400">Psychological Misconceptions & Evidence-Based Corrections</h2>
+          <h2 className="text-xl font-bold text-gold-400">Psychological Misconceptions & Evidence-Based Corrections</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {MISCONCEPTIONS.map(misc => (
               <div key={misc.id} className="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3 shadow-xl">
@@ -2038,12 +2038,12 @@ export const C11_PsyHumanMemoryCBSESim: React.FC<SimProps> = ({
 
           {/* DIAGNOSTIC RECAP TABLE */}
           <section className="bg-slate-900 p-6 rounded-2xl border border-slate-800 space-y-4 shadow-xl">
-            <h3 className="text-lg font-bold text-sky-400">Diagnostic Mastery Summary ({DIAGNOSTIC_QUESTIONS.length} Questions)</h3>
+            <h3 className="text-lg font-bold text-gold-400">Diagnostic Mastery Summary ({DIAGNOSTIC_QUESTIONS.length} Questions)</h3>
             <div className="space-y-3">
               {DIAGNOSTIC_QUESTIONS.map(dq => (
                 <div key={dq.id} className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 flex flex-col md:flex-row justify-between items-start md:items-center gap-2">
                   <div>
-                    <span className="text-[10px] font-mono text-sky-400">{dq.nodeId}</span>
+                    <span className="text-[10px] font-mono text-gold-400">{dq.nodeId}</span>
                     <p className="text-xs font-semibold text-slate-200">{dq.question}</p>
                     <p className="text-[11px] text-slate-400 italic">Remedial Concept: {dq.remedialConcept}</p>
                   </div>

@@ -11,11 +11,11 @@ export const w_c7_mathematicsfindingtheunknownsim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Finding the Unknown: Balancing Both Sides',
     chapters: [],
     nodeIds: ['c7_math_ch15_002', 'c7_math_ch15_004', 'c7_math_ch15_005', 'c7_math_ch15_007', 'c7_math_ch15_010', 'c7_math_ch11_009', 'c7_math_ch05_007', 'c7_math_ch05_009', 'c7_math_ch09_003', 'c7_math_ch09_006', 'c7_math_ch09_009', 'c7_math_ch07_008', 'c7_math_ch15_001', 'c7_math_ch15_008', 'c7_math_ch15_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are at a local vegetable market in India, and a vegetable vendor uses a traditional beam balance.', goal: 'Master Finding the Unknown: Balancing Both Sides.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'Finding the unknown by balancing both sides.', text: 'Finding the unknown by balancing both sides is the process of maintaining equality in an equation by performing identical operations on both the left-hand side (LHS) and right-hand side (RHS) until.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Finding the unknown by balancing both sides.', text: 'Finding the unknown by balancing both sides is the process of maintaining equality in an equation by performing identical operations on both the left-hand side (LHS) and right-hand side (RHS) until.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch15_002', title: 'Finding the unknown by balancing both.',

@@ -11,7 +11,7 @@ export const w_c12_physicsenergybandssolidssim: SimDef = {
     classLevel: 12, subject: 'physics', topic: 'Energy Bands in Solids: Conductor, Insulator, Semiconductor',
     chapters: [],
     nodeIds: ['c12_phy_cbse_14_001', 'c12_phy_cbse_14_002', 'c12_phy_cbse_14_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Observe a copper wire (excellent conductor), a plastic ruler (insulator), and a silicon chip (semiconductor).', goal: 'Master Energy Bands in Solids: Conductor, Insulator, Semiconductor.' },
     discovery: {
         question: '**UNDERSTAND:** In the covalent-bond model of silicon, a pentavalent phosphorus atom replaces a silicon atom.',
@@ -20,7 +20,7 @@ export const w_c12_physicsenergybandssolidssim: SimDef = {
         hook: '**Misconception:** "In an n-type semiconductor, the donor atoms themselves become the mobile electrons." **Why it\'s.',
     },
     teaching: [
-        { title: 'Energy bands in solids are continuous ranges.', text: 'Energy bands in solids are continuous ranges of allowed energy levels for electrons, formed by the splitting and merging of discrete atomic energy levels when atoms come together to form a crystal.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Energy bands in solids are continuous ranges.', text: 'Energy bands in solids are continuous ranges of allowed energy levels for electrons, formed by the splitting and merging of discrete atomic energy levels when atoms come together to form a crystal.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_phy_cbse_14_001', title: 'Energy bands in solids are continuous.',

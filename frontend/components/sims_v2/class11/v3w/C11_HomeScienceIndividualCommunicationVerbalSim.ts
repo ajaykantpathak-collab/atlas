@@ -11,7 +11,7 @@ export const w_c11_homescienceindividualcommunicationverbalsim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Communication: Definition, Concept and Scope',
     chapters: [],
     nodeIds: ['c11_hs_cbse_06_001', 'c11_hs_cbse_06_003', 'c11_hs_cbse_06_004', 'c11_hs_cbse_06_005', 'c11_hs_cbse_06_002', 'c11_hs_cbse_06_006', 'c11_hs_cbse_06_007', 'c11_hs_cbse_06_008', 'c11_hs_cbse_06_009', 'c11_hs_cbse_06_010', 'c11_hs_cbse_06_011', 'c11_hs_cbse_06_012', 'c11_hs_cbse_02_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you\'re trying to explain to your grandmother how to use a UPI payment app over a phone call — she.', goal: 'Master Communication: Definition, Concept and Scope.' },
     discovery: {
         question: 'Classify the following scenario into the correct *level of communication*: A student lies in bed at night, mentally rehearsing answers for tomorrow\'s viva.',
@@ -20,7 +20,7 @@ export const w_c11_homescienceindividualcommunicationverbalsim: SimDef = {
         hook: 'Students equate "communication" with "information transfer" and therefore classify any scenario where a message is sent.',
     },
     teaching: [
-        { title: 'Communication is the continuous, dynamic.', text: 'Communication is the continuous, dynamic process of creating shared understanding by encoding and transmitting thoughts, feelings, information, or ideas from a source to a receiver through a channel,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Communication is the continuous, dynamic.', text: 'Communication is the continuous, dynamic process of creating shared understanding by encoding and transmitting thoughts, feelings, information, or ideas from a source to a receiver through a channel,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hs_cbse_06_001', title: 'Communication is the continuous,.',

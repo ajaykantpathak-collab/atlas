@@ -11,7 +11,7 @@ export const w_c11_homesciencestoragefoodsperishablesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Environmental Hygiene, Sanitation and Food Hygiene',
     chapters: [],
     nodeIds: ['c11_hs_cbse_07_008', 'c11_hs_cbse_07_011', 'c11_hs_cbse_04_012'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you visit a relative\'s home in a peri-urban area where the municipal water supply runs only two hours.', goal: 'Master Environmental Hygiene, Sanitation and Food Hygiene.' },
     discovery: {
         question: 'Critique the following statement from a municipal health report: "Our city has achieved 95% toilet coverage under Swachh Bharat Mission, so environmental.',
@@ -20,7 +20,7 @@ export const w_c11_homesciencestoragefoodsperishablesim: SimDef = {
         hook: 'Students believe "environmental hygiene" and "personal hygiene" are interchangeable or that environmental hygiene only.',
     },
     teaching: [
-        { title: 'Environmental hygiene refers to the.', text: 'Environmental hygiene refers to the comprehensive set of practices and conditions in the external surroundings—including safe water supply, sanitary disposal of human excreta and liquid/solid wastes,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Environmental hygiene refers to the.', text: 'Environmental hygiene refers to the comprehensive set of practices and conditions in the external surroundings—including safe water supply, sanitary disposal of human excreta and liquid/solid wastes,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_hs_cbse_07_008', title: 'Environmental hygiene refers to the.',

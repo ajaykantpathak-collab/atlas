@@ -20,11 +20,11 @@ import {
 const EVENT_META: Record<string, { label: string; icon: React.ReactNode; tone: string }> = {
   question_answered: { label: 'Questions answered', icon: <PenLine className="h-4 w-4" />, tone: 'text-gold-300' },
   mastery_achieved: { label: 'Masteries achieved', icon: <Award className="h-4 w-4" />, tone: 'text-emerald-300' },
-  hint_requested: { label: 'Hints requested', icon: <Lightbulb className="h-4 w-4" />, tone: 'text-sky-300' },
-  socratic_interaction: { label: 'Socratic dialogues', icon: <MessageSquare className="h-4 w-4" />, tone: 'text-violet-300' },
+  hint_requested: { label: 'Hints requested', icon: <Lightbulb className="h-4 w-4" />, tone: 'text-gold-300' },
+  socratic_interaction: { label: 'Socratic dialogues', icon: <MessageSquare className="h-4 w-4" />, tone: 'text-gold-300' },
   misconception_diagnosed: { label: 'Misconceptions caught', icon: <Target className="h-4 w-4" />, tone: 'text-rose-300' },
   lesson_completed: { label: 'Lessons completed', icon: <BookOpenCheck className="h-4 w-4" />, tone: 'text-emerald-300' },
-  review_completed: { label: 'Reviews completed', icon: <CheckCircle2 className="h-4 w-4" />, tone: 'text-sky-300' },
+  review_completed: { label: 'Reviews completed', icon: <CheckCircle2 className="h-4 w-4" />, tone: 'text-gold-300' },
   exam_submitted: { label: 'Exams submitted', icon: <GraduationCap className="h-4 w-4" />, tone: 'text-gold-300' },
 }
 

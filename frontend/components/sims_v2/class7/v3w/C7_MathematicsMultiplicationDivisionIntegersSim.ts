@@ -11,7 +11,7 @@ export const w_c7_mathematicsmultiplicationdivisionintegerssim: SimDef = {
     classLevel: 7, subject: 'mathematics', topic: 'Recap of Integers: Positive, Negative and Zero',
     chapters: [],
     nodeIds: ['c7_math_ch10_001', 'c7_math_ch10_002', 'c7_math_ch10_006', 'c7_math_ch10_009', 'c7_math_ch10_010', 'c7_math_ch02_002', 'c7_math_ch02_008', 'c7_math_ch02_010', 'c7_math_ch04_006', 'c7_math_ch04_007', 'c7_math_ch01_011', 'c7_math_ch15_004', 'c7_math_ch10_008', 'c7_math_ch10_004', 'c7_math_ch10_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Imagine you are standing at ground level in a multi-story parking building in Delhi.', goal: 'Master Recap of Integers: Positive, Negative and Zero.' },
     discovery: {
         question: 'At 6:00 PM, the temperature in Shimla was 2 °C. By midnight, the temperature dropped by 5 °C. Which integer represents the temperature at midnight?',
@@ -20,7 +20,7 @@ export const w_c7_mathematicsmultiplicationdivisionintegerssim: SimDef = {
         hook: 'Students frequently misinterpret directional words in word problems, confusing words like "below sea level" or.',
     },
     teaching: [
-        { title: 'Integers are a set of numbers that include.', text: 'Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\\{..., -3, -2, -1, 0, 1, 2, 3, ...\\}$, where positive integers lie to the right of zero,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Integers are a set of numbers that include.', text: 'Integers are a set of numbers that include all whole numbers and their negative counterparts, represented as $\\{..., -3, -2, -1, 0, 1, 2, 3, ...\\}$, where positive integers lie to the right of zero,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_math_ch10_001', title: 'Integers are a set of numbers that.',

@@ -646,7 +646,7 @@ const ContactProcessVisualizer: React.FC = () => {
               setPressure(Number(e.target.value));
               audioManager.play('tap');
             }}
-            className="w-full accent-blue-500 cursor-pointer"
+            className="w-full accent-gold-500 cursor-pointer"
           />
           <div className="flex items-center justify-between pt-1">
             <span className="text-xs text-slate-300 font-semibold">V₂O₅ Catalyst:</span>
@@ -850,7 +850,7 @@ const AcidPropertiesLab: React.FC = () => {
     <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 text-white shadow-xl">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
         <div>
-          <h3 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
             <span>🧪</span> H₂SO₄ Reaction & Testing Laboratory
           </h3>
           <p className="text-xs text-slate-400">
@@ -865,7 +865,7 @@ const AcidPropertiesLab: React.FC = () => {
               setSelectedAcid('dilute');
               audioManager.play('tap');
             }}
-            className={`px-4 py-1.5 rounded-md text-xs font-bold transition-all ${selectedAcid === 'dilute' ? 'bg-cyan-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'}`}
+            className={`px-4 py-1.5 rounded-md text-xs font-bold transition-all ${selectedAcid === 'dilute' ? 'bg-gold-600 text-white shadow' : 'text-slate-400 hover:text-slate-200'}`}
           >
             Dilute H₂SO₄ (Strong Acid)
           </button>
@@ -893,10 +893,10 @@ const AcidPropertiesLab: React.FC = () => {
                   setSelectedReagent(key);
                   audioManager.play('pop');
                 }}
-                className={`p-2.5 rounded-lg text-left text-xs font-semibold border transition-all flex justify-between items-center ${selectedReagent === key ? 'bg-slate-800 border-cyan-500 text-cyan-300 shadow-md' : 'bg-slate-900 border-slate-800/80 text-slate-400 hover:bg-slate-800/50'}`}
+                className={`p-2.5 rounded-lg text-left text-xs font-semibold border transition-all flex justify-between items-center ${selectedReagent === key ? 'bg-slate-800 border-gold-500 text-gold-300 shadow-md' : 'bg-slate-900 border-slate-800/80 text-slate-400 hover:bg-slate-800/50'}`}
               >
                 <span>{item.name}</span>
-                {selectedReagent === key && <span className="text-cyan-400">●</span>}
+                {selectedReagent === key && <span className="text-gold-400">●</span>}
               </button>
             ))}
           </div>
@@ -904,7 +904,7 @@ const AcidPropertiesLab: React.FC = () => {
           <button
             onClick={handleRunReaction}
             disabled={isReacting}
-            className="w-full mt-3 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold text-sm rounded-lg shadow-lg flex items-center justify-center gap-2 transition-all disabled:opacity-50"
+            className="w-full mt-3 py-2.5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold text-sm rounded-lg shadow-lg flex items-center justify-center gap-2 transition-all disabled:opacity-50"
           >
             {isReacting ? 'Simulating Reaction...' : '🚀 Mix & Observe Reaction'}
           </button>
@@ -917,7 +917,7 @@ const AcidPropertiesLab: React.FC = () => {
             <div className="w-24 h-48 border-4 border-slate-700 border-t-0 rounded-b-full bg-slate-900/60 relative flex flex-col justify-end p-2 overflow-hidden shadow-inner">
               {/* Liquid Content */}
               <motion.div
-                className={`w-full rounded-b-full transition-all duration-500 ${selectedReagent === 'Sugar' && selectedAcid === 'concentrated' ? 'bg-slate-950' : selectedReagent === 'Cu' && selectedAcid === 'concentrated' ? 'bg-blue-600/80' : selectedReagent === 'CuSO4_5H2O' && selectedAcid === 'concentrated' ? 'bg-slate-200/80' : 'bg-cyan-600/40'}`}
+                className={`w-full rounded-b-full transition-all duration-500 ${selectedReagent === 'Sugar' && selectedAcid === 'concentrated' ? 'bg-slate-950' : selectedReagent === 'Cu' && selectedAcid === 'concentrated' ? 'bg-gold-600/80' : selectedReagent === 'CuSO4_5H2O' && selectedAcid === 'concentrated' ? 'bg-slate-200/80' : 'bg-gold-600/40'}`}
                 animate={{ height: isReacting ? '70%' : '45%' }}
               />
 
@@ -949,7 +949,7 @@ const AcidPropertiesLab: React.FC = () => {
                   <span className="text-amber-400 font-bold">Observation:</span> {currentResult.obs}
                 </div>
                 {currentResult.gasTest && (
-                  <div className="text-xs text-cyan-300 bg-cyan-950/40 p-2 rounded border border-cyan-800/40">
+                  <div className="text-xs text-gold-300 bg-gold-950/40 p-2 rounded border border-gold-800/40">
                     <span className="font-bold">🔍 Confirmatory Test:</span> {currentResult.gasTest}
                   </div>
                 )}
@@ -1461,7 +1461,7 @@ export default function C10_ChemistrySulphuricacidContactprocessSim() {
       {/* Top Header Navigation */}
       <header className="max-w-6xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 flex flex-col md:flex-row justify-between items-center gap-4 shadow-2xl">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-cyan-500 flex items-center justify-center text-xl font-bold text-slate-950 shadow-lg">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-gold-500 flex items-center justify-center text-xl font-bold text-slate-950 shadow-lg">
             🧪
           </div>
           <div>
@@ -1480,7 +1480,7 @@ export default function C10_ChemistrySulphuricacidContactprocessSim() {
           </button>
           <button
             onClick={() => { setActiveTab('learn'); audioManager.play('tap'); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${activeTab === 'learn' ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'}`}
+            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${activeTab === 'learn' ? 'bg-gold-500 text-slate-950' : 'text-slate-400 hover:text-white'}`}
           >
             📚 Lessons ({currentSlideIdx + 1}/6)
           </button>
@@ -1572,12 +1572,12 @@ export default function C10_ChemistrySulphuricacidContactprocessSim() {
                 ◀ Previous
               </button>
               <span className="text-xs font-bold text-slate-300">
-                Slide {currentSlideIdx + 1} of {TEACHING_SLIDES.length}: <span className="text-cyan-400">{currentSlide.title}</span>
+                Slide {currentSlideIdx + 1} of {TEACHING_SLIDES.length}: <span className="text-gold-400">{currentSlide.title}</span>
               </span>
               <button
                 onClick={() => { if (currentSlideIdx < TEACHING_SLIDES.length - 1) { setCurrentSlideIdx(prev => prev + 1); audioManager.play('pop'); } }}
                 disabled={currentSlideIdx === TEACHING_SLIDES.length - 1}
-                className="px-3 py-1.5 rounded-lg bg-cyan-600 text-xs font-bold disabled:opacity-40"
+                className="px-3 py-1.5 rounded-lg bg-gold-600 text-xs font-bold disabled:opacity-40"
               >
                 Next ▶
               </button>
@@ -1586,7 +1586,7 @@ export default function C10_ChemistrySulphuricacidContactprocessSim() {
             {/* Slide Main Content */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 shadow-2xl space-y-6">
               <div>
-                <span className="text-xs font-mono font-bold text-cyan-400 bg-cyan-950 px-2.5 py-1 rounded border border-cyan-800">
+                <span className="text-xs font-mono font-bold text-gold-400 bg-gold-950 px-2.5 py-1 rounded border border-gold-800">
                   Node: {currentSlide.nodeId}
                 </span>
                 <h2 className="text-2xl font-black text-white mt-2">{currentSlide.title}</h2>
@@ -1756,7 +1756,7 @@ export default function C10_ChemistrySulphuricacidContactprocessSim() {
                   return (
                     <div key={nodeId} className="bg-slate-950 p-3 rounded-lg border border-slate-800 flex justify-between items-center text-xs">
                       <div>
-                        <span className="font-mono font-bold text-cyan-400 block">{nodeId}</span>
+                        <span className="font-mono font-bold text-gold-400 block">{nodeId}</span>
                         <span className="text-slate-400 text-[10px] uppercase font-semibold">{level}</span>
                       </div>
                       <div className="flex items-center gap-2">

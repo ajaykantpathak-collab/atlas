@@ -11,7 +11,7 @@ export const w_c7_physicsphysicalnaturemattersim: SimDef = {
     classLevel: 7, subject: 'physics', topic: 'Branches of Science: Physics, Chemistry, Biology, Earth Science',
     chapters: [],
     nodeIds: ['c7_physics_ch01_006', 'c7_physics_ch05_002', 'c7_physics_ch01_002', 'c7_physics_ch01_008', 'c7_physics_ch01_010', 'c7_physics_ch04_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'When you look at a ceiling fan spinning in your classroom or a bicycle moving down an Indian street, you are.', goal: 'Master Branches of Science: Physics, Chemistry, Biology, Earth Science.' },
     discovery: {
         question: 'What term best describes the scientific habit of questioning established ideas and testing them against new evidence rather than accepting them blindly?',
@@ -20,7 +20,7 @@ export const w_c7_physicsphysicalnaturemattersim: SimDef = {
         hook: 'Students often think science is a static collection of absolute "facts" memorized from a textbook, rather than an.',
     },
     teaching: [
-        { title: 'Physics is the branch of science that.', text: 'Physics is the branch of science that studies matter, energy, motion, force, and their interactions in the physical universe, measured in fundamental SI units such as meters (m), kilograms (kg), and.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Physics is the branch of science that.', text: 'Physics is the branch of science that studies matter, energy, motion, force, and their interactions in the physical universe, measured in fundamental SI units such as meters (m), kilograms (kg), and.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_physics_ch01_006', title: 'Physics is the branch of science that.',

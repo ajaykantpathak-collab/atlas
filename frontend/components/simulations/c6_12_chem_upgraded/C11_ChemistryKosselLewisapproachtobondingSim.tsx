@@ -744,7 +744,7 @@ const LewisDotDiagramSVG: React.FC<{
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 bg-slate-900 rounded-xl border border-cyan-500/30 shadow-lg">
+    <div className="flex flex-col items-center justify-center p-4 bg-slate-900 rounded-xl border border-gold-500/30 shadow-lg">
       <svg width="200" height="190" viewBox="0 0 200 190" className="overflow-visible">
         {/* Glow halo */}
         <circle cx="100" cy="95" r="55" fill="rgba(6, 182, 212, 0.08)" stroke="rgba(6, 182, 212, 0.2)" strokeDasharray="4,4" />
@@ -754,7 +754,7 @@ const LewisDotDiagramSVG: React.FC<{
           x="100"
           y="105"
           textAnchor="middle"
-          className="fill-cyan-300 text-3xl font-extrabold tracking-wider font-mono select-none"
+          className="fill-gold-300 text-3xl font-extrabold tracking-wider font-mono select-none"
         >
           {element}
         </text>
@@ -774,7 +774,7 @@ const LewisDotDiagramSVG: React.FC<{
           </g>
         ))}
       </svg>
-      <div className="mt-2 text-xs font-mono text-cyan-200/80">
+      <div className="mt-2 text-xs font-mono text-gold-200/80">
         Valence Electrons: <span className="text-amber-300 font-bold">{dots}</span> / {valence}
       </div>
     </div>
@@ -791,7 +791,7 @@ const IonicBondFormationSVG: React.FC<{
   const eY = 100 - Math.sin((transferProgress / 100) * Math.PI) * 45;
 
   return (
-    <div className="flex flex-col items-center p-4 bg-slate-950 rounded-xl border border-indigo-500/30">
+    <div className="flex flex-col items-center p-4 bg-slate-950 rounded-xl border border-gold-500/30">
       <svg width="360" height="200" viewBox="0 0 360 200">
         <defs>
           <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -837,7 +837,7 @@ const IonicBondFormationSVG: React.FC<{
         </circle>
         <text x={eX} y={eY - 12} textAnchor="middle" fill="#fef08a" className="text-xs font-mono font-bold">e⁻</text>
       </svg>
-      <div className="text-xs text-indigo-200 mt-2 font-mono">
+      <div className="text-xs text-gold-200 mt-2 font-mono">
         {transferProgress < 100 ? `Kössel Electron Transfer: ${transferProgress.toFixed(0)}%` : 'Electrostatic Ionic Bond Established!'}
       </div>
     </div>
@@ -961,7 +961,7 @@ const DipoleVectorSVG: React.FC<{
   molecule: 'CO2' | 'H2O' | 'NH3' | 'BF3';
 }> = ({ molecule }) => {
   return (
-    <div className="flex flex-col items-center p-4 bg-slate-900 rounded-xl border border-blue-500/30">
+    <div className="flex flex-col items-center p-4 bg-slate-900 rounded-xl border border-gold-500/30">
       <svg width="320" height="190" viewBox="0 0 320 190">
         <defs>
           <marker id="dipoleArrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -1062,7 +1062,7 @@ const DipoleVectorSVG: React.FC<{
           </g>
         )}
       </svg>
-      <div className="mt-1 text-xs font-mono text-cyan-300">
+      <div className="mt-1 text-xs font-mono text-gold-300">
         Molecular Geometry & Vector Dipole Analysis
       </div>
     </div>
@@ -1315,11 +1315,11 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
       {/* HEADER BAR */}
       <header className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl mb-4 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-cyan-500/30">
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-gold-500/30">
             🧪
           </div>
           <div>
-            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-400 bg-clip-text text-transparent">
               {SCENARIO.title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">CISCE Class 11 Chemistry • Kossel-Lewis Bonding Theory</p>
@@ -1330,7 +1330,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
         <div className="flex items-center gap-3 flex-wrap justify-center">
           <div className="bg-slate-800/80 border border-slate-700/60 rounded-xl px-3 py-1.5 flex items-center gap-2">
             <span className="text-xs text-slate-400 font-semibold">Mastery:</span>
-            <span className="text-sm font-bold text-cyan-400 font-mono">{averageMastery}%</span>
+            <span className="text-sm font-bold text-gold-400 font-mono">{averageMastery}%</span>
           </div>
           <div className="bg-slate-800/80 border border-slate-700/60 rounded-xl px-3 py-1.5 flex items-center gap-2">
             <span className="text-xs text-slate-400 font-semibold">Score:</span>
@@ -1359,7 +1359,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
             }}
             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
               activeTab === tab.id
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg shadow-cyan-500/25'
+                ? 'bg-gradient-to-r from-gold-600 to-gold-600 text-white shadow-lg shadow-gold-500/25'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
             }`}
           >
@@ -1378,8 +1378,8 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
           <div className="space-y-6 max-w-5xl mx-auto animate-fadeIn">
             {/* Scenario Narrative Box */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
-              <h2 className="text-xl font-bold text-cyan-300 mb-2 flex items-center gap-2">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
+              <h2 className="text-xl font-bold text-gold-300 mb-2 flex items-center gap-2">
                 <span>🏛️</span> Lab Context & Historical Background
               </h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
@@ -1408,7 +1408,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                           : discoverySelected === idx
                           ? 'bg-rose-500/20 border-rose-500 text-rose-200'
                           : 'bg-slate-950 border-slate-800 text-slate-500'
-                        : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-cyan-500 hover:bg-slate-800/50'
+                        : 'bg-slate-950 border-slate-800 text-slate-200 hover:border-gold-500 hover:bg-slate-800/50'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -1422,8 +1422,8 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
               </div>
 
               {discoverySubmitted && (
-                <div className="bg-cyan-950/40 border border-cyan-800/50 rounded-xl p-4 text-cyan-200 text-sm animate-fadeIn">
-                  <div className="font-bold mb-1 flex items-center gap-2 text-cyan-300">
+                <div className="bg-gold-950/40 border border-gold-800/50 rounded-xl p-4 text-gold-200 text-sm animate-fadeIn">
+                  <div className="font-bold mb-1 flex items-center gap-2 text-gold-300">
                     <span>💡</span> Chemist\'s Insight:
                   </div>
                   <p>{DISCOVERY_QUESTION.hintAfter}</p>
@@ -1433,7 +1433,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
 
             {/* PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-lg font-bold text-indigo-300 mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold text-gold-300 mb-4 flex items-center gap-2">
                 <span>🔮</span> Prediction Challenges (Formulate Hypotheses)
               </h3>
               <div className="space-y-6">
@@ -1465,7 +1465,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                                   : isSelected
                                   ? 'bg-rose-500/20 border-rose-500 text-rose-200'
                                   : 'bg-slate-900 border-slate-800 text-slate-500'
-                                : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-indigo-500'
+                                : 'bg-slate-900 border-slate-800 text-slate-300 hover:border-gold-500'
                             }`}
                           >
                             {opt}
@@ -1474,7 +1474,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                       })}
                     </div>
                     {predictionAnswers[pqIdx] !== undefined && (
-                      <p className="text-xs text-indigo-300 bg-indigo-950/40 p-2 rounded border border-indigo-800/40">
+                      <p className="text-xs text-gold-300 bg-gold-950/40 p-2 rounded border border-gold-800/40">
                         🔍 <strong>How to verify:</strong> {pq.verifyInstruction}
                       </p>
                     )}
@@ -1501,11 +1501,11 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                   }}
                   className={`p-3 rounded-xl border text-left flex flex-col justify-between transition-all ${
                     selectedLabIndex === idx
-                      ? 'bg-gradient-to-br from-cyan-900/60 to-blue-900/60 border-cyan-400 text-cyan-100 shadow-lg shadow-cyan-500/20'
+                      ? 'bg-gradient-to-br from-gold-900/60 to-gold-900/60 border-gold-400 text-gold-100 shadow-lg shadow-gold-500/20'
                       : 'bg-slate-900 border-slate-800 text-slate-400 hover:bg-slate-800/60 hover:text-slate-200'
                   }`}
                 >
-                  <span className="text-xs font-bold text-cyan-400 font-mono mb-1">LAB 0{idx + 1}</span>
+                  <span className="text-xs font-bold text-gold-400 font-mono mb-1">LAB 0{idx + 1}</span>
                   <span className="text-xs font-semibold leading-snug">{step.title.replace(`Lab ${idx + 1}: `, '')}</span>
                 </button>
               ))}
@@ -1515,7 +1515,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl">
               <div className="mb-4 flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-800 pb-4">
                 <div>
-                  <h3 className="text-lg font-bold text-cyan-300">{EXPLORATION_STEPS[selectedLabIndex].title}</h3>
+                  <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[selectedLabIndex].title}</h3>
                   <p className="text-xs text-slate-400 mt-1">{EXPLORATION_STEPS[selectedLabIndex].instruction}</p>
                 </div>
                 <span className="text-xs font-mono bg-slate-800 text-slate-300 px-3 py-1 rounded-full border border-slate-700 self-start md:self-auto">
@@ -1528,7 +1528,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                   <IonicBondFormationSVG metal="Na" nonMetal="Cl" transferProgress={transferProgress} />
                   <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <h4 className="font-bold text-sm text-cyan-400">Kössel Ionic Transfer Controls</h4>
+                    <h4 className="font-bold text-sm text-gold-400">Kössel Ionic Transfer Controls</h4>
                     <div>
                       <label className="text-xs text-slate-300 font-semibold mb-2 block">
                         Electron Transfer Progress ({transferProgress}%):
@@ -1542,7 +1542,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                           setTransferProgress(Number(e.target.value));
                           playSound('balance');
                         }}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
                     <div className="text-xs space-y-2 text-slate-300 bg-slate-900 p-3 rounded-lg border border-slate-800 font-mono">
@@ -1564,7 +1564,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                     dots={atomValenceDots}
                   />
                   <div className="space-y-4 bg-slate-950 p-5 rounded-xl border border-slate-800">
-                    <h4 className="font-bold text-sm text-cyan-400">Lewis Symbol & Formal Charge Builder</h4>
+                    <h4 className="font-bold text-sm text-gold-400">Lewis Symbol & Formal Charge Builder</h4>
                     <div className="flex gap-2">
                       {['C', 'N', 'O', 'F', 'Cl', 'S'].map((sym) => (
                         <button
@@ -1577,7 +1577,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                           }}
                           className={`px-3 py-1.5 rounded-lg font-bold font-mono text-xs ${
                             selectedAtom === sym
-                              ? 'bg-cyan-500 text-slate-950'
+                              ? 'bg-gold-500 text-slate-950'
                               : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                           }`}
                         >
@@ -1598,10 +1598,10 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                           setAtomValenceDots(Number(e.target.value));
                           playSound('pop');
                         }}
-                        className="w-full accent-cyan-400"
+                        className="w-full accent-gold-400"
                       />
                     </div>
-                    <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-cyan-200 border border-cyan-800/40">
+                    <div className="p-3 bg-slate-900 rounded-lg text-xs font-mono text-gold-200 border border-gold-800/40">
                       Formula: Formal Charge = V - L - ½ B
                     </div>
                   </div>
@@ -1727,7 +1727,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                       />
                     </div>
                     <div className="pt-2 border-t border-slate-800">
-                      <label className="text-xs font-semibold text-cyan-300 block mb-2">Molecular Dipole Vector Viewer:</label>
+                      <label className="text-xs font-semibold text-gold-300 block mb-2">Molecular Dipole Vector Viewer:</label>
                       <div className="grid grid-cols-4 gap-2">
                         {(['CO2', 'H2O', 'NH3', 'BF3'] as const).map((m) => (
                           <button
@@ -1737,7 +1737,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                               setDipoleMolecule(m);
                             }}
                             className={`p-2 rounded font-mono font-bold text-xs ${
-                              dipoleMolecule === m ? 'bg-cyan-500 text-slate-950' : 'bg-slate-900 text-slate-300'
+                              dipoleMolecule === m ? 'bg-gold-500 text-slate-950' : 'bg-slate-900 text-slate-300'
                             }`}
                           >
                             {m}
@@ -1810,7 +1810,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
             {/* Progress Header */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <span className="text-xs font-mono bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 px-3 py-1 rounded-full font-bold">
+                <span className="text-xs font-mono bg-gold-500/10 text-gold-400 border border-gold-500/20 px-3 py-1 rounded-full font-bold">
                   Challenge {currentChallengeIdx + 1} / {CHALLENGES.length}
                 </span>
                 <span className={`text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${
@@ -1849,7 +1849,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                       disabled={challengeSubmitted}
                       className={`p-4 rounded-xl border text-left text-sm transition-all flex items-center justify-between ${
                         selectedOption === idx
-                          ? 'bg-cyan-600/20 border-cyan-400 text-cyan-100 font-semibold'
+                          ? 'bg-gold-600/20 border-gold-400 text-gold-100 font-semibold'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1875,7 +1875,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                       onChange={(e) => setNumericInput(e.target.value)}
                       disabled={challengeSubmitted}
                       placeholder="Enter numerical answer..."
-                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-base focus:outline-none focus:border-cyan-400 w-full md:w-64"
+                      className="bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 font-mono text-base focus:outline-none focus:border-gold-400 w-full md:w-64"
                     />
                     {activeChallenge.unit && (
                       <span className="text-slate-400 font-mono font-bold text-sm">{activeChallenge.unit}</span>
@@ -1889,7 +1889,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                 <div className="mb-6 space-y-4">
                   {activeChallenge.items.map((item, idx) => (
                     <div key={idx} className="bg-slate-950 p-3 rounded-xl border border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-                      <span className="font-mono font-bold text-cyan-300 text-sm">{item.text}</span>
+                      <span className="font-mono font-bold text-gold-300 text-sm">{item.text}</span>
                       <div className="flex gap-2 flex-wrap">
                         {activeChallenge.categories!.map((cat) => (
                           <button
@@ -1903,7 +1903,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
                             disabled={challengeSubmitted}
                             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                               classificationState[item.text] === cat
-                                ? 'bg-cyan-500 text-slate-950 font-bold'
+                                ? 'bg-gold-500 text-slate-950 font-bold'
                                 : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                             }`}
                           >
@@ -1953,7 +1953,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
               {!challengeSubmitted ? (
                 <button
                   onClick={handleChallengeSubmit}
-                  className="w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-extrabold text-sm shadow-lg shadow-cyan-500/25 transition-all"
+                  className="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-slate-950 font-extrabold text-sm shadow-lg shadow-gold-500/25 transition-all"
                 >
                   Verify Answer
                 </button>
@@ -1995,7 +1995,7 @@ export default function C11_ChemistryKosselLewisapproachtobondingSim({
               <span className="text-xs font-bold text-emerald-400 bg-emerald-400/10 px-3 py-1 rounded-full uppercase tracking-wider">
                 Real-World Chemistry Application
               </span>
-              <h3 className="text-xl font-extrabold text-cyan-300 mt-3 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
+              <h3 className="text-xl font-extrabold text-gold-300 mt-3 mb-2">{REAL_WORLD_ACTIVITY.title}</h3>
               <p className="text-slate-300 text-sm leading-relaxed mb-6">{REAL_WORLD_ACTIVITY.description}</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

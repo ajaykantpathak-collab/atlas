@@ -1282,14 +1282,14 @@ function C11_SociologyEmergenceSociologyAnthropologySim({
                     )}
                     {selectedThinker === 'spencer' && (
                       <div className="space-y-2">
-                        <span className="text-xs font-bold text-blue-400 uppercase tracking-wider">
+                        <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                           Evolutionary Theory & Organic Analogy (1864)
                         </span>
                         <h3 className="text-base font-bold text-white">Herbert Spencer & Social Evolution</h3>
                         <p className="text-xs text-slate-300 leading-relaxed">
                           Coined "survival of the fittest". Compared society to a biological body with regulating (polity), sustaining (economy), and distributing (transport) systems. Noted society is a <strong>super-organism</strong> because consciousness is diffused among all individuals.
                         </p>
-                        <div className="p-2.5 bg-slate-900 rounded-lg text-xs text-blue-300/90 border border-blue-900/40">
+                        <div className="p-2.5 bg-slate-900 rounded-lg text-xs text-gold-300/90 border border-gold-900/40">
                           🇮🇳 <strong>Indian Connection:</strong> Critiqued by N.K. Bose and G.S. Ghurye for its colonial misuse in labelling tribal societies (Santhals, Todas, Nagas) as "primitive".
                         </div>
                       </div>
@@ -1422,7 +1422,7 @@ function C11_SociologyEmergenceSociologyAnthropologySim({
                     {comteStageSlider === 2 && (
                       <motion.div initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
                         <span className="text-3xl">📜✨</span>
-                        <h4 className="text-sm font-bold text-blue-300 mt-1">2. The Metaphysical Stage</h4>
+                        <h4 className="text-sm font-bold text-gold-300 mt-1">2. The Metaphysical Stage</h4>
                         <p className="text-xs text-slate-300 mt-1 max-w-md">
                           Deities replaced by abstract philosophical principles, essences, and "Universal Nature".
                           <br />
@@ -1464,13 +1464,13 @@ function C11_SociologyEmergenceSociologyAnthropologySim({
                         }}
                         className={`flex-1 p-3 rounded-xl text-left border transition-all text-xs ${
                           spencerOrganSystem === sys.key
-                            ? 'bg-slate-800 border-blue-500 text-white font-bold'
+                            ? 'bg-slate-800 border-gold-500 text-white font-bold'
                             : 'bg-slate-850 border-slate-800 text-slate-400'
                         }`}
                         aria-label={`Select ${sys.label}`}
                       >
                         <p>{sys.label}</p>
-                        <p className="text-[10px] text-blue-300 mt-1">{sys.body}</p>
+                        <p className="text-[10px] text-gold-300 mt-1">{sys.body}</p>
                       </motion.button>
                     ))}
                   </div>
@@ -1838,7 +1838,7 @@ function C11_SociologyEmergenceSociologyAnthropologySim({
                     ? 'bg-green-950/70 border-green-500 text-green-300'
                     : difficulty === 'advanced'
                     ? 'bg-rose-950/70 border-rose-500 text-rose-300'
-                    : 'bg-blue-950/70 border-blue-500 text-blue-300'
+                    : 'bg-gold-950/70 border-gold-500 text-gold-300'
                 }`}
               >
                 {difficulty} tier
@@ -2173,26 +2173,26 @@ function C11_SociologyEmergenceSociologyAnthropologySim({
           )}
 
           {/* ─── SPACED REPETITION (SRS) SCHEDULE CARD ─── */}
-          <div className="p-5 bg-gradient-to-r from-indigo-950/70 via-slate-900 to-indigo-950/70 rounded-2xl border border-indigo-500/40 shadow-xl space-y-3">
+          <div className="p-5 bg-gradient-to-r from-gold-950/70 via-slate-900 to-gold-950/70 rounded-2xl border border-gold-500/40 shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-3">
-                <span className="text-3xl p-2.5 bg-indigo-900/60 rounded-xl border border-indigo-700/50">📅</span>
+                <span className="text-3xl p-2.5 bg-gold-900/60 rounded-xl border border-gold-700/50">📅</span>
                 <div>
-                  <h4 className="text-sm font-bold text-indigo-300 uppercase tracking-wider">
+                  <h4 className="text-sm font-bold text-gold-300 uppercase tracking-wider">
                     Spaced Repetition Schedule (SM-2 SRS)
                   </h4>
                   <p className="text-xs text-slate-400">Scientifically timed review for permanent retention</p>
                 </div>
               </div>
-              <div className="px-4 py-2 bg-indigo-600/30 border border-indigo-400 text-indigo-200 font-bold rounded-xl text-xs sm:text-sm shadow">
+              <div className="px-4 py-2 bg-gold-600/30 border border-gold-400 text-gold-200 font-bold rounded-xl text-xs sm:text-sm shadow">
                 {errors === 0 ? 'review in 7 days' : errors <= 3 ? 'review in 3 days' : 'review in 1 day'}
               </div>
             </div>
 
-            <div className="p-3.5 bg-slate-950/80 rounded-xl border border-indigo-900/40 flex items-center justify-between text-xs text-slate-300">
+            <div className="p-3.5 bg-slate-950/80 rounded-xl border border-gold-900/40 flex items-center justify-between text-xs text-slate-300">
               <span>
                 Based on your performance ({errors} {errors === 1 ? 'error' : 'errors'}):{' '}
-                <strong className="text-indigo-200">
+                <strong className="text-gold-200">
                   {errors === 0
                     ? '0 errors → Recommended interval: review in 7 days (Mastered)'
                     : errors <= 3
@@ -2200,7 +2200,7 @@ function C11_SociologyEmergenceSociologyAnthropologySim({
                     : '4+ errors → Recommended interval: review in 1 day (Urgent review)'}
                 </strong>
               </span>
-              <span className="font-mono text-indigo-400 text-xs font-semibold">SRS Active</span>
+              <span className="font-mono text-gold-400 text-xs font-semibold">SRS Active</span>
             </div>
           </div>
 

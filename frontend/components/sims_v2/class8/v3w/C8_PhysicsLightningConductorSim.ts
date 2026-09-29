@@ -11,7 +11,7 @@ export const w_c8_physicslightningconductorsim: SimDef = {
     classLevel: 8, subject: 'physics', topic: 'Thunderstorms: Formation and Conditions',
     chapters: [],
     nodeIds: ['c8_physics_ch4_9', 'c8_physics_ch2_1', 'c8_physics_ch2_2', 'c8_physics_ch2_6'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 8 learner', intro: 'Imagine standing on a playground in Delhi on a hot May afternoon: the air feels heavy and sticky, and.', goal: 'Master Thunderstorms: Formation and Conditions.' },
     discovery: {
         question: 'Why does a thunderstorm cloud (cumulonimbus) grow vertically to great heights instead of spreading horizontally like a stratus cloud?',
@@ -20,7 +20,7 @@ export const w_c8_physicslightningconductorsim: SimDef = {
         hook: 'Students often believe that **lightning is attracted to tall metal objects** (like a lightning rod "pulling" lightning).',
     },
     teaching: [
-        { title: 'A thunderstorm is a violent, short-lived.', text: 'A thunderstorm is a violent, short-lived weather disturbance characterized by lightning, thunder, heavy rain or hail, and strong gusty winds, formed when warm, moist air rises rapidly in an unstable.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'A thunderstorm is a violent, short-lived.', text: 'A thunderstorm is a violent, short-lived weather disturbance characterized by lightning, thunder, heavy rain or hail, and strong gusty winds, formed when warm, moist air rises rapidly in an unstable.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c8_physics_ch4_9', title: 'A thunderstorm is a violent,.',

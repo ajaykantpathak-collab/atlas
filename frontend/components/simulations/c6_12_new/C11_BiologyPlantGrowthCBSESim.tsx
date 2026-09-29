@@ -1151,7 +1151,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
               </span>
               <span className="text-xs text-slate-400">Chapter 15 • 50 Key Nodes</span>
             </div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-400 via-teal-300 to-gold-400 bg-clip-text text-transparent">
               Plant Growth and Development Simulation Lab
             </h1>
           </div>
@@ -1181,7 +1181,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
             }}
             className={`p-2.5 rounded-xl border transition-all ${
               speechEnabled
-                ? 'bg-cyan-500/20 border-cyan-500/40 text-cyan-300'
+                ? 'bg-gold-500/20 border-gold-500/40 text-gold-300'
                 : 'bg-slate-800 border-slate-700 text-slate-400'
             }`}
             title="Toggle Voice Assistance"
@@ -1302,7 +1302,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
 
           {/* Prediction Questions Array Section */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-            <h3 className="text-lg font-bold text-cyan-300 flex items-center gap-2">
+            <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
               <TrendingUp className="w-5 h-5" />
               Pre-Lab Predictive Hypotheses
             </h3>
@@ -1324,7 +1324,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                       }}
                       className={`p-3 rounded-lg border text-xs text-left transition-all ${
                         predictionAnswers[idx] === oIdx
-                          ? 'bg-cyan-500/20 border-cyan-500/50 text-cyan-200'
+                          ? 'bg-gold-500/20 border-gold-500/50 text-gold-200'
                           : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-slate-200'
                       }`}
                     >
@@ -1374,7 +1374,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
               <h2 className="text-base font-bold text-emerald-400">{EXPLORATION_STEPS[labMode].title}</h2>
               <p className="text-xs text-slate-300 mt-1">{EXPLORATION_STEPS[labMode].instruction}</p>
             </div>
-            <span className="px-3 py-1 bg-slate-800 border border-slate-700 text-xs font-mono text-cyan-300 rounded-lg">
+            <span className="px-3 py-1 bg-slate-800 border border-slate-700 text-xs font-mono text-gold-300 rounded-lg">
               Node: {EXPLORATION_STEPS[labMode].nodeId}
             </span>
           </div>
@@ -1438,7 +1438,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                         onClick={() => { setRootZoneFilter(zone.id); playSound('tap'); }}
                         className={`p-2 rounded-lg border text-left ${
                           rootZoneFilter === zone.id
-                            ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                            ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                             : 'bg-slate-950 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1577,7 +1577,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-400">Cytokinin Concentration (Kinetin/Zeatin)</span>
-                    <span className="text-cyan-400 font-bold">{cytokininRatio}%</span>
+                    <span className="text-gold-400 font-bold">{cytokininRatio}%</span>
                   </div>
                   <input
                     type="range"
@@ -1585,7 +1585,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                     max="100"
                     value={cytokininRatio}
                     onChange={e => setCytokininRatio(Number(e.target.value))}
-                    className="w-full accent-cyan-500 bg-slate-950 rounded-lg h-2"
+                    className="w-full accent-gold-500 bg-slate-950 rounded-lg h-2"
                   />
                 </div>
 
@@ -1626,7 +1626,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                   {/* Stomatal Aperture Meter */}
                   <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-2">
                     <div className="text-xs text-slate-400 font-semibold">Stomatal Aperture (Guard Cell Hydration)</div>
-                    <div className="text-2xl font-bold text-blue-400">{stomataOpenPct}% Open</div>
+                    <div className="text-2xl font-bold text-gold-400">{stomataOpenPct}% Open</div>
                     <div className="text-[11px] text-slate-400">
                       {waterStress > 50 ? '⚠️ High ABA: Guard Cells Turgor Loss -> Stomata Closed' : 'Turgid Guard Cells -> Stomata Open'}
                     </div>
@@ -1655,7 +1655,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                 <div>
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-400">Soil Water Deficit Stress (Triggers ABA)</span>
-                    <span className="text-blue-400 font-bold">{waterStress}% Drought</span>
+                    <span className="text-gold-400 font-bold">{waterStress}% Drought</span>
                   </div>
                   <input
                     type="range"
@@ -1663,7 +1663,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                     max="100"
                     value={waterStress}
                     onChange={e => setWaterStress(Number(e.target.value))}
-                    className="w-full accent-blue-500 bg-slate-950 rounded-lg h-2"
+                    className="w-full accent-gold-500 bg-slate-950 rounded-lg h-2"
                   />
                 </div>
               </div>
@@ -1685,7 +1685,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                     <div style={{ width: `${(daylightHours / 24) * 100}%` }} className="bg-amber-400 h-full flex items-center justify-center text-[10px] text-slate-900 font-bold">
                       Light
                     </div>
-                    <div style={{ width: `${((24 - daylightHours) / 24) * 100}%` }} className="bg-indigo-950 h-full flex items-center justify-center text-[10px] text-indigo-300 font-bold">
+                    <div style={{ width: `${((24 - daylightHours) / 24) * 100}%` }} className="bg-gold-950 h-full flex items-center justify-center text-[10px] text-gold-300 font-bold">
                       Dark
                     </div>
                   </div>
@@ -1754,7 +1754,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                 <div className="pt-2 border-t border-slate-800">
                   <div className="flex justify-between text-xs mb-1">
                     <span className="text-slate-400">Vernalisation Cold Treatment Temp</span>
-                    <span className="text-cyan-300 font-bold">{chillingTemp} °C</span>
+                    <span className="text-gold-300 font-bold">{chillingTemp} °C</span>
                   </div>
                   <input
                     type="range"
@@ -1762,7 +1762,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                     max="30"
                     value={chillingTemp}
                     onChange={e => setChillingTemp(Number(e.target.value))}
-                    className="w-full accent-cyan-400 bg-slate-950 rounded-lg h-2"
+                    className="w-full accent-gold-400 bg-slate-950 rounded-lg h-2"
                   />
                 </div>
               </div>
@@ -1831,7 +1831,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                 </div>
                 <span className={`px-3 py-1 rounded-full text-xs font-bold ${
                   CHALLENGES[currentChallengeIdx].difficulty === 'foundation'
-                    ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                    ? 'bg-gold-500/20 text-gold-300 border border-gold-500/30'
                     : CHALLENGES[currentChallengeIdx].difficulty === 'standard'
                     ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30'
                     : 'bg-purple-500/20 text-purple-300 border border-purple-500/30'
@@ -2000,7 +2000,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
 
           {/* Quick Hormone Summary Table */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-cyan-300">Plant Growth Regulator (PGR) Executive Matrix</h3>
+            <h3 className="text-base font-bold text-gold-300">Plant Growth Regulator (PGR) Executive Matrix</h3>
 
             <div className="overflow-x-auto">
               <table className="w-full text-xs text-left border-collapse">
@@ -2026,7 +2026,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                     <td className="p-2">Bolting in rosette plants, Internode elongation, Sugarcane yield, Malting.</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-bold text-cyan-400">Cytokinins (Zeatin)</td>
+                    <td className="p-2 font-bold text-gold-400">Cytokinins (Zeatin)</td>
                     <td className="p-2">Adenine Derivative</td>
                     <td className="p-2">Root tips, Developing fruits</td>
                     <td className="p-2">Cell division, Overcoming apical dominance, Delaying leaf senescence.</td>
@@ -2038,7 +2038,7 @@ export default function C11_BiologyPlantGrowthCBSESim() {
                     <td className="p-2">Fruit ripening, Respiratory climacteric, Triple response in seedlings.</td>
                   </tr>
                   <tr>
-                    <td className="p-2 font-bold text-blue-400">Abscisic Acid (ABA)</td>
+                    <td className="p-2 font-bold text-gold-400">Abscisic Acid (ABA)</td>
                     <td className="p-2">Carotenoid Derivative</td>
                     <td className="p-2">Leaves, Dormant seeds</td>
                     <td className="p-2">Stomatal closure during drought, Inducing seed dormancy, Stress tolerance.</td>

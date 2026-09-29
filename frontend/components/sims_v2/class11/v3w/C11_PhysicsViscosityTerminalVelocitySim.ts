@@ -11,7 +11,7 @@ export const w_c11_physicsviscosityterminalvelocitysim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Stokes\' Law and Terminal Velocity',
     chapters: [],
     nodeIds: ['c11_phy_cbse_09_010', 'c11_phy_cbse_09_009', 'c11_phy_cbse_09_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Watch a raindrop falling on a window pane during monsoon — it doesn\'t accelerate indefinitely but reaches a.', goal: 'Master Stokes\' Law and Terminal Velocity.' },
     discovery: {
         question: 'A student measures terminal velocity of a 2 mm radius glass bead (\\(\\rho = 2500\\) kg/m³) in a liquid of unknown viscosity. They get \\(v_t = 4.2\\) cm/s.',
@@ -20,7 +20,7 @@ export const w_c11_physicsviscosityterminalvelocitysim: SimDef = {
         hook: 'Students believe Stokes\' Law (\\(F = 6\\pi\\eta a v\\)) applies to ALL objects falling through fluids, including skydivers,.',
     },
     teaching: [
-        { title: 'Stokes\' Law states that the viscous drag.', text: 'Stokes\' Law states that the viscous drag force \\(F\\) on a small sphere of radius \\(a\\) moving with velocity \\(v\\) through a fluid of coefficient of viscosity \\(\\eta\\) under laminar flow conditions is.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Stokes\' Law states that the viscous drag.', text: 'Stokes\' Law states that the viscous drag force \\(F\\) on a small sphere of radius \\(a\\) moving with velocity \\(v\\) through a fluid of coefficient of viscosity \\(\\eta\\) under laminar flow conditions is.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_09_010', title: 'Stokes\' Law states that the viscous.',

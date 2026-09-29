@@ -27,21 +27,21 @@ const TEACHING_SLIDES = [
     title: 'Air is All Around Us! 💨',
     text: 'Air is invisible — we cannot see it, but it is everywhere! We feel it when the wind blows or when we wave a fan. We breathe air to live!',
     emoji: '🌬️',
-    bgColor: 'from-sky-400 to-blue-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Air is invisible, but it is everywhere! We feel it when the wind blows or when we wave a fan.',
   },
   {
     title: 'Properties of Air! 🎈',
     text: 'Air has no colour and no smell. It occupies space! When you blow air into a balloon, it fills up and gets bigger. Air also has weight.',
     emoji: '🎈',
-    bgColor: 'from-blue-400 to-indigo-500',
+    bgColor: 'from-gold-400 to-gold-500',
     spoken: 'Air has no colour and occupies space! When you blow into a balloon, it gets bigger.',
   },
   {
     title: 'What Powers Vehicles? 🚗⚡',
     text: 'Vehicles need energy to move! Cars run on petrol or electricity. Buses and trucks run on diesel. Auto rickshaws run on CNG. Electric cars use batteries and have no exhaust smoke!',
     emoji: '⛽',
-    bgColor: 'from-indigo-450 to-purple-500',
+    bgColor: 'from-gold-450 to-purple-500',
     spoken: 'Vehicles need energy to move! Cars use petrol, buses use diesel, autos use CNG, and electric cars use batteries!',
   },
   {
@@ -360,7 +360,7 @@ function MechanicManoj({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thin
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-blue-400"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-400"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -662,16 +662,16 @@ export function AirVehiclesGame({ width = 720, height = 560, onComplete }: AirVe
       {/* Top Header Bar */}
       <div className="absolute top-0 left-0 right-0 h-14 bg-slate-900/80 backdrop-blur-md flex items-center justify-between px-6 z-10 border-b border-slate-700">
         <div className="flex items-center gap-3">
-          <span className="text-xl font-black text-sky-400">Air & Vehicles</span>
+          <span className="text-xl font-black text-gold-400">Air & Vehicles</span>
           {screen === 'play' && (
-            <span className="text-xs bg-blue-500/30 text-blue-300 font-bold px-2.5 py-1 rounded-full border border-blue-400/30">
+            <span className="text-xs bg-gold-500/30 text-gold-300 font-bold px-2.5 py-1 rounded-full border border-gold-400/30">
               Challenge {challengeIdx + 1} / {CHALLENGES.length}
             </span>
           )}
         </div>
         <div className="flex items-center gap-4">
           {screen === 'play' && <StarRow count={stars} total={8} />}
-          <div className="bg-slate-800 text-sky-300 font-bold px-3 py-1 rounded-lg border border-slate-700 text-sm">
+          <div className="bg-slate-800 text-gold-300 font-bold px-3 py-1 rounded-lg border border-slate-700 text-sm">
             Score: {score}
           </div>
         </div>
@@ -713,14 +713,14 @@ export function AirVehiclesGame({ width = 720, height = 560, onComplete }: AirVe
               {TEACHING_SLIDES.map((_, i) => (
                 <div
                   key={i}
-                  className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-sky-400' : 'w-2.5 bg-slate-600'}`}
+                  className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-400' : 'w-2.5 bg-slate-600'}`}
                 />
               ))}
             </div>
 
             <button
               onClick={handleNextSlide}
-              className="px-6 py-2.5 rounded-xl font-bold text-sm bg-gradient-to-r from-sky-500 to-blue-600 text-white shadow-lg hover:from-sky-400 hover:to-blue-500 transition"
+              className="px-6 py-2.5 rounded-xl font-bold text-sm bg-gradient-to-r from-gold-500 to-gold-600 text-white shadow-lg hover:from-gold-400 hover:to-gold-500 transition"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
             </button>
@@ -750,10 +750,10 @@ export function AirVehiclesGame({ width = 720, height = 560, onComplete }: AirVe
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => handleAnswerSelect(option)}
-                    className="w-full py-3.5 px-6 rounded-2xl bg-slate-800 hover:bg-slate-700 border-2 border-slate-600 hover:border-sky-400 text-white font-bold text-sm shadow-md transition flex items-center justify-between"
+                    className="w-full py-3.5 px-6 rounded-2xl bg-slate-800 hover:bg-slate-700 border-2 border-slate-600 hover:border-gold-400 text-white font-bold text-sm shadow-md transition flex items-center justify-between"
                   >
                     <span>{option}</span>
-                    <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs text-sky-400 font-black">
+                    <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs text-gold-400 font-black">
                       {idx + 1}
                     </span>
                   </motion.button>

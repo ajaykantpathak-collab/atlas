@@ -38,19 +38,19 @@ const TEACHING_SLIDES = [
         title: 'What is Personal Cleanliness? 🧼',
         text: 'Personal cleanliness means keeping our body neat, clean, and free from dirt and germs. It is part of hygiene, which helps us stay healthy and never fall sick!',
         emoji: '🧼',
-        bgColor: 'from-cyan-400 to-blue-500',
+        bgColor: 'from-gold-400 to-gold-500',
     },
     {
         title: 'Wash Hands with Soap! 💧',
         text: 'Always wash hands with soap before eating and after using the toilet! Water alone cannot remove invisible germs. Soap breaks their grip and washes them away!',
         emoji: '👐',
-        bgColor: 'from-blue-400 to-indigo-500',
+        bgColor: 'from-gold-400 to-gold-500',
     },
     {
         title: 'Brush Teeth Twice Daily! 🦷',
         text: 'Brush your teeth twice every day - once in the morning and once at night before bed! This removes food particles so germs cannot form acid and cause cavities!',
         emoji: '✨',
-        bgColor: 'from-teal-400 to-cyan-500',
+        bgColor: 'from-teal-400 to-gold-500',
     },
     {
         title: 'Bathe & Wear Clean Clothes! 🚿',
@@ -278,7 +278,7 @@ function CleanlinessScene({ width, height }: {
       </motion.div>
       {/* Bathroom sink / counter base */}
       <div className="absolute bottom-0 left-0 right-0 h-20" style={{ background: 'linear-gradient(180deg, #B0BEC5 0%, #78909C 100%)' }}/>
-      <div className="absolute bottom-20 left-0 right-0 h-4 bg-cyan-600 opacity-80"/>
+      <div className="absolute bottom-20 left-0 right-0 h-4 bg-gold-600 opacity-80"/>
     </div>);
 }
 // ─── Custom SVG Hygiene Objects ───────────────────────────────
@@ -385,7 +385,7 @@ function SortCard({ id, label, emoji, x, y, placed, onDragStart, onDragEnd }: {
     onDragEnd: (id: string, x: number, y: number) => boolean;
 }) {
     return (<Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-slate-200 ${placed ? 'opacity-40' : 'bg-white hover:border-cyan-400'} px-2 py-2`}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-slate-200 ${placed ? 'opacity-40' : 'bg-white hover:border-gold-400'} px-2 py-2`}>
         <div className="text-3xl">{emoji}</div>
         <div className="text-xs font-bold text-gray-700 text-center mt-1">{label}</div>
       </div>
@@ -429,7 +429,7 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-between p-6 rounded-3xl shadow-2xl bg-gradient-to-br from-cyan-500 to-blue-600 text-white overflow-hidden" style={{ width, height }}>
+    <div className="relative flex flex-col items-center justify-between p-6 rounded-3xl shadow-2xl bg-gradient-to-br from-gold-500 to-gold-600 text-white overflow-hidden" style={{ width, height }}>
       <CleanlinessScene width={width} height={height}/>
       <HygieneHeroHema mood="happy" speaking={null}/>
 
@@ -445,11 +445,11 @@ function TeachingScreen({onStart, width, height}: {onStart: () => void; width: n
       </div>
 
       {/* Main Slide Card */}
-      <motion.div key={slide} initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }} transition={{ duration: 0.3 }} className="relative z-10 bg-white/95 text-gray-800 rounded-3xl p-6 shadow-2xl max-w-lg w-full flex flex-col items-center text-center my-auto border-4 border-cyan-300">
-        <div className="w-20 h-20 rounded-2xl bg-cyan-100 flex items-center justify-center text-4xl mb-4 shadow-inner">
+      <motion.div key={slide} initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -40 }} transition={{ duration: 0.3 }} className="relative z-10 bg-white/95 text-gray-800 rounded-3xl p-6 shadow-2xl max-w-lg w-full flex flex-col items-center text-center my-auto border-4 border-gold-300">
+        <div className="w-20 h-20 rounded-2xl bg-gold-100 flex items-center justify-center text-4xl mb-4 shadow-inner">
           {current.emoji}
         </div>
-        <h2 className="text-2xl font-black text-cyan-900 mb-2">{current.title}</h2>
+        <h2 className="text-2xl font-black text-gold-900 mb-2">{current.title}</h2>
         <p className="text-base text-gray-700 leading-relaxed font-medium">{current.text}</p>
       </motion.div>
 
@@ -619,7 +619,7 @@ export function CleanlinessGame({width = 720, height = 560, onComplete}: Cleanli
   }
 
   return (
-    <div className="relative flex flex-col items-center justify-between p-6 rounded-3xl shadow-2xl bg-gradient-to-br from-cyan-600 to-blue-700 text-white overflow-hidden select-none" style={{ width, height }}>
+    <div className="relative flex flex-col items-center justify-between p-6 rounded-3xl shadow-2xl bg-gradient-to-br from-gold-600 to-gold-700 text-white overflow-hidden select-none" style={{ width, height }}>
       <CleanlinessScene width={width} height={height}/>
       <HygieneHeroHema mood={hemaMood} speaking={hemaSpeech}/>
 
@@ -633,14 +633,14 @@ export function CleanlinessGame({width = 720, height = 560, onComplete}: Cleanli
       </div>
 
       {/* Challenge Question Card */}
-      <div className="relative z-10 bg-white/95 text-gray-900 rounded-2xl px-6 py-4 shadow-xl max-w-xl w-full text-center border-3 border-cyan-300 my-2">
-        <h3 className="text-lg font-black text-cyan-950">{currentChallenge.question}</h3>
+      <div className="relative z-10 bg-white/95 text-gray-900 rounded-2xl px-6 py-4 shadow-xl max-w-xl w-full text-center border-3 border-gold-300 my-2">
+        <h3 className="text-lg font-black text-gold-950">{currentChallenge.question}</h3>
       </div>
 
       {/* Challenge Body */}
       <div className="relative z-10 flex-1 w-full flex flex-col items-center justify-center my-2">
         {currentChallenge.answer !== 'sort' ? (<div className="grid grid-cols-1 gap-3 w-full max-w-md">
-            {currentChallenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} onClick={(e) => handleOptionClick(opt, e)} className="bg-white hover:bg-cyan-50 text-cyan-950 font-bold py-3 px-5 rounded-2xl shadow-lg border-2 border-cyan-200 text-base text-left transition-all flex items-center justify-between">
+            {currentChallenge.options.map((opt, i) => (<motion.button key={i} whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} onClick={(e) => handleOptionClick(opt, e)} className="bg-white hover:bg-gold-50 text-gold-950 font-bold py-3 px-5 rounded-2xl shadow-lg border-2 border-gold-200 text-base text-left transition-all flex items-center justify-between">
                 <span>{opt}</span>
                 <span className="text-xl">👉</span>
               </motion.button>))}

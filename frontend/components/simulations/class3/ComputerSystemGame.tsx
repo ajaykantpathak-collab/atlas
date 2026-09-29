@@ -37,14 +37,14 @@ const TEACHING_SLIDES = [
     title: 'Hardware & Software 💻',
     text: 'A computer system has hardware (physical parts you can touch like monitor, keyboard, CPU) and software (programs and instructions that tell hardware what to do)! They work together as a team!',
     emoji: '🖥️',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'A computer system has hardware, the physical parts you can touch, and software, the programs that tell hardware what to do!',
   },
   {
     title: 'The 5 Main Components 🧠',
     text: 'Computers have 5 main parts: CPU (the brain that thinks), Memory / RAM (temporary working notepad), Input unit (keyboard & mouse bringing data in), Output unit (monitor & printer showing answers), and Storage (hard drive saving forever)!',
     emoji: '⚙️',
-    bgColor: 'from-indigo-500 to-purple-600',
+    bgColor: 'from-gold-500 to-purple-600',
     spoken: 'Computers have five main parts: CPU, memory, input unit, output unit, and storage unit!',
   },
   {
@@ -58,14 +58,14 @@ const TEACHING_SLIDES = [
     title: 'GUI & Windows Desktop 🪟',
     text: 'GUI stands for Graphical User Interface! It uses pictures instead of text commands. The main screen is the desktop with icons (small pictures). The bottom bar is the taskbar, and the corner button opens the Start menu!',
     emoji: '🎨',
-    bgColor: 'from-teal-500 to-blue-600',
+    bgColor: 'from-teal-500 to-gold-600',
     spoken: 'GUI uses pictures and icons! The desktop is your workspace, the taskbar shows open programs, and the Start menu helps you find apps!',
   },
   {
     title: 'Window Operations 🗂️',
     text: 'Windows can be opened, closed (using the X button), minimized (hiding to taskbar), maximized (full screen), or restored! The Operating System directs everything like a traffic police officer!',
     emoji: '🔍',
-    bgColor: 'from-cyan-500 to-teal-600',
+    bgColor: 'from-gold-500 to-teal-600',
     spoken: 'You can open, close, minimize, maximize, and restore windows! The operating system directs every part like a traffic police officer!',
   },
 ];
@@ -205,7 +205,7 @@ function TechieTariq({ mood, speaking }: { mood: 'happy' | 'celebrate' | 'thinki
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-400"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-400"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -467,7 +467,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={115} height={95}>
-      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-indigo-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`} style={{ width: 115, height: 95 }}>
+      <div className={`flex flex-col items-center justify-center rounded-2xl shadow-lg border-2 border-gold-300 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`} style={{ width: 115, height: 95 }}>
         {renderSortIcon(icon, 44)}
         <span className="text-[11px] font-bold text-gray-800 text-center mt-1">{label}</span>
       </div>
@@ -688,7 +688,7 @@ export function ComputerSystemGame({ width = 720, height = 560, onComplete }: Co
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl shadow-2xl border-4 border-indigo-400 bg-slate-900 select-none flex flex-col items-center justify-between" style={{ width, height }}>
+    <div className="relative overflow-hidden rounded-3xl shadow-2xl border-4 border-gold-400 bg-slate-900 select-none flex flex-col items-center justify-between" style={{ width, height }}>
       {/* Background Scene */}
       <ComputerScene width={width} height={height} />
 
@@ -696,13 +696,13 @@ export function ComputerSystemGame({ width = 720, height = 560, onComplete }: Co
       <TechieTariq mood={mascotMood} speaking={spokenText} />
 
       {/* Top Navigation / Header */}
-      <div className="relative z-10 w-full px-6 py-3 flex items-center justify-between bg-slate-900/80 backdrop-blur-md border-b border-indigo-500/30">
+      <div className="relative z-10 w-full px-6 py-3 flex items-center justify-between bg-slate-900/80 backdrop-blur-md border-b border-gold-500/30">
         <div className="flex items-center gap-3">
-          <div className="bg-indigo-600 text-white font-black px-3 py-1 rounded-xl shadow text-sm">
+          <div className="bg-gold-600 text-white font-black px-3 py-1 rounded-xl shadow text-sm">
             🖥️ Computer System Game
           </div>
           {screen === 'play' && (
-            <div className="text-xs font-bold text-indigo-200">
+            <div className="text-xs font-bold text-gold-200">
               Challenge {challengeIdx + 1} of {CHALLENGES.length}
             </div>
           )}
@@ -756,7 +756,7 @@ export function ComputerSystemGame({ width = 720, height = 560, onComplete }: Co
                     setStars(0);
                   }
                 }}
-                className="px-5 py-2 rounded-xl font-bold bg-white text-indigo-900 hover:bg-indigo-50 shadow-lg transition-all"
+                className="px-5 py-2 rounded-xl font-bold bg-white text-gold-900 hover:bg-gold-50 shadow-lg transition-all"
               >
                 {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🚀' : 'Next ➡️'}
               </button>
@@ -776,7 +776,7 @@ export function ComputerSystemGame({ width = 720, height = 560, onComplete }: Co
                 <motion.div
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
-                  className="bg-slate-800/90 backdrop-blur-md border-2 border-indigo-400 rounded-2xl p-4 shadow-xl mb-6 w-full text-center"
+                  className="bg-slate-800/90 backdrop-blur-md border-2 border-gold-400 rounded-2xl p-4 shadow-xl mb-6 w-full text-center"
                 >
                   <h3 className="text-lg font-extrabold text-white">{challenge.question}</h3>
                 </motion.div>
@@ -790,7 +790,7 @@ export function ComputerSystemGame({ width = 720, height = 560, onComplete }: Co
                         whileHover={{ scale: 1.03 }}
                         whileTap={{ scale: 0.97 }}
                         onClick={(e) => handleAnswerClick(opt, e)}
-                        className="w-full py-3 px-5 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-bold rounded-2xl shadow-lg border-2 border-indigo-300/40 text-left transition-all flex items-center justify-between"
+                        className="w-full py-3 px-5 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white font-bold rounded-2xl shadow-lg border-2 border-gold-300/40 text-left transition-all flex items-center justify-between"
                       >
                         <span>{opt}</span>
                         <span className="text-lg">👉</span>
@@ -801,7 +801,7 @@ export function ComputerSystemGame({ width = 720, height = 560, onComplete }: Co
 
                 {/* Sort / Drag-and-Drop Challenge */}
                 {challenge.answer === 'sort' && challenge.sortItems && challenge.bins && (
-                  <div className="relative w-full h-[280px] bg-slate-900/60 rounded-3xl border-2 border-dashed border-indigo-500/40 p-4">
+                  <div className="relative w-full h-[280px] bg-slate-900/60 rounded-3xl border-2 border-dashed border-gold-500/40 p-4">
                     {/* Bins at bottom */}
                     <div className="absolute bottom-3 left-0 right-0 flex justify-around px-4">
                       {challenge.bins.map((bin, idx) => {

@@ -34,7 +34,7 @@ export function C7_ScienceNutritionInAnimalsSim() {
 
   return (
     <div className="w-full max-w-3xl mx-auto p-4 md:p-6 bg-slate-900 text-slate-100 rounded-3xl border border-slate-700 shadow-xl font-sans">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-300">Nutrition in Animals: The Digestion Journey</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-300">Nutrition in Animals: The Digestion Journey</h1>
       <p className="text-sm text-slate-300 mt-2 leading-relaxed">{LEARN}</p>
 
       {/* Food type picker */}
@@ -93,14 +93,14 @@ export function C7_ScienceNutritionInAnimalsSim() {
       {/* Organ info */}
       <div className="mt-4 p-4 bg-slate-800 rounded-2xl border border-slate-600">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <h2 className="text-lg font-black text-indigo-300">{o.name}</h2>
+          <h2 className="text-lg font-black text-gold-300">{o.name}</h2>
           <span className="text-xs font-mono px-3 py-1 rounded-full bg-slate-950 border border-slate-600">{o.length}</span>
         </div>
         <p className="text-sm text-slate-300 mt-2">{o.job}</p>
         <p className="text-xs text-slate-400 mt-1">Juices here: {o.juices}</p>
         <div className="mt-3 p-3 rounded-xl bg-slate-950 border border-slate-700 text-sm">
           Your bite of <span className="font-bold" style={{ color: FOOD_COLORS[food] }}>{food}</span>:{' '}
-          <span className={digestedHere ? 'text-emerald-400 font-bold' : eatenBefore ? 'text-sky-300 font-bold' : 'text-amber-300 font-bold'}>{status}</span>
+          <span className={digestedHere ? 'text-emerald-400 font-bold' : eatenBefore ? 'text-gold-300 font-bold' : 'text-amber-300 font-bold'}>{status}</span>
           {!digestedHere && !eatenBefore && o.digests.length > 0 && (
             <span className="text-slate-400 text-xs"> (this station handles {o.digests.join(' and ')} instead)</span>
           )}
@@ -113,15 +113,15 @@ export function C7_ScienceNutritionInAnimalsSim() {
           <button
             key={k}
             onClick={() => setOrgan(k)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${organ === k ? 'bg-indigo-600 border-indigo-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border transition-colors ${organ === k ? 'bg-gold-600 border-gold-400' : 'bg-slate-800 border-slate-600 hover:bg-slate-700'}`}
           >
             {ORGANS[k].name}
           </button>
         ))}
       </div>
 
-      <div className="mt-5 p-4 bg-indigo-950/60 rounded-2xl border border-indigo-700">
-        <h3 className="text-sm font-bold text-indigo-300 mb-1">What to try</h3>
+      <div className="mt-5 p-4 bg-gold-950/60 rounded-2xl border border-gold-700">
+        <h3 className="text-sm font-bold text-gold-300 mb-1">What to try</h3>
         <ol className="list-decimal list-inside text-xs text-slate-300 space-y-1">
           <li>Follow FAT from mouth to large intestine. At which station does it finally get digested, and which juice starts that work?</li>
           <li>Explain why the stomach does not digest starch even though it is swimming in strong acid. Then check: which juice in the mouth DID start starch digestion?</li>

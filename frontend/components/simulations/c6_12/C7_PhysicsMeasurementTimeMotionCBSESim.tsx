@@ -729,14 +729,14 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
       {/* ─── HEADER / NAVIGATION ─── */}
       <header className="bg-slate-900 border-b border-slate-800 px-6 py-4 flex flex-wrap items-center justify-between gap-4 sticky top-0 z-50">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center text-xl font-black shadow-lg shadow-sky-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center text-xl font-black shadow-lg shadow-gold-500/20">
             ⏱️
           </div>
           <div>
             <h1 className="text-lg font-bold text-slate-100 leading-tight">
               Measurement of Time & Motion
             </h1>
-            <p className="text-xs text-sky-400 font-medium">CBSE Class 7 Physics Laboratory</p>
+            <p className="text-xs text-gold-400 font-medium">CBSE Class 7 Physics Laboratory</p>
           </div>
         </div>
 
@@ -757,7 +757,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
               }}
               className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === tab.id
-                  ? 'bg-sky-500 text-slate-950 shadow-md shadow-sky-500/20'
+                  ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -775,7 +775,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
           </div>
           <div className="bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center gap-2">
             <span className="text-slate-400">Progress:</span>
-            <span className="font-bold text-sky-400 text-sm">
+            <span className="font-bold text-gold-400 text-sm">
               {completedChallenges.size}/{CHALLENGES.length}
             </span>
           </div>
@@ -793,9 +793,9 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
             className="space-y-6"
           >
             {/* Scenario banner */}
-            <div className="bg-gradient-to-r from-sky-950 via-slate-900 to-indigo-950 p-6 rounded-2xl border border-sky-800/40 shadow-xl relative overflow-hidden">
+            <div className="bg-gradient-to-r from-gold-950 via-slate-900 to-gold-950 p-6 rounded-2xl border border-gold-800/40 shadow-xl relative overflow-hidden">
               <div className="max-w-3xl space-y-2">
-                <span className="bg-sky-500/20 text-sky-300 text-xs font-semibold px-2.5 py-1 rounded-full border border-sky-500/30 inline-block">
+                <span className="bg-gold-500/20 text-gold-300 text-xs font-semibold px-2.5 py-1 rounded-full border border-gold-500/30 inline-block">
                   Mission Briefing
                 </span>
                 <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
@@ -825,7 +825,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 shadow-lg'
                           : 'bg-rose-950/80 border-rose-500 text-rose-200 shadow-lg'
-                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-sky-500/50 hover:bg-slate-900'
+                        : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-gold-500/50 hover:bg-slate-900'
                     }`}
                   >
                     <div className="flex items-start gap-3">
@@ -842,16 +842,16 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="p-5 rounded-xl bg-slate-950 border border-sky-500/30 space-y-3"
+                  className="p-5 rounded-xl bg-slate-950 border border-gold-500/30 space-y-3"
                 >
-                  <p className="text-sm text-sky-200 leading-relaxed">{predictFeedback}</p>
+                  <p className="text-sm text-gold-200 leading-relaxed">{predictFeedback}</p>
                   <p className="text-xs text-slate-400 italic">{DISCOVERY_QUESTION.hintAfter}</p>
                   <button
                     onClick={() => {
                       setActiveTab('lab');
                       audioManager.play('whoosh');
                     }}
-                    className="px-5 py-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs flex items-center gap-2 transition-all shadow-lg shadow-sky-500/20"
+                    className="px-5 py-2.5 rounded-lg bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold text-xs flex items-center gap-2 transition-all shadow-lg shadow-gold-500/20"
                   >
                     <span>Launch Oscillatory Laboratory & Experiment</span>
                     <span>→</span>
@@ -886,7 +886,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                     }}
                     className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
                       labMode === m.id
-                        ? 'bg-sky-500 text-slate-950 shadow'
+                        ? 'bg-gold-500 text-slate-950 shadow'
                         : 'text-slate-400 hover:text-white hover:bg-slate-800'
                     }`}
                   >
@@ -944,13 +944,13 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                       <span className="w-3 h-0.5 bg-red-500 inline-block" /> Gravity (mg)
                     </span>
                     <span className="flex items-center gap-1.5">
-                      <span className="w-3 h-0.5 bg-blue-500 inline-block" /> Tension (T)
+                      <span className="w-3 h-0.5 bg-gold-500 inline-block" /> Tension (T)
                     </span>
                     <span className="flex items-center gap-1.5">
                       <span className="w-3 h-0.5 bg-emerald-500 inline-block" /> Restoring Force
                     </span>
                     <span className="flex items-center gap-1.5">
-                      <span className="w-3 h-0.5 bg-sky-400 inline-block" /> Trajectory Arc
+                      <span className="w-3 h-0.5 bg-gold-400 inline-block" /> Trajectory Arc
                     </span>
                   </div>
                 </div>
@@ -959,7 +959,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                 <div className="lg:col-span-4 space-y-4">
                   {/* Live Formula Readout */}
                   <div className="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-3">
-                    <h3 className="text-xs font-bold text-sky-400 uppercase tracking-wider">
+                    <h3 className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                       Theoretical Dynamics
                     </h3>
                     <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 font-mono text-center space-y-1">
@@ -983,7 +983,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                     <div className="space-y-1">
                       <div className="flex justify-between text-xs">
                         <span className="text-slate-400">String Length (L):</span>
-                        <span className="font-bold text-sky-400">{pendulumLength.toFixed(2)} m</span>
+                        <span className="font-bold text-gold-400">{pendulumLength.toFixed(2)} m</span>
                       </div>
                       <input
                         type="range"
@@ -995,7 +995,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                           setPendulumLength(parseFloat(e.target.value));
                           audioManager.play('pop');
                         }}
-                        className="w-full accent-sky-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
 
@@ -1066,7 +1066,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                           type="checkbox"
                           checked={showVectors}
                           onChange={(e) => setShowVectors(e.target.checked)}
-                          className="rounded accent-sky-400"
+                          className="rounded accent-gold-400"
                         />
                         <span>Force Vectors</span>
                       </label>
@@ -1075,7 +1075,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                           type="checkbox"
                           checked={showTrace}
                           onChange={(e) => setShowTrace(e.target.checked)}
-                          className="rounded accent-sky-400"
+                          className="rounded accent-gold-400"
                         />
                         <span>Arc Trail</span>
                       </label>
@@ -1090,7 +1090,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                     <div className="flex items-center justify-between bg-slate-950 p-3 rounded-xl border border-slate-800">
                       <div>
                         <p className="text-[10px] text-slate-400 uppercase">Oscillations</p>
-                        <p className="text-xl font-bold text-sky-400">{oscillationCount}</p>
+                        <p className="text-xl font-bold text-gold-400">{oscillationCount}</p>
                       </div>
                       <div>
                         <p className="text-[10px] text-slate-400 uppercase">Elapsed Time</p>
@@ -1154,7 +1154,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                 </div>
 
                 {/* Sundial Dynamic SVG */}
-                <div className="relative w-full h-[320px] bg-gradient-to-b from-sky-950 via-slate-950 to-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex items-center justify-center">
+                <div className="relative w-full h-[320px] bg-gradient-to-b from-gold-950 via-slate-950 to-slate-900 rounded-2xl border border-slate-800 overflow-hidden flex items-center justify-center">
                   <svg className="w-full h-full" viewBox="0 0 600 300">
                     {/* Sky Arc */}
                     <path d="M 50 250 A 250 200 0 0 1 550 250" fill="none" stroke="#334155" strokeDasharray="4 4" strokeWidth="2" />
@@ -1245,7 +1245,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                       setWaterLevel(100);
                       audioManager.play('swoop');
                     }}
-                    className="px-4 py-2 bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs rounded-lg shadow"
+                    className="px-4 py-2 bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold text-xs rounded-lg shadow"
                   >
                     Refill Vessel 💧
                   </button>
@@ -1266,7 +1266,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
 
                       {/* Water Volume */}
                       <motion.div
-                        className="w-full bg-gradient-to-t from-sky-600 to-cyan-400 opacity-80"
+                        className="w-full bg-gradient-to-t from-gold-600 to-gold-400 opacity-80"
                         style={{ height: `${waterLevel}%` }}
                         transition={{ duration: 0.2 }}
                       />
@@ -1288,7 +1288,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                         <motion.div
                           animate={{ y: [0, 20], opacity: [1, 0] }}
                           transition={{ repeat: Infinity, duration: 0.6 }}
-                          className="w-2 h-3 bg-cyan-400 rounded-full"
+                          className="w-2 h-3 bg-gold-400 rounded-full"
                         />
                       )}
                     </div>
@@ -1297,7 +1297,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                   {/* Mechanics Details */}
                   <div className="space-y-4">
                     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-                      <h4 className="text-xs font-bold text-sky-400 uppercase">Flow Rate Readout</h4>
+                      <h4 className="text-xs font-bold text-gold-400 uppercase">Flow Rate Readout</h4>
                       <p className="text-2xl font-mono font-bold text-white">{waterLevel.toFixed(0)} %</p>
                       <p className="text-xs text-slate-400">
                         Remaining Liquid Level (Proportional to time elapsed).
@@ -1339,16 +1339,16 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                         <div className="w-6 h-12 bg-amber-500 rounded-b-md" />
                       </div>
 
-                      <div className="text-3xl font-black text-sky-400">➔</div>
+                      <div className="text-3xl font-black text-gold-400">➔</div>
 
                       {/* Frequency Divider Box */}
                       <div className="p-4 bg-slate-900 border border-slate-700 rounded-xl text-center space-y-1">
                         <p className="text-[10px] text-slate-400 uppercase">Binary Divider (2¹⁵)</p>
-                        <p className="text-base font-mono font-bold text-indigo-400">32,768 ÷ 32,768</p>
+                        <p className="text-base font-mono font-bold text-gold-400">32,768 ÷ 32,768</p>
                         <p className="text-xs text-emerald-400 font-semibold">= 1 Pulse / Sec</p>
                       </div>
 
-                      <div className="text-3xl font-black text-sky-400">➔</div>
+                      <div className="text-3xl font-black text-gold-400">➔</div>
 
                       {/* Stepper Motor / Digital Display */}
                       <div className="p-4 bg-slate-900 border border-emerald-500/50 rounded-xl text-center">
@@ -1359,7 +1359,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                   </div>
 
                   <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
-                    <h4 className="text-xs font-bold text-sky-400 uppercase">Why Quartz?</h4>
+                    <h4 className="text-xs font-bold text-gold-400 uppercase">Why Quartz?</h4>
                     <p className="text-xs text-slate-300 leading-relaxed">
                       Quartz exhibits the <strong>Piezoelectric effect</strong>: applying an electric voltage causes the crystal to mechanically deform and vibrate at an extremely precise resonant frequency.
                     </p>
@@ -1380,7 +1380,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
             <div className="bg-slate-900 p-6 md:p-8 rounded-2xl border border-slate-800 space-y-6">
               {/* Slide Progress Dots */}
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">
                   Visual Physics Guide ({currentSlideIndex + 1} / {TEACHING_SLIDES.length})
                 </span>
                 <div className="flex gap-2">
@@ -1392,7 +1392,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                         audioManager.play('tap');
                       }}
                       className={`w-3 h-3 rounded-full transition-all ${
-                        currentSlideIndex === idx ? 'bg-sky-400 w-8' : 'bg-slate-800'
+                        currentSlideIndex === idx ? 'bg-gold-400 w-8' : 'bg-slate-800'
                       }`}
                     />
                   ))}
@@ -1425,7 +1425,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                   <div className="grid grid-cols-2 gap-8 w-full max-w-lg text-center">
                     <div className="p-4 bg-slate-900 border border-slate-800 rounded-xl space-y-2">
                       <span className="text-2xl">🌍</span>
-                      <h4 className="font-bold text-sky-400 text-xs">Periodic Motion</h4>
+                      <h4 className="font-bold text-gold-400 text-xs">Periodic Motion</h4>
                       <p className="text-[11px] text-slate-400">Repeats at equal time intervals (e.g. Earth orbit)</p>
                     </div>
                     <div className="p-4 bg-slate-900 border border-slate-800 rounded-xl space-y-2">
@@ -1450,8 +1450,8 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
 
                 {TEACHING_SLIDES[currentSlideIndex].visualType === 'period_formula' && (
                   <div className="text-center space-y-4">
-                    <div className="inline-block px-6 py-4 bg-slate-900 border border-sky-500/40 rounded-2xl shadow-lg">
-                      <span className="text-3xl font-mono font-black text-sky-400">T = 2π √(L / g)</span>
+                    <div className="inline-block px-6 py-4 bg-slate-900 border border-gold-500/40 rounded-2xl shadow-lg">
+                      <span className="text-3xl font-mono font-black text-gold-400">T = 2π √(L / g)</span>
                     </div>
                     <div className="grid grid-cols-2 gap-4 max-w-md mx-auto text-xs">
                       <div className="bg-slate-900 p-2 rounded border border-slate-800 text-emerald-300">
@@ -1497,7 +1497,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                     setCurrentSlideIndex((prev) => prev + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-5 py-2 rounded-lg bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs flex items-center gap-2 shadow"
+                  className="px-5 py-2 rounded-lg bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold text-xs flex items-center gap-2 shadow"
                 >
                   <span>Next Concept</span>
                   <span>→</span>
@@ -1517,7 +1517,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
             {/* Header / Challenge Counter */}
             <div className="flex items-center justify-between bg-slate-900 p-4 rounded-xl border border-slate-800">
               <div className="flex items-center gap-3">
-                <span className="w-8 h-8 rounded-lg bg-sky-500/20 text-sky-400 font-bold flex items-center justify-center text-sm border border-sky-500/30">
+                <span className="w-8 h-8 rounded-lg bg-gold-500/20 text-gold-400 font-bold flex items-center justify-center text-sm border border-gold-500/30">
                   #{currentChallengeIndex + 1}
                 </span>
                 <div>
@@ -1564,7 +1564,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                       }}
                       className={`p-4 rounded-xl border text-left text-sm font-medium transition-all ${
                         selectedOption === idx
-                          ? 'bg-sky-950 border-sky-400 text-sky-100 shadow-lg'
+                          ? 'bg-gold-950 border-gold-400 text-gold-100 shadow-lg'
                           : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
                       }`}
                     >
@@ -1591,7 +1591,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                       value={numericInput}
                       onChange={(e) => setNumericInput(e.target.value)}
                       placeholder="Type number..."
-                      className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm font-mono font-bold text-white focus:outline-none focus:border-sky-400"
+                      className="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm font-mono font-bold text-white focus:outline-none focus:border-gold-400"
                     />
                     <span className="px-3 py-2.5 bg-slate-800 rounded-xl text-xs font-semibold text-slate-300 flex items-center">
                       {CHALLENGES[currentChallengeIndex].unit}
@@ -1616,9 +1616,9 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                       {CHALLENGES[currentChallengeIndex].dragItems?.map((item) => (
                         <div
                           key={item.targetId}
-                          className="pointer-events-auto border-2 border-dashed border-sky-500/40 bg-slate-900/80 rounded-lg p-2 flex flex-col items-center justify-center gap-1 text-center"
+                          className="pointer-events-auto border-2 border-dashed border-gold-500/40 bg-slate-900/80 rounded-lg p-2 flex flex-col items-center justify-center gap-1 text-center"
                         >
-                          <span className="text-[10px] font-bold text-sky-400 uppercase">
+                          <span className="text-[10px] font-bold text-gold-400 uppercase">
                             Target: {item.targetId.replace('_', ' ')}
                           </span>
                           <span className="text-xs font-semibold text-emerald-300">
@@ -1692,7 +1692,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                 {!challengeSubmitted ? (
                   <button
                     onClick={handleChallengeSubmit}
-                    className="px-6 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs shadow-lg shadow-sky-500/20"
+                    className="px-6 py-2.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-slate-950 font-bold text-xs shadow-lg shadow-gold-500/20"
                   >
                     Submit Diagnostic Answer
                   </button>
@@ -1732,7 +1732,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
-                  <div className="w-10 h-10 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-lg">
+                  <div className="w-10 h-10 rounded-lg bg-gold-500/20 text-gold-400 flex items-center justify-center font-bold text-lg">
                     ���
                   </div>
                   <h3 className="font-bold text-white text-sm">ISRO NavIC & Atomic Clocks</h3>
@@ -1742,7 +1742,7 @@ export default function C7_PhysicsMeasurementTimeMotionCBSESim() {
                 </div>
 
                 <div className="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
-                  <div className="w-10 h-10 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold text-lg">
+                  <div className="w-10 h-10 rounded-lg bg-gold-500/20 text-gold-400 flex items-center justify-center font-bold text-lg">
                     🕰️
                   </div>
                   <h3 className="font-bold text-white text-sm">Historical Horology</h3>

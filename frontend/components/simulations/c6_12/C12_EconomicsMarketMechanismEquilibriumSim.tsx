@@ -1162,7 +1162,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                 ? 'bg-emerald-900/40 border-emerald-500 text-emerald-300'
                 : difficulty === 'advanced'
                 ? 'bg-rose-900/40 border-rose-500 text-rose-300'
-                : 'bg-indigo-900/40 border-indigo-500 text-indigo-300'
+                : 'bg-gold-900/40 border-gold-500 text-gold-300'
             }`}
           >
             Tier: {difficulty}
@@ -1288,7 +1288,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                     <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
                       <p className="text-xs text-slate-400 uppercase font-bold">Demand (Qd) vs Supply (Qs)</p>
                       <p className="text-lg font-bold text-white">
-                        <span className="text-indigo-400">{mandiQd} t</span> vs <span className="text-amber-400">{mandiQs} t</span>
+                        <span className="text-gold-400">{mandiQd} t</span> vs <span className="text-amber-400">{mandiQs} t</span>
                       </p>
                     </motion.div>
                     <motion.div
@@ -1375,7 +1375,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setDemandShiftVal(prev => prev === 20 ? 0 : 20)}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-colors ${demandShiftVal > 0 ? 'bg-indigo-900/70 border-indigo-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
+                      className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-colors ${demandShiftVal > 0 ? 'bg-gold-900/70 border-gold-500 text-white' : 'bg-slate-800 border-slate-700 text-slate-300'}`}
                     >
                       {demandShiftVal > 0 ? '✓ Festival Demand (+)' : '+ Festival Demand (Right Shift)'}
                     </motion.button>
@@ -1408,7 +1408,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                   <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 grid grid-cols-2 gap-4 text-xs">
                     <div>
                       <p className="text-slate-400">Demand Curve Shift:</p>
-                      <p className="font-bold text-indigo-300">{demandShiftVal > 0 ? `+${demandShiftVal} (Rightward Shift)` : 'Zero Shift (Stable DD)'}</p>
+                      <p className="font-bold text-gold-300">{demandShiftVal > 0 ? `+${demandShiftVal} (Rightward Shift)` : 'Zero Shift (Stable DD)'}</p>
                     </div>
                     <div>
                       <p className="text-slate-400">Supply Curve Shift:</p>
@@ -1487,7 +1487,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                       key={labourUnits}
                       initial={{ scale: 0.9 }}
                       animate={{ scale: 1 }}
-                      className={`text-xs px-2.5 py-1 rounded-full font-bold ${labourUnits <= 3 ? 'bg-emerald-900/60 text-emerald-300' : labourUnits <= 5 ? 'bg-indigo-900/60 text-indigo-300' : 'bg-rose-900/60 text-rose-300'}`}
+                      className={`text-xs px-2.5 py-1 rounded-full font-bold ${labourUnits <= 3 ? 'bg-emerald-900/60 text-emerald-300' : labourUnits <= 5 ? 'bg-gold-900/60 text-gold-300' : 'bg-rose-900/60 text-rose-300'}`}
                     >
                       {labourUnits <= 3 ? 'Stage I (Increasing Returns)' : labourUnits <= 5 ? 'Stage II (Rational Diminishing Returns)' : 'Stage III (Negative Overcrowding)'}
                     </motion.span>
@@ -1499,7 +1499,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                     max={7}
                     value={labourUnits}
                     onChange={e => handleLabourChange(Number(e.target.value))}
-                    className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                    className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                     aria-label="Select Number of Workers"
                   />
 
@@ -1510,7 +1510,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-800/80 rounded-xl">
                       <p className="text-xs text-slate-400">Average Output (APP)</p>
-                      <p className="text-xl font-bold text-indigo-400">{currentProductionRow.app} / tailor</p>
+                      <p className="text-xl font-bold text-gold-400">{currentProductionRow.app} / tailor</p>
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.02 }} className="p-3 bg-slate-800/80 rounded-xl">
                       <p className="text-xs text-slate-400">Marginal Output (MPP)</p>
@@ -1656,7 +1656,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToSandbox}
-                className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-950"
+                className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-950"
               >
                 Proceed to Free Sandbox →
               </motion.button>
@@ -1712,7 +1712,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
 
             {/* Right Sandbox: Production & Cost Controls */}
             <motion.div whileHover={{ scale: 1.01 }} className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-              <h3 className="text-sm font-bold text-indigo-400">Tirupur & Jamnagar Production Engine</h3>
+              <h3 className="text-sm font-bold text-gold-400">Tirupur & Jamnagar Production Engine</h3>
               <div className="space-y-1">
                 <div className="flex justify-between text-xs text-slate-400">
                   <span>Tailors: {labourUnits}</span>
@@ -1725,7 +1725,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                   max={7}
                   value={labourUnits}
                   onChange={e => handleLabourChange(Number(e.target.value))}
-                  className="w-full accent-indigo-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
+                  className="w-full accent-gold-500 h-2 bg-slate-800 rounded-lg cursor-pointer"
                   aria-label="Sandbox Labour"
                 />
               </div>
@@ -1853,7 +1853,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onDragStart={() => handleDragStart(item.label)}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
                     >
                       {item.label}
                     </motion.div>
@@ -1943,7 +1943,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(p => [...p, part])}
-                      className="px-3 py-1.5 bg-indigo-800 hover:bg-indigo-700 text-white text-xs font-bold rounded-lg"
+                      className="px-3 py-1.5 bg-gold-800 hover:bg-gold-700 text-white text-xs font-bold rounded-lg"
                     >
                       + {part}
                     </motion.button>
@@ -2080,7 +2080,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
             animate={{ opacity: 1, y: 0 }}
             className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
           >
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
               <span>💭 Deep Conceptual Reflection</span>
             </div>
             <p className="text-xs text-slate-400">Consolidate your learning by answering these three metacognitive prompts:</p>
@@ -2095,7 +2095,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                   value={reflection1}
                   onChange={e => setReflection1(e.target.value)}
                   placeholder="e.g., Why MC always cuts AC at the exact minimum..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2108,7 +2108,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                   value={reflection2}
                   onChange={e => setReflection2(e.target.value)}
                   placeholder="e.g., Prices act like traffic signals balancing buyers and sellers..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2121,7 +2121,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                   value={reflection3}
                   onChange={e => setReflection3(e.target.value)}
                   placeholder="e.g., Analysing festival vegetable prices or planning a business production line..."
-                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2132,7 +2132,7 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
                   setReflectionSaved(true);
                   audioManager.play('success');
                 }}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold"
+                className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold"
               >
                 {reflectionSaved ? '✓ Reflections Saved' : 'Save Reflection Journal'}
               </motion.button>
@@ -2164,15 +2164,15 @@ function C12_EconomicsMarketMechanismEquilibriumSim(props: Props = DEFAULT_PROPS
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/60 flex items-center justify-between"
+            className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/60 flex items-center justify-between"
           >
             <div>
-              <h4 className="text-xs font-bold text-indigo-300 uppercase">Spaced Repetition (SM-2 Algorithm)</h4>
+              <h4 className="text-xs font-bold text-gold-300 uppercase">Spaced Repetition (SM-2 Algorithm)</h4>
               <p className="text-xs text-slate-300 mt-0.5">
                 Next adaptive review recommended in <span className="text-emerald-400 font-bold">{errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}</span>.
               </p>
             </div>
-            <motion.span whileHover={{ scale: 1.05 }} className="text-xs px-3 py-1 bg-indigo-900 text-indigo-200 rounded-full font-bold">
+            <motion.span whileHover={{ scale: 1.05 }} className="text-xs px-3 py-1 bg-gold-900 text-gold-200 rounded-full font-bold">
               SM-2 Active
             </motion.span>
           </motion.div>

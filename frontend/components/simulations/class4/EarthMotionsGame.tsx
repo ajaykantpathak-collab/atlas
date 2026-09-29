@@ -81,28 +81,28 @@ const TEACHING_SLIDES: TeachingSlide[] = [
     title: "Rotation of the Earth 🌍",
     text: "Rotation is the spinning of the Earth on its own axis from west to east. One full spin takes 24 hours, which is equal to one whole day and night!",
     emoji: "🔄",
-    bgColor: "from-blue-500 to-indigo-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Rotation is the spinning of the Earth on its own axis from west to east. One full spin takes 24 hours, giving us day and night!"
   },
   {
     title: "The Tilted Axis 📐",
     text: "The axis is an imaginary line from the North Pole to the South Pole through the Earth's centre. It is tilted at an angle of 23.5 degrees from the vertical!",
     emoji: "🧭",
-    bgColor: "from-indigo-500 to-purple-600",
+    bgColor: "from-gold-500 to-purple-600",
     spoken: "The axis is an imaginary line from the North Pole to the South Pole, tilted at an angle of 23.5 degrees from the vertical!"
   },
   {
     title: "Revolution around the Sun ☀️",
     text: "Revolution is the Earth's yearly journey travelling in an elliptical orbit around the Sun. One full revolution takes 365 and one-quarter days — one year!",
     emoji: "🪐",
-    bgColor: "from-cyan-500 to-blue-600",
+    bgColor: "from-gold-500 to-gold-600",
     spoken: "Revolution is the Earth's yearly journey travelling in an elliptical orbit around the Sun, taking 365.25 days for one year!"
   },
   {
     title: "Leap Years & Extra Days 📅",
     text: "The leftover quarter-day from each revolution adds up over four years to make one full extra day — February 29th in a leap year with 366 days!",
     emoji: "⏱️",
-    bgColor: "from-teal-500 to-cyan-600",
+    bgColor: "from-teal-500 to-gold-600",
     spoken: "The leftover quarter-day from each revolution adds up over four years to make February 29th in a leap year!"
   },
   {
@@ -253,7 +253,7 @@ function AstronautArjun({ mood, speaking }: { mood: MascotMood; speaking: string
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0, opacity: 0 }}
             transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-indigo-200"
+            className="mb-1 bg-white rounded-xl px-3 py-2 shadow-lg max-w-[220px] border-2 border-gold-200"
           >
             <p className="text-xs font-bold text-gray-800">{speaking}</p>
           </motion.div>
@@ -497,7 +497,7 @@ function SortCard({ id, label, icon, x, y, placed, onDragStart, onDragEnd }: {
 }) {
   return (
     <Draggable id={id} x={x} y={y} draggable={!placed} placed={placed} onDragStart={onDragStart} onDragEnd={onDragEnd} width={120} height={100}>
-      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-indigo-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`} style={{ width: 120, height: 100 }}>
+      <div className={`flex flex-col items-center justify-center rounded-xl shadow-lg border-2 border-gold-200 ${placed ? 'opacity-40' : 'bg-white'} px-2 py-2`} style={{ width: 120, height: 100 }}>
         {renderSortIcon(icon, 40)}
         <span className="text-[11px] font-bold text-gray-700 text-center mt-1 leading-tight">{label}</span>
       </div>
@@ -735,7 +735,7 @@ export function EarthMotionsGame({ width = 720, height = 560, onComplete }: Eart
             <h1 className="text-2xl font-black text-white drop-shadow-md">Earth Motions Explorer 🚀</h1>
             <div className="flex gap-1">
               {TEACHING_SLIDES.map((_, i) => (
-                <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-cyan-400' : 'w-2.5 bg-white/30'}`} />
+                <div key={i} className={`h-2.5 rounded-full transition-all duration-300 ${i === slideIdx ? 'w-8 bg-gold-400' : 'w-2.5 bg-white/30'}`} />
               ))}
             </div>
           </div>
@@ -774,7 +774,7 @@ export function EarthMotionsGame({ width = 720, height = 560, onComplete }: Eart
                   audioManager.play('success');
                 }
               }}
-              className="px-8 py-3 rounded-2xl font-bold text-white bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 shadow-xl"
+              className="px-8 py-3 rounded-2xl font-bold text-white bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 shadow-xl"
             >
               {slideIdx === TEACHING_SLIDES.length - 1 ? 'Start Game! 🌟' : 'Next ➡️'}
             </button>
@@ -788,7 +788,7 @@ export function EarthMotionsGame({ width = 720, height = 560, onComplete }: Eart
           {/* Header Bar */}
           <div className="flex justify-between items-center max-w-3xl mx-auto w-full">
             <div className="flex items-center gap-3">
-              <span className="text-sm font-bold text-cyan-300">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
+              <span className="text-sm font-bold text-gold-300">Challenge {challengeIdx + 1} of {CHALLENGES.length}</span>
               <StarRow count={Math.floor(score / 15)} total={5} />
             </div>
             <div className="flex items-center gap-4">
@@ -798,7 +798,7 @@ export function EarthMotionsGame({ width = 720, height = 560, onComplete }: Eart
               >
                 💡 Hint
               </button>
-              <div className="text-cyan-200 font-extrabold text-sm">Score: {score}</div>
+              <div className="text-gold-200 font-extrabold text-sm">Score: {score}</div>
             </div>
           </div>
 

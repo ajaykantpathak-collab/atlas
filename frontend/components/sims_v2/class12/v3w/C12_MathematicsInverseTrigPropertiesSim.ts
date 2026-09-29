@@ -11,7 +11,7 @@ export const w_c12_mathematicsinversetrigpropertiessim: SimDef = {
     classLevel: 12, subject: 'mathematics', topic: 'Word Problems: Applications of Inverse Trigonometric Functions',
     chapters: [],
     nodeIds: ['c12_math_cbse_02_008', 'c12_math_cbse_05_008', 'c12_math_cbse_02_001', 'c12_math_cbse_02_002', 'c12_math_cbse_02_003'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing 30 metres away from the base of a historic minar in Delhi and measure the angle of.', goal: 'Master Word Problems: Applications of Inverse Trigonometric Functions.' },
     discovery: {
         question: 'Why is the domain of \\( \\sec^{-1} x \\) given as \\( \\mathbb{R} \\setminus (-1, 1) \\) (i.e., \\( x \\le -1 \\) or \\( x \\ge 1 \\))?',
@@ -20,7 +20,7 @@ export const w_c12_mathematicsinversetrigpropertiessim: SimDef = {
         hook: '**Notation confusion:** Many students write \\( \\sin^{-1} x \\) and think it means \\( (\\sin x)^{-1} = \\frac{1}{\\sin x} =.',
     },
     teaching: [
-        { title: 'Word problems involving inverse.', text: 'Word problems involving inverse trigonometric functions require translating real-world scenarios (such as heights, distances, angles of elevation/depression, or geometric configurations) into.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Word problems involving inverse.', text: 'Word problems involving inverse trigonometric functions require translating real-world scenarios (such as heights, distances, angles of elevation/depression, or geometric configurations) into.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_math_cbse_02_008', title: 'Word problems involving inverse.',

@@ -68,12 +68,12 @@ export function C9_ScienceExploringMixturesAndTheirSeparationSim() {
   const beaker = useMemo(() => {
     if (solved) return null;
     if (mix.kind === 'solution') {
-      return <div className="absolute inset-2 rounded-lg bg-sky-900/70" />;
+      return <div className="absolute inset-2 rounded-lg bg-gold-900/70" />;
     }
     return (
       <>
         {dotGrid(mixIdx, 26, mix.kind === 'wind' ? 'bg-amber-300' : mix.kind === 'sublime' ? 'bg-pink-300' : mix.kind === 'solid-solid' ? 'bg-slate-300' : 'bg-amber-700')}
-        {dotGrid(mixIdx + 3, 14, mix.kind === 'immiscible' ? 'bg-yellow-400/80' : mix.kind === 'solid-liquid' ? 'bg-sky-400/70' : mix.kind === 'wind' ? 'bg-stone-400' : 'bg-rose-400')}
+        {dotGrid(mixIdx + 3, 14, mix.kind === 'immiscible' ? 'bg-yellow-400/80' : mix.kind === 'solid-liquid' ? 'bg-gold-400/70' : mix.kind === 'wind' ? 'bg-stone-400' : 'bg-rose-400')}
       </>
     );
   }, [mixIdx, mix, solved]);
@@ -83,7 +83,7 @@ export function C9_ScienceExploringMixturesAndTheirSeparationSim() {
       {/* HEADER */}
       <header className="flex flex-wrap items-center justify-between gap-3 pb-3 mb-4 border-b border-slate-800">
         <div>
-          <p className="text-xs font-bold uppercase tracking-wider text-indigo-400">CBSE Class 9 Science - Is Matter Around Us Pure</p>
+          <p className="text-xs font-bold uppercase tracking-wider text-gold-400">CBSE Class 9 Science - Is Matter Around Us Pure</p>
           <h1 className="text-lg md:text-xl font-extrabold text-white">Exploring Mixtures and their Separation</h1>
         </div>
         <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-950 border border-emerald-700 text-emerald-300">
@@ -98,7 +98,7 @@ export function C9_ScienceExploringMixturesAndTheirSeparationSim() {
           return (
             <button key={i} onClick={() => jump(i)}
               className={`px-3 py-2 rounded-xl text-xs font-bold border transition-all ${
-                i === mixIdx ? 'bg-indigo-600 text-white border-indigo-500'
+                i === mixIdx ? 'bg-gold-600 text-white border-gold-500'
                 : done ? 'bg-emerald-950/70 text-emerald-300 border-emerald-700'
                 : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'}`}>
               {done ? '[done] ' : ''}{m.name}
@@ -114,11 +114,11 @@ export function C9_ScienceExploringMixturesAndTheirSeparationSim() {
           <div className="relative mx-auto w-44 h-52 border-4 border-slate-600 rounded-b-3xl rounded-t-lg overflow-hidden bg-slate-800">
             {solved ? (
               <>
-                <div className="absolute inset-x-0 top-0 h-1/2 bg-indigo-900/80 flex items-center justify-center">
-                  <span className="text-[10px] text-indigo-200 font-bold text-center px-1">{mix.sep[0]}</span>
+                <div className="absolute inset-x-0 top-0 h-1/2 bg-gold-900/80 flex items-center justify-center">
+                  <span className="text-[10px] text-gold-200 font-bold text-center px-1">{mix.sep[0]}</span>
                 </div>
-                <div className="absolute inset-x-0 bottom-0 h-1/2 bg-sky-800/80 flex items-center justify-center">
-                  <span className="text-[10px] text-sky-200 font-bold text-center px-1">{mix.sep[1]}</span>
+                <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gold-800/80 flex items-center justify-center">
+                  <span className="text-[10px] text-gold-200 font-bold text-center px-1">{mix.sep[1]}</span>
                 </div>
               </>
             ) : beaker}
@@ -137,7 +137,7 @@ export function C9_ScienceExploringMixturesAndTheirSeparationSim() {
               return (
                 <button key={t.id} onClick={() => pickTechnique(t.id)} disabled={chosen !== undefined}
                   className={`p-2.5 rounded-xl text-xs font-bold border transition-all ${
-                    chosen === undefined ? 'bg-slate-900 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-indigo-600'
+                    chosen === undefined ? 'bg-slate-900 border-slate-700 text-slate-200 hover:bg-slate-800 hover:border-gold-600'
                     : isRightPick ? 'bg-emerald-950/70 border-emerald-600 text-emerald-300'
                     : pickedHere ? 'bg-rose-950/70 border-rose-700 text-rose-300'
                     : 'bg-slate-900 border-slate-800 text-slate-500'}`}>
@@ -162,14 +162,14 @@ export function C9_ScienceExploringMixturesAndTheirSeparationSim() {
       {/* TEACHING TEXT */}
       <div className="mt-4 p-4 bg-slate-900 rounded-2xl border border-slate-800 text-xs text-slate-300 leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-300">Big idea:</span> a mixture keeps the properties of its components, and separation
+          <span className="font-bold text-gold-300">Big idea:</span> a mixture keeps the properties of its components, and separation
           exploits one differing property - solubility (salt vs sand), magnetism (iron vs sulphur), density for immiscible liquids
           (oil vs water), sublimation (camphor vs salt) or weight (grain vs husk).
         </p>
       </div>
 
       {/* WHAT TO TRY */}
-      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 to-slate-900 border border-indigo-900/60 text-xs text-slate-200 leading-relaxed">
+      <footer className="mt-3 p-4 rounded-2xl bg-gradient-to-r from-gold-950/60 to-slate-900 border border-gold-900/60 text-xs text-slate-200 leading-relaxed">
         <p className="font-bold text-emerald-300 uppercase tracking-wide text-[11px] mb-1">What to try</p>
         <p>1. Solve all six mixtures with no wrong clicks, then explain why filtration fails on the salt-water solution.</p>
         <p className="mt-1">2. Design the two-step plan for muddy water (settle, then filter) and name each step using the technique cards.</p>

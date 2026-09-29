@@ -1212,7 +1212,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-teal-950/60 via-slate-900 to-indigo-950/60 rounded-2xl border border-teal-700/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-teal-950/60 via-slate-900 to-gold-950/60 rounded-2xl border border-teal-700/40 shadow-xl">
             <h2 className="text-xl font-black text-teal-300 flex items-center gap-2">
               🔬 {SCENARIO.title}
             </h2>
@@ -1583,7 +1583,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                         step={1}
                         value={rotorRadiusCm}
                         onChange={e => setRotorRadiusCm(Number(e.target.value))}
-                        className="w-full accent-indigo-500"
+                        className="w-full accent-gold-500"
                       />
                     </div>
 
@@ -1718,7 +1718,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={handleEpitopeDock}
-                      className="w-full py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                      className="w-full py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                     >
                       {epitopeDocked ? 'Release Antigen Epitope' : 'Dock Epitope into Fab Paratope'}
                     </motion.button>
@@ -1844,7 +1844,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={handleAdvanceToObservation}
-                className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-950/50"
+                className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-950/50"
               >
                 Step 3: What Did You Notice? →
               </motion.button>
@@ -1858,14 +1858,14 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
           <div className="p-4 bg-slate-800/80 rounded-2xl border border-slate-700 flex items-center justify-between">
             <div>
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest">
                 👀 Brilliant.org 'What Do You Notice?' Pattern
               </span>
               <h2 className="text-base font-bold text-white">Observation Question {obsIndex + 1} of {OBSERVATION_QUESTIONS.length}</h2>
             </div>
             <div className="flex gap-2">
               {OBSERVATION_QUESTIONS.map((_, i) => (
-                <div key={i} className={`w-8 h-2 rounded-full ${i === obsIndex ? 'bg-indigo-400' : i < obsIndex ? 'bg-teal-500' : 'bg-slate-700'}`} />
+                <div key={i} className={`w-8 h-2 rounded-full ${i === obsIndex ? 'bg-gold-400' : i < obsIndex ? 'bg-teal-500' : 'bg-slate-700'}`} />
               ))}
             </div>
           </div>
@@ -1885,7 +1885,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                   onClick={() => setObsSelected(idx)}
                   className={`p-4 rounded-xl text-left text-sm font-medium transition-all ${
                     obsSelected === idx
-                      ? 'bg-indigo-950/80 border-2 border-indigo-500 text-indigo-100'
+                      ? 'bg-gold-950/80 border-2 border-gold-500 text-gold-100'
                       : 'bg-slate-900 text-slate-200 border border-slate-750 hover:border-slate-600'
                   } ${
                     obsSubmitted && idx === OBSERVATION_QUESTIONS[obsIndex].correctIndex
@@ -1893,7 +1893,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                       : ''
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + idx)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + idx)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1909,15 +1909,15 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                     setObsSubmitted(true);
                     audioManager.play('pop');
                   }}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-lg"
+                  className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs shadow-lg"
                 >
                   Submit Observation
                 </motion.button>
               </div>
             ) : (
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="pt-4 border-t border-slate-700 space-y-3">
-                <div className="p-4 bg-indigo-950/60 border border-indigo-700 rounded-xl">
-                  <p className="text-xs font-bold text-indigo-300">💡 Scientific Insight:</p>
+                <div className="p-4 bg-gold-950/60 border border-gold-700 rounded-xl">
+                  <p className="text-xs font-bold text-gold-300">💡 Scientific Insight:</p>
                   <p className="text-xs text-slate-200 mt-1">{OBSERVATION_QUESTIONS[obsIndex].explanation}</p>
                 </div>
                 <div className="flex justify-end gap-3 pt-2">
@@ -1930,7 +1930,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
                         setObsSelected(null);
                         setObsSubmitted(false);
                       }}
-                      className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                      className="px-6 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                     >
                       Next Observation →
                     </motion.button>
@@ -2329,7 +2329,7 @@ function C11_BiotechnologyChromatographyExchangePaperSim({
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
           
-          <div className="p-8 bg-gradient-to-br from-teal-950/80 via-slate-900 to-indigo-950/80 rounded-3xl border border-teal-600 shadow-2xl text-center space-y-4">
+          <div className="p-8 bg-gradient-to-br from-teal-950/80 via-slate-900 to-gold-950/80 rounded-3xl border border-teal-600 shadow-2xl text-center space-y-4">
             <span className="text-5xl" aria-hidden="true">🏆</span>
             <h2 className="text-2xl sm:text-3xl font-black text-white">Biotechnology Laboratory Mastered!</h2>
             <p className="text-sm text-teal-300">

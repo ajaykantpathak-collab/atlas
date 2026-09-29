@@ -119,10 +119,10 @@ export function C12_HistoryBhaktiSufiTraditionsSim() {
             </div>
             <div>
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Popular following</span><span className="font-mono font-bold text-sky-400">{crowd}</span>
+                <span>Popular following</span><span className="font-mono font-bold text-gold-400">{crowd}</span>
               </div>
               <input type="range" min={0} max={100} step={5} value={crowd} aria-label="following"
-                onChange={(e) => setCrowd(Number(e.target.value))} className="w-full min-h-11 accent-sky-500" />
+                onChange={(e) => setCrowd(Number(e.target.value))} className="w-full min-h-11 accent-gold-500" />
             </div>
             <button onClick={() => { setVoice('kabir'); setRitualDial(50); setCourtDistance(80); setCrowd(40); }}
               className="min-h-11 w-full rounded-xl text-xs font-bold bg-slate-700 hover:bg-slate-600">Reset</button>

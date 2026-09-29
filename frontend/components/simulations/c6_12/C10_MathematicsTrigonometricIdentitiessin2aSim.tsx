@@ -1129,13 +1129,13 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
         <div className="flex items-center gap-3">
           <motion.span
             whileHover={{ rotate: 15, scale: 1.15 }}
-            className="text-3xl p-2 bg-indigo-900/60 rounded-2xl border border-indigo-700/50"
+            className="text-3xl p-2 bg-gold-900/60 rounded-2xl border border-gold-700/50"
           >
             {subjectConfig.emoji}
           </motion.span>
           <div>
             <h1 className="text-xl md:text-2xl font-black tracking-tight text-white">{title}</h1>
-            <p className="text-xs text-indigo-400 font-semibold tracking-wide">
+            <p className="text-xs text-gold-400 font-semibold tracking-wide">
               ICSE Class 10 Mathematics • Units 071–080 Comprehensive
             </p>
           </div>
@@ -1151,14 +1151,14 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                 ? 'bg-emerald-950/80 text-emerald-300 border-emerald-600'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/80 text-rose-300 border-rose-600'
-                : 'bg-indigo-950/80 text-indigo-300 border-indigo-600'
+                : 'bg-gold-950/80 text-gold-300 border-gold-600'
             }`}
           >
             Tier: {difficulty}
           </motion.span>
 
           <span className="px-3 py-1 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 border border-slate-700">
-            Mastery: <strong className="text-indigo-300">{masteryLevel}</strong>
+            Mastery: <strong className="text-gold-300">{masteryLevel}</strong>
           </span>
         </div>
       </motion.header>
@@ -1166,12 +1166,12 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-xl">
-            <h2 className="text-xl font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-xl">
+            <h2 className="text-xl font-bold text-gold-300 flex items-center gap-2">
               <span>⚓</span> {SCENARIO.title}
             </h2>
             <p className="text-sm text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
-            <div className="mt-4 p-3 bg-indigo-900/30 rounded-xl border border-indigo-700/40 text-xs text-indigo-200">
+            <div className="mt-4 p-3 bg-gold-900/30 rounded-xl border border-gold-700/40 text-xs text-gold-200">
               💡 {SCENARIO.context}
             </div>
           </div>
@@ -1196,10 +1196,10 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                       ? i === DISCOVERY_QUESTION.correctIndex
                         ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                         : 'bg-slate-800/50 border-slate-700 text-slate-400'
-                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800/90'
+                      : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800/90'
                   }`}
                 >
-                  <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                  <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                   {opt}
                 </motion.button>
               ))}
@@ -1214,7 +1214,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold rounded-xl shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-3 bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold rounded-xl shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Enter Interactive Discovery Labs →
                 </motion.button>
@@ -1240,7 +1240,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                 }}
                 className={`px-3 py-2 rounded-xl text-xs font-bold transition-all ${
                   currentSlide === idx
-                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                     : 'bg-slate-900 text-slate-400 hover:bg-slate-800'
                 }`}
               >
@@ -1258,8 +1258,8 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
               className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4"
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
-                <h3 className="text-lg font-bold text-indigo-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
-                <span className="text-xs text-indigo-400 font-mono">
+                <h3 className="text-lg font-bold text-gold-300">{EXPLORATION_STEPS[currentSlide].title}</h3>
+                <span className="text-xs text-gold-400 font-mono">
                   Module: {EXPLORATION_STEPS[currentSlide].nodeId}
                 </span>
               </div>
@@ -1337,15 +1337,15 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                           setTrigAngle(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Trigonometric angle slider"
                       />
                     </div>
                   </div>
 
                   <div className="space-y-3 flex flex-col justify-center">
-                    <div className="p-3 bg-slate-900 rounded-xl border border-blue-900/50">
-                      <span className="text-xs text-blue-400 font-bold">Base (cos A):</span>
+                    <div className="p-3 bg-slate-900 rounded-xl border border-gold-900/50">
+                      <span className="text-xs text-gold-400 font-bold">Base (cos A):</span>
                       <p className="text-base font-mono text-white">cos({trigAngle}°) = {cosVal.toFixed(4)}</p>
                     </div>
 
@@ -1372,8 +1372,8 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                 <div className="space-y-4 bg-slate-950 p-6 rounded-xl border border-slate-800">
                   {/* Predict Question in Lab 2 */}
                   {!predictionMade && (
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/50 space-y-3">
-                      <p className="text-sm font-bold text-indigo-200">🔍 {PREDICTION_QUESTIONS[0].question}</p>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/50 space-y-3">
+                      <p className="text-sm font-bold text-gold-200">🔍 {PREDICTION_QUESTIONS[0].question}</p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                           <motion.button
@@ -1454,7 +1454,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                         max={100}
                         value={surveyDist}
                         onChange={(e) => setSurveyDist(Number(e.target.value))}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1496,8 +1496,8 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
-                    <div className="p-4 bg-indigo-950/60 rounded-xl border border-indigo-700/50">
-                      <span className="text-xs text-indigo-300 font-bold block">1. Direct Method</span>
+                    <div className="p-4 bg-gold-950/60 rounded-xl border border-gold-700/50">
+                      <span className="text-xs text-gold-300 font-bold block">1. Direct Method</span>
                       <p className="text-xs text-slate-300 font-mono mt-1">Mean = Σfx / Σf</p>
                       <p className="text-lg font-black text-white mt-1">{directMean}</p>
                     </div>
@@ -1589,11 +1589,11 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                           const val = Number(e.target.value);
                           setHistBars((prev) => [prev[0], val, prev[2], prev[3], prev[4]]);
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                     <div className="space-y-1">
-                      <label className="text-[11px] text-indigo-300 font-bold">Modal Peak f_m: {histBars[2]}</label>
+                      <label className="text-[11px] text-gold-300 font-bold">Modal Peak f_m: {histBars[2]}</label>
                       <input
                         type="range"
                         min={21}
@@ -1603,7 +1603,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                           const val = Number(e.target.value);
                           setHistBars((prev) => [prev[0], prev[1], val, prev[3], prev[4]]);
                         }}
-                        className="w-full accent-indigo-400 cursor-pointer"
+                        className="w-full accent-gold-400 cursor-pointer"
                       />
                     </div>
                     <div className="space-y-1">
@@ -1617,7 +1617,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                           const val = Number(e.target.value);
                           setHistBars((prev) => [prev[0], prev[1], prev[2], val, prev[4]]);
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </div>
@@ -1708,7 +1708,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setCurrentSlide((s) => s + 1)}
-                className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                className="px-4 py-2 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1745,13 +1745,13 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               {/* Coin Flipper Module */}
               <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                <h3 className="text-sm font-bold text-indigo-300">Coin Toss Generator</h3>
+                <h3 className="text-sm font-bold text-gold-300">Coin Toss Generator</h3>
                 <div className="flex gap-3 items-center">
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleTossCoin}
-                    className="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-lg shadow"
+                    className="px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-lg shadow"
                   >
                     Toss Coin
                   </motion.button>
@@ -1815,7 +1815,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
           {/* Progress bar */}
           <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
             <motion.div
-              className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500"
+              className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500"
               animate={{
                 width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%`,
               }}
@@ -1825,7 +1825,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
 
           <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <span className="text-xs uppercase font-bold text-indigo-400 tracking-wider">
+              <span className="text-xs uppercase font-bold text-gold-400 tracking-wider">
                 Competency: {activeChallenge.competencyLevel.toUpperCase()} • Node: {activeChallenge.nodeId}
               </span>
               <span className="text-xs text-slate-400">
@@ -1859,10 +1859,10 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                           ? 'bg-rose-950/70 border-rose-500 text-rose-200'
                           : showExplanation && i === activeChallenge.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
-                          : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-indigo-500 hover:bg-slate-800/90'
+                          : 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500 hover:bg-slate-800/90'
                       }`}
                     >
-                      <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span>
+                      <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span>
                       {opt}
                     </motion.button>
                   ))}
@@ -1880,7 +1880,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-2 bg-indigo-700 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-2 bg-gold-700 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -1908,7 +1908,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   whileHover={{ scale: 1.04 }}
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-lg shadow"
+                  className="px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-lg shadow"
                 >
                   Verify Target Placements
                 </motion.button>
@@ -1933,7 +1933,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                     className="p-3 bg-slate-800 rounded-xl border border-slate-700 text-xs text-slate-200 flex items-center justify-between cursor-grab"
                   >
                     <span>
-                      <strong className="text-indigo-400 mr-2">{pos + 1}.</strong>
+                      <strong className="text-gold-400 mr-2">{pos + 1}.</strong>
                       {activeChallenge.sortItems![sortIdx]}
                     </span>
                     <span className="text-slate-500 text-xs">↕ Drag</span>
@@ -1945,7 +1945,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="mt-2 px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-lg shadow"
+                  className="mt-2 px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-lg shadow"
                 >
                   Check Logical Proof Order
                 </motion.button>
@@ -1961,7 +1961,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   value={numericInput}
                   onChange={(e) => setNumericInput(e.target.value)}
                   placeholder="Enter numeric value"
-                  className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-indigo-500"
+                  className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white font-mono text-sm focus:outline-none focus:border-gold-500"
                 />
                 <span className="text-slate-400 text-xs">{activeChallenge.unit}</span>
                 <motion.button
@@ -1969,7 +1969,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(numericInput)}
                   disabled={showExplanation || !numericInput}
-                  className="px-5 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow"
+                  className="px-5 py-2 bg-gold-600 text-white text-xs font-bold rounded-xl shadow"
                 >
                   Submit
                 </motion.button>
@@ -1986,7 +1986,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                       whileHover={{ scale: 1.04 }}
                       whileTap={{ scale: 0.96 }}
                       onClick={() => setConstructParts((prev) => [...prev, part])}
-                      className="px-3 py-1.5 bg-indigo-800 text-white text-xs rounded-lg font-medium"
+                      className="px-3 py-1.5 bg-gold-800 text-white text-xs rounded-lg font-medium"
                     >
                       + {part}
                     </motion.button>
@@ -1995,7 +1995,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
 
                 <div className="p-3 bg-slate-950 rounded-xl border border-slate-800 min-h-[50px] flex flex-wrap gap-2 items-center">
                   {constructParts.map((p, idx) => (
-                    <span key={idx} className="px-2.5 py-1 bg-indigo-950 text-indigo-200 border border-indigo-700 text-xs rounded-lg flex items-center gap-1">
+                    <span key={idx} className="px-2.5 py-1 bg-gold-950 text-gold-200 border border-gold-700 text-xs rounded-lg flex items-center gap-1">
                       {p}
                       <button
                         onClick={() => setConstructParts((prev) => prev.filter((_, i) => i !== idx))}
@@ -2015,7 +2015,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   whileTap={{ scale: 0.96 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-4 py-2 bg-indigo-600 text-white text-xs font-bold rounded-lg shadow"
+                  className="px-4 py-2 bg-gold-600 text-white text-xs font-bold rounded-lg shadow"
                 >
                   Validate Proof Construction
                 </motion.button>
@@ -2027,7 +2027,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-5 bg-gradient-to-br from-indigo-950/60 to-slate-900 border border-indigo-800/60 rounded-xl space-y-3"
+                className="mt-4 p-5 bg-gradient-to-br from-gold-950/60 to-slate-900 border border-gold-800/60 rounded-xl space-y-3"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-amber-300 uppercase tracking-wider">
@@ -2047,7 +2047,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                       animate={{ opacity: 1, x: 0 }}
                       className="text-xs md:text-sm text-slate-200 leading-relaxed"
                     >
-                      <strong className="text-indigo-400 mr-2">{idx + 1}.</strong>
+                      <strong className="text-gold-400 mr-2">{idx + 1}.</strong>
                       {sentence}
                       {!sentence.endsWith('.') && '.'}
                     </motion.p>
@@ -2086,9 +2086,9 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
       {/* ─── PHASE 5: COMPLETION & SYNTHESIS ─── */}
       {phase === 'complete' && (
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/60 text-center space-y-3">
+          <div className="p-6 bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/60 text-center space-y-3">
             <h2 className="text-2xl md:text-3xl font-black text-white">Simulation Completed!</h2>
-            <p className="text-base text-indigo-300 font-semibold">
+            <p className="text-base text-gold-300 font-semibold">
               Final Accuracy Score: {Math.max(0, 100 - errors * 5)}% • Mastery Tier: {masteryLevel}
             </p>
           </div>
@@ -2103,8 +2103,8 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
           </div>
 
           {/* ─── REFLECTION QUESTIONS ─── */}
-          <div className="p-6 bg-slate-900 rounded-2xl border border-indigo-800/60 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 bg-slate-900 rounded-2xl border border-gold-800/60 space-y-4">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Conceptual Reflection & Deep Processing
             </h3>
             <p className="text-xs text-slate-400">
@@ -2121,7 +2121,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   value={reflections.surprising}
                   onChange={(e) => setReflections((r) => ({ ...r, surprising: e.target.value }))}
                   placeholder="e.g., How sin²θ + cos²θ stays strictly 1 across any real angle..."
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2134,7 +2134,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   value={reflections.explain}
                   onChange={(e) => setReflections((r) => ({ ...r, explain: e.target.value }))}
                   placeholder="e.g., The angle of elevation equals depression because horizontal lines are parallel..."
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
 
@@ -2147,7 +2147,7 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
                   value={reflections.realLife}
                   onChange={(e) => setReflections((r) => ({ ...r, realLife: e.target.value }))}
                   placeholder="e.g., Calculating bridge heights, analyzing tidal wave distributions, risk modeling..."
-                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 resize-none"
+                  className="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs text-slate-200 focus:outline-none focus:border-gold-500 resize-none"
                 />
               </div>
             </div>
@@ -2200,8 +2200,8 @@ function C10_MathematicsTrigonometricIdentitiessin2aSim({
           </div>
 
           {/* Real World Application */}
-          <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-3">
-            <h3 className="text-sm font-bold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-3">
+            <h3 className="text-sm font-bold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300">{REAL_WORLD_ACTIVITY.description}</p>
             <ul className="space-y-1 text-xs text-slate-400">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

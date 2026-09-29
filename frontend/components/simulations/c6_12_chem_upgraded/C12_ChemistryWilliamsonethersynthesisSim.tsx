@@ -696,7 +696,7 @@ const SN2MechanismSVG: React.FC<{
   return (
     <div className="w-full bg-slate-900 rounded-xl p-4 shadow-inner border border-slate-800">
       <div className="flex justify-between items-center mb-2">
-        <span className="text-xs font-bold uppercase tracking-wider text-cyan-400">
+        <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
           Dynamic Visualizer: SN2 Backside Attack & Transition State
         </span>
         <span className="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-mono">
@@ -898,7 +898,7 @@ const SubstrateMatrixSVG: React.FC<{
         {/* Mechanism Explanation Card */}
         <div className="bg-slate-950 rounded-lg p-3 text-xs text-slate-300 flex flex-col justify-between border border-slate-800">
           <div>
-            <div className="text-cyan-400 font-bold mb-1 uppercase tracking-wide">Mechanistic Assessment</div>
+            <div className="text-gold-400 font-bold mb-1 uppercase tracking-wide">Mechanistic Assessment</div>
             <p className="leading-relaxed text-slate-300">{info.details}</p>
           </div>
           <div className="mt-3 p-2 bg-slate-900/80 rounded border border-slate-800">
@@ -923,7 +923,7 @@ const SubstrateMatrixSVG: React.FC<{
 const ArylVsPhenoxideSVG: React.FC = () => {
   return (
     <div className="w-full bg-slate-900 rounded-xl p-4 border border-slate-800">
-      <h4 className="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-2">
+      <h4 className="text-xs font-bold uppercase tracking-wider text-gold-400 mb-2">
         Aromatic Ether Controls: Chlorobenzene Failure vs Phenoxide Alkylation Success
       </h4>
       <svg viewBox="0 0 520 220" className="w-full h-52 bg-slate-950 rounded-lg">
@@ -1228,11 +1228,11 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
       {/* TOP NAV BAR */}
       <header className="max-w-7xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl flex flex-wrap justify-between items-center gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-gold-500 to-gold-600 flex items-center justify-center shadow-lg shadow-gold-500/30">
             <span className="text-xl font-black text-white">R-O</span>
           </div>
           <div>
-            <h1 className="text-lg md:text-xl font-bold bg-gradient-to-r from-cyan-400 via-sky-200 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-lg md:text-xl font-bold bg-gradient-to-r from-gold-400 via-gold-200 to-gold-300 bg-clip-text text-transparent">
               Williamson Ether Synthesis Lab
             </h1>
             <p className="text-xs text-slate-400">Class 12 Chemistry • CISCE / ISC Standard</p>
@@ -1243,7 +1243,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
         <div className="flex items-center gap-4 bg-slate-950 px-4 py-2 rounded-xl border border-slate-800">
           <div className="text-center">
             <div className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">Lab Mastery</div>
-            <div className="text-sm font-extrabold text-cyan-400">{overallMastery}%</div>
+            <div className="text-sm font-extrabold text-gold-400">{overallMastery}%</div>
           </div>
           <div className="h-6 w-px bg-slate-800" />
           <div className="text-center">
@@ -1268,7 +1268,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
               }}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === tab.id
-                  ? 'bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold'
+                  ? 'bg-gold-500 text-slate-950 shadow-md shadow-gold-500/20 font-bold'
                   : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
               }`}
             >
@@ -1284,14 +1284,14 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
         {activeTab === 'discovery' && (
           <div className="space-y-6">
             {/* Scenario Banner */}
-            <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 border border-indigo-900/50 rounded-2xl p-6 shadow-xl">
-              <div className="flex items-center gap-2 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-2">
+            <div className="bg-gradient-to-r from-slate-900 via-gold-950 to-slate-900 border border-gold-900/50 rounded-2xl p-6 shadow-xl">
+              <div className="flex items-center gap-2 text-gold-400 text-xs font-bold uppercase tracking-widest mb-2">
                 <span>🔬 ISC Organic Synthesis Research Context</span>
               </div>
               <h2 className="text-2xl font-black text-white mb-3">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm leading-relaxed mb-4">{SCENARIO.intro}</p>
-              <div className="bg-slate-950/70 rounded-xl p-4 border border-indigo-800/30 text-xs text-indigo-200">
-                <span className="font-bold text-cyan-400">Lab Mission: </span>
+              <div className="bg-slate-950/70 rounded-xl p-4 border border-gold-800/30 text-xs text-gold-200">
+                <span className="font-bold text-gold-400">Lab Mission: </span>
                 {SCENARIO.context}
               </div>
             </div>
@@ -1332,8 +1332,8 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
               </div>
 
               {discoveryAnswered && (
-                <div className="p-4 rounded-xl bg-slate-950 border border-cyan-800/50 text-xs text-cyan-300 leading-relaxed">
-                  <span className="font-bold text-cyan-400">Mechanistic Insight: </span>
+                <div className="p-4 rounded-xl bg-slate-950 border border-gold-800/50 text-xs text-gold-300 leading-relaxed">
+                  <span className="font-bold text-gold-400">Mechanistic Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                 </div>
               )}
@@ -1341,7 +1341,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
 
             {/* Prediction Questions (Mandatory Render) */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 Hypothesis & Mechanism Predictions
               </h3>
               {PREDICTION_QUESTIONS.map((pq, pIdx) => (
@@ -1381,7 +1381,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
               <div className="flex justify-between items-center mb-4">
                 <div>
-                  <h3 className="text-base font-bold text-cyan-400">
+                  <h3 className="text-base font-bold text-gold-400">
                     Interactive Mechanism & Substrate Controls
                   </h3>
                   <p className="text-xs text-slate-400">
@@ -1390,7 +1390,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                 </div>
                 <button
                   onClick={handleRunReaction}
-                  className="px-5 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-slate-950 font-extrabold rounded-xl text-xs hover:brightness-110 shadow-lg shadow-cyan-500/20 active:scale-95 transition-all"
+                  className="px-5 py-2 bg-gradient-to-r from-gold-500 to-gold-600 text-slate-950 font-extrabold rounded-xl text-xs hover:brightness-110 shadow-lg shadow-gold-500/20 active:scale-95 transition-all"
                 >
                   ▶ Run Nucleophilic Reaction
                 </button>
@@ -1409,7 +1409,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                       setLabSubstrate(e.target.value as typeof labSubstrate);
                       audioManager.play('pop');
                     }}
-                    className="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg p-2 focus:border-cyan-500 focus:outline-none"
+                    className="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg p-2 focus:border-gold-500 focus:outline-none"
                   >
                     <option value="1deg">1° Ethyl Bromide (CH3CH2Br) - Unhindered</option>
                     <option value="2deg">2° Isopropyl Bromide ((CH3)2CHBr) - Moderately Crowded</option>
@@ -1429,7 +1429,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                       setLabAlkoxide(e.target.value as typeof labAlkoxide);
                       audioManager.play('pop');
                     }}
-                    className="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg p-2 focus:border-cyan-500 focus:outline-none"
+                    className="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg p-2 focus:border-gold-500 focus:outline-none"
                   >
                     <option value="methoxide">Sodium Methoxide (CH3ONa) - Small Nucleophile</option>
                     <option value="ethoxide">Sodium Ethoxide (CH3CH2ONa) - Unhindered</option>
@@ -1449,7 +1449,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                       setLabSolvent(e.target.value as typeof labSolvent);
                       audioManager.play('pop');
                     }}
-                    className="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg p-2 focus:border-cyan-500 focus:outline-none"
+                    className="w-full bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg p-2 focus:border-gold-500 focus:outline-none"
                   >
                     <option value="dmso">DMSO (Polar Aprotic) - Maximum SN2 Rate</option>
                     <option value="ethanol">Ethanol (Polar Protic) - H-Bond Cages Alkoxide</option>
@@ -1555,14 +1555,14 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
 
             {/* MANDATORY EXPLORATION STEPS DISPLAY */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 Guided Exploration Labs & Objectives
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {EXPLORATION_STEPS.map((lab, idx) => (
                   <div key={idx} className="bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="w-5 h-5 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-xs font-bold">
+                      <span className="w-5 h-5 rounded-full bg-gold-500/20 text-gold-400 flex items-center justify-center text-xs font-bold">
                         {idx + 1}
                       </span>
                       <h4 className="text-xs font-bold text-slate-200">{lab.title}</h4>
@@ -1576,7 +1576,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
 
             {/* MANDATORY OBSERVATION QUESTIONS DISPLAY */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 Lab Observations & Phenomenon Analysis
               </h3>
               {OBSERVATION_QUESTIONS.map((oq, oIdx) => (
@@ -1645,7 +1645,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
 
             {/* Current Challenge Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <div className="text-xs font-bold text-cyan-400 uppercase tracking-widest mb-2">
+              <div className="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">
                 Competency: {CHALLENGES[currentChallengeIdx].competencyLevel}
               </div>
               <h3 className="text-base font-bold text-slate-100 mb-6 leading-relaxed">
@@ -1665,7 +1665,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                           ? idx === CHALLENGES[currentChallengeIdx].correctIndex
                             ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                             : 'bg-rose-950/80 border-rose-500 text-rose-200'
-                          : 'bg-cyan-950/80 border-cyan-500 text-cyan-200'
+                          : 'bg-gold-950/80 border-gold-500 text-gold-200'
                         : challengeSubmitted && idx === CHALLENGES[currentChallengeIdx].correctIndex
                         ? 'bg-emerald-950/50 border-emerald-600 text-emerald-300'
                         : 'bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700'
@@ -1686,14 +1686,14 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                 <button
                   onClick={handleSubmitChallenge}
                   disabled={selectedOptionIdx === null}
-                  className="w-full py-3 bg-gradient-to-r from-cyan-500 to-blue-600 disabled:opacity-50 text-slate-950 font-bold rounded-xl text-xs hover:brightness-110"
+                  className="w-full py-3 bg-gradient-to-r from-gold-500 to-gold-600 disabled:opacity-50 text-slate-950 font-bold rounded-xl text-xs hover:brightness-110"
                 >
                   Submit Organic Answer
                 </button>
               ) : (
                 <div className="space-y-4">
                   <div className="p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 leading-relaxed">
-                    <span className="font-bold text-cyan-400">Detailed Mechanistic Explanation: </span>
+                    <span className="font-bold text-gold-400">Detailed Mechanistic Explanation: </span>
                     {CHALLENGES[currentChallengeIdx].explanation}
                   </div>
                   <button
@@ -1730,7 +1730,7 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
 
             {/* Misconceptions Matrix */}
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
-              <h3 className="text-base font-bold text-cyan-400 mb-4">
+              <h3 className="text-base font-bold text-gold-400 mb-4">
                 Common Student Misconceptions & Corrections
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1757,9 +1757,9 @@ export const C12_ChemistryWilliamsonethersynthesisSim: React.FC<{
                   return (
                     <div key={nodeId} className="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center">
                       <div className="text-[10px] text-slate-500 uppercase tracking-widest font-mono mb-1">{nodeId}</div>
-                      <div className="text-2xl font-black text-cyan-400 mb-1">{Math.round(level * 100)}%</div>
+                      <div className="text-2xl font-black text-gold-400 mb-1">{Math.round(level * 100)}%</div>
                       <div className="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-                        <div className="bg-cyan-500 h-full transition-all" style={{ width: `${level * 100}%` }} />
+                        <div className="bg-gold-500 h-full transition-all" style={{ width: `${level * 100}%` }} />
                       </div>
                     </div>
                   );

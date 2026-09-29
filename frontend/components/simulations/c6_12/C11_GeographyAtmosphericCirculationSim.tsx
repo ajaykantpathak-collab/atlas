@@ -54,9 +54,9 @@ export function C11_GeographyAtmosphericCirculationSim() {
   return (
     <div className="w-full max-w-5xl mx-auto p-4 md:p-6 bg-slate-950 text-slate-100 rounded-3xl border border-slate-800 shadow-2xl font-sans">
       <div className="flex items-center gap-3 pb-4 mb-4 border-b border-slate-800">
-        <span className="text-3xl p-2 bg-sky-950/80 rounded-2xl border border-sky-700">🌀</span>
+        <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700">🌀</span>
         <div>
-          <span className="text-xs font-bold uppercase tracking-wider text-sky-400">Class 11 -- Atmospheric Circulation</span>
+          <span className="text-xs font-bold uppercase tracking-wider text-gold-400">Class 11 -- Atmospheric Circulation</span>
           <h1 className="text-xl md:text-2xl font-extrabold">Why Winds Curve: the Three-Cell Machine</h1>
         </div>
       </div>
@@ -126,11 +126,11 @@ export function C11_GeographyAtmosphericCirculationSim() {
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Coriolis strength</p>
-              <p className="font-mono font-bold text-cyan-300">{deflectPct}%</p>
+              <p className="font-mono font-bold text-gold-300">{deflectPct}%</p>
             </div>
             <div className="bg-slate-950 rounded-xl p-2 border border-slate-800">
               <p className="text-[10px] text-slate-500">Belt</p>
-              <p className="font-mono font-bold text-indigo-300">{belt.name}</p>
+              <p className="font-mono font-bold text-gold-300">{belt.name}</p>
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ export function C11_GeographyAtmosphericCirculationSim() {
             </div>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setShowCells(!showCells)}
-                className={`min-h-11 rounded-xl text-xs font-bold ${showCells ? 'bg-indigo-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
+                className={`min-h-11 rounded-xl text-xs font-bold ${showCells ? 'bg-gold-500 text-white' : 'bg-slate-800 hover:bg-slate-700'}`}>
                 {showCells ? 'Cells: ON' : 'Cells: OFF'}
               </button>
               <button onClick={() => setHemiView(hemiView === 'north' ? 'south' : 'north')}
@@ -179,8 +179,8 @@ export function C11_GeographyAtmosphericCirculationSim() {
             </p>
           </div>
 
-          <div className="bg-sky-950/40 rounded-2xl border border-sky-800/50 p-4 text-xs">
-            <p className="font-bold text-sky-300 mb-1">What to try</p>
+          <div className="bg-gold-950/40 rounded-2xl border border-gold-800/50 p-4 text-xs">
+            <p className="font-bold text-gold-300 mb-1">What to try</p>
             <p>1. Slide the probe to 30&deg; N and 60&deg; N. Which belt gives the calm, dry deserts, and which gives stormy lows?</p>
             <p>2. Stop the planet (rotation 0). Now find any latitude where winds still curve. Explain why you cannot.</p>
           </div>

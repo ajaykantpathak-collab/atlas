@@ -11,7 +11,7 @@ export const w_c12_historyaugustoffer1940sim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Quit India Movement (1942): Do or Die, Underground Activity and Repression',
     chapters: [],
     nodeIds: ['c12_hist_cbse_11_006', 'c12_hist_cbse_11_010', 'c12_hist_cbse_11_011', 'c12_hist_cbse_09_006', 'c12_hist_cbse_03_004', 'c12_hist_cbse_04_001', 'c12_hist_cbse_07_005', 'c12_hist_cbse_12_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are standing at the August Kranti Maidan in Mumbai where Gandhi gave the “Do or Die” speech on 8.', goal: 'Master The Quit India Movement (1942): Do or Die, Underground Activity and Repression.' },
     discovery: {
         question: 'Why did the Cabinet Mission Plan (1946) fail to prevent Partition, despite proposing a united India with a loose federal structure?',
@@ -20,7 +20,7 @@ export const w_c12_historyaugustoffer1940sim: SimDef = {
         hook: 'Students believe Partition was decided solely by the British "divide and rule" policy and that the Radcliffe Line was.',
     },
     teaching: [
-        { title: 'The Quit India Movement (August 1942 –.', text: 'The Quit India Movement (August 1942 – September 1944) was the final mass civil disobedience campaign led by the Indian National Congress demanding immediate British withdrawal from India.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Quit India Movement (August 1942 –.', text: 'The Quit India Movement (August 1942 – September 1944) was the final mass civil disobedience campaign led by the Indian National Congress demanding immediate British withdrawal from India.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_11_006', title: 'The Quit India Movement (August 1942 –.',

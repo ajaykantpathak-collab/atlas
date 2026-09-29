@@ -11,7 +11,7 @@ export const w_c11_physicsprojectilemotionsim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Motion with Constant Acceleration: Free Fall',
     chapters: [],
     nodeIds: ['c11_phy_cbse_02_008', 'c11_phy_cbse_03_009', 'c11_phy_cbse_03_010', 'c11_phy_cbse_03_011', 'c11_phy_cbse_03_012', 'c11_phy_cbse_03_013', 'c11_phy_cbse_02_001', 'c11_phy_cbse_02_002', 'c11_phy_cbse_02_003', 'c11_phy_cbse_02_004', 'c11_phy_cbse_02_005', 'c11_phy_cbse_02_006', 'c11_phy_cbse_02_007', 'c11_phy_cbse_02_009', 'c11_phy_cbse_02_011'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a feather and a coin dropped simultaneously in a vacuum tube (or watch a video of Apollo 15.', goal: 'Master Motion with Constant Acceleration: Free Fall.' },
     discovery: {
         question: 'A ball is dropped from rest from a height of 20 m. What is the magnitude and direction of its acceleration at the instant it is released? State the SI unit.',
@@ -20,7 +20,7 @@ export const w_c11_physicsprojectilemotionsim: SimDef = {
         hook: 'Students believe that "heavier objects fall faster" because they confuse gravitational force (\\( mg \\)) with.',
     },
     teaching: [
-        { title: 'Free fall is the motion of an object under.', text: 'Free fall is the motion of an object under the influence of gravitational force only, with air resistance neglected, where the acceleration is constant and directed vertically downward with magnitude.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Free fall is the motion of an object under.', text: 'Free fall is the motion of an object under the influence of gravitational force only, with air resistance neglected, where the acceleration is constant and directed vertically downward with magnitude.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_02_008', title: 'Free fall is the motion of an object.',

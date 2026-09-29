@@ -1404,11 +1404,11 @@ function C12_EconomicsPublicRevenueMeaningSim({
         className="flex flex-wrap items-center justify-between pb-4 border-b border-slate-800 gap-4"
       >
         <div className="flex items-center gap-3">
-          <span className="text-3xl p-2 bg-indigo-950/80 rounded-2xl border border-indigo-700/50">
+          <span className="text-3xl p-2 bg-gold-950/80 rounded-2xl border border-gold-700/50">
             {subjectConfig.emoji}
           </span>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300">
+            <h1 className="text-xl md:text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300">
               {title}
             </h1>
             <p className="text-xs text-slate-400">Class 12 ISC Commerce • Public Finance & Budget Master</p>
@@ -1429,7 +1429,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                 ? 'bg-emerald-950/70 text-emerald-300 border-emerald-600/50'
                 : difficulty === 'advanced'
                 ? 'bg-rose-950/70 text-rose-300 border-rose-600/50'
-                : 'bg-sky-950/70 text-sky-300 border-sky-600/50'
+                : 'bg-gold-950/70 text-gold-300 border-gold-600/50'
             }`}
           >
             {difficulty} Tier
@@ -1440,8 +1440,8 @@ function C12_EconomicsPublicRevenueMeaningSim({
       {/* ─── PHASE 1: DISCOVERY HOOK ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="py-6 space-y-6">
-          <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold uppercase tracking-wider text-xs mb-2">
+          <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 font-bold uppercase tracking-wider text-xs mb-2">
               <span>🏛️</span> North Block Mission Briefing
             </div>
             <h2 className="text-2xl font-black text-white">{SCENARIO.title}</h2>
@@ -1473,7 +1473,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                       ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200'
                       : discoveryAnswered && i !== DISCOVERY_QUESTION.correctIndex
                       ? 'bg-slate-950/50 border-slate-800 text-slate-500'
-                      : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-indigo-500 hover:bg-slate-800/60'
+                      : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-gold-500 hover:bg-slate-800/60'
                   }`}
                 >
                   <div className="flex items-center gap-3">
@@ -1504,7 +1504,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={handleAdvanceToExploration}
-                  className="w-full py-4 bg-gradient-to-r from-indigo-600 to-sky-600 hover:from-indigo-500 hover:to-sky-500 text-white rounded-2xl font-black text-base shadow-lg shadow-indigo-600/30"
+                  className="w-full py-4 bg-gradient-to-r from-gold-600 to-gold-600 hover:from-gold-500 hover:to-gold-500 text-white rounded-2xl font-black text-base shadow-lg shadow-gold-600/30"
                 >
                   Enter Interactive Simulation Labs →
                 </motion.button>
@@ -1518,7 +1518,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
       {phase === 'explore' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-6 space-y-6">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">
+            <span className="text-xs font-bold uppercase tracking-wider text-gold-400">
               Interactive Lab {currentSlide + 1} of {EXPLORATION_STEPS.length}
             </span>
             <div className="flex gap-1.5">
@@ -1526,7 +1526,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                 <div
                   key={idx}
                   className={`h-1.5 rounded-full transition-all ${
-                    idx === currentSlide ? 'w-8 bg-indigo-400' : 'w-2 bg-slate-800'
+                    idx === currentSlide ? 'w-8 bg-gold-400' : 'w-2 bg-slate-800'
                   }`}
                 />
               ))}
@@ -1561,7 +1561,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                         }}
                         className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all border ${
                           taxMode === mode
-                            ? 'bg-indigo-600 border-indigo-400 text-white shadow-lg shadow-indigo-600/30'
+                            ? 'bg-gold-600 border-gold-400 text-white shadow-lg shadow-gold-600/30'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
@@ -1606,7 +1606,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 space-y-2">
                     <div className="flex justify-between text-xs text-slate-400">
                       <span>Test Citizen Annual Income: <strong>₹{incomeSlider} Lakh</strong></span>
-                      <span className="text-indigo-400 font-bold">
+                      <span className="text-gold-400 font-bold">
                         Average Tax Rate:{' '}
                         {taxMode === 'progressive'
                           ? incomeSlider <= 3
@@ -1629,13 +1629,13 @@ function C12_EconomicsPublicRevenueMeaningSim({
                         setIncomeSlider(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   {/* Observation Question */}
-                  <div className="p-4 bg-indigo-950/40 rounded-2xl border border-indigo-800/50 space-y-3">
-                    <p className="text-sm font-bold text-indigo-200">🔍 {OBSERVATION_QUESTIONS[0].question}</p>
+                  <div className="p-4 bg-gold-950/40 rounded-2xl border border-gold-800/50 space-y-3">
+                    <p className="text-sm font-bold text-gold-200">🔍 {OBSERVATION_QUESTIONS[0].question}</p>
                     <div className="space-y-2">
                       {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, i) => (
                         <motion.button
@@ -1666,7 +1666,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800">
                     <div className="flex justify-between items-center mb-4">
                       <span className="text-xs font-bold text-slate-400">Supply Chain Stage:</span>
-                      <span className="px-3 py-1 bg-indigo-950 text-indigo-300 rounded-full text-xs font-bold border border-indigo-700">
+                      <span className="px-3 py-1 bg-gold-950 text-gold-300 rounded-full text-xs font-bold border border-gold-700">
                         {shiftStage === 0
                           ? '1. Manufacturer (Hindustan Unilever)'
                           : shiftStage === 1
@@ -1688,13 +1688,13 @@ function C12_EconomicsPublicRevenueMeaningSim({
                         setShiftStage(Number(e.target.value));
                         audioManager.play('pop');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
 
                     <div className="grid grid-cols-2 gap-4 mt-4">
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800">
                         <span className="text-xs text-slate-500 uppercase font-bold block">Legal Impact</span>
-                        <span className="text-sm font-bold text-sky-400">
+                        <span className="text-sm font-bold text-gold-400">
                           {shiftStage === 0 ? 'Manufacturer Pays GST' : 'Seller Collects & Remits'}
                         </span>
                         <p className="text-xs text-slate-400 mt-1">Person on whom the tax is legally imposed by law.</p>
@@ -1784,10 +1784,10 @@ function C12_EconomicsPublicRevenueMeaningSim({
                     </div>
 
                     {/* Capital Receipts */}
-                    <div className="p-4 bg-sky-950/30 rounded-2xl border border-sky-800/50 space-y-3">
+                    <div className="p-4 bg-gold-950/30 rounded-2xl border border-gold-800/50 space-y-3">
                       <div className="flex justify-between items-center">
-                        <h4 className="text-sm font-bold text-sky-300">Capital Receipts (₹{ (borrowing + nonDebtCap).toFixed(1) }L cr)</h4>
-                        <span className="text-[10px] text-sky-400 bg-sky-950 px-2 py-0.5 rounded border border-sky-700">
+                        <h4 className="text-sm font-bold text-gold-300">Capital Receipts (₹{ (borrowing + nonDebtCap).toFixed(1) }L cr)</h4>
+                        <span className="text-[10px] text-gold-400 bg-gold-950 px-2 py-0.5 rounded border border-gold-700">
                           Creates Liability / Reduces Asset
                         </span>
                       </div>
@@ -1803,7 +1803,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                           value={borrowing}
                           aria-label="Set Market Borrowings"
                           onChange={e => setBorrowing(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                         <div className="flex justify-between">
                           <span>Disinvestment & Loan Recoveries (Non-Debt): ₹{nonDebtCap}L cr</span>
@@ -1816,7 +1816,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                           value={nonDebtCap}
                           aria-label="Set Disinvestment"
                           onChange={e => setNonDebtCap(Number(e.target.value))}
-                          className="w-full accent-sky-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
                     </div>
@@ -1934,9 +1934,9 @@ function C12_EconomicsPublicRevenueMeaningSim({
                         Total Borrowing Requirement (Target: 3% GDP)
                       </span>
                     </div>
-                    <div className="p-4 bg-slate-950 rounded-2xl border border-sky-900/50 text-center">
+                    <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/50 text-center">
                       <span className="text-xs text-slate-400 font-bold block">3. Primary Deficit</span>
-                      <span className="text-2xl font-black text-sky-400 mt-1 block">
+                      <span className="text-2xl font-black text-gold-400 mt-1 block">
                         ₹{simulatedPrimaryDeficit.toFixed(2)}L cr
                       </span>
                       <span className="text-[10px] text-slate-500 mt-1 block">
@@ -1957,7 +1957,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                       value={interestBill}
                       aria-label="Set Annual Interest Liability"
                       onChange={e => setInterestBill(Number(e.target.value))}
-                      className="w-full accent-sky-500"
+                      className="w-full accent-gold-500"
                     />
                   </div>
                 </div>
@@ -1980,7 +1980,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                           }}
                           className={`px-3 py-1.5 rounded-xl text-xs font-bold capitalize border ${
                             flowType === type
-                              ? 'bg-indigo-600 border-indigo-400 text-white'
+                              ? 'bg-gold-600 border-gold-400 text-white'
                               : 'bg-slate-950 border-slate-800 text-slate-400'
                           }`}
                         >
@@ -1999,7 +1999,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                         value={flowSpeed}
                         aria-label="Set Flow Speed"
                         onChange={e => setFlowSpeed(Number(e.target.value))}
-                        className="w-24 accent-indigo-500"
+                        className="w-24 accent-gold-500"
                       />
                     </div>
                   </div>
@@ -2011,7 +2011,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
 
                   <div className="p-4 bg-slate-950 rounded-2xl border border-slate-800 grid grid-cols-2 gap-4 text-xs">
                     <div>
-                      <span className="text-sky-400 font-bold block">Outer Real Flow (Physical)</span>
+                      <span className="text-gold-400 font-bold block">Outer Real Flow (Physical)</span>
                       <p className="text-slate-400 mt-0.5">Factor inputs (Labour, Land) & finished commodities circulating clockwise.</p>
                     </div>
                     <div>
@@ -2049,7 +2049,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('whoosh');
                 }}
-                className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                className="px-6 py-2.5 bg-gold-600 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -2073,7 +2073,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-xl font-black text-indigo-300">Sandbox: Fiscal Simulator Engine</h3>
+                <h3 className="text-xl font-black text-gold-300">Sandbox: Fiscal Simulator Engine</h3>
                 <p className="text-xs text-slate-400 mt-1">Free exploration mode. Tweak revenue, capex, and debt variables without test pressure.</p>
               </div>
               <motion.button
@@ -2142,7 +2142,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
               </div>
               <div>
                 <span className="text-xs text-slate-500 font-bold">Calculated Primary Deficit</span>
-                <span className="text-lg font-black text-sky-400 block">₹{simulatedPrimaryDeficit.toFixed(2)}L cr</span>
+                <span className="text-lg font-black text-gold-400 block">₹{simulatedPrimaryDeficit.toFixed(2)}L cr</span>
               </div>
             </div>
           </div>
@@ -2158,13 +2158,13 @@ function C12_EconomicsPublicRevenueMeaningSim({
               <span className="font-bold text-slate-400">
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
-              <span className="px-2.5 py-0.5 bg-indigo-950 text-indigo-300 rounded-full font-bold border border-indigo-700/50 uppercase text-[10px]">
+              <span className="px-2.5 py-0.5 bg-gold-950 text-gold-300 rounded-full font-bold border border-gold-700/50 uppercase text-[10px]">
                 NEP 2020: {challenge.competencyLevel}
               </span>
             </div>
             <div className="h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-full"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-500 to-emerald-500 rounded-full"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -2180,7 +2180,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
             }`}
           >
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs font-bold text-indigo-400 uppercase tracking-widest block">
+              <span className="text-xs font-bold text-gold-400 uppercase tracking-widest block">
                 Target Node: {challenge.nodeId}
               </span>
             </div>
@@ -2204,7 +2204,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                       className={`w-full text-left p-4 rounded-2xl text-sm transition-all border ${
                         showExplanation && i === challenge.correctIndex
                           ? 'bg-emerald-950/90 border-emerald-500 text-emerald-200 font-bold'
-                          : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-indigo-500 hover:bg-slate-800/60'
+                          : 'bg-slate-950/80 border-slate-800 text-slate-200 hover:border-gold-500 hover:bg-slate-800/60'
                       }`}
                     >
                       <div className="flex items-center gap-3">
@@ -2230,7 +2230,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 bg-indigo-700 hover:bg-indigo-600 rounded-xl cursor-grab text-white text-xs font-bold shadow"
+                      className="px-3 py-1.5 bg-gold-700 hover:bg-gold-600 rounded-xl cursor-grab text-white text-xs font-bold shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2263,7 +2263,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="w-full py-3 bg-gold-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Verify Matched Labels
                 </motion.button>
@@ -2290,7 +2290,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                     whileHover={{ scale: 1.01 }}
                     className="p-3.5 bg-slate-950 rounded-2xl border border-slate-800 text-slate-200 text-xs font-medium cursor-grab flex items-center gap-3"
                   >
-                    <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-indigo-400">
+                    <span className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center text-[10px] font-bold text-gold-400">
                       {displayIndex + 1}
                     </span>
                     <span>{item}</span>
@@ -2302,7 +2302,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="w-full py-3 bg-gold-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Check Sequence
                 </motion.button>
@@ -2318,7 +2318,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                     value={numericInput}
                     aria-label="Enter numeric calculation"
                     onChange={e => setNumericInput(e.target.value)}
-                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-base w-48 focus:border-indigo-500 focus:outline-none"
+                    className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-2xl text-white font-mono text-base w-48 focus:border-gold-500 focus:outline-none"
                     placeholder="Enter value"
                   />
                   <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
@@ -2327,7 +2327,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                    className="px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-xs shadow-lg shadow-gold-600/30"
                   >
                     Submit Calculation
                   </motion.button>
@@ -2346,7 +2346,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 bg-slate-950 border border-indigo-700/50 hover:bg-indigo-950 text-indigo-300 rounded-xl text-xs font-mono font-bold"
+                      className="px-3 py-1.5 bg-slate-950 border border-gold-700/50 hover:bg-gold-950 text-gold-300 rounded-xl text-xs font-mono font-bold"
                     >
                       + {part}
                     </motion.button>
@@ -2357,7 +2357,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   {constructParts.map((part, i) => (
                     <span
                       key={i}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-600 rounded-lg text-white font-mono text-xs flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-600 rounded-lg text-white font-mono text-xs flex items-center gap-2"
                     >
                       {part}
                       <button
@@ -2378,7 +2378,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="w-full py-3 bg-indigo-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-indigo-600/30"
+                  className="w-full py-3 bg-gold-600 text-white rounded-2xl font-bold text-xs shadow-lg shadow-gold-600/30"
                 >
                   Validate Formula Construction
                 </motion.button>
@@ -2451,11 +2451,11 @@ function C12_EconomicsPublicRevenueMeaningSim({
           </div>
 
           {/* ─── SPACED REPETITION VISIBILITY CARD (SRS ENGINE) ─── */}
-          <div className="p-6 bg-gradient-to-r from-indigo-950/80 via-purple-950/60 to-slate-900 rounded-3xl border-2 border-indigo-500/60 shadow-xl space-y-3">
+          <div className="p-6 bg-gradient-to-r from-gold-950/80 via-purple-950/60 to-slate-900 rounded-3xl border-2 border-gold-500/60 shadow-xl space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📅</span>
-                <span className="text-xs font-black uppercase tracking-widest text-indigo-300">
+                <span className="text-xs font-black uppercase tracking-widest text-gold-300">
                   Spaced Repetition Schedule (SM-2 SRS)
                 </span>
               </div>
@@ -2496,7 +2496,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
 
           {/* Motivational Performance Feedback */}
           <div className="p-5 bg-slate-900 rounded-3xl border border-slate-800">
-            <h3 className="text-sm font-bold text-indigo-300 mb-1">Chief Economic Advisor Feedback</h3>
+            <h3 className="text-sm font-bold text-gold-300 mb-1">Chief Economic Advisor Feedback</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
               {errors === 0
                 ? 'Outstanding performance! You solved every revenue, debt, and deficit problem without error. You possess top-tier mastery for the ISC Board Examinations.'
@@ -2507,8 +2507,8 @@ function C12_EconomicsPublicRevenueMeaningSim({
           </div>
 
           {/* ─── MANDATORY REFLECTION SECTION ─── */}
-          <div className="p-6 bg-slate-900 rounded-3xl border border-indigo-800/60 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
+          <div className="p-6 bg-slate-900 rounded-3xl border border-gold-800/60 space-y-4">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
               <span>🧠</span> Metacognitive Reflection
             </div>
             <h3 className="text-base font-black text-white">Consolidate Your Learning</h3>
@@ -2516,7 +2516,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
 
             <div className="space-y-4 pt-1">
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-indigo-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   1. What was the most surprising thing you learned?
                 </label>
                 <textarea
@@ -2524,12 +2524,12 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   onChange={e => setReflection1(e.target.value)}
                   placeholder="e.g. How interest payments cannot create productive assets, or how 95% of India's debt is internal..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-indigo-500 focus:outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none"
                 />
               </div>
 
               <div className="space-y-1.5">
-                <label className="text-xs font-bold text-sky-300 block">
+                <label className="text-xs font-bold text-gold-300 block">
                   2. How would you explain this to a friend?
                 </label>
                 <textarea
@@ -2537,7 +2537,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   onChange={e => setReflection2(e.target.value)}
                   placeholder="e.g. The difference between legal impact on a shopkeeper and incidence on the shopper..."
                   rows={2}
-                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-sky-500 focus:outline-none"
+                  className="w-full p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs text-slate-200 focus:border-gold-500 focus:outline-none"
                 />
               </div>
 
@@ -2561,7 +2561,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
                   setReflectionSaved(true);
                   audioManager.play('success');
                 }}
-                className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
               >
                 {reflectionSaved ? '✓ Reflections Saved' : 'Save Reflection Answers'}
               </motion.button>
@@ -2587,7 +2587,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
 
           {/* Real-World Activity Card */}
           <div className="p-6 bg-slate-900 rounded-3xl border border-slate-800 space-y-4">
-            <div className="flex items-center gap-2 text-indigo-400 font-bold text-xs uppercase tracking-wider">
+            <div className="flex items-center gap-2 text-gold-400 font-bold text-xs uppercase tracking-wider">
               <span>📊</span> Practical Case Study
             </div>
             <h3 className="text-lg font-black text-white">{REAL_WORLD_ACTIVITY.title}</h3>
@@ -2595,7 +2595,7 @@ function C12_EconomicsPublicRevenueMeaningSim({
             <div className="space-y-1.5 pt-2">
               {REAL_WORLD_ACTIVITY.steps.map((step, i) => (
                 <div key={i} className="flex items-start gap-2 text-xs text-slate-400">
-                  <span className="w-4 h-4 rounded-full bg-slate-800 text-indigo-400 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
+                  <span className="w-4 h-4 rounded-full bg-slate-800 text-gold-400 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">
                     {i + 1}
                   </span>
                   <span>{step}</span>

@@ -6,7 +6,7 @@ export const c9_physics_ch02_p2: SimDef = {
     id: 'v3_c9_physics_ch02_p2',
     title: 'Motion',
     subtitle: 'Distance, displacement, speed, velocity — the vocabulary that turns \'it moved\' into physics.',
-    classLevel: 9, subject: 'physics', topic: 'Motion · Part 2/2',
+    classLevel: 9, subject: 'physics', topic: 'Motion',
     chapters: ['c9_physics_ch02'],
     nodeIds: ['c9_physics_ch2_5', 'c9_physics_ch2_6', 'c9_physics_ch2_7', 'c9_physics_ch2_8', 'c9_physics_ch2_9'],
     emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },

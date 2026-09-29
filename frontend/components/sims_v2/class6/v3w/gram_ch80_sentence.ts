@@ -9,7 +9,7 @@ export const c6_gram_ch80: SimDef = {
     classLevel: 6, subject: 'english-grammar', topic: 'The sentence — parts and types',
     chapters: ['c6_gram_ch80'],
     nodeIds: ['c6_gram_cbse_80_001', 'c6_gram_cbse_80_002', 'c6_gram_cbse_80_003'],
-    emoji: '🧪', theme: { bg: 'from-slate-900 to-sky-950', accent: 'sky', scene: 'junior' },
+    emoji: '🧪', theme: { bg: 'from-slate-900 to-gold-950', accent: 'sky', scene: 'junior' },
 
     scenario: {
         role: 'a word scientist who repairs broken sentences',
@@ -28,8 +28,8 @@ export const c6_gram_ch80: SimDef = {
         hook: 'A sentence must answer WHO or WHAT, plus WHAT HAPPENED. "Under the bed" answers neither.',
     },
     teaching: [
-        { title: 'The two halves', text: 'Subject = who or what. Predicate = does or is what. "The little boy / ran home."', emoji: '✂️', bgColor: 'from-sky-500 to-blue-600' },
-        { title: 'Four jobs, four names', text: 'Tells = declarative. Asks = interrogative. Commands = imperative. Exclaims = exclamatory.', emoji: '🎭', bgColor: 'from-blue-500 to-indigo-600' },
+        { title: 'The two halves', text: 'Subject = who or what. Predicate = does or is what. "The little boy / ran home."', emoji: '✂️', bgColor: 'from-gold-500 to-gold-600' },
+        { title: 'Four jobs, four names', text: 'Tells = declarative. Asks = interrogative. Commands = imperative. Exclaims = exclamatory.', emoji: '🎭', bgColor: 'from-gold-500 to-gold-600' },
     ],
 
     beats: [

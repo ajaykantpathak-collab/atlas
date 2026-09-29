@@ -11,7 +11,7 @@ export const w_c12_accountancyretirementpartnergainingsim: SimDef = {
     classLevel: 12, subject: 'accountancy', topic: 'New Profit Sharing Ratio and Gaining Ratio on Retirement of a Partner',
     chapters: [],
     nodeIds: ['c12_acc_cbse_03_001', 'c12_acc_cbse_03_002', 'c12_acc_cbse_03_003', 'c12_acc_cbse_03_004', 'c12_acc_cbse_03_009', 'c12_acc_cbse_02_001', 'c12_acc_cbse_03_007', 'c12_acc_cbse_03_008', 'c12_acc_cbse_03_010', 'c12_acc_cbse_02_003', 'c12_acc_cbse_02_004', 'c12_acc_cbse_02_006', 'c12_acc_cbse_02_008', 'c12_acc_cbse_02_011', 'c12_acc_cbse_02_002'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine three friends — Aryan, Bhavya, and Chirag — run a café sharing profits 3:2:1.', goal: 'Master New Profit Sharing Ratio and Gaining Ratio on Retirement of a Partner.' },
     discovery: {
         question: 'X, Y, Z share profits 1/2, 1/3, 1/6. Z retires. X and Y agree to share future profits equally. A student calculates gaining ratio as 1:1.',
@@ -20,7 +20,7 @@ export const w_c12_accountancyretirementpartnergainingsim: SimDef = {
         hook: '**Specific Error:** Students treat "New Profit Sharing Ratio" and "Gaining Ratio" as interchangeable terms.',
     },
     teaching: [
-        { title: 'When a partner retires from a partnership.', text: 'When a partner retires from a partnership firm, the continuing partners acquire the retiring partner\'s share of profit in a specific ratio.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'When a partner retires from a partnership.', text: 'When a partner retires from a partnership firm, the continuing partners acquire the retiring partner\'s share of profit in a specific ratio.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_acc_cbse_03_001', title: 'When a partner retires from a.',

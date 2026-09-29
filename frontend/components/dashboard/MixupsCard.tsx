@@ -86,7 +86,7 @@ export default function MixupsCard() {
     >
       <div className="flex items-end justify-between gap-3 mb-1">
         <h2 className="font-display text-base font-bold text-white flex items-center gap-2">
-          <Brain className="w-5 h-5 text-violet-300" />
+          <Brain className="w-5 h-5 text-gold-300" />
           Your mix-ups
         </h2>
         <span className="text-[11px] text-surface-600">
@@ -108,7 +108,7 @@ export default function MixupsCard() {
             .map(([trap, n]) => (
               <span
                 key={trap}
-                className="text-xs px-2.5 py-1 rounded-full border border-violet-400/25 bg-violet-500/10 text-violet-200"
+                className="text-xs px-2.5 py-1 rounded-full border border-gold-400/25 bg-gold-500/10 text-gold-200"
                 data-testid={`mixup-tally-${trap}`}
               >
                 {TRAP_LABEL[trap] ?? trap} ×{n}
@@ -119,7 +119,7 @@ export default function MixupsCard() {
         {recent.length >= 3 && topTrap && topTopic && (
           <div className="rounded-xl px-3.5 py-3 bg-white/[0.03] border border-white/8">
             <p className="text-sm text-slate-200 leading-relaxed">
-              <span className="text-violet-300 font-medium">Your pattern: </span>
+              <span className="text-gold-300 font-medium">Your pattern: </span>
               mostly {(TRAP_LABEL[topTrap[0]] ?? topTrap[0]).toLowerCase()}
               {" — "}
               and it shows up most in{" "}
@@ -133,7 +133,7 @@ export default function MixupsCard() {
 
         <Link
           href="/practice"
-          className="inline-flex items-center gap-1 text-xs font-medium text-violet-300 hover:text-violet-200 transition-colors"
+          className="inline-flex items-center gap-1 text-xs font-medium text-gold-300 hover:text-gold-200 transition-colors"
           data-testid="mixups-practice-link"
         >
           Practice spotting it

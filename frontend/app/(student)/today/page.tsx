@@ -198,7 +198,7 @@ export default function TodayPage() {
             {/* BEAT 4 — RETRIEVE: the review dose, target 10 */}
             <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-5">
               <div className="mb-3 flex items-baseline justify-between">
-                <p className="text-xs font-bold uppercase tracking-wider text-sky-300">
+                <p className="text-xs font-bold uppercase tracking-wider text-gold-300">
                   Recall practice
                 </p>
                 {review && (
@@ -231,7 +231,7 @@ export default function TodayPage() {
               )}
               {review && review.due_count > 0 && (
                 <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-slate-800">
-                  <div className="h-full rounded-full bg-sky-400"
+                  <div className="h-full rounded-full bg-gold-400"
                     style={{ width: `${Math.min(100, (done / review.target) * 100)}%` }} />
                 </div>
               )}
@@ -241,7 +241,7 @@ export default function TodayPage() {
             <button onClick={() => router.push('/sandbox')}
               className="flex w-full items-center justify-between rounded-2xl border border-slate-700 bg-gradient-to-r from-slate-900 to-slate-800 p-5 text-left hover:border-slate-500">
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-violet-300">
+                <p className="text-xs font-bold uppercase tracking-wider text-gold-300">
                   Today&apos;s challenge
                 </p>
                 <p className="mt-1 font-bold">One sandbox experiment</p>

@@ -24,7 +24,7 @@ export const c9_gram_ch84: SimDef = {
             { id: 's3', label: 'Article selection follows the specificity', prompt: 'Which idea is this? — Article selection follows the specificity algorithm: use \'the\' when the noun is definite.', answer: 'Article selection follows the specificity', options: ['Article selection follows the specificity', 'The board determiner set aanthezero', 'Quantifier choice is governed by'] }
           ] } },
         { type: 'build', nodeId: 'c9_gram_cbse_84_001', title: 'Put the steps in order',
-          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Check the fixed traps — an-before-vowel-SOUND.', 'For quantifiers — count or mass first, then attitude (a.', 'Run the specificity algorithm for articles.'], answer: 'Run the specificity algorithm for articles. For quantifiers — count or mass first, then attitude (a. Check the fixed traps — an-before-vowel-SOUND.' } },
+          build: { prompt: 'Rebuild the worked example — tap the steps in the right order', blocks: ['Run the specificity algorithm for articles.', 'For quantifiers — count or mass first, then attitude (a.', 'Check the fixed traps — an-before-vowel-SOUND.'], answer: 'Run the specificity algorithm for articles. For quantifiers — count or mass first, then attitude (a. Check the fixed traps — an-before-vowel-SOUND.' } },
         { type: 'case', nodeId: 'c9_gram_ch84_003', title: 'You made it',
           caseStudy: { intro: 'You finished The board determiner set: a/an/the/zero by the. — every node, every misconception, earned not given.',
             decisions: [{ prompt: 'Ready to see how far you have come?', options: [

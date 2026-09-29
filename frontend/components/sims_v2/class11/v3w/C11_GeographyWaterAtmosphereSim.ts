@@ -11,7 +11,7 @@ export const w_c11_geographywateratmospheresim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Branches of Geography: Physical Geography and Its Sub-branches',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_004', 'c11_geo_cbse_02_006', 'c11_geo_cbse_10_003', 'c11_geo_cbse_26_003', 'c11_geo_cbse_01_007', 'c11_geo_cbse_01_010', 'c11_geo_cbse_02_004', 'c11_geo_cbse_02_008', 'c11_geo_cbse_06_004', 'c11_geo_cbse_26_001', 'c11_geo_cbse_26_005', 'c11_geo_cbse_01_008', 'c11_geo_cbse_01_009', 'c11_geo_cbse_02_007', 'c11_geo_cbse_18_005'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings — the slope of the school ground, the.', goal: 'Master Branches of Geography: Physical Geography and Its Sub-branches.' },
     discovery: {
         question: 'Name the six major sub-branches of Physical Geography as classified in the NCERT Class 11 textbook and state the primary focus of each in one phrase.',
@@ -20,7 +20,7 @@ export const w_c11_geographywateratmospheresim: SimDef = {
         hook: 'Students often treat each sub-branch as an isolated "subject" (e.g., "Climatology is only about weather maps") and fail.',
     },
     teaching: [
-        { title: 'Physical Geography is the branch of.', text: 'Physical Geography is the branch of geography that systematically studies the natural environment — including the lithosphere (landforms), atmosphere (climate and weather), hydrosphere (water.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Physical Geography is the branch of.', text: 'Physical Geography is the branch of geography that systematically studies the natural environment — including the lithosphere (landforms), atmosphere (climate and weather), hydrosphere (water.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_01_004', title: 'Physical Geography is the branch of.',

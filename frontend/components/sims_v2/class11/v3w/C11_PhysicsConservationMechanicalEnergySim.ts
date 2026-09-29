@@ -11,7 +11,7 @@ export const w_c11_physicsconservationmechanicalenergysim: SimDef = {
     classLevel: 11, subject: 'physics', topic: 'Potential Energy of a Spring',
     chapters: [],
     nodeIds: ['c11_phy_cbse_05_008', 'c11_phy_cbse_05_009', 'c11_phy_cbse_05_010', 'c11_phy_cbse_10_008', 'c11_phy_cbse_13_004', 'c11_phy_cbse_04_006', 'c11_phy_cbse_07_001', 'c11_phy_cbse_07_010', 'c11_phy_cbse_05_013', 'c11_phy_cbse_05_014', 'c11_phy_cbse_05_015', 'c11_phy_cbse_06_005', 'c11_phy_cbse_05_012', 'c11_phy_cbse_11_002', 'c11_phy_cbse_11_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe a common spring balance used in Indian vegetable markets — when you hang a 1 kg tomato bag, the.', goal: 'Master Potential Energy of a Spring.' },
     discovery: {
         question: 'A block is moved from point A to point B along two different paths: Path 1 is a straight line, Path 2 is a longer curved path.',
@@ -20,7 +20,7 @@ export const w_c11_physicsconservationmechanicalenergysim: SimDef = {
         hook: 'Students often think that **any force that does zero work in a given situation is conservative** (e.g., normal force,.',
     },
     teaching: [
-        { title: 'The elastic potential energy of a spring is.', text: 'The elastic potential energy of a spring is the energy stored in a spring due to its deformation (extension or compression) from its equilibrium position, given by the formula $U = \\frac{1}{2}kx^2$.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The elastic potential energy of a spring is.', text: 'The elastic potential energy of a spring is the energy stored in a spring due to its deformation (extension or compression) from its equilibrium position, given by the formula $U = \\frac{1}{2}kx^2$.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_phy_cbse_05_008', title: 'The elastic potential energy of a.',

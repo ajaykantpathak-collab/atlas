@@ -42,11 +42,11 @@ function C6_MathematicsPrimeTimeTheIdliVadaSim() {
   };
 
   const cellTone = (n: number): string => {
-    if (n === current) return 'bg-indigo-600 text-white scale-110 shadow-lg ring-2 ring-indigo-300';
+    if (n === current) return 'bg-gold-600 text-white scale-110 shadow-lg ring-2 ring-gold-300';
     const a = n % numA === 0;
     const b = n % numB === 0;
     if (a && b) return 'bg-purple-500 text-white font-black';
-    if (a) return 'bg-sky-200 text-sky-900 font-bold';
+    if (a) return 'bg-gold-200 text-gold-900 font-bold';
     if (b) return 'bg-orange-200 text-orange-900 font-bold';
     return 'bg-white text-slate-500 hover:bg-slate-100';
   };
@@ -114,9 +114,9 @@ function C6_MathematicsPrimeTimeTheIdliVadaSim() {
         </div>
       </div>
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Set the game numbers to 4 and 6. When do you FIRST shout idli-vada? It is NOT 24 -- look carefully!</li>
           <li>Can you find two game numbers where idli-vada comes very quickly (at the 6th count)? What do you notice about them?</li>
         </ol>

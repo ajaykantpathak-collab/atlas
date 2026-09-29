@@ -23,9 +23,9 @@ export const c2EngDescribing: SimDef = {
     },
     teaching: [
         { title: 'Words That Describe! ✨', text: 'Describing words tell us HOW something is — a BIG dog, a RED ball, a FLUFFY cat. They make sentences colorful!', emoji: '✨', bgColor: 'from-rose-400 to-pink-500' },
-        { title: 'Size, Colour, Feeling 📏', text: 'Describing words tell size (big, small), colour (red, blue), feeling (soft, rough), and more!', emoji: '📏', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Size, Colour, Feeling 📏', text: 'Describing words tell size (big, small), colour (red, blue), feeling (soft, rough), and more!', emoji: '📏', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Before the Name 🏷️', text: 'Describing words come BEFORE the naming word: "a TALL tree" — tall describes the tree!', emoji: '🏷️', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Compare! ⚖️', text: 'Some words compare: big, bigger, biggest! Tall, taller, tallest!', emoji: '⚖️', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Compare! ⚖️', text: 'Some words compare: big, bigger, biggest! Tall, taller, tallest!', emoji: '⚖️', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'match', prompt: 'Match the describing word!', labels: ['big', 'elephant', 'small', 'ant', 'sweet', 'mango'] },
 challenges: [
@@ -60,7 +60,7 @@ export const c2EngPronoun: SimDef = {
     id: 'c2_eng_pronoun', title: 'He, She, It, They', subtitle: 'Words that replace names!',
     classLevel: 2, subject: 'english', topic: 'Pronouns',
     chapters: ['Marigold-2: pronouns', 'Mridang-2: word building'],
-    emoji: '👤', theme: { bg: 'from-indigo-100 to-blue-200', accent: 'indigo', scene: 'pronouns' },
+    emoji: '👤', theme: { bg: 'from-gold-100 to-gold-200', accent: 'indigo', scene: 'pronouns' },
     scenario: { role: "a word-swapper", intro: "He, she, it, they replace names — swap them in!", goal: "Use pronouns correctly." },
     discovery: {
         question: "Why say 'she is kind' instead of 'Sita is kind' twice?",
@@ -69,8 +69,8 @@ export const c2EngPronoun: SimDef = {
         hook: "He, she, it, they replace names! Let's learn them.",
     },
     teaching: [
-        { title: 'Little Name-Replacers! 👤', text: 'Instead of saying "Riya" again and again, we say "she". She, he, it, they replace names!', emoji: '👤', bgColor: 'from-indigo-400 to-blue-500' },
-        { title: 'He and She 👦👧', text: 'He = a boy or man. She = a girl or woman. "Ram runs. HE runs."', emoji: '👦', bgColor: 'from-sky-400 to-cyan-500' },
+        { title: 'Little Name-Replacers! 👤', text: 'Instead of saying "Riya" again and again, we say "she". She, he, it, they replace names!', emoji: '👤', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'He and She 👦👧', text: 'He = a boy or man. She = a girl or woman. "Ram runs. HE runs."', emoji: '👦', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'It for Things 📦', text: 'It = a thing or animal (when we do not say he/she). "The ball is round. IT is round."', emoji: '📦', bgColor: 'from-emerald-400 to-teal-500' },
         { title: 'They for Many 👥', text: 'They = more than one. "The children play. THEY play."', emoji: '👥', bgColor: 'from-amber-400 to-orange-500' },
     ],
@@ -120,7 +120,7 @@ export const c2EngPunct: SimDef = {
     teaching: [
         { title: 'Capital Letters 📛', text: 'Sentences start with a CAPITAL letter. Names and "I" are always capital: "My name is Riya. I am happy."', emoji: '📛', bgColor: 'from-amber-400 to-yellow-500' },
         { title: 'Full Stop . ', text: 'A sentence that tells something ends with a FULL STOP (.) — like a red light: STOP, the sentence is done!', emoji: '🔴', bgColor: 'from-red-400 to-rose-500' },
-        { title: 'Question Mark ? ', text: 'A question ends with a QUESTION MARK (?) — "What is your name?" The hook shape asks a question!', emoji: '❓', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Question Mark ? ', text: 'A question ends with a QUESTION MARK (?) — "What is your name?" The hook shape asks a question!', emoji: '❓', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'The Comma , ', text: 'A comma is a small pause — like a yellow light: "I like apples, bananas, and mangoes."', emoji: '🟡', bgColor: 'from-emerald-400 to-teal-500' },
     ],
         explore: { widget: 'match', prompt: 'Match the mark to its job!', labels: ['full stop .', 'ends a sentence', 'question ?', 'asks a question', 'capital A', 'starts a sentence'] },
@@ -149,7 +149,7 @@ export const c2EngSentence: SimDef = {
     id: 'c2_eng_sentence', title: 'Build a Sentence', subtitle: 'Words make sentences!',
     classLevel: 2, subject: 'english', topic: 'Sentence Building',
     chapters: ['Marigold-2: sentence making', 'Mridang-2: my sentences'],
-    emoji: '🧱', theme: { bg: 'from-cyan-100 to-sky-200', accent: 'cyan', scene: 'sentence' },
+    emoji: '🧱', theme: { bg: 'from-gold-100 to-gold-200', accent: 'cyan', scene: 'sentence' },
     scenario: { role: "a sentence-builder", intro: "Words must be in the right order to make sense!", goal: "Build correct sentences." },
     discovery: {
         question: "Is 'dog the runs fast' a good sentence?",
@@ -158,9 +158,9 @@ export const c2EngSentence: SimDef = {
         hook: "Words must be in the right order to make sense!",
     },
     teaching: [
-        { title: 'Words Build Sentences! 🧱', text: 'A sentence is words in the right order that make sense: "The dog runs." — not "runs dog the"!', emoji: '🧱', bgColor: 'from-cyan-400 to-sky-500' },
+        { title: 'Words Build Sentences! 🧱', text: 'A sentence is words in the right order that make sense: "The dog runs." — not "runs dog the"!', emoji: '🧱', bgColor: 'from-gold-400 to-gold-500' },
         { title: 'Who + Does What 🏃', text: 'Every sentence tells WHO + WHAT THEY DO: "The bird sings." Who? The bird. Does what? Sings!', emoji: '🏃', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Order Matters! 🔢', text: '"The cat chased the mouse" and "The mouse chased the cat" — same words, different order, different meaning!', emoji: '🔢', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Order Matters! 🔢', text: '"The cat chased the mouse" and "The mouse chased the cat" — same words, different order, different meaning!', emoji: '🔢', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'order', prompt: 'Order the words into a sentence!', labels: ['The', 'sun', 'shines', 'bright'] },
 challenges: [
@@ -206,8 +206,8 @@ export const c2HinMatra: SimDef = {
     teaching: [
         { title: 'मात्राएँ क्या हैं? ा', text: 'Matras are little marks that join letters to change their sound! क + ा = का. The matra is the vowel\'s sign!', emoji: 'ा', bgColor: 'from-orange-400 to-red-500' },
         { title: 'ा, ि, ी, ु — The Matras', text: 'ा makes "aa": का. ि makes "i": कि. ी makes "ee": की. ु makes "u": कु. Each matra has its own sound!', emoji: 'ि', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'Matras Make Words 🧱', text: 'न + ा = ना, म + ा = मा. Matras turn letters into real words!', emoji: '🧱', bgColor: 'from-sky-400 to-blue-500' },
-        { title: 'Where Do They Sit? 📍', text: 'Some matras go after (ा, ी), some before (ि), some below (ु, ू). Each has its own place!', emoji: '📍', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'Matras Make Words 🧱', text: 'न + ा = ना, म + ा = मा. Matras turn letters into real words!', emoji: '🧱', bgColor: 'from-gold-400 to-gold-500' },
+        { title: 'Where Do They Sit? 📍', text: 'Some matras go after (ा, ी), some before (ि), some below (ु, ू). Each has its own place!', emoji: '📍', bgColor: 'from-gold-400 to-purple-500' },
     ],
         explore: { widget: 'trace', prompt: 'Trace it!', labels: ['का'] },
 challenges: [
@@ -251,7 +251,7 @@ export const c2HinWords: SimDef = {
     teaching: [
         { title: 'अक्षर + मात्रा = शब्द 🧱', text: 'Letters + matras build words: र + त = रत... रत + ा = रात (night)!', emoji: '🧱', bgColor: 'from-amber-400 to-yellow-500' },
         { title: 'Simple Words First 🌱', text: 'Start with small words: घर (home), फल (fruit), दाल (dal). Small words first — then longer ones like मछली (fish)!', emoji: '🌱', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'Word Families 👨‍👩‍👧', text: 'Words that rhyme are family: बात, रात, जात — all end in "आत"!', emoji: '👨‍👩‍👧', bgColor: 'from-sky-400 to-blue-500' },
+        { title: 'Word Families 👨‍👩‍👧', text: 'Words that rhyme are family: बात, रात, जात — all end in "आत"!', emoji: '👨‍👩‍👧', bgColor: 'from-gold-400 to-gold-500' },
     ],
         explore: { widget: 'match', prompt: 'शब्द मिलाओ!', labels: ['माँ', 'mother', 'घर', 'home', 'फल', 'fruit'] },
 challenges: [

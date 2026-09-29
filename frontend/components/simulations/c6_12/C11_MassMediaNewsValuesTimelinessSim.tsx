@@ -831,7 +831,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
   const newsPlacementCategory = useMemo(() => {
     if (overallNewsworthinessScore >= 85) return { label: '🔥 Banner Lead (Page 1 Top)', color: 'text-rose-400', border: 'border-rose-500' };
     if (overallNewsworthinessScore >= 65) return { label: '📰 Second Lead (Page 1 Right)', color: 'text-amber-400', border: 'border-amber-500' };
-    if (overallNewsworthinessScore >= 45) return { label: '📄 Inside Page National News', color: 'text-blue-400', border: 'border-blue-500' };
+    if (overallNewsworthinessScore >= 45) return { label: '📄 Inside Page National News', color: 'text-gold-400', border: 'border-gold-500' };
     return { label: '📎 Single-Column Bottom Filler', color: 'text-slate-400', border: 'border-slate-600' };
   }, [overallNewsworthinessScore]);
 
@@ -1293,7 +1293,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
               className={`px-3 py-1.5 rounded-xl text-xs font-black uppercase tracking-wider border ${
                 difficulty === 'foundation' ? 'bg-emerald-950/70 border-emerald-500 text-emerald-300' :
                 difficulty === 'advanced' ? 'bg-rose-950/70 border-rose-500 text-rose-300' :
-                'bg-blue-950/70 border-blue-500 text-blue-300'
+                'bg-gold-950/70 border-gold-500 text-gold-300'
               }`}
             >
               {difficulty} TIER
@@ -1311,13 +1311,13 @@ function C11_MassMediaNewsValuesTimelinessSim({
           className="space-y-6"
         >
           {/* Narrative Scenario Box */}
-          <div className="p-6 rounded-2xl bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-900 border border-indigo-700/60 shadow-xl">
-            <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold uppercase tracking-wider mb-2">
+          <div className="p-6 rounded-2xl bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-900 border border-gold-700/60 shadow-xl">
+            <div className="flex items-center gap-2 text-gold-400 text-sm font-bold uppercase tracking-wider mb-2">
               <span>🚨 Live Editorial Scenario</span>
             </div>
             <h2 className="text-2xl font-black text-white mb-3">{SCENARIO.title}</h2>
             <p className="text-slate-300 leading-relaxed mb-3">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-200/80 bg-indigo-900/40 p-3 rounded-xl border border-indigo-800">
+            <p className="text-xs text-gold-200/80 bg-gold-900/40 p-3 rounded-xl border border-gold-800">
               💡 <strong>Editorial Mission:</strong> {SCENARIO.context}
             </p>
           </div>
@@ -1445,14 +1445,14 @@ function C11_MassMediaNewsValuesTimelinessSim({
 
                     {/* Predict-then-Check block */}
                     {!predictionMade && (
-                      <div className="p-3 bg-indigo-950/50 rounded-xl border border-indigo-700/60 space-y-2">
-                        <p className="text-xs font-semibold text-indigo-200">{PREDICTION_QUESTIONS[0].question}</p>
+                      <div className="p-3 bg-gold-950/50 rounded-xl border border-gold-700/60 space-y-2">
+                        <p className="text-xs font-semibold text-gold-200">{PREDICTION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {PREDICTION_QUESTIONS[0].options.map((opt, pIdx) => (
                             <button
                               key={pIdx}
                               onClick={() => handlePrediction(pIdx)}
-                              className="w-full text-left p-2 rounded-lg bg-slate-900 text-xs text-slate-300 hover:bg-indigo-900/40 transition"
+                              className="w-full text-left p-2 rounded-lg bg-slate-900 text-xs text-slate-300 hover:bg-gold-900/40 transition"
                             >
                               {opt}
                             </button>
@@ -1513,7 +1513,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
                           value={valProminence}
                           onChange={e => handleNewsValueSliderChange('prominence', Number(e.target.value))}
                           aria-label="Set Prominence percentage"
-                          className="w-full accent-blue-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1529,7 +1529,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
                           value={valProximity}
                           onChange={e => handleNewsValueSliderChange('proximity', Number(e.target.value))}
                           aria-label="Set Proximity percentage"
-                          className="w-full accent-indigo-500"
+                          className="w-full accent-gold-500"
                         />
                       </div>
 
@@ -1723,9 +1723,9 @@ function C11_MassMediaNewsValuesTimelinessSim({
                       {/* Tail Block */}
                       {!isTailTrimmed ? (
                         <div className={`p-3 rounded-xl border transition-all ${
-                          selectedPyramidLayer === 'tail' ? 'bg-blue-950/60 border-blue-500' : 'bg-slate-900 border-slate-800'
+                          selectedPyramidLayer === 'tail' ? 'bg-gold-950/60 border-gold-500' : 'bg-slate-900 border-slate-800'
                         }`}>
-                          <span className="text-[10px] font-bold uppercase tracking-wider text-blue-400 block mb-1">
+                          <span className="text-[10px] font-bold uppercase tracking-wider text-gold-400 block mb-1">
                             Para 4: The Tail (Historical Background & Context)
                           </span>
                           <p className="text-xs text-slate-300 leading-relaxed">
@@ -1821,14 +1821,14 @@ function C11_MassMediaNewsValuesTimelinessSim({
 
                     {/* Observation Question */}
                     {!observationAnswered && (
-                      <div className="mt-4 p-3 bg-indigo-950/40 rounded-xl border border-indigo-700/60 space-y-2">
-                        <p className="text-xs font-semibold text-indigo-200">{OBSERVATION_QUESTIONS[0].question}</p>
+                      <div className="mt-4 p-3 bg-gold-950/40 rounded-xl border border-gold-700/60 space-y-2">
+                        <p className="text-xs font-semibold text-gold-200">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="space-y-1">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, oIdx) => (
                             <button
                               key={oIdx}
                               onClick={() => handleObservation(oIdx)}
-                              className="w-full text-left p-2 rounded-lg bg-slate-900 text-xs text-slate-300 hover:bg-indigo-900/40 transition"
+                              className="w-full text-left p-2 rounded-lg bg-slate-900 text-xs text-slate-300 hover:bg-gold-900/40 transition"
                             >
                               {opt}
                             </button>
@@ -1984,7 +1984,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
 
                     {radioFormatMode === 'jingle' && (
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 space-y-2 text-xs">
-                        <div className="text-blue-400 font-bold uppercase text-[10px]">Format: 15-Second Radio Jingle</div>
+                        <div className="text-gold-400 font-bold uppercase text-[10px]">Format: 15-Second Radio Jingle</div>
                         <p className="text-slate-200">
                           <strong>CHORUS (Upbeat folk tune):</strong> "Doodh si safedi Nirma se aaye, rangeen kapda bhi khil khil jaaye!"<br />
                           <strong>VOICEOVER:</strong> "Washing powder Nirma. Shuddhata aur safedi ka vishwas."
@@ -2217,7 +2217,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
                   <button onClick={() => handlePyramidLayerClick('body')} className="p-3 bg-amber-950/60 border border-amber-600 rounded-xl text-xs font-bold text-amber-200">
                     2. Body (Quotes & Stats)
                   </button>
-                  <button onClick={() => handlePyramidLayerClick('tail')} className="p-3 bg-blue-950/60 border border-blue-600 rounded-xl text-xs font-bold text-blue-200">
+                  <button onClick={() => handlePyramidLayerClick('tail')} className="p-3 bg-gold-950/60 border border-gold-600 rounded-xl text-xs font-bold text-gold-200">
                     3. Tail (Archival Background)
                   </button>
                 </div>
@@ -2477,7 +2477,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
                       key={cIdx}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-950 text-indigo-200 border border-indigo-700 text-xs font-medium flex items-center gap-2"
+                      className="px-3 py-1.5 rounded-lg bg-gold-950 text-gold-200 border border-gold-700 text-xs font-medium flex items-center gap-2"
                     >
                       {part}
                       <button onClick={() => handleRemoveConstructPart(cIdx)} className="text-rose-400 hover:text-rose-200">
@@ -2570,7 +2570,7 @@ function C11_MassMediaNewsValuesTimelinessSim({
           className="space-y-6"
         >
           {/* Hero Banner */}
-          <div className="p-8 rounded-3xl bg-gradient-to-br from-rose-950 via-slate-900 to-indigo-950 border border-rose-700 text-center space-y-3">
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-rose-950 via-slate-900 to-gold-950 border border-rose-700 text-center space-y-3">
             <span className="text-4xl">🏆</span>
             <h2 className="text-2xl md:text-3xl font-black text-white">Edition Goes to Press!</h2>
             <p className="text-xs text-slate-300 max-w-lg mx-auto">
@@ -2620,8 +2620,8 @@ function C11_MassMediaNewsValuesTimelinessSim({
           )}
 
           {/* Spaced Repetition (SM-2) Review Schedule */}
-          <div className="p-5 rounded-2xl bg-indigo-950/40 border border-indigo-800 text-xs text-slate-300 space-y-2">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+          <div className="p-5 rounded-2xl bg-gold-950/40 border border-gold-800 text-xs text-slate-300 space-y-2">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-gold-300">
               Spaced Repetition Schedule (SM-2 Algorithm):
             </h3>
             <p>

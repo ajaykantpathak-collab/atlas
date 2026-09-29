@@ -11,11 +11,11 @@ export const w_c11_chemistrysolubilityproductsim: SimDef = {
     classLevel: 11, subject: 'chemistry', topic: 'Solubility Product: Ksp and Common Ion Effect',
     chapters: [],
     nodeIds: ['c11_chem_cbse_07_014', 'c11_chem_cbse_09_004', 'c11_chem_cbse_04_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Observe what happens when you add a few drops of concentrated hydrochloric acid to a saturated solution of.', goal: 'Master Solubility Product: Ksp and Common Ion Effect.' },
     // discovery omitted — no cleanly extractable hook
     teaching: [
-        { title: 'The solubility product (Ksp) is the.', text: 'The solubility product (Ksp) is the equilibrium constant for the dissolution of a sparingly soluble ionic salt in water, expressed as the product of the molar concentrations of its constituent ions,.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The solubility product (Ksp) is the.', text: 'The solubility product (Ksp) is the equilibrium constant for the dissolution of a sparingly soluble ionic salt in water, expressed as the product of the molar concentrations of its constituent ions,.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_chem_cbse_07_014', title: 'The solubility product (Ksp) is the.',

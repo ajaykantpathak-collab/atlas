@@ -11,7 +11,7 @@ export const w_c11_psyhumandevelopmentcbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Life-Span Perspective on Development: Continuous Process',
     chapters: [],
     nodeIds: ['c11_psy_cbse_03_002', 'c11_psy_cbse_03_011', 'c11_psy_cbse_01_008', 'c11_psy_cbse_04_003', 'c11_psy_cbse_04_004', 'c11_psy_cbse_04_008', 'c11_psy_cbse_03_001', 'c11_psy_cbse_03_003', 'c11_psy_cbse_03_004', 'c11_psy_cbse_03_005', 'c11_psy_cbse_03_006', 'c11_psy_cbse_03_007', 'c11_psy_cbse_03_008', 'c11_psy_cbse_03_009', 'c11_psy_cbse_03_010'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine your 68-year-old grandmother decides to learn digital painting on a tablet, while your 14-year-old.', goal: 'Master Life-Span Perspective on Development: Continuous Process.' },
     discovery: {
         question: 'A 60-year-old retired professor decides to learn Spanish using a language app, practicing 30 minutes daily.',
@@ -20,7 +20,7 @@ export const w_c11_psyhumandevelopmentcbsesim: SimDef = {
         hook: 'Students equate Life-Span Perspective with "development continues throughout life" (simple continuity) and miss its.',
     },
     teaching: [
-        { title: 'Life-Span Perspective (LSP) is a.', text: 'Life-Span Perspective (LSP) is a comprehensive theoretical framework that conceptualises human development as a lifelong process from conception to death, characterised by seven core assumptions:.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Life-Span Perspective (LSP) is a.', text: 'Life-Span Perspective (LSP) is a comprehensive theoretical framework that conceptualises human development as a lifelong process from conception to death, characterised by seven core assumptions:.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_03_002', title: 'Life-Span Perspective (LSP) is a.',

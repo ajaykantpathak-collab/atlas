@@ -1173,7 +1173,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
             key={phase}
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="px-3 py-1 rounded-full text-xs font-bold bg-indigo-900/60 border border-indigo-700/60 text-indigo-300 uppercase tracking-wider"
+            className="px-3 py-1 rounded-full text-xs font-bold bg-gold-900/60 border border-gold-700/60 text-gold-300 uppercase tracking-wider"
           >
             Phase: {phase}
           </motion.span>
@@ -1206,7 +1206,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
       {/* ─── PHASE 1: DISCOVERY PHASE ─── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/30 rounded-2xl border border-amber-800/40 shadow-xl">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/30 rounded-2xl border border-amber-800/40 shadow-xl">
             <div className="inline-block px-3 py-1 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-bold mb-3">
               📜 ARCHIVAL SCENARIO
             </div>
@@ -1492,7 +1492,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
               {currentSlide === 2 && (
                 <div className="space-y-4">
                   {/* House of Wisdom Synthesis SVG #3 */}
-                  <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/40">
+                  <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/40">
                     <svg viewBox="0 0 600 150" className="w-full h-auto">
                       <circle cx="300" cy="75" r="45" fill="#312e81" stroke="#818cf8" strokeWidth="2" />
                       <text x="300" y="70" textAnchor="middle" fill="#c7d2fe" fontSize="10" fontWeight="bold">BAYT AL-HIKMA</text>
@@ -1539,7 +1539,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                         }}
                         className={`p-3 rounded-xl text-left border flex-1 min-w-[200px] transition-all ${
                           selectedDiscipline === d.id
-                            ? 'bg-indigo-950/80 border-indigo-400 text-indigo-200'
+                            ? 'bg-gold-950/80 border-gold-400 text-gold-200'
                             : 'bg-slate-950/50 border-slate-800 text-slate-400'
                         }`}
                       >
@@ -1549,8 +1549,8 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                     ))}
                   </div>
 
-                  <div className="p-4 bg-slate-950 rounded-2xl border border-indigo-900/40 text-center space-y-2">
-                    <p className="text-xs text-indigo-300 font-semibold">
+                  <div className="p-4 bg-slate-950 rounded-2xl border border-gold-900/40 text-center space-y-2">
+                    <p className="text-xs text-gold-300 font-semibold">
                       📚 Abbasid Translation Engine Active: Multi-faith scholars (Muslim, Christian, Jewish, Sabian) at Bayt al-Hikma
                     </p>
                     <p className="text-[11px] text-slate-400">
@@ -1584,7 +1584,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                   )}
 
                   {predictionMade && !predictionVerified && (
-                    <div className="p-3 bg-indigo-950/50 border border-indigo-800 rounded-xl text-xs text-indigo-300">
+                    <div className="p-3 bg-gold-950/50 border border-gold-800 rounded-xl text-xs text-gold-300">
                       👉 {PREDICTION_QUESTIONS[0].verifyInstruction}
                     </div>
                   )}
@@ -1641,7 +1641,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                       </div>
                       <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-center">
                         <span className="text-[10px] text-slate-400 block">Market Surveillance</span>
-                        <span className="text-sm font-black text-indigo-400">Shahna-i-Mandi Active</span>
+                        <span className="text-sm font-black text-gold-400">Shahna-i-Mandi Active</span>
                       </div>
                     </div>
                   </div>
@@ -1774,7 +1774,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
       {phase === 'sandbox' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-6">
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-2">
-            <div className="inline-block px-2.5 py-0.5 rounded-md bg-indigo-500/20 text-indigo-300 text-xs font-bold">
+            <div className="inline-block px-2.5 py-0.5 rounded-md bg-gold-500/20 text-gold-300 text-xs font-bold">
               FREE EXPLORATION LAB
             </div>
             <h3 className="text-lg font-bold text-white">Imperial Policy Sandbox: Dual Control Center</h3>
@@ -1799,7 +1799,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
               <div className="p-3 bg-slate-900 rounded-xl text-xs space-y-1 text-slate-300">
                 <p>Cavalry Maintained: <strong className="text-amber-400">{armyStrength.toLocaleString()}</strong></p>
                 <p>Wheat Price: <strong className="text-emerald-400">{wheatPriceFixed} Jitals/Man</strong></p>
-                <p>Market Status: <span className="text-indigo-300 font-mono">Siri, Mandi, Sarai-i-Adl Pegged</span></p>
+                <p>Market Status: <span className="text-gold-300 font-mono">Siri, Mandi, Sarai-i-Adl Pegged</span></p>
               </div>
             </div>
 
@@ -1848,7 +1848,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
             </div>
             <div className="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-amber-500 via-emerald-400 to-indigo-500"
+                className="h-full bg-gradient-to-r from-amber-500 via-emerald-400 to-gold-500"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -1926,7 +1926,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation || Object.keys(droppedLabels).length < 5}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Dynasty Sequence
                 </motion.button>
@@ -1967,7 +1967,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Order
                 </motion.button>
@@ -2021,7 +2021,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                       key={i}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
-                      className="px-3 py-1 bg-indigo-900/80 border border-indigo-700 rounded-lg text-xs text-indigo-200 flex items-center gap-2"
+                      className="px-3 py-1 bg-gold-900/80 border border-gold-700 rounded-lg text-xs text-gold-200 flex items-center gap-2"
                     >
                       <span>{part}</span>
                       <button
@@ -2042,7 +2042,7 @@ function C7_HistoryCivicsFivePillarsIslamSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' -> '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white font-bold rounded-xl text-xs"
                 >
                   Verify Constructed Chain
                 </motion.button>
@@ -2194,10 +2194,10 @@ function C7_HistoryCivicsFivePillarsIslamSim({
 
           {/* Spaced Repetition Schedule */}
           <div className="p-5 bg-slate-900 border border-slate-800 rounded-2xl space-y-2">
-            <h3 className="text-xs font-bold text-indigo-300 uppercase tracking-wider">Spaced Repetition Schedule (SM-2)</h3>
+            <h3 className="text-xs font-bold text-gold-300 uppercase tracking-wider">Spaced Repetition Schedule (SM-2)</h3>
             <p className="text-xs text-slate-300 leading-relaxed">
               Based on your response latency and accuracy, your next recommended archival review is scheduled in{' '}
-              <strong className="text-indigo-400">
+              <strong className="text-gold-400">
                 {errors === 0 ? '7 days' : errors <= 3 ? '3 days' : '1 day'}
               </strong>
               .
@@ -2205,8 +2205,8 @@ function C7_HistoryCivicsFivePillarsIslamSim({
           </div>
 
           {/* Real World Activity */}
-          <div className="p-6 bg-gradient-to-br from-indigo-950/30 to-slate-900 rounded-2xl border border-indigo-800/40 space-y-3">
-            <h3 className="text-sm font-extrabold text-indigo-300">{REAL_WORLD_ACTIVITY.title}</h3>
+          <div className="p-6 bg-gradient-to-br from-gold-950/30 to-slate-900 rounded-2xl border border-gold-800/40 space-y-3">
+            <h3 className="text-sm font-extrabold text-gold-300">{REAL_WORLD_ACTIVITY.title}</h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <ol className="space-y-1.5 pt-1 text-xs text-slate-400 list-decimal list-inside">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (

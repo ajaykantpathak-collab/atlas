@@ -720,13 +720,13 @@ const HaccpFlowchartDiagram: React.FC<{ activeStep: number }> = ({ activeStep })
 const StandardsHierarchyDiagram: React.FC = () => {
   return (
     <div className="bg-slate-900/80 p-4 rounded-xl border border-slate-700 text-white">
-      <h4 className="text-center font-bold text-cyan-400 mb-2 text-sm uppercase tracking-wider">
+      <h4 className="text-center font-bold text-gold-400 mb-2 text-sm uppercase tracking-wider">
         Food Safety & Regulatory Hierarchy Spectrum
       </h4>
       <div className="relative flex flex-col items-center justify-center space-y-2 py-2">
         {/* Tier 1: International */}
-        <div className="w-full max-w-md bg-gradient-to-r from-blue-900/60 to-indigo-900/60 border border-blue-500/50 p-2.5 rounded-lg text-center shadow">
-          <span className="text-xs font-bold text-blue-300">INTERNATIONAL HARMONIZATION TIER</span>
+        <div className="w-full max-w-md bg-gradient-to-r from-gold-900/60 to-gold-900/60 border border-gold-500/50 p-2.5 rounded-lg text-center shadow">
+          <span className="text-xs font-bold text-gold-300">INTERNATIONAL HARMONIZATION TIER</span>
           <p className="text-[11px] text-slate-300">Codex Alimentarius (FAO/WHO) • ISO 22000 • WTO (SPS / TBT)</p>
         </div>
         {/* Tier 2: National Mandatory Statutory */}
@@ -754,7 +754,7 @@ const AdulterationTestTubeDiagram: React.FC<{
   return (
     <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center justify-between text-white">
       <div className="text-xs font-semibold text-slate-300 mb-2">
-        Test Tube Diagnostic: <span className="text-amber-400">{sampleName}</span> + <span className="text-cyan-400">{reagentName}</span>
+        Test Tube Diagnostic: <span className="text-amber-400">{sampleName}</span> + <span className="text-gold-400">{reagentName}</span>
       </div>
       <svg className="w-32 h-44 my-1" viewBox="0 0 100 150">
         {/* Test Tube Glass Outline */}
@@ -1226,7 +1226,7 @@ export function C12_BiologyFoodQualityCBSESim({
 
             {/* PREDICTION QUESTIONS SECTION */}
             <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 Hypothesis & Prediction Tests
               </h3>
               <div className="space-y-4">
@@ -1319,7 +1319,7 @@ export function C12_BiologyFoodQualityCBSESim({
                   {EXPLORATION_STEPS[activeLabIndex].instruction}
                 </p>
               </div>
-              <span className="text-[10px] font-mono bg-slate-900 border border-slate-700 px-3 py-1 rounded-full text-cyan-400">
+              <span className="text-[10px] font-mono bg-slate-900 border border-slate-700 px-3 py-1 rounded-full text-gold-400">
                 Node Ref: {EXPLORATION_STEPS[activeLabIndex].nodeId}
               </span>
             </div>
@@ -1378,7 +1378,7 @@ export function C12_BiologyFoodQualityCBSESim({
                           }}
                           className={`p-2.5 rounded-lg border text-xs font-semibold ${
                             selectedReagent === r.id
-                              ? 'bg-cyan-500/20 border-cyan-500 text-cyan-300'
+                              ? 'bg-gold-500/20 border-gold-500 text-gold-300'
                               : 'bg-slate-900 border-slate-800 text-slate-400 hover:border-slate-700'
                           }`}
                         >
@@ -1448,7 +1448,7 @@ export function C12_BiologyFoodQualityCBSESim({
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-slate-400 font-medium">pH Level (Acidity):</span>
-                      <span className="font-bold text-cyan-400">{simPh}</span>
+                      <span className="font-bold text-gold-400">{simPh}</span>
                     </div>
                     <input
                       type="range"
@@ -1457,7 +1457,7 @@ export function C12_BiologyFoodQualityCBSESim({
                       step="0.1"
                       value={simPh}
                       onChange={(e) => setSimPh(parseFloat(e.target.value))}
-                      className="w-full accent-cyan-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                     <div className="flex justify-between text-[10px] text-slate-500 mt-1">
                       <span>pH 2.0 (Lemon)</span>
@@ -1819,7 +1819,7 @@ export function C12_BiologyFoodQualityCBSESim({
                   </span>
                   <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
                     CHALLENGES[currentChallengeIndex].difficulty === 'foundation'
-                      ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30'
+                      ? 'bg-gold-500/20 text-gold-400 border border-gold-500/30'
                       : CHALLENGES[currentChallengeIndex].difficulty === 'standard'
                       ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
                       : 'bg-red-500/20 text-red-400 border border-red-500/30'
@@ -1959,7 +1959,7 @@ export function C12_BiologyFoodQualityCBSESim({
 
             {/* Diagnostic Mastery Summary Table */}
             <div className="bg-slate-950 p-6 rounded-2xl border border-slate-800 space-y-4">
-              <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-wider">
+              <h3 className="text-sm font-bold text-gold-400 uppercase tracking-wider">
                 Curriculum Node Mastery Tracker (BKT / SM2)
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">

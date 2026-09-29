@@ -1112,7 +1112,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
     return (
       <div className="flex items-center gap-3 flex-wrap">
         {Array.from({ length: bundles }).map((_, bIdx) => (
-          <svg key={`b_${bIdx}`} viewBox="0 0 45 40" className="w-10 h-9 bg-slate-900/80 p-1 rounded border border-indigo-500/30">
+          <svg key={`b_${bIdx}`} viewBox="0 0 45 40" className="w-10 h-9 bg-slate-900/80 p-1 rounded border border-gold-500/30">
             {/* 4 Vertical strokes */}
             <line x1="8" y1="6" x2="8" y2="34" stroke="#60a5fa" strokeWidth="3" strokeLinecap="round" />
             <line x1="16" y1="6" x2="16" y2="34" stroke="#60a5fa" strokeWidth="3" strokeLinecap="round" />
@@ -1123,7 +1123,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
           </svg>
         ))}
         {remainder > 0 && (
-          <svg viewBox="0 0 45 40" className="w-10 h-9 bg-slate-900/80 p-1 rounded border border-indigo-500/30">
+          <svg viewBox="0 0 45 40" className="w-10 h-9 bg-slate-900/80 p-1 rounded border border-gold-500/30">
             {Array.from({ length: remainder }).map((_, rIdx) => (
               <line
                 key={`r_${rIdx}`}
@@ -1153,12 +1153,12 @@ function C6_MathematicsCollectionOrganisationDataSim({
         className="flex flex-wrap items-center justify-between gap-4 pb-5 border-b border-slate-800"
       >
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner">
+          <div className="w-12 h-12 rounded-2xl bg-gold-600/20 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner">
             {subjectConfig.emoji}
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs uppercase tracking-widest font-bold text-indigo-400 bg-indigo-950/80 px-2.5 py-0.5 rounded-full border border-indigo-800">
+              <span className="text-xs uppercase tracking-widest font-bold text-gold-400 bg-gold-950/80 px-2.5 py-0.5 rounded-full border border-gold-800">
                 ICSE Class 6 Math
               </span>
               <motion.span
@@ -1168,7 +1168,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                 className={`text-xs px-2.5 py-0.5 rounded-full font-bold uppercase tracking-wider ${
                   difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-400 border border-emerald-700' :
                   difficulty === 'advanced' ? 'bg-purple-950 text-purple-400 border border-purple-700' :
-                  'bg-blue-950 text-blue-400 border border-blue-700'
+                  'bg-gold-950 text-gold-400 border border-gold-700'
                 }`}
               >
                 {difficulty}
@@ -1184,7 +1184,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
         <div className="flex items-center gap-3">
           <div className="text-right hidden sm:block">
             <p className="text-xs text-slate-400 font-medium">BKT Mastery</p>
-            <p className="text-sm font-bold text-indigo-300 capitalize">{masteryLevel}</p>
+            <p className="text-sm font-bold text-gold-300 capitalize">{masteryLevel}</p>
           </div>
           <div className="px-4 py-2 bg-slate-900 rounded-xl border border-slate-800 flex items-center gap-2">
             <span className="text-emerald-400 font-mono font-bold">{scoreBreakdown.correct}</span>
@@ -1205,15 +1205,15 @@ function C6_MathematicsCollectionOrganisationDataSim({
             className="mt-6 space-y-6"
           >
             {/* Narrative Context Card */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950/60 via-slate-900 to-slate-900 rounded-2xl border border-indigo-800/60 shadow-lg relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+            <div className="p-6 bg-gradient-to-br from-gold-950/60 via-slate-900 to-slate-900 rounded-2xl border border-gold-800/60 shadow-lg relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
               <div className="flex items-center gap-3 mb-2">
                 <span className="text-2xl">🏆</span>
-                <h2 className="text-xl font-bold text-indigo-300">{SCENARIO.title}</h2>
+                <h2 className="text-xl font-bold text-gold-300">{SCENARIO.title}</h2>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-200/70 mt-3 pt-3 border-t border-indigo-900/50">
-                🎯 <strong className="text-indigo-300">Mission:</strong> {SCENARIO.context}
+              <p className="text-xs text-gold-200/70 mt-3 pt-3 border-t border-gold-900/50">
+                🎯 <strong className="text-gold-300">Mission:</strong> {SCENARIO.context}
               </p>
             </div>
 
@@ -1242,7 +1242,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     }`}
                   >
                     <div className="flex items-start gap-2">
-                      <span className="font-mono text-indigo-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
+                      <span className="font-mono text-gold-400 font-bold">{String.fromCharCode(65 + idx)}.</span>
                       <span>{option}</span>
                     </div>
                   </motion.button>
@@ -1267,7 +1267,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30 whitespace-nowrap transition-colors"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30 whitespace-nowrap transition-colors"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1296,7 +1296,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                   onClick={() => setCurrentSlide(idx)}
                   className={`px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                      ? 'bg-gold-600 text-white shadow-md shadow-gold-600/30'
                       : 'bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800'
                   }`}
                 >
@@ -1315,7 +1315,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                 className="p-6 bg-slate-900/90 rounded-2xl border border-slate-800 space-y-6"
               >
                 <div>
-                  <h3 className="text-lg font-bold text-indigo-300">
+                  <h3 className="text-lg font-bold text-gold-300">
                     {EXPLORATION_STEPS[currentSlide].title}
                   </h3>
                   <p className="text-amber-400 text-xs sm:text-sm mt-1">
@@ -1353,7 +1353,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
 
                     {/* Raw Stream Display */}
                     <div className="p-3 bg-slate-950/60 rounded-xl border border-slate-800 text-xs font-mono text-slate-400 overflow-x-auto whitespace-nowrap">
-                      <strong className="text-indigo-400">Raw Stream: </strong>
+                      <strong className="text-gold-400">Raw Stream: </strong>
                       {rawVotesList.length > 0 ? rawVotesList.join(', ') : 'Waiting for raw survey votes...'}
                     </div>
 
@@ -1375,7 +1375,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                                 {fruit}
                               </td>
                               <td className="p-3">{renderTallySVG(count)}</td>
-                              <td className="p-3 text-right font-mono font-bold text-indigo-300 text-base">{count}</td>
+                              <td className="p-3 text-right font-mono font-bold text-gold-300 text-base">{count}</td>
                             </tr>
                           ))}
                           <tr className="bg-slate-950/90 font-bold text-white">
@@ -1390,8 +1390,8 @@ function C6_MathematicsCollectionOrganisationDataSim({
 
                     {/* Observation Question */}
                     {!observationAnswered && (
-                      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
-                        <p className="text-xs font-bold text-indigo-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
+                      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
+                        <p className="text-xs font-bold text-gold-300 mb-2">{OBSERVATION_QUESTIONS[0].question}</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                           {OBSERVATION_QUESTIONS[0].observableOptions.map((opt, oIdx) => (
                             <motion.button
@@ -1415,7 +1415,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                   <div className="space-y-6">
                     {/* Predict-Then-Check Box */}
                     {!predictionMade && (
-                      <div className="p-4 bg-indigo-950/40 rounded-xl border border-indigo-800">
+                      <div className="p-4 bg-gold-950/40 rounded-xl border border-gold-800">
                         <span className="text-xs font-bold text-amber-400">Step 1: Predict Before Interacting</span>
                         <p className="text-xs sm:text-sm text-white font-semibold mt-1 mb-3">
                           {PREDICTION_QUESTIONS[0].question}
@@ -1498,7 +1498,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                                 </span>
                               )}
                             </div>
-                            <div className="text-right font-mono text-xs text-indigo-300">
+                            <div className="text-right font-mono text-xs text-gold-300">
                               {value} pts <span className="text-slate-500 text-[10px]">({fullStars} full {hasHalf ? '+ ½' : ''})</span>
                             </div>
                           </div>
@@ -1517,7 +1517,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                         <div key={day} className="space-y-1">
                           <div className="flex justify-between text-xs text-slate-300">
                             <span>{day.slice(0, 3)}</span>
-                            <span className="font-mono text-indigo-400 font-bold">{val}</span>
+                            <span className="font-mono text-gold-400 font-bold">{val}</span>
                           </div>
                           <input
                             type="range"
@@ -1527,7 +1527,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                             value={val}
                             aria-label={`Set bar value for ${day}`}
                             onChange={e => handleBarValueChange(day, parseInt(e.target.value))}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                       ))}
@@ -1697,7 +1697,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={handleSortMedianList}
-                        className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-indigo-600/30"
+                        className="px-5 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-lg shadow-gold-600/30"
                       >
                         {isSorted ? 'Shuffle List' : 'Sort Ascending →'}
                       </motion.button>
@@ -1759,7 +1759,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setCurrentSlide(s => s + 1)}
-                      className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow"
+                      className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow"
                     >
                       Next Lab →
                     </motion.button>
@@ -1791,7 +1791,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <h3 className="text-lg font-bold text-indigo-300">Data Play Sandbox</h3>
+                  <h3 className="text-lg font-bold text-gold-300">Data Play Sandbox</h3>
                   <p className="text-xs text-slate-400 mt-1">
                     Explore relationships between tally bundles, pictograph scales, bar heights, and mean balance points without scoring.
                   </p>
@@ -1810,18 +1810,18 @@ function C6_MathematicsCollectionOrganisationDataSim({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
                 {/* Tally & Bar Hybrid */}
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-3">
-                  <span className="text-xs uppercase font-bold text-indigo-400">1. Instant Tally & Bar Sync</span>
+                  <span className="text-xs uppercase font-bold text-gold-400">1. Instant Tally & Bar Sync</span>
                   <div className="space-y-2">
                     {Object.entries(tallyCounts).map(([fruit, count]) => (
                       <div key={fruit} className="flex items-center justify-between gap-2">
                         <span className="text-xs text-slate-300 w-16">{fruit}:</span>
                         <div className="flex-1 h-3 bg-slate-800 rounded-full overflow-hidden">
                           <motion.div
-                            className="h-full bg-indigo-500 rounded-full"
+                            className="h-full bg-gold-500 rounded-full"
                             animate={{ width: `${Math.min(100, count * 5)}%` }}
                           />
                         </div>
-                        <span className="text-xs font-mono text-indigo-300 w-8 text-right">{count}</span>
+                        <span className="text-xs font-mono text-gold-300 w-8 text-right">{count}</span>
                       </div>
                     ))}
                   </div>
@@ -1837,7 +1837,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     </div>
                     <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 text-center">
                       <span className="text-[10px] text-slate-400 uppercase font-bold">Median (Middle Rank)</span>
-                      <p className="text-lg font-mono font-bold text-indigo-400 mt-1">{currentMedian}</p>
+                      <p className="text-lg font-mono font-bold text-gold-400 mt-1">{currentMedian}</p>
                     </div>
                   </div>
                 </div>
@@ -1859,7 +1859,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
             <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div className="flex items-center gap-2">
-                  <span className="text-xs font-bold text-indigo-400">
+                  <span className="text-xs font-bold text-gold-400">
                     Challenge {currentChallenge + 1} of {filteredChallenges.length}
                   </span>
                   <span className="text-slate-600">•</span>
@@ -1871,7 +1871,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                   <span className="text-xs text-slate-400">Difficulty:</span>
                   <span className={`text-xs px-2 py-0.5 rounded font-bold uppercase ${
                     activeChallenge.difficulty === 'foundation' ? 'bg-emerald-950 text-emerald-300 border border-emerald-800' :
-                    activeChallenge.difficulty === 'standard' ? 'bg-blue-950 text-blue-300 border border-blue-800' :
+                    activeChallenge.difficulty === 'standard' ? 'bg-gold-950 text-gold-300 border border-gold-800' :
                     'bg-purple-950 text-purple-300 border border-purple-800'
                   }`}>
                     {activeChallenge.difficulty}
@@ -1882,7 +1882,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
               {/* Dynamic Animated Progress Bar */}
               <div className="h-2 w-full bg-slate-950 rounded-full overflow-hidden">
                 <motion.div
-                  className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-500 rounded-full"
+                  className="h-full bg-gradient-to-r from-gold-500 via-purple-500 to-emerald-500 rounded-full"
                   animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 />
               </div>
@@ -1919,7 +1919,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                       }`}
                     >
                       <div className="flex items-start gap-3">
-                        <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-mono text-xs text-indigo-400 font-bold border border-slate-700">
+                        <span className="w-6 h-6 rounded-lg bg-slate-800 flex items-center justify-center font-mono text-xs text-gold-400 font-bold border border-slate-700">
                           {String.fromCharCode(65 + oIdx)}
                         </span>
                         <span className="flex-1">{option}</span>
@@ -1940,7 +1940,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                       placeholder="Enter exact number..."
                       aria-label="Numerical challenge input"
                       disabled={showExplanation}
-                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none w-48"
+                      className="px-4 py-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none w-48"
                     />
                     {activeChallenge.unit && (
                       <span className="text-sm font-semibold text-slate-400">{activeChallenge.unit}</span>
@@ -1950,7 +1950,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswerSubmit(numericInput)}
                       disabled={!numericInput || showExplanation}
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-sm font-bold rounded-xl shadow-lg shadow-indigo-600/30"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-sm font-bold rounded-xl shadow-lg shadow-gold-600/30"
                     >
                       Check Answer
                     </motion.button>
@@ -1971,7 +1971,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3 py-1.5 bg-indigo-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
+                        className="px-3 py-1.5 bg-gold-600 text-white rounded-lg text-xs font-bold cursor-grab shadow"
                       >
                         {item.label}
                       </motion.div>
@@ -2006,7 +2006,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerSubmit(droppedLabels)}
                     disabled={showExplanation || Object.keys(droppedLabels).length < Object.keys(activeChallenge.correctMapping || {}).length}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
                   >
                     Validate Labels
                   </motion.button>
@@ -2035,7 +2035,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                         whileTap={{ scale: 0.99 }}
                         className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs sm:text-sm text-slate-200 cursor-grab flex items-center gap-3"
                       >
-                        <span className="w-5 h-5 rounded bg-indigo-600/30 text-indigo-400 font-mono font-bold flex items-center justify-center text-xs">
+                        <span className="w-5 h-5 rounded bg-gold-600/30 text-gold-400 font-mono font-bold flex items-center justify-center text-xs">
                           {sIdx + 1}
                         </span>
                         <span>{item}</span>
@@ -2051,7 +2051,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                       handleAnswerSubmit(ans);
                     }}
                     disabled={showExplanation}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
                   >
                     Check Sequential Order
                   </motion.button>
@@ -2069,7 +2069,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold shadow"
+                        className="px-3 py-1.5 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold shadow"
                       >
                         + {part}
                       </motion.button>
@@ -2082,7 +2082,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                         key={cIdx}
                         initial={{ scale: 0 }}
                         animate={{ scale: 1 }}
-                        className="px-3 py-1 bg-indigo-950 text-indigo-300 rounded-lg text-xs font-bold border border-indigo-700 flex items-center gap-1.5"
+                        className="px-3 py-1 bg-gold-950 text-gold-300 rounded-lg text-xs font-bold border border-gold-700 flex items-center gap-1.5"
                       >
                         {part}
                         <button
@@ -2103,7 +2103,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswerSubmit(constructParts.join(' '))}
                     disabled={showExplanation || constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow"
                   >
                     Verify Construction
                   </motion.button>
@@ -2179,7 +2179,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
             className="mt-6 space-y-6"
           >
             {/* Celebration Score Banner */}
-            <div className="p-6 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-800 text-center space-y-4">
+            <div className="p-6 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-800 text-center space-y-4">
               <span className="text-4xl">🎉</span>
               <h2 className="text-2xl font-black text-white">
                 Sports Carnival Data Mastery Complete!
@@ -2194,7 +2194,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                 <div className="h-10 w-px bg-slate-800" />
                 <div>
                   <p className="text-xs text-slate-400 uppercase tracking-widest font-bold">Mastery Level</p>
-                  <p className="text-3xl font-black text-indigo-300 capitalize mt-1">
+                  <p className="text-3xl font-black text-gold-300 capitalize mt-1">
                     {masteryLevel}
                   </p>
                 </div>
@@ -2219,7 +2219,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
             <div className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-4">
               <div className="flex items-center gap-2">
                 <span className="text-xl">🤔</span>
-                <h3 className="text-base font-bold text-indigo-300">Reflect & Connect</h3>
+                <h3 className="text-base font-bold text-gold-300">Reflect & Connect</h3>
               </div>
               <p className="text-xs text-slate-400">
                 Deepen your understanding by reflecting on these core questions:
@@ -2233,7 +2233,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     value={reflectionResponses.surprising}
                     onChange={e => setReflectionResponses(prev => ({ ...prev, surprising: e.target.value }))}
                     placeholder="Type your thoughts here..."
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-indigo-500 resize-none"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
@@ -2244,18 +2244,18 @@ function C6_MathematicsCollectionOrganisationDataSim({
                     value={reflectionResponses.explain}
                     onChange={e => setReflectionResponses(prev => ({ ...prev, explain: e.target.value }))}
                     placeholder="Type your explanation..."
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-indigo-500 resize-none"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
                 <div className="p-4 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
-                  <h4 className="text-xs font-bold text-cyan-300">Real-World Application</h4>
+                  <h4 className="text-xs font-bold text-gold-300">Real-World Application</h4>
                   <p className="text-xs text-slate-300">Where in real life might you use this?</p>
                   <textarea
                     rows={3}
                     value={reflectionResponses.realLife}
                     onChange={e => setReflectionResponses(prev => ({ ...prev, realLife: e.target.value }))}
                     placeholder="Where would you use this..."
-                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-indigo-500 resize-none"
+                    className="w-full p-2.5 bg-slate-900 border border-slate-700 rounded-lg text-xs text-slate-200 outline-none focus:border-gold-500 resize-none"
                   />
                 </div>
               </div>
@@ -2284,7 +2284,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
 
             {/* Spaced Repetition Review Schedule */}
             <div className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-2">
-              <h3 className="text-xs font-bold uppercase text-indigo-400 tracking-wider">
+              <h3 className="text-xs font-bold uppercase text-gold-400 tracking-wider">
                 Spaced Repetition Schedule (SM-2)
               </h3>
               <p className="text-xs text-slate-300">
@@ -2305,7 +2305,7 @@ function C6_MathematicsCollectionOrganisationDataSim({
               <ul className="space-y-1.5 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, sIdx) => (
                   <li key={sIdx} className="text-xs text-slate-400 flex items-start gap-2">
-                    <span className="font-mono text-indigo-400 font-bold">{sIdx + 1}.</span>
+                    <span className="font-mono text-gold-400 font-bold">{sIdx + 1}.</span>
                     <span>{step}</span>
                   </li>
                 ))}

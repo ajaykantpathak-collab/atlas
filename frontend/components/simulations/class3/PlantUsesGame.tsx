@@ -78,7 +78,7 @@ const TEACHING_SLIDES = [
     title: 'Useful Plant Products! 🪵',
     text: 'Plants give us more than food! Wood and bamboo give us paper, rubber trees give sap for rubber erasers, flowers give nectar for honey, and cotton plants give cloth!',
     emoji: '🪵',
-    bgColor: 'from-blue-500 to-indigo-600',
+    bgColor: 'from-gold-500 to-gold-600',
     spoken: 'Plants give us more than food! Wood gives paper, rubber trees give rubber, flowers give nectar for honey, and cotton gives cloth!',
   },
 ];
@@ -765,7 +765,7 @@ export function PlantUsesGame({ width = 720, height = 560, onComplete }: PlantUs
 
   return (
     <div
-      className="relative flex flex-col items-center justify-between select-none overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-sky-400 to-emerald-600 font-sans"
+      className="relative flex flex-col items-center justify-between select-none overflow-hidden rounded-3xl shadow-2xl bg-gradient-to-b from-gold-400 to-emerald-600 font-sans"
       style={{ width, height }}
     >
       {/* Background Scene */}

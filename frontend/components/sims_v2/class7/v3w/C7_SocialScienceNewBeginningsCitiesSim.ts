@@ -11,7 +11,7 @@ export const w_c7_socialsciencenewbeginningscitiessim: SimDef = {
     classLevel: 7, subject: 'science', topic: 'Second Urbanisation of India: Context and Meaning',
     chapters: [],
     nodeIds: ['c7_hist_ch01_001', 'c7_hist_ch01_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 7 learner', intro: 'Have you ever wondered why some towns grow rapidly while others remain small villages, like when a new.', goal: 'Master Second Urbanisation of India: Context and Meaning.' },
     discovery: {
         question: 'What major metal technology became widespread around the 6th century BCE and helped clear the dense forests of the Gangetic plains?',
@@ -20,7 +20,7 @@ export const w_c7_socialsciencenewbeginningscitiessim: SimDef = {
         hook: 'Students often confuse the First Urbanisation (Harappan Civilisation) with the Second Urbanisation, assuming that.',
     },
     teaching: [
-        { title: 'The Second Urbanisation refers to the.', text: 'The Second Urbanisation refers to the historical period around the 6th century BCE in ancient India when towns and cities re-emerged across the Gangetic plains, driven by surplus agricultural.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Second Urbanisation refers to the.', text: 'The Second Urbanisation refers to the historical period around the 6th century BCE in ancient India when towns and cities re-emerged across the Gangetic plains, driven by surplus agricultural.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c7_hist_ch01_001', title: 'The Second Urbanisation refers to the.',

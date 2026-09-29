@@ -11,7 +11,7 @@ export const w_c11_psyhumanmemorycbsesim: SimDef = {
     classLevel: 11, subject: 'science', topic: 'Nature of Memory: Information Processing Model',
     chapters: [],
     nodeIds: ['c11_psy_cbse_06_001', 'c11_psy_cbse_06_008', 'c11_psy_cbse_01_008', 'c11_psy_cbse_01_010', 'c11_psy_cbse_03_011', 'c11_psy_cbse_06_002', 'c11_psy_cbse_06_003', 'c11_psy_cbse_06_004', 'c11_psy_cbse_06_005', 'c11_psy_cbse_06_006', 'c11_psy_cbse_06_007', 'c11_psy_cbse_06_009', 'c11_psy_cbse_06_010', 'c11_psy_cbse_01_007', 'c11_psy_cbse_01_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you hear a new friend’s phone number once and must dial it immediately—you repeat it frantically.', goal: 'Master Nature of Memory: Information Processing Model.' },
     discovery: {
         question: 'Define "schema" in your own words and explain how schemas influence memory at each of the three stages: encoding, storage, and retrieval.',
@@ -20,7 +20,7 @@ export const w_c11_psyhumanmemorycbsesim: SimDef = {
         hook: '**Misconception**: "Memory works like a video camera — it records events faithfully and replays them on demand.',
     },
     teaching: [
-        { title: 'The Information Processing Model (Stage.', text: 'The Information Processing Model (Stage Model) conceptualizes human memory as a system that processes information through three sequential stages—encoding (transforming sensory input into a neural.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Information Processing Model (Stage.', text: 'The Information Processing Model (Stage Model) conceptualizes human memory as a system that processes information through three sequential stages—encoding (transforming sensory input into a neural.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_psy_cbse_06_001', title: 'The Information Processing Model (Stage.',

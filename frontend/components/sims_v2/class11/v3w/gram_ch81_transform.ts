@@ -9,7 +9,7 @@ export const c11_gram_ch81: SimDef = {
     classLevel: 11, subject: 'english-grammar', topic: 'Sentence transformation and synthesis',
     chapters: ['c11_gram_ch81'],
     nodeIds: ['c11_gram_cbse_81_001', 'c11_gram_cbse_81_002'],
-    emoji: '🔀', theme: { bg: 'from-slate-900 to-violet-950', accent: 'violet', scene: 'senior' },
+    emoji: '🔀', theme: { bg: 'from-slate-900 to-gold-950', accent: 'violet', scene: 'senior' },
 
     scenario: {
         role: 'a legal translator who must repackage meaning into different structures without altering a single fact',
@@ -28,7 +28,7 @@ export const c11_gram_ch81: SimDef = {
         hook: '"Too tired to work" secretly means "so tired that he could NOT work" — the negation is hiding inside the infinitive.',
     },
     teaching: [
-        { title: 'The hidden logic', text: 'too…to = so…that + cannot. Although-clause = in spite of/despite + noun/-ing. Unless = if + not. Every transform is a logic-preservation puzzle.', emoji: '🧩', bgColor: 'from-violet-500 to-purple-600' },
+        { title: 'The hidden logic', text: 'too…to = so…that + cannot. Although-clause = in spite of/despite + noun/-ing. Unless = if + not. Every transform is a logic-preservation puzzle.', emoji: '🧩', bgColor: 'from-gold-500 to-purple-600' },
         { title: 'The merger menu', text: 'Shared subject → participle ("Hearing the news, she fainted"). Identity → appositive. Purpose → infinitive. Description → relative clause.', emoji: '🫗', bgColor: 'from-purple-500 to-fuchsia-600' },
     ],
 

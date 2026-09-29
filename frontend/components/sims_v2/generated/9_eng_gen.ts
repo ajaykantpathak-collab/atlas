@@ -9,14 +9,14 @@ import type { SimDef } from '../engine/types';
 export const C9_ENG_GEN: SimDef[] = [
  {
   "id": "gen_c9_eng_ch01",
-  "title": "Story Summary",
+  "title": "From 'How I Taught My Grandmother To Read'",
   "subtitle": "English · Chapter 1",
   "classLevel": 9,
   "mode": "senior",
   "subject": "english",
-  "topic": "Story Summary",
+  "topic": "From 'How I Taught My Grandmother To Read'",
   "chapters": [
-   "English Ch1: Story Summary"
+   "English Ch1: From 'How I Taught My Grandmother To Read'"
   ],
   "nodeIds": [
    "c9_engl_ch1_1",
@@ -37,7 +37,7 @@ export const C9_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Story Summary actually explain?",
+   "question": "In one line -- what does From 'How I Taught My Grandmother actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -54,8 +54,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Character Analysis",
-    "text": "Character analysis is the systematic examination of a literary character's traits, motivations, development, and role in the narrative through evidence from the text, requiring the student to move beyond surface-level description to interpret how the author",
+    "title": "From 'How I Taught My Grandmother To Read'",
+    "text": "From 'How I Taught My Grandmother to Read': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -90,8 +90,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context is the skill of determining the precise meaning, connotation, and thematic significance of specific words as they are used within a particular text, rather than relying solely on dictionary definitions.",
+    "title": "From 'How I Taught My Grandmother To Read'",
+    "text": "From 'How I Taught My Grandmother to Read': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -114,8 +114,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Who is the protagonist of the story and what is her name?",
     "answer": "The protagonist is the grandmother, named Krishtakka (also called Avva). She is a 62-year-old woman living in a village in North Karnataka who cannot read",
     "options": [
+     "Cultural context refers to the social, religious, and economic environment of a specific place and time that shapes the characters' beliefs, actions, and the story's events",
      "Inter-generational learning in the story is the bidirectional exchange where the granddaughter teaches literacy skills to her grandmother",
-     "Guru dakshina is the traditional offering a student gives to a teacher at the end of learning. In the story",
      "The protagonist is the grandmother, named Krishtakka (also called Avva). She is a 62-year-old woman living in a village in North Karnataka who cannot read"
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
@@ -206,8 +206,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "State the core idea of the theme \"Literacy as Empowerment in Later Life\" as it applies to the story \"How I Taught My Grandmother to Read\" in one sentence.",
     "answer": "The theme means that learning to read in old age gives the grandmother independence, confidence, and dignity",
     "options": [
-     "The story uses first-person narrative point of view, and the narrator is the granddaughter (the author herself, Sudha Murty)",
-     "The grandmother's name is Krishtakka (also referred to as Avva). The triggering event is when the narrator goes away for a week to a neighbouring village for a wedding",
+     "Guru dakshina is the traditional offering a student gives to a teacher at the end of learning. In the story",
+     "Students believe \"vocabulary in context\" means finding the dictionary definition that fits the sentence",
      "The theme means that learning to read in old age gives the grandmother independence, confidence, and dignity"
     ],
     "hint": "Straight from the 'Literacy as Empowerment in Later' slide -- match the key terms.",
@@ -227,8 +227,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the specific deadline Krishtakka sets for herself to learn to read, and why is that date significant in the story?",
     "answer": "Krishtakka sets the deadline of Saraswati Pooja day, which is significant because it is the festival dedicated to the goddess of learning",
     "options": [
-     "Guru dakshina is the traditional offering a student gives to a teacher at the end of learning. In the story",
-     "The Saraswati Puja deadline is the date by which Krishtakka committed to learning the alphabet and reading independently",
+     "When the granddaughter (narrator) went away for a week to a neighboring village for a wedding, Krishtakka could not read the latest episode of Kashi Yatre herself",
+     "The story uses first-person narrative point of view, and the narrator is the granddaughter (the author herself, Sudha Murty)",
      "Krishtakka sets the deadline of Saraswati Pooja day, which is significant because it is the festival dedicated to the goddess of learning"
     ],
     "hint": "Straight from the 'Determination and the Will to' slide -- match the key terms.",
@@ -249,7 +249,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "answer": "The magazine is \"Karmaveera\" and the serial is \"Kashi Yatre\"",
     "options": [
      "The grandmother's name is Krishtakka (also referred to as Avva). The triggering event is when the narrator goes away for a week to a neighbouring village for a wedding",
-     "Guru dakshina is the traditional offering a student gives to a teacher at the end of learning. In the story",
+     "The student must be able to explain, with textual evidence, how the serial's plot parallels the grandmother's life situation and trace the specific psychological shift from",
      "The magazine is \"Karmaveera\" and the serial is \"Kashi Yatre\""
     ],
     "hint": "Straight from the 'Cultural context' slide -- match the key terms.",
@@ -551,8 +551,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What event triggers Krishtakka's decision to learn to read?",
     "answer": "When the granddaughter (narrator) went away for a week to a neighboring village for a wedding, Krishtakka could not read the latest episode of Kashi Yatre herself",
     "options": [
-     "The Saraswati Puja deadline is the date by which Krishtakka committed to learning the alphabet and reading independently",
-     "The theme means that learning to read in old age gives the grandmother independence, confidence, and dignity",
+     "The grandmother's name is Krishtakka (also referred to as Avva). The triggering event is when the narrator goes away for a week to a neighbouring village for a wedding",
+     "Student can write a 100-150 word summary of \"How I Taught My Grandmother to Read\" that identifies the protagonist (Krishtakka), setting (North Karnataka village)",
      "When the granddaughter (narrator) went away for a week to a neighboring village for a wedding, Krishtakka could not read the latest episode of Kashi Yatre herself"
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
@@ -566,8 +566,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the guru dakshina moment and why is it significant to the plot?",
     "answer": "Guru dakshina is the traditional offering a student gives to a teacher at the end of learning. In the story",
     "options": [
-     "The theme means that learning to read in old age gives the grandmother independence, confidence, and dignity",
-     "The magazine is \"Karmaveera\" and the serial is \"Kashi Yatre\"",
+     "The student can write a structured 150-word board-style answer analyzing Krishtakka's character using at least three distinct textual evidences (actions, dialogue",
+     "The story uses first-person narrative point of view, and the narrator is the granddaughter (the author herself, Sudha Murty)",
      "Guru dakshina is the traditional offering a student gives to a teacher at the end of learning. In the story"
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
@@ -581,14 +581,28 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the significance of the Saraswati Puja deadline in the story?",
     "answer": "The Saraswati Puja deadline is the date by which Krishtakka committed to learning the alphabet and reading independently",
     "options": [
-     "The theme means that learning to read in old age gives the grandmother independence, confidence, and dignity",
-     "Krishtakka sets the deadline of Saraswati Pooja day, which is significant because it is the festival dedicated to the goddess of learning",
-     "North Karnataka deadline is the date by which Krishtakka committed to learning the alphabet and reading independently",
+     "The student must trace the theme across at least three distinct incidents in the story, cite specific textual evidence for each",
+     "Cultural context refers to the social, religious, and economic environment of a specific place and time that shapes the characters' beliefs, actions, and the story's events",
      "The Saraswati Puja deadline is the date by which Krishtakka committed to learning the alphabet and reading independently"
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"it is just a festival\") ignores the narrative function of the deadline as a structural device that creates suspense and resolution.",
     "id": "gen_c9_eng_ch01_q15",
+    "nodeId": "c9_engl_ch1_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can write a 100-150 word summary of \"How I Taught My Grandmother to Read\" that identifies the protagonist (Krishtakka), setting (North Karnataka village)",
+    "options": [
+     "The grandmother's name is Krishtakka (also referred to as Avva). The triggering event is when the narrator goes away for a week to a neighbouring village for a wedding",
+     "Character analysis is the systematic examination of a literary character's traits, motivations, development, and role in the narrative through evidence from the text",
+     "Student can write a 100-150 word summary of \"How I Taught My Grandmother to Read\" that identifies the protagonist (Krishtakka), setting (North Karnataka village)"
+    ],
+    "hint": "Straight from the 'story summary' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can write a 100-150 word summary of \"How I Taught My Grandmother to Read\" that identifies the protagonist",
+    "id": "gen_c9_eng_ch01_q16",
     "nodeId": "c9_engl_ch1_1",
     "difficulty": "standard"
    },
@@ -603,7 +617,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Respect for elders and' slide -- match the key terms.",
     "misconception": "A wrong answer calling it \"a thank-you gift\" reduces a symbolic act to a transaction, missing the thematic closure boards look for.",
-    "id": "gen_c9_eng_ch01_q16",
+    "id": "gen_c9_eng_ch01_q17",
     "nodeId": "c9_engl_ch1_10",
     "difficulty": "advanced"
    },
@@ -614,26 +628,10 @@ export const C9_ENG_GEN: SimDef[] = [
     "options": [
      "A good entry includes: the anticipation of the bus, the sound of the magazine being read aloud, the protagonist's dilemma mirroring her own, and her resolve to learn",
      "\"Ajji touched my feet today — me, her twelve-year-old teacher! The girl who once sat on her lap listening to *Kashi Yatre* now watches her read it alone",
-     "Step 1: Grandmother refuses (autonomy respected). Step 2: My Kashi Yatre waits without pressure (patience)",
      "Step 1: Grandmother refuses (autonomy respected). Step 2: Granddaughter waits without pressure (patience)"
     ],
     "hint": "Straight from the 'Respect for elders and' slide -- match the key terms.",
     "misconception": "A wrong answer saying \"she respected her by teaching her\" confuses care with autonomy.",
-    "id": "gen_c9_eng_ch01_q17",
-    "nodeId": "c9_engl_ch1_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a 4-line dialogue between the grandmother and granddaughter set six months after the story ends, showing how inter-generational learning continues in a new domain (e.g., technology, cooking, storytelling).",
-    "answer": "Grandmother: \"Teach me to write a letter to my sister, now that I can read.\" Granddaughter: \"Only if you teach me your secret recipe for holige first",
-    "options": [
-     "Krishtakka, an illiterate grandmother in a North Karnataka village, depended on her granddaughter to read her the weekly serial Kashi Yatre",
-     "The weekly bus brings the magazine, which contains the next episode of \"Kashi Yatre\". The grandmother's learning timeline is tied to this weekly cycle: she wants to read the next",
-     "Grandmother: \"Teach me to write a letter to my sister, now that I can read.\" Granddaughter: \"Only if you teach me your secret recipe for holige first"
-    ],
-    "hint": "Straight from the 'Respect for elders and' slide -- match the key terms.",
-    "misconception": "A poor answer writes a generic \"I love you\" exchange without a new learning exchange, showing inability to extend the bidirectional pattern.",
     "id": "gen_c9_eng_ch01_q18",
     "nodeId": "c9_engl_ch1_10",
     "difficulty": "advanced"
@@ -641,24 +639,24 @@ export const C9_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about story summary?",
+    "What surprised you about from 'how i taught my grandmother to read'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Story Summary mastered! 🎯",
+  "successLine": "From 'How I Taught My mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c9_eng_ch02",
-  "title": "Story Summary",
+  "title": "From 'Sentila'",
   "subtitle": "English · Chapter 2",
   "classLevel": 9,
   "mode": "senior",
   "subject": "english",
-  "topic": "Story Summary",
+  "topic": "From 'Sentila'",
   "chapters": [
-   "English Ch2: Story Summary"
+   "English Ch2: From 'Sentila'"
   ],
   "nodeIds": [
    "c9_engl_ch2_1",
@@ -679,7 +677,7 @@ export const C9_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "In one line -- what does Story Summary actually explain?",
+   "question": "In one line -- what does From 'Sentila' actually explain?",
    "options": [
     "Why things around us behave the way they do",
     "Nothing -- it is just a name",
@@ -696,14 +694,14 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis",
-    "text": "Character analysis is the systematic examination of a literary character's traits, motivations, and development through their actions, dialogue, thoughts, relationships, and the author's descriptions, supported by textual evidence to reveal their role in",
+    "title": "From 'Sentila'",
+    "text": "From 'Sentila': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of Arenla",
-    "text": "Character analysis of Arenla (Sentila's mother) involves examining her traits, motivations, and role in the narrative through her actions, dialogue, and interactions with Sentila — specifically her concern for her daughter's future security, her belief in",
+    "title": "From 'Sentila'",
+    "text": "From 'Sentila': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -830,11 +828,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary character trait that defines Sentila in \"The Pot Maker\"? State the trait and give one example from the story.",
     "answer": "Sentila's defining trait is determination — specifically, quiet persistence in learning pottery despite gender norms",
     "options": [
-     "The five essential elements are: (1) main character, (2) setting, (3) central conflict, (4) key events (rising action, climax), and (5) resolution",
-     "The core definition is a struggle where a character's personal passion or goal opposes the expectations, traditions, or practical demands of their family or society",
+     "Arenla is Sentila's mother in \"Sentila's Pursuit of Pot Making.\" She is a parent in a Naga village who wants Sentila to pursue formal education and a government job rather than",
+     "The two core values are perseverance (Sentila's continued effort despite failures and opposition) and respect for traditional skills (the story's portrayal of pottery as valuable",
      "Sentila's defining trait is determination — specifically, quiet persistence in learning pottery despite gender norms"
     ],
-    "hint": "Straight from the 'Character analysis' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'Sentila'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"she is rebellious\") reveals the student confuses determination with open defiance; Sentila never argues — she proves herself through skill.",
     "id": "gen_c9_eng_ch02_q2",
     "nodeId": "c9_engl_ch2_2",
@@ -851,11 +849,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Who is Arenla and what is her relationship to the protagonist?",
     "answer": "Arenla is Sentila's mother in \"Sentila's Pursuit of Pot Making.\" She is a parent in a Naga village who wants Sentila to pursue formal education and a government job rather than",
     "options": [
-     "The central thematic conflict is the tension between Sentila's individual passion for pottery and her mother Arenla's expectation that she pursue formal education for a stable",
+     "Student can write a structured 150-word board-style answer analyzing Arenla's character using at least three pieces of textual evidence (dialogue, actions",
      "Arenla's primary concern is Sentila's future security and social standing. In their Naga community, pottery is considered a low-status craft, while government jobs offer respect",
      "Arenla is Sentila's mother in \"Sentila's Pursuit of Pot Making.\" She is a parent in a Naga village who wants Sentila to pursue formal education and a government job rather than"
     ],
-    "hint": "Straight from the 'Character analysis of Arenla' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'Sentila'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"she is the antagonist\") mislabels a concerned parent as an enemy — Arenla's role is more complex than simple opposition.",
     "id": "gen_c9_eng_ch02_q3",
     "nodeId": "c9_engl_ch2_3",
@@ -1058,8 +1056,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary context clue type used in this sentence from the text: \"Sentila learned wedging, the process of kneading clay to remove air bubbles, before she could use the wheel\"?",
     "answer": "The primary context clue is definition/explanation (signaled by the comma and the phrase \"the process of...\")",
     "options": [
-     "Action/dialogue 1: Arenla initially discourages Sentila from pottery, citing the community's low regard for the craft — this reveals her adherence to community values",
-     "Arenla is Sentila's mother in \"Sentila's Pursuit of Pot Making.\" She is a parent in a Naga village who wants Sentila to pursue formal education and a government job rather than",
+     "The central thematic conflict is the tension between Sentila's individual passion for pottery and her mother Arenla's expectation that she pursue formal education for a stable",
+     "Arenla's primary concern is Sentila's future security and social standing. In their Naga community, pottery is considered a low-status craft, while government jobs offer respect",
      "The primary context clue is definition/explanation (signaled by the comma and the phrase \"the process of...\")"
     ],
     "hint": "Straight from the 'Vocabulary in context' slide -- match the key terms.",
@@ -1079,8 +1077,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the core definition of \"individual desire vs. family/community pressure\" as a literary conflict?",
     "answer": "The core definition is a struggle where a character's personal passion or goal opposes the expectations, traditions, or practical demands of their family or society",
     "options": [
-     "The central thematic conflict is the tension between Sentila's individual passion for pottery and her mother Arenla's expectation that she pursue formal education for a stable",
      "A traditional vocation is an occupation passed down through generations within a community",
+     "The primary context clue is definition/explanation (signaled by the comma and the phrase \"the process of...\")",
      "The core definition is a struggle where a character's personal passion or goal opposes the expectations, traditions, or practical demands of their family or society"
     ],
     "hint": "Straight from the 'Conflict between individual' slide -- match the key terms.",
@@ -1100,8 +1098,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What are the two core values highlighted in \"The Pot Maker\" through Sentila's journey?",
     "answer": "The two core values are perseverance (Sentila's continued effort despite failures and opposition) and respect for traditional skills (the story's portrayal of pottery as valuable",
     "options": [
-     "The core definition is a struggle where a character's personal passion or goal opposes the expectations, traditions, or practical demands of their family or society",
-     "The central thematic conflict is the tension between Sentila's individual passion for pottery and her mother Arenla's expectation that she pursue formal education for a stable",
+     "Sentila's defining trait is determination — specifically, quiet persistence in learning pottery despite gender norms",
+     "Character analysis is the systematic examination of a literary character's traits, motivations, and development through their actions, dialogue, thoughts, relationships",
      "The two core values are perseverance (Sentila's continued effort despite failures and opposition) and respect for traditional skills (the story's portrayal of pottery as valuable"
     ],
     "hint": "Straight from the 'Perseverance in \"The Pot Maker\"' slide -- match the key terms.",
@@ -1249,13 +1247,28 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What are the five essential elements that must appear in a story summary?",
     "answer": "The five essential elements are: (1) main character, (2) setting, (3) central conflict, (4) key events (rising action, climax), and (5) resolution",
     "options": [
-     "Sentila's defining trait is determination — specifically, quiet persistence in learning pottery despite gender norms",
-     "Arenla is Sentila's mother in \"Sentila's Pursuit of Pot Making.\" She is a parent in a Naga village who wants Sentila to pursue formal education and a government job rather than",
+     "The student can write a 150-word summary that includes Sentila's goal, the primary conflict with her mother Arenla, at least two key plot events (e",
+     "The student can trace the theme across at least three distinct moments in the story, cite specific textual evidence (dialogue, action, or internal thought) for each moment",
      "The five essential elements are: (1) main character, (2) setting, (3) central conflict, (4) key events (rising action, climax), and (5) resolution"
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A wrong answer that lists only \"beginning, middle, end\" reveals the student confuses structure with content and cannot distinguish between a plot outline and a summary.",
     "id": "gen_c9_eng_ch02_q16",
+    "nodeId": "c9_engl_ch2_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can write a 150-word summary that includes Sentila's goal, the primary conflict with her mother Arenla, at least two key plot events (e",
+    "options": [
+     "Perseverance in \"The Pot Maker\" is the sustained effort to master a difficult craft despite repeated failures and familial opposition",
+     "The student must be able to trace how Sentila's perseverance evolves from stubbornness to skilled mastery across three distinct phases in the story",
+     "The student can write a 150-word summary that includes Sentila's goal, the primary conflict with her mother Arenla, at least two key plot events (e"
+    ],
+    "hint": "Straight from the 'story summary' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a 150-word summary that includes Sentila's goal, the primary conflict with her mother Arenla, at",
+    "id": "gen_c9_eng_ch02_q17",
     "nodeId": "c9_engl_ch2_1",
     "difficulty": "standard"
    },
@@ -1270,33 +1283,18 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A weak answer omits the cultural stake or uses informal language (\"cool pots\").",
-    "id": "gen_c9_eng_ch02_q17",
+    "id": "gen_c9_eng_ch02_q18",
     "nodeId": "c9_engl_ch2_1",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze how the kiln disaster scene (where Sentila's first batch is ruined) functions as a turning point for BOTH values simultaneously.",
-    "answer": "The kiln disaster tests perseverance by destroying weeks of visible progress, forcing Sentila to choose between quitting and diagnosing the failure (she chooses the latter",
-    "options": [
-     "The wheel's cyclical motion represents generational continuity -- \"the wheel turns as it always has\" -- while the clay's malleability mirrors Sentila's identity being shaped by",
-     "Similarity: Both pursue dreams denied by tradition (Jahnavi: education; Sentila: pottery). Difference: Jahnavi speaks directly to the river/authority to voice her desire",
-     "The kiln disaster tests perseverance by destroying weeks of visible progress, forcing Sentila to choose between quitting and diagnosing the failure (she chooses the latter"
-    ],
-    "hint": "Straight from the 'Perseverance in \"The Pot Maker\"' slide -- match the key terms.",
-    "misconception": "A wrong answer that treats the disaster as merely a plot setback misses its structural role as the crucible where both values are forged together.",
-    "id": "gen_c9_eng_ch02_q18",
-    "nodeId": "c9_engl_ch2_10",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about story summary?",
+    "What surprised you about from 'sentila'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Story Summary mastered! 🎯",
+  "successLine": "From 'Sentila' mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
@@ -1308,7 +1306,9 @@ export const C9_ENG_GEN: SimDef[] = [
   "mode": "senior",
   "subject": "english",
   "topic": "A Text Summary Of An Expository",
-  "chapters": ["English Ch3: A Text Summary Of An Expository"],
+  "chapters": [
+   "English Ch3: A Text Summary Of An Expository"
+  ],
   "nodeIds": [
    "c9_engl_ch3_1",
    "c9_engl_ch3_2",
@@ -1345,7 +1345,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Pankhas",
+    "title": "Pankhas Are Traditional Indian",
     "text": "Pankhas (hand fans) are traditional Indian craft items that embody cultural heritage through their materials, designs, and regional craftsmanship, serving both functional and symbolic purposes in social, religious, and artistic contexts across the",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -1381,8 +1381,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context For Craft And Design",
-    "text": "Vocabulary in Context for Craft and Design refers to the precise, domain-specific terminology used to describe traditional crafts—their materials, techniques, structural elements, aesthetic principles, and cultural significance—enabling accurate analysis and",
+    "title": "From 'Evolution Of The Pankha'",
+    "text": "From 'Evolution of the Pankha': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -1405,11 +1405,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of a summary for an expository text like \"Evolution of the Pankha\"?",
     "answer": "The primary purpose is to convey the text's main ideas — the chronological stages of the pankha's development, key materials, and cultural shifts — in a condensed, objective form",
     "options": [
-     "Bamboo: light, flexible, strong — ideal for frames and handles. Cane: pliable when soaked, strong when dry — ideal for woven patterns",
-     "Warp refers to the lengthwise threads held stationary on a loom or frame, while weft refers to the crosswise threads woven over and under the warp",
+     "Expository structure is the organizational framework of informative writing that presents facts, explanations, or processes in a logical",
+     "The student can independently identify, define, and correctly use 15+ craft-specific terms in analytical writing about the pankha",
      "The primary purpose is to convey the text's main ideas — the chronological stages of the pankha's development, key materials, and cultural shifts — in a condensed, objective form"
     ],
-    "hint": "Straight from the 'A text summary of an' slide -- match the key terms.",
+    "hint": "Straight from the 'A text summary of an expository' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"to describe the beauty of pankhas\" or \"to give my opinion on fans\") reveals the student confuses summary with descriptive writing or personal response, missing the expository focus on factual progression.",
     "id": "gen_c9_eng_ch03_q1",
     "nodeId": "c9_engl_ch3_1",
@@ -1426,11 +1426,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary cultural distinction between a pankha used in a royal court and a pankha used in a village home, beyond their decorative differences?",
     "answer": "The royal court pankha signifies authority, status, and ceremonial role, often made with precious materials and handled by attendants as part of protocol",
     "options": [
-     "Bamboo: light, flexible, strong — ideal for frames and handles. Cane: pliable when soaked, strong when dry — ideal for woven patterns",
-     "A thesis statement is a single, specific sentence that presents the central controlling idea of an expository essay, indicating the topic and the writer's explanatory angle (e",
+     "The primary purpose is to convey the text's main ideas — the chronological stages of the pankha's development, key materials, and cultural shifts — in a condensed, objective form",
+     "Student can articulate at least three reasons why preserving indigenous crafts like pankha making matters (cultural identity, sustainability, economic livelihood)",
      "The royal court pankha signifies authority, status, and ceremonial role, often made with precious materials and handled by attendants as part of protocol"
     ],
-    "hint": "Straight from the 'Pankhas' slide -- match the key terms.",
+    "hint": "Straight from the 'Pankhas are traditional Indian' slide -- match the key terms.",
     "misconception": "A wrong answer that focuses only on \"rich vs poor materials\" misses the symbolic function: the court pankha is a prop of power dynamics, the village pankha is a shared cultural object.",
     "id": "gen_c9_eng_ch03_q2",
     "nodeId": "c9_engl_ch3_2",
@@ -1750,8 +1750,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define 'regional identity' in the context of traditional crafts and name two elements of a craft that can reflect it.",
     "answer": "Regional identity is the distinct character of a place shaped by its geography, climate, history, and social practices; two craft elements that reflect it are materials (e",
     "options": [
-     "The primary purpose is to convey the text's main ideas — the chronological stages of the pankha's development, key materials, and cultural shifts — in a condensed, objective form",
-     "The royal court pankha signifies authority, status, and ceremonial role, often made with precious materials and handled by attendants as part of protocol",
+     "Mass-produced plastic fans undercut handmade pankhas on price and availability, reducing demand for traditional crafts",
+     "Cultural Core refers to the deep-seated values, beliefs, and historical experiences of a community that find tangible expression through its traditional crafts",
      "Regional identity is the distinct character of a place shaped by its geography, climate, history, and social practices; two craft elements that reflect it are materials (e"
     ],
     "hint": "Straight from the 'Cultural Core' slide -- match the key terms.",
@@ -2011,7 +2011,7 @@ export const C9_ENG_GEN: SimDef[] = [
      "Silk is the best choice for a decorative wedding pankha because: (1) Aesthetics — silk is smooth, colorful, and can be embroidered or painted with decorative designs",
      "The summary misses the intermediate transitional stages (e.g., woven bamboo, painted cloth, mechanized punkahs) and the causal links (e"
     ],
-    "hint": "Straight from the 'A text summary of an' slide -- match the key terms.",
+    "hint": "Straight from the 'A text summary of an expository' slide -- match the key terms.",
     "misconception": "A wrong answer like \"nothing, it covers start and end\" reveals the student thinks a summary only needs endpoints, not the developmental steps that explain *how* the evolution occurred.",
     "id": "gen_c9_eng_ch03_q15",
     "nodeId": "c9_engl_ch3_1",
@@ -2026,7 +2026,7 @@ export const C9_ENG_GEN: SimDef[] = [
      "Strong rewrite: \"The pankha's guard features a repeating boteh (paisley) motif executed in silver filigree appliqué along the woven border",
      "\"In the 18th century, the rope-operated punkah emerged as a colonial household necessity.\" A wrong answer (e"
     ],
-    "hint": "Straight from the 'A text summary of an' slide -- match the key terms.",
+    "hint": "Straight from the 'A text summary of an expository' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"The British used big fans pulled by servants\") drops the chronological marker \"18th century\" and the specific term \"punkah,\" showing the student cannot compress information while retaining precision.",
     "id": "gen_c9_eng_ch03_q16",
     "nodeId": "c9_engl_ch3_1",
@@ -2041,7 +2041,7 @@ export const C9_ENG_GEN: SimDef[] = [
      "\"In the 18th century, the rope-operated punkah emerged as a colonial household necessity.\" A wrong answer (e",
      "Reordering paragraphs destroys the chronological logic that defines an evolutionary text — the Mughal ceremonial pankha (para 3) developed *from* medieval woven techniques (para"
     ],
-    "hint": "Straight from the 'A text summary of an' slide -- match the key terms.",
+    "hint": "Straight from the 'A text summary of an expository' slide -- match the key terms.",
     "misconception": "A wrong answer like \"order doesn't matter if all points are there\" reveals the student treats the text as a list of facts rather than a developmental sequence.",
     "id": "gen_c9_eng_ch03_q17",
     "nodeId": "c9_engl_ch3_1",
@@ -2056,7 +2056,7 @@ export const C9_ENG_GEN: SimDef[] = [
      "Panel 1: \"Spot the Pankha\" — zoom on attendant's hand: long bamboo handle, rectangular palm-leaf blade with painted border",
      "Summary B is better because board exams prioritize accurate coverage of all main stages over transition words, and penalize inclusion of minor details like specific colors"
     ],
-    "hint": "Straight from the 'A text summary of an' slide -- match the key terms.",
+    "hint": "Straight from the 'A text summary of an expository' slide -- match the key terms.",
     "misconception": "A wrong choice (Summary A) reveals the student overvalues surface-level cohesion markers and undervalues content selection — a common board-level error.",
     "id": "gen_c9_eng_ch03_q18",
     "nodeId": "c9_engl_ch3_1",
@@ -2065,7 +2065,7 @@ export const C9_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about a text summary of an?",
+    "What surprised you about a text summary of an expository?",
     "Which challenge was hardest -- and why?"
    ]
   },
@@ -2075,14 +2075,14 @@ export const C9_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_eng_ch04",
-  "title": "Story Summary",
+  "title": "From 'English Chapter C9_engl_ch4'",
   "subtitle": "English · Chapter 4",
   "classLevel": 9,
   "mode": "senior",
   "subject": "english",
-  "topic": "Story Summary",
+  "topic": "From 'English Chapter C9_engl_ch4'",
   "chapters": [
-   "English Ch4: Story Summary"
+   "English Ch4: From 'English Chapter C9_engl_ch4'"
   ],
   "nodeIds": [
    "c9_engl_ch4_1",
@@ -2103,7 +2103,7 @@ export const C9_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Story Summary more about facts, or about reasoning?",
+   "question": "Is From 'English Chapter C9_engl_ch4' more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -2120,14 +2120,14 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis Of Grandpa In \"Vitamin-M\"",
-    "text": "Character analysis of Grandpa in \"Vitamin-M\" involves examining how the author portrays his fierce independence through his actions, dialogue, internal thoughts, and relationships with Ravi and Vidya, and how this trait drives the central conflict between",
+    "title": "From 'English Chapter C9_engl_ch4'",
+    "text": "From 'English chapter c9_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Character Analysis In Class 9 Board",
-    "text": "Character analysis in Class 9 board exams requires examining how an author reveals a character's personality, motivations, and growth through five textual dimensions: physical description, dialogue/speech patterns, actions/choices, internal thoughts/feelings,",
+    "title": "From 'English Chapter C9_engl_ch4'",
+    "text": "From 'English chapter c9_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
@@ -2156,8 +2156,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the meaning, connotation, and usage of words by analyzing how they function within a specific passage, including surrounding sentences, tone, and thematic relevance.",
+    "title": "From 'English Chapter C9_engl_ch4'",
+    "text": "From 'English chapter c9_engl_ch4': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
@@ -2180,8 +2180,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of a story summary in a Class 9 board exam answer?",
     "answer": "The primary purpose is to demonstrate comprehension of the narrative arc by concisely presenting the protagonist, setting, central conflict, key causal events",
     "options": [
-     "\"Vitamin-M\" metaphorically represents the emotional nourishment — love, attention, and companionship — that the elderly need, just as the body needs vitamins for physical health",
-     "Action 1: Spending time with Grandpa — listening to his stories, sharing meals, or engaging in activities he enjoys",
+     "The student can trace the theme of memory loss across at least three distinct episodes in the story, explain how each episode deepens the portrayal of aging",
+     "The primary strategy is using context clues — words, phrases, and sentences surrounding the unknown word that hint at its meaning through synonyms, antonyms, examples",
      "The primary purpose is to demonstrate comprehension of the narrative arc by concisely presenting the protagonist, setting, central conflict, key causal events"
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
@@ -2220,11 +2220,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"indirect characterization\" and give one example of how the author reveals Ravi's personality without directly stating his traits in \"Vitamin-M.\"",
     "answer": "Indirect characterization shows a character's personality through their actions, speech, thoughts, appearance, or others' reactions rather than direct statements",
     "options": [
-     "\"Vitamin-M\" metaphorically represents the emotional nourishment — love, attention, and companionship — that the elderly need, just as the body needs vitamins for physical health",
-     "(1) Grandpa calling Ravi by his father's name, (2) Grandpa insisting he hasn't eaten when he just finished a meal, (3) Grandpa searching for his spectacles while wearing them",
+     "Grandpa's defining trait is his fierce independence — his determination to manage his own life despite aging and memory challenges",
+     "Action 1: Spending time with Grandpa — listening to his stories, sharing meals, or engaging in activities he enjoys",
      "Indirect characterization shows a character's personality through their actions, speech, thoughts, appearance, or others' reactions rather than direct statements"
     ],
-    "hint": "Straight from the 'Character analysis in Class 9' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c9_engl_ch4'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"Ravi is funny\") shows the student confuses a character trait with the author's technique for revealing it, missing the analytical distinction boards require.",
     "id": "gen_c9_eng_ch04_q3",
     "nodeId": "c9_engl_ch4_3",
@@ -2241,8 +2241,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What does the title \"Vitamin-M\" metaphorically represent in the context of the story?",
     "answer": "\"Vitamin-M\" metaphorically represents the emotional nourishment — love, attention, and companionship — that the elderly need, just as the body needs vitamins for physical health",
     "options": [
-     "The primary strategy is using context clues — words, phrases, and sentences surrounding the unknown word that hint at its meaning through synonyms, antonyms, examples",
-     "The primary purpose is to demonstrate comprehension of the narrative arc by concisely presenting the protagonist, setting, central conflict, key causal events",
+     "Conflict is the central struggle between opposing forces that propels the plot. In *Vitamin-M*",
+     "In literature, conflict is the struggle between opposing forces that drives the narrative; in *Vitamin-M*",
      "\"Vitamin-M\" metaphorically represents the emotional nourishment — love, attention, and companionship — that the elderly need, just as the body needs vitamins for physical health"
     ],
     "hint": "Straight from the 'theme of caring for the elderly' slide -- match the key terms.",
@@ -2377,8 +2377,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define humour and pathos as literary devices in a narrative. Give one example of each from any story you have read.",
     "answer": "Humour is a literary device that uses comedy, wit, or absurdity to provoke laughter and lighten the mood",
     "options": [
-     "The primary purpose is to demonstrate comprehension of the narrative arc by concisely presenting the protagonist, setting, central conflict, key causal events",
-     "Grandpa's defining trait is his fierce independence — his determination to manage his own life despite aging and memory challenges",
+     "Emotional Dynamics: Adjustment in a Joint Family refers to the literary analysis of how characters in a shared household navigate conflicting emotions, responsibilities",
+     "The student can trace the theme of memory loss across at least three distinct episodes in the story, explain how each episode deepens the portrayal of aging",
      "Humour is a literary device that uses comedy, wit, or absurdity to provoke laughter and lighten the mood"
     ],
     "hint": "Straight from the 'Humour in a narrative' slide -- match the key terms.",
@@ -2472,8 +2472,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"emotional adjustment\" in the context of a joint family as portrayed in \"Vitamin-M\". Use one sentence.",
     "answer": "Emotional adjustment is the conscious process by which family members modify their expectations and behaviors to accommodate an elderly relative's declining faculties while",
     "options": [
-     "\"Vitamin-M\" metaphorically represents the emotional nourishment — love, attention, and companionship — that the elderly need, just as the body needs vitamins for physical health",
-     "Conflict is the central struggle between opposing forces that propels the plot. In *Vitamin-M*",
+     "In literature, conflict is the struggle between opposing forces that drives the narrative; in *Vitamin-M*",
+     "Student can identify three specific textual moments in \"Vitamin-M\" that demonstrate care for the elderly",
      "Emotional adjustment is the conscious process by which family members modify their expectations and behaviors to accommodate an elderly relative's declining faculties while"
     ],
     "hint": "Straight from the 'Emotional Dynamics' slide -- match the key terms.",
@@ -2493,8 +2493,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define 'empathy' in the context of literary character analysis. How does it differ from 'sympathy'?",
     "answer": "Empathy in literature is the ability of a character (or reader) to vicariously experience and understand another character's feelings, thoughts",
     "options": [
-     "Indirect characterization shows a character's personality through their actions, speech, thoughts, appearance, or others' reactions rather than direct statements",
-     "The primary strategy is using context clues — words, phrases, and sentences surrounding the unknown word that hint at its meaning through synonyms, antonyms, examples",
+     "The student can write a 150–180 word summary of \"Grandpa's Memory Challenges\" that identifies Grandpa as the protagonist, establishes the family setting",
+     "Emotional Dynamics: Adjustment in a Joint Family refers to the literary analysis of how characters in a shared household navigate conflicting emotions, responsibilities",
      "Empathy in literature is the ability of a character (or reader) to vicariously experience and understand another character's feelings, thoughts"
     ],
     "hint": "Straight from the 'Empathy, patience, and respect' slide -- match the key terms.",
@@ -2510,6 +2510,52 @@ export const C9_ENG_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "connects his independence to the story's",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "explains how each evidence reveals his",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "identifies at least three distinct textual",
+      "emoji": "📌",
+      "correctBin": "o0"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a structured board-exam answer that: (1) identifies at least three distinct textual evidences of",
+    "id": "gen_c9_eng_ch04_q11",
+    "nodeId": "c9_engl_ch4_2",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Arrange these events from \"Grandpa's Memory Challenges\" in correct causal sequence: (i) Grandpa forgets Ravi's name at breakfast, (ii) Family introduces \"Vitamin-M\" (Memory) routine with labelled jars and scheduled walks, (iii) Grandpa wanders off and is found by a policeman near the old temple, (iv) Vidya researches",
     "answer": "Correct sequence: 1. (i) Grandpa forgets Ravi's name at breakfast — *inciting incident showing early memory lapses*",
@@ -2520,7 +2566,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A wrong sequence like (i)→(ii)→(iii) reveals inability to trace cause-effect: the Vitamin-M routine is a *response* to the wandering crisis, not a precursor.",
-    "id": "gen_c9_eng_ch04_q11",
+    "id": "gen_c9_eng_ch04_q12",
     "nodeId": "c9_engl_ch4_1",
     "difficulty": "standard"
    },
@@ -2535,7 +2581,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A weak answer describing only \"he gets better\" misses the structural parallel: the medicine shelf serves as a symbolic anchor framing the narrative's problem and solution.",
-    "id": "gen_c9_eng_ch04_q12",
+    "id": "gen_c9_eng_ch04_q13",
     "nodeId": "c9_engl_ch4_1",
     "difficulty": "standard"
    },
@@ -2550,7 +2596,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Weakness 1: Lacks causal connectors — events read as a list (\"He forgets.",
-    "id": "gen_c9_eng_ch04_q13",
+    "id": "gen_c9_eng_ch04_q14",
     "nodeId": "c9_engl_ch4_1",
     "difficulty": "standard"
    },
@@ -2565,7 +2611,22 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "Choosing (A) reveals the misconception that conflict = protagonist's internal struggle only, ignoring how external forces shape the plot.",
-    "id": "gen_c9_eng_ch04_q14",
+    "id": "gen_c9_eng_ch04_q15",
+    "nodeId": "c9_engl_ch4_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can write a 150–180 word summary of \"Grandpa's Memory Challenges\" that identifies Grandpa as the protagonist, establishes the family setting",
+    "options": [
+     "The student can write a structured 150-word board exam answer analyzing either Ravi or Vidya using the PEEL method (Point, Evidence, Explanation, Link)",
+     "\"Vitamin-M\" metaphorically represents the emotional nourishment — love, attention, and companionship — that the elderly need, just as the body needs vitamins for physical health",
+     "The student can write a 150–180 word summary of \"Grandpa's Memory Challenges\" that identifies Grandpa as the protagonist, establishes the family setting"
+    ],
+    "hint": "Straight from the 'story summary' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a 150–180 word summary of \"Grandpa's Memory Challenges\" that identifies Grandpa as the",
+    "id": "gen_c9_eng_ch04_q16",
     "nodeId": "c9_engl_ch4_1",
     "difficulty": "standard"
    },
@@ -2580,7 +2641,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'story summary' slide -- match the key terms.",
     "misconception": "A poor answer like \"It's about an old man with memory loss whose family helps him with labels\" omits the conflict's tension and the solution's specificity.",
-    "id": "gen_c9_eng_ch04_q15",
+    "id": "gen_c9_eng_ch04_q17",
     "nodeId": "c9_engl_ch4_1",
     "difficulty": "standard"
    },
@@ -2595,36 +2656,6 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Empathy, patience, and respect' slide -- match the key terms.",
     "misconception": "A wrong answer listing only funny or sad elements separately reveals the student cannot analyze how literary devices *interact* to shape reader response — a key board exam skill.",
-    "id": "gen_c9_eng_ch04_q16",
-    "nodeId": "c9_engl_ch4_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "APPLY: Write a 3-sentence PEEL paragraph showing how Vidya's action of serving Grandpa his favorite *khichdi* in a specific scene demonstrates *respect for his autonomy*, using the structure: Point, Evidence, Explanation, Link.",
-    "answer": "Point: Vidya respects Grandpa's autonomy by serving his preferred food without treating him like a child",
-    "options": [
-     "Ravi: \"Ma, his medicine is on the top shelf now.\" Vidya: \"I moved it. He kept taking twice.\" Ravi: \"Right",
-     "A strong answer: \"Grandpa's *frail* hands tremble as he holds his tea, yet his *resilient* smile never fades",
-     "Point: Vidya respects Grandpa's autonomy by serving his preferred food without treating him like a child"
-    ],
-    "hint": "Straight from the 'Empathy, patience, and respect' slide -- match the key terms.",
-    "misconception": "A wrong answer that only quotes the dialogue without explaining *how* it shows autonomy (e.g., \"She is nice to him\") reveals inability to connect textual detail to abstract value — the core of board exam analytical writing.",
-    "id": "gen_c9_eng_ch04_q17",
-    "nodeId": "c9_engl_ch4_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "CREATE: Write a 4-line diary entry from Grandpa's perspective on a day he realizes he forgot his granddaughter's birthday, capturing *his* empathy for *her* disappointment, his patience with *his own* failing memory, and his self-respect.",
-    "answer": "*Example:* \"Meera's smile faltered when I asked 'Which birthday?' My tongue felt thick, useless — but I waited, breathed, let the word 'sorry' find its own time",
-    "options": [
-     "A strong answer: \"Grandpa's *frail* hands tremble as he holds his tea, yet his *resilient* smile never fades",
-     "A strong entry shows: (a) awareness of his slipping memory, (b) fierce refusal to be a \"weight\" on Ravi/Vidya, (c) quiet love expressed through silence",
-     "*Example:* \"Meera's smile faltered when I asked 'Which birthday?' My tongue felt thick, useless — but I waited, breathed, let the word 'sorry' find its own time"
-    ],
-    "hint": "Straight from the 'Empathy, patience, and respect' slide -- match the key terms.",
-    "misconception": "Recheck the lesson slide -- the key claim is: *Example:* \"Meera's smile faltered when I asked 'Which birthday?' My tongue felt thick, useless — but I waited,",
     "id": "gen_c9_eng_ch04_q18",
     "nodeId": "c9_engl_ch4_10",
     "difficulty": "advanced"
@@ -2632,17 +2663,17 @@ export const C9_ENG_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about story summary?",
+    "What surprised you about from 'english chapter c9_engl_ch4'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Story Summary mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c9_eng_ch05",
-  "title": "Text Summary",
+  "title": "The World of Limitless Possibilities",
   "subtitle": "English · Chapter 5",
   "classLevel": 9,
   "mode": "senior",
@@ -2699,7 +2730,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Interview",
+    "title": "An Interview Is a Structured Conversation",
     "text": "An interview is a structured conversation between an interviewer and an interviewee where questions are asked to elicit information, opinions, or experiences, typically following a logical sequence: introduction, background, challenges, turning points,",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -2723,8 +2754,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Vocabulary In Context For This Chapter",
-    "text": "Vocabulary in Context for this chapter means identifying, analyzing, and accurately using key terms related to Paralympic sports and disability (e.",
+    "title": "From 'English Chapter C9_engl_ch5'",
+    "text": "From 'English chapter c9_engl_ch5': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-indigo-400 to-blue-500"
    },
@@ -2799,8 +2830,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"theme\" in literature and explain how it differs from \"topic\" or \"plot\" using one example from any Class 6-8 text you remember.",
     "answer": "A theme is the universal insight about human experience that a text conveys (e.g., \"Courage is acting despite fear\" from *The Tunnel*)",
     "options": [
-     "The three stages are: (1) Opening/Introduction — establishes rapport, introduces the interviewee, and sets context with low-stakes factual questions",
-     "Person-first language puts the person before the disability (e.g., \"athlete with a disability\" not \"disabled athlete\")",
+     "Vocabulary in Context for this chapter means identifying, analyzing, and accurately using key terms related to Paralympic sports and disability (e",
+     "The student can extract 8-10 target vocabulary words from the chapter, explain the precise contextual meaning of each (distinguishing it from a generic dictionary definition)",
      "A theme is the universal insight about human experience that a text conveys (e.g., \"Courage is acting despite fear\" from *The Tunnel*)"
     ],
     "hint": "Straight from the 'Resilience and Overcoming' slide -- match the key terms.",
@@ -3027,11 +3058,12 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"person-first language\" and give one example from the chapter where it is used (or should be used) when referring to Dr. Deepa Malik.",
     "answer": "Person-first language puts the person before the disability (e.g., \"athlete with a disability\" not \"disabled athlete\")",
     "options": [
-     "The opening sentence must name: (1) the text's dual subject (Paralympic movement AND Dr. Deepa Malik), (2) the text type (interview/biographical account)",
-     "Inspirational and motivational language is language designed to uplift and drive action, often using strategies like direct address (speaking to \"you\") and repetition of",
+     "The student can write a board-level character study paragraph on Dr",
+     "The student must independently identify at least three distinct instances of adversity in the interview with Dr",
+     "Sample Good Answer language puts the person before the disability (e.g., \"athlete with a disability\" not \"disabled athlete\")",
      "Person-first language puts the person before the disability (e.g., \"athlete with a disability\" not \"disabled athlete\")"
     ],
-    "hint": "Straight from the 'Vocabulary in Context for this' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c9_engl_ch5'' slide -- match the key terms.",
     "misconception": "Wrong Answer Reveals: If the student writes \"Deepa Malik is a disabled athlete,\" they confuse *medical label* with *identity*.",
     "id": "gen_c9_eng_ch05_q8",
     "nodeId": "c9_engl_ch5_8",
@@ -3048,8 +3080,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"determination\" in the context of the Paralympic movement and give one example from the text.",
     "answer": "Determination in the Paralympic context is the will to train, compete, and excel despite physical disabilities and social barriers",
     "options": [
+     "The student can independently identify at least three distinct features of inspirational language in a given text",
      "A theme is the universal insight about human experience that a text conveys (e.g., \"Courage is acting despite fear\" from *The Tunnel*)",
-     "The three stages are: (1) Opening/Introduction — establishes rapport, introduces the interviewee, and sets context with low-stakes factual questions",
      "Determination in the Paralympic context is the will to train, compete, and excel despite physical disabilities and social barriers"
     ],
     "hint": "Straight from the 'Values of determination, courage,' slide -- match the key terms.",
@@ -3129,6 +3161,52 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "sequences events chronologically using",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "opens with a topic sentence naming the",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "includes 3-4 specific factual details",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a 120-150 word board-exam style summary that: (1) opens with a topic sentence naming the text's",
+    "id": "gen_c9_eng_ch05_q11",
+    "nodeId": "c9_engl_ch5_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "order",
     "question": "Create a 4-line dialogue between a skeptical school principal and Dr. Deepa Malik where the Principal says \"We don't have budget for ramps/special coaches\" and Dr. Malik responds using the core argument of \"redefining possibilities\" to reframe the cost as an investment.",
     "sortItems": [
      {
@@ -3180,7 +3258,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "A poor answer has Dr. Malik pleading emotionally (\"Please ma'am, I suffered\") instead of using the structural logic of the theme, showing the student hasn't internalized the \"redefinition\" argument.",
-    "id": "gen_c9_eng_ch05_q11",
+    "id": "gen_c9_eng_ch05_q12",
     "nodeId": "c9_engl_ch5_3",
     "difficulty": "advanced"
    },
@@ -3237,7 +3315,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Drag the items into the sequence the lesson gives.",
     "misconception": "Recheck the lesson slide -- the key claim is: The response is inadequate: it summarises content but analyses nothing.",
-    "id": "gen_c9_eng_ch05_q12",
+    "id": "gen_c9_eng_ch05_q13",
     "nodeId": "c9_engl_ch5_4",
     "difficulty": "advanced"
    },
@@ -3252,7 +3330,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The summary omits the Paralympics context entirely — no mention of when the Paralympics started (1960), India's debut",
-    "id": "gen_c9_eng_ch05_q13",
+    "id": "gen_c9_eng_ch05_q14",
     "nodeId": "c9_engl_ch5_1",
     "difficulty": "standard"
    },
@@ -3267,7 +3345,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Critique. A board-level summary must end by connecting the individual's achievement to the chapter's thematic frame",
-    "id": "gen_c9_eng_ch05_q14",
+    "id": "gen_c9_eng_ch05_q15",
     "nodeId": "c9_engl_ch5_1",
     "difficulty": "standard"
    },
@@ -3282,7 +3360,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
     "misconception": "A wrong sequence (e.g., putting Arjuna before diagnosis) reveals the student cannot synthesize two parallel timelines (institutional + personal) into one coherent chronology — a core board-level skill.",
-    "id": "gen_c9_eng_ch05_q15",
+    "id": "gen_c9_eng_ch05_q16",
     "nodeId": "c9_engl_ch5_1",
     "difficulty": "standard"
    },
@@ -3297,7 +3375,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Summary Y is board-competent. It uses specific dates (1960, 1968, 2012, 2016), names the event (shot put), includes the",
-    "id": "gen_c9_eng_ch05_q16",
+    "id": "gen_c9_eng_ch05_q17",
     "nodeId": "c9_engl_ch5_1",
     "difficulty": "standard"
    },
@@ -3306,27 +3384,12 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What are the three essential components that must appear in the opening sentence of a board-level text summary for this chapter?",
     "answer": "The opening sentence must name: (1) the text's dual subject (Paralympic movement AND Dr. Deepa Malik), (2) the text type (interview/biographical account)",
     "options": [
-     "Person-first language puts the person before the disability (e.g., \"athlete with a disability\" not \"disabled athlete\")",
-     "Determination in the Paralympic context is the will to train, compete, and excel despite physical disabilities and social barriers",
+     "The three stages are: (1) Opening/Introduction — establishes rapport, introduces the interviewee, and sets context with low-stakes factual questions",
+     "The student must independently identify at least three distinct instances of adversity in the interview with Dr",
      "The opening sentence must name: (1) the text's dual subject (Paralympic movement AND Dr. Deepa Malik), (2) the text type (interview/biographical account)"
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
     "misconception": "A wrong answer that only says \"It's about Deepa Malik\" reveals the student treats summary as character description rather than structural condensation of a non-fiction text with two intertwined threads.",
-    "id": "gen_c9_eng_ch05_q17",
-    "nodeId": "c9_engl_ch5_1",
-    "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Write a 3-sentence \"elevator pitch\" summary of this text that a Class 9 student could use to explain the chapter to a Class 7 student, using only facts from the text but language a 12-year-old would grasp.",
-    "answer": "Expected answer: \"The Paralympics started in 1960 for athletes with disabilities, but India joined only in 1968",
-    "options": [
-     "The summary omits the Paralympics context entirely — no mention of when the Paralympics started (1960), India's debut (1968)",
-     "Summary Y is board-competent. It uses specific dates (1960, 1968, 2012, 2016), names the event (shot put)",
-     "Expected answer: \"The Paralympics started in 1960 for athletes with disabilities, but India joined only in 1968"
-    ],
-    "hint": "Straight from the 'text summary' slide -- match the key terms.",
-    "misconception": "A poor answer uses jargon (\"paraplegic,\" \"shot put classification F53\") or omits the Paralympics history, revealing inability to audience-adapt — a skill tested in board \"writing for specific purpose\" questions.",
     "id": "gen_c9_eng_ch05_q18",
     "nodeId": "c9_engl_ch5_1",
     "difficulty": "standard"
@@ -3344,14 +3407,14 @@ export const C9_ENG_GEN: SimDef[] = [
  },
  {
   "id": "gen_c9_eng_ch06",
-  "title": "Play Summary Condenses The Narrative",
+  "title": "From 'English Chapter C9_engl_ch6'",
   "subtitle": "English · Chapter 6",
   "classLevel": 9,
   "mode": "senior",
   "subject": "english",
-  "topic": "Play Summary Condenses The Narrative",
+  "topic": "From 'English Chapter C9_engl_ch6'",
   "chapters": [
-   "English Ch6: Play Summary Condenses The Narrative"
+   "English Ch6: From 'English Chapter C9_engl_ch6'"
   ],
   "nodeIds": [
    "c9_engl_ch6_1",
@@ -3372,7 +3435,7 @@ export const C9_ENG_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "Is Play Summary Condenses The more about facts, or about reasoning?",
+   "question": "Is From 'English Chapter C9_engl_ch6' more about facts, or about reasoning?",
    "options": [
     "Mostly reasoning from a few core ideas",
     "Pure memorisation of facts",
@@ -3389,14 +3452,14 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Character Analysis",
-    "text": "Character analysis is the systematic examination of a literary character's personality traits, motivations, conflicts, relationships, and development across a text, using direct textual evidence (dialogue, actions, stage directions, others' opinions) to",
+    "title": "From 'English Chapter C9_engl_ch6'",
+    "text": "From 'English chapter c9_engl_ch6': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Character Analysis Of Guru Nabin Sharma",
-    "text": "Character analysis of Guru Nabin Sharma involves examining his dual role as a traditional Indian classical violin guru and a father, analyzing how his dialogue, actions, relationships, and the dramatic tension surrounding him reveal his values of discipline,",
+    "title": "From 'English Chapter C9_engl_ch6'",
+    "text": "From 'English chapter c9_engl_ch6': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-rose-400 to-pink-500"
    },
@@ -3425,7 +3488,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-violet-400 to-purple-500"
    },
    {
-    "title": "Idiom",
+    "title": "An Idiom Is a Fixed Expression",
     "text": "An idiom is a fixed expression whose overall meaning cannot be deduced from the literal meanings of its individual words; it functions as a single semantic unit whose figurative sense is established by conventional usage within a speech community.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
@@ -3449,7 +3512,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the inciting incident that sets Shruti's musical conflict in motion in Act 1 of \"Twin Melodies\"?",
     "answer": "The inciting incident is Shruti hearing a Western violin concerto on the radio, which awakens her fascination with the instrument's expressive range beyond the sitar and vocal",
     "options": [
-     "The central conflict is between Shruti's pursuit of her individual passion for fusion music (blending Indian classical with Western genres) and her father Guru Nabin Sharma's",
+     "The student can write a structured 150-word play summary that identifies Shruti's central conflict, traces its development across three key dramatic turning points",
      "The central conflict is Shruti's desire to learn and perform Western violin and fusion music versus Guru Nabin Sharma's expectation that she will dedicate herself to Hindustani",
      "The inciting incident is Shruti hearing a Western violin concerto on the radio, which awakens her fascination with the instrument's expressive range beyond the sitar and vocal"
     ],
@@ -3526,7 +3589,7 @@ export const C9_ENG_GEN: SimDef[] = [
      "The central conflict is Shruti's desire to learn and perform Western violin and fusion music versus Guru Nabin Sharma's expectation that she will dedicate herself to Hindustani",
      "The guru-shishya parampara is the traditional Indian system where knowledge is transmitted orally and personally from guru (teacher) to shishya (disciple) through disciplined"
     ],
-    "hint": "Straight from the 'Character analysis of Guru Nabin' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c9_engl_ch6'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"he just teaches her violin like a school teacher\") reveals the student misses the spiritual-cultural dimension - they see a functional instructor, not a tradition-bearer whose identity is inseparable from the parampara.",
     "id": "gen_c9_eng_ch06_q3",
     "nodeId": "c9_engl_ch6_3",
@@ -3543,8 +3606,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"stage direction\" and give two examples of different types of stage directions found in a play script.",
     "answer": "A stage direction is a playwright's written instruction (typically in brackets/italics) that guides performance elements beyond dialogue—such as setting, character movement",
     "options": [
-     "Dramatic tension is the audience's sustained anticipation of an outcome generated by unresolved conflict between characters",
-     "The inciting incident is Shruti hearing a Western violin concerto on the radio, which awakens her fascination with the instrument's expressive range beyond the sitar and vocal",
+     "Dramatic structure refers to the organization of a play into acts and scenes, which control pacing and narrative arc",
+     "The student can write a structured 150-word play summary that identifies Shruti's central conflict, traces its development across three key dramatic turning points",
      "A stage direction is a playwright's written instruction (typically in brackets/italics) that guides performance elements beyond dialogue—such as setting, character movement"
     ],
     "hint": "Straight from the 'Dramatic structure' slide -- match the key terms.",
@@ -3627,7 +3690,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the central conflict that the theme of fusion music resolves in \"Twin Melodies\"?",
     "answer": "The central conflict is between Shruti's desire to pursue Western violin and her father Guru Nabin Sharma's insistence on preserving the Hindustani classical tradition through the",
     "options": [
-     "The central conflict is Shruti's desire to learn and perform Western violin and fusion music versus Guru Nabin Sharma's expectation that she will dedicate herself to Hindustani",
+     "The student can write a structured 150-word play summary that identifies Shruti's central conflict, traces its development across three key dramatic turning points",
      "Dramatic tension is the audience's sustained anticipation of an outcome generated by unresolved conflict between characters",
      "The central conflict is between Shruti's desire to pursue Western violin and her father Guru Nabin Sharma's insistence on preserving the Hindustani classical tradition through the"
     ],
@@ -3648,8 +3711,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define dramatic tension in the context of a play and give one example of how dialogue creates it in \"Twin Melodies.\"",
     "answer": "Dramatic tension is the audience's sustained anticipation of an outcome generated by unresolved conflict between characters",
     "options": [
-     "In Act 2, Scene 3, Shruti's father discovers her secretly practicing the violin in the storehouse when he hears her playing a Western scale exercise",
-     "The guru-shishya parampara is the traditional Indian system where knowledge is transmitted orally and personally from guru (teacher) to shishya (disciple) through disciplined",
+     "The student can independently analyze how a specific act/scene division or stage direction shapes dramatic tension, reveals character psychology",
+     "Fusion music in \"Twin Melodies\" refers to the artistic synthesis of Indian classical music (Hindustani/Carnatic traditions) with Western classical or contemporary genres",
      "Dramatic tension is the audience's sustained anticipation of an outcome generated by unresolved conflict between characters"
     ],
     "hint": "Straight from the 'Dialogue in drama' slide -- match the key terms.",
@@ -3669,11 +3732,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the defining characteristic of an idiom that distinguishes it from a free word combination or a simple metaphor?",
     "answer": "An idiom's meaning is non-compositional — it cannot be derived from the literal meanings of its parts",
     "options": [
-     "In Act 2, Scene 3, Shruti's father discovers her secretly practicing the violin in the storehouse when he hears her playing a Western scale exercise",
+     "The student can write a structured character analysis paragraph for Shruti Sharma that: (1) states a specific character trait with a topic sentence",
      "The guru-shishya parampara is the traditional Indian system where knowledge is transmitted orally and personally from guru (teacher) to shishya (disciple) through disciplined",
      "An idiom's meaning is non-compositional — it cannot be derived from the literal meanings of its parts"
     ],
-    "hint": "Straight from the 'idiom' slide -- match the key terms.",
+    "hint": "Straight from the 'An idiom is a fixed expression' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"it is a phrase with a hidden meaning\" reveals the student confuses idioms with metaphors or slang; they miss the crucial criteria of fixed form and non-compositionality that board examiners test.",
     "id": "gen_c9_eng_ch06_q8",
     "nodeId": "c9_engl_ch6_8",
@@ -3690,8 +3753,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define *guru-shishya parampara* in the context of Indian classical music transmission.",
     "answer": "*Guru-shishya parampara* is the unbroken lineage of oral knowledge transfer where the disciple lives with the guru, serves them, and learns through imitation, repetition",
     "options": [
-     "The guru-shishya parampara is the traditional Indian system where knowledge is transmitted orally and personally from guru (teacher) to shishya (disciple) through disciplined",
-     "The central conflict is between Shruti's pursuit of her individual passion for fusion music (blending Indian classical with Western genres) and her father Guru Nabin Sharma's",
+     "The student can independently locate an idiom in a dramatic extract, explain its figurative meaning with reference to the immediate context",
+     "The student can explain how the gurukula tradition shapes the father-daughter conflict in *Twin Melodies* by citing two specific textual moments where Guru Nabin's expectations",
      "*Guru-shishya parampara* is the unbroken lineage of oral knowledge transfer where the disciple lives with the guru, serves them, and learns through imitation, repetition"
     ],
     "hint": "Straight from the 'Indian classical music' slide -- match the key terms.",
@@ -3816,6 +3879,63 @@ export const C9_ENG_GEN: SimDef[] = [
     "difficulty": "advanced"
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "explains how each piece of evidence reveals",
+      "emoji": "📌",
+      "correctBin": "o2"
+     },
+     {
+      "id": "s1",
+      "label": "provides two distinct pieces of textual",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s2",
+      "label": "states a specific character trait",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s3",
+      "label": "connects the trait to the play's",
+      "emoji": "📌",
+      "correctBin": "o3"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     },
+     {
+      "id": "o3",
+      "label": "4th",
+      "color": "#f59e0b"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a structured character analysis paragraph for Shruti Sharma that: (1) states a specific character",
+    "id": "gen_c9_eng_ch06_q12",
+    "nodeId": "c9_engl_ch6_2",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "Compare the musical philosophies represented by Shruti's school music teacher and Guru Nabin Sharma. How does each view the relationship between tradition and innovation?",
     "answer": "The school teacher views tradition as a foundation for exploration — she encourages Shruti to learn Western technique while respecting her Indian roots",
@@ -3826,7 +3946,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'play summary condenses the' slide -- match the key terms.",
     "misconception": "A wrong answer that says \"one likes Western, one likes Indian\" reduces complex philosophical positions to preference. This reveals failure to analyze how each character's professional identity (institutional educator vs.",
-    "id": "gen_c9_eng_ch06_q12",
+    "id": "gen_c9_eng_ch06_q13",
     "nodeId": "c9_engl_ch6_1",
     "difficulty": "standard"
    },
@@ -3841,7 +3961,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'play summary condenses the' slide -- match the key terms.",
     "misconception": "A wrong answer claiming \"complete reconciliation\" ignores the father's qualified language and the play's deliberate ambiguity. This shows inability to read subtext and evaluate thematic complexity — board exams reward answers that acknowledge unresolved tension rather than forced harmony.",
-    "id": "gen_c9_eng_ch06_q13",
+    "id": "gen_c9_eng_ch06_q14",
     "nodeId": "c9_engl_ch6_1",
     "difficulty": "standard"
    },
@@ -3856,7 +3976,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'play summary condenses the' slide -- match the key terms.",
     "misconception": "A wrong answer focusing only on \"he is strict\" or \"he dislikes Western music\" misses the cultural-institutional reasoning: the gurukul isn't merely preference but a pedagogical framework where instrument choice determines the entire learning trajectory.",
-    "id": "gen_c9_eng_ch06_q14",
+    "id": "gen_c9_eng_ch06_q15",
     "nodeId": "c9_engl_ch6_1",
     "difficulty": "standard"
    },
@@ -3865,13 +3985,28 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Identify the specific scene in Act 2 where the conflict escalates from internal tension to open confrontation, and describe what Shruti does in that scene that forces the confrontation.",
     "answer": "In Act 2, Scene 3, Shruti's father discovers her secretly practicing the violin in the storehouse when he hears her playing a Western scale exercise",
     "options": [
-     "The inciting incident is Shruti hearing a Western violin concerto on the radio, which awakens her fascination with the instrument's expressive range beyond the sitar and vocal",
-     "The guru-shishya parampara is the traditional Indian system where knowledge is transmitted orally and personally from guru (teacher) to shishya (disciple) through disciplined",
+     "Dialogue in drama is the spoken exchange between characters that simultaneously reveals character, advances plot, and creates dramatic tension through conflict, subtext, pacing",
+     "The student can analyze a dramatic extract by identifying how specific dialogue choices (word choice, sentence length, pauses, interruptions, subtext) create tension",
      "In Act 2, Scene 3, Shruti's father discovers her secretly practicing the violin in the storehouse when he hears her playing a Western scale exercise"
     ],
     "hint": "Straight from the 'play summary condenses the' slide -- match the key terms.",
     "misconception": "A wrong answer citing \"the dinner table argument\" or \"the concert announcement\" misplaces the escalation point — those are consequences of this scene. The error shows inability to identify the dramatic turning point where hidden action becomes revealed conflict, a key skill for board questions on dramatic structure.",
-    "id": "gen_c9_eng_ch06_q15",
+    "id": "gen_c9_eng_ch06_q16",
+    "nodeId": "c9_engl_ch6_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can write a structured 150-word play summary that identifies Shruti's central conflict, traces its development across three key dramatic turning points",
+    "options": [
+     "The guru-shishya parampara is the traditional Indian system where knowledge is transmitted orally and personally from guru (teacher) to shishya (disciple) through disciplined",
+     "The student can write a structured 150-word board-style answer analyzing Guru Nabin Sharma's character using at least three pieces of textual evidence (dialogue, stage directions",
+     "The student can write a structured 150-word play summary that identifies Shruti's central conflict, traces its development across three key dramatic turning points"
+    ],
+    "hint": "Straight from the 'play summary condenses the' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a structured 150-word play summary that identifies Shruti's central conflict, traces its",
+    "id": "gen_c9_eng_ch06_q17",
     "nodeId": "c9_engl_ch6_1",
     "difficulty": "standard"
    },
@@ -3886,54 +4021,24 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'play summary condenses the' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: \"In a home where music is worship, Shruti hears a different divine voice — the violin.",
-    "id": "gen_c9_eng_ch06_q16",
+    "id": "gen_c9_eng_ch06_q18",
     "nodeId": "c9_engl_ch6_1",
     "difficulty": "standard"
-   },
-   {
-    "type": "mcq",
-    "question": "Analyze how Guru Nabin Sharma's character arc — from rigid guardian of tradition to collaborative performer — illustrates the play's stance on tradition as a living practice rather than a fixed relic.",
-    "answer": "In Act 1, Guru Nabin rejects fusion as \"dilution,\" equating tradition with purity and stasis. By Act 3, he joins Shruti on stage, improvising within a fusion framework",
-    "options": [
-     "It *validates through transformation*. Evidence 1: Guru Nabin's silent nod during the *alap* section shows he recognises the *sadhana* in her fusion — the raga's grammar is intact",
-     "Refute. An antagonist actively works against the protagonist's goal; Guru Nabin Sharma opposes Shruti's METHOD (fusion) not her GOAL (musical excellence)",
-     "In Act 1, Guru Nabin rejects fusion as \"dilution,\" equating tradition with purity and stasis. By Act 3, he joins Shruti on stage, improvising within a fusion framework"
-    ],
-    "hint": "Straight from the 'values of pursuing passion and' slide -- match the key terms.",
-    "misconception": "A wrong answer that says \"he changes his mind\" oversimplifies; the shift is not capitulation but a redefinition of what respecting tradition means — from preservation to participation.",
-    "id": "gen_c9_eng_ch06_q17",
-    "nodeId": "c9_engl_ch6_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a short dialogue (4-6 lines) between a teenager and a grandparent where the teenager expresses a modern passion (e.g., coding, dance, sustainability) and the grandparent voices a traditional expectation, but they end by finding a \"twin melody\" integration.",
-    "answer": "A strong answer shows: (1) distinct voices with authentic concerns, (2) no quick surrender by either, (3) a creative third way that honors both — e",
-    "options": [
-     "\"In a home where music is worship, Shruti hears a different divine voice — the violin. Her guru-father sees betrayal of a 300-year lineage; she hears evolution",
-     "This action reveals Shruti's *conscious synthesis* — she isn't rejecting her father's tradition (she listens) nor blindly copying Western technique (she adapts the *meend* to",
-     "A strong answer shows: (1) distinct voices with authentic concerns, (2) no quick surrender by either, (3) a creative third way that honors both — e"
-    ],
-    "hint": "Straight from the 'values of pursuing passion and' slide -- match the key terms.",
-    "misconception": "A weak answer has one character instantly agreeing, revealing the student hasn't grasped that integration requires tension and mutual respect, not just compromise.",
-    "id": "gen_c9_eng_ch06_q18",
-    "nodeId": "c9_engl_ch6_10",
-    "difficulty": "advanced"
    }
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about play summary condenses the narrative?",
+    "What surprised you about from 'english chapter c9_engl_ch6'?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Play Summary Condenses The mastered! 🎯",
+  "successLine": "From 'English Chapter mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  },
  {
   "id": "gen_c9_eng_ch07",
-  "title": "Text Summary",
+  "title": "Carrier of Words",
   "subtitle": "English · Chapter 7",
   "classLevel": 9,
   "mode": "senior",
@@ -3984,7 +4089,7 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Theme",
+    "title": "Theme Is The Central Idea Or Underlying",
     "text": "A theme is the central idea or underlying message about life, society, or human nature that a text conveys through its characters, plot, and setting; \"Service and Duty in Extreme Conditions\" specifically explores how individuals uphold their responsibilities",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
@@ -4008,8 +4113,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-emerald-400 to-teal-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context refers to the skill of determining the precise meaning, connotation, and grammatical function of words by analyzing how they are used within the specific sentences, paragraphs, and thematic setting of the text \"Carrier of Words,\"",
+    "title": "From 'English Chapter C9_engl_ch7'",
+    "text": "From 'English chapter c9_engl_ch7': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-emerald-400 to-teal-500"
    },
@@ -4038,8 +4143,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of a text summary in an English examination?",
     "answer": "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution",
     "options": [
-     "Three features: (1) Extreme temperatures — up to 50C in summer, near-freezing in winter, creating daily and seasonal survival challenges",
-     "Imagery is the use of language that appeals to the five senses to create a sensory experience for the reader",
+     "The theme refers to how the postal service, embodied by Khetaram, physically and emotionally links isolated desert communities to the outside world",
+     "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word",
      "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution"
     ],
     "hint": "Straight from the 'text summary' slide -- match the key terms.",
@@ -4059,8 +4164,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of a character study in literature?",
     "answer": "A character study analyzes a character's traits, motivations, and development using textual evidence to show how they contribute to the story's themes",
     "options": [
-     "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution",
-     "The theme refers to how the postal service, embodied by Khetaram, physically and emotionally links isolated desert communities to the outside world",
+     "Connectivity in remote and rural India refers to the physical, social, and emotional links that bridge isolated communities with the wider world",
+     "Three features: (1) Extreme temperatures — up to 50C in summer, near-freezing in winter, creating daily and seasonal survival challenges",
      "A character study analyzes a character's traits, motivations, and development using textual evidence to show how they contribute to the story's themes"
     ],
     "hint": "Straight from the 'character study' slide -- match the key terms.",
@@ -4084,7 +4189,7 @@ export const C9_ENG_GEN: SimDef[] = [
      "In a forest, water is abundant, temperatures are moderate, and vegetation provides shelter and food",
      "A topic is the subject (what the text is about); a theme is the author's insight or message about that subject (what the text *says* about the subject)"
     ],
-    "hint": "Straight from the 'theme' slide -- match the key terms.",
+    "hint": "Straight from the 'theme is the central idea or' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"they are the same\") reveals the student cannot distinguish between subject matter and interpretive claim — a critical gap for board-level thematic answers.",
     "id": "gen_c9_eng_ch07_q3",
     "nodeId": "c9_engl_ch7_3",
@@ -4101,8 +4206,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define the theme 'connectivity in remote and rural India' as it applies to the chapter \"Carrier of Words\" in one sentence.",
     "answer": "The theme refers to how the postal service, embodied by Khetaram, physically and emotionally links isolated desert communities to the outside world",
     "options": [
-     "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word",
-     "Perseverance is the continued effort to achieve something despite difficulties, failure, or delay",
+     "The student must be able to trace the theme of connectivity across at least three distinct textual evidence points (character actions, setting descriptions",
+     "Students believe \"Vocabulary in Context\" means \"Guess the meaning from the sentence alone.\" They read only the immediate sentence, ignore paragraph-level clues (tone, theme",
      "The theme refers to how the postal service, embodied by Khetaram, physically and emotionally links isolated desert communities to the outside world"
     ],
     "hint": "Straight from the 'Connectivity in remote and rural' slide -- match the key terms.",
@@ -4174,8 +4279,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"imagery\" in the context of literary analysis and list the five types of sensory imagery.",
     "answer": "Imagery is the use of language that appeals to the five senses to create a sensory experience for the reader",
     "options": [
-     "Perseverance is the continued effort to achieve something despite difficulties, failure, or delay",
-     "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word",
+     "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution",
+     "The student can independently extract a descriptive passage from the chapter, label each sensory image with its type",
      "Imagery is the use of language that appeals to the five senses to create a sensory experience for the reader"
     ],
     "hint": "Straight from the 'Descriptive language' slide -- match the key terms.",
@@ -4195,11 +4300,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"context clue\" and name the four main types used to determine word meaning in a text.",
     "answer": "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word",
     "options": [
-     "Perseverance is the continued effort to achieve something despite difficulties, failure, or delay",
+     "The student can write a 100–150 word summary of \"Khetaram, the Gramin Dak Sewak\" that identifies Khetaram as the protagonist, the Thar Desert as the setting",
      "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution",
      "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 'English chapter c9_engl_ch7'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"looking in a dictionary\" or \"guessing\") reveals the student confuses external resources with internal textual evidence and cannot articulate the specific strategies needed for board-level unseen passages.",
     "id": "gen_c9_eng_ch07_q7",
     "nodeId": "c9_engl_ch7_7",
@@ -4218,7 +4323,6 @@ export const C9_ENG_GEN: SimDef[] = [
     "options": [
      "A topic is the subject (what the text is about); a theme is the author's insight or message about that subject (what the text *says* about the subject)",
      "Khetaram represents the active, burden-bearing side of connectivity (duty, endurance, routine), while the villagers' anticipation, relief, and grief represent the passive",
-     "A Pradhan Mantri Jan is a part-time, contract-based worker engaged for 4-5 hours daily with no pension or regular government employee benefits",
      "A Gramin Dak Sewak is a part-time, contract-based worker engaged for 4-5 hours daily with no pension or regular government employee benefits"
     ],
     "hint": "Straight from the 'Gramin Dak Sewaks' slide -- match the key terms.",
@@ -4238,8 +4342,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the definition of 'perseverance' as demonstrated by a literary character?",
     "answer": "Perseverance is the continued effort to achieve something despite difficulties, failure, or delay",
     "options": [
-     "Imagery is the use of language that appeals to the five senses to create a sensory experience for the reader",
-     "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word",
+     "The primary purpose is to demonstrate that the student has comprehended the core narrative — main character, setting, central conflict, key events in sequence, and resolution",
+     "The student must independently write a structured character analysis paragraph (using Point-Evidence-Explanation-Link) that identifies two distinct character traits of Khetaram",
      "Perseverance is the continued effort to achieve something despite difficulties, failure, or delay"
     ],
     "hint": "Straight from the 'Perseverance, commitment, and' slide -- match the key terms.",
@@ -4259,8 +4363,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What are the three main components of communication infrastructure in India as discussed in the chapter, and which one does Khetaram represent?",
     "answer": "The three components are physical infrastructure (post offices, roads, towers), digital infrastructure (internet, mobile networks), and human infrastructure (Gramin Dak Sewaks",
     "options": [
-     "A character study analyzes a character's traits, motivations, and development using textual evidence to show how they contribute to the story's themes",
-     "Imagery is the use of language that appeals to the five senses to create a sensory experience for the reader",
+     "Communication infrastructure refers to the physical and organizational systems—such as post offices, internet networks, telephone lines",
+     "The student can independently identify three distinct textual evidence points where Khetaram's actions demonstrate service/duty",
      "The three components are physical infrastructure (post offices, roads, towers), digital infrastructure (internet, mobile networks), and human infrastructure (Gramin Dak Sewaks"
     ],
     "hint": "Straight from the 'Communication infrastructure' slide -- match the key terms.",
@@ -4352,6 +4456,21 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can write a 100–150 word summary of \"Khetaram, the Gramin Dak Sewak\" that identifies Khetaram as the protagonist, the Thar Desert as the setting",
+    "options": [
+     "The student must independently write a structured character analysis paragraph (using Point-Evidence-Explanation-Link) that identifies two distinct character traits of Khetaram",
+     "The student can independently identify three distinct textual evidence points where Khetaram's actions demonstrate service/duty",
+     "The student can write a 100–150 word summary of \"Khetaram, the Gramin Dak Sewak\" that identifies Khetaram as the protagonist, the Thar Desert as the setting"
+    ],
+    "hint": "Straight from the 'text summary' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a 100–150 word summary of \"Khetaram, the Gramin Dak Sewak\" that identifies Khetaram as the",
+    "id": "gen_c9_eng_ch07_q16",
+    "nodeId": "c9_engl_ch7_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "Analyze how the chapter uses Khetaram's character to critique the gap between policy (Universal Service Obligation) and practice in rural communication. Support with two textual inferences.",
     "answer": "Inference 1: Khetaram carries pensions and medicines—services the state promises but cannot deliver without him—showing policy depends on underpaid, overworked human agents",
     "options": [
@@ -4361,7 +4480,7 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Communication infrastructure' slide -- match the key terms.",
     "misconception": "A wrong answer summarizing Khetaram's duties without linking to policy-practice gap shows the student reads for plot, not for systemic critique.",
-    "id": "gen_c9_eng_ch07_q16",
+    "id": "gen_c9_eng_ch07_q17",
     "nodeId": "c9_engl_ch7_10",
     "difficulty": "advanced"
    },
@@ -4376,21 +4495,6 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Communication infrastructure' slide -- match the key terms.",
     "misconception": "A wrong answer listing only \"no internet\" or \"illiteracy\" fails to disaggregate the layered nature of the last-mile problem, showing the student treats connectivity as binary (present/absent) rather than a spectrum of usability.",
-    "id": "gen_c9_eng_ch07_q17",
-    "nodeId": "c9_engl_ch7_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Create a 4-panel storyboard concept (describe each panel in 2 sentences) for a short film showing a day in the life of a Gramin Dak Sewak in 2030, where technology assists but does not replace the human link.",
-    "answer": "Panel 1: Dawn—GDS checks a tablet showing optimized route via satellite map, but loads physical mailbags onto a solar-assisted e-cycle (tech aids planning, not replacement)",
-    "options": [
-     "The claim is partially correct but flawed. Starting with his role (Gramin Dak Sewak) is good — it establishes identity and context",
-     "Commitment is a promise or obligation one binds oneself to; Khetaram's decision to deliver mail during a sandstorm shows he honors his duty as a Gramin Dak Sewak regardless of",
-     "Panel 1: Dawn—GDS checks a tablet showing optimized route via satellite map, but loads physical mailbags onto a solar-assisted e-cycle (tech aids planning, not replacement)"
-    ],
-    "hint": "Straight from the 'Communication infrastructure' slide -- match the key terms.",
-    "misconception": "A poor answer showing full automation (drones delivering everything) misses the chapter's core argument: human presence is irreplaceable for trust, care, and adaptability.",
     "id": "gen_c9_eng_ch07_q18",
     "nodeId": "c9_engl_ch7_10",
     "difficulty": "advanced"
@@ -4483,19 +4587,19 @@ export const C9_ENG_GEN: SimDef[] = [
     "bgColor": "from-indigo-400 to-blue-500"
    },
    {
-    "title": "Metaphor",
+    "title": "A Metaphor Is a Figure",
     "text": "A metaphor is a figure of speech that directly equates two unlike things by stating one *is* the other to transfer qualities (e.g., \"Time is a thief\").",
     "emoji": "📚",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Vocabulary In Context",
-    "text": "Vocabulary in Context: Words of Aspiration and Determination refers to the strategic selection and analysis of words that convey ambition, resolve, and sustained effort, where meaning is derived not from dictionary definitions alone but from their",
+    "title": "From 's Core Message, The Writer'",
+    "text": "From 's core message, the writer': the skill or concept this node teaches, applied to the actual text.",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
    },
    {
-    "title": "Perseverance",
+    "title": "Perseverance Is The Sustained Effort",
     "text": "Perseverance is the sustained effort to achieve a goal despite difficulties, failures, or delays; a support network is the system of people (family, mentors, peers) who provide emotional, practical, or motivational assistance; realistic goal-setting is the",
     "emoji": "📚",
     "bgColor": "from-amber-400 to-orange-500"
@@ -4513,8 +4617,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary purpose of a text summary for a board exam answer?",
     "answer": "The primary purpose is to demonstrate comprehension by concisely restating the text's main ideas, key supporting details, and the writer's intent in the student's own words",
     "options": [
-     "The mother's primary metaphor for investment is the expenditure of *time, repeated effort, and emotional vulnerability* (e.g., learning to drive, building a career), not money",
-     "An epistolary text is structured as a document (letter, diary entry, email) addressed to a specific recipient, with conventions like salutation, date, and sign-off",
+     "Students think \"epistolary\" just means \"written in first person\" or \"uses 'I' and 'you'.\" They miss that the *material conventions*",
+     "Conviction means a deep, unshakeable belief in the worth and possibility of one's dream that persists despite doubts, failures, or external pressure",
      "The primary purpose is to demonstrate comprehension by concisely restating the text's main ideas, key supporting details, and the writer's intent in the student's own words"
     ],
     "hint": "Straight from the 'text summary of an epistolary' slide -- match the key terms.",
@@ -4597,8 +4701,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the core meaning of \"conviction\" in the context of pursuing a dream, as implied by the mother's letter?",
     "answer": "Conviction means a deep, unshakeable belief in the worth and possibility of one's dream that persists despite doubts, failures, or external pressure",
     "options": [
-     "Connotation is the emotional or cultural association a word carries beyond its literal meaning (denotation)",
-     "Perseverance is continuing to work toward a goal despite obstacles; the phrase \"small, steady steps\" from the letter illustrates it",
+     "Student can independently identify metaphors and anecdotes in the letter, explain how each metaphor's tenor/vehicle relationship shapes meaning",
+     "The student can identify at least three distinct obstacles the mother faced in the letter, explain how each obstacle altered her life trajectory",
      "Conviction means a deep, unshakeable belief in the worth and possibility of one's dream that persists despite doubts, failures, or external pressure"
     ],
     "hint": "Straight from the 'theme \"Pursuing Dreams with' slide -- match the key terms.",
@@ -4618,8 +4722,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the mother's primary metaphor for \"investment\" in the letter, and how does it differ from a financial definition?",
     "answer": "The mother's primary metaphor for investment is the expenditure of *time, repeated effort, and emotional vulnerability* (e.g., learning to drive, building a career), not money",
     "options": [
-     "The mother states that her marriage at a young age and the subsequent responsibilities of motherhood and household management were the main obstacles that ended her dance training",
-     "Metaphor: direct comparison without \"like/as\" (e.g., \"This classroom is a furnace\"). Anecdote: short personal story illustrating a point (e.g., \"When I failed Class 6 math, I...\")",
+     "The student can identify epistolary features in a text, explain how the letter format shapes tone and perspective",
+     "Students equate \"balancing\" with \"compromising downwards\"—they think the mother means \"dream smaller",
      "The mother's primary metaphor for investment is the expenditure of *time, repeated effort, and emotional vulnerability* (e.g., learning to drive, building a career), not money"
     ],
     "hint": "Straight from the 'The theme of \"Effort, Investment' slide -- match the key terms.",
@@ -4639,8 +4743,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What are the two main obstacles the mother explicitly states prevented her from becoming a professional dancer?",
     "answer": "The mother states that her marriage at a young age and the subsequent responsibilities of motherhood and household management were the main obstacles that ended her dance training",
     "options": [
-     "The mother's primary metaphor for investment is the expenditure of *time, repeated effort, and emotional vulnerability* (e.g., learning to drive, building a career), not money",
-     "The primary purpose is to demonstrate comprehension by concisely restating the text's main ideas, key supporting details, and the writer's intent in the student's own words",
+     "The student can write a 80-100 word summary of the mother's letter that identifies the sender/recipient, states the central advice about pursuing dreams",
+     "Students equate \"balancing\" with \"compromising downwards\"—they think the mother means \"dream smaller",
      "The mother states that her marriage at a young age and the subsequent responsibilities of motherhood and household management were the main obstacles that ended her dance training"
     ],
     "hint": "Straight from the 'theme of obstacles and changing' slide -- match the key terms.",
@@ -4660,8 +4764,8 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "What is the primary narrative perspective used in \"Follow That Dream,\" and how does it shape our understanding of the mother's character?",
     "answer": "The letter uses first-person epistolary perspective (\"I write to you,\" \"my experience\"), which gives direct access to the mother's inner reflections, vulnerabilities",
     "options": [
-     "Conviction means a deep, unshakeable belief in the worth and possibility of one's dream that persists despite doubts, failures, or external pressure",
-     "Practical realities are tangible constraints—time, money, health, family obligations, market demand—that affect whether a dream can be sustained",
+     "Epistolary form is a literary technique where a narrative is presented through a series of documents — most commonly letters",
+     "The student can identify epistolary features in a text, explain how the letter format shapes tone and perspective",
      "The letter uses first-person epistolary perspective (\"I write to you,\" \"my experience\"), which gives direct access to the mother's inner reflections, vulnerabilities"
     ],
     "hint": "Straight from the 'character study of the mother' slide -- match the key terms.",
@@ -4681,11 +4785,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define metaphor and personal anecdote. Give one example of each from everyday conversation (not from the textbook).",
     "answer": "Metaphor: direct comparison without \"like/as\" (e.g., \"This classroom is a furnace\"). Anecdote: short personal story illustrating a point (e.g., \"When I failed Class 6 math, I...\")",
     "options": [
-     "The mother states that her marriage at a young age and the subsequent responsibilities of motherhood and household management were the main obstacles that ended her dance training",
-     "The letter uses first-person epistolary perspective (\"I write to you,\" \"my experience\"), which gives direct access to the mother's inner reflections, vulnerabilities",
+     "An epistolary text is structured as a document (letter, diary entry, email) addressed to a specific recipient, with conventions like salutation, date, and sign-off",
+     "Epistolary form is a literary technique where a narrative is presented through a series of documents — most commonly letters",
      "Metaphor: direct comparison without \"like/as\" (e.g., \"This classroom is a furnace\"). Anecdote: short personal story illustrating a point (e.g., \"When I failed Class 6 math, I...\")"
     ],
-    "hint": "Straight from the 'metaphor' slide -- match the key terms.",
+    "hint": "Straight from the 'A metaphor is a figure' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., giving a simile for metaphor or a general opinion for anecdote) reveals confusion between comparison types or between narrative evidence and abstract advice.",
     "id": "gen_c9_eng_ch08_q7",
     "nodeId": "c9_engl_ch8_7",
@@ -4702,11 +4806,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define \"connotation\" and give one example from the mother's letter where a word's connotation is stronger than its denotation.",
     "answer": "Connotation is the emotional or cultural association a word carries beyond its literal meaning (denotation)",
     "options": [
-     "Conviction means a deep, unshakeable belief in the worth and possibility of one's dream that persists despite doubts, failures, or external pressure",
-     "The mother's primary metaphor for investment is the expenditure of *time, repeated effort, and emotional vulnerability* (e.g., learning to drive, building a career), not money",
+     "The letter uses first-person epistolary perspective (\"I write to you,\" \"my experience\"), which gives direct access to the mother's inner reflections, vulnerabilities",
+     "The student must be able to articulate a balanced perspective on a given dream-vs-reality scenario by citing specific evidence from the mother's letter (metaphors, anecdotes",
      "Connotation is the emotional or cultural association a word carries beyond its literal meaning (denotation)"
     ],
-    "hint": "Straight from the 'Vocabulary in Context' slide -- match the key terms.",
+    "hint": "Straight from the 'From 's core message, the writer'' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"connotation is just a synonym\") reveals the student confuses connotation with synonymy and cannot explain how word choice shapes tone.",
     "id": "gen_c9_eng_ch08_q8",
     "nodeId": "c9_engl_ch8_8",
@@ -4723,11 +4827,11 @@ export const C9_ENG_GEN: SimDef[] = [
     "question": "Define 'perseverance' in the context of pursuing a long-term dream, using one phrase from the mother's letter that illustrates it.",
     "answer": "Perseverance is continuing to work toward a goal despite obstacles; the phrase \"small, steady steps\" from the letter illustrates it",
     "options": [
-     "Practical realities are tangible constraints—time, money, health, family obligations, market demand—that affect whether a dream can be sustained",
-     "An epistolary text is structured as a document (letter, diary entry, email) addressed to a specific recipient, with conventions like salutation, date, and sign-off",
+     "The student can write a 80-100 word summary of the mother's letter that identifies the sender/recipient, states the central advice about pursuing dreams",
+     "The student can independently identify a target word from the letter, explain its precise meaning in context using morphological and collocational evidence",
      "Perseverance is continuing to work toward a goal despite obstacles; the phrase \"small, steady steps\" from the letter illustrates it"
     ],
-    "hint": "Straight from the 'Perseverance' slide -- match the key terms.",
+    "hint": "Straight from the 'Perseverance is the sustained' slide -- match the key terms.",
     "misconception": "A wrong answer like \"never giving up\" without textual evidence shows the student cannot anchor the definition in the text, a board-exam requirement.",
     "id": "gen_c9_eng_ch08_q9",
     "nodeId": "c9_engl_ch8_9",
@@ -4947,6 +5051,21 @@ export const C9_ENG_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can write a 80-100 word summary of the mother's letter that identifies the sender/recipient, states the central advice about pursuing dreams",
+    "options": [
+     "The student can identify epistolary features in a text, explain how the letter format shapes tone and perspective",
+     "Conviction means a deep, unshakeable belief in the worth and possibility of one's dream that persists despite doubts, failures, or external pressure",
+     "The student can write a 80-100 word summary of the mother's letter that identifies the sender/recipient, states the central advice about pursuing dreams"
+    ],
+    "hint": "Straight from the 'text summary of an epistolary' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can write a 80-100 word summary of the mother's letter that identifies the sender/recipient, states the",
+    "id": "gen_c9_eng_ch08_q17",
+    "nodeId": "c9_engl_ch8_1",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "A Class 9 student wants to become a classical singer but her family needs her to contribute to household income immediately after Class 10. Using the mother's advice on \"sacrifice\" and \"changing circumstances,\" suggest a balanced 3-year plan.",
     "answer": "Step 1: Acknowledge the reality—financial pressure requires income (mother: \"life rearranges itself\")",
     "options": [
@@ -4956,21 +5075,6 @@ export const C9_ENG_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Balancing Dreams with Practical' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"she should quit singing and focus on a job\") shows failure to apply the mother's nuanced view that dreams adapt rather than die.",
-    "id": "gen_c9_eng_ch08_q17",
-    "nodeId": "c9_engl_ch8_10",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare how Jahnavi (Class 6, \"The Day the River Spoke\") and the mother in this letter each balance a dream with practical realities. Identify one similarity and one difference in their strategies.",
-    "answer": "Similarity: Both use dialogue with a mentor (River / Mother) to clarify the path—external wisdom structures internal drive",
-    "options": [
-     "The *seed* metaphor universalizes growth as organic, patient, condition-dependent — appealing to *trust in process*",
-     "The mother's letter is *relational* — she discloses to *guide* her daughter, selecting memories and advice for the daughter's future use",
-     "Similarity: Both use dialogue with a mentor (River / Mother) to clarify the path—external wisdom structures internal drive"
-    ],
-    "hint": "Straight from the 'Balancing Dreams with Practical' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., \"both just worked hard\") misses the structural vs. personal distinction and the role of mentorship in converting dream to plan.",
     "id": "gen_c9_eng_ch08_q18",
     "nodeId": "c9_engl_ch8_10",
     "difficulty": "advanced"

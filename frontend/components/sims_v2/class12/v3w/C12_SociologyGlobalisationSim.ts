@@ -11,7 +11,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
     classLevel: 12, subject: 'sociology', topic: 'Globalisation: Definition, Dimensions and the Interconnected World',
     chapters: [],
     nodeIds: ['c12_soc_cbse_13_001', 'c12_soc_cbse_13_002', 'c12_soc_cbse_13_003', 'c12_soc_cbse_13_004', 'c12_soc_cbse_13_006', 'c12_soc_cbse_13_007'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you are a Class 12 student in a small town in Uttar Pradesh.', goal: 'Master Globalisation: Definition, Dimensions and the Interconnected World.' },
     discovery: {
         question: 'Read this scenario: *"Ramesh, a silk weaver in Varanasi, loses orders because Chinese power-loom silk floods the market.',
@@ -20,7 +20,7 @@ export const w_c12_sociologyglobalisationsim: SimDef = {
         hook: '**Misconception:** "Globalisation = Westernisation / Americanisation / only economic liberalisation." **Why students.',
     },
     teaching: [
-        { title: 'Globalisation refers to the growing.', text: 'Globalisation refers to the growing interdependence between different people, regions, and countries worldwide as social and economic relationships stretch across the globe, driven primarily by.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Globalisation refers to the growing.', text: 'Globalisation refers to the growing interdependence between different people, regions, and countries worldwide as social and economic relationships stretch across the globe, driven primarily by.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_soc_cbse_13_001', title: 'Globalisation refers to the growing.',

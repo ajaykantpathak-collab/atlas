@@ -1114,12 +1114,12 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
         <div className="flex items-center gap-3">
           <motion.div
             whileHover={{ rotate: 15, scale: 1.1 }}
-            className="w-12 h-12 rounded-2xl bg-indigo-900/60 border border-indigo-500/40 flex items-center justify-center text-2xl shadow-inner"
+            className="w-12 h-12 rounded-2xl bg-gold-900/60 border border-gold-500/40 flex items-center justify-center text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
-            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-indigo-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+            <h1 className="text-xl md:text-2xl font-black bg-gradient-to-r from-gold-300 via-gold-300 to-emerald-300 bg-clip-text text-transparent">
               {title}
             </h1>
             <p className="text-xs text-slate-400 font-medium">
@@ -1137,7 +1137,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/70 border-emerald-500/50 text-emerald-300'
                 : difficulty === 'standard'
-                ? 'bg-sky-950/70 border-sky-500/50 text-sky-300'
+                ? 'bg-gold-950/70 border-gold-500/50 text-gold-300'
                 : 'bg-rose-950/70 border-rose-500/50 text-rose-300'
             }`}
           >
@@ -1159,15 +1159,15 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
         >
           <motion.div
             whileHover={{ scale: 1.005 }}
-            className="p-5 md:p-6 rounded-2xl bg-gradient-to-br from-indigo-950/80 via-slate-900 to-slate-950 border border-indigo-700/50 shadow-xl"
+            className="p-5 md:p-6 rounded-2xl bg-gradient-to-br from-gold-950/80 via-slate-900 to-slate-950 border border-gold-700/50 shadow-xl"
           >
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-indigo-400 text-sm font-bold tracking-wider uppercase">Case Context</span>
-              <span className="px-2 py-0.5 rounded text-[10px] bg-indigo-900/80 text-indigo-200 border border-indigo-600/40">Real-World Scenario</span>
+              <span className="text-gold-400 text-sm font-bold tracking-wider uppercase">Case Context</span>
+              <span className="px-2 py-0.5 rounded text-[10px] bg-gold-900/80 text-gold-200 border border-gold-600/40">Real-World Scenario</span>
             </div>
             <h2 className="text-xl font-bold text-white mb-2">{SCENARIO.title}</h2>
             <p className="text-sm text-slate-300 leading-relaxed">{SCENARIO.intro}</p>
-            <p className="text-xs text-indigo-300/80 mt-3 font-mono bg-indigo-950/40 p-2.5 rounded-lg border border-indigo-900/60">
+            <p className="text-xs text-gold-300/80 mt-3 font-mono bg-gold-950/40 p-2.5 rounded-lg border border-gold-900/60">
               📌 {SCENARIO.context}
             </p>
           </motion.div>
@@ -1219,7 +1219,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleAdvanceToExploration}
-                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                  className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-gold-600 to-gold-500 hover:from-gold-500 hover:to-gold-400 text-white font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                 >
                   Step Into Interactive Labs →
                 </motion.button>
@@ -1240,7 +1240,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
           <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-xl bg-slate-900 border border-slate-800">
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Exploration Lab</span>
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 Step {currentSlide + 1} of {EXPLORATION_STEPS.length}
               </span>
             </div>
@@ -1256,7 +1256,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   }}
                   className={`w-7 h-7 rounded-lg text-xs font-bold transition-all ${
                     currentSlide === idx
-                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-500/40'
+                      ? 'bg-gold-600 text-white shadow-md shadow-gold-500/40'
                       : 'bg-slate-800 text-slate-400 hover:bg-slate-700'
                   }`}
                 >
@@ -1275,7 +1275,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
               className="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-5"
             >
               <div>
-                <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+                <h3 className="text-lg font-bold text-gold-300 flex items-center gap-2">
                   <span>🔬</span> {EXPLORATION_STEPS[currentSlide].title}
                 </h3>
                 <p className="text-sm text-amber-300/90 mt-1 font-medium">
@@ -1298,7 +1298,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                         }}
                         className={`px-4 py-1.5 rounded-lg text-xs font-bold capitalize transition-all border ${
                           radarView === mode
-                            ? 'bg-indigo-600 border-indigo-400 text-white'
+                            ? 'bg-gold-600 border-gold-400 text-white'
                             : 'bg-slate-800 border-slate-700 text-slate-300'
                         }`}
                       >
@@ -1376,8 +1376,8 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
               {currentSlide === 1 && (
                 <div className="space-y-4">
                   {!predictionMade && (
-                    <div className="p-4 rounded-xl bg-indigo-950/70 border border-indigo-700/60 space-y-3">
-                      <p className="text-sm font-bold text-indigo-200">
+                    <div className="p-4 rounded-xl bg-gold-950/70 border border-gold-700/60 space-y-3">
+                      <p className="text-sm font-bold text-gold-200">
                         ��� Prediction Challenge: {PREDICTION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1465,7 +1465,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                     <div>
                       <div className="flex justify-between text-xs mb-1">
                         <span className="text-slate-300 font-medium">EV Consumer Adoption (Social/Tech)</span>
-                        <span className="text-sky-400 font-bold">{techAdoptionRate}%</span>
+                        <span className="text-gold-400 font-bold">{techAdoptionRate}%</span>
                       </div>
                       <input
                         type="range"
@@ -1476,7 +1476,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                           setTechAdoptionRate(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-sky-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                         aria-label="Tech adoption rate slider"
                       />
                     </div>
@@ -1498,7 +1498,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
 
                   {!observationAnswered && (
                     <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-800">
-                      <p className="text-xs font-bold text-indigo-300 mb-2">
+                      <p className="text-xs font-bold text-gold-300 mb-2">
                         🔎 Observation Check: {OBSERVATION_QUESTIONS[0].question}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
@@ -1570,8 +1570,8 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                     </svg>
                   </div>
 
-                  <div className="p-4 rounded-xl bg-indigo-950/40 border border-indigo-800/60">
-                    <h4 className="text-xs font-bold text-indigo-300 uppercase">Selected SWOT Quadrant Focus:</h4>
+                  <div className="p-4 rounded-xl bg-gold-950/40 border border-gold-800/60">
+                    <h4 className="text-xs font-bold text-gold-300 uppercase">Selected SWOT Quadrant Focus:</h4>
                     <p className="text-xs text-slate-300 mt-1">
                       {selectedSwotQuadrant === 'S' && 'Leverage internal Strengths to pioneer rapid product launches and cost efficiency.'}
                       {selectedSwotQuadrant === 'W' && 'Acknowledge Weaknesses transparently to prevent governance crises and retrain workforce.'}
@@ -1642,7 +1642,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                         }}
                         className={`p-3 rounded-xl text-left border transition-all ${
                           selectedManagementTier === tier.key
-                            ? 'bg-indigo-950 border-indigo-400 text-indigo-100'
+                            ? 'bg-gold-950 border-gold-400 text-gold-100'
                             : 'bg-slate-950 border-slate-800 text-slate-400 hover:bg-slate-900'
                         }`}
                       >
@@ -1656,8 +1656,8 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                     {selectedManagementTier === 'top' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-1.5">
                         <div className="flex justify-between items-center">
-                          <span className="text-xs font-bold text-indigo-300">Top Tier Designations</span>
-                          <span className="text-[10px] bg-indigo-900/60 px-2 py-0.5 rounded text-indigo-200">Companies Act Sec 2(18) KMP</span>
+                          <span className="text-xs font-bold text-gold-300">Top Tier Designations</span>
+                          <span className="text-[10px] bg-gold-900/60 px-2 py-0.5 rounded text-gold-200">Companies Act Sec 2(18) KMP</span>
                         </div>
                         <p className="text-xs text-slate-300">Board of Directors, CEO, MD, CFO, Company Secretary.</p>
                         <p className="text-xs text-amber-300">
@@ -1668,9 +1668,9 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
 
                     {selectedManagementTier === 'middle' && (
                       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-1.5">
-                        <span className="text-xs font-bold text-sky-300">Middle Tier Designations</span>
+                        <span className="text-xs font-bold text-gold-300">Middle Tier Designations</span>
                         <p className="text-xs text-slate-300">Plant Heads, Regional Sales Managers, Divisional Directors.</p>
-                        <p className="text-xs text-sky-300">
+                        <p className="text-xs text-gold-300">
                           <strong>Core Function:</strong> Translate top-level strategic vision into departmental tactical plans, allocate budgets, and supervise lower managers.
                         </p>
                       </motion.div>
@@ -1749,7 +1749,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                         setCycleTimeSeconds(Number(e.target.value));
                         audioManager.play('count');
                       }}
-                      className="w-full accent-indigo-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                       aria-label="Assembly cycle time slider"
                     />
                   </div>
@@ -1799,7 +1799,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   setCurrentSlide(s => s + 1);
                   audioManager.play('tap');
                 }}
-                className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold shadow-lg shadow-indigo-600/30"
+                className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white text-sm font-bold shadow-lg shadow-gold-600/30"
               >
                 Next Lab →
               </motion.button>
@@ -1869,7 +1869,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
             </div>
             <div>
               <label className="text-xs font-semibold text-slate-300 block mb-1">
-                Task Cycle Time: <span className="text-indigo-400">{cycleTimeSeconds}s</span>
+                Task Cycle Time: <span className="text-gold-400">{cycleTimeSeconds}s</span>
               </label>
               <input
                 type="range"
@@ -1877,7 +1877,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                 max={90}
                 value={cycleTimeSeconds}
                 onChange={e => setCycleTimeSeconds(Number(e.target.value))}
-                className="w-full accent-indigo-500"
+                className="w-full accent-gold-500"
               />
             </div>
           </div>
@@ -1893,7 +1893,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
             </div>
             <div>
               <p className="text-xs text-slate-400">Total Revenue Score</p>
-              <p className="text-lg font-bold text-indigo-400">{simMetrics.totalRevenueIndex}</p>
+              <p className="text-lg font-bold text-gold-400">{simMetrics.totalRevenueIndex}</p>
             </div>
           </div>
 
@@ -1901,7 +1901,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             onClick={handleAdvanceToChallenge}
-            className="w-full py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 via-sky-600 to-emerald-600 text-white font-black text-sm tracking-wide shadow-xl shadow-indigo-600/20"
+            className="w-full py-3.5 rounded-xl bg-gradient-to-r from-gold-600 via-gold-600 to-emerald-600 text-white font-black text-sm tracking-wide shadow-xl shadow-gold-600/20"
           >
             I Am Ready for Graded Challenges →
           </motion.button>
@@ -1922,7 +1922,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                 Challenge {currentChallenge + 1} of {filteredChallenges.length}
               </span>
               <div className="flex items-center gap-2">
-                <span className="px-2 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-700/50 uppercase text-[10px] font-bold">
+                <span className="px-2 py-0.5 rounded bg-gold-950 text-gold-300 border border-gold-700/50 uppercase text-[10px] font-bold">
                   Competency: {challenge.competencyLevel}
                 </span>
                 <span className="text-slate-400">
@@ -1933,7 +1933,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
 
             <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 via-sky-400 to-emerald-400"
+                className="h-full bg-gradient-to-r from-gold-500 via-gold-400 to-emerald-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
               />
             </div>
@@ -1967,7 +1967,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                         : 'bg-slate-800/80 hover:bg-slate-750 border-slate-700 text-slate-200'
                     }`}
                   >
-                    <span className="font-bold mr-2 text-indigo-400">{String.fromCharCode(65 + i)}.</span> {opt}
+                    <span className="font-bold mr-2 text-gold-400">{String.fromCharCode(65 + i)}.</span> {opt}
                   </motion.button>
                 ))}
               </div>
@@ -1984,7 +1984,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                       onDragStart={() => handleDragStart(item.label)}
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold cursor-grab shadow"
+                      className="px-3 py-1.5 rounded-lg bg-gold-700 hover:bg-gold-600 text-white text-xs font-bold cursor-grab shadow"
                     >
                       {item.label}
                     </motion.div>
@@ -2008,7 +2008,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                       }`}
                     >
                       <p className="text-xs font-bold text-slate-400 mb-1">{target.title}</p>
-                      <p className="text-xs font-bold text-indigo-300">
+                      <p className="text-xs font-bold text-gold-300">
                         {droppedLabels[target.id] || '📥 Drop Designation Here'}
                       </p>
                     </div>
@@ -2020,7 +2020,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(droppedLabels)}
                   disabled={showExplanation}
-                  className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow"
+                  className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow"
                 >
                   Verify Mappings
                 </motion.button>
@@ -2050,7 +2050,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                       className="p-3.5 rounded-xl bg-slate-800 border border-slate-700 text-xs font-semibold text-slate-200 cursor-grab flex items-center justify-between"
                     >
                       <span>
-                        <strong className="text-indigo-400 mr-2">{idx + 1}.</strong> {item}
+                        <strong className="text-gold-400 mr-2">{idx + 1}.</strong> {item}
                       </span>
                       <span className="text-slate-500 text-xs">☰ Reorder</span>
                     </motion.div>
@@ -2062,7 +2062,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={handleSortSubmit}
                   disabled={showExplanation}
-                  className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow"
+                  className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow"
                 >
                   Submit Ordered Sequence
                 </motion.button>
@@ -2078,7 +2078,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                     value={numericInput}
                     onChange={e => setNumericInput(e.target.value)}
                     placeholder="Enter numerical figure"
-                    className="px-4 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white text-sm focus:outline-none focus:border-indigo-500"
+                    className="px-4 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white text-sm focus:outline-none focus:border-gold-500"
                   />
                   <span className="text-xs text-slate-400 font-bold">{challenge.unit}</span>
                   <motion.button
@@ -2086,7 +2086,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                     whileTap={{ scale: 0.97 }}
                     onClick={() => handleAnswer(numericInput)}
                     disabled={showExplanation || !numericInput}
-                    className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow"
+                    className="px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow"
                   >
                     Check Calculation
                   </motion.button>
@@ -2104,7 +2104,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => setConstructParts(prev => [...prev, part])}
-                      className="px-3 py-1.5 rounded-lg bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-600 text-xs font-semibold"
+                      className="px-3 py-1.5 rounded-lg bg-gold-900/80 hover:bg-gold-800 text-gold-200 border border-gold-600 text-xs font-semibold"
                     >
                       + {part}
                     </motion.button>
@@ -2115,7 +2115,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   {constructParts.map((p, idx) => (
                     <span
                       key={idx}
-                      className="px-2.5 py-1 rounded-md bg-indigo-700 text-white text-xs font-medium flex items-center gap-1.5"
+                      className="px-2.5 py-1 rounded-md bg-gold-700 text-white text-xs font-medium flex items-center gap-1.5"
                     >
                       {p}
                       <button
@@ -2136,7 +2136,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   whileTap={{ scale: 0.97 }}
                   onClick={() => handleAnswer(constructParts.join(' '))}
                   disabled={showExplanation || constructParts.length === 0}
-                  className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs shadow"
+                  className="px-5 py-2 rounded-xl bg-gold-600 hover:bg-gold-500 text-white font-bold text-xs shadow"
                 >
                   Verify Definition
                 </motion.button>
@@ -2214,7 +2214,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
           className="mt-6 space-y-6"
         >
           {/* Performance Hero Card */}
-          <div className="p-6 md:p-8 rounded-3xl bg-gradient-to-br from-indigo-950/90 via-slate-900 to-slate-950 border border-indigo-700/60 shadow-2xl text-center space-y-4">
+          <div className="p-6 md:p-8 rounded-3xl bg-gradient-to-br from-gold-950/90 via-slate-900 to-slate-950 border border-gold-700/60 shadow-2xl text-center space-y-4">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -2235,7 +2235,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
               </div>
               <div>
                 <p className="text-xs text-slate-400 font-semibold">Mastery Tier</p>
-                <p className="text-3xl font-black text-sky-400 capitalize">{masteryLevel}</p>
+                <p className="text-3xl font-black text-gold-400 capitalize">{masteryLevel}</p>
               </div>
             </div>
 
@@ -2244,7 +2244,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
               errors === 0
                 ? 'bg-emerald-950/80 border-emerald-500/80 text-emerald-300 shadow-lg shadow-emerald-950/50'
                 : errors <= 3
-                ? 'bg-sky-950/80 border-sky-500/80 text-sky-300 shadow-lg shadow-sky-950/50'
+                ? 'bg-gold-950/80 border-gold-500/80 text-gold-300 shadow-lg shadow-gold-950/50'
                 : errors <= 7
                 ? 'bg-amber-950/80 border-amber-500/80 text-amber-300 shadow-lg shadow-amber-950/50'
                 : 'bg-rose-950/80 border-rose-500/80 text-rose-300 shadow-lg shadow-rose-950/50'
@@ -2264,7 +2264,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
               errors === 0
                 ? 'bg-emerald-950/50 border-emerald-500/80'
                 : errors <= 3
-                ? 'bg-sky-950/50 border-sky-500/80'
+                ? 'bg-gold-950/50 border-gold-500/80'
                 : 'bg-amber-950/50 border-amber-500/80'
             }`}
           >
@@ -2277,7 +2277,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   <h3 className="text-sm md:text-base font-black text-slate-100 uppercase tracking-wider">
                     Spaced Repetition Schedule (SRS)
                   </h3>
-                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-indigo-900/80 text-indigo-300 border border-indigo-700">
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-gold-900/80 text-gold-300 border border-gold-700">
                     SM-2 Algorithm
                   </span>
                 </div>
@@ -2288,7 +2288,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   👉 Next Review Due:{' '}
                   <span className={`px-2.5 py-0.5 rounded-md ${
                     errors === 0 ? 'bg-emerald-900/80 text-emerald-200 border border-emerald-500' :
-                    errors <= 3 ? 'bg-sky-900/80 text-sky-200 border border-sky-500' :
+                    errors <= 3 ? 'bg-gold-900/80 text-gold-200 border border-gold-500' :
                     'bg-amber-900/80 text-amber-200 border border-amber-500'
                   }`}>
                     {errors === 0 ? 'Review in 7 days' : errors <= 3 ? 'Review in 3 days' : 'Review in 1 day'}
@@ -2306,7 +2306,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
 
           {/* ─── REFLECTION SECTION ─── */}
           <div className="p-6 rounded-2xl bg-slate-900 border border-slate-800 space-y-4">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>💭</span> Key Concept Reflection
             </h3>
             <p className="text-xs text-slate-400">
@@ -2322,7 +2322,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   value={reflection1}
                   onChange={e => setReflection1(e.target.value)}
                   placeholder="e.g. How internal culture and corporate structure are fundamentally part of the total business environment..."
-                  className="w-full p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2335,7 +2335,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   value={reflection2}
                   onChange={e => setReflection2(e.target.value)}
                   placeholder="e.g. Think of a firm like a ship: internal factors are the hull and crew, external forces are wind and currents..."
-                  className="w-full p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
 
@@ -2348,7 +2348,7 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
                   value={reflection3}
                   onChange={e => setReflection3(e.target.value)}
                   placeholder="e.g. Launching a startup, scanning government EV subsidies, structuring department reporting..."
-                  className="w-full p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                  className="w-full p-2.5 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-gold-500"
                 />
               </div>
             </div>
@@ -2376,15 +2376,15 @@ function C12_CommerceBusinessEnvironmentMeaningSim({
           )}
 
           {/* Real-World Activity Finale */}
-          <div className="p-6 rounded-2xl bg-indigo-950/50 border border-indigo-800 space-y-3">
-            <h3 className="text-base font-bold text-indigo-300 flex items-center gap-2">
+          <div className="p-6 rounded-2xl bg-gold-950/50 border border-gold-800 space-y-3">
+            <h3 className="text-base font-bold text-gold-300 flex items-center gap-2">
               <span>📝</span> Real-World Strategy Case: {REAL_WORLD_ACTIVITY.title}
             </h3>
             <p className="text-xs text-slate-300 leading-relaxed">{REAL_WORLD_ACTIVITY.description}</p>
             <div className="space-y-1.5 pt-1">
               {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                 <p key={idx} className="text-xs text-slate-400">
-                  <strong className="text-indigo-400">{idx + 1}.</strong> {step}
+                  <strong className="text-gold-400">{idx + 1}.</strong> {step}
                 </p>
               ))}
             </div>

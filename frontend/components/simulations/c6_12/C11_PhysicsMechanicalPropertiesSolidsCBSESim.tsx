@@ -816,7 +816,7 @@ const StressStrainSVGDiagram: React.FC<{ activePoint: string; onSelectPoint: (pt
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 shadow-xl">
       <div className="flex justify-between items-center mb-2">
-        <h4 className="text-sm font-semibold text-sky-400">Interactive Stress-Strain Curve Explorer</h4>
+        <h4 className="text-sm font-semibold text-gold-400">Interactive Stress-Strain Curve Explorer</h4>
         <span className="text-xs text-slate-400">Click points to inspect physical mechanisms</span>
       </div>
 
@@ -884,9 +884,9 @@ const StressStrainSVGDiagram: React.FC<{ activePoint: string; onSelectPoint: (pt
             initial={{ opacity: 0, y: 5 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -5 }}
-            className="mt-3 p-3 bg-slate-800 border border-sky-500/40 rounded-lg text-xs"
+            className="mt-3 p-3 bg-slate-800 border border-gold-500/40 rounded-lg text-xs"
           >
-            <span className="font-bold text-sky-400">
+            <span className="font-bold text-gold-400">
               {points.find((p) => p.id === activePoint)?.label}:{' '}
             </span>
             <span className="text-slate-200">
@@ -1168,7 +1168,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
       {/* HEADER BAR */}
       <header className="max-w-7xl mx-auto mb-6 flex flex-col md:flex-row justify-between items-start md:items-center border-b border-slate-800 pb-4">
         <div>
-          <span className="text-xs font-bold tracking-widest text-sky-400 uppercase">CBSE Class 11 Physics • Chapter 9</span>
+          <span className="text-xs font-bold tracking-widest text-gold-400 uppercase">CBSE Class 11 Physics • Chapter 9</span>
           <h1 className="text-2xl md:text-3xl font-extrabold text-slate-50 flex items-center gap-2">
              Mechanical Properties of Solids
           </h1>
@@ -1192,7 +1192,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
               }}
               className={`px-3 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all ${
                 activeTab === tab.id
-                  ? 'bg-sky-500 text-slate-950 shadow-lg shadow-sky-500/30'
+                  ? 'bg-gold-500 text-slate-950 shadow-lg shadow-gold-500/30'
                   : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
               }`}
             >
@@ -1218,7 +1218,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                 {DISCOVERY_QUESTION.options.map((option, idx) => {
                   const isSelected = predictSelected === idx;
                   const isCorrect = idx === DISCOVERY_QUESTION.correctIndex;
-                  let cardStyle = 'bg-slate-800 border-slate-700 text-slate-200 hover:border-sky-500';
+                  let cardStyle = 'bg-slate-800 border-slate-700 text-slate-200 hover:border-gold-500';
 
                   if (predictSubmitted) {
                     if (isCorrect) cardStyle = 'bg-emerald-950/60 border-emerald-500 text-emerald-200 font-medium';
@@ -1242,8 +1242,8 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
               </div>
 
               {predictSubmitted && (
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-800 border border-sky-500/30 rounded-xl text-xs md:text-sm text-slate-300">
-                  <span className="font-bold text-sky-400">Physics Insight: </span>
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-4 bg-slate-800 border border-gold-500/30 rounded-xl text-xs md:text-sm text-slate-300">
+                  <span className="font-bold text-gold-400">Physics Insight: </span>
                   {DISCOVERY_QUESTION.hintAfter}
                   <div className="mt-4 flex justify-end">
                     <button
@@ -1251,7 +1251,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                         setActiveTab('theory');
                         audioManager.play('whoosh');
                       }}
-                      className="px-4 py-2 bg-sky-500 text-slate-950 font-bold rounded-lg hover:bg-sky-400 text-xs"
+                      className="px-4 py-2 bg-gold-500 text-slate-950 font-bold rounded-lg hover:bg-gold-400 text-xs"
                     >
                       Proceed to Visual Theory →
                     </button>
@@ -1286,7 +1286,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                     setSlideIndex((prev) => prev + 1);
                     audioManager.play('tap');
                   }}
-                  className="px-3 py-1 bg-sky-500 text-slate-950 rounded text-xs font-bold disabled:opacity-40"
+                  className="px-3 py-1 bg-gold-500 text-slate-950 rounded text-xs font-bold disabled:opacity-40"
                 >
                   Next →
                 </button>
@@ -1297,7 +1297,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl flex flex-col justify-between">
                 <div>
-                  <span className="text-xs font-bold text-sky-400 tracking-wide uppercase">
+                  <span className="text-xs font-bold text-gold-400 tracking-wide uppercase">
                     {TEACHING_SLIDES[slideIndex].concept}
                   </span>
                   <h3 className="text-xl font-bold text-slate-100 mt-1 mb-4">
@@ -1312,7 +1312,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                   <div className="p-3 bg-slate-950 border border-slate-800 rounded-lg text-xs font-mono text-amber-300">
                     {TEACHING_SLIDES[slideIndex].math}
                   </div>
-                  <div className="p-3 bg-sky-950/40 border border-sky-500/30 rounded-lg text-xs text-sky-200">
+                  <div className="p-3 bg-gold-950/40 border border-gold-500/30 rounded-lg text-xs text-gold-200">
                     <span className="font-bold">Key Takeaway: </span>
                     {TEACHING_SLIDES[slideIndex].keyTakeaway}
                   </div>
@@ -1377,7 +1377,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                       }}
                       className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                         selectedMaterialId === mat.id
-                          ? 'bg-sky-500 text-slate-950 shadow-md'
+                          ? 'bg-gold-500 text-slate-950 shadow-md'
                           : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                       }`}
                     >
@@ -1403,7 +1403,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3 bg-slate-950 p-4 rounded-xl border border-slate-800">
                     <div>
                       <span className="text-[10px] text-slate-400 uppercase tracking-wider block">Tensile Stress (σ)</span>
-                      <span className="text-base font-bold text-sky-400">{tensometerReadout.stressMPa.toFixed(2)} MPa</span>
+                      <span className="text-base font-bold text-gold-400">{tensometerReadout.stressMPa.toFixed(2)} MPa</span>
                     </div>
                     <div>
                       <span className="text-[10px] text-slate-400 uppercase tracking-wider block">Longitudinal Strain (ε)</span>
@@ -1422,7 +1422,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
 
                 {/* Right 1 Col: Controls Panel */}
                 <div className="bg-slate-950 border border-slate-800 p-4 rounded-xl space-y-5">
-                  <h4 className="text-xs font-bold text-sky-400 uppercase tracking-wider">Parameter Controls</h4>
+                  <h4 className="text-xs font-bold text-gold-400 uppercase tracking-wider">Parameter Controls</h4>
 
                   {/* Load Mass Slider */}
                   <div>
@@ -1437,7 +1437,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                       step="10"
                       value={loadKg}
                       onChange={(e) => setLoadKg(Number(e.target.value))}
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1445,7 +1445,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-slate-300">Initial Wire Length (L₀):</span>
-                      <span className="font-bold text-sky-400">{wireLengthM.toFixed(1)} m</span>
+                      <span className="font-bold text-gold-400">{wireLengthM.toFixed(1)} m</span>
                     </div>
                     <input
                       type="range"
@@ -1454,7 +1454,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                       step="0.1"
                       value={wireLengthM}
                       onChange={(e) => setWireLengthM(Number(e.target.value))}
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
@@ -1471,14 +1471,14 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                       step="0.1"
                       value={wireRadiusMm}
                       onChange={(e) => setWireRadiusMm(Number(e.target.value))}
-                      className="w-full accent-sky-500 cursor-pointer"
+                      className="w-full accent-gold-500 cursor-pointer"
                     />
                   </div>
 
                   {/* Material Specs Summary Card */}
                   <div className="p-3 bg-slate-900 border border-slate-800 rounded-lg text-xs space-y-1.5 text-slate-300">
                     <div className="font-bold text-slate-100 border-b border-slate-800 pb-1">{activeMaterial.name} Specs</div>
-                    <div className="flex justify-between"><span>Young's Modulus Y:</span> <span className="font-mono text-sky-300">{activeMaterial.youngModulus} GPa</span></div>
+                    <div className="flex justify-between"><span>Young's Modulus Y:</span> <span className="font-mono text-gold-300">{activeMaterial.youngModulus} GPa</span></div>
                     <div className="flex justify-between"><span>Shear Modulus G:</span> <span className="font-mono text-amber-300">{activeMaterial.shearModulus} GPa</span></div>
                     <div className="flex justify-between"><span>Bulk Modulus K:</span> <span className="font-mono text-emerald-300">{activeMaterial.bulkModulus} GPa</span></div>
                     <div className="flex justify-between"><span>Poisson's Ratio ν:</span> <span className="font-mono text-purple-300">{activeMaterial.poissonRatio}</span></div>
@@ -1496,7 +1496,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
             <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6 border-b border-slate-800 pb-4">
                 <div>
-                  <span className="text-xs font-bold text-sky-400 uppercase tracking-wider">Mission Diagnostic {currentChallengeIndex + 1} of {CHALLENGES.length}</span>
+                  <span className="text-xs font-bold text-gold-400 uppercase tracking-wider">Mission Diagnostic {currentChallengeIndex + 1} of {CHALLENGES.length}</span>
                   <h3 className="text-xl font-bold text-slate-100 mt-1">
                     {CHALLENGES[currentChallengeIndex].question}
                   </h3>
@@ -1508,7 +1508,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                     const fb = challengeFeedback[ch.id];
                     let dotColor = 'bg-slate-800 border-slate-700';
                     if (fb) dotColor = fb.isCorrect ? 'bg-emerald-500 border-emerald-400' : 'bg-rose-500 border-rose-400';
-                    else if (idx === currentChallengeIndex) dotColor = 'bg-sky-500 ring-2 ring-sky-400';
+                    else if (idx === currentChallengeIndex) dotColor = 'bg-gold-500 ring-2 ring-gold-400';
 
                     return (
                       <button
@@ -1541,7 +1541,7 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                           <button
                             key={optIdx}
                             onClick={() => handleChallengeSubmit(ch, optIdx)}
-                            className="p-4 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-800 hover:border-sky-500 text-left text-xs md:text-sm text-slate-200 transition-all flex items-start gap-3"
+                            className="p-4 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-800 hover:border-gold-500 text-left text-xs md:text-sm text-slate-200 transition-all flex items-start gap-3"
                           >
                             <span className="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold shrink-0">
                               {String.fromCharCode(65 + optIdx)}
@@ -1562,11 +1562,11 @@ export default function C11_PhysicsMechanicalPropertiesSolidsCBSESim() {
                           placeholder="e.g. 2.0"
                           value={challengeAnswers[ch.id] || ''}
                           onChange={(e) => setChallengeAnswers({ ...challengeAnswers, [ch.id]: e.target.value })}
-                          className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-100 text-sm focus:outline-none focus:border-sky-500 w-full md:w-48"
+                          className="px-4 py-2.5 bg-slate-900 border border-slate-700 rounded-lg text-slate-100 text-sm focus:outline-none focus:border-gold-500 w-full md:w-48"
                         />
                         <button
                           onClick={() => handleChallengeSubmit(ch, parseFloat(String(challengeAnswers[ch.id])))}
-                          className="px-6 py-2.5 bg-sky-500 text-slate-950 font-bold rounded-lg hover:bg-sky-400 text-xs md:text-sm transition-all"
+                          className="px-6 py-2.5 bg-gold-500 text-slate-950 font-bold rounded-lg hover:bg-gold-400 text-xs md:text-sm transition-all"
                         >
                           Verify Calculation
                         </button>

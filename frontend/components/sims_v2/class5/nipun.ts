@@ -20,7 +20,7 @@ export const c5HinGrammar: SimDef = {
     teaching: [
         { title: 'पुल्लिंग / स्त्रीलिंग ⚖️', text: 'Every संज्ञा has a gender: लड़का (पुल्लिंग), लड़की (स्त्रीलिंग). Even things! कलम = स्त्रीलिंग, घर = पुल्लिंग!', emoji: '⚖️', bgColor: 'from-orange-400 to-red-500' },
         { title: 'क्रिया का मेल 🤝', text: 'क्रिया copies the gender: लड़का खेलता, लड़की खेलती; घोड़ा दौड़ा, घोड़ी दौड़ी!', emoji: '🤝', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'विशेषण भी मिलता है 🎨', text: 'Even describing words match: अच्छा लड़का, अच्छी लड़की; लाल झंडा, लाल कलम!', emoji: '🎨', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'विशेषण भी मिलता है 🎨', text: 'Even describing words match: अच्छा लड़का, अच्छी लड़की; लाल झंडा, लाल कलम!', emoji: '🎨', bgColor: 'from-gold-400 to-purple-500' },
         { title: 'आम जोड़े 👫', text: 'राजा-रानी, घोड़ा-घोड़ी, बिल्ला-बिल्ली, दादा-दादी — learn the pairs!', emoji: '👫', bgColor: 'from-amber-400 to-orange-500' },
     ],
     explore: { widget: 'match', prompt: 'पुल्लिंग-स्त्रीलिंग जोड़े मिलाओ!', labels: ['राजा', 'रानी', 'घोड़ा', 'घोड़ी', 'दादा', 'दादी'] },
@@ -57,7 +57,7 @@ export const c5HinReading: SimDef = {
     id: 'c5_hin_reading', title: 'कहानी-कारागर', subtitle: 'पैरा पढ़ो, भाव समझो!',
     classLevel: 5, subject: 'hindi', topic: 'Hindi Reading & Inference',
     chapters: ['Hindi: unseen passage'],
-    emoji: '📜', theme: { bg: 'from-teal-100 to-cyan-200', accent: 'teal', scene: 'story' },
+    emoji: '📜', theme: { bg: 'from-teal-100 to-gold-200', accent: 'teal', scene: 'story' },
     scenario: { role: "a meaning-reader", intro: 'Big paragraphs hide answers AND feelings. Read between the lines!', goal: 'Answer direct AND hidden questions.' },
     discovery: {
         question: '"रामू आँखें भर आई और उसने रोना शुरू किया।" — रामू कैसा महसूस कर रहा था?"',
@@ -66,10 +66,10 @@ export const c5HinReading: SimDef = {
         hook: 'आँसू + रोना = दुखी — the paragraph SHOWED the feeling without naming it!',
     },
     teaching: [
-        { title: 'दो तरह के सवाल 🎭', text: 'Direct (लिखा हुआ) — "रामू कौन था?" AND hidden (समझना पड़ेगा) — "रामू कैसा महसूस कर रहा था?"!', emoji: '🎭', bgColor: 'from-teal-400 to-cyan-500' },
+        { title: 'दो तरह के सवाल 🎭', text: 'Direct (लिखा हुआ) — "रामू कौन था?" AND hidden (समझना पड़ेगा) — "रामू कैसा महसूस कर रहा था?"!', emoji: '🎭', bgColor: 'from-teal-400 to-gold-500' },
         { title: 'भाव की सूझ 💭', text: 'Feelings hide in actions: रोना = दुखी, हँसना = खुश, थरथराना = डर!', emoji: '💭', bgColor: 'from-amber-400 to-orange-500' },
-        { title: 'शीर्षक से संकेत 🏷️', text: 'The title whispers the theme — read it FIRST before the paragraph!', emoji: '🏷️', bgColor: 'from-violet-400 to-purple-500' },
-        { title: 'कारण ढूँढो 🔗', text: '"क्यों" questions want the reason — search for क्योंकि, इसलिए, जिससे!', emoji: '🔗', bgColor: 'from-blue-400 to-indigo-500' },
+        { title: 'शीर्षक से संकेत 🏷️', text: 'The title whispers the theme — read it FIRST before the paragraph!', emoji: '🏷️', bgColor: 'from-gold-400 to-purple-500' },
+        { title: 'कारण ढूँढो 🔗', text: '"क्यों" questions want the reason — search for क्योंकि, इसलिए, जिससे!', emoji: '🔗', bgColor: 'from-gold-400 to-gold-500' },
     ],
     explore: { widget: 'order', prompt: 'कहानी के हिस्से सही क्रम में लगाओ!', labels: ['किसान ने बीज बोया', 'पौधा बढ़ा', 'फूल आए', 'फल पके'] },
     challenges: [
@@ -118,7 +118,7 @@ export const c5HinSentence: SimDef = {
         { title: 'और — जोड़ता है ➕', text: 'और adds similar ideas: "राम खेलता है और सीता गाती है" — two facts joined!', emoji: '➕', bgColor: 'from-amber-400 to-orange-500' },
         { title: 'लेकिन — उल्टी बात ↔️', text: 'लेकिन shows CONTRAST: "वह गरीब है लेकिन बड़ा दिलदार है" — opposite ideas!', emoji: '↔️', bgColor: 'from-rose-400 to-pink-500' },
         { title: 'क्योंकि/इसलिए — कारण 🔗', text: 'क्योंकि = because (reason), इसलिए = therefore (result). "वर्षा हुई इसलिए खेल रद्द हुआ"!', emoji: '🔗', bgColor: 'from-emerald-400 to-teal-500' },
-        { title: 'पैराग्राफ का क्रम 📋', text: 'A paragraph has a flow: शुरुआत → मध्य → अंत. Sentences must follow logical order!', emoji: '📋', bgColor: 'from-violet-400 to-purple-500' },
+        { title: 'पैराग्राफ का क्रम 📋', text: 'A paragraph has a flow: शुरुआत → मध्य → अंत. Sentences must follow logical order!', emoji: '📋', bgColor: 'from-gold-400 to-purple-500' },
     ],
     explore: { widget: 'match', prompt: 'जोड़ने वाले शब्द उनके काम से मिलाओ!', labels: ['और', 'adds same idea', 'लेकिन', 'shows contrast', 'क्योंकि', 'gives reason'] },
     challenges: [

@@ -26,11 +26,11 @@ export function C8_MathematicsIntroductionToGraphsSim() {
 
   return (
     <div className="w-full max-w-5xl mx-auto p-5 bg-white rounded-3xl border border-slate-200 shadow-xl font-sans text-slate-800">
-      <h1 className="text-xl md:text-2xl font-black text-indigo-700">Introduction to Graphs: The Line Machine</h1>
+      <h1 className="text-xl md:text-2xl font-black text-gold-700">Introduction to Graphs: The Line Machine</h1>
 
-      <div className="mt-3 p-4 bg-indigo-50 border border-indigo-200 rounded-2xl text-sm leading-relaxed">
+      <div className="mt-3 p-4 bg-gold-50 border border-gold-200 rounded-2xl text-sm leading-relaxed">
         <p>
-          <span className="font-bold text-indigo-700">Story mode:</span> imagine filling a tank that
+          <span className="font-bold text-gold-700">Story mode:</span> imagine filling a tank that
           already holds c litres, at a rate of m litres per minute. The water level after x minutes
           is y = mx + c. A bigger rate tilts the line steeper; a negative rate drains the tank and
           the line slopes downhill. Two points fix a line completely - that is why every pair of
@@ -40,7 +40,7 @@ export function C8_MathematicsIntroductionToGraphsSim() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         {[['Flat tank', 0, 1], ['Steady fill', 2, 0], ['Leaking tank', -1, 4], ['Steep fill', 3, -3]].map(([label, a, b]) => (
-          <button key={label as string} onClick={() => { setM(a as number); setC(b as number); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-100 text-indigo-700 hover:bg-indigo-200 transition-all">
+          <button key={label as string} onClick={() => { setM(a as number); setC(b as number); }} className="px-3 py-1.5 rounded-lg text-xs font-bold bg-gold-100 text-gold-700 hover:bg-gold-200 transition-all">
             {label as string}
           </button>
         ))}
@@ -49,8 +49,8 @@ export function C8_MathematicsIntroductionToGraphsSim() {
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 space-y-4">
           <div>
-            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Rate m (litres/min)</span><span className="font-mono text-indigo-600">{m}</span></label>
-            <input type="range" min={-4} max={4} step={0.5} value={m} aria-label="slope m" onChange={(e) => setM(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+            <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Rate m (litres/min)</span><span className="font-mono text-gold-600">{m}</span></label>
+            <input type="range" min={-4} max={4} step={0.5} value={m} aria-label="slope m" onChange={(e) => setM(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
           </div>
           <div>
             <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Start level c (litres)</span><span className="font-mono text-emerald-600">{c}</span></label>
@@ -61,7 +61,7 @@ export function C8_MathematicsIntroductionToGraphsSim() {
             <input type="range" min={-6} max={6} step={0.5} value={x0} aria-label="probe x" onChange={(e) => setX0(Number(e.target.value))} className="w-full mt-1 accent-amber-600" />
           </div>
           <div className="p-3 bg-white rounded-xl border border-slate-200 font-mono text-sm">
-            <div className="text-indigo-700 font-bold">y = {m}x + {c}</div>
+            <div className="text-gold-700 font-bold">y = {m}x + {c}</div>
             <div>at x = {x0}: y = {m} x {x0} + {c} = <span className="font-bold">{Math.round(y0 * 100) / 100}</span></div>
             <div className="mt-1 text-xs text-slate-500">
               y-intercept (0, {c}) and x-intercept {m !== 0 ? `(${Math.round((-c / m) * 100) / 100}, 0)` : 'none (flat line)'}
@@ -69,7 +69,7 @@ export function C8_MathematicsIntroductionToGraphsSim() {
           </div>
         </div>
 
-        <div className="p-2 bg-gradient-to-br from-sky-50 to-white rounded-2xl border border-slate-200">
+        <div className="p-2 bg-gradient-to-br from-gold-50 to-white rounded-2xl border border-slate-200">
           <svg viewBox="0 0 320 320" className="w-full">
             {[-6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6].map((v) => (
               <g key={v}>
@@ -96,7 +96,7 @@ export function C8_MathematicsIntroductionToGraphsSim() {
         <div className="flex flex-wrap gap-3 font-mono text-sm">
           {tableXs.map((tx) => (
             <span key={tx} className="px-2 py-1 rounded-lg bg-white border border-slate-200">
-              ({tx}, <span className="text-indigo-700 font-bold">{Math.round((m * tx + c) * 100) / 100}</span>)
+              ({tx}, <span className="text-gold-700 font-bold">{Math.round((m * tx + c) * 100) / 100}</span>)
             </span>
           ))}
         </div>
@@ -106,7 +106,7 @@ export function C8_MathematicsIntroductionToGraphsSim() {
         <p className="text-xs font-bold text-slate-500 mb-2">READING THE GRAPH LIKE A SCIENTIST</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs text-slate-600">
           <div className="p-2 bg-white rounded-xl border border-slate-200">
-            <span className="font-bold text-indigo-700">Steepness = m.</span> Rise of {m} for every 1 step right; negative m walks downhill.
+            <span className="font-bold text-gold-700">Steepness = m.</span> Rise of {m} for every 1 step right; negative m walks downhill.
           </div>
           <div className="p-2 bg-white rounded-xl border border-slate-200">
             <span className="font-bold text-emerald-700">Crossing = c.</span> The line pierces the y-axis at (0, {c}); shift c and the line slides without tilting.

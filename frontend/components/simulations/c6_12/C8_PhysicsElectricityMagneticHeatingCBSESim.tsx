@@ -860,11 +860,11 @@ export default function C8_PhysicsElectricityMagneticHeatingCBSESim() {
       {/* ─── TOP HEADER / NAV BAR ─── */}
       <header className="max-w-7xl mx-auto bg-slate-900/90 border border-slate-800 rounded-2xl p-4 mb-6 shadow-2xl backdrop-blur flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-indigo-600 flex items-center justify-center font-black text-xl shadow-lg shadow-amber-500/20">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-gold-600 flex items-center justify-center font-black text-xl shadow-lg shadow-amber-500/20">
             ⚡
           </div>
           <div>
-            <h1 className="text-lg font-bold bg-gradient-to-r from-amber-300 via-yellow-200 to-indigo-300 bg-clip-text text-transparent">
+            <h1 className="text-lg font-bold bg-gradient-to-r from-amber-300 via-yellow-200 to-gold-300 bg-clip-text text-transparent">
               Electricity: Magnetic & Heating Effects
             </h1>
             <p className="text-xs text-slate-400">CBSE Class 8 Physics • ISRO Diagnostic Lab</p>
@@ -921,14 +921,14 @@ export default function C8_PhysicsElectricityMagneticHeatingCBSESim() {
         {/* 1. NARRATIVE & DISCOVERY TAB */}
         {activeTab === 'narrative' && (
           <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-            <div className="bg-gradient-to-br from-slate-900 to-indigo-950/60 border border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xl">
+            <div className="bg-gradient-to-br from-slate-900 to-gold-950/60 border border-slate-800 rounded-2xl p-6 sm:p-8 shadow-xl">
               <span className="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
                 SCENARIO BRIEFING
               </span>
               <h2 className="text-2xl sm:text-3xl font-black mt-3 text-slate-100">{SCENARIO.title}</h2>
               <p className="mt-4 text-slate-300 leading-relaxed text-sm sm:text-base">{SCENARIO.intro}</p>
-              <div className="mt-6 p-4 rounded-xl bg-slate-950/60 border border-indigo-500/20 text-indigo-300 text-xs sm:text-sm">
-                🔬 <strong className="text-indigo-200">Engineering Context:</strong> {SCENARIO.context}
+              <div className="mt-6 p-4 rounded-xl bg-slate-950/60 border border-gold-500/20 text-gold-300 text-xs sm:text-sm">
+                🔬 <strong className="text-gold-200">Engineering Context:</strong> {SCENARIO.context}
               </div>
             </div>
 
@@ -1006,7 +1006,7 @@ export default function C8_PhysicsElectricityMagneticHeatingCBSESim() {
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                 <div className="space-y-4">
-                  <h3 className="text-sm font-semibold text-indigo-400">
+                  <h3 className="text-sm font-semibold text-gold-400">
                     {TEACHING_SLIDES[currentSlideIndex].subtitle}
                   </h3>
                   <p className="text-slate-300 leading-relaxed text-sm">
@@ -1224,10 +1224,10 @@ export default function C8_PhysicsElectricityMagneticHeatingCBSESim() {
                       </div>
 
                       {/* Electromagnet Paperclip Picker */}
-                      <div className="p-4 rounded-xl bg-slate-900 border border-indigo-500/20 text-xs space-y-2">
+                      <div className="p-4 rounded-xl bg-slate-900 border border-gold-500/20 text-xs space-y-2">
                         <div className="flex justify-between text-slate-300 font-semibold">
                           <span>Paperclips Picked Up:</span>
-                          <span className="text-indigo-400 font-bold text-sm">{attractedClips} clips</span>
+                          <span className="text-gold-400 font-bold text-sm">{attractedClips} clips</span>
                         </div>
                         <div className="flex flex-wrap gap-1">
                           {Array.from({ length: attractedClips }).map((_, i) => (
@@ -1380,7 +1380,7 @@ export default function C8_PhysicsElectricityMagneticHeatingCBSESim() {
                     {CHALLENGES[currentChallengeIndex].question}
                   </h2>
                 </div>
-                <span className="px-3 py-1 rounded-full text-xs font-bold bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
+                <span className="px-3 py-1 rounded-full text-xs font-bold bg-gold-500/10 text-gold-300 border border-gold-500/20">
                   {CHALLENGES[currentChallengeIndex].difficulty.toUpperCase()}
                 </span>
               </div>
@@ -1512,7 +1512,7 @@ export default function C8_PhysicsElectricityMagneticHeatingCBSESim() {
                   ) : (
                     <button
                       onClick={handleNextChallenge}
-                      className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-slate-100 font-extrabold text-xs rounded-xl shadow-lg shadow-indigo-600/20 transition"
+                      className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-slate-100 font-extrabold text-xs rounded-xl shadow-lg shadow-gold-600/20 transition"
                     >
                       Next Challenge →
                     </button>

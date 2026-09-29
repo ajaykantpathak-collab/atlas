@@ -11,7 +11,7 @@ export const w_c11_geographygeographydisciplinesim: SimDef = {
     classLevel: 11, subject: 'geography', topic: 'Geography: Definition, Meaning and Scope',
     chapters: [],
     nodeIds: ['c11_geo_cbse_01_001', 'c11_geo_cbse_01_002', 'c11_geo_cbse_01_004', 'c11_geo_cbse_01_006', 'c11_geo_cbse_01_008', 'c11_geo_cbse_01_009'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Begin by asking students to observe their immediate surroundings: the school building, the road outside, the.', goal: 'Master Geography: Definition, Meaning and Scope.' },
     discovery: {
         question: 'Explain why geography is classified as both a natural science and a social science, using the concepts of "physical geography" and "human geography."',
@@ -20,7 +20,7 @@ export const w_c11_geographygeographydisciplinesim: SimDef = {
         hook: 'Students often think "geography is the study of maps" because school atlases and map-work exercises dominate earlier.',
     },
     teaching: [
-        { title: 'Geography is the scientific discipline that.', text: 'Geography is the scientific discipline that studies the Earth\'s surface as the home of humankind, analyzing the spatial patterns and processes of both natural phenomena (physical geography) and human.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Geography is the scientific discipline that.', text: 'Geography is the scientific discipline that studies the Earth\'s surface as the home of humankind, analyzing the spatial patterns and processes of both natural phenomena (physical geography) and human.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_geo_cbse_01_001', title: 'Geography is the scientific discipline.',

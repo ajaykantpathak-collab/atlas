@@ -107,7 +107,7 @@ function C6_ScienceComponentsOfFoodSim() {
           <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Choose test</div>
           <div className="space-y-1.5">
             {TESTS.map((t) => (
-              <button key={t.id} onClick={() => { setTest(t); setPhase('ready'); }} className={'w-full px-2 py-1.5 rounded-lg text-[11px] font-bold text-left transition-all ' + (test.id === t.id ? 'bg-sky-500 text-white' : 'bg-sky-100 text-sky-800 hover:bg-sky-200')}>
+              <button key={t.id} onClick={() => { setTest(t); setPhase('ready'); }} className={'w-full px-2 py-1.5 rounded-lg text-[11px] font-bold text-left transition-all ' + (test.id === t.id ? 'bg-gold-500 text-white' : 'bg-gold-100 text-gold-800 hover:bg-gold-200')}>
                 {t.name}
               </button>
             ))}
@@ -131,9 +131,9 @@ function C6_ScienceComponentsOfFoodSim() {
         </div>
       )}
 
-      <div className="mt-4 p-3 rounded-2xl bg-sky-50 border-2 border-sky-200">
-        <div className="text-sm font-black text-sky-800">What to try</div>
-        <ol className="text-xs text-sky-700 list-decimal list-inside mt-1 space-y-1">
+      <div className="mt-4 p-3 rounded-2xl bg-gold-50 border-2 border-gold-200">
+        <div className="text-sm font-black text-gold-800">What to try</div>
+        <ol className="text-xs text-gold-700 list-decimal list-inside mt-1 space-y-1">
           <li>Test groundnuts with ALL THREE tests. Two of them turn positive -- which nutrients hide in one little nut?</li>
           <li>Milk shows violet (protein) AND makes paper translucent (fat). Record both tests -- why do growing children need milk?</li>
         </ol>

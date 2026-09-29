@@ -11,7 +11,7 @@ export const w_c12_historyantidowrymovement1970ssim: SimDef = {
     classLevel: 12, subject: 'history', topic: 'The Nath Tradition, Jogis and the Syncretic Sant Parampara',
     chapters: [],
     nodeIds: ['c12_hist_cbse_06_008'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 12 learner', intro: 'Imagine you visit the Gorakhnath Temple in Gorakhpur or see a Jogi with split ears (kanphata) at a village.', goal: 'Master The Nath Tradition, Jogis and the Syncretic Sant Parampara.' },
     discovery: {
         question: 'Why did the Nath-Jogi-Siddha leaders, despite their popularity among artisans and peasants, fail to secure sustained patronage from Rajput ruling elites before.',
@@ -20,7 +20,7 @@ export const w_c12_historyantidowrymovement1970ssim: SimDef = {
         hook: 'Students often equate "Jogi" with "Sufi faqir" or assume all yogis were Naths.',
     },
     teaching: [
-        { title: 'The Nath Tradition (Nath Panth), Jogis, and.', text: 'The Nath Tradition (Nath Panth), Jogis, and Siddhas were interconnected yogic and ascetic movements in North India (c.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'The Nath Tradition (Nath Panth), Jogis, and.', text: 'The Nath Tradition (Nath Panth), Jogis, and Siddhas were interconnected yogic and ascetic movements in North India (c.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c12_hist_cbse_06_008', title: 'The Nath Tradition (Nath Panth), Jogis,.',

@@ -805,11 +805,11 @@ const VegetationZoneDiagram: React.FC<{
         </div>
         <div className="bg-slate-800 p-2 rounded border border-slate-700">
           <span className="text-slate-400 block">Rainfall Input</span>
-          <span className="font-semibold text-cyan-300">{rainfall} cm / year</span>
+          <span className="font-semibold text-gold-300">{rainfall} cm / year</span>
         </div>
         <div className="bg-slate-800 p-2 rounded border border-slate-700">
           <span className="text-slate-400 block">Altitude / Temp</span>
-          <span className="font-semibold text-indigo-300">{altitude} m ({temperature}°C)</span>
+          <span className="font-semibold text-gold-300">{altitude} m ({temperature}°C)</span>
         </div>
       </div>
     </div>
@@ -893,10 +893,10 @@ const MangroveTidalSVG: React.FC<{ tideLevel: number; salinity: number }> = ({ t
   return (
     <div className="bg-slate-900 border border-slate-700 rounded-xl p-4 text-white shadow-xl">
       <div className="flex justify-between items-center mb-3">
-        <h3 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+        <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
           <span>🌊</span> Mangrove Tidal & Breathing Root (Pneumatophore) Sim
         </h3>
-        <span className="text-xs bg-cyan-950 text-cyan-300 px-3 py-1 rounded-full border border-cyan-800">
+        <span className="text-xs bg-gold-950 text-gold-300 px-3 py-1 rounded-full border border-gold-800">
           Salinity: {salinity} ppt (Parts per Thousand)
         </span>
       </div>
@@ -951,7 +951,7 @@ const MangroveTidalSVG: React.FC<{ tideLevel: number; salinity: number }> = ({ t
 
       <div className="mt-3 bg-slate-800 p-2.5 rounded-lg text-xs grid grid-cols-2 gap-2">
         <div className="text-slate-300">
-          <span className="font-semibold text-cyan-300 block">Adaptation Mechanism:</span>
+          <span className="font-semibold text-gold-300 block">Adaptation Mechanism:</span>
           Pneumatophores project upward above brackish water to transport atmospheric oxygen to subterranean root tissues.
         </div>
         <div className="text-slate-300">
@@ -1208,7 +1208,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
 
         {/* PREDICTION QUESTIONS SECTION */}
         <div className="bg-slate-900 border border-slate-700 rounded-xl p-6 shadow-xl space-y-6">
-          <h3 className="text-xl font-bold text-cyan-400 flex items-center gap-2">
+          <h3 className="text-xl font-bold text-gold-400 flex items-center gap-2">
             <span>🔮</span> Biome Hypotheses & Predictions
           </h3>
 
@@ -1245,7 +1245,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
               </div>
 
               {predictionAnswers[pIdx] !== null && (
-                <div className="text-xs bg-slate-900/90 border border-slate-700 p-2.5 rounded text-cyan-300">
+                <div className="text-xs bg-slate-900/90 border border-slate-700 p-2.5 rounded text-gold-300">
                   🔍 <strong>Interactive Verification:</strong> {pred.verifyInstruction}
                 </div>
               )}
@@ -1295,7 +1295,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
             <div className="space-y-1.5">
               <div className="flex justify-between text-xs font-semibold">
                 <span className="text-slate-300">Annual Rainfall</span>
-                <span className="text-cyan-400 font-bold">{rainfall} cm</span>
+                <span className="text-gold-400 font-bold">{rainfall} cm</span>
               </div>
               <input
                 type="range"
@@ -1307,7 +1307,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
                   setRainfall(Number(e.target.value));
                   audioManager.play('count');
                 }}
-                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
               />
               <div className="flex justify-between text-[10px] text-slate-500">
                 <span>Arid (&lt;70cm)</span>
@@ -1345,7 +1345,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
             <div className="space-y-1.5">
               <div className="flex justify-between text-xs font-semibold">
                 <span className="text-slate-300">Altitude Level</span>
-                <span className="text-indigo-400 font-bold">{altitude} m</span>
+                <span className="text-gold-400 font-bold">{altitude} m</span>
               </div>
               <input
                 type="range"
@@ -1357,7 +1357,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
                   setAltitude(Number(e.target.value));
                   audioManager.play('swoop');
                 }}
-                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-indigo-400"
+                className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-gold-400"
               />
               <div className="flex justify-between text-[10px] text-slate-500">
                 <span>Plains (0m)</span>
@@ -1466,7 +1466,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
             </div>
             <div>
               <span className="text-slate-400 block">Part Used & Habitat</span>
-              <span className="text-cyan-300">{selectedMedicinal.partUsed} ({selectedMedicinal.habitat})</span>
+              <span className="text-gold-300">{selectedMedicinal.partUsed} ({selectedMedicinal.habitat})</span>
             </div>
             <div>
               <span className="text-slate-400 block">Pharmacognosic Use</span>
@@ -1537,7 +1537,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
               Challenge {currentChallengeIndex + 1} of {CHALLENGES.length}
             </span>
             <div className="flex items-center gap-2 mt-1">
-              <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${chal.difficulty === 'foundation' ? 'bg-blue-900/80 text-blue-300 border border-blue-700' : chal.difficulty === 'standard' ? 'bg-amber-900/80 text-amber-300 border border-amber-700' : 'bg-rose-900/80 text-rose-300 border border-rose-700'}`}>
+              <span className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${chal.difficulty === 'foundation' ? 'bg-gold-900/80 text-gold-300 border border-gold-700' : chal.difficulty === 'standard' ? 'bg-amber-900/80 text-amber-300 border border-amber-700' : 'bg-rose-900/80 text-rose-300 border border-rose-700'}`}>
                 {chal.difficulty}
               </span>
               <span className="text-xs text-slate-300 font-medium">
@@ -1593,7 +1593,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
                 let btnStyle = 'bg-slate-800 border-slate-700 text-slate-200 hover:bg-slate-750';
 
                 if (isSelected) {
-                  btnStyle = 'bg-indigo-950 border-indigo-500 text-indigo-200 shadow-md';
+                  btnStyle = 'bg-gold-950 border-gold-500 text-gold-200 shadow-md';
                 }
 
                 return (
@@ -1738,7 +1738,7 @@ export default function C9_GeoNaturalVegetationCBSESim({
 
         {/* NODE BKT MASTERY GRID */}
         <div className="bg-slate-900 border border-slate-700 rounded-xl p-6 shadow-xl space-y-4">
-          <h3 className="text-lg font-bold text-indigo-400 flex items-center gap-2">
+          <h3 className="text-lg font-bold text-gold-400 flex items-center gap-2">
             <span>📊</span> BKT Knowledge State by Curriculum Node
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">

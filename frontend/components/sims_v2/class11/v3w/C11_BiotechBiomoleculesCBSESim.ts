@@ -11,7 +11,7 @@ export const w_c11_biotechbiomoleculescbsesim: SimDef = {
     classLevel: 11, subject: 'biotechnology', topic: 'Lipids: Fatty Acids, Triglycerides and Phospholipids',
     chapters: [],
     nodeIds: ['c11_biotech_cbse_03_004', 'c11_biotech_cbse_03_009', 'c11_biotech_cbse_02_010', 'c11_biotech_cbse_12_002', 'c11_biotech_cbse_12_003', 'c11_biotech_cbse_12_004'],
-    emoji: '🎯', theme: { bg: 'from-slate-800 to-indigo-900', accent: 'indigo', scene: 'senior' },
+    emoji: '🎯', theme: { bg: 'from-slate-800 to-gold-900', accent: 'indigo', scene: 'senior' },
     scenario: { role: 'a class 11 learner', intro: 'Imagine you drop a spoonful of cooking oil (triglyceride) into a glass of water — it floats as a separate.', goal: 'Master Lipids: Fatty Acids, Triglycerides and Phospholipids.' },
     discovery: {
         question: 'Write the systematic shorthand notation for a saturated fatty acid with 16 carbon atoms. What does each part of the notation signify?',
@@ -20,7 +20,7 @@ export const w_c11_biotechbiomoleculescbsesim: SimDef = {
         hook: '**“All lipids are fats / triglycerides.”** Students often use “lipid”, “fat”, and “triglyceride” interchangeably.',
     },
     teaching: [
-        { title: 'Lipids are a diverse group of hydrophobic or.', text: 'Lipids are a diverse group of hydrophobic or amphipathic biomolecules primarily composed of hydrocarbon chains, classified into simple lipids (fats/oils as triacylglycerols, waxes) and compound.', emoji: '💡', bgColor: 'from-violet-400 to-purple-500' }
+        { title: 'Lipids are a diverse group of hydrophobic or.', text: 'Lipids are a diverse group of hydrophobic or amphipathic biomolecules primarily composed of hydrocarbon chains, classified into simple lipids (fats/oils as triacylglycerols, waxes) and compound.', emoji: '💡', bgColor: 'from-gold-400 to-purple-500' }
     ],
     beats: [
         { type: 'scaffold', nodeId: 'c11_biotech_cbse_03_004', title: 'Lipids are a diverse group of.',

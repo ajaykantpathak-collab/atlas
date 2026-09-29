@@ -368,14 +368,14 @@ export const C12_CA_GEN: SimDef[] = [
  },
  {
   "id": "gen_c12_ca_ch02",
-  "title": "Spreadsheet",
+  "title": "A Spreadsheet Is a Computer Application",
   "subtitle": "Computer Applications · Chapter 2",
   "classLevel": 12,
   "mode": "senior",
   "subject": "computer applications",
-  "topic": "Spreadsheet",
+  "topic": "A Spreadsheet Is a Computer Application",
   "chapters": [
-   "Computer Applications Ch2: Spreadsheet"
+   "Computer Applications Ch2: A Spreadsheet Is a Computer Application"
   ],
   "nodeIds": [
    "c12_ca_cbse_02_001",
@@ -389,7 +389,7 @@ export const C12_CA_GEN: SimDef[] = [
    "scene": "lesson"
   },
   "discovery": {
-   "question": "What happens if Spreadsheet suddenly stops working?",
+   "question": "What happens if A Spreadsheet Is a Computer suddenly stops working?",
    "options": [
     "Things around us change in noticeable ways",
     "Absolutely nothing changes",
@@ -400,13 +400,13 @@ export const C12_CA_GEN: SimDef[] = [
   },
   "teaching": [
    {
-    "title": "Spreadsheet",
+    "title": "A Spreadsheet Is a Computer Application",
     "text": "A spreadsheet is a computer application that organizes data in a grid of rows and columns forming cells, where each cell can hold a value (numeric, text, date), a formula (arithmetic expression starting with =), or a function (predefined calculation like SUM,",
     "emoji": "🖥️",
     "bgColor": "from-sky-400 to-cyan-500"
    },
    {
-    "title": "Output Reports In a Spreadsheet Refer",
+    "title": "Output Reports In a Spreadsheet",
     "text": "Output Reports in a spreadsheet refer to the process of configuring, previewing, and printing worksheet data in a structured, formatted layout suitable for professional presentation, including defining print areas, setting headers/footers, adjusting page",
     "emoji": "🖥️",
     "bgColor": "from-violet-400 to-purple-500"
@@ -628,7 +628,7 @@ export const C12_CA_GEN: SimDef[] = [
      "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column",
      "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula"
     ],
-    "hint": "Straight from the 'spreadsheet' slide -- match the key terms.",
+    "hint": "Straight from the 'A spreadsheet is a computer' slide -- match the key terms.",
     "misconception": "A poor answer hard-codes the numbers inside PMT, which is not a what-if model, or forgets the periodicity conversion and gets a wildly wrong EMI.",
     "id": "gen_c12_ca_ch02_q4",
     "nodeId": "c12_ca_cbse_02_001",
@@ -667,11 +667,11 @@ export const C12_CA_GEN: SimDef[] = [
   ],
   "reflect": {
    "prompts": [
-    "What surprised you about spreadsheet?",
+    "What surprised you about a spreadsheet is a computer application?",
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Spreadsheet mastered! 🎯",
+  "successLine": "A Spreadsheet Is a Computer mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them."
  },
  {
@@ -814,8 +814,8 @@ export const C12_CA_GEN: SimDef[] = [
     "question": "What are the five arguments of the Excel PMT function, and what does each argument represent in the context of a loan repayment schedule?",
     "answer": "The five arguments are: Rate (interest rate per period), Nper (total number of payment periods), Pv (present value or loan amount), Fv (future value, typically 0 for loans)",
     "options": [
-     "Acquisition Cost = Purchase Price + Installation Expenses + Pre-operating Expenses",
-     "$G$4 is an absolute reference that locks both column and row so when the formula is copied down to rows 13, 14, etc",
+     "Students believe that \"Basic Pay\" (BP) and \"Basic Pay Earned\" (BPE) are the same and use BP directly in DA, HRA, and PF formulas",
+     "The student can independently design a payroll spreadsheet template for a given set of employee types and pay rules, correctly implement formulas for BPE, DA, HRA, TRA, PF",
      "The five arguments are: Rate (interest rate per period), Nper (total number of payment periods), Pv (present value or loan amount), Fv (future value, typically 0 for loans)"
     ],
     "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
@@ -831,6 +831,52 @@ export const C12_CA_GEN: SimDef[] = [
     ]
    },
    {
+    "type": "order",
+    "question": "What must you be able to do to master this topic?",
+    "sortItems": [
+     {
+      "id": "s0",
+      "label": "Compute acquisition cost",
+      "emoji": "📌",
+      "correctBin": "o1"
+     },
+     {
+      "id": "s1",
+      "label": "Design a spreadsheet template for asset",
+      "emoji": "📌",
+      "correctBin": "o0"
+     },
+     {
+      "id": "s2",
+      "label": "Prepare a Schedule of Fixed Assets forming",
+      "emoji": "📌",
+      "correctBin": "o2"
+     }
+    ],
+    "bins": [
+     {
+      "id": "o0",
+      "label": "1st",
+      "color": "#3b82f6"
+     },
+     {
+      "id": "o1",
+      "label": "2nd",
+      "color": "#ef4444"
+     },
+     {
+      "id": "o2",
+      "label": "3rd",
+      "color": "#10b981"
+     }
+    ],
+    "hint": "Drag the items into the sequence the lesson gives.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student must be able to: (1) Design a spreadsheet template for asset depreciation using SLN and DB functions with",
+    "id": "gen_c12_ca_ch03_q4",
+    "nodeId": "c12_ca_cbse_03_002",
+    "difficulty": "advanced"
+   },
+   {
     "type": "mcq",
     "question": "An employee has Basic Pay ₹25,000, NODM = 30, LWP = 2 days, Unauthorised Absence = 1 day. DA rate = 35%, HRA rate = 30% (non-supervisory), TRA = ₹500, PF rate = 12%, TDS = ₹1,500, Loan = ₹2,000. Calculate Net Salary step by step.",
     "answer": "Step 1: NOEDP = 30 - 2 - 1 = 27. Step 2: BPE = 25000 × 27/30 = ₹22,500. Step 3: DA = 22500 × 35% = ₹7,875",
@@ -841,7 +887,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "A wrong answer often comes from using full BP (₹25,000) instead of BPE for DA/HRA/PF, or forgetting to subtract both LWP and unauthorised absence.",
-    "id": "gen_c12_ca_ch03_q4",
+    "id": "gen_c12_ca_ch03_q5",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -856,7 +902,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: The formula returns 0 because Excel's IF is case-sensitive by default for text comparison.",
-    "id": "gen_c12_ca_ch03_q5",
+    "id": "gen_c12_ca_ch03_q6",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -871,7 +917,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "A poor answer uses separate IFs without nesting, or forgets absolute references, or hardcodes percentages instead of using parameter cells — showing inability to design scalable, maintainable templates.",
-    "id": "gen_c12_ca_ch03_q6",
+    "id": "gen_c12_ca_ch03_q7",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -886,7 +932,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "A student who misses this confuses relative vs absolute addressing — a classic board exam trap.",
-    "id": "gen_c12_ca_ch03_q7",
+    "id": "gen_c12_ca_ch03_q8",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -897,12 +943,57 @@ export const C12_CA_GEN: SimDef[] = [
     "options": [
      "$G$4 is an absolute reference that locks both column and row so when the formula is copied down to rows 13, 14, etc",
      "Key columns: Asset ID, Name, Purchase Date, Install Date, Purchase Cost, Install Exp, Pre-op Exp, Acquisition Cost (formula: sum)",
-     "Method base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9",
+     "Dearness Allowance base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9",
      "Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9"
     ],
     "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
     "misconception": "Recheck the lesson slide -- the key claim is: Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9.",
-    "id": "gen_c12_ca_ch03_q8",
+    "id": "gen_c12_ca_ch03_q9",
+    "nodeId": "c12_ca_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What common mix-up does this lesson flag about Payroll Accounting?",
+    "answer": "Students believe that \"Basic Pay\" (BP) and \"Basic Pay Earned\" (BPE) are the same and use BP directly in DA, HRA, and PF formulas",
+    "options": [
+     "The student must be able to: (1) Design a spreadsheet template for asset depreciation using SLN and DB functions with correct absolute/relative cell references",
+     "Payroll Accounting is the systematic process of computing an employee's gross earnings (Basic Pay Earned, Dearness Allowance, House Rent Allowance",
+     "Students believe that \"Basic Pay\" (BP) and \"Basic Pay Earned\" (BPE) are the same and use BP directly in DA, HRA, and PF formulas"
+    ],
+    "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Students believe that \"Basic Pay\" (BP) and \"Basic Pay Earned\" (BPE) are the same and use BP directly in DA, HRA, and PF",
+    "id": "gen_c12_ca_ch03_q10",
+    "nodeId": "c12_ca_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What is Payroll Accounting? State the definition given in this lesson.",
+    "answer": "Payroll Accounting is the systematic process of computing an employee's gross earnings (Basic Pay Earned, Dearness Allowance, House Rent Allowance",
+    "options": [
+     "Asset Accounting in computerised accounting refers to the systematic process of recording, tracking",
+     "Acquisition Cost = Purchase Price + Installation Expenses + Pre-operating Expenses",
+     "Payroll Accounting is the systematic process of computing an employee's gross earnings (Basic Pay Earned, Dearness Allowance, House Rent Allowance"
+    ],
+    "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Payroll Accounting is the systematic process of computing an employee's gross earnings (Basic Pay Earned, Dearness",
+    "id": "gen_c12_ca_ch03_q11",
+    "nodeId": "c12_ca_cbse_03_001",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can independently design a payroll spreadsheet template for a given set of employee types and pay rules, correctly implement formulas for BPE, DA, HRA, TRA, PF",
+    "options": [
+     "The student can independently design a loan repayment spreadsheet in Excel by correctly entering the loan parameters (principal, annual interest rate, tenure in years)",
+     "The student must be able to: (1) Design a spreadsheet template for asset depreciation using SLN and DB functions with correct absolute/relative cell references",
+     "The student can independently design a payroll spreadsheet template for a given set of employee types and pay rules, correctly implement formulas for BPE, DA, HRA, TRA, PF"
+    ],
+    "hint": "Straight from the 'Payroll Accounting' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can independently design a payroll spreadsheet template for a given set of employee types and pay rules,",
+    "id": "gen_c12_ca_ch03_q12",
     "nodeId": "c12_ca_cbse_03_001",
     "difficulty": "advanced"
    },
@@ -913,12 +1004,12 @@ export const C12_CA_GEN: SimDef[] = [
     "options": [
      "Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9",
      "HRA formula: =IF(C12=\"Manager\", G12*$J$5, IF(C12=\"Clerk\", G12*$J$6, IF(C12=\"Intern\", G12*$J$7, 0))) — but since Intern HRA is 0%, the last IF can be simplified to 0",
-     "Closing Gross Block = 50,00,000 + 12,00,000 - 3,00,000 = ₹59,00,000. Fv = 18,00,000 + 6,50,000 - 1,20,000 = ₹23,30,000",
+     "Closing Gross Block = 50,00,000 + 12,00,000 - 3,00,000 = ₹59,00,000. Manager = 18,00,000 + 6,50,000 - 1,20,000 = ₹23,30,000",
      "Closing Gross Block = 50,00,000 + 12,00,000 - 3,00,000 = ₹59,00,000. Closing Accumulated Depreciation = 18,00,000 + 6,50,000 - 1,20,000 = ₹23,30,000"
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A student who enters it manually breaks the audit trail; board practical marking deducts marks for missing 'linkage' between computation sheet and schedule.",
-    "id": "gen_c12_ca_ch03_q9",
+    "id": "gen_c12_ca_ch03_q13",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -929,12 +1020,12 @@ export const C12_CA_GEN: SimDef[] = [
     "options": [
      "=PMT(B1/12, C1*12, -A1, 0, 0) — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment",
      "$G$4 is an absolute reference that locks both column and row so when the formula is copied down to rows 13, 14, etc",
-     "Step 1: Pv = 8,00,000 + 50,000 = ₹8,50,000. Step 2: Depreciable Amount = 8,50,000 - 50,000 = ₹8,00,000",
+     "Step 1: Figure = 8,00,000 + 50,000 = ₹8,50,000. Step 2: Depreciable Amount = 8,50,000 - 50,000 = ₹8,00,000",
      "Step 1: Acquisition Cost = 8,00,000 + 50,000 = ₹8,50,000. Step 2: Depreciable Amount = 8,50,000 - 50,000 = ₹8,00,000"
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A wrong answer (₹1,00,000) shows the student ignored the installation date and pro-rata rule — a frequent board exam trap where 'date of installation' in column C triggers the IF(MONTH>3) logic in the WDV period column.",
-    "id": "gen_c12_ca_ch03_q10",
+    "id": "gen_c12_ca_ch03_q14",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -945,12 +1036,12 @@ export const C12_CA_GEN: SimDef[] = [
     "options": [
      "The formula returns 0 because Excel's IF is case-sensitive by default for text comparison. \"sup\" ≠ \"Sup\", so the first condition fails, the second checks for \"Nsup\" (also fails)",
      "Type=1 (beginning-of-period payments) results in lower total interest because each payment reduces the principal earlier",
-     "SLM: ₹1,80,000 each year (constant). Clerk: Year 1 ~₹3,72,000, Year 2 ~₹2,33,000, Year 3 ~₹1,46,000, Year 4 ~₹91,000, Year 5 ~₹57,000 (declining)",
+     "SLM: ₹1,80,000 each year (constant). Students: Year 1 ~₹3,72,000, Year 2 ~₹2,33,000, Year 3 ~₹1,46,000, Year 4 ~₹91,000, Year 5 ~₹57,000 (declining)",
      "SLM: ₹1,80,000 each year (constant). WDV: Year 1 ~₹3,72,000, Year 2 ~₹2,33,000, Year 3 ~₹1,46,000, Year 4 ~₹91,000, Year 5 ~₹57,000 (declining)"
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A student who says 'SLM front-loads' confuses the methods; one who cannot explain 'why' lacks conceptual link to time value of money (cross-subject: finance).",
-    "id": "gen_c12_ca_ch03_q11",
+    "id": "gen_c12_ca_ch03_q15",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -965,7 +1056,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A poor answer misses pro-rata logic or validation — showing inability to translate regulatory rules into spreadsheet controls.",
-    "id": "gen_c12_ca_ch03_q12",
+    "id": "gen_c12_ca_ch03_q16",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -974,13 +1065,13 @@ export const C12_CA_GEN: SimDef[] = [
     "question": "Explain why the SLN function in Excel requires an absolute reference for the salvage value cell but a relative reference for the asset cost cell when the formula is copied down a column of multiple assets.",
     "answer": "Salvage value and useful life are policy constants (same for all assets of a class), so they must be locked with $ (e",
     "options": [
-     "Key columns: Asset ID, Name, Purchase Date, Install Date, Purchase Cost, Install Exp, Pre-op Exp, Acquisition Cost (formula: sum)",
-     "The formula returns 0 because Excel's IF is case-sensitive by default for text comparison. \"sup\" ≠ \"Sup\", so the first condition fails, the second checks for \"Nsup\" (also fails)",
+     "The student must be able to: (1) Design a spreadsheet template for asset depreciation using SLN and DB functions with correct absolute/relative cell references",
+     "Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9",
      "Salvage value and useful life are policy constants (same for all assets of a class), so they must be locked with $ (e"
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A student who uses relative for salvage will get wrong depreciation for rows 2+ as the formula pulls empty/incorrect cells — this is the #1 spreadsheet error in board practical exams.",
-    "id": "gen_c12_ca_ch03_q13",
+    "id": "gen_c12_ca_ch03_q17",
     "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    },
@@ -989,74 +1080,15 @@ export const C12_CA_GEN: SimDef[] = [
     "question": "What are the three components that constitute the 'Acquisition Cost' of a fixed asset for depreciation calculation purposes?",
     "answer": "Acquisition Cost = Purchase Price + Installation Expenses + Pre-operating Expenses",
     "options": [
-     "The five arguments are: Rate (interest rate per period), Nper (total number of payment periods), Pv (present value or loan amount), Fv (future value, typically 0 for loans)",
-     "The formula returns 0 because Excel's IF is case-sensitive by default for text comparison. \"sup\" ≠ \"Sup\", so the first condition fails, the second checks for \"Nsup\" (also fails)",
+     "Students believe that \"Basic Pay\" (BP) and \"Basic Pay Earned\" (BPE) are the same and use BP directly in DA, HRA, and PF formulas",
+     "The student can independently design a payroll spreadsheet template for a given set of employee types and pay rules, correctly implement formulas for BPE, DA, HRA, TRA, PF",
+     "Acquisition Cost = Basic Pay + Installation Expenses + Pre-operating Expenses",
      "Acquisition Cost = Purchase Price + Installation Expenses + Pre-operating Expenses"
     ],
     "hint": "Straight from the 'Asset Accounting in computerised' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., omitting installation or pre-operative costs) reveals the student treats 'cost' as only the invoice price, ignoring AS-10/Ind AS 16 principle that all costs necessary to bring the asset to working condition must be capitalised.",
-    "id": "gen_c12_ca_ch03_q14",
-    "nodeId": "c12_ca_cbse_03_002",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A classmate argues that the Future Value (Fv) argument in PMT should be the total amount repaid (principal + total interest) rather than zero. Evaluate this claim and explain the correct interpretation of Fv in a standard loan repayment schedule.",
-    "answer": "The claim is incorrect. In a standard loan, Fv=0 because the loan is fully amortised — the balance after the last payment is zero",
-    "options": [
-     "$G$4 is an absolute reference that locks both column and row so when the formula is copied down to rows 13, 14, etc",
-     "Changing PF base to (BPE+DA) requires: (1) Modify column N formula from =G12*$G$9 to =(G12+H12)*$G$9",
-     "The claim is incorrect. In a standard loan, Fv=0 because the loan is fully amortised — the balance after the last payment is zero"
-    ],
-    "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
-    "misconception": "A wrong answer reveals confusion between future value of an investment (which grows) and future value of a loan (which declines to zero).",
-    "id": "gen_c12_ca_ch03_q15",
-    "nodeId": "c12_ca_cbse_03_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "A student takes a loan of ₹1,50,000 at 12% annual interest for 5 years, with payments at the end of each month. Write the exact PMT formula to compute the monthly instalment directly (without first computing yearly). Assume the loan amount is in cell A1, annual rate in B1, and years in C1.",
-    "answer": "=PMT(B1/12, C1*12, -A1, 0, 0) — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment",
-    "options": [
-     "The claim is incorrect. In a standard loan, Fv=0 because the loan is fully amortised — the balance after the last payment is zero",
-     "Layout: Input cells for Amount (A2), Annual Rate (B2), Years (C2). Output cells: Monthly Rate = B2/12, Months = C2*12",
-     "=PMT(B1/12, C1*12, -A1, 0, 0) — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment"
-    ],
-    "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
-    "misconception": "A wrong answer (e.g., using annual rate with monthly periods, or forgetting the negative sign) shows inability to adapt the function to different compounding/payment frequencies.",
-    "id": "gen_c12_ca_ch03_q16",
-    "nodeId": "c12_ca_cbse_03_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Compare the total interest paid over the life of a ₹2,00,000 loan at 10% for 4 years when payments are made at the beginning of each month (Type=1) versus at the end of each month (Type=0). Which results in lower total interest and why?",
-    "answer": "Type=1 (beginning-of-period payments) results in lower total interest because each payment reduces the principal earlier",
-    "options": [
-     "The formula returns 0 because Excel's IF is case-sensitive by default for text comparison. \"sup\" ≠ \"Sup\", so the first condition fails, the second checks for \"Nsup\" (also fails)",
-     "SLM: ₹1,80,000 each year (constant). WDV: Year 1 ~₹3,72,000, Year 2 ~₹2,33,000, Year 3 ~₹1,46,000, Year 4 ~₹91,000, Year 5 ~₹57,000 (declining)",
-     "Type=1 (beginning-of-period payments) results in lower total interest because each payment reduces the principal earlier"
-    ],
-    "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
-    "misconception": "A wrong answer suggests the student does not grasp the time-value-of-money effect of payment timing on interest accumulation.",
-    "id": "gen_c12_ca_ch03_q17",
-    "nodeId": "c12_ca_cbse_03_003",
-    "difficulty": "advanced"
-   },
-   {
-    "type": "mcq",
-    "question": "Design a mini-project: Create a loan comparison spreadsheet that allows a user to input loan amount, annual interest rate, and tenure in years, and automatically shows the monthly instalment for both Type=0 and Type=1, along with the total interest paid in each case.",
-    "answer": "Layout: Input cells for Amount (A2), Annual Rate (B2), Years (C2). Output cells: Monthly Rate = B2/12, Months = C2*12",
-    "options": [
-     "HRA formula: =IF(C12=\"Manager\", G12*$J$5, IF(C12=\"Clerk\", G12*$J$6, IF(C12=\"Intern\", G12*$J$7, 0))) — but since Intern HRA is 0%, the last IF can be simplified to 0",
-     "=PMT(B1/12, C1*12, -A1, 0, 0) — Rate is monthly (annual/12), Nper is total months (years×12), Pv is negative loan amount, Fv=0, Type=0 for end-of-month payment",
-     "Layout: Input cells for Amount (A2), Annual Rate (B2), Years (C2). Output cells: Monthly Rate = B2/12, Months = C2*12"
-    ],
-    "hint": "Straight from the 'loan repayment schedule' slide -- match the key terms.",
-    "misconception": "A poor answer lacks validation logic or misplaces the negative sign.",
     "id": "gen_c12_ca_ch03_q18",
-    "nodeId": "c12_ca_cbse_03_003",
+    "nodeId": "c12_ca_cbse_03_002",
     "difficulty": "advanced"
    }
   ],
@@ -1128,8 +1160,8 @@ export const C12_CA_GEN: SimDef[] = [
     "question": "What are the two axes in a standard 2-D Excel chart called, and what type of data does each typically represent?",
     "answer": "The horizontal axis is the Category Axis (X-axis) representing independent categories (e.g., product names, time periods)",
     "options": [
+     "The student can (1) correctly classify a given real-world business scenario as primarily leveraging the exploration, presentation, or persuasion advantage of graphs/charts",
      "Step 1: Enter data in a worksheet with proper row and column titles. Step 2: Select the data and create a basic chart using the chart type from the Insert tab (Charts group)",
-     "Use a Combination Chart (Combo Chart): Clustered Column for each product's quarterly sales (4 quarters × 6 products = 24 columns) + Line chart for quarterly totals (4 data points)",
      "The horizontal axis is the Category Axis (X-axis) representing independent categories (e.g., product names, time periods)"
     ],
     "hint": "Straight from the 'graph or chart in computerised' slide -- match the key terms.",
@@ -1149,8 +1181,8 @@ export const C12_CA_GEN: SimDef[] = [
     "question": "What are the two mandatory steps to create any chart in Excel, according to the NCERT textbook?",
     "answer": "Step 1: Enter data in a worksheet with proper row and column titles. Step 2: Select the data and create a basic chart using the chart type from the Insert tab (Charts group)",
     "options": [
+     "The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series, axes, legend, titles, data labels) in any Excel chart",
      "The horizontal axis is the Category Axis (X-axis) representing independent categories (e.g., product names, time periods)",
-     "Use a Combination Chart (Combo Chart): Clustered Column for each product's quarterly sales (4 quarters × 6 products = 24 columns) + Line chart for quarterly totals (4 data points)",
      "Step 1: Enter data in a worksheet with proper row and column titles. Step 2: Select the data and create a basic chart using the chart type from the Insert tab (Charts group)"
     ],
     "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
@@ -1174,7 +1206,7 @@ export const C12_CA_GEN: SimDef[] = [
      "The statement is incorrect because: (1) Pie charts show proportions of a whole at a SINGLE point in time, not changes over time",
      "1. Help to Explore — e.g., plotting GNP vs infant mortality to discover a negative correlation. 2. Help to Present — e"
     ],
-    "hint": "Straight from the 'advantages of using graphs and' slide -- match the key terms.",
+    "hint": "Straight from the 'advantages of using graphs' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If a student lists \"beautification\", \"saving paper\", or \"making reports longer\", they confuse *aesthetic* or *administrative* benefits with the *analytical* advantages NCERT emphasizes.",
     "id": "gen_c12_ca_ch04_q3",
     "nodeId": "c12_ca_cbse_04_003",
@@ -1248,6 +1280,21 @@ export const C12_CA_GEN: SimDef[] = [
    },
    {
     "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series, axes, legend, titles, data labels) in any Excel chart",
+    "options": [
+     "The student can (1) correctly classify a given real-world business scenario as primarily leveraging the exploration, presentation, or persuasion advantage of graphs/charts",
+     "The horizontal axis is the Category Axis (X-axis) representing independent categories (e.g., product names, time periods)",
+     "The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series, axes, legend, titles, data labels) in any Excel chart"
+    ],
+    "hint": "Straight from the 'graph or chart in computerised' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series,",
+    "id": "gen_c12_ca_ch04_q8",
+    "nodeId": "c12_ca_cbse_04_001",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
     "question": "You have monthly profit/loss data for a year: some months show profit (positive), others loss (negative). Which chart type(s) can correctly display negative values, and where will the negative bars/columns appear relative to the axis?",
     "answer": "Column charts, bar charts, and line charts can display negative values. Negative values appear on the opposite side of the axis from the origin: below the X-axis (for column",
     "options": [
@@ -1257,7 +1304,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'graph or chart in computerised' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pie chart can show negative values as slices\" or \"negative values disappear\") shows the student does not understand how the coordinate system handles sign — a concept tested in both board practicals and CUET data interpretation questions.",
-    "id": "gen_c12_ca_ch04_q8",
+    "id": "gen_c12_ca_ch04_q9",
     "nodeId": "c12_ca_cbse_04_001",
     "difficulty": "standard"
    },
@@ -1272,7 +1319,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
     "misconception": "A wrong evaluation (e.g., \"3-D is always better\") shows the student prioritises aesthetics over accuracy — a common board-mark-losing error.",
-    "id": "gen_c12_ca_ch04_q9",
+    "id": "gen_c12_ca_ch04_q10",
     "nodeId": "c12_ca_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -1283,12 +1330,12 @@ export const C12_CA_GEN: SimDef[] = [
     "options": [
      "A pie chart can plot only ONE data series (one column of values) at a time. The student selected all three columns; Excel plotted the first value column (Q1) and ignored Q2",
      "Column charts, bar charts, and line charts can display negative values. Negative values appear on the opposite side of the axis from the origin: below the X-axis (for column",
-     "Design tab → Data group → Combo Chart/Column",
+     "Design tab → Data group → The/Column",
      "Design tab → Data group → Switch Row/Column"
     ],
     "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"re-select data and insert new chart\" or \"change chart type\") reveals the student doesn't know Excel stores data orientation as a toggleable property — wasting time and risking data selection errors. This is a board-exam favourite: \"How to interchange axes without redoing the chart?\"",
-    "id": "gen_c12_ca_ch04_q10",
+    "id": "gen_c12_ca_ch04_q11",
     "nodeId": "c12_ca_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -1298,12 +1345,12 @@ export const C12_CA_GEN: SimDef[] = [
     "answer": "Column chart: compares absolute sales values across products (6 products) and/or quarters (4 quarters) — multiple data series, categorical X-axis",
     "options": [
      "A doughnut chart is preferred because it can display multiple data series (each ring = one year), whereas a pie chart is limited to one series",
-     "Use a Combination Chart (Combo Chart): Clustered Column for each product's quarterly sales (4 quarters × 6 products = 24 columns) + Line chart for quarterly totals (4 data points)",
+     "Student can independently take a raw accounting dataset (e.g., quarterly sales by product), create a column chart and a pie chart in Excel",
      "Column chart: compares absolute sales values across products (6 products) and/or quarters (4 quarters) — multiple data series, categorical X-axis"
     ],
     "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
     "misconception": "A wrong answer (e.g., \"pie chart for product comparison\") reveals the student doesn't map data structure (series count, variable type) to chart purpose — a critical competency for board case-study questions.",
-    "id": "gen_c12_ca_ch04_q11",
+    "id": "gen_c12_ca_ch04_q12",
     "nodeId": "c12_ca_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -1318,7 +1365,22 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
     "misconception": "A poor answer (e.g., \"two separate charts\") misses the synthesis requirement — board competency questions often ask for \"most appropriate single chart\".",
-    "id": "gen_c12_ca_ch04_q12",
+    "id": "gen_c12_ca_ch04_q13",
+    "nodeId": "c12_ca_cbse_04_002",
+    "difficulty": "advanced"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "Student can independently take a raw accounting dataset (e.g., quarterly sales by product), create a column chart and a pie chart in Excel",
+    "options": [
+     "The horizontal axis is the Category Axis (X-axis) representing independent categories (e.g., product names, time periods)",
+     "The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series, axes, legend, titles, data labels) in any Excel chart",
+     "Student can independently take a raw accounting dataset (e.g., quarterly sales by product), create a column chart and a pie chart in Excel"
+    ],
+    "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: Student can independently take a raw accounting dataset (e.g., quarterly sales by product), create a column chart and a",
+    "id": "gen_c12_ca_ch04_q14",
     "nodeId": "c12_ca_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -1333,7 +1395,7 @@ export const C12_CA_GEN: SimDef[] = [
     ],
     "hint": "Straight from the 'basic steps for creating' slide -- match the key terms.",
     "misconception": "A wrong sequence (e.g., formatting before layout, or selecting non-adjacent columns) reveals confusion about pie chart data requirements (only one data series, two adjacent columns) and the Design-before-Format workflow.",
-    "id": "gen_c12_ca_ch04_q13",
+    "id": "gen_c12_ca_ch04_q15",
     "nodeId": "c12_ca_cbse_04_002",
     "difficulty": "advanced"
    },
@@ -1346,9 +1408,9 @@ export const C12_CA_GEN: SimDef[] = [
      "1. Enter two adjacent columns: Column A = \"Qtr1\",\"Qtr2\",\"Qtr3\",\"Qtr4\"; Column B = corresponding values",
      "with steps: 1. Scatter chart (XY chart) — only chart designed for two *continuous* variables to explore correlation"
     ],
-    "hint": "Straight from the 'advantages of using graphs and' slide -- match the key terms.",
+    "hint": "Straight from the 'advantages of using graphs' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: Choosing a line chart (implies time-series) or bar chart (implies categorical X) shows confusion between *correlation exploration* and *trend presentation*.",
-    "id": "gen_c12_ca_ch04_q14",
+    "id": "gen_c12_ca_ch04_q16",
     "nodeId": "c12_ca_cbse_04_003",
     "difficulty": "standard"
    },
@@ -1361,9 +1423,24 @@ export const C12_CA_GEN: SimDef[] = [
      "The statement is flawed. Drawback 1: 3-D perspective distorts height perception — taller bars at the back may appear shorter",
      "A pivot table forces the brain to serially scan numbers (high cognitive load) to spot patterns like \"North region declining while South rising\""
     ],
-    "hint": "Straight from the 'advantages of using graphs and' slide -- match the key terms.",
+    "hint": "Straight from the 'advantages of using graphs' slide -- match the key terms.",
     "misconception": "a wrong answer reveals: If the student says \"charts are prettier\" or \"pivot tables are enough for experts\", they miss that exploration is about *unanticipated* discovery, not just reporting. They also fail to distinguish between *directed query* (pivot) and *open-ended scanning* (chart).",
-    "id": "gen_c12_ca_ch04_q15",
+    "id": "gen_c12_ca_ch04_q17",
+    "nodeId": "c12_ca_cbse_04_003",
+    "difficulty": "standard"
+   },
+   {
+    "type": "mcq",
+    "question": "What must you be able to do to master this topic?",
+    "answer": "The student can (1) correctly classify a given real-world business scenario as primarily leveraging the exploration, presentation, or persuasion advantage of graphs/charts",
+    "options": [
+     "The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series, axes, legend, titles, data labels) in any Excel chart",
+     "Student can independently take a raw accounting dataset (e.g., quarterly sales by product), create a column chart and a pie chart in Excel",
+     "The student can (1) correctly classify a given real-world business scenario as primarily leveraging the exploration, presentation, or persuasion advantage of graphs/charts"
+    ],
+    "hint": "Straight from the 'advantages of using graphs' slide -- match the key terms.",
+    "misconception": "Recheck the lesson slide -- the key claim is: The student can (1) correctly classify a given real-world business scenario as primarily leveraging the exploration,",
+    "id": "gen_c12_ca_ch04_q18",
     "nodeId": "c12_ca_cbse_04_003",
     "difficulty": "standard"
    }
@@ -1374,7 +1451,7 @@ export const C12_CA_GEN: SimDef[] = [
     "Which challenge was hardest -- and why?"
    ]
   },
-  "successLine": "Graph Or Chart In mastered! 🎯",
+  "successLine": "Graph Or Chart mastered! 🎯",
   "tryAgainLine": "Re-read the slides -- every answer hides in them.",
   "sampleChallenges": 8
  }

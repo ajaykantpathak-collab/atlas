@@ -1821,7 +1821,7 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
       {/* ── PHASE 1: DISCOVERY HOOK & HISTORICAL SCENARIO ── */}
       {phase === 'discovery' && (
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
-          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-indigo-950/30 rounded-2xl border border-amber-600/30 shadow-lg">
+          <div className="p-6 bg-gradient-to-br from-amber-950/40 via-slate-900 to-gold-950/30 rounded-2xl border border-amber-600/30 shadow-lg">
             <span className="text-xs font-bold text-amber-400 tracking-wider uppercase">Mission Scenario Brief</span>
             <h2 className="text-xl md:text-2xl font-bold text-white mt-1">{SCENARIO.title}</h2>
             <p className="text-sm md:text-base text-slate-300 mt-2 leading-relaxed">{SCENARIO.intro}</p>
@@ -1960,7 +1960,7 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleLawTest}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold shadow"
+                    className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold shadow"
                   >
                     Cycle Statutory Status 🔄
                   </motion.button>
@@ -2034,11 +2034,11 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
                   <div
                     className={`p-4 rounded-xl border timeline-card transition-all ${
                       timelineYear >= 1946 && timelineYear <= 1949
-                        ? 'bg-indigo-950/40 border-indigo-500'
+                        ? 'bg-gold-950/40 border-gold-500'
                         : 'bg-slate-800/40 border-slate-750'
                     }`}
                   >
-                    <span className="text-xs font-mono text-indigo-400 font-bold">26 Nov 1949</span>
+                    <span className="text-xs font-mono text-gold-400 font-bold">26 Nov 1949</span>
                     <h4 className="text-sm font-bold text-white mt-1">Constitution Adopted</h4>
                     <p className="text-xs text-slate-300 mt-1">
                       Constituent Assembly approves final draft after 2 years, 11 months, and 18 days of rigorous debate.
@@ -2157,7 +2157,7 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
 
                   {activeTabJusticiability === 'duties' && (
                     <div className="space-y-2">
-                      <div className="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+                      <div className="flex items-center gap-2 text-gold-400 font-bold text-sm">
                         <span>🇮🇳 MORAL OBLIGATIONS (Added by 42nd Amendment Act 1976)</span>
                       </div>
                       <p className="text-xs text-slate-300 leading-relaxed">
@@ -2255,7 +2255,7 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
                     onClick={() => handleVoteTrace('mla')}
                     className={`flex-1 p-3 rounded-xl border text-left text-xs ${
                       selectedVoteTarget === 'mla'
-                        ? 'bg-indigo-950 border-indigo-500 text-white'
+                        ? 'bg-gold-950 border-gold-500 text-white'
                         : 'bg-slate-800 border-slate-700 text-slate-300'
                     }`}
                   >
@@ -2339,7 +2339,7 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
                 <div>
                   <div className="flex justify-between text-xs text-slate-300 mb-1">
                     <span>Voter Participation & Turnout Rate</span>
-                    <span className="font-mono text-indigo-400">{sandboxVoterTurnout}%</span>
+                    <span className="font-mono text-gold-400">{sandboxVoterTurnout}%</span>
                   </div>
                   <input
                     type="range"
@@ -2347,7 +2347,7 @@ function C9_HistoryCivicsDefinitionConstitutionSignificanceSim({
                     max={100}
                     value={sandboxVoterTurnout}
                     onChange={e => setSandboxVoterTurnout(Number(e.target.value))}
-                    className="w-full accent-indigo-500"
+                    className="w-full accent-gold-500"
                     aria-label="Voter Turnout Slider"
                   />
                 </div>

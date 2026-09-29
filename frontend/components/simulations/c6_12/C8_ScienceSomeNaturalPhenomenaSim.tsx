@@ -67,8 +67,8 @@ export function C8_ScienceSomeNaturalPhenomenaSim() {
               <input type="range" min={1} max={9} step={0.1} value={magnitude} aria-label="magnitude" onChange={(e) => setMagnitude(Number(e.target.value))} className="w-full mt-1 accent-rose-600" />
             </div>
             <div>
-              <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Focus depth (km)</span><span className="font-mono text-indigo-600">{depth}</span></label>
-              <input type="range" min={2} max={300} value={depth} aria-label="focus depth" onChange={(e) => setDepth(Number(e.target.value))} className="w-full mt-1 accent-indigo-600" />
+              <label className="text-xs font-semibold text-slate-500 flex justify-between"><span>Focus depth (km)</span><span className="font-mono text-gold-600">{depth}</span></label>
+              <input type="range" min={2} max={300} value={depth} aria-label="focus depth" onChange={(e) => setDepth(Number(e.target.value))} className="w-full mt-1 accent-gold-600" />
             </div>
             <div className="flex flex-wrap gap-2">
               {[['Bhuj 2001 (6.2)', 6.2, 16], ['Japan 2011 (9.0)', 9, 30], ['Tremor', 3.5, 8]].map(([label, m, d]) => (

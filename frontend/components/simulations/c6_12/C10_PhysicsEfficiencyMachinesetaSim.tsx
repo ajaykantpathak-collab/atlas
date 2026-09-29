@@ -1098,13 +1098,13 @@ function C10_PhysicsEfficiencyMachinesetaSim({
         <motion.div initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} className="flex items-center gap-3">
           <motion.div
             whileHover={{ scale: 1.08, rotate: 5 }}
-            className="p-3 bg-indigo-950/80 rounded-2xl border border-indigo-700/50 text-2xl shadow-inner"
+            className="p-3 bg-gold-950/80 rounded-2xl border border-gold-700/50 text-2xl shadow-inner"
           >
             {subjectConfig.emoji}
           </motion.div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-indigo-900/60 text-indigo-300 border border-indigo-700/50">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-gold-900/60 text-gold-300 border border-gold-700/50">
                 ICSE Class 10 Physics
               </span>
               <span className="text-xs text-slate-400">Nodes c10_phy_011 — c10_phy_020</span>
@@ -1124,7 +1124,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
               difficulty === 'foundation'
                 ? 'bg-emerald-950/60 text-emerald-300 border-emerald-600/50'
                 : difficulty === 'standard'
-                ? 'bg-sky-950/60 text-sky-300 border-sky-600/50'
+                ? 'bg-gold-950/60 text-gold-300 border-gold-600/50'
                 : 'bg-purple-950/60 text-purple-300 border-purple-600/50'
             }`}
           >
@@ -1153,14 +1153,14 @@ function C10_PhysicsEfficiencyMachinesetaSim({
             <motion.div
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="p-6 bg-gradient-to-br from-indigo-950/70 via-slate-900 to-slate-900 rounded-2xl border border-indigo-700/40 shadow-xl"
+              className="p-6 bg-gradient-to-br from-gold-950/70 via-slate-900 to-slate-900 rounded-2xl border border-gold-700/40 shadow-xl"
             >
-              <div className="flex items-center gap-2 text-indigo-400 text-sm font-bold tracking-wide uppercase mb-1">
+              <div className="flex items-center gap-2 text-gold-400 text-sm font-bold tracking-wide uppercase mb-1">
                 <span>🚀</span> Mission Scenario Hook
               </div>
               <h2 className="text-2xl font-extrabold text-white">{SCENARIO.title}</h2>
               <p className="text-slate-300 text-sm mt-2 leading-relaxed">{SCENARIO.intro}</p>
-              <p className="text-xs text-indigo-300/90 mt-2 bg-indigo-950/60 p-2.5 rounded-xl border border-indigo-800/40">
+              <p className="text-xs text-gold-300/90 mt-2 bg-gold-950/60 p-2.5 rounded-xl border border-gold-800/40">
                 💡 {SCENARIO.context}
               </p>
             </motion.div>
@@ -1190,10 +1190,10 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         ? idx === DISCOVERY_QUESTION.correctIndex
                           ? 'bg-emerald-950/80 border-emerald-500 text-emerald-200 font-semibold'
                           : 'bg-slate-900/60 border-slate-800 text-slate-400 opacity-60'
-                        : 'bg-slate-800/90 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-indigo-500/50'
+                        : 'bg-slate-800/90 hover:bg-slate-800 border-slate-700/80 text-slate-200 hover:border-gold-500/50'
                     }`}
                   >
-                    <span className="inline-block w-6 h-6 rounded-lg bg-slate-950 text-center leading-6 text-xs font-bold mr-2 text-indigo-300">
+                    <span className="inline-block w-6 h-6 rounded-lg bg-slate-950 text-center leading-6 text-xs font-bold mr-2 text-gold-300">
                       {String.fromCharCode(65 + idx)}
                     </span>
                     {discoveryAnswered && idx === DISCOVERY_QUESTION.correctIndex && <span className="mr-1 text-emerald-400">✓</span>}
@@ -1219,7 +1219,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleAdvanceToExploration}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 flex items-center gap-2"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-sm shadow-lg shadow-gold-600/30 flex items-center gap-2"
                   >
                     Enter Interactive Labs →
                   </motion.button>
@@ -1251,11 +1251,11 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                   onClick={() => setCurrentSlide(idx)}
                   className={`flex-1 min-w-[120px] p-2 rounded-xl text-xs font-bold transition-all border text-left ${
                     currentSlide === idx
-                      ? 'bg-indigo-950 border-indigo-500 text-white shadow-md shadow-indigo-950'
+                      ? 'bg-gold-950 border-gold-500 text-white shadow-md shadow-gold-950'
                       : 'bg-slate-900/60 border-slate-800 text-slate-400 hover:text-slate-200'
                   }`}
                 >
-                  <div className="text-[10px] text-indigo-400 uppercase">Step {idx + 1}</div>
+                  <div className="text-[10px] text-gold-400 uppercase">Step {idx + 1}</div>
                   <div className="truncate">{step.title.split(':')[0]}</div>
                 </motion.button>
               ))}
@@ -1270,7 +1270,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                 className="p-6 bg-slate-900 rounded-2xl border border-slate-800 space-y-6 shadow-xl"
               >
                 <div>
-                  <span className="px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-lg text-xs font-bold">
+                  <span className="px-2.5 py-1 bg-gold-500/20 text-gold-300 rounded-lg text-xs font-bold">
                     {EXPLORATION_STEPS[currentSlide].nodeId}
                   </span>
                   <h2 className="text-xl font-extrabold text-white mt-1">
@@ -1324,7 +1324,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         <div className="w-full grid grid-cols-3 gap-2 mt-3 text-center">
                           <motion.div whileHover={{ scale: 1.03 }} className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                             <div className="text-[10px] text-slate-400">Velocity Ratio (VR)</div>
-                            <div className="text-sm font-bold text-sky-400">{machineVR} (Fixed)</div>
+                            <div className="text-sm font-bold text-gold-400">{machineVR} (Fixed)</div>
                           </motion.div>
                           <motion.div whileHover={{ scale: 1.03 }} className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                             <div className="text-[10px] text-slate-400">Mechanical Adv (MA)</div>
@@ -1361,7 +1361,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                           <div>
                             <div className="flex justify-between text-xs font-semibold mb-1">
                               <span className="text-slate-300">Applied Effort:</span>
-                              <span className="text-indigo-400 font-bold">{appliedEffort} N</span>
+                              <span className="text-gold-400 font-bold">{appliedEffort} N</span>
                             </div>
                             <input
                               type="range"
@@ -1373,7 +1373,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                                 setAppliedEffort(Number(e.target.value));
                                 audioManager.play('count');
                               }}
-                              className="w-full accent-indigo-500 cursor-pointer"
+                              className="w-full accent-gold-500 cursor-pointer"
                             />
                           </div>
 
@@ -1395,8 +1395,8 @@ function C10_PhysicsEfficiencyMachinesetaSim({
 
                         {/* Prediction Trigger */}
                         {!predictionMade ? (
-                          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3.5 bg-indigo-950/50 rounded-xl border border-indigo-700/50 space-y-2">
-                            <p className="text-xs font-semibold text-indigo-200">{PREDICTION_QUESTIONS[0].question}</p>
+                          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="p-3.5 bg-gold-950/50 rounded-xl border border-gold-700/50 space-y-2">
+                            <p className="text-xs font-semibold text-gold-200">{PREDICTION_QUESTIONS[0].question}</p>
                             {PREDICTION_QUESTIONS[0].options.map((opt, i) => (
                               <motion.button
                                 key={i}
@@ -1419,7 +1419,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     </div>
 
                     {/* Brilliant.org Pattern: Observation Question 1 */}
-                    <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-700/40 space-y-3">
+                    <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-700/40 space-y-3">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase bg-amber-500/20 text-amber-300 border border-amber-500/30">
                           🔍 WHAT DO YOU NOTICE? (Observation)
@@ -1443,13 +1443,13 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                                 : 'bg-slate-950/80 hover:bg-slate-800 border-slate-700/70 text-slate-200'
                             }`}
                           >
-                            <span className="font-bold mr-2 text-indigo-300">{String.fromCharCode(65 + optIdx)}.</span>
+                            <span className="font-bold mr-2 text-gold-300">{String.fromCharCode(65 + optIdx)}.</span>
                             {opt}
                           </motion.button>
                         ))}
                       </div>
                       {observedSubmitted[OBSERVATION_QUESTIONS[0].id] && (
-                        <p className="text-xs text-indigo-300 bg-indigo-950/80 p-3 rounded-xl border border-indigo-700/40 mt-2">
+                        <p className="text-xs text-gold-300 bg-gold-950/80 p-3 rounded-xl border border-gold-700/40 mt-2">
                           💡 <strong>Physical Insight:</strong> {OBSERVATION_QUESTIONS[0].explanation}
                         </p>
                       )}
@@ -1486,7 +1486,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                           }}
                           className={`flex-1 py-2 rounded-xl text-xs font-bold border transition-all ${
                             leverClass === cls
-                              ? 'bg-indigo-600 text-white border-indigo-400 shadow-md shadow-indigo-900'
+                              ? 'bg-gold-600 text-white border-gold-400 shadow-md shadow-gold-900'
                               : 'bg-slate-900 text-slate-400 border-slate-800 hover:bg-slate-800'
                           }`}
                         >
@@ -1534,7 +1534,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <div className="text-[10px] text-slate-400">Mechanical Adv (MA)</div>
-                          <div className="text-sm font-bold text-sky-400">{leverMA.toFixed(2)}</div>
+                          <div className="text-sm font-bold text-gold-400">{leverMA.toFixed(2)}</div>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2.5 bg-slate-900 rounded-lg border border-slate-800">
                           <div className="text-[10px] text-slate-400">Classification Role</div>
@@ -1643,7 +1643,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                           <div className="p-3 bg-slate-900 rounded-lg border border-slate-800 space-y-1 text-xs">
                             <div className="flex justify-between text-slate-400">
                               <span>Critical Angle (C = arcsin 1/u):</span>
-                              <span className="font-mono text-indigo-300 font-bold">{criticalAngleDeg.toFixed(1)}°</span>
+                              <span className="font-mono text-gold-300 font-bold">{criticalAngleDeg.toFixed(1)}°</span>
                             </div>
                             <div className="flex justify-between text-slate-400">
                               <span>Refraction Angle (r):</span>
@@ -1661,7 +1661,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     </div>
 
                     {/* Brilliant.org Pattern: Observation Question 2 */}
-                    <div className="p-5 bg-indigo-950/40 rounded-2xl border border-indigo-700/40 space-y-3">
+                    <div className="p-5 bg-gold-950/40 rounded-2xl border border-gold-700/40 space-y-3">
                       <div className="flex items-center gap-2">
                         <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold uppercase bg-amber-500/20 text-amber-300 border border-amber-500/30">
                           🔍 WHAT DO YOU NOTICE? (Observation)
@@ -1685,13 +1685,13 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                                 : 'bg-slate-950/80 hover:bg-slate-800 border-slate-700/70 text-slate-200'
                             }`}
                           >
-                            <span className="font-bold mr-2 text-indigo-300">{String.fromCharCode(65 + optIdx)}.</span>
+                            <span className="font-bold mr-2 text-gold-300">{String.fromCharCode(65 + optIdx)}.</span>
                             {opt}
                           </motion.button>
                         ))}
                       </div>
                       {observedSubmitted[OBSERVATION_QUESTIONS[1].id] && (
-                        <p className="text-xs text-indigo-300 bg-indigo-950/80 p-3 rounded-xl border border-indigo-700/40 mt-2">
+                        <p className="text-xs text-gold-300 bg-gold-950/80 p-3 rounded-xl border border-gold-700/40 mt-2">
                           💡 <strong>Physical Insight:</strong> {OBSERVATION_QUESTIONS[1].explanation}
                         </p>
                       )}
@@ -1713,7 +1713,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         }}
                         className={`flex-1 py-2 rounded-xl text-xs font-bold border ${
                           lensType === 'convex'
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1729,7 +1729,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         }}
                         className={`flex-1 py-2 rounded-xl text-xs font-bold border ${
                           lensType === 'concave'
-                            ? 'bg-indigo-600 text-white border-indigo-400'
+                            ? 'bg-gold-600 text-white border-gold-400'
                             : 'bg-slate-900 text-slate-400 border-slate-800'
                         }`}
                       >
@@ -1800,7 +1800,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <div className="text-slate-400">Magnification (m)</div>
-                          <div className="font-mono font-bold text-sky-400">{lensMagnification.toFixed(2)}x</div>
+                          <div className="font-mono font-bold text-gold-400">{lensMagnification.toFixed(2)}x</div>
                         </motion.div>
                         <motion.div whileHover={{ scale: 1.03 }} className="p-2 bg-slate-900 rounded-lg border border-slate-800">
                           <div className="text-slate-400">Lens Power (P = 1/f)</div>
@@ -1831,7 +1831,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         <div>
                           <div className="flex justify-between text-xs font-semibold mb-1">
                             <span className="text-slate-300">Focal Length (|f|):</span>
-                            <span className="text-indigo-400 font-bold">{lensFocalLength} cm</span>
+                            <span className="text-gold-400 font-bold">{lensFocalLength} cm</span>
                           </div>
                           <input
                             type="range"
@@ -1843,7 +1843,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                               setLensFocalLength(Number(e.target.value));
                               audioManager.play('count');
                             }}
-                            className="w-full accent-indigo-500 cursor-pointer"
+                            className="w-full accent-gold-500 cursor-pointer"
                           />
                         </div>
                       </div>
@@ -1888,7 +1888,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     <div className="p-4 bg-slate-950/60 rounded-xl border border-slate-800 space-y-3">
                       <div className="flex justify-between text-xs font-semibold">
                         <span className="text-slate-300">Wavelength Scale: 10^{emWavelengthExp} m</span>
-                        <span className="text-indigo-400 font-bold">
+                        <span className="text-gold-400 font-bold">
                           {emWavelengthExp <= -12
                             ? 'Gamma Rays (Nuclear)'
                             : emWavelengthExp <= -9
@@ -1912,7 +1912,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                           setEmWavelengthExp(Number(e.target.value));
                           audioManager.play('count');
                         }}
-                        className="w-full accent-indigo-500 cursor-pointer"
+                        className="w-full accent-gold-500 cursor-pointer"
                       />
                     </div>
                   </motion.div>
@@ -1947,7 +1947,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     setCurrentSlide(s => s + 1);
                     audioManager.play('whoosh');
                   }}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-600/30"
+                  className="px-5 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-xl text-xs font-bold shadow-md shadow-gold-600/30"
                 >
                   Next Lab →
                 </motion.button>
@@ -1996,7 +1996,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Machine Sandbox */}
               <motion.div whileHover={{ scale: 1.01 }} className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-sm font-bold text-indigo-300">⚙️ Pulley & Machine Efficiency Sandbox</h3>
+                <h3 className="text-sm font-bold text-gold-300">⚙️ Pulley & Machine Efficiency Sandbox</h3>
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Pulleys (VR): {pulleyCount}</span>
                   <span>Friction: {frictionPercent}%</span>
@@ -2009,7 +2009,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                   aria-label="Sandbox Pulley Count"
                   value={pulleyCount}
                   onChange={e => setPulleyCount(Number(e.target.value))}
-                  className="w-full accent-indigo-500"
+                  className="w-full accent-gold-500"
                 />
                 <input
                   type="range"
@@ -2027,7 +2027,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
 
               {/* Optics Sandbox */}
               <motion.div whileHover={{ scale: 1.01 }} className="p-5 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                <h3 className="text-sm font-bold text-sky-300">🔍 Lens & Refraction Sandbox</h3>
+                <h3 className="text-sm font-bold text-gold-300">🔍 Lens & Refraction Sandbox</h3>
                 <div className="flex justify-between text-xs text-slate-300">
                   <span>Incidence: {incidenceAngle}°</span>
                   <span>Critical Angle: {criticalAngleDeg.toFixed(1)}°</span>
@@ -2051,7 +2051,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                   onChange={e => setLensFocalLength(Number(e.target.value))}
                   className="w-full accent-purple-500"
                 />
-                <div className="p-3 bg-slate-950 rounded-lg text-xs font-mono text-sky-400">
+                <div className="p-3 bg-slate-950 rounded-lg text-xs font-mono text-gold-400">
                   Image v = {lensSignedV.toFixed(1)} cm | Magnification = {lensMagnification.toFixed(2)}x
                 </div>
               </motion.div>
@@ -2084,7 +2084,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
               <div className="flex items-center gap-2">
                 <motion.span
                   whileHover={{ scale: 1.05 }}
-                  className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-indigo-300"
+                  className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-gold-300"
                 >
                   {challenge.competencyLevel}
                 </motion.span>
@@ -2095,7 +2095,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
             {/* Progress Bar */}
             <div className="h-1.5 w-full bg-slate-800 rounded-full overflow-hidden">
               <motion.div
-                className="h-full bg-gradient-to-r from-indigo-500 to-sky-400"
+                className="h-full bg-gradient-to-r from-gold-500 to-gold-400"
                 animate={{ width: `${((currentChallenge + 1) / filteredChallenges.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
               />
@@ -2134,7 +2134,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                             : 'bg-slate-950/70 hover:bg-slate-800/80 border-slate-800 text-slate-200 hover:border-slate-700'
                         }`}
                       >
-                        <span className="inline-block w-6 h-6 rounded-lg bg-slate-900 text-center leading-6 text-xs font-bold mr-3 text-indigo-300">
+                        <span className="inline-block w-6 h-6 rounded-lg bg-slate-900 text-center leading-6 text-xs font-bold mr-3 text-gold-300">
                           {String.fromCharCode(65 + idx)}
                         </span>
                         {showExplanation && idx === challenge.correctIndex && <span className="mr-1 text-emerald-400 font-bold">✓ </span>}
@@ -2155,7 +2155,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                       value={numericInput}
                       onChange={e => setNumericInput(e.target.value)}
                       placeholder="Enter calculated value"
-                      className="flex-1 max-w-xs p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-indigo-500 outline-none"
+                      className="flex-1 max-w-xs p-3 bg-slate-950 border border-slate-700 rounded-xl text-white font-mono text-base focus:border-gold-500 outline-none"
                     />
                     <span className="text-sm font-bold text-slate-400">{challenge.unit}</span>
                     <motion.button
@@ -2164,7 +2164,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handleAnswer(parseFloat(numericInput))}
                       disabled={!numericInput || showExplanation}
-                      className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-sm shadow-md shadow-indigo-600/30"
+                      className="px-6 py-3 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-sm shadow-md shadow-gold-600/30"
                     >
                       Submit Answer
                     </motion.button>
@@ -2185,7 +2185,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         onDragStart={() => handleDragStart(item.label)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        className="px-3.5 py-2 bg-indigo-600/90 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
+                        className="px-3.5 py-2 bg-gold-600/90 text-white rounded-xl text-xs font-bold cursor-grab active:cursor-grabbing shadow-sm"
                       >
                         :: {item.label}
                       </motion.div>
@@ -2202,7 +2202,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         className="p-4 bg-slate-950 rounded-xl border-2 border-dashed border-slate-700 flex flex-col items-center justify-center min-h-[90px] text-center"
                       >
                         <span className="text-[10px] text-slate-500 uppercase tracking-wider mb-1">Target Zone</span>
-                        <span className="text-xs font-bold text-sky-400">
+                        <span className="text-xs font-bold text-gold-400">
                           {droppedLabels[item.targetId] || 'Drop Here'}
                         </span>
                       </motion.div>
@@ -2214,7 +2214,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(droppedLabels)}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                   >
                     Verify All Targets
                   </motion.button>
@@ -2243,7 +2243,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                       whileTap={{ scale: 0.98 }}
                       className="p-3.5 bg-slate-950 rounded-xl border border-slate-800 text-slate-200 text-sm flex items-center gap-3 cursor-grab"
                     >
-                      <span className="w-6 h-6 rounded-lg bg-indigo-950 border border-indigo-700/50 flex items-center justify-center text-xs font-bold text-indigo-300">
+                      <span className="w-6 h-6 rounded-lg bg-gold-950 border border-gold-700/50 flex items-center justify-center text-xs font-bold text-gold-300">
                         {displayIdx + 1}
                       </span>
                       <span>{item}</span>
@@ -2255,7 +2255,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={handleSortSubmit}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 text-white rounded-xl font-bold text-xs"
                   >
                     Verify Sequence
                   </motion.button>
@@ -2274,7 +2274,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setConstructParts(prev => [...prev, part])}
-                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-indigo-200 font-mono"
+                        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-xs text-gold-200 font-mono"
                       >
                         + {part}
                       </motion.button>
@@ -2287,7 +2287,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                         key={i}
                         initial={{ scale: 0.8 }}
                         animate={{ scale: 1 }}
-                        className="px-2.5 py-1 bg-indigo-950 border border-indigo-700 text-indigo-200 rounded-md text-xs font-mono flex items-center gap-2"
+                        className="px-2.5 py-1 bg-gold-950 border border-gold-700 text-gold-200 rounded-md text-xs font-mono flex items-center gap-2"
                       >
                         {part}
                         <motion.button
@@ -2312,7 +2312,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handleAnswer(constructParts.join(' '))}
                     disabled={constructParts.length === 0}
-                    className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
+                    className="px-6 py-2.5 bg-gold-600 hover:bg-gold-500 disabled:opacity-40 text-white rounded-xl font-bold text-xs"
                   >
                     Verify Proof
                   </motion.button>
@@ -2324,10 +2324,10 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-5 bg-indigo-950/40 rounded-xl border border-indigo-700/50 space-y-4"
+                  className="mt-6 p-5 bg-gold-950/40 rounded-xl border border-gold-700/50 space-y-4"
                 >
                   <div className="flex items-center justify-between">
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-300">
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-gold-300">
                       Step-by-Step Physical Walkthrough
                     </h4>
                     <span className="text-xs text-slate-400">
@@ -2348,7 +2348,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                           animate={{ opacity: 1, x: 0 }}
                           className="flex items-start gap-2.5 bg-slate-900/60 p-3 rounded-lg border border-slate-800"
                         >
-                          <span className="w-5 h-5 rounded-full bg-indigo-600/50 text-indigo-200 text-xs font-bold flex items-center justify-center shrink-0">
+                          <span className="w-5 h-5 rounded-full bg-gold-600/50 text-gold-200 text-xs font-bold flex items-center justify-center shrink-0">
                             {idx + 1}
                           </span>
                           <p className="leading-relaxed">{step}{!step.endsWith('.') && '.'}</p>
@@ -2366,7 +2366,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                           setRevealedSteps(s => s + 1);
                           audioManager.play('tap');
                         }}
-                        className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg text-xs font-bold"
+                        className="px-4 py-2 bg-gold-600 hover:bg-gold-500 text-white rounded-lg text-xs font-bold"
                       >
                         Show Next Step →
                       </motion.button>
@@ -2406,7 +2406,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
             <motion.div
               initial={{ y: 20 }}
               animate={{ y: 0 }}
-              className="p-8 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-900 rounded-3xl border border-indigo-700/50 text-center space-y-4 shadow-2xl"
+              className="p-8 bg-gradient-to-br from-gold-950 via-slate-900 to-slate-900 rounded-3xl border border-gold-700/50 text-center space-y-4 shadow-2xl"
             >
               <motion.div
                 initial={{ scale: 0 }}
@@ -2426,7 +2426,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                   errors === 0
                     ? 'bg-emerald-950/80 border-emerald-500 text-emerald-300'
                     : errors <= 3
-                    ? 'bg-sky-950/80 border-sky-500 text-sky-300'
+                    ? 'bg-gold-950/80 border-gold-500 text-gold-300'
                     : errors <= 7
                     ? 'bg-amber-950/80 border-amber-500 text-amber-300'
                     : 'bg-rose-950/80 border-rose-500 text-rose-300'
@@ -2442,13 +2442,13 @@ function C10_PhysicsEfficiencyMachinesetaSim({
               <motion.div
                 initial={{ opacity: 0, scale: 0.98 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="p-5 bg-indigo-950/80 rounded-2xl border-2 border-indigo-500/50 max-w-lg mx-auto shadow-xl space-y-2 text-left"
+                className="p-5 bg-gold-950/80 rounded-2xl border-2 border-gold-500/50 max-w-lg mx-auto shadow-xl space-y-2 text-left"
               >
                 <div className="flex items-center justify-between">
-                  <span className="flex items-center gap-2 text-xs font-bold text-indigo-300 uppercase tracking-wider">
+                  <span className="flex items-center gap-2 text-xs font-bold text-gold-300 uppercase tracking-wider">
                     <span>🧠</span> Spaced Repetition Memory Schedule
                   </span>
-                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-indigo-500/30 text-indigo-200 border border-indigo-400/40">
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-gold-500/30 text-gold-200 border border-gold-400/40">
                     SRS Active
                   </span>
                 </div>
@@ -2478,7 +2478,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="px-5 py-3 bg-slate-900/90 rounded-2xl border border-slate-800">
                   <div className="text-xs text-slate-400">Mastery Level</div>
-                  <div className="text-2xl font-black text-indigo-400 uppercase">{masteryLevel}</div>
+                  <div className="text-2xl font-black text-gold-400 uppercase">{masteryLevel}</div>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} className="px-5 py-3 bg-slate-900/90 rounded-2xl border border-slate-800">
                   <div className="text-xs text-slate-400">Total Errors</div>
@@ -2517,7 +2517,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                 {REAL_WORLD_ACTIVITY.steps.map((step, idx) => (
                   <motion.div key={idx} whileHover={{ scale: 1.02 }} className="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs text-slate-300 flex gap-2">
-                    <span className="font-bold text-indigo-400 shrink-0">{idx + 1}.</span>
+                    <span className="font-bold text-gold-400 shrink-0">{idx + 1}.</span>
                     <span>{step}</span>
                   </motion.div>
                 ))}
@@ -2534,7 +2534,7 @@ function C10_PhysicsEfficiencyMachinesetaSim({
                   setCurrentSlide(0);
                   audioManager.play('whoosh');
                 }}
-                className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-2xl font-bold text-sm shadow-xl shadow-indigo-600/30"
+                className="px-8 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-2xl font-bold text-sm shadow-xl shadow-gold-600/30"
               >
                 Revisit Laboratory & Sandbox Mode ↺
               </motion.button>
