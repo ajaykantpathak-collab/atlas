@@ -15,9 +15,10 @@ The root `backend/` and `frontend/` are dev copies. **Any change that must ship 
 
 ## Data boundaries
 
-- `deploy/content/enhanced_nodes_md/` = the canonical CBSE corpus — **14,198 files** (Classes 6–12; includes `_comp` companion docs). Master copy: `C:\Users\Alesha4285\Desktop\enhanced_nodes\md_cache`. Class 9 Hindi is one book (`hin_ga`) per the 26-27 syllabus; Sanskrit/Urdu are out of scope. Classes 1–5 use the junior-games system, not this corpus.
+- `deploy/content/enhanced_nodes_md/` = the canonical CBSE corpus — **14,236 files** (Classes 6–12; includes `_comp` companion docs). Master copy: `C:\Users\Alesha4285\Desktop\enhanced_nodes\md_cache`. Class 9 Hindi is one book (`hin_ga`) per the 26-27 syllabus; Sanskrit/Urdu are out of scope. Classes 1–5 use the junior-games system, not this corpus.
+- `deploy/content/cisce_nodes_v2/` = the canonical CISCE corpus — **9,431 files** (Classes 6–12, ICSE + ISC boards). Dual-corpus serving is live (the loader scans both dirs). Same master-copy rule applies.
 - `D:\platform\runtime_data/` → mounted at `/app/cbse_data` in backends (solver engine files, embeddings, state).
-- `board_questions` table: **233,403** node-derived CBSE questions across 116 class/subject combos.
+- `board_questions` table: **253,456** node-derived questions across 115 class/subject combos.
 - Node IDs (e.g. `c10_bio_cbse_01_001`) are internal-only — never expose in student-facing fields.
   **Owner decision (2026-09-29):** ids DO travel in API payloads/URLs as opaque fetch keys (same as
   `/learn/<id>` routes) — that is accepted-by-design. The rule is about *display text*: scrubs +
