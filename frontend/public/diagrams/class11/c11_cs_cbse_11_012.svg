@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>How to Spot a Phishing Email</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Attackers impersonate trusted organisations to steal credentials</text>
+<rect x='110' y='90' width='740' height='330' rx='10' fill='white' stroke='#334155' stroke-width='1.6'/>
+<line x1='110' y1='132' x2='850' y2='132' stroke='#334155' stroke-width='1.8'/>
+<line x1='110' y1='164' x2='850' y2='164' stroke='#334155' stroke-width='1.8'/>
+<text x='130' y='117' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>From: security@sbi-secure-login.tk</text>
+<text x='130' y='152' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>Subject: URGENT — your account will be blocked in 24 hours!</text>
+<text x='130' y='200' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>Dear Customer,</text>
+<text x='130' y='228' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>We detected unusual activity. Verify your password IMMEDIATELY or your</text>
+<text x='130' y='250' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>account will be permanently closed.</text>
+<rect x='150' y='272' width='300' height='36' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='1.6'/>
+<text x='300' y='295' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Click here to verify now</text>
+<text x='130' y='340' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>SBI Security Team</text>
+<line x1='452' y1='170' x2='470' y2='170' stroke='#dc2626' stroke-width='1.6' stroke-dasharray='4 3'/>
+<text x='480' y='174' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>✗ look-alike domain — real bank uses sbi.co.in</text>
+<line x1='452' y1='210' x2='470' y2='210' stroke='#dc2626' stroke-width='1.6' stroke-dasharray='4 3'/>
+<text x='480' y='214' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>✗ urgency and threat pressure you into acting fast</text>
+<line x1='452' y1='290' x2='470' y2='290' stroke='#dc2626' stroke-width='1.6' stroke-dasharray='4 3'/>
+<text x='480' y='294' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>✗ the link hides a fake credential-harvesting site</text>
+<line x1='452' y1='335' x2='470' y2='335' stroke='#dc2626' stroke-width='1.6' stroke-dasharray='4 3'/>
+<text x='480' y='339' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>✗ generic greeting instead of your name</text>
+<text x='480' y='470' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Never enter passwords from email links — open the official site yourself; report phishing</text>
+<text x='480' y='500' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>banks and government portals never ask for passwords/OTP by email</text>
+</svg>

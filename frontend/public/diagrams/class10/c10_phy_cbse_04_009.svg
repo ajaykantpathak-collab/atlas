@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<defs><marker id='arw' markerWidth='9' markerHeight='7' refX='7.5' refY='3.5' orient='auto'><polygon points='0 0, 9 3.5, 0 7' fill='#334155'/></marker></defs>
+<rect width='960' height='640' fill='white'/>
+<text x='30' y='34' font-size='21' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>Image formation by a convex lens — trace two standard rays</text>
+<line x1='60' y1='400' x2='930' y2='400' stroke='#6b7280' stroke-width='1.6'/>
+<text x='64' y='390' font-size='14' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>principal axis</text>
+<defs><linearGradient id='lensg' x1='0' y1='0' x2='1' y2='0'><stop offset='0' stop-color='#bfdbfe'/><stop offset='0.5' stop-color='#eff6ff'/><stop offset='1' stop-color='#bfdbfe'/></linearGradient></defs><path d='M 560 250 Q 622 400 560 550 Q 498 400 560 250 Z' fill='url(#lensg)' stroke='#1d4ed8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/>
+<line x1='220' y1='393' x2='220' y2='407' stroke='#1e2430' stroke-width='2'/>
+<text x='220' y='426' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>2F</text>
+<line x1='390' y1='393' x2='390' y2='407' stroke='#1e2430' stroke-width='2'/>
+<text x='390' y='426' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>F</text>
+<line x1='730' y1='393' x2='730' y2='407' stroke='#1e2430' stroke-width='2'/>
+<text x='730' y='426' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>F′</text>
+<line x1='900' y1='393' x2='900' y2='407' stroke='#1e2430' stroke-width='2'/>
+<text x='900' y='426' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>2F′</text>
+<circle cx='560' cy='400' r='3.4' fill='#1e2430' stroke='#1e2430' stroke-width='0.5'/>
+<text x='570' y='388' font-size='15' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>O</text>
+<line x1='150' y1='280' x2='560' y2='280' stroke='#2563eb' stroke-width='2.4'/>
+<line x1='560' y1='280' x2='874' y2='491.902' stroke='#2563eb' stroke-width='2.4' marker-end='url(#arw)'/>
+<line x1='150' y1='280' x2='874' y2='491.902' stroke='#059669' stroke-width='2.4' marker-end='url(#arw)'/>
+<line x1='150' y1='280' x2='560' y2='569.412' stroke='#7c3aed' stroke-width='2.2'/>
+<line x1='560' y1='569.412' x2='874' y2='569.412' stroke='#7c3aed' stroke-width='2.2' marker-end='url(#arw)'/>
+<line x1='150' y1='400' x2='150' y2='280' stroke='#0f766e' stroke-width='5'/>
+<polygon points='150,268 141,286 159,286' fill='#0f766e'/>
+<text x='140' y='260' font-size='15' fill='#0f766e' text-anchor='start' font-weight='bold' font-style='normal'>object beyond 2F</text>
+<line x1='874' y1='400' x2='874' y2='491.902' stroke='#b91c1c' stroke-width='5'/>
+<polygon points='874,503.902 865,485.902 883,485.902' fill='#b91c1c'/>
+<text x='864' y='529.902' font-size='15' fill='#b91c1c' text-anchor='end' font-weight='normal' font-style='normal'>image: real, inverted,</text>
+<text x='864' y='549.902' font-size='15' fill='#b91c1c' text-anchor='end' font-weight='normal' font-style='normal'>diminished (between F′ and 2F′)</text>
+<circle cx='586' cy='274' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='586' y1='274' x2='690' y2='116' stroke='#6b7280' stroke-width='1.2'/>
+<text x='696' y='121' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>ray 1: parallel to axis → refracts through F′</text>
+<circle cx='470' cy='370' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='470' y1='370' x2='300' y2='152' stroke='#6b7280' stroke-width='1.2'/>
+<text x='306' y='157' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>ray 2: through O, undeviated</text>
+<circle cx='520' cy='581.412' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='520' y1='581.412' x2='690' y2='180' stroke='#6b7280' stroke-width='1.2'/>
+<text x='696' y='185' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>ray 3: through F → emerges parallel</text>
+<text x='64' y='560' font-size='15' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>The refracted rays MEET at the image tip — their intersection locates the image;</text>
+<text x='64' y='582' font-size='15' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>backward extensions locate a virtual image.</text>
+</svg>

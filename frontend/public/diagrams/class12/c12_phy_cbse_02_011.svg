@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Combining Capacitors</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Series shares charge; parallel shares voltage</text>
+<text x='240' y='108' font-size='16' fill='#2563eb' text-anchor='middle' font-weight='700' font-style='normal'>SERIES</text>
+<line x1='100' y1='220' x2='160' y2='220' stroke='#334155' stroke-width='2.2' fill='none'/>
+<line x1='100' y1='220' x2='151' y2='220' stroke='#334155' stroke-width='2.2'/>
+<polygon points='160,220 151,215.5 151,224.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='170' y1='185' x2='170' y2='255' stroke='#334155' stroke-width='3'/>
+<line x1='192' y1='185' x2='192' y2='255' stroke='#334155' stroke-width='3'/>
+<text x='181' y='170' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>C1</text>
+<line x1='192' y1='220' x2='270' y2='220' stroke='#334155' stroke-width='2.2'/>
+<line x1='280' y1='185' x2='280' y2='255' stroke='#334155' stroke-width='3'/>
+<line x1='302' y1='185' x2='302' y2='255' stroke='#334155' stroke-width='3'/>
+<text x='291' y='170' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>C2</text>
+<line x1='302' y1='220' x2='380' y2='220' stroke='#334155' stroke-width='2.2'/>
+<line x1='412' y1='220' x2='441' y2='220' stroke='#334155' stroke-width='2.2'/>
+<polygon points='450,220 441,215.5 441,224.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='240' y='300' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1/Cs = 1/C1 + 1/C2</text>
+<text x='240' y='325' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>same Q on each; voltages add</text>
+<text x='240' y='350' font-size='12.5' fill='#dc2626' text-anchor='middle' font-weight='normal' font-style='normal'>Cs &lt; smallest C</text>
+<text x='700' y='108' font-size='16' fill='#059669' text-anchor='middle' font-weight='700' font-style='normal'>PARALLEL</text>
+<line x1='560' y1='220' x2='600' y2='220' stroke='#334155' stroke-width='2.2'/>
+<line x1='600' y1='160' x2='600' y2='280' stroke='#334155' stroke-width='2.2'/>
+<line x1='600' y1='170' x2='650' y2='170' stroke='#334155' stroke-width='2.2'/>
+<line x1='650' y1='135' x2='650' y2='205' stroke='#334155' stroke-width='3'/>
+<line x1='672' y1='135' x2='672' y2='205' stroke='#334155' stroke-width='3'/>
+<text x='661' y='125' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>C1</text>
+<line x1='672' y1='170' x2='740' y2='170' stroke='#334155' stroke-width='2.2'/>
+<line x1='600' y1='280' x2='650' y2='280' stroke='#334155' stroke-width='2.2'/>
+<line x1='650' y1='245' x2='650' y2='315' stroke='#334155' stroke-width='3'/>
+<line x1='672' y1='245' x2='672' y2='315' stroke='#334155' stroke-width='3'/>
+<text x='661' y='235' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>C2</text>
+<line x1='672' y1='280' x2='740' y2='280' stroke='#334155' stroke-width='2.2'/>
+<line x1='740' y1='160' x2='740' y2='280' stroke='#334155' stroke-width='2.2'/>
+<line x1='740' y1='220' x2='780' y2='220' stroke='#334155' stroke-width='2.2'/>
+<line x1='780' y1='220' x2='806' y2='220' stroke='#334155' stroke-width='2.2'/>
+<polygon points='815,220 806,215.5 806,224.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='680' y='330' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Cp = C1 + C2</text>
+<text x='680' y='355' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>same V across each; charges add</text>
+<text x='680' y='380' font-size='12.5' fill='#059669' text-anchor='middle' font-weight='normal' font-style='normal'>Cp &gt; largest C</text>
+<rect x='150' y='420' width='660' height='120' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='480' y='466.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Memory hooks:</text>
+<text x='480' y='484.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>resistors behave the OPPOSITE way (series R adds, parallel R shrinks) — don't mix them!</text>
+<text x='480' y='503.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>series capacitors: smallest C holds the biggest V (Q same → V = Q/C)</text>
+<text x='480' y='590' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Check by dimensions: series formula is a reciprocal sum, so the result is smaller than either part</text>
+<text x='480' y='620' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Applications: tuning circuits (variable C), flash banks (parallel for charge), smoothing (large C)</text>
+<text x='480' y='650' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>n identical capacitors in series → C/n; in parallel → nC</text>
+</svg>

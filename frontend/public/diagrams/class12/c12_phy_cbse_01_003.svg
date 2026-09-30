@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Superposition of Electric Forces</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>The net force on any charge = VECTOR SUM of all pairwise forces</text>
+<circle cx='300' cy='220' r='24' fill='#fee2e2' stroke='#dc2626' stroke-width='2.2'/>
+<text x='300' y='225' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>+q1</text>
+<circle cx='620' cy='180' r='24' fill='#fee2e2' stroke='#dc2626' stroke-width='2.2'/>
+<text x='620' y='185' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>+q2</text>
+<circle cx='480' cy='400' r='24' fill='#dbeafe' stroke='#2563eb' stroke-width='2.2'/>
+<text x='480' y='405' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>q3</text>
+<line x1='480' y1='400' x2='547.175' y2='467.175' stroke='#7c3aed' stroke-width='3'/>
+<polygon points='547.175,467.175 537.909,463.416 543.416,457.909' fill='#7c3aed' stroke='#7c3aed' stroke-width='1'/>
+<text x='561.175' y='457.175' font-size='13.5' fill='#7c3aed' text-anchor='start' font-weight='700' font-style='normal'>F31</text>
+<line x1='300' y1='220' x2='480' y2='400' stroke='#6b7280' stroke-width='1.2' stroke-dasharray='4,4'/>
+<line x1='480' y1='400' x2='428.997' y2='480.148' stroke='#059669' stroke-width='3'/>
+<polygon points='428.997,480.148 430.656,470.287 437.227,474.468' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='414.997' y='470.148' font-size='13.5' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>F32</text>
+<line x1='620' y1='180' x2='480' y2='400' stroke='#6b7280' stroke-width='1.2' stroke-dasharray='4,4'/>
+<line x1='480' y1='400' x2='550' y2='280' stroke='#dc2626' stroke-width='3'/>
+<polygon points='550,280 548.723,289.918 541.995,285.994' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='564' y='270' font-size='13.5' fill='#dc2626' text-anchor='start' font-weight='700' font-style='normal'>F_net = F31 + F32</text>
+<rect x='120' y='480' width='380' height='110' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='310' y='521.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Coulomb's law for each pair:</text>
+<text x='310' y='539.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>F = k q1 q2 / r², k = 9 × 10⁹ N m²/C²</text>
+<text x='310' y='558.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>like charges push, unlike pull</text>
+<rect x='540' y='480' width='340' height='110' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='710' y='511.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Superposition:</text>
+<text x='710' y='530.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>forces from different charges</text>
+<text x='710' y='548.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>add independently — presence of q2</text>
+<text x='710' y='567.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>does not disturb the q1–q3 force</text>
+<text x='480' y='630' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Same principle for fields: E_net = ΣE — compute each field as if alone, then add as vectors</text>
+</svg>

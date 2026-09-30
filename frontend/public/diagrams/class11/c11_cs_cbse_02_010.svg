@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Simplifying with the Laws</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>X + X'·Y = X + Y — fewer gates, same truth table</text>
+<rect x='140' y='140' width='296' height='126' rx='8' fill='white' stroke='#334155' stroke-width='1.6'/>
+<text x='177' y='161' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>X</text>
+<text x='251' y='161' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Y</text>
+<line x1='214' y1='140' x2='214' y2='266' stroke='#6b7280' stroke-width='1'/>
+<text x='325' y='161' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>X+X'Y</text>
+<line x1='288' y1='140' x2='288' y2='266' stroke='#6b7280' stroke-width='1'/>
+<text x='399' y='161' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>X+Y</text>
+<line x1='362' y1='140' x2='362' y2='266' stroke='#6b7280' stroke-width='1'/>
+<line x1='140' y1='170' x2='436' y2='170' stroke='#334155' stroke-width='1.8'/>
+<text x='177' y='190' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='251' y='190' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='325' y='190' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='399' y='190' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='177' y='214' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='251' y='214' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='325' y='214' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='399' y='214' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='177' y='238' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='251' y='238' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='325' y='238' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='399' y='238' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='177' y='262' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='251' y='262' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='325' y='262' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='399' y='262' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='500' y='160' font-size='15' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>X + X'·Y</text>
+<text x='500' y='194' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>= (X + X') · (X + Y)   distributive</text>
+<text x='500' y='228' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>= 1 · (X + Y)              complement (X + X' = 1)</text>
+<text x='500' y='262' font-size='15' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>= X + Y                    identity (1·Z = Z)</text>
+<rect x='430' y='320' width='330' height='54' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='595' y='352.075' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Identical columns ⇒ identical circuits</text>
+<text x='480' y='430' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Minimisation matters: fewer gates = cheaper, faster chips</text>
+</svg>

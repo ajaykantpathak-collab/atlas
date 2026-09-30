@@ -21,13 +21,42 @@ fact-preserving):
   only markup is rewritten, never the math itself
 - sentence splitting no longer breaks at abbreviations ("c. 7000", "e.g.")
   and titles never end on a dangling open parenthesis
+
+CISCE corpus (dual-corpus wave): --corpus cisce parses content/cisce_nodes_v2
+(ICSE classes 6-10 + ISC classes 11-12) with the SAME backend parser that
+serves them in production (services/enhanced_nodes.parse_node_file — imported
+standalone; the module is stdlib-only), producing
+doodle_content_cisce_class{N}.json. Card ids are disjoint from CBSE (board
+token sits inside every id stem); PNGs share the class{N} folders because
+DoodleCardImage resolves the shelf from the c{N}_ prefix / doodle_home_map —
+identical convention, no folder collision possible.
 """
 import json
 import os
 import re
+import sys
 
 INDEX = r"D:/platform/backend/_cache/enhanced_nodes_index.json"
 OUT_DIR = r"D:/platform/content/doodle_cards"
+
+# ---- path resolution (works from deploy/ AND from the root dev mirror) ----
+_TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))          # .../backend/tools
+_BACKEND_DIR = os.path.dirname(_TOOLS_DIR)                       # .../backend
+_REPO_ROOT = os.path.dirname(_BACKEND_DIR)                       # deploy/  (or platform root)
+_DEPLOY_ROOT = os.path.join(_REPO_ROOT, "deploy") if os.path.basename(_REPO_ROOT) != "deploy" else _REPO_ROOT
+
+# CISCE corpus lives in deploy/content/cisce_nodes_v2 (deploy is the shipped
+# tree; the root mirror has no copy of the corpus).
+_CISCE_DIRS = [
+    os.path.join(_REPO_ROOT, "content", "cisce_nodes_v2"),
+    os.path.join(_DEPLOY_ROOT, "content", "cisce_nodes_v2"),
+]
+# every card content file lands in the serving tree + both doodle_cards trees
+_OUT_DIRS = [
+    os.path.join(_DEPLOY_ROOT, "frontend", "public", "doodle_cards"),  # serving
+    os.path.join(_DEPLOY_ROOT, "content", "doodle_cards"),             # deploy tree
+    os.path.join(os.path.dirname(_DEPLOY_ROOT), "content", "doodle_cards") if _DEPLOY_ROOT != _REPO_ROOT else OUT_DIR,  # root mirror
+]
 
 # Internal node ids, e.g. c10_bio_cbse_01_002 / c9_hist_ch2_4 / c6_math_ch01_012
 NODE_ID_TOKEN = re.compile(r"\s*\(\s*c\d+_[a-z0-9_]+?\s*\)|\s*\bc\d+_[a-z0-9_]+_\d+\b")
@@ -107,6 +136,15 @@ SUBJECT_NAMES = {
     "pt": "Political Science", "pol": "Political Science",
     "ps": "Political Science", "ca": "Computerised Accounting",
     "ss": "Social Science", "cu": "Science", "sci": "Science",
+    # CISCE corpus subject codes (cisce_nodes_v2 filename stems)
+    "appmath": "Applied Mathematics", "ai": "Artificial Intelligence",
+    "bst": "Business Studies", "comm": "Commerce",
+    "compapp": "Computer Applications", "compst": "Computer Studies",
+    "comst": "Commercial Studies", "econ": "Economics",
+    "envsci": "Environmental Science", "histciv": "History & Civics",
+    "legal": "Legal Studies", "polsci": "Political Science",
+    "robotics": "Robotics", "eng_elec": "English (Elective)",
+    "eng_mod": "English",
 }
 
 TITLE_MAX = 80
@@ -245,7 +283,130 @@ def key_points(node: dict):
     return pts[:3]
 
 
+def load_cbse_nodes():
+    """CBSE pass input: the prebuilt enhanced-node index (unchanged source)."""
+    index = json.load(open(INDEX, encoding="utf-8"))
+    return index["nodes"]
+
+
+def load_cisce_nodes():
+    """CISCE pass input: parse content/cisce_nodes_v2 with the SAME parser
+    the backend serves from (services/enhanced_nodes.parse_node_file). The
+    module is stdlib-only, loaded standalone off its file path so this tool
+    works from deploy/ and from the root mirror without a package install."""
+    cisce_dir = next((d for d in _CISCE_DIRS if os.path.isdir(d)), None)
+    if not cisce_dir:
+        raise SystemExit(f"cisce corpus not found in: {_CISCE_DIRS}")
+    services_dir = os.path.join(_BACKEND_DIR, "services")
+    enh_path = os.path.join(services_dir, "enhanced_nodes.py")
+    if not os.path.isfile(enh_path):
+        raise SystemExit(f"backend parser not found: {enh_path}")
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("enhanced_nodes_doodle", enh_path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+
+    files = sorted(f for f in os.listdir(cisce_dir) if f.lower().endswith(".md"))
+    nodes, skipped = [], {}
+    grade_map = mod.load_grade_map(cisce_dir)   # absent today → {} (no-op)
+    for fname in files:
+        node, reason = mod.parse_node_file(os.path.join(cisce_dir, fname))
+        if node is None:
+            skipped[fname] = reason or "unknown"
+            continue
+        # shelf metadata remap (parity with the serving loader)
+        if grade_map:
+            mod.apply_grade_map([node], grade_map)
+        nodes.append(node)
+    if skipped:
+        print(f"cisce: skipped {len(skipped)} files: "
+              f"{list(sorted(skipped.items()))[:5]}")
+    # dedupe guard: ids must be unique and disjoint from CBSE (board token is
+    # part of every CISCE id stem, so no collision is expected — assert it)
+    seen = {}
+    for n in nodes:
+        nid = n.get("node_id")
+        if nid in seen:
+            raise SystemExit(f"cisce duplicate node_id: {nid}")
+        seen[nid] = True
+    try:
+        cbse_ids = {n.get("node_id") for n in load_cbse_nodes()}
+        clash = sorted(seen.keys() & cbse_ids)
+        if clash:
+            raise SystemExit(f"cisce/cbse node_id collision: {clash[:5]}")
+    except FileNotFoundError:
+        print("cisce: CBSE index not found — cross-corpus dedupe check skipped")
+    print(f"cisce: {len(nodes)} nodes from {cisce_dir}")
+    return nodes
+
+
+def build_cards(nodes):
+    per_class = {}
+    for n in nodes:
+        cls = str(n.get("class") or "").strip()
+        if not cls.isdigit():
+            continue
+        per_class.setdefault(cls, []).append(n)
+
+    counts = {}
+    for cls, class_nodes in sorted(per_class.items(), key=lambda x: int(x[0])):
+        cards = []
+        for n in class_nodes:
+            nid = n.get("node_id")
+            subject = SUBJECT_NAMES.get(n.get("subject") or "", None)
+            if subject is None:
+                m = re.match(r"c\d+_([a-z]+)", nid or "")
+                subj_code = m.group(1) if m else ""
+                subject = SUBJECT_NAMES.get(subj_code, subj_code.capitalize() or "General")
+            definition = clean_student_text(n.get("definition") or "")
+            if not definition:
+                print(f"WARNING: {nid} has empty definition after cleaning — "
+                      f"title falls back to node id (LEAK RISK)")
+            steps = split_steps(clean_student_text(n.get("walkthrough") or ""))
+            mis = clean_misconception(n)
+            remember = key_points(n)
+            cards.append({
+                "node_id": nid,
+                "title": derive_title(definition, nid),
+                "subject": subject,
+                "classLevel": int(cls),
+                "chapter": str(n.get("chapter") or ""),
+                "definition": definition,
+                "steps": steps,
+                "misconception": mis,
+                "remember": remember,
+            })
+        yield cls, cards
+        counts[cls] = len(cards)
+    print("TOTAL cards:", sum(counts.values()), "| per class:", counts)
+
+
+def write_all(out_name, nodes):
+    """Build cards per class and write every output mirror."""
+    for cls, cards in build_cards(nodes):
+        doc = {"class": int(cls), "count": len(cards), "cards": cards}
+        for out_dir in _OUT_DIRS:
+            os.makedirs(out_dir, exist_ok=True)
+            out_path = os.path.join(out_dir, out_name.format(cls=cls))
+            json.dump(doc, open(out_path, "w", encoding="utf-8"),
+                      ensure_ascii=False, indent=1)
+        print(f"class {cls}: {len(cards)} cards -> {out_name.format(cls=cls)} "
+              f"(+{len(_OUT_DIRS) - 1} mirrors)")
+
+
 def main():
+    corpus = "cbse"
+    if "--corpus" in sys.argv:
+        i = sys.argv.index("--corpus")
+        if i + 1 < len(sys.argv):
+            corpus = sys.argv[i + 1].lower()
+    if corpus == "cisce":
+        write_all("doodle_content_cisce_class{cls}.json", load_cisce_nodes())
+        return
+    if corpus != "cbse":
+        raise SystemExit(f"unknown corpus: {corpus} (use cbse | cisce)")
+
+    # legacy CBSE pass: unchanged source and output name (root content tree)
     index = json.load(open(INDEX, encoding="utf-8"))
     nodes = index["nodes"]
     os.makedirs(OUT_DIR, exist_ok=True)

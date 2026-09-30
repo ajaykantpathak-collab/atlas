@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Coordination Number &amp; Geometry</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>How many donor atoms grip the central metal ion</text>
+<circle cx='300' cy='300' r='40' fill='#fef3c7' stroke='#d97706' stroke-width='2'/>
+<text x='300' y='305.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>M</text>
+<circle cx='300' cy='180' r='20' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='300' y='185' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='300' y1='282' x2='300' y2='180' stroke='#6b7280' stroke-width='2'/>
+<circle cx='300' cy='420' r='20' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='300' y='425' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='300' y1='318' x2='300' y2='420' stroke='#6b7280' stroke-width='2'/>
+<circle cx='180' cy='300' r='20' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='180' y='305' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='282' y1='300' x2='180' y2='300' stroke='#6b7280' stroke-width='2'/>
+<circle cx='420' cy='300' r='20' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='420' y='305' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='318' y1='300' x2='420' y2='300' stroke='#6b7280' stroke-width='2'/>
+<circle cx='215' cy='215' r='20' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='215' y='220' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='282' y1='282' x2='215' y2='215' stroke='#6b7280' stroke-width='2'/>
+<circle cx='385' cy='385' r='20' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='385' y='390' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='318' y1='318' x2='385' y2='385' stroke='#6b7280' stroke-width='2'/>
+<text x='300' y='470' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>CN = 6 → octahedral</text>
+<text x='300' y='492' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>e.g. [Co(NH3)6]³⁺</text>
+<circle cx='640' cy='280' r='34' fill='#fef3c7' stroke='#d97706' stroke-width='2'/>
+<text x='640' y='285.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>M</text>
+<circle cx='640' cy='190' r='17' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='640' y='195' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='640' y1='266' x2='640' y2='190' stroke='#6b7280' stroke-width='1.8'/>
+<circle cx='640' cy='370' r='17' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='640' y='375' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='640' y1='294' x2='640' y2='370' stroke='#6b7280' stroke-width='1.8'/>
+<circle cx='550' cy='280' r='17' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='550' y='285' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='626' y1='280' x2='550' y2='280' stroke='#6b7280' stroke-width='1.8'/>
+<circle cx='730' cy='280' r='17' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='730' y='285' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='654' y1='280' x2='730' y2='280' stroke='#6b7280' stroke-width='1.8'/>
+<text x='640' y='430' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>CN = 4 → square planar</text>
+<text x='640' y='452' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>[Ni(CN)4]²⁻ (dsp²)</text>
+<circle cx='860' cy='300' r='30' fill='#fef3c7' stroke='#d97706' stroke-width='2'/>
+<text x='860' y='304.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>M</text>
+<circle cx='935.736' cy='261.411' r='16' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='935.736' y='266.411' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='870.692' y1='294.552' x2='935.736' y2='261.411' stroke='#6b7280' stroke-width='1.8'/>
+<circle cx='890.461' cy='220.646' r='16' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='890.461' y='225.646' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='864.3' y1='288.797' x2='890.461' y2='220.646' stroke='#6b7280' stroke-width='1.8'/>
+<circle cx='829.539' cy='220.646' r='16' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='829.539' y='225.646' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='855.7' y1='288.797' x2='829.539' y2='220.646' stroke='#6b7280' stroke-width='1.8'/>
+<circle cx='784.264' cy='261.411' r='16' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='784.264' y='266.411' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>L</text>
+<line x1='849.308' y1='294.552' x2='784.264' y2='261.411' stroke='#6b7280' stroke-width='1.8'/>
+<text x='860' y='430' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>CN = 4 → tetrahedral</text>
+<text x='860' y='452' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>[NiCl4]²⁻ (sp³)</text>
+<text x='480' y='545' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Chelating ligands (en, EDTA⁴⁻) grip through 2+ atoms — each counts separately toward CN</text>
+<text x='480' y='575' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Most common CN is 6 (octahedral); 4 next; CN 2 for d¹⁰ ions like Ag+</text>
+<text x='480' y='605' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Geometry + hybridisation decide colour, magnetism and isomer count of the complex</text>
+</svg>

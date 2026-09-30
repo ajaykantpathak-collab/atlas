@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Newton's Law of Universal Gravitation</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>F = G m1 m2 / r² — every pair of masses attracts</text>
+<circle cx='240' cy='300' r='34' fill='#dbeafe' stroke='#2563eb' stroke-width='2.2'/>
+<text x='240' y='305' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>m1</text>
+<circle cx='720' cy='300' r='24' fill='#d1fae5' stroke='#059669' stroke-width='2.2'/>
+<text x='720' y='305' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>m2</text>
+<line x1='240' y1='240' x2='240' y2='360' stroke='#6b7280' stroke-width='1.2' stroke-dasharray='3,4'/>
+<line x1='720' y1='240' x2='720' y2='360' stroke='#6b7280' stroke-width='1.2' stroke-dasharray='3,4'/>
+<line x1='240' y1='300' x2='720' y2='300' stroke='#6b7280' stroke-width='1.2'/>
+<text x='480' y='288' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>r (centre to centre)</text>
+<line x1='278' y1='300' x2='388' y2='300' stroke='#dc2626' stroke-width='3'/>
+<polygon points='388,300 378.789,303.894 378.789,296.106' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='330' y='340' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>F on m1</text>
+<line x1='692' y1='300' x2='582' y2='300' stroke='#dc2626' stroke-width='3'/>
+<polygon points='582,300 591.211,296.106 591.211,303.894' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='600' y='340' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>F on m2</text>
+<text x='480' y='240' font-size='13' fill='#dc2626' text-anchor='middle' font-weight='600' font-style='normal'>equal and OPPOSITE (third law)</text>
+<rect x='120' y='430' width='360' height='150' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='300' y='481.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>G = 6.67 × 10⁻¹¹ N m² kg⁻²</text>
+<text x='300' y='500.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'> unbelievably tiny → gravity only</text>
+<text x='300' y='518.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>matters when a mass is planet-sized</text>
+<text x='300' y='537.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>G is UNIVERSAL: same for all pairs</text>
+<rect x='520' y='430' width='340' height='150' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='690' y='472.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Inverse-square:</text>
+<text x='690' y='491.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>double r → force ÷4</text>
+<text x='690' y='509.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>triple r → force ÷9</text>
+<text x='690' y='528.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>r is CENTRE-to-CENTRE,</text>
+<text x='690' y='546.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>never surface to surface</text>
+<text x='480' y='615' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Apple–Earth and Earth–Moon obey the same law — that universality was the revolution</text>
+<text x='480' y='645' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Weight W = mg is just this force with m2 = Earth, r = R: g = GM/R²</text>
+</svg>

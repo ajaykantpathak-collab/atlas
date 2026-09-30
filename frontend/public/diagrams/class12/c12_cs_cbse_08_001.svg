@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Data Structures</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Ways of organising data in memory for efficient use</text>
+<rect x='390' y='90' width='180' height='44' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='480' y='117.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Data structures</text>
+<rect x='120' y='190' width='220' height='44' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='230' y='217.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Linear</text>
+<rect x='620' y='190' width='220' height='44' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='730' y='217.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Non-linear</text>
+<line x1='480' y1='134' x2='230' y2='190' stroke='#334155' stroke-width='1.8'/>
+<line x1='480' y1='134' x2='730' y2='190' stroke='#334155' stroke-width='1.8'/>
+<rect x='60' y='270' width='170' height='110' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='145' y='320.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>List / Array</text>
+<text x='145' y='339.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>ordered, indexed</text>
+<rect x='240' y='270' width='170' height='110' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='325' y='320.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Stack</text>
+<text x='325' y='339.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>LIFO</text>
+<rect x='420' y='270' width='170' height='110' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='505' y='320.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Queue</text>
+<text x='505' y='339.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>FIFO</text>
+<rect x='600' y='270' width='170' height='110' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='685' y='320.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Linked list</text>
+<text x='685' y='339.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>nodes + pointers</text>
+<rect x='790' y='250' width='140' height='130' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='860' y='310.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Tree</text>
+<text x='860' y='329.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Graph</text>
+<line x1='230' y1='234' x2='145' y2='270' stroke='#334155' stroke-width='1.8'/>
+<line x1='230' y1='234' x2='325' y2='270' stroke='#334155' stroke-width='1.8'/>
+<line x1='230' y1='234' x2='505' y2='270' stroke='#334155' stroke-width='1.8'/>
+<line x1='230' y1='234' x2='685' y2='270' stroke='#334155' stroke-width='1.8'/>
+<line x1='730' y1='234' x2='860' y2='250' stroke='#334155' stroke-width='1.8'/>
+<text x='480' y='440' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Choose the structure by the operations you need: fast search? fast insert? order matters?</text>
+</svg>

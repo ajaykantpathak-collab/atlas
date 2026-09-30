@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Parts of a Circle</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>One fixed centre, one fixed distance — everything else has a name</text>
+<circle cx='400' cy='320' r='190' fill='#f6f7ee' stroke='#2563eb' stroke-width='3'/>
+<line x1='400' y1='320' x2='555.639' y2='211.02' stroke='#dc2626' stroke-width='2.6'/>
+<text x='500' y='262' font-size='14' fill='#dc2626' text-anchor='start' font-weight='700' font-style='normal'>radius (r)</text>
+<line x1='210' y1='320' x2='590' y2='320' stroke='#059669' stroke-width='2.6'/>
+<text x='400' y='346' font-size='13.5' fill='#059669' text-anchor='middle' font-weight='700' font-style='normal'>diameter (d = 2r)</text>
+<line x1='280' y1='175' x2='555' y2='202' stroke='#7c3aed' stroke-width='2.6'/>
+<text x='408' y='168' font-size='13.5' fill='#7c3aed' text-anchor='start' font-weight='600' font-style='normal'>chord (any joining line)</text>
+<line x1='150' y1='145' x2='700' y2='120' stroke='#d97706' stroke-width='2.6'/>
+<text x='600' y='105' font-size='13.5' fill='#d97706' text-anchor='start' font-weight='700' font-style='normal'>tangent (touches at ONE point)</text>
+<circle cx='439.503' cy='134.152' r='6' fill='#d97706' stroke='#334155' stroke-width='1.6'/>
+<circle cx='400' cy='320' r='5' fill='#1e2430' stroke='#334155' stroke-width='1.6'/>
+<text x='388' y='310' font-size='13' fill='#6b7280' text-anchor='end' font-weight='normal' font-style='normal'>centre</text>
+<path d='M 221.458 255.016 A 190 190 0 0 1 335.016 141.458' fill='none' stroke='#dc2626' stroke-width='6' stroke-opacity='0.5'/>
+<text x='180' y='180' font-size='13.5' fill='#dc2626' text-anchor='start' font-weight='600' font-style='normal'>arc</text>
+<path d='M 400 320 L 590 320 A 190 190 0 0 1 555.639 428.98 Z' fill='#fef3c7' fill-opacity='0.5' stroke='none'/>
+<text x='518' y='412' font-size='13' fill='#92400e' text-anchor='start' font-weight='600' font-style='normal'>sector</text>
+<rect x='640' y='360' width='280' height='150' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='780' y='401.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Formulas:</text>
+<text x='780' y='420.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>circumference = 2πr</text>
+<text x='780' y='439.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>area = πr²</text>
+<text x='780' y='458.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>π ≈ 22/7 ≈ 3.14</text>
+<text x='780' y='477.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>tangent ⊥ radius at the touch point</text>
+<text x='480' y='565' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Every chord shorter than the diameter; the diameter is the LONGEST chord and halves the circle</text>
+<text x='480' y='595' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>A tangent from an external point: two tangents, equal lengths — handy in exam geometry</text>
+<text x='480' y='625' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Sector = 'pizza slice' (two radii + arc); segment = chord + arc (chord cuts off a cap)</text>
+</svg>

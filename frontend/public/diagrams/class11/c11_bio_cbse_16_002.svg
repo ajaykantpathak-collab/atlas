@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>The Nephron: Three Jobs in One Tube</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Filter → reclaim → concentrate, then collect and drain</text>
+<path d='M 96 210 A 58 58 0 0 0 212 210 L 198 232 A 42 42 0 0 1 110 232 Z' fill='#dbeafe' stroke='#2563eb' stroke-width='2.4'/>
+<path d='M 154 163.92 Q 167.895 169.938 181.791 175.956 Q 184.558 186.647 187.325 197.338 Q 179.097 206.736 170.868 216.134 Q 155.061 216.594 139.255 217.054 Q 129.172 207.281 119.089 197.507 Q 121.584 187.111 124.079 176.716 Q 139.04 170.318 154 163.92 Z' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='154' y='156' font-size='13' fill='#dc2626' text-anchor='middle' font-weight='600' font-style='normal'>glomerulus</text>
+<text x='154' y='262' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Bowman's capsule</text>
+<text x='154' y='120' font-size='15' fill='#2563eb' text-anchor='start' font-weight='700' font-style='normal'>1. ULTRAFILTRATION</text>
+<text x='154' y='142' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>blood pushed through a filter</text>
+<line x1='154' y1='258' x2='154' y2='320' stroke='#2563eb' stroke-width='3.4' fill='none'/>
+<line x1='154' y1='320' x2='291.083' y2='338.779' stroke='#2563eb' stroke-width='3.4'/>
+<polygon points='300,340 291.694,334.32 290.473,343.237' fill='#2563eb' stroke='#2563eb' stroke-width='1'/>
+<rect x='210' y='352' width='200' height='74' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='310' y='375.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>PCT (proximal tubule)</text>
+<text x='310' y='393.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>reclaims glucose, amino acids,</text>
+<text x='310' y='411.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>~65% of Na+ and water</text>
+<line x1='410' y1='340' x2='470' y2='340' stroke='#7c3aed' stroke-width='3.4' fill='none'/>
+<line x1='470' y1='340' x2='470' y2='470' stroke='#7c3aed' stroke-width='3.4' fill='none'/>
+<line x1='470' y1='470' x2='560' y2='470' stroke='#7c3aed' stroke-width='3.4' fill='none'/>
+<line x1='560' y1='470' x2='560' y2='340' stroke='#7c3aed' stroke-width='3.4' fill='none'/>
+<line x1='560' y1='340' x2='631' y2='340' stroke='#7c3aed' stroke-width='3.4'/>
+<polygon points='640,340 631,335.5 631,344.5' fill='#7c3aed' stroke='#7c3aed' stroke-width='1'/>
+<rect x='410' y='500' width='210' height='60' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='515' y='516.875' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Loop of Henle</text>
+<text x='515' y='534.375' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>concentrates the filtrate</text>
+<text x='515' y='551.875' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(countercurrent multiplication)</text>
+<line x1='640' y1='340' x2='700' y2='340' stroke='#d97706' stroke-width='3.4' fill='none'/>
+<line x1='700' y1='340' x2='700' y2='269' stroke='#d97706' stroke-width='3.4'/>
+<polygon points='700,260 695.5,269 704.5,269' fill='#d97706' stroke='#d97706' stroke-width='1'/>
+<rect x='620' y='150' width='210' height='74' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='725' y='173.875' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>DCT (distal tubule)</text>
+<text x='725' y='191.375' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>fine-tunes Na+, K+, pH;</text>
+<text x='725' y='208.875' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>ADH + aldosterone act here</text>
+<line x1='700' y1='260' x2='700' y2='226' stroke='#2563eb' stroke-width='3.4' fill='none'/>
+<line x1='700' y1='226' x2='830' y2='226' stroke='#2563eb' stroke-width='3.4' fill='none'/>
+<line x1='830' y1='226' x2='830' y2='371' stroke='#2563eb' stroke-width='3.4'/>
+<polygon points='830,380 834.5,371 825.5,371' fill='#2563eb' stroke='#2563eb' stroke-width='1'/>
+<rect x='748' y='380' width='190' height='74' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='843' y='395.125' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>3. COLLECTING DUCT</text>
+<text x='843' y='412.625' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>water leaves by osmosis;</text>
+<text x='843' y='430.125' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>2. selective reabsorption</text>
+<text x='843' y='447.625' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>all along the tube</text>
+<line x1='830' y1='454' x2='830' y2='520' stroke='#2563eb' stroke-width='3.4' fill='none'/>
+<line x1='830' y1='520' x2='769' y2='520' stroke='#2563eb' stroke-width='3.4'/>
+<polygon points='760,520 769,524.5 769,515.5' fill='#2563eb' stroke='#2563eb' stroke-width='1'/>
+<rect x='560' y='498' width='190' height='46' rx='23' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='655' y='525.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>urine → ureter</text>
+<text x='480' y='600' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Blood arrives by the wider afferent arteriole and leaves by the narrower efferent — the pressure difference drives filtration</text>
+<text x='480' y='626' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>~180 L filtered per day, only ~1.5 L excreted — over 99% of the filtrate is reabsorbed</text>
+</svg>

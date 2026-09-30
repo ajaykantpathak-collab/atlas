@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Linear Search vs Binary Search</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Binary search needs a SORTED list and halves the range each step</text>
+<text x='140' y='110' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>LINEAR: check every element</text>
+<rect x='140' y='130' width='60' height='48' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='1.8'/>
+<text x='170' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>23</text>
+<rect x='210' y='130' width='60' height='48' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='1.8'/>
+<text x='240' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>8</text>
+<rect x='280' y='130' width='60' height='48' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='1.8'/>
+<text x='310' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>41</text>
+<rect x='350' y='130' width='60' height='48' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='1.8'/>
+<text x='380' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>4</text>
+<rect x='420' y='130' width='60' height='48' rx='8' fill='#d1fae5' stroke='#334155' stroke-width='1.8'/>
+<text x='450' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>17</text>
+<text x='140' y='210' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>target 17 → 5 checks (worst: n checks)</text>
+<text x='540' y='110' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>BINARY: halve a sorted list</text>
+<rect x='540' y='130' width='60' height='48' rx='8' fill='#f3f4f6' stroke='#334155' stroke-width='1.8'/>
+<text x='570' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>4</text>
+<rect x='610' y='130' width='60' height='48' rx='8' fill='#f3f4f6' stroke='#334155' stroke-width='1.8'/>
+<text x='640' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>8</text>
+<rect x='680' y='130' width='60' height='48' rx='8' fill='#d1fae5' stroke='#334155' stroke-width='1.8'/>
+<text x='710' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>17</text>
+<rect x='750' y='130' width='60' height='48' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='1.8'/>
+<text x='780' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>23</text>
+<rect x='820' y='130' width='60' height='48' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='1.8'/>
+<text x='850' y='159.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>41</text>
+<text x='540' y='210' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>mid=17 ✓ → found in 1 check</text>
+<rect x='140' y='260' width='340' height='120' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='310' y='305.575' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>works on any list</text>
+<text x='310' y='325.075' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>simple to write</text>
+<text x='310' y='344.575' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>slow for big data: O(n)</text>
+<rect x='540' y='260' width='340' height='120' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='710' y='305.575' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>list MUST be sorted first</text>
+<text x='710' y='325.075' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>each check discards half the range</text>
+<text x='710' y='344.575' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>very fast: O(log n) — 1M items ≈ 20 checks</text>
+<text x='480' y='430' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>low ≤ mid ≤ high · compare target with a[mid] · move low or high past mid</text>
+</svg>

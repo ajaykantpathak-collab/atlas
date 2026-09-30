@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Anatomy of a Cloning Vector (Plasmid)</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>What a DNA taxi must carry to work inside a host</text>
+<circle cx='330' cy='320' r='165' fill='none' stroke='#334155' stroke-width='5'/>
+<circle cx='330' cy='320' r='160' fill='none' stroke='#334155' stroke-width='5'/>
+<rect x='474' y='306' width='52' height='28' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='1.6'/>
+<text x='500' y='324' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>ori</text>
+<rect x='306' y='134' width='48' height='30' rx='6' fill='#fef3c7' stroke='#d97706' stroke-width='1.6'/>
+<text x='330' y='151' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>ampR</text>
+<rect x='134' y='305' width='52' height='30' rx='6' fill='#d1fae5' stroke='#059669' stroke-width='1.6'/>
+<text x='160' y='324' font-size='11.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>insert</text>
+<line x1='130' y1='320' x2='111' y2='320' stroke='#059669' stroke-width='2'/>
+<polygon points='102,320 111,324.5 111,315.5' fill='#059669' stroke='#059669' stroke-width='1'/>
+<rect x='600' y='118' width='320' height='84' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='760' y='146.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>ori — origin of replication:</text>
+<text x='760' y='164.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='760' y='183.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>controls copy number; no ori = plasmid cannot multiply</text>
+<rect x='600' y='238' width='320' height='84' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='760' y='266.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Selectable marker (ampR):</text>
+<text x='760' y='284.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='760' y='303.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>lets ONLY plasmid-bearing cells survive the antibiotic plate</text>
+<rect x='600' y='358' width='320' height='84' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='760' y='386.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Cloning sites (EcoRI etc.):</text>
+<text x='760' y='404.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='760' y='423.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>single cut places of several unique enzymes — one cut, not many</text>
+<rect x='600' y='468' width='320' height='84' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='760' y='496.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Insertional inactivation:</text>
+<text x='760' y='514.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='760' y='533.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>insert lands INSIDE a marker gene → its loss screens recombinants</text>
+<text x='480' y='610' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Vector requirements: ori + selectable marker + unique cloning sites + small size for easy transfer</text>
+</svg>

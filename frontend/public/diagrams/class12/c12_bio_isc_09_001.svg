@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Recombinant DNA Technology: The Four Moves</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Cut, insert, transfer, screen — then multiply inside a host</text>
+<rect x='40' y='130' width='190' height='210' rx='8' fill='#fee2e2' stroke='#dc2626' stroke-width='1.8'/>
+<text x='135' y='185.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>1. CUT</text>
+<text x='135' y='203.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='135' y='221.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>restriction endonuclease</text>
+<text x='135' y='239.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(e.g. EcoRI) cuts vector</text>
+<text x='135' y='257.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>and donor at specific</text>
+<text x='135' y='275.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>palindromic sites → sticky</text>
+<text x='135' y='293.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>ends</text>
+<line x1='230' y1='235' x2='257' y2='235' stroke='#334155' stroke-width='3'/>
+<polygon points='266,235 257,230.5 257,239.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='270' y='130' width='190' height='210' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='365' y='194.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>2. PASTE</text>
+<text x='365' y='212.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='365' y='230.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>DNA ligase seals donor</text>
+<text x='365' y='248.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>fragment into the vector →</text>
+<text x='365' y='266.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>recombinant DNA (chimeric)</text>
+<text x='365' y='284.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>plasmid</text>
+<line x1='460' y1='235' x2='487' y2='235' stroke='#334155' stroke-width='3'/>
+<polygon points='496,235 487,230.5 487,239.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='500' y='130' width='190' height='210' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='595' y='185.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>3. TRANSFER</text>
+<text x='595' y='203.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='595' y='221.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>vector enters host cell</text>
+<text x='595' y='239.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(E. coli) by</text>
+<text x='595' y='257.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>transformation: CaCl2 +</text>
+<text x='595' y='275.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>heat shock, or gene gun /</text>
+<text x='595' y='293.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>micro-injection</text>
+<line x1='690' y1='235' x2='717' y2='235' stroke='#334155' stroke-width='3'/>
+<polygon points='726,235 717,230.5 717,239.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='730' y='130' width='190' height='210' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='825' y='185.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>4. SCREEN</text>
+<text x='825' y='203.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='825' y='221.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>select cells carrying the</text>
+<text x='825' y='239.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>recombinant (marker /</text>
+<text x='825' y='257.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>insertional inactivation),</text>
+<text x='825' y='275.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>then culture clones of</text>
+<text x='825' y='293.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>the right colony</text>
+<rect x='240' y='420' width='480' height='80' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='480' y='446.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Multiply: each transformed cell makes a colony —</text>
+<text x='480' y='464.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>many copies of the recombinant plasmid (cloning) and, if</text>
+<text x='480' y='483.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>expressed, the protein product (insulin, hGH...)</text>
+<line x1='480' y1='345' x2='480' y2='407' stroke='#334155' stroke-width='3'/>
+<polygon points='480,416 484.5,407 475.5,407' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='480' y='545' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Tools of the trade: restriction enzymes + ligase · cloning vectors (plasmid, phage) · competent host</text>
+<text x='480' y='580' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Sticky ends matter: the SAME enzyme cut gives complementary overhangs that anneal cleanly</text>
+</svg>

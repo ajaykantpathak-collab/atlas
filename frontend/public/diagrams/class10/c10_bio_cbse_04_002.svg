@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<defs><marker id='arw' markerWidth='9' markerHeight='7' refX='7.5' refY='3.5' orient='auto'><polygon points='0 0, 9 3.5, 0 7' fill='#334155'/></marker></defs>
+<rect width='960' height='640' fill='white'/>
+<text x='30' y='34' font-size='21' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>Monohybrid cross: one pair of contrasting traits (tall × dwarf pea)</text>
+<path d='M 120 150 C 116.88 116.304 122.34 91.032 120 65.76' fill='none' stroke='#166534' stroke-width='3.9' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 120 120.516 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 120 103.668 q 12.48 -4.68 23.4 -1.56 q 10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 120 86.82 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<ellipse cx='120' cy='61.08' rx='5.46' ry='7.8' fill='#f9a8d4' stroke='#be185d' stroke-width='1.2'/>
+<ellipse cx='115.32' cy='64.2' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<ellipse cx='124.68' cy='64.2' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<path d='M 215 150 C 211.88 129.408 217.34 113.964 215 98.52' fill='none' stroke='#166534' stroke-width='3.9' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 215 131.982 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 215 121.686 q 12.48 -4.68 23.4 -1.56 q 10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 215 111.39 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<ellipse cx='215' cy='93.84' rx='5.46' ry='7.8' fill='#f9a8d4' stroke='#be185d' stroke-width='1.2'/>
+<ellipse cx='210.32' cy='96.96' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<ellipse cx='219.68' cy='96.96' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<text x='120' y='172' font-size='14.5' fill='#166534' text-anchor='middle' font-weight='normal' font-style='normal'>tall  TT</text>
+<text x='215' y='172' font-size='14.5' fill='#b91c1c' text-anchor='middle' font-weight='normal' font-style='normal'>dwarf  tt</text>
+<text x='167' y='196' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>P (pure-breeding)</text>
+<line x1='167' y1='206' x2='167' y2='232' stroke='#6b7280' stroke-width='1.6' marker-end='url(#arw)'/>
+<path d='M 120 330 C 116.88 296.304 122.34 271.032 120 245.76' fill='none' stroke='#166534' stroke-width='3.9' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 120 300.516 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 120 283.668 q 12.48 -4.68 23.4 -1.56 q 10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 120 266.82 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<ellipse cx='120' cy='241.08' rx='5.46' ry='7.8' fill='#f9a8d4' stroke='#be185d' stroke-width='1.2'/>
+<ellipse cx='115.32' cy='244.2' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<ellipse cx='124.68' cy='244.2' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<path d='M 215 330 C 211.88 296.304 217.34 271.032 215 245.76' fill='none' stroke='#166534' stroke-width='3.9' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 215 300.516 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 215 283.668 q 12.48 -4.68 23.4 -1.56 q 10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 215 266.82 q -12.48 -4.68 -23.4 -1.56 q -10.92 7.8 0 6.24 Z' fill='#22c55e' stroke='#166534' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/>
+<ellipse cx='215' cy='241.08' rx='5.46' ry='7.8' fill='#f9a8d4' stroke='#be185d' stroke-width='1.2'/>
+<ellipse cx='210.32' cy='244.2' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<ellipse cx='219.68' cy='244.2' rx='3.9' ry='5.46' fill='#fbcfe8' stroke='#be185d' stroke-width='1'/>
+<text x='167' y='352' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>F1 — all tall (Tt)</text>
+<text x='167' y='372' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>dominant T shows; recessive t hidden</text>
+<line x1='167' y1='384' x2='167' y2='410' stroke='#6b7280' stroke-width='1.6' marker-end='url(#arw)'/>
+<text x='196' y='402' font-size='14' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>self-pollination</text>
+<text x='560' y='82' font-size='16' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>F2 — self-pollinate F1 (Tt × Tt)</text>
+<text x='608' y='120' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>T</text>
+<text x='544' y='156' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>T</text>
+<text x='700' y='120' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>t</text>
+<text x='544' y='248' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>t</text>
+<rect x='560' y='96' width='92' height='92' fill='#d1fae5' stroke='#94a3b8' stroke-width='1.4'/>
+<text x='606' y='136' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>TT</text>
+<text x='606' y='160' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>tall</text>
+<rect x='652' y='96' width='92' height='92' fill='#d1fae5' stroke='#94a3b8' stroke-width='1.4'/>
+<text x='698' y='136' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>Tt</text>
+<text x='698' y='160' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>tall</text>
+<rect x='560' y='188' width='92' height='92' fill='#d1fae5' stroke='#94a3b8' stroke-width='1.4'/>
+<text x='606' y='228' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>Tt</text>
+<text x='606' y='252' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>tall</text>
+<rect x='652' y='188' width='92' height='92' fill='#fee2e2' stroke='#94a3b8' stroke-width='1.4'/>
+<text x='698' y='228' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='bold' font-style='normal'>tt</text>
+<text x='698' y='252' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>dwarf</text>
+<rect x='560' y='300' width='372' height='128' rx='10' fill='white' stroke='#cbd5e1' stroke-width='1.4'/>
+<text x='578' y='330' font-size='17' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>Phenotypic ratio  3 tall : 1 dwarf</text>
+<rect x='580' y='344' width='28' height='20' rx='6' fill='#d1fae5' stroke='#059669' stroke-width='1.4'/>
+<rect x='614' y='344' width='28' height='20' rx='6' fill='#d1fae5' stroke='#059669' stroke-width='1.4'/>
+<rect x='648' y='344' width='28' height='20' rx='6' fill='#d1fae5' stroke='#059669' stroke-width='1.4'/>
+<rect x='682' y='344' width='28' height='20' rx='6' fill='#fee2e2' stroke='#dc2626' stroke-width='1.4'/>
+<text x='578' y='396' font-size='17' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>Genotypic ratio  1 TT : 2 Tt : 1 tt</text>
+<rect x='578' y='410' width='62' height='24' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.4'/>
+<text x='609' y='427' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1 TT</text>
+<rect x='650' y='410' width='62' height='24' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.4'/>
+<text x='681' y='427' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>2 Tt</text>
+<rect x='722' y='410' width='62' height='24' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.4'/>
+<text x='753' y='427' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1 tt</text>
+<rect x='560' y='452' width='372' height='128' rx='10' fill='white' stroke='#cbd5e1' stroke-width='1.4'/>
+<text x='578' y='484' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>Rules seen here</text>
+<text x='590' y='508' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>• F1 shows only the dominant trait</text>
+<text x='590' y='532' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>• F2 recessive trait reappears (3:1)</text>
+<text x='590' y='556' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>• Alleles separate; each gamete gets one</text>
+<text x='30' y='470' font-size='14.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>Each parent passes ONE allele of the pair to every offspring:</text>
+<text x='30' y='490' font-size='14.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>TT × tt → all Tt;  Tt × Tt → TT, Tt, Tt, tt.</text>
+</svg>

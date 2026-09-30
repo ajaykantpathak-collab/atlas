@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Resonance: One Real Structure, Several Pictures</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Ozone — the truth is the AVERAGE, not either drawing</text>
+<circle cx='330' cy='260' r='40' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/>
+<text x='330' y='266.3' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<circle cx='200' cy='260' r='34' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='200' y='265.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<circle cx='460' cy='260' r='34' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='460' y='265.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<line x1='234' y1='252' x2='286' y2='252' stroke='#334155' stroke-width='3'/>
+<line x1='234' y1='268' x2='286' y2='268' stroke='#334155' stroke-width='3'/>
+<line x1='374' y1='260' x2='426' y2='260' stroke='#334155' stroke-width='3'/>
+<text x='330' y='330' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>structure A</text>
+<text x='480' y='262' font-size='30' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>↔</text>
+<circle cx='630' cy='260' r='40' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/>
+<text x='630' y='266.3' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<circle cx='500' cy='260' r='34' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='500' y='265.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<circle cx='760' cy='260' r='34' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='760' y='265.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<line x1='534' y1='260' x2='586' y2='260' stroke='#334155' stroke-width='3'/>
+<line x1='674' y1='252' x2='726' y2='252' stroke='#334155' stroke-width='3'/>
+<line x1='674' y1='268' x2='726' y2='268' stroke='#334155' stroke-width='3'/>
+<text x='630' y='330' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>structure B</text>
+<text x='480' y='160' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Neither A nor B exists alone — the real molecule is the average of the pictures</text>
+<rect x='150' y='400' width='320' height='140' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='310' y='437.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Experimental fact:</text>
+<text x='310' y='456.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>both O–O bonds in ozone are</text>
+<text x='310' y='474.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>IDENTICAL (128 pm) — between a</text>
+<text x='310' y='493.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>single (148 pm) and double (110 pm)</text>
+<text x='310' y='511.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>bond</text>
+<rect x='510' y='400' width='320' height='140' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='670' y='446.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Resonance hybrid:</text>
+<text x='670' y='465.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>real molecule = average of all</text>
+<text x='670' y='483.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>canonical forms; bond order ≈ 1.5 for</text>
+<text x='670' y='502.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>each O–O in ozone</text>
+<text x='480' y='580' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>The double-headed arrow ↔ means 'hybrid of', NEVER 'equilibrium between two forms'</text>
+<text x='480' y='610' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Other classics: CO3²⁻ (all three C–O equal), benzene (equal C–C), carboxylate ion</text>
+</svg>

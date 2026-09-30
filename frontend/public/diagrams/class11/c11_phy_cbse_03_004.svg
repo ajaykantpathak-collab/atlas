@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Resolution of a Vector into Components</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Any vector = its shadow on x + its shadow on y</text>
+<line x1='240' y1='420' x2='620' y2='180' stroke='#2563eb' stroke-width='3'/>
+<polygon points='620,180 614.292,188.211 610.133,181.626' fill='#2563eb' stroke='#2563eb' stroke-width='1'/>
+<text x='634' y='170' font-size='15' fill='#2563eb' text-anchor='start' font-weight='700' font-style='normal'>A</text>
+<line x1='240' y1='420' x2='620' y2='420' stroke='#059669' stroke-width='3'/>
+<polygon points='620,420 610.789,423.894 610.789,416.106' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='634' y='410' font-size='14' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>Ax = A cos θ</text>
+<line x1='620' y1='420' x2='620' y2='180' stroke='#d97706' stroke-width='3'/>
+<polygon points='620,180 623.894,189.211 616.106,189.211' fill='#d97706' stroke='#d97706' stroke-width='1'/>
+<text x='634' y='170' font-size='14' fill='#d97706' text-anchor='start' font-weight='700' font-style='normal'>Ay = A sin θ</text>
+<text x='326' y='394' font-size='17' fill='#7c3aed' text-anchor='start' font-weight='700' font-style='normal'>θ</text>
+<path d='M 320 420 A 80 80 0 0 0 316 376' fill='none' stroke='#7c3aed' stroke-width='2'/>
+<line x1='620' y1='420' x2='620' y2='180' stroke='#6b7280' stroke-width='1.4' stroke-dasharray='4,4'/>
+<line x1='240' y1='180' x2='620' y2='180' stroke='#6b7280' stroke-width='1.4' stroke-dasharray='4,4'/>
+<rect x='700' y='180' width='230' height='130' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='815' y='221.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Right-triangle maths:</text>
+<text x='815' y='240.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>|A|² = Ax² + Ay²</text>
+<text x='815' y='258.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>tan θ = Ay / Ax</text>
+<text x='815' y='277.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Ax, Ay carry the sign of cos, sin</text>
+<text x='480' y='520' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Why bother? Motion along x and along y can be treated INDEPENDENTLY, then recombined</text>
+<text x='480' y='552' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Projectile problems live on this: horizontal constant velocity + vertical constant acceleration</text>
+<text x='480' y='584' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>On an incline: weight splits into mg sin θ (slides it) and mg cos θ (presses it)</text>
+<text x='480' y='622' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Perpendicular components have zero effect along each other — that is what makes the split useful</text>
+</svg>

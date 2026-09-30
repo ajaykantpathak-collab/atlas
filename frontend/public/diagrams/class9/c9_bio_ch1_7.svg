@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<defs><marker id='arw' markerWidth='9' markerHeight='7' refX='7.5' refY='3.5' orient='auto'><polygon points='0 0, 9 3.5, 0 7' fill='#334155'/></marker></defs>
+<rect width='960' height='640' fill='white'/>
+<text x='30' y='34' font-size='21' fill='#1e2430' text-anchor='start' font-weight='bold' font-style='normal'>Endoplasmic reticulum — rough ER and smooth ER</text>
+<path d='M 105 330 C 141.667 235.333 126.667 259 140 256 C 239.167 222.667 210.333 230.667 220 238 C 301 286.333 276.333 272 278 282 C 299.333 359.333 294 331.667 288 342 C 247.667 424.333 264.333 401.667 252 404 C 159.667 430.667 186 424.333 178 418 C 109.667 376 134.167 388.333 130 380 C 92.8333 315.333 105 330 105 330 Z' fill='#ede9fe' stroke='#6d28d9' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 115 332 C 147.167 249.333 134 269.833 146 267 C 235.167 236.333 209.667 243.833 218 250 C 288.333 290.333 266.5 278.167 268 287 C 286.833 355 282.333 331.167 277 340 C 241.167 410.667 255.833 390.833 245 393 C 163.833 417 186.833 411.5 180 406 C 121.333 369.667 143 379.833 139 373 C 104.167 319.667 115 332 115 332 Z' fill='none' stroke='#8b5cf6' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='286.663' cy='344.586' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<circle cx='244' cy='402.746' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<circle cx='169.902' cy='408.934' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<circle cx='117.307' cy='358.73' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<circle cx='123.79' cy='288' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<circle cx='184.719' cy='247.276' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<circle cx='256.565' cy='265.652' r='4' fill='#4c1d95' stroke='#4c1d95' stroke-width='0.5'/>
+<ellipse cx='194' cy='336' rx='36' ry='26' fill='#c084fc' stroke='#7e22ce' stroke-width='1.6'/>
+<path d='M 226 266 C 291.333 242.667 270.333 241.667 282 246 C 373 273 338.667 276 352 272 C 457 248.333 418.667 244.667 432 248 C 538.667 267.333 500.333 270.667 512 268 C 607 252.667 582 252 582 252' fill='none' stroke='#1d4ed8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='252' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='304' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='356' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='408' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='460' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='512' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='564' cy='255' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<path d='M 226 312 C 291.333 288.667 270.333 287.667 282 292 C 373 319 338.667 322 352 318 C 457 294.333 418.667 290.667 432 294 C 538.667 313.333 500.333 316.667 512 314 C 607 298.667 582 298 582 298' fill='none' stroke='#1d4ed8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='259' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='311' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='363' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='415' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='467' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='519' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='571' cy='302' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<path d='M 226 358 C 291.333 334.667 270.333 333.667 282 338 C 373 365 338.667 368 352 364 C 457 340.333 418.667 336.667 432 340 C 538.667 359.333 500.333 362.667 512 360 C 607 344.667 582 344 582 344' fill='none' stroke='#1d4ed8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='252' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='304' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='356' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='408' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='460' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='512' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='564' cy='349' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<path d='M 226 404 C 291.333 380.667 270.333 379.667 282 384 C 373 411 338.667 414 352 410 C 457 386.333 418.667 382.667 432 386 C 538.667 405.333 500.333 408.667 512 406 C 607 390.667 582 390 582 390' fill='none' stroke='#1d4ed8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='259' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='311' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='363' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='415' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='467' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='519' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<circle cx='571' cy='393' r='3.4' fill='#1e3a8a' stroke='#1e3a8a' stroke-width='0.4'/>
+<path d='M 266 278 C 364 210.333 376.333 206.333 350 220 C 179.667 306 180.333 307.667 192 302 C 247.333 276 262 268 262 268' fill='none' stroke='#1d4ed8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 242 508 C 323.667 473 299.333 472.333 312 478 C 412.333 512.667 375.667 518 388 512 C 487 475.667 449.667 470 462 476 C 560.667 512 525 516.667 536 512 C 625.333 485.333 602 484 602 484' fill='none' stroke='#0e7490' stroke-width='6.4' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 352 512 C 394 554 374 549 388 548 C 492 547 463.667 549 472 542 C 544.333 492 522 500 522 500' fill='none' stroke='#0e7490' stroke-width='6.4' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M 282 490 C 258.667 548.333 250.333 536.667 262 540 C 340.333 571.667 320.333 561.333 332 560 C 425.333 554 402 552 402 552' fill='none' stroke='#0e7490' stroke-width='6.4' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='134' cy='278' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='134' y1='278' x2='90' y2='130' stroke='#6b7280' stroke-width='1.2'/>
+<text x='96' y='135' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>nucleus</text>
+<circle cx='190' cy='338' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='190' y1='338' x2='88' y2='196' stroke='#6b7280' stroke-width='1.2'/>
+<text x='94' y='201' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>nucleolus</text>
+<circle cx='148' cy='256' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='148' y1='256' x2='96' y2='86' stroke='#6b7280' stroke-width='1.2'/>
+<text x='102' y='91' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>nuclear envelope (pores)</text>
+<circle cx='442' cy='250' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='442' y1='250' x2='726' y2='120' stroke='#6b7280' stroke-width='1.2'/>
+<text x='732' y='125' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>rough ER — flattened sacs</text>
+<circle cx='532' cy='312' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='532' y1='312' x2='748' y2='168' stroke='#6b7280' stroke-width='1.2'/>
+<text x='754' y='173' font-size='14.5' fill='#1e3a8a' text-anchor='start' font-weight='normal' font-style='normal'>ribosomes on its surface:</text>
+<text x='754' y='188' font-size='14.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>makes and processes proteins</text>
+<circle cx='608' cy='486' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='608' y1='486' x2='744' y2='380' stroke='#6b7280' stroke-width='1.2'/>
+<text x='750' y='385' font-size='15' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>smooth ER — branching tubules</text>
+<text x='750' y='400' font-size='14.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>no ribosomes: makes lipids,</text>
+<text x='750' y='419' font-size='14.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>detoxifies, stores calcium</text>
+<circle cx='226' cy='268' r='2.2' fill='#6b7280' stroke='#6b7280' stroke-width='0.5'/>
+<line x1='226' y1='268' x2='620' y2='560' stroke='#6b7280' stroke-width='1.2'/>
+<text x='626' y='565' font-size='14.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>ER is continuous with the nuclear envelope</text>
+<text x='626' y='580' font-size='14.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>and spreads through the cytoplasm</text>
+</svg>

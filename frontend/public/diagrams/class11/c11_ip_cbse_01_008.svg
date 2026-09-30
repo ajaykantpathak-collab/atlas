@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Software Classification</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>System software runs the machine; application software serves the user</text>
+<rect x='380' y='90' width='200' height='46' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='480' y='118.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>SOFTWARE</text>
+<rect x='120' y='200' width='240' height='46' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='240' y='228.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>System software</text>
+<rect x='600' y='200' width='240' height='46' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='720' y='228.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Application software</text>
+<line x1='480' y1='136' x2='240' y2='200' stroke='#334155' stroke-width='1.8'/>
+<line x1='480' y1='136' x2='720' y2='200' stroke='#334155' stroke-width='1.8'/>
+<line x1='240' y1='246' x2='145' y2='300' stroke='#334155' stroke-width='1.8'/>
+<rect x='40' y='300' width='210' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='145' y='325.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Operating system</text>
+<text x='145' y='343.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Windows, Linux, Android</text>
+<line x1='240' y1='246' x2='365' y2='300' stroke='#334155' stroke-width='1.8'/>
+<rect x='260' y='300' width='210' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='365' y='325.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Utilities</text>
+<text x='365' y='343.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>antivirus, backup</text>
+<line x1='240' y1='246' x2='585' y2='300' stroke='#334155' stroke-width='1.8'/>
+<rect x='480' y='300' width='210' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='585' y='325.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Device drivers</text>
+<text x='585' y='343.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>hardware-specific</text>
+<line x1='240' y1='246' x2='805' y2='300' stroke='#334155' stroke-width='1.8'/>
+<rect x='700' y='300' width='210' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='805' y='325.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Translators</text>
+<text x='805' y='343.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>compiler, interpreter</text>
+<line x1='720' y1='246' x2='395' y2='390' stroke='#334155' stroke-width='1.8'/>
+<rect x='330' y='390' width='130' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='395' y='415.625' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Word processor</text>
+<text x='395' y='433.125' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>documents</text>
+<line x1='720' y1='246' x2='547' y2='390' stroke='#334155' stroke-width='1.8'/>
+<rect x='482' y='390' width='130' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='547' y='415.625' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Spreadsheet</text>
+<text x='547' y='433.125' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>tables</text>
+<line x1='720' y1='246' x2='699' y2='390' stroke='#334155' stroke-width='1.8'/>
+<rect x='634' y='390' width='130' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='699' y='415.625' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Browser</text>
+<text x='699' y='433.125' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>the web</text>
+<line x1='720' y1='246' x2='851' y2='390' stroke='#334155' stroke-width='1.8'/>
+<rect x='786' y='390' width='130' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='851' y='415.625' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Media player</text>
+<text x='851' y='433.125' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>audio &amp; video</text>
+</svg>

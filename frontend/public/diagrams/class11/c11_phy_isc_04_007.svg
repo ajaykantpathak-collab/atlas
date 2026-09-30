@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Kinetic (Sliding) Friction</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>f_k = μk N — constant size, always OPPOSITE the sliding</text>
+<line x1='100' y1='380' x2='560' y2='380' stroke='#334155' stroke-width='2.4'/>
+<line x1='112' y1='380' x2='103' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='138' y1='380' x2='129' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='164' y1='380' x2='155' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='190' y1='380' x2='181' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='216' y1='380' x2='207' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='242' y1='380' x2='233' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='268' y1='380' x2='259' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='294' y1='380' x2='285' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='320' y1='380' x2='311' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='346' y1='380' x2='337' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='372' y1='380' x2='363' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='398' y1='380' x2='389' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='424' y1='380' x2='415' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='450' y1='380' x2='441' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='476' y1='380' x2='467' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='502' y1='380' x2='493' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<line x1='528' y1='380' x2='519' y2='389' stroke='#6b7280' stroke-width='1.6'/>
+<rect x='240' y='320' width='140' height='60' rx='6' fill='#fef3c7' stroke='#d97706' stroke-width='2.2'/>
+<text x='310' y='355' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>block</text>
+<line x1='380' y1='350' x2='480' y2='350' stroke='#7c3aed' stroke-width='3'/>
+<polygon points='480,350 470.789,353.894 470.789,346.106' fill='#7c3aed' stroke='#7c3aed' stroke-width='1'/>
+<text x='494' y='340' font-size='13' fill='#7c3aed' text-anchor='start' font-weight='700' font-style='normal'>F (pull)</text>
+<line x1='240' y1='350' x2='155' y2='350' stroke='#dc2626' stroke-width='3'/>
+<polygon points='155,350 164.211,346.106 164.211,353.894' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='141' y='340' font-size='13' fill='#dc2626' text-anchor='start' font-weight='700' font-style='normal'>fk</text>
+<line x1='310' y1='316' x2='310' y2='236' stroke='#059669' stroke-width='3'/>
+<polygon points='310,236 313.894,245.211 306.106,245.211' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='324' y='226' font-size='13' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>N</text>
+<line x1='310' y1='384' x2='310' y2='464' stroke='#2563eb' stroke-width='3'/>
+<polygon points='310,464 306.106,454.789 313.894,454.789' fill='#2563eb' stroke='#2563eb' stroke-width='1'/>
+<text x='324' y='454' font-size='13' fill='#2563eb' text-anchor='start' font-weight='700' font-style='normal'>W = mg</text>
+<line x1='250' y1='300' x2='209' y2='300' stroke='#6b7280' stroke-width='2'/>
+<polygon points='200,300 209,304.5 209,295.5' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<text x='215' y='285' font-size='12' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>sliding ←</text>
+<rect x='640' y='150' width='300' height='170' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='790' y='193.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Key facts:</text>
+<text x='790' y='211.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>f_k = μk N (not μk·mg!)</text>
+<text x='790' y='230.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>μk &lt; μs — once moving,</text>
+<text x='790' y='248.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>friction DROPS</text>
+<text x='790' y='267.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>f_k ignores speed and</text>
+<text x='790' y='285.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>contact AREA</text>
+<rect x='640' y='350' width='300' height='140' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='790' y='387.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Why μ &lt; 1 usually:</text>
+<text x='790' y='406.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>real surfaces interlock</text>
+<text x='790' y='424.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>microscopically; N presses</text>
+<text x='790' y='443.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>them together — that sets</text>
+<text x='790' y='461.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>the limit, not the area</text>
+<text x='330' y='480' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>friction converts sliding KE into heat — rub your hands</text>
+<text x='480' y='550' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Static vs kinetic: static friction ADJUSTS up to a maximum μsN to prevent sliding; kinetic kicks in after sliding starts</text>
+<text x='480' y='582' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Rolling friction is much smaller — that is why we invented the wheel</text>
+<text x='480' y='614' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>On a level floor N = mg, so f_k = μk mg; on an incline use N = mg cosθ</text>
+<text x='480' y='644' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Friction is self-adjusting and passive — it never pushes an object INTO motion on its own</text>
+</svg>

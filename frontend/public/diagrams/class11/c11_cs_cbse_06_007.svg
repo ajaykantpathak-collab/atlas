@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Immutability — Operations Rebind, Not Modify</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>String methods return new objects; the original stays untouched</text>
+<text x='150' y='140' font-size='17' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>greet = 'hello'</text>
+<rect x='110' y='160' width='120' height='42' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='170' y='186.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>greet</text>
+<line x1='230' y1='181' x2='311' y2='181' stroke='#334155' stroke-width='2.2'/>
+<polygon points='320,181 311,176.5 311,185.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='320' y='158' width='150' height='46' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='395' y='186.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>'hello'</text>
+<text x='150' y='280' font-size='17' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>shout = greet.upper()</text>
+<rect x='110' y='300' width='120' height='42' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='170' y='326.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>greet</text>
+<line x1='230' y1='321' x2='311' y2='321' stroke='#334155' stroke-width='2.2'/>
+<polygon points='320,321 311,316.5 311,325.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='320' y='298' width='150' height='46' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='395' y='326.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>'hello'</text>
+<rect x='110' y='380' width='120' height='42' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='170' y='406.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>shout</text>
+<line x1='230' y1='401' x2='311' y2='401' stroke='#334155' stroke-width='2.2'/>
+<polygon points='320,401 311,396.5 311,405.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='320' y='378' width='150' height='46' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='395' y='406.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>'HELLO'</text>
+<text x='560' y='181' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>unchanged — there is no way to edit a string in place</text>
+<text x='560' y='321' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>still the same object</text>
+<text x='560' y='401' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>a brand-new string object</text>
+<text x='480' y='500' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Any 'change' to an immutable is really a new object plus a rebinding</text>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>EMF, Terminal Voltage and Internal Resistance</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>The cell itself eats some voltage: V = ε − I r</text>
+<line x1='200' y1='480' x2='200' y2='560' stroke='#334155' stroke-width='2.2' fill='none'/>
+<line x1='200' y1='560' x2='760' y2='560' stroke='#334155' stroke-width='2.2' fill='none'/>
+<line x1='760' y1='560' x2='760' y2='489' stroke='#334155' stroke-width='2.2'/>
+<polygon points='760,480 755.5,489 764.5,489' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='760' y1='300' x2='760' y2='220' stroke='#334155' stroke-width='2.2' fill='none'/>
+<line x1='760' y1='220' x2='480' y2='220' stroke='#334155' stroke-width='2.2' fill='none'/>
+<line x1='480' y1='220' x2='480' y2='271' stroke='#334155' stroke-width='2.2'/>
+<polygon points='480,280 484.5,271 475.5,271' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='480' y1='400' x2='480' y2='480' stroke='#334155' stroke-width='2.2' fill='none'/>
+<line x1='480' y1='480' x2='209' y2='480' stroke='#334155' stroke-width='2.2'/>
+<polygon points='200,480 209,484.5 209,475.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='430' y1='300' x2='530' y2='300' stroke='#334155' stroke-width='3'/>
+<line x1='450' y1='330' x2='510' y2='330' stroke='#334155' stroke-width='6'/>
+<text x='560' y='300' font-size='11.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>long = +</text>
+<rect x='710' y='300' width='100' height='180' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='2.2'/>
+<text x='760' y='395' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>R (external)</text>
+<rect x='200' y='320' width='90' height='160' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='2' stroke-dasharray='6,4'/>
+<text x='245' y='390' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>cell with</text>
+<text x='245' y='408' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>internal r</text>
+<line x1='600' y1='220' x2='631' y2='220' stroke='#dc2626' stroke-width='2.4'/>
+<polygon points='640,220 631,215.5 631,224.5' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='620' y='205' font-size='14' fill='#dc2626' text-anchor='start' font-weight='700' font-style='normal'>I</text>
+<rect x='120' y='130' width='340' height='70' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='290' y='160.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>ε = EMF: voltage when NO current flows</text>
+<text x='290' y='178.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(open circuit — the 'ideal' voltage)</text>
+<rect x='560' y='130' width='340' height='70' rx='8' fill='#fee2e2' stroke='#dc2626' stroke-width='1.8'/>
+<text x='730' y='160.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>V = ε − I r: voltage at the</text>
+<text x='730' y='178.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>terminals WHILE delivering current</text>
+<text x='480' y='615' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Measure ε with a voltmeter alone (tiny current → V ≈ ε); under load the reading drops by I·r</text>
+<text x='480' y='645' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Charging a battery reverses the sign: V = ε + I r — you push against the EMF</text>
+</svg>

@@ -2,7 +2,7 @@
 
 /**
  * DoodleCardImage — renders a node's exported hand-drawn card PNG
- * (public/doodle_cards/class{N}/{node_id}.png, produced by
+ * (public/doodle_cards/class{N}/{node_id}.webp, produced by
  * frontend/scripts/export_doodle_cards.mjs from authored node content —
  * zero-wrong layering: every string in the image is verbatim node text).
  *
@@ -63,7 +63,7 @@ export default function DoodleCardImage({
     const resolve = (folder: string) => {
       if (cancelled) return;
       setState('loading');
-      setSrc(folder ? `/doodle_cards/class${folder}/${nodeId}.png` : null);
+      setSrc(folder ? `/doodle_cards/class${folder}/${nodeId}.webp` : null);
     };
     const fallback = explicit || prefix;
     if (explicit || !prefix) {
@@ -115,8 +115,8 @@ export default function DoodleCardImage({
         <img
           src={src}
           alt={`Hand-drawn recap card for ${nodeId}`}
-          width={1080}
-          height={1350}
+          width={720}
+          height={900}
           loading="lazy"
           className="w-full h-auto rounded-xl border border-surface-300/30 shadow-lg transition-transform duration-200 group-hover:scale-[1.01]"
         />

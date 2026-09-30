@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>File Handling in Python</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Open → process → close; the `with` block closes even on errors</text>
+<rect x='100' y='150' width='170' height='56' rx='28' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='185' y='183.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>program starts</text>
+<line x1='185' y1='206' x2='185' y2='227' stroke='#334155' stroke-width='2.2'/>
+<polygon points='185,236 189.5,227 180.5,227' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='100' y='236' width='170' height='56' rx='8' fill='#d1fae5' stroke='#334155' stroke-width='2'/>
+<text x='185' y='269.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>open(file, mode)</text>
+<line x1='185' y1='292' x2='185' y2='313' stroke='#334155' stroke-width='2.2'/>
+<polygon points='185,322 189.5,313 180.5,313' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='100' y='322' width='170' height='56' rx='8' fill='#fef3c7' stroke='#334155' stroke-width='2'/>
+<text x='185' y='355.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>read / write</text>
+<line x1='185' y1='378' x2='185' y2='399' stroke='#334155' stroke-width='2.2'/>
+<polygon points='185,408 189.5,399 180.5,399' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='100' y='408' width='170' height='56' rx='8' fill='#fee2e2' stroke='#334155' stroke-width='2'/>
+<text x='185' y='441.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>close()</text>
+<rect x='360' y='150' width='460' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='590' y='185.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>f = open('data.txt', 'r')</text>
+<rect x='360' y='236' width='460' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='590' y='271.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>text = f.read()  ·  f.write(s)</text>
+<rect x='360' y='322' width='460' height='60' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='590' y='357.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>with open('data.txt') as f: ...</text>
+<rect x='360' y='408' width='460' height='60' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='590' y='443.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>f.close()   # releases the file</text>
+<text x='480' y='510' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>A file handle is the OS link between your program and the stored file</text>
+</svg>

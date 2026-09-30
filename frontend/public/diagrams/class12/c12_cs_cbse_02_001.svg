@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Network Topologies — the Four Classic Shapes</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>each shape trades cabling cost against fault tolerance</text>
+<rect x='60' y='78' width='400' height='250' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='260' y='104' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Bus</text>
+<line x1='110' y1='218' x2='410' y2='218' stroke='#334155' stroke-width='3'/>
+<line x1='150' y1='194' x2='150' y2='218' stroke='#334155' stroke-width='1.8'/>
+<rect x='124' y='166' width='52' height='28' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='222' y1='194' x2='222' y2='218' stroke='#334155' stroke-width='1.8'/>
+<rect x='196' y='166' width='52' height='28' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='294' y1='194' x2='294' y2='218' stroke='#334155' stroke-width='1.8'/>
+<rect x='268' y='166' width='52' height='28' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='366' y1='194' x2='366' y2='218' stroke='#334155' stroke-width='1.8'/>
+<rect x='340' y='166' width='52' height='28' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='505' y='78' width='400' height='250' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='705' y='104' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Star</text>
+<line x1='705' y1='208' x2='705' y2='136' stroke='#334155' stroke-width='1.8'/>
+<rect x='681' y='121' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='705' y1='208' x2='795.35' y2='185.751' stroke='#334155' stroke-width='1.8'/>
+<rect x='771.35' y='170.751' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='705' y1='208' x2='760.84' y2='266.249' stroke='#334155' stroke-width='1.8'/>
+<rect x='736.84' y='251.249' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='705' y1='208' x2='649.16' y2='266.249' stroke='#334155' stroke-width='1.8'/>
+<rect x='625.16' y='251.249' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<line x1='705' y1='208' x2='614.65' y2='185.751' stroke='#334155' stroke-width='1.8'/>
+<rect x='590.65' y='170.751' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='675' y='190' width='60' height='36' rx='6' fill='#fef3c7' stroke='#d97706' stroke-width='1.6'/>
+<rect x='60' y='356' width='400' height='250' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='260' y='382' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Ring</text>
+<line x1='260' y1='416' x2='364.616' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<line x1='364.616' y1='465.751' x2='324.656' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='324.656' y1='546.249' x2='195.344' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='195.344' y1='546.249' x2='155.384' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<line x1='155.384' y1='465.751' x2='260' y2='416' stroke='#334155' stroke-width='1.8'/>
+<rect x='236' y='401' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='340.616' y='450.751' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='300.656' y='531.249' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='171.344' y='531.249' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='131.384' y='450.751' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='505' y='356' width='400' height='250' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='705' y='382' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Mesh</text>
+<line x1='705' y1='416' x2='809.616' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<line x1='705' y1='416' x2='769.656' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='705' y1='416' x2='640.344' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='705' y1='416' x2='600.384' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<line x1='809.616' y1='465.751' x2='769.656' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='809.616' y1='465.751' x2='640.344' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='809.616' y1='465.751' x2='600.384' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<line x1='769.656' y1='546.249' x2='640.344' y2='546.249' stroke='#334155' stroke-width='1.8'/>
+<line x1='769.656' y1='546.249' x2='600.384' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<line x1='640.344' y1='546.249' x2='600.384' y2='465.751' stroke='#334155' stroke-width='1.8'/>
+<rect x='681' y='401' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='785.616' y='450.751' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='745.656' y='531.249' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='616.344' y='531.249' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<rect x='576.384' y='450.751' width='48' height='30' rx='5' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+</svg>

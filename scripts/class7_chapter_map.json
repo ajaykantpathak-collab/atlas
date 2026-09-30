@@ -1,0 +1,37 @@
+{
+  "_note": "NCERT/CBSE Class 7 Mathematics chapter map. Source: byjus.com/maths/class-7-maths-index/ (full 15-chapter index with subtopics). The catalogue's ungrounded ids are c7m<N> where N is the chapter number, e.g. c7m10.2.1 -> Chapter 10. This is TOPIC-level grounding: it resolves what a concept is about when no dedicated textbook file exists on disk for that class. The relationships themselves are then recovered by content retrieval from the transcripts that DO exist (hemh=class 8, iemh=9, jemh=10) or by fetching chapter text.",
+  "class7": {
+    "1": "Integers",
+    "2": "Fractions and Decimals",
+    "3": "Data Handling",
+    "4": "Simple Equations",
+    "5": "Lines and Angles",
+    "6": "The Triangle and its Properties",
+    "7": "Congruence of Triangles",
+    "8": "Comparing Quantities",
+    "9": "Rational Numbers",
+    "10": "Practical Geometry",
+    "11": "Perimeter and Area",
+    "12": "Algebraic Expressions",
+    "13": "Exponents and Powers",
+    "14": "Symmetry",
+    "15": "Visualising Solid Shapes"
+  },
+  "class7_chapter_titles": {
+    "Integers": ["Recall", "Properties of Addition and Subtraction of Integers", "Multiplication of Integers", "Division of Integers"],
+    "Fractions and Decimals": ["Multiplication of Fractions", "Division of Fractions", "Decimal Numbers", "Multiplication of Decimal Numbers", "Division of Decimal Numbers"],
+    "Data Handling": ["Collecting Data", "Representative Values", "Arithmetic Mean", "Mode", "Median", "Bar Graphs", "Chance and Probability"],
+    "Simple Equations": ["Setting up an Equation", "What Equation is?", "From Solution to Equation", "Applications of Simple Equations"],
+    "Lines and Angles": ["Related Angles", "Pairs of Lines", "Checking for Parallel Lines"],
+    "The Triangle and its Properties": ["Medians of a Triangle", "Altitudes", "Exterior Angle of a Triangle", "Angle Sum Property of a Triangle", "Equilateral and Isosceles", "Sum of the Lengths of Two Sides", "Right-angled triangles and Pythagoras Property"],
+    "Congruence of Triangles": ["Congruence of Plane Figures", "Congruence among Line Segments", "Congruence of Angles", "Criteria for Congruence", "Congruence among Right-angled triangles"],
+    "Comparing Quantities": ["Equivalent Ratios", "Percentage", "Use of Percentage", "Prices Related to an Item", "Simple Interest"],
+    "Rational Numbers": ["Rational Numbers on a Number Line", "Standard Form", "Comparison of Rational Numbers", "Operations on Rational Numbers"],
+    "Practical Geometry": ["Construction of a Line Parallel to a Given Line", "Construction of Triangles", "SSS Criterion", "SAS Criterion", "ASA Criterion", "RHS Criterion"],
+    "Perimeter and Area": ["Squares and Rectangles", "Area of a Parallelogram", "Area of a Triangle", "Circles", "Conversion of Units", "Applications"],
+    "Algebraic Expressions": ["How are Expressions Formed?", "Terms of an Expression", "Like and Unlike Terms", "Monomials, Binomials, Trinomials and Polynomials", "Addition and Subtraction of Expressions", "Finding the Value of an Expression", "Formulas and Rules"],
+    "Exponents and Powers": ["Exponents", "Laws of Exponents", "Miscellaneous Examples Using the Laws of Exponents", "Decimal Number System", "Standard Form"],
+    "Symmetry": ["Lines of Symmetry for Regular polygons", "Rotational Symmetry"],
+    "Visualising Solid Shapes": ["Faces, Edges and Vertices", "Nets for Building 3-D Shapes", "Drawing Solids on a Flat Surface", "Viewing Different Sections of a Solid"]
+  }
+}

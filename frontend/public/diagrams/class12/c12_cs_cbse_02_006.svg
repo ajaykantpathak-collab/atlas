@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Network Protocols</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Standardised rules for formatting, transmitting and receiving data</text>
+<rect x='250' y='110' width='460' height='84' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='480' y='146.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Application</text>
+<text x='480' y='170.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>HTTP · FTP · SMTP · DNS — what the data is for</text>
+<rect x='250' y='210' width='460' height='84' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='480' y='246.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Transport</text>
+<text x='480' y='270.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>TCP (reliable, ordered) · UDP (fast, no guarantee)</text>
+<rect x='250' y='310' width='460' height='84' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='480' y='346.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Internet</text>
+<text x='480' y='370.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>IP — addressing and routing packets</text>
+<rect x='250' y='410' width='460' height='84' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='480' y='446.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Network access</text>
+<text x='480' y='470.65' font-size='19' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Ethernet · Wi-Fi — physical delivery of frames</text>
+<line x1='200' y1='480' x2='200' y2='519' stroke='#334155' stroke-width='2.2'/>
+<polygon points='200,528 204.5,519 195.5,519' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='113.2' y='484' width='173.6' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='200' y='498' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>sender: data moves down</text>
+<line x1='760' y1='528' x2='760' y2='489' stroke='#059669' stroke-width='2.2'/>
+<polygon points='760,480 755.5,489 764.5,489' fill='#059669' stroke='#059669' stroke-width='1'/>
+<rect x='673.2' y='484' width='173.6' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='760' y='498' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>receiver: data moves up</text>
+</svg>

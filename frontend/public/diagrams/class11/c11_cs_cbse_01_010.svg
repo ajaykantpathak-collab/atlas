@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Bootstrapping — How a Computer Starts</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Self-starting: from power-on to a ready operating system</text>
+<rect x='140' y='100' width='300' height='58' rx='29' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='290' y='134.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Power-on</text>
+<text x='470' y='135' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>CPU resets, jumps to firmware</text>
+<line x1='290' y1='158' x2='290' y2='175' stroke='#334155' stroke-width='2.2'/>
+<polygon points='290,184 294.5,175 285.5,175' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='140' y='184' width='300' height='58' rx='8' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='290' y='218.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>POST</text>
+<text x='470' y='219' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>Power-On Self-Test checks hardware</text>
+<line x1='290' y1='242' x2='290' y2='259' stroke='#334155' stroke-width='2.2'/>
+<polygon points='290,268 294.5,259 285.5,259' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='140' y='268' width='300' height='58' rx='8' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='290' y='302.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Firmware (BIOS/UEFI)</text>
+<text x='470' y='303' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>finds the boot device</text>
+<line x1='290' y1='326' x2='290' y2='343' stroke='#334155' stroke-width='2.2'/>
+<polygon points='290,352 294.5,343 285.5,343' fill='#334155' stroke='#334155' stroke-width='1'/>
+<path d='M 162.308 352 L 440 352 L 417.692 410 L 140 410 Z' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='290' y='386.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Bootloader loaded</text>
+<text x='470' y='387' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>small program from disk sector 0</text>
+<line x1='290' y1='410' x2='290' y2='427' stroke='#334155' stroke-width='2.2'/>
+<polygon points='290,436 294.5,427 285.5,427' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='140' y='436' width='300' height='58' rx='8' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='290' y='470.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>OS kernel loaded</text>
+<text x='470' y='471' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>kernel takes control of hardware</text>
+<line x1='290' y1='494' x2='290' y2='511' stroke='#334155' stroke-width='2.2'/>
+<polygon points='290,520 294.5,511 285.5,511' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='140' y='520' width='300' height='58' rx='29' fill='#dbeafe' stroke='#334155' stroke-width='2'/>
+<text x='290' y='554.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Login screen</text>
+<text x='470' y='555' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>system ready for the user</text>
+<line x1='290' y1='578' x2='290' y2='595' stroke='#334155' stroke-width='2.2'/>
+<polygon points='290,604 294.5,595 285.5,595' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='720' y='300' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>bootstrap = the system</text>
+<text x='720' y='320' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>pulls itself up by its</text>
+<text x='720' y='340' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>own bootstraps</text>
+</svg>

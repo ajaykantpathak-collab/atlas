@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Ecological Pyramids</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Same taper, three measures — number, biomass, energy</text>
+<rect x='50' y='96' width='280' height='420' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='190' y='124' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Pyramid of NUMBER</text>
+<path d='M 82 480 L 112 408 L 268 408 L 298 480 Z' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='190' y='449' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>P</text>
+<path d='M 112 408 L 142 336 L 238 336 L 268 408 Z' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/>
+<text x='190' y='377' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>H</text>
+<path d='M 142 336 L 168 264 L 212 264 L 238 336 Z' fill='#fef3c7' stroke='#d97706' stroke-width='2'/>
+<text x='190' y='305' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>C1</text>
+<path d='M 168 264 L 185 192 L 195 192 L 212 264 Z' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='190' y='233' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>C2</text>
+<text x='190' y='542' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>grassland: grass &gt;&gt; insects &gt;&gt;</text>
+<text x='190' y='560' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>lizards &gt;&gt; hawks</text>
+<rect x='350' y='96' width='280' height='420' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='490' y='124' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Pyramid of BIOMASS</text>
+<path d='M 382 480 L 412 408 L 568 408 L 598 480 Z' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='490' y='449' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>P</text>
+<path d='M 412 408 L 442 336 L 538 336 L 568 408 Z' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/>
+<text x='490' y='377' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>H</text>
+<path d='M 442 336 L 468 264 L 512 264 L 538 336 Z' fill='#fef3c7' stroke='#d97706' stroke-width='2'/>
+<text x='490' y='305' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>C1</text>
+<path d='M 468 264 L 485 192 L 495 192 L 512 264 Z' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='490' y='233' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>C2</text>
+<text x='490' y='542' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>dry weight of living tissue</text>
+<text x='490' y='560' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>at each level</text>
+<rect x='650' y='96' width='280' height='420' rx='10' fill='white' stroke='#6b7280' stroke-width='1.6'/>
+<text x='790' y='124' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Pyramid of ENERGY</text>
+<path d='M 682 480 L 712 408 L 868 408 L 898 480 Z' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='790' y='449' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>P</text>
+<path d='M 712 408 L 742 336 L 838 336 L 868 408 Z' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/>
+<text x='790' y='377' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>H</text>
+<path d='M 742 336 L 768 264 L 812 264 L 838 336 Z' fill='#fef3c7' stroke='#d97706' stroke-width='2'/>
+<text x='790' y='305' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>C1</text>
+<path d='M 768 264 L 785 192 L 795 192 L 812 264 Z' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='790' y='233' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>C2</text>
+<text x='790' y='542' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>ALWAYS upright — energy is lost</text>
+<text x='790' y='560' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>as heat and never returns</text>
+<text x='480' y='586' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>P = producers · H = herbivores · C1/C2 = carnivores</text>
+<text x='480' y='614' font-size='12.5' fill='#dc2626' text-anchor='middle' font-weight='600' font-style='normal'>Exceptions: inverted NUMBER pyramid (one tree, many birds); inverted BIOMASS pyramid (ocean: phytoplankton &lt; fish)</text>
+</svg>

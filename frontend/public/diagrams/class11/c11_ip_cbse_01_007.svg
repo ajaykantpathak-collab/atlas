@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Storage — Speed vs Capacity</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>secondary storage is non-volatile, large and slower than RAM</text>
+<rect x='415' y='120' width='130' height='62' rx='8' fill='#fee2e2' stroke='#dc2626' stroke-width='1.8'/>
+<text x='480' y='156.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Registers</text>
+<text x='790' y='150' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>inside CPU — fastest</text>
+<rect x='365' y='200' width='230' height='62' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='480' y='236.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Cache (SRAM)</text>
+<text x='790' y='230' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>level 1/2/3</text>
+<rect x='315' y='285' width='330' height='62' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='480' y='321.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Primary memory (RAM/ROM)</text>
+<text x='790' y='315' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>main memory</text>
+<rect x='265' y='375' width='430' height='62' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='480' y='411.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Secondary storage</text>
+<text x='790' y='405' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>SSD · HDD</text>
+<rect x='220' y='462' width='520' height='62' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='480' y='498.425' font-size='15.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Tertiary / cloud backup</text>
+<text x='790' y='492' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>archives</text>
+<text x='140' y='150' font-size='13.5' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>faster,</text>
+<text x='140' y='168' font-size='13.5' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>smaller,</text>
+<text x='140' y='186' font-size='13.5' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>costlier</text>
+<text x='140' y='430' font-size='13.5' fill='#2563eb' text-anchor='start' font-weight='700' font-style='normal'>slower,</text>
+<text x='140' y='448' font-size='13.5' fill='#2563eb' text-anchor='start' font-weight='700' font-style='normal'>bigger,</text>
+<text x='140' y='466' font-size='13.5' fill='#2563eb' text-anchor='start' font-weight='700' font-style='normal'>cheaper</text>
+</svg>

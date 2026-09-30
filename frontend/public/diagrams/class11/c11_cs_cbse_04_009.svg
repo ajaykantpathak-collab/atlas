@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Python Data Types</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>What a value is decides what you can do with it</text>
+<rect x='380' y='90' width='200' height='44' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='480' y='117.6' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Data types</text>
+<rect x='100' y='190' width='200' height='44' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='200' y='217.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Numeric</text>
+<rect x='380' y='190' width='200' height='44' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='480' y='217.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Sequence</text>
+<rect x='660' y='190' width='200' height='44' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='760' y='217.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Mapping / Set</text>
+<line x1='480' y1='134' x2='200' y2='190' stroke='#334155' stroke-width='1.8'/>
+<line x1='480' y1='134' x2='480' y2='190' stroke='#334155' stroke-width='1.8'/>
+<line x1='480' y1='134' x2='760' y2='190' stroke='#334155' stroke-width='1.8'/>
+<text x='110' y='260' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>int → 7</text>
+<text x='110' y='290' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>float → 3.14</text>
+<text x='110' y='320' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>complex → 2+3j</text>
+<text x='390' y='260' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>str → 'atlas'</text>
+<text x='390' y='290' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>list → [1, 2]</text>
+<text x='390' y='320' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>tuple → (1, 2)</text>
+<text x='670' y='260' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>dict → {'a': 1}</text>
+<text x='670' y='290' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>set → {1, 2}</text>
+<text x='120' y='370' font-size='14.5' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>mutable: list, dict, set</text>
+<text x='120' y='398' font-size='14.5' fill='#dc2626' text-anchor='start' font-weight='700' font-style='normal'>immutable: int, float, str, tuple</text>
+<text x='480' y='460' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>type(x) inspects the type — operators must match ('5' + 2 is a TypeError)</text>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Hybridisation: Mixing Orbitals to Fit</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Atomic orbitals of one atom re-mix into equivalent hybrids</text>
+<rect x='80' y='130' width='130' height='84' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='145' y='166.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>sp</text>
+<text x='145' y='188.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>2 groups</text>
+<path d='M 354 196 L 298 189 L 298 203 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<path d='M 354 196 L 422 189 L 422 203 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<circle cx='360' cy='196' r='8' fill='#1e2430' stroke='#334155' stroke-width='1.6'/>
+<text x='560' y='172' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>BeCl2</text>
+<text x='560' y='198' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>linear, 180°</text>
+<rect x='80' y='260' width='130' height='84' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='145' y='296.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>sp²</text>
+<text x='145' y='318.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>3 groups</text>
+<path d='M 354 326 L 298 319 L 298 333 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<path d='M 354 326 L 360 368.6 L 360 382.6 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<path d='M 354 326 L 422 319 L 422 333 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<circle cx='360' cy='326' r='8' fill='#1e2430' stroke='#334155' stroke-width='1.6'/>
+<text x='560' y='302' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>BF3</text>
+<text x='560' y='328' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>trigonal planar, 120°</text>
+<rect x='80' y='390' width='130' height='84' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='145' y='426.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>sp³</text>
+<text x='145' y='448.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>4 groups</text>
+<path d='M 354 456 L 298 449 L 298 463 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<path d='M 354 456 L 329 491.955 L 329 505.955 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<path d='M 354 456 L 391 491.955 L 391 505.955 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<path d='M 354 456 L 422 449 L 422 463 Z' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<circle cx='360' cy='456' r='8' fill='#1e2430' stroke='#334155' stroke-width='1.6'/>
+<text x='560' y='432' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>CH4</text>
+<text x='560' y='458' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>tetrahedral, 109.5°</text>
+<text x='360' y='110' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>hybrid orbitals point where the bonds need to go</text>
+<rect x='680' y='150' width='240' height='220' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='800' y='209.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Count rule:</text>
+<text x='800' y='227.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>hybridisation = σ bonds +</text>
+<text x='800' y='246.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>lone pairs on the atom</text>
+<text x='800' y='264.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='800' y='283.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>CH4: 4 σ → sp³</text>
+<text x='800' y='301.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>NH3: 3 σ + 1 lp → sp³</text>
+<text x='800' y='320.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>H2O: 2 σ + 2 lp → sp³</text>
+<text x='480' y='560' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Same family, different shapes: all sp³ — but lone pairs compress the angles (109.5° → 107° → 104.5°)</text>
+<text x='480' y='592' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>sp in acetylene (C2H2) · sp² in ethene and graphite · sp³ in diamond and methane</text>
+<text x='480' y='622' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Hybridisation is a mathematical mixing MODEL — it explains geometry that plain orbitals cannot</text>
+</svg>

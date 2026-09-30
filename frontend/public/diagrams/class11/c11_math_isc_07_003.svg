@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Pascal's Triangle</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Each number = sum of the two above; row n hides the coefficients of (a + b)ⁿ</text>
+<rect x='458' y='94' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='480' y='116' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='431' y='138' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='453' y='160' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='485' y='138' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='507' y='160' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='404' y='182' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='426' y='204' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='458' y='182' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='480' y='204' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>2</text>
+<rect x='512' y='182' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='534' y='204' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='377' y='226' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='399' y='248' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='431' y='226' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='453' y='248' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>3</text>
+<rect x='485' y='226' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='507' y='248' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>3</text>
+<rect x='539' y='226' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='561' y='248' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='350' y='270' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='372' y='292' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='404' y='270' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='426' y='292' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>4</text>
+<rect x='458' y='270' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='480' y='292' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>6</text>
+<rect x='512' y='270' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='534' y='292' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>4</text>
+<rect x='566' y='270' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='588' y='292' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='323' y='314' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='345' y='336' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='377' y='314' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='399' y='336' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>5</text>
+<rect x='431' y='314' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='453' y='336' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>10</text>
+<rect x='485' y='314' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='507' y='336' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>10</text>
+<rect x='539' y='314' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='561' y='336' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>5</text>
+<rect x='593' y='314' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='615' y='336' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='296' y='358' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='318' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='350' y='358' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='372' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>6</text>
+<rect x='404' y='358' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='426' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>15</text>
+<rect x='458' y='358' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='480' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>20</text>
+<rect x='512' y='358' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='534' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>15</text>
+<rect x='566' y='358' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='588' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>6</text>
+<rect x='620' y='358' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='642' y='380' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='269' y='402' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='291' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<rect x='323' y='402' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='345' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>7</text>
+<rect x='377' y='402' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='399' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>21</text>
+<rect x='431' y='402' width='44' height='32' rx='6' fill='#fee2e2' stroke='#334155' stroke-width='1.6'/>
+<text x='453' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>35</text>
+<rect x='485' y='402' width='44' height='32' rx='6' fill='#fef3c7' stroke='#334155' stroke-width='1.6'/>
+<text x='507' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>35</text>
+<rect x='539' y='402' width='44' height='32' rx='6' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<text x='561' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>21</text>
+<rect x='593' y='402' width='44' height='32' rx='6' fill='#dbeafe' stroke='#334155' stroke-width='1.6'/>
+<text x='615' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>7</text>
+<rect x='647' y='402' width='44' height='32' rx='6' fill='#ede9fe' stroke='#334155' stroke-width='1.6'/>
+<text x='669' y='424' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>1</text>
+<line x1='474' y1='128' x2='459' y2='140' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='474' y1='128' x2='466.028' y2='134.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='459,140 468.839,137.892 463.217,130.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='486' y1='128' x2='501' y2='140' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='486' y1='128' x2='493.972' y2='134.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='501,140 496.783,130.864 491.161,137.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='447' y1='172' x2='432' y2='184' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='447' y1='172' x2='439.028' y2='178.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='432,184 441.839,181.892 436.217,174.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='459' y1='172' x2='474' y2='184' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='459' y1='172' x2='466.972' y2='178.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='474,184 469.783,174.864 464.161,181.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='501' y1='172' x2='486' y2='184' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='501' y1='172' x2='493.028' y2='178.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='486,184 495.839,181.892 490.217,174.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='513' y1='172' x2='528' y2='184' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='513' y1='172' x2='520.972' y2='178.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='528,184 523.783,174.864 518.161,181.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='420' y1='216' x2='405' y2='228' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='420' y1='216' x2='412.028' y2='222.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='405,228 414.839,225.892 409.217,218.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='432' y1='216' x2='447' y2='228' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='432' y1='216' x2='439.972' y2='222.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='447,228 442.783,218.864 437.161,225.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='474' y1='216' x2='459' y2='228' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='474' y1='216' x2='466.028' y2='222.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='459,228 468.839,225.892 463.217,218.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='486' y1='216' x2='501' y2='228' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='486' y1='216' x2='493.972' y2='222.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='501,228 496.783,218.864 491.161,225.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='528' y1='216' x2='513' y2='228' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='528' y1='216' x2='520.028' y2='222.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='513,228 522.839,225.892 517.217,218.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='540' y1='216' x2='555' y2='228' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='540' y1='216' x2='547.972' y2='222.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='555,228 550.783,218.864 545.161,225.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='393' y1='260' x2='378' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='393' y1='260' x2='385.028' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='378,272 387.839,269.892 382.217,262.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='405' y1='260' x2='420' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='405' y1='260' x2='412.972' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='420,272 415.783,262.864 410.161,269.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='447' y1='260' x2='432' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='447' y1='260' x2='439.028' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='432,272 441.839,269.892 436.217,262.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='459' y1='260' x2='474' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='459' y1='260' x2='466.972' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='474,272 469.783,262.864 464.161,269.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='501' y1='260' x2='486' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='501' y1='260' x2='493.028' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='486,272 495.839,269.892 490.217,262.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='513' y1='260' x2='528' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='513' y1='260' x2='520.972' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='528,272 523.783,262.864 518.161,269.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='555' y1='260' x2='540' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='555' y1='260' x2='547.028' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='540,272 549.839,269.892 544.217,262.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='567' y1='260' x2='582' y2='272' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='567' y1='260' x2='574.972' y2='266.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='582,272 577.783,262.864 572.161,269.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='366' y1='304' x2='351' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='366' y1='304' x2='358.028' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='351,316 360.839,313.892 355.217,306.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='378' y1='304' x2='393' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='378' y1='304' x2='385.972' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='393,316 388.783,306.864 383.161,313.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='420' y1='304' x2='405' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='420' y1='304' x2='412.028' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='405,316 414.839,313.892 409.217,306.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='432' y1='304' x2='447' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='432' y1='304' x2='439.972' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='447,316 442.783,306.864 437.161,313.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='474' y1='304' x2='459' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='474' y1='304' x2='466.028' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='459,316 468.839,313.892 463.217,306.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='486' y1='304' x2='501' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='486' y1='304' x2='493.972' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='501,316 496.783,306.864 491.161,313.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='528' y1='304' x2='513' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='528' y1='304' x2='520.028' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='513,316 522.839,313.892 517.217,306.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='540' y1='304' x2='555' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='540' y1='304' x2='547.972' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='555,316 550.783,306.864 545.161,313.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='582' y1='304' x2='567' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='582' y1='304' x2='574.028' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='567,316 576.839,313.892 571.217,306.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='594' y1='304' x2='609' y2='316' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='594' y1='304' x2='601.972' y2='310.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='609,316 604.783,306.864 599.161,313.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='339' y1='348' x2='324' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='339' y1='348' x2='331.028' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='324,360 333.839,357.892 328.217,350.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='351' y1='348' x2='366' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='351' y1='348' x2='358.972' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='366,360 361.783,350.864 356.161,357.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='393' y1='348' x2='378' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='393' y1='348' x2='385.028' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='378,360 387.839,357.892 382.217,350.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='405' y1='348' x2='420' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='405' y1='348' x2='412.972' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='420,360 415.783,350.864 410.161,357.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='447' y1='348' x2='432' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='447' y1='348' x2='439.028' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='432,360 441.839,357.892 436.217,350.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='459' y1='348' x2='474' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='459' y1='348' x2='466.972' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='474,360 469.783,350.864 464.161,357.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='501' y1='348' x2='486' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='501' y1='348' x2='493.028' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='486,360 495.839,357.892 490.217,350.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='513' y1='348' x2='528' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='513' y1='348' x2='520.972' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='528,360 523.783,350.864 518.161,357.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='555' y1='348' x2='540' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='555' y1='348' x2='547.028' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='540,360 549.839,357.892 544.217,350.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='567' y1='348' x2='582' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='567' y1='348' x2='574.972' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='582,360 577.783,350.864 572.161,357.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='609' y1='348' x2='594' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='609' y1='348' x2='601.028' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='594,360 603.839,357.892 598.217,350.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='621' y1='348' x2='636' y2='360' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='621' y1='348' x2='628.972' y2='354.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='636,360 631.783,350.864 626.161,357.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='312' y1='392' x2='297' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='312' y1='392' x2='304.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='297,404 306.839,401.892 301.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='324' y1='392' x2='339' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='324' y1='392' x2='331.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='339,404 334.783,394.864 329.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='366' y1='392' x2='351' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='366' y1='392' x2='358.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='351,404 360.839,401.892 355.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='378' y1='392' x2='393' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='378' y1='392' x2='385.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='393,404 388.783,394.864 383.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='420' y1='392' x2='405' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='420' y1='392' x2='412.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='405,404 414.839,401.892 409.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='432' y1='392' x2='447' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='432' y1='392' x2='439.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='447,404 442.783,394.864 437.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='474' y1='392' x2='459' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='474' y1='392' x2='466.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='459,404 468.839,401.892 463.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='486' y1='392' x2='501' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='486' y1='392' x2='493.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='501,404 496.783,394.864 491.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='528' y1='392' x2='513' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='528' y1='392' x2='520.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='513,404 522.839,401.892 517.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='540' y1='392' x2='555' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='540' y1='392' x2='547.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='555,404 550.783,394.864 545.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='582' y1='392' x2='567' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='582' y1='392' x2='574.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='567,404 576.839,401.892 571.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='594' y1='392' x2='609' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='594' y1='392' x2='601.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='609,404 604.783,394.864 599.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='636' y1='392' x2='621' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='636' y1='392' x2='628.028' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='621,404 630.839,401.892 625.217,394.864' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='648' y1='392' x2='663' y2='404' stroke='#6b7280' stroke-width='1.4' fill='none'/>
+<line x1='648' y1='392' x2='655.972' y2='398.378' stroke='#6b7280' stroke-width='1.4'/>
+<polygon points='663,404 658.783,394.864 653.161,401.892' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<rect x='80' y='140' width='250' height='150' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='205' y='191.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Row 4 (n = 4):</text>
+<text x='205' y='210.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1 4 6 4 1</text>
+<text x='205' y='229.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(a + b)⁴ = a⁴ + 4a³b +</text>
+<text x='205' y='248.4' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>6a²b² + 4ab³ + b⁴</text>
+<rect x='640' y='140' width='260' height='150' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='770' y='183.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Hockey stick:</text>
+<text x='770' y='201.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1+3+6+10 = 20</text>
+<text x='770' y='219.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>diagonals: counting</text>
+<text x='770' y='237.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>numbers, triangular numbers,</text>
+<text x='770' y='255.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Fibonacci (shallow diagonals)</text>
+<text x='480' y='500' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Symmetry: the triangle is mirror-symmetric — C(n,k) = C(n, n−k)</text>
+<text x='480' y='535' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Row sums: 1, 2, 4, 8, 16 ... = 2ⁿ (each entry chosen/passed twice)</text>
+<text x='480' y='570' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Each entry C(n,k) = n!/(k!(n−k)!) counts the ways to pick k things from n</text>
+<text x='480' y='605' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Blaise Pascal published it in 1654 — but Pingala (India), Al-Karaji (Persia) and Yang Hui (China) knew it earlier</text>
+<text x='480' y='640' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Uses: expanding binomials, probability coin flips, combinatorics identity checks</text>
+</svg>

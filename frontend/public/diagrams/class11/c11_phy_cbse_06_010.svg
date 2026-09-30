@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Perpendicular Axis Theorem</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>For a FLAT lamina: Iz = Ix + Iy — the two in-plane axes add up</text>
+<rect x='200' y='220' width='280' height='200' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='2.2'/>
+<text x='340' y='200' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>planar lamina (thin sheet)</text>
+<line x1='340' y1='320' x2='550' y2='320' stroke='#059669' stroke-width='3'/>
+<polygon points='550,320 540.789,323.894 540.789,316.106' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='564' y='310' font-size='13' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>x (in plane)</text>
+<line x1='340' y1='320' x2='340' y2='170' stroke='#d97706' stroke-width='3'/>
+<polygon points='340,170 343.894,179.211 336.106,179.211' fill='#d97706' stroke='#d97706' stroke-width='1'/>
+<text x='354' y='160' font-size='13' fill='#d97706' text-anchor='start' font-weight='700' font-style='normal'>y (in plane)</text>
+<line x1='340' y1='320' x2='340' y2='470' stroke='#7c3aed' stroke-width='3'/>
+<polygon points='340,470 336.106,460.789 343.894,460.789' fill='#7c3aed' stroke='#7c3aed' stroke-width='1'/>
+<circle cx='340' cy='470' r='8' fill='#7c3aed' stroke='#334155' stroke-width='1.6'/>
+<text x='364' y='474' font-size='13' fill='#7c3aed' text-anchor='start' font-weight='normal' font-style='normal'>z (⊥ to plane, through O)</text>
+<rect x='560' y='150' width='340' height='110' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='730' y='179.1' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Iz = Ix + Iy</text>
+<text x='730' y='200.1' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'></text>
+<text x='730' y='221.1' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>only for PLANAR (flat) bodies</text>
+<text x='730' y='242.1' font-size='16' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>with all three axes meeting at one point O</text>
+<rect x='560' y='290' width='340' height='130' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='730' y='322.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Partner theorem (any body):</text>
+<text x='730' y='341.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>parallel axis theorem</text>
+<text x='730' y='359.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>I = I_cm + M d²</text>
+<text x='730' y='378.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>shifts the axis without changing</text>
+<text x='730' y='396.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>the body</text>
+<text x='480' y='545' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Why it works: distance to the z-axis: r² = x² + y² → integrating gives the sum of the two in-plane moments</text>
+<text x='480' y='577' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Quick use: disc about its centre — Ix = Iy = MR²/4, so Iz = MR²/2 (check!)</text>
+<text x='480' y='609' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Moment of inertia = rotational stubbornness: depends on mass AND how far it sits from the axis</text>
+<text x='480' y='638' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>3D bodies need the parallel axis theorem; the perpendicular shortcut is planar-only</text>
+</svg>

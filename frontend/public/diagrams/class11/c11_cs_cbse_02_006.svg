@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>The Commutative Law</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>A + B = B + A   ·   A · B = B · A — swapping the inputs changes nothing</text>
+<line x1='100' y1='175' x2='124' y2='175' stroke='#334155' stroke-width='1.8'/>
+<line x1='100' y1='196' x2='124' y2='196' stroke='#334155' stroke-width='1.8'/>
+<text x='84' y='179' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>A</text>
+<text x='84' y='200' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>B</text>
+<line x1='100' y1='415' x2='124' y2='415' stroke='#334155' stroke-width='1.8'/>
+<line x1='100' y1='436' x2='124' y2='436' stroke='#334155' stroke-width='1.8'/>
+<text x='84' y='419' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>B</text>
+<text x='84' y='440' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>A</text>
+<path d='M 124 160 Q 151.404 160 168.2 185.5 Q 151.404 211 124 211 Q 135.9 185.5 124 160 Z' fill='#dbeafe' stroke='#1e2430' stroke-width='2.4'/>
+<text x='165' y='235' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>OR</text>
+<path d='M 124 400 Q 151.404 400 168.2 425.5 Q 151.404 451 124 451 Q 135.9 425.5 124 400 Z' fill='#dbeafe' stroke='#1e2430' stroke-width='2.4'/>
+<text x='165' y='475' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>OR</text>
+<text x='300' y='190' font-size='30' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>=</text>
+<text x='300' y='430' font-size='30' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>=</text>
+<rect x='360' y='150' width='168' height='126' rx='8' fill='white' stroke='#334155' stroke-width='1.6'/>
+<text x='388' y='171' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>A</text>
+<text x='444' y='171' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>B</text>
+<line x1='416' y1='150' x2='416' y2='276' stroke='#6b7280' stroke-width='1'/>
+<text x='500' y='171' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>A+B</text>
+<line x1='472' y1='150' x2='472' y2='276' stroke='#6b7280' stroke-width='1'/>
+<line x1='360' y1='180' x2='528' y2='180' stroke='#334155' stroke-width='1.8'/>
+<text x='388' y='200' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='444' y='200' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='500' y='200' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='388' y='224' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='444' y='224' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='500' y='224' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='388' y='248' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='444' y='248' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='500' y='248' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='388' y='272' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='444' y='272' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='500' y='272' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<rect x='360' y='390' width='168' height='126' rx='8' fill='white' stroke='#334155' stroke-width='1.6'/>
+<text x='388' y='411' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>B</text>
+<text x='444' y='411' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>A</text>
+<line x1='416' y1='390' x2='416' y2='516' stroke='#6b7280' stroke-width='1'/>
+<text x='500' y='411' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>B+A</text>
+<line x1='472' y1='390' x2='472' y2='516' stroke='#6b7280' stroke-width='1'/>
+<line x1='360' y1='420' x2='528' y2='420' stroke='#334155' stroke-width='1.8'/>
+<text x='388' y='440' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='444' y='440' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='500' y='440' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='388' y='464' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='444' y='464' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='500' y='464' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='388' y='488' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='444' y='488' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>0</text>
+<text x='500' y='488' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='388' y='512' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='444' y='512' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='500' y='512' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1</text>
+<text x='640' y='220' font-size='14' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>columns match →</text>
+<text x='640' y='240' font-size='14' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>identical gates</text>
+<text x='480' y='560' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Same holds for AND (A·B = B·A) — inputs may arrive in either order</text>
+</svg>

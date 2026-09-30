@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Relational Operators in Python</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>comparisons produce Boolean results</text>
+<rect x='140' y='100' width='110' height='52' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='195' y='133.35' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>==</text>
+<text x='280' y='124' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>equal to</text>
+<text x='280' y='144' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>5 == 5 → True</text>
+<rect x='140' y='164' width='110' height='52' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='195' y='197.35' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>!=</text>
+<text x='280' y='188' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>not equal</text>
+<text x='280' y='208' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>3 != 4 → True</text>
+<rect x='140' y='228' width='110' height='52' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='195' y='261.35' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>&gt;</text>
+<text x='280' y='252' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>greater than</text>
+<text x='280' y='272' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>7 &gt; 2 → True</text>
+<rect x='140' y='292' width='110' height='52' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='195' y='325.35' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>&lt;</text>
+<text x='280' y='316' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>less than</text>
+<text x='280' y='336' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>1 &lt; 0 → False</text>
+<rect x='140' y='356' width='110' height='52' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='195' y='389.35' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>&gt;=</text>
+<text x='280' y='380' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>greater or equal</text>
+<text x='280' y='400' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>5 &gt;= 5 → True</text>
+<rect x='140' y='420' width='110' height='52' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='195' y='453.35' font-size='21' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>&lt;=</text>
+<text x='280' y='444' font-size='15.5' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>less or equal</text>
+<text x='280' y='464' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>4 &lt;= 3 → False</text>
+<rect x='500' y='130' width='360' height='170' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='680' y='190.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Comparisons chain:</text>
+<text x='680' y='210.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>1 &lt;= x &lt; 10</text>
+<text x='680' y='230.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>works like mathematics —</text>
+<text x='680' y='250.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>both sides must hold</text>
+<text x='480' y='380' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Boolean results combine with and / or / not</text>
+</svg>

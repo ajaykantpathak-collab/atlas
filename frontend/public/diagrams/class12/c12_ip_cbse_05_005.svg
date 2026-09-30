@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>HTTP — Request / Response</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Application protocol: browser asks, server answers, connection closes</text>
+<rect x='110' y='180' width='82.5' height='55' rx='4' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<rect x='140' y='235' width='22.5' height='11.25' rx='8' fill='#6b7280' stroke='none' stroke-width='1.6'/>
+<rect x='125' y='246.25' width='52.5' height='7.5' rx='2' fill='#334155' stroke='none' stroke-width='1.6'/>
+<text x='151.25' y='272.5' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Client
+(browser)</text>
+<rect x='680' y='170' width='72.8' height='20.8' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='693' cy='180.4' r='3.12' fill='#059669' stroke='none' stroke-width='1.6'/>
+<rect x='680' y='196' width='72.8' height='20.8' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='693' cy='206.4' r='3.12' fill='#059669' stroke='none' stroke-width='1.6'/>
+<rect x='680' y='222' width='72.8' height='20.8' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='693' cy='232.4' r='3.12' fill='#059669' stroke='none' stroke-width='1.6'/>
+<text x='716.4' y='263.6' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Web server</text>
+<line x1='205' y1='215' x2='666' y2='215' stroke='#334155' stroke-width='2.2'/>
+<polygon points='675,215 666,210.5 666,219.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='382' y='195' width='116' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='440' y='209' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>1. HTTP request</text>
+<rect x='300' y='238' width='189.2' height='22' rx='11' fill='#dbeafe' stroke='#2563eb' stroke-width='1.2'/>
+<text x='394.6' y='254' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>GET /index.html HTTP/1.1</text>
+<line x1='675' y1='300' x2='214' y2='300' stroke='#059669' stroke-width='2.2'/>
+<polygon points='205,300 214,304.5 214,295.5' fill='#059669' stroke='#059669' stroke-width='1'/>
+<rect x='378.4' y='280' width='123.2' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='440' y='294' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>2. HTTP response</text>
+<rect x='295' y='322' width='174.6' height='22' rx='11' fill='#d1fae5' stroke='#059669' stroke-width='1.2'/>
+<text x='382.3' y='338' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>200 OK + HTML document</text>
+<text x='480' y='420' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>3. Browser renders the page</text>
+<text x='480' y='460' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>4. Images/CSS trigger more requests</text>
+<text x='480' y='500' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Stateless: each request is independent</text>
+</svg>

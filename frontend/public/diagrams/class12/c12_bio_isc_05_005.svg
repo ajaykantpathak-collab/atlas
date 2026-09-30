@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>The Lac Operon: An Inducible Switch</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Lactose present → genes switch ON · lactose absent → OFF</text>
+<rect x='80' y='200' width='800' height='46' rx='8' fill='#f3f4f6' stroke='#334155' stroke-width='2'/>
+<rect x='110' y='206' width='120' height='34' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='170' y='227.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>P = promoter</text>
+<rect x='240' y='206' width='110' height='34' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='295' y='227.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>O = operator</text>
+<rect x='360' y='206' width='110' height='34' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='415' y='227.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Z gene</text>
+<rect x='480' y='206' width='100' height='34' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='530' y='227.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Y gene</text>
+<rect x='590' y='206' width='100' height='34' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='640' y='227.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>A gene</text>
+<text x='760' y='228' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>regulation from outside</text>
+<rect x='255' y='120' width='80' height='56' rx='8' fill='#fee2e2' stroke='#dc2626' stroke-width='1.8'/>
+<text x='295' y='143.7' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>repressor</text>
+<text x='295' y='160.7' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>protein</text>
+<line x1='295' y1='178' x2='295' y2='193' stroke='#dc2626' stroke-width='2.6'/>
+<polygon points='295,202 299.5,193 290.5,193' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='360' y='148' font-size='13.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>OFF state: repressor sits on operator,</text>
+<text x='360' y='168' font-size='13.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>RNA polymerase at P cannot pass → no enzymes</text>
+<rect x='80' y='320' width='220' height='54' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='190' y='342.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>lactose (inducer)</text>
+<text x='190' y='360.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>arrives in medium</text>
+<line x1='190' y1='316' x2='279.846' y2='187.378' stroke='#d97706' stroke-width='2.6'/>
+<polygon points='285,180 276.157,184.801 283.535,189.955' fill='#d97706' stroke='#d97706' stroke-width='1'/>
+<rect x='209.5' y='230' width='116' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='267.5' y='244' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>binds repressor</text>
+<rect x='80' y='420' width='220' height='52' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='190' y='441.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>repressor released</text>
+<text x='190' y='459.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>operator clear</text>
+<line x1='165' y1='416' x2='165' y2='261' stroke='#059669' stroke-width='2.2' stroke-dasharray='6,5'/>
+<polygon points='165,252 160.5,261 169.5,261' fill='#059669' stroke='#059669' stroke-width='1'/>
+<line x1='302' y1='200' x2='302' y2='168' stroke='#059669' stroke-width='2.6' fill='none'/>
+<line x1='302' y1='168' x2='391' y2='168' stroke='#059669' stroke-width='2.6'/>
+<polygon points='400,168 391,163.5 391,172.5' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='430' y='300' font-size='14' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>ON: RNA polymerase moves P → Z Y A</text>
+<text x='430' y='324' font-size='14' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>one polycistronic mRNA → 3 enzymes:</text>
+<rect x='430' y='340' width='300' height='92' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='580' y='372.875' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>β-galactosidase (Z): lactose → glucose + galactose</text>
+<text x='580' y='390.375' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>permease (Y): pulls lactose into the cell</text>
+<text x='580' y='407.875' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>transacetylase (A): detox side-step</text>
+<text x='480' y='480' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Regulation logic: make digestive enzymes only when their food exists — saves energy</text>
+<text x='480' y='530' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Negative control (repressor blocks) · inducer lactose is 'switch substrate', not a nutrient signal</text>
+<text x='480' y='580' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Low glucose also helps: high cAMP + CRP boosts promoter (positive control layer)</text>
+</svg>

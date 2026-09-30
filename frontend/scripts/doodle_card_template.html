@@ -396,13 +396,14 @@ function renderDoodleCard(data) {
     inner.appendChild(rem);
   }
 
-  /* footer */
+  /* footer — no node id here: ids are internal-only and this PNG is a
+     student-facing surface (cisce wave scrub; CBSE PNGs exported before
+     this fix keep the id until their next re-export) */
   var foot = el('footer', 'dc-footer');
   var chip = el('span', 'dc-chip');
   chip.appendChild(el('span', 'dc-chip-dot'));
   chip.appendChild(document.createTextNode('Class ' + data.classLevel + ' \u00B7 ' + data.subject));
   foot.appendChild(chip);
-  foot.appendChild(el('span', 'dc-node-id', data.node_id || ''));
   inner.appendChild(foot);
 
   var spiral = svgEl('0 0 46 46', 'dc-corner-spiral', SVG.spiral);

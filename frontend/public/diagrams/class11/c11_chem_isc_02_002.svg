@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Rutherford's α-Scattering Experiment</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Firing bullets at tissue paper — and some bounced back</text>
+<rect x='80' y='290' width='110' height='50' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='135' y='310.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>α source</text>
+<text x='135' y='328.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(radium)</text>
+<rect x='400' y='200' width='12' height='240' rx='8' fill='#f5d76e' stroke='#b7950b' stroke-width='2'/>
+<text x='406' y='470' font-size='12.5' fill='#7d6608' text-anchor='middle' font-weight='normal' font-style='normal'>gold foil (~100 nm)</text>
+<line x1='195' y1='320' x2='386' y2='320' stroke='#dc2626' stroke-width='2.6'/>
+<polygon points='395,320 386,315.5 386,324.5' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='280' y='302' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>most pass STRAIGHT</text>
+<line x1='406' y1='320' x2='560' y2='250' stroke='#d97706' stroke-width='2.2' fill='none'/>
+<line x1='560' y1='250' x2='691.728' y2='193.545' stroke='#d97706' stroke-width='2.2'/>
+<polygon points='700,190 689.955,189.409 693.5,197.681' fill='#d97706' stroke='#d97706' stroke-width='1'/>
+<text x='600' y='235' font-size='12.5' fill='#d97706' text-anchor='start' font-weight='normal' font-style='normal'>small deflections (few)</text>
+<line x1='406' y1='320' x2='540' y2='420' stroke='#dc2626' stroke-width='2.2' fill='none'/>
+<line x1='540' y1='420' x2='642.721' y2='494.706' stroke='#dc2626' stroke-width='2.2'/>
+<polygon points='650,500 645.368,491.067 640.075,498.346' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='600' y='470' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='600' font-style='normal'>~1 in 8000 bounces BACK</text>
+<circle cx='790' cy='300' r='90' fill='none' stroke='#6b7280' stroke-width='1.6'/>
+<circle cx='790' cy='300' r='12' fill='#7c3aed' stroke='#1e2430' stroke-width='1.6'/>
+<text x='790' y='415' font-size='11.5' fill='#7c3aed' text-anchor='middle' font-weight='600' font-style='normal'>nucleus: tiny, dense, +</text>
+<circle cx='830' cy='250' r='5' fill='#2563eb' stroke='#1e2430' stroke-width='1'/>
+<text x='790' y='175' font-size='11.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>atom mostly EMPTY space</text>
+<rect x='120' y='520' width='720' height='70' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='480' y='550.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Conclusions: atom is mostly empty (1) · all + charge and mass sit in a tiny nucleus (2)</text>
+<text x='480' y='568.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>· electrons orbit outside (3); nuclear radius ~10⁻¹⁵ m vs atomic ~10⁻¹⁰ m (100,000× smaller)</text>
+<text x='480' y='630' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Unexplained then: why don't orbiting electrons spiral in? (Bohr answered with quantised orbits; quantum mechanics with orbitals)</text>
+</svg>

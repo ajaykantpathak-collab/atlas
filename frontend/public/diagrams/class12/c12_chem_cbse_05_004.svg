@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Geometrical Isomerism: cis vs trans</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Same bonds, different SPATIAL arrangement — restricted rotation locks them in place</text>
+<text x='255' y='120' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>cis (same side)</text>
+<circle cx='195' cy='260' r='30' fill='#f3f4f6' stroke='#6b7280' stroke-width='2'/>
+<text x='195' y='265.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>C</text>
+<circle cx='315' cy='260' r='30' fill='#f3f4f6' stroke='#6b7280' stroke-width='2'/>
+<text x='315' y='265.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>C</text>
+<rect x='237' y='255' width='36' height='10' rx='8' fill='#334155' stroke='none' stroke-width='1.6'/>
+<circle cx='195' cy='180' r='24' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='195' y='184.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Cl</text>
+<line x1='207' y1='248' x2='203' y2='202' stroke='#334155' stroke-width='2.4'/>
+<circle cx='195' cy='340' r='22' fill='white' stroke='#6b7280' stroke-width='2'/>
+<text x='195' y='344.2' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>H</text>
+<line x1='207' y1='272' x2='203' y2='318' stroke='#334155' stroke-width='2.4'/>
+<circle cx='315' cy='180' r='24' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='315' y='184.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Cl</text>
+<line x1='303' y1='248' x2='307' y2='202' stroke='#334155' stroke-width='2.4'/>
+<circle cx='315' cy='340' r='22' fill='white' stroke='#6b7280' stroke-width='2'/>
+<text x='315' y='344.2' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>H</text>
+<line x1='303' y1='272' x2='307' y2='318' stroke='#334155' stroke-width='2.4'/>
+<text x='255' y='400' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>cis-1,2-dichloroethene</text>
+<text x='255' y='420' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>polar → higher b.p.</text>
+<text x='705' y='120' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>trans (opposite sides)</text>
+<circle cx='645' cy='260' r='30' fill='#f3f4f6' stroke='#6b7280' stroke-width='2'/>
+<text x='645' y='265.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>C</text>
+<circle cx='765' cy='260' r='30' fill='#f3f4f6' stroke='#6b7280' stroke-width='2'/>
+<text x='765' y='265.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>C</text>
+<rect x='687' y='255' width='36' height='10' rx='8' fill='#334155' stroke='none' stroke-width='1.6'/>
+<circle cx='645' cy='180' r='24' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='645' y='184.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Cl</text>
+<line x1='657' y1='248' x2='653' y2='202' stroke='#334155' stroke-width='2.4'/>
+<circle cx='645' cy='340' r='22' fill='white' stroke='#6b7280' stroke-width='2'/>
+<text x='645' y='344.2' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>H</text>
+<line x1='657' y1='272' x2='653' y2='318' stroke='#334155' stroke-width='2.4'/>
+<circle cx='765' cy='180' r='24' fill='#d1fae5' stroke='#059669' stroke-width='2'/>
+<text x='765' y='184.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Cl</text>
+<line x1='753' y1='248' x2='757' y2='202' stroke='#334155' stroke-width='2.4'/>
+<circle cx='765' cy='340' r='22' fill='white' stroke='#6b7280' stroke-width='2'/>
+<text x='765' y='344.2' font-size='12' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>H</text>
+<line x1='753' y1='272' x2='757' y2='318' stroke='#334155' stroke-width='2.4'/>
+<text x='705' y='400' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>trans-1,2-dichloroethene</text>
+<text x='705' y='420' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>dipoles cancel → non-polar</text>
+<text x='480' y='180' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>C=C double bond cannot rotate at room temperature — that rigidity creates the two lock-ins</text>
+<rect x='150' y='460' width='320' height='90' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='310' y='491.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Requirement: each sp² carbon carries</text>
+<text x='310' y='509.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>TWO DIFFERENT groups (here H and Cl) —</text>
+<text x='310' y='527.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>otherwise no cis/trans possible</text>
+<rect x='510' y='460' width='300' height='90' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='660' y='482.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Also seen in:</text>
+<text x='660' y='500.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>rings (cyclopropane)</text>
+<text x='660' y='518.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>and coordination complexes</text>
+<text x='660' y='536.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>(cis-platin!)</text>
+<text x='480' y='590' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>They are stereoisomers: identical connectivity, different geometry — separate compounds with different properties</text>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Torque: The Turning Effect of Force</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>τ = r F sinθ — same force, longer arm, stronger twist</text>
+<circle cx='300' cy='330' r='26' fill='#f3f4f6' stroke='#334155' stroke-width='2.4'/>
+<text x='300' y='335' font-size='11' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>bolt</text>
+<rect x='300' y='316' width='300' height='28' rx='8' fill='#d1a054' stroke='#334155' stroke-width='1.6'/>
+<text x='450' y='304' font-size='13' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>spanner (r along the handle)</text>
+<line x1='620' y1='240' x2='680' y2='160' stroke='#dc2626' stroke-width='3'/>
+<polygon points='680,160 677.589,169.705 671.358,165.032' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='694' y='150' font-size='14' fill='#dc2626' text-anchor='start' font-weight='700' font-style='normal'>F</text>
+<line x1='300' y1='330' x2='620' y2='330' stroke='#2563eb' stroke-width='2' stroke-dasharray='6,5'/>
+<text x='470' y='356' font-size='13' fill='#2563eb' text-anchor='start' font-weight='normal' font-style='normal'>r (perpendicular lever arm)</text>
+<line x1='300' y1='330' x2='620' y2='240' stroke='#6b7280' stroke-width='1.4' stroke-dasharray='4,4'/>
+<text x='470' y='300' font-size='14' fill='#7c3aed' text-anchor='start' font-weight='700' font-style='normal'>θ</text>
+<line x1='620' y1='240' x2='620' y2='330' stroke='#dc2626' stroke-width='1.6' stroke-dasharray='3,3'/>
+<text x='628' y='352' font-size='12.5' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>r sinθ</text>
+<rect x='100' y='450' width='380' height='130' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='290' y='482.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Maximum torque:</text>
+<text x='290' y='501.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>F ⊥ r (θ = 90°) — push at the</text>
+<text x='290' y='519.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>END of the handle, straight across</text>
+<text x='290' y='538.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>τ = 0 when F passes through the</text>
+<text x='290' y='556.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>pivot (θ = 0)</text>
+<rect x='520' y='450' width='380' height='130' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='710' y='482.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Sign &amp; units:</text>
+<text x='710' y='501.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>anticlockwise τ positive</text>
+<text x='710' y='519.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>SI unit: N·m (NOT joule —</text>
+<text x='710' y='538.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>different quantity!)</text>
+<text x='710' y='556.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>door rule: handle far from hinges</text>
+<text x='480' y='620' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Rotational Newton: τ_net = I α — torque does for spins what force does for slides</text>
+<text x='480' y='648' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Equilibrium of bodies: ΣF = 0 AND Στ = 0 — why a ladder problem needs BOTH equations</text>
+</svg>

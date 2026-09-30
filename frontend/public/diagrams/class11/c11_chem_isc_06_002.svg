@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Le Chatelier's Principle</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Disturb an equilibrium and it shifts to OPPOSE the change</text>
+<rect x='340' y='140' width='280' height='80' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='480' y='175.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>N2(g) + 3H2(g) ⇌ 2NH3(g)</text>
+<text x='480' y='195.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Haber process, ΔH = −92 kJ</text>
+<rect x='140' y='270' width='123.5' height='22' rx='11' fill='white' stroke='#059669' stroke-width='1.2'/>
+<text x='201.75' y='286' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>↑ concentration</text>
+<line x1='320' y1='281' x2='411' y2='281' stroke='#059669' stroke-width='2.4'/>
+<polygon points='420,281 411,276.5 411,285.5' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='440' y='286' font-size='13.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>add reactant → shifts FORWARD (uses it up)</text>
+<rect x='140' y='330' width='87' height='22' rx='11' fill='white' stroke='#7c3aed' stroke-width='1.2'/>
+<text x='183.5' y='346' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>↑ pressure</text>
+<line x1='320' y1='341' x2='411' y2='341' stroke='#7c3aed' stroke-width='2.4'/>
+<polygon points='420,341 411,336.5 411,345.5' fill='#7c3aed' stroke='#7c3aed' stroke-width='1'/>
+<text x='440' y='346' font-size='13.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>shifts to the FEWER gas moles side (4 → 2): forward</text>
+<rect x='140' y='390' width='108.9' height='22' rx='11' fill='white' stroke='#dc2626' stroke-width='1.2'/>
+<text x='194.45' y='406' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>↑ temperature</text>
+<line x1='320' y1='401' x2='411' y2='401' stroke='#dc2626' stroke-width='2.4'/>
+<polygon points='420,401 411,396.5 411,405.5' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<text x='440' y='406' font-size='13.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>exothermic reaction shifts BACKWARD (heat is a 'product')</text>
+<rect x='140' y='450' width='72.4' height='22' rx='11' fill='white' stroke='#6b7280' stroke-width='1.2'/>
+<text x='176.2' y='466' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>catalyst</text>
+<line x1='320' y1='461' x2='411' y2='461' stroke='#6b7280' stroke-width='2.4'/>
+<polygon points='420,461 411,456.5 411,465.5' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<text x='440' y='466' font-size='13.5' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>NO shift — speeds BOTH directions equally</text>
+<rect x='620' y='270' width='300' height='160' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='770' y='318.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Industrial payoff:</text>
+<text x='770' y='336.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>compromise conditions ~450 °C,</text>
+<text x='770' y='354.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>200 atm, Fe catalyst — high pressure</text>
+<text x='770' y='372.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>pushes yield up, moderate temperature</text>
+<text x='770' y='390.55' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>keeps the rate usable</text>
+<text x='480' y='570' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>The system never cancels the disturbance — it only reduces it: new equilibrium, partially opposed</text>
+<text x='480' y='600' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Quick predictions: which way for removing NH3 continuously? (forward — that's why liquefying NH3 helps)</text>
+<text x='480' y='628' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Inert gas at constant volume: no shift (partial pressures unchanged)</text>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Covalent Bond Parameters</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Length, angle, energy — three numbers that describe every molecule</text>
+<circle cx='330' cy='260' r='44' fill='#fee2e2' stroke='#dc2626' stroke-width='2'/>
+<text x='330' y='266.3' font-size='18' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>O</text>
+<circle cx='225' cy='180' r='30' fill='#f3f4f6' stroke='#6b7280' stroke-width='2'/>
+<text x='225' y='185.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>H</text>
+<circle cx='435' cy='180' r='30' fill='#f3f4f6' stroke='#6b7280' stroke-width='2'/>
+<text x='435' y='185.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>H</text>
+<line x1='300' y1='238' x2='248' y2='200' stroke='#334155' stroke-width='3'/>
+<line x1='360' y1='238' x2='412' y2='200' stroke='#334155' stroke-width='3'/>
+<text x='225' y='150' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>bond length</text>
+<text x='225' y='132' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>(O–H ≈ 96 pm)</text>
+<text x='330' y='194' font-size='14' fill='#7c3aed' text-anchor='middle' font-weight='700' font-style='normal'>104.5°</text>
+<text x='480' y='300' font-size='13' fill='#7c3aed' text-anchor='start' font-weight='600' font-style='normal'>bond ANGLE</text>
+<text x='480' y='320' font-size='12' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>shape of the molecule</text>
+<line x1='560' y1='160' x2='620' y2='300' stroke='#6b7280' stroke-width='2' fill='none'/>
+<line x1='620' y1='300' x2='700' y2='180' stroke='#6b7280' stroke-width='2' fill='none'/>
+<line x1='700' y1='180' x2='780' y2='300' stroke='#6b7280' stroke-width='2' fill='none'/>
+<line x1='780' y1='300' x2='836.455' y2='168.272' stroke='#6b7280' stroke-width='2'/>
+<polygon points='840,160 832.319,166.5 840.591,170.045' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<text x='660' y='165' font-size='12.5' fill='#059669' text-anchor='middle' font-weight='normal' font-style='normal'>energy minimum =</text>
+<text x='660' y='182' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>most stable distance</text>
+<text x='700' y='330' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>bond ENTHALPY: depth of the well</text>
+<text x='700' y='348' font-size='12' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>(O–H ≈ 463 kJ/mol)</text>
+<rect x='120' y='420' width='350' height='120' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='295' y='456.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Trends:</text>
+<text x='295' y='475.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>more bonds = shorter + stronger</text>
+<text x='295' y='493.975' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>C–C (154 pm) &gt; C=C (134) &gt; C≡C (120)</text>
+<text x='295' y='512.475' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>bigger atoms = longer bonds</text>
+<rect x='510' y='420' width='330' height='120' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='675' y='466.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Angle logic (VSEPR):</text>
+<text x='675' y='484.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>electron pairs repel — lone</text>
+<text x='675' y='503.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>pairs squeeze hardest, so H2O's 109.5° tetrahedral angle closes to 104.5°</text>
+<text x='480' y='590' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Together these parameters decide molecular shape, polarity and reactivity</text>
+</svg>

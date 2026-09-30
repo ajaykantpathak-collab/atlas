@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Human Capital and Growth: A Virtuous Loop</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Invest in people → higher output → more to reinvest</text>
+<rect x='140' y='150' width='260' height='100' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='270' y='185.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>EDUCATION &amp; HEALTH</text>
+<text x='270' y='204.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>spending on schooling,</text>
+<text x='270' y='223.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>skilling, nutrition</text>
+<rect x='560' y='150' width='260' height='100' rx='8' fill='#ede9fe' stroke='#7c3aed' stroke-width='1.8'/>
+<text x='690' y='185.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>HUMAN CAPITAL ↑</text>
+<text x='690' y='204.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>skilled, healthy,</text>
+<text x='690' y='223.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>productive workforce</text>
+<rect x='560' y='400' width='260' height='100' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='690' y='435.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>HIGHER PRODUCTIVITY</text>
+<text x='690' y='454.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>more output per</text>
+<text x='690' y='473.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>worker; higher incomes</text>
+<rect x='140' y='400' width='260' height='100' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='270' y='435.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>MORE RESOURCES</text>
+<text x='270' y='454.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>tax revenue + household</text>
+<text x='270' y='473.9' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>savings to reinvest</text>
+<line x1='400' y1='200' x2='547' y2='200' stroke='#334155' stroke-width='3'/>
+<polygon points='556,200 547,195.5 547,204.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='690' y1='254' x2='690' y2='387' stroke='#334155' stroke-width='3'/>
+<polygon points='690,396 694.5,387 685.5,387' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='556' y1='450' x2='404' y2='450' stroke='#334155' stroke-width='3' fill='none'/>
+<line x1='556' y1='450' x2='413' y2='450' stroke='#334155' stroke-width='3'/>
+<polygon points='404,450 413,454.5 413,445.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='270' y1='396' x2='270' y2='263' stroke='#334155' stroke-width='3'/>
+<polygon points='270,254 265.5,263 274.5,263' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='480' y='185' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>quality of people = capital</text>
+<text x='725' y='330' font-size='12.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>earnings effect</text>
+<text x='480' y='435' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>reinvestment</text>
+<text x='245' y='330' font-size='12.5' fill='#6b7280' text-anchor='end' font-weight='normal' font-style='normal'>next generation</text>
+<text x='480' y='545' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Sources of human capital formation: education · health · on-the-job training · migration (with its cost) · information</text>
+<text x='480' y='578' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Human capital vs physical capital: both raise output, but skills cannot be separated from the person</text>
+<text x='480' y='611' font-size='13.5' fill='#dc2626' text-anchor='middle' font-weight='600' font-style='normal'>The flip side: the vicious cycle — poor families can't invest in education → low earnings → still poor</text>
+<text x='480' y='643' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>That is WHY governments fund public education and health — the market alone under-invests</text>
+</svg>

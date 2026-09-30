@@ -1,0 +1,13 @@
+{
+  "scenario": "browse",
+  "connections": 50,
+  "duration": 30,
+  "requests": 2012,
+  "errors": 0,
+  "timeouts": 0,
+  "non2xx": 0,
+  "p50_ms": 816,
+  "p95_ms": null,
+  "p99_ms": 2005,
+  "rps_avg": 67
+}

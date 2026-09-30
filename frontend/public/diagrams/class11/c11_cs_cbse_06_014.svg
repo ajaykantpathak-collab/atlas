@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Aliasing — Two Names, One List</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Assignment copies the reference, not the list</text>
+<text x='130' y='130' font-size='17' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>a = [1, 2, 3]</text>
+<text x='130' y='160' font-size='17' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>b = a        # alias!</text>
+<rect x='110' y='190' width='80' height='44' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='150' y='217.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>a</text>
+<rect x='110' y='260' width='80' height='44' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.8'/>
+<text x='150' y='287.95' font-size='17' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>b</text>
+<rect x='330' y='190' width='260' height='114' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='460' y='242.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>one list object</text>
+<text x='460' y='262.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>[1, 2, 3]</text>
+<line x1='190' y1='212' x2='321.045' y2='225.104' stroke='#334155' stroke-width='2.2'/>
+<polygon points='330,226 321.492,220.627 320.597,229.582' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='190' y1='282' x2='321.045' y2='268.896' stroke='#334155' stroke-width='2.2'/>
+<polygon points='330,268 320.597,264.418 321.492,273.373' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='130' y='380' font-size='16' fill='#1e2430' text-anchor='start' font-weight='700' font-style='normal'>b[0] = 99    # visible through BOTH names</text>
+<rect x='330' y='360' width='260' height='48' rx='8' fill='#fee2e2' stroke='#dc2626' stroke-width='1.8'/>
+<text x='460' y='389.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>[99, 2, 3]</text>
+<text x='640' y='214' font-size='14' fill='#dc2626' text-anchor='start' font-weight='600' font-style='normal'>print(a) → [99, 2, 3]</text>
+<text x='480' y='470' font-size='14.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>To get an independent copy:  b = a.copy()  or  b = list(a)  or  b = a[:]</text>
+</svg>

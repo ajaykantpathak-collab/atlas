@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>How Email Travels</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>SMTP to send, POP3/IMAP to receive</text>
+<rect x='100' y='160' width='75.9' height='50.6' rx='4' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<rect x='127.6' y='210.6' width='20.7' height='10.35' rx='8' fill='#6b7280' stroke='none' stroke-width='1.6'/>
+<rect x='113.8' y='220.95' width='48.3' height='6.9' rx='2' fill='#334155' stroke='none' stroke-width='1.6'/>
+<text x='137.95' y='245.1' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Sender</text>
+<rect x='400' y='150' width='61.6' height='17.6' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='411' cy='158.8' r='2.64' fill='#059669' stroke='none' stroke-width='1.6'/>
+<rect x='400' y='172' width='61.6' height='17.6' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='411' cy='180.8' r='2.64' fill='#059669' stroke='none' stroke-width='1.6'/>
+<rect x='400' y='194' width='61.6' height='17.6' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='411' cy='202.8' r='2.64' fill='#059669' stroke='none' stroke-width='1.6'/>
+<text x='430.8' y='229.2' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Mail server
+(sender's)</text>
+<rect x='700' y='150' width='61.6' height='17.6' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='711' cy='158.8' r='2.64' fill='#059669' stroke='none' stroke-width='1.6'/>
+<rect x='700' y='172' width='61.6' height='17.6' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='711' cy='180.8' r='2.64' fill='#059669' stroke='none' stroke-width='1.6'/>
+<rect x='700' y='194' width='61.6' height='17.6' rx='3' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<circle cx='711' cy='202.8' r='2.64' fill='#059669' stroke='none' stroke-width='1.6'/>
+<text x='730.8' y='229.2' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Mail server
+(receiver's)</text>
+<rect x='800' y='420' width='75.9' height='50.6' rx='4' fill='#f3f4f6' stroke='#334155' stroke-width='1.6'/>
+<rect x='827.6' y='470.6' width='20.7' height='10.35' rx='8' fill='#6b7280' stroke='none' stroke-width='1.6'/>
+<rect x='813.8' y='480.95' width='48.3' height='6.9' rx='2' fill='#334155' stroke='none' stroke-width='1.6'/>
+<text x='837.95' y='505.1' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Receiver</text>
+<line x1='196' y1='195' x2='387.003' y2='190.225' stroke='#334155' stroke-width='2.2'/>
+<polygon points='396,190 386.89,185.726 387.115,194.724' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='252.4' y='172.5' width='87.2' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='296' y='186.5' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>SMTP (send)</text>
+<line x1='512' y1='180' x2='687' y2='180' stroke='#334155' stroke-width='2.2'/>
+<polygon points='696,180 687,175.5 687,184.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='556.8' y='160' width='94.4' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='604' y='174' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>SMTP (relay)</text>
+<line x1='756' y1='226' x2='851.808' y2='408.036' stroke='#059669' stroke-width='2.2'/>
+<polygon points='856,416 855.79,405.94 847.826,410.132' fill='#059669' stroke='#059669' stroke-width='1'/>
+<rect x='722.8' y='301' width='166.4' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='806' y='315' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>POP3 / IMAP (retrieve)</text>
+<rect x='150' y='330' width='300' height='108' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='300' y='379.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>POP3 — downloads mail to one</text>
+<text x='300' y='399.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>device, usually deletes from server</text>
+<rect x='480' y='330' width='320' height='108' rx='8' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.8'/>
+<text x='640' y='379.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>IMAP — mail stays on the server,</text>
+<text x='640' y='399.25' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>synced across all your devices</text>
+</svg>

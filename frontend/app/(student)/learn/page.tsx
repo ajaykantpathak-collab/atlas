@@ -15,15 +15,24 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { isNodeDone } from '@/components/learn/ChapterPath'
 import { PlayCircle, RotateCcw, CheckCircle2, Compass } from 'lucide-react'
 
-/** Small doodle thumbnail — hides itself if no card was exported. */
+/** Small doodle thumbnail — hides itself if no card was exported.
+ *  webp-first (corpus standard), legacy png as one-shot fallback so the
+ *  CBSE→webp conversion window keeps thumbs alive. */
 function DoodleThumb({ nodeId }: { nodeId: string }) {
   const [ok, setOk] = useState(false)
+  const [src, setSrc] = useState<string | null>(null)
   const band = nodeId.match(/^c(\d+)_/)?.[1]
-  if (!band) return null
+  useEffect(() => {
+    setSrc(band ? `/doodle_cards/class${band}/${nodeId}.webp` : null)
+  }, [band, nodeId])
+  if (!band || !src) return null
   return (
     // eslint-disable-next-line @next/next/no-img-element
-    <img src={`/doodle_cards/class${band}/${nodeId}.png`} alt=""
-      onLoad={() => setOk(true)} onError={() => setOk(false)}
+    <img src={src} alt=""
+      onLoad={() => setOk(true)} onError={() => {
+        if (src.endsWith('.webp')) setSrc(src.replace(/\.webp$/, '.png'))
+        else setOk(false)
+      }}
       className={`w-14 h-[70px] object-cover rounded-lg border border-white/10 shrink-0 ${ok ? '' : 'hidden'}`} />
   )
 }

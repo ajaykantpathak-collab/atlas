@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>AC Generator: Coil Rotating in a Field</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Flux wobbles → EMF swings sinusoidally: ε = NBAω sin ωt</text>
+<rect x='240' y='200' width='60' height='220' rx='8' fill='#fee2e2' stroke='#dc2626' stroke-width='2.2'/>
+<rect x='620' y='200' width='60' height='220' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='2.2'/>
+<text x='270' y='315' font-size='22' fill='#dc2626' text-anchor='middle' font-weight='700' font-style='normal'>N</text>
+<text x='650' y='315' font-size='22' fill='#2563eb' text-anchor='middle' font-weight='700' font-style='normal'>S</text>
+<line x1='310' y1='240' x2='601' y2='240' stroke='#6b7280' stroke-width='1.6' stroke-dasharray='6,4'/>
+<polygon points='610,240 601,235.5 601,244.5' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='310' y1='300' x2='601' y2='300' stroke='#6b7280' stroke-width='1.6' stroke-dasharray='6,4'/>
+<polygon points='610,300 601,295.5 601,304.5' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<line x1='310' y1='360' x2='601' y2='360' stroke='#6b7280' stroke-width='1.6' stroke-dasharray='6,4'/>
+<polygon points='610,360 601,355.5 601,364.5' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<text x='480' y='230' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>B (uniform, N → S)</text>
+<ellipse cx='480' cy='310' rx='30' ry='110' fill='none' stroke='#d97706' stroke-width='4'/>
+<circle cx='480' cy='310' r='5' fill='#1e2430' stroke='#334155' stroke-width='1.6'/>
+<text x='480' y='445' font-size='12.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>coil (N turns) on shaft</text>
+<path d='M 450 210 A 40 40 0 1 1 445 245' fill='none' stroke='#059669' stroke-width='2'/>
+<polygon points='445,245 448.329,237.726 452.538,242.32' fill='#059669' stroke='#059669' stroke-width='1'/>
+<text x='415' y='195' font-size='15' fill='#059669' text-anchor='start' font-weight='700' font-style='normal'>ω</text>
+<circle cx='480' cy='520' r='12' fill='#f3f4f6' stroke='#334155' stroke-width='2'/>
+<circle cx='480' cy='560' r='12' fill='#f3f4f6' stroke='#334155' stroke-width='2'/>
+<text x='530' y='525' font-size='12' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>slip rings + brushes</text>
+<line x1='620' y1='540' x2='660' y2='540' stroke='#334155' stroke-width='2' fill='none'/>
+<line x1='660' y1='540' x2='660' y2='470' stroke='#334155' stroke-width='2' fill='none'/>
+<line x1='660' y1='470' x2='691' y2='470' stroke='#334155' stroke-width='2'/>
+<polygon points='700,470 691,465.5 691,474.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='660' y1='540' x2='920' y2='540' stroke='#6b7280' stroke-width='1.4'/>
+<line x1='920' y1='540' x2='923' y2='540' stroke='#334155' stroke-width='1.6'/>
+<polygon points='932,540 923,535.5 923,544.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<line x1='680' y1='540' x2='686.667' y2='532.186' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='686.667' y1='532.186' x2='693.333' y2='524.609' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='693.333' y1='524.609' x2='700' y2='517.5' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='700' y1='517.5' x2='706.667' y2='511.075' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='706.667' y1='511.075' x2='713.333' y2='505.528' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='713.333' y1='505.528' x2='720' y2='501.029' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='720' y1='501.029' x2='726.667' y2='497.714' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='726.667' y1='497.714' x2='733.333' y2='495.684' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='733.333' y1='495.684' x2='740' y2='495' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='740' y1='495' x2='746.667' y2='495.684' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='746.667' y1='495.684' x2='753.333' y2='497.714' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='753.333' y1='497.714' x2='760' y2='501.029' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='760' y1='501.029' x2='766.667' y2='505.528' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='766.667' y1='505.528' x2='773.333' y2='511.075' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='773.333' y1='511.075' x2='780' y2='517.5' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='780' y1='517.5' x2='786.667' y2='524.609' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='786.667' y1='524.609' x2='793.333' y2='532.186' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='793.333' y1='532.186' x2='800' y2='540' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='800' y1='540' x2='806.667' y2='547.814' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='806.667' y1='547.814' x2='813.333' y2='555.391' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='813.333' y1='555.391' x2='820' y2='562.5' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='820' y1='562.5' x2='826.667' y2='568.925' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='826.667' y1='568.925' x2='833.333' y2='574.472' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='833.333' y1='574.472' x2='840' y2='578.971' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='840' y1='578.971' x2='846.667' y2='582.286' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='846.667' y1='582.286' x2='853.333' y2='584.316' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='853.333' y1='584.316' x2='860' y2='585' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='860' y1='585' x2='866.667' y2='584.316' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='866.667' y1='584.316' x2='873.333' y2='582.286' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='873.333' y1='582.286' x2='880' y2='578.971' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='880' y1='578.971' x2='886.667' y2='574.472' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='886.667' y1='574.472' x2='893.333' y2='568.925' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='893.333' y1='568.925' x2='900' y2='562.5' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='900' y1='562.5' x2='906.667' y2='555.391' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='906.667' y1='555.391' x2='913.333' y2='547.814' stroke='#dc2626' stroke-width='2.4'/>
+<line x1='913.333' y1='547.814' x2='920' y2='540' stroke='#dc2626' stroke-width='2.4'/>
+<text x='800' y='470' font-size='12' fill='#dc2626' text-anchor='start' font-weight='normal' font-style='normal'>output e.m.f. vs time</text>
+<text x='930' y='545' font-size='12' fill='#1e2430' text-anchor='start' font-weight='normal' font-style='normal'>t</text>
+<text x='480' y='615' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>One full rotation = one full cycle; frequency = rotations per second (India: 50 Hz, 3000 rpm for 2-pole)</text>
+<text x='480' y='645' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Peak EMF ε₀ = NBAω; the rotating coil + stationary contacts is exactly why the output ALTERNATES</text>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Meristematic Tissues</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Where a plant keeps its permanent growth factories — regions of active cell division</text>
+<rect x='452' y='200' width='56' height='300' rx='14' fill='#d1fae5' stroke='#334155' stroke-width='1.6'/>
+<path d='M 480 140 Q 508 170 508 205 L 452 205 Q 452 170 480 140 Z' fill='#ede9fe' stroke='#334155' stroke-width='2.4'/>
+<text x='620' y='170' font-size='16' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>Apical meristem</text>
+<line x1='560' y1='168' x2='513.599' y2='182.342' stroke='#334155' stroke-width='2.2'/>
+<polygon points='505,185 514.928,186.642 512.27,178.043' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='492.5' y='156.5' width='80' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='532.5' y='170.5' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>tip growth</text>
+<text x='620' y='192' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>lengthens shoot / roots</text>
+<rect x='446' y='300' width='68' height='26' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.6'/>
+<path d='M 452 313 Q 420 280 396 256' fill='none' stroke='#334155' stroke-width='3'/>
+<path d='M 396 256 Q 384 238 392 248 Q 404 270 396 256 Z' fill='#d1fae5' stroke='#334155' stroke-width='2'/>
+<rect x='446' y='380' width='68' height='26' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='1.6'/>
+<path d='M 452 393 Q 420 360 396 336' fill='none' stroke='#334155' stroke-width='3'/>
+<path d='M 396 336 Q 384 318 392 328 Q 404 350 396 336 Z' fill='#d1fae5' stroke='#334155' stroke-width='2'/>
+<text x='620' y='300' font-size='16' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>Intercalary meristem</text>
+<line x1='560' y1='300' x2='524.855' y2='306.39' stroke='#334155' stroke-width='2.2'/>
+<polygon points='516,308 525.66,310.817 524.05,301.963' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='505.2' y='284' width='65.6' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='538' y='298' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>at nodes</text>
+<text x='620' y='322' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>regrows grass leaves</text>
+<rect x='440' y='258' width='10' height='236' rx='4' fill='#fee2e2' stroke='#dc2626' stroke-width='1.6'/>
+<rect x='510' y='258' width='10' height='236' rx='4' fill='#fee2e2' stroke='#dc2626' stroke-width='1.6'/>
+<text x='620' y='460' font-size='16' fill='#1e2430' text-anchor='start' font-weight='600' font-style='normal'>Lateral meristem (cambium)</text>
+<line x1='560' y1='455' x2='528.865' y2='449.551' stroke='#334155' stroke-width='2.2'/>
+<polygon points='520,448 528.09,453.984 529.641,445.119' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='518' y='431.5' width='44' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='540' y='445.5' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>sides</text>
+<text x='620' y='482' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='normal' font-style='normal'>adds girth (width)</text>
+<path d='M 452 500 L 508 500 Q 508 545 480 566 Q 452 545 452 500 Z' fill='#ede9fe' stroke='#334155' stroke-width='2.4'/>
+<text x='300' y='552' font-size='15' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Root apical meristem</text>
+<line x1='390' y1='548' x2='439.084' y2='541.23' stroke='#334155' stroke-width='2.2'/>
+<polygon points='448,540 438.47,536.772 439.699,545.688' fill='#334155' stroke='#334155' stroke-width='1'/>
+<text x='300' y='574' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>grows root downward</text>
+<text x='480' y='612' font-size='14.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>All meristem cells: small, thin-walled, dense cytoplasm — they divide again and again, then differentiate</text>
+</svg>

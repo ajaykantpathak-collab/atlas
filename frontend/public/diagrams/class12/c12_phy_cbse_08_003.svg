@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>The Electromagnetic Spectrum</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>One family, one speed (c) — classified only by wavelength/frequency</text>
+<line x1='80' y1='200' x2='891' y2='200' stroke='#334155' stroke-width='2.6'/>
+<polygon points='900,200 891,195.5 891,204.5' fill='#334155' stroke='#334155' stroke-width='1'/>
+<rect x='160' y='215' width='74' height='56' rx='6' fill='white' stroke='#94a3b8' stroke-width='2.2'/>
+<text x='197' y='240' font-size='13' fill='#94a3b8' text-anchor='middle' font-weight='700' font-style='normal'>radio</text>
+<text x='197' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>&gt; 1 m</text>
+<rect x='265' y='215' width='84' height='56' rx='6' fill='white' stroke='#7c3aed' stroke-width='2.2'/>
+<text x='307' y='232' font-size='13' fill='#7c3aed' text-anchor='middle' font-weight='700' font-style='normal'>micro-</text>
+<text x='307' y='249' font-size='13' fill='#7c3aed' text-anchor='middle' font-weight='700' font-style='normal'>waves</text>
+<text x='307' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>1 m – 1 mm</text>
+<rect x='380' y='215' width='94' height='56' rx='6' fill='white' stroke='#dc2626' stroke-width='2.2'/>
+<text x='427' y='240' font-size='13' fill='#dc2626' text-anchor='middle' font-weight='700' font-style='normal'>infrared</text>
+<text x='427' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>1 mm – 700 nm</text>
+<rect x='515' y='215' width='74' height='56' rx='6' fill='white' stroke='#16a34a' stroke-width='2.2'/>
+<text x='552' y='240' font-size='13' fill='#16a34a' text-anchor='middle' font-weight='700' font-style='normal'>VISIBLE</text>
+<text x='552' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>700–400 nm</text>
+<rect x='605' y='215' width='84' height='56' rx='6' fill='white' stroke='#2563eb' stroke-width='2.2'/>
+<text x='647' y='232' font-size='13' fill='#2563eb' text-anchor='middle' font-weight='700' font-style='normal'>ultra-</text>
+<text x='647' y='249' font-size='13' fill='#2563eb' text-anchor='middle' font-weight='700' font-style='normal'>violet</text>
+<text x='647' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>400–1 nm</text>
+<rect x='715' y='215' width='84' height='56' rx='6' fill='white' stroke='#d97706' stroke-width='2.2'/>
+<text x='757' y='240' font-size='13' fill='#d97706' text-anchor='middle' font-weight='700' font-style='normal'>X-rays</text>
+<text x='757' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>&lt; 1 nm</text>
+<rect x='815' y='215' width='84' height='56' rx='6' fill='white' stroke='#be185d' stroke-width='2.2'/>
+<text x='857' y='240' font-size='13' fill='#be185d' text-anchor='middle' font-weight='700' font-style='normal'>gamma</text>
+<text x='857' y='292' font-size='10.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>&lt; 10⁻¹¹ m</text>
+<text x='120' y='172' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='600' font-style='normal'>long λ, low f</text>
+<text x='860' y='172' font-size='13.5' fill='#6b7280' text-anchor='start' font-weight='600' font-style='normal'>short λ, high f</text>
+<rect x='517' y='215' width='13' height='56' rx='8' fill='#dc2626' stroke='none' stroke-width='1.6'/>
+<rect x='530' y='215' width='13' height='56' rx='8' fill='#ea580c' stroke='none' stroke-width='1.6'/>
+<rect x='543' y='215' width='13' height='56' rx='8' fill='#ca8a04' stroke='none' stroke-width='1.6'/>
+<rect x='556' y='215' width='13' height='56' rx='8' fill='#16a34a' stroke='none' stroke-width='1.6'/>
+<rect x='569' y='215' width='13' height='56' rx='8' fill='#2563eb' stroke='none' stroke-width='1.6'/>
+<rect x='582' y='215' width='13' height='56' rx='8' fill='#7c3aed' stroke='none' stroke-width='1.6'/>
+<text x='555' y='320' font-size='11.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>red → violet (increasing f)</text>
+<rect x='100' y='360' width='360' height='170' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='1.8'/>
+<text x='280' y='412.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Memory ladder:</text>
+<text x='280' y='431.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Raging Martians Invaded Venus</text>
+<text x='280' y='449.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>Using X-ray Guns</text>
+<text x='280' y='468.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>radio → micro → IR → visible →</text>
+<text x='280' y='486.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>UV → X → gamma</text>
+<rect x='500' y='360' width='360' height='170' rx='8' fill='#d1fae5' stroke='#059669' stroke-width='1.8'/>
+<text x='680' y='412.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>Uses:</text>
+<text x='680' y='431.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>radio/TV · radar, ovens ·</text>
+<text x='680' y='449.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>remote, night vision · sight, fibre ·</text>
+<text x='680' y='468.225' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>sterilisation, fluorescence ·</text>
+<text x='680' y='486.725' font-size='13.5' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>radiography · cancer therapy</text>
+<text x='480' y='570' font-size='14' fill='#1e2430' text-anchor='middle' font-weight='600' font-style='normal'>All travel at c = 3 × 10⁸ m/s in vacuum: c = fλ — no medium needed (unlike sound)</text>
+<text x='480' y='602' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Produced by accelerating charges: circuits (radio), hot bodies (IR), atomic jumps (visible/UV),</text>
+<text x='480' y='628' font-size='13.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>inner-shell electrons (X-ray), nuclei (gamma)</text>
+<text x='480' y='656' font-size='13' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Human body glows in IR (thermal imaging); the Sun's peak output lands right in our visible window</text>
+</svg>

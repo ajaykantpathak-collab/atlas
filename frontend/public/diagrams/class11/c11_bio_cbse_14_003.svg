@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640' font-family='Segoe UI, Arial, sans-serif'>
+<rect width='960' height='640' fill='white'/>
+<text x='480' y='34' font-size='23' fill='#1e2430' text-anchor='middle' font-weight='700' font-style='normal'>Alveolar Gas Exchange</text>
+<text x='480' y='58' font-size='15' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Diffusion only — gases move down their own partial-pressure gradients</text>
+<path d='M 300 151.6 Q 343.597 167.697 387.194 183.794 Q 411.774 214.611 436.355 245.428 Q 444.494 281.745 452.634 318.063 Q 418.241 350.527 383.848 382.99 Q 341.924 388.967 300 394.943 Q 253.484 383.586 206.967 372.228 Q 187.068 345.675 167.168 319.122 Q 159.643 280.356 152.118 241.59 Q 181.089 215.373 210.061 189.156 Q 255.03 170.378 300 151.6 Z' fill='#dbeafe' stroke='#2563eb' stroke-width='2.6'/>
+<text x='300' y='270' font-size='17' fill='#2563eb' text-anchor='middle' font-weight='700' font-style='normal'>ALVEOLUS</text>
+<text x='300' y='294' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>air sac, one-cell-thick wall</text>
+<rect x='470' y='160' width='60' height='320' rx='30' fill='#fee2e2' stroke='#dc2626' stroke-width='1.6'/>
+<text x='500' y='140' font-size='14' fill='#dc2626' text-anchor='middle' font-weight='600' font-style='normal'>pulmonary capillary</text>
+<line x1='500' y1='470' x2='500' y2='199' stroke='#dc2626' stroke-width='2.5'/>
+<polygon points='500,190 495.5,199 504.5,199' fill='#dc2626' stroke='#dc2626' stroke-width='1'/>
+<rect x='526' y='318' width='80' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='566' y='332' font-size='12.5' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>blood flow</text>
+<path d='M 500 216.35 Q 508.532 219.148 517.065 221.947 Q 518.918 227.35 520.771 232.753 Q 515.397 237.343 510.022 241.934 Q 500.405 242.078 490.789 242.222 Q 484.706 237.514 478.623 232.806 Q 480.372 227.495 482.122 222.184 Q 491.061 219.267 500 216.35 Z' fill='#fecaca' stroke='#dc2626' stroke-width='1.8'/>
+<path d='M 500 296.35 Q 508.532 299.148 517.065 301.947 Q 518.918 307.35 520.771 312.753 Q 515.397 317.343 510.022 321.934 Q 500.405 322.078 490.789 322.222 Q 484.706 317.514 478.623 312.806 Q 480.372 307.495 482.122 302.184 Q 491.061 299.267 500 296.35 Z' fill='#fecaca' stroke='#dc2626' stroke-width='1.8'/>
+<path d='M 500 376.35 Q 508.532 379.148 517.065 381.947 Q 518.918 387.35 520.771 392.753 Q 515.397 397.343 510.022 401.934 Q 500.405 402.078 490.789 402.222 Q 484.706 397.514 478.623 392.806 Q 480.372 387.495 482.122 382.184 Q 491.061 379.267 500 376.35 Z' fill='#fecaca' stroke='#dc2626' stroke-width='1.8'/>
+<line x1='452' y1='240' x2='469' y2='240' stroke='#2563eb' stroke-width='3.4'/>
+<polygon points='478,240 469,235.5 469,244.5' fill='#2563eb' stroke='#2563eb' stroke-width='1'/>
+<rect x='453.8' y='220' width='22.4' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='465' y='234' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>O2</text>
+<line x1='478' y1='350' x2='461' y2='350' stroke='#6b7280' stroke-width='3.4'/>
+<polygon points='452,350 461,354.5 461,345.5' fill='#6b7280' stroke='#6b7280' stroke-width='1'/>
+<rect x='450.2' y='330' width='29.6' height='19' rx='4' fill='white' stroke='none' stroke-width='1.6'/>
+<text x='465' y='344' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='600' font-style='normal'>CO2</text>
+<rect x='120' y='430' width='189.2' height='22' rx='11' fill='#dbeafe' stroke='#6b7280' stroke-width='1.2'/>
+<text x='214.6' y='446' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>alveoli: PO2 ≈ 104 mm Hg</text>
+<rect x='120' y='462' width='233' height='22' rx='11' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.2'/>
+<text x='236.5' y='478' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>blood arriving: PO2 ≈ 40 mm Hg</text>
+<rect x='120' y='494' width='189.2' height='22' rx='11' fill='#d1fae5' stroke='#6b7280' stroke-width='1.2'/>
+<text x='214.6' y='510' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>→ O2 diffuses INTO blood</text>
+<rect x='640' y='430' width='189.2' height='22' rx='11' fill='#f3f4f6' stroke='#6b7280' stroke-width='1.2'/>
+<text x='734.6' y='446' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>alveoli: PCO2 ≈ 40 mm Hg</text>
+<rect x='640' y='462' width='240.3' height='22' rx='11' fill='#fee2e2' stroke='#6b7280' stroke-width='1.2'/>
+<text x='760.15' y='478' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>blood arriving: PCO2 ≈ 45 mm Hg</text>
+<rect x='640' y='494' width='218.4' height='22' rx='11' fill='#d1fae5' stroke='#6b7280' stroke-width='1.2'/>
+<text x='749.2' y='510' font-size='13' fill='#1e2430' text-anchor='middle' font-weight='normal' font-style='normal'>→ CO2 diffuses INTO alveolus</text>
+<text x='480' y='560' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Thickness of the barrier ≈ 0.5 micrometre — short distance, huge surface (~70 m²) = fast exchange</text>
+<text x='480' y='590' font-size='14' fill='#6b7280' text-anchor='middle' font-weight='normal' font-style='normal'>Solubility matters: CO2 diffuses ~20x faster than O2 even with a smaller gradient</text>
+</svg>
