@@ -1,0 +1,12 @@
+{
+ "receipt_id": "rcpt_20261013T153627Z_d18432ce",
+ "work_item": "WI-20261013-003",
+ "from_state": "NEW",
+ "to_state": "INTAKE",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:36:27Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "title='DEMO-4 fail-closed: seeded \\\\x08 blocks promotion' lanes=['deploy/backend/its/README.md']",
+ "prev_receipt_sha256": null
+}

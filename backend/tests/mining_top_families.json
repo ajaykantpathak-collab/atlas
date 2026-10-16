@@ -1,0 +1,670 @@
+{
+ "generated": "2026-10-05 10:33:37",
+ "kind": "synthesis-mining PRE-RUN (partial-bank snapshot)",
+ "snapshot": {
+  "findings_lines": 1541,
+  "findings_bytes": 678362,
+  "bank_rows_total": 253456,
+  "coverage_pct": 0.61,
+  "cls_counts": {
+   "EXACT_HIT": 751,
+   "SOFT_HIT": 361,
+   "SLOW_GUIDED": 211,
+   "GUIDED": 211,
+   "VERIFIED_NOKEY": 1,
+   "ERROR": 6
+  },
+  "miss_rows": 790,
+  "template_rows_in_snapshot": 85,
+  "template_rows_in_bank": 8042,
+  "live_queue_rows": 874,
+  "sweep_queue_rows": 340,
+  "telemetry_rows": 810
+ },
+ "top15_families": [
+  {
+   "family_name": "CROSS-SUBJECT BANK TEMPLATE (14 subjects): \"What must you be able to do to master this topic?\"",
+   "subject": "multi",
+   "subject_display": "Multi-subject",
+   "cross_subject": true,
+   "class_range": "6-12",
+   "miss_count": 85,
+   "miss_share_pct": 10.8,
+   "label_mix": {
+    "SOFT_HIT": 85
+   },
+   "example_question": "What must you be able to do to master this topic?",
+   "why_it_misses": "generic template row: the question text is topic-independent while the stored key is topic-specific — solver cannot match by design (bank-row generation artifact, fix = key/skip policy, NOT synthesis)",
+   "feasibility": -3,
+   "synthesis_candidate": false,
+   "top_keywords": [],
+   "rank": 1,
+   "score": 85
+  },
+  {
+   "family_name": "Hindi: conflict/sentence/literal [<INT>]",
+   "subject": "hindi",
+   "subject_display": "Hindi",
+   "cross_subject": false,
+   "class_range": "7-11",
+   "miss_count": 11,
+   "miss_share_pct": 1.4,
+   "label_mix": {
+    "SOFT_HIT": 11
+   },
+   "example_question": "पाठ 6 में एक प्रसंग है जहां पात्र कहता है: \"मैंने उसे माफ़ नहीं किया, मैंने स्वयं को मुक्त किया।\" इस कथन में विरोधाभास…",
+   "why_it_misses": "VERIFIED but served text differs from the stored key beyond normalization — answer-form/key mismatch, needs key alignment not synthesis",
+   "feasibility": 1,
+   "synthesis_candidate": false,
+   "top_keywords": [
+    "conflict",
+    "sentence",
+    "literal"
+   ],
+   "rank": 2,
+   "score": 22
+  },
+  {
+   "family_name": "Applied Maths: point/determine/justify [<INT>x6]",
+   "subject": "applied_maths",
+   "subject_display": "Applied Maths",
+   "cross_subject": false,
+   "class_range": "11-11",
+   "miss_count": 3,
+   "miss_share_pct": 0.4,
+   "label_mix": {
+    "GUIDED": 1,
+    "SLOW_GUIDED": 1,
+    "SOFT_HIT": 1
+   },
+   "example_question": "Determine whether the equation 2x² + 2y² - 8x + 12y + 26 = 0 represents a real circle, a point circle, or no real…",
+   "why_it_misses": "GUIDED with no recorded reason; question carries numeric slots — likely a missing canonical-structure rule for this numeric shape",
+   "feasibility": 6,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "point",
+    "determine",
+    "justify"
+   ],
+   "rank": 3,
+   "score": 21
+  },
+  {
+   "family_name": "English: common/lesson/mix [no-numeric-slots]",
+   "subject": "english",
+   "subject_display": "English",
+   "cross_subject": false,
+   "class_range": "6-12",
+   "miss_count": 6,
+   "miss_share_pct": 0.8,
+   "label_mix": {
+    "GUIDED": 2,
+    "SLOW_GUIDED": 1,
+    "SOFT_HIT": 3
+   },
+   "example_question": "What common mix-up does this lesson flag about In poetry, supporting characters?",
+   "why_it_misses": "VERIFIED but served text differs from the stored key beyond normalization — answer-form/key mismatch, needs key alignment not synthesis",
+   "feasibility": 2,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "common",
+    "lesson",
+    "mix"
+   ],
+   "rank": 4,
+   "score": 18
+  },
+  {
+   "family_name": "Physics: places/needed/decimal [<INT>x3]",
+   "subject": "physics",
+   "subject_display": "Physics",
+   "cross_subject": false,
+   "class_range": "9-10",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 1,
+    "SOFT_HIT": 1
+   },
+   "example_question": "Using the formula P = V×I from this topic, calculate P when I = 10, V = 13. Give your answer up to 2 decimal places if…",
+   "why_it_misses": "modeling layer has no canonical structure rule for this pattern — new family rule needed",
+   "feasibility": 5,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "places",
+    "needed",
+    "decimal"
+   ],
+   "rank": 5,
+   "score": 12
+  },
+  {
+   "family_name": "Economics: lesson/definition/markets [no-numeric-slots]",
+   "subject": "economics",
+   "subject_display": "Economics",
+   "cross_subject": false,
+   "class_range": "6-10",
+   "miss_count": 4,
+   "miss_share_pct": 0.5,
+   "label_mix": {
+    "SOFT_HIT": 4
+   },
+   "example_question": "What is Informal credit dependence? State the definition given in this lesson.",
+   "why_it_misses": "VERIFIED but served text differs from the stored key beyond normalization — answer-form/key mismatch, needs key alignment not synthesis",
+   "feasibility": 1,
+   "synthesis_candidate": false,
+   "top_keywords": [
+    "lesson",
+    "definition",
+    "markets"
+   ],
+   "rank": 6,
+   "score": 8
+  },
+  {
+   "family_name": "Commercial Applications: tenure/emis/loan [<CUR>+<INT>x2+<PCT>+<UNIT:month>+<UNIT:year>]",
+   "subject": "commercial_applications",
+   "subject_display": "Commercial Applications",
+   "cross_subject": false,
+   "class_range": "12-12",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 1,
+    "SLOW_GUIDED": 1
+   },
+   "example_question": "A biotech startup secures a term loan of ₹ 45,00,000 to purchase PCR‑sequencing equipment. The loan carries a fixed…",
+   "why_it_misses": "modeling layer has no canonical structure rule for this pattern — new family rule needed",
+   "feasibility": 3,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "tenure",
+    "emis",
+    "loan"
+   ],
+   "rank": 7,
+   "score": 8
+  },
+  {
+   "family_name": "Grammar: countable/uncountable/plural [<INT>x3]",
+   "subject": "grammar",
+   "subject_display": "Grammar",
+   "cross_subject": false,
+   "class_range": "9-9",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 2
+   },
+   "example_question": "Fill in the blank: The ______: (1) specific/shared → the; (2) new + singular countable → a/an by sound; (3)…",
+   "why_it_misses": "refusal reason: multi-hop question; per-hop verdicts below",
+   "feasibility": 3,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "countable",
+    "uncountable",
+    "plural"
+   ],
+   "rank": 8,
+   "score": 8
+  },
+  {
+   "family_name": "Biology: lesson/definition/determination [no-numeric-slots]",
+   "subject": "biology",
+   "subject_display": "Biology",
+   "cross_subject": false,
+   "class_range": "9-10",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 1,
+    "SOFT_HIT": 1
+   },
+   "example_question": "What is Sex determination in humans? State the definition given in this lesson.",
+   "why_it_misses": "GUIDED with no recorded reason; prose/conceptual shape — likely outside deterministic scope",
+   "feasibility": 1,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "lesson",
+    "definition",
+    "determination"
+   ],
+   "rank": 9,
+   "score": 4
+  },
+  {
+   "family_name": "Chemistry: lesson/definition/matter [no-numeric-slots]",
+   "subject": "chemistry",
+   "subject_display": "Chemistry",
+   "cross_subject": false,
+   "class_range": "6-10",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "SOFT_HIT": 2
+   },
+   "example_question": "What is Matter? State the definition given in this lesson.",
+   "why_it_misses": "VERIFIED but served text differs from the stored key beyond normalization — answer-form/key mismatch, needs key alignment not synthesis",
+   "feasibility": 1,
+   "synthesis_candidate": false,
+   "top_keywords": [
+    "lesson",
+    "definition",
+    "matter"
+   ],
+   "rank": 10,
+   "score": 4
+  },
+  {
+   "family_name": "Civics: common/lesson/mix [no-numeric-slots]",
+   "subject": "civics",
+   "subject_display": "Civics",
+   "cross_subject": false,
+   "class_range": "6-7",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 2
+   },
+   "example_question": "What common mix-up does this lesson flag about Dictatorship?",
+   "why_it_misses": "GUIDED with no recorded reason; prose/conceptual shape — likely outside deterministic scope",
+   "feasibility": 1,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "common",
+    "lesson",
+    "mix"
+   ],
+   "rank": 11,
+   "score": 4
+  },
+  {
+   "family_name": "English: filing/report/uses [no-numeric-slots]",
+   "subject": "english",
+   "subject_display": "English",
+   "cross_subject": false,
+   "class_range": "12-12",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "SLOW_GUIDED": 2
+   },
+   "example_question": "A university research project compares Asokamitran’s description of the clipping desk at Gemini Studios (manual filing…",
+   "why_it_misses": "answer() exceeded the 12s sweep budget (production allows 60s) — heavy lane; often solvable, needs path pruning/caching",
+   "feasibility": 1,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "filing",
+    "report",
+    "uses"
+   ],
+   "rank": 12,
+   "score": 4
+  },
+  {
+   "family_name": "Geography: common/lesson/mix [no-numeric-slots]",
+   "subject": "geography",
+   "subject_display": "Geography",
+   "cross_subject": false,
+   "class_range": "8-8",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 2
+   },
+   "example_question": "What common mix-up does this lesson flag about Sustainable use of natural resources?",
+   "why_it_misses": "GUIDED with no recorded reason; prose/conceptual shape — likely outside deterministic scope",
+   "feasibility": 1,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "common",
+    "lesson",
+    "mix"
+   ],
+   "rank": 13,
+   "score": 4
+  },
+  {
+   "family_name": "Grammar: common/lesson/mix [no-numeric-slots]",
+   "subject": "grammar",
+   "subject_display": "Grammar",
+   "cross_subject": false,
+   "class_range": "10-11",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 2
+   },
+   "example_question": "What common mix-up does this lesson flag about Reported questions lose their question grammar?",
+   "why_it_misses": "GUIDED with no recorded reason; prose/conceptual shape — likely outside deterministic scope",
+   "feasibility": 1,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "common",
+    "lesson",
+    "mix"
+   ],
+   "rank": 14,
+   "score": 4
+  },
+  {
+   "family_name": "Grammar: reached/earlier/station [no-numeric-slots]",
+   "subject": "grammar",
+   "subject_display": "Grammar",
+   "cross_subject": false,
+   "class_range": "7-7",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 2
+   },
+   "example_question": "Fill in the blank: Past ______ is the earlier-past: 'When I reached the station, the train HAD LEFT' — two past events…",
+   "why_it_misses": "refusal reason: Narrative needs reading support; method shown",
+   "feasibility": 1,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "reached",
+    "earlier",
+    "station"
+   ],
+   "rank": 15,
+   "score": 4
+  }
+ ],
+ "top5_synthesis_picks": [
+  {
+   "family_name": "Applied Maths: point/determine/justify [<INT>x6]",
+   "subject": "applied_maths",
+   "subject_display": "Applied Maths",
+   "cross_subject": false,
+   "class_range": "11-11",
+   "miss_count": 3,
+   "miss_share_pct": 0.4,
+   "label_mix": {
+    "GUIDED": 1,
+    "SLOW_GUIDED": 1,
+    "SOFT_HIT": 1
+   },
+   "example_question": "Determine whether the equation 2x² + 2y² - 8x + 12y + 26 = 0 represents a real circle, a point circle, or no real…",
+   "why_it_misses": "GUIDED with no recorded reason; question carries numeric slots — likely a missing canonical-structure rule for this numeric shape",
+   "feasibility": 6,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "point",
+    "determine",
+    "justify"
+   ],
+   "rank": 3,
+   "score": 21
+  },
+  {
+   "family_name": "English: common/lesson/mix [no-numeric-slots]",
+   "subject": "english",
+   "subject_display": "English",
+   "cross_subject": false,
+   "class_range": "6-12",
+   "miss_count": 6,
+   "miss_share_pct": 0.8,
+   "label_mix": {
+    "GUIDED": 2,
+    "SLOW_GUIDED": 1,
+    "SOFT_HIT": 3
+   },
+   "example_question": "What common mix-up does this lesson flag about In poetry, supporting characters?",
+   "why_it_misses": "VERIFIED but served text differs from the stored key beyond normalization — answer-form/key mismatch, needs key alignment not synthesis",
+   "feasibility": 2,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "common",
+    "lesson",
+    "mix"
+   ],
+   "rank": 4,
+   "score": 18
+  },
+  {
+   "family_name": "Physics: places/needed/decimal [<INT>x3]",
+   "subject": "physics",
+   "subject_display": "Physics",
+   "cross_subject": false,
+   "class_range": "9-10",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 1,
+    "SOFT_HIT": 1
+   },
+   "example_question": "Using the formula P = V×I from this topic, calculate P when I = 10, V = 13. Give your answer up to 2 decimal places if…",
+   "why_it_misses": "modeling layer has no canonical structure rule for this pattern — new family rule needed",
+   "feasibility": 5,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "places",
+    "needed",
+    "decimal"
+   ],
+   "rank": 5,
+   "score": 12
+  },
+  {
+   "family_name": "Commercial Applications: tenure/emis/loan [<CUR>+<INT>x2+<PCT>+<UNIT:month>+<UNIT:year>]",
+   "subject": "commercial_applications",
+   "subject_display": "Commercial Applications",
+   "cross_subject": false,
+   "class_range": "12-12",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 1,
+    "SLOW_GUIDED": 1
+   },
+   "example_question": "A biotech startup secures a term loan of ₹ 45,00,000 to purchase PCR‑sequencing equipment. The loan carries a fixed…",
+   "why_it_misses": "modeling layer has no canonical structure rule for this pattern — new family rule needed",
+   "feasibility": 3,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "tenure",
+    "emis",
+    "loan"
+   ],
+   "rank": 7,
+   "score": 8
+  },
+  {
+   "family_name": "Grammar: countable/uncountable/plural [<INT>x3]",
+   "subject": "grammar",
+   "subject_display": "Grammar",
+   "cross_subject": false,
+   "class_range": "9-9",
+   "miss_count": 2,
+   "miss_share_pct": 0.3,
+   "label_mix": {
+    "GUIDED": 2
+   },
+   "example_question": "Fill in the blank: The ______: (1) specific/shared → the; (2) new + singular countable → a/an by sound; (3)…",
+   "why_it_misses": "refusal reason: multi-hop question; per-hop verdicts below",
+   "feasibility": 3,
+   "synthesis_candidate": true,
+   "top_keywords": [
+    "countable",
+    "uncountable",
+    "plural"
+   ],
+   "rank": 8,
+   "score": 8
+  }
+ ],
+ "live_queue_families": [
+  {
+   "miss_count": 134,
+   "distinct_questions": 1,
+   "example_question": "Explain the color of the smell of Tuesday.",
+   "top_refusal_reason": "Needs variable binding (Lane C) or is not computational",
+   "keywords": "color tuesday smell"
+  },
+  {
+   "miss_count": 10,
+   "distinct_questions": 1,
+   "example_question": "Assuming the sample composition does not change, what is the probability of obtaining two consecutive clicks?",
+   "top_refusal_reason": "",
+   "keywords": "consecutive composition two"
+  },
+  {
+   "miss_count": 9,
+   "distinct_questions": 1,
+   "example_question": "Determine how many identical series strings (each of four capacitors) must be connected in parallel to meet the energy…",
+   "top_refusal_reason": "",
+   "keywords": "four capacitors determine"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 3,
+   "example_question": "Explain the meaning of goodwill",
+   "top_refusal_reason": "Needs variable binding (Lane C) or is not computational",
+   "keywords": "meaning goodwill affect"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 2,
+   "example_question": "A car travels 150 km in 2 hours, then 50 km in 1 hour. What is its average speed?",
+   "top_refusal_reason": "multi-hop question; per-hop verdicts below",
+   "keywords": "average travels car"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 2,
+   "example_question": "Fill in the blank: Imagine a ______ firm where a partner dies on 15th August.",
+   "top_refusal_reason": "Needs variable binding (Lane C) or is not computational",
+   "keywords": "blank imagine fill"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 2,
+   "example_question": "\"GlobalLogix LLP\" is a India-Singapore cross-border partnership with partners: Rohan (India, 50%), Wei (Singapore…",
+   "top_refusal_reason": "the fallback model ignores stated values of the question (data-coverage guard), so no verified answe",
+   "keywords": "india partners cross"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 1,
+   "example_question": "A participant's testimonial reads: \"After the first week, I felt the curtain of life lift as I kicked across the pond.\"…",
+   "top_refusal_reason": "",
+   "keywords": "lift analyze reads"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 1,
+   "example_question": "OrionSat Ltd., an Indian startup that builds and operates low‑earth‑observation satellites, closed its financial year…",
+   "top_refusal_reason": "multi-hop question; per-hop verdicts below",
+   "keywords": "lakhs builds operates"
+  },
+  {
+   "miss_count": 8,
+   "distinct_questions": 1,
+   "example_question": "Synthesize: If the documentary were to insert a voice-over from a gerontologist explaining \"aging anxiety\"…",
+   "top_refusal_reason": "Needs variable binding (Lane C) or is not computational",
+   "keywords": "psychological documentary alter"
+  },
+  {
+   "miss_count": 7,
+   "distinct_questions": 1,
+   "example_question": "Determine which curve (parabola or line) is right-most (greater x) in the interval [-1,3].",
+   "top_refusal_reason": "",
+   "keywords": "curve parabola greater"
+  },
+  {
+   "miss_count": 7,
+   "distinct_questions": 1,
+   "example_question": "If the Portuguese had supplied Bijapur with 500 additional war-horses in late 1564, estimate the change in Bijapur's…",
+   "top_refusal_reason": "",
+   "keywords": "late horses change"
+  }
+ ],
+ "telemetry_summary": {
+  "n": 810,
+  "labels": {
+   "DETERMINISTIC": 426,
+   "VERIFIED": 76,
+   "RUBRIC_KEYWORD": 122,
+   "GUIDED_PRACTICE": 140,
+   "VERIFIED_SEMANTIC": 1,
+   "VERIFIED_OFFICIAL": 45
+  },
+  "subj_labels": {
+   "maths|DETERMINISTIC": 65,
+   "physics|DETERMINISTIC": 33,
+   "biology|DETERMINISTIC": 37,
+   "science|DETERMINISTIC": 1,
+   "maths|RUBRIC_KEYWORD": 8,
+   "physics|RUBRIC_KEYWORD": 6,
+   "chemistry|DETERMINISTIC": 4,
+   "biology|RUBRIC_KEYWORD": 3,
+   "computer_science|RUBRIC_KEYWORD": 6,
+   "computer_science|DETERMINISTIC": 2,
+   "history|DETERMINISTIC": 242,
+   "history|RUBRIC_KEYWORD": 73,
+   "geography|RUBRIC_KEYWORD": 3,
+   "geography|DETERMINISTIC": 2,
+   "evs|RUBRIC_KEYWORD": 3,
+   "evs|DETERMINISTIC": 2,
+   "hindi|RUBRIC_KEYWORD": 5,
+   "civics|DETERMINISTIC": 9,
+   "civics|RUBRIC_KEYWORD": 1,
+   "english|DETERMINISTIC": 3,
+   "english|RUBRIC_KEYWORD": 2,
+   "accountancy|RUBRIC_KEYWORD": 1,
+   "accountancy|DETERMINISTIC": 4,
+   "economics|DETERMINISTIC": 2,
+   "business_studies|RUBRIC_KEYWORD": 2,
+   "biotech|DETERMINISTIC": 2,
+   "psychology|DETERMINISTIC": 3,
+   "legal_studies|RUBRIC_KEYWORD": 3,
+   "sociology|DETERMINISTIC": 2,
+   "applied_maths|DETERMINISTIC": 3,
+   "home_science|DETERMINISTIC": 3,
+   "statistics|DETERMINISTIC": 3,
+   "commerce_apps|DETERMINISTIC": 3,
+   "mass_media|RUBRIC_KEYWORD": 2,
+   "chemistry|RUBRIC_KEYWORD": 1,
+   "economics|RUBRIC_KEYWORD": 1,
+   "business_studies|DETERMINISTIC": 1,
+   "biotech|RUBRIC_KEYWORD": 1,
+   "sociology|RUBRIC_KEYWORD": 1
+  },
+  "refusals": {
+   "This question needs a different approach — let me help you work through it step by step": 58,
+   "No canonical structure matched and no algebraic path exists from extracted knowns to a target. The modeling layer needs ": 48,
+   "Narrative needs reading support; method shown": 16,
+   "multi-part question; per-part verdicts below": 7,
+   "No verified formal solution path": 4,
+   "multi-hop question; per-hop verdicts below": 3,
+   "This question refers to a figure, and the values needed may live in the figure — so here is guided practice to work thro": 2,
+   "Some values stated in this question are not used in the computation (data-coverage guard), so no verified answer is show": 1,
+   "hop 1 'subtraction' failed: missing input(s) ['subtrahend']": 1
+  },
+  "incorrect": {
+   "maths": 23,
+   "science": 1,
+   "biology": 7,
+   "physics": 7,
+   "chemistry": 4,
+   "computer_science": 3,
+   "history": 127,
+   "geography": 2,
+   "evs": 3,
+   "hindi": 2,
+   "civics": 8,
+   "english": 2,
+   "accountancy": 5,
+   "economics": 2,
+   "biotech": 2,
+   "applied_maths": 3,
+   "home_science": 3,
+   "statistics": 2,
+   "commerce_apps": 3,
+   "sociology": 1,
+   "psychology": 1
+  },
+  "llm_rows": 124
+ }
+}

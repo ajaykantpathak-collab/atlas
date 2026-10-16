@@ -19,14 +19,16 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 import uuid
 from datetime import datetime, timezone
 from typing import Any, Optional, Literal
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+from backend.deps import is_staff, require_self_or_staff
 from backend.security import decode_access_token
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, Field, ConfigDict, field_validator
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func
 
@@ -35,6 +37,7 @@ from services.practice_service import PracticeService
 from services.question_selector import QuestionSelector
 from services.mastery_sync import MasterySyncService, get_shared_service
 from services.analytics_service import AnalyticsService
+from services.feedback_scrub import scrub_answer_key, scrub_explanation
 
 
 logger = logging.getLogger(__name__)
@@ -102,6 +105,65 @@ async def _caller_sub(
     return sub or None
 
 
+def _caller_role(creds: HTTPAuthorizationCredentials | None) -> Optional[str]:
+    """Role claim of the caller's token, lowercased (None when absent).
+
+    Only used for staff overrides — an absent claim fails CLOSED (the
+    caller is treated as non-staff), mirroring deps.require_self_or_staff.
+    """
+    if creds is None:
+        return None
+    payload = decode_access_token(creds.credentials)
+    if not payload:
+        return None
+    role = str(payload.get("role") or "").strip().lower()
+    return role or None
+
+
+def _enforce_start_target(
+    caller_sub: Optional[str],
+    requested_student_id: Optional[str],
+    caller_role: Optional[str] = None,
+) -> None:
+    """Cross-student guard for POST /api/practice/start (WS-D 2026-10-10).
+
+    An authenticated student used to be able to pass ANOTHER student's
+    UUID as ``student_id``: the session (and every attempt + mastery
+    update in it) then persisted under the victim's row. Rules:
+
+    * anonymous caller            -> any id (demo flow unchanged)
+    * authenticated + own uuid    -> allowed
+    * authenticated + free-text   -> allowed (demo/guest strings resolve
+      to the shared demo row downstream, never a foreign account)
+    * authenticated + foreign uuid -> 403 unless the token carries a
+      staff role (teacher/admin), mirroring require_self_or_staff.
+    """
+    if caller_sub is None:
+        return
+    rid = str(requested_student_id or "").strip()
+    if not rid or rid.lower() in ("demo", "guest", "none", "null", "undefined"):
+        return
+    try:
+        rid_uuid = str(uuid.UUID(rid))
+    except (ValueError, AttributeError, TypeError):
+        return  # free-text id -> demo resolution, not a foreign account
+    if rid_uuid == str(caller_sub):
+        return
+    if caller_role in ("teacher", "admin"):
+        return
+    raise HTTPException(
+        status.HTTP_403_FORBIDDEN,
+        detail="You can only start practice for yourself.",
+    )
+
+
+async def _caller_role_dep(
+    creds: HTTPAuthorizationCredentials | None = Depends(_opt_bearer),
+) -> Optional[str]:
+    """Role claim dependency (see _caller_role; fails closed)."""
+    return _caller_role(creds)
+
+
 async def _caller_class_level(db: AsyncSession, sub: Optional[str]) -> Optional[int]:
     """Class level of the authenticated user (users.class_level → int), or None.
 
@@ -122,12 +184,14 @@ async def _caller_class_level(db: AsyncSession, sub: Optional[str]) -> Optional[
 
 
 def _enforce_session_owner(session: Any, caller_sub: Optional[str]) -> None:
-    """Reject authenticated access to another student's session (403).
+    """Reject access to another student's session (403).
 
-    Ownerless (anonymous/demo-created or legacy pre-owner-stamp)
-    sessions keep their previous visibility."""
-    if caller_sub is None:
-        return
+    Owned sessions (``auth_user_id`` stamped at create) require the
+    owner — anonymous callers are rejected too, else anyone holding a
+    session URL could submit into another student's mastery (e2e2
+    `[e2e2-practice-anon-submit]`).  Ownerless (anonymous/demo-created
+    or legacy pre-owner-stamp) sessions keep their previous
+    visibility."""
     try:
         owner = _meta_get(session, "auth_user_id", None)
     except Exception:
@@ -207,6 +271,17 @@ async def _fetch_remediation(
                 remediation = step["remediation_text"]
                 review_ids = list(step.get("review_node_ids") or [])
                 break
+    # _comp ON_FAILURE_ROUTING — authored repair paths ("Seed 1A failed ->
+    # revisit <node ids>"): union every revisit target as extra repair
+    # links so a wrong answer offers a *route*, not just an explanation.
+    try:
+        from backend.services.enhanced_nodes import load_index
+        comp = (load_index().companions_for_parent(str(node_id)) or [None])[0]
+        if comp:
+            routing = comp.get("on_failure_routing") or ""
+            review_ids += _NODE_ID_RE.findall(routing)
+    except Exception:
+        pass
     # Resolve every referenced node (text-embedded ids + review ids) once.
     all_ids = list(dict.fromkeys(
         review_ids + _NODE_ID_RE.findall(remediation or "")
@@ -234,37 +309,59 @@ async def _fetch_remediation(
     if remediation:
         for nid, title in titles.items():
             remediation = remediation.replace(nid, f"'{title}'")
+    # on_failure text is authored FOR TEACHERS ("Have them write…") —
+    # translate to the student's voice; untranslatable phrasing is
+    # withheld rather than served as a lesson plan.
+    from backend.services.feedback_scrub import (
+        scrub_remediation as _scrub_remed,
+        _TEACHER_VOICE_LEFTOVER as _tv_left,
+    )
+    remediation = _scrub_remed(remediation) or None
+    if miscon and _tv_left.search(str(miscon)):
+        miscon = None
     return miscon, remediation, review_topics
 
 
-async def _resolve_student_async(db: AsyncSession, requested: str) -> Optional[str]:
+async def _resolve_student_async(db: AsyncSession, requested: str | None, caller_sub: Optional[str] = None) -> Optional[str]:
     """Async resolution of the requested student_id to a students-row
     UUID (see module notes: sessions must persist under the returned
     id even for demo/guest/free-text students)."""
     if db is None:
         return None
     rid = str(requested or "").strip()
-    if rid:
+    target_uuid = None
+    if rid and rid.lower() not in ("demo", "guest", "none", "null", "undefined"):
         try:
             uuid.UUID(rid)
+            target_uuid = rid
         except (ValueError, AttributeError, TypeError):
-            rid = ""
-        else:
-            try:
-                res = await db.execute(
-                    select(Student).where(Student.id == rid))
-                if res.scalar_one_or_none() is not None:
-                    return rid
-            except Exception:
-                return None
-            # a users.id with no students row yet -> mirror it via the
-            # canonical bridge instead of dumping attempts on the demo row
-            try:
-                from backend.services.identity_bridge import ensure_student_row
-                row = await ensure_student_row(db, rid)
-                return str(row.id)
-            except Exception:
-                pass
+            pass
+
+    # Fall back to authenticated JWT subject if requested id was demo/guest or missing
+    if not target_uuid and caller_sub:
+        csub = str(caller_sub).strip()
+        try:
+            uuid.UUID(csub)
+            target_uuid = csub
+        except (ValueError, AttributeError, TypeError):
+            pass
+
+    if target_uuid:
+        try:
+            res = await db.execute(
+                select(Student).where(Student.id == target_uuid))
+            if res.scalar_one_or_none() is not None:
+                return target_uuid
+        except Exception:
+            return None
+        # a users.id with no students row yet -> mirror it via the
+        # canonical bridge instead of dumping attempts on the demo row
+        try:
+            from backend.services.identity_bridge import ensure_student_row
+            row = await ensure_student_row(db, target_uuid)
+            return str(row.id)
+        except Exception:
+            pass
     # non-UUID or missing student -> shared demo student (find or create).
     # students has no email column — key on the sentinel name + class tag.
     try:
@@ -308,13 +405,26 @@ def _q_as_store_dict(q: Any) -> dict:
     return out
 
 
+_DIFF_FLOAT = {"easy": 0.25, "low": 0.25, "medium": 0.5, "moderate": 0.5,
+               "hard": 0.85, "high": 0.85, "tough": 0.85}
+
+
 def _safe_difficulty(question: Any) -> float:
     """The answered question's difficulty on the selector's (0.1, 1.0]
-    scale — the signal the adaptive context steps from.  Anything
-    unreadable degrades to the mid starting point, never an exception."""
+    scale — the signal the adaptive context steps from.  Corpus labels
+    are words (often markdown-noisy like "** hard"); a bare float() of
+    them silently collapsed every question to the mid point, which is
+    why adaptive steering was invisible.  Map the label, then fall back
+    to numeric, then to 0.5."""
+    raw = _q_attr(question, "difficulty", 0.5) or 0.5
+    if isinstance(raw, str):
+        w = raw.strip().lower().lstrip("*_ \t").splitlines()[0].strip(" *_")
+        for word, val in _DIFF_FLOAT.items():
+            if word in w:
+                return val
+        raw = w
     try:
-        return max(0.1, min(1.0, float(_q_attr(question, "difficulty", 0.5)
-                                  or 0.5)))
+        return max(0.1, min(1.0, float(raw)))
     except (TypeError, ValueError):
         return 0.5
 
@@ -357,6 +467,43 @@ async def _select_adaptive_next(
             return nxt
         last = last or nxt  # keep the first pick as an honest last resort
     return last
+
+
+def _issue_next_question(session: Any, nxt: Any) -> str:
+    """Store the selector's next question under an id FRESH in this
+    session's question store; return the final id.
+
+    Issued ids are immutable.  ``session_meta["questions"]`` is the
+    grading source of truth: the client displays a question by id and
+    /submit grades by resolving that id here.  Overwriting the stored
+    content of an id the session already issued (what the last-write-wins
+    store did) made the student answer the question they were SHOWN while
+    the feedback described the question now occupying the id — the
+    graded-vs-displayed mismatch.  A colliding selector pick is re-keyed
+    (``<id>#v2``, ``<id>#v3``, …) instead: the response, the store and
+    the grading all use the same fresh key, so they can never diverge.
+    """
+    qid = str(_q_attr(nxt, "question_id", "")
+              or _q_attr(nxt, "id", "") or "").strip()
+    if not qid:
+        qid = f"q_{uuid.uuid4().hex[:12]}"
+    store = dict(_meta_get(session, "questions") or {})
+    final = qid
+    if qid in store:
+        n = 2
+        while f"{qid}#v{n}" in store:
+            n += 1
+        final = f"{qid}#v{n}"
+        try:
+            if isinstance(nxt, dict):
+                nxt["question_id"] = final
+            else:
+                setattr(nxt, "question_id", final)
+        except Exception:
+            pass
+    store[final] = _q_as_store_dict(nxt)
+    _meta_set(session, "questions", store)
+    return final
 
 
 class _MemSession:
@@ -404,17 +551,34 @@ class _MemSession:
 class StartSessionRequest(BaseModel):
     """Request to spin up a new practice session."""
 
-    student_id: str | None = Field(default=None, description="Student unique identifier")
-    subject: str = Field(..., min_length=1, description="Subject slug (e.g. 'mathematics')")
+    student_id: str | None = Field(
+        default=None, max_length=64,
+        description="Student unique identifier")
+    subject: str = Field(..., min_length=1, max_length=40,
+                         description="Subject slug (e.g. 'mathematics')")
     topic_ids: list[str] | None = Field(
-        default=None, description="Specific topic IDs to focus on"
-    )
+        default=None, max_length=50,
+        description="Specific topic IDs to focus on")
     num_questions: int = Field(default=5, ge=1, le=20, description="Questions in this session")
     class_level: int | None = Field(
         default=None,
         description="Student's class (6-12). Falls back to the authenticated user's class; "
         "keeps the question pool class-appropriate.",
     )
+
+    @field_validator("topic_ids")
+    @classmethod
+    def _cap_topic_ids(cls, v: list[str] | None) -> list[str] | None:
+        """WS-D input cap: the topic filter feeds selector SQL directly —
+        bound it to 50 topics of <= 64 chars each (no unbounded arrays)."""
+        if v is None:
+            return v
+        if len(v) > 50:
+            raise ValueError("topic_ids accepts at most 50 entries")
+        for tid in v:
+            if not isinstance(tid, str) or not (1 <= len(tid) <= 64):
+                raise ValueError("each topic id must be a string of 1-64 chars")
+        return v
 
     model_config = ConfigDict(
         json_schema_extra={
@@ -577,6 +741,13 @@ then reveals `next_question` (or a 'session complete' card).
     # authored common_misconception + first on_failure remediation step.
     misconception: Optional[str] = None
     remediation: Optional[str] = None
+    # C3 Misconception-Corrector (wrong answers only): question-specific
+    # matched misconception, the node's authored worked example as the
+    # "see it done" re-teach, and a follow-up diagnostic (answer withheld)
+    # that closes the loop on re-attempt.
+    matched_misconception: Optional[str] = None
+    worked_example: Optional[dict[str, Any]] = None
+    follow_up: Optional[dict[str, Any]] = None
     # Topics the remediation script suggests revisiting ({title, slug}).
     review_topics: list[dict[str, str]] = Field(default_factory=list)
     # Marking-scheme coaching (board questions): per-step marks breakdown.
@@ -585,6 +756,19 @@ then reveals `next_question` (or a 'session complete' card).
     # checks, coaching). Rendered by the collapsed "Why this verdict?"
     # panel; absent data hides rows instead of faking them.
     trail: Optional[dict[str, Any]] = None
+    # Socratic teacher (2026-10-05): the moment-of-error dialogue, attached
+    # only on WRONG answers where the detector named a misconception family.
+    # Shape: {misconception_id, first_move: <payload of /socratic/start>,
+    # student_answer, question_text, correct_answer} — the last three let the
+    # client run the stateless /socratic/grade calls without re-fetching.
+    # No detection (or any socratic failure) → the key stays None and the
+    # client renders nothing.
+    socratic: Optional[dict[str, Any]] = None
+    # Wave 9.8 L5 (Contract B): when this node's struggle flag is raised
+    # (3 consecutive misses -> contrast, 5 -> prereq) the response carries
+    # ``{mode, diagnosis, misses}`` so the client can render the worked-
+    # contrast card.  Additive; absent while mode is "probe".
+    struggle: Optional[dict[str, Any]] = None
     # Web client compat: it reads data.feedback.{is_correct,explanation,...}
     feedback: dict[str, Any] | None = None
 
@@ -684,6 +868,7 @@ async def start_session(
     req: StartSessionRequest,
     db: AsyncSession = Depends(get_db),
     caller_sub: Optional[str] = Depends(_caller_sub),
+    caller_role: Optional[str] = Depends(_caller_role_dep),
 ) -> dict:
     """Create a new practice session.
 
@@ -703,13 +888,22 @@ async def start_session(
             detail="Sign in or pass an explicit student_id to start practice.",
         )
 
+    # WS-D (2026-10-10): an authenticated caller naming ANOTHER student's
+    # UUID would persist attempts + mastery under the victim's row —
+    # reject before any student resolution or session write.
+    _enforce_start_target(caller_sub, req.student_id, caller_role)
+
     # ── Verify student (lenient — allow demo/guest) ──
     # NOTE: signups create rows in the USERS table, not STUDENTS; a
     # signed-up student's UUID has no students row here, so an unknown
     # id is resolved onto the shared demo student by
     # _resolve_student_async instead of 404ing — the session must
     # persist under the returned id either way.
-    db_available = True
+    # A None db session (no-DB demo mode) is NOT available: the flag must
+    # start False so the in-memory session branch below actually runs —
+    # with True and db=None, `session_id` was never bound and start
+    # crashed with UnboundLocalError on the demo path.
+    db_available = db is not None
     if db is not None and Student is not None:
         rid = str(req.student_id or "").strip()
         try:
@@ -736,7 +930,7 @@ async def start_session(
     # get a real UUID — a raw 'demo' string makes those queries throw.
     resolved_sid: Optional[str] = None
     if db_available and db is not None:
-        resolved_sid = await _resolve_student_async(db, req.student_id)
+        resolved_sid = await _resolve_student_async(db, req.student_id, caller_sub=caller_sub)
 
     # Class pin for the question pool: explicit request → auth user's class.
     # Without it, sessions under the shared demo row (no numeric class) leak
@@ -755,10 +949,20 @@ async def start_session(
     selector = None
     try:
         selector = QuestionSelector(db if db_available else None)
+        # Derive subject from topic_ids when the request omits it — prevents
+        # cross-subject leakage (COUNCIL-FINAL: history serving physics)
+        _effective_subject = req.subject or "general"
+        if _effective_subject == "general" and req.topic_ids:
+            import re as _re
+            for tid in req.topic_ids:
+                _m = _re.match(r"c\d+_([a-z]+)", tid)
+                if _m and _m.group(1) != "gen":
+                    _effective_subject = _m.group(1)
+                    break
         first_q = await selector.select_next(
             session_id="demo",
             student_id=resolved_sid or "demo",
-            subject=req.subject or "general",
+            subject=_effective_subject,
             class_level=session_class,
             topic_ids=req.topic_ids or [],
         )
@@ -773,29 +977,26 @@ async def start_session(
 
     # ── Pre-generate the full session set (web client maps
     #    session.questions[]; each is stored server-side for grading) ──
+    # ONE batch pipeline pass instead of N serial select_next calls: every
+    # serial call re-fetched the same mastery/theta/pool for the same
+    # (answerless) session — ~2.3s for 10 questions. select_batch scores
+    # one pool once and takes the top-N distinct (≤2 per node).
     planned: list[Any] = [first_q]
     if selector is not None and req.num_questions > 1:
-        seen = {str(_q_attr(first_q, "question_id", "") or "")}
-        for _ in range(req.num_questions - 1):
-            try:
-                nq = await selector.select_next(
-                    session_id="demo",
+        _first_id = str(_q_attr(first_q, "question_id", "") or "")
+        try:
+            planned.extend(
+                q for q in await selector.select_batch(
                     student_id=resolved_sid or "demo",
-                    subject=req.subject or "general",
+                    subject=_effective_subject,
+                    count=req.num_questions - 1,
                     class_level=session_class,
                     topic_ids=req.topic_ids or [],
-                    # chapter-gated pools are small and deterministic — the
-                    # selector must skip what this session already issued
-                    # instead of the loop breaking at the first repeat.
-                    exclude_question_ids=seen,
                 )
-            except Exception:
-                break
-            nqid = str(_q_attr(nq, "question_id", "") or "")
-            if not nqid or nqid in seen:
-                break
-            seen.add(nqid)
-            planned.append(nq)
+                if str(_q_attr(q, "question_id", "") or "") != _first_id
+            )
+        except Exception as exc:
+            logger.warning("batch pre-generation failed: %s", exc)
         # ADAPT: honest buffer — no fabricated correctness signal.  Order
         # the pre-generated set as a mid-out difficulty ladder so a client
         # that never splices the live next_question still walks a sensible
@@ -915,6 +1116,25 @@ async def start_session(
                 all(isinstance(o, str) for o in pq_opts):
             d["options"] = pq_opts
         planned_dicts.append(d)
+    # Worked-example FADING (cognitive-load theory): the client hides more
+    # of the worked solution each rep on the same topic — rep 1 shows all
+    # steps, rep 2 hides one, rep 3+ is cold. prior attempts on the FIRST
+    # question's node set the fade level for this session.
+    _fade_visible = 2
+    try:
+        _fnode = str(_q_attr(first_q, "node_id", "") or "")
+        if _fnode and resolved_sid and db is not None:
+            from backend.models.progress import MasteryRecord
+            _prior = (await db.execute(
+                select(MasteryRecord.attempts).where(
+                    MasteryRecord.user_id == resolved_sid,
+                    MasteryRecord.node_id == _fnode,
+                ))).scalar()
+            _prior = int(_prior or 0)
+            _fade_visible = max(0, 2 - min(2, _prior))
+    except Exception:
+        _fade_visible = 2
+
     return {
         "id": str(session_id),
         "session_id": str(session_id),
@@ -925,6 +1145,8 @@ async def start_session(
         "questions": planned_dicts,
         "status": "active",
         "started_at": started.isoformat(),
+        "fade": {"steps_visible": _fade_visible,
+                 "policy": "worked-example-fading"},
     }
 
 
@@ -953,6 +1175,8 @@ async def submit_answer(
 ) -> SubmitAnswerResponse:
     """Submit an answer, get correctness feedback, explanation, and next question."""
 
+    _t0 = time.perf_counter()  # telemetry latency (COLD-START brief §C)
+
     # ── Validate session ──
     session = await _get_active_session(session_id, db)
     _enforce_session_owner(session, caller_sub)
@@ -979,7 +1203,8 @@ async def submit_answer(
     time_ms = req.time_ms or (req.time_taken_seconds or 0) * 1000
 
     # ── Evaluate answer ──
-    is_correct = await _evaluate_answer(question, str(answer))
+    is_correct, grading_lane = await _evaluate_answer_detailed(
+        question, str(answer))
     marks = (_q_attr(question, "marks", 1) or 1) if is_correct else 0
 
     # ── Idempotency guard (offline replay support) ──
@@ -1034,6 +1259,20 @@ async def submit_answer(
                 subject=_meta_get(session, "subject", "general"),
                 client_token=f"prac:{session.id}:{qid_requested}",
             )
+            # Spaced-review scheduling (distributed practice): every answered
+            # question books its topic's next retrieval. Fail-safe: never
+            # breaks a submit. Runs inside the same idempotency-guarded block.
+            try:
+                from backend.modules.review import engine as _review
+                _review.schedule_after_answer(
+                    str(session.student_id),
+                    str(_q_attr(question, "node_id", None)
+                        or _q_attr(question, "topic", "") or qid_requested),
+                    bool(is_correct),
+                    str(_meta_get(session, "subject", "general") or ""),
+                    int(_meta_get(session, "class_level", 0) or 0))
+            except Exception:
+                pass
             mastery_delta = {
                 "mastery_before": _ledger.get("live_before", 0.0),
                 "mastery_after": _ledger.get("live_after", 0.0),
@@ -1073,11 +1312,18 @@ async def submit_answer(
         # ── Propagate progress: XP, streak, activity log ──
         # Practice answers are real quiz activity; without this the users row
         # (XP/level/streak read by login, dashboards, parent view) never moves.
-        # XP amounts mirror the assessment quiz path (10 correct / 2 wrong).
+        # XP via the canonical reward service; the (session, question) event
+        # ref makes the award EXACTLY ONCE even if the in-memory replay guard
+        # above misses (retry after the attempt row landed, offline flush).
         try:
             from backend.services.progress_service import ProgressService
-            _uid = str(session.student_id)
-            await ProgressService.award_xp(db, _uid, 10 if is_correct else 2)
+            from backend.services.reward_ledger import xp_for_answer
+            _uid = str(caller_sub or _meta_get(session, "auth_user_id") or session.student_id)
+            await ProgressService.award_xp(
+                db, _uid, xp_for_answer(is_correct),
+                event="practice",
+                event_ref=f"{session.id}:{qid_requested}",
+            )
             await ProgressService.update_streak(db, _uid)
             await ProgressService.log_activity(
                 db,
@@ -1172,13 +1418,9 @@ async def submit_answer(
                 exclude_ids=attempted_ids,
             )
             if nxt is not None:
+                issued_qid = _issue_next_question(session, nxt)
                 next_q_resp = _format_question(nxt)
-                qid = (_q_attr(nxt, "question_id", None)
-                       or _q_attr(nxt, "id", None))
-                _meta_set(session, "current_question_id", str(qid) if qid is not None else None)
-                _q_store = dict(_meta_get(session, "questions") or {})
-                _q_store[str(qid)] = _q_as_store_dict(nxt)
-                _meta_set(session, "questions", _q_store)
+                _meta_set(session, "current_question_id", issued_qid)
             else:
                 is_complete = True  # exhausted question bank
         except Exception as exc:
@@ -1227,6 +1469,11 @@ async def submit_answer(
     correct_display = _format_correct_answer(question)
 
     explanation_text = _q_attr(question, "explanation", "") or ""
+    # Bank rows can store GRADER prose in correct_answer/explanation
+    # ("You's answer is correct.") that contradicts the graded verdict —
+    # scrub before any consumer below (response, feedback dict, socratic).
+    correct_display, explanation_text = _clean_feedback(
+        correct_display, explanation_text, is_correct)
     misconception_text, remediation_text, review_topics = (None, None, [])
     if not is_correct:
         (
@@ -1242,6 +1489,9 @@ async def submit_answer(
     marking_feedback: Optional[dict[str, Any]] = None
     try:
         _scheme = _q_attr(question, "marking_scheme") or ""
+        if _scheme:
+            from backend.services.feedback_scrub import _scrub_ids
+            _scheme = _scrub_ids(_scheme)
         _qmarks = _q_attr(question, "marks", 0) or 0
         if (
             _scheme
@@ -1273,6 +1523,183 @@ async def submit_answer(
         logger.debug("Trail build skipped: %s", exc)
         trail = None
 
+    # C3 Misconception-Corrector — close the loop on a wrong answer:
+    # the question-specific matched misconception (when the node's
+    # diagnostics carry one), the node's authored worked example as the
+    # "see it done" re-teach, and a follow-up diagnostic (answer withheld)
+    # the student must clear to close the loop.
+    correction: Optional[dict[str, Any]] = None
+    if not is_correct and not _replay:
+        try:
+            import asyncio as _aio
+            from backend.services.misconception_corrector import correction_for
+
+            _node_key = (
+                _q_attr(question, "node_id", None)
+                or _q_attr(question, "topic", "")
+                or None
+            )
+            correction = await _aio.to_thread(
+                correction_for,
+                _node_key,
+                _q_attr(question, "question_text", None)
+                or _q_attr(question, "text", None)
+                or str(getattr(question, "question", "") or ""),
+            )
+            if not any(correction.values()):
+                correction = None
+        except Exception as exc:  # correction must never break answering
+            logger.debug("C3 correction skipped: %s", exc)
+            correction = None
+
+    # ── Socratic hand-off (2026-10-05): the moment-of-error dialogue ──
+    # A wrong answer whose misconception the detector can NAME gets the
+    # Socratic teacher's opening script attached, so the client can run
+    # elicit → isolate → retry before any re-teach. Family detection uses
+    # the wrong-answer analyzer (services/hint_ladder.detect_misconception),
+    # bridged onto the dialogue engine's authored families (see
+    # _SOCRATIC_FAMILY_BRIDGE by the socratic endpoints below). Anything the
+    # detector cannot name → NO `socratic` key at all (the FE renders
+    # nothing rather than faking a dialogue). Fail-soft by construction:
+    # a socratic failure must NEVER break the submit response.
+    socratic_payload: Optional[dict[str, Any]] = None
+    if not is_correct and not _replay:
+        try:
+            from backend.services.hint_ladder import detect_misconception
+
+            _sa = str(answer or "").strip()
+            _qt = str(
+                _q_attr(question, "question_text", None)
+                or _q_attr(question, "text", None)
+                or str(getattr(question, "question", "") or "")
+            ).strip()
+            _ca = correct_display.strip()
+            _hl_key, _ = detect_misconception(_sa, _ca)
+            _mid = _SOCRATIC_FAMILY_BRIDGE.get(_hl_key, "")
+            # The /socratic/start contract requires non-empty answer keys and
+            # a ≥4-char question text — an input outside that skips honestly.
+            if _mid and _sa and _ca and len(_qt) >= 4:
+                _start = await socratic_start(SocraticStartRequest(
+                    misconception_id=_mid,
+                    student_answer=_sa[:300],
+                    question_text=_qt[:600],
+                    correct_answer=_ca[:300],
+                ))
+                socratic_payload = {
+                    "misconception_id": _start.get("misconception_id", _mid),
+                    "first_move": _start,
+                    "student_answer": _sa[:300],
+                    "question_text": _qt[:600],
+                    "correct_answer": _ca[:300],
+                }
+        except Exception as exc:  # socratic must never break answering
+            logger.debug("Socratic seam skipped: %s", exc)
+            socratic_payload = None
+
+    # ── Wave 9.8 L5 (Contract B): the visible noticing layer ───────────
+    # Append a miss to the student's mistake notebook and advance the
+    # per-node consecutive-miss flag (3 -> contrast, 5 -> prereq); a
+    # verified success resolves the open rows and resets the flag.  The
+    # notebook FKs to users.id, so the JWT sub is the identity (never
+    # session.student_id — that can be a students-row id or the shared
+    # demo row); guests skip cleanly.  Append-only + awaited-but-
+    # swallowed + its OWN session: a struggle-row failure can never
+    # break a submit.  A REPLAYED submit (offline flush) skips the write
+    # — the dedup'd ledger already counted it — but still reports a
+    # raised flag so "the next response" contract holds on replays too.
+    struggle_info: Optional[dict[str, Any]] = None
+    _nb_uid = str(caller_sub or _meta_get(session, "auth_user_id", "") or "")
+    _nb_node = str(
+        _q_attr(question, "node_id", None)
+        or _q_attr(question, "topic", "") or "")
+    if _nb_uid and _nb_node:
+        try:
+            from backend.services import struggle as _struggle_svc
+
+            _nb_diag = misconception_text
+            if not is_correct and not _nb_diag:
+                try:
+                    from backend.services.hint_ladder import (
+                        detect_misconception as _dm,
+                    )
+                    _k, _ = _dm(str(answer or "").strip(),
+                                correct_display.strip())
+                    _nb_diag = str(_k) if _k else None
+                except Exception:
+                    _nb_diag = None
+            if not _replay:
+                _nb_path: Optional[dict[str, Any]] = None
+                if not is_correct and isinstance(correction, dict):
+                    _we = correction.get("worked_example") or {}
+                    _steps = (
+                        _we.get("steps") if isinstance(_we, dict) else None
+                    )
+                    if _steps or correct_display:
+                        _nb_path = {
+                            "steps": [str(s) for s in (_steps or [])][:12],
+                            "answer": correct_display or None,
+                        }
+                _nb = await _struggle_svc.record_attempt(
+                    user_id=_nb_uid,
+                    node_id=_nb_node,
+                    question_text=str(
+                        _q_attr(question, "question_text", None)
+                        or _q_attr(question, "text", None)
+                        or getattr(question, "question", "") or "")[:4000],
+                    student_answer=str(answer) if answer is not None else None,
+                    verdict_ok=bool(is_correct),
+                    diagnosis=_nb_diag,
+                    correct_path=_nb_path,
+                    source="practice",
+                    subject=_meta_get(session, "subject", None),
+                    class_level=_meta_get(session, "class_level", None),
+                )
+                _raised = ("contrast", "prereq")
+                _mb, _ma = _nb.get("mode_before"), _nb.get("mode_after")
+                _mode = _mb if _mb in _raised else _ma
+                if _mode in _raised:
+                    struggle_info = {
+                        "mode": _mode,
+                        "diagnosis": _nb_diag,
+                        # the streak this response is reporting: after on a
+                        # miss that raised it, before on a reset that
+                        # carried it — whichever is higher is the truth
+                        "misses": max(int(_nb.get("misses_before") or 0),
+                                      int(_nb.get("consecutive_misses") or 0)),
+                    }
+            else:
+                struggle_info = await _struggle_svc.flag_for_response(
+                    _nb_uid, _nb_node, _nb_diag)
+        except Exception as exc:  # noticing must never break a submit
+            logger.debug("struggle notebook skipped: %s", exc)
+            struggle_info = None
+
+    # TELEMETRY (COLD-START brief §C): ONE structured row per practice
+    # submit → runtime_data/ops/answer_telemetry.jsonl.  llm_used is
+    # DERIVED from whether a real LLM call ran in this request (the
+    # grading here is deterministic + the no-LLM marking coach, so the
+    # flag is only ever true if a lane actually invoked an LLM).  Async +
+    # fail-safe: a telemetry failure must never break the submit.
+    try:
+        from backend.services.answer_telemetry import record_practice
+
+        record_practice(
+            student_id=str(session.student_id),
+            subject=_meta_get(session, "subject", None),
+            class_level=_meta_get(session, "class_level", None),
+            is_correct=bool(is_correct),
+            graded=True,
+            # DERIVED from the real grading lane — never hardcoded:
+            # deterministic key-match, rubric LLM, or rubric keyword
+            # fallback (llm_used additionally ORs the live llm_invoked
+            # contextvar inside record_practice).
+            grading=grading_lane,
+            latency_ms=(time.perf_counter() - _t0) * 1000.0,
+            replay=_replay,
+        )
+    except Exception as exc:
+        logger.debug("practice telemetry skipped: %s", exc)
+
     return SubmitAnswerResponse(
         is_correct=is_correct,
         correct_answer=correct_display,
@@ -1285,9 +1712,14 @@ async def submit_answer(
         next_question=next_q_resp,
         misconception=misconception_text,
         remediation=remediation_text,
+        matched_misconception=(correction or {}).get("matched_misconception"),
+        worked_example=(correction or {}).get("worked_example"),
+        follow_up=(correction or {}).get("follow_up"),
         review_topics=review_topics,
         marking_feedback=marking_feedback,
         trail=trail,
+        socratic=socratic_payload,
+        struggle=struggle_info,
         feedback={
             "is_correct": is_correct,
             "explanation": explanation_text,
@@ -1456,13 +1888,9 @@ async def skip_question(
                 exclude_ids=attempted_ids,
             )
             if nxt is not None:
+                issued_qid = _issue_next_question(session, nxt)
                 next_q_resp = _format_question(nxt)
-                qid = (_q_attr(nxt, "question_id", None)
-                       or _q_attr(nxt, "id", None))
-                _meta_set(session, "current_question_id", str(qid) if qid is not None else None)
-                _q_store = dict(_meta_get(session, "questions") or {})
-                _q_store[str(qid)] = _q_as_store_dict(nxt)
-                _meta_set(session, "questions", _q_store)
+                _meta_set(session, "current_question_id", issued_qid)
         except Exception as exc:
             logger.warning("Skip → question selection failed: %s", exc)
 
@@ -1568,6 +1996,129 @@ async def grade_answer_endpoint(req: GradeAnswerRequest):
     return result
 
 
+# ── Board Answer limb (pedagogy #1) ───────────────────────────────────────
+# One timed 3-mark + one 5-mark WRITTEN answer per week, graded on the
+# node's authored marking points — the examiner engine applied to
+# board-format questions.  Engine: services/board_answer.py (deterministic,
+# closed-world: authored diagnostic keys / MARKING_POINTS only, no LLM).
+
+class BoardAnswerRequest(BaseModel):
+    """One written board-format answer to mark against the authored scheme."""
+
+    node_id: str = Field(..., min_length=3, max_length=96)
+    question_text: str = Field(default="", max_length=2000)
+    student_answer: str = Field(..., min_length=1, max_length=20000)
+    marks: int = Field(default=0, ge=0, le=10,
+                       description="Out-of marks for the score line; 0 = follow the authored scheme")
+
+
+@router.post(
+    "/board-answer",
+    summary="Mark a written board answer on its authored marking points",
+    description="""
+The weekly board answer-writing limb.  Grades the student's written
+answer against the node's AUTHORED marking points (diagnostic answer
+keys / MARKING_POINTS), returns the points covered, the points missed,
+a marks score line ("3/5"), and the presentation habits to practise.
+Deterministic — never an LLM, never fabricated points.
+    """,
+)
+def submit_board_answer(req: BoardAnswerRequest):
+    from backend.services.board_answer import grade_board_answer
+    result = grade_board_answer(
+        req.node_id, req.question_text, req.student_answer, req.marks)
+    if not result.get("graded"):
+        # honest abstention — but as data, so the card can coach around it
+        raise HTTPException(
+            status.HTTP_422_UNPROCESSABLE_ENTITY, detail=result)
+    return result
+
+
+@router.get(
+    "/board-answer/weekly",
+    summary="This week's board-answer prompts (one 3-mark + one 5-mark)",
+    description="""
+The weekly written-answer schedule for one class+subject: two prompts
+chosen deterministically from the corpus's authored diagnostic questions
+for the whole ISO week — a 3-mark (3 minutes) and a 5-mark (5 minutes).
+    """,
+)
+def board_answer_weekly(
+    subject: str = Query(..., min_length=1, max_length=24,
+                         description="Subject slug, e.g. bio / phy / math"),
+    class_level: int = Query(..., ge=1, le=12, alias="class"),
+):
+    from backend.services.board_answer import weekly_prompts
+    return weekly_prompts(subject, class_level)
+
+
+# ---------------------------------------------------------------------------
+# Socratic teacher (2026-10-05): the moment-of-error dialogue.  Stateless
+# by construction — the move sequence is deterministic from its inputs,
+# so the FE posts the context each time and the engine rebuilds the same
+# script; answer keys never leave the server.
+#
+# The practice submit seam (submit_answer above) detects a misconception
+# family with services/hint_ladder.detect_misconception — whose keys name
+# the error SHAPE — and bridges them onto the dialogue engine's authored
+# families here. Unmapped/unfamiliar keys resolve to "" → no socratic key
+# on the response (an unnamed misconception gets no dialogue, never a
+# guessed one); the dialogue engine itself still fails soft to its generic
+# script for unknown ids.
+# ---------------------------------------------------------------------------
+
+_SOCRATIC_FAMILY_BRIDGE: dict[str, str] = {
+    # hint_ladder key     → socratic_moves authored family
+    "sign_error":         "sign_flip",          # −ve where +ve expected
+    "magnitude_error":    "unit_confusion",     # 10x/100x slips are unit work
+    "reciprocal_error":   "fraction_inversion", # divided where to multiply
+    "missing_units":      "unit_confusion",     # bare number → unit check
+}
+
+class SocraticStartRequest(BaseModel):
+    misconception_id: Optional[str] = Field(
+        default=None, max_length=48,
+        description="Family id from the attempt's misconception detection; "
+                    "unknown ids fall back to the generic script")
+    student_answer: str = Field(..., min_length=1, max_length=300)
+    question_text: str = Field(..., min_length=4, max_length=600)
+    correct_answer: str = Field(..., min_length=1, max_length=300)
+
+
+class SocraticGradeRequest(SocraticStartRequest):
+    move_id: str = Field(..., min_length=1, max_length=16)
+    response: str = Field(default="", max_length=300)
+
+
+@router.post(
+    "/socratic/start",
+    response_model=dict,
+    summary="Begin the Socratic dialogue for a wrong answer",
+)
+async def socratic_start(req: SocraticStartRequest) -> dict:
+    from backend.services.socratic_service import build_sequence
+    seq = build_sequence(req.misconception_id, req.student_answer,
+                         req.question_text, req.correct_answer)
+    payload = seq.payload()
+    payload["first_move_id"] = (payload["moves"][0]["id"]
+                                if payload["moves"] else "handoff")
+    return payload
+
+
+@router.post(
+    "/socratic/grade",
+    response_model=dict,
+    summary="Grade one Socratic move and advance the dialogue",
+)
+async def socratic_grade(req: SocraticGradeRequest) -> dict:
+    from backend.services.socratic_service import build_sequence, grade_move
+    seq = build_sequence(req.misconception_id, req.student_answer,
+                         req.question_text, req.correct_answer)
+    ok, feedback, next_move_id = grade_move(seq, req.move_id, req.response)
+    return {"correct": bool(ok), "feedback": feedback,
+            "next_move_id": next_move_id}
+
+
 @router.get(
     "/review/{student_id}",
     response_model=ReviewResponse,
@@ -1582,15 +2133,24 @@ async def get_due_reviews(
     student_id: str,
     subject: str | None = Query(default=None, description="Filter by subject slug"),
     limit: int = Query(default=20, ge=1, le=100),
+    scoped_student_id: str = Depends(require_self_or_staff),
     db: AsyncSession = Depends(get_db),
 ) -> ReviewResponse:
-    """Get questions due for spaced-repetition review."""
+    """Get questions due for spaced-repetition review.
 
-    res = await db.execute(select(Student).where(Student.id == student_id))
+    WS-D (2026-10-10): the study-history queue is per-student data; the
+    route previously had NO auth — any anonymous caller could read any
+    student's review queue. Ownership is enforced by
+    ``require_self_or_staff`` (self / teacher / admin), and the scoped id
+    it RETURNS is the one queried — never the raw path value.
+    """
+
+    res = await db.execute(
+        select(Student).where(Student.id == scoped_student_id))
     if res.scalar_one_or_none() is None:
         raise HTTPException(
             status.HTTP_404_NOT_FOUND,
-            detail=f"Student '{student_id}' not found.",
+            detail=f"Student '{scoped_student_id}' not found.",
         )
 
     # PLUMB (C7 audit [STUDENT-C7][P2 SLOW-REVIEW], 155s -> <1s): no
@@ -1598,10 +2158,10 @@ async def get_due_reviews(
     # on mastery_state over this request's own session (see
     # _compute_reviews). No second asyncpg pool, no Redis, no doomed
     # subject='' probe on the hot path.
-    reviews = await _compute_reviews(student_id, subject, limit, db)
+    reviews = await _compute_reviews(scoped_student_id, subject, limit, db)
 
     return ReviewResponse(
-        student_id=student_id,
+        student_id=scoped_student_id,
         reviews=reviews[:limit],
         total_due=len(reviews),
     )
@@ -1627,16 +2187,23 @@ async def _get_session_any(session_id: str, db: AsyncSession) -> PracticeSession
     """Fetch session regardless of status (raise 404 if missing).
 
     DB rows are checked first; the process-local demo store backs the
-    no-DB mode so a session started there still resolves."""
-    try:
-        res = await db.execute(
-            select(PracticeSession).where(PracticeSession.id == session_id)
-        )
-        session = res.scalar_one_or_none()
-        if session is not None:
-            return session
-    except Exception:
-        pass  # DB unavailable or id not a UUID — try the demo store
+    no-DB mode so a session started there still resolves.  A transient
+    pool failure on the first read (a dropped connection surfaces as a
+    bare AttributeError / 'NoneType' send error) is retried ONCE before
+    the demo store is consulted: silently reporting a committed session
+    as "not found" turns the student's next submit into a 404."""
+    for attempt in (1, 2):
+        try:
+            res = await db.execute(
+                select(PracticeSession).where(PracticeSession.id == session_id)
+            )
+            session = res.scalar_one_or_none()
+            if session is not None:
+                return session
+            break  # clean miss — no retry needed
+        except Exception:
+            if attempt == 2:
+                break  # DB unavailable or id not a UUID — try the demo store
     rec = _MEM_SESSIONS.get(session_id)
     if rec is not None:
         return _MemSession(rec)
@@ -1712,22 +2279,45 @@ async def _get_attempted_ids(session_id, db: AsyncSession) -> set[str]:
     return set(res.scalars().all())
 
 
-async def _evaluate_answer(question: Any, answer: str) -> bool:
-    """Grade a submitted answer — deterministic first, LLM for prose.
+async def _evaluate_answer_detailed(
+    question: Any, answer: str
+) -> tuple[bool, str]:
+    """Grade and REPORT how it was graded.
 
-    Corpus questions (enhanced_nodes_md) carry paragraph-length model
-    answers that can never exact-match a student's response, so prose
-    answers go through the rubric grader (LLMGrader) using the row's
-    marking_scheme as criteria.
+    Returns (is_correct, grading) with grading one of:
+      "deterministic"  key/tolerance match, no LLM touched
+      "llm"            LLMGrader's model returned a usable verdict
+      "keyword"        LLMGrader fell back to keyword matching
+      "error"          the grading lane failed — deterministic miss stands
+    (COLD-START brief §C: the telemetry label derives from this — a
+    hardcoded "deterministic" would make the zero-LLM proof a lie.)
     """
     correct = _q_attr(question, "correct_answer", "") or ""
     if _check_answer(answer, correct,
                      _q_attr(question, "tolerance", 0.001) or 0.001):
-        return True
+        return True, "deterministic"
+
+    # JUNK DETECTION (cert §7.8 fix): garbage answers must NEVER be graded
+    # correct by the LLM/rubric path. Detect gibberish before it reaches the
+    # LLM grader — a trust-killer if screenshots circulate.
+    import re as _re
+    stripped = answer.strip()
+    if len(stripped) >= 3:
+        content_words = _re.findall(r"[a-zA-Z]{3,}", stripped)
+        has_content = len(content_words) >= 2
+        has_digits_or_units = bool(_re.search(r"\d", stripped))
+        is_gibberish = (
+            not has_content and not has_digits_or_units
+        ) or (
+            len(set(stripped.lower().replace(" ", ""))) <= 3
+            and len(stripped) > 8
+        )
+        if is_gibberish:
+            return False, "deterministic"
 
     # Short/factual answers: deterministic result stands (don't waste LLM)
     if len(str(correct)) < 120 or len(answer.strip()) < 3:
-        return False
+        return False, "deterministic"
 
     # Prose/long answers: rubric grading against the model answer
     try:
@@ -1746,11 +2336,26 @@ async def _evaluate_answer(question: Any, answer: str) -> bool:
             rubric=rubric,
             max_marks=int(_q_attr(question, "marks", 3) or 3),
         )
-        return result.marks_awarded > 0 and result.marks_awarded >= max(
+        verdict = result.marks_awarded > 0 and result.marks_awarded >= max(
             1, result.max_marks // 2)
+        return verdict, (
+            "keyword" if (result.model or "") == "keyword_fallback"
+            else "llm")
     except Exception as exc:
         logger.warning("LLM grading failed, deterministic result stands: %s", exc)
-        return False
+        return False, "error"
+
+
+async def _evaluate_answer(question: Any, answer: str) -> bool:
+    """Grade a submitted answer — deterministic first, LLM for prose.
+
+    Corpus questions (enhanced_nodes_md) carry paragraph-length model
+    answers that can never exact-match a student's response, so prose
+    answers go through the rubric grader (LLMGrader) using the row's
+    marking_scheme as criteria.
+    """
+    verdict, _grading = await _evaluate_answer_detailed(question, answer)
+    return verdict
 
 
 def _check_answer(student_answer: str, correct_answer: Any, tolerance: float = 0.001) -> bool:
@@ -1872,6 +2477,31 @@ def _format_correct_answer(question: Any) -> str:
     return raw
 
 
+# Bank rows sometimes carry the GRADER's voice in served fields — the
+# shared scrub lives in services/feedback_scrub.py.  _clean_feedback
+# keeps the teaching content, drops only the grader meta-narration, and
+# adds this surface's own rule: a >80-char key is commentary, not a
+# displayable value.
+def _clean_feedback(
+    correct_display: Any, explanation_text: Any, is_correct: bool
+) -> tuple[str, str]:
+    """Scrub bank-stored grader prose out of the served feedback pair.
+
+    correct_display: a grader-voice opener or >80 chars of prose means the
+    field holds commentary, not an answer value — serve "" (the FE renders
+    its own examiner-note path when empty).
+    explanation_text: when the verdict is wrong, strip a leading
+    verdict-asserting clause ("Your answer is correct.") — only that
+    sentence; the teaching content after it is kept.  A correct verdict
+    leaves the explanation untouched.
+    """
+    cd = scrub_answer_key(correct_display)
+    if len(cd) > 80:
+        cd = ""
+    ex = scrub_explanation(explanation_text, is_correct)
+    return cd, ex
+
+
 _Q_TYPE_MAP = {
     "mcq": "mcq",
     "mcq_single": "mcq",
@@ -1921,14 +2551,32 @@ def _format_question(q: Any) -> QuestionResponse:
         input_type = "text"
 
     difficulty = str(_q_attr(q, "difficulty", "medium") or "medium")
-    if difficulty not in ("easy", "medium", "hard"):
-        # selector difficulties are floats in (0, 1]
+    # Corpus difficulty values carry markdown noise ("** medium", "high",
+    # "medium-hard", occasionally glued prose).  ~12k real hard/easy
+    # questions were serving as "medium" because of it, making adaptive
+    # steering invisible.  Normalise the word first, then fall back to
+    # the numeric/float interpretation, then "medium".
+    _d = difficulty.strip().lower().lstrip("*_ \t")
+    _d = re.split(r"[\r\n]", _d)[0].strip(" *_")
+    if "easy" in _d or "low" in _d:
+        difficulty = "easy"
+    elif "hard" in _d or "high" in _d or "tough" in _d:
+        difficulty = "hard"
+    elif "medium" in _d or "moderate" in _d:
+        difficulty = "medium"
+    elif len(_d) < 40 and re.fullmatch(r"[\w\- ]+", _d or ""):
+        # short-but-unknown label: try numeric, else medium
         try:
-            dv = float(difficulty)
+            dv = float(_d)
             difficulty = "easy" if dv < 0.4 else (
                 "hard" if dv > 0.7 else "medium")
         except (TypeError, ValueError):
             difficulty = "medium"
+    else:
+        # glued-prose blob — search for an embedded label before giving up
+        emb = re.search(r"(easy|hard|medium|high|low)", _d)
+        difficulty = {"high": "hard", "low": "easy"}.get(
+            emb.group(1) if emb else "", emb.group(1) if emb else "medium")
 
     return QuestionResponse(
         question_id=str(_q_attr(q, "question_id", None)
@@ -2286,10 +2934,37 @@ async def apply_offline_answer(payload: dict, user_id: str) -> dict:
                     ))
                     try:
                         from backend.services.progress_service import ProgressService
+                        from backend.services.reward_ledger import xp_for_answer
                         await ProgressService.award_xp(
-                            db, str(session.student_id), 10 if is_correct else 2)
+                            db, str(session.student_id), xp_for_answer(is_correct),
+                            event="practice",
+                            event_ref=f"{session.id}:{question_id}",
+                        )
                     except Exception as exc:  # XP is best-effort on replayed work
                         logger.debug("offline XP award skipped: %s", exc)
+
+            # Wave 9.8 L5: offline misses reach the notebook too — the
+            # ledger dedup above already screened replays, and the
+            # savepoint here can never eat the attempt row.
+            try:
+                from backend.services import struggle as _struggle_svc
+                await _struggle_svc.record_attempt(
+                    db=db,
+                    user_id=str(user_id),
+                    node_id=(_q_attr(question, "node_id", None)
+                             or _q_attr(question, "topic", "") or question_id),
+                    question_text=str(_q_attr(question, "text", None)
+                                      or _q_attr(question, "question_text",
+                                                 "") or "")[:4000],
+                    student_answer=answer_text or None,
+                    verdict_ok=bool(is_correct),
+                    source="practice_offline",
+                    subject=_meta_get(session, "subject", None),
+                    class_level=_meta_get(session, "class_level", None),
+                )
+            except Exception as exc:
+                logger.debug("offline struggle row skipped: %s", exc)
+
             await db.commit()
             return {
                 "ok": True,

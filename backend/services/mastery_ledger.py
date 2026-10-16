@@ -188,15 +188,49 @@ async def record_assessment(
 
     # ── store 1: mastery_records (ORM — galaxy / dashboard / passport) ───
     try:
+        from sqlalchemy import select as _sa_select
+
+        from backend.models.user import User as UserModel
         from backend.services.progress_service import ProgressService
 
-        result["mastery"] = await ProgressService.update_mastery_bkt(
-            db, user_id=str(user_id), node_id=str(node_id), is_correct=bool(is_correct)
-        )
+        # FK-SAFE WRITE: mastery_records.user_id -> users.id.  Callers can
+        # surface student ids that have no users parent (demo / in-memory
+        # sessions, stale links, seeds).  A plain INSERT then fails the FK
+        # at flush AND poisons the caller's shared AsyncSession — every
+        # later write in that request dies with PendingRollbackError
+        # (practice submit 500s).  Two guards:
+        #   1. check the users parent row first; no parent -> honest skip;
+        #   2. apply inside a SAVEPOINT (begin_nested) so even a flush
+        #      failure rolls back only the savepoint, never the request's
+        #      outer transaction.
+        parent_ok = True
+        try:
+            probe = await db.execute(
+                _sa_select(UserModel.id)
+                .where(UserModel.id == str(user_id)).limit(1)
+            )
+            parent_ok = probe.first() is not None
+        except Exception:
+            # non-UUID / unbindable id — cannot have a parent row either
+            parent_ok = False
+
+        if parent_ok:
+            async with db.begin_nested():
+                result["mastery"] = await ProgressService.update_mastery_bkt(
+                    db, user_id=str(user_id), node_id=str(node_id),
+                    is_correct=bool(is_correct)
+                )
+        else:
+            result["orm_error"] = (
+                "no users row for student — mastery_records write skipped "
+                "(FK-safe); live mastery_state still updated")
     except Exception as exc:  # pragma: no cover - depends on store health
         result["orm_error"] = str(exc)
         logger.warning("mastery_ledger ORM mirror failed for %s/%s: %s",
                        user_id, node_id, exc)
+        # NOTE: no session rollback here — the write above runs inside a
+        # SAVEPOINT, so flush failures (FK etc.) roll back only that
+        # savepoint and the caller's outer transaction stays healthy.
 
     # ── store 2: mastery_state (asyncpg — practice selector / reviews) ───
     try:

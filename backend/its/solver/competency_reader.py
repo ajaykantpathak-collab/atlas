@@ -144,6 +144,10 @@ def read_narrative(text: str, audit: AuditTrail) -> Optional[PipelineResult]:
                  f"{state['spent']:g}| = {val:g}")
 
     audit.route.append("event_chain:trading")
+    # WS-PAL (ovh-pal): the badge gate resolves verifiers only via a
+    # 'structure:' route entry; 'event_chain:trading' never reached one
+    # so every correct trading answer died as verifier_no_route.
+    audit.route.append("structure:TRADING")
     audit.gates_passed.append("event_chain_grounding")
     audit.readings_considered = 1
     if ask_loss and profit >= 0:
@@ -167,7 +171,8 @@ def read_narrative(text: str, audit: AuditTrail) -> Optional[PipelineResult]:
 # --------------------------------------------------------------------------- #
 
 _PCT_STEP_RE = re.compile(
-    r"(increas\w+|decreas\w+|rise[s]?|fall[s]?|drop[s]?)\s+by\s+"
+    r"(?:(increas\w+|decreas\w+|rise[s]?|fall[s]?|drop[s]?)\s*(?:by\s*)?"
+    r"|(?:and|then|,)\s+by\s+)"
     r"(\d+(?:\.\d+)?)\s*%", re.I)
 
 
@@ -189,18 +194,35 @@ def read_percent_chain(text: str, audit: AuditTrail
         return _no('no positive base value found', audit)
     val = base
     steps = [f'start: {base:g}']
+    # an elided verb ('increases by 10% and by 5%') inherits the
+    # previous step's direction — the old single-verb regex dropped the
+    # second step entirely and shipped 22000 'net +10%' for a
+    # 10%-then-5% question (true: 23100, net +15.5%).
+    prev_up = True
     for m in steps_re:
         pct = float(m.group(2))
-        word = m.group(1).lower()
-        if word.startswith('decreas') or word.startswith('fall')                 or word.startswith('drop'):
-            val = val * (1 - pct / 100.0)
-            steps.append(f'decrease {pct:g}% -> {val:.6g}')
+        word = m.group(1).lower() if m.group(1) else ''
+        if word.startswith('decreas') or word.startswith('fall') \
+                or word.startswith('drop'):
+            up = False
+        elif word.startswith('increas') or word.startswith('rise'):
+            up = True
         else:
+            up = prev_up          # ', and by 5%' continues the direction
+        prev_up = up
+        if up:
             val = val * (1 + pct / 100.0)
             steps.append(f'increase {pct:g}% -> {val:.6g}')
+        else:
+            val = val * (1 - pct / 100.0)
+            steps.append(f'decrease {pct:g}% -> {val:.6g}')
     net = (val / base - 1.0) * 100.0
     steps.append(f'net change vs base: {net:+.4g}%')
     audit.route.append('event_chain:percent_steps')
+    # WS-PAL (ovh-pal): name the route so the badge gate can resolve
+    # the registered PERCENT_STEPS verifier (event_chain:* is invisible
+    # to it).
+    audit.route.append('structure:PERCENT_STEPS')
     audit.gates_passed.append('percent_chain_grounding')
     audit.readings_considered = 1
     return PipelineResult(

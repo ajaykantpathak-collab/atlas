@@ -708,9 +708,21 @@ class TutorEngine:
                     continue
             except Exception:
                 continue
+            # title fallback: never expose a raw node_id as the concept
+            # name — derive from the bank's chapter or first question
+            title = str(con.get("title") or "").strip()
+            if not title or title == node_id or title.startswith("enh:"):
+                title = str(bank.get("chapter_title") or "").strip()
+            if not title:
+                first_q = str(qs[0].get("q") or "")
+                m2 = re.match(
+                    r"^(?:find|solve|state|name|identify|classify|"
+                    r"determine|evaluate)\s+(.{4,60})", first_q, re.I)
+                title = (m2.group(1).strip().rstrip(".,;: ")
+                         if m2 else "Concept")
             next_order += 1
             self.concepts[node_id] = _Concept(
-                node_id, con.get("title", node_id), "-", qs,
+                node_id, title, "-", qs,
                 (cls_i if cls_i is not None else 99,
                  "enhanced", 999, next_order))
 
@@ -765,8 +777,16 @@ class TutorEngine:
                     item["self_check"] = False   # machine-gradable now
             return item
 
+        # catalog-level worked_examples carry a "concept" owner field —
+        # only merge the ones owned by THIS concept (the earlier code
+        # appended the whole chapter's examples into every concept's
+        # pool, cross-binding questions to wrong concepts)
+        def _owned(w: dict) -> bool:
+            owner = str(w.get("concept") or "").strip()
+            return not owner or owner == str(c.get("id") or "")
+
         for w in cat.get("worked_examples", []):
-            if not isinstance(w, dict):
+            if not isinstance(w, dict) or not _owned(w):
                 continue
             q = str(w.get("q") or w.get("question") or "").strip()
             a = str(w.get("a") or w.get("answer") or w.get("solution")
@@ -786,7 +806,7 @@ class TutorEngine:
             if q and a:
                 pool.append(_worked_item(q, a, concept_steps_l))
         for w in cat.get("worked_examples", []):
-            if not isinstance(w, dict):
+            if not isinstance(w, dict) or not _owned(w):
                 continue
             pattern = w.get("question_pattern")
             if not pattern:
@@ -800,13 +820,17 @@ class TutorEngine:
                 except (KeyError, IndexError, ValueError):
                     pass
             steps = w.get("solution_template") or []
-            solution = " ".join(
-                str(s.get("explain") or s.get("action") or "")
-                for s in steps if isinstance(s, dict)).strip()
+            step_txts = [str(s.get("explain") or s.get("action") or "")
+                         .strip()
+                         for s in steps if isinstance(s, dict)]
+            step_txts = [s for s in step_txts if s]
+            solution = " ".join(step_txts).strip()
             if not solution:
                 solution = "Work through the method shown in the " \
                            "concept steps."
-            pool.append({"q": q, "a": solution, "self_check": True,
+            pool.append({"q": q, "a": solution,
+                         "steps": step_txts or concept_steps_l,
+                         "self_check": True,
                          "tier": classify_tier(q, solution)})
         return pool
 
@@ -846,8 +870,18 @@ class TutorEngine:
                     if not isinstance(questions, list):
                         continue
                     steps = entry.get("solution_steps")
-                    fallback = (" ".join(str(s) for s in steps).strip()
-                                if isinstance(steps, list) else "")
+                    # steps may be strings or {action/explain} dicts
+                    step_txts = []
+                    if isinstance(steps, list):
+                        for s in steps:
+                            if isinstance(s, dict):
+                                step_txts.append(str(
+                                    s.get("explain") or
+                                    s.get("action") or "").strip())
+                            else:
+                                step_txts.append(str(s).strip())
+                    step_txts = [s for s in step_txts if s]
+                    fallback = " ".join(step_txts).strip()
                     for qi in questions:
                         if len(con.pool) >= POOL_CAP:
                             break
@@ -857,8 +891,12 @@ class TutorEngine:
                         ans = str(qi.get("a") or "").strip() or fallback
                         if not ans:
                             continue
+                        q_steps = qi.get("steps")
+                        if not (isinstance(q_steps, list) and q_steps):
+                            q_steps = step_txts
                         item = {
                             "q": str(qi["q"]), "a": ans,
+                            "steps": [str(s) for s in q_steps],
                             "self_check": bool(qi.get("self_check", False)),
                             "tier": classify_tier(str(qi["q"]), ans)}
                         # VERBAL BANK ITEMS (digit-free answer, store
@@ -1494,9 +1532,14 @@ class TutorEngine:
             return {"level": 2, "hint": " ".join(parts)}
         # level 3: the full worked solution - legitimate teaching, but
         # flagged honestly: a question revealed this way no longer earns
-        # mastery credit (copy-paste must pay nothing)
+        # mastery credit (copy-paste must pay nothing).  Prefer the
+        # item's authored steps; bare 'a' alone is just answer-leak.
         st.setdefault("revealed", {})[str(question_id)] = True
-        return {"level": 3, "hint": item["a"], "revealed": True,
+        steps = [str(s).strip() for s in (item.get("steps") or [])
+                 if str(s).strip()]
+        worked = (" ".join(steps) + " Answer: " + str(item["a"])
+                  if steps else str(item["a"]))
+        return {"level": 3, "hint": worked, "revealed": True,
                 "note": "worked solution shown - this question won't "
                         "count toward mastery now"}
 

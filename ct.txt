@@ -1,0 +1,15 @@
+check-tokens: 4528 files scanned
+  raw-hex occurrences: 78624 (baseline 78624, delta +0)
+  regressed files: 0
+
+  largest existing debt (de-drift targets):
+      1294  components/sims_v2/engine/canvasLab.tsx
+       830  components/sims_v2/generated/11_geo_gen.ts
+       788  lib/c6_12_gameRegistry.ts
+       587  components/sims_v2/generated/12_geo_gen.ts
+       545  components/sims_v2/generated/12_eng_k_gen.ts
+       533  components/sims_v2/generated/11_eng_w_gen.ts
+       453  components/sims_v2/generated/12_hs_gen.ts
+       450  components/sims_v2/generated/12_hin_a_gen.ts
+       404  components/sims_v2/generated/11_ps_gen.ts
+       386  components/sims_v2/generated/12_eng_f_gen.ts

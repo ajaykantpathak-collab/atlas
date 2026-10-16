@@ -759,6 +759,10 @@ def _build_mcq(rng: random.Random, sub_seed: int,
                topic: str, topic_name: str, difficulty: str) -> dict:
     """Build an MCQ question."""
     sub = random.Random(sub_seed)
+    # branches without a solver (tone_mood, fallback) must not crash on
+    # the shared return below (SOLVER-DIG-2: UnboundLocalError killed
+    # every tone_mood generation)
+    solver_result: dict = {}
 
     if topic == "rhyme_scheme":
         stanzas = _RHYME_STANZAS
@@ -1142,10 +1146,16 @@ def _build_long_answer(rng: random.Random, sub_seed: int,
         keys = list(_LONG_ANS_POOL.keys())
         key = sub.choice(keys)
         entry = _LONG_ANS_POOL[key]
+        # SOLVER-DIG-2 fix: pool entries carry concept/definition/
+        # application/answer_template — there was never an entry
+        # 'question' key, so EVERY long_answer draw crashed with
+        # KeyError.  The ask is composed from the entry's own fields.
         question = (
             f"Read the following poem carefully:\n\n"
             f"{sub.choice(_LONG_POEMS)['text']}\n\n"
-            f"{entry['question']}"
+            f"Identify and explain the {entry['concept']} used in this "
+            f"poem, and describe the effect it creates. "
+            f"(Hint: {entry['definition']})"
         )
         correct = entry["answer_template"].format(concept=entry["concept"])
         explanation = entry["application"]

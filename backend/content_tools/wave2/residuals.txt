@@ -1,0 +1,10 @@
+### c9_math_ch1_11.md :: PREREQUISITE_REASONS
+BEFORE: c9_math_ch1_2: Need to plot points and understand coordinate representation before using them in a formula.
+c9_math_ch1_4: Distance formula is used in alternative methods (Heron's formula) and reinforces coordinate differences.
+c9_math_ch1_10: Collinearity using area formula is a direct application; understanding collinearity helps interpret zero area.
+c8_math_ch14_2: Prior knowledge of triangle a
+AFTER:  c9_math_ch1_2: Need to plot points and understand coordinate representation before using them in a formula.
+c9_math_ch1_4: Distance formula is used in alternative methods (Heron's formula) and reinforces coordinate differences.
+c9_math_ch1_10: Collinearity using area formula is a direct application; understanding collinearity helps interpret zero area.
+c8_math_ch14_2: Prior knowledge of triangle a
+ISSUES: ['unbalanced parens']

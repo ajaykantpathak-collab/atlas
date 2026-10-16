@@ -1,0 +1,105 @@
+{
+  "endpoints": {
+    "health": "http://localhost/api/health",
+    "frontend": "http://localhost:3001",
+    "dev_health": "http://127.0.0.1:8020/api/health"
+  },
+  "paths": {
+    "telemetry": "runtime_data/ops/answer_telemetry.jsonl",
+    "deploy_backend": "deploy/backend",
+    "receipts": "harness/receipts",
+    "snapshots": "harness/snapshots",
+    "corpus_cases": "harness/corpus/cases.jsonl",
+    "corpus_pinned_dir": "deploy/backend/tests/corpus",
+    "digests": "harness/ops/digests",
+    "watch": "harness/ops/watch",
+    "backups": "harness/ops/backups",
+    "parity_baseline": "harness/ops/parity_baseline.json"
+  },
+  "log_sources": [
+    {"name": "dev_backend_log", "type": "file", "path": "_work/overhaul/dev_backend.log", "max_bytes": 20000000},
+    {"name": "dream-backend-1", "type": "docker", "container": "dream-backend-1", "since": "24h", "tail": 20000},
+    {"name": "dream-backend-2", "type": "docker", "container": "dream-backend-2", "since": "24h", "tail": 20000}
+  ],
+  "benign_log_patterns": [
+    "Expected background thread exit",
+    "Task was destroyed but it is pending",
+    "websocket disconnect",
+    "WebSocket DISCONNECTED",
+    "ECONNRESET",
+    "ConnectionResetError",
+    "psycopg2 errors are retried",
+    "Timing: AsyncClient",
+    "HTTP/1.1 400",
+    "Not Found: /favicon"
+  ],
+  "thresholds": {
+    "refusal_rate_pct_max": 25.0,
+    "p95_ms_max": 10000,
+    "error_lines_max": 5,
+    "disk_free_pct_min": 15.0,
+    "backup_age_hours_max": 26
+  },
+  "backup": {
+    "core_tables": ["board_questions", "enrichment_content", "users", "attempts"],
+    "live_db_names_blocklist": ["dream_app", "postgres"],
+    "retain_daily": 14,
+    "retain_weekly": 4,
+    "large_skip_mb": 1024,
+    "dburl_file": "_work/overhaul/.dburl.txt",
+    "docker_fallback_cmd": "docker exec dream-postgres pg_dump -U dream_user -d dream_app | gzip > harness/ops/backups/db-YYYYMMDD-HHMM.sql.gz",
+    "runtime_state_paths": [
+      "runtime_data/ops",
+      "runtime_data/solution_cache",
+      "runtime_data/structure_centroids.pkl",
+      "runtime_data/form_index.npz",
+      "runtime_data/structure_extract_cache.json",
+      "runtime_data/practice_map.json",
+      "runtime_data/node_sims.json",
+      "runtime_data/intent_dictionary.json",
+      "runtime_data/ab_tests.json",
+      "runtime_data/answer_memo.json",
+      "runtime_data/confidence_data.json"
+    ]
+  },
+  "watch": {
+    "latency_budget_ms": 2000,
+    "key_request_count": 8,
+    "reticle_dev_url": null,
+    "api_probes": [
+      "http://localhost/api/content/subjects?class=10",
+      "http://localhost/api/content/subjects?class=8",
+      "http://localhost/api/health",
+      "http://localhost:3001/"
+    ]
+  },
+  "soak": {
+    "users": 24,
+    "duration_s": 300,
+    "error_rate_max": 0.01,
+    "p95_ms_max": 10000,
+    "consecutive_5xx_max": 5,
+    "rss_gb_max": 8,
+    "boot_wait_s": 900,
+    "sample_secs": 10
+  },
+  "gates": {
+    "timeout_s": 600,
+    "g6_timeout_s": 2700,
+    "verify_wall_cap_s": 3600,
+    "chisel_present": false
+  },
+  "scans": {
+    "content_sample_files": 500,
+    "student_facing_globs": ["its/solver/", "routers/", "services/", "api/"],
+    "control_byte_allowlist": [
+      {"path": "deploy/backend/content_tools/wave2/scan_w3_rubric.py",
+       "bytes": ["08"], "reason": "intentional \\x08 regex delimiter in offline content tool (verified 2026-10-13, not served by backend.main)"}
+    ]
+  },
+  "schedule": {
+    "watch": "02:30",
+    "backup": "03:00",
+    "digest": "07:00"
+  }
+}

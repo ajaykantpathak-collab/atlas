@@ -1,0 +1,3 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("fixing-metadata").
+action("act_review", "fixing-metadata").

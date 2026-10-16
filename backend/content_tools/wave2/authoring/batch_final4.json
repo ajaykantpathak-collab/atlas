@@ -1,0 +1,20 @@
+{
+ "edits": [
+  {
+   "file": "c6_physics_ch08_033.md",
+   "definition": "A simple pendulum is a small, heavy weight (the bob) hung from a fixed point by a light, inextensible thread. Pulled slightly to one side and released, it swings to and fro through its lowest point repeatedly, completing each back-and-forth cycle in the same interval of time — one full to-and-fro is one oscillation, and the time it takes is the time period. This steady, repeating motion is called oscillatory motion, and its constancy is the pendulum's whole importance: clocks, metronomes and the first measurement of the Earth's shape all rest on the fact that, for small swings, the period depends only on the thread's length, not on the bob's mass or the size of the swing."
+  },
+  {
+   "file": "c7_eco_ch04_010.md",
+   "definition": "Financial infrastructure is the system of institutions and networks that lets money move and grow in an economy: banks that accept savings and lend them onward, stock and bond markets where firms raise long-term funds from investors, insurance companies that pool risk, and the payment systems — clearing houses, card networks, digital transfers — that settle transactions in seconds. Its job is channelling: taking the surplus of savers and putting it to work as investment in factories, farms, homes and businesses. Where this infrastructure is deep and trusted, savings become growth; where it is thin, money sits idle and enterprises starve for credit."
+  },
+  {
+   "file": "c7_math_ch09_004.md",
+   "definition": "An equilateral triangle is the triangle of perfect balance: all three sides equal in length, and therefore all three angles equal too — each exactly 60°, since the three must add to 180°. It is the regular three-sided polygon, with three lines of symmetry, and each of its medians is also its angle bisector and altitude. These equalities give it special powers: six copies fit around a point with no gaps (6 × 60° = 360°), so equilateral triangles tile a surface — the geometry behind rangoli grids, honeycomb-like patterns and trussed roofs."
+  },
+  {
+   "file": "c7_math_ch12_009.md",
+   "definition": "Working with fractions and decimals in the same problem requires switching forms, and knowing which way to switch is the skill. Any fraction converts to a decimal by division (3/4 = 0.75, exact whenever the denominator's factors are only 2s and 5s) and any terminating decimal converts to a fraction by reading its place value (0.75 = 75/100 = 3/4). In a mixed calculation, convert everything to the form that makes the operations easiest — fractions for multiplying and dividing, decimals for adding and comparing — then return the answer in the form the question asked for."
+  }
+ ]
+}

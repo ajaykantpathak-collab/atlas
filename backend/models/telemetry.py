@@ -7,7 +7,8 @@ discovery, content gaps). This is the feedback loop's data spine.
 
 from __future__ import annotations
 
-from sqlalchemy import Boolean, Column, DateTime, Index, Integer, String, Text
+from sqlalchemy import (Boolean, Column, DateTime, Index, Integer,
+                        JSON, String, Text)
 
 from backend.database import Base
 
@@ -26,6 +27,12 @@ class AttemptLog(Base):
     response_ms = Column(Integer, nullable=True)
     misconception_id = Column(String(128), nullable=True)
     session_id = Column(String(64), nullable=True)
+    # CL-06: solver route chain (JSON list, capped at 32 entries by the
+    # writer) + the winning stage (route[0]) — the telemetry helpers in
+    # services/answer_telemetry.py compute these for the JSONL plane; the
+    # persisted row was missing them.
+    route = Column(JSON, nullable=True)
+    stage = Column(String(64), nullable=True)
     created_at = Column(DateTime(timezone=True), nullable=False)
 
     __table_args__ = (

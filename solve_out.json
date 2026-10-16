@@ -1,0 +1,1 @@
+{"detail":[{"type":"string_too_short","loc":["body","text"],"msg":"String should have at least 5 characters","input":"2+2","ctx":{"min_length":5}}]}

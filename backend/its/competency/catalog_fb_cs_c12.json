@@ -1,0 +1,127 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c12)",
+ "source_file": "c12_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C12_001",
+   "title": "MERGE SORT: int mid = ...",
+   "section": "6. SORTING ALGORITHMS",
+   "formula": "int_mid = (low + high) / 2",
+   "_pats_extra": [],
+   "key_idea": "MERGE SORT (6. SORTING ALGORITHMS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find int mid using merge sort",
+    "calculate merge sort",
+    "merge sort formula question",
+    "given values find int mid",
+    "6. sorting algorithms merge sort numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C12_001",
+     "question_pattern": "merge sort with {low} and {high} find int mid",
+     "extracted_variables": {
+      "low": "given low",
+      "high": "given high"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for low, high from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "int mid = (low + high) / 2",
+     "compute": "int_mid = (low + high) / 2"
+    }
+   ],
+   "chapter_title": "6. SORTING ALGORITHMS"
+  },
+  {
+   "id": "FB_CS_C12_002",
+   "title": "QUICK SORT: int i = ...",
+   "section": "6. SORTING ALGORITHMS",
+   "formula": "int_i = low - 1",
+   "_pats_extra": [],
+   "key_idea": "QUICK SORT (6. SORTING ALGORITHMS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find int i using quick sort",
+    "calculate quick sort",
+    "quick sort formula question",
+    "given values find int i",
+    "6. sorting algorithms quick sort numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C12_002",
+     "question_pattern": "quick sort with {low} find int i",
+     "extracted_variables": {
+      "low": "given low"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for low from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "int i = low - 1",
+     "compute": "int_i = low - 1"
+    }
+   ],
+   "chapter_title": "6. SORTING ALGORITHMS"
+  },
+  {
+   "id": "FB_CS_C12_003",
+   "title": "Half Adder: Sum = ...",
+   "section": "9. BOOLEAN ALGEBRA",
+   "formula": "S = (A*XOR*B)/(u*m*A*XOR*B); XOR = (A*XOR*B)/(S*u*m*A*B); A = (A*XOR*B)/(S*u*m*XOR*B); u = (A*XOR*B)/(S*m*A*XOR*B); m = (A*XOR*B)/(S*u*A*XOR*B); B = (A*XOR*B)/(S*u*m*A*XOR)",
+   "_pats_extra": [],
+   "key_idea": "Half Adder (9. BOOLEAN ALGEBRA)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sum using half adder",
+    "calculate half adder",
+    "half adder formula question",
+    "given values find sum",
+    "9. boolean algebra half adder numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C12_003",
+     "question_pattern": "half adder with {A} and {XOR} and {B} find sum",
+     "extracted_variables": {
+      "A": "given A",
+      "XOR": "given XOR",
+      "B": "given B"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, XOR, B from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Sum = A*XOR*B",
+     "compute": "S = (A*XOR*B)/(u*m*A*XOR*B); XOR = (A*XOR*B)/(S*u*m*A*B); A = (A*XOR*B)/(S*u*m*XOR*B); u = (A*XOR*B)/(S*m*A*XOR*B); m = (A*XOR*B)/(S*u*A*XOR*B); B = (A*XOR*B)/(S*u*m*A*XOR)"
+    }
+   ],
+   "chapter_title": "9. BOOLEAN ALGEBRA"
+  }
+ ]
+}

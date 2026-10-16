@@ -1,0 +1,3165 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 59,
+      "path": "SKILL.md",
+      "size_bytes": 3024
+    },
+    {
+      "disposition": "inlined_source",
+      "language": "markdown",
+      "line_count": 349,
+      "path": "references/gap-priorities.md",
+      "size_bytes": 80981
+    },
+    {
+      "disposition": "inlined_source",
+      "language": "markdown",
+      "line_count": 47,
+      "path": "references/node-format.md",
+      "size_bytes": 2777
+    }
+  ],
+  "source_id": "atlas-content",
+  "source_map": [
+    {
+      "enriched_line_end": 59,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 59,
+      "source_line_start": 1
+    },
+    {
+      "enriched_line_end": 62,
+      "enriched_line_start": 60,
+      "source_file": "<generated>",
+      "source_line_end": 0,
+      "source_line_start": 0
+    },
+    {
+      "enriched_line_end": 65,
+      "enriched_line_start": 63,
+      "source_file": "references/gap-priorities.md",
+      "source_line_end": 0,
+      "source_line_start": 0
+    },
+    {
+      "enriched_line_end": 414,
+      "enriched_line_start": 66,
+      "source_file": "references/gap-priorities.md",
+      "source_line_end": 349,
+      "source_line_start": 1
+    },
+    {
+      "enriched_line_end": 416,
+      "enriched_line_start": 415,
+      "source_file": "references/gap-priorities.md",
+      "source_line_end": 0,
+      "source_line_start": 0
+    },
+    {
+      "enriched_line_end": 419,
+      "enriched_line_start": 417,
+      "source_file": "references/node-format.md",
+      "source_line_end": 0,
+      "source_line_start": 0
+    },
+    {
+      "enriched_line_end": 466,
+      "enriched_line_start": 420,
+      "source_file": "references/node-format.md",
+      "source_line_end": 47,
+      "source_line_start": 1
+    },
+    {
+      "enriched_line_end": 468,
+      "enriched_line_start": 467,
+      "source_file": "references/node-format.md",
+      "source_line_end": 0,
+      "source_line_start": 0
+    }
+  ],
+  "total_units": 342,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: atlas-content",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Add or ingest curriculum content into the Atlas CBSE platform (D:\\platform) \u2014 new NCERT chapters, Hindi subjects, topic nodes, or Classes 1-5 junior games. Use whenever the user mentions adding content, new chapters, NCERT topics, ingesting writer content, filling curriculum gaps, or authoring new educational material for Atlas.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Atlas Content Pipeline",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Add curriculum content to Atlas with zero-wrong verification. One rule above all:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "SKILL.md",
+      "text": "every fact must be verifiable against authoritative sources (NCERT/CBSE syllabus),",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "and every derived word/number must trace to an authored file. Never invent facts.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "Pipeline overview",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "Author content in the canonical format (see references)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "Place files in the canonical tree: deploy/content/enhancednodesmd/",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "SKILL.md",
+      "text": "Rebuild the index ONCE (in backend-1, 85s; copy cache JSON+pickle to backend-2)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "Deploy code changes via docker cp + OPS restart-lock (see references/deploy-flow.md)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "Verify live on :3001/:80, mirror everything to the root tree",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "SKILL.md",
+      "text": "Senior corpus (Classes 6-12): one md file = one topic node",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "SKILL.md",
+      "text": "Read references/node-format.md for the exact section spec",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "(ELI5 / DEFINITION / WALKTHROUGH / DIAGNOSTICQ&A \u22656 / COMMONMISCONCEPTION /",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "SKILL.md",
+      "text": "ONFAILURE / WORKEDEXAMPLE / PREREQUISITENODEIDS).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "File naming: <class><subject>cbse<chapter><serial>.md.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "Canonical priority: deploy/content/enhancednodesmd/ (never the stale",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "content/mdcache Desktop-era snapshot).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "Junior games (Classes 1-5): one JSON = one game",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "SKILL.md",
+      "text": "Read references/junior-games.md for the GameData spec (5 slides + 8 challenges,",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "named mascots, subject-detection via getSubjectKey in app/play/page.tsx).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "SKILL.md",
+      "text": "Files: frontend/public/data/games/c<N><Name>Game.json + register in",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "SKILL.md",
+      "text": "manifest.json. Mirror to deploy/frontend/public/data/games/.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "Quality gates \u2014 run ALL before declaring done",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "SKILL.md",
+      "text": "verifygencorpus.py pattern: every word \u22654 chars and every number in derived",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "Schema validation for junior games: 5 slides, 8 challenges, options \u22653,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "SKILL.md",
+      "text": "Answer self-consistency: no ambiguous items, no duplicate options, correct",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "SKILL.md",
+      "text": "Live verification: enrichment/questions endpoints return the new content on",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "Known traps",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "CACHEVERSION must bump in enhancednodes.py whenever the parser changes",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 51,
+      "line_start": 51,
+      "source_file": "SKILL.md",
+      "text": "content/mdcache is a dead Desktop-era snapshot \u2014 never read from it",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "SKILL.md",
+      "text": "CORPUSSUBJECTS aliases in questionselector must include the new subject",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "Board/account content historically leaked across grades \u2014 class-gate everything",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 56,
+      "line_start": 56,
+      "source_file": "SKILL.md",
+      "text": "Current gap priorities",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 58,
+      "line_start": 58,
+      "source_file": "SKILL.md",
+      "text": "Read CURRICULUMGAPS.md \u2014 it holds the per-class gap list from the 6-student",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "curriculum audit (author new chapters only where the owner approved authoring).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 0,
+      "line_start": 0,
+      "source_file": "SKILL.md",
+      "text": "references/gap-priorities.md",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 1,
+      "line_start": 1,
+      "source_file": "references/gap-priorities.md",
+      "text": "CURRICULUM GAPS \u2014 synthetic-student audits",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "references/gap-priorities.md",
+      "text": "One line per gap. Tags: MISSING / THIN / BROKEN / PREREQ-GAP, with evidence.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_40",
+      "id": 40,
+      "line_end": 4,
+      "line_start": 4,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C7 (fresh signup, Class 7, prod :3001). Audit window 2026-09-20 21:00-22:30 IST. Raw evidence: D:\\platform\\studentc7\\ (verifyall.json, verifydetail.json, ctstartscan.json, ctchaptersall.json, diagdebug.json, diagrest.json, pracall.json, pracdepth.json, tutorsessions.json, enrichrescan.json).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_41",
+      "id": 41,
+      "line_end": 5,
+      "line_start": 5,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C8 (fresh signup, Class 8, prod :3001). Audit window 2026-09-20 19:45-22:00 IST (resumed after a killed prior run). Raw evidence: D:\\platform\\c8audit\\ (corpusscan.json 561 nodes, stage6diag.json, stage7diagct.json, stage7b.json, stage7cdiagfinal.json, stage8tutor.json, diagdebug probes, s9c/s10/s11 browser shots).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_42",
+      "id": 42,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C1112 (fresh signups, Class 11 + Class 12, prod :3001). Audit window 2026-09-20 19:50-21:40 UTC (resumed after a killed prior run; token-expiry-contaminated records re-verified with fresh logins). Raw evidence: D:\\platform\\c1112audit\\ (resultsc11.jsonl 1,253 records, resultsc12.jsonl 1,194 records, reprobe.jsonl, chaptermap.json, audit.py).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_43",
+      "id": 43,
+      "line_end": 7,
+      "line_start": 7,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C6 (fresh signup, Class 6, prod :3001). Audit window 2026-09-20 19:52-22:10 UTC (resumed after a killed prior run). Raw evidence: D:\\platform\\c6audit\\ (catalog.json, chapterresults.json 59/59 chapters, sweep3results.json, enrichresults.jsonl 434/434 nodes, storyresults.json, walkD/E/F/Gresults.json + shots/, tutorcheck.json).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_44",
+      "id": 44,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C10 (fresh signup, Class 10, prod :3001). Audit window 2026-09-20 20:10-22:05 UTC (no prior Class 10 section existed to resume; started fresh). Raw evidence: D:\\platform\\c10audit\\ (p1story.jsonl 660 nodes, p2practice.jsonl 74 chapters, p3preboard.jsonl + preboardmathematics/science/socialscienceraw.json 3 full papers, p4diagtutor.jsonl 14 diagnostics + 11 tutor sessions, p5grading.jsonl, p6browser.jsonl 14 screens, shots/, phase.js harnesses).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_45",
+      "id": 45,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C9 (fresh signup, Class 9, prod :3001). Audit window 2026-09-20 20:30-23:30 UTC (no prior Class 9 section existed to resume; started fresh). Raw evidence: D:\\platform\\studentc9\\ (stage1signup.js/inventory, stage2catalog.json, stage2bnodemap.json 416 nodes, stage2clearn.json + stage2cenrichmentfull.json 416/416, stage5actcatalog.json 11 subjects, stage3457functional.json + stage345fix.json, stage68browser.json + stage6b/stage6c + shots/).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_46",
+      "id": 46,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "references/gap-priorities.md",
+      "text": "Auditor: SYNTHETIC STUDENT C15 (parent of a young child; Classes 1-5 junior-games curriculum audit). Audit window 2026-09-20 22:45-23:40 UTC. Evidence: frontend/public/data/games/manifest.json + all 133 game JSONs (slide/challenge extraction, schema check 133/133 well-formed), frontend/app/play/page.tsx SUBJECTMETA + getSubjectKey heuristics, production probes on :3001 (play HTML 200; /data/games/manifest.json 404; dream-frontend /app/public has no data/ dir), deploy/frontend/public tree, Class 6 corpus head nodes (deploy/content/enhancednodesmd/c6). Product defects in BUGS.md as [STUDENT-C15].",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_47",
+      "id": 47,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "references/gap-priorities.md",
+      "text": "Classes 1-5 (Junior)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_48",
+      "id": 48,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "references/gap-priorities.md",
+      "text": "Junior (Classes 1-5) is taught through 133 browser games at /play (class chip -> subject card -> game card), data in frontend/public/data/games/.json + manifest.json. Per class: C1 21, C2 20, C3 31, C4 28, C5 33 games; every game = 5 teaching slides + 8 challenges; 133/133 JSONs schema-valid (one per class booted end-to-end at the data layer: slides parse, challenges carry question/answer/options or interactive objects). The UI can ever show only 4 subject chips \u2014 maths, science, evs, computer \u2014 because getSubjectKey() (frontend/app/play/page.tsx) derives subjects from filename regexes; english and social chips are defined in SUBJECTMETA but can never render (0 games). Coverage % below is vs the actual CBSE/NCERT Class 1-5 syllabus (Math-Magic + Looking Around/EVS themes + Marigold English), counting a strand covered only if a game teaches it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_49",
+      "id": 49,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 1 \u2014 21 games (maths 5, EVS/science 13, computer 2). Coverage 45% (maths 55%, EVS 75%, English 0%)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_50",
+      "id": 50,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "references/gap-priorities.md",
+      "text": "COVERED \u2014 maths: counting & teen numbers to 20, comparing (CountingGame); addition AND subtraction to 20 on the number line (AdditionGame \u2014 renamed \"Add & Subtract\" in UI); 2D shapes triangle/square/rectangle/circle (ShapeSortGame); patterns (PatternsGame); heavier/lighter weight comparison (BalanceGame). EVS: body parts + 5 sense organs (BodyGame); food groups & junk food (FoodGame); personal cleanliness (CleanlinessGame); animals-sounds-homes (AnimalsGame, AnimalTypesGame \u2014 pets/wild/domestic, habitats); plants-parts-types (PlantsGame, PlantTypesGame); air (AirGame); water sources/save/reuse (WaterGame); sun/moon/day-night (SunMoonGame); transport land/water/air (TransportGame); weather & caring for Earth (EarthWeatherGame); neighbourhood places (NeighbourhoodGame); safety at home/on roads (SafetyGame). Computer: parts, input/output, mouse/keyboard care (ComputerBasicsGame, ComputerInputGame).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_51",
+      "id": 51,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 maths: numbers 21-100 (NCERT Math-Magic spends 4 chapters there; Atlas stops at 20 \u2014 CountingGame caps at teen numbers), money (coins/notes), time/daily-routine, length comparison (long/short \u2014 only weight has a game). EVS: family (the \"myself and my family\" core NCERT theme has no game in ANY junior class), clothes, festivals. English: everything (no game exists platform-wide \u2014 see bridge below).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_52",
+      "id": 52,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 one game per major maths strand: a C1 child gets 8 challenges on numbers-to-20 and nothing above; \"Which is More?\" is the only comparison exercise.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_53",
+      "id": 53,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "references/gap-priorities.md",
+      "text": "WRONG-GRADE \u2014 place-value diagram shows a Crores/Lakhs/Thousands/Ones chart with static digits 1234 on CountingGame/AdditionGame/PatternsGame slides (template reuse \u2014 a Class 1 child counting 5 apples is shown crore place value, and the chart contradicts the slide text; also the \"14 vs 9 apples\" slide draws bars 40 vs 60). Logged as [STUDENT-C15][P2 PLACE-VALUE-TEMPLATE].",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_54",
+      "id": 54,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 2 \u2014 20 games (maths 6, EVS/science 8, geography 2, physics 2, computer 2). Coverage 50% (maths 75%, EVS 65%, English 0%)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_55",
+      "id": 55,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "references/gap-priorities.md",
+      "text": "COVERED \u2014 maths: numbers to 999 & place value (NumbersGame); 2-digit add/sub with carry/borrow + word problems + estimation (AddSubGame); multiplication as repeated addition, tables 2-5, division as sharing (MulDivGame); patterns (PatternsGame); lines/shapes (ShapesLinesGame); length/weight/capacity (MeasurementGame). EVS: sense organs & body care (BodyFunctionsGame); five food groups (FoodGroupsGame); plants (PlantsGame); animals-habitats-life-cycle (AnimalsGame); air & clean surroundings/germs (AirCleanGame); water (WaterGame); safety & hygiene (SafetyCleanGame); my environment (MyEnvironmentGame). Earth/sky: day-night-seasons (EarthSunGame), directions & simple maps + water sources (DirectionsMapGame). Computer: basics + Paint/files (ComputerBasicsGame, ComputerFilesGame).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_56",
+      "id": 56,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 maths: money (NCERT \"Rupees and Paise\" strand), time (clock/calendar), data handling. EVS: family & relationships, shelter/house types (no game this class), festivals, \"how your body moves\"/games.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_57",
+      "id": 57,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 SolarSystemGame (physics-labeled) is the only space content and duplicates EarthSunGame's day-night slides at greater depth; geometry is one game.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_58",
+      "id": 58,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "references/gap-priorities.md",
+      "text": "WRONG-GRADE \u2014 NumbersUpTo999/place-value slides reuse the same Crores/Lakhs chart with digits 1234 (NCERT C2 target is 3-digit numbers; the diagram shows neither 2- nor 3-digit numbers).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_59",
+      "id": 59,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 3 \u2014 31 games (maths 9, biology 6, geography 5, evs 3, physics 2, chemistry 2, computer 4). Coverage 55% (maths 80%, EVS 70%, English 0%)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_60",
+      "id": 60,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "references/gap-priorities.md",
+      "text": "COVERED \u2014 maths: 4-digit numbers/place value/ordering (NumbersGame); addition/subtraction with carry/borrow, shop word problems (AddSubGame); 2-digit multiplication & division facts/inverse (MulDivGame); mental math & estimation (MentalMathGame); lines, tangram, tessellation (ShapesTessellationGame); cm/m + maps-and-length (MapsLengthGame); weight & capacity (WeightCapacityGame); calendar, AM/PM, 24-hour clock (TimeCalendarGame); data \u2014 pictographs, tally marks (DataPatternsGame). EVS/science: living vs non-living (LivingEVSGame); plants-parts/germination/types (PlantsGame) + uses/medicinal (PlantUsesGame); birds (BirdsGame); insects & life cycles (InsectsGame); health & mosquitoes (HealthGame); food/shelter/transport/crafts (FoodShelterGame); earth-sky-clean habits (EarthSkyGame); float/sink (FloatSinkGame); sun as energy source (SunEnergyGame); matter states (MatterGame); water & sun (WaterSunGame). Social: globe/equator (GlobeGame), 7 continents/5 oceans (ContinentsGame), directions & compass (DirectionsMapsGame), landforms/rivers-of-India (LandformsGame), natural resources (ResourcesGame). Computer: system/Windows/Word, Internet basics, Paint/files (4 games).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_61",
+      "id": 61,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 maths: money (NCERT C3 \"Rupees and Paise\"), early fractions (half/quarter are CBSE C3). EVS: family/work-people-do (only partially via FoodShelter), games-we-play, clothes, sharing/feelings.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_62",
+      "id": 62,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 division stops at division-facts (no remainders/long division before C4 Operations); one geometry shapes game for a year-long strand.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_63",
+      "id": 63,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "references/gap-priorities.md",
+      "text": "WRONG-GRADE \u2014 LivingThingsGame teaches internal organs + respiratory system + inhale/exhale (NCERT C5+ depth) to 8-year-olds while the actual NCERT C3 chapter set (Poonam's Day, It's Raining...) is covered only thinly; India-rivers/monsoon in LandformsGame is C4-5 social-science material (stretch, not harmful).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_64",
+      "id": 64,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 4 \u2014 28 games (maths 7, science 10, geography 4, evs 2, chemistry 2, computer 5). Coverage 60% (maths 80%, science 85%, social 55%, English 0%)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_65",
+      "id": 65,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "references/gap-priorities.md",
+      "text": "COVERED \u2014 maths: 6-digit numbers, Indian system, Roman numerals (NumbersGame); 4-digit operations & estimation (OperationsGame); factors/multiples/prime/HCF-LCM/divisibility (FactorsMultiplesGame); fractions \u2014 types, equivalent, like add/sub (FractionsGame); points/lines/rays, parallel/perpendicular, g/kg/mL/L (LinesMeasurementGame); tangram/tessellation/circle/symmetry/area-perimeter intro (ShapesSymmetryGame); time conversions, elapsed time, pictographs/bar graphs, patterns (TimeDataPatternsGame). Science: adaptations (AdaptationsGame); digestion + excretory (DigestionGame); food components, balanced diet, teeth (FoodTeethGame); photosynthesis/transpiration (PlantsAirGame); skin & nervous system (SkinNervousGame); living/non-living (LivingPlantsGame); light sources, shadows, opaque/transparent (LightGame); force/friction (ForceFrictionGame); physical quantities & instruments (MeasurementGame); states of matter + air composition (MatterAirGame); solutions/solubility (SolutionsFloatGame). Social: continents/oceans (ContinentsOceansGame); rotation/revolution/seasons (EarthMotionsGame); map elements & physical divisions of India (MapsIndiaGame); rivers/monsoon/vegetation/soils of India (IndiaClimateGame); changing houses/communication/transport (ChangesTransportGame). Computer: LOGO/algorithms, memory/units, internet/browser, PowerPoint, Word (5 games).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_66",
+      "id": 66,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 maths: money (NCERT C4 \"Shopping with Fathers\"); a dedicated perimeter/area game (only folded into ShapesSymmetryGame). EVS/social: family (\"Changing Families\"), games/culture, women-at-work (NCERT \"Defence Officer Wahida\"). Any history or civics content.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_67",
+      "id": 67,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 geometry: one composite game for shapes+symmetry+area+perimeter (4 NCERT strands); data handling lives inside TimeDataPatternsGame.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_68",
+      "id": 68,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "references/gap-priorities.md",
+      "text": "WRONG-GRADE \u2014 force/friction (NCERT C6 Motion & Measurement/Friction), light/shadows with transparent-translucent-opaque (NCERT C6 \"Light, Shadows and Reflections\"), air composition + respiration (C6), rotation/revolution/leap-years (C5-6 geo), monsoon/soils-of-India (C5-8 social science) are all taught one-plus year early. Marked [stretch] \u2014 accurate but above grade; the true C4 NCERT EVS narrative chapters (Nandu/Amrita/honeybees/journeys) are absent entirely.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_69",
+      "id": 69,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 5 \u2014 33 games (maths 9, biology 7, physics 5, computer 5, geography 3, evs 2, chemistry 2). Coverage 62% (maths 85%, science 90%, social 50%, English 0%)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_70",
+      "id": 70,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "references/gap-priorities.md",
+      "text": "COVERED \u2014 maths: large numbers/place value/rounding (LargeNumbersGame); multiplication tables to 20, 2-digit division, Roman numerals (LargeOperationsGame); factor trees, HCF x LCM, divisibility (FactorsMultiGame); unlike-fraction compare/add/sub/multiply/divide (FractionsAdvancedGame); decimals place value/compare/add/sub/multiply (DecimalsGame); integers on the number line (IntegersGame); percentages + data charts/graphs (PercentageDataGame); angles, 2D/3D symmetry, nets (AnglesSymmetryGame); perimeter/area with unit conversion (AreaPerimeterGame). Science: skeleton/joints (SkeletalGame); circulatory system & blood (CirculatoryGame); plant reproduction \u2014 flower structure, pollination, dispersal (PlantReproductionGame); ecosystems/food chains/waste (EcosystemWasteGame); deficiency & lifestyle diseases (HealthDiseasesGame); crops kharif/rabi, adulteration, hygiene (AgricultureHygieneGame); environment & body (EnvironmentBodyGame); physical/chemical changes & air (ChangesAirGame); luminous/shadows/eclipses (LightEclipseGame); sound & noise pollution (SoundNoiseGame); work/energy forms/renewables (WorkEnergyGame); levers & simple machines (SimpleMachinesGame); solutions/suspensions/separation (MixturesSeparationGame); states/interconversion/sublimation (StatesMatterGame). Social: latitudes/longitudes/time zones (LatLongGame); India location/neighbours/climate/vegetation (IndiaLocationGame); environment/disasters/resources (EnvironmentResourcesGame); agriculture/industries/transport/population (EconomyGame). Computer: history/generations, software, email/internet safety + LOGO, PowerPoint/Scratch, advanced Word (5 games).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_71",
+      "id": 71,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 maths: money (NCERT C5 opens with \"The Fish Tale\" \u2014 money/estimation; no money game exists in ANY class), volume/\"How Big? How Heavy?\" (cube volume, 3D-space \u2014 AnglesSymmetryGame's nets only gesture at it), mapping-your-way scale work in maths. EVS/social: family/community change (\"No Place for Us\"), heritage (\"Walls Tell Stories\"), space travel (\"Sunita in Space\") \u2014 the entire NCERT C5 narrative EVS strand; any history/civics.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_72",
+      "id": 72,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 chemistry: 2 games for a year (states + mixtures); evs: 2 games; geometry constructions absent (no ruler-compass work anywhere in junior).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_73",
+      "id": 73,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "references/gap-priorities.md",
+      "text": "WRONG-GRADE \u2014 integers (NCERT C6), percentages (C7), fraction multiplication/division (C6), decimal multiplication (C6-7), flower sexuality/androecium-gynoecium (C7), levers Class I/II/III (C6+), work=force x displacement concept (C9 formal), solutions/suspensions/colloids (C6), EconomyGame's industries/population/\"Economic Growth & Development\" (NCERT C8-10 economics \u2014 a 10-year-old taught GDP-adjacent content with zero scaffolding). Much of this is beneficial stretch that smooths the C6 handoff (flagged [stretch]) \u2014 EconomyGame and PlantReproductionGame are the two genuinely mis-graded ones.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_74",
+      "id": 74,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "references/gap-priorities.md",
+      "text": "The advertised-subject check (SUBJECTMETA: maths/science/evs/english/social/computer)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_75",
+      "id": 75,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "references/gap-priorities.md",
+      "text": "POPULATED for every class \u2014 maths (4-9 games), science (as physics+bio+chem buckets merged by the UI; 8-14 games), computer (2-5 games), evs (4-7 games as catch-all). No class x functioning-subject combo is empty.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_76",
+      "id": 76,
+      "line_end": 48,
+      "line_start": 48,
+      "source_file": "references/gap-priorities.md",
+      "text": "EMPTY EVERYWHERE \u2014 english: 0 of 133 games in all 5 classes (the chip can never render; the \"\ud83d\udcd6 English\" subject does not exist). social: 0 games \u2014 geography games (Globe, Continents, Maps, LatLong, India, Economy) are silently folded into the \"EVS\" chip by the filename heuristic, so a parent sees \"EVS\" containing both plants and time-zones, and no social-studies subject at all.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_77",
+      "id": 77,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "references/gap-priorities.md",
+      "text": "Internal subject fields in the JSONs (maths/physics/biology/chemistry/geography/evs/cs) match neither SUBJECTMETA nor each other; the manifest's subject key is undefined for all 133 entries and the page re-derives it from filenames ([STUDENT-C15][P3]).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_78",
+      "id": 78,
+      "line_end": 50,
+      "line_start": 50,
+      "source_file": "references/gap-priorities.md",
+      "text": "29 of 133 games (12 of 28 C4 games; 17 of 33 C5 games \u2014 more than half the C5 catalog) have EMPTY cisceNodes mappings \u2014 no syllabus-node linkage for e.g. c4FractionsGame, c5IntegersGame, c5LatLongGame.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_79",
+      "id": 79,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 5 -> Class 6 bridge assessment",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_80",
+      "id": 80,
+      "line_end": 53,
+      "line_start": 53,
+      "source_file": "references/gap-priorities.md",
+      "text": "The Class 6 corpus (434 nodes; math opens \"Numbers In Our Everyday Life\", physics opens \"What is science\", english u1 opens plot/setting, grammar opens subject/predicate, history starts at ch04 early-cities) assumes: number sense with large numbers + estimation, number-line fluency, fractions-decimals comfort, chart reading, fluent English reading, and some social-science framing.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_81",
+      "id": 81,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "references/gap-priorities.md",
+      "text": "BRIDGED WELL (verified game-to-node) \u2014 maths: LargeNumbers/rounding -> estimation & supercells; IntegersGame's number line -> C6 number-line work; FractionsAdvanced + Decimals -> C6 fraction/decimal chapters (Atlas C5 is actually AHEAD of NCERT C5 here); PercentageDataGame's charts -> data handling; AreaPerimeter/AnglesSymmetry -> C6 mensuration/basic-geometry. Science: StatesMatter -> C6 chemistry; LightEclipse/WorkEnergy/SimpleMachines -> C6 physics \"what is science\" and beyond; Circulatory/PlantReproduction -> C6 biology (because they are already C6-7 material). Geography: LatLongGame is literally C6 geography ch2 content a year early.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_82",
+      "id": 82,
+      "line_end": 55,
+      "line_start": 55,
+      "source_file": "references/gap-priorities.md",
+      "text": "BRIDGE BROKEN 1 \u2014 English literacy: zero -> 50 nodes. No junior game teaches the alphabet, phonics, reading, or grammar; Class 6 opens with 50 english nodes (plot/setting comprehension) + 12 grammar nodes (subject/predicate) and every story/walkthrough in fluent English prose. A child raised entirely on Atlas junior has never read a paragraph on the platform. This is the single largest handoff failure.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_83",
+      "id": 83,
+      "line_end": 56,
+      "line_start": 56,
+      "source_file": "references/gap-priorities.md",
+      "text": "BRIDGE BROKEN 2 \u2014 History/civics: zero -> 56+41 nodes. Junior has no timeline/ancient-life/family-tree/community content at all; C6 history starts mid-book at ch04 (early cities) with no \"what is history\" ramp \u2014 the platform's own C6 corpus lacks ch01-03 for history and ch01-09 for civics, so the gap starts before the corpus does.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_84",
+      "id": 84,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "references/gap-priorities.md",
+      "text": "BRIDGE BROKEN 3 \u2014 Money. NCERT teaches money every year C1-C5; Atlas teaches it in none. C6 math's everyday-numbers chapter assumes coin/note/price fluency a child never practiced here.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_85",
+      "id": 85,
+      "line_end": 58,
+      "line_start": 58,
+      "source_file": "references/gap-priorities.md",
+      "text": "BRIDGE SOFT \u2014 Reading volume/writing. Junior challenges are tap/drag MCQs only; no free writing, no sentence construction \u2014 C6 grammar expects sentence-level writing. Volume (How Big? How Heavy?) is untaught, but C6 mensuration restarts from perimeter, so impact is low.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_86",
+      "id": 86,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "references/gap-priorities.md",
+      "text": "NET: a child finishing Atlas Class 5 is mathematically READY for Class 6 (partly via above-grade stretch) and scientifically well-prepared, but cannot read the Class 6 curriculum's medium of instruction from Atlas alone, has zero history/civics foundations, and never handled money.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_87",
+      "id": 87,
+      "line_end": 61,
+      "line_start": 61,
+      "source_file": "references/gap-priorities.md",
+      "text": "Verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_88",
+      "id": 88,
+      "line_end": 62,
+      "line_start": 62,
+      "source_file": "references/gap-priorities.md",
+      "text": "Would a child finishing Atlas Classes 1-5 be ready for Atlas Class 6? Maths and science: yes \u2014 unusually so, because the junior games run a year hot. English, social science, and everyday numeracy (money): no. Top 5 critical gaps for a young learner: (1) no English whatsoever in 133 games \u2014 then Class 6 demands reading fluency; (2) the /play catalog itself is not shipped to production (404 -> zero games render; [STUDENT-C15][P1]); (3) the family/myself/festivals/clothes EVS strand and all history/civics foundations are absent before Class 6 assumes them; (4) the money strand is missing in all five classes; (5) wrong-grade visuals (crores/lakhs charts in Class 1 counting slides) plus mis-graded outliers (EconomyGame, PlantReproductionGame). Coverage bands: C1 45%, C2 50%, C3 55%, C4 60%, C5 62% of the real CBSE/NCERT junior syllabus.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_89",
+      "id": 89,
+      "line_end": 66,
+      "line_start": 66,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 6",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_90",
+      "id": 90,
+      "line_end": 68,
+      "line_start": 68,
+      "source_file": "references/gap-priorities.md",
+      "text": "Corpus studied (nodes / chapters)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_91",
+      "id": 91,
+      "line_end": 69,
+      "line_start": 69,
+      "source_file": "references/gap-priorities.md",
+      "text": "Mathematics 123/12 \u00b7 Physics 52/7 \u00b7 English 50/5 \u00b7 History 56/9 \u00b7 Civics 41/7 \u00b7 Geography 31/5 \u00b7 Economics 24/4 \u00b7 Biology 23/3 \u00b7 Chemistry 20/2 \u00b7 Grammar 12/4 \u00b7 Computer 2/1. = 434 nodes, 11 subject codes, 59 chapters; all 59 chapters swept (teach/enrichment/questions/doubts), 434/434 enrichment records, diagnostics probed in all 11 subjects, practice round-trips in all 11 subjects, full story walks in 8 subjects (browser), chapter-test run on math, real-login browser passes on diagnostic/practice/chapter-test pages. Micro-quality is strong: 434/434 nodes carry eli5 + walkthrough + examples + 10-11 diagnostic questions + misconception + definition + onfailure; the gaps are assessment, tutor, and content-to-grade mapping.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_92",
+      "id": 92,
+      "line_end": 71,
+      "line_start": 71,
+      "source_file": "references/gap-priorities.md",
+      "text": "What works (verified, for contrast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_93",
+      "id": 93,
+      "line_end": 72,
+      "line_start": 72,
+      "source_file": "references/gap-priorities.md",
+      "text": "Stories: 6-7-scene interactive narratives with commit-first checks, XP + mastery-movement finish screen \u2014 completed end-to-end in mathematics (ch01, ch07), physics (ch12), chemistry (ch05), english (u1), grammar (ch80), economics (ch11); the story doubt panel exists on every scene. (Bio/hist/geo/civics walks are fine when backends are stable \u2014 the \"Story unavailable\" dead-end they hit in one pass is the flake bug below.)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_94",
+      "id": 94,
+      "line_end": 73,
+      "line_start": 73,
+      "source_file": "references/gap-priorities.md",
+      "text": "Practice: start (201) \u2192 submit (graded: exact-match fill-blank + MCQ) \u2192 end \u2192 summary all 200 in every subject; mastery engine (BKT/IRT/SM2) updates per topic with nextreview scheduling.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_95",
+      "id": 95,
+      "line_end": 74,
+      "line_start": 74,
+      "source_file": "references/gap-priorities.md",
+      "text": "Math chapter tests: 12/12 chapters testReady with real banks (60-310 questions each); API start\u219220q\u2192answer\u2192finish 200 with score.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_96",
+      "id": 96,
+      "line_end": 75,
+      "line_start": 75,
+      "source_file": "references/gap-priorities.md",
+      "text": "Tutor teach lane: /api/tutor-graph/teach 200 on all 59 chapters with diagnostic question.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_97",
+      "id": 97,
+      "line_end": 77,
+      "line_start": 77,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN (flows a Class 6 child hits)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_98",
+      "id": 98,
+      "line_end": 78,
+      "line_start": 78,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostics cannot complete in ANY subject (same plan-mismatch defect C7/C8/C11/C12 found): /api/diagnostics/start serves questions as a list but the server grades against a hidden rotated plan (currentQuestionIndex starts at 3-4; expected sequence re-asks answered items) \u2014 answering in served order rejects 1-4 of 5 answers per subject with 400 \"Question mismatch. Expected generator:\u2026PlaceValueGenerator0, got corpus:a1d6f31d\u2026\" (11/11 subjects); batch /submit in served order is always 400 \u2192 result/misconceptions/remediation unreachable; /api/diagnostics/history stays EMPTY (totalCount 0) after 15+ attempts. One affected session can never be finished (the server permanently expects an already-answered question).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_99",
+      "id": 99,
+      "line_end": 79,
+      "line_start": 79,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 The diagnostic UI hides the failure with fake local results: app/(student)/diagnostic/page.tsx (line 1690 \"Fallback: local computation\") computes a mastery % client-side when the server submit fails \u2014 the child sees results that never reached the server (verified live with a real Class 6 login; server history still empty). No weakness profile is ever produced.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_100",
+      "id": 100,
+      "line_end": 80,
+      "line_start": 80,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostic chapter picker is Class 10-12 for every grade: SUBJECTCHAPTERS (diagnostic/page.tsx:29) offers a Class 6 child \"Algebra, Geometry, Trigonometry, Calculus\" for math, \"Nationalism, Industrialisation, Freedom Struggle\" for history, \"Development, Sectors, Money & Credit\" for economics, \"Life Processes, Cell, Heredity\" for biology.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_101",
+      "id": 101,
+      "line_end": 81,
+      "line_start": 81,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Computer diagnostic serves the grammar question set verbatim: identical question ids (ch2mcq2917, ch3mcq8954, ch2mcq8165, ch2mcq7271, ch1mcq9445) in both the grammar and computer diagnostics \u2014 a child taking \"Computer\" is tested on English grammar.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_102",
+      "id": 102,
+      "line_end": 82,
+      "line_start": 82,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Open-ended diagnostic grading accepts junk: selectedOptionId=\"OPENENDED\" (literal) on \"A juice mix is made with 2 parts orange to 5 parts water\u2026\" graded isCorrect=true; and open-ended answers can never pass /submit validation (selectedOptionId is a required string) \u2014 any diagnostic containing one is unsubmittable server-side.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_103",
+      "id": 103,
+      "line_end": 83,
+      "line_start": 83,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Tutor doubts misroute across class and subject: \"What is symmetry?\" (c6 physics) answered with Class 11 PSYCHOLOGY node c11psycbse04008 (\"Perceptual organisation\") plus its story link; \"photosynthesis\" (c6 bio) answered with Class 10 c10biocbse01002; c6 grammar answered with Class 11 trigonometric identities; a c6 math node question answered with English \"Writing Skills based on Why the Novel Matters\" (tutorcheck.json, storyresults.json).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_104",
+      "id": 104,
+      "line_end": 84,
+      "line_start": 84,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 40% of doubt asks return 200 with an EMPTY answer (no text, no node): integers, early-humans, noun/verb probes in tutorcheck.json; replies also leak internal scaffolding strings \"[object Object]\" into student-visible text.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_105",
+      "id": 105,
+      "line_end": 85,
+      "line_start": 85,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Chapter-test UI shows Class 10 chapters to a Class 6 student: chapter-test/page.tsx:133 useState(myClass) initializes the class selector before auth hydration and never syncs \u2014 a real logged-in Class 6 child sees \"Chapter 1 \u00b7 The Fundamental Theorem of Arithmetic\", \"Chapter 2 \u00b7 The Zeros Of A Polynomial P(X)\", \"Chapter 3 \u00b7 A Pair Of Linear Equations In Two Variables\", \"Chapter 4 \u00b7 A Quadratic Equation\" (verified in walkF with user.classlevel=6; the API with classlevel=6 correctly returns 12 Class 6 chapters).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_106",
+      "id": 106,
+      "line_end": 86,
+      "line_start": 86,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Story \"Story unavailable\" dead-end on backend reloads: StoryMode treats any non-OK enrichment as fatal (no retry) \u2014 4 of 8 story walks hit the dead-end card while dev-driven backend-1 reloads churned; all four stories load normally (7 scenes) when backends are stable and their enrichment is 200 at rest.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_107",
+      "id": 107,
+      "line_end": 88,
+      "line_start": 88,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_108",
+      "id": 108,
+      "line_end": 89,
+      "line_start": 89,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Chapter tests for every subject except mathematics: /api/chapter-tests/chapters?classlevel=6 \u2192 science 0, socialscience 0, english 0, physics 0, chemistry 0, biology 0, history 0, geography 0, civics 0, economics 0 chapters; grammar and computer return 400 \"Unknown subject\". 419 of 434 taught nodes have no chapter-level assessment.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_109",
+      "id": 109,
+      "line_end": 90,
+      "line_start": 90,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Computer Science as a subject: 2 nodes total and both are English-composition topics (\"A paragraph\", \"An informal letter to a friend or relative\u2026\" c6compcbse85001/002). The tab exists; the subject does not.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_110",
+      "id": 110,
+      "line_end": 91,
+      "line_start": 91,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Hindi/Sanskrit: no c6 hindi/sanskrit nodes at all (same as every class) yet the diagnostic UI advertises Hindi \"Class 6 \u2013 12\".",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_111",
+      "id": 111,
+      "line_end": 92,
+      "line_start": 92,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Civics and Grammar unreachable from Learn navigation (no subject tab), same defect C7 found for class 7: 41 + 12 taught nodes a child cannot browse to.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_112",
+      "id": 112,
+      "line_end": 94,
+      "line_start": 94,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN / WRONG-GRADE",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_113",
+      "id": 113,
+      "line_end": 95,
+      "line_start": 95,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Economics is not Class 6 content: 24 nodes (Infrastructure, Banks/Interest, Barter-to-Money, Markets/Supply/Consumer awareness) are NCERT Class 10-11 economics (Money & Credit, Consumer Awareness, Indian Economic Development) \u2014 a Class 6 child is taught the wrong grade outright.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_114",
+      "id": 114,
+      "line_end": 96,
+      "line_start": 96,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Biology is Class 7-8 content: ch06 \"Adolescence\" (physical changes, reproductive maturity, hormones) is the NCERT Class 8 topic; ch09 (digestion/respiration/circulation) and ch10 (plant reproduction) are Class 7 depth; actual Class 6 science themes (components of food, fibre to fabric, sorting materials, water) are absent as such.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_115",
+      "id": 115,
+      "line_end": 97,
+      "line_start": 97,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Civics is Class 8-9 content: dominated by Fundamental Rights/Duties (Right to Equality, Right against Exploitation\u2026) instead of Class 6 civics (diversity, family/community, rural local government).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_116",
+      "id": 116,
+      "line_end": 98,
+      "line_start": 98,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Grammar: 12 nodes for a school year (sentences, noun families, 3 tense nodes, a/an, prepositions, conjunctions) \u2014 no punctuation, adjectives/adverbs, voice, reported speech, or vocabulary strand; also degenerate practice (1 question served of 5 requested).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_117",
+      "id": 117,
+      "line_end": 99,
+      "line_start": 99,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Chemistry covers a year in 2 chapters (20 nodes); computer in 1; economics 4 \u2014 vs mathematics' 12 chapters/123 nodes. Depth is wildly uneven across subjects.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_118",
+      "id": 118,
+      "line_end": 100,
+      "line_start": 100,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Practice pools degenerate outside math: requesting 5 questions serves geography 1, english 1, grammar 1, civics 2, computer 2 (mathematics 4-5) \u2014 mirrors the C8 pool-floor defect.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_119",
+      "id": 119,
+      "line_end": 101,
+      "line_start": 101,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Physics entry nodes are filler: first nodes titled just \"Science\", \"The scientific method\", \"Scientific temper\" \u2014 generic rather than NCERT Class 6 physics.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_120",
+      "id": 120,
+      "line_end": 102,
+      "line_start": 102,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Chapter-test titles are auto-fragment node titles: \"Chapter 3 \u00b7 A Fraction\", \"Chapter 5 \u00b7 A Variable\", \"Chapter 7 \u00b7 A Point\", \"Chapter 12 \u00b7 A Number Pattern\" \u2014 article-led fragments, not NCERT chapter names (Fractions, Algebra, Basic Geometrical Ideas, Patterns).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_121",
+      "id": 121,
+      "line_end": 104,
+      "line_start": 104,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_122",
+      "id": 122,
+      "line_end": 105,
+      "line_start": 105,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 No readiness signal into Class 7: diagnostics never complete/record (above), so the platform cannot tell whether a child is ready for Class 7 integers/fractions/algebra; the only working assessment (math chapter tests) covers one subject out of eleven.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_123",
+      "id": 123,
+      "line_end": 106,
+      "line_start": 106,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Off-grade teaching builds wrong foundations: a child who \"finishes\" Atlas Class 6 economics/biology/civics has actually studied Class 8/10/11 topics and missed the Class 6 NCERT strands those subjects assume.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_124",
+      "id": 124,
+      "line_end": 108,
+      "line_start": 108,
+      "source_file": "references/gap-priorities.md",
+      "text": "Verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_125",
+      "id": 125,
+      "line_end": 110,
+      "line_start": 110,
+      "source_file": "references/gap-priorities.md",
+      "text": "Would a child finishing Atlas Class 6 excel in Class 7? Not on the current platform. The daily reading loop is genuinely strong \u2014 434/434 complete story-backed nodes with ELI5, walkthroughs, worked examples, misconceptions and quick-checks \u2014 and math practice + math chapter tests are real. But Atlas cannot assess (diagnostics dead and silently faked; chapter tests math-only), cannot answer doubts reliably (misrouted across classes, 40% empty), teaches the wrong grade outright in three subjects (economics/biology/civics), and effectively lacks Computer Science, Hindi, and a navigable grammar curriculum. Priority order: (1) diagnostic plan-mismatch + fake-local-results fix, (2) tutor doubt routing for junior classes, (3) chapter-test banks for the 10 untested subjects + the class-default UI bug, (4) right-grade content decision for economics/biology/civics, (5) grammar/computer corpus build-out or honest tab removal.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_126",
+      "id": 126,
+      "line_end": 114,
+      "line_start": 114,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 7",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_127",
+      "id": 127,
+      "line_end": 116,
+      "line_start": 116,
+      "source_file": "references/gap-priorities.md",
+      "text": "Platform state verified first: 586 c7 nodes across maths 153 / physics 72 / history 86 / english 75 / geography 54 / economics 42 / biology 36 / civics 33 / chemistry 24 / grammar 9 / writing 2. All 586 nodes pass the content contract (detail 200 with definition+walkthrough+misconception+onfailure; enrichment 200 with eli5+examples+>=1 diagnostic question; >=1 practice-bank question; tutor-graph/teach 200). The gaps below are what a Class 7 child actually hits while using it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_128",
+      "id": 128,
+      "line_end": 118,
+      "line_start": 118,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN (flows that fail in normal student use)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_129",
+      "id": 129,
+      "line_end": 120,
+      "line_start": 120,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostics cannot complete in ANY Class 7 subject: answering a served question is rejected with 400 \"Question mismatch. Expected corpus:0dee8bbd-..., got corpus:bb07563a-...\" (math), \"Expected RHYMENUM8367, got corpus:6aa2e65d-...\" (english) \u2014 the adaptive plan served to the student and the plan the server checks answers against diverge; session stuck at 2/5 or 4/5, submit returns 400 \"Diagnostic incomplete\", result/remediation/misconceptions unreachable; reproduced 4x across math/english/science/socialscience (evidence diagdebug.json, diagrest.json; backend log AttributeError \"plan exhausted\" at backend/api/diagnostics.py:265 via diagnosticservice.py:1202 irtselect).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_130",
+      "id": 130,
+      "line_end": 121,
+      "line_start": 121,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Science/English/Social-science diagnostics 500 on the final question even when earlier answers are accepted: HTTP 500 empty body, traceback AttributeError(\"plan exhausted\") from selector.getnextquestion (dream-backend-1/2 logs, 2026-09-20 21:05) \u2014 child can never finish a science/english/SST diagnostic, so the misconception-remediation engine is dead for 3 of 4 subject groups.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_131",
+      "id": 131,
+      "line_end": 122,
+      "line_start": 122,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Chapter tests exist for only a fraction of the taught syllabus: physics 0 of its chapters (GET /api/chapter-tests/chapters?subject=physics&classlevel=7 returns {\"chapters\":[]} while the UI lists Physics as a test subject \u2014 empty picker); science 3 chapters (Metals/Life Processes/Growth of a Plant) vs 12 \"Curiosity\" chapters taught \u2014 Light, Electricity, Heat Transfer, Time-and-Motion, Adolescence, Earth-Moon-Sun all untestable; english 5 vs 15 taught (all poetry chapters ch11-15 untestable); socialscience 8 vs 44 discipline-chapters (hist 11 + geo 11 + civ 11 + eco 11); biology 3/12, chemistry 2/12, geography 5/11, history 8/11, civics 3/11, economics 4/11 (evidence ctchaptersall.json; out-of-range starts all return 503 \"Not enough questions for this chapter yet \u2014 0 available\").",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_132",
+      "id": 132,
+      "line_end": 123,
+      "line_start": 123,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Learn -> Chapter Test deep link opens the wrong subject for most tabs: /learn passes subject key chem/bio/maths/geo/eco/cs/hindi to /chapter-test, whose accepted keys are chemistry/biology/mathematics/geography/economics/... \u2014 unmatched keys silently fall back to Mathematics (app/(student)/chapter-test/page.tsx line 167 SUBJECTS.some(s => s.key === qSub)); a child finishing a Geography lesson who clicks chapter-test gets a MATH test preselected (only physics/english/history keys match).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_133",
+      "id": 133,
+      "line_end": 124,
+      "line_start": 124,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Intermittent \"no enhanced node\" 404s on content that exists: GET /api/content/nodes/c7physch011001/enrichment returned 200 (19:55 sweep), then 404 x20 consecutively (21:20), then 200 again in a sequential sweep (21:35) \u2014 worker-level content-cache divergence; StoryMode treats non-OK enrichment as fatal loadError (components/story/StoryMode.tsx:501), so a child opening that story sees an error screen until a lucky retry; tutor sessions on the same node 404 \"Enrichment content for node not found\" in the same window.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_134",
+      "id": 134,
+      "line_end": 125,
+      "line_start": 125,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Backend sheds load under one student's normal browsing: 4 parallel GET /api/content/nodes/{id}/enrichment produced 137 of 586 (23%) HTTP 503s; all 137 return 200 when requested sequentially \u2014 a Class 7 dashboard/story tab-storm breaks pages that work one-at-a-time (enrichrescan.json + sequential retest all-200).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_135",
+      "id": 135,
+      "line_end": 127,
+      "line_start": 127,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING (syllabus that does not exist)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_136",
+      "id": 136,
+      "line_end": 129,
+      "line_start": 129,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Hindi (core CBSE Class 7 second language): learn tab exists but GET /api/content/enrichment?subject=hindi&classlevel=7 returns 0 nodes; practice start 503 \"No questions available for this subject/topic combination\"; zero c7hin nodes in catalog \u2014 a CBSE Class 7 report card without Hindi.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_137",
+      "id": 137,
+      "line_end": 130,
+      "line_start": 130,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Sanskrit (CBSE Class 7 third language option): no nodes, no subject, no UI trace anywhere.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_138",
+      "id": 138,
+      "line_end": 131,
+      "line_start": 131,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Computer Science content behind an empty tab: learn page ships a \"Computer Science\" tab (key cs) that returns 0 nodes for class 7; the only writing/IT-adjacent content (2 nodes c7compch085) is not linked to any tab.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_139",
+      "id": 139,
+      "line_end": 132,
+      "line_start": 132,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Civics and Grammar are taught (33 + 9 nodes) but unreachable in the Learn UI: the subject tab list (app/(student)/learn/page.tsx SUBJECTS) has no civics and no grammar entry; a Class 7 child cannot navigate to Constitution/Parliament lessons or the grammar chapters from Learn at all.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_140",
+      "id": 140,
+      "line_end": 134,
+      "line_start": 134,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN (exists but would not prepare a child for Class 8)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_141",
+      "id": 141,
+      "line_end": 136,
+      "line_start": 136,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Grammar: 3 chapters / 9 nodes total (clauses, tense perfect/continuous, modifiers/determiners/conjunctions) \u2014 no voice, reported speech, modals, prepositions, punctuation, letter/essay formats as standalone teaching; 1 question per practice session (pracdepth.json grammar: served 1).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_142",
+      "id": 142,
+      "line_end": 137,
+      "line_start": 137,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Writing/composition: 2 nodes only (informal letter, school notice) for a full composition strand; no formal letter, essay, story-writing, dialogue or summary teaching.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_143",
+      "id": 143,
+      "line_end": 138,
+      "line_start": 138,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Practice pools for non-math subjects: requesting 20 questions serves science 2, socialscience 1, physics 1, english 7, grammar 1, computer 1 (mathematics 11) \u2014 a 10-question practice in Science serves 1-2 items then ends (pracdepth.json).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_144",
+      "id": 144,
+      "line_end": 139,
+      "line_start": 139,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Chemistry depth: 24 nodes across 12 chapters = 2 concepts per chapter (e.g. \"Rusting\" and \"Thermal conduction\" as a chapter's entire teaching); same pattern civics 3/chapter, economics 4/chapter.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_145",
+      "id": 145,
+      "line_end": 140,
+      "line_start": 140,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Math chapter 11 \"Common Factors Of Two Numbers\": 4 nodes vs 15 per earlier chapter \u2014 final chapter is a stub next to ch01-ch10's 14-15 each.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_146",
+      "id": 146,
+      "line_end": 141,
+      "line_start": 141,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 English chapter tests: only 5 of 15 chapters testable, so 10 taught chapters (incl. all poetry chapters 11-15: rhyme, imagery, metaphor/simile, poem analysis) have no chapter-test path.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_147",
+      "id": 147,
+      "line_end": 142,
+      "line_start": 142,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Diagnostic question delivery: node enrichment carries >=1 diagnostic question per node (verified 586/586) but the diagnostic SESSION engine cannot serve its own plan consistently (see BROKEN above), so depth of question bank is unverifiable in-session.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_148",
+      "id": 148,
+      "line_end": 144,
+      "line_start": 144,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_149",
+      "id": 149,
+      "line_end": 146,
+      "line_start": 146,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Math test catalog ch12-ch15 (\"Decimals\", \"A Statistical Question\", auto-titled \"Geometric constructions...\", \"An Equation\") have chapter tests but NO Class 7 learn nodes exist beyond ch011 \u2014 either 4 chapters are testable-but-never-taught, or the test taxonomy and the learn taxonomy have diverged; the child sees test chapters that do not exist in their lessons (ctchaptersall.json math list vs listmath.json node ids).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_150",
+      "id": 150,
+      "line_end": 147,
+      "line_start": 147,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Three conflicting chapter taxonomies for the same content: physics c7 has 11 chapters in the node catalog (c7physch001-ch011), 7 chapters in the learn enrichment store, and 0 in the chapter-test catalog; a child cannot form a stable mental map of \"what are my chapters\" per subject.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_151",
+      "id": 151,
+      "line_end": 149,
+      "line_start": 149,
+      "source_file": "references/gap-priorities.md",
+      "text": "Product-defect adjacents (full details in BUGS.md as [STUDENT-C7])",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_152",
+      "id": 152,
+      "line_end": 151,
+      "line_start": 151,
+      "source_file": "references/gap-priorities.md",
+      "text": "Learn page class selector defaults to Class 10 for every user including Class 7 students (useState(10), never reads user classlevel) \u2014 a Class 7 child lands on Class 10 physics unless they notice the selector.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_153",
+      "id": 153,
+      "line_end": 152,
+      "line_start": 152,
+      "source_file": "references/gap-priorities.md",
+      "text": "Chapter-test chapter titles are auto-generated node-definition fragments: \"Chapter 1 \u00b7 Story setting encompasses the physical location\", \"Chapter 14 \u00b7 Geometric constructions involve drawing precise figures\", \"Chapter 4 \u00b7 Hist \u00b7 Ch 04\" (title literally missing).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_154",
+      "id": 154,
+      "line_end": 153,
+      "line_start": 153,
+      "source_file": "references/gap-priorities.md",
+      "text": "Tutor doubt replies leak internal scaffolding to students: \"--- MISCONCEPTION TM001 --- ... NODE: , , , , , ,\" rendered in the reply body; hint endpoint text is teacher-directed (\"Direct the student to draw...\", \"have the student trace...\") but is shown to the child.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_155",
+      "id": 155,
+      "line_end": 154,
+      "line_start": 154,
+      "source_file": "references/gap-priorities.md",
+      "text": "GET /api/practice/review/{studentid} takes 155.5s to return an empty review queue (timed 2026-09-20) \u2014 any UI calling it hangs for 2.5 minutes.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_156",
+      "id": 156,
+      "line_end": 156,
+      "line_start": 156,
+      "source_file": "references/gap-priorities.md",
+      "text": "Verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_157",
+      "id": 157,
+      "line_end": 158,
+      "line_start": 158,
+      "source_file": "references/gap-priorities.md",
+      "text": "Would a child finishing Atlas Class 7 excel in Class 8? Not on the current platform. The per-node teaching content (story/read path) is genuinely complete and strong for the four core subject groups \u2014 586/586 nodes carry definition, walkthrough, ELI5, worked examples, misconception, on-failure guidance and quick-check questions. But the assessment layer that should prove mastery is broken (diagnostics) or missing for most chapters (chapter tests), practice is a math-only experience in practice, an entire CBSE subject (Hindi) is absent, and navigation bugs hide Civics/Grammar and mislead subject selection. Priority order: fix the diagnostic plan mismatch, fill chapter-test coverage, ship Hindi or remove the tab, fix the learn/chapter-test subject-key and class-default bugs.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_158",
+      "id": 158,
+      "line_end": 162,
+      "line_start": 162,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 8",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_159",
+      "id": 159,
+      "line_end": 164,
+      "line_start": 164,
+      "source_file": "references/gap-priorities.md",
+      "text": "Corpus studied (nodes / chapters, first topic of every subject story-walked)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_160",
+      "id": 160,
+      "line_end": 165,
+      "line_start": 165,
+      "source_file": "references/gap-priorities.md",
+      "text": "Mathematics 155/23 CT chapters \u00b7 Physics 100/0 CT chapters \u00b7 English 85 (+9 grammar)/10 \u00b7 History 56/10 \u00b7 Civics 46/10 \u00b7 Economics 36/6 \u00b7 Biology 24/4 \u00b7 Chemistry 24/4 \u00b7 Geography 24/4 \u00b7 Grammar 9/0 \u00b7 Computer Science 2/0 \u00b7 Hindi 0. = 561 nodes, 11 subject codes + Hindi; 12-question diagnostic scans on 9 subjects, 3x6-question practice depth probes on 9 subjects, 15-question chapter tests finished+graded on 9 subjects, full story walks on 11 subjects, tutor doubts on 11 subjects. Corpus micro-quality is good: 561/561 nodes carry definition, walkthrough, ELI5, worked examples (1 exception) and \u22656 diagnostic Q&A pairs; the gaps are coverage- and product-level.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_161",
+      "id": 161,
+      "line_end": 167,
+      "line_start": 167,
+      "source_file": "references/gap-priorities.md",
+      "text": "What works (verified, for contrast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_162",
+      "id": 162,
+      "line_end": 168,
+      "line_start": 168,
+      "source_file": "references/gap-priorities.md",
+      "text": "Story layer: all 11 subjects' first topics walk end-to-end (6-7 scenes: Idea \u2192 Worked Examples \u2192 Watch out \u2192 Quick Check \u2192 finish) with XP/mastery screen; Quick Check commit-cards render well (c8mathch11: \"Why 5\u00b2 \u2260 2\u00d75\" with area model).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_163",
+      "id": 163,
+      "line_end": 169,
+      "line_start": 169,
+      "source_file": "references/gap-priorities.md",
+      "text": "Chapter tests (where the catalog has chapters): start/answer/finish/result all 200 on 9 subjects; per-node breakdown with storyUrl deep links for weak nodes verified (math ch1: 12-node breakdown, 15/15 review items).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_164",
+      "id": 164,
+      "line_end": 170,
+      "line_start": 170,
+      "source_file": "references/gap-priorities.md",
+      "text": "Practice UI (mathematics): session start, submit, instant feedback, auto-advance all work in a real browser.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_165",
+      "id": 165,
+      "line_end": 171,
+      "line_start": 171,
+      "source_file": "references/gap-priorities.md",
+      "text": "Board-question bank attached to class 8: 10,597 questions (math 2,986 / physics 1,938 / engl 1,617 / hist 1,022 / civ 874 / eco 656 / chem 471 / bio 469 / geo 437).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_166",
+      "id": 166,
+      "line_end": 173,
+      "line_start": 173,
+      "source_file": "references/gap-priorities.md",
+      "text": "Gaps",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_167",
+      "id": 167,
+      "line_end": 175,
+      "line_start": 175,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Hindi subject, end to end: 0 teaching nodes (/api/nodes/by-class-subject?class=8&subject=hind \u2192 404 \"no teaching nodes\"), diagnostic start \u2192 503 \"Question bank returned no questions\", practice \u2192 503 \"No questions available\", 0 rows in boardquestions, no chapter-test catalog \u2014 yet the diagnostic UI advertises Hindi \"Class 6 \u2013 12\" with chapters \u0935\u094d\u092f\u093e\u0915\u0930\u0923/\u0917\u0926\u094d\u092f/\u092a\u0926\u094d\u092f/\u0932\u0947\u0916\u0928 that start into an error. A core CBSE subject simply does not exist for class 8.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_168",
+      "id": 168,
+      "line_end": 176,
+      "line_start": 176,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Computer Science as a subject: 2 nodes total (both missing required CHAINDESCRIPTION), /learn shows \"Computer Science 0 topics\" (nodes unreachable from the UI), practice pool 4 unique questions led by gibberish (\"The logistics checklist inside the warmth: What (birthday dinner), Whe\u2026\"), chapter-tests \u2192 400, board questions 21.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_169",
+      "id": 169,
+      "line_end": 177,
+      "line_start": 177,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Physics chapter tests: /api/chapter-tests/chapters?subject=physics&classlevel=8 \u2192 200 with {\"chapters\":[]} while chemistry/biology have 4 and science 6; the /chapter-test UI still offers Physics \u2014 empty picker. 100 taught physics nodes with zero chapter-level assessment.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_170",
+      "id": 170,
+      "line_end": 178,
+      "line_start": 178,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostics cannot complete in ANY subject (same plan-mismatch defect C7/C11/C12 found): the served question order and the graded plan diverge \u2192 answer 400 \"Question mismatch. Expected RHYMEMCQRhyme and Sound Play9840, got corpus:07e93adb-\u2026\" from Q2 onward; submit \u2192 400 \"Diagnostic incomplete: 2/12\"; result/remediation \u2192 400. UI-verified twice (Mathematics: 9 of 12 answer calls 400; English same pattern then auth death): the \"results\" screen the child sees is a frontend-local fallback computing 0% / \"0 of 11 correct\" for every subject. No weakness profile or remediation is ever produced for a class 8 child.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_171",
+      "id": 171,
+      "line_end": 179,
+      "line_start": 179,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Class 8 Mathematics diagnostic content is off-grade in both directions: of 12 served questions 5 are Class 11-level (equivalence relations with literal unrendered A = {nums} placeholder \u2014 3 PLACEHOLDER questions, one with duplicated options), 3 are Class 5-6 level (place value, tally marks, Indian-system conversion), 1 is MCQ-shaped with zero options. Diagnostic \"chapters\" offered for class 8 math: Algebra, Geometry, Trigonometry, Calculus \u2014 neither trigonometry nor calculus is CBSE Class 8.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_172",
+      "id": 172,
+      "line_end": 180,
+      "line_start": 180,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Tutor doubts refuse or misroute for Class 8: plain conceptual questions return raw JSON refusals {\"verified\": false, \"label\": \"GUIDEDPRACTICE\", \"refusalreason\": \"Needs variable binding (Lane C)\u2026\"} for History (\"Why did the Battle of Plassey happen in 1757?\"), Geography, Economics, and Hindi (refused in English); the vaccine question is answered with Red Biotechnology content; civ \"universal adult franchise\" answered with women's-representation content; the Story doubt panel returns LIPIDS content for both c8civch11 (Universal Adult Franchise) and c8ecoch11 (The Production Process), and \"work simplification\" (home-science) for geo \"A Resource\". One wrong cached answer served across multiple subjects.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_173",
+      "id": 173,
+      "line_end": 181,
+      "line_start": 181,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 30-minute access token expires mid-study with no silent refresh: English UI diagnostic recorded answers 1-7, then Q8+ all 401 with submit/result/remediation 401 \u2014 session dead mid-quiz. Any Class 8 session over 30 minutes (diagnostic + practice, or a long story chain) fails for a child who cannot re-login mid-flow.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_174",
+      "id": 174,
+      "line_end": 182,
+      "line_start": 182,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Grammar nodes are orphaned and mislabelled: all 9 class-8 gram nodes missing required CHAINDESCRIPTION; c8gramcbse81001 (passive voice) has no worked example; no Grammar tab on /learn so the nodes are unreachable by browsing; the story header renders \"Science \u00b7 Class 8\" over the English-grammar topic c8gramcbse80001 (tense system).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_175",
+      "id": 175,
+      "line_end": 183,
+      "line_start": 183,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Practice pools near-empty for half the subjects: chemistry serves the SAME single question every session (3 sessions: 1/1/1 questions); grammar 4/2/1; computer 2/1/1; economics 4/3/6 \u2014 \"5 questions \u2022 Adaptive difficulty\" is impossible; a chem child re-answers one question forever.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_176",
+      "id": 176,
+      "line_end": 184,
+      "line_start": 184,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Chapter-test chapter titles are topic fragments or empty: chemistry class 8 lists \"Chapter 2\" (no title at all), mathematics \"Chapter 1 \u00b7 A Square Number\" (topic title, not NCERT \"Squares and Square Roots\"), history \"Chapter 1 \u00b7 The Turkic and Afghan invasions\" \u2014 a child cannot tell which NCERT chapter they are testing.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_177",
+      "id": 177,
+      "line_end": 185,
+      "line_start": 185,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 English corpus optional sections: 73 of 85 engl nodes have empty CROSSSUBJECT sections (86%); same pattern chem 16/24, bio 15/24, eco 10/36, math 29/155.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_178",
+      "id": 178,
+      "line_end": 186,
+      "line_start": 186,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Social Science depth vs NCERT: geography carries 24 nodes / 4 testable chapters for Resources-and-Development; civics 46 nodes / 10 chapters \u2248 4-5 concepts per chapter \u2014 the three Class 8 SST books are covered at roughly one-third the per-chapter density of mathematics (155 nodes / 16 NCERT chapters).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_179",
+      "id": 179,
+      "line_end": 187,
+      "line_start": 187,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 boardquestions lopsided: geo 437 / bio 469 / chem 471 vs math 2,986 \u2014 geography/biology/chemistry draw from a 7x smaller bank.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_180",
+      "id": 180,
+      "line_end": 188,
+      "line_start": 188,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Study tools are class-agnostic: /api/content/class-content returns identical generic decks for class 8 and class 10 (same item IDs, targetclass:[1..12]); no Class 8-specific flashcards/formula bank/glossary (no square-root table, algebraic identities, or force-pressure formula cards a Class 9-bound child needs).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_181",
+      "id": 181,
+      "line_end": 189,
+      "line_start": 189,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Computer Science diagnostic bank: 9 questions for a class-8 CS diagnostic vs 12 everywhere else \u2014 the bank depletes inside one scan.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_182",
+      "id": 182,
+      "line_end": 190,
+      "line_start": 190,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 No reliable readiness signal for Class 9: diagnostics never complete (above) and the math diagnostic samples Class 5-6 and Class 11 material instead of Class 8 scope, so Atlas cannot tell whether a child is ready for Class 9 algebra/geometry.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_183",
+      "id": 183,
+      "line_end": 191,
+      "line_start": 191,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Hindi continuity broken: a CBSE child carries Hindi into Class 9; Atlas class 8 has zero Hindi content (above), so Atlas contributes nothing to the second language.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_184",
+      "id": 184,
+      "line_end": 192,
+      "line_start": 192,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 No bridge to Class 9: exam-prep explicitly serves \"classes 10 and 12\" only; there is no Class 9 readiness track or syllabus map at the class-8 exit point.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_185",
+      "id": 185,
+      "line_end": 193,
+      "line_start": 193,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Physics is taught (100 nodes) but never tested (0 chapter tests), leaving the weakest-assessed science exactly where Class 9 physics begins (motion, force, pressure build directly on class 8).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_186",
+      "id": 186,
+      "line_end": 195,
+      "line_start": 195,
+      "source_file": "references/gap-priorities.md",
+      "text": "Verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_187",
+      "id": 187,
+      "line_end": 197,
+      "line_start": 197,
+      "source_file": "references/gap-priorities.md",
+      "text": "Would a child finishing Atlas Class 8 excel in Class 9? Not on the current platform. The daily reading loop is real \u2014 561 complete story-backed nodes, working graded practice in the big subjects, and chapter tests with per-node story links in 9 subject catalogs. But the platform cannot assess (diagnostics dead platform-wide, physics untestable), cannot answer doubts in four subjects (tutor refusals/misroutes), is missing an entire core subject (Hindi) and effectively a second one (Computer Science: 2 orphan nodes), and practice degenerates to one repeated question in chemistry. Priority order: (1) diagnostic plan-mismatch fix (same root cause as C7/C11/C12), (2) tutor doubt routing, (3) Hindi + CS corpus decision or honest tab removal, (4) physics chapter-test bank, (5) token refresh.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_188",
+      "id": 188,
+      "line_end": 201,
+      "line_start": 201,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 9",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_189",
+      "id": 189,
+      "line_end": 203,
+      "line_start": 203,
+      "source_file": "references/gap-priorities.md",
+      "text": "Corpus studied (nodes / chapters, every node's enrichment pulled, key flows executed)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_190",
+      "id": 190,
+      "line_end": 204,
+      "line_start": 204,
+      "source_file": "references/gap-priorities.md",
+      "text": "Mathematics 84/8 ch \u00b7 Physics 64/6 ch \u00b7 Biology 45/4 ch \u00b7 English 80/8 ch (+Grammar 7, Computer 3) \u00b7 History 33/3 ch \u00b7 Chemistry 31/3 ch \u00b7 Geography 23/2 ch \u00b7 Civics 23/2 ch \u00b7 Economics 23/2 ch \u00b7 Hindi 0. = 416 nodes, 11 subject codes + Hindi; 416/416 enrichment records fetched and field-audited, 12 diagnostic subjects started API-side + exact-UI-sequence replays, 14 practice slugs round-tripped + 3x10 pool-depth probes on 5 subjects, chapter-test catalogs pulled for 11 subjects and 13 tests started\u2192answered\u2192finished, browser story walks (bio/hist 6 scenes each; cold-load checks on 12 nodes), 10 tutor doubt asks, real-login browser passes on dashboard/learn/topic/story/chapter-test/practice/tutor/diagnostic/exam-prep. Raw evidence: D:\\platform\\studentc9\\ (stage1signup.js/inventory, stage2catalog.json, stage2bnodemap.json 416 nodes, stage2clearn.json + stage2cenrichmentfull.json 416/416, stage5actcatalog.json 11 subjects, stage3457functional.json + stage345fix.json, stage68browser.json + stage6b/stage6c + shots/).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_191",
+      "id": 191,
+      "line_end": 206,
+      "line_start": 206,
+      "source_file": "references/gap-priorities.md",
+      "text": "What works (verified, for contrast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_192",
+      "id": 192,
+      "line_end": 207,
+      "line_start": 207,
+      "source_file": "references/gap-priorities.md",
+      "text": "Story data layer is complete: 416/416 nodes serve definition + walkthrough + eli5 + worked examples + common misconception + diagnostic Q&A + onfailure; browser walk of c9bioch11 and c9histch14 rendered 6 scenes each (hook \u2192 big idea \u2192 2 worked examples \u2192 trap \u2192 finish) with the doubt panel.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_193",
+      "id": 193,
+      "line_end": 208,
+      "line_start": 208,
+      "source_file": "references/gap-priorities.md",
+      "text": "Chapter tests where the catalog exists: start \u2192 answer \u2192 finish all 200 on 12 chapters across mathematics/science/chemistry/biology/history/geography/civics/economics/english; typed answers graded honestly (all-\"B\" spam \u2192 0%), per-node breakdown with weak-node Story links and model expected-answers in review.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_194",
+      "id": 194,
+      "line_end": 209,
+      "line_start": 209,
+      "source_file": "references/gap-priorities.md",
+      "text": "Practice: start/submit/end 200 in every subject; UI session renders fill-blank questions with instant feedback and auto-advance.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_195",
+      "id": 195,
+      "line_end": 210,
+      "line_start": 210,
+      "source_file": "references/gap-priorities.md",
+      "text": "Tutor text lane answered class-appropriately for math, bio, english, geo, civ (e.g. verified contradiction proof for irrational sums, Golgi apparatus); the tutor UI ask on a chemistry doubt returned a correct Tyndall-effect explanation in a real browser.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_196",
+      "id": 196,
+      "line_end": 211,
+      "line_start": 211,
+      "source_file": "references/gap-priorities.md",
+      "text": "The corpus quietly pre-teaches some Class 10 math (distance/section formula, pair-of-linear-equations, AP) \u2014 useful for boards, though it displaces actual Class 9 chapters (see below).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_197",
+      "id": 197,
+      "line_end": 213,
+      "line_start": 213,
+      "source_file": "references/gap-priorities.md",
+      "text": "Gaps",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_198",
+      "id": 198,
+      "line_end": 215,
+      "line_start": 215,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Hindi, end to end (compulsory Class 10 board subject): 0 teaching nodes (/api/nodes/by-class-subject?class=9&subject=hin|hindi \u2192 404), diagnostic \u2192 503 \"Question bank returned no questions\", practice \u2192 503, no boardquestions rows, yet the /learn \"Hindi\" tab is shown to a Class 9 child and renders \"0 topics available\" (verified in browser, s8learnhindic9.png). fixedhinc9.json exists in pipeline outputs but was never deployed. Cross-validates C8/C10 \u2014 the whole 6-10 Hindi ladder is absent.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_199",
+      "id": 199,
+      "line_end": 216,
+      "line_start": 216,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Half of NCERT Class 9 Mathematics: the corpus has 8 chapters (coordinate geometry incl. Class 10 formulas, linear equations, number systems, identities/factorisation, circles, areas/Heron, probability, sequences incl. GP) but zero nodes for Triangles (congruence), Quadrilaterals (parallelogram theorems), Lines and Angles, Euclid's geometry, Statistics, and Surface Areas & Volumes (full title list in stage2bnodemap.json; probe hits for congruen/quadrilater/statistic/surface-area/volume/cylinder/cone are only incidental mentions like \"congruent circles\" and \"cyclic quadrilateral\").",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_200",
+      "id": 200,
+      "line_end": 217,
+      "line_start": 217,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Gravitation (NCERT Class 9 physics): zero gravitation/free-fall/weight nodes in c9 physics (all 64 titles enumerated) AND zero in c10 physics per the C10 audit \u2014 a core boards numerical topic taught nowhere on the ladder.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_201",
+      "id": 201,
+      "line_end": 218,
+      "line_start": 218,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Chemistry \"Matter in Our Surroundings\" (NCERT ch1) and Biology \"Improvement in Food Resources\" (NCERT ch12): c9 chem starts at \"A mixture\" (no states-of-matter/evaporation nodes); bio probes (crop/food-resources) all NONE \u2014 foundations Class 10 chemistry/biology build on.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_202",
+      "id": 202,
+      "line_end": 219,
+      "line_start": 219,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 NCERT Class 9 Social Science is a different subject here: History teaches ancient India (Early Humans, Harappan, Vedic, Mauryan, Gupta, Chola \u2014 Class 6-7 content) instead of French Revolution/Socialism/Nazism (the French Revolution is re-taught from scratch in Atlas Class 10); Geography teaches physical geography (plate tectonics, volcanoes, atmosphere) instead of India-focused NCERT (India-Size & Location, Physical Features, Drainage, Natural Vegetation, Population); Economics teaches Class 11-12 micro (scarcity, demand/supply curves, market equilibrium, monopoly) instead of Village Palampur, People as Resource, Poverty, Food Security; Civics covers 2 of 5 NCERT chapters (Democracy, Elections; Constitutional Design/Institutions/Democratic Rights reduced to single nodes or absent). None of the missing chapters exist in the Class 10 corpus either (probes palampur/people-as-resource/drainage/natural-vegetation/population/constitutional-design/democratic-rights \u2192 0 hits c9+c10).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_203",
+      "id": 203,
+      "line_end": 220,
+      "line_start": 220,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Current-syllabus Class 9 English (Beehive + Moments): zero hits for all 11 Beehive prose/poems and all Moments titles across the 80 c9 english nodes \u2014 the corpus teaches retired Literature-Reader-era texts (\"How I Taught My Grandmother to Read\", \"The Pot Maker\", \"Vitamin-M\", \"Twin Melodies\"...). Class 10 Beehive is correctly present (C10 audit), so the two-year text/skill ladder is missing its first rung. Writing skills and grammar ride on just 7 grammar nodes.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_204",
+      "id": 204,
+      "line_end": 221,
+      "line_start": 221,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Practice pools degenerate to a handful of questions: 3 consecutive 10-question sessions yield 5 unique questions for bio, 4 for engl, 7 for math, 16 for english, 0 for hindi (stage345fix.json); sessions also serve fewer than requested (bio 1, engl 2 when 6 asked) \u2014 \"adaptive\" practice is the same 4-7 items on rotation.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_205",
+      "id": 205,
+      "line_end": 222,
+      "line_start": 222,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Zero objective/MCQ questions in Class 9 chapter tests: served tests are 100% typed (shortanswer/longanswer/fillblank/truefalse with options=[] on every question) \u2014 the Class 10 board's 20-mark MCQ/competency section is never rehearsed; truefalse items ship without True/False options.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_206",
+      "id": 206,
+      "line_end": 223,
+      "line_start": 223,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Computer Applications = 3 nodes, and the /learn CS tab shows \"0 topics\" for class 9 (nodes unreachable from the UI); grammar = 7 nodes for the full boards grammar set.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_207",
+      "id": 207,
+      "line_end": 224,
+      "line_start": 224,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Physics chapter tests unreachable \u2014 subject-code split: boardquestions stores Class 9 physics under subject physics (1,272 questions, 12 chapters, verified in Postgres) while SUBJECTCODES maps physics\u2192phy (deploy/backend/api/chaptertests.py:53) \u2014 catalog returns 200 with empty chapters, start \u2192 503 \"0 available\", UI shows \"No question bank chapters available for this subject and class yet\" (s8ctphysicsc9loaded.png); the combined \"science\" catalog also loses all physics chapters (Motion/Force/Work/Sound absent from Class 9 science tests).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_208",
+      "id": 208,
+      "line_end": 225,
+      "line_start": 225,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Every chapter-test catalog lists each chapter TWICE: two ingestion pipelines filed the same chapters as ch1..ch8 (node-derived: 147-172q, titled) and ch01..ch08 (practice-derived: 25-51q, untitled) \u2014 the Class 9 math picker shows \"Chapter 1 \u00b7 The Cartesian Coordinate System (159q)\" AND \"Chapter 1 (41q)\": 16 cards for 8 real chapters (stage5actcatalog.json, browser-confirmed).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_209",
+      "id": 209,
+      "line_end": 226,
+      "line_start": 226,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Combined \"Science\" tests mix biology and chemistry under one chapter number: \"Chapter 1 \u00b7 The Discovery Of The Cell\" = 352q = bio cell (182) + chem mixtures (170) merged by same chapter code; Science ch2 \"Subatomic Particles\" = 325q = chem (155) + bio tissues (170) \u2014 a child gets a cross-subject quiz labelled as one chapter.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_210",
+      "id": 210,
+      "line_end": 227,
+      "line_start": 227,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostics can never complete server-side for Class 9: answering the served questions always 500s on the last one (AttributeError: plan exhausted, deploy/backend/api/diagnostics.py:265 via diagnosticservice.irtselect; all 9 subjects stop at 4/5), and the exact UI sequence (post 4 answers, batch-submit all 5) also 500s \u2014 result/misconceptions/remediation unreachable; submit honestly refuses \"Diagnostic incomplete: 4/5\" so no session can ever close. Same defect family as C6/C7/C8, here reproduced end-to-end with the UI's own call pattern.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_211",
+      "id": 211,
+      "line_end": 228,
+      "line_start": 228,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 The diagnostic UI masks the failure with a client-side fake + an off-grade bank: app/(student)/diagnostic/page.tsx catches the failed submit and computes \"mastery\" locally from a hardcoded QUESTIONBANK whose chapter chips are Algebra/Geometry/Trigonometry/Calculus for a Class 9 child (chaptersmath, line 93), with correctAnswer shipped in the JS bundle; the English plan additionally mixes a Class 7 bank (400 \"Question mismatch. Expected ENG7001, got corpus:42c40c7c\u2026\").",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_212",
+      "id": 212,
+      "line_end": 229,
+      "line_start": 229,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Chapter-test picker flashes the WRONG CLASS catalog (Class 10 papers reachable from a Class 9 screen): on hard load the page mounts before auth rehydration, myClass falls back to 10, fetches and RENDERS classlevel=10 chapters first (network-logged: GET classlevel=10, then classlevel=9 seconds later; screenshot captured Class 10 chapters \"The Fundamental Theorem of Arithmetic / A Quadratic Equation / The Line Of Sight\" under ?class=9) \u2014 a child clicking during the race starts a Class 10 test; the deep-link ?class=9 does not win the race.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_213",
+      "id": 213,
+      "line_end": 230,
+      "line_start": 230,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Story dead-end on first view of cold nodes: StoryMode treats a failed enrichment fetch as fatal (\"Story unavailable. We couldn't load the lesson\u2026\") \u2014 2 of 12 first-view browser loads failed (c9mathch111, c9physicsch411) and then loaded fine on retry; server-side, 49/416 nodes 503 on cold concurrent fetch (6 parallel), 0 after warm \u2014 a classroom opening the same new chapter simultaneously hits this.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_214",
+      "id": 214,
+      "line_end": 231,
+      "line_start": 231,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Tutor doubts: empty answers and a dead realtime socket: API asks return 200 with an EMPTY answer for chemistry (43.8s), economics (34.6s) and Hindi (1.4s) (stage3457functional.json); doubts about NCERT-9 topics the corpus lacks get mis-answered from unrelated nodes (French Revolution doubt \u2192 \"social change classified by pace\"; Himalayan vs peninsular rivers \u2192 generic physiography); the tutor ITS WebSocket ws://\u2026/api/tutor/its/ws fails the handshake (ERRINVALIDHTTPRESPONSE) on every load.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_215",
+      "id": 215,
+      "line_end": 232,
+      "line_start": 232,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Junk served as test/content text: an economics chapter-test question literally opens \"Combine with c8ecoch17 (Human Capital). A rural household in Odisha\u2026\" (internal authoring instruction referencing a Class 8 node in a Class 9 test); a science test serves the meta-question \"What must you be able to do to master this topic?\" (mastery-criteria leak); chapter titles leak raw LaTeX (\"Chapter 4 \u00b7 Identities \\^2 = a^2 + 2ab + b^2\\)\u2026\") or degrade to \"Engl \u00b7 Ch 6\".",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_216",
+      "id": 216,
+      "line_end": 233,
+      "line_start": 233,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 /learn class selector defaults to 10 for every student (learn/page.tsx useState(10), never reads user.classlevel) \u2014 a fresh Class 9 child lands on Class 10 topics until they notice the selector; the enrichment list also never sets haseli5 (always false) although eli5 is populated, so ELI5 badges cannot render.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_217",
+      "id": 217,
+      "line_end": 235,
+      "line_start": 235,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP (what the Class 10 boards \u2014 and Atlas's own Class 10 course \u2014 assume Class 9 didn't teach)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_218",
+      "id": 218,
+      "line_end": 236,
+      "line_start": 236,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Congruence \u2192 Similarity: Atlas c10 Triangles starts from similarity; Class 9 congruence (SAS/ASA/AAS/RHS, isosceles theorems) is taught nowhere (0 nodes c9+c10) \u2014 board proof-geometry collapses without it.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_219",
+      "id": 219,
+      "line_end": 237,
+      "line_start": 237,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Statistics: zero statistics nodes in BOTH c9 and c10 corpora \u2014 the boards' guaranteed statistics section has no coverage anywhere on the ladder.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_220",
+      "id": 220,
+      "line_end": 238,
+      "line_start": 238,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Surface areas & volumes of solids: c9 teaches only plane areas/Heron; c10 ch12 (combined solids) assumes the Class 9 cone/cylinder/sphere foundation (c9 has no solid-geometry node).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_221",
+      "id": 221,
+      "line_end": 239,
+      "line_start": 239,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Gravitation numericals, states-of-matter, food resources: absent in both adjacent classes (above), yet assumed by Class 10 physics numericals, chemistry stoichiometry grounding and biology production chapters.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_222",
+      "id": 222,
+      "line_end": 240,
+      "line_start": 240,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 The entire NCERT Class 9 Social Science chain (modern history, India geography, constitutional design/rights, development economics) is absent in c9 and only patched in c10 (French Revolution re-taught; the rest never) \u2014 Class 10 boards' \"Understanding Economic Development\" and \"India and the Contemporary World II\" assume it.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_223",
+      "id": 223,
+      "line_end": 241,
+      "line_start": 241,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Hindi and current-syllabus English texts: two of the best-five CBSE board subjects have no Class 9 rung at all (Hindi absent classes 6-10; English teaches retired texts), so the language ladders the boards assume are one-year ladders here.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_224",
+      "id": 224,
+      "line_end": 243,
+      "line_start": 243,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 9 verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_225",
+      "id": 225,
+      "line_end": 244,
+      "line_start": 244,
+      "source_file": "references/gap-priorities.md",
+      "text": "Story/practice/chapter-test machinery works where it points at real content, and the 416-node teaching layer is uniformly rich \u2014 but the course itself is not NCERT Class 9: six of twelve math chapters are missing (incl. everything statistics/solids/congruence the boards reuse), SST and English teach a different (largely retired or higher-grade) syllabus, Hindi does not exist, and Physics chapter tests are unreachable by a subject-code typo. The child also cannot get a server-side weakness profile (diagnostics dead) and never rehearses board-format MCQs. Priority: (1) subject-code + duplicate-chapter fixes in the chapter-test catalog (small change, unblocks 1,272 physics questions), (2) diagnostic plan-exhausted 500 + local-fallback masking, (3) NCERT-9 chapter backfill for math (Triangles/Quadrilaterals/Statistics/SAV) plus the SST/English/Hindi ladder decision, (4) MCQ bank for board-format rehearsal, (5) practice pool floor per chapter.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_226",
+      "id": 226,
+      "line_end": 246,
+      "line_start": 246,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 10",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_227",
+      "id": 227,
+      "line_end": 248,
+      "line_start": 248,
+      "source_file": "references/gap-priorities.md",
+      "text": "Corpus studied (nodes / chapters \u2014 story-audited on every node, practice round-tripped on every chapter)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_228",
+      "id": 228,
+      "line_end": 249,
+      "line_start": 249,
+      "source_file": "references/gap-priorities.md",
+      "text": "Mathematics 153/14 \u00b7 English (Lang & Lit) 149/18 \u00b7 Geography 61/7 \u00b7 Chemistry 56/5 \u00b7 History 45/5 \u00b7 Biology 45/4 \u00b7 Economics 44/5 \u00b7 Physics 42/4 \u00b7 Civics 41/5 \u00b7 Grammar 16/6 (ch 90\u201395) \u00b7 Computer 8/4 \u00b7 Hindi 0. = 660 nodes, 11 subjects, 74 chapters; 660/660 story payloads, 74/74 chapter practice round-trips (190/190 answers graded), 22 live chapter-test runs across 9 subjects, all 3 pre-board papers started \u2192 answered \u2192 server-graded, 14 diagnostic subjects, 11 tutor subjects, 14 screens in a real browser.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_229",
+      "id": 229,
+      "line_end": 251,
+      "line_start": 251,
+      "source_file": "references/gap-priorities.md",
+      "text": "What works (verified, for contrast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_230",
+      "id": 230,
+      "line_end": 252,
+      "line_start": 252,
+      "source_file": "references/gap-priorities.md",
+      "text": "Story layer is the strongest in the platform: 660/660 nodes carry eli5, walkthrough, worked examples (PROBLEM/STEPS/REASONING/ANSWER strings), common misconception, and diagnostic Q&A; missingsections empty corpus-wide; every node has board questions attached (e.g. 20 on c10mathcbse01001 with marks, marking scheme and year).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_231",
+      "id": 231,
+      "line_end": 253,
+      "line_start": 253,
+      "source_file": "references/gap-priorities.md",
+      "text": "Practice: all 74 chapters of 10 subjects start \u2192 answer \u2192 graded feedback; sessions return the planned question count.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_232",
+      "id": 232,
+      "line_end": 254,
+      "line_start": 254,
+      "source_file": "references/gap-priorities.md",
+      "text": "Chapter tests: 9 subjects with every chapter testReady (banks 768\u20132,821 questions/subject; 11,857 total); live runs graded with per-node breakdowns and weak-node story links.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_233",
+      "id": 233,
+      "line_end": 255,
+      "line_start": 255,
+      "source_file": "references/gap-priorities.md",
+      "text": "Pre-board papers (mathematics/science/socialscience) render the CBSE A\u2013E section skeleton with the official marks distribution (80 marks/180 min), internal-choice pairs (choiceGroup), a countdown timer in the UI, and honest grading (junk answers \u2192 0/80, grade F) with section scores, chapterBreakdown and weakChapters.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_234",
+      "id": 234,
+      "line_end": 256,
+      "line_start": 256,
+      "source_file": "references/gap-priorities.md",
+      "text": "Tutor: 11/11 subjects reply <250 ms with class-appropriate pedagogy; hints work; out-of-syllabus probe degrades gracefully.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_235",
+      "id": 235,
+      "line_end": 257,
+      "line_start": 257,
+      "source_file": "references/gap-priorities.md",
+      "text": "Galaxy correctly counts the syllabus (\"CLASS 10 UNIVERSE 0/660 stars lit\").",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_236",
+      "id": 236,
+      "line_end": 259,
+      "line_start": 259,
+      "source_file": "references/gap-priorities.md",
+      "text": "Gaps",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_237",
+      "id": 237,
+      "line_end": 261,
+      "line_start": 261,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Hindi (A/B) does not exist for Class 10: 0 nodes (/api/nodes/by-class-subject?class=10&subject=hina|hinb|hindi \u2192 404; zero c10hin corpus files vs 240 hina nodes one class up), no practice, no chapter tests, no pre-board paper; /api/diagnostics/start Hindi \u2192 503 \"Question bank returned no questions\" while the diagnostic UI still shows a \"\ud83e\ude94 Hindi Class 6\u201312\" card. The single largest hole for a CBSE Class 10 board student (cross-validates C8's finding one grade down).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_238",
+      "id": 238,
+      "line_end": 262,
+      "line_start": 262,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 English pre-board paper: /api/preboard/papers?classlevel=10 lists only mathematics/science/socialscience \u2014 the 149-node, 2,717-question English syllabus has no board rehearsal at all.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_239",
+      "id": 239,
+      "line_end": 263,
+      "line_start": 263,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Sanskrit, IT-402, AI-417 and every other Class 10 board subject outside the 11-subject corpus: zero nodes anywhere.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_240",
+      "id": 240,
+      "line_end": 264,
+      "line_start": 264,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Chapter tests for Grammar and Computer: /api/chapter-tests/chapters?subject=grammar|computer&classlevel=10 \u2192 400 \"Unknown subject 'computer'.\" \u2014 2 of 11 subjects cannot be chapter-tested.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_241",
+      "id": 241,
+      "line_end": 265,
+      "line_start": 265,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Class 10 grammar practice serves ONLY propositional-logic questions: all 6 grammar chapters (tenses/modals/reported speech/passive; c10gramcbse90..95001) return \"The symbol '\u2192' represents the connective\" and \"'I will pass AND I will not pass' \u2192 tautology/contradiction\" items (13/13 questions across 6 probes) \u2014 leak from the applied-maths bank deploy/backend/solvers/appmath/class10appmathquestions.py (ids C10-APP-\u2026); a child practising CBSE Class 10 grammar trains Boolean logic instead, 100% of the time.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_242",
+      "id": 242,
+      "line_end": 266,
+      "line_start": 266,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Pre-board math Q21\u201324 are unanswerable as rendered: question text embeds options (\"A) The Ganga river flows through Varanasi \u2026 D) Neither A nor B\") while the served options array is a different set (\"It is a proposition\"/\"It is not a proposition\"/\u2026); Q24 duplicates \"It cannot be determined\" twice \u2014 4 consecutive broken 1-mark MCQs in the paper a child sees first.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_243",
+      "id": 243,
+      "line_end": 267,
+      "line_start": 267,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Mathematics pre-board carries \u226512 out-of-syllabus questions (15 marks): \"Which of the following is a proposition?\" \u00d74 (A21\u201324), tautology fill-blanks (B25/B30/B31), \"evaluate p BICONDITIONAL q\" (C32), \"Construct the truth table for 'p OR NOT p'\" (D40, 5 marks), contradiction 4-marker (E46) \u2014 propositional logic is not in the CBSE Class 10 syllabus; 17/49 paper questions have chapter: \"\"; confirmed as the literal first question in the UI.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_244",
+      "id": 244,
+      "line_end": 268,
+      "line_start": 268,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Science pre-board has zero MCQs: 49/49 questions with options: [] while Section A is labelled \"Objective \u2014 20 \u00d7 1 mark\"; CBSE Section A is 20 objective questions (MCQ/assertion-reason). Assertion-reason items exist but render as typed subjective answers.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_245",
+      "id": 245,
+      "line_end": 269,
+      "line_start": 269,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Social Science pre-board has zero MCQs (49/49 options: []) and no map-skills question (the only \"map\" hit is a reading passage about Bhakra Nangal; CBSE awards map questions 5 marks).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_246",
+      "id": 246,
+      "line_end": 270,
+      "line_start": 270,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Chapter tests contain no MCQs anywhere: math ch01 live run = fillblank 8 / truefalse 2 (no options \u2014 child types \"True\") / shortanswer 9 / longanswer 1, options: [] on 20/20; same across all 13 runs in 9 subjects \u2014 the objective exam format is never trained outside the broken pre-board MCQs.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_247",
+      "id": 247,
+      "line_end": 271,
+      "line_start": 271,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Pre-board chapter spread is skewed: math draws 23/49 questions from ch01\u201305 while ch06\u201314 get 1 each; social-science labels only ch01\u201307 for 22 real chapters \u2014 the scorecard's chapterBreakdown is too coarse to steer revision.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_248",
+      "id": 248,
+      "line_end": 272,
+      "line_start": 272,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Diagnostic chapter picker for Mathematics offers \"Algebra / Geometry / Trigonometry / Calculus\" \u2014 Calculus is not CBSE Class 10 (same off-grade picker C8 found).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_249",
+      "id": 249,
+      "line_end": 273,
+      "line_start": 273,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Computer is 8 nodes / 4 chapters for all of Class 10 computing \u2014 far short of IT-402/AI-417 breadth.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_250",
+      "id": 250,
+      "line_end": 274,
+      "line_start": 274,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Fresh-account dashboard (/api/progress/mastery) shows 6 total nodes (Science 3, Mathematics 2, English 1) against a 660-node syllabus \u2014 the dashboard tells a Class 10 child the syllabus is 1% of its real size while galaxy says 660.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_251",
+      "id": 251,
+      "line_end": 275,
+      "line_start": 275,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Tutor answers the node's topic, not the doubt: a discriminant question asked in a session anchored to c10mathcbse01001 (Real Numbers) was answered with prime-factorisation content \u2014 cross-chapter doubts go unanswered.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_252",
+      "id": 252,
+      "line_end": 276,
+      "line_start": 276,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 /exam-simulator advertises \"Real-time simulator for ISC Board Exams\" with \"Science Pre-Board 2025\" to a CBSE Class 10 account (shot 07examsimulator.png) \u2014 wrong board, stale year.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_253",
+      "id": 253,
+      "line_end": 277,
+      "line_start": 277,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Socratic /tutor opens \"Mathematics \u00b7 Class 11\" for a Class 10 account (shot 07tutor.png).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_254",
+      "id": 254,
+      "line_end": 278,
+      "line_start": 278,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN (intermittent) \u2014 transient 500/422s under concurrent load, all clean on retry: /api/practice/start gram ch95 (500\u2192201), /api/content/nodes/c10biocbse01011/enrichment (500\u2192200), /api/content/nodes/c10mathcbse01001/questions (500\u2192200), one pre-board submit (422\u2192200), a /progress page resource (500, not reproducible) \u2014 a child hits these raw.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_255",
+      "id": 255,
+      "line_end": 280,
+      "line_start": 280,
+      "source_file": "references/gap-priorities.md",
+      "text": "Verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_256",
+      "id": 256,
+      "line_end": 282,
+      "line_start": 282,
+      "source_file": "references/gap-priorities.md",
+      "text": "Would a child prepared only by Atlas pass the CBSE Class 10 boards confidently? No \u2014 not as things stand. The study loop is real (660 complete story-backed nodes, graded practice everywhere, chapter tests with per-node remediation, and a pre-board skeleton with honest marking), but three things would sink a board candidate: (1) the content served for board rehearsal is partly wrong \u2014 a math paper that is 19% out-of-syllabus logic with four broken MCQs, science/social-science \"objective\" sections with zero MCQs, and grammar practice that is 100% Boolean logic; (2) an entire core board subject (Hindi) plus the English board paper simply do not exist; and (3) the objective exam format (MCQs, assertion-reasoning, map skills) is never trained anywhere. Priority order: (1) purge the C10-APP logic bank out of Class 10 grammar practice, diagnostics and the math pre-board; (2) add MCQ/assertion-reason/map questions to the three pre-board papers and chapter tests; (3) author the Class 10 Hindi corpus + English pre-board paper (or hide the subject cards); (4) fix the four broken math MCQs (text/options mismatch); (5) align dashboard mastery map, tutor class level and exam-simulator board branding with the signed-in child.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_257",
+      "id": 257,
+      "line_end": 286,
+      "line_start": 286,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 11",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_258",
+      "id": 258,
+      "line_end": 288,
+      "line_start": 288,
+      "source_file": "references/gap-priorities.md",
+      "text": "Corpus studied (nodes / chapters, lead node of every chapter story-probed)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_259",
+      "id": 259,
+      "line_end": 289,
+      "line_start": 289,
+      "source_file": "references/gap-priorities.md",
+      "text": "Mathematics 150/14 \u00b7 Physics 180/14 \u00b7 Chemistry 115/9 \u00b7 Biology 168/19 \u00b7 Economics (Indian Economic Development) 89/8 \u00b7 Statistics for Economics 84/8 (the stat code) \u00b7 Accountancy 98/9 \u00b7 Business Studies 115/11 \u00b7 Computer Science 150/11 \u00b7 Informatics Practices 96/8 \u00b7 Biotechnology 124/12 \u00b7 Geography 223/26 \u00b7 History 76/7 \u00b7 Human Ecology & Family Sciences (hs) 132/11 \u00b7 Political Science 199/18 \u00b7 Sociology 106/10 \u00b7 Psychology 86/8 \u00b7 Hindi Aroh 240/16 \u00b7 English Hornbill 180/12 \u00b7 Snapshots 75/5 \u00b7 Woven Words 405/27 \u00b7 Grammar 7/4 \u00b7 comp 3/1 (junk) \u00b7 socd 106/10 (duplicate of Sociology). = 20 real subjects + 2 junk/duplicate codes; 278 chapters; 105+12 practice round-trips, all server-graded.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_260",
+      "id": 260,
+      "line_end": 291,
+      "line_start": 291,
+      "source_file": "references/gap-priorities.md",
+      "text": "What works (verified, for contrast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_261",
+      "id": 261,
+      "line_end": 292,
+      "line_start": 292,
+      "source_file": "references/gap-priorities.md",
+      "text": "Story layer: all 278 chapter lead-nodes serve eli5 + walkthrough + examples + misconception, 0 missing sections; enrichment 278/278 OK; board questions attached to every probed chapter.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_262",
+      "id": 262,
+      "line_end": 293,
+      "line_start": 293,
+      "source_file": "references/gap-priorities.md",
+      "text": "Practice: start/submit/grade round-trip 105/105 across 16 subjects; English practice works for all three books + grammar via the english slug.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_263",
+      "id": 263,
+      "line_end": 294,
+      "line_start": 294,
+      "source_file": "references/gap-priorities.md",
+      "text": "Chapter tests: math/phy/chem/bio/geo/eco/history all start and serve real papers (15q verified on all 7 subjects, 20q on math/phy/geo ch01 with a fresh token).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_264",
+      "id": 264,
+      "line_end": 295,
+      "line_start": 295,
+      "source_file": "references/gap-priorities.md",
+      "text": "Tutor: 18 of 24 subject codes reply in <2s with substantive 300-1,000-char corpus-grounded answers (incl. Devanagari for Hindi).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_265",
+      "id": 265,
+      "line_end": 297,
+      "line_start": 297,
+      "source_file": "references/gap-priorities.md",
+      "text": "Gaps",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_266",
+      "id": 266,
+      "line_end": 298,
+      "line_start": 298,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Applied Mathematics (subject 241) has no corpus at all. The stat code is actually NCERT Statistics for Economics (node titles: \"Statistics in the plural sense\", \"Primary data\", \"Textual presentation of data\") \u2014 an Applied Maths student has zero content.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_267",
+      "id": 267,
+      "line_end": 299,
+      "line_start": 299,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostics can never complete in any subject. Fresh-token full runs: Mathematics 4/8 answers rejected 400 \"Question mismatch. Expected corpus:61f3616c\u2026, got C10-APP-069-3499784572-000-FIL\" (serve/plan desync \u2014 same root cause C7 found); Physics/Chemistry/Biology/Accountancy each 500 on an answer; submit 400 + result 400 on all 6 subjects \u2192 no diagnostic result ever. Cross-class/cross-subject leaks: C10-APP-069- (Class 10) ids and a BIOC11PLANT id served inside a c11 Physics diagnostic (resultsc11.jsonl diaganswerfail).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_268",
+      "id": 268,
+      "line_end": 300,
+      "line_start": 300,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Zero pre-board papers for Class 11: GET /api/preboard/papers?classlevel=11 \u2192 {\"papers\": []} with a valid token (twice); POST /api/preboard/mathematics/start?classlevel=11 \u2192 404 \"No CBSE pre-board blueprint for mathematics class 11\".",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_269",
+      "id": 269,
+      "line_end": 301,
+      "line_start": 301,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Tutor doubt lane times out for the science/commerce core: bio, chem, eco, geo, hina replies hang >100s / 504 on three independent attempts (20:0x sweep, 21:09-21:16 reprobe); template-lane subjects answer instantly \u2014 the LLM teach-lane subjects all fail.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_270",
+      "id": 270,
+      "line_end": 302,
+      "line_start": 302,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 GET /api/homework/student \u2192 500 Internal Server Error for a fresh account (both classes).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_271",
+      "id": 271,
+      "line_end": 303,
+      "line_start": 303,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Chapter tests for only 7 of 16 subjects: accountancy / businessstudies / computerscience / politicalscience / psychology / sociology / informaticspractices / appliedmaths / hindi / biotechnology catalogs \u2192 400 \"Unknown subject\". English has no c11 bank either.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_272",
+      "id": 272,
+      "line_end": 304,
+      "line_start": 304,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Chapter-test pools borderline: first sweep 503'd every subject at numQuestions=20 (\"Not enough distinct questions for this chapter yet \u2014 5 unique after dedup\"); 15q works, and 20q verified on math/phy/geo with a fresh token. Pools are thinner than the catalog's bankQ implies (math claims 2,611 bank questions yet dedup once collapsed ch01 to 5 unique).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_273",
+      "id": 273,
+      "line_end": 305,
+      "line_start": 305,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 History covers 7 of the 11 NCERT Themes in World History chapters (76 nodes/7 chapters: Mesopotamia, Roman Empire, Third-Century Crisis, Arabia before Islam, Mongol Steppe, Feudal Europe\u2026) \u2014 no visible Industrial Revolution / Confrontation of Cultures / Paths to Modernisation chapters. Confirm with a TOC diff.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_274",
+      "id": 274,
+      "line_end": 306,
+      "line_start": 306,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Informatics Practices c11 practice never verified via a working slug (c12 ip slug verified OK; c11 untested \u2014 flag to verify).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_275",
+      "id": 275,
+      "line_end": 307,
+      "line_start": 307,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Grammar corpus is 7 nodes in chapters numbered \"80-83\" (junior numbering shared into senior) \u2014 negligible for senior study.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_276",
+      "id": 276,
+      "line_end": 308,
+      "line_start": 308,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 3 chapters have eli5 under 200 chars (bs/hs/stat lead nodes) \u2014 usable but shallow.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_277",
+      "id": 277,
+      "line_end": 309,
+      "line_start": 309,
+      "source_file": "references/gap-priorities.md",
+      "text": "HYGIENE \u2014 socd (\"Social Science\") is a duplicate of the Sociology corpus (106=106 nodes, same chapters); comp is a 3-node junior fragment (chapter \"86\") \u2014 both surface in the senior class-subject API and would pollute subject pickers.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_278",
+      "id": 278,
+      "line_end": 313,
+      "line_start": 313,
+      "source_file": "references/gap-priorities.md",
+      "text": "Class 12",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_279",
+      "id": 279,
+      "line_end": 315,
+      "line_start": 315,
+      "source_file": "references/gap-priorities.md",
+      "text": "Corpus studied (nodes / chapters, lead node of every chapter story-probed)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_280",
+      "id": 280,
+      "line_end": 316,
+      "line_start": 316,
+      "source_file": "references/gap-priorities.md",
+      "text": "Mathematics 119/13 \u00b7 Physics 122/14 \u00b7 Chemistry 100/10 \u00b7 Biology 114/13 \u00b7 Economics 107/11 \u00b7 Accountancy 92/9 \u00b7 Business Studies 108/11 \u00b7 Computer Science 144/13 \u00b7 Informatics Practices 84/7 \u00b7 Biotechnology 144/13 \u00b7 Geography 229/21 \u00b7 History (Themes in Indian History) 141/12 \u00b7 HEFS (hs) 168/14 \u00b7 Political Science 150/15 \u00b7 Sociology 163/15 \u00b7 Psychology 83/7 \u00b7 Hindi Aroh 255/17 \u00b7 English Flamingo 195/13 \u00b7 Kaleidoscope 315/21 \u00b7 Vistas 90/6 \u00b7 Computerised Accounting (ca, mislabeled \"Commercial Art\") 19/4 \u00b7 Grammar 6/4 \u00b7 comp 3/1 (junk) \u00b7 socd 163/15 (dup). = 20 real subjects + 2 junk/dup codes; 279 chapters; 122+12 practice probes, all graded.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_281",
+      "id": 281,
+      "line_end": 318,
+      "line_start": 318,
+      "source_file": "references/gap-priorities.md",
+      "text": "What works (verified, for contrast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_282",
+      "id": 282,
+      "line_end": 319,
+      "line_start": 319,
+      "source_file": "references/gap-priorities.md",
+      "text": "Story layer: 279/279 chapter lead-nodes complete (eli5/walkthrough/examples/misconception); enrichment 279/279; board questions on essentially every chapter (1 of 7 probed IP chapters empty).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_283",
+      "id": 283,
+      "line_end": 320,
+      "line_start": 320,
+      "source_file": "references/gap-priorities.md",
+      "text": "Practice: every subject round-trips and grades \u2014 incl. math, physics, history, political science, psychology, sociology, Hindi (re-verified after the prior run's token death), English (3 books), IP (ip slug), CA (via accountancy slug).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_284",
+      "id": 284,
+      "line_end": 321,
+      "line_start": 321,
+      "source_file": "references/gap-priorities.md",
+      "text": "Chapter tests: 7 subjects with real banks \u2014 mathematics 13/13 testReady (3,829 q), physics 14/14 (4,115), chemistry 10/10 (3,361), biology 13/13 (3,880), history 12/12 (4,690), geography 21/21 (7,775), economics 11/11 (3,655). Live math ch05 run: 15/15 answers accepted, result with 13-node breakdown + 15 review items.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_285",
+      "id": 285,
+      "line_end": 322,
+      "line_start": 322,
+      "source_file": "references/gap-priorities.md",
+      "text": "Pre-boards (math/phy/chem/bio): live mathematics run = 49 questions, 5 official CBSE sections, OR-choice pairs, graded in <1s with totalScore/percentage/grade/passed + section scores + chapter breakdown.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_286",
+      "id": 286,
+      "line_end": 323,
+      "line_start": 323,
+      "source_file": "references/gap-priorities.md",
+      "text": "Tutor: template-lane subjects answer <1s with high-quality corpus-grounded replies (math, engf, engk, history, hs verified for c12).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_287",
+      "id": 287,
+      "line_end": 325,
+      "line_start": 325,
+      "source_file": "references/gap-priorities.md",
+      "text": "Gaps",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_288",
+      "id": 288,
+      "line_end": 326,
+      "line_start": 326,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Diagnostics cannot complete in any subject (same platform defect as c11): Mathematics 3/8 answers 400 \"Question mismatch. Expected corpus:387918a6\u2026, got Q2963753650001\"; Physics 1/8 mismatch; Biology/Accountancy/Business Studies 500 on an answer; Chemistry answer hung >60s; submit 400 + result 400 on all 6 \u2192 no student can ever get a weakness profile.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_289",
+      "id": 289,
+      "line_end": 327,
+      "line_start": 327,
+      "source_file": "references/gap-priorities.md",
+      "text": "PREREQ-GAP \u2014 Off-class question inside a c12 diagnostic: c11acc008MCQ000 (Class 11 id) served in the c12 Accountancy diagnostic; the same question 500s in both classes' diagnostics (poison question that breaks any session containing it).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_290",
+      "id": 290,
+      "line_end": 328,
+      "line_start": 328,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 Pre-board papers exist for only 4 of 16 subjects (catalog: biology, chemistry, mathematics, physics). No pre-board for Accountancy, Business Studies, Economics, Computer Science, English, Psychology, Geography, History, Political Science, Sociology, Hindi, IP, Biotech \u2014 the entire commerce and humanities stream has no exam rehearsal before boards.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_291",
+      "id": 291,
+      "line_end": 329,
+      "line_start": 329,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Chapter tests for 10 subjects: accountancy / businessstudies / computerscience / politicalscience / psychology / sociology / informaticspractices / appliedmaths / hindi / biotechnology \u2192 400 \"Unknown subject\".",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_292",
+      "id": 292,
+      "line_end": 330,
+      "line_start": 330,
+      "source_file": "references/gap-priorities.md",
+      "text": "BOARDS-GAP \u2014 English has zero test coverage for the 100-mark core paper: Flamingo chapter-test catalog 0/13 chapters, Kaleidoscope 0/21 (bankQ=0, testReady=0); no English pre-board either.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_293",
+      "id": 293,
+      "line_end": 331,
+      "line_start": 331,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 Applied Mathematics corpus absent at class 12 (no stat code, no applied-maths nodes).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_294",
+      "id": 294,
+      "line_end": 332,
+      "line_start": 332,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 Tutor LLM lane hangs and kills the platform: c12 physics doubt hung >50s (twice); c12 chemistry doubt 502 after 8.7s and BOTH backends restarted (observed twice \u2014 21:01 crash after a c11 chem/geo tutor burst, 21:22 crash directly after the c12 chem request; backends \"health: starting\" 21:23-21:25); psy 504 after 120s; c12 engv reply is a 153-char glossary-miss answering a different question. Remaining c12 subjects could not be probed past the crashes \u2014 c12 science doubt-answering is effectively broken/unstable.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_295",
+      "id": 295,
+      "line_end": 333,
+      "line_start": 333,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Economics 11 chapters vs 18 in NCERT (Macroeconomics 6 + Indian Economic Development 12, rationalised) \u2014 normal node density, so whole chapters are likely missing; needs TOC diff.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_296",
+      "id": 296,
+      "line_end": 334,
+      "line_start": 334,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 Political Science 15 chapters vs 18 (Contemporary World Politics + Politics in India Since Independence) and HEFS 14 chapters vs 25 units across the two NCERT books \u2014 likely partial; needs TOC diff.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_297",
+      "id": 297,
+      "line_end": 335,
+      "line_start": 335,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 1 of 7 probed IP chapters has zero attached board questions.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_298",
+      "id": 298,
+      "line_end": 336,
+      "line_start": 336,
+      "source_file": "references/gap-priorities.md",
+      "text": "THIN \u2014 ca corpus is really Computerised Accounting (CAS, spreadsheets, payroll) labeled \"Commercial Art\" \u2014 mislabel that misleads subject pickers; 19 nodes/4 chapters is thin for the elective.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_299",
+      "id": 299,
+      "line_end": 337,
+      "line_start": 337,
+      "source_file": "references/gap-priorities.md",
+      "text": "BROKEN \u2014 GET /api/homework/student \u2192 500 (shared with c11).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_300",
+      "id": 300,
+      "line_end": 338,
+      "line_start": 338,
+      "source_file": "references/gap-priorities.md",
+      "text": "HYGIENE \u2014 comp junk (3 nodes, chapter \"86\", \"A letter to the editor\") and socd Sociology duplicate (163=163) reachable at class 12.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_301",
+      "id": 301,
+      "line_end": 342,
+      "line_start": 342,
+      "source_file": "references/gap-priorities.md",
+      "text": "Cross-cutting (Classes 11-12, C1112)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_302",
+      "id": 302,
+      "line_end": 343,
+      "line_start": 343,
+      "source_file": "references/gap-priorities.md",
+      "text": "MISSING \u2014 GET /api/engagement/summary \u2192 404 (no such route; the engagement router only exposes /goal, /notifications, /weekly-digest).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_303",
+      "id": 303,
+      "line_end": 344,
+      "line_start": 344,
+      "source_file": "references/gap-priorities.md",
+      "text": "FRONTEND \u2014 :3001 serves all 11 routes 200 (home/signup/login/dashboard/learn/quizzes/practice/diagnostic/chapter-test/exam-prep/exam), same-origin-proxies /api, and /learn/<node>/story renders 200 for c11+c12 nodes. But pages still baking the absolute NEXTPUBLICAPIURL base do cross-origin calls from the :3001 origin with no access-control-allow-origin header returned (verified via preflight + POST with Origin: http://localhost:3001) \u2014 those client-side fetches fail in a real browser on :3001 and the pages degrade to fallbacks (relative-fetch pages unaffected).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_304",
+      "id": 304,
+      "line_end": 345,
+      "line_start": 345,
+      "source_file": "references/gap-priorities.md",
+      "text": "BUG (auth UX) \u2014 JWTs expire after 30 min; a long study session or a 180-minute pre-board paper will lose auth mid-flow (observed from API behaviour; the previous audit run itself was killed by this).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_305",
+      "id": 305,
+      "line_end": 346,
+      "line_start": 346,
+      "source_file": "references/gap-priorities.md",
+      "text": "NOTE \u2014 GUI-browser automation was unavailable in the audit sandbox; :3001 verification was done by fetching the served routes + proxy + CORS paths as above. API flows were exercised end-to-end exactly as the frontend calls them.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_306",
+      "id": 306,
+      "line_end": 348,
+      "line_start": 348,
+      "source_file": "references/gap-priorities.md",
+      "text": "C1112 verdict",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_307",
+      "id": 307,
+      "line_end": 349,
+      "line_start": 349,
+      "source_file": "references/gap-priorities.md",
+      "text": "Would a child prepared only by Atlas pass the Class 12 boards confidently? Not yet. The daily study loop is genuinely strong \u2014 complete Story content, working graded practice, real chapter tests and pre-boards in the science stream \u2014 but Atlas cannot tell the child what they are weak at (diagnostics dead platform-wide), cannot answer their doubts in most science subjects (tutor hangs, and the crashes take the whole platform down), and offers no exam rehearsal for commerce/humanities at all. Priority: (1) diagnostic plan-mismatch fix, (2) tutor LLM lane stability, (3) pre-boards + chapter tests for commerce/humanities/English, (4) Applied Maths corpus decision, (5) NCERT TOC diff for eco/pol-sci/HEFS/history.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_308",
+      "id": 308,
+      "line_end": 0,
+      "line_start": 0,
+      "source_file": "SKILL.md",
+      "text": "references/node-format.md",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_309",
+      "id": 309,
+      "line_end": 1,
+      "line_start": 1,
+      "source_file": "references/node-format.md",
+      "text": "CONTENT AUTHORING SPEC \u2014 for new/missing Atlas chapters",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_310",
+      "id": 310,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "references/node-format.md",
+      "text": "Writers: follow this exactly and your content ingests into Atlas automatically",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_311",
+      "id": 311,
+      "line_end": 4,
+      "line_start": 4,
+      "source_file": "references/node-format.md",
+      "text": "(parser \u2192 fidelity verification \u2192 index \u2192 live on the app). One md file = one",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_312",
+      "id": 312,
+      "line_end": 5,
+      "line_start": 5,
+      "source_file": "references/node-format.md",
+      "text": "teaching node (\u2248 one topic, 15\u201340 min of learning).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_313",
+      "id": 313,
+      "line_end": 7,
+      "line_start": 7,
+      "source_file": "references/node-format.md",
+      "text": "File naming",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_314",
+      "id": 314,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "references/node-format.md",
+      "text": "<class><subject>cbse<chapter><serial>.md",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_315",
+      "id": 315,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "references/node-format.md",
+      "text": "Examples: c9mathcbsech6001.md, c9sstcbsech2003.md, c10hincbsech1001.md",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_316",
+      "id": 316,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "references/node-format.md",
+      "text": "class: 6\u201312 \u00b7 subject codes in use: math, phy, chem, bio, sst, his, civ, geo,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_317",
+      "id": 317,
+      "line_end": 13,
+      "line_start": 13,
+      "source_file": "references/node-format.md",
+      "text": "Place files in the folder for your class/subject (mirror an existing sibling's",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_318",
+      "id": 318,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "references/node-format.md",
+      "text": "Required sections (## headers, exactly these)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_319",
+      "id": 319,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "references/node-format.md",
+      "text": "## ELI5                     \u2014 2\u20134 plain-language sentences (\"In simple words: \u2026\")",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_320",
+      "id": 320,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "references/node-format.md",
+      "text": "## DEFINITION               \u2014 the core teaching content, complete and exam-accurate",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_321",
+      "id": 321,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "references/node-format.md",
+      "text": "## COGNITIVE_LEVEL          \u2014 remember / understand / apply / analyse",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_322",
+      "id": 322,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "references/node-format.md",
+      "text": "## MASTERY_CRITERIA         \u2014 \"a student has mastered this when \u2026\" (2\u20134 bullets)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_323",
+      "id": 323,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "references/node-format.md",
+      "text": "## SCOPE_BOUNDARY           \u2014 what this topic does NOT cover (prevents drift)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_324",
+      "id": 324,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "references/node-format.md",
+      "text": "## WALKTHROUGH              \u2014 step-by-step teaching, numbered (\"1. \u2026 2. \u2026 3. \u2026\")",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_325",
+      "id": 325,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "references/node-format.md",
+      "text": "## DIAGNOSTIC_QUESTION_1..N \u2014 N \u2265 6 (aim 10\u201312); one per ## DIAGNOSTIC_ANSWER_N",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_326",
+      "id": 326,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "references/node-format.md",
+      "text": "## DIAGNOSTIC_ANSWER_1..N   \u2014 the exact correct answer (verbatim-matched)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_327",
+      "id": 327,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "references/node-format.md",
+      "text": "## COMMON_MISCONCEPTION     \u2014 the classic wrong belief + the correction",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_328",
+      "id": 328,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "references/node-format.md",
+      "text": "## ON_FAILURE               \u2014 what the app shows when the student fails",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_329",
+      "id": 329,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "references/node-format.md",
+      "text": "## WORKED_EXAMPLE           \u2014 PROBLEM: \u2026 STEPS: \u2026 REASONING: \u2026 ANSWER: \u2026",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_330",
+      "id": 330,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "references/node-format.md",
+      "text": "## PREREQUISITE_NODE_IDS    \u2014 ids of earlier nodes this one builds on",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_331",
+      "id": 331,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "references/node-format.md",
+      "text": "Quality gates (enforced automatically on ingestion)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_332",
+      "id": 332,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "references/node-format.md",
+      "text": "Every word \u22654 chars and every number in derived content must exist in the file",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_333",
+      "id": 333,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "references/node-format.md",
+      "text": "Diagnostic answers must be self-consistent (no ambiguous items, no repeats)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_334",
+      "id": 334,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "references/node-format.md",
+      "text": "No node ids leaking into student-facing text",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_335",
+      "id": 335,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "references/node-format.md",
+      "text": "Class/subject must match the NCERT syllabus for that grade \u2014 this audit's",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_336",
+      "id": 336,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "references/node-format.md",
+      "text": "Priority order (from CURRICULUMGAPS.md)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_337",
+      "id": 337,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "references/node-format.md",
+      "text": "Class 9 maths missing chapters: Triangles (congruence), Quadrilaterals,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_338",
+      "id": 338,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "references/node-format.md",
+      "text": "Class 9 SST correct books: History (French Revolution \u2192 Nazism),",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_339",
+      "id": 339,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "references/node-format.md",
+      "text": "Class 9/12 English: Beehive + Moments (current texts are retired ones)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_340",
+      "id": 340,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "references/node-format.md",
+      "text": "Class 12 Economics remaining chapters, Class 11 History themes,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_341",
+      "id": 341,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "references/node-format.md",
+      "text": "Hindi subjects for Classes 6\u201310 \u00b7 Legal Studies (source TBD) \u00b7 Applied Maths",
+      "unit_type": "list_item"
+    }
+  ]
+}

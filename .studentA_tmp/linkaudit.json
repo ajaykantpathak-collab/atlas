@@ -1,0 +1,185 @@
+{
+ "all": {
+  "/atlas": [
+   "/"
+  ],
+  "/simulations": [
+   "/"
+  ],
+  "/practice": [
+   "/"
+  ],
+  "/junior": [
+   "/"
+  ],
+  "/": [
+   "/dashboard"
+  ],
+  "/login": [
+   "/achievements",
+   "/dashboard",
+   "/progress"
+  ],
+  "/dashboard": [
+   "/achievements",
+   "/explore",
+   "/learn",
+   "/progress",
+   "/study-tools"
+  ],
+  "/galaxy": [
+   "/sims-v2"
+  ],
+  "/3d-lab": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch01_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch01_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch02_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch02_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch03_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch03_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch04_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_bio_ch04_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch01_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch01_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch02_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch02_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch03_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch03_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch04_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch04_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch05_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_chem_ch05_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch01_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch01_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch02_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch02_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch03_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch03_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch04_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch04_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch05_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_civ_ch05_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch01_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch01_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch02_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch02_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch03_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch03_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch04_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch04_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch05_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_eco_ch05_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch01_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch01_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch02_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch02_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch03_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch03_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch04_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch04_p2": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch05_p1": [
+   "/sims-v2"
+  ],
+  "/sims-v2/v3_c10_engl_ch05_p2": [
+   "/sims-v2"
+  ],
+  "/game-test": [
+   "/my-world"
+  ]
+ },
+ "bad": []
+}

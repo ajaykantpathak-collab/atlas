@@ -1,0 +1,84 @@
+{
+ "edits": [
+  {
+   "file": "c7_hist_ch01_005.md",
+   "definition": "The Mahajanapadas (c. 600–300 BCE) changed how India was ruled. Power moved from tribal chieftainships to two organised forms: centralized monarchies, where a hereditary king taxed land directly, kept a standing professional army and ruled through officials; and oligarchic republics (ganasanghas) such as those of the Vajjis and Mallas, where government was run by an assembly of ruling clans debating decisions together. Both forms raised regular taxation — famously a sixth of the produce — built fortifications and maintained armies, and the competition between them, especially Magadha's ambition, drove the politics that Buddhism and Jainism would preach within."
+  },
+  {
+   "file": "c7_math_ch03_009.md",
+   "definition": "Subtracting decimals finds the difference between two decimal quantities, and its one non-negotiable rule is alignment: decimal points must sit in a column, digit under digit, so that tenths subtract from tenths, hundredths from hundredths. Writing the larger number above the smaller, borrowing between columns where needed, and subtracting from right to left then gives the answer — 5.60 − 2.375 is written 5.600 over 2.375, giving 3.225. The aligned points also serve as a check: the answer's decimal point falls exactly beneath the two above it."
+  },
+  {
+   "file": "c7_math_ch05_004.md",
+   "definition": "Parallel lines are lines in the same plane that never meet, however far in either direction they are extended — railway tracks are the everyday model. Their defining property is the constant perpendicular distance between them: every point on one line is exactly the same distance from the other. Because a third line (a transversal) cutting a pair of parallels creates equal pairs of angles — corresponding, alternate interior, and vertically opposite — the geometry of parallel lines runs most of the angle-chasing in school mathematics, from triangle sums to constructions."
+  },
+  {
+   "file": "c7_math_ch10_007.md",
+   "definition": "The commutative property of integer multiplication says the order of the two factors never matters: a × b = b × a for every pair of integers. Three negative fives are the same as five negative threes — (−3) × 5 = 5 × (−3) = −15. The property is why any list of factors can be rearranged to multiply the convenient ones first (2 × (−7) × 5 = 2 × 5 × (−7) = −70), and it holds under multiplication where it famously fails under subtraction and division — order there changes the answer."
+  },
+  {
+   "file": "c7_math_ch13_001.md",
+   "definition": "A statistical question is one whose answer is not a single fixed number but a distribution — it anticipates that the data will vary, and its answer describes that variability: 'How tall are the students of Class 7?' is statistical, because heights differ and the answer is a spread, perhaps summarised by an average. A non-statistical question — 'How tall is Riya?' — expects one definite value. The distinction matters because it decides the method: statistical questions need data collected from many cases, organised, and summarised with measures such as mean, median, mode or range, none of which make sense for a question with one certain answer."
+  },
+  {
+   "file": "c7_chem_ch02_002.md",
+   "definition": "A physical change alters what you can see and measure about a substance — its shape, size, state or appearance — without altering what it is: no new substance forms and the molecules keep their identity. Ice melting, water boiling, salt dissolving, sugar's crystals being ground to powder and a metal bar being bent are all physical changes; each can usually be undone by simple means (cool the water, evaporate the solution), and the substance regains its original form because its chemical composition never changed. Physical changes are therefore temporary rearrangements — same substance, new presentation."
+  },
+  {
+   "file": "c7_civ_ch01_002.md",
+   "definition": "Government's functions run on two tracks: keeping the country safe and making it work well. On the first track it maintains law and order through the police and courts, defends the borders with the armed forces, and establishes justice by which every dispute — citizen against citizen, citizen against state — is settled by law rather than force. On the second it promotes welfare: building roads, schools and hospitals, running relief in floods and famines, supplying electricity and water, and working to reduce poverty and inequality. In a democracy, the Constitution is the job description — government may do what the Constitution assigns and authorises, and no more."
+  },
+  {
+   "file": "c7_geo_ch05_006.md",
+   "definition": "India and Nepal are neighbours the Himalaya joined rather than divided. The open 1,750-km border lets citizens of each country live, work and own property in the other under the 1950 Treaty of Peace and Friendship; the same rivers — the Kosi, Gandak and Ghaghara — are born in Nepal's mountains and water India's plains, and both countries share the Ganga's civilisation. Pilgrims cross in both directions to Kailash-Manasarovar, Pashupatinath, Varanasi and Bodh Gaya; Nepali and Indian families intermarry across the terai; and Gorkha soldiers have served in the Indian Army for two centuries. Few borders anywhere carry so much daily traffic of faith, family and trade."
+  },
+  {
+   "file": "c7_geo_ch05_008.md",
+   "definition": "Myanmar is India's gateway to Southeast Asia: neighbours across a 1,600-km land border that runs through the forested Patkai, Naga and Mizo hills, and across the sea through the Andaman Sea near the Andaman and Nicobar Islands. The rivers link as well as the hills divide — the Chindwin and Irrawaddy systems drain the same highlands that feed India's Brahmaputra. Ties run deep in history and culture: Buddhism travelled this way in both directions, the Naga and Mizo peoples have kin on both sides of the border, and today the Kaladan transport project and the Trilateral Highway thread trade between India's Northeast and Southeast Asia."
+  },
+  {
+   "file": "c7_math_ch04_001.md",
+   "definition": "A variable is a letter or symbol — usually x, y, n or a — that stands in for an unknown or changing number in algebra. Unlike an arithmetic symbol, its value is not fixed: in 2x + 5 = 15 the x is a mystery with one hidden value, while in the rule 'perimeter = 2(l + b)' the l and b can be any rectangle's measurements. Variables let mathematics state general truths once and for all — every rule of arithmetic, every formula of science — and solving an equation is simply the disciplined hunt for the single value the variable is hiding."
+  },
+  {
+   "file": "c7_math_ch04_008.md",
+   "definition": "Turning an observed pattern into an algebraic rule is the step from seeing to saying. Suppose a pattern's matchstick counts run 3, 5, 7, 9 — start at 3, add 2 each time; the variable n (the position in the sequence) captures the rule in one expression: 2n + 1, which yields every term — the 10th without building nine rows, the 100th without any building at all. This is algebra's central trick: observe the relationship in a few cases, name the changing quantity with a variable, and write the relationship as a formula that works for all cases at once."
+  },
+  {
+   "file": "c7_math_ch06_006.md",
+   "definition": "A cryptarithm (or alphametic) is an arithmetic sum in disguise: each digit has been replaced by a letter or symbol, as in AB + BA = CDC, and the puzzle is to recover which digit each letter hides. Solving rests on hard constraints, not guesswork — the same letter always means the same digit, different letters mean different digits, leading letters cannot be zero, and the column-by-column carries of place value must all work out. One careful deduction (for instance, a two-digit plus a two-digit number giving three digits forces the first carry) starts a chain that usually pins every letter down."
+  },
+  {
+   "file": "c7_math_ch08_005.md",
+   "definition": "Dividing a fraction by a whole number splits an existing fraction into that many equal parts: half a pizza divided among 3 friends gives 1/2 ÷ 3 = 1/6 each. The rule is to multiply by the reciprocal — keep the fraction, change ÷ to ×, and flip the whole number into 1/whole — so 1/2 ÷ 3 = 1/2 × 1/3 = 1/6. The logic is that dividing by 3 means taking one of three equal parts of the quantity, and 'one part out of three' is exactly multiplication by 1/3. The same keep-change-flip works when the divisor is a fraction too."
+  },
+  {
+   "file": "c7_math_ch14_010.md",
+   "definition": "The ruler-and-compass constructions of geometry step off the textbook page into real work. Bisecting a segment or an angle divides a field strip or a corner joint exactly in two; dropping a perpendicular sets a wall square to a boundary; constructing parallels lays a driveway alongside a road at a constant width; and copying angles reproduces a roof pitch exactly. Surveyors, carpenters, tailors and machinists use the same few moves — equal-radius arcs, perpendicular bisectors, angle copies — because the compass carries exact equality into the field where a protractor the size of a plot cannot go."
+  },
+  {
+   "file": "c7_bio_ch01_009.md",
+   "definition": "Physical activity and regular exercise during adolescence mean planned, repeated body movement — games, running, cycling, swimming, strength work — that works the skeletal muscles and spends energy on purpose. In these years of fastest growth it pays double: weight-bearing exercise thickens bones and locks in peak bone density for life; aerobic work trains the heart and lungs and builds endurance; resistance work develops muscle; and the same activity steadies mood, sharpens sleep and burns the surplus that would otherwise settle as fat. An hour a day of moderate-to-vigorous activity is the standard recommendation — and sport's teamwork and discipline are the bonuses."
+  },
+  {
+   "file": "c7_bio_ch02_006.md",
+   "definition": "The small intestine is digestion's workshop and the body's great absorber: a narrow tube some 6–7 metres long, coiled to fit the abdomen, into which the stomach releases partially digested food. Here bile from the liver and pancreatic juice neutralise the acid and break fats, while intestinal juice finishes the job — carbohydrates to glucose, proteins to amino acids, fats to fatty acids and glycerol. The wall's inner lining is folded into millions of finger-like villi, which multiply the absorbing surface to the size of a tennis court; glucose and amino acids pass into the blood vessels of each villus, and fats into its lymph vessel — every nutrient you own passes through this one tube."
+  },
+  {
+   "file": "c7_bio_ch02_008.md",
+   "definition": "Digestion is tailored to diet: each animal's gut and enzymes are built for its food. Grazers and browsers — cows, buffaloes, deer — face a problem humans never meet: cellulose, the very stuff of leaves and grass, which no animal's own enzymes can break. Ruminants solve it with a four-chambered stomach whose rumen houses cellulose-digesting bacteria; the half-digested cud is returned to the mouth, chewed again, and passed through the microbial factory a second time. Flesh-eaters run the opposite design: a short, simple gut with strong protein-digesting enzymes for meat, which needs no long fermentation vats. Birds add a crop for storage and a gizzard that grinds grain where teeth would; the earthworm's straight tube digests humus the slow way. Same goal — small, absorbable molecules — different machinery."
+  },
+  {
+   "file": "c7_civ_ch02_010.md",
+   "definition": "The Preamble is the Constitution's opening statement — its identity card. In a single paragraph it declares the source of authority ('We, the People of India…'), the resolve to make India a Sovereign Socialist Secular Democratic Republic, and the objectives the entire document exists to secure: Justice — social, economic and political; Liberty of thought, expression, belief, faith and worship; Equality of status and opportunity; and Fraternity, dignity and the unity of the nation. Courts read it as the key to the Constitution's spirit: every chapter that follows is machinery for delivering the Preamble's promises."
+  },
+  {
+   "file": "c7_geo_ch02_009.md",
+   "definition": "Weather and climate are the same elements on two different clocks. Weather is the state of the atmosphere at a place right now or today — this morning's 31°C, the afternoon's humidity, tonight's rain; it changes hour to hour and place to place. Climate is the weather's long-run personality: the average and range of temperature, rainfall, humidity and wind measured over some thirty years, which is why Kerala's climate is hot and wet while Rajasthan's is hot and dry. Weather decides whether you carry an umbrella today; climate decides that Kerala builds roofs of that kind at all."
+  },
+  {
+   "file": "c7_geo_ch03_002.md",
+   "definition": "India's year moves through a cycle of seasons set by the Earth's tilt and revolution, filtered through the monsoon: a short spring (February–March) of pleasant warmth and flowering; a fierce summer (April–June) of 40°C-plus plains, loo winds and waiting for rain; the monsoon (June–September), when the south-west winds deliver most of the year's rainfall on their northward march; the retreat or autumn season (October–November) of clearing skies and retreating heat; and winter (December–January), mild in the plains and snowy in the Himalaya. Sowing, harvesting, festivals and the whole rural calendar follow this rhythm."
+  }
+ ]
+}

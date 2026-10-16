@@ -48,6 +48,9 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
+# WSA-P3: never-raising lane-exception logger — silent handlers call it
+# directly so a lane death is measured, not invisible.
+from backend.its.solver.contract import log_lane_exception
 from backend.its.solver import calculus_bridge as _calc_bridge
 from backend.its.solver.slot_extractor import (
     catalog_worked_examples, extract_list_slots)
@@ -114,7 +117,9 @@ def _const_env_for(concept: dict) -> dict:
     try:
         ctx = (str(concept.get("title") or "") + " "
                + str(concept.get("formula") or "")).lower()
-    except Exception:
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor._const_env_for.default_env", exc=_exc)
         return env
     if re.search(r"charge|quantis|electron|ionis|photoelectric", ctx):
         env["e"] = 1.6e-19
@@ -348,6 +353,10 @@ def _mathify(expr: str) -> Optional[str]:
     s = re.sub(r"(\d)\s*([a-z_])", r"\1*\2", s)
     s = re.sub(r"\)\s*(\d)", r")*\1", s)
     s = re.sub(r"\)\s*([a-z_])", r")*\1", s)
+    # C12 dig: 'sin x cos x' -> sin(x)*cos(x), not sin(x*cos(x))
+    s = re.sub(r"\b(sin|cos|tan|sec|csc|cot|sinh|cosh|tanh|"
+               r"asin|acos|atan|sqrt|exp|log|ln)\s+"
+               r"([a-zA-Z])\b(?!\s*\()", r"\1(\2)", s)
     s = re.sub(r"\bor\b.*$", " ", s)
     s = re.sub(r"[^0-9A-Za-z_+\-*/(). ]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
@@ -1129,7 +1138,9 @@ def _make_exp_kernel(fn: Callable[[float, float, float], float],
         b = _g(slots, "b")
         try:
             val = fn(a, m, n) if b is None else fn(a, b, m, n)
-        except (TypeError, ZeroDivisionError, OverflowError):
+        except (TypeError, ZeroDivisionError, OverflowError) as _exc:
+            log_lane_exception(
+                stage="catalog_executor._make_exp_kernel.kernel_decline", exc=_exc)
             return None
         if val is None:
             return None
@@ -1913,6 +1924,54 @@ def execute_concept(
             _symbolic = False
             break
     _symbolic = _symbolic and _seen_sym
+    # DIG-GATE (2026-10-06 SOLVER-DIG-1): an INCLUSIVE-price ask must
+    # never run a forward add-tax chain — 'price INCLUSIVE of 12% GST
+    # is 6720, find the marked price' shipped 6720*1.12 = 7526 VERIFIED;
+    # the marked price is 6720/1.12 = 6000.  The concept's steps AND its
+    # formula both ADD the tax, so every forward layer here contradicts
+    # the ask by construction — refuse the concept outright.
+    if re.search(r"inclusive\s+of|inclusive\s+price|price\s+"
+                 r"includ\w+", text, re.I) and (
+            any("+" in str(s.get("compute") or "")
+                for s in _pre_steps if isinstance(s, dict)) or
+            "+" in str(concept.get("formula") or "")):
+        return ExecResult(False, None, [],
+                          "inclusive-price ask routed to an add-tax "
+                          "concept — forward computation contradicts "
+                          "the ask", cid, "inclusive-gate")
+    # DIG-GATE 2 (2026-10-06 SOLVER-DIG-1): a compensating-change ask
+    # ('by what % should consumption be REDUCED so expenditure remains
+    # the same?') is not the observed % change — the c7m7 percent chain
+    # shipped 10% VERIFIED (true 100/11 = 9.09% reduction).
+    if re.search(r"(?:by\s+what\s+|what\s+)percent\w*[^.]{0,80}?"
+                 r"(?:reduc\w*|consumption|expenditure)", text, re.I) or \
+            re.search(r"reduce[^.]{0,40}?(?:consumption|expenditure)"
+                      r"[^.]{0,60}?remains?\s+(?:the\s+)?same", text, re.I):
+        return ExecResult(False, None, [],
+                          "compensating-change ask routed to a plain "
+                          "percent-change chain", cid, "compensate-gate")
+    # DIG-GATE 3 (2026-10-06 SOLVER-DIG-1): ASK-COHERENCE — the chain
+    # computes the CONCEPT's target, whatever was asked.  'TSA 616, h 7
+    # — find the RADIUS' ran the TSA chain and answered 615.752 VERIFIED
+    # through a multipart/sibling caller that bypassed the
+    # competency_engine gate, so it lives HERE where every caller goes
+    # through it.
+    try:
+        from backend.its.solver.competency_engine import _ask_quantities, \
+            _target_name
+        _askq = _ask_quantities(text)
+        _tgtq = _ask_quantities(
+            str(_target_name(concept) or "").replace("_", " ") + " " +
+            str(concept.get("title") or ""))
+        if _askq and _tgtq and not (_askq & _tgtq):
+            return ExecResult(False, None, [],
+                              f"ask names {sorted(_askq)} but the concept "
+                              f"produces {sorted(_tgtq)} — different "
+                              f"quantity asked", cid, "ask-coherence-gate")
+    except Exception as _exc:
+        # gate infrastructure must never break execution
+        log_lane_exception(
+            stage="catalog_executor.execute_concept.ask_coherence_gate", exc=_exc)
     if concept.get("converted_to_compute") and slots and _pre_steps and \
             _symbolic and \
             str(_pre_steps[-1].get("compute") or "").strip():
@@ -1924,8 +1983,9 @@ def execute_concept(
                                            "concept steps")
             return ExecResult(True, float(value), lines, "", cid,
                               "steps")
-        except Exception:
-            pass
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor.execute_concept.converted_step_chain", exc=_exc)
 
     # procedural lookups beat every static layer — they read THIS
     # question's operands, never the concept's baked example
@@ -1933,8 +1993,9 @@ def execute_concept(
         r = _procedural_solve(concept, text)
         if r is not None and r.ok:
             return r
-    except Exception:
-        pass
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor.execute_concept.procedural_lookup", exc=_exc)
 
     if str(concept.get("solution_type", "")) != "compute" and \
             not concept.get("converted_to_compute"):
@@ -1977,6 +2038,15 @@ def execute_concept(
     has_compute = [s for s in steps if str(s.get("compute") or "").strip()]
     gate_fn = _STEPS_TEXT_GATES.get(cid)
     gate_ok = True if gate_fn is None else bool(gate_fn(text, slots))
+    # DIG-GATE (2026-10-06 SOLVER-DIG-1): an INCLUSIVE-price ask must
+    # never run an add-tax chain — 'price INCLUSIVE of 12% GST is 6720,
+    # find the marked price' answered 6720 x 1.12 = 7526 VERIFIED (true:
+    # 6720/1.12 = 6000).  The chain's direction contradicts the ask.
+    if gate_ok and re.search(r"inclusive\s+of|inclusive\s+price|"
+                             r"price\s+includ\w+", text, re.I) and any(
+            "+" in str(s.get("compute") or "")
+            for s in has_compute if isinstance(s, dict)):
+        gate_ok = False
     # baked-example guard: compute steps carrying literals that never
     # appear in the question are the concept's own worked example —
     # running them answers a DIFFERENT question.  Check every step's
@@ -2044,7 +2114,9 @@ def execute_concept(
         try:
             value, lines = _run_step_chain(tmpl_steps, env,
                                            ex.get("id", "example"))
-        except Exception:
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor.execute_concept.example_chain", exc=_exc)
             continue
         fitting.append((ex, tmpl_steps, value, lines))
     if fitting:
@@ -3079,8 +3151,9 @@ def _procedural_solve(concept: Dict, text: str):
             return done(float(ex.subs(_sp.Symbol("x"),
                                       float(tx.group(1)))),
                         "trend")
-        except Exception:
-            pass
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor._procedural_solve.trend_substitution", exc=_exc)
 
     # rational numbers: add, distance, standard form, inverses,
     # midpoint — fraction answers returned as floats
@@ -3147,8 +3220,9 @@ def _procedural_solve(concept: Dict, text: str):
             sols = _sp.solve(eq, xs)
             if sols:
                 return done(float(sols[0]), "x=%s" % sols[0])
-        except Exception:
-            pass
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor._procedural_solve.solve_equation", exc=_exc)
 
     # exponent laws: a^m/a^n, (a^m)^n, a^m x b^m, a^0, a^(-n)
     if re.search(r"\^|\*\*|to the power|exponent|power law", norm) \
@@ -3248,8 +3322,9 @@ def _procedural_solve(concept: Dict, text: str):
             return done(float(ex.subs(_sp.Symbol("n"),
                                       float(nm.group(1)))),
                         "%s(n)" % gm.group(1))
-        except Exception:
-            pass
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor._procedural_solve.geometric_nth_term", exc=_exc)
     if re.search(r"cuboid|cube|cylinder", norm):
         d3 = re.findall(r"(\d+(?:\.\d+)?)\s*(?:cm|m)?\s*x\s*"
                         r"(\d+(?:\.\d+)?)\s*(?:cm|m)?\s*x\s*"
@@ -3645,8 +3720,9 @@ def _procedural_solve(concept: Dict, text: str):
                 m = float(d.subs(xs, float(xm.group(1))))
                 if m:
                     return done(round(-1 / m, 4), "-1/m")
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.tangent_slope", exc=_exc)
 
     # 'compute a + b' quick-check
     cm = re.search(r"compute\s*(-?\d+(?:\.\d+)?)\s*\+\s*"
@@ -3785,8 +3861,9 @@ def _procedural_solve(concept: Dict, text: str):
             else:
                 deg = math.degrees(math.atan(v))
             return done(round(deg, 4), "%s^-1(%s)" % (fn, raw))
-        except Exception:
-            pass
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor._procedural_solve.inverse_trig", exc=_exc)
 
     # first principles: (f(x+h)-f(x))/h ; RHL-LHL continuity gap;
     # ODE order/degree; verify y=cx derivative
@@ -3803,8 +3880,9 @@ def _procedural_solve(concept: Dict, text: str):
                 dq = (float(fx.subs(xs, xv + hv)) -
                       float(fx.subs(xs, xv))) / hv
                 return done(round(dq, 4), "diff quotient")
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.diff_quotient", exc=_exc)
     if "rhl" in norm or "continuity" in norm or \
             "discontinuity" in norm:
         lm = re.search(r"f\(x\)\s*=\s*((?:(?!f\(x\)).)+?)\s*"
@@ -3821,8 +3899,9 @@ def _procedural_solve(concept: Dict, text: str):
                 rhl = float(_sp.sympify(_mathify(rm.group(1)))
                             .subs(xs, x0))
                 return done(round(rhl - lhl, 4), "RHL-LHL")
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.rhl_lhl", exc=_exc)
     if "order" in norm and re.search(r"d\^?\d*y", norm):
         ords = [int(x) for x in
                 re.findall(r"d\^?(\d+)y", norm)]
@@ -3868,8 +3947,9 @@ def _procedural_solve(concept: Dict, text: str):
                 cf = ex.expand().coeff(_sp.Symbol("x"))
                 if cf is not None:
                     return done(float(cf), "coeff(x)")
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.coeff_x", exc=_exc)
         # 'evaluate EXPR when x = N' / 'value of EXPR when x = N'
         em = re.search(r"(?:evaluate|value of)\s*"
                        r"([0-9x+\-*/^()\s.]+?)\s+"
@@ -3882,8 +3962,9 @@ def _procedural_solve(concept: Dict, text: str):
                 return done(float(ex.subs(_sp.Symbol("x"),
                                           float(xm.group(1)))),
                             "eval")
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.eval_when_x", exc=_exc)
         # pure-arithmetic BODMAS: '4 + 3 x 9', '(7 + 3) x 7'
         am = re.search(r"evaluate\s*([0-9x+\-*/^()\s.]+?)"
                        r"(?:\s*\(|$|\.(?!\d))", norm)
@@ -3893,8 +3974,9 @@ def _procedural_solve(concept: Dict, text: str):
                 ex = _sp.sympify(_mathify(am.group(1)))
                 if not ex.free_symbols:
                     return done(float(ex), "bodmas")
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.bodmas", exc=_exc)
 
     # decimals: 'add the decimals a and b', 'subtract a from b',
     # 'multiply a by b', 'a/b of N', 'N units M tenths K hundredths'
@@ -4175,8 +4257,9 @@ def _procedural_solve(concept: Dict, text: str):
                         res = res.subs(xv, float(xm))
                     val = float(sp.N(res))
                     return done(val, "engine %s -> %s" % (op, _fmt(val)))
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.engine_fallback", exc=_exc)
             try:
                 import sympy as sp
                 xv = sp.Symbol("x")
@@ -4189,8 +4272,9 @@ def _procedural_solve(concept: Dict, text: str):
                     expr = expr.subs(xv, float(xm))
                 val = float(sp.N(expr))
                 return done(val, "expr -> %s" % _fmt(val))
-            except Exception:
-                pass
+            except Exception as _exc:
+                log_lane_exception(
+                    stage="catalog_executor._procedural_solve.expr_direct", exc=_exc)
 
     # ── extended calculus ops via core_calculus_engine ─────────────────
     # definite integrals, area under/between curves, max/min value,
@@ -4267,8 +4351,9 @@ def _procedural_solve(concept: Dict, text: str):
                         if res.is_number:
                             val = float(sp.N(res))
                             return done(val, "engine -> %s" % _fmt(val))
-                except Exception:
-                    pass
+                except Exception as _exc:
+                    log_lane_exception(
+                        stage="catalog_executor._procedural_solve.engine_equation", exc=_exc)
 
     # digit reversal: 'digits of 41 swapped -> difference 27'
     # (9*|d1-d2|); 'add up to 11 x (sum of digits)'
@@ -4470,8 +4555,9 @@ def _quantity_solve(concept: Dict, slots: Dict[str, float],
         r = _procedural_solve(concept, text)
         if r is not None:
             return r
-    except Exception:
-        pass
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor._quantity_solve.procedural_lookup", exc=_exc)
     try:
         from backend.its.solver.quantity_binder import (
             bind_quantities, asked_variables)
@@ -4530,8 +4616,9 @@ def _quantity_solve(concept: Dict, slots: Dict[str, float],
                 # they outrank unit-family guesses which otherwise win
                 # on order alone ('9 m' -> s instead of w)
                 bindings.insert(0, cand)
-    except Exception:
-        pass
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor._quantity_solve.assert_binds", exc=_exc)
 
     # no deterministic bindings is not fatal — the semantic pass
     # below can still bind from var glosses
@@ -4601,8 +4688,9 @@ def _quantity_solve(concept: Dict, slots: Dict[str, float],
             if res.ok:
                 res.source = "quantity+semantic"
                 return res
-    except Exception:
-        pass
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor._quantity_solve.semantic_ladder", exc=_exc)
     # permutation-consensus: unbound inputs × remaining numbers,
     # every ordering tried — a unique valid result needs no semantics
     try:
@@ -4657,8 +4745,9 @@ def _quantity_solve(concept: Dict, slots: Dict[str, float],
                     False, None, [],
                     "ambiguous: %d bindings give different values %s"
                     % (len(uniq), uniq[:5]), cid, "quantity")
-    except Exception:
-        pass
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor._quantity_solve.permutation_consensus", exc=_exc)
     return ExecResult(False, None, [],
                       "quantities bound but formula not solvable for "
                       "the asked variable", cid, "quantity")
@@ -4815,15 +4904,22 @@ def _sympy_rearrange(concept: Dict, env: Dict[str, float],
             continue
         try:
             sols = sp.solve(eq, sym_target)
-        except Exception:
+        except Exception as _exc:
+            log_lane_exception(
+                stage="catalog_executor._sympy_rearrange.solve_equation", exc=_exc)
             continue
+        # physical convention: positive root first — 'v^2 = 400'
+        # yields -20 and +20; the negative root shipped before this
+        _sols_eval = []
         for sol in sols:
             try:
                 val = float(sp.N(sol.subs(subs)))
             except (TypeError, ValueError):
                 continue
-            if not math.isfinite(val) or abs(val) > _MAX_RESULT:
-                continue
+            if math.isfinite(val) and abs(val) <= _MAX_RESULT:
+                _sols_eval.append((sol, val))
+        _sols_eval.sort(key=lambda sv: (sv[1] < 0, abs(sv[1])))
+        for sol, val in _sols_eval:
             lines.append("%s = %s -> %s" % (target, sol, _fmt(val)))
             return ExecResult(True, val, lines, "",
                               str(concept.get("id", "")), "quantity")
@@ -4872,8 +4968,9 @@ def _sympy_rearrange(concept: Dict, env: Dict[str, float],
                         return ExecResult(True, val, lines, "",
                                           str(concept.get("id", "")),
                                           "quantity")
-    except Exception:
-        pass
+    except Exception as _exc:
+        log_lane_exception(
+            stage="catalog_executor._sympy_rearrange.symbolic_system", exc=_exc)
     return ExecResult(False, None, [], "symbolic solve produced "
                       "no usable value", str(concept.get("id", "")),
                       "quantity")

@@ -50,7 +50,11 @@ class LearningOrchestrator:
 
     @staticmethod
     async def _node_card(db, node_id: str) -> Optional[dict]:
-        """Student-facing node descriptor — title + slug only."""
+        """Student-facing node descriptor — title + link only.
+
+        (EnrichmentContent has no slug column; /learn/<node_id> is the
+        canonical route — ids travel as opaque fetch keys by owner law.)
+        """
         if not node_id:
             return None
         ec = (
@@ -58,7 +62,6 @@ class LearningOrchestrator:
                 select(
                     EnrichmentContent.node_id,
                     EnrichmentContent.title,
-                    EnrichmentContent.slug,
                     EnrichmentContent.subject,
                     EnrichmentContent.class_level,
                 ).where(EnrichmentContent.node_id == node_id)
@@ -69,10 +72,10 @@ class LearningOrchestrator:
         title = ec[1] or ec[0]
         return {
             "title": title,
-            "slug": ec[2],
-            "subject": ec[3],
-            "class_level": ec[4],
-            "link": f"/learn/{ec[2]}" if ec[2] else None,
+            "node_id": ec[0],
+            "subject": ec[2],
+            "class_level": ec[3],
+            "link": f"/learn/{ec[0]}",
         }
 
     @staticmethod

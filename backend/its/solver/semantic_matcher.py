@@ -78,6 +78,14 @@ STRUCTURE_EXEMPLARS: Dict[str, List[str]] = {
 # --------------------------------------------------------------------------- #
 
 class _Embedder:
+    """Thin view over the process-wide shared MiniLM (backend.ai.model_hub).
+
+    PERF (2026-10-03 solve cold-start): this used to load its OWN
+    SentenceTransformer("all-MiniLM-L6-v2") instance — the first solve paid
+    a second (sometimes third) ~8s model load per worker. Every embedder on
+    the solve path now funnels through model_hub's one cached singleton.
+    """
+
     _model = None
     _lock = threading.Lock()
     _failed = False
@@ -88,11 +96,10 @@ class _Embedder:
             with cls._lock:
                 if cls._model is None and not cls._failed:
                     try:
-                        import torch
-                        torch.set_num_threads(1)
-                        from sentence_transformers import SentenceTransformer
-                        cls._model = SentenceTransformer("all-MiniLM-L6-v2")
-                        logger.info("SemanticMatcher: MiniLM loaded")
+                        from backend.ai import model_hub
+                        cls._model = model_hub.load_sync()
+                        logger.info("SemanticMatcher: using shared MiniLM "
+                                    "singleton (model_hub)")
                     except Exception as exc:
                         logger.warning("SemanticMatcher: embedding model "
                                        "unavailable (%s) - lexical fallback",

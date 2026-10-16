@@ -1,16 +1,16 @@
 # ── Backend Dockerfile (production) ────────────────────────────
 # Multi-stage build: install deps → run app with uvicorn workers
-# Python 3.12: scipy==1.13.0 / numpy==1.26.4 ship 3.12 wheels — on 3.13
-# pip source-builds scipy and needs gfortran (build fails on slim).
+# Uses Python 3.12 — requirements.txt pins (numpy 1.26, scipy 1.13,
+# matplotlib 3.9) predate 3.13 wheels; 3.12 has prebuilt wheels for all.
+
 FROM python:3.12-slim AS base
 
-# Set environment variables
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1
 
-# Install system dependencies required by psycopg2, sympy, etc.
+# System deps for psycopg2, sympy, matplotlib, tesseract-adjacent wheels
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libpq-dev \
@@ -19,32 +19,37 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /app
 
-# Copy requirements first for better layer caching
+# Requirements first for layer caching
 COPY requirements.txt .
-
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
+# Application code + content data the services read at runtime
 COPY backend/ ./backend/
-# the runtime store inside cbse_data/ is the question bank only —
-# do NOT COPY the whole corpus into the image (multi-GB build context)
-COPY cbse_data/question_bank.db ./cbse_data/question_bank.db
+# content/ is NOT baked: compose bind-mounts deploy/content over /app/content
+# at runtime (the documented workflow - .md edits are live without a
+# rebuild). Baking it was 7.4GB of dead weight the containers never read.
+# cbse_data is the default INTERACTIONS_PATH parent — create it empty;
+# prod should override INTERACTIONS_PATH or mount a volume.
+RUN mkdir -p ./cbse_data
 
-# Expose the backend port
 EXPOSE 8000
 
-# Health check — hit the /health endpoint
-HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=10s --start-period=300s --retries=3 \
     CMD curl -f http://localhost:8000/health || exit 1
 
-# Run with gunicorn + uvicorn workers for production
-# 4 workers is a good default for a 2-core machine; tune via UVICORN_WORKERS env
-CMD gunicorn backend.app:app \
+# NOTE: the ASGI app is backend.main:app (main.py), not backend.app.
+# --preload warms the index + embedder once in the master so forked
+# workers inherit them (PRELOAD_WARM gates the import-time warm in main.py).
+ENV PRELOAD_WARM=1
+# LAUNCH GATE (Phase A): the container refuses to serve if the app cannot
+# import, routes drifted, dependencies are down, content is missing, or the
+# solver fails its planted self-test. Fail fast, loud, with the reason.
+CMD python -m backend.harness.launch_check && gunicorn backend.main:app \
+    --preload \
     --worker-class uvicorn.workers.UvicornWorker \
-    --workers ${UVICORN_WORKERS:-4} \
+    --workers ${UVICORN_WORKERS:-2} \
     --bind 0.0.0.0:8000 \
-    --timeout 120 \
+    --timeout 600 \
     --keep-alive 5 \
     --max-requests 1000 \
     --max-requests-jitter 50 \

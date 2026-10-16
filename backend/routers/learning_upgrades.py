@@ -22,6 +22,7 @@ Pillar-6 contract fixes:
     foreign user_id (inline body check, same pattern as
     api.intelligence.record_confidence).
 """
+import re as _re
 import uuid
 from typing import List, Optional
 
@@ -216,7 +217,7 @@ async def examiner_grade_image(
     extracted_text = ""
     source = "none"
     try:
-        from backend.api.vision import (
+        from backend.services.vision_extract import (
             _call_parse, _call_vision, _nvidia_key, _to_data_url,
         )
         key = _nvidia_key()
@@ -294,7 +295,20 @@ async def feed_today(
         dq = await srs.due_queue(db, uid, limit=10)
         items = dq.get("items", [])
         for item in items:
-            item["title"] = _node_title(item.get("node_id")) or item.get("concept_name")
+            label = _node_title(item.get("node_id")) or item.get("concept_name")
+            # Stored concept_name can be a raw corpus code ("ch08") or the
+            # node id itself (first-review seed stores node_id verbatim) —
+            # never student-facing. Bare chapter codes become "Chapter N";
+            # full node ids parse to their chapter; anything else drops.
+            if label:
+                lab = str(label).strip()
+                if _re.fullmatch(r"ch\d{1,3}", lab):
+                    label = f"Chapter {int(lab[2:])}"
+                elif _re.fullmatch(r"c\d{1,2}_[a-z_]+_(cbse|icse|isc)_\d{2}_\d{3}", lab):
+                    label = f"Chapter {int(lab.rsplit('_', 2)[-2])}"
+                elif _re.fullmatch(r"c\d{1,2}_[a-z_0-9]+", lab):
+                    label = None  # id-shaped label — better the reason line
+            item["title"] = label
         out["review"] = {"due_count": dq.get("due_count", 0),
                          "items": items, "target": 10}
     except Exception as exc:

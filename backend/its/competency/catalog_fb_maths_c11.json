@@ -1,0 +1,612 @@
+{
+ "subject": "maths",
+ "chapter_title": "ICSE maths formula bank (c11-c12)",
+ "source_file": "maths_formula_bank_c11_c12.marker",
+ "concepts": [
+  {
+   "id": "FB_MATHS_C11_001",
+   "title": "SETS AND RELATIONS (C11): n(P(A)) = ...",
+   "section": "SETS AND RELATIONS (C11)",
+   "formula": "nPA = 2^n",
+   "_pats_extra": [],
+   "key_idea": "SETS AND RELATIONS (C11) (SETS AND RELATIONS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n(p(a)) using sets and relations (c11)",
+    "calculate sets and relations (c11)",
+    "sets and relations (c11) formula question",
+    "given values find n(p(a))",
+    "sets and relations (c11) sets and relations (c11) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_001",
+     "question_pattern": "sets and relations (c11) with {n} find n(p(a))",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n(P(A)) = 2^n",
+     "compute": "nPA = 2^n"
+    }
+   ],
+   "chapter_title": "SETS AND RELATIONS (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_002",
+   "title": "SETS AND RELATIONS (C11): Equivalence = ...",
+   "section": "SETS AND RELATIONS (C11)",
+   "formula": "Equivalence = reflexive + symmetric + transitive",
+   "_pats_extra": [],
+   "key_idea": "SETS AND RELATIONS (C11) (SETS AND RELATIONS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find equivalence using sets and relations (c11)",
+    "calculate sets and relations (c11)",
+    "sets and relations (c11) formula question",
+    "given values find equivalence",
+    "sets and relations (c11) sets and relations (c11) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_002",
+     "question_pattern": "sets and relations (c11) with {reflexive} and {symmetric} and {transitive} find equivalence",
+     "extracted_variables": {
+      "reflexive": "given reflexive",
+      "symmetric": "given symmetric",
+      "transitive": "given transitive"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for reflexive, symmetric, transitive from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Equivalence = reflexive + symmetric + transitive",
+     "compute": "Equivalence = reflexive + symmetric + transitive"
+    }
+   ],
+   "chapter_title": "SETS AND RELATIONS (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_003",
+   "title": "Double/triple angle: sin2theta = ...",
+   "section": "TRIGONOMETRY (C11)",
+   "formula": "sin2theta = 2*sinthetacostheta",
+   "_pats_extra": [],
+   "key_idea": "Double/triple angle (TRIGONOMETRY (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sin2theta using double/triple angle",
+    "calculate double/triple angle",
+    "double/triple angle formula question",
+    "given values find sin2theta",
+    "trigonometry (c11) double/triple angle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_003",
+     "question_pattern": "double/triple angle with {sinthetacostheta} find sin2theta",
+     "extracted_variables": {
+      "sinthetacostheta": "given sinthetacostheta"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for sinthetacostheta from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sin2theta = 2*sinthetacostheta",
+     "compute": "sin2theta = 2*sinthetacostheta"
+    }
+   ],
+   "chapter_title": "TRIGONOMETRY (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_004",
+   "title": "Double/triple angle: tan2theta = ...",
+   "section": "TRIGONOMETRY (C11)",
+   "formula": "tan2theta = 2*tantheta/(1-tan^2*theta)",
+   "_pats_extra": [],
+   "key_idea": "Double/triple angle (TRIGONOMETRY (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find tan2theta using double/triple angle",
+    "calculate double/triple angle",
+    "double/triple angle formula question",
+    "given values find tan2theta",
+    "trigonometry (c11) double/triple angle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_004",
+     "question_pattern": "double/triple angle with {tantheta} find tan2theta",
+     "extracted_variables": {
+      "tantheta": "given tantheta"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for tantheta from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "tan2theta = 2*tantheta/(1-tan^2*theta)",
+     "compute": "tan2theta = 2*tantheta/(1-tan^2*theta)"
+    }
+   ],
+   "chapter_title": "TRIGONOMETRY (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_005",
+   "title": "Double/triple angle: sin3theta = ...",
+   "section": "TRIGONOMETRY (C11)",
+   "formula": "sin3theta = 3*sintheta - 4*sin^3*theta",
+   "_pats_extra": [],
+   "key_idea": "Double/triple angle (TRIGONOMETRY (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sin3theta using double/triple angle",
+    "calculate double/triple angle",
+    "double/triple angle formula question",
+    "given values find sin3theta",
+    "trigonometry (c11) double/triple angle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_005",
+     "question_pattern": "double/triple angle with {sintheta} find sin3theta",
+     "extracted_variables": {
+      "sintheta": "given sintheta"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for sintheta from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sin3theta = 3*sintheta - 4*sin^3*theta",
+     "compute": "sin3theta = 3*sintheta - 4*sin^3*theta"
+    }
+   ],
+   "chapter_title": "TRIGONOMETRY (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_006",
+   "title": "Double/triple angle: cos3theta = ...",
+   "section": "TRIGONOMETRY (C11)",
+   "formula": "cos3theta = 4*cos^3*theta - 3*costheta",
+   "_pats_extra": [],
+   "key_idea": "Double/triple angle (TRIGONOMETRY (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cos3theta using double/triple angle",
+    "calculate double/triple angle",
+    "double/triple angle formula question",
+    "given values find cos3theta",
+    "trigonometry (c11) double/triple angle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_006",
+     "question_pattern": "double/triple angle with {costheta} find cos3theta",
+     "extracted_variables": {
+      "costheta": "given costheta"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for costheta from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "cos3theta = 4*cos^3*theta - 3*costheta",
+     "compute": "cos3theta = 4*cos^3*theta - 3*costheta"
+    }
+   ],
+   "chapter_title": "TRIGONOMETRY (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_007",
+   "title": "QUADRATIC EQUATIONS (C11): Vertex at x = ...",
+   "section": "QUADRATIC EQUATIONS (C11)",
+   "formula": "Vertex_at_x = -b/2*a",
+   "_pats_extra": [],
+   "key_idea": "QUADRATIC EQUATIONS (C11) (QUADRATIC EQUATIONS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find vertex at x using quadratic equations (c11)",
+    "calculate quadratic equations (c11)",
+    "quadratic equations (c11) formula question",
+    "given values find vertex at x",
+    "quadratic equations (c11) quadratic equations (c11) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_007",
+     "question_pattern": "quadratic equations (c11) with {b} and {a} find vertex at x",
+     "extracted_variables": {
+      "b": "given b",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for b, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Vertex at x = -b/2*a",
+     "compute": "Vertex_at_x = -b/2*a"
+    }
+   ],
+   "chapter_title": "QUADRATIC EQUATIONS (C11)"
+  },
+  {
+   "id": "FB_MATHS_C11_008",
+   "title": "Standard integrals: integralsecx tanx dx = ...",
+   "section": "INTEGRATION (C12)",
+   "formula": "integralsecx_tanx_dx = secx + C",
+   "_pats_extra": [],
+   "key_idea": "Standard integrals (INTEGRATION (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find integralsecx tanx dx using standard integrals",
+    "calculate standard integrals",
+    "standard integrals formula question",
+    "given values find integralsecx tanx dx",
+    "integration (c12) standard integrals numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_008",
+     "question_pattern": "standard integrals with {secx} and {C} find integralsecx tanx dx",
+     "extracted_variables": {
+      "secx": "given secx",
+      "C": "given C"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for secx, C from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "integralsecx tanx dx = secx + C",
+     "compute": "integralsecx_tanx_dx = secx + C"
+    }
+   ],
+   "chapter_title": "INTEGRATION (C12)"
+  },
+  {
+   "id": "FB_MATHS_C11_009",
+   "title": "Integration by parts: integralu dv = ...",
+   "section": "INTEGRATION (C12)",
+   "formula": "integralu_dv = u*v - integralv_du",
+   "_pats_extra": [],
+   "key_idea": "Integration by parts (INTEGRATION (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find integralu dv using integration by parts",
+    "calculate integration by parts",
+    "integration by parts formula question",
+    "given values find integralu dv",
+    "integration (c12) integration by parts numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_009",
+     "question_pattern": "integration by parts with {u} and {v} and {integralv_du} find integralu dv",
+     "extracted_variables": {
+      "u": "given u",
+      "v": "given v",
+      "integralv_du": "given integralv_du"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, v, integralv_du from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "integralu dv = u*v - integralv_du",
+     "compute": "integralu_dv = u*v - integralv_du"
+    }
+   ],
+   "chapter_title": "INTEGRATION (C12)"
+  },
+  {
+   "id": "FB_MATHS_C11_010",
+   "title": "Definite integrals: integral(a to b) = ...",
+   "section": "INTEGRATION (C12)",
+   "formula": "integrala_to_b = -integral",
+   "_pats_extra": [],
+   "key_idea": "Definite integrals (INTEGRATION (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find integral(a to b) using definite integrals",
+    "calculate definite integrals",
+    "definite integrals formula question",
+    "given values find integral(a to b)",
+    "integration (c12) definite integrals numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_010",
+     "question_pattern": "definite integrals with {integral} find integral(a to b)",
+     "extracted_variables": {
+      "integral": "given integral"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for integral from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "integral(a to b) = -integral",
+     "compute": "integrala_to_b = -integral"
+    }
+   ],
+   "chapter_title": "INTEGRATION (C12)"
+  },
+  {
+   "id": "FB_MATHS_C11_011",
+   "title": "Line: r = ...",
+   "section": "3D GEOMETRY (C12)",
+   "formula": "r = a + t*x*b",
+   "_pats_extra": [],
+   "key_idea": "Line (3D GEOMETRY (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find r using line",
+    "calculate line",
+    "line formula question",
+    "given values find r",
+    "3d geometry (c12) line numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C11_011",
+     "question_pattern": "line with {a} and {t} and {b} find r",
+     "extracted_variables": {
+      "a": "given a",
+      "t": "given t",
+      "b": "given b"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, t, b from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "r = a + t*x*b",
+     "compute": "r = a + t*x*b"
+    }
+   ],
+   "chapter_title": "3D GEOMETRY (C12)"
+  },
+  {
+   "id": "FBD_MATHS_C11_001",
+   "title": "x1: x1 = ...",
+   "section": "decision tree",
+   "formula": "x1 = x2*test*horizontal_line_test",
+   "key_idea": "x1 (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find x1 using x1",
+    "calculate x1",
+    "x1 formula question",
+    "given values find x1",
+    "domain/range/codomain of a function",
+    "inverse of a function",
+    "others"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_MATHS_C11_001",
+     "question_pattern": "x1 with {x2} and {test} and {horizontal_line_test} find x1",
+     "extracted_variables": {
+      "x2": "given x2",
+      "test": "given test",
+      "horizontal_line_test": "given horizontal_line_test"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for x2, test, horizontal_line_test from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "x1 = x2*test*horizontal_line_test",
+     "compute": "x1 = x2*test*horizontal_line_test"
+    }
+   ],
+   "chapter_title": "maths c11 decision formulas"
+  },
+  {
+   "id": "FBD_MATHS_C11_002",
+   "title": "x: x = ...",
+   "section": "decision tree",
+   "formula": "x = n*pi + (-1)^n*a",
+   "key_idea": "x (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find x using x",
+    "calculate x",
+    "x formula question",
+    "given values find x",
+    "domain/range/codomain of a function",
+    "inverse of a function",
+    "others"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_MATHS_C11_002",
+     "question_pattern": "x with {n} and {pi} and {n} and {a} find x",
+     "extracted_variables": {
+      "n": "given n",
+      "pi": "given pi",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, pi, n, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "x = n*pi + (-1)^n*a",
+     "compute": "x = n*pi + (-1)^n*a"
+    }
+   ],
+   "chapter_title": "maths c11 decision formulas"
+  },
+  {
+   "id": "FBD_MATHS_C11_003",
+   "title": "x: x = ...",
+   "section": "decision tree",
+   "formula": "x = 2*n*pi +- a",
+   "key_idea": "x (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find x using x",
+    "calculate x",
+    "x formula question",
+    "given values find x",
+    "domain/range/codomain of a function",
+    "inverse of a function",
+    "others"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_MATHS_C11_003",
+     "question_pattern": "x with {n} and {pi} and {a} find x",
+     "extracted_variables": {
+      "n": "given n",
+      "pi": "given pi",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, pi, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "x = 2*n*pi +- a",
+     "compute": "x = 2*n*pi +- a"
+    }
+   ],
+   "chapter_title": "maths c11 decision formulas"
+  },
+  {
+   "id": "FBD_MATHS_C11_004",
+   "title": "x: x = ...",
+   "section": "decision tree",
+   "formula": "x = n*pi + a",
+   "key_idea": "x (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find x using x",
+    "calculate x",
+    "x formula question",
+    "given values find x",
+    "domain/range/codomain of a function",
+    "inverse of a function",
+    "others"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_MATHS_C11_004",
+     "question_pattern": "x with {n} and {pi} and {a} find x",
+     "extracted_variables": {
+      "n": "given n",
+      "pi": "given pi",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, pi, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "x = n*pi + a",
+     "compute": "x = n*pi + a"
+    }
+   ],
+   "chapter_title": "maths c11 decision formulas"
+  }
+ ]
+}

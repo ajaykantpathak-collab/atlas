@@ -1,0 +1,38 @@
+# Content PVCs — the CBSE corpus backing volumes referenced by the
+# backend Deployment. Populate once from a data job or sync from object
+# storage (recommended for multi-node clusters).
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: cbse-data
+  namespace: atlas
+spec:
+  accessModes: ["ReadOnlyMany"]
+  resources: { requests: { storage: 10Gi } }
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: organized-content
+  namespace: atlas
+spec:
+  accessModes: ["ReadOnlyMany"]
+  resources: { requests: { storage: 10Gi } }
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: raw-content
+  namespace: atlas
+spec:
+  accessModes: ["ReadOnlyMany"]
+  resources: { requests: { storage: 10Gi } }
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: enrichment
+  namespace: atlas
+spec:
+  accessModes: ["ReadOnlyMany"]
+  resources: { requests: { storage: 5Gi } }

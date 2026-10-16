@@ -1,0 +1,27 @@
+[watch] written to D:\platform\harness\ops\watch\2026-10-13-2128.md; exit 7
+# Atlas watch — 2026-10-13-2128
+
+**VERDICT: RED** — 10/11 probes green
+
+| probe | result | detail |
+|---|---|---|
+| backend /api/health 200 + all services true (sweep #14) | PASS | code=200 services={"status":"ok","timestamp":"2026-10-13T15:58:28.971315","environment":"production","services":{"postgres":true,"neo4j":t |
+| landing GET 200 + SSR shell (sweep #1, read-only level) | PASS | code=200 bytes=25205 |
+| landing latency < 2000 ms | PASS | 724 ms |
+| static asset 200 (Next build healthy) | PASS | /_next/static/css/10ed41809fb239e5.css code=200 900 ms |
+| API GET /api/content/subjects?class=10 | FAIL | code=200 bytes=38227 4514 ms |
+| API GET /api/content/subjects?class=8 | PASS | code=200 bytes=38227 945 ms |
+| API GET /api/health | PASS | code=200 bytes=152 1084 ms |
+| API GET :3001/ | PASS | code=200 bytes=25205 886 ms |
+| nginx :80 root 200 | PASS | code=200 |
+| unknown FE route returns 4xx (no 5xx) | PASS | code=404 |
+| dev instance :8020 (informational) | PASS | down code=-1 |
+| Reticle flows (dev FE) | SKIPPED | SKIPPED — no dev FE configured (reticle_dev_url=null); never replayed against production |
+
+## Not runnable read-only (honest list)
+
+- sweep #2-#13 Playwright items (signup, dashboard, galaxy, story, practice, doubt, security, teacher, engagement, hindi, adaptive, chapter test): require login + writes — NOT read-only; run via verify-sweep skill manually after ships
+- Reticle 10 flows: write session data — never replayed against production; run only against a dev FE via watch.reticle_dev_url
+
+source: GET probes against http://localhost/api/health and http://localhost:3001; config harness/config.json
+

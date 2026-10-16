@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Junior World — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  body { background: #f3ecd9; } /* junior = warm light, not cosmos terminal */
+  .junior-page { min-height: 100vh; padding-bottom: 80px;
+    background:
+      radial-gradient(800px 400px at 80% 0%, rgba(232,181,79,0.18), transparent 60%),
+      radial-gradient(700px 400px at 10% 100%, rgba(111,179,232,0.14), transparent 60%),
+      #f3ecd9;
+  }
+  .big-q { font-family: var(--font-disp); font-size: clamp(30px,4vw,44px); font-weight: 700; color: var(--ink); margin: 18px 0 26px; }
+  .junior-opts { display: flex; gap: 16px; flex-wrap: wrap; }
+  .junior-opts button {
+    min-width: 110px; min-height: 64px; font-family: var(--font-serif);
+    font-size: 28px; font-weight: 700; color: var(--ink);
+    background: #fffdf6; border: 3px solid var(--ink); border-radius: 14px;
+    box-shadow: 0 4px 0 var(--ink); transition: transform var(--atlas-fast), box-shadow var(--atlas-fast);
+  }
+  .junior-opts button:hover { transform: translateY(2px); box-shadow: 0 2px 0 var(--ink); }
+  .junior-opts button.yay { border-color: var(--stamp); color: var(--stamp); }
+  .mascot {
+    width: 92px; height: 92px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #ffe9a8, #e8b54f);
+    border: 3px solid var(--ink); display: flex; align-items: center; justify-content: center;
+    font-size: 44px; animation: mascot-bob 3s ease-in-out infinite;
+  }
+  @keyframes mascot-bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
+  .sticker { display:inline-block; font-size: 30px; animation: tick-pop 0.4s cubic-bezier(0.34,1.56,0.64,1) backwards; }
+</style>
+</head>
+<body>
+<div class="paper-surface junior-page">
+  <div class="specimen-bar" data-specimen-bar></div>
+
+  <div class="paper-wrap" style="max-width:720px;">
+    <div style="display:flex;align-items:center;gap:20px;">
+      <div class="mascot">🦉</div>
+      <div>
+        <p class="specimen gold">Placement check · 1 / 10</p>
+        <p style="font-family:var(--font-hand);font-size:24px;color:var(--ink-soft);">Let's see what you already know!</p>
+      </div>
+    </div>
+
+    <div class="paper-sheet junior-sheet" style="margin-top:30px;" data-motion="settle">
+      <div class="sheet-head"><span class="l">Maths · Class 1</span><span class="r">just for fun — no marks</span></div>
+      <div class="sheet-body">
+        <p class="big-q" id="jr-q"></p>
+        <div class="junior-opts" id="jr-opts"></div>
+        <p id="junior-feedback" class="paper-hand" style="margin-top:24px;min-height:34px;"></p>
+      </div>
+    </div>
+
+    <p class="specimen" style="margin-top:22px;text-align:center;">
+      Bright, big, friendly — junior keeps its own rules: light paper, huge targets, sticker rewards.
+    </p>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+<script>
+let jlast = -1;
+function loadJunior() {
+  let i; do { i = Math.floor(Math.random() * ATLAS_DATA.JUNIOR.length); } while (i === jlast);
+  jlast = i;
+  const j = ATLAS_DATA.JUNIOR[i];
+  document.getElementById("jr-q").textContent = j.q;
+  document.getElementById("jr-opts").innerHTML = j.opts.map((o, k) =>
+    `<button onclick="pick2(this, ${k === j.correct})">${o}</button>`).join("");
+  document.getElementById("junior-feedback").textContent = "";
+}
+function pick2(el, ok) {
+  document.querySelectorAll(".junior-opts button").forEach(b => b.classList.remove("yay"));
+  const j = ATLAS_DATA.JUNIOR[jlast];
+  const fb = document.getElementById("junior-feedback");
+  if (ok) {
+    el.classList.add("yay");
+    fb.innerHTML = j.yes.replace(/⭐/g, '<span class="sticker">⭐</span>').replace(/🎉/g, '<span class="sticker" style="animation-delay:0.15s">🎉</span>');
+    setTimeout(loadJunior, 2600); // next placement question flows in
+  } else {
+    fb.textContent = j.no;
+  }
+}
+loadJunior();
+</script>
+</body>
+</html>

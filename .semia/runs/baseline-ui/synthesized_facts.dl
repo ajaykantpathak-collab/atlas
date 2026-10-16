@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("baseline-ui").
+skill_evidence_text("baseline-ui", "name: baseline-ui").
+action("act_review", "baseline-ui").
+action_evidence_text("act_review", "name: baseline-ui").

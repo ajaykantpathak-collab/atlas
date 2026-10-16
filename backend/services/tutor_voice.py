@@ -853,6 +853,7 @@ def render_serve_voice(voice: TutorVoice, student_id: str, turn: int,
             "template_id": "serve_retreat",
             "hinglish": detect_hinglish(question),
             "retreated_from": str(retreated_from),
+            "answer_label": "NONE",   # a served question, not an answer
         }
     cls = voice.classify(f"{concept_title} {question}")
     framing = _SERVE_FRAMING.get(cls["template_id"],
@@ -863,6 +864,7 @@ def render_serve_voice(voice: TutorVoice, student_id: str, turn: int,
         "intent": cls["intent"],
         "template_id": framing,
         "hinglish": detect_hinglish(question),
+        "answer_label": "NONE",
     }
 
 
@@ -888,6 +890,10 @@ def render_submit_voice(voice: TutorVoice, student_id: str, turn: int,
         "text": text,
         "template_id": template,
         "hinglish": detect_hinglish(student_text or got),
+        # U-LANE LABEL: the submit reveal speaks the tutor brain's
+        # verified expected value / worked solution
+        "answer_label": "VERIFIED" if outcome == "correct" or expected
+        else "NONE",
     }
 
 

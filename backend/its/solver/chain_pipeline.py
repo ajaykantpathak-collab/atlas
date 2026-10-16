@@ -23,6 +23,9 @@ from typing import Optional
 
 from backend.its.solver.answer_pipeline import (
     AuditTrail, GUIDED, PipelineResult, VERIFIED)
+# WSA-P3: never-raising lane-exception logger — a crashed guard must
+# at least be measured even where fail-open stays the contract.
+from backend.its.solver.contract import log_lane_exception
 from backend.its.solver.multi_hop import (
     MIN_CHAIN_HOPS, MULTI_HOP_MAX, compose_chain_multi, parse_chain_text,
 )
@@ -50,8 +53,12 @@ def try_chain(text: str, audit: AuditTrail) -> Optional[PipelineResult]:
         clauses = split_hop_clauses(text)
         if clauses is not None and len(clauses) > len(keys):
             return None
-    except Exception:
-        pass
+    except Exception as _exc:
+        # WSA-P3: this guard crashing silently disabled the
+        # incomplete-reading protection (a partial chain could ship) —
+        # fail-open stays the contract, the crash is now measured.
+        log_lane_exception(
+            stage="chain_pipeline.try_chain.hop_clause_guard", exc=_exc)
     audit.route.append(f"chain:{len(keys)}hops")
 
     chain = compose_chain_multi(keys, spec["linking_quantities"],
@@ -76,6 +83,11 @@ def try_chain(text: str, audit: AuditTrail) -> Optional[PipelineResult]:
             return None
         audit.gates_passed.append("chain_compose")
         audit.route.append("multi_hop_chain")
+        # WS-MH: name the structure so the strict badge gate can run the
+        # registered CHAIN second path (fresh spec parse + own-binding
+        # recompute + inverse-relation anchor) instead of downgrading
+        # every chain as verifier_no_route.
+        audit.route.append("structure:CHAIN")
         value = chain["answer"]
         return PipelineResult(
             label=VERIFIED, answer=str(value), numeric=float(value),

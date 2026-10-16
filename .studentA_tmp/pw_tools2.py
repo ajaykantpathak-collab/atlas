@@ -1,0 +1,31 @@
+import sys, json, re
+sys.path.insert(0, r'D:/platform/.studentA_tmp')
+from playwright.sync_api import sync_playwright
+logs=[]
+def note(s): print(s); logs.append(s)
+with sync_playwright() as p:
+    b = p.chromium.launch(channel='chrome', headless=True)
+    ctx = b.new_context(viewport={'width':1366,'height':950})
+    page = ctx.new_page()
+    console=[]; failing=[]; reqs=[]
+    page.on('console', lambda m: console.append(f'{m.type}:{m.text[:130]}') if m.type=='error' else None)
+    page.on('response', lambda r: failing.append(f'{r.status} {r.request.method} {r.url.replace("http://localhost","")[:80]}') if r.status>=400 else None)
+    page.on('request', lambda r: reqs.append(f'{r.method} {r.url.replace("http://localhost","")[:80]}') if '/api/' in r.url else None)
+    page.goto('http://localhost/login', wait_until='domcontentloaded', timeout=30000)
+    page.fill('input[type="email"]', 'demo@dreamapp.in')
+    page.fill('input[type="password"]', 'demo123')
+    page.locator('button[type="submit"]').first.click(); page.wait_for_timeout(4000)
+    page.goto('http://localhost/study-tools', wait_until='domcontentloaded', timeout=45000)
+    page.wait_for_timeout(3500)
+    btns = page.locator('button:has-text("Open tool")')
+    note('Open tool buttons: ' + str(btns.count()))
+    # click first (Flashcards)
+    btns.nth(0).click()
+    page.wait_for_timeout(5000)
+    note('after Flashcards open url: ' + page.url)
+    body = re.sub(r'\s+',' ', page.inner_text('body'))
+    note('FLASHCARDS VIEW: ' + body[:700])
+    note('API calls: ' + ' || '.join(reqs[:8]))
+    note('failing: ' + ' || '.join(failing[:6]))
+    page.screenshot(path=r'D:/platform/.studentA_tmp/shot_flashcards.png', full_page=True)
+    ctx.close(); b.close()

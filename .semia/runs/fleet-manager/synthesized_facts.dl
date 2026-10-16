@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("fleet-manager").
+skill_evidence_text("fleet-manager", "name: fleet-manager").
+action("act_review", "fleet-manager").
+action_evidence_text("act_review", "name: fleet-manager").

@@ -1,0 +1,12 @@
+{
+ "receipt_id": "rcpt_20261013T152947Z_266177e7",
+ "work_item": "WI-20261013-002",
+ "from_state": "NEW",
+ "to_state": "INTAKE",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:29:47Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "title='its/README: corpus + improvement loop pointer' lanes=['deploy/backend/its/README.md']",
+ "prev_receipt_sha256": null
+}

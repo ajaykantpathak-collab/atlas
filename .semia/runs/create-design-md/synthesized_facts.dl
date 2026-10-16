@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("create-design-md").
+skill_evidence_text("create-design-md", "name: create-design-md").
+action("act_review", "create-design-md").
+action_evidence_text("act_review", "name: create-design-md").

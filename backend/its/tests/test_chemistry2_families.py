@@ -15,7 +15,7 @@ import pytest
 
 
 def _model(text: str):
-    from backend.its.solver.chemistry2_families import model_chemistry2
+    from backend.its.solver.chemistry_families import model_chemistry2
     return model_chemistry2(text)
 
 

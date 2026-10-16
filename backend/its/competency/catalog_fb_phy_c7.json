@@ -1,0 +1,453 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c7)",
+ "source_file": "c7_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C7_001",
+   "title": "Speed: Speed = ...",
+   "section": "MOTION",
+   "formula": "Speed = Distance / Time",
+   "_pats_extra": [],
+   "key_idea": "Speed (MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find speed using speed",
+    "calculate speed",
+    "speed formula question",
+    "given values find speed",
+    "motion speed numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_001",
+     "question_pattern": "speed with {Distance} and {Time} find speed",
+     "extracted_variables": {
+      "Distance": "given Distance",
+      "Time": "given Time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Distance, Time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Speed = Distance / Time",
+     "compute": "Speed = Distance / Time"
+    }
+   ],
+   "chapter_title": "MOTION"
+  },
+  {
+   "id": "FB_PHY_C7_002",
+   "title": "Speed: Average speed = ...",
+   "section": "MOTION",
+   "formula": "Average_speed = Total_distance / Total_time",
+   "_pats_extra": [],
+   "key_idea": "Speed (MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find average speed using speed",
+    "calculate speed",
+    "speed formula question",
+    "given values find average speed",
+    "motion speed numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_002",
+     "question_pattern": "speed with {Total_distance} and {Total_time} find average speed",
+     "extracted_variables": {
+      "Total_distance": "given Total_distance",
+      "Total_time": "given Total_time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Total_distance, Total_time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Average speed = Total_distance / Total_time",
+     "compute": "Average_speed = Total_distance / Total_time"
+    }
+   ],
+   "chapter_title": "MOTION"
+  },
+  {
+   "id": "FB_PHY_C7_003",
+   "title": "Velocity: Velocity = ...",
+   "section": "MOTION",
+   "formula": "Velocity = Displacement / Time",
+   "_pats_extra": [],
+   "key_idea": "Velocity (MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find velocity using velocity",
+    "calculate velocity",
+    "velocity formula question",
+    "given values find velocity",
+    "motion velocity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_003",
+     "question_pattern": "velocity with {Displacement} and {Time} find velocity",
+     "extracted_variables": {
+      "Displacement": "given Displacement",
+      "Time": "given Time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Displacement, Time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Velocity = Displacement / Time",
+     "compute": "Velocity = Displacement / Time"
+    }
+   ],
+   "chapter_title": "MOTION"
+  },
+  {
+   "id": "FB_PHY_C7_004",
+   "title": "Velocity: Positive = ...",
+   "section": "MOTION",
+   "formula": "Positive = moving_away*from_start",
+   "_pats_extra": [],
+   "key_idea": "Velocity (MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find positive using velocity",
+    "calculate velocity",
+    "velocity formula question",
+    "given values find positive",
+    "motion velocity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_004",
+     "question_pattern": "velocity with {moving_away} and {from_start} find positive",
+     "extracted_variables": {
+      "moving_away": "given moving_away",
+      "from_start": "given from_start"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for moving_away, from_start from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Positive = moving_away*from_start",
+     "compute": "Positive = moving_away*from_start"
+    }
+   ],
+   "chapter_title": "MOTION"
+  },
+  {
+   "id": "FB_PHY_C7_005",
+   "title": "Equations of motion (uniform acceleration): v = ...",
+   "section": "MOTION",
+   "formula": "v = u + a*t",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using equations of motion (uniform acceleration)",
+    "calculate equations of motion (uniform acceleration)",
+    "equations of motion (uniform acceleration) formula question",
+    "given values find v",
+    "motion equations of motion (uniform acceleration) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_005",
+     "question_pattern": "equations of motion (uniform acceleration) with {u} and {a} and {t} find v",
+     "extracted_variables": {
+      "u": "given u",
+      "a": "given a",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION"
+  },
+  {
+   "id": "FB_PHY_C7_006",
+   "title": "Equations of motion (uniform acceleration): s = ...",
+   "section": "MOTION",
+   "formula": "s = u*t + 1/2*a*t^2",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find s using equations of motion (uniform acceleration)",
+    "calculate equations of motion (uniform acceleration)",
+    "equations of motion (uniform acceleration) formula question",
+    "given values find s",
+    "motion equations of motion (uniform acceleration) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_006",
+     "question_pattern": "equations of motion (uniform acceleration) with {u} and {t} and {a} and {t} find s",
+     "extracted_variables": {
+      "u": "given u",
+      "t": "given t",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, t, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "s = u*t + 1/2*a*t^2",
+     "compute": "s = u*t + 1/2*a*t^2"
+    }
+   ],
+   "chapter_title": "MOTION"
+  },
+  {
+   "id": "FB_PHY_C7_007",
+   "title": "Energy: Kinetic Energy = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "Kinetic_Energy = 1/2*m*v^2",
+   "_pats_extra": [],
+   "key_idea": "Energy (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find kinetic energy using energy",
+    "calculate energy",
+    "energy formula question",
+    "given values find kinetic energy",
+    "work, energy, power energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_007",
+     "question_pattern": "energy with {m} and {v} find kinetic energy",
+     "extracted_variables": {
+      "m": "given m",
+      "v": "given v"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, v from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Kinetic Energy = 1/2*m*v^2",
+     "compute": "Kinetic_Energy = 1/2*m*v^2"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C7_008",
+   "title": "Power: SI unit watt (W) = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "SI_unit_watt_W = J/s",
+   "_pats_extra": [],
+   "key_idea": "Power (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find si unit watt (w) using power",
+    "calculate power",
+    "power formula question",
+    "given values find si unit watt (w)",
+    "work, energy, power power numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_008",
+     "question_pattern": "power with {J} and {s} find si unit watt (w)",
+     "extracted_variables": {
+      "J": "given J",
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for J, s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "SI unit watt (W) = J/s",
+     "compute": "SI_unit_watt_W = J/s"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C7_009",
+   "title": "Power: Power = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "Power = F*v*force*velocity",
+   "_pats_extra": [],
+   "key_idea": "Power (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find power using power",
+    "calculate power",
+    "power formula question",
+    "given values find power",
+    "work, energy, power power numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_009",
+     "question_pattern": "power with {F} and {v} and {force} and {velocity} find power",
+     "extracted_variables": {
+      "F": "given F",
+      "v": "given v",
+      "force": "given force",
+      "velocity": "given velocity"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F, v, force, velocity from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Power = F*v*force*velocity",
+     "compute": "Power = F*v*force*velocity"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C7_010",
+   "title": "Force: SI unit of weight = ...",
+   "section": "FORCE AND PRESSURE",
+   "formula": "SI_unit_of_weight = N*not_kg",
+   "_pats_extra": [],
+   "key_idea": "Force (FORCE AND PRESSURE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find si unit of weight using force",
+    "calculate force",
+    "force formula question",
+    "given values find si unit of weight",
+    "force and pressure force numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_010",
+     "question_pattern": "force with {N} and {not_kg} find si unit of weight",
+     "extracted_variables": {
+      "N": "given N",
+      "not_kg": "given not_kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, not_kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "SI unit of weight = N*not_kg",
+     "compute": "SI_unit_of_weight = N*not_kg"
+    }
+   ],
+   "chapter_title": "FORCE AND PRESSURE"
+  },
+  {
+   "id": "FB_PHY_C7_011",
+   "title": "Pressure: SI unit pascal (Pa) = ...",
+   "section": "FORCE AND PRESSURE",
+   "formula": "SI_unit_pascal_Pa = N/m^2, CGS_unit_dyne/cm^2",
+   "_pats_extra": [],
+   "key_idea": "Pressure (FORCE AND PRESSURE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find si unit pascal (pa) using pressure",
+    "calculate pressure",
+    "pressure formula question",
+    "given values find si unit pascal (pa)",
+    "force and pressure pressure numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C7_011",
+     "question_pattern": "pressure with {N} and {m} and {CGS_unit_dyne} and {cm} find si unit pascal (pa)",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "CGS_unit_dyne": "given CGS_unit_dyne",
+      "cm": "given cm"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, CGS_unit_dyne, cm from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "SI unit pascal (Pa) = N/m^2, CGS_unit_dyne/cm^2",
+     "compute": "SI_unit_pascal_Pa = N/m^2, CGS_unit_dyne/cm^2"
+    }
+   ],
+   "chapter_title": "FORCE AND PRESSURE"
+  }
+ ]
+}

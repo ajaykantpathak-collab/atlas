@@ -14,17 +14,50 @@ assignment so the executor can try each and keep the verified one.
 from __future__ import annotations
 
 import itertools
+import logging
 import math
 import re
 from typing import Dict, List, Optional, Tuple
 
 from backend.its.solver.input_normalizer import normalize_input
-from backend.its.solver.quantity_parser import parse_quantities
+from backend.its.solver.quantity_parser import parse_quantities, Quantity
+
+_ner_wired_logged = False
+
+
+def _ner_stage_quantities(norm: str):
+    """Phase 3.3 (BUILD_ORDER): NER-first quantity extraction.
+
+    The trained spaCy NER (services.variable_extractor) runs BEFORE the
+    regex quantity parser.  When it produces values they become the
+    binding candidates; when it is unavailable or finds nothing, None is
+    returned and the regex parser runs exactly as before — the fallback
+    is never removed.  Fail-soft: any problem here degrades to None."""
+    global _ner_wired_logged
+    try:
+        from backend.services.variable_extractor import extract
+        res = extract(norm)
+        if res.get("source") == "ner" and res.get("values"):
+            if not _ner_wired_logged:
+                _ner_wired_logged = True
+                logging.getLogger(__name__).info(
+                    "quantity_binder: NER extraction stage active; "
+                    "regex quantity parser retained as fallback")
+            return [
+                Quantity(float(v["value"]), v.get("unit") or None,
+                         v.get("role") or "dimensionless",
+                         v.get("raw") or "", "")
+                for v in res["values"]
+            ]
+    except Exception:
+        pass
+    return None
 
 # quantity family -> catalog variable names that carry that family.
 # (matched case-insensitively against the concept's own identifiers)
 _FAMILY_TO_NAMES: Dict[str, Tuple[str, ...]] = {
-    "velocity": ("speed", "velocity", "v", "speed_kmph", "rate"),
+    "velocity": ("speed", "velocity", "v", "u", "speed_kmph",
+                 "initial_velocity", "final_velocity"),
     "acceleration": ("acceleration", "a", "accel"),
     "length": ("distance", "length", "d", "s", "l", "w", "h",
                "height", "width",
@@ -112,6 +145,141 @@ _TARGET_WORDS = {
 
 _IDENT_RE = re.compile(r"[A-Za-z_][A-Za-z_0-9]*")
 
+# ------------------------------------------------------------------ #
+# Prepositional/verb frames: spaCy dependency walk gives each number a
+# role the flat family map cannot: 'from 15 m/s' -> initial, 'to 25
+# m/s' -> final, 'covering 80 m' -> distance, 'radius of 3' -> radius.
+# ------------------------------------------------------------------ #
+
+_ORDER_VARS: Dict[str, Tuple[str, ...]] = {
+    "initial": ("u", "u0", "v_0", "v0", "v_i", "initial",
+                "initial_velocity", "initial_speed", "u_i"),
+    "final": ("v", "vf", "v_f", "v_final", "final",
+              "final_velocity", "final_speed"),
+    "distance": ("s", "d", "distance", "displacement"),
+    "duration": ("t", "time", "duration", "n", "years", "months",
+                 "days"),
+    "rate": ("r", "rate", "rate_percent", "interest_rate"),
+}
+
+_NOUN_VARS: Dict[str, Tuple[str, ...]] = {
+    "radius": ("r", "radius"), "diameter": ("d", "diameter"),
+    "distance": ("s", "d", "distance", "displacement"),
+    "displacement": ("s", "displacement"),
+    "height": ("h", "height", "altitude"), "depth": ("h", "depth"),
+    "length": ("l", "length"), "width": ("w", "width"),
+    "breadth": ("b", "width", "breadth"), "base": ("b", "base"),
+    "side": ("a", "side", "s"), "edge": ("a", "side", "s"),
+    "mass": ("m", "mass"), "weight": ("w", "weight"),
+    "velocity": ("v", "u", "velocity", "speed"),
+    "speed": ("v", "u", "speed"),
+    "acceleration": ("a", "acceleration", "accel"),
+    "time": ("t", "time", "duration"),
+    "rate": ("r", "rate"), "angle": ("angle", "theta", "a"),
+    "volume": ("v", "volume", "capacity"),
+    "pressure": ("p", "pressure"),
+    "temperature": ("t", "T", "temperature", "temp"),
+    "area": ("a", "area", "surface_area"),
+    "force": ("f", "force"), "energy": ("e", "energy", "work"),
+    "power": ("p", "power"), "current": ("i", "current"),
+    "voltage": ("v", "voltage", "emf"),
+    "resistance": ("r", "resistance"),
+    "charge": ("q", "charge"),
+    "principal": ("principal", "p", "sum"),
+    "cost": ("cp", "cost", "cost_price"),
+    "price": ("sp", "price", "selling_price"),
+    "interest": ("interest", "si", "ci"),
+    "focal": ("f", "focal_length"),
+    "frequency": ("f", "frequency", "nu"),
+    "wavelength": ("wavelength", "lambda", "lam"),
+    "density": ("rho", "density", "d"),
+    "moles": ("n", "moles", "mole"),
+    "molar": ("molar_mass", "m", "M"),
+    "momentum": ("p", "momentum"),
+}
+
+_PREP_FRAME_NLP = None
+_PREP_FRAME_TRIED = False
+
+
+def _prep_frame_hints(text: str) -> Dict[float, Tuple[str, str]]:
+    """{number_value: (kind, hint)} from the spaCy dependency tree.
+
+    kind 'order': from/starting -> initial, to/until -> final, cover/
+    travel -> distance.  kind 'prep': for -> duration.  kind 'role':
+    'X of <num>' -> the noun X (radius of 3 -> 'radius')."""
+    global _PREP_FRAME_NLP, _PREP_FRAME_TRIED
+    if not _PREP_FRAME_TRIED:
+        _PREP_FRAME_TRIED = True
+        try:
+            from backend.its.solver.spacy_parser import _get_nlp
+            _PREP_FRAME_NLP = _get_nlp()
+        except Exception:
+            _PREP_FRAME_NLP = None
+    if _PREP_FRAME_NLP is None:
+        return {}
+    try:
+        doc = _PREP_FRAME_NLP(text[:1600])
+    except Exception:
+        return {}
+    hints: Dict[float, Tuple[str, str]] = {}
+    for tok in doc:
+        if tok.pos_ != "NUM":
+            continue
+        try:
+            val = float(tok.text.replace(",", ""))
+        except ValueError:
+            continue
+        cur, hint, seen = tok, None, set()
+        for _ in range(6):
+            par = cur.head
+            if par is cur or par.i in seen:
+                break
+            seen.add(par.i)
+            if par.pos_ == "ADP" and hint is None:
+                # nearest prep wins: 'to 25 m/s' under 'from 15 m/s' —
+                # the walk continues up to 'from' which must NOT
+                # overwrite the nearer 'to'
+                lm = par.lemma_.lower()
+                if lm == "of" and par.head is not par \
+                        and par.head.pos_ in ("NOUN", "PROPN"):
+                    hint = ("role", par.head.lemma_.lower())
+                elif lm in ("from", "since", "starting"):
+                    hint = ("order", "initial")
+                elif lm in ("to", "until", "till", "upto"):
+                    hint = ("order", "final")
+                elif lm == "for":
+                    hint = ("prep", "duration")
+            elif par.pos_ == "VERB" and hint is None \
+                    and par.lemma_.lower() in (
+                    "cover", "travel", "walk", "run", "move",
+                    "traverse", "covered", "travels"):
+                hint = ("order", "distance")
+            cur = par
+        if hint:
+            hints.setdefault(val, hint)
+    return hints
+
+
+def _hint_candidates(cands: List[str], kind: str, hint: str,
+                     cvars: List[str]) -> List[str]:
+    """Restrict (or create, for dimensionless values) variable
+    candidates by a prep-frame hint.  Fail-open: empty means 'no hint
+    knowledge', the family candidates stand."""
+    if kind in ("order", "prep"):
+        names = _ORDER_VARS.get(hint, ())
+    elif kind == "role":
+        names = _NOUN_VARS.get(hint) or (hint,)
+    else:
+        return []
+    hit = [v for v in cands if v in names]
+    if hit:
+        return hit
+    # hinted var not in this quantity's own family candidates — allow
+    # any concept var carrying the hint name (dimensionless rescue:
+    # 'covering 80' NERs no unit but dep-walk tags it 'distance')
+    return [v for v in cvars if v in names]
+
 
 def concept_variables(concept: dict) -> List[str]:
     """All variable identifiers named by the concept's formula and
@@ -140,7 +308,25 @@ def bind_quantities(text: str, concept: dict) -> List[Dict[str, float]]:
     family is ambiguous so the executor can verify each).
     """
     norm = normalize_input(text)
-    quants = parse_quantities(norm)
+    quants = _ner_stage_quantities(norm)      # NER first (Phase 3.3)
+    if quants is None:
+        quants = parse_quantities(norm)       # regex fallback, unchanged
+    elif quants:
+        # NER-first backfill: the trained NER occasionally drops the
+        # unit ('6.5 m long' -> dimensionless).  Merge, don't replace —
+        # fill empty families from the regex quantity parser by value.
+        try:
+            regex_qs = parse_quantities(norm)
+            fam_by_val = {float(r.value): getattr(r, "family", None)
+                          for r in regex_qs}
+            for q in quants:
+                fam = getattr(q, "family", None)
+                if (not fam or fam in ("other", "dimensionless")):
+                    rf = fam_by_val.get(float(q.value))
+                    if rf and rf != "other":
+                        q.family = rf
+        except Exception:
+            pass
     if not quants:
         return []
     cvars = concept_variables(concept)
@@ -177,6 +363,22 @@ def bind_quantities(text: str, concept: dict) -> List[Dict[str, float]]:
             # unitless or unknown family — unbound; the executor's own
             # slot layer may still pick it up positionally
             bindings.append((float(q.value), []))
+
+    # prep-frame refinement: 'from X' -> u (initial), 'to Y' -> v
+    # (final), 'covering Z' -> s (distance), 'radius of N' -> r.  Runs
+    # AFTER family candidates exist — narrows ambiguous same-family
+    # values (two velocities) and rescues dimensionless ones the NER
+    # could not tag.
+    hints = _prep_frame_hints(norm)
+    if hints:
+        for i, (val, cands) in enumerate(bindings):
+            kind_hint = hints.get(val)
+            if kind_hint is None:
+                continue
+            kind, hint = kind_hint
+            narrowed = _hint_candidates(cands, kind, hint, cvars)
+            if narrowed:
+                bindings[i] = (val, narrowed)
 
     bound = [b for b in bindings if b[1]]
     if not bound:
@@ -760,10 +962,12 @@ _MODEL = None
 
 
 def _encoder():
+    # PERF (2026-10-03 solve cold-start): shared model_hub singleton — was a
+    # third independent SentenceTransformer("all-MiniLM-L6-v2") load.
     global _MODEL
     if _MODEL is None:
-        from sentence_transformers import SentenceTransformer
-        _MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+        from backend.ai import model_hub
+        _MODEL = model_hub.load_sync()
     return _MODEL
 
 

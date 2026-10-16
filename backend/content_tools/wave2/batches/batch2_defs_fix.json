@@ -1,0 +1,489 @@
+{
+ "edits": [
+  {
+   "file": "c11_acc_isc_03_007.md",
+   "definition_lead": "Comprehensive bank reconciliation is the integrated application of all four preparation methods — from cash book balance, from pass book balance, from extracts of both books, and the amended cash book method — used to solve problems that mix timing differences (unpresented cheques, uncleared deposits), errors in the cash book (omissions, commissions), errors in the pass book (bank charges not recorded, wrong credits), and overdraft situations.",
+   "expect": "This node focuses on the integrated"
+  },
+  {
+   "file": "c11_ai_isc_01_001.md",
+   "definition_lead": "The ISC Class 11 Artificial Intelligence (866) syllabus opens with a chapter-level map: what AI is, how the field developed, its categories, and where it is applied.",
+   "expect": "This node provides the chapter overview"
+  },
+  {
+   "file": "c11_ai_isc_02_007.md",
+   "definition_lead": "Deploying AI and NLP systems at scale raises five critical challenges: bias and fairness, privacy and data governance, transparency and explainability, accountability, and environmental impact.",
+   "expect": "This node examines the critical challenges"
+  },
+  {
+   "file": "c11_ai_isc_03_008.md",
+   "definition_lead": "Three mathematical pillars — linear algebra basics, statistics, and probability — underpin every AI model, and the ISC examination pattern tests them as one integrated problem-solving framework.",
+   "expect": "This node integrates the three mathematical"
+  },
+  {
+   "file": "c11_ai_isc_05_007.md",
+   "definition_lead": "Data preparation ends with a decisive stage after cleaning: **data transformation, feature engineering, and data splitting**.",
+   "expect": "This node covers the stage after data"
+  },
+  {
+   "file": "c11_ai_isc_06_005.md",
+   "definition_lead": "Four classical assumptions govern every simple linear regression fit — linearity, independence, homoscedasticity, and normality of residuals — and each is verified with a specific diagnostic tool.",
+   "expect": "This node covers the four classical assumptions"
+  },
+  {
+   "file": "c11_ai_isc_09_006.md",
+   "definition_lead": "The current state of the art in AI and NLP is defined by the Transformer architecture and the Large Language Models (LLMs) built on it.",
+   "expect": "This node explores the current state-of-the-art"
+  },
+  {
+   "file": "c11_ai_isc_09_007.md",
+   "definition_lead": "The **Transformer architecture**, with its core **self-attention mechanism**, is the foundation of modern Large Language Models (LLMs) such as GPT and BERT.",
+   "expect": "This node introduces the **Transformer architecture**"
+  },
+  {
+   "file": "c11_ai_isc_09_010.md",
+   "definition_lead": "The state of the art in Artificial Intelligence and Natural Language Processing is being reshaped by a set of emerging trends and future directions.",
+   "expect": "This node examines the emerging trends"
+  },
+  {
+   "file": "c11_ai_isc_09_011.md",
+   "definition_lead": "The state of the art in AI and NLP is centred on the Transformer architecture.",
+   "expect": "This node covers the state-of-the-art in AI"
+  },
+  {
+   "file": "c11_ai_isc_09_012.md",
+   "definition_lead": "Four subtopics converge in this chapter synthesis — the brief history and primary elements of AI, the domain of Natural Language Processing, the potential uses of AI, and AI and society — mapped together for CISCE ISC examination preparation.",
+   "expect": "This node synthesizes the four core subtopics"
+  },
+  {
+   "file": "c11_ai_isc_10_007.md",
+   "definition_lead": "Eigen decomposition of square matrices finds its most important AI application in Principal Component Analysis (PCA), the cornerstone technique for dimensionality reduction.",
+   "expect": "This node introduces eigen decomposition"
+  },
+  {
+   "file": "c11_ai_isc_11_006.md",
+   "definition_lead": "Advanced multivariate visualisation techniques extend the basic plots of Python visualisation basics and statistical graphs into multi-variable views.",
+   "expect": "This node introduces advanced multivariate"
+  },
+  {
+   "file": "c11_ai_isc_12_008.md",
+   "definition_lead": "Three data processing stages anchor the chapter: cleaning, exploration, and transformation.",
+   "expect": "This node synthesizes three core data processing"
+  },
+  {
+   "file": "c11_ai_isc_13_007.md",
+   "definition_lead": "Simple linear regression (SLR) rests on critical assumptions, each verified with a specific diagnostic tool.",
+   "expect": "This node covers the critical assumptions"
+  },
+  {
+   "file": "c11_ai_isc_13_008.md",
+   "definition_lead": "Data modelling represents real-world phenomena with mathematical structures, and simple linear regression is its most direct form: a straight line \\(y = \\beta_0 + \\beta_1 x\\) fitted to paired observations \\((x_i, y_i)\\).",
+   "expect": "This node synthesises the chapter’s core ideas"
+  },
+  {
+   "file": "c11_ai_isc_14_008.md",
+   "definition_lead": "Three ethical pillars — bias, privacy, and responsible AI practices — form the evaluation framework of this chapter.",
+   "expect": "This node synthesises the three core ethical"
+  },
+  {
+   "file": "c11_appmath_isc_01_008.md",
+   "definition_lead": "Sets, relations, and functions form the three core concepts of Chapter 01, aligned here with CISCE ISC examination patterns.",
+   "expect": "This node synthesises the three core concepts"
+  },
+  {
+   "file": "c11_appmath_isc_02_007.md",
+   "definition_lead": "Matrix methods solve a system of linear equations in three variables as a single matrix equation.",
+   "expect": "This node covers the solution of a system"
+  },
+  {
+   "file": "c11_appmath_isc_02_008.md",
+   "definition_lead": "Matrices, determinants, and their applications form the three core sub-concepts of Chapter 02, unified here into an ISC problem-solving toolkit.",
+   "expect": "This node synthesises the three core sub‑concepts"
+  },
+  {
+   "file": "c11_appmath_isc_04_008.md",
+   "definition_lead": "Limits and derivatives (introduction) are the two core ideas of Chapter 4.",
+   "expect": "This node synthesises the two core ideas"
+  },
+  {
+   "file": "c11_appmath_isc_05_008.md",
+   "definition_lead": "Descriptive statistics and probability basics are the two pillars of Chapter 5, integrated here for CISCE ISC Applied Mathematics problem-solving.",
+   "expect": "This node integrates the two core pillars"
+  },
+  {
+   "file": "c11_appmath_isc_06_008.md",
+   "definition_lead": "Propositional logic, statement classification, and argument analysis combine into one framework for ISC examination questions.",
+   "expect": "This node synthesises propositional logic"
+  },
+  {
+   "file": "c11_appmath_isc_12_007.md",
+   "definition_lead": "The exponential (Euler) form of a complex number and De Moivre’s theorem turn multiplication and powers of complex numbers into simple arithmetic on moduli and arguments.",
+   "expect": "This node introduces the exponential (Euler) form"
+  },
+  {
+   "file": "c11_appmath_isc_15_006.md",
+   "definition_lead": "Applications of the binomial theorem for a positive integral index n build directly on the general term and middle-term rules.",
+   "expect": "This node covers applications of the binomial"
+  },
+  {
+   "file": "c11_appmath_isc_17_008.md",
+   "definition_lead": "The two core sub-concepts of Chapter 17 are (1) **slope and forms of equations** — the slope *m* = (y₂−y₁)/(x₂−x₁) quantifies steepness, and the line can be written in point-slope form *y−y₁ = m(x−x₁)*, slope-intercept form *y = mx + c*, intercept form *x/a + y/b = 1*, and general form *Ax + By + C = 0*.",
+   "expect": "This node synthesises the two core sub‑concepts"
+  },
+  {
+   "file": "c11_appmath_isc_20_005.md",
+   "definition_lead": "Standard transcendental functions — trigonometric (sin x, cos x, tan x, cot x, sec x, cosec x), exponential (eˣ, aˣ), and logarithmic (ln x, logₐ x) — each have a derivative derived once from first principles and then applied by rule.",
+   "expect": "This node covers the derivatives of standard"
+  },
+  {
+   "file": "c11_appmath_isc_20_007.md",
+   "definition_lead": "Derivatives of the standard transcendental functions — trigonometric (sin x, cos x, tan x, cot x, sec x, cosec x), exponential (eˣ, aˣ), and logarithmic (ln x, logₐ x) — form the working vocabulary of differential calculus.",
+   "expect": "This node covers the derivatives of standard"
+  },
+  {
+   "file": "c11_appmath_isc_20_008.md",
+   "definition_lead": "Limits of standard functions (polynomial, rational, trigonometric, exponential, logarithmic) and differentiation from first principles — extended by the sum, product, quotient, and chain rules — make up the chapter’s problem-solving core.",
+   "expect": "This node synthesises the chapter’s core ideas"
+  },
+  {
+   "file": "c11_appmath_isc_21_006.md",
+   "definition_lead": "Choosing and interpreting a measure of dispersion — range, mean deviation, standard deviation, variance, or coefficient of variation — depends on the data and on the purpose of the comparison.",
+   "expect": "This node addresses the selection and interpretation"
+  },
+  {
+   "file": "c11_appmath_isc_26_007.md",
+   "definition_lead": "Three proof techniques organise deductive reasoning: **direct proof**, **proof by contrapositive**, and **proof by contradiction**.",
+   "expect": "This node covers three core proof techniques"
+  },
+  {
+   "file": "c11_appmath_isc_30_006.md",
+   "definition_lead": "Total income and tax liability for a resident individual are computed under the Income-Tax Act, 1961 (as amended for the relevant assessment year).",
+   "expect": "This node covers the **computation of total income"
+  },
+  {
+   "file": "c11_bio_isc_03_007.md",
+   "definition_lead": "Four structural components distinguish plant cells: chloroplasts, vacuoles, the cytoskeleton, and the cell wall.",
+   "expect": "This node details four plant‑specific structural"
+  },
+  {
+   "file": "c11_biotech_isc_12_008.md",
+   "definition_lead": "Gene pool, allele frequency, Hardy-Weinberg equilibrium, and pharmacogenetics/pharmacogenomics are the four core concepts of Chapter 12, unified here for CISCE ISC examination preparation.",
+   "expect": "This node synthesises the four core concepts"
+  },
+  {
+   "file": "c11_cs_isc_05_008.md",
+   "definition_lead": "Class versus object, the BlueJ/Greenfoot objects-first pedagogy, and interfaces as behavioural contracts are the three core ideas of Chapter 05.",
+   "expect": "This node synthesises the three core ideas"
+  },
+  {
+   "file": "c11_cs_isc_13_008.md",
+   "definition_lead": "Algorithm design, correctness proof, Java implementation, and systematic debugging integrate into one exam-ready workflow.",
+   "expect": "This node integrates algorithm design"
+  },
+  {
+   "file": "c11_econ_isc_06_008.md",
+   "definition_lead": "Per capita income (PCI) and the Human Development Index (HDI) are the chapter’s core parameters of development.",
+   "expect": "This node synthesises the chapter’s core parameters"
+  },
+  {
+   "file": "c11_econ_isc_10_008.md",
+   "definition_lead": "Economic growth versus development, sustainable development, and global warming are the core ideas of Chapter 10, framed for short-answer, data-response, and evaluative essay questions.",
+   "expect": "This node consolidates Chapter"
+  },
+  {
+   "file": "c11_hist_isc_04_007.md",
+   "definition_lead": "The constitutional and repressive measures of 1919 — the Montagu-Chelmsford Reforms and the Rowlatt Act — marked a decisive shift from elite petitioning to mass civil resistance in the growth of Indian nationalism.",
+   "expect": "This node examines the constitutional and repressive"
+  },
+  {
+   "file": "c11_hist_isc_10_005.md",
+   "definition_lead": "Mussolini’s foreign policy moved from the March on Rome (1922) to overt expansionism on the eve of World War II (1939).",
+   "expect": "This node examines Mussolini’s foreign policy"
+  },
+  {
+   "file": "c11_hist_isc_10_007.md",
+   "definition_lead": "Mussolini’s foreign policy and expansionist drive ran from the consolidation of his dictatorship (1925) to the eve of World War II (1939).",
+   "expect": "This node examines Mussolini’s foreign policy"
+  },
+  {
+   "file": "c11_hist_isc_10_008.md",
+   "definition_lead": "The rise of fascism under Mussolini (1919-39) organises into three examinable strands: post-war discontent, the March on Rome and consolidation of power, and the corporate state.",
+   "expect": "This node synthesises the entire Chapter"
+  },
+  {
+   "file": "c11_hist_isc_12_003.md",
+   "definition_lead": "The key incidents and expansionist actions of 1931-1937 transformed Japanese militarism from ideology into concrete aggression.",
+   "expect": "This node examines the **key incidents"
+  },
+  {
+   "file": "c11_legal_isc_03_002.md",
+   "definition_lead": "Civil litigation in India and the consumer protection regime rest on a foundational procedural framework.",
+   "expect": "This node covers the foundational procedural"
+  },
+  {
+   "file": "c11_legal_isc_03_006.md",
+   "definition_lead": "Selecting the proper civil court follows a procedural framework, and the substantive consumer protections of the 2019 Act supply the rights that procedure serves.",
+   "expect": "This node covers the procedural framework"
+  },
+  {
+   "file": "c11_legal_isc_03_008.md",
+   "definition_lead": "The Consumer Protection Act (CPA) 1986 was replaced by the 2019 Act, which redefines who a consumer is, enumerates consumer rights, and creates offences and penalties under Sections 89-91.",
+   "expect": "This node covers the Consumer Protection Act"
+  },
+  {
+   "file": "c11_legal_isc_03_013.md",
+   "definition_lead": "Territorial, pecuniary, and subject-matter jurisdiction are the supporting characters of civil procedure, mapped onto the hierarchy of civil courts (District Court → High Court → Supreme Court).",
+   "expect": "This node maps the “supporting characters”"
+  },
+  {
+   "file": "c11_robotics_isc_07_008.md",
+   "definition_lead": "Links, joints, manipulators, actuators, end effectors, and degrees of freedom (DoF) are the mechanical-system concepts of Chapter 07, framed for the CISCE ISC Robotics (867) examination.",
+   "expect": "This node synthesises the mechanical‑system"
+  },
+  {
+   "file": "c11_robotics_isc_10_008.md",
+   "definition_lead": "Sector applications and design thinking for robotic solutions are the two core sub-topics of Chapter 10, combined into a single exam-focused framework.",
+   "expect": "This node synthesises the two core sub‑topics"
+  },
+  {
+   "file": "c11_soc_isc_01_006.md",
+   "definition_lead": "Four theoretical schools shaped anthropology’s intellectual growth from the late-19th to the mid-20th century.",
+   "expect": "This node examines the four major theoretical"
+  },
+  {
+   "file": "c11_soc_isc_03_010.md",
+   "definition_lead": "Sociology advances by borrowing, adapting, and integrating key concepts from its sister social sciences — political science, economics, anthropology, history, and psychology — into a shared analytical toolkit.",
+   "expect": "This node examines how sociology advances"
+  },
+  {
+   "file": "c11_soc_isc_12_008.md",
+   "definition_lead": "Five Indian sociologists anchor the chapter: Radha Kamal Mukherjee (Social Ecology), G. S. Ghurye (theories of the origin of caste), N. K. Bose (Hindu Method of Tribal Absorption), Irawati Karve (kinship and family), and M. N. Srinivas (Brahminization and Sanskritization).",
+   "expect": "This node synthesises the five core Indian sociologists"
+  },
+  {
+   "file": "c12_acc_isc_01_015.md",
+   "definition_lead": "Fundamentals of Partnership (Chapter 1) rest on the statutory framework of the Indian Partnership Act 1932 (Sections 4, 13, 19, 24-30), the default provisions that operate when a deed is absent, and the accounting mechanics of profit appropriation.",
+   "expect": "This node synthesises the entire Chapter"
+  },
+  {
+   "file": "c12_acc_isc_08_008.md",
+   "definition_lead": "Five sub-topics organise Chapter 08: Balance Sheet preparation per Schedule III Part I with notes to accounts; treatment of proposed dividend under AS-4 (Contingencies and Events Occurring after the Balance Sheet Date); the revised nomenclature for Property, Plant & Equipment (PPE) per the Companies (Accounting Standards) Amendment Rules; disclosure of current maturities of long-term borrowings as a separate current-liability line; and presentation of Securities Premium under “Reserves & Surplus” with its utilisation restrictions.",
+   "expect": "This node synthesises the five core sub‑topics"
+  },
+  {
+   "file": "c12_ai_isc_01_003.md",
+   "definition_lead": "Three high-impact domains — Healthcare, Agriculture, and Smart Cities — extend the survey of AI applications through concrete Indian case studies.",
+   "expect": "This node extends the survey of AI applications"
+  },
+  {
+   "file": "c12_ai_isc_01_006.md",
+   "definition_lead": "Artificial Intelligence is deployed across major Indian economic sectors through case studies that follow one generic pipeline: data acquisition, preprocessing, model training, deployment, and monitoring.",
+   "expect": "This node examines how Artificial Intelligence"
+  },
+  {
+   "file": "c12_ai_isc_02_008.md",
+   "definition_lead": "Neural Networks (NN), Machine Learning (ML), and Deep Learning (DL) are the three core AI paradigms, contrasted on data hunger, feature engineering needs, model complexity, interpretability, training time, and typical ISC examination focus.",
+   "expect": "This node synthesizes the three core AI paradigms"
+  },
+  {
+   "file": "c12_ai_isc_03_002.md",
+   "definition_lead": "Constructing, training, and evaluating a feedforward artificial neural network (ANN) in Python with the Keras library is an end-to-end practical workflow.",
+   "expect": "This node covers the end‑to‑end practical"
+  },
+  {
+   "file": "c12_ai_isc_03_005.md",
+   "definition_lead": "After training, an artificial neural network (ANN) is judged by systematic evaluation metrics.",
+   "expect": "This node covers the systematic evaluation"
+  },
+  {
+   "file": "c12_ai_isc_03_008.md",
+   "definition_lead": "The end-to-end ANN workflow of Chapter 03 reduces to practical implementation skills — building, compiling, fitting, and evaluating a network — for the CISCE ISC Class 12 Artificial Intelligence (866) examination.",
+   "expect": "This node synthesizes the end-to-end artificial"
+  },
+  {
+   "file": "c12_ai_isc_04_008.md",
+   "definition_lead": "The complete machine-learning workflow — data acquisition, cleaning, feature engineering, model selection, training, validation, deployment, and monitoring — is one repeatable pipeline matching the CISCE ISC Artificial Intelligence (866) practical marking scheme.",
+   "expect": "This node consolidates the complete machine‑learning"
+  },
+  {
+   "file": "c12_ai_isc_06_007.md",
+   "definition_lead": "Precision farming case studies show how AI applications work in the agriculture sector.",
+   "expect": "This node explores AI applications in the agriculture"
+  },
+  {
+   "file": "c12_ai_isc_07_002.md",
+   "definition_lead": "Three AI paradigms sit on a continuum of data-driven abstraction and are compared here.",
+   "expect": "This node compares three AI paradigms"
+  },
+  {
+   "file": "c12_ai_isc_07_008.md",
+   "definition_lead": "Neural Networks (NN), Machine Learning (ML), and Deep Learning (DL) differ in architectural assumptions, data requirements, computational cost, and typical use-cases — the comparison this synthesis organises.",
+   "expect": "This node synthesises the three core AI paradigms"
+  },
+  {
+   "file": "c12_ai_isc_09_008.md",
+   "definition_lead": "ML workflows (supervised and unsupervised) and model evaluation are the two core pillars of the chapter.",
+   "expect": "This node synthesises the two core pillars"
+  },
+  {
+   "file": "c12_ai_isc_10_008.md",
+   "definition_lead": "Image processing basics (pixel representation, filtering, edge detection, morphological operations) and computer vision applications (object detection, classification, segmentation, facial recognition) form the unified framework of Chapter 10.",
+   "expect": "This node synthesises the core ideas of Chapter 10"
+  },
+  {
+   "file": "c12_appmath_isc_01_008.md",
+   "definition_lead": "Relations and functions reach their advanced ISC form in this synthesis, which aligns every definition with the CISCE ISC examination pattern.",
+   "expect": "This node synthesises the advanced concepts"
+  },
+  {
+   "file": "c12_appmath_isc_02_008.md",
+   "definition_lead": "Matrices and linear programming (LPP) foundations are the two core pillars of ISC Class 12 Applied Mathematics Chapter 2.",
+   "expect": "This node consolidates the two core pillars"
+  },
+  {
+   "file": "c12_appmath_isc_03_005.md",
+   "definition_lead": "Definite integrals give the areas bounded by curves.",
+   "expect": "This node covers **applications of definite integrals**"
+  },
+  {
+   "file": "c12_appmath_isc_03_007.md",
+   "definition_lead": "Definite integrals compute the area between two curves and the volume of solids generated by revolving a plane region about an axis.",
+   "expect": "This node covers the application of definite integrals"
+  },
+  {
+   "file": "c12_appmath_isc_03_008.md",
+   "definition_lead": "Applications of derivatives (rate of change, optimisation, tangents, normals, related rates) and of integration (indefinite and definite integrals, area under curves, differential equations) are consolidated here into one revision map.",
+   "expect": "This node synthesises the applications of derivatives"
+  },
+  {
+   "file": "c12_appmath_isc_10_005.md",
+   "definition_lead": "The inverse of a non-singular square matrix A satisfies AA⁻¹A = AA⁻¹ = Iₙ — algebraically, it is unique.",
+   "expect": "This node covers the algebraic properties"
+  },
+  {
+   "file": "c12_appmath_isc_13_008.md",
+   "definition_lead": "Standard integrals and definite integrals are the two core sub-topics of Chapter 13.",
+   "expect": "This node synthesises the two core sub‑topics"
+  },
+  {
+   "file": "c12_appmath_isc_16_008.md",
+   "definition_lead": "Conditional probability, Bayes’ theorem, random variables, and their mean and variance are the four core concepts of Chapter 16.",
+   "expect": "This node synthesizes four core concepts"
+  },
+  {
+   "file": "c12_appmath_isc_21_007.md",
+   "definition_lead": "Weighted Moving Averages (WMA) and Exponential Smoothing (ES) smooth time series by weighting recent observations more heavily than older ones.",
+   "expect": "This node introduces **Weighted Moving Averages"
+  },
+  {
+   "file": "c12_bio_isc_06_008.md",
+   "definition_lead": "Darwinism (descent with modification), natural selection, mechanisms of evolution (mutation, gene flow, genetic drift, non-random mating), Hardy-Weinberg equilibrium, and human evolution are the five core sub-concepts of the Evolution chapter.",
+   "expect": "This node integrates the five core sub‑concepts"
+  },
+  {
+   "file": "c12_bio_isc_10_008.md",
+   "definition_lead": "Bt crops, RNA interference (RNAi), gene therapy, transgenic animals, and bioethics are the five core biotechnology applications assessed at CISCE ISC Class 12 level.",
+   "expect": "This node integrates the five core biotechnology"
+  },
+  {
+   "file": "c12_bio_isc_12_008.md",
+   "definition_lead": "Energy flow, nutrient cycles, ecological pyramids, and succession are the four core sub-concepts of Chapter 12.",
+   "expect": "This node synthesises the four core sub‑concepts"
+  },
+  {
+   "file": "c12_bst_isc_21_008.md",
+   "definition_lead": "Intra-B (intra-business electronic processes) and G2B (government-to-business electronic services) are the two online-business models of Chapter 21, mapped to the CISCE ISC examination pattern.",
+   "expect": "This node synthesises the two core online‑business"
+  },
+  {
+   "file": "c12_chem_isc_08_008.md",
+   "definition_lead": "The synthetic toolkit for aldehydes, ketones, and carboxylic acids converts into predictable CISCE ISC Class 12 question patterns.",
+   "expect": "This node consolidates the synthetic toolkit"
+  },
+  {
+   "file": "c12_chem_isc_09_008.md",
+   "definition_lead": "Synthetic routes, reaction mechanisms, and examination strategies for the chapter “Organic Compounds containing Nitrogen” consolidate into one revision framework.",
+   "expect": "This node consolidates the synthetic routes"
+  },
+  {
+   "file": "c12_chem_isc_10_008.md",
+   "definition_lead": "Biomolecules organise into five strands: the classification and structures of carbohydrates (mono-, di-, and polysaccharides); the amino-acid building blocks and primary-to-quaternary organisation of proteins; the chemical nature and deficiency diseases of fat-soluble and water-soluble vitamins; the components of nucleic acids (nucleotides, base pairing, the DNA/RNA distinction); and the general characteristics of enzymes and hormones as biological catalysts and messengers.",
+   "expect": "This node synthesises the entire Chapter"
+  },
+  {
+   "file": "c12_cs_isc_03_008.md",
+   "definition_lead": "Lab assignments, algorithm design, correctness, Java implementation, and debugging are the five core sub-concepts of Chapter 3, mapped to the typical ISC question formats.",
+   "expect": "This node synthesises the five core sub‑concepts"
+  },
+  {
+   "file": "c12_hist_isc_06_008.md",
+   "definition_lead": "The Towards Equality Report (1974), the anti-dowry and anti-domestic-violence movements of the 1970s-80s, and the legislative measures that followed form the three core sub-themes of Chapter 06.",
+   "expect": "This node synthesises the three core sub‑themes"
+  },
+  {
+   "file": "c12_hist_isc_10_012.md",
+   "definition_lead": "The JP Movement (1974-75), the Chipko Movement (1973 onward), and the Narmada Bachao Andolan (1985 onward) are the three major post-independence Indian protest movements that extend Chapter 10’s comparative study.",
+   "expect": "This node examines three major post‑independence"
+  },
+  {
+   "file": "c12_hist_isc_10_013.md",
+   "definition_lead": "The Civil Rights Movement (USA, 1950s-70s), the Anti-Apartheid Movement (South Africa, 1948-1994), and the Second-Wave Feminist Movement (USA, 1960s-80s) invite a comparative framework.",
+   "expect": "This node provides a comparative framework"
+  },
+  {
+   "file": "c12_hist_isc_10_014.md",
+   "definition_lead": "The US Civil Rights Movement (1950s-70s), the South African Anti-Apartheid Movement (1948-1994), and the US Second-Wave Feminist Movement (1960s-80s) share five structural elements: moral framing of injustice as a universal-rights violation, legal leverage through landmark legislation and court rulings, mass mobilisation via non-violent direct action, institutional organisation that sustained campaigns over decades, and international solidarity that globalised domestic struggles.",
+   "expect": "This node synthesises the three major protest"
+  },
+  {
+   "file": "c12_legal_isc_04_015.md",
+   "definition_lead": "The statutory language and landmark judicial phrases of the Indian Contract Act, 1872 — from proposal (S.2(a)) onward — recur throughout ISC Legal Studies reference-to-context (RTC) and essay questions.",
+   "expect": "This node consolidates the statutory language"
+  },
+  {
+   "file": "c12_math_isc_06_008.md",
+   "definition_lead": "Rate of change, increasing/decreasing behaviour, maxima/minima, and tangents/normals are the four core sub-concepts of Chapter 6, unified into one problem-solving framework.",
+   "expect": "This node synthesises the four core sub‑concepts"
+  },
+  {
+   "file": "c12_math_isc_07_007.md",
+   "definition_lead": "The application examined here is the computation of plane areas with definite integrals.",
+   "expect": "This node deals with the **application of definite"
+  },
+  {
+   "file": "c12_math_isc_11_008.md",
+   "definition_lead": "Direction cosines and ratios, the equation of a line in space, the angle between two lines, and the shortest distance between two lines are the four core subtopics of Chapter 11.",
+   "expect": "This node synthesises the four core subtopics"
+  },
+  {
+   "file": "c12_math_isc_13_008.md",
+   "definition_lead": "Conditional probability, Bayes’ theorem, discrete random variables with their probability mass functions, and their mean and variance are the four core sub-topics of Chapter 13.",
+   "expect": "This node synthesizes the four core sub‑topics"
+  },
+  {
+   "file": "c12_robotics_isc_01_008.md",
+   "definition_lead": "Chapter 01 “Introduction (Class XII)” maps five sub-topics — an advanced recap of robotic subsystems, the scope of autonomous navigation, sensor fusion basics, real-time control constraints, and ethical-safety considerations — to the CISCE ISC Robotics (867) examination pattern.",
+   "expect": "This node synthesises the entire Chapter"
+  },
+  {
+   "file": "c12_robotics_isc_04_007.md",
+   "definition_lead": "Artificial intelligence, advanced analytics, and Industry 5.0 principles converge in smart manufacturing.",
+   "expect": "This node covers the convergence of artificial"
+  },
+  {
+   "file": "c12_robotics_isc_06_001.md",
+   "definition_lead": "ISC Class 12 Robotics (867) Chapter 06 surveys the expanding scope of modern robotics, building from a recap of Class 11 fundamentals toward autonomous systems.",
+   "expect": "This node provides the chapter overview"
+  },
+  {
+   "file": "c12_robotics_isc_09_008.md",
+   "definition_lead": "Automation with collaborative robots (cobots) and smart factories powered by IoT integration are the chapter’s core pillars.",
+   "expect": "This node synthesises the chapter’s core pillars"
+  },
+  {
+   "file": "c12_robotics_isc_10_008.md",
+   "definition_lead": "Rovers (mobility, localisation, power, thermal control) and manipulators (kinematics, dynamics, end-effector design, force control) are Chapter 10’s two core sub-topics, illustrated by missions such as NASA’s Mars Science Laboratory, ESA’s ExoMars, and ISRO’s Chandrayaan-3.",
+   "expect": "This node synthesises the two core sub‑topics"
+  }
+ ]
+}

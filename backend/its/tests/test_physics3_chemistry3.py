@@ -16,8 +16,8 @@ import math
 
 import pytest
 
-from backend.its.solver.chemistry3_families import model_chemistry3
-from backend.its.solver.physics3_families import model_physics3
+from backend.its.solver.chemistry_families import model_chemistry3
+from backend.its.solver.physics_families import model_physics3
 
 
 def _check(model, text: str, want: float, rel: float = 1e-3,

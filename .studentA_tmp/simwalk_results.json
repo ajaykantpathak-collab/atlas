@@ -1,0 +1,110 @@
+[
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p1",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p2",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 6,
+  "sim": "v3_c6_science_ch01_p1",
+  "slides": [],
+  "anomalies": [],
+  "boot": "DEAD(wandered off)"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch01_p1",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch01_p2",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_science_ch01_p1",
+  "slides": [],
+  "anomalies": [],
+  "boot": "DEAD(wandered off)"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch01_p1",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch02_p1",
+  "slides": [
+   {
+    "step": 0,
+    "has_q": true,
+    "snippet": " Graph the polynomial y = x² − 4. It crosses the x-axis at exactly two spots: −2 and +2. A friend claims a cubic MUST cross the axis three times. Your graph of ",
+    "visible_buttons": 5,
+    "clicked_option": "Graphs can't tell us anything about zeros at all",
+    "click_error": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "advanced": false,
+    "changed": false
+   }
+  ],
+  "anomalies": [
+   "stuck at step 0: no clickable option/continue; body=Skip to content Polynomials · Part 1/2 Class 10 Mathematics Chapter 2 Teaches 6 topics 173 / 225 in class 🤔 FIRST — A QUESTION! Graph the polynomial y = x² − 4. It crosses the x-ax"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_bio_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "has_q": true,
+    "snippet": " You ate a samosa an hour ago — where is it right now, doing what? 🔊 Being broken into molecules your cells absorb Sitting whole in your stomach Filtered out by",
+    "visible_buttons": 5,
+    "clicked_option": "Already converted to pure energy",
+    "click_error": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "advanced": false,
+    "changed": false
+   }
+  ],
+  "anomalies": [
+   "stuck at step 0: no clickable option/continue; body=Skip to content Life Processes · Part 1/2 Class 10 Biology Chapter 1 Teaches 6 topics 5 / 225 in class 🤔 FIRST — A QUESTION! You ate a samosa an hour ago — where is it right now, d"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_chem_ch01_p1",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch01_p1",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch02_p1",
+  "exception": "'set' object has no attribute 'get'"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_physics_ch01_p1",
+  "slides": [],
+  "anomalies": [],
+  "boot": "DEAD(wandered off)"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_chemistry_ch01_p1",
+  "slides": [],
+  "anomalies": [],
+  "boot": "DEAD(wandered off)"
+ }
+]

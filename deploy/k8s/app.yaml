@@ -1,0 +1,174 @@
+# Application tier: db-init Job → backend Deployment (2+ replicas,
+# rolling updates, HPA) → frontend Deployment → Ingress.
+# Session/mastery/intelligence state lives in Postgres+Redis+ClickHouse,
+# so backend pods are interchangeable — safe to scale/roll freely.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: db-init
+  namespace: atlas
+spec:
+  backoffLimit: 3
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: db-init
+          image: REGISTRY/atlas-backend:TAG
+          command: ["python", "-m", "backend.init_db"]
+          envFrom:
+            - configMapRef: { name: atlas-env }
+            - secretRef: { name: atlas-secrets }
+          resources:
+            requests: { cpu: 250m, memory: 512Mi }
+            limits: { memory: 2Gi }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: atlas
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0 # never drop below 2 during rollout
+  selector:
+    matchLabels: { app: backend }
+  template:
+    metadata:
+      labels: { app: backend }
+    spec:
+      initContainers:
+        - name: wait-db-init
+          image: busybox:1.36
+          command: ["sh", "-c", "until nc -z postgres 5432; do sleep 2; done"]
+      containers:
+        - name: backend
+          image: REGISTRY/atlas-backend:TAG
+          ports: [{ containerPort: 8000 }]
+          envFrom:
+            - configMapRef: { name: atlas-env }
+            - secretRef: { name: atlas-secrets }
+          volumeMounts:
+            - { name: cbse-data, mountPath: /app/cbse_data, readOnly: true }
+            - { name: organized, mountPath: /app/organized, readOnly: true }
+            - { name: content, mountPath: /app/content, readOnly: true }
+            - { name: enrichment, mountPath: /app/parsed_output, readOnly: true }
+          readinessProbe:
+            httpGet: { path: /health, port: 8000 }
+            initialDelaySeconds: 30
+            periodSeconds: 10
+            timeoutSeconds: 5
+          livenessProbe:
+            httpGet: { path: /health, port: 8000 }
+            initialDelaySeconds: 60
+            periodSeconds: 20
+          resources:
+            requests: { cpu: 500m, memory: 1Gi }
+            limits: { cpu: "2", memory: 4Gi }
+      volumes:
+        # Corpus content — swap for object storage (S3/GCS) + init-sync,
+        # or bake into the image at build time.
+        - { name: cbse-data, persistentVolumeClaim: { claimName: cbse-data } }
+        - { name: organized, persistentVolumeClaim: { claimName: organized-content } }
+        - { name: content, persistentVolumeClaim: { claimName: raw-content } }
+        - { name: enrichment, persistentVolumeClaim: { claimName: enrichment } }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backends
+  namespace: atlas
+spec:
+  selector: { app: backend }
+  ports: [{ port: 8000 }]
+---
+apiVersion: apps/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: backend
+  namespace: atlas
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: backend
+  minReplicas: 2
+  maxReplicas: 8
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target: { type: Utilization, averageUtilization: 70 }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: atlas
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: { maxSurge: 1, maxUnavailable: 0 }
+  selector:
+    matchLabels: { app: frontend }
+  template:
+    metadata:
+      labels: { app: frontend }
+    spec:
+      containers:
+        - name: frontend
+          image: REGISTRY/atlas-frontend:TAG
+          ports: [{ containerPort: 3000 }]
+          env:
+            - name: INTERNAL_API_URL
+              value: http://backends:8000
+            - name: NODE_ENV
+              value: production
+          readinessProbe:
+            httpGet: { path: /, port: 3000 }
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          resources:
+            requests: { cpu: 100m, memory: 256Mi }
+            limits: { memory: 1Gi }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  namespace: atlas
+spec:
+  selector: { app: frontend }
+  ports: [{ port: 3000 }]
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: atlas
+  namespace: atlas
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "120"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: atlas.example.com
+      http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: backends
+                port: { number: 8000 }
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: frontend
+                port: { number: 3000 }

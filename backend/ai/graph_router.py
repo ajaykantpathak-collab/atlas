@@ -9,9 +9,7 @@ from __future__ import annotations
 
 import re
 import logging
-from typing import Optional, Any
-
-from backend.services.graph_service import GraphService
+from typing import Any, Awaitable, Callable, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -309,10 +307,23 @@ def _extract_values(question: str, step_type_id: str) -> dict:
 # Main routing function — graph-based, no LLM
 # ─────────────────────────────────────────────────────────────────────
 
-async def route_question_graph(question: str) -> dict:
+async def route_question_graph(
+    question: str,
+    search_nodes: Optional[Callable[..., Awaitable[list]]] = None,
+) -> dict:
     """Route a free-text question using Neo4j fulltext search.
 
     No LLM, no embeddings. Just the graph.
+
+    Args:
+        question: free-text question.
+        search_nodes: async callable ``(terms, *, limit) -> [node, ...]``.
+            Injected by the caller (the HTTP edge reaches it via
+            ``backend.services.graph_service.GraphService.search_nodes``).
+            The AI stratum does not import services directly (import-boundary
+            wall, backend.harness.boundaries), so the dependency comes in
+            through this parameter; ``None`` fails closed with the same
+            error shape as a graph outage.
 
     Returns:
         - question: the input
@@ -334,8 +345,12 @@ async def route_question_graph(question: str) -> dict:
 
     # Stage 1: Fulltext search on the graph (maths only)
     try:
+        if search_nodes is None:
+            raise RuntimeError(
+                "no search_nodes injected — caller must pass "
+                "GraphService.search_nodes (services seam)")
         search_terms = _extract_search_terms(question)
-        nodes = await GraphService.search_nodes(search_terms, limit=20)
+        nodes = await search_nodes(search_terms, limit=20)
     except Exception as e:
         logger.error(f"Graph search failed: {e}")
         return {

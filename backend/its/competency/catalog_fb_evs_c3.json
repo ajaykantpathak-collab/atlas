@@ -1,0 +1,284 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c3)",
+ "source_file": "c3_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C3_001",
+   "title": "Counting relationship (food source): Total food items T = ...",
+   "section": "",
+   "formula": "Total_food_items_T = P + A",
+   "_pats_extra": [],
+   "key_idea": "Counting relationship (food source)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total food items t using counting relationship (food source)",
+    "calculate counting relationship (food source)",
+    "counting relationship (food source) formula question",
+    "given values find total food items t"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_001",
+     "question_pattern": "counting relationship (food source) with {P} and {A} find total food items t",
+     "extracted_variables": {
+      "P": "given P",
+      "A": "given A"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, A from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total food items T = P + A",
+     "compute": "Total_food_items_T = P + A"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  },
+  {
+   "id": "FB_EVS_C3_002",
+   "title": "Total features counted in a locality: N_total = ...",
+   "section": "",
+   "formula": "N_total = N_natural + N_man_made",
+   "_pats_extra": [],
+   "key_idea": "Total features counted in a locality",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n_total using total features counted in a locality",
+    "calculate total features counted in a locality",
+    "total features counted in a locality formula question",
+    "given values find n_total"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_002",
+     "question_pattern": "total features counted in a locality with {N_natural} and {N_man_made} find n_total",
+     "extracted_variables": {
+      "N_natural": "given N_natural",
+      "N_man_made": "given N_man_made"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N_natural, N_man_made from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N_total = N_natural + N_man_made",
+     "compute": "N_total = N_natural + N_man_made"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  },
+  {
+   "id": "FB_EVS_C3_003",
+   "title": "Counting formula (food groups on a plate): Total food items = ...",
+   "section": "",
+   "formula": "Total_food_items = P_plant + A_animal",
+   "_pats_extra": [],
+   "key_idea": "Counting formula (food groups on a plate)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total food items using counting formula (food groups on a plate)",
+    "calculate counting formula (food groups on a plate)",
+    "counting formula (food groups on a plate) formula question",
+    "given values find total food items"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_003",
+     "question_pattern": "counting formula (food groups on a plate) with {P_plant} and {A_animal} find total food items",
+     "extracted_variables": {
+      "P_plant": "given P_plant",
+      "A_animal": "given A_animal"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P_plant, A_animal from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total food items = P_plant + A_animal",
+     "compute": "Total_food_items = P_plant + A_animal"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  },
+  {
+   "id": "FB_EVS_C3_004",
+   "title": "Worked example: Animal items A_animal = ...",
+   "section": "",
+   "formula": "Animal_items_A_animal = 1 (e*g*g)",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find animal items a_animal using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find animal items a_animal"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_004",
+     "question_pattern": "worked example with {e} and {g} and {g} find animal items a_animal",
+     "extracted_variables": {
+      "e": "given e",
+      "g": "given g"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for e, g, g from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Animal items A_animal = 1 (e*g*g)",
+     "compute": "Animal_items_A_animal = 1 (e*g*g)"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  },
+  {
+   "id": "FB_EVS_C3_005",
+   "title": "Counting relationship: Total shelters studied = ...",
+   "section": "",
+   "formula": "Total_shelters_studied = N_natural + N_man_made",
+   "_pats_extra": [],
+   "key_idea": "Counting relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total shelters studied using counting relationship",
+    "calculate counting relationship",
+    "counting relationship formula question",
+    "given values find total shelters studied"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_005",
+     "question_pattern": "counting relationship with {N_natural} and {N_man_made} find total shelters studied",
+     "extracted_variables": {
+      "N_natural": "given N_natural",
+      "N_man_made": "given N_man_made"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N_natural, N_man_made from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total shelters studied = N_natural + N_man_made",
+     "compute": "Total_shelters_studied = N_natural + N_man_made"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  },
+  {
+   "id": "FB_EVS_C3_006",
+   "title": "Counting relationship: N_man_made = ...",
+   "section": "",
+   "formula": "N_man_made = houses, kennels, stables, coops*made_by_humans",
+   "_pats_extra": [],
+   "key_idea": "Counting relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n_man_made using counting relationship",
+    "calculate counting relationship",
+    "counting relationship formula question",
+    "given values find n_man_made"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_006",
+     "question_pattern": "counting relationship with {houses} and {kennels} and {stables} and {coops} and {made_by_humans} find n_man_made",
+     "extracted_variables": {
+      "houses": "given houses",
+      "kennels": "given kennels",
+      "stables": "given stables",
+      "coops": "given coops",
+      "made_by_humans": "given made_by_humans"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for houses, kennels, stables, coops, made_by_humans from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N_man_made = houses, kennels, stables, coops*made_by_humans",
+     "compute": "N_man_made = houses, kennels, stables, coops*made_by_humans"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  },
+  {
+   "id": "FB_EVS_C3_007",
+   "title": "Objects made in a craft session: N_made = ...",
+   "section": "",
+   "formula": "N_made = N_clay + N_paper + N_drawings",
+   "_pats_extra": [],
+   "key_idea": "Objects made in a craft session",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n_made using objects made in a craft session",
+    "calculate objects made in a craft session",
+    "objects made in a craft session formula question",
+    "given values find n_made"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C3_007",
+     "question_pattern": "objects made in a craft session with {N_clay} and {N_paper} and {N_drawings} find n_made",
+     "extracted_variables": {
+      "N_clay": "given N_clay",
+      "N_paper": "given N_paper",
+      "N_drawings": "given N_drawings"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N_clay, N_paper, N_drawings from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N_made = N_clay + N_paper + N_drawings",
+     "compute": "N_made = N_clay + N_paper + N_drawings"
+    }
+   ],
+   "chapter_title": "evs c3 formulas"
+  }
+ ]
+}

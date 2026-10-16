@@ -1,0 +1,253 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c1)",
+ "source_file": "c1_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C1_001",
+   "title": "Key relationships: Joint family = ...",
+   "section": "",
+   "formula": "Joint_family = grandparents + parents + children + uncles/aunts + cousins, all_in*one_home",
+   "_pats_extra": [],
+   "key_idea": "Key relationships",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find joint family using key relationships",
+    "calculate key relationships",
+    "key relationships formula question",
+    "given values find joint family"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C1_001",
+     "question_pattern": "key relationships with {grandparents} and {parents} and {children} and {uncles} and {aunts} and {cousins} find joint family",
+     "extracted_variables": {
+      "grandparents": "given grandparents",
+      "parents": "given parents",
+      "children": "given children",
+      "uncles": "given uncles",
+      "aunts": "given aunts",
+      "cousins": "given cousins"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for grandparents, parents, children, uncles, aunts from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Joint family = grandparents + parents + children + uncles/aunts + cousins, all_in*one_home",
+     "compute": "Joint_family = grandparents + parents + children + uncles/aunts + cousins, all_in*one_home"
+    }
+   ],
+   "chapter_title": "evs c1 formulas"
+  },
+  {
+   "id": "FB_EVS_C1_002",
+   "title": "Key relationships: Nuclear family = ...",
+   "section": "",
+   "formula": "Nuclear_family = only_parents + children_in*one_home",
+   "_pats_extra": [],
+   "key_idea": "Key relationships",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find nuclear family using key relationships",
+    "calculate key relationships",
+    "key relationships formula question",
+    "given values find nuclear family"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C1_002",
+     "question_pattern": "key relationships with {only_parents} and {children_in} and {one_home} find nuclear family",
+     "extracted_variables": {
+      "only_parents": "given only_parents",
+      "children_in": "given children_in",
+      "one_home": "given one_home"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for only_parents, children_in, one_home from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Nuclear family = only_parents + children_in*one_home",
+     "compute": "Nuclear_family = only_parents + children_in*one_home"
+    }
+   ],
+   "chapter_title": "evs c1 formulas"
+  },
+  {
+   "id": "FB_EVS_C1_003",
+   "title": "Simple plate relationship: Balanced plate = ...",
+   "section": "",
+   "formula": "Balanced_plate = Energy_food + Body-building_food + Protective_food",
+   "_pats_extra": [],
+   "key_idea": "Simple plate relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find balanced plate using simple plate relationship",
+    "calculate simple plate relationship",
+    "simple plate relationship formula question",
+    "given values find balanced plate"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C1_003",
+     "question_pattern": "simple plate relationship with {Energy_food} and {Body} and {building_food} and {Protective_food} find balanced plate",
+     "extracted_variables": {
+      "Energy_food": "given Energy_food",
+      "Body": "given Body",
+      "building_food": "given building_food",
+      "Protective_food": "given Protective_food"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Energy_food, Body, building_food, Protective_food from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Balanced plate = Energy_food + Body-building_food + Protective_food",
+     "compute": "Balanced_plate = Energy_food + Body-building_food + Protective_food"
+    }
+   ],
+   "chapter_title": "evs c1 formulas"
+  },
+  {
+   "id": "FB_EVS_C1_004",
+   "title": "Simple organising relationship: Things in my bag = ...",
+   "section": "",
+   "formula": "Things_in_my_bag = Books + Notebooks + Pencil_box + Tiffin + Bottle",
+   "_pats_extra": [],
+   "key_idea": "Simple organising relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find things in my bag using simple organising relationship",
+    "calculate simple organising relationship",
+    "simple organising relationship formula question",
+    "given values find things in my bag"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C1_004",
+     "question_pattern": "simple organising relationship with {Books} and {Notebooks} and {Pencil_box} and {Tiffin} and {Bottle} find things in my bag",
+     "extracted_variables": {
+      "Books": "given Books",
+      "Notebooks": "given Notebooks",
+      "Pencil_box": "given Pencil_box",
+      "Tiffin": "given Tiffin",
+      "Bottle": "given Bottle"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Books, Notebooks, Pencil_box, Tiffin, Bottle from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Things in my bag = Books + Notebooks + Pencil_box + Tiffin + Bottle",
+     "compute": "Things_in_my_bag = Books + Notebooks + Pencil_box + Tiffin + Bottle"
+    }
+   ],
+   "chapter_title": "evs c1 formulas"
+  },
+  {
+   "id": "FB_EVS_C1_005",
+   "title": "Simple bin relationship: Total waste = ...",
+   "section": "",
+   "formula": "Total_waste = Dry_waste + Wet_waste",
+   "_pats_extra": [],
+   "key_idea": "Simple bin relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total waste using simple bin relationship",
+    "calculate simple bin relationship",
+    "simple bin relationship formula question",
+    "given values find total waste"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C1_005",
+     "question_pattern": "simple bin relationship with {Dry_waste} and {Wet_waste} find total waste",
+     "extracted_variables": {
+      "Dry_waste": "given Dry_waste",
+      "Wet_waste": "given Wet_waste"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Dry_waste, Wet_waste from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total waste = Dry_waste + Wet_waste",
+     "compute": "Total_waste = Dry_waste + Wet_waste"
+    }
+   ],
+   "chapter_title": "evs c1 formulas"
+  },
+  {
+   "id": "FB_EVS_C1_006",
+   "title": "Simple care relationship: Care given = ...",
+   "section": "",
+   "formula": "Care_given = Water + Food + Safety + Kindness",
+   "_pats_extra": [],
+   "key_idea": "Simple care relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find care given using simple care relationship",
+    "calculate simple care relationship",
+    "simple care relationship formula question",
+    "given values find care given"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C1_006",
+     "question_pattern": "simple care relationship with {Water} and {Food} and {Safety} and {Kindness} find care given",
+     "extracted_variables": {
+      "Water": "given Water",
+      "Food": "given Food",
+      "Safety": "given Safety",
+      "Kindness": "given Kindness"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Water, Food, Safety, Kindness from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Care given = Water + Food + Safety + Kindness",
+     "compute": "Care_given = Water + Food + Safety + Kindness"
+    }
+   ],
+   "chapter_title": "evs c1 formulas"
+  }
+ ]
+}

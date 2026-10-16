@@ -15,6 +15,10 @@ from typing import Any
 
 import sympy as sp
 
+# WSA-P3: never-raising lane-exception logger — silent handlers call it
+# directly so an exact-kernel stage death is measured, not invisible.
+from backend.its.solver.contract import log_lane_exception
+
 
 _NUMBER = r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"
 _NUMBER_RE = re.compile(rf"^{_NUMBER}$")
@@ -94,6 +98,10 @@ class _FractionExpression:
             return _guard_fraction(left / right)
         if right.denominator != 1 or not -10 <= right.numerator <= 10:
             raise ValueError("power must be an integer from -10 through 10")
+        if left == 0 and right.numerator < 0:
+            raise ValueError("zero cannot be raised to a negative power")
+        if left < 0 and right.denominator != 1:
+            raise ValueError("negative base with fractional exponent is not supported")
         return _guard_fraction(left**right.numerator)
 
 
@@ -161,10 +169,25 @@ def _result(answer: str, steps: list[str], route: str, checks: list[str], operat
     }
 
 
-def _arithmetic(question: str) -> dict[str, Any]:
-    expression = question[len("Evaluate "):]
+_ARITH_PREFIX = re.compile(
+    r"^(?:"
+    r"evaluate"
+    r"|find\s+the\s+value\s+of"
+    r"|what\s+is\s+the\s+value\s+of"
+    r"|what\s+is"          # bare "What is 3 + 4"
+    r"|simplify"           # "Simplify 125/25" — rational reduction
+    r"|calculate"
+    r"|compute"
+    r"|find\s+the\s+(?:sum|product|difference|quotient)\s+of"
+    r")\s+",
+    re.I,
+)
+
+
+def _arithmetic_expr(expression: str) -> dict[str, Any]:
+    expression = expression.strip()
     if not expression or len(expression) > _MAX_TEXT:
-        raise ValueError("Evaluate requires a bounded expression")
+        raise ValueError("bounded expression required")
     try:
         tree = ast.parse(expression, mode="eval")
     except (SyntaxError, ValueError, RecursionError) as exc:
@@ -184,7 +207,7 @@ def _arithmetic(question: str) -> dict[str, Any]:
         checks.append("independent Decimal arithmetic checker passed")
     else:
         checks.append("Decimal checker not applicable to a repeating rational")
-    return _result(
+    res = _result(
         _fmt_fraction(value),
         [f"Evaluate {expression}", f"exact result = {_fmt_fraction(value)}"],
         "exact_arithmetic",
@@ -194,6 +217,13 @@ def _arithmetic(question: str) -> dict[str, Any]:
         "value",
         "bounded Fraction evaluation with an independent Decimal check when finite",
     )
+    res["numeric"] = float(value)
+    return res
+
+
+def _arithmetic(question: str) -> dict[str, Any]:
+    expression = question[len("Evaluate "):].strip()
+    return _arithmetic_expr(expression)
 
 
 class _PolynomialExpression:
@@ -251,6 +281,10 @@ def _equation_side(source: str) -> sp.Expr:
         if "^^" in source:
             raise ValueError("invalid power syntax")
         source = source.replace("^", "**")
+    # Implicit multiplication: insert * between digit and variable, and
+    # between closing paren and digit/variable/opening paren.
+    source = re.sub(r"(\d)([a-zA-Z(])", r"\1*\2", source)
+    source = re.sub(r"(\))(\d|[a-zA-Z(])", r"\1*\2", source)
     if len(source) > _MAX_TEXT:
         raise _BoundError("equation is too long")
     try:
@@ -417,15 +451,121 @@ def _unit_calculation(question: str, kind: str) -> dict[str, Any]:
     return _result(f"{_fmt_fraction(value)} {target_unit}", steps, "exact_units", ["unit conversion passed", check], kind, givens, kind, "exact unit conversion, domain checks, and inverse relation")
 
 
+_SUB_ASK = re.compile(
+    r"^(?:evaluate|find\s+the\s+value\s+of|what\s+is\s+the\s+value\s+of|"
+    r"calculate)\s+(?P<expr>[^W].*?)\s+"
+    r"(?:when|if)\s+(?P<var>[a-z])\s*=\s*(?P<val>-?\d+(?:\.\d+)?)"
+    r"\s*[.?:;]?\s*$",
+    re.I)
+_SUB_ASK_INVERTED = re.compile(
+    r"^(?:if\s+)?(?P<var>[a-z])\s*=\s*(?P<val>-?\d+(?:\.\d+)?)\s*,?\s*"
+    r"(?:calculate|evaluate|find|what\s+is)\s+(?P<expr>[^W].*?)"
+    r"\s*[.?:;]?\s*$",
+    re.I)
+
+
+def _evaluate_substitution(question: str) -> dict[str, Any]:
+    """Evaluate <expression in x> when/if x = <n>  --  substitute exactly."""
+    m = _SUB_ASK.match(question) or _SUB_ASK_INVERTED.match(question)
+    if not m:
+        raise ValueError("not an evaluate-with-substitution question")
+    expr_source = m.group("expr").strip().rstrip("?").strip()
+    if not expr_source or len(expr_source) > _MAX_TEXT:
+        raise ValueError("expression is missing or too long")
+    expr = _equation_side(expr_source)
+    sym = sp.Symbol(m.group("var"))
+    val = sp.Rational(m.group("val"))
+    substituted = expr.subs(sym, val)
+    if substituted.free_symbols:
+        raise ValueError("expression has unsupported free variables")
+    exact = sp.together(sp.nsimplify(substituted, rational=True))
+    num = float(exact)
+    steps = [
+        f"Substitute x = {m.group('val')} into {expr_source}.",
+        f"Exact value = {exact}.",
+        f"check: rebuild is exact rational arithmetic -- no rounding.",
+    ]
+    return _result(str(exact), steps, "exact_substitution",
+                   ["expression parsed (polynomial/rational in one variable)",
+                    "substitution verified exact"], "evaluate",
+                   {"expression": expr_source, "substitution": m.group("val")},
+                   m.group("var"),
+                   "closed-world expression substitution with exact arithmetic")
+
+
+_PROPORTION = re.compile(
+    r"^check\s+(?:whether\s+|that\s+)?(?:the\s+)?(?:proportion\s+)?"
+    r"(?P<a>-?\d+(?:\.\d+)?)\s*:\s*(?P<b>-?\d+(?:\.\d+)?)"
+    r"\s*::\s*(?P<c>-?\d+(?:\.\d+)?)\s*:\s*(?P<d>-?\d+(?:\.\d+)?)"
+    r"(?:\s+(?:are\s+)?(?:in\s+)?proportion)?\s*[.?:;]?\s*$", re.I)
+
+
+def _proportion_check(question: str) -> dict[str, Any]:
+    """Check a : b :: c : d  --  cross-multiply exactly."""
+    m = _PROPORTION.match(question)
+    if not m:
+        raise ValueError("not a proportion check")
+    a, b, c, dd = (float(m.group(k)) for k in ("a", "b", "c", "d"))
+    if b == 0 or dd == 0:
+        raise ValueError("proportion with zero middle term")
+    left, right = a * dd, b * c
+    prop = left == right
+    steps = [
+        f"Cross-multiply: {a:g} x {dd:g} = {left:g} and {b:g} x {c:g} = {right:g}.",
+        ("Both products are equal, so the four numbers ARE in proportion."
+         if prop else
+         f"The products differ ({left:g} vs {right:g}), so the four numbers "
+         f"are NOT in proportion."),
+    ]
+    ans = "proportional" if prop else "not proportional"
+    return _result(ans, steps, "exact_proportion",
+                   ["cross-multiplication verified exactly"],
+                   "proportion check",
+                   {"a": a, "b": b, "c": c, "d": dd}, "proportion verdict",
+                   "closed-world proportion cross-multiplication")
+
+
+
+def proportion_check_exact(question: str):
+    """Public hook for math_kernel: exact proportion check.
+
+    Returns (answer_string, steps_list) or None when the question is not a
+    proportion check."""
+    try:
+        r = _proportion_check(question)
+    except Exception as _exc:
+        # WSA-P3: a crash inside the closed-world check (not a decline)
+        # is a defect — measured, decline semantics kept.
+        log_lane_exception(
+            stage="exact_kernels.proportion_check_exact.check", exc=_exc)
+        return None
+    if r is None:
+        return None
+    return r["answer"], r["steps"]
+
 def compute_exact(question: str, subject: str = "") -> dict[str, Any] | None:
     """Compute one of the explicitly supported closed-world question forms."""
     if not isinstance(question, str):
         raise ValueError("question must be text")
     question = question.strip()
+    if _SUB_ASK.match(question) or _SUB_ASK_INVERTED.match(question):
+        return _evaluate_substitution(question)
+    if _PROPORTION.match(question):
+        return _proportion_check(question)
     if question.startswith("Evaluate"):
         if not re.match(r"^Evaluate\s+", question):
             raise ValueError("Evaluate requires a space before the expression")
         return _arithmetic(question)
+    arith_m = _ARITH_PREFIX.match(question)
+    if arith_m:
+        expr = question[arith_m.end():].rstrip(".?! ").strip()
+        try:
+            return _arithmetic_expr(expr)
+        except Exception as _exc:
+            # WSA-P3: arithmetic stage crash falls through to the later
+            # exact forms — the fall-through stays, now measured.
+            log_lane_exception(
+                stage="exact_kernels.compute_exact.arith_expr", exc=_exc)
     if question.startswith("Solve"):
         return _equation(question)
     unit_match = _CALCULATE_QUESTION.fullmatch(question)
@@ -435,3 +575,29 @@ def compute_exact(question: str, subject: str = "") -> dict[str, Any] | None:
         if question.startswith(f"Calculate {kind}"):
             raise ValueError("supported unit question is not a complete string")
     return None
+
+
+def evaluate_substitution_exact(expr_source: str, var: str, val_str: str):
+    """Public hook for math_kernel: exact substitution, (float, steps) or None.
+
+    Parses the expression closed-world (one variable, polynomial/rational),
+    substitutes exactly, and returns the float value with the step contract.
+    Returns None when the expression cannot be parsed exactly -- callers
+    fall through to their own paths."""
+    try:
+        if var != "x" or len(expr_source) > _MAX_TEXT:
+            return None
+        expr = _equation_side(expr_source.strip().rstrip("?").strip())
+        substituted = expr.subs(sp.Symbol("x"), sp.Rational(val_str))
+        if substituted.free_symbols:
+            return None
+        exact = sp.together(sp.nsimplify(substituted, rational=True))
+        value = float(exact)
+        steps = [
+            f"Substitute {var} = {val_str} into {expr_source.strip()}.",
+            f"Exact value = {exact}.",
+            "check: computed in exact rational arithmetic -- no rounding.",
+        ]
+        return value, steps
+    except Exception:
+        return None

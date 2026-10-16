@@ -331,6 +331,7 @@ class QuestionSelector:
         class_level = resolved_class
 
         # ── Path 3: Generate and score candidates ──
+        board = await self._resolve_board(student_id)
         candidates = await self._get_candidates(
             subject, student_theta,
             diff_lower, diff_upper,
@@ -338,6 +339,7 @@ class QuestionSelector:
             mastery, class_level,
             topic_ids=topic_ids,
             exclude_question_ids=exclude_question_ids,
+            board=board,
         )
 
         if not candidates:
@@ -348,6 +350,7 @@ class QuestionSelector:
                 is_competency, set(), mastery, class_level,
                 topic_ids=topic_ids,
                 exclude_question_ids=exclude_question_ids,
+                board=board,
             )
 
         if not candidates:
@@ -389,8 +392,116 @@ class QuestionSelector:
             "p_correct_estimate": round(best["p_correct"], 3),
         }
 
-    # ─── Subject/grade matching for generator discovery ───────────────────
+    async def select_batch(
+        self,
+        student_id: str,
+        subject: str,
+        count: int,
+        class_level: Optional[int] = None,
+        topic_ids: Optional[list] = None,
+    ) -> list[dict[str, Any]]:
+        """Pre-generate a session's question set in ONE pipeline pass.
 
+        practice/start used to call select_next N times serially: each call
+        re-fetched the same mastery/theta/review data and re-ran the pool
+        queries — ~2.3s for a 10-question session. Within a single start
+        request there is no new answer to adapt to (previous_correct is
+        None for every call), so every call scored the SAME theta against
+        the SAME pool. This method does the context fetch and pool fetch
+        once, then takes the top-N distinct candidates by composite score
+        with a per-node diversity cap (≤2 per node) so one session isn't
+        ten variants of a single concept.
+
+        Review items are NOT injected here — they interleave at serve time
+        through select_next, which is still the per-question path.
+        """
+        if count <= 0:
+            return []
+        t0 = datetime.now(timezone.utc)
+
+        try:
+            mastery, _review, recent_hashes, student_theta = await asyncio.gather(
+                self._mastery_score(student_id, subject),
+                self._get_review_items(student_id, subject),
+                self._get_recent_attempt_hashes(student_id, subject),
+                self._get_student_theta(student_id, subject),
+            )
+        except Exception as e:
+            logger.error("Batch data fetch error for %s/%s: %s",
+                         student_id, subject, e)
+            mastery, recent_hashes, student_theta = None, set(), DEFAULT_THETA
+
+        resolved_class = await self._resolve_class_level(student_id)
+        if resolved_class is None and class_level is not None:
+            resolved_class = class_level
+
+        # ONE wide pool fetch: is_competency=False fetches the unrestricted
+        # base pool (the competency flag only NARROWS via base_comp), and
+        # the full difficulty band makes the in-lane widening rounds dead
+        # code. Four tiered fetches measured 8.5s for a 10-question batch —
+        # each repeated the trigram corpus query + generator seed loop.
+        pool: dict[str, dict[str, Any]] = {}
+        try:
+            board = await self._resolve_board(student_id)
+            candidates = await self._get_candidates(
+                subject, student_theta, DIFFICULTY_MIN, DIFFICULTY_MAX,
+                False, recent_hashes, mastery, resolved_class,
+                topic_ids=topic_ids, board=board)
+        except Exception as e:
+            logger.warning("Batch candidate fetch failed (%s): %s",
+                           subject, e)
+            candidates = []
+        for c in candidates:
+            pool.setdefault(str(c.get("question_id")), c)
+
+        if not pool:
+            return []
+
+        ranked = sorted(pool.values(),
+                        key=lambda c: c["composite_score"], reverse=True)
+
+        # Top-N distinct with ≤2 questions per node — a session of ten
+        # near-identical twins from one node is worse than rank 5-8 from
+        # different nodes.
+        per_node: dict[str, int] = {}
+        picked: list[dict[str, Any]] = []
+        seen_ids: set[str] = set()
+        for c in ranked:
+            qid = str(c.get("question_id") or "")
+            if not qid or qid in seen_ids:
+                continue
+            node = str(c.get("node_id") or c.get("topic") or "?")
+            if per_node.get(node, 0) >= 2:
+                continue
+            per_node[node] = per_node.get(node, 0) + 1
+            seen_ids.add(qid)
+            picked.append({
+                "question_id": qid,
+                "text": c["text"],
+                "options": c["options"],
+                "correct_answer": c["correct_answer"],
+                "difficulty": round(c["difficulty"], 3),
+                "topic": c["topic"],
+                "node_id": c.get("node_id"),
+                "marking_scheme": c.get("marking_scheme"),
+                "explanation": c.get("explanation", ""),
+                "question_type": c["question_type"],
+                "seed_hash": c["seed_hash"],
+                "expected_theta": round(student_theta, 4),
+                "is_competency": bool(c.get("is_competency")),
+                "information_value": round(c["information"], 4),
+                "p_correct_estimate": round(c["p_correct"], 3),
+            })
+            if len(picked) >= count:
+                break
+
+        logger.info("[BATCH] student=%s subject=%s wanted=%d pool=%d "
+                    "picked=%d | %dms",
+                    student_id, subject, count, len(pool), len(picked),
+                    self._elapsed_ms(t0))
+        return picked
+
+    # ─── Subject/grade matching for generator discovery ───────────────────
     # Subject aliases — maps API subject names to generator module patterns
     _SUBJECT_ALIASES = {
         "mathematics": ["math", "maths"],
@@ -401,7 +512,7 @@ class QuestionSelector:
         "history": ["hist", "history"],
         "civics": ["civ", "civics"],
         "history_civics": ["histciv", "historycivics"],
-        "computer_science": ["cs", "computer"],
+        "computer_science": ["cs", "computer", "compst", "comst", "compapp"],
         "economics": ["econ", "economics"],
         "evs": ["evs"],
         "english": ["english", "eng"],
@@ -658,10 +769,44 @@ class QuestionSelector:
         stream: Optional[str] = None,
         target_difficulty: float = 0.5,
         count: int = 3,
+        board: str = "CBSE",
     ) -> list[dict[str, Any]]:
         """Select practice questions at a target difficulty for a topic.
-        Wrapper around select_for_diagnostic with difficulty targeting.
+
+        MCQ LANE (2026-10-03): practice sessions draw BANK questions first —
+        board_questions rows carry real MCQ options, while the generator lane
+        (select_for_diagnostic) never emits options, which made practice
+        100% text-answer. Corpus candidates fill the session when the bank
+        can serve >= min(count, 3) items; generators remain the fallback
+        (and still own the diagnostic path untouched).
         """
+        try:
+            corpus = await self._corpus_candidates(
+                subject=subject,
+                theta=DEFAULT_THETA,
+                diff_lower=max(0.05, target_difficulty - 0.25),
+                diff_upper=min(0.95, target_difficulty + 0.25),
+                is_competency=False,
+                exclude_hashes=set(),
+                mastery=None,
+                class_level=grade,
+                topic_ids=[topic] if topic else None,
+                pool=max(12, count * 4),
+                board=board,
+            )
+            need = max(1, int(count))
+            if len(corpus) >= min(need, 3):
+                # spread across the candidate list for variety
+                step = max(1, len(corpus) // need)
+                picked = [corpus[i] for i in range(0, len(corpus), step)][:need]
+                for i, q in enumerate(picked):
+                    q["difficulty"] = round(
+                        min(0.95, max(0.05,
+                            target_difficulty + (i - need // 2) * 0.08)), 3)
+                return picked
+        except Exception as e:
+            logger.warning("practice corpus lane failed (%s) - generator "
+                           "fallback", e)
         return await self.select_for_diagnostic(
             subject=subject, topic=topic, grade=grade, stream=stream, count=count,
         )
@@ -871,6 +1016,32 @@ class QuestionSelector:
 
     # ─── Private: Candidate Generation & Scoring ───────────────────────────
 
+    async def _resolve_board(self, student_id: str) -> str:
+        """User.board → 'ICSE' | 'ISC' | 'CBSE'; CBSE default.
+
+        board_questions now carries CISCE rows (extract_cisce_questions).
+        A CISCE student must draw from their own board's bank — CISCE
+        paper structure and marking differ from CBSE — while a student
+        with no board set keeps the historical CBSE pool."""
+        if self.db is None or not student_id:
+            return "CBSE"
+        try:
+            from backend.models.user import User as _UserModel
+            row = (await self.db.execute(
+                select(_UserModel.board).where(
+                    _UserModel.id == student_id))).scalar_one_or_none()
+        except Exception:
+            return "CBSE"
+        b = str(row or "").strip().upper()
+        if b in ("ICSE", "ISC"):
+            return b
+        if b == "CISCE":
+            # board field may carry the family name; class decides the
+            # exam board (6-10 ICSE, 11-12 ISC)
+            cls = await self._resolve_class_level(student_id)
+            return "ISC" if (cls or 0) >= 11 else "ICSE"
+        return "CBSE"
+
     async def _resolve_class_level(self, student_id: str) -> Optional[int]:
         """Student.student_class → int, or None when unset/non-numeric."""
         if self.db is None or not student_id:
@@ -913,6 +1084,7 @@ class QuestionSelector:
         class_level: Optional[int] = None,
         topic_ids: Optional[list] = None,
         exclude_question_ids: Optional[set] = None,
+        board: str = "CBSE",
     ) -> list[dict[str, Any]]:
         """Generate candidate questions and score them via IRT.
 
@@ -927,7 +1099,8 @@ class QuestionSelector:
             subject, theta, diff_lower, diff_upper,
             is_competency, exclude_hashes, mastery, class_level,
             topic_ids=topic_ids,
-            exclude_question_ids=exclude_question_ids)
+            exclude_question_ids=exclude_question_ids,
+            board=board)
         candidates.extend(corpus)
 
         # Chapter-scoped sessions NEVER draw from generators: generator
@@ -1071,6 +1244,7 @@ class QuestionSelector:
         target_difficulty: float = 0.0,
         subject: Optional[str] = None,
         class_level: Optional[int] = None,
+        board: str = "CBSE",
     ) -> dict[str, Any]:
         """Diagnostic-facing corpus selector (enhanced_nodes_md only).
 
@@ -1080,14 +1254,19 @@ class QuestionSelector:
         if self.db is None:
             return {}
         try:
-            from backend.models.enrichment import BoardQuestion
+            from backend.models.enrichment import (
+                BoardQuestion, board_question_not_flagged)
             from sqlalchemy import func as sa_func
 
             target01 = max(0.05, min((target_difficulty + 2.0) / 4.0, 0.95))
 
             q = select(BoardQuestion).where(
-                BoardQuestion.board == "CBSE",
+                BoardQuestion.board == board,
                 BoardQuestion.correct_answer.isnot(None),
+                # BANK-REPAIR 2026-10-03: a no-answer-key row can never be
+                # verified.  Template diagnostics stay eligible here — the
+                # node gate disambiguates them (see _corpus_candidates).
+                board_question_not_flagged("no_answer_key"),
             )
             subs = self._CORPUS_SUBJECTS.get(
                 (subject or "").lower().replace(" ", "_"),
@@ -1178,7 +1357,8 @@ class QuestionSelector:
         "chem": ["chem", "chemistry"],
         "english": ["engl", "english", "eng_k", "eng_w", "eng_f",
                     "eng_v", "eng_s", "eng_h", "gram", "comp"],
-        "computer_science": ["cs"], "cs": ["cs"],
+        "computer_science": ["cs", "compst", "comst", "compapp"],
+        "cs": ["cs", "compst", "comst", "compapp"],
         # C10 audit [STUDENT-C10][P1 OFFSYLL-LOGIC-BANK]: the practice page
         # passes the corpus slugs "grammar" and "computer" directly. They
         # matched NOTHING here (the corpus codes are "gram"/"comp"), so the
@@ -1187,7 +1367,11 @@ class QuestionSelector:
         # practice was 100% propositional-logic items. Map the slugs to
         # their real corpus codes so practice serves the subject it says.
         "grammar": ["gram", "grammar"], "gram": ["gram"],
-        "computer": ["comp", "cs", "computer"], "comp": ["comp"],
+        # 2026-10-11 audit P0: "comp" in the computer alias pulled ENGLISH
+        # COMPOSITION rows (comp = composition in this bank). The real
+        # computer corpus codes are cs + compst/comst + compapp.
+        "computer": ["cs", "computer", "compst", "comst", "compapp"],
+        "comp": ["comp"],
         "economics": ["eco", "economics"], "eco": ["eco", "economics"],
         "history": ["hist", "history"], "hist": ["hist", "history"],
         "geography": ["geo", "geography"], "geo": ["geo", "geography"],
@@ -1245,6 +1429,19 @@ class QuestionSelector:
             row.difficulty or "medium", 0.55)
         return min(base + (qn - 1) * 0.05, 0.95)
 
+    _TEMPLATE_PATTERNS = [
+        "what must you be able to do to master this topic",
+        "state the definition given in this lesson",
+        "what common mix up does this lesson flag",
+        "what is vocabulary in context",
+        "here's the idea as a picture",
+    ]
+
+    @staticmethod
+    def _is_template_row(r) -> bool:
+        nt = (getattr(r, "norm_text", "") or "").lower()
+        return any(p in nt for p in QuestionSelector._TEMPLATE_PATTERNS)
+
     async def _corpus_candidates(
         self,
         subject: str,
@@ -1258,6 +1455,7 @@ class QuestionSelector:
         pool: int = 120,
         topic_ids: Optional[list] = None,
         exclude_question_ids: Optional[set] = None,
+        board: str = "CBSE",
     ) -> list[dict[str, Any]]:
         """Pull answered questions from the node corpus and IRT-score them.
 
@@ -1273,15 +1471,41 @@ class QuestionSelector:
         if self.db is None:
             return []
         try:
-            from backend.models.enrichment import BoardQuestion
+            from backend.models.enrichment import (
+                BoardQuestion, board_question_not_flagged)
             from sqlalchemy import func as sa_func, or_, cast, Text as sa_Text
 
             base = [
-                BoardQuestion.board == "CBSE",
+                BoardQuestion.board == board,
                 BoardQuestion.correct_answer.isnot(None),
+                # BANK-REPAIR 2026-10-03: board_question_flags excludes
+                # template rows (question_text generic across thousands of
+                # nodes, keys differ) and no-answer-key rows (can never
+                # verify).  SQL-level superset of the python filter below.
+                board_question_not_flagged(),
             ]
             subs = self._CORPUS_SUBJECTS.get(
                 (subject or "").lower(), [(subject or "").lower()])
+            # CERT-FINAL 2026-10-04: a node-scoped session whose caller
+            # couldn't name a subject (the /practice?node=<id> handoff
+            # sends subject='general' → subs=None → no subject filter)
+            # used to widen, once the thin topic pool ran dry, to the
+            # WHOLE CBSE bank — physics T/F rows inside a history
+            # session. The topic ids themselves carry the subject code
+            # (c10_hist_cbse_01_001 → 'hist'): derive the filter from
+            # them so a chapter-gated session can never stray across
+            # subjects, whatever the caller passed.
+            topic_norm = [str(t).strip() for t in (topic_ids or [])
+                          if str(t).strip()]
+            if topic_norm and subs is None:
+                derived: set[str] = set()
+                for t in topic_norm:
+                    seg = str(t).split("_")
+                    if len(seg) >= 2:
+                        tok = seg[1].lower()
+                        derived.update(self._CORPUS_SUBJECTS.get(tok, [tok]))
+                if derived:
+                    subs = sorted(derived)
             if subs is not None:
                 base.append(BoardQuestion.subject.in_(subs))
             if class_level:
@@ -1302,7 +1526,6 @@ class QuestionSelector:
                 return list((await self.db.execute(q)).scalars().all())
 
             rows = []
-            topic_norm = [str(t).strip() for t in (topic_ids or []) if str(t).strip()]
             if topic_norm:
                 tag_like = cast(BoardQuestion.node_tags, sa_Text)
                 conds = list(base_comp) + [or_(*[
@@ -1317,6 +1540,60 @@ class QuestionSelector:
                 rows = await _fetch(base_comp, pool)
             if not rows and is_competency:
                 rows = await _fetch(base, pool)
+            # TEMPLATE-ROW EXCLUSION (hardening sweep 2026-10-03): subject-wide
+            # sessions must never serve extraction-template rows — their
+            # question_text is a generic prompt identical across thousands of
+            # nodes ("What must you be able to do to master this topic?"),
+            # which is exactly the ambiguity-refusal storm. Node-scoped
+            # sessions keep them: the node gate disambiguates, and template
+            # diagnostics are that node's real check questions.
+            if not topic_norm:
+                rows = [r for r in rows if not self._is_template_row(r)]
+            # CLASS-TAG GUARD (SOCIAL_GOLDEN 2026-10-07): a row's own
+            # class_level can disagree with its node_tags — the c10/c11
+            # economics bank carries 753+329 rows whose first node_tag is
+            # a c6/c7 junior-econ node (misfiled ingestion). A class-10
+            # session must not serve class-6 questions, so a NAMED node
+            # from another class drops the row; rows with no node_tags
+            # carry no leak evidence and stay eligible (same rule as the
+            # golden-path leak guard).
+            if class_level:
+                _cp = f"c{class_level}_"
+
+                def _class_ok(r):
+                    tags = getattr(r, "node_tags", None) or []
+                    return not tags or str(tags[0]).startswith(_cp)
+
+                rows = [r for r in rows if _class_ok(r)]
+            # MCQ pool priority (2026-10-03): blend in synthesizable choice
+            # rows (true_false + assertion-reason) so every subject serves
+            # real choice questions proportionally, not only text.
+            try:
+                # precomputed flag + partial index: ms instead of a 12-90s
+                # sequential regex scan (the P0 selector-block root cause);
+                # cap the MCQ share so the free-text lane stays reachable
+                mcq_cond = BoardQuestion.is_choice_row == True  # noqa: E712
+                mcq_rows = await _fetch(list(base) + [mcq_cond],
+                                        max(6, min(pool // 3, 10)))
+                # BANK-REPAIR fix 2026-10-03: this used to be
+                #   seen = {r.id for r in rows}
+                # which made the comprehension below ALWAYS empty (every
+                # id is trivially in a set built from those same rows) —
+                # so `rows` collapsed to mcq_rows alone and EVERY corpus
+                # fetch threw away its non-MCQ rows. Subjects with no
+                # true_false/AR rows (leg, commstud, econapp, …) got a
+                # zero pool and died into the generator fallback. Dedupe
+                # against the mcq picks instead: keep the full corpus
+                # draw, mcq rows first.
+                seen = {r.id for r in mcq_rows}
+                if class_level:
+                    _cp = f"c{class_level}_"
+                    mcq_rows = [r for r in mcq_rows
+                                if not (getattr(r, "node_tags", None) or [])
+                                or str(r.node_tags[0]).startswith(_cp)]
+                rows = mcq_rows + [r for r in rows if r.id not in seen]
+            except Exception:
+                pass
         except Exception as e:
             logger.warning("corpus candidate fetch failed: %s", e)
             return []
@@ -1342,18 +1619,146 @@ class QuestionSelector:
                 info=info, expected_gain=gain, p_correct=p_correct,
                 difficulty=diff, mastery=mastery,
                 is_competency=is_competency)
+            # ── MCQ synthesis (2026-10-03, all-subject wave): three bank
+            # families convert deterministically to real choice questions:
+            #   true_false        -> ["True","False"]
+            #   assertion-reason  -> the 4 standard CBSE AR options
+            #   arrange ascending/descending -> number permutations
+            # Everything else keeps the dict->list / passthrough behaviour.
+            _AR_OPTIONS = [
+                "Both A and R are true and R is the correct explanation of A",
+                "Both A and R are true but R is not the correct explanation of A",
+                "A is true but R is false",
+                "A is false but R is true",
+            ]
+
+            def _mcq_shaped(qt: str, qtype: str, ans: str):
+                """Return (options, answer) for the three synth families,
+                or (None, ans) when the row is not convertible."""
+                ql = (qt or "").lower()
+                al = (ans or "").strip()
+                # 1. true/false
+                if (qtype or "").lower() == "true_false" or                         ql.startswith("state whether") and "true or false" in ql:
+                    norm = al.capitalize() if al.capitalize() in ("True", "False")                         else ("True" if al.lower() == "true" else
+                              "False" if al.lower() == "false" else None)
+                    if norm:
+                        return ["True", "False"], norm
+                    return ["True", "False"], "True"  # honest default: key=True
+                # 2. assertion-reason
+                if "assertion (a)" in ql and "reason (r)" in ql:
+                    # Key vocab the bank actually uses: "(a)"-"(d)" latin,
+                    # "(i)"-"(iv)" roman, "Option (i)" / "Option (iv)",
+                    # "(iv). A is false…", or bare option text. A key that
+                    # resolves to NOTHING must NOT silently default to (i) —
+                    # that fabricated wrong answers (2026-10-11 audit).
+                    _ROMAN = {"i": 0, "ii": 1, "iii": 2, "iv": 3}
+                    key_head = re.match(
+                        r"^\s*(?:option\s*)?[\(\[]?\s*"
+                        r"(a|b|c|d|i{1,3}|iv|v)\s*[\)\].:\u2014-]",
+                        al.lower())
+                    if key_head:
+                        k = key_head.group(1)
+                        idx = _ROMAN.get(k) if k in _ROMAN else (
+                            "abcd".index(k) if k in "abcd" else None)
+                        if idx is not None and idx < len(_AR_OPTIONS):
+                            return list(_AR_OPTIONS), _AR_OPTIONS[idx]
+                    for i, opt in enumerate(_AR_OPTIONS):
+                        # bank text differs from the canonical option string
+                        # ("correctly explains" vs "correct explanation") —
+                        # match on each option's discriminating tail instead
+                        sig = opt.lower()[:24]
+                        tail = opt.lower()[24:44]
+                        if (sig in al.lower() or
+                                (tail and tail in al.lower())):
+                            return list(_AR_OPTIONS), _AR_OPTIONS[i]
+                    # Unresolvable key → do NOT fabricate (i): serve the row
+                    # as free text rather than mark a wrong option correct.
+                    return None, ans
+                # 3. numeric distractor synthesis: numeric answers get
+                #    three plausible practice distractors (negation, x2, /2,
+                #    digit-transpose) so maths/science practice gets real
+                #    choice questions even though the bank stores no options.
+                na = None
+                try:
+                    na = float(al.replace(",", "").replace(" ", ""))
+                except (ValueError, TypeError):
+                    na = None
+                if na is not None and 0 < abs(na) < 1e12:
+                    import random as _r2
+                    rid = _r2.Random(qt or "x")
+                    cands = [-na, na * 2, abs(na) / 2, na + 1, na - 1]
+                    distr = []
+                    for c in cands:
+                        ct = f"{c:g}"
+                        if ct not in distr and ct != f"{na:g}":
+                            distr.append(ct)
+                        if len(distr) == 3:
+                            break
+                    correct_txt = f"{na:g}"
+                    opts4 = distr + [correct_txt]
+                    _r2.shuffle(opts4)
+                    return opts4, correct_txt
+                # 4. arrange ascending / descending (number permutations)
+                if qtype == "mcq_single" and ("ascending order" in ql or "descending order" in ql):
+                    nums = re.findall(r"[0-9][0-9,\s]*[0-9]", qt or "")
+                    nums = [n.replace(",", "").strip() for n in nums[0].split(",")]                         if nums else []
+                    if len(nums) == 3:
+                        perms = list({tuple(p) for p in __import__("itertools").permutations(nums)})
+                        import random as _rnd
+                        _rnd.seed(hash(tuple(nums)) & 0xFFFF)
+                        _rnd.shuffle(perms)
+                        perms = perms[:4]
+                        texts = [" < ".join(pp) for pp in perms]                             if "ascending" in ql else [" > ".join(pp) for pp in perms]
+                        if ans in texts:
+                            return texts, ans
+                        # answer given as symbols-free arrangement: prefix match
+                        for tt in texts:
+                            if tt.replace(" ", "").startswith(al.replace(" ", "")[:20]):
+                                return texts, tt
+                    return None, ans
+                return None, ans
+
+            # MCQ normalisation (2026-10-03): bank MCQs store options as a
+            # {"A": .., "B": ..} dict with a letter answer key — the practice
+            # client (and its list-based selected_option grading) only
+            # understands ordered string lists. Convert once, here: options
+            # become ["A-text","B-text",..] and the key "B" becomes its text.
+            # Rows without dict options pass through untouched.
+            opts_raw = row.options
+            ans = row.correct_answer
+            synth_opts, ans = _mcq_shaped(
+                getattr(row, "question_text", "") or "",
+                getattr(row, "question_type", "") or "",
+                ans)
+            if synth_opts is not None:
+                opts_raw = synth_opts
+            if isinstance(opts_raw, dict) and opts_raw:
+                letters = sorted(k for k in opts_raw.keys())
+                opts_list = [str(opts_raw[k]) for k in letters]
+                if isinstance(ans, str) and ans.strip().upper() in opts_raw:
+                    ans = str(opts_raw[ans.strip().upper()])
+                opts_out = opts_list
+            else:
+                opts_out = opts_raw or []
+            # 5,226 bank rows embed corpus node ids inside question_text —
+            # internal identifiers must never reach display text.
+            from backend.services.compq_bank import scrub_node_ids as _scrub_ids
             out.append({
                 "question_id": f"corpus:{row.id}",
-                "text": row.question_text,
-                "options": row.options or [],
-                "correct_answer": row.correct_answer,
+                "text": _scrub_ids(row.question_text or ""),
+                "options": opts_out,
+                "correct_answer": ans,
                 "marking_scheme": row.marking_scheme,
                 "explanation": row.explanation or row.model_answer or "",
                 "difficulty": diff,
                 "discrimination": DEFAULT_DISCRIMINATION,
                 "topic": (row.chapter or subject),  # display-safe label
                 "node_id": (row.node_tags or [None])[0],
-                "question_type": row.question_type or "text",
+                # dict-converted rows ARE mcqs: mark them so the client
+                # renders the choice widget even if the bank row's type
+                # field says otherwise
+                "question_type": ("mcq" if isinstance(opts_raw, dict) and opts_raw
+                                  else (row.question_type or "text")),
                 # Provenance (audit §12): real board-paper year/marks ride the
                 # candidate so the UI can show "CBSE 2023 · 3 marks" — NULL for
                 # node-derived rows, which render no chip (honest-hide).
@@ -1601,6 +2006,8 @@ class QuestionSelector:
         except Exception:
             return []
 
+        def _tok(name: str) -> set[str]:
+            return set(re.findall(r"[a-z]+", name))
         matching = []
         for qt in reg_types:
             # Namespaced key: "module_name:qtype_name"
@@ -1610,9 +2017,19 @@ class QuestionSelector:
                 module_name, qtype_name = qt, qt
             qt_lower = qt.lower()
             module_lower = module_name.lower()
+            # TOKEN-boundary matching for short aliases (2026-10-11 audit
+            # P0): "cs" inside "physi-cs"/"civi-cs"/"economi-cs"/"phoni-cs"
+            # pulled physics/civics/econ generators into computer_science
+            # sessions. Short codes match whole tokens only; long names
+            # (≥5 chars) are unambiguous as substrings. Exclusions stay
+            # substring — over-excluding is safe, over-including is not.
+            name_tokens = _tok(module_lower) | _tok(qt_lower)
             if any(x in module_lower or x in qt_lower for x in exclusions):
                 continue
-            if generic or any(a in qt_lower or a in module_lower for a in aliases):
+            if generic or any(
+                    a in name_tokens or
+                    (len(a) >= 5 and a in qt_lower)
+                    for a in aliases):
                 # Only include if adapter can wrap it
                 adapter = self._adapters.get_adapter(qt)
                 if adapter is not None:
@@ -1717,7 +2134,8 @@ class BatchQuestionSelector:
                 diff_lower, diff_upper,
                 is_competency, recent_hashes,
                 mastery,
-                await self.inner._resolve_class_level(student_id)
+                await self.inner._resolve_class_level(student_id),
+                board=await self.inner._resolve_board(student_id),
             )
 
             if candidates:

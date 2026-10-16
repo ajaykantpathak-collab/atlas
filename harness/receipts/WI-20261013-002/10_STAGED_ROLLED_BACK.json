@@ -1,0 +1,21 @@
+{
+ "receipt_id": "rcpt_20261013T153553Z_04c3a445",
+ "work_item": "WI-20261013-002",
+ "from_state": "STAGED",
+ "to_state": "ROLLED_BACK",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:35:53Z",
+ "gates": [],
+ "evidence": {
+  "restored": [
+   {
+    "path": "deploy/backend/its/README.md",
+    "sha256": "87d65adda374cf4a99b5787a38446f48f5f648d94adeef16582c5d64d24a7a62",
+    "restored_sha256": "87d65adda374cf4a99b5787a38446f48f5f648d94adeef16582c5d64d24a7a62",
+    "ok": true
+   }
+  ]
+ },
+ "notes": "1 file(s) restored byte-identical",
+ "prev_receipt_sha256": "16685f698a34acb3502c3df23b0fa1be82593fd8749c700c4e7a4dfc29c13d60"
+}

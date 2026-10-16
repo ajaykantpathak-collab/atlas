@@ -167,6 +167,9 @@ class DashboardSchema(BaseModel):
     level: int = 1
     level_xp: int = 0
     level_max: int = 100
+    # Canonical stars: derived from LIVE mastery bands
+    # (services/reward_ledger.stars_for) — never a stored counter.
+    stars: int = 0
     streak: int = 0
     recommended_lessons: List[RecommendedLessonSchema] = Field(default_factory=list)
     mastery_subjects: List[SubjectMasterySchema] = Field(default_factory=list)

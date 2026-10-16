@@ -20,7 +20,7 @@ import os
 from enum import Enum
 from typing import List, Optional, Dict, Any
 
-from pydantic import Field, field_validator, ConfigDict
+from pydantic import AliasChoices, Field, field_validator, ConfigDict
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -82,6 +82,10 @@ class Settings(BaseSettings):
     jwt_secret: str = Field(
         default="change-me-in-production-use-a-real-secret-key-please",
         min_length=32,
+        # Without validate_default, pydantic skips validators on the DEFAULT
+        # value — the production guard below never fired when the env var was
+        # simply unset, silently signing tokens with a public constant.
+        validate_default=True,
         description="Secret key for JWT signing (MUST be set in production)",
     )
     jwt_algorithm: str = Field(default="HS256")
@@ -96,6 +100,37 @@ class Settings(BaseSettings):
         description="Claude API key (tutor endpoints only, not used in solvers)",
     )
     claude_model_tutor: str = Field(default="claude-opus-5")
+
+    # ------------------------------------------------------------------ #
+    # LLM lane keys — CL-18: the legacy UPPERCASE properties at the
+    # bottom of this class getattr these names, but no Field declared
+    # them, so env keys (plain GEMINI_API_KEY in .env, or PLATFORM_-prefixed)
+    # could never populate them.  AliasChoices accepts both spellings.
+    # ------------------------------------------------------------------ #
+    freellm_api_url: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices(
+            "FREELLM_API_URL", "PLATFORM_FREELLM_API_URL"))
+    freellm_api_key: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices(
+            "FREELLM_API_KEY", "PLATFORM_FREELLM_API_KEY"))
+    freellm_model: str = Field(
+        default="auto",
+        validation_alias=AliasChoices(
+            "FREELLM_MODEL", "PLATFORM_FREELLM_MODEL"))
+    gemini_api_key: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices(
+            "GEMINI_API_KEY", "PLATFORM_GEMINI_API_KEY"))
+    gemini_model: str = Field(
+        default="gemini-flash-latest",
+        validation_alias=AliasChoices(
+            "GEMINI_MODEL", "PLATFORM_GEMINI_MODEL"))
+    groq_api_key: Optional[str] = Field(
+        default=None,
+        validation_alias=AliasChoices(
+            "GROQ_API_KEY", "PLATFORM_GROQ_API_KEY"))
 
     # ------------------------------------------------------------------ #
     # WhatsApp Bot
@@ -290,6 +325,10 @@ class Settings(BaseSettings):
         return getattr(self, "gemini_api_key", "")
 
     @property
+    def GEMINI_MODEL(self) -> str:
+        return getattr(self, "gemini_model", "gemini-flash-latest")
+
+    @property
     def GROQ_API_KEY(self) -> str:
         return getattr(self, "groq_api_key", "")
 
@@ -320,16 +359,38 @@ class Settings(BaseSettings):
     @classmethod
     def validate_jwt_secret(cls, v: str, info) -> str:
         env_val = info.data.get("env")
-        if env_val == Environment.PRODUCTION and v in (
+        _SENTINELS = (
             "change-me-in-production-use-a-real-secret-key-please",
             "changeme",
             "secret",
             "",
-        ):
+        )
+        if v not in _SENTINELS:
+            return v
+        if env_val == Environment.PRODUCTION:
             raise ValueError(
                 "PLATFORM_JWT_SECRET must be set to a strong, unique value in production"
             )
-        return v
+        # Non-production with no configured secret: mint a random one and
+        # persist it under _cache/ so tokens stay valid across restarts and
+        # are shared by forked workers. Never fall back to the public
+        # constant — that made every dev/test token forgeable.
+        import secrets as _secrets
+        from pathlib import Path as _Path
+        try:
+            cache_dir = _Path(__file__).resolve().parent / "_cache"
+            cache_dir.mkdir(parents=True, exist_ok=True)
+            secret_file = cache_dir / "dev_jwt_secret"
+            if secret_file.exists():
+                cached = secret_file.read_text(encoding="utf-8").strip()
+                if len(cached) >= 32:
+                    return cached
+            minted = _secrets.token_urlsafe(48)
+            secret_file.write_text(minted, encoding="utf-8")
+            return minted
+        except OSError:
+            # Read-only or sandboxed filesystem — per-process random secret.
+            return _secrets.token_urlsafe(48)
 
     @field_validator("database_url", mode="before")
     @classmethod

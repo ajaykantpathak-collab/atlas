@@ -1,0 +1,113 @@
+C:\Users\Alesha4285\AppData\Roaming\Python\Python313\site-packages\triton\windows_utils.py:425: UserWarning: Failed to find CUDA. Install CUDA Toolkit (https://developer.nvidia.com/cuda-downloads) or set CUDA_HOME / CUDA_PATH environment variable.
+  warnings.warn("Failed to find CUDA."
+W1005 22:01:12.707000 5192 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3647.50it/s]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  q 1 VERIFIED                  1.0/1.0 value
+  q 2 VERIFIED                  1.0/1.0 letter a=a
+  q 3 VERIFIED                  1.0/1.0 value
+  q 4 VERIFIED                  1.0/1.0 letter c=c
+  q 5 VERIFIED                  0.0/1.0 letter a!=d
+  q 6 VERIFIED                  1.0/1.0 letter d=d
+  q 7 VERIFIED                  1.0/1.0 letter d=d
+  q 8 VERIFIED                  0.0/1.0 no-match key='(B)' got='31/36'
+  q 9 VERIFIED                  1.0/1.0 letter b=b
+  q10 VERIFIED                  1.0/1.0 letter c=c
+  q11 VERIFIED                  1.0/1.0 letter d=d
+  q12 VERIFIED                  1.0/1.0 letter d=d
+  q13 VERIFIED                  1.0/1.0 letter c=c
+  q14 VERIFIED                  1.0/1.0 letter c=c
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3255.91it/s]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+  q15 GUIDED_PRACTICE           0.0/1.0 pipeline:GUIDED_PRACTICE
+  q16 VERIFIED                  1.0/1.0 letter c=c
+  q17 VERIFIED                  1.0/1.0 letter a=a
+  q18 VERIFIED                  1.0/1.0 letter a=a
+  q19 VERIFIED                  1.0/1.0 letter a=a
+  q20 VERIFIED                  1.0/1.0 letter a=a
+  q21 VERIFIED                  1.5/2.0 4/6 steps (best OR-branch)
+  q22 VERIFIED                  2.0/2.0 1/1 steps
+  q23 VERIFIED                  0.0/2.0 0/1 steps
+  q24 VERIFIED                  1.5/2.0 5/6 steps
+  q25 VERIFIED                  2.0/2.0 7/8 steps
+  q26 VERIFIED                  1.5/3.0 6/11 steps
+  q27 VERIFIED                  3.0/3.0 4/4 steps
+  q28 VERIFIED                  2.0/3.0 3/4 steps
+  q29 VERIFIED                  3.0/3.0 5/5 steps (best OR-branch)
+  q30 VERIFIED                  2.0/3.0 3/4 steps
+D:\platform\deploy\backend\solvers\core_calculus_engine\algebraic_solver.py:319: RuntimeWarning: overflow encountered in scalar multiply
+  elif v1 * v2 < 0:
+  q31 VERIFIED                  2.5/3.0 5/6 steps (best OR-branch)
+  q32 VERIFIED                  3.5/5.0 4/6 steps
+  q33 VERIFIED                  3.0/5.0 4/7 steps
+  q34 VERIFIED                  2.5/5.0 6/11 steps
+  q35 GUIDED_PRACTICE           0.0/5.0 2 parts graded
+  q36 GUIDED_PRACTICE           2.5/4.0 3 parts graded
+  q37 GUIDED_PRACTICE           2.5/4.0 3 parts graded
+  q38 VERIFIED                  3.5/4.0 8/9 steps
+
+=== X_2025-26_X_2025-26_MathsStandard_SQP.pdf ===
+SCORE: 55.5 / 80  (69.4%)
+
+By section:
+  multiple choice questi 1-18: 15.0/18
+  assertion-reason 19-20: 2.0/2
+  questions 21-25: 7.0/10
+  questions 26-31: 14.0/18
+  questions 32-35: 9.0/20
+  case study-based quest 36-38: 8.5/12
+
+Per-question:
+  ✓ Q 1 [1.0m] VERIFIED                  1.0  value
+  ✓ Q 2 [1.0m] VERIFIED                  1.0  letter a=a
+  ✓ Q 3 [1.0m] VERIFIED                  1.0  value
+  ✓ Q 4 [1.0m] VERIFIED                  1.0  letter c=c
+  ✗ Q 5 [1.0m] VERIFIED                  0.0  letter a!=d
+  ✓ Q 6 [1.0m] VERIFIED                  1.0  letter d=d
+  ✓ Q 7 [1.0m] VERIFIED                  1.0  letter d=d
+  ✗ Q 8 [1.0m] VERIFIED                  0.0  no-match key='(B)' got='31/36'
+  ✓ Q 9 [1.0m] VERIFIED                  1.0  letter b=b
+  ✓ Q10 [1.0m] VERIFIED                  1.0  letter c=c
+  ✓ Q11 [1.0m] VERIFIED                  1.0  letter d=d
+  ✓ Q12 [1.0m] VERIFIED                  1.0  letter d=d
+  ✓ Q13 [1.0m] VERIFIED                  1.0  letter c=c
+  ✓ Q14 [1.0m] VERIFIED                  1.0  letter c=c
+  ✗ Q15 [1.0m] GUIDED_PRACTICE           0.0  pipeline:GUIDED_PRACTICE
+  ✓ Q16 [1.0m] VERIFIED                  1.0  letter c=c
+  ✓ Q17 [1.0m] VERIFIED                  1.0  letter a=a
+  ✓ Q18 [1.0m] VERIFIED                  1.0  letter a=a
+  ✓ Q19 [1.0m] VERIFIED                  1.0  letter a=a
+  ✓ Q20 [1.0m] VERIFIED                  1.0  letter a=a
+  ✗ Q21 [2.0m] VERIFIED                  1.5  4/6 steps (best OR-branch)
+  ✓ Q22 [2.0m] VERIFIED                  2.0  1/1 steps
+  ✗ Q23 [2.0m] VERIFIED                  0.0  0/1 steps
+  ✗ Q24 [2.0m] VERIFIED                  1.5  5/6 steps
+  ✓ Q25 [2.0m] VERIFIED                  2.0  7/8 steps
+  ✗ Q26 [3.0m] VERIFIED                  1.5  6/11 steps
+  ✓ Q27 [3.0m] VERIFIED                  3.0  4/4 steps
+  ✗ Q28 [3.0m] VERIFIED                  2.0  3/4 steps
+  ✓ Q29 [3.0m] VERIFIED                  3.0  5/5 steps (best OR-branch)
+  ✗ Q30 [3.0m] VERIFIED                  2.0  3/4 steps
+  ✗ Q31 [3.0m] VERIFIED                  2.5  5/6 steps (best OR-branch)
+  ✗ Q32 [5.0m] VERIFIED                  3.5  4/6 steps
+  ✗ Q33 [5.0m] VERIFIED                  3.0  4/7 steps
+  ✗ Q34 [5.0m] VERIFIED                  2.5  6/11 steps
+  ✗ Q35 [5.0m] GUIDED_PRACTICE           0.0  2 parts graded
+  ✗ Q36 [4.0m] GUIDED_PRACTICE           2.5  3 parts graded
+  ✗ Q37 [4.0m] GUIDED_PRACTICE           2.5  3 parts graded
+  ✗ Q38 [4.0m] VERIFIED                  3.5  8/9 steps
+
+full report -> D:\platform\runtime_data\exam_papers\cbse_X_2025-26_X_2025-26_MathsStandard_SQP.gaps.json

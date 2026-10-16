@@ -14,27 +14,35 @@ import math
 
 import pytest
 
-from backend.its.solver.extra_families import (
+# WS-B step 1: maths families of the old extra_families moved to
+# maths_families; physics/commerce/accountancy families stay here.
+from backend.its.solver.maths_families import (
     model_ap_consecutive_x,
-    model_barometer_column,
     model_composite_solid,
     model_concentric_chord,
-    model_extra,
     model_ap_which_term,
-    model_gas_wall_impulse,
-    model_kinematics_stop,
-    model_linear_depreciation,
     model_linear_inequality,
     model_mixture_addition,
     model_perfect_cube,
-    model_potential_zero_point,
     model_quadratic_nature,
     model_rational_form,
     model_standard_form,
-    model_perpetuity,
-    model_resistor_network,
     model_symmetry_angles,
     model_word_permutations,
+)
+from backend.its.solver.physics_families import (
+    model_barometer_column,
+    model_gas_wall_impulse,
+    model_kinematics_stop,
+    model_potential_zero_point,
+    model_resistor_network,
+)
+from backend.its.solver.commerce_families import model_perpetuity
+from backend.its.solver.accountancy_families import (
+    model_linear_depreciation,
+)
+from backend.its.solver.commerce_families import (
+    model_commerce_families as model_extra,
 )
 
 
@@ -297,8 +305,16 @@ def test_perfect_cube_multiply():
 # ---- dispatcher ----
 
 def test_dispatcher_reaches_families():
-    r = model_extra("Solve 5x - 3 > 3x - 5")
+    # WS-B step 1: the maths families (LINEAR_INEQUALITY among them) moved
+    # to maths_families -- the moved family serves via model_maths, the
+    # dispatcher still reaches its surviving families.
+    from backend.its.solver.maths_families import model_maths
+    r = model_maths("Solve 5x - 3 > 3x - 5")
     assert r.matched and r.structure == "LINEAR_INEQUALITY"
+    r2 = model_extra(
+        "Rs 50,000 cash is equivalent to a perpetuity of Rs 4,000 "
+        "payable at the end of each year. Find the rate.")
+    assert r2.matched and r2.structure == "PERPETUITY"
 
 
 def test_dispatcher_garbage_refused():

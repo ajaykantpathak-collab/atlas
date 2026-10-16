@@ -1,0 +1,302 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c1)",
+ "source_file": "c1_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C1_001",
+   "title": "FORMULA 1: COMPUTER PARTS: Computer = ...",
+   "section": "FORMULA 1: COMPUTER PARTS",
+   "formula": "Computer = Monitor + Keyboard + Mouse + CPU + Printer + Speaker",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 1: COMPUTER PARTS (FORMULA 1: COMPUTER PARTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find computer using formula 1: computer parts",
+    "calculate formula 1: computer parts",
+    "formula 1: computer parts formula question",
+    "given values find computer",
+    "formula 1: computer parts formula 1: computer parts numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_001",
+     "question_pattern": "formula 1: computer parts with {Monitor} and {Keyboard} and {Mouse} and {CPU} and {Printer} and {Speaker} find computer",
+     "extracted_variables": {
+      "Monitor": "given Monitor",
+      "Keyboard": "given Keyboard",
+      "Mouse": "given Mouse",
+      "CPU": "given CPU",
+      "Printer": "given Printer",
+      "Speaker": "given Speaker"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Monitor, Keyboard, Mouse, CPU, Printer from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Computer = Monitor + Keyboard + Mouse + CPU + Printer + Speaker",
+     "compute": "Computer = Monitor + Keyboard + Mouse + CPU + Printer + Speaker"
+    }
+   ],
+   "chapter_title": "FORMULA 1: COMPUTER PARTS"
+  },
+  {
+   "id": "FB_CS_C1_002",
+   "title": "FORMULA 3: COMPUTER SAFETY RULES: Safety = ...",
+   "section": "FORMULA 3: COMPUTER SAFETY RULES",
+   "formula": "Safety = Be_gentle + No_food*near_computer + Sit_properly + Do_not*touch_screen",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 3: COMPUTER SAFETY RULES (FORMULA 3: COMPUTER SAFETY RULES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find safety using formula 3: computer safety rules",
+    "calculate formula 3: computer safety rules",
+    "formula 3: computer safety rules formula question",
+    "given values find safety",
+    "formula 3: computer safety rules formula 3: computer safety rules numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_002",
+     "question_pattern": "formula 3: computer safety rules with {Be_gentle} and {No_food} and {near_computer} and {Sit_properly} and {Do_not} and {touch_screen} find safety",
+     "extracted_variables": {
+      "Be_gentle": "given Be_gentle",
+      "No_food": "given No_food",
+      "near_computer": "given near_computer",
+      "Sit_properly": "given Sit_properly",
+      "Do_not": "given Do_not",
+      "touch_screen": "given touch_screen"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Be_gentle, No_food, near_computer, Sit_properly, Do_not from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Safety = Be_gentle + No_food*near_computer + Sit_properly + Do_not*touch_screen",
+     "compute": "Safety = Be_gentle + No_food*near_computer + Sit_properly + Do_not*touch_screen"
+    }
+   ],
+   "chapter_title": "FORMULA 3: COMPUTER SAFETY RULES"
+  },
+  {
+   "id": "FB_CS_C1_003",
+   "title": "FORMULA 4: DRAWING IN PAINT: Drawing = ...",
+   "section": "FORMULA 4: DRAWING IN PAINT",
+   "formula": "Drawing = Open_Paint + Choose_color + Use_mouse*to_draw",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 4: DRAWING IN PAINT (FORMULA 4: DRAWING IN PAINT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find drawing using formula 4: drawing in paint",
+    "calculate formula 4: drawing in paint",
+    "formula 4: drawing in paint formula question",
+    "given values find drawing",
+    "formula 4: drawing in paint formula 4: drawing in paint numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_003",
+     "question_pattern": "formula 4: drawing in paint with {Open_Paint} and {Choose_color} and {Use_mouse} and {to_draw} find drawing",
+     "extracted_variables": {
+      "Open_Paint": "given Open_Paint",
+      "Choose_color": "given Choose_color",
+      "Use_mouse": "given Use_mouse",
+      "to_draw": "given to_draw"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Open_Paint, Choose_color, Use_mouse, to_draw from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Drawing = Open_Paint + Choose_color + Use_mouse*to_draw",
+     "compute": "Drawing = Open_Paint + Choose_color + Use_mouse*to_draw"
+    }
+   ],
+   "chapter_title": "FORMULA 4: DRAWING IN PAINT"
+  },
+  {
+   "id": "FB_CS_C1_004",
+   "title": "FORMULA 5: TYPING ON KEYBOARD: Typing = ...",
+   "section": "FORMULA 5: TYPING ON KEYBOARD",
+   "formula": "Typing = Find_letter + Press_gently + Letter_appears*on_monitor",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 5: TYPING ON KEYBOARD (FORMULA 5: TYPING ON KEYBOARD)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find typing using formula 5: typing on keyboard",
+    "calculate formula 5: typing on keyboard",
+    "formula 5: typing on keyboard formula question",
+    "given values find typing",
+    "formula 5: typing on keyboard formula 5: typing on keyboard numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_004",
+     "question_pattern": "formula 5: typing on keyboard with {Find_letter} and {Press_gently} and {Letter_appears} and {on_monitor} find typing",
+     "extracted_variables": {
+      "Find_letter": "given Find_letter",
+      "Press_gently": "given Press_gently",
+      "Letter_appears": "given Letter_appears",
+      "on_monitor": "given on_monitor"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Find_letter, Press_gently, Letter_appears, on_monitor from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Typing = Find_letter + Press_gently + Letter_appears*on_monitor",
+     "compute": "Typing = Find_letter + Press_gently + Letter_appears*on_monitor"
+    }
+   ],
+   "chapter_title": "FORMULA 5: TYPING ON KEYBOARD"
+  },
+  {
+   "id": "FB_CS_C1_005",
+   "title": "FORMULA 6: USING THE MOUSE: Mouse use = ...",
+   "section": "FORMULA 6: USING THE MOUSE",
+   "formula": "Mouse_use = Hold_gently + Move_to_point + Click_to_select",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 6: USING THE MOUSE (FORMULA 6: USING THE MOUSE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mouse use using formula 6: using the mouse",
+    "calculate formula 6: using the mouse",
+    "formula 6: using the mouse formula question",
+    "given values find mouse use",
+    "formula 6: using the mouse formula 6: using the mouse numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_005",
+     "question_pattern": "formula 6: using the mouse with {Hold_gently} and {Move_to_point} and {Click_to_select} find mouse use",
+     "extracted_variables": {
+      "Hold_gently": "given Hold_gently",
+      "Move_to_point": "given Move_to_point",
+      "Click_to_select": "given Click_to_select"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Hold_gently, Move_to_point, Click_to_select from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mouse use = Hold_gently + Move_to_point + Click_to_select",
+     "compute": "Mouse_use = Hold_gently + Move_to_point + Click_to_select"
+    }
+   ],
+   "chapter_title": "FORMULA 6: USING THE MOUSE"
+  },
+  {
+   "id": "FB_CS_C1_006",
+   "title": "FORMULA 7: TURNING COMPUTER ON: Turn on = ...",
+   "section": "FORMULA 7: TURNING COMPUTER ON",
+   "formula": "Turn_on = Press_power_button + Wait",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 7: TURNING COMPUTER ON (FORMULA 7: TURNING COMPUTER ON)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find turn on using formula 7: turning computer on",
+    "calculate formula 7: turning computer on",
+    "formula 7: turning computer on formula question",
+    "given values find turn on",
+    "formula 7: turning computer on formula 7: turning computer on numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_006",
+     "question_pattern": "formula 7: turning computer on with {Press_power_button} and {Wait} find turn on",
+     "extracted_variables": {
+      "Press_power_button": "given Press_power_button",
+      "Wait": "given Wait"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Press_power_button, Wait from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Turn on = Press_power_button + Wait",
+     "compute": "Turn_on = Press_power_button + Wait"
+    }
+   ],
+   "chapter_title": "FORMULA 7: TURNING COMPUTER ON"
+  },
+  {
+   "id": "FB_CS_C1_007",
+   "title": "FORMULA 8: TURNING COMPUTER OFF: Turn off = ...",
+   "section": "FORMULA 8: TURNING COMPUTER OFF",
+   "formula": "Turn_off = Close_programs + Click_shut_down + Wait + Turn_off_screen",
+   "_pats_extra": [],
+   "key_idea": "FORMULA 8: TURNING COMPUTER OFF (FORMULA 8: TURNING COMPUTER OFF)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find turn off using formula 8: turning computer off",
+    "calculate formula 8: turning computer off",
+    "formula 8: turning computer off formula question",
+    "given values find turn off",
+    "formula 8: turning computer off formula 8: turning computer off numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C1_007",
+     "question_pattern": "formula 8: turning computer off with {Close_programs} and {Click_shut_down} and {Wait} and {Turn_off_screen} find turn off",
+     "extracted_variables": {
+      "Close_programs": "given Close_programs",
+      "Click_shut_down": "given Click_shut_down",
+      "Wait": "given Wait",
+      "Turn_off_screen": "given Turn_off_screen"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Close_programs, Click_shut_down, Wait, Turn_off_screen from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Turn off = Close_programs + Click_shut_down + Wait + Turn_off_screen",
+     "compute": "Turn_off = Close_programs + Click_shut_down + Wait + Turn_off_screen"
+    }
+   ],
+   "chapter_title": "FORMULA 8: TURNING COMPUTER OFF"
+  }
+ ]
+}

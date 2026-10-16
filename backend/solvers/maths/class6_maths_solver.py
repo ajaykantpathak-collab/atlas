@@ -420,3 +420,32 @@ def solve(node_id: str, task: str, *args, **kwargs) -> Dict[str, Any]:
     if method is None:
         return {'error': f"Unknown task '{task}' for node {node_id}"}
     return method(*args, **kwargs)
+
+# ---------------------------------------------------------------------------
+# Registry surface: per-node problem types so the practice routing can reach
+# the number-system and place-value solvers without knowing node IDs.
+# ---------------------------------------------------------------------------
+
+
+def _c6_entry(node_id: str, label: str):
+    def _run(params=None, **kw):
+        payload = dict(params or {})
+        payload.update(kw)
+        task = payload.pop("task", None)
+        if task is None:
+            return {"error": "pass 'task' plus the task arguments",
+                    "tasks": sorted(m for m in dir(SOLVER_MAP[node_id])
+                                    if not m.startswith("_"))}
+        try:
+            return solve(node_id, task, **payload)
+        except Exception as exc:
+            return {"error": str(exc)}
+    _run.__name__ = f"c6_math_{label}"
+    return _run
+
+
+SOLVER_REGISTRY = {
+    "c6_math_number_system": _c6_entry("c6_math_001", "number_system"),
+    "c6_math_place_value": _c6_entry("c6_math_002", "place_value"),
+    "c6_math_solve": _c6_entry("c6_math_001", "dispatcher"),
+}

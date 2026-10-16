@@ -1,0 +1,20 @@
+{
+ "receipt_id": "rcpt_20261013T152707Z_02a6908b",
+ "work_item": "WI-20261013-001",
+ "from_state": "IMPLEMENT",
+ "to_state": "IMPLEMENT",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:27:07Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "CORRECTION: 04_IMPLEMENT_VERIFY.json gate G7 field log_sha256: G7 pinned the LIVE boot log while the booted uvicorn kept writing to it — sha invalid by design flaw, not tamper. Fixed in gates.py: live log split (G7_boot_live.log) + frozen pinned copy (G7_boot.log).",
+ "prev_receipt_sha256": "990ad5a9e65daf2250af58faf3f43415d7736ec268c930fb957a36db132c27cf",
+ "correction": [
+  {
+   "receipt": "04_IMPLEMENT_VERIFY.json",
+   "gate": "G7",
+   "field": "log_sha256",
+   "reason": "G7 pinned the LIVE boot log while the booted uvicorn kept writing to it — sha invalid by design flaw, not tamper. Fixed in gates.py: live log split (G7_boot_live.log) + frozen pinned copy (G7_boot.log)."
+  }
+ ]
+}

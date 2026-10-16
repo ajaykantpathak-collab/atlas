@@ -91,7 +91,14 @@ class AnalyticsService:
             "CLICKHOUSE_URL", "http://localhost:8123"
         )
         self.ch_user = os.environ.get("CLICKHOUSE_USER", "dream_user")
-        self.ch_password = os.environ.get("CLICKHOUSE_PASSWORD", "dream_ch_2024")
+        # no default password: a guessed credential fails silently forever;
+        # the env must carry it (compose backend-env / dev launchers do)
+        self.ch_password = os.environ.get("CLICKHOUSE_PASSWORD", "")
+        self._ch_disabled = not self.ch_password
+        if self._ch_disabled:
+            logging.getLogger(__name__).warning(
+                "CLICKHOUSE_PASSWORD not set - analytics emissions disabled "
+                "(stats endpoints will show no events)")
         self._ensure_tables()
 
     def _http_insert(self, table: str, columns: list, values: list):

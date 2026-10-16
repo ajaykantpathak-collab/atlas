@@ -1,0 +1,289 @@
+{
+ "subject": "appmath",
+ "chapter_title": "ICSE appmath formula bank (c12)",
+ "source_file": "c12_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_APPMATH_C12_001",
+   "title": "PROBABILITY DISTRIBUTIONS: Mean = ...",
+   "section": "PROBABILITY DISTRIBUTIONS",
+   "formula": "Mean = n*p",
+   "_pats_extra": [],
+   "key_idea": "PROBABILITY DISTRIBUTIONS (PROBABILITY DISTRIBUTIONS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mean using probability distributions",
+    "calculate probability distributions",
+    "probability distributions formula question",
+    "given values find mean",
+    "probability distributions probability distributions numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_001",
+     "question_pattern": "probability distributions with {n} and {p} find mean",
+     "extracted_variables": {
+      "n": "given n",
+      "p": "given p"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, p from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mean = n*p",
+     "compute": "Mean = n*p"
+    }
+   ],
+   "chapter_title": "PROBABILITY DISTRIBUTIONS"
+  },
+  {
+   "id": "FB_APPMATH_C12_002",
+   "title": "PROBABILITY DISTRIBUTIONS: Variance = ...",
+   "section": "PROBABILITY DISTRIBUTIONS",
+   "formula": "Variance = n*p*q",
+   "_pats_extra": [],
+   "key_idea": "PROBABILITY DISTRIBUTIONS (PROBABILITY DISTRIBUTIONS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find variance using probability distributions",
+    "calculate probability distributions",
+    "probability distributions formula question",
+    "given values find variance",
+    "probability distributions probability distributions numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_002",
+     "question_pattern": "probability distributions with {n} and {p} and {q} find variance",
+     "extracted_variables": {
+      "n": "given n",
+      "p": "given p",
+      "q": "given q"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, p, q from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Variance = n*p*q",
+     "compute": "Variance = n*p*q"
+    }
+   ],
+   "chapter_title": "PROBABILITY DISTRIBUTIONS"
+  },
+  {
+   "id": "FB_APPMATH_C12_003",
+   "title": "Flat Rate EMI: Total = ...",
+   "section": "FINANCIAL MATHEMATICS",
+   "formula": "Total = P + Interest",
+   "_pats_extra": [],
+   "key_idea": "Flat Rate EMI (FINANCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total using flat rate emi",
+    "calculate flat rate emi",
+    "flat rate emi formula question",
+    "given values find total",
+    "financial mathematics flat rate emi numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_003",
+     "question_pattern": "flat rate emi with {P} and {Interest} find total",
+     "extracted_variables": {
+      "P": "given P",
+      "Interest": "given Interest"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, Interest from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total = P + Interest",
+     "compute": "Total = P + Interest"
+    }
+   ],
+   "chapter_title": "FINANCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C12_004",
+   "title": "CAGR (Compound Annual Growth Rate): CAGR = ...",
+   "section": "FINANCIAL MATHEMATICS",
+   "formula": "CAGR = (FV/PV)^(1/n) - 1",
+   "_pats_extra": [],
+   "key_idea": "CAGR (Compound Annual Growth Rate) (FINANCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cagr using cagr (compound annual growth rate)",
+    "calculate cagr (compound annual growth rate)",
+    "cagr (compound annual growth rate) formula question",
+    "given values find cagr",
+    "financial mathematics cagr (compound annual growth rate) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_004",
+     "question_pattern": "cagr (compound annual growth rate) with {FV} and {PV} and {n} find cagr",
+     "extracted_variables": {
+      "FV": "given FV",
+      "PV": "given PV",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for FV, PV, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CAGR = (FV/PV)^(1/n) - 1",
+     "compute": "CAGR = (FV/PV)^(1/n) - 1"
+    }
+   ],
+   "chapter_title": "FINANCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C12_005",
+   "title": "Perpetuity: PV = ...",
+   "section": "FINANCIAL MATHEMATICS",
+   "formula": "PV = A/r",
+   "_pats_extra": [],
+   "key_idea": "Perpetuity (FINANCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pv using perpetuity",
+    "calculate perpetuity",
+    "perpetuity formula question",
+    "given values find pv",
+    "financial mathematics perpetuity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_005",
+     "question_pattern": "perpetuity with {A} and {r} find pv",
+     "extracted_variables": {
+      "A": "given A",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PV = A/r",
+     "compute": "PV = A/r"
+    }
+   ],
+   "chapter_title": "FINANCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C12_006",
+   "title": "Nominal vs Effective Rate: Effective = ...",
+   "section": "FINANCIAL MATHEMATICS",
+   "formula": "Effective = (1 + nominal/m)^m - 1",
+   "_pats_extra": [],
+   "key_idea": "Nominal vs Effective Rate (FINANCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find effective using nominal vs effective rate",
+    "calculate nominal vs effective rate",
+    "nominal vs effective rate formula question",
+    "given values find effective",
+    "financial mathematics nominal vs effective rate numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_006",
+     "question_pattern": "nominal vs effective rate with {nominal} and {m} and {m} find effective",
+     "extracted_variables": {
+      "nominal": "given nominal",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for nominal, m, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Effective = (1 + nominal/m)^m - 1",
+     "compute": "Effective = (1 + nominal/m)^m - 1"
+    }
+   ],
+   "chapter_title": "FINANCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C12_007",
+   "title": "Producer Surplus: Total Surplus = ...",
+   "section": "APPLICATION OF CALCULUS IN COMMERCE",
+   "formula": "Total_Surplus = CS + PS",
+   "_pats_extra": [],
+   "key_idea": "Producer Surplus (APPLICATION OF CALCULUS IN COMMERCE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total surplus using producer surplus",
+    "calculate producer surplus",
+    "producer surplus formula question",
+    "given values find total surplus",
+    "application of calculus in commerce producer surplus numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C12_007",
+     "question_pattern": "producer surplus with {CS} and {PS} find total surplus",
+     "extracted_variables": {
+      "CS": "given CS",
+      "PS": "given PS"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for CS, PS from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total Surplus = CS + PS",
+     "compute": "Total_Surplus = CS + PS"
+    }
+   ],
+   "chapter_title": "APPLICATION OF CALCULUS IN COMMERCE"
+  }
+ ]
+}

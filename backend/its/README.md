@@ -207,3 +207,19 @@ one-line shims in `services/` and `ai/`. New code must import from
 - `backend.services.answer_evaluator` (shared with tutor_service)
 - `backend.models.*`, `backend.database` (SQLAlchemy layer)
 - Data files: `tutor_brain/tutor_brain.json`, `services/agent_calibration.json`
+
+---
+
+## Corpus & improvement loop (2026-10-13)
+
+Every refusal the platform emits is telemetry
+(`runtime_data/ops/answer_telemetry.jsonl`); `harness mine --since 7d`
+ranks refusal signatures into `harness/corpus/corpus_candidates.jsonl`,
+and `harness corpus add` pins a case: one line in
+`harness/corpus/cases.jsonl` plus a failing check under
+`backend/tests/corpus/` that runs inside the G1 touched-area gate. Solver
+work that closes a refusal class must cite the case it fixes (red before,
+green after); cases that need real authoring stay `parked` with evidence
+instead of being dropped. The parity baseline for "file layout changed,
+not behavior" proofs lives at `harness/ops/parity_baseline.json`
+(`_work/overhaul/wsb_m2_parity.py`, LLM off).

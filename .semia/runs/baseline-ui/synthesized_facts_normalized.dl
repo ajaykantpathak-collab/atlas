@@ -1,0 +1,70 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+
+skill("baseline-ui").
+action("act_review", "baseline-ui").
+
+// Evidence universe
+evidence_unit("su_0", 0).
+evidence_unit("su_1", 1).
+evidence_unit("su_2", 2).
+evidence_unit("su_3", 3).
+evidence_unit("su_4", 4).
+evidence_unit("su_5", 5).
+evidence_unit("su_6", 6).
+evidence_unit("su_7", 7).
+evidence_unit("su_8", 8).
+evidence_unit("su_9", 9).
+evidence_unit("su_10", 10).
+evidence_unit("su_11", 11).
+evidence_unit("su_12", 12).
+evidence_unit("su_13", 13).
+evidence_unit("su_14", 14).
+evidence_unit("su_15", 15).
+evidence_unit("su_16", 16).
+evidence_unit("su_17", 17).
+evidence_unit("su_18", 18).
+evidence_unit("su_19", 19).
+evidence_unit("su_20", 20).
+evidence_unit("su_21", 21).
+evidence_unit("su_22", 22).
+evidence_unit("su_23", 23).
+evidence_unit("su_24", 24).
+evidence_unit("su_25", 25).
+evidence_unit("su_26", 26).
+evidence_unit("su_27", 27).
+evidence_unit("su_28", 28).
+evidence_unit("su_29", 29).
+evidence_unit("su_30", 30).
+evidence_unit("su_31", 31).
+evidence_unit("su_32", 32).
+evidence_unit("su_33", 33).
+evidence_unit("su_34", 34).
+evidence_unit("su_35", 35).
+evidence_unit("su_36", 36).
+evidence_unit("su_37", 37).
+evidence_unit("su_38", 38).
+evidence_unit("su_39", 39).
+evidence_unit("su_40", 40).
+evidence_unit("su_41", 41).
+evidence_unit("su_42", 42).
+evidence_unit("su_43", 43).
+evidence_unit("su_44", 44).
+evidence_unit("su_45", 45).
+evidence_unit("su_46", 46).
+evidence_unit("su_47", 47).
+evidence_unit("su_48", 48).
+evidence_unit("su_49", 49).
+evidence_unit("su_50", 50).
+evidence_unit("su_51", 51).
+evidence_unit("su_52", 52).
+evidence_unit("su_53", 53).
+evidence_unit("su_54", 54).
+evidence_unit("su_55", 55).
+evidence_unit("su_56", 56).
+evidence_unit("su_57", 57).
+evidence_unit("su_58", 58).
+evidence_unit("su_59", 59).
+
+// Normalized evidence sidecar
+skill_evidence("baseline-ui", "su_0").
+action_evidence("act_review", "su_0").

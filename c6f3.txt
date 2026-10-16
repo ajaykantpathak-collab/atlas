@@ -1,0 +1,62 @@
+MISS fegp.101.1.2.1 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.101.1.2.2 | What is the 9th hexagonal number? (Use the rule 3  -> 153.0 exp 217
+W0921 19:48:14.482000 25228 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-21 19:48:19,679 --- Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5165.77it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+MISS fegp.101.1.2.3 | What is the units digit of the square of 41? -> 1681.0 exp 1
+MISS fegp.101.1.2.4 | The number 675 has the prime factorisation 3^3 x 5 -> 2025.0 exp 5
+MISS fegp.101.1.2.4 | The number 1250 has the prime factorisation 5^4 x  -> 250.0 exp 10
+MISS fegp.101.1.4.2 | The sum of 4 consecutive triangular numbers starti -> None exp 16
+MISS fegp.101.1.4.5 | What is the 5th hexagonal number? (Use the rule 3  -> 45.0 exp 61
+MISS fegp.101.1.4.8 | What is the 7th hexagonal number? (Use the rule 3  -> 91.0 exp 127
+MISS fegp.101.1.4.9 | What is the 8th hexagonal number? (Use the rule 3  -> 120.0 exp 169
+MISS fegp.101.1.6.1 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 134
+MISS fegp.101.1.6.1 | Angles around a point total 360 degrees. If two of -> -177.0 exp 185
+MISS fegp.101.1.6.5 | What is the 5th hexagonal number? (Use the rule 3  -> 45.0 exp 61
+ch101.json 54/66
+MISS fegp.2.5 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 133
+MISS fegp.2.5 | Angles around a point total 360 degrees. If two of -> -240.0 exp 122
+MISS fegp.2.8.1 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 146
+MISS fegp.2.8.1 | Angles around a point total 360 degrees. If two of -> -170.0 exp 192
+MISS fegp.2.8.2 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 161
+MISS fegp.2.8.2 | Angles around a point total 360 degrees. If two of -> -255.0 exp 107
+MISS fegp.2.9.1 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 161
+MISS fegp.2.9.1 | Angles around a point total 360 degrees. If two of -> -153.0 exp 209
+MISS fegp.2.11.1 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 147
+MISS fegp.2.11.1 | Angles around a point total 360 degrees. If two of -> -296.0 exp 66
+MISS fegp.2.11.2 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 129
+MISS fegp.2.11.2 | Angles around a point total 360 degrees. If two of -> -262.0 exp 100
+MISS fegp.2.11.3 | Two angles on a straight line add to 180 degrees.  -> 0.0 exp 136
+MISS fegp.2.11.3 | Angles around a point total 360 degrees. If two of -> -247.0 exp 115
+ch102.json 52/66
+ch103.json 54/54
+MISS fegp.4.3.1 | Write the ratio 32 : 96 in its simplest form and g -> 1.0 exp 4
+MISS fegp.4.4.1 | Write the ratio 20 : 40 in its simplest form and g -> 1.0 exp 4
+ch104.json 40/42
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1 at x = 1, the tangent slope  -> 12.0 exp -0.08
+MISS fegp.105.5.1.2 | Find the LCM of 30 and 40 given their HCF is 10 an -> 1200.0 exp 120
+MISS fegp.105.5.1.2 | The LCM of 30 and 40 is 120. Use HCF x LCM = a x b -> 120.0 exp 10
+MISS fegp.105.5.1.3 | Find the LCM of 56 and 16 given their HCF is 8 and -> 896.0 exp 112
+MISS fegp.105.5.1.3 | The LCM of 56 and 16 is 112. Use HCF x LCM = a x b -> 112.0 exp 8
+MISS fegp.105.5.1.4 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.2.1 | Find the LCM of 45 and 72 given their HCF is 9 and -> 3240.0 exp 360
+MISS fegp.105.5.2.1 | The LCM of 45 and 72 is 360. Use HCF x LCM = a x b -> 360.0 exp 9
+MISS fegp.105.5.2.2 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.3.1 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.4.1 | Find the LCM of 70 and 80 given their HCF is 10 an -> 5600.0 exp 560
+MISS fegp.105.5.4.1 | The LCM of 70 and 80 is 560. Use HCF x LCM = a x b -> 560.0 exp 10
+MISS fegp.105.5.4.2 | Find the LCM of 84 and 60 given their HCF is 12 an -> 5040.0 exp 420
+MISS fegp.105.5.4.2 | The LCM of 84 and 60 is 420. Use HCF x LCM = a x b -> 420.0 exp 12
+MISS fegp.105.5.5.1 | Find the LCM of 12 and 96 given their HCF is 12 an -> 1152.0 exp 96
+MISS fegp.105.5.5.1 | The LCM of 12 and 96 is 96. Use HCF x LCM = a x b  -> 96.0 exp 12
+MISS fegp.105.5.5.2 | Find the LCM of 45 and 72 given their HCF is 9 and -> 3240.0 exp 360
+MISS fegp.105.5.5.2 | The LCM of 45 and 72 is 360. Use HCF x LCM = a x b -> 360.0 exp 9
+ch105.json 48/66

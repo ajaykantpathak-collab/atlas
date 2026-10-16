@@ -1,0 +1,15 @@
+{
+ "receipt_id": "rcpt_20261013T153552Z_fd8ed555",
+ "work_item": "WI-20261013-002",
+ "from_state": "REVIEW",
+ "to_state": "STAGED",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:35:52Z",
+ "gates": [],
+ "evidence": {
+  "judge": "PASS",
+  "snapshot": "D:\\platform\\harness\\snapshots\\WI-20261013-002\\manifest.json"
+ },
+ "notes": "",
+ "prev_receipt_sha256": "b94958835348fda6cc0583637c9c5a5308e40d0ad00a876fc30709b32c770d4d"
+}

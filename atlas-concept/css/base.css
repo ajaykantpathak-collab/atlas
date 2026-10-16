@@ -1,0 +1,128 @@
+/* base.css — reset, shared tokens, specimen chrome */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* self-hosted Caveat — handwriting, no CDN at runtime */
+@font-face {
+  font-family: "Caveat"; font-style: normal; font-weight: 400;
+  font-display: swap; src: url("../fonts/caveat-400.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Caveat"; font-style: normal; font-weight: 600;
+  font-display: swap; src: url("../fonts/caveat-600.ttf") format("truetype");
+}
+/* self-hosted Cormorant Garamond — the display face, no CDN */
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: normal; font-weight: 500;
+  font-display: swap; src: url("../fonts/cormorant-500.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: normal; font-weight: 600;
+  font-display: swap; src: url("../fonts/cormorant-600.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cormorant Garamond"; font-style: italic; font-weight: 500;
+  font-display: swap; src: url("../fonts/cormorant-500i.ttf") format("truetype");
+}
+
+:root {
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-mono: "Cascadia Code", Cascadia, Consolas, "Courier New", monospace;
+  --font-hand: Caveat, "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive;
+  --font-disp: "Cormorant Garamond", "Iowan Old Style", Palatino, Georgia, serif;
+
+  --cosmos-bg: #05060a;
+  --cosmos-ink: #e8e6df;
+  --cosmos-dim: #8f8ba3;
+  --cosmos-faint: #5c5870;
+  --cosmos-gold: #c9a24b;
+  --cosmos-line: rgba(232, 230, 223, 0.14);
+
+  --atlas-fast: 150ms;
+  --atlas-med: 220ms;
+  --atlas-slow: 400ms;
+  --atlas-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--cosmos-bg);
+  color: var(--cosmos-ink);
+  font-family: var(--font-serif);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+::selection { background: rgba(201, 162, 75, 0.35); }
+
+/* ---- specimen chrome (mono labels, thin rules) ---- */
+.specimen {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--cosmos-dim);
+}
+.specimen.gold { color: var(--cosmos-gold); }
+.specimen-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border: 1px solid var(--cosmos-line);
+  padding: 4px 8px;
+  color: var(--cosmos-dim);
+}
+.specimen-tag.lit { color: var(--cosmos-bg); background: #cfe3e8; border-color: #cfe3e8; }
+
+/* ---- specimen top bar (shared) ---- */
+.specimen-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px 28px;
+  border-bottom: 1px solid var(--cosmos-line);
+  position: relative; z-index: 20;
+}
+.specimen-bar .brand {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.3em;
+  text-transform: uppercase; color: var(--cosmos-ink);
+}
+.specimen-bar .brand::before { content: "◇ "; color: var(--cosmos-gold); }
+.specimen-bar nav { display: flex; gap: 22px; flex-wrap: wrap; }
+.specimen-bar nav a {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--cosmos-dim);
+  transition: color var(--atlas-fast) var(--atlas-ease);
+}
+.specimen-bar nav a:hover, .specimen-bar nav a.here { color: var(--cosmos-gold); }
+
+.btn-cosmos {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.22em;
+  text-transform: uppercase; padding: 12px 22px;
+  border: 1px solid var(--cosmos-line); color: var(--cosmos-ink);
+  display: inline-block;
+  transition: border-color var(--atlas-fast), background var(--atlas-fast), transform var(--atlas-fast);
+}
+.btn-cosmos:hover { border-color: var(--cosmos-gold); transform: translateY(-1px); }
+.btn-cosmos.gold { background: var(--cosmos-gold); color: #131007; border-color: var(--cosmos-gold); font-weight: 600; }
+.btn-cosmos.gold:hover { background: #d9b45c; }
+
+/* ---- accessibility / motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  html { scroll-behavior: auto; }
+}
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+:focus-visible { outline: 2px solid var(--cosmos-gold); outline-offset: 3px; }
+
+/* ---- small screens ---- */
+@media (max-width: 720px) {
+  .specimen-bar { padding: 12px 14px; gap: 10px; }
+  .specimen-bar nav { gap: 14px; overflow-x: auto; flex-wrap: nowrap; max-width: 62vw; scrollbar-width: none; }
+  .specimen-bar nav::-webkit-scrollbar { display: none; }
+  .specimen-bar .brand { font-size: 10px; white-space: nowrap; }
+}

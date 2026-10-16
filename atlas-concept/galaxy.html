@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Galaxy — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  .galaxy-stage { position: relative; height: calc(100vh - 58px); overflow: hidden; }
+  .galaxy-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; }
+  .galaxy-hud {
+    position: absolute; left: 24px; top: 22px; z-index: 5;
+    border: 1px solid var(--cosmos-line); padding: 16px 18px;
+    background: rgba(5,6,10,0.72); backdrop-filter: blur(3px); max-width: 250px;
+  }
+  .galaxy-hud p { font-size: 13.5px; color: var(--cosmos-dim); margin: 8px 0 10px; }
+  .galaxy-legend { position: absolute; right: 24px; bottom: 22px; z-index: 5; }
+  .signin-chip {
+    position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 5;
+    display: flex; gap: 16px; align-items: center;
+    border: 1px solid var(--cosmos-line); padding: 10px 18px;
+    background: rgba(5,6,10,0.78); backdrop-filter: blur(3px);
+  }
+</style>
+</head>
+<body class="cosmos-page">
+<div class="specimen-bar" data-specimen-bar></div>
+
+<div class="galaxy-stage">
+  <canvas id="galaxy"></canvas>
+
+  <div class="galaxy-hud" data-motion="cosmos-in">
+    <p class="specimen gold">Your galaxy · demo sky</p>
+    <p>Class 9 Science preview — sign in and <em style="color:var(--cosmos-ink)">your</em> mastered topics light up here.</p>
+    <p class="specimen">✦ bright = you've got it · dim = not yet</p>
+    <a class="btn-cosmos" href="login.html" style="padding:8px 14px;font-size:10px;">Open dashboard</a>
+  </div>
+
+  <div class="signin-chip" data-motion="cosmos-in">
+    <span class="specimen">Scroll to zoom · drag to pan · click a dim star to light it</span>
+    <a class="btn-cosmos gold" href="login.html" style="padding:8px 16px;font-size:10px;">Sign in</a>
+  </div>
+
+  <div class="galaxy-legend specimen">9,099 stars · labels capped — zoom for detail</div>
+</div>
+
+<script src="js/chrome.js"></script>
+<script src="js/galaxy.js"></script>
+<script src="js/motions.js"></script>
+</body>
+</html>

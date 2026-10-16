@@ -1,0 +1,34 @@
+{
+  "artifact_contract": "semia-prepare-v1",
+  "created_at": "2026-10-04T12:01:56Z",
+  "hostile_input_nonce": "c585fa49e0234199",
+  "prepared_skill_sha256": "28695d2ebd9980ec7414095ce02050a5d86b7d9a51208e2356a388b116f27c2e",
+  "source": {
+    "file_inventory": [
+      {
+        "disposition": "inlined",
+        "language": "markdown",
+        "line_count": 49,
+        "path": "SKILL.md",
+        "size_bytes": 2843
+      }
+    ],
+    "files": [
+      "SKILL.md"
+    ],
+    "inlined_text": "---\nname: verify-sweep\ndescription: Run the full Atlas acceptance verification sweep on production :3001 \u2014 14-point product checklist plus per-class curriculum probes. Use after any deploy, before declaring fixes shipped, when the owner asks for verification, or to re-check that previously fixed items still hold.\n---\n\n# Atlas Verify Sweep\n\nAcceptance testing of production **http://localhost:3001**. Verify only \u2014 fix\nnothing. Every item: PASS/FAIL + screenshot/log evidence into\n`screenshots/verify_<date>/` and a table appended to BUGS.md `## PROD-VERIFY`.\n\n## Setup\nPlaywright from `frontend/node_modules`. Personas: fresh signup (Class 10),\nteacher@dreamapp.in/demo123, parent@dreamapp.in/demo123. Wait 6-10s hydration\nper page. NEVER judge pages by curl \u2014 SSR shells lie.\n\n## The checklist (capture screenshot per item)\n1. Landing (cosmos background, gold copy, real stats) \u2014 1440 + 390\n2. Fresh signup \u2192 auto-login \u2192 dashboard shows the NEW student (no hang)\n3. Command Briefing: ONE mission grounded in real data; honest zeros for new users\n4. Galaxy: sky renders, HUD \"X of 9,099 stars lit\", star-tap \u2192 panel \u2192 Story/Practice\n5. Story Mode (3 nodes, one per band): all scenes, eli5 hook, quick check grades,\n   finish shows XP+mastery; 390px no overflow\n6. Practice: session starts class-pinned, textarea AND MCQ answerable, grades,\n   streak shows real days\n7. Doubt loop: resolvable question \u2192 answer + Story link opens; garbage \u2192 honest\n   refusal, no fabricated link\n8. Security: student B \u2192 403 on student A's practice; student token \u2192 403 teacher\n   APIs; logged-out /teacher-overview redirects to login\n9. Teacher: login \u2192 /teacher-assignments \u2192 create assignment \u2192 student sees it in\n   /homework \u2192 submit \u2192 teacher sees real completion\n10. Engagement: set daily goal \u2192 answers count \u2192 goal-complete bell notification;\n    parent digest renders real weekly data\n11. Hindi toggle: chrome strings flip to \u0939\u093f\u0902\u0926\u0940 on dashboard/story and back\n12. Adaptive: wrong answers steer next-question difficulty (capture responses)\n13. Chapter test + pre-board: chapter test completes with report + Story links;\n    c10 pre-board renders sections/marks (logged-in \u2014 the API 401s logged out)\n14. Health & latency: /api/health all-true; 8 key requests <2s each\n\n## Per-class curriculum probes\nFor each class 6-12: one Story completes, one practice session serves on-grade\nquestions, one diagnostic completes (15 answers \u2192 results), chapter-test catalog\nnon-empty. Compare against `CURRICULUM_GAPS.md` \u2014 new failures = [REGRESSION]\nentries; known authoring gaps = skip (already [blocked-owner]).\n\n## Output\nAcceptance table (item | pass/fail | evidence path) \u2192 BUGS.md. Final tally =\npass count / total + every failure with repro. Failures are the ship-blocker\nlist \u2014 name them loudly.\n",
+    "main_path": "D:\\platform\\.agents\\skills\\verify-sweep\\SKILL.md",
+    "root": "D:\\platform\\.agents\\skills\\verify-sweep",
+    "source_hash": "68e2716a049772b2d9ae1a20bbf289260cee988fe78a22520440318c786b59b1",
+    "source_id": "verify-sweep",
+    "source_map": [
+      {
+        "enriched_line_end": 49,
+        "enriched_line_start": 1,
+        "source_file": "SKILL.md",
+        "source_line_end": 49,
+        "source_line_start": 1
+      }
+    ]
+  }
+}

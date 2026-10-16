@@ -1,0 +1,4 @@
+sync-deploy --check (dry run)
+backend: +5 copied, -1 deleted, 16424 unchanged  (5.5s)
+frontend: +71 copied, -42 deleted, 23006 unchanged  (7.0s)
+content: +505 copied, -14686 deleted, 25959 unchanged  (9.3s)

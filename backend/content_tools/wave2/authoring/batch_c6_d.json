@@ -1,0 +1,84 @@
+{
+ "edits": [
+  {
+   "file": "c6_math_ch01_003.md",
+   "definition": "Every digit in a number carries two values. Its face value is simply the digit itself, wherever it stands — the 7 in 573, 7,209 or 7 is worth 7 in each. Its place value is what the digit is worth at its position: the same 7 is 7 hundreds in 573, 7 lakhs in 7,209 (each position — ones, tens, hundreds, thousands and beyond — multiplies the digit by that place's value), and 7 in the units place of a number like 107 is worth only 7. Place value is the engine of the whole number system: move a digit one place left and it becomes ten times larger, which is how ten symbols write every number there is."
+  },
+  {
+   "file": "c6_math_ch02_018.md",
+   "definition": "Comparing and ordering integers means deciding which of two integers is greater, and lining up a set from smallest to largest — and the number line is the whole rulebook: any number lying to the right of another is the greater, any to the left the smaller. Among positives that agrees with ordinary counting (6 > 2), but with negatives the line's direction is decisive and surprising to fresh eyes: −1 is greater than −5 because it sits further right; −100 is the smallest of a set of negatives. Ordering a mixed set (−7, 3, −2, 0, 5) is simply reading the points off the line from left to right."
+  },
+  {
+   "file": "c6_math_ch02_025.md",
+   "definition": "The absolute value of an integer is its distance from zero on the number line, and distance is never negative: |+6| = 6 and |−6| = 6, because both points stand six steps from zero, in opposite directions. Written between two vertical bars, the absolute value of any number other than zero is simply the number with its sign dropped. It answers 'how far?', never 'in which direction?', which is why it is the right tool whenever size matters but direction does not — temperatures measured from zero, errors above or below a mark, distances between points."
+  },
+  {
+   "file": "c6_math_ch03_041.md",
+   "definition": "Simplifying complex fraction problems — expressions with several operations stacked over one fraction, like 1/2 + 3/4 × 2/3 — is done by following the agreed order of operations (BODMAS: Brackets, Of/Orders, Division and Multiplication left to right, Addition and Subtraction left to right). Each operation is performed on the fractions by its own rule — common denominators for plus and minus, straight-across multiplication, reciprocal-flip division — and the result is reduced to lowest terms. The order is not decoration: the same expression evaluated in the wrong sequence yields a different, wrong answer, which is why BODMAS is the referee."
+  },
+  {
+   "file": "c6_math_ch05_057.md",
+   "definition": "A linear equation is an open mathematical sentence claiming that two expressions are equal, in which the unknown appears to the first power only — no squares, no variables under roots, no variables below fractions. Examples: x + 7 = 12, 3y − 5 = 16, 2(x + 4) = 3x − 1. Such an equation has exactly one solution in general: the value that, substituted for the variable, makes both sides truly equal. Finding it is the art of undoing the equation step by step — the same operations on both sides — until the variable stands alone with its value beside it."
+  },
+  {
+   "file": "c6_physics_ch07_025.md",
+   "definition": "An insulator is a material that heat travels through poorly — wood, plastic, wool, air, glass, rubber — because its particles hold their energy instead of passing it along. Insulation is design's quiet trick: saucepan handles, woollen winter clothes, thermos flasks, double-glazed windows and house walls all interpose an insulating layer so that heat stays where it belongs — in the soup, inside the sweater, out of the refrigerator. No material is a perfect insulator, just as none is a perfect conductor; insulators slow the flow, and that slowing, multiplied by thickness, is what keeps cold things cold and hot things hot."
+  },
+  {
+   "file": "c6_chemistry_ch04_002.md",
+   "definition": "Materials are the substances from which objects are made — wood, metal, glass, plastic, cotton, clay — and each is chosen by reading its properties. Appearance: metals shine with lustre, wood does not. Hardness: a diamond scratches glass; chalk crumbles. Solubility: sugar disappears in water, sand settles. Add transparency, conductivity and floatation and the classification is complete enough to be useful: the property list is the reason a window is glass, a wire is copper and a sweater is wool — every object around you is a property match made on purpose."
+  },
+  {
+   "file": "c6_history_ch09_033.md",
+   "definition": "The Mughal Empire was founded in 1526, when Babur — a ruler from Central Asia descended on his father's side from Timur and on his mother's from Genghis Khan — defeated Ibrahim Lodi, the Sultan of Delhi, at the First Battle of Panipat using gunpowder artillery and flanking cavalry against a far larger army. From that foothold his successors — Humayun, Akbar, Jahangir, Shah Jahan and Aurangzeb — built an empire that at its height governed most of the subcontinent, ran its land revenue through a disciplined administration, and left behind monuments from Agra's Taj Mahal to Delhi's Red Fort."
+  },
+  {
+   "file": "c6_history_ch09_038.md",
+   "definition": "Mughal society was arranged like the empire's own hierarchy: at the top the emperor and the nobility — mansabdars holding military ranks, jagirdars living off assigned revenues — then a middle stratum of merchants, shopkeepers and skilled artisans, and at the base the vast peasantry who farmed the land and paid the revenue that funded everything above. Towns held distinct quarters of weavers, metalworkers, mints and markets; women's lives were shaped by the zenana among elites and by field and craft work among commoners. The economy ran on agriculture and trade — cotton textiles, spices and indigo drew Dutch and English ships — making Mughal India one of the world's great manufacturing centres."
+  },
+  {
+   "file": "c6_math_ch01_011.md",
+   "definition": "Division is the operation of sharing a total equally or measuring how many times one number fits inside another: 20 ÷ 4 asks both 'share 20 among 4 equal groups' (5 each) and 'how many 4s make 20?' (5). Its three names describe its machinery — sharing into equal groups, repeated subtraction (subtract 4 from 20 five times to reach 0), and the inverse of multiplication (since 4 × 5 = 20, both 20 ÷ 4 = 5 and 20 ÷ 5 = 4). The parts have fixed names — dividend, divisor, quotient, and any remainder left over — and checking means multiplying quotient by divisor and adding the remainder."
+  },
+  {
+   "file": "c6_math_ch04_044.md",
+   "definition": "Comparing and ordering decimals means deciding which decimal is greater, smaller or equal, and arranging a set in order — always by place value, never by length of digits. The method runs left to right: equalise digits by annexing zeros, compare the whole-number parts first; if they tie, compare tenths, then hundredths, then thousandths, until one digit decides. So 7.08 beats 7.8? No — 7.8 is 7.800, and at the tenths place 8 beats 0. The common trap, reading 0.09 as bigger than 0.1 because 9 beats 1, dissolves once tenths outrank hundredths: order lives in the places, not the digits alone."
+  },
+  {
+   "file": "c6_math_ch07_077.md",
+   "definition": "Three-dimensional shapes are the solids that fill space: every one has length, width and height, so it has volume and can be picked up — cubes, cuboids, spheres, cylinders, cones and pyramids. Where a 2D shape is a drawing with only area, a 3D shape is an object with the space inside it (volume) and the skin around it (surface area). Each solid is described by its parts: flat or curved faces, the edges where faces meet, and the corners (vertices) where edges meet. Moving from 2D to 3D is the step from measuring a floor to filling a room."
+  },
+  {
+   "file": "c6_math_ch08_087.md",
+   "definition": "Area is the measure of how much flat surface a closed shape covers — how many unit squares of 1 cm × 1 cm (or 1 m × 1 m) would fit inside its boundary, with no gaps or overlaps. A rectangle 5 cm by 3 cm holds fifteen such squares, which is why its area is 5 × 3 = 15 square centimetres, and every other area formula is a shortcut for that same counting. Area answers the practical questions of covering and painting — carpet for a floor, grass for a field, paint for a wall — and it is always reported in square units, never plain units."
+  },
+  {
+   "file": "c6_math_ch08_089.md",
+   "definition": "The area of a circle is the amount of flat surface inside its curved boundary — the region a round table top covers. It is given by A = πr², the constant pi (about 3.14, or 22/7) multiplied by the square of the radius: a circle of radius 7 cm has area 22/7 × 7 × 7 = 154 square centimetres. The square on the radius matters — doubling a circle's radius quadruples its area — and the same pi that measures the boundary (circumference = 2πr) here measures the region it encloses."
+  },
+  {
+   "file": "c6_math_ch11_119.md",
+   "definition": "Two congruence criteria let a triangle be constructed exactly from partial information. ASA (Angle–Side–Angle): draw the given side as a base, construct the two given angles at its two endpoints — one above, one below if needed — and extend their arms until they meet; the two angles pin the third vertex to one point, so the triangle is unique. RHS (Right angle–Hypotenuse–Side): draw the hypotenuse, mark its midpoint, and swing a semicircle on it as diameter; where the arc meets a line at the right-angle distance equal to the given side from the appropriate endpoint lies the right-angled vertex. In both, the arcs are the proof: every compass mark records an equality the criteria guarantee."
+  },
+  {
+   "file": "c6_physics_ch08_032.md",
+   "definition": "Speed is the measure of how fast something moves — the distance covered in a given time, found by dividing distance by time: a car that runs 120 kilometres in 2 hours has a speed of 60 km/h. Its SI unit is metre per second (m/s); vehicles are rated in kilometres per hour. Speed tells nothing of direction — a speedometer reads it, whatever road the car takes — and most journeys are made at changing speed, for which we quote the average: total distance over total time. The slower the time for the same distance, the greater the speed — the one relation behind every race, timetable and speed limit."
+  },
+  {
+   "file": "c6_chemistry_ch05_001.md",
+   "definition": "A physical change alters a substance's form without altering its identity: ice melts to water, water boils to steam, paper is torn, wire is bent, sugar dissolves — in every case no new substance appears, and the material remains what it was, only shaped, sized or repositioned differently. Most physical changes can be reversed by simple means (freeze the water back, dissolve and re-crystallise the sugar), and they involve changes of state, shape or size rather than of chemical makeup. The test is the identity check: still water after melting, still paper after tearing — same substance, new presentation."
+  },
+  {
+   "file": "c6_history_ch08_029.md",
+   "definition": "The Rajput kingdoms were the cluster of warrior dynasties — the Chauhans, Paramaras, Solankis, Chandellas, Gahadavalas and others — that ruled northern and western India from roughly the 8th century until the Turkic conquests. Each kingdom was ruled by a hereditary clan claiming noble descent, fought from hill-and-desert forts such as Chittor, Ranthambor and Gwalior, and ran its court on a code of chivalry: honour in battle, loyalty to the clan, and death preferred to surrender — ideals sung by court bards even in defeat. Their constant mutual rivalry made them brave fighters but fragile allies, and their resistance to the Turks, though heroic, was ultimately divided."
+  },
+  {
+   "file": "c6_history_ch10_041.md",
+   "definition": "The expansion of British rule was the step-by-step extension of the East India Company's control from its Bengal foothold after Plassey (1757) to nearly the whole subcontinent. The instruments varied with the target: direct war and annexation against Mysore and the Marathas; the Subsidiary Alliance, under which princely states accepted Company troops and lost their independence in instalments; and the Doctrine of Lapse, by which Adopted heirs were refused and kingdoms like Jhansi absorbed. By 1857 the Company governed directly or indirectly almost everywhere — a conquest built as much on treaties and paper as on armies."
+  },
+  {
+   "file": "c6_math_ch03_037.md",
+   "definition": "Fractions live on the number line between the whole numbers: to place a fraction, divide the gap between two consecutive integers into as many equal steps as the denominator says, then count out as many steps as the numerator — 3/4 sits three of the four equal steps between 0 and 1, and 7/4 continues past 1 into the next gap. Proper fractions fall between 0 and 1, improper fractions cross into later intervals, and equivalent fractions land on the same point by different names (2/4 and 1/2 mark one spot). The number line shows what numerals conceal: a fraction is a definite position, a length measured from zero."
+  }
+ ]
+}

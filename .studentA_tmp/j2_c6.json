@@ -1,0 +1,407 @@
+[
+ {
+  "cl": 6,
+  "subject": "mathematics",
+  "sid": "47e4721f-5ab1-48ea-b88e-29f2b27e6f26",
+  "answers": [
+   {
+    "i": 0,
+    "q": "You are looking at a photo of a traditional building. The le",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": true,
+    "mastery": 0.357143,
+    "dup_alert": 1
+   },
+   {
+    "i": 1,
+    "q": "Your friend calculates the mean of 5, 10, and 15 as (5+10+15",
+    "ans": "9999",
+    "is_correct": false,
+    "mastery": 0.115053,
+    "dup_alert": 1
+   },
+   {
+    "i": 2,
+    "q": "You are looking at a photo of a traditional building. The le",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": true,
+    "mastery": 0.7,
+    "dup_alert": 2
+   },
+   {
+    "i": 3,
+    "q": "You are looking at a photo of a traditional building. The le",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": true,
+    "mastery": 0.904255,
+    "dup_alert": 1
+   },
+   {
+    "i": 4,
+    "q": "A lunchbox is 10 cm long, 5 cm wide, and 3 cm high. Find the",
+    "ans": "9999",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 5,
+    "q": "Your friend calculates the mean of 5, 10, and 15 as (5+10+15",
+    "ans": "They divided by 2 instead of 3. The correct mean is 30/3 = 1",
+    "is_correct": true,
+    "mastery": 0.386937,
+    "dup_alert": 2
+   }
+  ],
+  "end": [
+   400,
+   "{\"detail\": \"Session has already ended.\"}"
+  ],
+  "summary": {
+   "session_id": "47e4721f-5ab1-48ea-b88e-29f2b27e6f26",
+   "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+   "subject": "mathematics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 4,
+   "accuracy": 66.7,
+   "total_time_ms": 6955,
+   "mastery_changes": {
+    "corpus:918879ab-df58-485c-b2e1-824b9436f4df": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    },
+    "corpus:2c93e7b0-110d-49d8-800b-c1ff4af282ec": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.5,
+     "delta": 0.5,
+     "accuracy_pct": 50.0
+    },
+    "corpus:ec82e0a3-18a7-4c8f-aa20-509b2201e9e4": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:ec82e0a3-18a7-4c8f-aa20-509b2201e9e4",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 9000
+    },
+    {
+     "topic": "corpus:2c93e7b0-110d-49d8-800b-c1ff4af282ec",
+     "attempted": 2,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 0.5,
+     "avg_time_ms": 8000
+    },
+    {
+     "topic": "corpus:918879ab-df58-485c-b2e1-824b9436f4df",
+     "attempted": 3,
+     "correct": 3,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 6666
+    }
+   ],
+   "started_at": "2026-09-17T16:47:27.246743+00:00",
+   "ended_at": "2026-09-17T16:47:34.202146+00:00",
+   "recommended_next": [
+    "corpus:ec82e0a3-18a7-4c8f-aa20-509b2201e9e4",
+    "corpus:2c93e7b0-110d-49d8-800b-c1ff4af282ec"
+   ]
+  },
+  "texts": [
+   "You are looking at a photo of a traditional building. The le",
+   "Your friend calculates the mean of 5, 10, and 15 as (5+10+15",
+   "You are looking at a photo of a traditional building. The le",
+   "You are looking at a photo of a traditional building. The le",
+   "A lunchbox is 10 cm long, 5 cm wide, and 3 cm high. Find the",
+   "Your friend calculates the mean of 5, 10, and 15 as (5+10+15"
+  ]
+ },
+ {
+  "cl": 6,
+  "subject": "science",
+  "sid": "d05d9eca-bd04-40cc-97aa-6a53748a4962",
+  "answers": [
+   {
+    "i": 0,
+    "q": "The process by which a child learns the norms, values, and b",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 1,
+    "q": "The process by which a child learns the norms, values, and b",
+    "ans": "9999",
+    "is_correct": false,
+    "mastery": 0.115053,
+    "dup_alert": 2
+   },
+   {
+    "i": 2,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Deep frying",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 3,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Deep frying",
+    "is_correct": false,
+    "mastery": 0.115053,
+    "dup_alert": 2
+   },
+   {
+    "i": 4,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Saut\u00e9ing",
+    "is_correct": false,
+    "mastery": 0.115335,
+    "dup_alert": 1
+   },
+   {
+    "i": 5,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Deep frying",
+    "is_correct": false,
+    "mastery": 0.115377,
+    "dup_alert": 2
+   }
+  ],
+  "end": [
+   400,
+   "{\"detail\": \"Session has already ended.\"}"
+  ],
+  "summary": {
+   "session_id": "d05d9eca-bd04-40cc-97aa-6a53748a4962",
+   "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+   "subject": "science",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 0,
+   "accuracy": 0.0,
+   "total_time_ms": 904,
+   "mastery_changes": {
+    "c12_home_1582009890_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "c12_home_3749392805_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "c12_home_1582009890_000",
+     "attempted": 2,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5500
+    },
+    {
+     "topic": "c12_home_3749392805_000",
+     "attempted": 4,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8500
+    }
+   ],
+   "started_at": "2026-09-17T16:47:34.301019+00:00",
+   "ended_at": "2026-09-17T16:47:35.205272+00:00",
+   "recommended_next": [
+    "c12_home_1582009890_000",
+    "c12_home_3749392805_000"
+   ]
+  },
+  "texts": [
+   "The process by which a child learns the norms, values, and b",
+   "The process by which a child learns the norms, values, and b",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?"
+  ]
+ },
+ {
+  "cl": 6,
+  "subject": "english",
+  "sid": "849c2bd5-8e99-4f10-9d7b-b04aa5ecc73b",
+  "answers": [
+   {
+    "i": 0,
+    "q": "In the phrase \"hopeless at basketball,\" if the context also ",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 1,
+    "q": "If a friend is telling you about a time they worked hard, wh",
+    "ans": "9999",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 2,
+    "q": "Analyze the word \"munching\" in the phrase \"food he was munch",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 3,
+    "q": "You need to write a letter to your friend about your visit t",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": true,
+    "mastery": 0.357143,
+    "dup_alert": 1
+   },
+   {
+    "i": 4,
+    "q": "If a new character enters a story and immediately shares the",
+    "ans": "9999",
+    "is_correct": false,
+    "mastery": 0.113139,
+    "dup_alert": 1
+   },
+   {
+    "i": 5,
+    "q": "In the phrase \"hopeless at basketball,\" if the context also ",
+    "ans": "The correct answer is computed step by step: identify the gi",
+    "is_correct": false,
+    "mastery": 0.115053,
+    "dup_alert": 2
+   }
+  ],
+  "end": [
+   400,
+   "{\"detail\": \"Session has already ended.\"}"
+  ],
+  "summary": {
+   "session_id": "849c2bd5-8e99-4f10-9d7b-b04aa5ecc73b",
+   "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+   "subject": "english",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 1680,
+   "mastery_changes": {
+    "corpus:818b43f6-d6a1-4acf-8a6d-578feaf1aeb2": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:c0c6d63b-4c49-4858-ad85-8b57e6a314a3": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:ffee4f2f-ac7b-4164-97db-d20ec8087bf6": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:3b96ea96-bc1d-4b6c-9c0f-d48f363fcd1b": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    },
+    "corpus:bf98016f-904d-4eff-bb64-109c49277064": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:818b43f6-d6a1-4acf-8a6d-578feaf1aeb2",
+     "attempted": 2,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7500
+    },
+    {
+     "topic": "corpus:c0c6d63b-4c49-4858-ad85-8b57e6a314a3",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6000
+    },
+    {
+     "topic": "corpus:ffee4f2f-ac7b-4164-97db-d20ec8087bf6",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7000
+    },
+    {
+     "topic": "corpus:bf98016f-904d-4eff-bb64-109c49277064",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 9000
+    },
+    {
+     "topic": "corpus:3b96ea96-bc1d-4b6c-9c0f-d48f363fcd1b",
+     "attempted": 1,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 8000
+    }
+   ],
+   "started_at": "2026-09-17T16:47:35.296889+00:00",
+   "ended_at": "2026-09-17T16:47:36.977487+00:00",
+   "recommended_next": [
+    "corpus:818b43f6-d6a1-4acf-8a6d-578feaf1aeb2",
+    "corpus:c0c6d63b-4c49-4858-ad85-8b57e6a314a3",
+    "corpus:ffee4f2f-ac7b-4164-97db-d20ec8087bf6"
+   ]
+  },
+  "texts": [
+   "In the phrase \"hopeless at basketball,\" if the context also ",
+   "If a friend is telling you about a time they worked hard, wh",
+   "Analyze the word \"munching\" in the phrase \"food he was munch",
+   "You need to write a letter to your friend about your visit t",
+   "If a new character enters a story and immediately shares the",
+   "In the phrase \"hopeless at basketball,\" if the context also "
+  ]
+ }
+]

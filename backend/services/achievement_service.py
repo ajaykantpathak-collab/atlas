@@ -4,7 +4,6 @@ Handles achievement listing, detail, stats, unlock checking, and
 seeding of default achievements.
 """
 
-import math
 from datetime import datetime, timezone
 from typing import Optional
 
@@ -191,6 +190,19 @@ class AchievementService:
         unlocked_count = 0
         total_xp = 0
 
+        # Canonical wallet XP (users.total_xp, written only by the reward
+        # ledger) served alongside the badge sum so no client conflates the
+        # two — the badge wall's "XP" is reward value, the wallet is the
+        # student's balance.
+        wallet_xp = 0
+        try:
+            _wx = (
+                await db.execute(select(User.total_xp).where(User.id == user_id))
+            ).first()
+            wallet_xp = int(_wx[0] or 0) if _wx else 0
+        except Exception:
+            wallet_xp = 0
+
         for achievement in all_achievements:
             ua = ua_map.get(str(achievement.id))
             unlocked = ua.unlocked if ua else False
@@ -226,6 +238,7 @@ class AchievementService:
             "achievements": achievements,
             "unlocked_count": unlocked_count,
             "total_xp": total_xp,
+            "wallet_xp": wallet_xp,
         }
 
     @staticmethod
@@ -311,6 +324,7 @@ class AchievementService:
             "locked_count": total - unlocked,
             "completion_percentage": int((unlocked / total * 100)) if total > 0 else 0,
             "total_xp_earned": data["total_xp"],
+            "wallet_xp": data.get("wallet_xp", 0),
             "recent_unlocks": recent_unlocks[:5],
             "tier_breakdown": tier_counts,
         }
@@ -458,9 +472,25 @@ class AchievementService:
                 ua.unlocked = True
                 ua.unlocked_at = now
 
-                # Award XP
-                user.total_xp = (user.total_xp or 0) + achievement.xp_reward
-                user.current_level = math.floor(user.total_xp / 100) + 1
+                # Award XP through the CANONICAL ledger (reward_ledger.py) —
+                # this used to mutate user.total_xp inline with its own copy
+                # of the level formula, exactly the divergence class the one-
+                # ledger rule kills. event_ref = the achievement's stable id
+                # makes the unlock award exactly-once, even if the evaluator
+                # re-runs on a racing request.
+                try:
+                    from backend.services.reward_ledger import RewardLedger
+
+                    await RewardLedger.award_xp(
+                        db, user_id, achievement.xp_reward,
+                        event="achievement",
+                        event_ref=str(achievement.achievement_id),
+                    )
+                except ValueError:
+                    # user row vanished mid-evaluation: keep the unlock
+                    # record (it is earned), the wallet write is retried by
+                    # the next evaluator pass via the same event_ref.
+                    pass
 
                 newly_unlocked.append(
                     {

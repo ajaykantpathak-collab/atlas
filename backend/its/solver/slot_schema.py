@@ -29,8 +29,15 @@ _NUM = r"(?:\d{1,3}(?:,\d{2,3})+|\d+(?:\.\d+)?)"
 _SCI = (r"(?:\d+(?:\.\d+)?\s*(?:[x*]|\u00d7)\s*10\s*(?:\^|\*\*)?\s*[-+]?\d+"
         r"|\d+(?:\.\d+)?\s*[eE]\s*[-+]?\d+|\d+(?:\.\d+)?)")
 
-# unit-word surface: letters, slashes, digits, minus, superscripts, greek
-_UNIT_WORD = r"[a-zA-Z\u03bc\u03bd\u03a9/\u00b0\u00b2\u00b3\u2013\-\d]+"
+# unit-word surface: letters, slashes, digits, minus, superscripts, greek.
+# The (?:\^|\*\*) exponent tail must be part of the SAME token: without
+# it "10 m/s^2" truncated to unit "m/s" and the g-value of a freefall
+# question bound as a SPEED slot (TIME_FROM_DISTANCE_SPEED then shipped
+# t = s / g).  With the tail, "m/s^2" reaches resolve() whole -- which
+# has no acceleration entry, so the quantity is dropped (fail-closed);
+# "m^2" / "m**2" now resolve to AREA instead of a phantom length.
+_UNIT_WORD = (r"[a-zA-Z\u03bc\u03bd\u03a9/\u00b0\u00b2\u00b3\u2013\-\d]+"
+              r"(?:(?:\^|\*\*)\s*[-+]?\d+)?")
 
 _QUANT_RE = re.compile(
     r"(?<![\w.])(?P<val>" + _SCI + r")\s*(?P<unit>" + _UNIT_WORD + ")",
@@ -266,6 +273,16 @@ def model_slot_schema(text: str) -> ModelResult:
             value_si = float(fn(given))
         except Exception:
             continue
+        if name == "POTENTIAL_ENERGY":
+            # stated g wins over the 9.8 default (2026-10-07 class-9 dig:
+            # "(Take g = 10 m/s^2)" was ignored -> 29.4 J for a 30 J ask;
+            # the physics registry's _gval honours it, so must this lane)
+            gm = re.search(r"\bg\s*(?:=|as|:)\s*(\d+(?:\.\d+)?)"
+                           r"(?:\s*m\s*/\s*s\s*\^?\s*2)?", text, re.I)
+            if gm:
+                g_stated = float(gm.group(1))
+                if 0.5 <= g_stated <= 350.0:
+                    value_si = value_si * g_stated / 9.8
         if value_si <= 0 or value_si != value_si:  # negative / NaN
             return _no("non-physical result")
         si_unit = _OUT_CANONICAL.get(out_dim, "")

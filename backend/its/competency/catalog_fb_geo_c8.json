@@ -1,0 +1,436 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c8)",
+ "source_file": "c8_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C8_001",
+   "title": "Population density: Population density = ...",
+   "section": "",
+   "formula": "Population_density = Total_population / Total_area",
+   "_pats_extra": [],
+   "key_idea": "Population density",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find population density using population density",
+    "calculate population density",
+    "population density formula question",
+    "given values find population density"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_001",
+     "question_pattern": "population density with {Total_population} and {Total_area} find population density",
+     "extracted_variables": {
+      "Total_population": "given Total_population",
+      "Total_area": "given Total_area"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Total_population, Total_area from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Population density = Total_population / Total_area",
+     "compute": "Population_density = Total_population / Total_area"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_002",
+   "title": "Natural increase: Natural increase = ...",
+   "section": "",
+   "formula": "Natural_increase = Birth_rate - Death_rate",
+   "_pats_extra": [],
+   "key_idea": "Natural increase",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find natural increase using natural increase",
+    "calculate natural increase",
+    "natural increase formula question",
+    "given values find natural increase"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_002",
+     "question_pattern": "natural increase with {Birth_rate} and {Death_rate} find natural increase",
+     "extracted_variables": {
+      "Birth_rate": "given Birth_rate",
+      "Death_rate": "given Death_rate"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Birth_rate, Death_rate from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Natural increase = Birth_rate - Death_rate",
+     "compute": "Natural_increase = Birth_rate - Death_rate"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_003",
+   "title": "Growth rate: Growth rate = ...",
+   "section": "",
+   "formula": "Growth_rate = ((Population_new - Population_old) / Population_old)*100",
+   "_pats_extra": [],
+   "key_idea": "Growth rate",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find growth rate using growth rate",
+    "calculate growth rate",
+    "growth rate formula question",
+    "given values find growth rate"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_003",
+     "question_pattern": "growth rate with {Population_new} and {Population_old} and {Population_old} find growth rate",
+     "extracted_variables": {
+      "Population_new": "given Population_new",
+      "Population_old": "given Population_old"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Population_new, Population_old, Population_old from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Growth rate = ((Population_new - Population_old) / Population_old)*100",
+     "compute": "Growth_rate = ((Population_new - Population_old) / Population_old)*100"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_004",
+   "title": "Scale: Scale = ...",
+   "section": "",
+   "formula": "Scale = Map_distance / Ground_distance",
+   "_pats_extra": [],
+   "key_idea": "Scale",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find scale using scale",
+    "calculate scale",
+    "scale formula question",
+    "given values find scale"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_004",
+     "question_pattern": "scale with {Map_distance} and {Ground_distance} find scale",
+     "extracted_variables": {
+      "Map_distance": "given Map_distance",
+      "Ground_distance": "given Ground_distance"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Map_distance, Ground_distance from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Scale = Map_distance / Ground_distance",
+     "compute": "Scale = Map_distance / Ground_distance"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_005",
+   "title": "Gradient: Gradient = ...",
+   "section": "",
+   "formula": "Gradient = Vertical_interval / Horizontal_equivalent",
+   "_pats_extra": [],
+   "key_idea": "Gradient",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find gradient using gradient",
+    "calculate gradient",
+    "gradient formula question",
+    "given values find gradient"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_005",
+     "question_pattern": "gradient with {Vertical_interval} and {Horizontal_equivalent} find gradient",
+     "extracted_variables": {
+      "Vertical_interval": "given Vertical_interval",
+      "Horizontal_equivalent": "given Horizontal_equivalent"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Vertical_interval, Horizontal_equivalent from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Gradient = Vertical_interval / Horizontal_equivalent",
+     "compute": "Gradient = Vertical_interval / Horizontal_equivalent"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_006",
+   "title": "Contour interval: Contour interval = ...",
+   "section": "",
+   "formula": "Contour_interval = Difference_in*elevation_between*adjacent_contour_lines",
+   "_pats_extra": [],
+   "key_idea": "Contour interval",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find contour interval using contour interval",
+    "calculate contour interval",
+    "contour interval formula question",
+    "given values find contour interval"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_006",
+     "question_pattern": "contour interval with {Difference_in} and {elevation_between} and {adjacent_contour_lines} find contour interval",
+     "extracted_variables": {
+      "Difference_in": "given Difference_in",
+      "elevation_between": "given elevation_between",
+      "adjacent_contour_lines": "given adjacent_contour_lines"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Difference_in, elevation_between, adjacent_contour_lines from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Contour interval = Difference_in*elevation_between*adjacent_contour_lines",
+     "compute": "Contour_interval = Difference_in*elevation_between*adjacent_contour_lines"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_007",
+   "title": "Urbanisation rate: Urbanisation rate = ...",
+   "section": "",
+   "formula": "Urbanisation_rate = (Urban_population / Total_population)*100",
+   "_pats_extra": [],
+   "key_idea": "Urbanisation rate",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find urbanisation rate using urbanisation rate",
+    "calculate urbanisation rate",
+    "urbanisation rate formula question",
+    "given values find urbanisation rate"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_007",
+     "question_pattern": "urbanisation rate with {Urban_population} and {Total_population} find urbanisation rate",
+     "extracted_variables": {
+      "Urban_population": "given Urban_population",
+      "Total_population": "given Total_population"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Urban_population, Total_population from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Urbanisation rate = (Urban_population / Total_population)*100",
+     "compute": "Urbanisation_rate = (Urban_population / Total_population)*100"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_008",
+   "title": "Time difference: Time difference = ...",
+   "section": "",
+   "formula": "Time_difference = Longitude_difference*4*minutes",
+   "_pats_extra": [],
+   "key_idea": "Time difference",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time difference using time difference",
+    "calculate time difference",
+    "time difference formula question",
+    "given values find time difference"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_008",
+     "question_pattern": "time difference with {Longitude_difference} and {minutes} find time difference",
+     "extracted_variables": {
+      "Longitude_difference": "given Longitude_difference",
+      "minutes": "given minutes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Longitude_difference, minutes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time difference = Longitude_difference*4*minutes",
+     "compute": "Time_difference = Longitude_difference*4*minutes"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_009",
+   "title": "Distance: Distance = ...",
+   "section": "",
+   "formula": "Distance = Latitude_difference*111",
+   "_pats_extra": [],
+   "key_idea": "Distance",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance using distance",
+    "calculate distance",
+    "distance formula question",
+    "given values find distance"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_009",
+     "question_pattern": "distance with {Latitude_difference} find distance",
+     "extracted_variables": {
+      "Latitude_difference": "given Latitude_difference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Latitude_difference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance = Latitude_difference*111",
+     "compute": "Distance = Latitude_difference*111"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_010",
+   "title": "Albedo: Albedo = ...",
+   "section": "",
+   "formula": "Albedo = Reflected_radiation / Incoming_radiation",
+   "_pats_extra": [],
+   "key_idea": "Albedo",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find albedo using albedo",
+    "calculate albedo",
+    "albedo formula question",
+    "given values find albedo"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_010",
+     "question_pattern": "albedo with {Reflected_radiation} and {Incoming_radiation} find albedo",
+     "extracted_variables": {
+      "Reflected_radiation": "given Reflected_radiation",
+      "Incoming_radiation": "given Incoming_radiation"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Reflected_radiation, Incoming_radiation from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Albedo = Reflected_radiation / Incoming_radiation",
+     "compute": "Albedo = Reflected_radiation / Incoming_radiation"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  },
+  {
+   "id": "FB_GEO_C8_011",
+   "title": "RH: RH = ...",
+   "section": "",
+   "formula": "RH = (Actual_water_vapour / Maximum_capacity)*100",
+   "_pats_extra": [],
+   "key_idea": "RH",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rh using rh",
+    "calculate rh",
+    "rh formula question",
+    "given values find rh"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C8_011",
+     "question_pattern": "rh with {Actual_water_vapour} and {Maximum_capacity} find rh",
+     "extracted_variables": {
+      "Actual_water_vapour": "given Actual_water_vapour",
+      "Maximum_capacity": "given Maximum_capacity"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Actual_water_vapour, Maximum_capacity from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "RH = (Actual_water_vapour / Maximum_capacity)*100",
+     "compute": "RH = (Actual_water_vapour / Maximum_capacity)*100"
+    }
+   ],
+   "chapter_title": "geo c8 formulas"
+  }
+ ]
+}

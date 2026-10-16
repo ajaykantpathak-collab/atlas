@@ -65,31 +65,40 @@ async def handle_conceptual(
     db=None,
     subject_filter: str = None,
     class_filter: str = None,
+    routing_service=None,
 ) -> Optional[ComputeResult]:
     """Handle a conceptual question by routing to enrichment content.
-    
+
     Args:
         parsed: The parsed question
         db: Optional database session for enrichment lookup
         subject_filter: Subject to filter by
         class_filter: Class to filter by
-    
+        routing_service: Optional pre-built RoutingService instance.
+            Injected by the caller — the AI stratum does not import
+            backend.services.* directly (import-boundary wall,
+            backend.harness.boundaries).  When None (or with no db),
+            enrichment lookup is skipped and the structured placeholder
+            is returned, exactly as when routing fails today.
+
     Returns:
         ComputeResult with enrichment content, or None if not available
     """
     intent = detect_intent(parsed)
     field = INTENT_FIELD_MAP.get(intent, "definition")
-    
+
     # Extract the key concept from the question
     concept = _extract_concept(parsed)
-    
+
     if not concept:
         return None
-    
+
     # Try to fetch enrichment from database
-    if db is not None:
+    if db is not None and routing_service is not None:
         try:
-            content = await _fetch_enrichment(db, concept, field, subject_filter, class_filter)
+            content = await _fetch_enrichment(
+                db, concept, field, subject_filter, class_filter,
+                routing_service)
             if content:
                 return ComputeResult(
                     matched=True,
@@ -145,30 +154,40 @@ def _extract_concept(parsed: ParsedQuestion) -> str:
     return ""
 
 
-async def _fetch_enrichment(db, concept: str, field: str, subject_filter: str, class_filter: str) -> Optional[str]:
+async def _fetch_enrichment(
+    db,
+    concept: str,
+    field: str,
+    subject_filter: str,
+    class_filter: str,
+    routing_service=None,
+) -> Optional[str]:
     """Fetch enrichment content from database.
-    
-    This uses the existing routing/enrichment infrastructure.
+
+    The RoutingService comes in as an injected parameter (services seam):
+    the AI stratum must not import backend.services.* directly —
+    import-boundary wall, backend.harness.boundaries.  Callers without a
+    service get None (caller falls back to the placeholder answer).
     """
-    # Import here to avoid circular imports
+    if routing_service is None:
+        return None
     try:
-        from backend.services.routing_service import RoutingService
         from backend.database.marker_parser import get_enrichment_for_node
-        
+
         # Route to find the right node
-        router = RoutingService()
+        router = routing_service
         node = await router.route(
             db,
             concept,
             subject_filter=subject_filter,
             class_filter=class_filter,
         )
-        
+
         if node:
             # Fetch enrichment field
             enrichment = await get_enrichment_for_node(db, node.id, field)
             return enrichment
     except Exception as e:
         logger.warning(f"Enrichment fetch error: {e}")
-    
+
     return None

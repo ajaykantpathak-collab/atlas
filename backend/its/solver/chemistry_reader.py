@@ -126,6 +126,7 @@ def _read_dilution(text: str, audit: AuditTrail) -> Optional[PipelineResult]:
     v_water = v2 - v1
     ml = v_water * 1000.0
     audit.route.append("event_chain:dilution")
+    audit.route.append("structure:DILUTION")   # WS-PAL: name the route
     audit.gates_passed.append("moles_conserved")
     audit.readings_considered = 1
     audit.assumptions.append(
@@ -291,6 +292,11 @@ def _vp_unit(m: "re.Match") -> str:
 def _ok(tag: str, answer_str: str, numeric: float, steps: List[str],
         audit: AuditTrail) -> PipelineResult:
     audit.route.append("event_chain:" + tag)
+    # WS-PAL (ovh-pal): the badge gate resolves verifiers only via a
+    # 'structure:' entry -- 'event_chain:<tag>' names the event chain
+    # for telemetry but never reaches VERIFIERS, so every reader answer
+    # died as verifier_no_route under the strict contract.
+    audit.route.append("structure:" + tag.upper())
     audit.gates_passed.append("slots_grounded_range_guards")
     audit.readings_considered = 1
     return PipelineResult(label=VERIFIED, answer=answer_str,

@@ -1,0 +1,50 @@
+{
+ "receipt_id": "rcpt_20261013T180904Z_e7f3e0fa",
+ "work_item": "WI-20261013-004",
+ "from_state": "SOAK",
+ "to_state": "SOAK",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T18:09:04Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "CORRECTION: earlier rework gate logs overwritten by rework 21 verify pass",
+ "prev_receipt_sha256": "a0acb51a60dff5854003f02f7428264491eb95cd019931ea0b2ab309a108a2b5",
+ "correction": [
+  {
+   "receipt": "04_IMPLEMENT_VERIFY.json",
+   "gate": "G1",
+   "field": "log_sha256",
+   "reason": "log overwritten in rework 21 verify run"
+  },
+  {
+   "receipt": "04_IMPLEMENT_VERIFY.json",
+   "gate": "G5",
+   "field": "log_sha256",
+   "reason": "log overwritten in rework 21 verify run"
+  },
+  {
+   "receipt": "10_IMPLEMENT_VERIFY.json",
+   "gate": "G1",
+   "field": "log_sha256",
+   "reason": "log overwritten in rework 21 verify run"
+  },
+  {
+   "receipt": "10_IMPLEMENT_VERIFY.json",
+   "gate": "G5",
+   "field": "log_sha256",
+   "reason": "log overwritten in rework 21 verify run"
+  },
+  {
+   "receipt": "13_IMPLEMENT_VERIFY.json",
+   "gate": "G1",
+   "field": "log_sha256",
+   "reason": "log overwritten in rework 21 verify run"
+  },
+  {
+   "receipt": "13_IMPLEMENT_VERIFY.json",
+   "gate": "G5",
+   "field": "log_sha256",
+   "reason": "log overwritten in rework 21 verify run"
+  }
+ ]
+}

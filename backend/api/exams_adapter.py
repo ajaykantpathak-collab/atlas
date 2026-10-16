@@ -31,7 +31,11 @@ from sqlalchemy import select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
-from backend.deps import get_current_user, get_current_user_optional, is_staff
+from backend.deps import (
+    get_current_user,
+    is_staff,
+    require_self_or_linked_parent,
+)
 from backend.models.user import User
 from backend.services.exam_service import (
     AnswerInput,
@@ -40,6 +44,7 @@ from backend.services.exam_service import (
     ExamService,
     ExamSessionDB,
 )
+from backend.services.feedback_scrub import scrub_answer_key
 
 logger = logging.getLogger(__name__)
 
@@ -192,6 +197,11 @@ def _map_graded_question(g: Any, exam_id: str, paper_q: Any = None) -> Dict[str,
     opts_src = (paper_q.get("options") if isinstance(paper_q, dict)
                 else getattr(paper_q, "options", None)) if paper_q else None
     options = None
+    # Bank key can hold grader prose — the scrubbed form is the only one a
+    # student may see (as option text or the correctAnswer field).  The
+    # raw key still drives the isCorrect option match below.
+    served_key = (scrub_answer_key(g.correct_answer)
+                  if isinstance(g.correct_answer, str) else g.correct_answer)
     if opts_src:
         correct = str(g.correct_answer or "")
         options = [
@@ -199,9 +209,9 @@ def _map_graded_question(g: Any, exam_id: str, paper_q: Any = None) -> Dict[str,
              "text": str(o), "isCorrect": str(o).strip() == correct.strip()}
             for i, o in enumerate(opts_src[:len(_OPTION_LABELS)])
         ]
-    elif g.correct_answer is not None and not isinstance(g.correct_answer, list):
+    elif isinstance(served_key, str) and served_key:
         options = [
-            {"id": f"{g.question_id}-o0", "label": "A", "text": str(g.correct_answer), "isCorrect": True},
+            {"id": f"{g.question_id}-o0", "label": "A", "text": served_key, "isCorrect": True},
         ]
     return {
         "id": g.question_id,
@@ -224,7 +234,7 @@ def _map_graded_question(g: Any, exam_id: str, paper_q: Any = None) -> Dict[str,
         "sectionId": g.section_id,
         "status": g.status,
         "feedback": g.feedback,
-        "correctAnswer": g.correct_answer if not options else None,
+        "correctAnswer": served_key if not options else None,
         "rubric": [
             {
                 "stepNumber": st.step_number,
@@ -544,9 +554,15 @@ async def _history_response(
 async def get_exam_history(
     page: int = Query(default=1, ge=1),
     pageSize: int = Query(default=20, ge=1, le=100),
-    user: Optional[User] = Depends(get_current_user_optional),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
+    """The caller's own exam history.
+
+    BUGFIX (lane-B audit, 2026-10-15): this used ``get_current_user_optional``
+    and served an empty guest page to anonymous callers — exam history is a
+    personal record, so unauthenticated requests now get 401.
+    """
     return await _history_response(db, _student_uuid(user), page, pageSize)
 
 
@@ -555,13 +571,17 @@ async def get_student_exam_history(
     student_id: str,
     page: int = Query(default=1, ge=1),
     pageSize: int = Query(default=20, ge=1, le=100),
-    user: Optional[User] = Depends(get_current_user_optional),
+    user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    """exam.service.ts calls /api/students/{id}/exams/history — resolved to the
-    authenticated student (an explicit student_id for an unauthenticated caller
-    cannot leak another student's results)."""
-    sid = _student_uuid(user)
+    """exam.service.ts calls /api/students/{id}/exams/history.
+
+    BUGFIX (lane-B audit, 2026-10-15): confirmed IDOR — the path id was not
+    authorised, so any authenticated student could read any other student's
+    exam records.  The path id now goes through the same self-or-linked-
+    parent guard as the weekly digest before a single row is read.
+    """
+    sid = await require_self_or_linked_parent(student_id, user, db)
     return await _history_response(db, sid, page, pageSize)
 
 

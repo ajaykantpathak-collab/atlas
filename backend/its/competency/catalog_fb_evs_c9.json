@@ -1,0 +1,529 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c9)",
+ "source_file": "c9_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C9_001",
+   "title": "Key relationships: Environment = ...",
+   "section": "",
+   "formula": "Environment = Biotic_components + Abiotic_components + Energy_flow",
+   "_pats_extra": [],
+   "key_idea": "Key relationships",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find environment using key relationships",
+    "calculate key relationships",
+    "key relationships formula question",
+    "given values find environment"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_001",
+     "question_pattern": "key relationships with {Biotic_components} and {Abiotic_components} and {Energy_flow} find environment",
+     "extracted_variables": {
+      "Biotic_components": "given Biotic_components",
+      "Abiotic_components": "given Abiotic_components",
+      "Energy_flow": "given Energy_flow"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Biotic_components, Abiotic_components, Energy_flow from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Environment = Biotic_components + Abiotic_components + Energy_flow",
+     "compute": "Environment = Biotic_components + Abiotic_components + Energy_flow"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_002",
+   "title": "Formulas: P = ...",
+   "section": "",
+   "formula": "P = ET + R + ΔS",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find p"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_002",
+     "question_pattern": "formulas with {ET} and {R} and {S} find p",
+     "extracted_variables": {
+      "ET": "given ET",
+      "R": "given R",
+      "S": "given S"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for ET, R, S from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P = ET + R + ΔS",
+     "compute": "P = ET + R + ΔS"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_003",
+   "title": "Formulas: IVI = ...",
+   "section": "",
+   "formula": "IVI = Relative_density + Relative_frequency + Relative_dominance",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ivi using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find ivi"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_003",
+     "question_pattern": "formulas with {Relative_density} and {Relative_frequency} and {Relative_dominance} find ivi",
+     "extracted_variables": {
+      "Relative_density": "given Relative_density",
+      "Relative_frequency": "given Relative_frequency",
+      "Relative_dominance": "given Relative_dominance"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Relative_density, Relative_frequency, Relative_dominance from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "IVI = Relative_density + Relative_frequency + Relative_dominance",
+     "compute": "IVI = Relative_density + Relative_frequency + Relative_dominance"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_004",
+   "title": "Formulas: C_stock = ...",
+   "section": "",
+   "formula": "C_stock = C_above + C_below + C_deadwood + C_litter + C_soil",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c_stock using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find c_stock"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_004",
+     "question_pattern": "formulas with {C_above} and {C_below} and {C_deadwood} and {C_litter} and {C_soil} find c_stock",
+     "extracted_variables": {
+      "C_above": "given C_above",
+      "C_below": "given C_below",
+      "C_deadwood": "given C_deadwood",
+      "C_litter": "given C_litter",
+      "C_soil": "given C_soil"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C_above, C_below, C_deadwood, C_litter, C_soil from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "C_stock = C_above + C_below + C_deadwood + C_litter + C_soil",
+     "compute": "C_stock = C_above + C_below + C_deadwood + C_litter + C_soil"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_005",
+   "title": "Formulas: AI = ...",
+   "section": "",
+   "formula": "AI = P / PET",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ai using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find ai"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_005",
+     "question_pattern": "formulas with {P} and {PET} find ai",
+     "extracted_variables": {
+      "P": "given P",
+      "PET": "given PET"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, PET from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "AI = P / PET",
+     "compute": "AI = P / PET"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_006",
+   "title": "Formulas: C_mix = ...",
+   "section": "",
+   "formula": "C_mix = (Q_r·C_r + Q_e·C_e) / (Q_r + Q_e)",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c_mix using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find c_mix"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_006",
+     "question_pattern": "formulas with {Q_r} and {C_r} and {Q_e} and {C_e} and {Q_r} and {Q_e} find c_mix",
+     "extracted_variables": {
+      "Q_r": "given Q_r",
+      "C_r": "given C_r",
+      "Q_e": "given Q_e",
+      "C_e": "given C_e"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Q_r, C_r, Q_e, C_e, Q_r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "C_mix = (Q_r·C_r + Q_e·C_e) / (Q_r + Q_e)",
+     "compute": "C_mix = (Q_r·C_r + Q_e·C_e) / (Q_r + Q_e)"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_007",
+   "title": "Formulas: S_x = ...",
+   "section": "",
+   "formula": "S_x = (Q_fresh·S_fresh + Q_tide·S_sea) / (Q_fresh + Q_tide)",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find s_x using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find s_x"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_007",
+     "question_pattern": "formulas with {Q_fresh} and {S_fresh} and {Q_tide} and {S_sea} and {Q_fresh} and {Q_tide} find s_x",
+     "extracted_variables": {
+      "Q_fresh": "given Q_fresh",
+      "S_fresh": "given S_fresh",
+      "Q_tide": "given Q_tide",
+      "S_sea": "given S_sea"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Q_fresh, S_fresh, Q_tide, S_sea, Q_fresh from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "S_x = (Q_fresh·S_fresh + Q_tide·S_sea) / (Q_fresh + Q_tide)",
+     "compute": "S_x = (Q_fresh·S_fresh + Q_tide·S_sea) / (Q_fresh + Q_tide)"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_008",
+   "title": "Formulas: GPP = ...",
+   "section": "",
+   "formula": "GPP = NPP + R_autotroph",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find gpp using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find gpp"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_008",
+     "question_pattern": "formulas with {NPP} and {R_autotroph} find gpp",
+     "extracted_variables": {
+      "NPP": "given NPP",
+      "R_autotroph": "given R_autotroph"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for NPP, R_autotroph from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "GPP = NPP + R_autotroph",
+     "compute": "GPP = NPP + R_autotroph"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_009",
+   "title": "Formulas: TEV = ...",
+   "section": "",
+   "formula": "TEV = Use_value + N*o*n-use_value",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find tev using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find tev"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_009",
+     "question_pattern": "formulas with {Use_value} and {N} and {o} and {n} and {use_value} find tev",
+     "extracted_variables": {
+      "Use_value": "given Use_value",
+      "N": "given N",
+      "o": "given o",
+      "n": "given n",
+      "use_value": "given use_value"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Use_value, N, o, n, use_value from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "TEV = Use_value + N*o*n-use_value",
+     "compute": "TEV = Use_value + N*o*n-use_value"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_010",
+   "title": "Formulas: MSY = ...",
+   "section": "",
+   "formula": "MSY = r·K / 4",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find msy using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find msy"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_010",
+     "question_pattern": "formulas with {r} and {K} find msy",
+     "extracted_variables": {
+      "r": "given r",
+      "K": "given K"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for r, K from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "MSY = r·K / 4",
+     "compute": "MSY = r·K / 4"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_011",
+   "title": "Formulas: LER = ...",
+   "section": "",
+   "formula": "LER = (Y_ab / Y_aa) + (Y_ba / Y_bb)",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ler using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find ler"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_011",
+     "question_pattern": "formulas with {Y_ab} and {Y_aa} and {Y_ba} and {Y_bb} find ler",
+     "extracted_variables": {
+      "Y_ab": "given Y_ab",
+      "Y_aa": "given Y_aa",
+      "Y_ba": "given Y_ba",
+      "Y_bb": "given Y_bb"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Y_ab, Y_aa, Y_ba, Y_bb from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "LER = (Y_ab / Y_aa) + (Y_ba / Y_bb)",
+     "compute": "LER = (Y_ab / Y_aa) + (Y_ba / Y_bb)"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_012",
+   "title": "Formulas: MI = ...",
+   "section": "",
+   "formula": "MI = DMC / GDP",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mi using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find mi"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_012",
+     "question_pattern": "formulas with {DMC} and {GDP} find mi",
+     "extracted_variables": {
+      "DMC": "given DMC",
+      "GDP": "given GDP"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for DMC, GDP from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "MI = DMC / GDP",
+     "compute": "MI = DMC / GDP"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  },
+  {
+   "id": "FB_EVS_C9_013",
+   "title": "Formulas: DALY = ...",
+   "section": "",
+   "formula": "DALY = YLL + YLD",
+   "_pats_extra": [],
+   "key_idea": "Formulas",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find daly using formulas",
+    "calculate formulas",
+    "formulas formula question",
+    "given values find daly"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C9_013",
+     "question_pattern": "formulas with {YLL} and {YLD} find daly",
+     "extracted_variables": {
+      "YLL": "given YLL",
+      "YLD": "given YLD"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for YLL, YLD from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DALY = YLL + YLD",
+     "compute": "DALY = YLL + YLD"
+    }
+   ],
+   "chapter_title": "evs c9 formulas"
+  }
+ ]
+}

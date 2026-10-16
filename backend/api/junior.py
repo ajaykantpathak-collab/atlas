@@ -20,6 +20,7 @@ resolves the effective student id (authenticated user id wins).
 from __future__ import annotations
 
 import logging
+import uuid
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
@@ -137,10 +138,28 @@ def _svc() -> JuniorService:
 
 
 def _resolve_student_id(user: Optional[User], explicit: Optional[str]) -> str:
+    """Bind a request to a junior student id.
+
+    Authenticated callers are ALWAYS their own id (an explicit id is
+    ignored — it can never widen access).  Anonymous callers keep the
+    device-generated junior ids (e.g. ``kid-tab-7f3a``) BUT may not name
+    a UUID: a UUID is a real account's users.id, and reading its mastery
+    without a token was an IDOR (WS-D 2026-10-10).
+    """
     if user is not None:
         return str(user.id)
     if explicit and str(explicit).strip():
-        return str(explicit).strip()
+        rid = str(explicit).strip()
+        try:
+            uuid.UUID(rid)
+        except (ValueError, AttributeError, TypeError):
+            return rid  # device/local id — the anonymous junior flow
+        from fastapi import HTTPException as _HX
+        from fastapi import status as _st
+        raise _HX(
+            _st.HTTP_401_UNAUTHORIZED,
+            detail="Sign in to view this student's progress.",
+        )
     return "guest_junior"
 
 
@@ -152,13 +171,30 @@ def _parse_subject(raw: str) -> Subject:
 
 
 def _lang_record(hi: Optional[str], en: Optional[str]) -> Dict[str, str]:
-    """Multilingual record. The engine speaks Hinglish — 'en-hi' carries it."""
-    hi = hi or en or ""
-    en = en or hi
+    """Multilingual record. The engine speaks Hinglish — 'en-hi' carries it.
+
+    When only the Hinglish slot exists, 'en' gets it (Latin-script text is
+    readable for an English-script learner) but _synth marks it so the
+    client can badge the content instead of pretending it is authored
+    English. 'hi' Devanagari is NOT fabricated — there is no
+    transliteration on the box.
+    """
+    if hi is None and en is not None:
+        return {"en": en, "hi": en, "en-hi": en}
+    if en is None:
+        return {"en": hi or "", "hi": hi or "", "en-hi": hi or "",
+                "_synth": "hinglish-only"}
     return {"en": en, "hi": hi, "en-hi": hi}
 
 
-def _grade_of(student_id: str) -> int:
+def _grade_of(student_id: str, user: Optional[User] = None) -> int:
+    """Junior grade (1-5). A signed-in student's real class_level wins;
+    anonymous device ids fall back to their trailing digit, else 3.
+    (2026-10-11 audit: UUID tails are pseudo-random — a real kid's id
+    ending in a letter or >5 silently pinned them to grade 3.)"""
+    cl = getattr(user, "class_level", None) if user is not None else None
+    if isinstance(cl, int) and 1 <= cl <= 5:
+        return cl
     try:
         g = int(str(student_id)[-1])
         return g if 1 <= g <= 5 else 3
@@ -221,6 +257,7 @@ async def start_lesson(
             subject=subject.value,
             topic=topic,
             difficulty=_GRADE_DIFFICULTY.get(grade, "medium"),
+            grade=grade,
         )
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc))
@@ -327,7 +364,7 @@ async def get_student(
     progress = await svc.get_junior_progress(sid)
     return {
         "studentId": progress.student_id,
-        "grade": _grade_of(progress.student_id),
+        "grade": _grade_of(progress.student_id, user),
         "level": progress.level,
         "totalStars": progress.total_stars,
         "totalPoints": progress.total_points,
@@ -385,7 +422,7 @@ async def get_progress(
 
     summary = {
         "studentId": progress.student_id,
-        "grade": _grade_of(progress.student_id),
+        "grade": _grade_of(progress.student_id, user),
         "totalLessonsCompleted": len(history_entries),
         "totalLessonsAttempted": len(history_entries),
         "totalPoints": progress.total_points,

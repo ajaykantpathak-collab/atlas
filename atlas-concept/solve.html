@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solve — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  body { background: var(--cosmos-bg); }
+  .step-row { position: relative; min-height: 58px; }
+  .margin-note {
+    position: absolute; left: calc(100% + 24px); width: 170px; top: 4px;
+    font-family: var(--font-hand); font-size: 17px; color: var(--margin-red);
+    line-height: 1.35; transform: rotate(-1.5deg);
+  }
+  @media (max-width: 1100px) { .margin-note { position: static; display:block; margin: 4px 0 10px 46px; transform:none; } }
+</style>
+</head>
+<body>
+<div class="paper-surface paper-page">
+  <div class="specimen-bar" data-specimen-bar></div>
+
+  <div class="paper-wrap">
+    <p class="specimen gold">Solve · verified output · Physics Class 10</p>
+    <h1 class="paper-title">Marked like a teacher marks.</h1>
+    <p class="paper-sub">Deterministic solve → independent verifier → marking-scheme fragments in the margin.</p>
+
+    <div class="paper-sheet ruled" data-motion="settle">
+      <div class="sheet-head"><span class="l" id="sv-head"></span><span class="r">deterministic · verified</span></div>
+      <div class="sheet-body" style="position:relative;">
+
+        <div class="q-row">
+          <span class="paper-qnum">?</span>
+          <p style="font-size:17px;max-width:540px;">
+            <span id="sv-q"></span>
+            <span class="paper-marks" id="sv-marks"></span> <span class="paper-tag" id="sv-diff"></span>
+          </p>
+        </div>
+
+        <div class="paper-section">Worked solution <span class="sub">· verified steps</span></div>
+
+        <ol class="paper-steps" style="max-width:520px;" id="sv-steps"></ol>
+
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:30px;max-width:640px;">
+          <div>
+            <p class="specimen">Verifier · independent re-derivation</p>
+            <p style="font-family:var(--font-mono);font-size:12px;color:var(--stamp);margin-top:6px;" id="sv-check"></p>
+          </div>
+          <div class="paper-stamp" data-motion="stamp" id="sv-score"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:14px;margin-top:26px;">
+      <a class="btn-paper" href="practice.html">Practice similar →</a>
+      <a class="btn-paper ink" href="story.html">Learn the concept →</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+<script>
+const sv = ATLAS_DATA.pick(ATLAS_DATA.SOLVES);
+document.getElementById("sv-head").textContent = sv.head;
+document.getElementById("sv-q").textContent = sv.q + " ";
+document.getElementById("sv-marks").textContent = sv.marks;
+const dd = document.getElementById("sv-diff");
+dd.textContent = sv.diff[0]; dd.className = "paper-tag " + sv.diff[1];
+document.getElementById("sv-steps").innerHTML = sv.steps.map(([txt, note], i) => {
+  const last = i === sv.steps.length - 1;
+  return `<li class="step-row">${last ? "<strong>" + txt + "</strong>" : txt}
+    <span class="margin-note" data-motion="tick" style="--i:${i}">${note}</span></li>`;
+}).join("");
+document.getElementById("sv-check").innerHTML = sv.check.replace(/·/g, " &nbsp;·&nbsp; ");
+document.getElementById("sv-score").textContent = sv.score;
+motionScan();
+</script>
+</body>
+</html>

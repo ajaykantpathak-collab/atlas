@@ -1,0 +1,1423 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c11)",
+ "source_file": "c11_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C11_001",
+   "title": "Newton's laws: F_1_2 = ...",
+   "section": "LAWS OF MOTION",
+   "formula": "F_1_2 = -F_2*_1",
+   "_pats_extra": [],
+   "key_idea": "Newton's laws (LAWS OF MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f_1_2 using newton's laws",
+    "calculate newton's laws",
+    "newton's laws formula question",
+    "given values find f_1_2",
+    "laws of motion newton's laws numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_001",
+     "question_pattern": "newton's laws with {F_2} and {_1} find f_1_2",
+     "extracted_variables": {
+      "F_2": "given F_2",
+      "_1": "given _1"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F_2, _1 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F_1_2 = -F_2*_1",
+     "compute": "F_1_2 = -F_2*_1"
+    }
+   ],
+   "chapter_title": "LAWS OF MOTION"
+  },
+  {
+   "id": "FB_PHY_C11_002",
+   "title": "Work-energy theorem: Work by conservative force = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "Work_by_conservative_force = -DeltaPE",
+   "_pats_extra": [],
+   "key_idea": "Work-energy theorem (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find work by conservative force using work-energy theorem",
+    "calculate work-energy theorem",
+    "work-energy theorem formula question",
+    "given values find work by conservative force",
+    "work, energy, power work-energy theorem numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_002",
+     "question_pattern": "work-energy theorem with {DeltaPE} find work by conservative force",
+     "extracted_variables": {
+      "DeltaPE": "given DeltaPE"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for DeltaPE from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Work by conservative force = -DeltaPE",
+     "compute": "Work_by_conservative_force = -DeltaPE"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C11_003",
+   "title": "Power: P_avg = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "P_avg = W/t",
+   "_pats_extra": [],
+   "key_idea": "Power (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p_avg using power",
+    "calculate power",
+    "power formula question",
+    "given values find p_avg",
+    "work, energy, power power numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_003",
+     "question_pattern": "power with {W} and {t} find p_avg",
+     "extracted_variables": {
+      "W": "given W",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for W, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P_avg = W/t",
+     "compute": "P_avg = W/t"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C11_004",
+   "title": "Rotational equations (constant alpha): omega = ...",
+   "section": "ROTATIONAL MOTION",
+   "formula": "omega = omega_0 + alphat",
+   "_pats_extra": [],
+   "key_idea": "Rotational equations (constant alpha) (ROTATIONAL MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find omega using rotational equations (constant alpha)",
+    "calculate rotational equations (constant alpha)",
+    "rotational equations (constant alpha) formula question",
+    "given values find omega",
+    "rotational motion rotational equations (constant alpha) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_004",
+     "question_pattern": "rotational equations (constant alpha) with {omega_0} and {alphat} find omega",
+     "extracted_variables": {
+      "omega_0": "given omega_0",
+      "alphat": "given alphat"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for omega_0, alphat from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "omega = omega_0 + alphat",
+     "compute": "omega = omega_0 + alphat"
+    }
+   ],
+   "chapter_title": "ROTATIONAL MOTION"
+  },
+  {
+   "id": "FB_PHY_C11_005",
+   "title": "Rotational equations (constant alpha): theta = ...",
+   "section": "ROTATIONAL MOTION",
+   "formula": "theta = omega_0*t + 1/2*alphat^2",
+   "_pats_extra": [],
+   "key_idea": "Rotational equations (constant alpha) (ROTATIONAL MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find theta using rotational equations (constant alpha)",
+    "calculate rotational equations (constant alpha)",
+    "rotational equations (constant alpha) formula question",
+    "given values find theta",
+    "rotational motion rotational equations (constant alpha) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_005",
+     "question_pattern": "rotational equations (constant alpha) with {omega_0} and {t} and {alphat} find theta",
+     "extracted_variables": {
+      "omega_0": "given omega_0",
+      "t": "given t",
+      "alphat": "given alphat"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for omega_0, t, alphat from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "theta = omega_0*t + 1/2*alphat^2",
+     "compute": "theta = omega_0*t + 1/2*alphat^2"
+    }
+   ],
+   "chapter_title": "ROTATIONAL MOTION"
+  },
+  {
+   "id": "FB_PHY_C11_006",
+   "title": "Universal law: F = ...",
+   "section": "GRAVITATION",
+   "formula": "F = Gm_1*m_2/r^2",
+   "_pats_extra": [],
+   "key_idea": "Universal law (GRAVITATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using universal law",
+    "calculate universal law",
+    "universal law formula question",
+    "given values find f",
+    "gravitation universal law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_006",
+     "question_pattern": "universal law with {Gm_1} and {m_2} and {r} find f",
+     "extracted_variables": {
+      "Gm_1": "given Gm_1",
+      "m_2": "given m_2",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Gm_1, m_2, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = Gm_1*m_2/r^2",
+     "compute": "F = Gm_1*m_2/r^2"
+    }
+   ],
+   "chapter_title": "GRAVITATION"
+  },
+  {
+   "id": "FB_PHY_C11_007",
+   "title": "Universal law: G = ...",
+   "section": "GRAVITATION",
+   "formula": "G = 6.674*10^-11*N*x*m^2/kg^2",
+   "_pats_extra": [],
+   "key_idea": "Universal law (GRAVITATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using universal law",
+    "calculate universal law",
+    "universal law formula question",
+    "given values find g",
+    "gravitation universal law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_007",
+     "question_pattern": "universal law with {N} and {m} and {kg} find g",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "G = 6.674*10^-11*N*x*m^2/kg^2",
+     "compute": "G = 6.674*10^-11*N*x*m^2/kg^2"
+    }
+   ],
+   "chapter_title": "GRAVITATION"
+  },
+  {
+   "id": "FB_PHY_C11_008",
+   "title": "Gravitational field and potential: g = ...",
+   "section": "GRAVITATION",
+   "formula": "g = GM/r^2",
+   "_pats_extra": [],
+   "key_idea": "Gravitational field and potential (GRAVITATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using gravitational field and potential",
+    "calculate gravitational field and potential",
+    "gravitational field and potential formula question",
+    "given values find g",
+    "gravitation gravitational field and potential numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_008",
+     "question_pattern": "gravitational field and potential with {GM} and {r} find g",
+     "extracted_variables": {
+      "GM": "given GM",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for GM, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "g = GM/r^2",
+     "compute": "g = GM/r^2"
+    }
+   ],
+   "chapter_title": "GRAVITATION"
+  },
+  {
+   "id": "FB_PHY_C11_009",
+   "title": "Gravitational field and potential: V = ...",
+   "section": "GRAVITATION",
+   "formula": "V = -GM/r",
+   "_pats_extra": [],
+   "key_idea": "Gravitational field and potential (GRAVITATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using gravitational field and potential",
+    "calculate gravitational field and potential",
+    "gravitational field and potential formula question",
+    "given values find v",
+    "gravitation gravitational field and potential numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_009",
+     "question_pattern": "gravitational field and potential with {GM} and {r} find v",
+     "extracted_variables": {
+      "GM": "given GM",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for GM, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V = -GM/r",
+     "compute": "V = -GM/r"
+    }
+   ],
+   "chapter_title": "GRAVITATION"
+  },
+  {
+   "id": "FB_PHY_C11_010",
+   "title": "Gravitational PE: U = ...",
+   "section": "GRAVITATION",
+   "formula": "U = -G*M*m/r",
+   "_pats_extra": [],
+   "key_idea": "Gravitational PE (GRAVITATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find u using gravitational pe",
+    "calculate gravitational pe",
+    "gravitational pe formula question",
+    "given values find u",
+    "gravitation gravitational pe numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_010",
+     "question_pattern": "gravitational pe with {G} and {M} and {m} and {r} find u",
+     "extracted_variables": {
+      "G": "given G",
+      "M": "given M",
+      "m": "given m",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for G, M, m, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "U = -G*M*m/r",
+     "compute": "U = -G*M*m/r"
+    }
+   ],
+   "chapter_title": "GRAVITATION"
+  },
+  {
+   "id": "FB_PHY_C11_011",
+   "title": "Orbital velocity: v_e = ...",
+   "section": "GRAVITATION",
+   "formula": "v_e = sqrt2*v_o",
+   "_pats_extra": [],
+   "key_idea": "Orbital velocity (GRAVITATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v_e using orbital velocity",
+    "calculate orbital velocity",
+    "orbital velocity formula question",
+    "given values find v_e",
+    "gravitation orbital velocity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_011",
+     "question_pattern": "orbital velocity with {sqrt2} and {v_o} find v_e",
+     "extracted_variables": {
+      "sqrt2": "given sqrt2",
+      "v_o": "given v_o"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for sqrt2, v_o from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v_e = sqrt2*v_o",
+     "compute": "v_e = sqrt2*v_o"
+    }
+   ],
+   "chapter_title": "GRAVITATION"
+  },
+  {
+   "id": "FB_PHY_C11_012",
+   "title": "Stress and strain: Strain = ...",
+   "section": "ELASTICITY",
+   "formula": "Strain = DeltaL/L",
+   "_pats_extra": [],
+   "key_idea": "Stress and strain (ELASTICITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find strain using stress and strain",
+    "calculate stress and strain",
+    "stress and strain formula question",
+    "given values find strain",
+    "elasticity stress and strain numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_012",
+     "question_pattern": "stress and strain with {DeltaL} and {L} find strain",
+     "extracted_variables": {
+      "DeltaL": "given DeltaL",
+      "L": "given L"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for DeltaL, L from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Strain = DeltaL/L",
+     "compute": "Strain = DeltaL/L"
+    }
+   ],
+   "chapter_title": "ELASTICITY"
+  },
+  {
+   "id": "FB_PHY_C11_013",
+   "title": "Buoyancy: Apparent weight = ...",
+   "section": "FLUID MECHANICS",
+   "formula": "Apparent_weight = True_weight - Upthrust",
+   "_pats_extra": [],
+   "key_idea": "Buoyancy (FLUID MECHANICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find apparent weight using buoyancy",
+    "calculate buoyancy",
+    "buoyancy formula question",
+    "given values find apparent weight",
+    "fluid mechanics buoyancy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_013",
+     "question_pattern": "buoyancy with {True_weight} and {Upthrust} find apparent weight",
+     "extracted_variables": {
+      "True_weight": "given True_weight",
+      "Upthrust": "given Upthrust"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for True_weight, Upthrust from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Apparent weight = True_weight - Upthrust",
+     "compute": "Apparent_weight = True_weight - Upthrust"
+    }
+   ],
+   "chapter_title": "FLUID MECHANICS"
+  },
+  {
+   "id": "FB_PHY_C11_014",
+   "title": "Heat transfer: sigma = ...",
+   "section": "THERMAL PHYSICS",
+   "formula": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann_constant)",
+   "_pats_extra": [],
+   "key_idea": "Heat transfer (THERMAL PHYSICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sigma using heat transfer",
+    "calculate heat transfer",
+    "heat transfer formula question",
+    "given values find sigma",
+    "thermal physics heat transfer numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_014",
+     "question_pattern": "heat transfer with {m} and {Stefan} and {Boltzmann_constant} find sigma",
+     "extracted_variables": {
+      "m": "given m",
+      "Stefan": "given Stefan",
+      "Boltzmann_constant": "given Boltzmann_constant"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, Stefan, Boltzmann_constant from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann_constant)",
+     "compute": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann_constant)"
+    }
+   ],
+   "chapter_title": "THERMAL PHYSICS"
+  },
+  {
+   "id": "FB_PHY_C11_015",
+   "title": "Ideal gas: PV = ...",
+   "section": "KINETIC THEORY OF GASES",
+   "formula": "PV = n*R*T",
+   "_pats_extra": [],
+   "key_idea": "Ideal gas (KINETIC THEORY OF GASES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pv using ideal gas",
+    "calculate ideal gas",
+    "ideal gas formula question",
+    "given values find pv",
+    "kinetic theory of gases ideal gas numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_015",
+     "question_pattern": "ideal gas with {n} and {R} and {T} find pv",
+     "extracted_variables": {
+      "n": "given n",
+      "R": "given R",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, R, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PV = n*R*T",
+     "compute": "PV = n*R*T"
+    }
+   ],
+   "chapter_title": "KINETIC THEORY OF GASES"
+  },
+  {
+   "id": "FB_PHY_C11_016",
+   "title": "SHM equations: F = ...",
+   "section": "OSCILLATIONS",
+   "formula": "F = -k*x",
+   "_pats_extra": [],
+   "key_idea": "SHM equations (OSCILLATIONS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using shm equations",
+    "calculate shm equations",
+    "shm equations formula question",
+    "given values find f",
+    "oscillations shm equations numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_016",
+     "question_pattern": "shm equations with {k} find f",
+     "extracted_variables": {
+      "k": "given k"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = -k*x",
+     "compute": "F = -k*x"
+    }
+   ],
+   "chapter_title": "OSCILLATIONS"
+  },
+  {
+   "id": "FB_PHY_C11_017",
+   "title": "CONSTANTS: c = ...",
+   "section": "CONSTANTS",
+   "formula": "c = 3*10^8/s",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find c",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_017",
+     "question_pattern": "constants with {s} find c",
+     "extracted_variables": {
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c = 3*10^8/s",
+     "compute": "c = 3*10^8/s"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_018",
+   "title": "CONSTANTS: G = ...",
+   "section": "CONSTANTS",
+   "formula": "G = 6.674*10^-11*N*x*m^2/kg^2",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find g",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_018",
+     "question_pattern": "constants with {N} and {m} and {kg} find g",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "G = 6.674*10^-11*N*x*m^2/kg^2",
+     "compute": "G = 6.674*10^-11*N*x*m^2/kg^2"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_019",
+   "title": "CONSTANTS: k_B = ...",
+   "section": "CONSTANTS",
+   "formula": "k_B = 1.38*10^-23/K",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find k_b using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find k_b",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_019",
+     "question_pattern": "constants with {K} find k_b",
+     "extracted_variables": {
+      "K": "given K"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "k_B = 1.38*10^-23/K",
+     "compute": "k_B = 1.38*10^-23/K"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_020",
+   "title": "CONSTANTS: R = ...",
+   "section": "CONSTANTS",
+   "formula": "R = 8.314/(molxK)",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find r using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find r",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_020",
+     "question_pattern": "constants with {molxK} find r",
+     "extracted_variables": {
+      "molxK": "given molxK"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for molxK from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "R = 8.314/(molxK)",
+     "compute": "R = 8.314/(molxK)"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_021",
+   "title": "CONSTANTS: N_A = ...",
+   "section": "CONSTANTS",
+   "formula": "N_A = 6.022*10^23 /mol",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n_a using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find n_a",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_021",
+     "question_pattern": "constants with {mol} find n_a",
+     "extracted_variables": {
+      "mol": "given mol"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mol from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N_A = 6.022*10^23 /mol",
+     "compute": "N_A = 6.022*10^23 /mol"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_022",
+   "title": "CONSTANTS: epsilon_0 = ...",
+   "section": "CONSTANTS",
+   "formula": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find epsilon_0 using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find epsilon_0",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_022",
+     "question_pattern": "constants with {N} and {m} find epsilon_0",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)",
+     "compute": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_023",
+   "title": "CONSTANTS: sigma = ...",
+   "section": "CONSTANTS",
+   "formula": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann)",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sigma using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find sigma",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_023",
+     "question_pattern": "constants with {m} and {Stefan} and {Boltzmann} find sigma",
+     "extracted_variables": {
+      "m": "given m",
+      "Stefan": "given Stefan",
+      "Boltzmann": "given Boltzmann"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, Stefan, Boltzmann from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann)",
+     "compute": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann)"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C11_024",
+   "title": "CONSTANTS: a_0 = ...",
+   "section": "CONSTANTS",
+   "formula": "a_0 = 0.529*Angstrom",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find a_0 using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find a_0",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C11_024",
+     "question_pattern": "constants with {Angstrom} find a_0",
+     "extracted_variables": {
+      "Angstrom": "given Angstrom"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Angstrom from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "a_0 = 0.529*Angstrom",
+     "compute": "a_0 = 0.529*Angstrom"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FBD_PHY_C11_001",
+   "title": "v_AB: v_AB = ...",
+   "section": "decision tree",
+   "formula": "v_AB = v_A - v_B",
+   "key_idea": "v_AB (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v_ab using v_ab",
+    "calculate v_ab",
+    "v_ab formula question",
+    "given values find v_ab",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_001",
+     "question_pattern": "v_ab with {v_A} and {v_B} find v_ab",
+     "extracted_variables": {
+      "v_A": "given v_A",
+      "v_B": "given v_B"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for v_A, v_B from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v_AB = v_A - v_B",
+     "compute": "v_AB = v_A - v_B"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_002",
+   "title": "Net force: Net force = ...",
+   "section": "decision tree",
+   "formula": "Net_force = 0*conditions",
+   "key_idea": "Net force (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find net force using net force",
+    "calculate net force",
+    "net force formula question",
+    "given values find net force",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_002",
+     "question_pattern": "net force with {conditions} find net force",
+     "extracted_variables": {
+      "conditions": "given conditions"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for conditions from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Net force = 0*conditions",
+     "compute": "Net_force = 0*conditions"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_003",
+   "title": "f_k: f_k = ...",
+   "section": "decision tree",
+   "formula": "f_k = mu*_k*N",
+   "key_idea": "f_k (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f_k using f_k",
+    "calculate f_k",
+    "f_k formula question",
+    "given values find f_k",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_003",
+     "question_pattern": "f_k with {mu} and {_k} and {N} find f_k",
+     "extracted_variables": {
+      "mu": "given mu",
+      "_k": "given _k",
+      "N": "given N"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mu, _k, N from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "f_k = mu*_k*N",
+     "compute": "f_k = mu*_k*N"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_004",
+   "title": "tau: tau = ...",
+   "section": "decision tree",
+   "formula": "tau = r*F",
+   "key_idea": "tau (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find tau using tau",
+    "calculate tau",
+    "tau formula question",
+    "given values find tau",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_004",
+     "question_pattern": "tau with {r} and {F} find tau",
+     "extracted_variables": {
+      "r": "given r",
+      "F": "given F"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for r, F from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "tau = r*F",
+     "compute": "tau = r*F"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_005",
+   "title": "F_b: F_b = ...",
+   "section": "decision tree",
+   "formula": "F_b = rho*_fluid*V_displaced*g",
+   "key_idea": "F_b (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f_b using f_b",
+    "calculate f_b",
+    "f_b formula question",
+    "given values find f_b",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_005",
+     "question_pattern": "f_b with {rho} and {_fluid} and {V_displaced} and {g} find f_b",
+     "extracted_variables": {
+      "rho": "given rho",
+      "_fluid": "given _fluid",
+      "V_displaced": "given V_displaced",
+      "g": "given g"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for rho, _fluid, V_displaced, g from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F_b = rho*_fluid*V_displaced*g",
+     "compute": "F_b = rho*_fluid*V_displaced*g"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_006",
+   "title": "A1 v1: A1 v1 = ...",
+   "section": "decision tree",
+   "formula": "A1_v1 = A2*v2",
+   "key_idea": "A1 v1 (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find a1 v1 using a1 v1",
+    "calculate a1 v1",
+    "a1 v1 formula question",
+    "given values find a1 v1",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_006",
+     "question_pattern": "a1 v1 with {A2} and {v2} find a1 v1",
+     "extracted_variables": {
+      "A2": "given A2",
+      "v2": "given v2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A2, v2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "A1 v1 = A2*v2",
+     "compute": "A1_v1 = A2*v2"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_007",
+   "title": "Q/t: Q/t = ...",
+   "section": "decision tree",
+   "formula": "Q/t = k*A",
+   "key_idea": "Q/t (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q/t using q/t",
+    "calculate q/t",
+    "q/t formula question",
+    "given values find q/t",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_007",
+     "question_pattern": "q/t with {k} and {A} find q/t",
+     "extracted_variables": {
+      "k": "given k",
+      "A": "given A"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, A from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q/t = k*A",
+     "compute": "Q/t = k*A"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_008",
+   "title": "Delta Q: Delta Q = ...",
+   "section": "decision tree",
+   "formula": "Delta_Q = Delta*U + Delta*W",
+   "key_idea": "Delta Q (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta q using delta q",
+    "calculate delta q",
+    "delta q formula question",
+    "given values find delta q",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_008",
+     "question_pattern": "delta q with {Delta} and {U} and {Delta} and {W} find delta q",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "U": "given U",
+      "W": "given W"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, U, Delta, W from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta Q = Delta*U + Delta*W",
+     "compute": "Delta_Q = Delta*U + Delta*W"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_009",
+   "title": "eta: eta = ...",
+   "section": "decision tree",
+   "formula": "eta = 1 - T2/T1",
+   "key_idea": "eta (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find eta using eta",
+    "calculate eta",
+    "eta formula question",
+    "given values find eta",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_009",
+     "question_pattern": "eta with {T2} and {T1} find eta",
+     "extracted_variables": {
+      "T2": "given T2",
+      "T1": "given T1"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T2, T1 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "eta = 1 - T2/T1",
+     "compute": "eta = 1 - T2/T1"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_010",
+   "title": "Delta S: Delta S = ...",
+   "section": "decision tree",
+   "formula": "Delta_S = Delta*Q / T",
+   "key_idea": "Delta S (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta s using delta s",
+    "calculate delta s",
+    "delta s formula question",
+    "given values find delta s",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_010",
+     "question_pattern": "delta s with {Delta} and {Q} and {T} find delta s",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "Q": "given Q",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, Q, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta S = Delta*Q / T",
+     "compute": "Delta_S = Delta*Q / T"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C11_011",
+   "title": "Pseudo force F: Pseudo force F = ...",
+   "section": "decision tree",
+   "formula": "Pseudo_force_F = -ma_frame",
+   "key_idea": "Pseudo force F (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pseudo force f using pseudo force f",
+    "calculate pseudo force f",
+    "pseudo force f formula question",
+    "given values find pseudo force f",
+    "motion in a straight line with constant acceleration",
+    "motion under gravity (free fall)",
+    "projectile motion (launched at an angle)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C11_011",
+     "question_pattern": "pseudo force f with {ma_frame} find pseudo force f",
+     "extracted_variables": {
+      "ma_frame": "given ma_frame"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for ma_frame from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Pseudo force F = -ma_frame",
+     "compute": "Pseudo_force_F = -ma_frame"
+    }
+   ],
+   "chapter_title": "phy c11 decision formulas"
+  }
+ ]
+}

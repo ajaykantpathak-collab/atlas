@@ -96,6 +96,15 @@ class OnFailureEntrySchema(BaseModel):
     review_node_ids: List[str] = Field(default_factory=list)
 
 
+class CompetencyQuestionSchema(BaseModel):
+    index: int = 1
+    question: str
+    competency: str = ""
+    steps: List[str] = Field(default_factory=list)
+    answer: str = ""
+    difficulty: str = "medium"
+
+
 class EnrichmentContentSchema(BaseModel):
     """Full enrichment content for a node."""
     model_config = {"from_attributes": True}
@@ -125,6 +134,20 @@ class EnrichmentContentSchema(BaseModel):
     difficulty: str = "medium"
     board: str = "CISCE"
     source_file: Optional[str] = None
+
+    # Unlocked Pedagogical Fields
+    formula: Optional[str] = None
+    formula_variables: Optional[str] = None
+    formula_units: Optional[str] = None
+    computation_type: Optional[str] = None
+    competency_questions: List[CompetencyQuestionSchema] = Field(default_factory=list)
+    prerequisite_reasons: Dict[str, str] = Field(default_factory=dict)
+    forward_reasons: Dict[str, str] = Field(default_factory=dict)
+    cross_subject_reasons: Dict[str, str] = Field(default_factory=dict)
+    prereq_stuck: Optional[str] = None
+    prereq_before: Optional[str] = None
+    exam_shortcuts: List[Dict[str, str]] = Field(default_factory=list)
+    exam_traps: List[str] = Field(default_factory=list)
 
 
 class EnrichmentFieldSchema(BaseModel):

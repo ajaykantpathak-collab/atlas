@@ -222,7 +222,7 @@ _POINT_PATTERN = re.compile(
 
 # Vector notation: i + 2j + 3k, -3i - 2j + k
 _VECTOR_PATTERN = re.compile(
-    r'(?:([+-]?\d*\.?\d*)\s*([ijk]))+',
+    r'(?:([+-]?(?:\d+(?:\.\d+)?|\.\d+))\s*([ijk]))+',
     re.IGNORECASE
 )
 

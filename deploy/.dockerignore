@@ -1,0 +1,48 @@
+# Build context hygiene — keep the image lean and secrets out.
+.git
+.github
+.env
+.env.local
+.env.production
+*.log
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+**/node_modules
+frontend/.next*
+frontend/.next
+frontend/.next-mobile
+frontend/.next-mobile-dev
+frontend/out
+frontend/node_modules
+frontend/public/diagrams
+frontend/public/doodle_cards
+**/_archive
+**/tests
+backend/_cache/*.tmp
+backend/_cache/*_audit*.json
+backend/_cache/*_backup*/
+backend/_cache
+backend/_cache/*.log
+deploy/tmp
+*.md
+!README.md
+# Large static art is mounted at runtime, like doodle cards. Keeping it out of
+# the build context prevents multi-GB Docker uploads and image layers.
+frontend/public/diagrams
+# audit artifacts
+frontend/_shots
+frontend/_audit_pages.js
+# no env file of any name ships in an image (any depth, any suffix)
+**/.env
+**/.env.*
+# key material — env or runtime mounts only, never baked into layers
+**/nvidia_keys.txt
+**/gemini-keys*
+**/*_keys
+**/.keys_shard*
+**/serviceAccount*.json
+
+# CL-14a (WS-H R1): Rust build artefacts never importable in containers (-94MB/image)
+rust/target/

@@ -64,9 +64,10 @@ def _get_neo4j_driver():
     """Get a Neo4j driver lazily."""
     try:
         from neo4j import GraphDatabase
-        uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-        user = os.getenv("NEO4J_USER", "neo4j")
-        password = os.getenv("NEO4J_PASSWORD", "dream_neo4j_2024")
+        uri = os.getenv("PLATFORM_NEO4J_URI") or os.getenv("NEO4J_URI", "bolt://localhost:7687")
+        user = os.getenv("PLATFORM_NEO4J_USER") or os.getenv("NEO4J_USER", "neo4j")
+        # no literal default (lane-B audit 2026-10-15): the env must supply it
+        password = os.getenv("PLATFORM_NEO4J_PASSWORD") or os.getenv("NEO4J_PASSWORD", "")
         return GraphDatabase.driver(uri, auth=(user, password))
     except Exception as e:
         logger.warning("Neo4j not available: %s", e)
@@ -420,6 +421,56 @@ class ContentService:
     async def get_subjects(
         db, board: Optional[str] = None, class_level: Optional[int] = None
     ) -> list[Any]:
+        # Truth source: the live corpus index (20k+ dual-board nodes). The
+        # legacy `subjects` table only holds a 48-row CISCE seed and
+        # misrepresents the platform — derive subject × class × board rows
+        # from the parsed corpus instead; fall back to the table if the
+        # index is unavailable.
+        try:
+            from types import SimpleNamespace
+            from backend.services.enhanced_nodes import load_index
+
+            import re
+            idx = load_index()
+            combos: dict[tuple[str, str, int], int] = {}
+            for nid, n in idx.nodes.items():
+                subj, b = n.get("subject"), (n.get("board") or "").upper()
+                m = re.match(r"c(\d+)_", nid)
+                if not subj or not m:
+                    continue
+                cls = int(m.group(1))
+                # ids without a board token are the legacy c6-8 CBSE set
+                if not b:
+                    b = "ISC" if "_isc_" in nid else "ICSE" if "_icse_" in nid else "CBSE"
+                combos[(subj, b, cls)] = combos.get((subj, b, cls), 0) + 1
+            _ICON = {
+                "math": "Calculator", "phy": "FlaskConical", "physics": "FlaskConical",
+                "chem": "FlaskConical", "bio": "Leaf", "biology": "Leaf",
+                "cs": "Cpu", "compst": "Cpu", "compapp": "Cpu", "ip": "Cpu",
+                "eng": "BookOpen", "engl": "BookOpen", "english": "BookOpen",
+                "hin": "Languages", "hist": "Landmark", "history": "Landmark",
+                "histciv": "Landmark", "geo": "Globe", "geography": "Globe",
+                "eco": "Briefcase", "econ": "Briefcase", "economics": "Briefcase",
+            }
+            rows = []
+            for (subj, b, cls), _ in sorted(combos.items(), key=lambda kv: (kv[0][2], kv[0][0])):
+                if board and b != str(board).upper():
+                    continue
+                if class_level is not None and cls != int(class_level):
+                    continue
+                slug_base = subj.split("_")[0]
+                rows.append(SimpleNamespace(
+                    id=f"corpus-{b.lower()}-{cls}-{subj}",
+                    name=SUBJECT_DISPLAY.get(subj, SUBJECT_DISPLAY.get(slug_base, subj.replace("_", " ").title())),
+                    board=b, class_level=cls,
+                    icon_name=_ICON.get(subj) or _ICON.get(slug_base) or "book",
+                    color=None,
+                ))
+            if rows:
+                return rows
+        except Exception:
+            pass
+
         from sqlalchemy import select
         from backend.models.content import Subject
 
@@ -559,20 +610,32 @@ class ContentService:
         except Exception:
             pass  # mastery table unavailable -> treat everything as unmastered
 
-        # Student's class if the corpus covers it, else the corpus' top class.
+        # Student's class ONLY — never another class's nodes (audit §7 #5,
+        # 2026-10-15: class-3 dashboards were serving /learn/c12_* because an
+        # uncovered class fell through to the corpus' top class). Classes 1-5
+        # live in the junior-games system, not this c6-12 corpus, so a c1-c5
+        # student gets an HONEST empty list — no wrong-class default.
         classes = sorted(index.by_class)
-        if class_level in classes:
+        if class_level is not None:
+            if class_level not in classes:
+                return []
             cls = class_level
         elif classes:
+            # No class on file (legacy/fixture accounts): keep the documented
+            # corpus-wide default rather than an empty dashboard.
             cls = classes[-1]
         else:
             return []
 
         # Per-subject queues ordered by syllabus position: front-of-syllabus
         # unmastered nodes are the highest-priority recommendations.
+        # (Defence in depth: a node never crosses classes even if the
+        # index buckets were ever contaminated.)
         queues: dict[str, list[dict]] = {}
         for node in index.by_class.get(cls, []):
             if node["node_id"] in mastered:
+                continue
+            if int(node.get("class", cls)) != cls:
                 continue
             queues.setdefault(str(node["subject"]), []).append(node)
         for queue in queues.values():
@@ -647,6 +710,7 @@ class ContentService:
         subject: Optional[str] = None,
         class_level: Optional[int] = None,
         chapter: Optional[str] = None,
+        board: Optional[str] = None,
         limit: int = 100,
         offset: int = 0,
     ) -> tuple[list[Any], int]:
@@ -659,12 +723,15 @@ class ContentService:
             "biology": ["bio", "biology"], "bio": ["bio", "biology"],
             "physics": ["phy", "physics"], "phy": ["phy", "physics"],
             "chemistry": ["chem", "chemistry"], "chem": ["chem", "chemistry"],
-            "english": ["engl", "english", "eng_k", "eng_w", "eng_f",
+            "english": ["engl", "english", "eng", "eng_k", "eng_w", "eng_f",
                         "eng_v", "eng_s", "eng_h", "gram", "comp"],
-            # PLUMB: the /learn CS tab key "cs" must also reach the "comp" rows
-            # (classes 8-10 store computer nodes under "comp" — 0-topic tab fix).
-            "computer_science": ["cs", "comp", "computer_science"],
-            "cs": ["cs", "comp", "computer"],
+            # "comp" is ENGLISH COMPOSITION in this table (DB-verified
+            # 2026-10-11: all 23 comp rows are letters/notices/essays) —
+            # the real computer codes are cs (11-12) + compst/comst (6-8)
+            # + compapp (9-10).
+            "computer_science": ["cs", "computer_science",
+                                 "compst", "comst", "compapp"],
+            "cs": ["cs", "computer", "compst", "comst", "compapp"],
             "economics": ["eco", "economics"], "eco": ["eco", "economics"],
             "history": ["hist", "history"], "hist": ["hist", "history"],
             "geography": ["geo", "geography"], "geo": ["geo", "geography"],
@@ -692,6 +759,13 @@ class ContentService:
         if class_level is not None:
             query = query.where(EnrichmentContent.class_level == class_level)
             count_query = count_query.where(EnrichmentContent.class_level == class_level)
+        if board:
+            b = str(board).strip().upper()
+            # icse/isc are CISCE-family tokens at the API boundary too.
+            if b in ("ICSE", "ISC"):
+                b = "CISCE"
+            query = query.where(EnrichmentContent.board == b)
+            count_query = count_query.where(EnrichmentContent.board == b)
         if chapter:
             ch = chapter if str(chapter).startswith("ch") else f"ch{chapter}"
             query = query.where(EnrichmentContent.chapter == ch)

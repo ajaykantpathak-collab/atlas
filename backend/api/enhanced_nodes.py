@@ -114,12 +114,14 @@ async def get_node(node_id: str = Query(..., min_length=1,
 async def by_class_subject(
     cls: int = Query(..., alias="class", ge=1, le=14),
     subject: str = Query(..., min_length=1, description="e.g. bio, math"),
+    board: Optional[str] = Query(None, description="cbse | cisce"),
     limit: int = Query(200, ge=1, le=1000),
     offset: int = Query(0, ge=0),
 ):
     """List teaching nodes for one class + subject (summaries)."""
     idx = get_index()
-    all_nodes = await run_in_threadpool(idx.by_class_subject, cls, subject)
+    all_nodes = await run_in_threadpool(
+        idx.by_class_subject, cls, subject, True, board)
     if not all_nodes:
         raise HTTPException(
             404, f"no teaching nodes for class={cls} subject={subject!r}")
@@ -127,6 +129,7 @@ async def by_class_subject(
     return {
         "class": cls,
         "subject": subject,
+        "board": board,
         "total": len(all_nodes),
         "count": len(window),
         "offset": offset,

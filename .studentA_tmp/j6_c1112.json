@@ -1,0 +1,824 @@
+[
+ {
+  "cl": 11,
+  "subject": "mathematics",
+  "sid": "675702e8-a84e-4f78-a1bd-894d77bac482",
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "If \\(z_1 = 3x + 2iy\\) and \\(z_2 = 5 - 7i\\) and \\(z_1 - ",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 1,
+    "q": "A pendulum's angular displacement from vertical is give",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 2,
+    "q": "A rectangular park in Delhi has corners at A(1, 2), B(5",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 3,
+    "q": "Two drones are flying at positions A(2, 3, 5) and B(8, ",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 4,
+    "q": "Two drones are flying at positions A(2, 3, 5) and B(8, ",
+    "ans": "C(11, 9, 14) metres.",
+    "is_correct": true
+   },
+   {
+    "i": 5,
+    "q": "A student claims that \\(\\lim_{x \\to 0} \\frac{\\sin x^2}{",
+    "ans": "9999",
+    "is_correct": false
+   }
+  ],
+  "summary": {
+   "session_id": "675702e8-a84e-4f78-a1bd-894d77bac482",
+   "student_id": "71a44e73-1ce9-45ca-9048-ab7d709d2ff7",
+   "subject": "mathematics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 10588,
+   "mastery_changes": {
+    "corpus:69ede0f5-4539-46a9-8eec-1fe2f47fcb90": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:4552fefe-d9f2-4508-ab37-c8d1374680a3": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:c0dc1f85-ab2c-4e60-8007-8ea50aad5b0f": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:cde32feb-b573-42b7-89ba-e1257d97d337": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.5,
+     "delta": 0.5,
+     "accuracy_pct": 50.0
+    },
+    "corpus:8af47ca0-d5b6-4aaa-a9be-7e1b05080814": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:69ede0f5-4539-46a9-8eec-1fe2f47fcb90",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3000
+    },
+    {
+     "topic": "corpus:4552fefe-d9f2-4508-ab37-c8d1374680a3",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3700
+    },
+    {
+     "topic": "corpus:c0dc1f85-ab2c-4e60-8007-8ea50aad5b0f",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4400
+    },
+    {
+     "topic": "corpus:8af47ca0-d5b6-4aaa-a9be-7e1b05080814",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6500
+    },
+    {
+     "topic": "corpus:cde32feb-b573-42b7-89ba-e1257d97d337",
+     "attempted": 2,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 0.5,
+     "avg_time_ms": 5450
+    }
+   ],
+   "started_at": "2026-09-17T17:13:45.701540+00:00",
+   "ended_at": "2026-09-17T17:13:56.290198+00:00",
+   "recommended_next": [
+    "corpus:69ede0f5-4539-46a9-8eec-1fe2f47fcb90",
+    "corpus:4552fefe-d9f2-4508-ab37-c8d1374680a3",
+    "corpus:c0dc1f85-ab2c-4e60-8007-8ea50aad5b0f"
+   ]
+  }
+ },
+ {
+  "cl": 11,
+  "subject": "physics",
+  "sid": "a7caf76e-d359-4798-844c-46fc10881854",
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "A metal ring is heated uniformly. The ring has an outer",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 1,
+    "q": "A mechanic uses a wrench to tighten a bolt. He applies ",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 2,
+    "q": "A student measures the speed of 1000 nitrogen molecules",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 3,
+    "q": "A student measures the speed of 1000 nitrogen molecules",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 4,
+    "q": "A student places a hot metal block (system) on a wooden",
+    "ans": "The answer is found by applying the",
+    "is_correct": true
+   },
+   {
+    "i": 5,
+    "q": "A cylinder of fixed volume 22.4 litres contains 1 mole ",
+    "ans": "9999",
+    "is_correct": false
+   }
+  ],
+  "summary": {
+   "session_id": "a7caf76e-d359-4798-844c-46fc10881854",
+   "student_id": "71a44e73-1ce9-45ca-9048-ab7d709d2ff7",
+   "subject": "physics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 9013,
+   "mastery_changes": {
+    "corpus:81a667d7-327f-4d48-9b28-3ddbfda56d9e": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:645a9467-9388-486f-9519-cb7940392ad5": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:db2354d9-6034-41a8-860c-0d58d48aa675": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:0275c397-8a3d-4d3a-96b6-90ffda5795c4": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    },
+    "corpus:59988f1d-8431-44fa-bbc8-ebf97fa084a5": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:81a667d7-327f-4d48-9b28-3ddbfda56d9e",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3000
+    },
+    {
+     "topic": "corpus:645a9467-9388-486f-9519-cb7940392ad5",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3700
+    },
+    {
+     "topic": "corpus:db2354d9-6034-41a8-860c-0d58d48aa675",
+     "attempted": 2,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4750
+    },
+    {
+     "topic": "corpus:59988f1d-8431-44fa-bbc8-ebf97fa084a5",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6500
+    },
+    {
+     "topic": "corpus:0275c397-8a3d-4d3a-96b6-90ffda5795c4",
+     "attempted": 1,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 5800
+    }
+   ],
+   "started_at": "2026-09-17T17:13:56.463924+00:00",
+   "ended_at": "2026-09-17T17:14:05.477449+00:00",
+   "recommended_next": [
+    "corpus:81a667d7-327f-4d48-9b28-3ddbfda56d9e",
+    "corpus:645a9467-9388-486f-9519-cb7940392ad5",
+    "corpus:db2354d9-6034-41a8-860c-0d58d48aa675"
+   ]
+  }
+ },
+ {
+  "cl": 11,
+  "subject": "chemistry",
+  "sid": "aaedf46c-a6b0-4c07-8829-13912dc7f72f",
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "A 5.00 L cylinder contains 10.0 moles of ammonia gas (N",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 1,
+    "q": "Groundwater in a village has temporary hardness equival",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 2,
+    "q": "In the reaction: CuO(s) + H2(g) \u2192 Cu(s) + H2O(g), a stu",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 3,
+    "q": "In the reaction: CuO(s) + H2(g) \u2192 Cu(s) + H2O(g), a stu",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 4,
+    "q": "In the reaction: CuO(s) + H2(g) \u2192 Cu(s) + H2O(g), a stu",
+    "ans": "CuO is reduced (loses oxygen); H2 i",
+    "is_correct": true
+   },
+   {
+    "i": 5,
+    "q": "For the equilibrium 2SO\u2082(g) + O\u2082(g) \u21cc 2SO\u2083(g) at 700 K,",
+    "ans": "9999",
+    "is_correct": false
+   }
+  ],
+  "summary": {
+   "session_id": "aaedf46c-a6b0-4c07-8829-13912dc7f72f",
+   "student_id": "71a44e73-1ce9-45ca-9048-ab7d709d2ff7",
+   "subject": "chemistry",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 4145,
+   "mastery_changes": {
+    "corpus:880861b9-110c-417b-9eaa-6c7930bc6ebc": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:ff3ee58b-dce9-4f93-994c-c296ce1e8806": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:3c7388c7-d585-4a25-85bd-175f3f3b8add": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.333,
+     "delta": 0.333,
+     "accuracy_pct": 33.3
+    },
+    "corpus:7412efd9-9b04-4292-a37f-8198a69741f8": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:880861b9-110c-417b-9eaa-6c7930bc6ebc",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3000
+    },
+    {
+     "topic": "corpus:ff3ee58b-dce9-4f93-994c-c296ce1e8806",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3700
+    },
+    {
+     "topic": "corpus:7412efd9-9b04-4292-a37f-8198a69741f8",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6500
+    },
+    {
+     "topic": "corpus:3c7388c7-d585-4a25-85bd-175f3f3b8add",
+     "attempted": 3,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 0.333,
+     "avg_time_ms": 5100
+    }
+   ],
+   "started_at": "2026-09-17T17:14:05.642330+00:00",
+   "ended_at": "2026-09-17T17:14:09.787758+00:00",
+   "recommended_next": [
+    "corpus:880861b9-110c-417b-9eaa-6c7930bc6ebc",
+    "corpus:ff3ee58b-dce9-4f93-994c-c296ce1e8806",
+    "corpus:7412efd9-9b04-4292-a37f-8198a69741f8"
+   ]
+  }
+ },
+ {
+  "cl": 12,
+  "subject": "mathematics",
+  "sid": "a79bcf08-a83d-4c0a-a99c-1558e3361e17",
+  "correct": 0,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "A thermodynamics experiment gives the differential rela",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 1,
+    "q": "A drone flies from point A(2, -1, 3) to point B(5, 2, -",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 2,
+    "q": "A drone flies from point A(2, -1, 3) to point B(5, 2, -",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 3,
+    "q": "A city park is shaped like the region bounded by the cu",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 4,
+    "q": "A small factory in Gujarat produces two types of steel ",
+    "ans": "-10.0",
+    "is_correct": false
+   },
+   {
+    "i": 5,
+    "q": "A student is asked to find the principal value of cos\u207b\u00b9",
+    "ans": "9999",
+    "is_correct": false
+   }
+  ],
+  "summary": {
+   "session_id": "a79bcf08-a83d-4c0a-a99c-1558e3361e17",
+   "student_id": "d815eef7-e423-4336-a021-9002ba31df58",
+   "subject": "mathematics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 0,
+   "accuracy": 0.0,
+   "total_time_ms": 68309,
+   "mastery_changes": {
+    "corpus:4f08f4a0-f7f0-4f9f-b2b3-3df046ba0212": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:17b02af4-d21f-4775-afe3-849bd0802ca9": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:8b65ea3f-8893-448d-bd36-adc3691145a4": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:f27ec261-ca9f-4f8e-b0f1-22e3a036811c": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:e69ef6f6-0202-4cb4-a57c-c79202e926b5": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:4f08f4a0-f7f0-4f9f-b2b3-3df046ba0212",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3000
+    },
+    {
+     "topic": "corpus:17b02af4-d21f-4775-afe3-849bd0802ca9",
+     "attempted": 2,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4050
+    },
+    {
+     "topic": "corpus:8b65ea3f-8893-448d-bd36-adc3691145a4",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5100
+    },
+    {
+     "topic": "corpus:f27ec261-ca9f-4f8e-b0f1-22e3a036811c",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5800
+    },
+    {
+     "topic": "corpus:e69ef6f6-0202-4cb4-a57c-c79202e926b5",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6500
+    }
+   ],
+   "started_at": "2026-09-17T17:14:10.964856+00:00",
+   "ended_at": "2026-09-17T17:15:19.274716+00:00",
+   "recommended_next": [
+    "corpus:4f08f4a0-f7f0-4f9f-b2b3-3df046ba0212",
+    "corpus:17b02af4-d21f-4775-afe3-849bd0802ca9",
+    "corpus:8b65ea3f-8893-448d-bd36-adc3691145a4"
+   ]
+  }
+ },
+ {
+  "cl": 12,
+  "subject": "physics",
+  "sid": "0f8c49be-bf95-49da-933b-388851082353",
+  "correct": 0,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "In a meter bridge experiment, a standard resistance \\(R",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 1,
+    "q": "A satellite communication system uses Ku-band (12\u201318 GH",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 2,
+    "q": "In a photoelectric experiment using a sodium surface (w",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 3,
+    "q": "A metallic rod of length \\(L = 1.0\\ \\text{m}\\) rotates ",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 4,
+    "q": "A charged particle moves in a uniform magnetic field al",
+    "ans": "Break the problem into steps: list ",
+    "is_correct": false
+   },
+   {
+    "i": 5,
+    "q": "A student observes a fish in a pond from the bank. The ",
+    "ans": "9999",
+    "is_correct": false
+   }
+  ],
+  "summary": {
+   "session_id": "0f8c49be-bf95-49da-933b-388851082353",
+   "student_id": "d815eef7-e423-4336-a021-9002ba31df58",
+   "subject": "physics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 0,
+   "accuracy": 0.0,
+   "total_time_ms": 48711,
+   "mastery_changes": {
+    "corpus:6961b038-aa85-4598-a2a4-116a736ac959": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:ec5ae099-7807-4ea1-9ac4-0b32edbc5794": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:e57b75f1-b50d-43d8-a0fc-94408308d1f4": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:7cdbbea0-783b-4413-b96d-1946a7d3deff": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:f6e6d40d-b039-4148-b317-0d9ff7f4a4b8": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:4c36dd0a-12dd-40ee-9264-12eb227ed289": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:6961b038-aa85-4598-a2a4-116a736ac959",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4400
+    },
+    {
+     "topic": "corpus:ec5ae099-7807-4ea1-9ac4-0b32edbc5794",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3000
+    },
+    {
+     "topic": "corpus:e57b75f1-b50d-43d8-a0fc-94408308d1f4",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3700
+    },
+    {
+     "topic": "corpus:7cdbbea0-783b-4413-b96d-1946a7d3deff",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5100
+    },
+    {
+     "topic": "corpus:f6e6d40d-b039-4148-b317-0d9ff7f4a4b8",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5800
+    },
+    {
+     "topic": "corpus:4c36dd0a-12dd-40ee-9264-12eb227ed289",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6500
+    }
+   ],
+   "started_at": "2026-09-17T17:15:19.534979+00:00",
+   "ended_at": "2026-09-17T17:16:08.246131+00:00",
+   "recommended_next": [
+    "corpus:6961b038-aa85-4598-a2a4-116a736ac959",
+    "corpus:ec5ae099-7807-4ea1-9ac4-0b32edbc5794",
+    "corpus:e57b75f1-b50d-43d8-a0fc-94408308d1f4"
+   ]
+  }
+ },
+ {
+  "cl": 12,
+  "subject": "chemistry",
+  "sid": "95b03531-3d06-4d26-8a8a-05e8a01278b2",
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "A student is given three bottles labelled A, B, C conta",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 1,
+    "q": "In the synthesis of a ketone from a nitrile using a Gri",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 2,
+    "q": "A student performs the \"iodine clock reaction\" (H\u2082O\u2082 + ",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 3,
+    "q": "At 300 K, pure liquid A has vapour pressure 200 mm Hg a",
+    "ans": "9999",
+    "is_correct": false
+   },
+   {
+    "i": 4,
+    "q": "A student constructs a galvanic cell using a zinc elect",
+    "ans": "The answer is found by applying the",
+    "is_correct": true
+   },
+   {
+    "i": 5,
+    "q": "A student performs the \"iodine clock reaction\" (H\u2082O\u2082 + ",
+    "ans": "9999",
+    "is_correct": false
+   }
+  ],
+  "summary": {
+   "session_id": "95b03531-3d06-4d26-8a8a-05e8a01278b2",
+   "student_id": "d815eef7-e423-4336-a021-9002ba31df58",
+   "subject": "chemistry",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 14219,
+   "mastery_changes": {
+    "corpus:aa0fddd0-d306-4d6a-912d-ded0c9a0676a": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:13c90991-44d6-4a16-ab94-713e82f29c80": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:e257838c-6f27-4c55-a5c4-69c4c585334f": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:5c41f027-2af9-4e90-bebb-b2021072a01b": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:a3785091-e4d5-4dcb-8ff8-fb893780cc22": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:aa0fddd0-d306-4d6a-912d-ded0c9a0676a",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3000
+    },
+    {
+     "topic": "corpus:13c90991-44d6-4a16-ab94-713e82f29c80",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 3700
+    },
+    {
+     "topic": "corpus:e257838c-6f27-4c55-a5c4-69c4c585334f",
+     "attempted": 2,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5450
+    },
+    {
+     "topic": "corpus:5c41f027-2af9-4e90-bebb-b2021072a01b",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5100
+    },
+    {
+     "topic": "corpus:a3785091-e4d5-4dcb-8ff8-fb893780cc22",
+     "attempted": 1,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 5800
+    }
+   ],
+   "started_at": "2026-09-17T17:16:08.415211+00:00",
+   "ended_at": "2026-09-17T17:16:22.634760+00:00",
+   "recommended_next": [
+    "corpus:aa0fddd0-d306-4d6a-912d-ded0c9a0676a",
+    "corpus:13c90991-44d6-4a16-ab94-713e82f29c80",
+    "corpus:e257838c-6f27-4c55-a5c4-69c4c585334f"
+   ]
+  }
+ }
+]

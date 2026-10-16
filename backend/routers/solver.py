@@ -13,7 +13,7 @@ END-TO-END FLOW:
   4. POST /solve/problem  — solve a full multi-step problem (advanced)
 """
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
 from typing import Any, Optional
 
@@ -23,7 +23,8 @@ from backend.ai.problem_types import (
     get_all_problem_types, get_problem_type,
     get_problem_types_by_topic, get_all_topics,
 )
-from backend.ai.deepseek_router import route_question, get_variables_for_problem_type, get_cache_stats
+from backend.ai.deepseek_router import get_variables_for_problem_type, get_cache_stats
+from backend.deps import require_self_or_staff
 from backend.solver_facade import get_facade
 
 router = APIRouter(prefix="/api/solver", tags=["solver"])
@@ -87,7 +88,11 @@ class SolveResponse(BaseModel):
     verified: bool = False
     verification_msg: str = ""
     error: str = ""
+    error_code: str = ""
+    tier: str = "METHOD_ONLY"
     explanation: list = []
+    confidence: Optional[float] = None
+    disclaimer: Optional[str] = None
 
 
 class SolveProblemResponse(BaseModel):
@@ -98,6 +103,8 @@ class SolveProblemResponse(BaseModel):
     all_verified: bool = True
     explanation: list = []
     error: str = ""
+    error_code: str = ""
+    tier: str = "METHOD_ONLY"
     steps: list = []
 
 
@@ -273,7 +280,11 @@ async def identify_problem_type(req: IdentifyRequest):
     from the question text automatically.
     """
     from backend.ai.graph_router import route_question_graph
-    result = await route_question_graph(req.question)
+    # services seam injects the graph search (ai/ must not import services
+    # directly — import-boundary wall, backend.harness.boundaries)
+    from backend.services.graph_service import GraphService
+    result = await route_question_graph(
+        req.question, search_nodes=GraphService.search_nodes)
 
     # Build response compatible with frontend
     response = IdentifyResponse(
@@ -335,6 +346,30 @@ async def cache_stats():
 # Endpoints — Solving
 # ─────────────────────────────────────────────────────────────────────
 
+
+
+# ── Display formatter: sympy-speak → student math ───────────────────────────
+# Response-boundary only: never mutates solver logic, only what the student
+# reads. "x**2*exp(x)" renders as "x²·exp(x)". Purely cosmetic.
+_SUPERS = {c: u for c, u in zip("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")}
+
+
+def _pretty_math(text):
+    if not text or not isinstance(text, str):
+        return text
+    out = text
+    # integer powers: x**2 -> x²
+    import re as _re
+    out = _re.sub(r"\*\*(\d+)", lambda m: "".join(_SUPERS[c] for c in m.group(1)), out)
+    # remaining non-integer powers: x**n -> x^n
+    out = out.replace("**", "^")
+    out = out.replace("sqrt(", "√(")
+    # word-bounded pi without backslash-dependent lookbehind breakage
+    out = _re.sub(r"(?<![A-Za-z_])pi(?![A-Za-z_])", "π", out)
+    out = out.replace("*", "·")
+    return out
+
+
 @router.post("/solve/step", response_model=SolveResponse)
 def solve_single_step(req: SolveStepRequest):
     """Solve a single step (one math operation).
@@ -357,8 +392,8 @@ def solve_single_step(req: SolveStepRequest):
 
     return SolveResponse(
         success=result.success,
-        answer=result.final_answer or None,
-        steps=[s.description for s in result.steps],
+        answer=_pretty_math(result.final_answer or None) if result.final_answer else None,
+        steps=[_pretty_math(s.description) for s in result.steps],
         verified=result.verified,
         verification_msg=result.verification_msg,
         error=result.error,
@@ -386,9 +421,9 @@ def solve_problem(req: SolveProblemRequest):
     return SolveProblemResponse(
         problem_type_id=req.problem_type_id,
         success=result.success,
-        final_answer=result.final_answer,
+        final_answer=_pretty_math(result.final_answer),
         all_verified=result.verified,
-        explanation=[s.description for s in result.steps],
+        explanation=[_pretty_math(s.description) for s in result.steps],
         error=result.error,
         steps=[
             {
@@ -736,15 +771,103 @@ def deterministic_solve(req: DeterministicSolveRequest):
     The answer pipeline is allowed to return a final answer only when its
     verification gates pass. Guided, ambiguous, and unsupported questions
     never carry an answer. No LLM fallback is reachable from this endpoint.
-    """
-    from backend.its.solver.deterministic_service import solve_deterministically
 
-    return solve_deterministically(
-        req.question,
-        subject=req.subject,
-        class_level=req.class_level,
-        board=req.board,
+    ISOLATION (2026-09-30 wedge fix): plain `def` keeps this off the event
+    loop, but a cold lane (graph/MiniLM/spacy lazy loads, unbounded CAS)
+    could still hold a shared-threadpool thread for ~47 min. The solve now
+    runs on the dedicated bounded pool under a hard budget
+    (SOLVE_BUDGET_S, default 60s): past the budget the endpoint returns an
+    honest guided_practice payload (method content, answer withheld) while
+    the compute finishes in the background and is cached for the retry.
+    """
+    import os
+
+    from backend.services.solver_gateway import solve_deterministically
+    from backend.services.solve_isolation import (
+        GUIDED_METHOD_STEPS, cache_key, run_sync, saturation_refusal_reason,
+        timeout_refusal_reason,
     )
+
+    # TELEMETRY: bind subject/class BEFORE the pool submit so the copied
+    # context reaches answer()'s record_solve (was null on every row).
+    from backend.services.answer_telemetry import bind as _tel_bind
+    _tel_bind(subject=req.subject, class_level=req.class_level,
+              surface="solver/v3-deterministic")
+    key = cache_key("solver.v3deterministic",
+                    f"{req.question}|{req.subject}|{req.class_level}|{req.board}")
+    iso = run_sync(key, solve_deterministically, req.question,
+                   subject=req.subject, class_level=req.class_level,
+                   board=req.board)
+
+    if iso.timed_out or iso.saturated:
+        budget_s = float(os.environ.get("SOLVE_BUDGET_S", "60"))
+        reason = (timeout_refusal_reason(budget_s) if iso.timed_out
+                  else saturation_refusal_reason())
+        route = ["solve:budget_exceeded" if iso.timed_out
+                 else "solve:pool_saturated"]
+        try:
+            from backend.services.solver_gateway import (SolverOutcome,
+                                                     SolverStatus,
+                                                     emit_solver_metrics)
+            emit_solver_metrics(SolverOutcome(
+                status=SolverStatus.GUIDED_PRACTICE,
+                steps=list(GUIDED_METHOD_STEPS),
+                route=route, llm_used=False,
+                latency_ms=iso.elapsed_ms,
+                refusal_reason=reason,
+            ), lane="deterministic", subject=req.subject,
+                class_level=req.class_level, board=req.board)
+        except Exception:
+            pass
+        return {
+            "status": "guided_practice",
+            "answer": None,
+            "steps": list(GUIDED_METHOD_STEPS),
+            "verification": {"verified": False,
+                             "label": "SOLVE_BUDGET_EXCEEDED"
+                             if iso.timed_out else "SOLVER_BUSY",
+                             "gates_passed": [], "anchor": None},
+            "audit": {"route": route, "gates_passed": []},
+            "llm_used": False,
+            "solver_version": _v3_solver_version(),
+            "subject": req.subject,
+            "class_level": req.class_level,
+            "board": req.board,
+            "elapsed_ms": round(iso.elapsed_ms),
+            "refusal_reason": reason,
+            "budget_exceeded": iso.timed_out,
+            "cached": False,
+            "answer_label": "NONE",
+        }
+
+    payload = iso.result
+    if isinstance(payload, dict):
+        payload = dict(payload)  # don't mutate the cached object
+        payload.setdefault("cached", bool(iso.cached))
+        # U-LANE LABEL (Layer U2): the one honesty enum mapped from the
+        # pipeline verdict — VERIFIED* tier answers VERIFIED; anything
+        # else that ships carries the honest mapping (answer-less
+        # outcomes stamp NONE)
+        try:
+            from backend.services.answer_lane import AnswerLabel, stamp
+            _plabel = str((payload.get("verification") or {}).get("label")
+                          or (payload.get("audit") or {}).get("label") or "")
+            _lbl = (AnswerLabel.VERIFIED
+                    if _plabel.startswith("VERIFIED")
+                    else AnswerLabel.NONE)
+            if _lbl is not AnswerLabel.NONE and payload.get("answer"):
+                stamp(payload, "v2_solve", _lbl, _plabel)
+        except Exception:
+            pass
+    return payload
+
+
+def _v3_solver_version() -> str:
+    try:
+        from backend.services.solver_gateway import SOLVER_VERSION
+        return SOLVER_VERSION
+    except Exception:
+        return "dev"
 
 
 @router.get("/v2/problem-types")
@@ -864,14 +987,20 @@ async def intelligence_snapshot():
 
 
 @router.get("/v2/intelligence/remediation/{student_id}")
-async def intelligence_remediation(student_id: str):
-    """Concepts this student is struggling with → what to remediate."""
+async def intelligence_remediation(
+    student_id: str,
+    scoped_student_id: str = Depends(require_self_or_staff),
+):
+    """Concepts this student is struggling with → what to remediate.
+
+    Ownership-guarded (B16 pattern): staff, or the student themselves.
+    """
     from backend.services.intelligence_bus import get_intelligence
     _, state = get_intelligence()
-    concepts = state.needs_remediation(student_id)
-    s = state.students.get(student_id)
+    concepts = state.needs_remediation(scoped_student_id)
+    s = state.students.get(scoped_student_id)
     return {
-        "student_id": student_id,
+        "student_id": scoped_student_id,
         "needs_remediation": concepts,
         "misconceptions": dict(s.misconceptions) if s else {},
         "attempts": s.attempts if s else 0,

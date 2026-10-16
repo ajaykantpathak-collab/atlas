@@ -1,0 +1,13 @@
+# MISSING FROM DEPLOY — 8 files
+
+## backend/ (4 missing)
+- backend/routers/content.py  [SIZE-DIFF]
+- backend/schemas/content.py  [SIZE-DIFF]
+- backend/services/json_logging.py  [SIZE-DIFF]
+- backend/_cache/sim_index.json  [SIZE-DIFF]
+
+## frontend/ (4 missing)
+- frontend/_audit_authed.js  [SIZE-DIFF]
+- frontend/_audit_pages.js  [SIZE-DIFF]
+- frontend/_livesim_test.js
+- frontend/public/sw.js  [SIZE-DIFF]

@@ -1,0 +1,4 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("improve-ui").
+action("act_review", "improve-ui").
+skill_doc_claim("improve-ui", "read_only").

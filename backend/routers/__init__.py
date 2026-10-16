@@ -30,6 +30,10 @@ from backend.api.engagement import router as engagement_router
 from backend.services.id_remapping import router as id_remapping_router
 from backend.api.chapter_tests import router as chapter_tests_router
 from backend.api.preboard import router as preboard_router
+from backend.routers.paper_mode import router as paper_mode_router
+from backend.routers.compq import router as compq_router
+from backend.routers.learnpath import router as learnpath_router
+from backend.routers.grade_prose import router as grade_prose_router
 
 __all__ = [
     "auth_router",
@@ -41,6 +45,7 @@ __all__ = [
     "achievements_router",
     "graph_router",
     "solver_router",
+    "sandbox_router",
     "verified_practice_router",
     "competency_tutor_router",
     "practice_router",
@@ -61,4 +66,8 @@ __all__ = [
     "dashboard_router",
     "chapter_tests_router",
     "preboard_router",
+    "paper_mode_router",
+    "compq_router",
+    "learnpath_router",
+    "grade_prose_router",
 ]

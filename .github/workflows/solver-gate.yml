@@ -1,0 +1,50 @@
+name: Solver Gate
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master]
+
+jobs:
+  sync-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Protected-file drift gate
+        run: python backend/tools/ci_check_sync.py --verbose
+
+  manifest-drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Manifest drift gate
+        run: python backend/tools/emit_solver_manifest.py --check
+
+  solver-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: pip install pytest sympy httpx
+      - name: Family adapter invariant
+        run: python backend/tests/test_family_adapter_invariant.py
+      - name: Gate failures
+        run: pytest backend/tests/test_gate_failures.py -q
+      - name: Part splitter
+        run: pytest backend/tests/test_part_splitter.py -q
+      # every invariant must pass its own family's exemplars — a
+      # false-FAIL withholds a correct answer (the 19-verifier batch
+      # regression of 2026-10-07).  This is the permanent gate.
+      - name: Family verifier audit (0 false-FAILs)
+        run: pytest backend/tests/test_family_audit.py -q
+
+  typecheck-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Install
+        run: cd frontend && npm ci
+      - name: Typecheck
+        run: cd frontend && npx tsc --noEmit

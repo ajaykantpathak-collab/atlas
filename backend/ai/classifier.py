@@ -16,6 +16,7 @@ import requests
 from typing import Optional
 
 from backend.ai.template_library import ALL_TEMPLATES
+from backend.ai import prompt_guard as _prompt_guard
 from backend.config import get_settings
 
 
@@ -77,6 +78,14 @@ async def classify_question(question: str) -> Optional[dict]:
     Returns {"template": "template_name", "variables": {...}} or None on failure.
     """
     settings = get_settings()
+    # LLM-mode gate: prod runs SOLVER_LLM_MODE=off — the fillable key
+    # (CL-18) must not turn this into a new live Gemini call path.
+    try:
+        from backend.its.solver.policy import llm_mode, SolverLLMMode
+        if llm_mode() == SolverLLMMode.OFF:
+            return None
+    except ImportError:
+        pass
     api_key = settings.GEMINI_API_KEY
     model = settings.GEMINI_MODEL
 
@@ -87,10 +96,16 @@ async def classify_question(question: str) -> Optional[dict]:
         for attempt in range(3):
             try:
                 resp = requests.post(
-                    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}",
-                    headers={"Content-Type": "application/json"},
+                    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                    headers={"Content-Type": "application/json",
+                             # CL-17: key in header, never in the URL
+                             # (a URL query key leaks into proxy logs)
+                             "x-goog-api-key": api_key},
                     json={
-                        "contents": [{"parts": [{"text": SYSTEM_PROMPT + "\n\nQuestion: " + question}]}],
+                        "contents": [{"parts": [{"text":
+                            SYSTEM_PROMPT + "\n\n" +
+                            _prompt_guard.UNTRUSTED_SYSTEM_NOTE + "\n\nQuestion: " +
+                            _prompt_guard.wrap_untrusted(question)}]}],
                         "generationConfig": {"temperature": 0.1, "maxOutputTokens": 200},
                     },
                     timeout=30,

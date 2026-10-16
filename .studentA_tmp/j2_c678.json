@@ -1,0 +1,1295 @@
+[
+ {
+  "cl": 6,
+  "subject": "mathematics",
+  "sid": "b2468094-56cd-44ef-8ecd-328404471292",
+  "end_status": 400,
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "You are looking at a bicycle wheel. If you draw a line ",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "You are looking at a photo of a traditional building. T",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.313559
+   },
+   {
+    "i": 2,
+    "q": "A notebook costs \u20b920 (let the number of notebooks be 'n",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 3,
+    "q": "Your friend calculates the mean of 5, 10, and 15 as (5+",
+    "ans": "Divided by the wrong count. The correct ",
+    "is_correct": true,
+    "p_know": 0.383249
+   },
+   {
+    "i": 4,
+    "q": "A company lost \u20b91800 over 9 months, losing an equal amo",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 5,
+    "q": "If you have 3/5 of a cake, write two different equivale",
+    "ans": "Multiply numerator and denominator by th",
+    "is_correct": false,
+    "p_know": 0.113139
+   }
+  ],
+  "summary": {
+   "session_id": "b2468094-56cd-44ef-8ecd-328404471292",
+   "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+   "subject": "mathematics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 2914,
+   "mastery_changes": {
+    "corpus:362019bb-a3a6-4f2f-8df3-f37d2b6f93ea": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:918879ab-df58-485c-b2e1-824b9436f4df": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:3cb07388-1a13-46ed-80f0-067ba100a16e": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:2c93e7b0-110d-49d8-800b-c1ff4af282ec": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    },
+    "corpus:8441b509-3903-4800-a23e-fa4e314b522f": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:664dfbde-4d1c-49d0-a604-6c80a5861e34": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:362019bb-a3a6-4f2f-8df3-f37d2b6f93ea",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4000
+    },
+    {
+     "topic": "corpus:918879ab-df58-485c-b2e1-824b9436f4df",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "corpus:3cb07388-1a13-46ed-80f0-067ba100a16e",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6000
+    },
+    {
+     "topic": "corpus:8441b509-3903-4800-a23e-fa4e314b522f",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8000
+    },
+    {
+     "topic": "corpus:664dfbde-4d1c-49d0-a604-6c80a5861e34",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 9000
+    },
+    {
+     "topic": "corpus:2c93e7b0-110d-49d8-800b-c1ff4af282ec",
+     "attempted": 1,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 7000
+    }
+   ],
+   "started_at": "2026-09-17T16:54:38.286974+00:00",
+   "ended_at": "2026-09-17T16:54:41.201461+00:00",
+   "recommended_next": [
+    "corpus:362019bb-a3a6-4f2f-8df3-f37d2b6f93ea",
+    "corpus:918879ab-df58-485c-b2e1-824b9436f4df",
+    "corpus:3cb07388-1a13-46ed-80f0-067ba100a16e"
+   ]
+  },
+  "texts": [
+   "You are looking at a bicycle wheel. If you draw a line ",
+   "You are looking at a photo of a traditional building. T",
+   "A notebook costs \u20b920 (let the number of notebooks be 'n",
+   "Your friend calculates the mean of 5, 10, and 15 as (5+",
+   "A company lost \u20b91800 over 9 months, losing an equal amo",
+   "If you have 3/5 of a cake, write two different equivale"
+  ]
+ },
+ {
+  "cl": 6,
+  "subject": "science",
+  "sid": "612e616c-9e6f-4895-ab1f-749e0ec0e8d0",
+  "end_status": 400,
+  "correct": 2,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.115335
+   },
+   {
+    "i": 1,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.115377
+   },
+   {
+    "i": 2,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Deep frying",
+    "is_correct": false,
+    "p_know": 0.115335
+   },
+   {
+    "i": 3,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "socialisation",
+    "is_correct": true,
+    "p_know": 0.38756
+   },
+   {
+    "i": 4,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.115384
+   },
+   {
+    "i": 5,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Steaming",
+    "is_correct": true,
+    "p_know": 0.387572
+   }
+  ],
+  "summary": {
+   "session_id": "612e616c-9e6f-4895-ab1f-749e0ec0e8d0",
+   "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+   "subject": "science",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 2,
+   "accuracy": 33.3,
+   "total_time_ms": 2091,
+   "mastery_changes": {
+    "c12_home_1582009890_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.333,
+     "delta": 0.333,
+     "accuracy_pct": 33.3
+    },
+    "c12_home_3749392805_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.333,
+     "delta": 0.333,
+     "accuracy_pct": 33.3
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "c12_home_1582009890_000",
+     "attempted": 3,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 0.333,
+     "avg_time_ms": 5333
+    },
+    {
+     "topic": "c12_home_3749392805_000",
+     "attempted": 3,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 0.333,
+     "avg_time_ms": 7666
+    }
+   ],
+   "started_at": "2026-09-17T16:54:41.292652+00:00",
+   "ended_at": "2026-09-17T16:54:43.383743+00:00",
+   "recommended_next": [
+    "c12_home_1582009890_000",
+    "c12_home_3749392805_000"
+   ]
+  },
+  "texts": [
+   "The process by which a child learns the norms, values, ",
+   "The process by which a child learns the norms, values, ",
+   "Which cooking method uses the minimum amount of fat?",
+   "The process by which a child learns the norms, values, ",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?"
+  ]
+ },
+ {
+  "cl": 6,
+  "subject": "english",
+  "sid": "fc6a67ad-1fc2-4c07-ac8e-394ffcccf2ae",
+  "end_status": 400,
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "Analyze why a nation builds a memorial instead of just ",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "You are writing to your brother who lives in another st",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.162069
+   },
+   {
+    "i": 2,
+    "q": "Analyze the sentence \"The soldiers defended the border.",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 3,
+    "q": "If a new character enters a story and immediately share",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.115053
+   },
+   {
+    "i": 4,
+    "q": "Define 'sensed' in: \"If Prabhat sensed that he would lo",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.115335
+   },
+   {
+    "i": 5,
+    "q": "Identify the plot movement in the story.",
+    "ans": "The answer is found by applying the defi",
+    "is_correct": true,
+    "p_know": 0.357143
+   }
+  ],
+  "summary": {
+   "session_id": "fc6a67ad-1fc2-4c07-ac8e-394ffcccf2ae",
+   "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+   "subject": "english",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 7967,
+   "mastery_changes": {
+    "corpus:70bcdf40-18fb-440b-99ec-ad2e143feb22": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:9aac9dcd-1b25-49c3-bea5-6aa70c067704": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:07c21ae4-2722-4f6b-97d0-9b0e28c452fd": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:56724ef3-f144-4747-ac6f-6f1c20e64b56": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:bf98016f-904d-4eff-bb64-109c49277064": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:68e1cef6-ca79-42fb-ab32-2cc2d12234ec": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:70bcdf40-18fb-440b-99ec-ad2e143feb22",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "corpus:9aac9dcd-1b25-49c3-bea5-6aa70c067704",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8000
+    },
+    {
+     "topic": "corpus:07c21ae4-2722-4f6b-97d0-9b0e28c452fd",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4000
+    },
+    {
+     "topic": "corpus:56724ef3-f144-4747-ac6f-6f1c20e64b56",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6000
+    },
+    {
+     "topic": "corpus:bf98016f-904d-4eff-bb64-109c49277064",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7000
+    },
+    {
+     "topic": "corpus:68e1cef6-ca79-42fb-ab32-2cc2d12234ec",
+     "attempted": 1,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 9000
+    }
+   ],
+   "started_at": "2026-09-17T16:54:43.498224+00:00",
+   "ended_at": "2026-09-17T16:54:51.465477+00:00",
+   "recommended_next": [
+    "corpus:70bcdf40-18fb-440b-99ec-ad2e143feb22",
+    "corpus:9aac9dcd-1b25-49c3-bea5-6aa70c067704",
+    "corpus:07c21ae4-2722-4f6b-97d0-9b0e28c452fd"
+   ]
+  },
+  "texts": [
+   "Analyze why a nation builds a memorial instead of just ",
+   "You are writing to your brother who lives in another st",
+   "Analyze the sentence \"The soldiers defended the border.",
+   "If a new character enters a story and immediately share",
+   "Define 'sensed' in: \"If Prabhat sensed that he would lo",
+   "Identify the plot movement in the story."
+  ]
+ },
+ {
+  "cl": 7,
+  "subject": "mathematics",
+  "sid": "8bbc493f-fd83-463c-ab06-7733de3d4805",
+  "end_status": 400,
+  "correct": 0,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "A student claims that if you double both numbers, say f",
+    "ans": "15",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "Rahul is drawing a triangular garden bed in his backyar",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 2,
+    "q": "Priya went to a book fair with \u20b91000. She bought 3 comi",
+    "ans": "877.0",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 3,
+    "q": "A community center is packing relief kits containing pa",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 4,
+    "q": "Rohit states that the algebraic expression for \"the pro",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 5,
+    "q": "Two triangular garden beds in a school in Jaipur are co",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   }
+  ],
+  "summary": {
+   "session_id": "8bbc493f-fd83-463c-ab06-7733de3d4805",
+   "student_id": "b134e03e-19b5-428e-8b39-de36b54e7b7e",
+   "subject": "mathematics",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 0,
+   "accuracy": 0.0,
+   "total_time_ms": 4606,
+   "mastery_changes": {
+    "corpus:9231cb31-abfb-4a8c-ac68-aa5988a1e50a": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:4e993c20-eb8f-4a2e-9a61-725959062db5": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:6ced12a1-6942-4a83-8a1b-0cd97608e1e4": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:430787e0-3e44-4f8f-bc65-fa6000f3c107": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:29f8c6df-4ec3-431f-b766-5a427270ca6b": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:7711fcf8-30cc-4534-9ba8-97783984dd40": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:9231cb31-abfb-4a8c-ac68-aa5988a1e50a",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4000
+    },
+    {
+     "topic": "corpus:4e993c20-eb8f-4a2e-9a61-725959062db5",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "corpus:6ced12a1-6942-4a83-8a1b-0cd97608e1e4",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6000
+    },
+    {
+     "topic": "corpus:430787e0-3e44-4f8f-bc65-fa6000f3c107",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7000
+    },
+    {
+     "topic": "corpus:29f8c6df-4ec3-431f-b766-5a427270ca6b",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8000
+    },
+    {
+     "topic": "corpus:7711fcf8-30cc-4534-9ba8-97783984dd40",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 9000
+    }
+   ],
+   "started_at": "2026-09-17T16:54:51.540425+00:00",
+   "ended_at": "2026-09-17T16:54:56.146740+00:00",
+   "recommended_next": [
+    "corpus:9231cb31-abfb-4a8c-ac68-aa5988a1e50a",
+    "corpus:4e993c20-eb8f-4a2e-9a61-725959062db5",
+    "corpus:6ced12a1-6942-4a83-8a1b-0cd97608e1e4"
+   ]
+  },
+  "texts": [
+   "A student claims that if you double both numbers, say f",
+   "Rahul is drawing a triangular garden bed in his backyar",
+   "Priya went to a book fair with \u20b91000. She bought 3 comi",
+   "A community center is packing relief kits containing pa",
+   "Rohit states that the algebraic expression for \"the pro",
+   "Two triangular garden beds in a school in Jaipur are co"
+  ]
+ },
+ {
+  "cl": 7,
+  "subject": "science",
+  "sid": "85c1b34c-a575-4f1b-8629-ce0e4e27c50e",
+  "end_status": 400,
+  "correct": 3,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 2,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Steaming",
+    "is_correct": true,
+    "p_know": 0.383249
+   },
+   {
+    "i": 3,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Steaming",
+    "is_correct": true,
+    "p_know": 0.721968
+   },
+   {
+    "i": 4,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.331465
+   },
+   {
+    "i": 5,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "Steaming",
+    "is_correct": true,
+    "p_know": 0.67683
+   }
+  ],
+  "summary": {
+   "session_id": "85c1b34c-a575-4f1b-8629-ce0e4e27c50e",
+   "student_id": "b134e03e-19b5-428e-8b39-de36b54e7b7e",
+   "subject": "science",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 3,
+   "accuracy": 50.0,
+   "total_time_ms": 2115,
+   "mastery_changes": {
+    "c12_home_1582009890_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "c12_home_3749392805_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.6,
+     "delta": 0.6,
+     "accuracy_pct": 60.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "c12_home_1582009890_000",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4000
+    },
+    {
+     "topic": "c12_home_3749392805_000",
+     "attempted": 5,
+     "correct": 3,
+     "mastery_before": 0.0,
+     "mastery_after": 0.6,
+     "avg_time_ms": 7000
+    }
+   ],
+   "started_at": "2026-09-17T16:54:56.377601+00:00",
+   "ended_at": "2026-09-17T16:54:58.493379+00:00",
+   "recommended_next": [
+    "c12_home_1582009890_000",
+    "c12_home_3749392805_000"
+   ]
+  },
+  "texts": [
+   "The process by which a child learns the norms, values, ",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?",
+   "Which cooking method uses the minimum amount of fat?"
+  ]
+ },
+ {
+  "cl": 7,
+  "subject": "english",
+  "sid": "fa985a2e-30f6-47ed-903a-49b5acf92029",
+  "end_status": 400,
+  "correct": 1,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "Write a structured comparative paragraph examining how ",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "Trace the 4 stages of plot development in a student's e",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 2,
+    "q": "Analyze how a descriptive passage about the National Wa",
+    "ans": "The answer is found by applying the defi",
+    "is_correct": true,
+    "p_know": 0.357143
+   },
+   {
+    "i": 3,
+    "q": "Read the following lines: \"The old clock ticked with a ",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 4,
+    "q": "Read this student summary: \"The child makes boats out o",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 5,
+    "q": "Read this sentence from a story about a riverbank: \"Jah",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   }
+  ],
+  "summary": {
+   "session_id": "fa985a2e-30f6-47ed-903a-49b5acf92029",
+   "student_id": "b134e03e-19b5-428e-8b39-de36b54e7b7e",
+   "subject": "english",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 1,
+   "accuracy": 16.7,
+   "total_time_ms": 3517,
+   "mastery_changes": {
+    "corpus:b2af06f5-94de-43ba-868d-8c6731c17a6e": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:153dbf7e-1fe9-4725-adcf-bee85e2a2f35": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:ac2a95f3-651b-4018-889d-bf027a6118ce": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:ef453212-6d61-4c39-b1c5-563a3dc1e5a9": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:a8483af3-2c08-446b-877d-3d3f65472d5e": {
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "delta": 1.0,
+     "accuracy_pct": 100.0
+    },
+    "corpus:ed2589ad-70df-4bf2-bcdd-3d4e8c4cb355": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:b2af06f5-94de-43ba-868d-8c6731c17a6e",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8000
+    },
+    {
+     "topic": "corpus:153dbf7e-1fe9-4725-adcf-bee85e2a2f35",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 9000
+    },
+    {
+     "topic": "corpus:ac2a95f3-651b-4018-889d-bf027a6118ce",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4000
+    },
+    {
+     "topic": "corpus:ef453212-6d61-4c39-b1c5-563a3dc1e5a9",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "corpus:ed2589ad-70df-4bf2-bcdd-3d4e8c4cb355",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7000
+    },
+    {
+     "topic": "corpus:a8483af3-2c08-446b-877d-3d3f65472d5e",
+     "attempted": 1,
+     "correct": 1,
+     "mastery_before": 0.0,
+     "mastery_after": 1.0,
+     "avg_time_ms": 6000
+    }
+   ],
+   "started_at": "2026-09-17T16:54:58.680090+00:00",
+   "ended_at": "2026-09-17T16:55:02.197387+00:00",
+   "recommended_next": [
+    "corpus:b2af06f5-94de-43ba-868d-8c6731c17a6e",
+    "corpus:153dbf7e-1fe9-4725-adcf-bee85e2a2f35",
+    "corpus:ac2a95f3-651b-4018-889d-bf027a6118ce"
+   ]
+  },
+  "texts": [
+   "Write a structured comparative paragraph examining how ",
+   "Trace the 4 stages of plot development in a student's e",
+   "Analyze how a descriptive passage about the National Wa",
+   "Read the following lines: \"The old clock ticked with a ",
+   "Read this student summary: \"The child makes boats out o",
+   "Read this sentence from a story about a riverbank: \"Jah"
+  ]
+ },
+ {
+  "cl": 8,
+  "subject": "mathematics",
+  "sid": "b6d461fa-6da8-40d6-882a-c3a520b814a1",
+  "end_status": 200,
+  "correct": 0,
+  "attempted": 5,
+  "answers": [
+   {
+    "i": 0,
+    "q": "Riya says: \"To expand \\((x + 5) \\times 2\\), I can just ",
+    "ans": "3.5",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "A triangle has sides of length 8 cm, 15 cm, and 17 cm. ",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 2,
+    "q": "A new library book is so popular that each person who r",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 3,
+    "q": "A square piece of cloth of side 81 cm is used to make a",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 4,
+    "q": "In a school election, 3 out of 5 students voted for the",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 5,
+    "q": "The mean weight of 10 parcels is 2.5 kg. The courier co",
+    "ans": "10.833333333333334",
+    "error": "submit 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></cente"
+   }
+  ],
+  "summary": {
+   "session_id": "b6d461fa-6da8-40d6-882a-c3a520b814a1",
+   "student_id": "e86ab17e-40c5-43bc-8bb5-b94c6933836d",
+   "subject": "mathematics",
+   "total_questions": 6,
+   "attempted": 5,
+   "skipped": 0,
+   "correct_count": 0,
+   "accuracy": 0.0,
+   "total_time_ms": 8217,
+   "mastery_changes": {
+    "corpus:b483301d-2d9f-4feb-872a-cd8fc8722bbf": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:fbd680a4-a323-4ace-a925-eccad35712f1": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:d5f09cc2-d3c1-4a41-bbf6-3a12b77a6051": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:08a486c2-4030-4189-b47f-f99634d9ebac": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:19659353-3f9f-4741-a105-3d0459985a2b": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:b483301d-2d9f-4feb-872a-cd8fc8722bbf",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "corpus:fbd680a4-a323-4ace-a925-eccad35712f1",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6000
+    },
+    {
+     "topic": "corpus:d5f09cc2-d3c1-4a41-bbf6-3a12b77a6051",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7000
+    },
+    {
+     "topic": "corpus:08a486c2-4030-4189-b47f-f99634d9ebac",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 4000
+    },
+    {
+     "topic": "corpus:19659353-3f9f-4741-a105-3d0459985a2b",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8000
+    }
+   ],
+   "started_at": "2026-09-17T16:55:03.585013+00:00",
+   "ended_at": "2026-09-17T16:55:11.802072+00:00",
+   "recommended_next": [
+    "corpus:b483301d-2d9f-4feb-872a-cd8fc8722bbf",
+    "corpus:fbd680a4-a323-4ace-a925-eccad35712f1",
+    "corpus:d5f09cc2-d3c1-4a41-bbf6-3a12b77a6051"
+   ]
+  },
+  "texts": [
+   "Riya says: \"To expand \\((x + 5) \\times 2\\), I can just ",
+   "A triangle has sides of length 8 cm, 15 cm, and 17 cm. ",
+   "A new library book is so popular that each person who r",
+   "A square piece of cloth of side 81 cm is used to make a",
+   "In a school election, 3 out of 5 students voted for the",
+   "The mean weight of 10 parcels is 2.5 kg. The courier co"
+  ]
+ },
+ {
+  "cl": 8,
+  "subject": "science",
+  "sid": "2ed87b4b-747e-45ae-a116-99b112b2ccb2",
+  "end_status": 400,
+  "correct": 3,
+  "attempted": 6,
+  "answers": [
+   {
+    "i": 0,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 1,
+    "q": "Which cooking method uses the minimum amount of fat?",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 2,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "socialisation",
+    "is_correct": true,
+    "p_know": 0.383249
+   },
+   {
+    "i": 3,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "socialisation",
+    "is_correct": true,
+    "p_know": 0.721968
+   },
+   {
+    "i": 4,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.331465
+   },
+   {
+    "i": 5,
+    "q": "The process by which a child learns the norms, values, ",
+    "ans": "socialisation",
+    "is_correct": true,
+    "p_know": 0.913028
+   }
+  ],
+  "summary": {
+   "session_id": "2ed87b4b-747e-45ae-a116-99b112b2ccb2",
+   "student_id": "e86ab17e-40c5-43bc-8bb5-b94c6933836d",
+   "subject": "science",
+   "total_questions": 6,
+   "attempted": 6,
+   "skipped": 0,
+   "correct_count": 3,
+   "accuracy": 50.0,
+   "total_time_ms": 12708,
+   "mastery_changes": {
+    "c12_home_1582009890_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.6,
+     "delta": 0.6,
+     "accuracy_pct": 60.0
+    },
+    "c12_home_3749392805_000": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "c12_home_3749392805_000",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "c12_home_1582009890_000",
+     "attempted": 5,
+     "correct": 3,
+     "mastery_before": 0.0,
+     "mastery_after": 0.6,
+     "avg_time_ms": 6800
+    }
+   ],
+   "started_at": "2026-09-17T16:55:12.059189+00:00",
+   "ended_at": "2026-09-17T16:55:24.767902+00:00",
+   "recommended_next": [
+    "c12_home_3749392805_000",
+    "c12_home_1582009890_000"
+   ]
+  },
+  "texts": [
+   "The process by which a child learns the norms, values, ",
+   "Which cooking method uses the minimum amount of fat?",
+   "The process by which a child learns the norms, values, ",
+   "The process by which a child learns the norms, values, ",
+   "The process by which a child learns the norms, values, ",
+   "The process by which a child learns the norms, values, "
+  ]
+ },
+ {
+  "cl": 8,
+  "subject": "english",
+  "sid": "60a8a78b-5a43-406c-b1e5-f419bd91ee0e",
+  "end_status": 200,
+  "correct": 0,
+  "attempted": 5,
+  "answers": [
+   {
+    "i": 0,
+    "q": "Analyze the personification and imagery in this line fr",
+    "ans": "It is the process of identifying the giv",
+    "error": "submit 502 <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></cente"
+   },
+   {
+    "i": 1,
+    "q": "Analyze the personification and imagery in this line fr",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.115053
+   },
+   {
+    "i": 2,
+    "q": "Analyze the following line from a court poem praising a",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 3,
+    "q": "Analyze how Encyclopedia Brown's action of questioning ",
+    "ans": "It is the process of identifying the giv",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 4,
+    "q": "Analyze King Krishnadeva Raya's character trait of \"App",
+    "ans": "9999",
+    "is_correct": false,
+    "p_know": 0.113139
+   },
+   {
+    "i": 5,
+    "q": "Analyze a four-line courtly stanza about Tenali Ramakri",
+    "ans": "Break the problem into steps: list the k",
+    "is_correct": false,
+    "p_know": 0.113139
+   }
+  ],
+  "summary": {
+   "session_id": "60a8a78b-5a43-406c-b1e5-f419bd91ee0e",
+   "student_id": "e86ab17e-40c5-43bc-8bb5-b94c6933836d",
+   "subject": "english",
+   "total_questions": 6,
+   "attempted": 5,
+   "skipped": 0,
+   "correct_count": 0,
+   "accuracy": 0.0,
+   "total_time_ms": 50072,
+   "mastery_changes": {
+    "corpus:0f75a4ba-473b-446e-95e6-7fc14af25040": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:2f2098a7-c32d-4ee6-88a4-661e6fc9866e": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:376659a3-361d-4c6a-b0bb-18e9733feb33": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:a370dcc7-bce0-4182-8627-c2aa053e5536": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    },
+    "corpus:f5b3d658-7c60-450e-9a21-5c1a0a522810": {
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "delta": 0.0,
+     "accuracy_pct": 0.0
+    }
+   },
+   "topic_performance": [
+    {
+     "topic": "corpus:0f75a4ba-473b-446e-95e6-7fc14af25040",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 5000
+    },
+    {
+     "topic": "corpus:2f2098a7-c32d-4ee6-88a4-661e6fc9866e",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 6000
+    },
+    {
+     "topic": "corpus:376659a3-361d-4c6a-b0bb-18e9733feb33",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 7000
+    },
+    {
+     "topic": "corpus:a370dcc7-bce0-4182-8627-c2aa053e5536",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 8000
+    },
+    {
+     "topic": "corpus:f5b3d658-7c60-450e-9a21-5c1a0a522810",
+     "attempted": 1,
+     "correct": 0,
+     "mastery_before": 0.0,
+     "mastery_after": 0.0,
+     "avg_time_ms": 9000
+    }
+   ],
+   "started_at": "2026-09-17T16:55:25.038227+00:00",
+   "ended_at": "2026-09-17T16:56:15.110916+00:00",
+   "recommended_next": [
+    "corpus:0f75a4ba-473b-446e-95e6-7fc14af25040",
+    "corpus:2f2098a7-c32d-4ee6-88a4-661e6fc9866e",
+    "corpus:376659a3-361d-4c6a-b0bb-18e9733feb33"
+   ]
+  },
+  "texts": [
+   "Analyze the personification and imagery in this line fr",
+   "Analyze the personification and imagery in this line fr",
+   "Analyze the following line from a court poem praising a",
+   "Analyze how Encyclopedia Brown's action of questioning ",
+   "Analyze King Krishnadeva Raya's character trait of \"App",
+   "Analyze a four-line courtly stanza about Tenali Ramakri"
+  ]
+ }
+]

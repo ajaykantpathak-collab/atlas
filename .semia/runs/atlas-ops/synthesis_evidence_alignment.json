@@ -1,0 +1,37 @@
+{
+  "alignments": [
+    {
+      "args": [
+        "atlas-ops",
+        "name: atlas-ops"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: atlas-ops",
+      "line": 3,
+      "matched": true,
+      "relation": "skill_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "act_review",
+        "name: atlas-ops"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: atlas-ops",
+      "line": 5,
+      "matched": true,
+      "relation": "action_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    }
+  ],
+  "evidence_match_rate": 1.0,
+  "grounding_score": 0.005791505791505791,
+  "normalized_facts": [
+    "skill_evidence(\"atlas-ops\", \"su_0\").",
+    "action_evidence(\"act_review\", \"su_0\")."
+  ],
+  "reference_unit_coverage": 0.005791505791505791
+}

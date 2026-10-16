@@ -1,0 +1,249 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c2)",
+ "source_file": "c2_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C2_001",
+   "title": "RULE 2: NEW PARTS: Scanner = ...",
+   "section": "RULE 2: NEW PARTS",
+   "formula": "Scanner = scans_pictures*into_computer",
+   "_pats_extra": [],
+   "key_idea": "RULE 2: NEW PARTS (RULE 2: NEW PARTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find scanner using rule 2: new parts",
+    "calculate rule 2: new parts",
+    "rule 2: new parts formula question",
+    "given values find scanner",
+    "rule 2: new parts rule 2: new parts numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C2_001",
+     "question_pattern": "rule 2: new parts with {scans_pictures} and {into_computer} find scanner",
+     "extracted_variables": {
+      "scans_pictures": "given scans_pictures",
+      "into_computer": "given into_computer"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for scans_pictures, into_computer from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Scanner = scans_pictures*into_computer",
+     "compute": "Scanner = scans_pictures*into_computer"
+    }
+   ],
+   "chapter_title": "RULE 2: NEW PARTS"
+  },
+  {
+   "id": "FB_CS_C2_002",
+   "title": "RULE 4: KEYBOARD KEYS: Backspace = ...",
+   "section": "RULE 4: KEYBOARD KEYS",
+   "formula": "Backspace = removes_the*letter_before*the_cursor",
+   "_pats_extra": [],
+   "key_idea": "RULE 4: KEYBOARD KEYS (RULE 4: KEYBOARD KEYS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find backspace using rule 4: keyboard keys",
+    "calculate rule 4: keyboard keys",
+    "rule 4: keyboard keys formula question",
+    "given values find backspace",
+    "rule 4: keyboard keys rule 4: keyboard keys numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C2_002",
+     "question_pattern": "rule 4: keyboard keys with {removes_the} and {letter_before} and {the_cursor} find backspace",
+     "extracted_variables": {
+      "removes_the": "given removes_the",
+      "letter_before": "given letter_before",
+      "the_cursor": "given the_cursor"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for removes_the, letter_before, the_cursor from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Backspace = removes_the*letter_before*the_cursor",
+     "compute": "Backspace = removes_the*letter_before*the_cursor"
+    }
+   ],
+   "chapter_title": "RULE 4: KEYBOARD KEYS"
+  },
+  {
+   "id": "FB_CS_C2_003",
+   "title": "RULE 5: PAINT TOOLS: Brush = ...",
+   "section": "RULE 5: PAINT TOOLS",
+   "formula": "Brush = draws_with*different_sizes",
+   "_pats_extra": [],
+   "key_idea": "RULE 5: PAINT TOOLS (RULE 5: PAINT TOOLS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find brush using rule 5: paint tools",
+    "calculate rule 5: paint tools",
+    "rule 5: paint tools formula question",
+    "given values find brush",
+    "rule 5: paint tools rule 5: paint tools numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C2_003",
+     "question_pattern": "rule 5: paint tools with {draws_with} and {different_sizes} find brush",
+     "extracted_variables": {
+      "draws_with": "given draws_with",
+      "different_sizes": "given different_sizes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for draws_with, different_sizes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Brush = draws_with*different_sizes",
+     "compute": "Brush = draws_with*different_sizes"
+    }
+   ],
+   "chapter_title": "RULE 5: PAINT TOOLS"
+  },
+  {
+   "id": "FB_CS_C2_004",
+   "title": "RULE 6: FILE RULES: Save = ...",
+   "section": "RULE 6: FILE RULES",
+   "formula": "Save = keeps_work*in_the_computer",
+   "_pats_extra": [],
+   "key_idea": "RULE 6: FILE RULES (RULE 6: FILE RULES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find save using rule 6: file rules",
+    "calculate rule 6: file rules",
+    "rule 6: file rules formula question",
+    "given values find save",
+    "rule 6: file rules rule 6: file rules numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C2_004",
+     "question_pattern": "rule 6: file rules with {keeps_work} and {in_the_computer} find save",
+     "extracted_variables": {
+      "keeps_work": "given keeps_work",
+      "in_the_computer": "given in_the_computer"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for keeps_work, in_the_computer from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Save = keeps_work*in_the_computer",
+     "compute": "Save = keeps_work*in_the_computer"
+    }
+   ],
+   "chapter_title": "RULE 6: FILE RULES"
+  },
+  {
+   "id": "FB_CS_C2_005",
+   "title": "RULE 6: FILE RULES: Open = ...",
+   "section": "RULE 6: FILE RULES",
+   "formula": "Open = sees_work*that_was_saved",
+   "_pats_extra": [],
+   "key_idea": "RULE 6: FILE RULES (RULE 6: FILE RULES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find open using rule 6: file rules",
+    "calculate rule 6: file rules",
+    "rule 6: file rules formula question",
+    "given values find open",
+    "rule 6: file rules rule 6: file rules numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C2_005",
+     "question_pattern": "rule 6: file rules with {sees_work} and {that_was_saved} find open",
+     "extracted_variables": {
+      "sees_work": "given sees_work",
+      "that_was_saved": "given that_was_saved"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for sees_work, that_was_saved from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Open = sees_work*that_was_saved",
+     "compute": "Open = sees_work*that_was_saved"
+    }
+   ],
+   "chapter_title": "RULE 6: FILE RULES"
+  },
+  {
+   "id": "FB_CS_C2_006",
+   "title": "RULE 10: DRAG FORMULA: Drag = ...",
+   "section": "RULE 10: DRAG FORMULA",
+   "formula": "Drag = Click + Hold + Move",
+   "_pats_extra": [],
+   "key_idea": "RULE 10: DRAG FORMULA (RULE 10: DRAG FORMULA)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find drag using rule 10: drag formula",
+    "calculate rule 10: drag formula",
+    "rule 10: drag formula formula question",
+    "given values find drag",
+    "rule 10: drag formula rule 10: drag formula numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C2_006",
+     "question_pattern": "rule 10: drag formula with {Click} and {Hold} and {Move} find drag",
+     "extracted_variables": {
+      "Click": "given Click",
+      "Hold": "given Hold",
+      "Move": "given Move"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Click, Hold, Move from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Drag = Click + Hold + Move",
+     "compute": "Drag = Click + Hold + Move"
+    }
+   ],
+   "chapter_title": "RULE 10: DRAG FORMULA"
+  }
+ ]
+}

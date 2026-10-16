@@ -1,0 +1,30 @@
+W0921 23:37:36.026000 6072 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-21 23:37:53,165 --- Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1641.75it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+MISS fegp.101.1.4.2 | Virahanka numbers: sum 1 + 2 + ... + 8 + ... + 2 + 1 gi -> None exp 64
+ch101.json 64/65
+ch102.json 66/66
+ch103.json 54/54
+ch104.json 42/42
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1 at x = 1, the tangent slope is m; -> -0.0833 exp 12
+ch105.json 62/63
+ch106.json 125/125
+ch108.json 42/42
+fegp101.json 24/24
+fegp102.json 24/24
+fegp103.json 23/23
+fegp104.json 24/24
+fegp105.json 22/22
+fegp107.json 24/24
+fegp108.json 24/24
+fegp109.json 24/24
+fegp110.json 24/24
+CLASS6 TOTAL: 668 / 670 in 123 s

@@ -153,6 +153,29 @@ CASES = [
      0.7745966, "CORRELATION_COEFFICIENT", "0.7746"),
     ("Compute the correlation coefficient: X: 10, 12, 14, 16, 18 and Y: 40, 42, 44, 42, 46.",
      0.8320502, "CORRELATION_COEFFICIENT", "0.8321"),
+
+    # ---- ISC numeric (cisce-solver-commerce 2026-09-30) ----
+    # PRICE_CONTROL_GAP: quantities STATED at the controlled price
+    ("The government fixes the MSP of wheat at Rs 22 per kg. At this price the quantity supplied is 130 lakh tonnes and the quantity demanded is 80 lakh tonnes. Find the surplus or shortage. The equilibrium price is Rs 18.",
+     50.0, "PRICE_CONTROL_GAP", "surplus (excess supply) of 50 units"),
+    ("The government imposes a price ceiling of Rs 8 per unit. At Rs 8 the quantity demanded is 150 units and the quantity supplied is 100 units. The equilibrium price is Rs 10. Find the shortage and state whether the ceiling is binding.",
+     50.0, "PRICE_CONTROL_GAP", "at the ceiling price of Rs 8 (Qs 100 vs Qd 150) -- binding"),
+    ("A price floor of Rs 8 per kg is fixed for sugarcane. At Rs 8 the quantity supplied is 60 quintals and the quantity demanded is 90 quintals. The equilibrium price is Rs 10 per kg. Find the gap and state whether the floor is binding.",
+     30.0, "PRICE_CONTROL_GAP", "not binding"),
+    # MPC_DELTA: MPC from a change (+ APC at both levels)
+    ("As disposable income rises from Rs 1000 crores to Rs 1200 crores, consumption rises from Rs 800 crores to Rs 950 crores. Calculate the MPC and the APC at both levels of income.",
+     0.75, "MPC_DELTA", "MPC = 0.75"),
+    ("When income rises from Rs 500 lakh to Rs 700 lakh, consumption rises from Rs 420 lakh to Rs 560 lakh. Find the marginal propensity to consume.",
+     0.7, "MPC_DELTA", "0.7"),
+    ("National income increases from Rs 2000 crores to Rs 2600 crores and consumption increases from Rs 1600 crores to Rs 2050 crores. Calculate MPC and APC at both levels.",
+     0.75, "MPC_DELTA", "at Rs 2600 = 0.7885"),
+    # MU_FROM_TU: marginal utility from a total-utility schedule
+    ("A consumer derives the following total utilities from eating gulab jamuns: 1st = 30 utils, 2nd = 55 utils, 3rd = 75 utils, 4th = 90 utils, 5th = 100 utils. Calculate the marginal utility of each jamun.",
+     100.0, "MU_FROM_TU", "diminishing MU sets in from the 2nd unit"),
+    ("The total utility from successive units of a good is: 1st unit = 10 utils, 2nd unit = 18 utils, 3rd unit = 24 utils and 4th unit = 28 utils. Derive the marginal utility schedule.",
+     28.0, "MU_FROM_TU", "10 8 6 4 utils"),
+    ("The total utility of a consumer is 20 utils from the 1st ice cream, 45 utils from the 2nd and 75 utils from the 3rd. Find the marginal utilities.",
+     75.0, "MU_FROM_TU", "Marginal utilities: 20 25 30 utils"),
 ]
 
 # questions that must NOT ship a number (impossible-economy states gate out)
@@ -164,6 +187,11 @@ IMPOSSIBLE = [
     ("Find the correlation coefficient for X: 5, 5, 5 and Y: 1, 2, 3.", None),
     ("A country has visible exports of -100 and visible imports of 50. Find the balance of payments.", None),
     ("At consumers equilibrium the marginal utility of good X is -10, the price of X is 2 and the marginal utility of good Y is 20. Find the price of Y.", None),
+    # ISC numeric wave gates (cisce-solver-commerce 2026-09-30)
+    ("Income rises from Rs 1000 to Rs 1100 and consumption rises from Rs 800 to Rs 1000. Calculate the MPC.", None),
+    ("At the price ceiling of Rs 6 the quantity demanded is 100 and the quantity supplied is 100. Find the shortage.", None),
+    ("The government sets a price ceiling of Rs 0. At this price quantity demanded is 200 and quantity supplied is 50. Find the shortage.", None),
+    ("The total utility schedule of a consumer is: 2nd unit = 30 utils, 3rd unit = 55 utils. Find the marginal utility of each unit.", None),
 ]
 
 # other-subject probes: economics families must stay silent (no match at all)

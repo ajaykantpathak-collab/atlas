@@ -1,0 +1,106 @@
+{
+  "edits": [
+    {
+      "file": "c11_acc_cbse_01_001.md",
+      "definition": "Accounting is the process of identifying, measuring, recording, classifying and summarising, in terms of money, the transactions and events of an organisation that are of a financial character, and of interpreting the results to communicate them to the users who must act on them. It runs as a four-phase information system: identify the economic events, record them, summarise them into a trial balance and financial statements, and communicate the results to insiders and outsiders for decision-making. Book-keeping is only its recording phase; accounting rises from the records to analysis and report."
+    },
+    {
+      "file": "c8_math_ch2_12.md",
+      "definition": "For any non-zero number a — whether an integer, fraction, decimal or algebraic expression — the zeroth power equals one: a⁰ = 1. The base may not be zero, because 0⁰ is left undefined. The rule follows from the law of exponents: dividing aⁿ by itself gives aⁿ⁻ⁿ = a⁰, and any non-zero quantity divided by itself equals 1 — so a⁰ must equal 1."
+    },
+    {
+      "file": "c12_hist_cbse_04_002.md",
+      "definition": "The Shramana challenge was the rise, around the sixth century BCE in the Ganga valley, of renunciant traditions — Jainism, Buddhism, the Ajivikas and the materialist Lokayatas — that stood outside the Vedic sacrificial order. They questioned the authority of the Vedas and the priests, the efficacy of yajnas and birth-based status, teaching instead that a person's acts decide the future and that liberation comes through personal ethical discipline. Their questioning permanently reshaped Indian religious life.",
+      "walkthrough_append": "Set the two streams side by side in one table: the Vedic stream centres on sacrifice, priestly mediation and household duties; the Shramana stream centres on renunciation, personal conduct and non-violence — Jain monks sweeping the ground before their steps, Buddhist monastics leaving the household entirely. Yet note the conversation between them: both accepted karma and rebirth, and each sharpened its position against the other in open debate. Exam takeaway: the Shramana movements turned religion from a ritual transaction into a personal ethical project, without abandoning the shared ideas of karma and rebirth. Self-check: name two Shramana traditions, two Vedic practices they questioned, and one idea both streams accepted."
+    },
+    {
+      "file": "c11_biotech_cbse_11_002.md",
+      "definition": "Python for bioinformatics is the use of the Python language — variables, data types, loops, functions and modules — together with biology-aware libraries such as Biopython, NumPy and pandas, to work on biological data: reading sequences, counting nucleotides, translating DNA to protein, computing statistics over expression tables and drawing plots. The readable syntax keeps attention on the biological question, while the libraries supply ready, tested tools for the mechanical work of parsing and calculation.",
+      "walkthrough_append": "Run one real task through the pipeline: open a FASTA file with Biopython, read the record, count the four bases with a loop, compute the GC content as a percentage, and print the result — a few lines that would take pages of low-level file parsing without the library. Then scale the same script to a folder of a hundred sequences: only the loop changes, and that repeatability — same script, same result, every run — is what makes an analysis scientific. Exam takeaway: Python suits bioinformatics because clear syntax meets ready libraries, turning repetitive parsing into short, reproducible scripts. Self-check: write pseudocode for computing the GC content of one sequence, and name two libraries with one use of each."
+    },
+    {
+      "file": "c11_biotech_cbse_11_010.md",
+      "definition": "Bioinformatics web services and APIs are standardised protocols through which a program queries biological databases over the internet: NCBI's E-utilities fetch sequences and publications, UniProt's REST interface serves protein records, and the PDB API serves molecular structures. A request is a URL naming the database, the record and the return format; the reply is machine-readable data. APIs turn databases into programmable functions, so a thousand retrievals run as one script — reproducible, documented and free of copy-paste error.",
+      "walkthrough_append": "Trace one automated retrieval end to end: the script builds a URL with the database name, an accession number and the return type; the server answers with the record; the script saves it and moves to the next accession — a hundred records fetched while the analyst writes the summary. Note the courtesies that are rules: an API key identifies the requester, and rate limits pace the calls so shared servers are not overwhelmed. Exam takeaway: an API call names the resource and receives structured data; keys and rate limits keep shared access fair. Self-check: name two bioinformatics databases with one thing each serves, and state in one line why a script beats manual downloading for a hundred records."
+    },
+    {
+      "file": "c12_hist_cbse_10_004.md",
+      "definition": "The Revolt of 1857 threw up its leaders in the very places where the rising burned: Rani Lakshmibai of Jhansi, Nana Saheb at Kanpur with Tantia Tope as his general, Begum Hazrat Mahal in Lucknow and Kunwar Singh in Bihar. Most were pushed forward reluctantly — popular pressure and local grievance crowned them rather than courtly ambition — and each welded local discontents into armed resistance. Their case states the pattern of 1857 plainly: leadership was often imposed from below, not seized from above.",
+      "walkthrough_append": "Follow Jhansi as the pattern made flesh: annexation under the doctrine of lapse supplied the grievance, the uprising supplied the rupture, and the Rani — who had petitioned against the annexation — took command when her people and troops would accept no one else; the defence of Jhansi and the fight for Gwalior closed her account in battle. At Kanpur the same sequence: a dispossessed heir, sepoys in revolt, and Nana Saheb installed by events while Tantia Tope supplied the military skill. Exam takeaway: the leaders of 1857 were figures whom the revolt made leaders — grievance first, command after. Self-check: name the leader, the seat and the immediate grievance for Jhansi and Kanpur, and state the pattern the two cases share."
+    },
+    {
+      "file": "c12_hist_cbse_01_004.md",
+      "definition": "The Harappan drainage system was a city-wide network of covered brick drains that ran along the streets of Mohenjodaro, Harappa, Lothal and other Mature Harappan cities (2600–1900 BCE), receiving wastewater from houses through connections to the street channels, with soak pits and sumps trapping solids along the way. Drains were lined with brick, covered with slabs, and fitted with inspection points for cleaning. The uniformity of the standard across a vast territory points to planned urban authority — one of the clearest marks of Harappan town planning.",
+      "walkthrough_append": "Walk one drop of water through the system as the answer should narrate it: a bath or kitchen drains through a pipe into the house drain; a screen or sump at the junction catches solid waste; the flow joins the covered street drain; and the main channel carries it beyond the settlement — every stop designed so that cleaning, not accident, keeps the line open. Add the planning inference: such a network must be laid out before the streets are built, which is why the cities show a grid plan rather than lanes that grew by chance. Exam takeaway: covered drains, house connections and soak pits together mark the Harappans as planners of sanitation on a city scale. Self-check: list the parts of the system in order from house to main drain, and state what each part caught or carried."
+    },
+    {
+      "file": "c11_biotech_cbse_11_005.md",
+      "definition": "R is a free, open-source language and environment built for statistical computing and graphics, and it has become a standard tool in biology for exactly the work high-throughput data demands: importing data tables, computing summary statistics, running tests such as the t-test, and drawing boxplots, histograms and scatter plots with a few commands. Because the entire analysis is a script, every step is recorded and repeatable — a colleague can rerun the exact analysis, and every revision leaves a visible trace.",
+      "walkthrough_append": "Run one experiment file end to end: read a table of plant heights with two treatment columns, call the summary function for group means and spread, run a t-test to ask whether the treatment difference exceeds chance, and draw a boxplot of the groups — four commands, and the whole analysis is one file that reruns identically next term. Contrast the spreadsheet workflow, where one overwritten cell silently changes everything and no record remains. Exam takeaway: R makes statistics reproducible — data in, script through, result out, the same every time. Self-check: name the four R steps for comparing two groups, and state in one line why a script is safer than point-and-click for a repeated analysis."
+    },
+    {
+      "file": "c10_math_cbse_10_010.md",
+      "definition": "The tangent properties of a circle rest on two facts: the tangent at any point is perpendicular to the radius drawn through the point of contact, and the two tangents drawn to a circle from an external point are equal in length. Word problems combine these with angle facts — the angle between the two tangents is supplementary to the angle subtended at the centre by the chord of contact — and with right triangles solved by the Pythagorean theorem, since the centre, the point of contact and the external point form the right angle."
+    },
+    {
+      "file": "c12_hist_cbse_05_012.md",
+      "walkthrough_append": "Line the three up on their purposes and their blind spots: Al-Biruni came to understand, reading Sanskrit texts and judging India by comparison with Greek learning, but saw little of ordinary life; Ibn Battuta travelled as a qazi, recording vividly what met the eye — food, prices, roads — but measuring it by the standards of his own law; Bernier came to compare and advise, sharp on property and kingship, yet reading India through a hierarchy that placed Europe first. Exam takeaway: every account is a lens — motive decides what is noticed, origin decides how it is judged; use them against one another, not alone. Self-check: state the motive of each traveller, one strength of each account, and one bias each carries."
+    },
+    {
+      "file": "c12_hist_cbse_03_003.md",
+      "walkthrough_append": "Hold the ideal and the record side by side: the Brahmanical texts prescribe gotra exogamy — no marriage within the same gotra — rank eight forms of marriage from sanctioned to unacceptable, and expect sons to continue the patriliny and offer the funeral libation. The Satavahana inscriptions then show queens named with metronymics — after the mother — and practice drifting from the textbook rules, with endogamy and exogamy both attested. Exam takeaway: normative texts state what ought to be; inscriptions record what was; the historian reads the gap between them, not either alone. Self-check: define gotra exogamy, name the textual source of the eight forms of marriage, and state what metronymic names reveal about the period."
+    },
+    {
+      "file": "c12_hist_cbse_06_005.md",
+      "walkthrough_append": "Hear each voice against her convention: Karaikkal Ammaiyar renounced beauty and household for ascetic devotion, and her hymns are still sung in Shiva temples; Andal, refusing marriage to any mortal, is remembered as bride to the deity herself, her verses sung each season in Tamil temples; Mirabai defied the palace that sought to poison her and sang of her devotion in the language of the streets. Three centuries, three regions, one rupture: women composing, teaching and claiming the deity directly. Exam takeaway: these saints matter to the historian because their compositions survive as evidence — devotion recorded in a woman's own voice, disturbing both caste and gender order. Self-check: name each saint with her century and region, and one way each defied the expectation of her station."
+    },
+    {
+      "file": "c12_hist_cbse_12_006.md",
+      "walkthrough_append": "Reconstruct one clash from the debates: on property, the Assembly wrote a right the state could limit for public purpose, over members who wanted compensation entrenched; on speech, members pressed for near-absolute freedom, and the Assembly wrote in the restrictions that public order, morality and the security of the state required; on preventive detention, necessity for a society facing communal and economic strain won over those who feared its misuse, with safeguards written in and unease recorded. Exam takeaway: the Assembly wrote rights as limits on the state, and wrote the limits as social necessity demanded — every clause was argued, none accidental. Self-check: name the three contested rights, one objection raised against each, and the compromise each debate produced."
+    },
+    {
+      "file": "c11_leg_cbse_05_005.md",
+      "definition": "Answering Board questions on Administrative Law is a craft of assembly: define the doctrine precisely (rule of law, natural justice, delegated legislation, judicial review), state its constitutional or statutory basis, cite the leading case, apply the rule to the facts given in the question, and close with its significance. The examiner rewards the full chain — definition, basis, authority, application, conclusion — and penalises the missing links. Practised as an assembly line, the technique turns any unfamiliar fact pattern into an ordered, complete answer."
+    },
+    {
+      "file": "c12_soc_cbse_07_010.md",
+      "definition": "A Class 12 sociology project works best inside one of the five themes the syllabus suggests — caste, gender, tribe, market or media — narrowed to a question that fieldwork can actually answer: not how caste works in India, but how students of different castes mix in one school's lunch hour. The work is the design: a focused research question, a method that fits it — interview, observation or questionnaire — and a plan small enough to finish within the term. The discipline of a good project is choosing the doable."
+    },
+    {
+      "file": "c7_math_ch15_006.md",
+      "definition": "Most lost marks in linear equations come from a handful of repeating errors: a sign that should flip on transposition but does not, a bracket removed without multiplying every term inside it, a term divided on one side only, or arithmetic slips under the pressure of several steps. The cure is procedure: keep both sides balanced in every move, write each step on its own line, and finish by substituting the answer into the original equation to check that both sides come out equal."
+    },
+    {
+      "file": "c7_hist_ch02_004.md",
+      "definition": "Ashoka's transformation is the story of a conqueror remade by his own victory: the Kalinga war of about 261 BCE, with its slaughter and captivity, filled him with a remorse he had carved into his rock edicts for all to read. Thereafter he turned from expansion to dhamma — respect for elders and ascetics, kindness to servants and animals, tolerance among sects — and governed through proclamation, welfare works and officials appointed to spread that conduct. The edicts that carry the remorse are themselves instruments of the new policy: peace declared, in stone, across the empire."
+    },
+    {
+      "file": "c7_hist_ch01_009.md",
+      "definition": "In the age of the Mahajanapadas (about 600–300 BCE), towns rose on specialised craft and trade: potters, metalworkers, weavers and bead-makers organised into guilds called shrenis, which set standards, trained workers and even lent money. Punch-marked silver and copper coins circulated on a large scale for the first time, easing trade beyond barter, and routes carried goods from the Ganga valley towards coasts and neighbouring lands. This flowering of crafts, guilds and coinage is the heart of the subcontinent's second urbanisation."
+    },
+    {
+      "file": "c8_eco_ch2_3.md",
+      "definition": "Population size is the total count of people living in a defined area at a given time — for India, over 121 crore at Census 2011, counted against a fixed reference date of 1 March. It is a stock figure, revised each decade by the census, and it answers the question how many. Density — persons per square kilometre — answers the separate question how crowded, because the same size spread over a larger area eases the pressure; size and density must never be confused."
+    },
+    {
+      "file": "c11_bio_cbse_13_007.md",
+      "definition": "Vernalisation is the induction of flowering by a preceding period of low temperature, typically between 0 and 10 degrees Celsius, seen in winter annuals and biennials such as wheat, barley, rye and carrot. The cold treatment makes the shoot apex competent to flower, so the plant flowers when warmth returns, synchronising reproduction with spring. Agriculture exploits it both ways: winter varieties need the cold to flower at all, and pre-chilling seed can make a spring variety behave like a winter one."
+    },
+    {
+      "file": "c11_bio_cbse_09_001.md",
+      "definition": "Carbohydrates are biomolecules of carbon, hydrogen and oxygen in which hydrogen and oxygen stand in the ratio of water: polyhydroxy aldehydes and ketones and their polymers. Monosaccharides such as glucose, fructose and ribose are the single units; disaccharides such as sucrose and lactose join two units by a glycosidic bond; polysaccharides such as starch, glycogen and cellulose are long chains serving as energy stores and structural materials. Digestion is hydrolysis — the glycosidic bonds are split with water to release the units again."
+    },
+    {
+      "file": "c11_bio_cbse_03_002.md",
+      "definition": "Algae are chlorophyll-bearing, simple, thalloid, autotrophic organisms, largely aquatic — in fresh water and the sea — and also found on moist stones, soil and wood. The thallus ranges from unicellular to colonial and filamentous forms; reproduction runs the full range from vegetative fragmentation through asexual motile zoospores to sexual union of gametes, which may be isogamous, anisogamous or oogamous. The three classes are told apart chiefly by pigments and stored food: green Chlorophyceae with chlorophyll and starch, brown Phaeophyceae with fucoxanthin and specific stored foods, and red Rhodophyceae with r-phycoerythrin and floridean starch."
+    },
+    {
+      "file": "c12_chem_cbse_08_003.md",
+      "definition": "Two routes prepare ketones while avoiding over-addition. An acyl chloride reacts with dialkylcadmium — prepared from the corresponding Grignard reagent and cadmium chloride — which is less reactive than the Grignard reagent itself and therefore stops cleanly at the ketone. A nitrile adds one molecule of Grignard reagent across the carbon–nitrogen triple bond to give an imine salt, and acidic hydrolysis of that intermediate yields the ketone; the second addition cannot occur because the imine salt is not electrophilic, and only the acid workup converts it into the carbonyl."
+    },
+    {
+      "file": "c12_bio_cbse_07_003.md",
+      "definition": "Palaeontological and anatomical evidence converge on common ancestry. Fossils, dated by their rock layers and by radioactive clocks, record the sequence of change — deeper fossils are older, and transitional forms such as Archaeopteryx, half reptile and half bird, mark the great shifts, while the horse series shows gradual modification from forest browsing to plains running. Anatomy reads the same history in living bodies: homologous structures share one basic plan adapted to different uses, analogous ones serve the same function from different origins, and vestigial organs are inherited leftovers of an ancestral form."
+    }
+  ]
+}

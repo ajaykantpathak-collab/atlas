@@ -1,0 +1,28 @@
+{
+ "session_id": "10217499-c791-4e9c-95c8-2811b86a0014",
+ "student_id": "16509cb4-c854-4331-946a-9c5048272f61",
+ "subject": "mathematics",
+ "topic_ids": [],
+ "status": "active",
+ "question_number": 2,
+ "total_questions": 6,
+ "current_question": {
+  "question_id": "corpus:2c93e7b0-110d-49d8-800b-c1ff4af282ec",
+  "text": "Your friend calculates the mean of 5, 10, and 15 as (5+10+15) / 2 = 15. What is wrong with their logic and how do you fix it?",
+  "question_type": "text",
+  "options": [],
+  "input_type": "text",
+  "marks": 1,
+  "difficulty": "easy",
+  "competency_badge": "Curious Learner",
+  "topic": "ch09",
+  "subtopic": null,
+  "hints_available": false
+ },
+ "answered_count": 1,
+ "correct_count": 0,
+ "skipped_count": 0,
+ "time_spent_ms": 4036,
+ "started_at": "2026-09-17T16:45:56.256295+00:00",
+ "elapsed_ms": 4036
+}

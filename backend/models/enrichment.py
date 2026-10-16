@@ -11,6 +11,7 @@ last-resort fallback, never for generating the core teaching content.
 """
 
 from sqlalchemy import (
+    Boolean,
     Column,
     String,
     Integer,
@@ -138,6 +139,55 @@ class BoardQuestion(Base):
 
     def __repr__(self) -> str:
         return f"<BoardQuestion(id={self.id}, subject={self.subject}, class={self.class_level}, type={self.question_type})>"
+    is_choice_row = Column(Boolean, nullable=False, default=False)
+
+
+class BoardQuestionFlag(Base):
+    """Bank-lane exclusion flag (bank repair 2026-10-03).
+
+    Rows excluded from question matching/serving because the DATA cannot
+    support them:
+      template_row  — question_text itself is a generic extraction template
+                      stamped across many node files, each keyed to a
+                      different answer (the ambiguity-refusal storm).
+      no_answer_key — correct_answer is empty; practice verify reads
+                      correct_answer directly, so the row can never VERIFY.
+
+    Consulted by:
+      - services/question_selector.py::_corpus_candidates  (NOT EXISTS)
+      - its/solver/bank_answer.py _SQL / _TRGM_SQL         (NOT EXISTS)
+
+    Populated by backend.tests.bank_norm_repair (single-transaction apply,
+    JSONL backup written first).
+    """
+
+    __tablename__ = "board_question_flags"
+
+    question_id = Column(
+        GUID(), ForeignKey("board_questions.id", ondelete="CASCADE"),
+        primary_key=True,
+    )
+    reason = Column(String(32), nullable=False)
+    created_at = Column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
+
+
+def board_question_not_flagged(*reasons: str):
+    """SQLAlchemy condition: board_questions row is NOT flag-excluded.
+
+    bank repair 2026-10-03.  No reasons = exclude any flagged row;
+    reasons narrow it (e.g. node-scoped diagnostic lanes only drop
+    'no_answer_key' and keep template diagnostics, which the node gate
+    disambiguates).
+    """
+    from sqlalchemy import exists, select
+
+    subq = select(BoardQuestionFlag.question_id).where(
+        BoardQuestionFlag.question_id == BoardQuestion.id)
+    if reasons:
+        subq = subq.where(BoardQuestionFlag.reason.in_(reasons))
+    return ~exists(subq)
 
 
 class ClassLevelContent(Base):

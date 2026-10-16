@@ -21,6 +21,8 @@ from backend.models.assessment import (
 )
 from backend.services.progress_service import ProgressService
 from backend.services.mastery_ledger import record_assessment
+from backend.services.feedback_scrub import (
+    scrub_answer_key, scrub_explanation)
 
 
 class AssessmentService:
@@ -86,8 +88,9 @@ class AssessmentService:
             else 0.0
         )
 
-        # Award XP
-        xp_amount = 10 if is_correct else 2
+        # Award XP (canonical amounts from the reward service)
+        from backend.services.reward_ledger import xp_for_answer
+        xp_amount = xp_for_answer(is_correct)
         await ProgressService.award_xp(db, user_id, xp_amount)
 
         # Update streak
@@ -110,10 +113,14 @@ class AssessmentService:
             },
         )
 
+        # Bank rows can carry grader prose in correct_answer/explanation
+        # that contradicts the verdict — same scrub as practice submit.
+        _cd = scrub_answer_key(question.correct_answer)
+        _ex = scrub_explanation(question.explanation, is_correct)
         return {
             "is_correct": is_correct,
-            "correct_answer": question.correct_answer,
-            "explanation": question.explanation,
+            "correct_answer": _cd,
+            "explanation": _ex,
             "marks_awarded": marks_awarded,
             "updated_mastery": updated_mastery,
         }
@@ -299,9 +306,15 @@ class AssessmentService:
         attempt.topic_scores = list(topic_scores.values())
         attempt.weakness_areas = weakness_areas
 
-        # Award XP based on score
+        # Award XP based on score (exam curve; the ledger owns storage,
+        # level derivation and idempotency — keyed by the attempt row so a
+        # resubmitted exam pays once).
+        from backend.services.reward_ledger import RewardLedger
         xp_amount = int(total_score * 5) + (50 if percentage >= 80 else 0)
-        await ProgressService.award_xp(db, user_id, xp_amount)
+        await RewardLedger.award_xp(
+            db, user_id, xp_amount,
+            event="exam", event_ref=str(attempt.id),
+        )
         await ProgressService.update_streak(db, user_id)
 
         # Log activity

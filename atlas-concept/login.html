@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  .auth-split { display: flex; min-height: calc(100vh - 58px); }
+  .auth-cosmos { flex: 1.1; position: relative; overflow: hidden; display: flex; align-items: flex-end; padding: 40px; }
+  .auth-cosmos canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .auth-cosmos .tag { position: relative; z-index: 2; }
+  .auth-paper { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 24px; }
+  .auth-paper .paper-sheet { width: 100%; max-width: 420px; }
+  .auth-field { margin: 18px 0; }
+  .auth-field label { display: block; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 4px; }
+  .auth-field input {
+    width: 100%; border: none; border-bottom: 1.5px solid var(--ink);
+    background: transparent; font-family: var(--font-serif); font-size: 18px;
+    padding: 8px 2px; color: var(--ink); outline: none;
+  }
+  .auth-field input:focus { border-bottom-color: var(--gold-paper); }
+  @media (max-width: 860px) { .auth-split { flex-direction: column; } .auth-cosmos { min-height: 34vh; } }
+</style>
+</head>
+<body class="cosmos-page">
+<div class="specimen-bar" data-specimen-bar></div>
+
+<div class="auth-split">
+  <!-- left: calm cosmos, single constellation -->
+  <div class="auth-cosmos">
+    <canvas id="cosmos"></canvas>
+    <div class="tag" data-motion="cosmos-in">
+      <p class="specimen gold">Specimen · your sky is waiting</p>
+      <p style="font-family:var(--font-disp);font-size:30px;max-width:380px;line-height:1.2;">
+        Sign in and the syllabus becomes a living sky.</p>
+    </div>
+  </div>
+
+  <!-- right: paper form -->
+  <div class="paper-surface auth-paper">
+    <div class="paper-sheet" data-motion="settle">
+      <div class="sheet-head"><span class="l">Admission slip</span><span class="r">student · parent · teacher</span></div>
+      <div class="sheet-body">
+        <div class="auth-field">
+          <label for="em">Roll — email or username</label>
+          <input id="em" type="email" placeholder="aarav@school.in" autocomplete="email">
+        </div>
+        <div class="auth-field">
+          <label for="pw">Password</label>
+          <input id="pw" type="password" placeholder="········" autocomplete="current-password">
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:26px;">
+          <a class="btn-paper ink" href="dashboard.html">Enter →</a>
+          <button class="paper-redpen" id="forgot" style="font-size:16px;cursor:pointer;">forgot it? happens.</button>
+        </div>
+        <p class="paper-redpen" id="forgot-note" style="margin-top:10px;min-height:26px;font-size:16px;"></p>
+        <p class="specimen" style="margin-top:24px;">New here? <a href="#" id="newhere" style="color:var(--gold-paper);text-decoration:underline;">Collect your admission slip</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/chrome.js"></script>
+<script src="js/cosmos.js"></script>
+<script src="js/motions.js"></script>
+<script>
+document.getElementById("forgot").addEventListener("click", () => {
+  document.getElementById("forgot-note").textContent =
+    "— reset link would go to your email. Check the inbox you wrote above.";
+});
+document.getElementById("newhere").addEventListener("click", e => {
+  e.preventDefault();
+  document.getElementById("forgot-note").textContent =
+    "— signup is one slip away. Class, board, name. That's it.";
+  document.getElementById("em").focus();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,1248 @@
+{
+ "subject": "chem",
+ "chapter_title": "ICSE chem formula bank (c10)",
+ "source_file": "c10_chem_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CHEM_C10_001",
+   "title": "Moles (from mass): n = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "n = mass / molar_mass",
+   "_pats_extra": [],
+   "key_idea": "Moles (from mass) (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using moles (from mass)",
+    "calculate moles (from mass)",
+    "moles (from mass) formula question",
+    "given values find n",
+    "1. mole concept and stoichiometry moles (from mass) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_001",
+     "question_pattern": "moles (from mass) with {mass} and {molar_mass} find n",
+     "extracted_variables": {
+      "mass": "given mass",
+      "molar_mass": "given molar_mass"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mass, molar_mass from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = mass / molar_mass",
+     "compute": "n = mass / molar_mass"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_002",
+   "title": "Moles (from mass): n = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "n = m / M",
+   "_pats_extra": [],
+   "key_idea": "Moles (from mass) (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using moles (from mass)",
+    "calculate moles (from mass)",
+    "moles (from mass) formula question",
+    "given values find n",
+    "1. mole concept and stoichiometry moles (from mass) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_002",
+     "question_pattern": "moles (from mass) with {m} and {M} find n",
+     "extracted_variables": {
+      "m": "given m",
+      "M": "given M"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, M from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = m / M",
+     "compute": "n = m / M"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_003",
+   "title": "Moles (from gas volume at STP): n = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "n = volume / 22.4",
+   "_pats_extra": [],
+   "key_idea": "Moles (from gas volume at STP) (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using moles (from gas volume at stp)",
+    "calculate moles (from gas volume at stp)",
+    "moles (from gas volume at stp) formula question",
+    "given values find n",
+    "1. mole concept and stoichiometry moles (from gas volume at stp) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_003",
+     "question_pattern": "moles (from gas volume at stp) with {volume} find n",
+     "extracted_variables": {
+      "volume": "given volume"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for volume from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = volume / 22.4",
+     "compute": "n = volume / 22.4"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_004",
+   "title": "Moles (from number of particles): n = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "n = particles / 6.022*10^23",
+   "_pats_extra": [],
+   "key_idea": "Moles (from number of particles) (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using moles (from number of particles)",
+    "calculate moles (from number of particles)",
+    "moles (from number of particles) formula question",
+    "given values find n",
+    "1. mole concept and stoichiometry moles (from number of particles) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_004",
+     "question_pattern": "moles (from number of particles) with {particles} find n",
+     "extracted_variables": {
+      "particles": "given particles"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for particles from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = particles / 6.022*10^23",
+     "compute": "n = particles / 6.022*10^23"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_005",
+   "title": "Molecules from moles: molecules = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "molecules = n*6.022*10^23",
+   "_pats_extra": [],
+   "key_idea": "Molecules from moles (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find molecules using molecules from moles",
+    "calculate molecules from moles",
+    "molecules from moles formula question",
+    "given values find molecules",
+    "1. mole concept and stoichiometry molecules from moles numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_005",
+     "question_pattern": "molecules from moles with {n} find molecules",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "molecules = n*6.022*10^23",
+     "compute": "molecules = n*6.022*10^23"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_006",
+   "title": "Mass from moles: mass = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "mass = n*M",
+   "_pats_extra": [],
+   "key_idea": "Mass from moles (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mass using mass from moles",
+    "calculate mass from moles",
+    "mass from moles formula question",
+    "given values find mass",
+    "1. mole concept and stoichiometry mass from moles numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_006",
+     "question_pattern": "mass from moles with {n} and {M} find mass",
+     "extracted_variables": {
+      "n": "given n",
+      "M": "given M"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, M from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "mass = n*M",
+     "compute": "mass = n*M"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_007",
+   "title": "Gas volume at STP: V = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "V = n*22.4",
+   "_pats_extra": [],
+   "key_idea": "Gas volume at STP (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using gas volume at stp",
+    "calculate gas volume at stp",
+    "gas volume at stp formula question",
+    "given values find v",
+    "1. mole concept and stoichiometry gas volume at stp numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_007",
+     "question_pattern": "gas volume at stp with {n} find v",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V = n*22.4",
+     "compute": "V = n*22.4"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_008",
+   "title": "Molecular formula: n = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "n = molecular_mass / empirical_formula_mass",
+   "_pats_extra": [],
+   "key_idea": "Molecular formula (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using molecular formula",
+    "calculate molecular formula",
+    "molecular formula formula question",
+    "given values find n",
+    "1. mole concept and stoichiometry molecular formula numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_008",
+     "question_pattern": "molecular formula with {molecular_mass} and {empirical_formula_mass} find n",
+     "extracted_variables": {
+      "molecular_mass": "given molecular_mass",
+      "empirical_formula_mass": "given empirical_formula_mass"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for molecular_mass, empirical_formula_mass from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = molecular_mass / empirical_formula_mass",
+     "compute": "n = molecular_mass / empirical_formula_mass"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_009",
+   "title": "Vapour density: VD = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "VD = molecular_mass / 2",
+   "_pats_extra": [],
+   "key_idea": "Vapour density (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find vd using vapour density",
+    "calculate vapour density",
+    "vapour density formula question",
+    "given values find vd",
+    "1. mole concept and stoichiometry vapour density numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_009",
+     "question_pattern": "vapour density with {molecular_mass} find vd",
+     "extracted_variables": {
+      "molecular_mass": "given molecular_mass"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for molecular_mass from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "VD = molecular_mass / 2",
+     "compute": "VD = molecular_mass / 2"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_010",
+   "title": "Vapour density: Molecular mass = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "Molecular_mass = 2*VD",
+   "_pats_extra": [],
+   "key_idea": "Vapour density (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find molecular mass using vapour density",
+    "calculate vapour density",
+    "vapour density formula question",
+    "given values find molecular mass",
+    "1. mole concept and stoichiometry vapour density numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_010",
+     "question_pattern": "vapour density with {VD} find molecular mass",
+     "extracted_variables": {
+      "VD": "given VD"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for VD from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Molecular mass = 2*VD",
+     "compute": "Molecular_mass = 2*VD"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_011",
+   "title": "Titration (general): M1 x V1 = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "M1_x_V1 = M2*V2",
+   "_pats_extra": [],
+   "key_idea": "Titration (general) (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m1 x v1 using titration (general)",
+    "calculate titration (general)",
+    "titration (general) formula question",
+    "given values find m1 x v1",
+    "1. mole concept and stoichiometry titration (general) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_011",
+     "question_pattern": "titration (general) with {M2} and {V2} find m1 x v1",
+     "extracted_variables": {
+      "M2": "given M2",
+      "V2": "given V2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M2, V2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M1 x V1 = M2*V2",
+     "compute": "M1_x_V1 = M2*V2"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_012",
+   "title": "Molarity: M = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "M = moles_solute / liters_solution",
+   "_pats_extra": [],
+   "key_idea": "Molarity (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m using molarity",
+    "calculate molarity",
+    "molarity formula question",
+    "given values find m",
+    "1. mole concept and stoichiometry molarity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_012",
+     "question_pattern": "molarity with {moles_solute} and {liters_solution} find m",
+     "extracted_variables": {
+      "moles_solute": "given moles_solute",
+      "liters_solution": "given liters_solution"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for moles_solute, liters_solution from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M = moles_solute / liters_solution",
+     "compute": "M = moles_solute / liters_solution"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_013",
+   "title": "Molarity: M = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "M = n / V",
+   "_pats_extra": [],
+   "key_idea": "Molarity (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m using molarity",
+    "calculate molarity",
+    "molarity formula question",
+    "given values find m",
+    "1. mole concept and stoichiometry molarity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_013",
+     "question_pattern": "molarity with {n} and {V} find m",
+     "extracted_variables": {
+      "n": "given n",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M = n / V",
+     "compute": "M = n / V"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_014",
+   "title": "Dilution: M1 x V1 = ...",
+   "section": "1. MOLE CONCEPT AND STOICHIOMETRY",
+   "formula": "M1_x_V1 = M2*V2",
+   "_pats_extra": [],
+   "key_idea": "Dilution (1. MOLE CONCEPT AND STOICHIOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m1 x v1 using dilution",
+    "calculate dilution",
+    "dilution formula question",
+    "given values find m1 x v1",
+    "1. mole concept and stoichiometry dilution numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_014",
+     "question_pattern": "dilution with {M2} and {V2} find m1 x v1",
+     "extracted_variables": {
+      "M2": "given M2",
+      "V2": "given V2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M2, V2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M1 x V1 = M2*V2",
+     "compute": "M1_x_V1 = M2*V2"
+    }
+   ],
+   "chapter_title": "1. MOLE CONCEPT AND STOICHIOMETRY"
+  },
+  {
+   "id": "FB_CHEM_C10_015",
+   "title": "Boyle's law (constant T): P1 x V1 = ...",
+   "section": "2. GAS LAWS",
+   "formula": "P1_x_V1 = P2*V2",
+   "_pats_extra": [],
+   "key_idea": "Boyle's law (constant T) (2. GAS LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p1 x v1 using boyle's law (constant t)",
+    "calculate boyle's law (constant t)",
+    "boyle's law (constant t) formula question",
+    "given values find p1 x v1",
+    "2. gas laws boyle's law (constant t) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_015",
+     "question_pattern": "boyle's law (constant t) with {P2} and {V2} find p1 x v1",
+     "extracted_variables": {
+      "P2": "given P2",
+      "V2": "given V2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P2, V2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P1 x V1 = P2*V2",
+     "compute": "P1_x_V1 = P2*V2"
+    }
+   ],
+   "chapter_title": "2. GAS LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_016",
+   "title": "Ideal gas equation: PV = ...",
+   "section": "2. GAS LAWS",
+   "formula": "PV = n*R*T",
+   "_pats_extra": [],
+   "key_idea": "Ideal gas equation (2. GAS LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pv using ideal gas equation",
+    "calculate ideal gas equation",
+    "ideal gas equation formula question",
+    "given values find pv",
+    "2. gas laws ideal gas equation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_016",
+     "question_pattern": "ideal gas equation with {n} and {R} and {T} find pv",
+     "extracted_variables": {
+      "n": "given n",
+      "R": "given R",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, R, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PV = n*R*T",
+     "compute": "PV = n*R*T"
+    }
+   ],
+   "chapter_title": "2. GAS LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_017",
+   "title": "Temperature conversion: K = ...",
+   "section": "2. GAS LAWS",
+   "formula": "K = deg*C + 273",
+   "_pats_extra": [],
+   "key_idea": "Temperature conversion (2. GAS LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find k using temperature conversion",
+    "calculate temperature conversion",
+    "temperature conversion formula question",
+    "given values find k",
+    "2. gas laws temperature conversion numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_017",
+     "question_pattern": "temperature conversion with {deg} and {C} find k",
+     "extracted_variables": {
+      "deg": "given deg",
+      "C": "given C"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for deg, C from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "K = deg*C + 273",
+     "compute": "K = deg*C + 273"
+    }
+   ],
+   "chapter_title": "2. GAS LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_018",
+   "title": "Temperature conversion: deg C = ...",
+   "section": "2. GAS LAWS",
+   "formula": "deg_C = K - 273",
+   "_pats_extra": [],
+   "key_idea": "Temperature conversion (2. GAS LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deg c using temperature conversion",
+    "calculate temperature conversion",
+    "temperature conversion formula question",
+    "given values find deg c",
+    "2. gas laws temperature conversion numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_018",
+     "question_pattern": "temperature conversion with {K} find deg c",
+     "extracted_variables": {
+      "K": "given K"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "deg C = K - 273",
+     "compute": "deg_C = K - 273"
+    }
+   ],
+   "chapter_title": "2. GAS LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_019",
+   "title": "Relationship: pH = ...",
+   "section": "3. ACIDS, BASES, AND pH",
+   "formula": "pH = 14 - p*O*H",
+   "_pats_extra": [],
+   "key_idea": "Relationship (3. ACIDS, BASES, AND pH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ph using relationship",
+    "calculate relationship",
+    "relationship formula question",
+    "given values find ph",
+    "3. acids, bases, and ph relationship numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_019",
+     "question_pattern": "relationship with {p} and {O} and {H} find ph",
+     "extracted_variables": {
+      "p": "given p",
+      "O": "given O",
+      "H": "given H"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, O, H from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "pH = 14 - p*O*H",
+     "compute": "pH = 14 - p*O*H"
+    }
+   ],
+   "chapter_title": "3. ACIDS, BASES, AND pH"
+  },
+  {
+   "id": "FB_CHEM_C10_020",
+   "title": "Faraday's first law: m = ...",
+   "section": "4. ELECTROLYSIS -- FARADAY'S LAWS",
+   "formula": "m = (M*I*t) / (n*96500)",
+   "_pats_extra": [],
+   "key_idea": "Faraday's first law (4. ELECTROLYSIS -- FARADAY'S LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m using faraday's first law",
+    "calculate faraday's first law",
+    "faraday's first law formula question",
+    "given values find m",
+    "4. electrolysis -- faraday's laws faraday's first law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_020",
+     "question_pattern": "faraday's first law with {M} and {I} and {t} and {n} find m",
+     "extracted_variables": {
+      "M": "given M",
+      "I": "given I",
+      "t": "given t",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M, I, t, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "m = (M*I*t) / (n*96500)",
+     "compute": "m = (M*I*t) / (n*96500)"
+    }
+   ],
+   "chapter_title": "4. ELECTROLYSIS -- FARADAY'S LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_021",
+   "title": "Where: F = ...",
+   "section": "4. ELECTROLYSIS -- FARADAY'S LAWS",
+   "formula": "F = 96500/mol",
+   "_pats_extra": [],
+   "key_idea": "Where (4. ELECTROLYSIS -- FARADAY'S LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using where",
+    "calculate where",
+    "where formula question",
+    "given values find f",
+    "4. electrolysis -- faraday's laws where numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_021",
+     "question_pattern": "where with {mol} find f",
+     "extracted_variables": {
+      "mol": "given mol"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mol from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = 96500/mol",
+     "compute": "F = 96500/mol"
+    }
+   ],
+   "chapter_title": "4. ELECTROLYSIS -- FARADAY'S LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_022",
+   "title": "Charge: Q = ...",
+   "section": "4. ELECTROLYSIS -- FARADAY'S LAWS",
+   "formula": "Q = I*t",
+   "_pats_extra": [],
+   "key_idea": "Charge (4. ELECTROLYSIS -- FARADAY'S LAWS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q using charge",
+    "calculate charge",
+    "charge formula question",
+    "given values find q",
+    "4. electrolysis -- faraday's laws charge numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_022",
+     "question_pattern": "charge with {I} and {t} find q",
+     "extracted_variables": {
+      "I": "given I",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for I, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q = I*t",
+     "compute": "Q = I*t"
+    }
+   ],
+   "chapter_title": "4. ELECTROLYSIS -- FARADAY'S LAWS"
+  },
+  {
+   "id": "FB_CHEM_C10_023",
+   "title": "Formal charge (for Lewis structures): FC = ...",
+   "section": "6. CHEMICAL BONDING",
+   "formula": "FC = valence_electrons - (lone_pair_electrons + 1/2*bonding_electrons)",
+   "_pats_extra": [],
+   "key_idea": "Formal charge (for Lewis structures) (6. CHEMICAL BONDING)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find fc using formal charge (for lewis structures)",
+    "calculate formal charge (for lewis structures)",
+    "formal charge (for lewis structures) formula question",
+    "given values find fc",
+    "6. chemical bonding formal charge (for lewis structures) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_023",
+     "question_pattern": "formal charge (for lewis structures) with {valence_electrons} and {lone_pair_electrons} and {bonding_electrons} find fc",
+     "extracted_variables": {
+      "valence_electrons": "given valence_electrons",
+      "lone_pair_electrons": "given lone_pair_electrons",
+      "bonding_electrons": "given bonding_electrons"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for valence_electrons, lone_pair_electrons, bonding_electrons from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "FC = valence_electrons - (lone_pair_electrons + 1/2*bonding_electrons)",
+     "compute": "FC = valence_electrons - (lone_pair_electrons + 1/2*bonding_electrons)"
+    }
+   ],
+   "chapter_title": "6. CHEMICAL BONDING"
+  },
+  {
+   "id": "FB_CHEM_C10_024",
+   "title": "Neutrons: N = ...",
+   "section": "8. ATOMIC STRUCTURE",
+   "formula": "N = A - Z",
+   "_pats_extra": [],
+   "key_idea": "Neutrons (8. ATOMIC STRUCTURE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using neutrons",
+    "calculate neutrons",
+    "neutrons formula question",
+    "given values find n",
+    "8. atomic structure neutrons numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_024",
+     "question_pattern": "neutrons with {A} and {Z} find n",
+     "extracted_variables": {
+      "A": "given A",
+      "Z": "given Z"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, Z from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N = A - Z",
+     "compute": "N = A - Z"
+    }
+   ],
+   "chapter_title": "8. ATOMIC STRUCTURE"
+  },
+  {
+   "id": "FB_CHEM_C10_025",
+   "title": "Concentration (molarity): M = ...",
+   "section": "9. SOLUTIONS AND SOLUBILITY",
+   "formula": "M = moles / V",
+   "_pats_extra": [],
+   "key_idea": "Concentration (molarity) (9. SOLUTIONS AND SOLUBILITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m using concentration (molarity)",
+    "calculate concentration (molarity)",
+    "concentration (molarity) formula question",
+    "given values find m",
+    "9. solutions and solubility concentration (molarity) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_025",
+     "question_pattern": "concentration (molarity) with {moles} and {V} find m",
+     "extracted_variables": {
+      "moles": "given moles",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for moles, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M = moles / V",
+     "compute": "M = moles / V"
+    }
+   ],
+   "chapter_title": "9. SOLUTIONS AND SOLUBILITY"
+  },
+  {
+   "id": "FB_CHEM_C10_026",
+   "title": "Dilution: M1V1 = ...",
+   "section": "9. SOLUTIONS AND SOLUBILITY",
+   "formula": "M1V1 = M2*V2",
+   "_pats_extra": [],
+   "key_idea": "Dilution (9. SOLUTIONS AND SOLUBILITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m1v1 using dilution",
+    "calculate dilution",
+    "dilution formula question",
+    "given values find m1v1",
+    "9. solutions and solubility dilution numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C10_026",
+     "question_pattern": "dilution with {M2} and {V2} find m1v1",
+     "extracted_variables": {
+      "M2": "given M2",
+      "V2": "given V2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M2, V2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M1V1 = M2*V2",
+     "compute": "M1V1 = M2*V2"
+    }
+   ],
+   "chapter_title": "9. SOLUTIONS AND SOLUBILITY"
+  },
+  {
+   "id": "FBD_CHEM_C10_001",
+   "title": "pH: pH = ...",
+   "section": "decision tree",
+   "formula": "pH = -log10",
+   "key_idea": "pH (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ph using ph",
+    "calculate ph",
+    "ph formula question",
+    "given values find ph",
+    "bond type, ions, or transfer/sharing of electrons",
+    "metal + non-metal",
+    "two non-metals"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C10_001",
+     "question_pattern": "ph with {log10} find ph",
+     "extracted_variables": {
+      "log10": "given log10"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for log10 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "pH = -log10",
+     "compute": "pH = -log10"
+    }
+   ],
+   "chapter_title": "chem c10 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C10_002",
+   "title": "Number of moles: Number of moles = ...",
+   "section": "decision tree",
+   "formula": "Number_of_moles = given_mass / molar_mass",
+   "key_idea": "Number of moles (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find number of moles using number of moles",
+    "calculate number of moles",
+    "number of moles formula question",
+    "given values find number of moles",
+    "bond type, ions, or transfer/sharing of electrons",
+    "metal + non-metal",
+    "two non-metals"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C10_002",
+     "question_pattern": "number of moles with {given_mass} and {molar_mass} find number of moles",
+     "extracted_variables": {
+      "given_mass": "given given_mass",
+      "molar_mass": "given molar_mass"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for given_mass, molar_mass from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Number of moles = given_mass / molar_mass",
+     "compute": "Number_of_moles = given_mass / molar_mass"
+    }
+   ],
+   "chapter_title": "chem c10 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C10_003",
+   "title": "Mass: Mass = ...",
+   "section": "decision tree",
+   "formula": "Mass = moles*molar_mass",
+   "key_idea": "Mass (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mass using mass",
+    "calculate mass",
+    "mass formula question",
+    "given values find mass",
+    "bond type, ions, or transfer/sharing of electrons",
+    "metal + non-metal",
+    "two non-metals"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C10_003",
+     "question_pattern": "mass with {moles} and {molar_mass} find mass",
+     "extracted_variables": {
+      "moles": "given moles",
+      "molar_mass": "given molar_mass"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for moles, molar_mass from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mass = moles*molar_mass",
+     "compute": "Mass = moles*molar_mass"
+    }
+   ],
+   "chapter_title": "chem c10 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C10_004",
+   "title": "Moles: Moles = ...",
+   "section": "decision tree",
+   "formula": "Moles = volume_at_STP / 22.4*dm3",
+   "key_idea": "Moles (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find moles using moles",
+    "calculate moles",
+    "moles formula question",
+    "given values find moles",
+    "bond type, ions, or transfer/sharing of electrons",
+    "metal + non-metal",
+    "two non-metals"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C10_004",
+     "question_pattern": "moles with {volume_at_STP} and {dm3} find moles",
+     "extracted_variables": {
+      "volume_at_STP": "given volume_at_STP",
+      "dm3": "given dm3"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for volume_at_STP, dm3 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Moles = volume_at_STP / 22.4*dm3",
+     "compute": "Moles = volume_at_STP / 22.4*dm3"
+    }
+   ],
+   "chapter_title": "chem c10 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C10_005",
+   "title": "General Formula matching: General Formula matching = ...",
+   "section": "decision tree",
+   "formula": "General_Formula_matching = CnH2*n+2 / CnH2*n / CnH2*n-2 / CnH2*n+1*OH / CnH2*nO2",
+   "key_idea": "General Formula matching (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find general formula matching using general formula matching",
+    "calculate general formula matching",
+    "general formula matching formula question",
+    "given values find general formula matching",
+    "bond type, ions, or transfer/sharing of electrons",
+    "metal + non-metal",
+    "two non-metals"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C10_005",
+     "question_pattern": "general formula matching with {CnH2} and {n} and {CnH2} and {n} and {CnH2} and {n} find general formula matching",
+     "extracted_variables": {
+      "CnH2": "given CnH2",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for CnH2, n, CnH2, n, CnH2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "General Formula matching = CnH2*n+2 / CnH2*n / CnH2*n-2 / CnH2*n+1*OH / CnH2*nO2",
+     "compute": "General_Formula_matching = CnH2*n+2 / CnH2*n / CnH2*n-2 / CnH2*n+1*OH / CnH2*nO2"
+    }
+   ],
+   "chapter_title": "chem c10 decision formulas"
+  }
+ ]
+}

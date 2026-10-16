@@ -1,0 +1,1370 @@
+#include "rules/sdl/skill_description_lang.dl"
+
+evidence_unit("su_0", 0).
+evidence_unit_type("su_0", "front_matter_field").
+evidence_unit_location("su_0", "SKILL.md", 2, 2).
+
+evidence_unit("su_1", 1).
+evidence_unit_type("su_1", "front_matter_field").
+evidence_unit_location("su_1", "SKILL.md", 3, 3).
+
+evidence_unit("su_2", 2).
+evidence_unit_type("su_2", "heading").
+evidence_unit_location("su_2", "SKILL.md", 6, 6).
+
+evidence_unit("su_3", 3).
+evidence_unit_type("su_3", "paragraph").
+evidence_unit_location("su_3", "SKILL.md", 8, 8).
+
+evidence_unit("su_4", 4).
+evidence_unit_type("su_4", "paragraph").
+evidence_unit_location("su_4", "SKILL.md", 9, 9).
+
+evidence_unit("su_5", 5).
+evidence_unit_type("su_5", "paragraph").
+evidence_unit_location("su_5", "SKILL.md", 10, 10).
+
+evidence_unit("su_6", 6).
+evidence_unit_type("su_6", "heading").
+evidence_unit_location("su_6", "SKILL.md", 12, 12).
+
+evidence_unit("su_7", 7).
+evidence_unit_type("su_7", "list_item").
+evidence_unit_location("su_7", "SKILL.md", 14, 14).
+
+evidence_unit("su_8", 8).
+evidence_unit_type("su_8", "list_item").
+evidence_unit_location("su_8", "SKILL.md", 15, 15).
+
+evidence_unit("su_9", 9).
+evidence_unit_type("su_9", "list_item").
+evidence_unit_location("su_9", "SKILL.md", 16, 16).
+
+evidence_unit("su_10", 10).
+evidence_unit_type("su_10", "list_item").
+evidence_unit_location("su_10", "SKILL.md", 17, 17).
+
+evidence_unit("su_11", 11).
+evidence_unit_type("su_11", "list_item").
+evidence_unit_location("su_11", "SKILL.md", 18, 18).
+
+evidence_unit("su_12", 12).
+evidence_unit_type("su_12", "heading").
+evidence_unit_location("su_12", "SKILL.md", 20, 20).
+
+evidence_unit("su_13", 13).
+evidence_unit_type("su_13", "paragraph").
+evidence_unit_location("su_13", "SKILL.md", 22, 22).
+
+evidence_unit("su_14", 14).
+evidence_unit_type("su_14", "paragraph").
+evidence_unit_location("su_14", "SKILL.md", 23, 23).
+
+evidence_unit("su_15", 15).
+evidence_unit_type("su_15", "paragraph").
+evidence_unit_location("su_15", "SKILL.md", 24, 24).
+
+evidence_unit("su_16", 16).
+evidence_unit_type("su_16", "paragraph").
+evidence_unit_location("su_16", "SKILL.md", 25, 25).
+
+evidence_unit("su_17", 17).
+evidence_unit_type("su_17", "paragraph").
+evidence_unit_location("su_17", "SKILL.md", 26, 26).
+
+evidence_unit("su_18", 18).
+evidence_unit_type("su_18", "paragraph").
+evidence_unit_location("su_18", "SKILL.md", 27, 27).
+
+evidence_unit("su_19", 19).
+evidence_unit_type("su_19", "heading").
+evidence_unit_location("su_19", "SKILL.md", 29, 29).
+
+evidence_unit("su_20", 20).
+evidence_unit_type("su_20", "paragraph").
+evidence_unit_location("su_20", "SKILL.md", 31, 31).
+
+evidence_unit("su_21", 21).
+evidence_unit_type("su_21", "paragraph").
+evidence_unit_location("su_21", "SKILL.md", 32, 32).
+
+evidence_unit("su_22", 22).
+evidence_unit_type("su_22", "paragraph").
+evidence_unit_location("su_22", "SKILL.md", 33, 33).
+
+evidence_unit("su_23", 23).
+evidence_unit_type("su_23", "paragraph").
+evidence_unit_location("su_23", "SKILL.md", 34, 34).
+
+evidence_unit("su_24", 24).
+evidence_unit_type("su_24", "heading").
+evidence_unit_location("su_24", "SKILL.md", 36, 36).
+
+evidence_unit("su_25", 25).
+evidence_unit_type("su_25", "list_item").
+evidence_unit_location("su_25", "SKILL.md", 38, 38).
+
+evidence_unit("su_26", 26).
+evidence_unit_type("su_26", "list_item").
+evidence_unit_location("su_26", "SKILL.md", 40, 40).
+
+evidence_unit("su_27", 27).
+evidence_unit_type("su_27", "list_item").
+evidence_unit_location("su_27", "SKILL.md", 42, 42).
+
+evidence_unit("su_28", 28).
+evidence_unit_type("su_28", "list_item").
+evidence_unit_location("su_28", "SKILL.md", 44, 44).
+
+evidence_unit("su_29", 29).
+evidence_unit_type("su_29", "heading").
+evidence_unit_location("su_29", "SKILL.md", 47, 47).
+
+evidence_unit("su_30", 30).
+evidence_unit_type("su_30", "list_item").
+evidence_unit_location("su_30", "SKILL.md", 49, 49).
+
+evidence_unit("su_31", 31).
+evidence_unit_type("su_31", "list_item").
+evidence_unit_location("su_31", "SKILL.md", 51, 51).
+
+evidence_unit("su_32", 32).
+evidence_unit_type("su_32", "list_item").
+evidence_unit_location("su_32", "SKILL.md", 52, 52).
+
+evidence_unit("su_33", 33).
+evidence_unit_type("su_33", "list_item").
+evidence_unit_location("su_33", "SKILL.md", 54, 54).
+
+evidence_unit("su_34", 34).
+evidence_unit_type("su_34", "heading").
+evidence_unit_location("su_34", "SKILL.md", 56, 56).
+
+evidence_unit("su_35", 35).
+evidence_unit_type("su_35", "paragraph").
+evidence_unit_location("su_35", "SKILL.md", 58, 58).
+
+evidence_unit("su_36", 36).
+evidence_unit_type("su_36", "paragraph").
+evidence_unit_location("su_36", "SKILL.md", 59, 59).
+
+evidence_unit("su_37", 37).
+evidence_unit_type("su_37", "heading").
+evidence_unit_location("su_37", "SKILL.md", 0, 0).
+
+evidence_unit("su_38", 38).
+evidence_unit_type("su_38", "heading").
+evidence_unit_location("su_38", "references/gap-priorities.md", 1, 1).
+
+evidence_unit("su_39", 39).
+evidence_unit_type("su_39", "paragraph").
+evidence_unit_location("su_39", "references/gap-priorities.md", 3, 3).
+
+evidence_unit("su_40", 40).
+evidence_unit_type("su_40", "paragraph").
+evidence_unit_location("su_40", "references/gap-priorities.md", 4, 4).
+
+evidence_unit("su_41", 41).
+evidence_unit_type("su_41", "paragraph").
+evidence_unit_location("su_41", "references/gap-priorities.md", 5, 5).
+
+evidence_unit("su_42", 42).
+evidence_unit_type("su_42", "paragraph").
+evidence_unit_location("su_42", "references/gap-priorities.md", 6, 6).
+
+evidence_unit("su_43", 43).
+evidence_unit_type("su_43", "paragraph").
+evidence_unit_location("su_43", "references/gap-priorities.md", 7, 7).
+
+evidence_unit("su_44", 44).
+evidence_unit_type("su_44", "paragraph").
+evidence_unit_location("su_44", "references/gap-priorities.md", 8, 8).
+
+evidence_unit("su_45", 45).
+evidence_unit_type("su_45", "paragraph").
+evidence_unit_location("su_45", "references/gap-priorities.md", 9, 9).
+
+evidence_unit("su_46", 46).
+evidence_unit_type("su_46", "paragraph").
+evidence_unit_location("su_46", "references/gap-priorities.md", 10, 10).
+
+evidence_unit("su_47", 47).
+evidence_unit_type("su_47", "heading").
+evidence_unit_location("su_47", "references/gap-priorities.md", 12, 12).
+
+evidence_unit("su_48", 48).
+evidence_unit_type("su_48", "paragraph").
+evidence_unit_location("su_48", "references/gap-priorities.md", 14, 14).
+
+evidence_unit("su_49", 49).
+evidence_unit_type("su_49", "heading").
+evidence_unit_location("su_49", "references/gap-priorities.md", 16, 16).
+
+evidence_unit("su_50", 50).
+evidence_unit_type("su_50", "list_item").
+evidence_unit_location("su_50", "references/gap-priorities.md", 17, 17).
+
+evidence_unit("su_51", 51).
+evidence_unit_type("su_51", "list_item").
+evidence_unit_location("su_51", "references/gap-priorities.md", 18, 18).
+
+evidence_unit("su_52", 52).
+evidence_unit_type("su_52", "list_item").
+evidence_unit_location("su_52", "references/gap-priorities.md", 19, 19).
+
+evidence_unit("su_53", 53).
+evidence_unit_type("su_53", "list_item").
+evidence_unit_location("su_53", "references/gap-priorities.md", 20, 20).
+
+evidence_unit("su_54", 54).
+evidence_unit_type("su_54", "heading").
+evidence_unit_location("su_54", "references/gap-priorities.md", 22, 22).
+
+evidence_unit("su_55", 55).
+evidence_unit_type("su_55", "list_item").
+evidence_unit_location("su_55", "references/gap-priorities.md", 23, 23).
+
+evidence_unit("su_56", 56).
+evidence_unit_type("su_56", "list_item").
+evidence_unit_location("su_56", "references/gap-priorities.md", 24, 24).
+
+evidence_unit("su_57", 57).
+evidence_unit_type("su_57", "list_item").
+evidence_unit_location("su_57", "references/gap-priorities.md", 25, 25).
+
+evidence_unit("su_58", 58).
+evidence_unit_type("su_58", "list_item").
+evidence_unit_location("su_58", "references/gap-priorities.md", 26, 26).
+
+evidence_unit("su_59", 59).
+evidence_unit_type("su_59", "heading").
+evidence_unit_location("su_59", "references/gap-priorities.md", 28, 28).
+
+evidence_unit("su_60", 60).
+evidence_unit_type("su_60", "list_item").
+evidence_unit_location("su_60", "references/gap-priorities.md", 29, 29).
+
+evidence_unit("su_61", 61).
+evidence_unit_type("su_61", "list_item").
+evidence_unit_location("su_61", "references/gap-priorities.md", 30, 30).
+
+evidence_unit("su_62", 62).
+evidence_unit_type("su_62", "list_item").
+evidence_unit_location("su_62", "references/gap-priorities.md", 31, 31).
+
+evidence_unit("su_63", 63).
+evidence_unit_type("su_63", "list_item").
+evidence_unit_location("su_63", "references/gap-priorities.md", 32, 32).
+
+evidence_unit("su_64", 64).
+evidence_unit_type("su_64", "heading").
+evidence_unit_location("su_64", "references/gap-priorities.md", 34, 34).
+
+evidence_unit("su_65", 65).
+evidence_unit_type("su_65", "list_item").
+evidence_unit_location("su_65", "references/gap-priorities.md", 35, 35).
+
+evidence_unit("su_66", 66).
+evidence_unit_type("su_66", "list_item").
+evidence_unit_location("su_66", "references/gap-priorities.md", 36, 36).
+
+evidence_unit("su_67", 67).
+evidence_unit_type("su_67", "list_item").
+evidence_unit_location("su_67", "references/gap-priorities.md", 37, 37).
+
+evidence_unit("su_68", 68).
+evidence_unit_type("su_68", "list_item").
+evidence_unit_location("su_68", "references/gap-priorities.md", 38, 38).
+
+evidence_unit("su_69", 69).
+evidence_unit_type("su_69", "heading").
+evidence_unit_location("su_69", "references/gap-priorities.md", 40, 40).
+
+evidence_unit("su_70", 70).
+evidence_unit_type("su_70", "list_item").
+evidence_unit_location("su_70", "references/gap-priorities.md", 41, 41).
+
+evidence_unit("su_71", 71).
+evidence_unit_type("su_71", "list_item").
+evidence_unit_location("su_71", "references/gap-priorities.md", 42, 42).
+
+evidence_unit("su_72", 72).
+evidence_unit_type("su_72", "list_item").
+evidence_unit_location("su_72", "references/gap-priorities.md", 43, 43).
+
+evidence_unit("su_73", 73).
+evidence_unit_type("su_73", "list_item").
+evidence_unit_location("su_73", "references/gap-priorities.md", 44, 44).
+
+evidence_unit("su_74", 74).
+evidence_unit_type("su_74", "heading").
+evidence_unit_location("su_74", "references/gap-priorities.md", 46, 46).
+
+evidence_unit("su_75", 75).
+evidence_unit_type("su_75", "list_item").
+evidence_unit_location("su_75", "references/gap-priorities.md", 47, 47).
+
+evidence_unit("su_76", 76).
+evidence_unit_type("su_76", "list_item").
+evidence_unit_location("su_76", "references/gap-priorities.md", 48, 48).
+
+evidence_unit("su_77", 77).
+evidence_unit_type("su_77", "list_item").
+evidence_unit_location("su_77", "references/gap-priorities.md", 49, 49).
+
+evidence_unit("su_78", 78).
+evidence_unit_type("su_78", "list_item").
+evidence_unit_location("su_78", "references/gap-priorities.md", 50, 50).
+
+evidence_unit("su_79", 79).
+evidence_unit_type("su_79", "heading").
+evidence_unit_location("su_79", "references/gap-priorities.md", 52, 52).
+
+evidence_unit("su_80", 80).
+evidence_unit_type("su_80", "paragraph").
+evidence_unit_location("su_80", "references/gap-priorities.md", 53, 53).
+
+evidence_unit("su_81", 81).
+evidence_unit_type("su_81", "list_item").
+evidence_unit_location("su_81", "references/gap-priorities.md", 54, 54).
+
+evidence_unit("su_82", 82).
+evidence_unit_type("su_82", "list_item").
+evidence_unit_location("su_82", "references/gap-priorities.md", 55, 55).
+
+evidence_unit("su_83", 83).
+evidence_unit_type("su_83", "list_item").
+evidence_unit_location("su_83", "references/gap-priorities.md", 56, 56).
+
+evidence_unit("su_84", 84).
+evidence_unit_type("su_84", "list_item").
+evidence_unit_location("su_84", "references/gap-priorities.md", 57, 57).
+
+evidence_unit("su_85", 85).
+evidence_unit_type("su_85", "list_item").
+evidence_unit_location("su_85", "references/gap-priorities.md", 58, 58).
+
+evidence_unit("su_86", 86).
+evidence_unit_type("su_86", "list_item").
+evidence_unit_location("su_86", "references/gap-priorities.md", 59, 59).
+
+evidence_unit("su_87", 87).
+evidence_unit_type("su_87", "heading").
+evidence_unit_location("su_87", "references/gap-priorities.md", 61, 61).
+
+evidence_unit("su_88", 88).
+evidence_unit_type("su_88", "paragraph").
+evidence_unit_location("su_88", "references/gap-priorities.md", 62, 62).
+
+evidence_unit("su_89", 89).
+evidence_unit_type("su_89", "heading").
+evidence_unit_location("su_89", "references/gap-priorities.md", 66, 66).
+
+evidence_unit("su_90", 90).
+evidence_unit_type("su_90", "heading").
+evidence_unit_location("su_90", "references/gap-priorities.md", 68, 68).
+
+evidence_unit("su_91", 91).
+evidence_unit_type("su_91", "paragraph").
+evidence_unit_location("su_91", "references/gap-priorities.md", 69, 69).
+
+evidence_unit("su_92", 92).
+evidence_unit_type("su_92", "heading").
+evidence_unit_location("su_92", "references/gap-priorities.md", 71, 71).
+
+evidence_unit("su_93", 93).
+evidence_unit_type("su_93", "list_item").
+evidence_unit_location("su_93", "references/gap-priorities.md", 72, 72).
+
+evidence_unit("su_94", 94).
+evidence_unit_type("su_94", "list_item").
+evidence_unit_location("su_94", "references/gap-priorities.md", 73, 73).
+
+evidence_unit("su_95", 95).
+evidence_unit_type("su_95", "list_item").
+evidence_unit_location("su_95", "references/gap-priorities.md", 74, 74).
+
+evidence_unit("su_96", 96).
+evidence_unit_type("su_96", "list_item").
+evidence_unit_location("su_96", "references/gap-priorities.md", 75, 75).
+
+evidence_unit("su_97", 97).
+evidence_unit_type("su_97", "heading").
+evidence_unit_location("su_97", "references/gap-priorities.md", 77, 77).
+
+evidence_unit("su_98", 98).
+evidence_unit_type("su_98", "list_item").
+evidence_unit_location("su_98", "references/gap-priorities.md", 78, 78).
+
+evidence_unit("su_99", 99).
+evidence_unit_type("su_99", "list_item").
+evidence_unit_location("su_99", "references/gap-priorities.md", 79, 79).
+
+evidence_unit("su_100", 100).
+evidence_unit_type("su_100", "list_item").
+evidence_unit_location("su_100", "references/gap-priorities.md", 80, 80).
+
+evidence_unit("su_101", 101).
+evidence_unit_type("su_101", "list_item").
+evidence_unit_location("su_101", "references/gap-priorities.md", 81, 81).
+
+evidence_unit("su_102", 102).
+evidence_unit_type("su_102", "list_item").
+evidence_unit_location("su_102", "references/gap-priorities.md", 82, 82).
+
+evidence_unit("su_103", 103).
+evidence_unit_type("su_103", "list_item").
+evidence_unit_location("su_103", "references/gap-priorities.md", 83, 83).
+
+evidence_unit("su_104", 104).
+evidence_unit_type("su_104", "list_item").
+evidence_unit_location("su_104", "references/gap-priorities.md", 84, 84).
+
+evidence_unit("su_105", 105).
+evidence_unit_type("su_105", "list_item").
+evidence_unit_location("su_105", "references/gap-priorities.md", 85, 85).
+
+evidence_unit("su_106", 106).
+evidence_unit_type("su_106", "list_item").
+evidence_unit_location("su_106", "references/gap-priorities.md", 86, 86).
+
+evidence_unit("su_107", 107).
+evidence_unit_type("su_107", "heading").
+evidence_unit_location("su_107", "references/gap-priorities.md", 88, 88).
+
+evidence_unit("su_108", 108).
+evidence_unit_type("su_108", "list_item").
+evidence_unit_location("su_108", "references/gap-priorities.md", 89, 89).
+
+evidence_unit("su_109", 109).
+evidence_unit_type("su_109", "list_item").
+evidence_unit_location("su_109", "references/gap-priorities.md", 90, 90).
+
+evidence_unit("su_110", 110).
+evidence_unit_type("su_110", "list_item").
+evidence_unit_location("su_110", "references/gap-priorities.md", 91, 91).
+
+evidence_unit("su_111", 111).
+evidence_unit_type("su_111", "list_item").
+evidence_unit_location("su_111", "references/gap-priorities.md", 92, 92).
+
+evidence_unit("su_112", 112).
+evidence_unit_type("su_112", "heading").
+evidence_unit_location("su_112", "references/gap-priorities.md", 94, 94).
+
+evidence_unit("su_113", 113).
+evidence_unit_type("su_113", "list_item").
+evidence_unit_location("su_113", "references/gap-priorities.md", 95, 95).
+
+evidence_unit("su_114", 114).
+evidence_unit_type("su_114", "list_item").
+evidence_unit_location("su_114", "references/gap-priorities.md", 96, 96).
+
+evidence_unit("su_115", 115).
+evidence_unit_type("su_115", "list_item").
+evidence_unit_location("su_115", "references/gap-priorities.md", 97, 97).
+
+evidence_unit("su_116", 116).
+evidence_unit_type("su_116", "list_item").
+evidence_unit_location("su_116", "references/gap-priorities.md", 98, 98).
+
+evidence_unit("su_117", 117).
+evidence_unit_type("su_117", "list_item").
+evidence_unit_location("su_117", "references/gap-priorities.md", 99, 99).
+
+evidence_unit("su_118", 118).
+evidence_unit_type("su_118", "list_item").
+evidence_unit_location("su_118", "references/gap-priorities.md", 100, 100).
+
+evidence_unit("su_119", 119).
+evidence_unit_type("su_119", "list_item").
+evidence_unit_location("su_119", "references/gap-priorities.md", 101, 101).
+
+evidence_unit("su_120", 120).
+evidence_unit_type("su_120", "list_item").
+evidence_unit_location("su_120", "references/gap-priorities.md", 102, 102).
+
+evidence_unit("su_121", 121).
+evidence_unit_type("su_121", "heading").
+evidence_unit_location("su_121", "references/gap-priorities.md", 104, 104).
+
+evidence_unit("su_122", 122).
+evidence_unit_type("su_122", "list_item").
+evidence_unit_location("su_122", "references/gap-priorities.md", 105, 105).
+
+evidence_unit("su_123", 123).
+evidence_unit_type("su_123", "list_item").
+evidence_unit_location("su_123", "references/gap-priorities.md", 106, 106).
+
+evidence_unit("su_124", 124).
+evidence_unit_type("su_124", "heading").
+evidence_unit_location("su_124", "references/gap-priorities.md", 108, 108).
+
+evidence_unit("su_125", 125).
+evidence_unit_type("su_125", "paragraph").
+evidence_unit_location("su_125", "references/gap-priorities.md", 110, 110).
+
+evidence_unit("su_126", 126).
+evidence_unit_type("su_126", "heading").
+evidence_unit_location("su_126", "references/gap-priorities.md", 114, 114).
+
+evidence_unit("su_127", 127).
+evidence_unit_type("su_127", "paragraph").
+evidence_unit_location("su_127", "references/gap-priorities.md", 116, 116).
+
+evidence_unit("su_128", 128).
+evidence_unit_type("su_128", "heading").
+evidence_unit_location("su_128", "references/gap-priorities.md", 118, 118).
+
+evidence_unit("su_129", 129).
+evidence_unit_type("su_129", "list_item").
+evidence_unit_location("su_129", "references/gap-priorities.md", 120, 120).
+
+evidence_unit("su_130", 130).
+evidence_unit_type("su_130", "list_item").
+evidence_unit_location("su_130", "references/gap-priorities.md", 121, 121).
+
+evidence_unit("su_131", 131).
+evidence_unit_type("su_131", "list_item").
+evidence_unit_location("su_131", "references/gap-priorities.md", 122, 122).
+
+evidence_unit("su_132", 132).
+evidence_unit_type("su_132", "list_item").
+evidence_unit_location("su_132", "references/gap-priorities.md", 123, 123).
+
+evidence_unit("su_133", 133).
+evidence_unit_type("su_133", "list_item").
+evidence_unit_location("su_133", "references/gap-priorities.md", 124, 124).
+
+evidence_unit("su_134", 134).
+evidence_unit_type("su_134", "list_item").
+evidence_unit_location("su_134", "references/gap-priorities.md", 125, 125).
+
+evidence_unit("su_135", 135).
+evidence_unit_type("su_135", "heading").
+evidence_unit_location("su_135", "references/gap-priorities.md", 127, 127).
+
+evidence_unit("su_136", 136).
+evidence_unit_type("su_136", "list_item").
+evidence_unit_location("su_136", "references/gap-priorities.md", 129, 129).
+
+evidence_unit("su_137", 137).
+evidence_unit_type("su_137", "list_item").
+evidence_unit_location("su_137", "references/gap-priorities.md", 130, 130).
+
+evidence_unit("su_138", 138).
+evidence_unit_type("su_138", "list_item").
+evidence_unit_location("su_138", "references/gap-priorities.md", 131, 131).
+
+evidence_unit("su_139", 139).
+evidence_unit_type("su_139", "list_item").
+evidence_unit_location("su_139", "references/gap-priorities.md", 132, 132).
+
+evidence_unit("su_140", 140).
+evidence_unit_type("su_140", "heading").
+evidence_unit_location("su_140", "references/gap-priorities.md", 134, 134).
+
+evidence_unit("su_141", 141).
+evidence_unit_type("su_141", "list_item").
+evidence_unit_location("su_141", "references/gap-priorities.md", 136, 136).
+
+evidence_unit("su_142", 142).
+evidence_unit_type("su_142", "list_item").
+evidence_unit_location("su_142", "references/gap-priorities.md", 137, 137).
+
+evidence_unit("su_143", 143).
+evidence_unit_type("su_143", "list_item").
+evidence_unit_location("su_143", "references/gap-priorities.md", 138, 138).
+
+evidence_unit("su_144", 144).
+evidence_unit_type("su_144", "list_item").
+evidence_unit_location("su_144", "references/gap-priorities.md", 139, 139).
+
+evidence_unit("su_145", 145).
+evidence_unit_type("su_145", "list_item").
+evidence_unit_location("su_145", "references/gap-priorities.md", 140, 140).
+
+evidence_unit("su_146", 146).
+evidence_unit_type("su_146", "list_item").
+evidence_unit_location("su_146", "references/gap-priorities.md", 141, 141).
+
+evidence_unit("su_147", 147).
+evidence_unit_type("su_147", "list_item").
+evidence_unit_location("su_147", "references/gap-priorities.md", 142, 142).
+
+evidence_unit("su_148", 148).
+evidence_unit_type("su_148", "heading").
+evidence_unit_location("su_148", "references/gap-priorities.md", 144, 144).
+
+evidence_unit("su_149", 149).
+evidence_unit_type("su_149", "list_item").
+evidence_unit_location("su_149", "references/gap-priorities.md", 146, 146).
+
+evidence_unit("su_150", 150).
+evidence_unit_type("su_150", "list_item").
+evidence_unit_location("su_150", "references/gap-priorities.md", 147, 147).
+
+evidence_unit("su_151", 151).
+evidence_unit_type("su_151", "heading").
+evidence_unit_location("su_151", "references/gap-priorities.md", 149, 149).
+
+evidence_unit("su_152", 152).
+evidence_unit_type("su_152", "list_item").
+evidence_unit_location("su_152", "references/gap-priorities.md", 151, 151).
+
+evidence_unit("su_153", 153).
+evidence_unit_type("su_153", "list_item").
+evidence_unit_location("su_153", "references/gap-priorities.md", 152, 152).
+
+evidence_unit("su_154", 154).
+evidence_unit_type("su_154", "list_item").
+evidence_unit_location("su_154", "references/gap-priorities.md", 153, 153).
+
+evidence_unit("su_155", 155).
+evidence_unit_type("su_155", "list_item").
+evidence_unit_location("su_155", "references/gap-priorities.md", 154, 154).
+
+evidence_unit("su_156", 156).
+evidence_unit_type("su_156", "heading").
+evidence_unit_location("su_156", "references/gap-priorities.md", 156, 156).
+
+evidence_unit("su_157", 157).
+evidence_unit_type("su_157", "paragraph").
+evidence_unit_location("su_157", "references/gap-priorities.md", 158, 158).
+
+evidence_unit("su_158", 158).
+evidence_unit_type("su_158", "heading").
+evidence_unit_location("su_158", "references/gap-priorities.md", 162, 162).
+
+evidence_unit("su_159", 159).
+evidence_unit_type("su_159", "heading").
+evidence_unit_location("su_159", "references/gap-priorities.md", 164, 164).
+
+evidence_unit("su_160", 160).
+evidence_unit_type("su_160", "paragraph").
+evidence_unit_location("su_160", "references/gap-priorities.md", 165, 165).
+
+evidence_unit("su_161", 161).
+evidence_unit_type("su_161", "heading").
+evidence_unit_location("su_161", "references/gap-priorities.md", 167, 167).
+
+evidence_unit("su_162", 162).
+evidence_unit_type("su_162", "list_item").
+evidence_unit_location("su_162", "references/gap-priorities.md", 168, 168).
+
+evidence_unit("su_163", 163).
+evidence_unit_type("su_163", "list_item").
+evidence_unit_location("su_163", "references/gap-priorities.md", 169, 169).
+
+evidence_unit("su_164", 164).
+evidence_unit_type("su_164", "list_item").
+evidence_unit_location("su_164", "references/gap-priorities.md", 170, 170).
+
+evidence_unit("su_165", 165).
+evidence_unit_type("su_165", "list_item").
+evidence_unit_location("su_165", "references/gap-priorities.md", 171, 171).
+
+evidence_unit("su_166", 166).
+evidence_unit_type("su_166", "heading").
+evidence_unit_location("su_166", "references/gap-priorities.md", 173, 173).
+
+evidence_unit("su_167", 167).
+evidence_unit_type("su_167", "list_item").
+evidence_unit_location("su_167", "references/gap-priorities.md", 175, 175).
+
+evidence_unit("su_168", 168).
+evidence_unit_type("su_168", "list_item").
+evidence_unit_location("su_168", "references/gap-priorities.md", 176, 176).
+
+evidence_unit("su_169", 169).
+evidence_unit_type("su_169", "list_item").
+evidence_unit_location("su_169", "references/gap-priorities.md", 177, 177).
+
+evidence_unit("su_170", 170).
+evidence_unit_type("su_170", "list_item").
+evidence_unit_location("su_170", "references/gap-priorities.md", 178, 178).
+
+evidence_unit("su_171", 171).
+evidence_unit_type("su_171", "list_item").
+evidence_unit_location("su_171", "references/gap-priorities.md", 179, 179).
+
+evidence_unit("su_172", 172).
+evidence_unit_type("su_172", "list_item").
+evidence_unit_location("su_172", "references/gap-priorities.md", 180, 180).
+
+evidence_unit("su_173", 173).
+evidence_unit_type("su_173", "list_item").
+evidence_unit_location("su_173", "references/gap-priorities.md", 181, 181).
+
+evidence_unit("su_174", 174).
+evidence_unit_type("su_174", "list_item").
+evidence_unit_location("su_174", "references/gap-priorities.md", 182, 182).
+
+evidence_unit("su_175", 175).
+evidence_unit_type("su_175", "list_item").
+evidence_unit_location("su_175", "references/gap-priorities.md", 183, 183).
+
+evidence_unit("su_176", 176).
+evidence_unit_type("su_176", "list_item").
+evidence_unit_location("su_176", "references/gap-priorities.md", 184, 184).
+
+evidence_unit("su_177", 177).
+evidence_unit_type("su_177", "list_item").
+evidence_unit_location("su_177", "references/gap-priorities.md", 185, 185).
+
+evidence_unit("su_178", 178).
+evidence_unit_type("su_178", "list_item").
+evidence_unit_location("su_178", "references/gap-priorities.md", 186, 186).
+
+evidence_unit("su_179", 179).
+evidence_unit_type("su_179", "list_item").
+evidence_unit_location("su_179", "references/gap-priorities.md", 187, 187).
+
+evidence_unit("su_180", 180).
+evidence_unit_type("su_180", "list_item").
+evidence_unit_location("su_180", "references/gap-priorities.md", 188, 188).
+
+evidence_unit("su_181", 181).
+evidence_unit_type("su_181", "list_item").
+evidence_unit_location("su_181", "references/gap-priorities.md", 189, 189).
+
+evidence_unit("su_182", 182).
+evidence_unit_type("su_182", "list_item").
+evidence_unit_location("su_182", "references/gap-priorities.md", 190, 190).
+
+evidence_unit("su_183", 183).
+evidence_unit_type("su_183", "list_item").
+evidence_unit_location("su_183", "references/gap-priorities.md", 191, 191).
+
+evidence_unit("su_184", 184).
+evidence_unit_type("su_184", "list_item").
+evidence_unit_location("su_184", "references/gap-priorities.md", 192, 192).
+
+evidence_unit("su_185", 185).
+evidence_unit_type("su_185", "list_item").
+evidence_unit_location("su_185", "references/gap-priorities.md", 193, 193).
+
+evidence_unit("su_186", 186).
+evidence_unit_type("su_186", "heading").
+evidence_unit_location("su_186", "references/gap-priorities.md", 195, 195).
+
+evidence_unit("su_187", 187).
+evidence_unit_type("su_187", "paragraph").
+evidence_unit_location("su_187", "references/gap-priorities.md", 197, 197).
+
+evidence_unit("su_188", 188).
+evidence_unit_type("su_188", "heading").
+evidence_unit_location("su_188", "references/gap-priorities.md", 201, 201).
+
+evidence_unit("su_189", 189).
+evidence_unit_type("su_189", "heading").
+evidence_unit_location("su_189", "references/gap-priorities.md", 203, 203).
+
+evidence_unit("su_190", 190).
+evidence_unit_type("su_190", "paragraph").
+evidence_unit_location("su_190", "references/gap-priorities.md", 204, 204).
+
+evidence_unit("su_191", 191).
+evidence_unit_type("su_191", "heading").
+evidence_unit_location("su_191", "references/gap-priorities.md", 206, 206).
+
+evidence_unit("su_192", 192).
+evidence_unit_type("su_192", "list_item").
+evidence_unit_location("su_192", "references/gap-priorities.md", 207, 207).
+
+evidence_unit("su_193", 193).
+evidence_unit_type("su_193", "list_item").
+evidence_unit_location("su_193", "references/gap-priorities.md", 208, 208).
+
+evidence_unit("su_194", 194).
+evidence_unit_type("su_194", "list_item").
+evidence_unit_location("su_194", "references/gap-priorities.md", 209, 209).
+
+evidence_unit("su_195", 195).
+evidence_unit_type("su_195", "list_item").
+evidence_unit_location("su_195", "references/gap-priorities.md", 210, 210).
+
+evidence_unit("su_196", 196).
+evidence_unit_type("su_196", "list_item").
+evidence_unit_location("su_196", "references/gap-priorities.md", 211, 211).
+
+evidence_unit("su_197", 197).
+evidence_unit_type("su_197", "heading").
+evidence_unit_location("su_197", "references/gap-priorities.md", 213, 213).
+
+evidence_unit("su_198", 198).
+evidence_unit_type("su_198", "list_item").
+evidence_unit_location("su_198", "references/gap-priorities.md", 215, 215).
+
+evidence_unit("su_199", 199).
+evidence_unit_type("su_199", "list_item").
+evidence_unit_location("su_199", "references/gap-priorities.md", 216, 216).
+
+evidence_unit("su_200", 200).
+evidence_unit_type("su_200", "list_item").
+evidence_unit_location("su_200", "references/gap-priorities.md", 217, 217).
+
+evidence_unit("su_201", 201).
+evidence_unit_type("su_201", "list_item").
+evidence_unit_location("su_201", "references/gap-priorities.md", 218, 218).
+
+evidence_unit("su_202", 202).
+evidence_unit_type("su_202", "list_item").
+evidence_unit_location("su_202", "references/gap-priorities.md", 219, 219).
+
+evidence_unit("su_203", 203).
+evidence_unit_type("su_203", "list_item").
+evidence_unit_location("su_203", "references/gap-priorities.md", 220, 220).
+
+evidence_unit("su_204", 204).
+evidence_unit_type("su_204", "list_item").
+evidence_unit_location("su_204", "references/gap-priorities.md", 221, 221).
+
+evidence_unit("su_205", 205).
+evidence_unit_type("su_205", "list_item").
+evidence_unit_location("su_205", "references/gap-priorities.md", 222, 222).
+
+evidence_unit("su_206", 206).
+evidence_unit_type("su_206", "list_item").
+evidence_unit_location("su_206", "references/gap-priorities.md", 223, 223).
+
+evidence_unit("su_207", 207).
+evidence_unit_type("su_207", "list_item").
+evidence_unit_location("su_207", "references/gap-priorities.md", 224, 224).
+
+evidence_unit("su_208", 208).
+evidence_unit_type("su_208", "list_item").
+evidence_unit_location("su_208", "references/gap-priorities.md", 225, 225).
+
+evidence_unit("su_209", 209).
+evidence_unit_type("su_209", "list_item").
+evidence_unit_location("su_209", "references/gap-priorities.md", 226, 226).
+
+evidence_unit("su_210", 210).
+evidence_unit_type("su_210", "list_item").
+evidence_unit_location("su_210", "references/gap-priorities.md", 227, 227).
+
+evidence_unit("su_211", 211).
+evidence_unit_type("su_211", "list_item").
+evidence_unit_location("su_211", "references/gap-priorities.md", 228, 228).
+
+evidence_unit("su_212", 212).
+evidence_unit_type("su_212", "list_item").
+evidence_unit_location("su_212", "references/gap-priorities.md", 229, 229).
+
+evidence_unit("su_213", 213).
+evidence_unit_type("su_213", "list_item").
+evidence_unit_location("su_213", "references/gap-priorities.md", 230, 230).
+
+evidence_unit("su_214", 214).
+evidence_unit_type("su_214", "list_item").
+evidence_unit_location("su_214", "references/gap-priorities.md", 231, 231).
+
+evidence_unit("su_215", 215).
+evidence_unit_type("su_215", "list_item").
+evidence_unit_location("su_215", "references/gap-priorities.md", 232, 232).
+
+evidence_unit("su_216", 216).
+evidence_unit_type("su_216", "list_item").
+evidence_unit_location("su_216", "references/gap-priorities.md", 233, 233).
+
+evidence_unit("su_217", 217).
+evidence_unit_type("su_217", "heading").
+evidence_unit_location("su_217", "references/gap-priorities.md", 235, 235).
+
+evidence_unit("su_218", 218).
+evidence_unit_type("su_218", "list_item").
+evidence_unit_location("su_218", "references/gap-priorities.md", 236, 236).
+
+evidence_unit("su_219", 219).
+evidence_unit_type("su_219", "list_item").
+evidence_unit_location("su_219", "references/gap-priorities.md", 237, 237).
+
+evidence_unit("su_220", 220).
+evidence_unit_type("su_220", "list_item").
+evidence_unit_location("su_220", "references/gap-priorities.md", 238, 238).
+
+evidence_unit("su_221", 221).
+evidence_unit_type("su_221", "list_item").
+evidence_unit_location("su_221", "references/gap-priorities.md", 239, 239).
+
+evidence_unit("su_222", 222).
+evidence_unit_type("su_222", "list_item").
+evidence_unit_location("su_222", "references/gap-priorities.md", 240, 240).
+
+evidence_unit("su_223", 223).
+evidence_unit_type("su_223", "list_item").
+evidence_unit_location("su_223", "references/gap-priorities.md", 241, 241).
+
+evidence_unit("su_224", 224).
+evidence_unit_type("su_224", "heading").
+evidence_unit_location("su_224", "references/gap-priorities.md", 243, 243).
+
+evidence_unit("su_225", 225).
+evidence_unit_type("su_225", "paragraph").
+evidence_unit_location("su_225", "references/gap-priorities.md", 244, 244).
+
+evidence_unit("su_226", 226).
+evidence_unit_type("su_226", "heading").
+evidence_unit_location("su_226", "references/gap-priorities.md", 246, 246).
+
+evidence_unit("su_227", 227).
+evidence_unit_type("su_227", "heading").
+evidence_unit_location("su_227", "references/gap-priorities.md", 248, 248).
+
+evidence_unit("su_228", 228).
+evidence_unit_type("su_228", "paragraph").
+evidence_unit_location("su_228", "references/gap-priorities.md", 249, 249).
+
+evidence_unit("su_229", 229).
+evidence_unit_type("su_229", "heading").
+evidence_unit_location("su_229", "references/gap-priorities.md", 251, 251).
+
+evidence_unit("su_230", 230).
+evidence_unit_type("su_230", "list_item").
+evidence_unit_location("su_230", "references/gap-priorities.md", 252, 252).
+
+evidence_unit("su_231", 231).
+evidence_unit_type("su_231", "list_item").
+evidence_unit_location("su_231", "references/gap-priorities.md", 253, 253).
+
+evidence_unit("su_232", 232).
+evidence_unit_type("su_232", "list_item").
+evidence_unit_location("su_232", "references/gap-priorities.md", 254, 254).
+
+evidence_unit("su_233", 233).
+evidence_unit_type("su_233", "list_item").
+evidence_unit_location("su_233", "references/gap-priorities.md", 255, 255).
+
+evidence_unit("su_234", 234).
+evidence_unit_type("su_234", "list_item").
+evidence_unit_location("su_234", "references/gap-priorities.md", 256, 256).
+
+evidence_unit("su_235", 235).
+evidence_unit_type("su_235", "list_item").
+evidence_unit_location("su_235", "references/gap-priorities.md", 257, 257).
+
+evidence_unit("su_236", 236).
+evidence_unit_type("su_236", "heading").
+evidence_unit_location("su_236", "references/gap-priorities.md", 259, 259).
+
+evidence_unit("su_237", 237).
+evidence_unit_type("su_237", "list_item").
+evidence_unit_location("su_237", "references/gap-priorities.md", 261, 261).
+
+evidence_unit("su_238", 238).
+evidence_unit_type("su_238", "list_item").
+evidence_unit_location("su_238", "references/gap-priorities.md", 262, 262).
+
+evidence_unit("su_239", 239).
+evidence_unit_type("su_239", "list_item").
+evidence_unit_location("su_239", "references/gap-priorities.md", 263, 263).
+
+evidence_unit("su_240", 240).
+evidence_unit_type("su_240", "list_item").
+evidence_unit_location("su_240", "references/gap-priorities.md", 264, 264).
+
+evidence_unit("su_241", 241).
+evidence_unit_type("su_241", "list_item").
+evidence_unit_location("su_241", "references/gap-priorities.md", 265, 265).
+
+evidence_unit("su_242", 242).
+evidence_unit_type("su_242", "list_item").
+evidence_unit_location("su_242", "references/gap-priorities.md", 266, 266).
+
+evidence_unit("su_243", 243).
+evidence_unit_type("su_243", "list_item").
+evidence_unit_location("su_243", "references/gap-priorities.md", 267, 267).
+
+evidence_unit("su_244", 244).
+evidence_unit_type("su_244", "list_item").
+evidence_unit_location("su_244", "references/gap-priorities.md", 268, 268).
+
+evidence_unit("su_245", 245).
+evidence_unit_type("su_245", "list_item").
+evidence_unit_location("su_245", "references/gap-priorities.md", 269, 269).
+
+evidence_unit("su_246", 246).
+evidence_unit_type("su_246", "list_item").
+evidence_unit_location("su_246", "references/gap-priorities.md", 270, 270).
+
+evidence_unit("su_247", 247).
+evidence_unit_type("su_247", "list_item").
+evidence_unit_location("su_247", "references/gap-priorities.md", 271, 271).
+
+evidence_unit("su_248", 248).
+evidence_unit_type("su_248", "list_item").
+evidence_unit_location("su_248", "references/gap-priorities.md", 272, 272).
+
+evidence_unit("su_249", 249).
+evidence_unit_type("su_249", "list_item").
+evidence_unit_location("su_249", "references/gap-priorities.md", 273, 273).
+
+evidence_unit("su_250", 250).
+evidence_unit_type("su_250", "list_item").
+evidence_unit_location("su_250", "references/gap-priorities.md", 274, 274).
+
+evidence_unit("su_251", 251).
+evidence_unit_type("su_251", "list_item").
+evidence_unit_location("su_251", "references/gap-priorities.md", 275, 275).
+
+evidence_unit("su_252", 252).
+evidence_unit_type("su_252", "list_item").
+evidence_unit_location("su_252", "references/gap-priorities.md", 276, 276).
+
+evidence_unit("su_253", 253).
+evidence_unit_type("su_253", "list_item").
+evidence_unit_location("su_253", "references/gap-priorities.md", 277, 277).
+
+evidence_unit("su_254", 254).
+evidence_unit_type("su_254", "list_item").
+evidence_unit_location("su_254", "references/gap-priorities.md", 278, 278).
+
+evidence_unit("su_255", 255).
+evidence_unit_type("su_255", "heading").
+evidence_unit_location("su_255", "references/gap-priorities.md", 280, 280).
+
+evidence_unit("su_256", 256).
+evidence_unit_type("su_256", "paragraph").
+evidence_unit_location("su_256", "references/gap-priorities.md", 282, 282).
+
+evidence_unit("su_257", 257).
+evidence_unit_type("su_257", "heading").
+evidence_unit_location("su_257", "references/gap-priorities.md", 286, 286).
+
+evidence_unit("su_258", 258).
+evidence_unit_type("su_258", "heading").
+evidence_unit_location("su_258", "references/gap-priorities.md", 288, 288).
+
+evidence_unit("su_259", 259).
+evidence_unit_type("su_259", "paragraph").
+evidence_unit_location("su_259", "references/gap-priorities.md", 289, 289).
+
+evidence_unit("su_260", 260).
+evidence_unit_type("su_260", "heading").
+evidence_unit_location("su_260", "references/gap-priorities.md", 291, 291).
+
+evidence_unit("su_261", 261).
+evidence_unit_type("su_261", "list_item").
+evidence_unit_location("su_261", "references/gap-priorities.md", 292, 292).
+
+evidence_unit("su_262", 262).
+evidence_unit_type("su_262", "list_item").
+evidence_unit_location("su_262", "references/gap-priorities.md", 293, 293).
+
+evidence_unit("su_263", 263).
+evidence_unit_type("su_263", "list_item").
+evidence_unit_location("su_263", "references/gap-priorities.md", 294, 294).
+
+evidence_unit("su_264", 264).
+evidence_unit_type("su_264", "list_item").
+evidence_unit_location("su_264", "references/gap-priorities.md", 295, 295).
+
+evidence_unit("su_265", 265).
+evidence_unit_type("su_265", "heading").
+evidence_unit_location("su_265", "references/gap-priorities.md", 297, 297).
+
+evidence_unit("su_266", 266).
+evidence_unit_type("su_266", "list_item").
+evidence_unit_location("su_266", "references/gap-priorities.md", 298, 298).
+
+evidence_unit("su_267", 267).
+evidence_unit_type("su_267", "list_item").
+evidence_unit_location("su_267", "references/gap-priorities.md", 299, 299).
+
+evidence_unit("su_268", 268).
+evidence_unit_type("su_268", "list_item").
+evidence_unit_location("su_268", "references/gap-priorities.md", 300, 300).
+
+evidence_unit("su_269", 269).
+evidence_unit_type("su_269", "list_item").
+evidence_unit_location("su_269", "references/gap-priorities.md", 301, 301).
+
+evidence_unit("su_270", 270).
+evidence_unit_type("su_270", "list_item").
+evidence_unit_location("su_270", "references/gap-priorities.md", 302, 302).
+
+evidence_unit("su_271", 271).
+evidence_unit_type("su_271", "list_item").
+evidence_unit_location("su_271", "references/gap-priorities.md", 303, 303).
+
+evidence_unit("su_272", 272).
+evidence_unit_type("su_272", "list_item").
+evidence_unit_location("su_272", "references/gap-priorities.md", 304, 304).
+
+evidence_unit("su_273", 273).
+evidence_unit_type("su_273", "list_item").
+evidence_unit_location("su_273", "references/gap-priorities.md", 305, 305).
+
+evidence_unit("su_274", 274).
+evidence_unit_type("su_274", "list_item").
+evidence_unit_location("su_274", "references/gap-priorities.md", 306, 306).
+
+evidence_unit("su_275", 275).
+evidence_unit_type("su_275", "list_item").
+evidence_unit_location("su_275", "references/gap-priorities.md", 307, 307).
+
+evidence_unit("su_276", 276).
+evidence_unit_type("su_276", "list_item").
+evidence_unit_location("su_276", "references/gap-priorities.md", 308, 308).
+
+evidence_unit("su_277", 277).
+evidence_unit_type("su_277", "list_item").
+evidence_unit_location("su_277", "references/gap-priorities.md", 309, 309).
+
+evidence_unit("su_278", 278).
+evidence_unit_type("su_278", "heading").
+evidence_unit_location("su_278", "references/gap-priorities.md", 313, 313).
+
+evidence_unit("su_279", 279).
+evidence_unit_type("su_279", "heading").
+evidence_unit_location("su_279", "references/gap-priorities.md", 315, 315).
+
+evidence_unit("su_280", 280).
+evidence_unit_type("su_280", "paragraph").
+evidence_unit_location("su_280", "references/gap-priorities.md", 316, 316).
+
+evidence_unit("su_281", 281).
+evidence_unit_type("su_281", "heading").
+evidence_unit_location("su_281", "references/gap-priorities.md", 318, 318).
+
+evidence_unit("su_282", 282).
+evidence_unit_type("su_282", "list_item").
+evidence_unit_location("su_282", "references/gap-priorities.md", 319, 319).
+
+evidence_unit("su_283", 283).
+evidence_unit_type("su_283", "list_item").
+evidence_unit_location("su_283", "references/gap-priorities.md", 320, 320).
+
+evidence_unit("su_284", 284).
+evidence_unit_type("su_284", "list_item").
+evidence_unit_location("su_284", "references/gap-priorities.md", 321, 321).
+
+evidence_unit("su_285", 285).
+evidence_unit_type("su_285", "list_item").
+evidence_unit_location("su_285", "references/gap-priorities.md", 322, 322).
+
+evidence_unit("su_286", 286).
+evidence_unit_type("su_286", "list_item").
+evidence_unit_location("su_286", "references/gap-priorities.md", 323, 323).
+
+evidence_unit("su_287", 287).
+evidence_unit_type("su_287", "heading").
+evidence_unit_location("su_287", "references/gap-priorities.md", 325, 325).
+
+evidence_unit("su_288", 288).
+evidence_unit_type("su_288", "list_item").
+evidence_unit_location("su_288", "references/gap-priorities.md", 326, 326).
+
+evidence_unit("su_289", 289).
+evidence_unit_type("su_289", "list_item").
+evidence_unit_location("su_289", "references/gap-priorities.md", 327, 327).
+
+evidence_unit("su_290", 290).
+evidence_unit_type("su_290", "list_item").
+evidence_unit_location("su_290", "references/gap-priorities.md", 328, 328).
+
+evidence_unit("su_291", 291).
+evidence_unit_type("su_291", "list_item").
+evidence_unit_location("su_291", "references/gap-priorities.md", 329, 329).
+
+evidence_unit("su_292", 292).
+evidence_unit_type("su_292", "list_item").
+evidence_unit_location("su_292", "references/gap-priorities.md", 330, 330).
+
+evidence_unit("su_293", 293).
+evidence_unit_type("su_293", "list_item").
+evidence_unit_location("su_293", "references/gap-priorities.md", 331, 331).
+
+evidence_unit("su_294", 294).
+evidence_unit_type("su_294", "list_item").
+evidence_unit_location("su_294", "references/gap-priorities.md", 332, 332).
+
+evidence_unit("su_295", 295).
+evidence_unit_type("su_295", "list_item").
+evidence_unit_location("su_295", "references/gap-priorities.md", 333, 333).
+
+evidence_unit("su_296", 296).
+evidence_unit_type("su_296", "list_item").
+evidence_unit_location("su_296", "references/gap-priorities.md", 334, 334).
+
+evidence_unit("su_297", 297).
+evidence_unit_type("su_297", "list_item").
+evidence_unit_location("su_297", "references/gap-priorities.md", 335, 335).
+
+evidence_unit("su_298", 298).
+evidence_unit_type("su_298", "list_item").
+evidence_unit_location("su_298", "references/gap-priorities.md", 336, 336).
+
+evidence_unit("su_299", 299).
+evidence_unit_type("su_299", "list_item").
+evidence_unit_location("su_299", "references/gap-priorities.md", 337, 337).
+
+evidence_unit("su_300", 300).
+evidence_unit_type("su_300", "list_item").
+evidence_unit_location("su_300", "references/gap-priorities.md", 338, 338).
+
+evidence_unit("su_301", 301).
+evidence_unit_type("su_301", "heading").
+evidence_unit_location("su_301", "references/gap-priorities.md", 342, 342).
+
+evidence_unit("su_302", 302).
+evidence_unit_type("su_302", "list_item").
+evidence_unit_location("su_302", "references/gap-priorities.md", 343, 343).
+
+evidence_unit("su_303", 303).
+evidence_unit_type("su_303", "list_item").
+evidence_unit_location("su_303", "references/gap-priorities.md", 344, 344).
+
+evidence_unit("su_304", 304).
+evidence_unit_type("su_304", "list_item").
+evidence_unit_location("su_304", "references/gap-priorities.md", 345, 345).
+
+evidence_unit("su_305", 305).
+evidence_unit_type("su_305", "list_item").
+evidence_unit_location("su_305", "references/gap-priorities.md", 346, 346).
+
+evidence_unit("su_306", 306).
+evidence_unit_type("su_306", "heading").
+evidence_unit_location("su_306", "references/gap-priorities.md", 348, 348).
+
+evidence_unit("su_307", 307).
+evidence_unit_type("su_307", "paragraph").
+evidence_unit_location("su_307", "references/gap-priorities.md", 349, 349).
+
+evidence_unit("su_308", 308).
+evidence_unit_type("su_308", "heading").
+evidence_unit_location("su_308", "SKILL.md", 0, 0).
+
+evidence_unit("su_309", 309).
+evidence_unit_type("su_309", "heading").
+evidence_unit_location("su_309", "references/node-format.md", 1, 1).
+
+evidence_unit("su_310", 310).
+evidence_unit_type("su_310", "paragraph").
+evidence_unit_location("su_310", "references/node-format.md", 3, 3).
+
+evidence_unit("su_311", 311).
+evidence_unit_type("su_311", "paragraph").
+evidence_unit_location("su_311", "references/node-format.md", 4, 4).
+
+evidence_unit("su_312", 312).
+evidence_unit_type("su_312", "paragraph").
+evidence_unit_location("su_312", "references/node-format.md", 5, 5).
+
+evidence_unit("su_313", 313).
+evidence_unit_type("su_313", "heading").
+evidence_unit_location("su_313", "references/node-format.md", 7, 7).
+
+evidence_unit("su_314", 314).
+evidence_unit_type("su_314", "paragraph").
+evidence_unit_location("su_314", "references/node-format.md", 8, 8).
+
+evidence_unit("su_315", 315).
+evidence_unit_type("su_315", "paragraph").
+evidence_unit_location("su_315", "references/node-format.md", 9, 9).
+
+evidence_unit("su_316", 316).
+evidence_unit_type("su_316", "list_item").
+evidence_unit_location("su_316", "references/node-format.md", 10, 10).
+
+evidence_unit("su_317", 317).
+evidence_unit_type("su_317", "list_item").
+evidence_unit_location("su_317", "references/node-format.md", 13, 13).
+
+evidence_unit("su_318", 318).
+evidence_unit_type("su_318", "heading").
+evidence_unit_location("su_318", "references/node-format.md", 16, 16).
+
+evidence_unit("su_319", 319).
+evidence_unit_type("su_319", "fenced_code").
+evidence_unit_location("su_319", "references/node-format.md", 18, 18).
+
+evidence_unit("su_320", 320).
+evidence_unit_type("su_320", "fenced_code").
+evidence_unit_location("su_320", "references/node-format.md", 19, 19).
+
+evidence_unit("su_321", 321).
+evidence_unit_type("su_321", "fenced_code").
+evidence_unit_location("su_321", "references/node-format.md", 20, 20).
+
+evidence_unit("su_322", 322).
+evidence_unit_type("su_322", "fenced_code").
+evidence_unit_location("su_322", "references/node-format.md", 21, 21).
+
+evidence_unit("su_323", 323).
+evidence_unit_type("su_323", "fenced_code").
+evidence_unit_location("su_323", "references/node-format.md", 22, 22).
+
+evidence_unit("su_324", 324).
+evidence_unit_type("su_324", "fenced_code").
+evidence_unit_location("su_324", "references/node-format.md", 23, 23).
+
+evidence_unit("su_325", 325).
+evidence_unit_type("su_325", "fenced_code").
+evidence_unit_location("su_325", "references/node-format.md", 24, 24).
+
+evidence_unit("su_326", 326).
+evidence_unit_type("su_326", "fenced_code").
+evidence_unit_location("su_326", "references/node-format.md", 25, 25).
+
+evidence_unit("su_327", 327).
+evidence_unit_type("su_327", "fenced_code").
+evidence_unit_location("su_327", "references/node-format.md", 26, 26).
+
+evidence_unit("su_328", 328).
+evidence_unit_type("su_328", "fenced_code").
+evidence_unit_location("su_328", "references/node-format.md", 27, 27).
+
+evidence_unit("su_329", 329).
+evidence_unit_type("su_329", "fenced_code").
+evidence_unit_location("su_329", "references/node-format.md", 28, 28).
+
+evidence_unit("su_330", 330).
+evidence_unit_type("su_330", "fenced_code").
+evidence_unit_location("su_330", "references/node-format.md", 29, 29).
+
+evidence_unit("su_331", 331).
+evidence_unit_type("su_331", "heading").
+evidence_unit_location("su_331", "references/node-format.md", 32, 32).
+
+evidence_unit("su_332", 332).
+evidence_unit_type("su_332", "list_item").
+evidence_unit_location("su_332", "references/node-format.md", 33, 33).
+
+evidence_unit("su_333", 333).
+evidence_unit_type("su_333", "list_item").
+evidence_unit_location("su_333", "references/node-format.md", 34, 34).
+
+evidence_unit("su_334", 334).
+evidence_unit_type("su_334", "list_item").
+evidence_unit_location("su_334", "references/node-format.md", 35, 35).
+
+evidence_unit("su_335", 335).
+evidence_unit_type("su_335", "list_item").
+evidence_unit_location("su_335", "references/node-format.md", 36, 36).
+
+evidence_unit("su_336", 336).
+evidence_unit_type("su_336", "heading").
+evidence_unit_location("su_336", "references/node-format.md", 39, 39).
+
+evidence_unit("su_337", 337).
+evidence_unit_type("su_337", "list_item").
+evidence_unit_location("su_337", "references/node-format.md", 40, 40).
+
+evidence_unit("su_338", 338).
+evidence_unit_type("su_338", "list_item").
+evidence_unit_location("su_338", "references/node-format.md", 42, 42).
+
+evidence_unit("su_339", 339).
+evidence_unit_type("su_339", "list_item").
+evidence_unit_location("su_339", "references/node-format.md", 44, 44).
+
+evidence_unit("su_340", 340).
+evidence_unit_type("su_340", "list_item").
+evidence_unit_location("su_340", "references/node-format.md", 45, 45).
+
+evidence_unit("su_341", 341).
+evidence_unit_type("su_341", "list_item").
+evidence_unit_location("su_341", "references/node-format.md", 47, 47).
+

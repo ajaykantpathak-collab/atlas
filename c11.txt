@@ -1,0 +1,111 @@
+ch101.json 78/78
+ch102.json 60/60
+MISS kemh.3.1 | Compute 8 + 3 as a quick check exercise. -> None exp 11
+MISS kemh.3.1 | Compute 4 + 3 as a quick check exercise. -> None exp 7
+MISS kemh.3.1 | Compute 5 + 4 as a quick check exercise. -> None exp 9
+MISS kemh.3.1 | Compute 9 + 4 as a quick check exercise. -> None exp 13
+MISS kemh.3.1 | Compute 6 + 9 as a quick check exercise. -> None exp 15
+MISS kemh.3.1 | Compute 3 + 9 as a quick check exercise. -> None exp 12
+MISS kemh.3.2 | Compute 5 + 9 as a quick check exercise. -> None exp 14
+MISS kemh.3.2 | Compute 9 + 6 as a quick check exercise. -> None exp 15
+MISS kemh.3.2 | Compute 5 + 7 as a quick check exercise. -> None exp 12
+MISS kemh.3.2 | Compute 4 + 7 as a quick check exercise. -> None exp 11
+MISS kemh.3.2 | Compute 2 + 6 as a quick check exercise. -> None exp 8
+MISS kemh.3.2 | Compute 6 + 5 as a quick check exercise. -> None exp 11
+MISS kemh.3.4 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS kemh.3.5 | For the same triangle (legs 7 and 24, hypotenuse 25), f -> 0.28 exp 24/25
+ch103.json 40/54
+MISS kemh.4.1 | Find the determinant of [[1, 8], [2, 2]]. -> None exp -14
+MISS kemh.4.1 | Expand the determinant [[3, 1, -3], [5, -2, 5], [-2, 8, -> None exp -183
+MISS kemh.4.1 | For matrices A = [[8, -2], [1, 2]] and B = [[-5], [4]]  -> None exp -48
+MISS kemh.4.1 | Find the (1,1) entry of the scalar product 4 times a ma -> 1.0 exp 8
+MISS kemh.4.1 | A matrix has 3 rows and 2 columns. How many elements do -> None exp 6
+MISS kemh.4.1 | A 2 x 2 matrix A has determinant 1. Find det(2A) using  -> None exp 4
+MISS kemh.4.2 | Find the determinant of [[5, 9], [4, -2]]. -> None exp -46
+MISS kemh.4.2 | Expand the determinant [[-5, 7, -3], [8, -3, 6], [-3, 1 -> None exp -380
+MISS kemh.4.2 | For matrices A = [[8, 8], [1, 2]] and B = [[4], [-3]] ( -> None exp 8
+MISS kemh.4.2 | Find the (1,1) entry of the scalar product 4 times a ma -> 1.0 exp -16
+MISS kemh.4.2 | A matrix has 3 rows and 4 columns. How many elements do -> None exp 12
+MISS kemh.4.2 | A 2 x 2 matrix A has determinant 2. Find det(4A) using  -> None exp 32
+MISS kemh.4.3 | Find the determinant of [[0, -5], [1, -4]]. -> None exp 5
+MISS kemh.4.3 | Expand the determinant [[-3, -4, 0], [5, 5, -1], [-1, - -> None exp 25
+MISS kemh.4.3 | For matrices A = [[-4, 2], [1, 2]] and B = [[-3], [5]]  -> None exp 22
+MISS kemh.4.3 | Find the (1,1) entry of the scalar product 2 times a ma -> 1.0 exp 6
+MISS kemh.4.3 | A matrix has 4 rows and 3 columns. How many elements do -> None exp 12
+MISS kemh.4.3 | A 2 x 2 matrix A has determinant 2. Find det(4A) using  -> None exp 32
+MISS kemh.4.4 | Find the determinant of [[-6, 0], [3, -2]]. -> None exp 12
+MISS kemh.4.4 | Expand the determinant [[-1, -2, -2], [1, -2, 3], [8, 2 -> None exp -94
+MISS kemh.4.4 | For matrices A = [[-5, -2], [1, 2]] and B = [[4], [6]]  -> None exp -32
+MISS kemh.4.4 | Find the (1,1) entry of the scalar product 3 times a ma -> 1.0 exp 3
+MISS kemh.4.4 | A matrix has 3 rows and 4 columns. How many elements do -> None exp 12
+MISS kemh.4.4 | A 2 x 2 matrix A has determinant 1. Find det(3A) using  -> None exp 9
+MISS kemh.4.5 | Find the determinant of [[-3, -1], [6, 7]]. -> None exp -15
+MISS kemh.4.5 | Expand the determinant [[7, 0, 1], [3, 6, 1], [6, 8, 7] -> None exp 226
+MISS kemh.4.5 | For matrices A = [[1, 2], [1, 2]] and B = [[8], [2]] (c -> None exp 12
+MISS kemh.4.5 | Find the (1,1) entry of the scalar product 5 times a ma -> 1.0 exp -25
+MISS kemh.4.5 | A matrix has 4 rows and 3 columns. How many elements do -> None exp 12
+MISS kemh.4.5 | A 2 x 2 matrix A has determinant 6. Find det(4A) using  -> None exp 96
+MISS kemh.4.6 | Find the determinant of [[2, -3], [-6, -6]]. -> None exp -30
+MISS kemh.4.6 | Expand the determinant [[0, -3, 0], [7, 8, 5], [6, -3,  -> None exp -69
+MISS kemh.4.6 | For matrices A = [[-2, -4], [1, 2]] and B = [[-3], [-2] -> None exp 14
+MISS kemh.4.6 | Find the (1,1) entry of the scalar product 2 times a ma -> 1.0 exp 16
+MISS kemh.4.6 | A matrix has 2 rows and 3 columns. How many elements do -> None exp 6
+MISS kemh.4.6 | A 2 x 2 matrix A has determinant 2. Find det(3A) using  -> None exp 18
+ch104.json 0/36
+MISS kemh105.5.3.7 | Write the ratio 12 : 48 in its simplest form and give t -> 1.0 exp 3
+ch105.json 53/54
+ch106.json 48/48
+ch107.json 66/66
+ch108.json 48/48
+MISS kemh.109.5.1 | Find the distance of the point (4, -4) from the line 1x -> 5.66 exp 2.68
+MISS kemh.109.5.1 | Find the distance between the parallel lines 2x + 1y +  -> None exp 0.45
+MISS kemh.109.5.1 | Find the acute angle between lines with slopes -3 and 1 -> None exp 2
+MISS kemh.109.5.1 | Two lines 5x + 2y = -5 and 4x + 5y + k = 0 meet at x =  -> None exp 21.0
+MISS kemh.109.5.1 | Find the distance of the point (3, -5) from the line 1x -> 5.83 exp 5.49
+MISS kemh.109.5.1 | Find the distance between the parallel lines 3x + 4y +  -> None exp 0.8
+ch109.json 42/48
+ch110.json 54/54
+ch111.json 48/48
+MISS kemh112.12.4.1 | Compute 2 + 2 as a quick check exercise. -> None exp 4
+MISS kemh112.12.4.1 | Compute 4 + 9 as a quick check exercise. -> None exp 13
+MISS kemh112.12.4.1 | Compute 7 + 5 as a quick check exercise. -> None exp 12
+MISS kemh112.12.4.1 | Compute 6 + 5 as a quick check exercise. -> None exp 11
+MISS kemh112.12.4.1 | Compute 8 + 4 as a quick check exercise. -> None exp 12
+MISS kemh112.12.4.1 | Compute 9 + 4 as a quick check exercise. -> None exp 13
+ch112.json 54/60
+ch114.json 60/60
+kemh101.json 18/18
+kemh102.json 18/18
+kemh103.json 18/18
+MISS kemh.105.1.1 | Expand the determinant [[7, -4, -4], [1, 1, -3], [-4, - -> None exp -55
+MISS kemh.105.1.1 | For matrices A = [[2, -2], [1, 2]] and B = [[2], [-3]]  -> None exp 10
+MISS kemh.105.1.1 | Find the (1,1) entry of the scalar product 2 times a ma -> 1.0 exp -10
+MISS kemh.105.1.1 | A matrix has 3 rows and 2 columns. How many elements do -> None exp 6
+MISS kemh.105.1.1 | A 2 x 2 matrix A has determinant 7. Find det(4A) using  -> None exp 112
+MISS kemh.105.2.1 | Find the determinant of [[-1, -3], [-1, -3]]. -> None exp 0
+MISS kemh.105.2.1 | Expand the determinant [[1, -5, 3], [-4, -1, -3], [4, - -> None exp 129
+MISS kemh.105.2.1 | For matrices A = [[-4, 6], [1, 2]] and B = [[-3], [-4]] -> None exp -12
+MISS kemh.105.2.1 | Find the (1,1) entry of the scalar product 3 times a ma -> 1.0 exp -12
+MISS kemh.105.2.1 | A matrix has 3 rows and 2 columns. How many elements do -> None exp 6
+MISS kemh.105.2.1 | A 2 x 2 matrix A has determinant 5. Find det(2A) using  -> None exp 20
+MISS kemh.105.3.1 | Expand the determinant [[2, -1, 2], [1, 0, 2], [-1, -4, -> None exp 16
+MISS kemh.105.3.1 | For matrices A = [[0, -4], [1, 2]] and B = [[5], [0]] ( -> None exp 0
+MISS kemh.105.3.1 | Find the (1,1) entry of the scalar product 4 times a ma -> 1.0 exp 0
+MISS kemh.105.3.1 | A matrix has 3 rows and 4 columns. How many elements do -> None exp 12
+MISS kemh.105.3.1 | A 2 x 2 matrix A has determinant 5. Find det(4A) using  -> None exp 80
+kemh105.json 2/18
+kemh106.json 18/18
+kemh108.json 48/48
+kemh109.json 48/48
+kemh110.json 48/48
+kemh111.json 24/24
+MISS kemh112.12.4.1 | Compute 4 + 5 as a quick check exercise. -> None exp 9
+MISS kemh112.12.4.1 | Compute 2 + 6 as a quick check exercise. -> None exp 8
+MISS kemh112.12.4.1 | Compute 5 + 3 as a quick check exercise. -> None exp 8
+MISS kemh112.12.4.1 | Compute 4 + 9 as a quick check exercise. -> None exp 13
+MISS kemh112.12.4.1 | Compute 7 + 4 as a quick check exercise. -> None exp 11
+MISS kemh112.12.4.1 | Compute 2 + 4 as a quick check exercise. -> None exp 6
+kemh112.json 36/42
+kemh113.json 42/42
+kemh114.json 36/36
+CLASS11 TOTAL: 1007 / 1092 in 19 s

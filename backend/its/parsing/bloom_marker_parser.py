@@ -258,13 +258,23 @@ def parse_bloom_marker(filepath: str) -> dict | None:
         # --- Standard block fields (TITLE, DEFINITION, etc.) ---
         if field_label in TOP_LEVEL_FIELDS:
             field_key = field_label.lower()
-            if rest == "|":
-                base_indent = 2
-                value, i = _parse_block_value(lines, i + 1, base_indent)
+            if rest in ("|", ""):
+                block_lines: list[str] = []
+                j = i + 1
+                while j < len(lines):
+                    l = lines[j]
+                    stripped_l = l.strip()
+                    if ":" in stripped_l and not stripped_l.startswith("-"):
+                        cand = stripped_l.split(":")[0].strip().upper()
+                        if cand in TOP_LEVEL_FIELDS or cand in STRUCTURED_FIELDS or cand in ("DIAGNOSTIC_QUESTIONS", "REMEDIATION_PATHS", "DIAGRAM"):
+                            break
+                    block_lines.append(stripped_l)
+                    j += 1
+                result[field_key] = "\n".join(block_lines).strip()
+                i = j
             else:
-                value = rest
+                result[field_key] = rest
                 i += 1
-            result[field_key] = value
             continue
 
         # Unknown field — skip

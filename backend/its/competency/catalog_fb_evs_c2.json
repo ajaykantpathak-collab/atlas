@@ -1,0 +1,426 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c2)",
+ "source_file": "c2_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C2_001",
+   "title": "Worked example: Indian year = ...",
+   "section": "",
+   "formula": "Indian_year = 4*main_seasons",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find indian year using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find indian year"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_001",
+     "question_pattern": "worked example with {main_seasons} find indian year",
+     "extracted_variables": {
+      "main_seasons": "given main_seasons"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for main_seasons from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Indian year = 4*main_seasons",
+     "compute": "Indian_year = 4*main_seasons"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_002",
+   "title": "Key relationships (qualitative): Land types seen = ...",
+   "section": "",
+   "formula": "Land_types_seen = (Flat_land/Plain) + (Hilly_land) + (Plateau) + (Sandy/Rocky)",
+   "_pats_extra": [],
+   "key_idea": "Key relationships (qualitative)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find land types seen using key relationships (qualitative)",
+    "calculate key relationships (qualitative)",
+    "key relationships (qualitative) formula question",
+    "given values find land types seen"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_002",
+     "question_pattern": "key relationships (qualitative) with {Flat_land} and {Plain} and {Hilly_land} and {Plateau} and {Sandy} and {Rocky} find land types seen",
+     "extracted_variables": {
+      "Flat_land": "given Flat_land",
+      "Plain": "given Plain",
+      "Hilly_land": "given Hilly_land",
+      "Plateau": "given Plateau",
+      "Sandy": "given Sandy",
+      "Rocky": "given Rocky"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Flat_land, Plain, Hilly_land, Plateau, Sandy from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Land types seen = (Flat_land/Plain) + (Hilly_land) + (Plateau) + (Sandy/Rocky)",
+     "compute": "Land_types_seen = (Flat_land/Plain) + (Hilly_land) + (Plateau) + (Sandy/Rocky)"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_003",
+   "title": "Worked example: Plant food groups = ...",
+   "section": "",
+   "formula": "Plant_food_groups = Grains + Vegetables + Fruits + Pulses + Nuts + Spices",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find plant food groups using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find plant food groups"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_003",
+     "question_pattern": "worked example with {Grains} and {Vegetables} and {Fruits} and {Pulses} and {Nuts} and {Spices} find plant food groups",
+     "extracted_variables": {
+      "Grains": "given Grains",
+      "Vegetables": "given Vegetables",
+      "Fruits": "given Fruits",
+      "Pulses": "given Pulses",
+      "Nuts": "given Nuts",
+      "Spices": "given Spices"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Grains, Vegetables, Fruits, Pulses, Nuts from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Plant food groups = Grains + Vegetables + Fruits + Pulses + Nuts + Spices",
+     "compute": "Plant_food_groups = Grains + Vegetables + Fruits + Pulses + Nuts + Spices"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_004",
+   "title": "Indian examples: Animal food sources = ...",
+   "section": "",
+   "formula": "Animal_food_sources = Milk + Eggs + Honey + Meat/Fish",
+   "_pats_extra": [],
+   "key_idea": "Indian examples",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find animal food sources using indian examples",
+    "calculate indian examples",
+    "indian examples formula question",
+    "given values find animal food sources"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_004",
+     "question_pattern": "indian examples with {Milk} and {Eggs} and {Honey} and {Meat} and {Fish} find animal food sources",
+     "extracted_variables": {
+      "Milk": "given Milk",
+      "Eggs": "given Eggs",
+      "Honey": "given Honey",
+      "Meat": "given Meat",
+      "Fish": "given Fish"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Milk, Eggs, Honey, Meat, Fish from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Animal food sources = Milk + Eggs + Honey + Meat/Fish",
+     "compute": "Animal_food_sources = Milk + Eggs + Honey + Meat/Fish"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_005",
+   "title": "Worked example: Uses of water = ...",
+   "section": "",
+   "formula": "Uses_of_water = Drinking + Cooking + Bathing + Washing + Cleaning + Growing_plants",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find uses of water using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find uses of water"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_005",
+     "question_pattern": "worked example with {Drinking} and {Cooking} and {Bathing} and {Washing} and {Cleaning} and {Growing_plants} find uses of water",
+     "extracted_variables": {
+      "Drinking": "given Drinking",
+      "Cooking": "given Cooking",
+      "Bathing": "given Bathing",
+      "Washing": "given Washing",
+      "Cleaning": "given Cleaning",
+      "Growing_plants": "given Growing_plants"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Drinking, Cooking, Bathing, Washing, Cleaning from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Uses of water = Drinking + Cooking + Bathing + Washing + Cleaning + Growing_plants",
+     "compute": "Uses_of_water = Drinking + Cooking + Bathing + Washing + Cleaning + Growing_plants"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_006",
+   "title": "Worked example: House types = ...",
+   "section": "",
+   "formula": "House_types = (Pucca_house) + (Kutcha_house) + (Flat) + (Bungalow) + (H*u*t)",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find house types using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find house types"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_006",
+     "question_pattern": "worked example with {Pucca_house} and {Kutcha_house} and {Flat} and {Bungalow} and {H} and {u} find house types",
+     "extracted_variables": {
+      "Pucca_house": "given Pucca_house",
+      "Kutcha_house": "given Kutcha_house",
+      "Flat": "given Flat",
+      "Bungalow": "given Bungalow",
+      "H": "given H",
+      "u": "given u"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Pucca_house, Kutcha_house, Flat, Bungalow, H from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "House types = (Pucca_house) + (Kutcha_house) + (Flat) + (Bungalow) + (H*u*t)",
+     "compute": "House_types = (Pucca_house) + (Kutcha_house) + (Flat) + (Bungalow) + (H*u*t)"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_007",
+   "title": "Worked example: Building materials = ...",
+   "section": "",
+   "formula": "Building_materials = Bricks + Cement + Sand + Wood + Iron + Roof_material + Glass",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find building materials using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find building materials"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_007",
+     "question_pattern": "worked example with {Bricks} and {Cement} and {Sand} and {Wood} and {Iron} and {Roof_material} find building materials",
+     "extracted_variables": {
+      "Bricks": "given Bricks",
+      "Cement": "given Cement",
+      "Sand": "given Sand",
+      "Wood": "given Wood",
+      "Iron": "given Iron",
+      "Roof_material": "given Roof_material"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Bricks, Cement, Sand, Wood, Iron from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Building materials = Bricks + Cement + Sand + Wood + Iron + Roof_material + Glass",
+     "compute": "Building_materials = Bricks + Cement + Sand + Wood + Iron + Roof_material + Glass"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_008",
+   "title": "If clothes catch fire, do 3 steps in order: Ambulance = ...",
+   "section": "",
+   "formula": "Ambulance = 108 (in_most_states) / 102",
+   "_pats_extra": [],
+   "key_idea": "If clothes catch fire, do 3 steps in order",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ambulance using if clothes catch fire, do 3 steps in order",
+    "calculate if clothes catch fire, do 3 steps in order",
+    "if clothes catch fire, do 3 steps in order formula question",
+    "given values find ambulance"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_008",
+     "question_pattern": "if clothes catch fire, do 3 steps in order with {in_most_states} find ambulance",
+     "extracted_variables": {
+      "in_most_states": "given in_most_states"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for in_most_states from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Ambulance = 108 (in_most_states) / 102",
+     "compute": "Ambulance = 108 (in_most_states) / 102"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_009",
+   "title": "Key relationships (qualitative): Plant needs = ...",
+   "section": "",
+   "formula": "Plant_needs = Water + Sunlight + A*i*r + Soil + Care",
+   "_pats_extra": [],
+   "key_idea": "Key relationships (qualitative)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find plant needs using key relationships (qualitative)",
+    "calculate key relationships (qualitative)",
+    "key relationships (qualitative) formula question",
+    "given values find plant needs"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_009",
+     "question_pattern": "key relationships (qualitative) with {Water} and {Sunlight} and {A} and {i} and {r} and {Soil} find plant needs",
+     "extracted_variables": {
+      "Water": "given Water",
+      "Sunlight": "given Sunlight",
+      "A": "given A",
+      "i": "given i",
+      "r": "given r",
+      "Soil": "given Soil"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Water, Sunlight, A, i, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Plant needs = Water + Sunlight + A*i*r + Soil + Care",
+     "compute": "Plant_needs = Water + Sunlight + A*i*r + Soil + Care"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  },
+  {
+   "id": "FB_EVS_C2_010",
+   "title": "Worked example: Pet needs = ...",
+   "section": "",
+   "formula": "Pet_needs = Food + Water + Shelter + Cleanliness + Love + Health_care",
+   "_pats_extra": [],
+   "key_idea": "Worked example",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pet needs using worked example",
+    "calculate worked example",
+    "worked example formula question",
+    "given values find pet needs"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C2_010",
+     "question_pattern": "worked example with {Food} and {Water} and {Shelter} and {Cleanliness} and {Love} and {Health_care} find pet needs",
+     "extracted_variables": {
+      "Food": "given Food",
+      "Water": "given Water",
+      "Shelter": "given Shelter",
+      "Cleanliness": "given Cleanliness",
+      "Love": "given Love",
+      "Health_care": "given Health_care"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Food, Water, Shelter, Cleanliness, Love from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Pet needs = Food + Water + Shelter + Cleanliness + Love + Health_care",
+     "compute": "Pet_needs = Food + Water + Shelter + Cleanliness + Love + Health_care"
+    }
+   ],
+   "chapter_title": "evs c2 formulas"
+  }
+ ]
+}

@@ -203,19 +203,23 @@ class SM2Scheduler:
     def update(state: MasteryState, correct: bool, time_ms: float) -> tuple[datetime, int]:
         g = SM2Scheduler.grade(correct, time_ms)
 
+        # Canonical SM-2 order: easiness factor updates FIRST, so the
+        # reps>=3 interval multiplies by the NEW EF (same math as
+        # ProgressService.submit_review — both writers schedule the same
+        # student honestly).
+        state.sm2_ef = max(1.3, state.sm2_ef + (0.1 - (5.0 - g) * (0.08 + (5.0 - g) * 0.02)))
+
         if g >= 3:
             if state.sm2_reps == 0:
                 state.sm2_interval = 1
             elif state.sm2_reps == 1:
                 state.sm2_interval = 6
             else:
-                state.sm2_interval = round(state.sm2_interval * state.sm2_ef)
+                state.sm2_interval = max(1, round(state.sm2_interval * state.sm2_ef))
             state.sm2_reps += 1
         else:
             state.sm2_reps = 0
             state.sm2_interval = 1
-
-        state.sm2_ef = max(1.3, state.sm2_ef + (0.1 - (5.0 - g) * (0.08 + (5.0 - g) * 0.02)))
 
         now = datetime.utcnow()
         state.last_review = now
@@ -1047,23 +1051,82 @@ async def get_shared_service() -> "MasterySyncService":
             logger.warning("mastery start failed — in-memory mode: %s", exc)
     return svc
 
-async def update_on_attempt(student_id, subject, topic_id, problem_type,
-                            correct, time_ms=0, competency=False, difficulty=0.5):
+# ---------------------------------------------------------------------------
+# Module-level convenience wrappers (for services that import functions
+# directly).
+#
+# MASTERY-SOLID fix: these wrappers are the import surface for live serving
+# paths (question_selector, practice_service, worked_examples) and EVERY one
+# of them raised TypeError on every call — they forwarded kwargs the service
+# methods never accepted (problem_type/competency on update_on_attempt;
+# subject/limit on get_review_schedule) or bound the wrong positional
+# (subject into topic_id on get_mastery), so adaptive question selection
+# silently lost its mastery signal. They now match the MasterySyncService
+# signatures AND the call shapes the importers actually use (verified against
+# services/practice_service.py:331,748,1147; services/question_selector.py:923,966;
+# services/worked_examples.py:537).
+# ---------------------------------------------------------------------------
+
+class _AttemptResult(dict):
+    """Service state dict with attribute access — legacy callers read
+    ``result.mastery_score``; the canonical scalar is ``bkt_p_know``."""
+
+    def __getattr__(self, name: str) -> Any:
+        try:
+            return self[name]
+        except KeyError:
+            raise AttributeError(name) from None
+
+
+async def update_on_attempt(student_id, topic_id=None, correct=None,
+                            time_ms=0.0, subject="general", difficulty=0.5,
+                            timestamp=None, is_correct=None,
+                            problem_type=None, competency=None):
+    """Apply one attempt. ``correct``/``is_correct`` both accepted;
+    ``problem_type``/``competency`` are accepted and ignored (legacy
+    signatures — the live store has no column for them)."""
     svc = _get_default_service()
-    return await svc.update_on_attempt(
-        student_id=student_id, subject=subject, topic_id=topic_id,
-        problem_type=problem_type, correct=correct, time_ms=time_ms,
-        competency=competency, difficulty=difficulty,
+    verdict = correct if correct is not None else is_correct
+    result = await svc.update_on_attempt(
+        student_id=str(student_id),
+        topic_id=str(topic_id) if topic_id is not None else "",
+        correct=bool(verdict),
+        time_ms=float(time_ms or 0.0),
+        subject=str(subject or "general"),
+        difficulty=float(0.5 if difficulty is None else difficulty),
+        timestamp=timestamp,
     )
+    result = _AttemptResult(result)
+    # alias so attribute-style callers (.mastery_score) get the real signal
+    result.setdefault("mastery_score", result.get("bkt_p_know"))
+    return result
 
 async def get_mastery(student_id, subject=None, topic_id=None):
+    """Topic mastery for (student, topic); subject-level aggregate when no
+    topic is given (cold start returns the 0.1 store prior)."""
     svc = _get_default_service()
-    return await svc.get_mastery(
-        student_id=student_id, subject=subject, topic_id=topic_id,
-    )
+    if topic_id:
+        return await svc.get_mastery(
+            student_id=str(student_id), topic_id=str(topic_id),
+            subject=str(subject or "general"),
+        )
+    out = await svc.get_mastery_by_subject(str(student_id), str(subject or "general"))
+    topics = out.get("topics") or []
+    if not topics:
+        return {"student_id": str(student_id), "subject": subject,
+                "bkt_p_know": 0.1, "attempts": 0, "topic_count": 0,
+                "topics": []}
+    out["bkt_p_know"] = float(out.get("avg_bkt_p_know") or 0.0)
+    return out
 
 async def get_review_schedule(student_id, subject=None, limit=20):
+    """Due review topics for the student — list of topic dicts, most
+    overdue first, filtered to ``subject`` when given."""
     svc = _get_default_service()
-    return await svc.get_review_schedule(
-        student_id=student_id, subject=subject, limit=limit,
-    )
+    out = await svc.get_review_schedule(student_id=str(student_id))
+    topics = list(out.get("topics") or [])
+    if subject:
+        s = str(subject).lower()
+        topics = [t for t in topics
+                  if str(t.get("subject", "")).lower() == s]
+    return topics[:max(0, int(limit))]

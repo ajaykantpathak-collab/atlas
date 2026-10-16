@@ -1,0 +1,134 @@
+#include "rules/sdl/skill_description_lang.dl"
+
+evidence_unit("su_0", 0).
+evidence_unit_type("su_0", "front_matter_field").
+evidence_unit_location("su_0", "SKILL.md", 2, 2).
+
+evidence_unit("su_1", 1).
+evidence_unit_type("su_1", "front_matter_field").
+evidence_unit_location("su_1", "SKILL.md", 3, 3).
+
+evidence_unit("su_2", 2).
+evidence_unit_type("su_2", "front_matter_field").
+evidence_unit_location("su_2", "SKILL.md", 4, 4).
+
+evidence_unit("su_3", 3).
+evidence_unit_type("su_3", "front_matter_field").
+evidence_unit_location("su_3", "SKILL.md", 5, 7).
+
+evidence_unit("su_4", 4).
+evidence_unit_type("su_4", "heading").
+evidence_unit_location("su_4", "SKILL.md", 10, 10).
+
+evidence_unit("su_5", 5).
+evidence_unit_type("su_5", "paragraph").
+evidence_unit_location("su_5", "SKILL.md", 12, 12).
+
+evidence_unit("su_6", 6).
+evidence_unit_type("su_6", "paragraph").
+evidence_unit_location("su_6", "SKILL.md", 14, 14).
+
+evidence_unit("su_7", 7).
+evidence_unit_type("su_7", "paragraph").
+evidence_unit_location("su_7", "SKILL.md", 16, 16).
+
+evidence_unit("su_8", 8).
+evidence_unit_type("su_8", "paragraph").
+evidence_unit_location("su_8", "SKILL.md", 18, 18).
+
+evidence_unit("su_9", 9).
+evidence_unit_type("su_9", "paragraph").
+evidence_unit_location("su_9", "SKILL.md", 20, 20).
+
+evidence_unit("su_10", 10).
+evidence_unit_type("su_10", "heading").
+evidence_unit_location("su_10", "SKILL.md", 22, 22).
+
+evidence_unit("su_11", 11).
+evidence_unit_type("su_11", "list_item").
+evidence_unit_location("su_11", "SKILL.md", 24, 24).
+
+evidence_unit("su_12", 12).
+evidence_unit_type("su_12", "list_item").
+evidence_unit_location("su_12", "SKILL.md", 25, 25).
+
+evidence_unit("su_13", 13).
+evidence_unit_type("su_13", "list_item").
+evidence_unit_location("su_13", "SKILL.md", 26, 26).
+
+evidence_unit("su_14", 14).
+evidence_unit_type("su_14", "list_item").
+evidence_unit_location("su_14", "SKILL.md", 27, 27).
+
+evidence_unit("su_15", 15).
+evidence_unit_type("su_15", "list_item").
+evidence_unit_location("su_15", "SKILL.md", 28, 28).
+
+evidence_unit("su_16", 16).
+evidence_unit_type("su_16", "list_item").
+evidence_unit_location("su_16", "SKILL.md", 29, 29).
+
+evidence_unit("su_17", 17).
+evidence_unit_type("su_17", "list_item").
+evidence_unit_location("su_17", "SKILL.md", 30, 30).
+
+evidence_unit("su_18", 18).
+evidence_unit_type("su_18", "heading").
+evidence_unit_location("su_18", "SKILL.md", 32, 32).
+
+evidence_unit("su_19", 19).
+evidence_unit_type("su_19", "fenced_code").
+evidence_unit_location("su_19", "SKILL.md", 35, 35).
+
+evidence_unit("su_20", 20).
+evidence_unit_type("su_20", "fenced_code").
+evidence_unit_location("su_20", "SKILL.md", 36, 36).
+
+evidence_unit("su_21", 21).
+evidence_unit_type("su_21", "fenced_code").
+evidence_unit_location("su_21", "SKILL.md", 37, 37).
+
+evidence_unit("su_22", 22).
+evidence_unit_type("su_22", "fenced_code").
+evidence_unit_location("su_22", "SKILL.md", 38, 38).
+
+evidence_unit("su_23", 23).
+evidence_unit_type("su_23", "heading").
+evidence_unit_location("su_23", "SKILL.md", 41, 41).
+
+evidence_unit("su_24", 24).
+evidence_unit_type("su_24", "paragraph").
+evidence_unit_location("su_24", "SKILL.md", 43, 43).
+
+evidence_unit("su_25", 25).
+evidence_unit_type("su_25", "paragraph").
+evidence_unit_location("su_25", "SKILL.md", 45, 45).
+
+evidence_unit("su_26", 26).
+evidence_unit_type("su_26", "paragraph").
+evidence_unit_location("su_26", "SKILL.md", 47, 47).
+
+evidence_unit("su_27", 27).
+evidence_unit_type("su_27", "paragraph").
+evidence_unit_location("su_27", "SKILL.md", 49, 49).
+
+evidence_unit("su_28", 28).
+evidence_unit_type("su_28", "paragraph").
+evidence_unit_location("su_28", "SKILL.md", 51, 51).
+
+evidence_unit("su_29", 29).
+evidence_unit_type("su_29", "paragraph").
+evidence_unit_location("su_29", "SKILL.md", 53, 53).
+
+evidence_unit("su_30", 30).
+evidence_unit_type("su_30", "paragraph").
+evidence_unit_location("su_30", "SKILL.md", 55, 55).
+
+evidence_unit("su_31", 31).
+evidence_unit_type("su_31", "paragraph").
+evidence_unit_location("su_31", "SKILL.md", 57, 57).
+
+evidence_unit("su_32", 32).
+evidence_unit_type("su_32", "paragraph").
+evidence_unit_location("su_32", "SKILL.md", 59, 59).
+

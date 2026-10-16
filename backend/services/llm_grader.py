@@ -267,6 +267,14 @@ JSON Output:"""
 
         try:
             async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=30)) as session:
+                # TELEMETRY (COLD-START brief §C): a real LLM request is
+                # about to leave the process — flip the per-request flag
+                # the answer telemetry reads (never hardcoded downstream).
+                try:
+                    from backend.services.answer_telemetry import mark_llm_invoked
+                    mark_llm_invoked()
+                except Exception:
+                    pass
                 # Check if model is available
                 async with session.post(
                     f"{cls.OLLAMA_URL}/api/generate",

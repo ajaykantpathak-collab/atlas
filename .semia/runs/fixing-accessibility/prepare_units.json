@@ -1,0 +1,843 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 136,
+      "path": "SKILL.md",
+      "size_bytes": 4718
+    }
+  ],
+  "source_id": "fixing-accessibility",
+  "source_map": [
+    {
+      "enriched_line_end": 136,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 136,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 91,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: fixing-accessibility",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "fixing-accessibility",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Fix accessibility issues.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "how to use",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "/fixing-accessibility",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "/fixing-accessibility <file>",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "violations (quote the exact line or snippet)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "why it matters (one short sentence)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "a concrete fix (code-level suggestion)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "Do not rewrite large parts of the UI. Prefer minimal, targeted fixes.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "when to apply",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "Reference these guidelines when:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "adding or changing buttons, links, inputs, menus, dialogs, tabs, dropdowns",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "building forms, validation, error states, helper text",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "implementing keyboard shortcuts or custom interactions",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "working on focus states, focus trapping, or modal behavior",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "rendering icon-only controls",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "SKILL.md",
+      "text": "adding hover-only interactions or hidden content",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "SKILL.md",
+      "text": "rule categories by priority",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "| priority | category | impact |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "| 1 | accessible names | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "SKILL.md",
+      "text": "| 2 | keyboard access | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "| 3 | focus and dialogs | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "| 4 | semantics | high |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "| 5 | forms and errors | high |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "SKILL.md",
+      "text": "| 6 | announcements | medium-high |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "| 7 | contrast and states | medium |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "SKILL.md",
+      "text": "| 8 | media and motion | low-medium |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "SKILL.md",
+      "text": "| 9 | tool boundaries | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "quick reference",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "1. accessible names (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 51,
+      "line_start": 51,
+      "source_file": "SKILL.md",
+      "text": "every interactive control must have an accessible name",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "SKILL.md",
+      "text": "icon-only buttons must have aria-label or aria-labelledby",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 53,
+      "line_start": 53,
+      "source_file": "SKILL.md",
+      "text": "every input, select, and textarea must be labeled",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "links must have meaningful text (no \u201cclick here\u201d)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 55,
+      "line_start": 55,
+      "source_file": "SKILL.md",
+      "text": "decorative icons must be aria-hidden",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "SKILL.md",
+      "text": "2. keyboard access (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "do not use div or span as buttons without full keyboard support",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 60,
+      "line_start": 60,
+      "source_file": "SKILL.md",
+      "text": "all interactive elements must be reachable by Tab",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_40",
+      "id": 40,
+      "line_end": 61,
+      "line_start": 61,
+      "source_file": "SKILL.md",
+      "text": "focus must be visible for keyboard users",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_41",
+      "id": 41,
+      "line_end": 62,
+      "line_start": 62,
+      "source_file": "SKILL.md",
+      "text": "do not use tabindex greater than 0",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_42",
+      "id": 42,
+      "line_end": 63,
+      "line_start": 63,
+      "source_file": "SKILL.md",
+      "text": "Escape must close dialogs or overlays when applicable",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_43",
+      "id": 43,
+      "line_end": 65,
+      "line_start": 65,
+      "source_file": "SKILL.md",
+      "text": "3. focus and dialogs (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_44",
+      "id": 44,
+      "line_end": 67,
+      "line_start": 67,
+      "source_file": "SKILL.md",
+      "text": "modals must trap focus while open",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_45",
+      "id": 45,
+      "line_end": 68,
+      "line_start": 68,
+      "source_file": "SKILL.md",
+      "text": "restore focus to the trigger on close",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_46",
+      "id": 46,
+      "line_end": 69,
+      "line_start": 69,
+      "source_file": "SKILL.md",
+      "text": "set initial focus inside dialogs",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_47",
+      "id": 47,
+      "line_end": 70,
+      "line_start": 70,
+      "source_file": "SKILL.md",
+      "text": "opening a dialog should not scroll the page unexpectedly",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_48",
+      "id": 48,
+      "line_end": 72,
+      "line_start": 72,
+      "source_file": "SKILL.md",
+      "text": "4. semantics (high)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_49",
+      "id": 49,
+      "line_end": 74,
+      "line_start": 74,
+      "source_file": "SKILL.md",
+      "text": "prefer native elements (button, a, input) over role-based hacks",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_50",
+      "id": 50,
+      "line_end": 75,
+      "line_start": 75,
+      "source_file": "SKILL.md",
+      "text": "if a role is used, required aria attributes must be present",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_51",
+      "id": 51,
+      "line_end": 76,
+      "line_start": 76,
+      "source_file": "SKILL.md",
+      "text": "lists must use ul or ol with li",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_52",
+      "id": 52,
+      "line_end": 77,
+      "line_start": 77,
+      "source_file": "SKILL.md",
+      "text": "do not skip heading levels",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_53",
+      "id": 53,
+      "line_end": 78,
+      "line_start": 78,
+      "source_file": "SKILL.md",
+      "text": "tables must use th for headers when applicable",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_54",
+      "id": 54,
+      "line_end": 80,
+      "line_start": 80,
+      "source_file": "SKILL.md",
+      "text": "5. forms and errors (high)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_55",
+      "id": 55,
+      "line_end": 82,
+      "line_start": 82,
+      "source_file": "SKILL.md",
+      "text": "errors must be linked to fields using aria-describedby",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_56",
+      "id": 56,
+      "line_end": 83,
+      "line_start": 83,
+      "source_file": "SKILL.md",
+      "text": "required fields must be announced",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_57",
+      "id": 57,
+      "line_end": 84,
+      "line_start": 84,
+      "source_file": "SKILL.md",
+      "text": "invalid fields must set aria-invalid",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_58",
+      "id": 58,
+      "line_end": 85,
+      "line_start": 85,
+      "source_file": "SKILL.md",
+      "text": "helper text must be associated with inputs",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_59",
+      "id": 59,
+      "line_end": 86,
+      "line_start": 86,
+      "source_file": "SKILL.md",
+      "text": "disabled submit actions must explain why",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_60",
+      "id": 60,
+      "line_end": 88,
+      "line_start": 88,
+      "source_file": "SKILL.md",
+      "text": "6. announcements (medium-high)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_61",
+      "id": 61,
+      "line_end": 90,
+      "line_start": 90,
+      "source_file": "SKILL.md",
+      "text": "critical form errors should use aria-live",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_62",
+      "id": 62,
+      "line_end": 91,
+      "line_start": 91,
+      "source_file": "SKILL.md",
+      "text": "loading states should use aria-busy or status text",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_63",
+      "id": 63,
+      "line_end": 92,
+      "line_start": 92,
+      "source_file": "SKILL.md",
+      "text": "toasts must not be the only way to convey critical information",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_64",
+      "id": 64,
+      "line_end": 93,
+      "line_start": 93,
+      "source_file": "SKILL.md",
+      "text": "expandable controls must use aria-expanded and aria-controls",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_65",
+      "id": 65,
+      "line_end": 95,
+      "line_start": 95,
+      "source_file": "SKILL.md",
+      "text": "7. contrast and states (medium)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_66",
+      "id": 66,
+      "line_end": 97,
+      "line_start": 97,
+      "source_file": "SKILL.md",
+      "text": "ensure sufficient contrast for text and icons",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_67",
+      "id": 67,
+      "line_end": 98,
+      "line_start": 98,
+      "source_file": "SKILL.md",
+      "text": "hover-only interactions must have keyboard equivalents",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_68",
+      "id": 68,
+      "line_end": 99,
+      "line_start": 99,
+      "source_file": "SKILL.md",
+      "text": "disabled states must not rely on color alone",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_69",
+      "id": 69,
+      "line_end": 100,
+      "line_start": 100,
+      "source_file": "SKILL.md",
+      "text": "do not remove focus outlines without a visible replacement",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_70",
+      "id": 70,
+      "line_end": 102,
+      "line_start": 102,
+      "source_file": "SKILL.md",
+      "text": "8. media and motion (low-medium)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_71",
+      "id": 71,
+      "line_end": 104,
+      "line_start": 104,
+      "source_file": "SKILL.md",
+      "text": "images must have correct alt text (meaningful or empty)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_72",
+      "id": 72,
+      "line_end": 105,
+      "line_start": 105,
+      "source_file": "SKILL.md",
+      "text": "videos with speech should provide captions when relevant",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_73",
+      "id": 73,
+      "line_end": 106,
+      "line_start": 106,
+      "source_file": "SKILL.md",
+      "text": "respect prefers-reduced-motion for non-essential motion",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_74",
+      "id": 74,
+      "line_end": 107,
+      "line_start": 107,
+      "source_file": "SKILL.md",
+      "text": "avoid autoplaying media with sound",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_75",
+      "id": 75,
+      "line_end": 109,
+      "line_start": 109,
+      "source_file": "SKILL.md",
+      "text": "9. tool boundaries (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_76",
+      "id": 76,
+      "line_end": 111,
+      "line_start": 111,
+      "source_file": "SKILL.md",
+      "text": "prefer minimal changes, do not refactor unrelated code",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_77",
+      "id": 77,
+      "line_end": 112,
+      "line_start": 112,
+      "source_file": "SKILL.md",
+      "text": "do not add aria when native semantics already solve the problem",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_78",
+      "id": 78,
+      "line_end": 113,
+      "line_start": 113,
+      "source_file": "SKILL.md",
+      "text": "do not migrate UI libraries unless requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_79",
+      "id": 79,
+      "line_end": 115,
+      "line_start": 115,
+      "source_file": "SKILL.md",
+      "text": "common fixes",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_80",
+      "id": 80,
+      "line_end": 119,
+      "line_start": 119,
+      "source_file": "SKILL.md",
+      "text": "<button><svg>...</svg></button>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_81",
+      "id": 81,
+      "line_end": 120,
+      "line_start": 120,
+      "source_file": "SKILL.md",
+      "text": "<button aria-label=\"Close\"><svg aria-hidden=\"true\">...</svg></button>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_82",
+      "id": 82,
+      "line_end": 123,
+      "line_start": 123,
+      "source_file": "SKILL.md",
+      "text": "<div onclick=\"save()\">Save</div>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_83",
+      "id": 83,
+      "line_end": 124,
+      "line_start": 124,
+      "source_file": "SKILL.md",
+      "text": "<button onclick=\"save()\">Save</button>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_84",
+      "id": 84,
+      "line_end": 127,
+      "line_start": 127,
+      "source_file": "SKILL.md",
+      "text": "<input id=\"email\" /> <span>Invalid email</span>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_85",
+      "id": 85,
+      "line_end": 128,
+      "line_start": 128,
+      "source_file": "SKILL.md",
+      "text": "<input id=\"email\" aria-describedby=\"email-err\" aria-invalid=\"true\" /> <span id=\"email-err\">Invalid email</span>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_86",
+      "id": 86,
+      "line_end": 131,
+      "line_start": 131,
+      "source_file": "SKILL.md",
+      "text": "review guidance",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_87",
+      "id": 87,
+      "line_end": 133,
+      "line_start": 133,
+      "source_file": "SKILL.md",
+      "text": "fix critical issues first (names, keyboard, focus, tool boundaries)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_88",
+      "id": 88,
+      "line_end": 134,
+      "line_start": 134,
+      "source_file": "SKILL.md",
+      "text": "prefer native HTML before adding aria",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_89",
+      "id": 89,
+      "line_end": 135,
+      "line_start": 135,
+      "source_file": "SKILL.md",
+      "text": "quote the exact snippet, state the failure, propose a small fix",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_90",
+      "id": 90,
+      "line_end": 136,
+      "line_start": 136,
+      "source_file": "SKILL.md",
+      "text": "for complex widgets (menu, dialog, combobox), prefer established accessible primitives over custom behavior",
+      "unit_type": "list_item"
+    }
+  ]
+}

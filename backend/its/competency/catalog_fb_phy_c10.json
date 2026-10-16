@@ -1,0 +1,1179 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c10)",
+ "source_file": "c10_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C10_001",
+   "title": "Equations of motion (uniform acceleration): v = ...",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "v = u + a*t",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using equations of motion (uniform acceleration)",
+    "calculate equations of motion (uniform acceleration)",
+    "equations of motion (uniform acceleration) formula question",
+    "given values find v",
+    "motion in one dimension equations of motion (uniform acceleration) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_001",
+     "question_pattern": "equations of motion (uniform acceleration) with {u} and {a} and {t} find v",
+     "extracted_variables": {
+      "u": "given u",
+      "a": "given a",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  },
+  {
+   "id": "FB_PHY_C10_002",
+   "title": "Equations of motion (uniform acceleration): s = ...",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "s = u*t + 1/2*a*t^2",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find s using equations of motion (uniform acceleration)",
+    "calculate equations of motion (uniform acceleration)",
+    "equations of motion (uniform acceleration) formula question",
+    "given values find s",
+    "motion in one dimension equations of motion (uniform acceleration) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_002",
+     "question_pattern": "equations of motion (uniform acceleration) with {u} and {t} and {a} and {t} find s",
+     "extracted_variables": {
+      "u": "given u",
+      "t": "given t",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, t, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "s = u*t + 1/2*a*t^2",
+     "compute": "s = u*t + 1/2*a*t^2"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  },
+  {
+   "id": "FB_PHY_C10_003",
+   "title": "Newton's Third Law: F_1_2 = ...",
+   "section": "LAWS OF MOTION",
+   "formula": "F_1_2 = -F_2*_1",
+   "_pats_extra": [],
+   "key_idea": "Newton's Third Law (LAWS OF MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f_1_2 using newton's third law",
+    "calculate newton's third law",
+    "newton's third law formula question",
+    "given values find f_1_2",
+    "laws of motion newton's third law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_003",
+     "question_pattern": "newton's third law with {F_2} and {_1} find f_1_2",
+     "extracted_variables": {
+      "F_2": "given F_2",
+      "_1": "given _1"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F_2, _1 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F_1_2 = -F_2*_1",
+     "compute": "F_1_2 = -F_2*_1"
+    }
+   ],
+   "chapter_title": "LAWS OF MOTION"
+  },
+  {
+   "id": "FB_PHY_C10_004",
+   "title": "Newton's law of gravitation: F = ...",
+   "section": "GRAVITATION (C10)",
+   "formula": "F = Gm_1*m_2/r^2",
+   "_pats_extra": [],
+   "key_idea": "Newton's law of gravitation (GRAVITATION (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using newton's law of gravitation",
+    "calculate newton's law of gravitation",
+    "newton's law of gravitation formula question",
+    "given values find f",
+    "gravitation (c10) newton's law of gravitation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_004",
+     "question_pattern": "newton's law of gravitation with {Gm_1} and {m_2} and {r} find f",
+     "extracted_variables": {
+      "Gm_1": "given Gm_1",
+      "m_2": "given m_2",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Gm_1, m_2, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = Gm_1*m_2/r^2",
+     "compute": "F = Gm_1*m_2/r^2"
+    }
+   ],
+   "chapter_title": "GRAVITATION (C10)"
+  },
+  {
+   "id": "FB_PHY_C10_005",
+   "title": "Newton's law of gravitation: G = ...",
+   "section": "GRAVITATION (C10)",
+   "formula": "G = 6.674*10^-11*N*x*m^2/kg^2",
+   "_pats_extra": [],
+   "key_idea": "Newton's law of gravitation (GRAVITATION (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using newton's law of gravitation",
+    "calculate newton's law of gravitation",
+    "newton's law of gravitation formula question",
+    "given values find g",
+    "gravitation (c10) newton's law of gravitation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_005",
+     "question_pattern": "newton's law of gravitation with {N} and {m} and {kg} find g",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "G = 6.674*10^-11*N*x*m^2/kg^2",
+     "compute": "G = 6.674*10^-11*N*x*m^2/kg^2"
+    }
+   ],
+   "chapter_title": "GRAVITATION (C10)"
+  },
+  {
+   "id": "FB_PHY_C10_006",
+   "title": "Energy: KE = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "KE = 1/2*m*v^2 (kinetic_energy, always_positive)",
+   "_pats_extra": [],
+   "key_idea": "Energy (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ke using energy",
+    "calculate energy",
+    "energy formula question",
+    "given values find ke",
+    "work, energy, power energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_006",
+     "question_pattern": "energy with {m} and {v} and {kinetic_energy} and {always_positive} find ke",
+     "extracted_variables": {
+      "m": "given m",
+      "v": "given v",
+      "kinetic_energy": "given kinetic_energy",
+      "always_positive": "given always_positive"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, v, kinetic_energy, always_positive from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "KE = 1/2*m*v^2 (kinetic_energy, always_positive)",
+     "compute": "KE = 1/2*m*v^2 (kinetic_energy, always_positive)"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C10_007",
+   "title": "Spherical mirrors: f = ...",
+   "section": "LIGHT -- REFLECTION",
+   "formula": "f = R/2",
+   "_pats_extra": [],
+   "key_idea": "Spherical mirrors (LIGHT -- REFLECTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using spherical mirrors",
+    "calculate spherical mirrors",
+    "spherical mirrors formula question",
+    "given values find f",
+    "light -- reflection spherical mirrors numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_007",
+     "question_pattern": "spherical mirrors with {R} find f",
+     "extracted_variables": {
+      "R": "given R"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for R from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "f = R/2",
+     "compute": "f = R/2"
+    }
+   ],
+   "chapter_title": "LIGHT -- REFLECTION"
+  },
+  {
+   "id": "FB_PHY_C10_008",
+   "title": "Snell's law: n = ...",
+   "section": "LIGHT -- REFRACTION",
+   "formula": "n = speed_in_vacuum / speed_in_medium",
+   "_pats_extra": [],
+   "key_idea": "Snell's law (LIGHT -- REFRACTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using snell's law",
+    "calculate snell's law",
+    "snell's law formula question",
+    "given values find n",
+    "light -- refraction snell's law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_008",
+     "question_pattern": "snell's law with {speed_in_vacuum} and {speed_in_medium} find n",
+     "extracted_variables": {
+      "speed_in_vacuum": "given speed_in_vacuum",
+      "speed_in_medium": "given speed_in_medium"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for speed_in_vacuum, speed_in_medium from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = speed_in_vacuum / speed_in_medium",
+     "compute": "n = speed_in_vacuum / speed_in_medium"
+    }
+   ],
+   "chapter_title": "LIGHT -- REFRACTION"
+  },
+  {
+   "id": "FB_PHY_C10_009",
+   "title": "Wave properties: f = ...",
+   "section": "SOUND",
+   "formula": "f = 1/T",
+   "_pats_extra": [],
+   "key_idea": "Wave properties (SOUND)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using wave properties",
+    "calculate wave properties",
+    "wave properties formula question",
+    "given values find f",
+    "sound wave properties numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_009",
+     "question_pattern": "wave properties with {T} find f",
+     "extracted_variables": {
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "f = 1/T",
+     "compute": "f = 1/T"
+    }
+   ],
+   "chapter_title": "SOUND"
+  },
+  {
+   "id": "FB_PHY_C10_010",
+   "title": "Speed of sound: v = ...",
+   "section": "SOUND",
+   "formula": "v = 331 + 0.6*T*deg*C*approximate_formula",
+   "_pats_extra": [],
+   "key_idea": "Speed of sound (SOUND)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using speed of sound",
+    "calculate speed of sound",
+    "speed of sound formula question",
+    "given values find v",
+    "sound speed of sound numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_010",
+     "question_pattern": "speed of sound with {T} and {deg} and {C} and {approximate_formula} find v",
+     "extracted_variables": {
+      "T": "given T",
+      "deg": "given deg",
+      "C": "given C",
+      "approximate_formula": "given approximate_formula"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T, deg, C, approximate_formula from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = 331 + 0.6*T*deg*C*approximate_formula",
+     "compute": "v = 331 + 0.6*T*deg*C*approximate_formula"
+    }
+   ],
+   "chapter_title": "SOUND"
+  },
+  {
+   "id": "FB_PHY_C10_011",
+   "title": "EMF and internal resistance: V = ...",
+   "section": "ELECTRICITY",
+   "formula": "V = epsilon - I*r*voltage_drops",
+   "_pats_extra": [],
+   "key_idea": "EMF and internal resistance (ELECTRICITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using emf and internal resistance",
+    "calculate emf and internal resistance",
+    "emf and internal resistance formula question",
+    "given values find v",
+    "electricity emf and internal resistance numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_011",
+     "question_pattern": "emf and internal resistance with {I} and {r} and {voltage_drops} find v",
+     "extracted_variables": {
+      "I": "given I",
+      "r": "given r",
+      "voltage_drops": "given voltage_drops"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for I, r, voltage_drops from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V = epsilon - I*r*voltage_drops",
+     "compute": "V = epsilon - I*r*voltage_drops"
+    }
+   ],
+   "chapter_title": "ELECTRICITY"
+  },
+  {
+   "id": "FB_PHY_C10_012",
+   "title": "Latent heat: L_f (ice) = ...",
+   "section": "HEAT AND CALORIMETRY",
+   "formula": "L_f_ice = 3.36*10^5/kg",
+   "_pats_extra": [],
+   "key_idea": "Latent heat (HEAT AND CALORIMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l_f (ice) using latent heat",
+    "calculate latent heat",
+    "latent heat formula question",
+    "given values find l_f (ice)",
+    "heat and calorimetry latent heat numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_012",
+     "question_pattern": "latent heat with {kg} find l_f (ice)",
+     "extracted_variables": {
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L_f (ice) = 3.36*10^5/kg",
+     "compute": "L_f_ice = 3.36*10^5/kg"
+    }
+   ],
+   "chapter_title": "HEAT AND CALORIMETRY"
+  },
+  {
+   "id": "FB_PHY_C10_013",
+   "title": "Latent heat: L_v (water) = ...",
+   "section": "HEAT AND CALORIMETRY",
+   "formula": "L_v_water = 2.26*10^6/kg",
+   "_pats_extra": [],
+   "key_idea": "Latent heat (HEAT AND CALORIMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l_v (water) using latent heat",
+    "calculate latent heat",
+    "latent heat formula question",
+    "given values find l_v (water)",
+    "heat and calorimetry latent heat numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_013",
+     "question_pattern": "latent heat with {kg} find l_v (water)",
+     "extracted_variables": {
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L_v (water) = 2.26*10^6/kg",
+     "compute": "L_v_water = 2.26*10^6/kg"
+    }
+   ],
+   "chapter_title": "HEAT AND CALORIMETRY"
+  },
+  {
+   "id": "FB_PHY_C10_014",
+   "title": "Nuclear reactions: E = ...",
+   "section": "MODERN PHYSICS",
+   "formula": "E = m*c^2 (mass-energy_equivalence, Einstein)",
+   "_pats_extra": [],
+   "key_idea": "Nuclear reactions (MODERN PHYSICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using nuclear reactions",
+    "calculate nuclear reactions",
+    "nuclear reactions formula question",
+    "given values find e",
+    "modern physics nuclear reactions numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_014",
+     "question_pattern": "nuclear reactions with {m} and {c} and {mass} and {energy_equivalence} and {Einstein} find e",
+     "extracted_variables": {
+      "m": "given m",
+      "c": "given c",
+      "mass": "given mass",
+      "energy_equivalence": "given energy_equivalence",
+      "Einstein": "given Einstein"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, c, mass, energy_equivalence, Einstein from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = m*c^2 (mass-energy_equivalence, Einstein)",
+     "compute": "E = m*c^2 (mass-energy_equivalence, Einstein)"
+    }
+   ],
+   "chapter_title": "MODERN PHYSICS"
+  },
+  {
+   "id": "FB_PHY_C10_015",
+   "title": "CONSTANTS: G = ...",
+   "section": "CONSTANTS",
+   "formula": "G = 6.674*10^-11*N*x*m^2/kg^2",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find g",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_015",
+     "question_pattern": "constants with {N} and {m} and {kg} find g",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "G = 6.674*10^-11*N*x*m^2/kg^2",
+     "compute": "G = 6.674*10^-11*N*x*m^2/kg^2"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C10_016",
+   "title": "CONSTANTS: c = ...",
+   "section": "CONSTANTS",
+   "formula": "c = 3*10^8/s",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find c",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_016",
+     "question_pattern": "constants with {s} find c",
+     "extracted_variables": {
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c = 3*10^8/s",
+     "compute": "c = 3*10^8/s"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C10_017",
+   "title": "CONSTANTS: Density of water = ...",
+   "section": "CONSTANTS",
+   "formula": "Density_of_water = 1000/m^3",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find density of water using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find density of water",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_017",
+     "question_pattern": "constants with {m} find density of water",
+     "extracted_variables": {
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Density of water = 1000/m^3",
+     "compute": "Density_of_water = 1000/m^3"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C10_018",
+   "title": "CONSTANTS: c_water = ...",
+   "section": "CONSTANTS",
+   "formula": "c_water = 4200/kgxK",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c_water using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find c_water",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_018",
+     "question_pattern": "constants with {kgxK} find c_water",
+     "extracted_variables": {
+      "kgxK": "given kgxK"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kgxK from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c_water = 4200/kgxK",
+     "compute": "c_water = 4200/kgxK"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C10_019",
+   "title": "CONSTANTS: L_f (ice) = ...",
+   "section": "CONSTANTS",
+   "formula": "L_f_ice = 3.36*10^5/kg",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l_f (ice) using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find l_f (ice)",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_019",
+     "question_pattern": "constants with {kg} find l_f (ice)",
+     "extracted_variables": {
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L_f (ice) = 3.36*10^5/kg",
+     "compute": "L_f_ice = 3.36*10^5/kg"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C10_020",
+   "title": "CONSTANTS: L_v (water) = ...",
+   "section": "CONSTANTS",
+   "formula": "L_v_water = 2.26*10^6/kg",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l_v (water) using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find l_v (water)",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_020",
+     "question_pattern": "constants with {kg} find l_v (water)",
+     "extracted_variables": {
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L_v (water) = 2.26*10^6/kg",
+     "compute": "L_v_water = 2.26*10^6/kg"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FBD_PHY_C10_001",
+   "title": "Moment of Force: Moment of Force = ...",
+   "section": "decision tree",
+   "formula": "Moment_of_Force = F*d",
+   "key_idea": "Moment of Force (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find moment of force using moment of force",
+    "calculate moment of force",
+    "moment of force formula question",
+    "given values find moment of force",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_001",
+     "question_pattern": "moment of force with {F} and {d} find moment of force",
+     "extracted_variables": {
+      "F": "given F",
+      "d": "given d"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F, d from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Moment of Force = F*d",
+     "compute": "Moment_of_Force = F*d"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C10_002",
+   "title": "Newton's Law of Gravitation F: Newton's Law of Gravitation F = ...",
+   "section": "decision tree",
+   "formula": "Newton's_Law_of_Gravitation_F = G*m1*m2 / r^2",
+   "key_idea": "Newton's Law of Gravitation F (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find newton's law of gravitation f using newton's law of gravitation f",
+    "calculate newton's law of gravitation f",
+    "newton's law of gravitation f formula question",
+    "given values find newton's law of gravitation f",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_002",
+     "question_pattern": "newton's law of gravitation f with {G} and {m1} and {m2} and {r} find newton's law of gravitation f",
+     "extracted_variables": {
+      "G": "given G",
+      "m1": "given m1",
+      "m2": "given m2",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for G, m1, m2, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Newton's Law of Gravitation F = G*m1*m2 / r^2",
+     "compute": "Newton's_Law_of_Gravitation_F = G*m1*m2 / r^2"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C10_003",
+   "title": "PE: PE = ...",
+   "section": "decision tree",
+   "formula": "PE = m*g*h",
+   "key_idea": "PE (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pe using pe",
+    "calculate pe",
+    "pe formula question",
+    "given values find pe",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_003",
+     "question_pattern": "pe with {m} and {g} and {h} find pe",
+     "extracted_variables": {
+      "m": "given m",
+      "g": "given g",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, g, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PE = m*g*h",
+     "compute": "PE = m*g*h"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C10_004",
+   "title": "Mirror Formula 1/f: Mirror Formula 1/f = ...",
+   "section": "decision tree",
+   "formula": "Mirror_Formula_1/f = 1/u + 1/v",
+   "key_idea": "Mirror Formula 1/f (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mirror formula 1/f using mirror formula 1/f",
+    "calculate mirror formula 1/f",
+    "mirror formula 1/f formula question",
+    "given values find mirror formula 1/f",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_004",
+     "question_pattern": "mirror formula 1/f with {u} and {v} find mirror formula 1/f",
+     "extracted_variables": {
+      "u": "given u",
+      "v": "given v"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, v from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mirror Formula 1/f = 1/u + 1/v",
+     "compute": "Mirror_Formula_1/f = 1/u + 1/v"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C10_005",
+   "title": "Lens Formula 1/f: Lens Formula 1/f = ...",
+   "section": "decision tree",
+   "formula": "Lens_Formula_1/f = 1/v - 1/u",
+   "key_idea": "Lens Formula 1/f (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find lens formula 1/f using lens formula 1/f",
+    "calculate lens formula 1/f",
+    "lens formula 1/f formula question",
+    "given values find lens formula 1/f",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_005",
+     "question_pattern": "lens formula 1/f with {v} and {u} find lens formula 1/f",
+     "extracted_variables": {
+      "v": "given v",
+      "u": "given u"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for v, u from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Lens Formula 1/f = 1/v - 1/u",
+     "compute": "Lens_Formula_1/f = 1/v - 1/u"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C10_006",
+   "title": "sin C: sin C = ...",
+   "section": "decision tree",
+   "formula": "sin_C = 1 / n",
+   "key_idea": "sin C (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sin c using sin c",
+    "calculate sin c",
+    "sin c formula question",
+    "given values find sin c",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_006",
+     "question_pattern": "sin c with {n} find sin c",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sin C = 1 / n",
+     "compute": "sin_C = 1 / n"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C10_007",
+   "title": "m1 x c1 x (t1 - t): m1 x c1 x (t1 - t) = ...",
+   "section": "decision tree",
+   "formula": "m1_x_c1_x_(t1_-_t) = m2*c2*x",
+   "key_idea": "m1 x c1 x (t1 - t) (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m1 x c1 x (t1 - t) using m1 x c1 x (t1 - t)",
+    "calculate m1 x c1 x (t1 - t)",
+    "m1 x c1 x (t1 - t) formula question",
+    "given values find m1 x c1 x (t1 - t)",
+    "FORCE / MOTION / EQUILIBRIUM",
+    "turning effect / pivot / hinge / beam balance",
+    "gears / number of teeth / speed change"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C10_007",
+     "question_pattern": "m1 x c1 x (t1 - t) with {m2} and {c2} find m1 x c1 x (t1 - t)",
+     "extracted_variables": {
+      "m2": "given m2",
+      "c2": "given c2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m2, c2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "m1 x c1 x (t1 - t) = m2*c2*x",
+     "compute": "m1_x_c1_x_(t1_-_t) = m2*c2*x"
+    }
+   ],
+   "chapter_title": "phy c10 decision formulas"
+  },
+  {
+   "id": "FB_PHY_C10_KIN2",
+   "title": "Third equation of motion: v2 = u2 + 2as",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "v^2 = u^2 + 2*a*s",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find acceleration from initial and final velocity and distance",
+    "accelerates from velocity to velocity covering distance",
+    "v squared equals u squared plus 2as",
+    "body changes speed over a distance find acceleration"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_KIN2",
+     "question_pattern": "accelerates from {u} m/s to {v} m/s covering {s} m find a",
+     "extracted_variables": {
+      "u": 15,
+      "v": 25,
+      "s": 80
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  },
+  {
+   "id": "FB_PHY_C10_KIN3",
+   "title": "Second equation of motion: s = ut + 1/2 at2",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "s = u*t + (1/2)*a*t^2",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance travelled with initial velocity acceleration time",
+    "body starts with velocity and accelerates find distance",
+    "s equals ut plus half at squared"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C10_KIN3",
+     "question_pattern": "initial velocity {u} m/s acceleration {a} m/s2 for {t} s find s",
+     "extracted_variables": {
+      "u": 5,
+      "a": 2,
+      "t": 4
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  }
+ ]
+}

@@ -392,6 +392,11 @@ def plausible(symbol: str, family: str, value: float) -> bool:
     # trig slots are bounded in [-1, 1]
     if symbol.startswith(("sin", "cos")) and "_" in symbol:
         return -1.0 <= value <= 1.0
+    # probability-valued symbols are bounded in [0, 1] regardless of
+    # the equation family — 'prob = 1 - 4 = -3' is never an answer
+    if symbol.startswith(("prob", "p_", "not_p")) or \
+            symbol in ("p_a", "p_b", "p_e", "p_k"):
+        return 0.0 <= value <= 1.0
     rng = _FAMILY_RANGES.get(family)
     if rng:
         lo, hi = rng
@@ -459,7 +464,12 @@ EQ_VAR_OVERRIDES = {
 
 
 class _Embedder:
-    """MiniLM singleton, same model as the routing layer."""
+    """Thin view over the process-wide shared MiniLM (backend.ai.model_hub).
+
+    PERF (2026-10-03 solve cold-start): was its own
+    SentenceTransformer("all-MiniLM-L6-v2") — a second full model load per
+    worker alongside semantic_matcher's. Now shared via model_hub.
+    """
 
     _model = None
     _lock = threading.Lock()
@@ -471,10 +481,8 @@ class _Embedder:
             with cls._lock:
                 if cls._model is None and not cls._failed:
                     try:
-                        import torch
-                        torch.set_num_threads(1)
-                        from sentence_transformers import SentenceTransformer
-                        cls._model = SentenceTransformer("all-MiniLM-L6-v2")
+                        from backend.ai import model_hub
+                        cls._model = model_hub.load_sync()
                     except Exception:
                         cls._failed = True
         return cls._model

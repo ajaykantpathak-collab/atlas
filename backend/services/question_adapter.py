@@ -44,12 +44,33 @@ logger = logging.getLogger(__name__)
 # Normalized output type
 # ---------------------------------------------------------------------------
 
-def normalize_question(raw: Any, source: str, idx: int, difficulty: float) -> Optional[Dict[str, Any]]:
+def _fallback_question_id(source: str, seed: Optional[int], idx: int) -> str:
+    """Id minted when a generator question carries no question_id/id.
+
+    MUST be unique per generated question.  Seeded generators emit a
+    different question per seed, so the id carries the seed; a seed-blind
+    fallback (the old ``{source}_{idx}``) gave every question from the
+    same generator the SAME id, which collided across questions and made
+    the practice session store overwrite an already-displayed question —
+    the graded-feedback-describes-a-different-question defect.
+    """
+    if seed is not None:
+        return f"{source}_{int(seed)}_{idx}"
+    return f"{source}_{idx}"
+
+
+def normalize_question(
+    raw: Any, source: str, idx: int, difficulty: float,
+    seed: Optional[int] = None,
+) -> Optional[Dict[str, Any]]:
     """Convert any question-like object into a normalized dict.
 
     This is the single source of truth for field name mapping.
     Handles: dict, Question dataclass (question_text/stem/question),
     ChemistryQuestion (question/answer), QuestionSpec (description/variant).
+
+    ``seed`` (the generation seed the question came from) only affects the
+    fallback question_id — unseeded/static adapters keep their stable id.
     """
     if raw is None:
         return None
@@ -108,9 +129,16 @@ def normalize_question(raw: Any, source: str, idx: int, difficulty: float) -> Op
         return None
 
     # --- Extract answer ---
-    answer = (raw.get('correct_answer') or raw.get('answer') or
-              raw.get('model_answer') or raw.get('key') or
-              raw.get('expected') or '')
+    # NOTE: a 0-indexed MCQ key (int 0) is a VALID answer — the old
+    # `str(answer) if answer else ''` destroyed every first-option key
+    # (observed live: 'Father of Sociology', answer 0, normalized to
+    # '' → served MCQ had no grading key).  Only None/'' mean missing.
+    answer = (raw.get('correct_answer') if raw.get('correct_answer') is not None
+              else raw.get('answer') if raw.get('answer') is not None
+              else raw.get('model_answer') if raw.get('model_answer') is not None
+              else raw.get('key') if raw.get('key') is not None
+              else raw.get('expected') if raw.get('expected') is not None
+              else '')
 
     # --- Extract question type ---
     qtype = (raw.get('question_type') or raw.get('qtype') or
@@ -138,9 +166,11 @@ def normalize_question(raw: Any, source: str, idx: int, difficulty: float) -> Op
         diff_label = str(raw_diff)
 
     return {
-        'question_id': str(raw.get('question_id') or raw.get('id') or f"{source}_{idx}"),
+        'question_id': str(raw.get('question_id') or raw.get('id')
+                           or _fallback_question_id(source, seed, idx)),
         'question_text': text,
-        'correct_answer': str(answer) if answer else '',
+        'correct_answer': ('' if answer is None or answer == ''
+                           else str(answer)),
         'question_type': qtype,
         'difficulty': diff_label,
         'options': raw.get('options'),
@@ -154,11 +184,15 @@ def normalize_question(raw: Any, source: str, idx: int, difficulty: float) -> Op
     }
 
 
-def extract_from_result(result: Any, source: str, idx: int, difficulty: float) -> Optional[Dict[str, Any]]:
+def extract_from_result(result: Any, source: str, idx: int, difficulty: float,
+                        seed: Optional[int] = None) -> Optional[Dict[str, Any]]:
     """Extract a single question from any generation result type.
 
     Handles: List[Question], QuestionSet, single dict, tuple (gen, json),
     topic containers with nested 'questions' key.
+
+    ``seed`` is forwarded to normalize_question so seedless generator
+    questions get a seed-unique fallback id.
     """
     if result is None:
         return None
@@ -169,11 +203,11 @@ def extract_from_result(result: Any, source: str, idx: int, difficulty: float) -
         # Try all_questions first
         if hasattr(gen, 'all_questions') and gen.all_questions:
             return normalize_question(gen.all_questions[idx % len(gen.all_questions)],
-                                      source, idx, difficulty)
+                                      source, idx, difficulty, seed=seed)
         # Try questions
         if hasattr(gen, 'questions') and gen.questions:
             return normalize_question(gen.questions[idx % len(gen.questions)],
-                                      source, idx, difficulty)
+                                      source, idx, difficulty, seed=seed)
         # Dict of node_id → List[Question] (e.g. class1_maths return)
         if isinstance(gen, dict):
             all_qs = []
@@ -182,7 +216,7 @@ def extract_from_result(result: Any, source: str, idx: int, difficulty: float) -
                     all_qs.extend(v)
             if all_qs:
                 return normalize_question(all_qs[idx % len(all_qs)],
-                                          source, idx, difficulty)
+                                          source, idx, difficulty, seed=seed)
         return None
 
     # List — could be questions or topic containers
@@ -193,16 +227,16 @@ def extract_from_result(result: Any, source: str, idx: int, difficulty: float) -
         if isinstance(item, dict) and 'questions' in item and isinstance(item['questions'], list):
             if item['questions']:
                 return normalize_question(item['questions'][idx % len(item['questions'])],
-                                          source, idx, difficulty)
+                                          source, idx, difficulty, seed=seed)
             return None
 
-        return normalize_question(item, source, idx, difficulty)
+        return normalize_question(item, source, idx, difficulty, seed=seed)
 
     # QuestionSet object — has .questions list
     if hasattr(result, 'questions') and isinstance(getattr(result, 'questions', None), list):
         qs = result.questions
         if qs:
-            return normalize_question(qs[idx % len(qs)], source, idx, difficulty)
+            return normalize_question(qs[idx % len(qs)], source, idx, difficulty, seed=seed)
         return None
 
     # Single dict
@@ -211,7 +245,7 @@ def extract_from_result(result: Any, source: str, idx: int, difficulty: float) -
         if 'questions' in result and isinstance(result['questions'], list):
             if result['questions']:
                 return normalize_question(result['questions'][idx % len(result['questions'])],
-                                          source, idx, difficulty)
+                                          source, idx, difficulty, seed=seed)
         # Dict of node_id → List[Question] (e.g. generate_all_questions return)
         # Detect: all values are lists
         if all(isinstance(v, list) for v in result.values()) and result:
@@ -220,12 +254,12 @@ def extract_from_result(result: Any, source: str, idx: int, difficulty: float) -
                 all_qs.extend(v)
             if all_qs:
                 return normalize_question(all_qs[idx % len(all_qs)],
-                                          source, idx, difficulty)
+                                          source, idx, difficulty, seed=seed)
             return None
-        return normalize_question(result, source, idx, difficulty)
+        return normalize_question(result, source, idx, difficulty, seed=seed)
 
     # Single question object
-    return normalize_question(result, source, idx, difficulty)
+    return normalize_question(result, source, idx, difficulty, seed=seed)
 
 
 # ---------------------------------------------------------------------------
@@ -314,7 +348,8 @@ class FunctionMapAdapter(QuestionAdapter):
                     elif p in ('node_id', 'node'): kwargs[p] = f"diag_{self.qtype}_{i}"
 
                 result = gen_fn(**kwargs) if kwargs else gen_fn()
-                q = extract_from_result(result, self.source, i, difficulty)
+                q = extract_from_result(result, self.source, i, difficulty,
+                                        seed=seed + i)
                 if q:
                     q['question_type'] = str(qtype_key)
                     questions.append(q)
@@ -437,7 +472,8 @@ class FunctionAdapter(QuestionAdapter):
 
         questions = []
         for i in range(count):
-            q = extract_from_result(result, self.source, i, difficulty)
+            q = extract_from_result(result, self.source, i, difficulty,
+                                    seed=seed)
             if q:
                 questions.append(q)
             else:
@@ -546,7 +582,8 @@ class ClassAdapter(QuestionAdapter):
 
         questions = []
         for i in range(count):
-            q = extract_from_result(result, self.source, i, difficulty)
+            q = extract_from_result(result, self.source, i, difficulty,
+                                    seed=seed)
             if q:
                 questions.append(q)
             else:

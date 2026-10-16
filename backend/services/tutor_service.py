@@ -33,6 +33,7 @@ from backend.ai.orchestrator import Orchestrator
 from backend.ai.llm_client import get_llm_client
 from backend.ai.answer_evaluator import evaluate_answer, evaluate_diagnostic_set, EvalResult
 from backend.ai.hybrid_evaluator import evaluate_answer as evaluate_answer_hybrid
+from backend.services import evaluator_solver_bridge
 from backend.ai.misconception_matcher import match_misconception, get_examiner_comments
 from backend.services.drill_service import DrillService
 from backend.services import notes_service
@@ -136,9 +137,18 @@ _NODE_ID_LINE_RE = re.compile(
 
 
 def _clean_student_content(text: str) -> str:
-    """Remove all internal IDs, metadata, and node references from student-visible text."""
+    """Remove all internal IDs, metadata, and node references from student-visible text,
+    while carefully preserving rich markdown links and navigation actions."""
     if not text:
         return text
+
+    # Protect markdown links [label](url) from internal ID stripping
+    saved_links: list[str] = []
+    def save_link(m: re.Match) -> str:
+        saved_links.append(m.group(0))
+        return f"__SAVED_LINK_{len(saved_links)-1}__"
+    text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', save_link, text)
+
     # Remove "(node c8_phy_013)" style references in parentheses
     text = _NODE_ID_IN_PARENS_RE.sub('', text)
     # Remove "Review PREREQ c12_phy_007" style references BEFORE stripping PREREQ keyword
@@ -155,6 +165,11 @@ def _clean_student_content(text: str) -> str:
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = re.sub(r'\(\s*\)', '', text)
     text = re.sub(r'  +', ' ', text)  # collapse multiple spaces
+
+    # Restore saved links
+    for idx, link_str in enumerate(saved_links):
+        text = text.replace(f"__SAVED_LINK_{idx}__", link_str)
+
     return text.strip()
 
 
@@ -735,6 +750,7 @@ class TutorService:
                         model_answer=current_card.get("back", ""),
                         question_type="free_text",
                         question_text=current_card.get("front", ""),
+                        solver_bridge=evaluator_solver_bridge,
                     )
                     is_correct = fc_result.correct or fc_result.score >= 0.3
                 except Exception:
@@ -1625,6 +1641,711 @@ class TutorService:
                 )
             return await TutorService._build_reply(session_id, meta, reply_content, reply_type, db)
 
+        # Layer 1.4 — PENDING VALUE-CONFIRM: when the last solution came
+        # from the structure lane, the read-back card stashes the parse
+        # here.  The student can confirm it, or correct a value
+        # ('angle is 30 not 60') and the SAME deterministic compute
+        # re-runs on their numbers — no re-extraction, no LLM.
+        def _understood_card(u: dict, msg: str, m: dict,
+                             gated: bool = False) -> str:
+            """Render the structure-lane read-back: 'as per the question,
+            <givens> — we have to find <ask>'.  gated=True (LLM path) asks
+            for approval BEFORE computing; gated=False (verified path)
+            shows the values the solve used so the student can flag a
+            mis-parse.  Either way the pending card is stashed so a
+            'no'/'<role> is N' turn recomputes deterministically."""
+            givens = u.get("givens") or {}
+            if not givens:
+                return ""
+
+            def _fmt_g(k, v):
+                if isinstance(v, dict):
+                    vv = v.get("value")
+                    uu = v.get("unit") or ""
+                    return f"**{k}** = {vv}{(' ' + uu) if uu else ''}"
+                return f"**{k}** = {v}"
+
+            given_lines = ",  ".join(_fmt_g(k, v) for k, v in givens.items())
+            ask_phrase = (u.get("ask") or "").strip() or "the final answer"
+            flat = {k: (v.get("value") if isinstance(v, dict) else v)
+                    for k, v in givens.items()}
+            m["pending_understood"] = {
+                "structure": u.get("structure"), "slots": flat,
+                "text": msg[:1500],
+                "code": u.get("code"),      # PAL_PROGRAM rides along
+                "plan": u.get("plan"),
+                "flows": u.get("flows"),    # declared signed flows
+                "start": u.get("start"),    # declared starting total
+                "already_solved": not gated}
+            # data-coverage honesty: numbers in the question the parse
+            # never bound get called out on the card — 'unused' values
+            # are how a wrong model hides (g=10 ignored, base amount
+            # ignored).  Computed HERE against the flat givens actually
+            # shown — never against an earlier/empty parse snapshot
+            # (that double-vision flagged the used perimeter '100' as
+            # unused live).
+            bound_vals = set()
+            for v in flat.values():
+                try:
+                    bound_vals.add(round(float(v), 6))
+                except (TypeError, ValueError):
+                    pass
+            unused = []
+            for x in dict.fromkeys(
+                    re.findall(r"(?<![\w.])\d+(?:\.\d+)?(?![\w.])",
+                               msg or "")):
+                try:
+                    if round(float(x), 6) not in bound_vals:
+                        unused.append(x)
+                except ValueError:
+                    pass
+            unused = unused[:8]
+            unused_note = (f"  *(I did not use these numbers: "
+                           f"{', '.join(unused)} — tell me if they "
+                           f"matter.)*" if unused else "")
+            # declared-flow restatement: each quantity's direction as
+            # the parse understands it ('sold pens → +30').  A wrong
+            # direction is readable here — this is the semantic
+            # double-check the student actually confirms.
+            flow_lines = ""
+            for fl in (u.get("flows") or []):
+                if isinstance(fl, dict) and fl.get("source"):
+                    flow_lines += (
+                        f"\n  • {fl['source']} → "
+                        f"{fl.get('sign', '?')}{fl.get('value', '?')}"
+                        f"  ({fl.get('why', '')})")
+            if gated:
+                return (f"As per the question, it seems {given_lines} — "
+                        f"so what we have to find is **{ask_phrase}**."
+                        + flow_lines + unused_note +
+                        "  Is that correct? If not, tell me the right "
+                        "values (e.g. 'speed is 60').")
+            return (f"_Reading: {given_lines} — asked for "
+                    f"{ask_phrase}.  If a value looks off, say e.g. "
+                    f"'{next(iter(flat), 'speed')} is 30'._\n\n")
+
+        def _run_pending_compute(pending: dict,
+                                 edits: dict | None = None):
+            """Confirm-turn compute: PAL_PROGRAM runs its sandboxed code
+            (edits patch the bound values inside it); everything else
+            reruns the structure spec via solve_with_slots."""
+            if pending.get("structure") == "PAL_PROGRAM" and \
+                    pending.get("code"):
+                code = pending["code"]
+                if edits:
+                    # patch the bound values inside the program.  The
+                    # LLM's variable names may differ from the givens
+                    # keys (student edits 'speed', code binds 'v'), so:
+                    # (1) try the named line '<role> = <old>',
+                    # (2) else patch the UNIQUE literal assignment
+                    #     '<var> = <old>' — only when old_num appears
+                    #     exactly once as an RHS literal,
+                    # (3) if nothing changed, refuse rather than
+                    #     recompute on stale values.
+                    for role, new_v in edits.items():
+                        old = (pending.get("slots") or {}).get(role)
+                        if old is None:
+                            continue
+                        old_m = re.search(r"-?\d+(?:\.\d+)?",
+                                          str(old))
+                        old_num = old_m.group(0) if old_m else \
+                            str(old)
+                        patched = re.sub(
+                            rf"(?m)^(\s*{re.escape(role)}\s*=\s*)"
+                            rf"{re.escape(old_num)}\b",
+                            rf"\g<1>{new_v}", code)
+                        if patched == code:
+                            lit = re.findall(
+                                rf"(?m)^(\s*\w+\s*=\s*)"
+                                rf"{re.escape(old_num)}\b\s*$",
+                                code)
+                            if len(lit) == 1:
+                                patched = re.sub(
+                                    rf"(?m)^(\s*\w+\s*=\s*)"
+                                    rf"{re.escape(old_num)}\b\s*$",
+                                    rf"\g<1>{new_v}", code)
+                        if patched == code:
+                            return None  # couldn't apply the edit
+                        code = patched
+                try:
+                    from backend.its.solver.pal_executor import \
+                        run_program
+                    ran = run_program(code)
+                except Exception:
+                    ran = None
+                if ran is None:
+                    return None
+                # declared-semantics gate: the confirmed card's program
+                # must agree with its own declared flow directions —
+                # a contradiction ships nothing
+                try:
+                    from backend.its.solver.semantic_check import \
+                        verify_pal_consistency
+                    ok_v, why_v = verify_pal_consistency(
+                        pending.get("text") or "", pending,
+                        ran.get("numeric"))
+                    if not ok_v:
+                        try:
+                            from backend.its.solver.contract import \
+                                log_lane_exception
+                            log_lane_exception(
+                                "pal_semantic_card",
+                                Exception(str(why_v)))
+                        except Exception:
+                            pass
+                        return None
+                except Exception:
+                    pass
+                return {"steps": pending.get("plan") or [],
+                        "answer": ran["answer_text"]}
+            # TEXT-REWRITE recompute: edited slots patched straight into
+            # the original question text ('64' -> '120'), then the whole
+            # pipeline re-runs on the corrected question.  Handles every
+            # lane uniformly — full-text specs re-parse anyway, kernels
+            # aren't in STRUCTURE_SPECS at all — so solve_with_slots'
+            # 'square P' keys can never map back.  Refuses when an edit
+            # didn't actually change the text.
+            if edits:
+                text2 = pending.get("text") or ""
+                for role, new_v in edits.items():
+                    old = (pending.get("slots") or {}).get(role)
+                    if old is None:
+                        continue
+                    old_m = re.search(r"-?\d+(?:\.\d+)?", str(old))
+                    if not old_m:
+                        continue
+                    old_num = old_m.group(0)
+                    # edit_map carries EVERY slot at final value — skip
+                    # unchanged entries; patching 300->300 yields the
+                    # same string and would false-refuse below
+                    try:
+                        if abs(float(new_v) - float(old_num)) < 1e-9:
+                            continue
+                    except (TypeError, ValueError):
+                        pass
+                    # slots store floats — '64.0' never matches the
+                    # text's '64'; try the int form first, then the
+                    # literal form
+                    variants = []
+                    try:
+                        f = float(old_num)
+                        variants.append(
+                            f"{f:g}" if f == int(f) else old_num)
+                    except ValueError:
+                        pass
+                    variants.append(old_num)
+                    new_s = (f"{float(new_v):g}"
+                             if isinstance(new_v, (int, float))
+                             else str(new_v))
+                    done = False
+                    for cand in variants:
+                        patched = re.sub(
+                            rf"(?<![\d.]){re.escape(cand)}(?![\d.])",
+                            new_s, text2, count=1)
+                        if patched != text2:
+                            text2 = patched
+                            done = True
+                            break
+                    if not done:
+                        return None
+                try:
+                    from backend.its.solver.answer_pipeline import (
+                        answer as _ans)
+                    r2 = _ans(text2, meta.get("node_id"),
+                              defer_llm=True)
+                    if r2 is not None and r2.label.startswith("VERIFIED") \
+                            and r2.answer:
+                        return {"steps": r2.steps or [],
+                                "answer": r2.answer}
+                    return None
+                except Exception as _e:
+                    try:
+                        from backend.its.solver.contract import \
+                            log_lane_exception
+                        log_lane_exception("edit_recompute", _e)
+                    except Exception:
+                        pass
+                    return None
+            try:
+                from backend.its.solver.structure_families import \
+                    solve_with_slots
+                got = solve_with_slots(
+                    pending["structure"],
+                    dict(pending.get("slots") or {}),
+                    pending.get("text") or "")
+                if got is not None:
+                    return got
+            except Exception:
+                pass
+            # structure id isn't a live spec (lane tags like 'S', cached
+            # extractor ids) — re-run the full pipeline on the original
+            # question text instead of refusing
+            try:
+                from backend.its.solver.answer_pipeline import (
+                    answer as _ans)
+                r2 = _ans(pending.get("text") or "",
+                          meta.get("node_id"), defer_llm=True)
+                if r2 is not None and r2.label.startswith("VERIFIED") \
+                        and r2.answer:
+                    return {"steps": r2.steps or [],
+                            "answer": r2.answer}
+            except Exception as _e:
+                try:
+                    from backend.its.solver.contract import \
+                        log_lane_exception
+                    log_lane_exception("confirm_recompute", _e)
+                except Exception:
+                    pass
+            return None
+
+        # Layer 1.3 — STAGED REVEAL: after a confirmed read-back computes,
+        # the student chooses how much to see.  'hint'/'next' reveals one
+        # step at a time (they produce the rest); 'full'/'answer' dumps
+        # the worked solution.  Worked-example fading, session-simple.
+        ps = meta.get("pending_solve")
+        if ps:
+            low_msg = message.lower().strip()
+            # same new-question rule as the confirm card: an ask verb
+            # means the student moved on — drop the staged reveal
+            if len(low_msg) > 120 or re.search(
+                    r"\b(find|solve|calculate|compute|determine|"
+                    r"evaluate|prove|show\s+that|what\s+is|how\s+(?:"
+                    r"much|many|long|far|high))\b", low_msg):
+                meta["pending_solve"] = None
+                ps = None
+        if ps:
+            steps = ps.get("steps") or []
+            shown = int(ps.get("shown") or 0)
+            n = len(steps)
+            want_next = re.fullmatch(
+                r"(hint|next|next step|continue|go on|more)[.!]?",
+                low_msg)
+            want_full = re.fullmatch(
+                r"(full|full solution|answer|show answer|show all|"
+                r"solution|solve)[.!]?", low_msg)
+            if want_full:
+                meta["pending_solve"] = None
+                steps_text = "\n".join(f"• {s}" for s in steps)
+                return await TutorService._build_reply(
+                    session_id, meta,
+                    f"**Answer:** {ps['answer']}\n\n{steps_text}\n\n"
+                    "_verified deterministically — now tell me which "
+                    "step you want me to explain deeper._",
+                    "solution", db)
+            if want_next:
+                if shown < n:
+                    step_no = shown + 1
+                    ps["shown"] = step_no
+                    remaining = n - step_no
+                    tail = (f"\n\n_{remaining} step(s) left — try this "
+                            f"one yourself first, then say 'next' "
+                            f"(or 'full' for everything)._" if remaining
+                            else "\n\n_That was the last step — say "
+                                 "'full' to see the final answer._")
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        f"**Step {step_no} of {n}:**  "
+                        f"{steps[shown]}{tail}",
+                        "hint_step", db)
+                meta["pending_solve"] = None
+                steps_text = "\n".join(f"• {s}" for s in steps)
+                return await TutorService._build_reply(
+                    session_id, meta,
+                    f"**Answer:** {ps['answer']}\n\n{steps_text}\n\n"
+                    "_verified deterministically_",
+                    "solution", db)
+            meta["pending_solve"] = None  # new question; drop
+
+        pending = meta.get("pending_understood")
+        if pending:
+            low_msg = message.lower().strip()
+            # only short turns are confirmation/correction replies — a
+            # long message, or ANY message carrying its own ask verb
+            # ('find its side', 'solve for x'), is a NEW question, not
+            # a card reply — drop the pending card and re-route.  Live
+            # bug: 'perimeter of a square is 100 cm. find its side'
+            # was eaten as an edit ('square is 100').
+            if len(low_msg) > 120 or re.search(
+                    r"\b(find|solve|calculate|compute|determine|"
+                    r"evaluate|prove|show\s+that|what\s+is|how\s+(?:"
+                    r"much|many|long|far|high))\b", low_msg):
+                meta["pending_understood"] = None
+                pending = None
+        if pending:
+            edits = re.findall(
+                r"(?:change|set|use|make|take|correct)?\s*(?:the\s+)?"
+                r"([a-z_]{2,})\s*(?:to|=|as|is|should be|is actually)\s*"
+                r"(-?\d+(?:\.\d+)?)", low_msg)
+            # verb-driven form: 'use angle 30', 'take height 50'
+            edits += re.findall(
+                r"(?:use|take|set|make|change|keep)\s+(?:the\s+)?"
+                r"([a-z_]{2,})\s+(?:at\s+|to\s+|=)?\s*"
+                r"(-?\d+(?:\.\d+)?)", low_msg)
+            # single-letter roles: 'P is 120', 'r = 5' — the {2,}
+            # patterns above silently miss them (live bug: 'no, P is
+            # 120' fell through to the generic fallback)
+            edits += [m for m in re.findall(
+                r"(?<![a-z_])([a-z])\s*(?:is|=|to|be)\s*"
+                r"(-?\d+(?:\.\d+)?)", low_msg)
+                if m[0] not in ("i", "a", "e", "x", "y", "z")]
+            edits = list(dict.fromkeys(edits))  # overlapping patterns
+            confirm = re.fullmatch(
+                r"(yes|correct|right|ok|okay|confirm|sure|exactly|yep|"
+                r"that's right|thats right|haan|haan ji)[.!]?", low_msg)
+            reject = re.fullmatch(
+                r"(no|nope|wrong|not correct|incorrect|nahi|galat)[.!]?",
+                low_msg)
+            if reject:
+                # keep pending — ask the student to fit in the values
+                known = ", ".join(
+                    f"'{k}'" for k in (pending.get("slots") or {})) or \
+                    "the values"
+                return await TutorService._build_reply(
+                    session_id, meta,
+                    "Tell me the right values then — for example "
+                    f"'{next(iter(pending.get('slots') or {'value': None}), 'value')} "
+                    f"is 30'.  I know these slots: {known}.",
+                    "await_correction", db)
+            if edits:
+                slots = dict(pending.get("slots") or {})
+                applied = []
+                for role, val_s in edits:
+                    val = float(val_s)
+                    target = next((k for k in slots
+                                   if k.lower() == role or
+                                   k.lower().startswith(role) or
+                                   role in k.lower()), None)
+                    if target:
+                        slots[target] = val
+                        applied.append(f"{target} = {val:g}")
+                if applied:
+                    edit_map = dict(pending.get("slots") or {})
+                    for role, val_s in edits:
+                        tgt = next((k for k in edit_map
+                                    if k.lower() == role or
+                                    k.lower().startswith(role) or
+                                    role in k.lower()), None)
+                        if tgt:
+                            edit_map[tgt] = float(val_s)
+                    fixed = _run_pending_compute(pending,
+                                                 edits=edit_map)
+                    meta["pending_understood"] = None
+                    if fixed:
+                        meta["pending_solve"] = {
+                            "steps": fixed["steps"] or [],
+                            "answer": fixed["answer"], "shown": 0}
+                        return await TutorService._build_reply(
+                            session_id, meta,
+                            f"Got it — {', '.join(applied)}. "
+                            f"Recomputed on your values.  Try it with "
+                            f"a **hint first**, or see the **full "
+                            f"solution**?",
+                            "offer_reveal", db)
+                    reply_content = (
+                        f"I tried {', '.join(applied)} but the "
+                        f"calculation refused — those values may not "
+                        f"fit this problem type. Check the question "
+                        f"and tell me the values again?")
+                    return await TutorService._build_reply(
+                        session_id, meta, reply_content,
+                        "confirm_failed", db)
+                # named nothing we know — ask again, keep pending
+                known = ", ".join(
+                    f"'{k}'" for k in (pending.get("slots") or {}))
+                return await TutorService._build_reply(
+                    session_id, meta,
+                    f"I couldn't map that to a value I read. "
+                    f"These are the slots I know: {known} — "
+                    f"tell me like 'speed is 60'.",
+                    "await_correction", db)
+            elif confirm:
+                if pending.get("solved_answer"):
+                    # gated verified card: the answer was held — ship it
+                    # now that the student confirmed the read-back, and
+                    # offer the staged reveal like any solved item
+                    meta["pending_understood"] = None
+                    meta["pending_solve"] = {
+                        "steps": pending.get("solved_steps") or [],
+                        "answer": pending["solved_answer"],
+                        "shown": 0}
+                    steps_txt = "\n".join(
+                        f"• {s}" for s in (pending.get("solved_steps")
+                                           or []))
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        f"**Answer:** {pending['solved_answer']}\n\n"
+                        + (steps_txt + "\n\n" if steps_txt else "")
+                        + "_verified deterministically_",
+                        "solution", db)
+                if pending.get("already_solved"):
+                    # verified-path card — answer already shown; 'yes'
+                    # just closes the check, no recompute needed
+                    meta["pending_understood"] = None
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        "Confirmed — the solution stands.  Ask me to "
+                        "explain any step and I'll break it down.",
+                        "confirmed", db)
+                # student approved the read-back — NOW compute on the
+                # confirmed values, then let THEM pick the reveal depth
+                fixed = _run_pending_compute(pending)
+                meta["pending_understood"] = None
+                if fixed:
+                    meta["pending_solve"] = {
+                        "steps": fixed["steps"] or [],
+                        "answer": fixed["answer"], "shown": 0}
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        "Confirmed.  Do you want to try it with a "
+                        "**hint first** (I'll show one step at a time "
+                        "and you work the rest), or the **full "
+                        "solution** right away?",
+                        "offer_reveal", db)
+                return await TutorService._build_reply(
+                    session_id, meta,
+                    "The confirmed values didn't produce a clean "
+                    "answer — can you repaste the question for me?",
+                    "confirm_failed", db)
+            # 'hint'/'full' on a pending card = implicit confirm + depth
+            elif re.fullmatch(r"(hint|next|full|answer|show|solve)[.!]?",
+                              low_msg):
+                if pending.get("solved_answer"):
+                    meta["pending_understood"] = None
+                    meta["pending_solve"] = {
+                        "steps": pending.get("solved_steps") or [],
+                        "answer": pending["solved_answer"],
+                        "shown": 0}
+                    steps_txt = "\n".join(
+                        f"• {s}" for s in (pending.get("solved_steps")
+                                           or []))
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        f"**Answer:** {pending['solved_answer']}\n\n"
+                        + (steps_txt + "\n\n" if steps_txt else "")
+                        + "_verified deterministically_",
+                        "solution", db)
+                if pending.get("already_solved"):
+                    meta["pending_understood"] = None
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        "The solution is above — tell me which step "
+                        "you want explained and I'll break it down.",
+                        "clarify", db)
+                fixed = _run_pending_compute(pending)
+                meta["pending_understood"] = None
+                if not fixed:
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        "The confirmed values didn't produce a clean "
+                        "answer — can you repaste the question for me?",
+                        "confirm_failed", db)
+                meta["pending_solve"] = {
+                    "steps": fixed["steps"] or [],
+                    "answer": fixed["answer"], "shown": 0}
+                steps_n = fixed["steps"] or []
+                if low_msg in ("full", "answer", "show", "solve"):
+                    meta["pending_solve"] = None
+                    steps_text = "\n".join(f"• {s}" for s in steps_n)
+                    return await TutorService._build_reply(
+                        session_id, meta,
+                        f"**Answer:** {fixed['answer']}\n\n"
+                        f"{steps_text}\n\n_verified deterministically_",
+                        "solution", db)
+                ps_shown = steps_n[0] if steps_n else ""
+                meta["pending_solve"]["shown"] = 1
+                remaining = len(steps_n) - 1
+                return await TutorService._build_reply(
+                    session_id, meta,
+                    f"**Step 1 of {len(steps_n)}:**  {ps_shown}\n\n"
+                    f"_{remaining} step(s) left — try it yourself, "
+                    f"then 'next' (or 'full' for everything)._",
+                    "hint_step", db)
+            else:
+                meta["pending_understood"] = None  # new question; drop
+
+        # Layer 1.5 — DETERMINISTIC PIPELINE FIRST (2026-10-02 audit fix:
+        # the core promise).  The student's natural question now reaches the
+        # verified solver chain — bank official keys, node-grounded content,
+        # exact kernels, families, dimensional signatures — BEFORE any
+        # template matcher declines and before the LLM fallback ever fires.
+        # Only a VERIFIED* tier answers here; everything else (guided,
+        # ambiguous, timeout, saturated) falls through to the layers below,
+        # so the LLM stays the LAST resort, never the default.
+        try:
+            # Tier-0: 10/10 Cross-Subject Cognitive Engine (Maths Zenith, Chemistry Quartic, Biology AR, Commerce, Humanities)
+            from backend.its.solver.deterministic_service import solve_deterministically
+            tier0_res = solve_deterministically(message, subject=subject, class_level=class_level)
+            if tier0_res and isinstance(tier0_res, dict) and tier0_res.get("status") == "verified" and tier0_res.get("answer"):
+                steps_text = "\n".join(f"• {s}" for s in (tier0_res.get("steps") or []))
+                audit = tier0_res.get("audit") or {}
+                lane = audit.get("lane") or tier0_res.get("verification", {}).get("label", "deterministic_zenith")
+                # same read-back gate as the pipeline branch: parse the
+                # used givens out of the steps ('P = 64' before '->') and
+                # hold the answer behind a 'correct?' card so a mis-parse
+                # never ships unconfirmed
+                synth = {}
+                for head in [str(s).split("->")[0]
+                             for s in (tier0_res.get("steps") or [])[:1]]:
+                    for mm in re.finditer(
+                            r"([A-Za-z_][A-Za-z _%]{0,14}?)\s*=\s*"
+                            r"(-?\d+(?:\.\d+)?)", head):
+                        k = mm.group(1).strip()
+                        if k.lower() not in ("answer", "e", "i") \
+                                and len(synth) < 8:
+                            synth[k] = float(mm.group(2))
+                if synth:
+                    card = _understood_card(
+                        {"structure": lane,
+                         "structure_label": "Deterministic solve",
+                         "givens": synth,
+                         "ask": ""},
+                        message, meta, gated=True)
+                    pend = meta.get("pending_understood") or {}
+                    pend["solved_answer"] = tier0_res["answer"]
+                    pend["solved_steps"] = list(
+                        tier0_res.get("steps") or [])
+                    meta["pending_understood"] = pend
+                    return await TutorService._build_reply(
+                        session_id, meta, card, "confirm_values", db)
+                reply_content = (
+                    f"**Answer:** {tier0_res['answer']}\n\n"
+                    + (f"**Derivation:**\n{steps_text}\n\n" if steps_text else "")
+                    + f"_verified deterministically via {lane}_"
+                )
+                return await TutorService._build_reply(
+                    session_id, meta, reply_content, "solution", db
+                )
+        except Exception:
+            pass
+
+        try:
+            from backend.services.solve_isolation import cache_key, run_async
+            from backend.its.solver.answer_pipeline import (
+                answer as pipeline_answer)
+
+            outcome = await run_async(
+                cache_key("tutor.det.nollm", message),
+                pipeline_answer, message, node_id or None,
+                defer_llm=True)
+            if (outcome.result is not None
+                    and outcome.result.label.startswith("VERIFIED")
+                    and outcome.result.answer):
+                r = outcome.result
+                steps_text = "\n".join(f"• {s}" for s in (r.steps or []))
+                # Every structure-lane solve (LLM OR binder) carries a
+                # parsed read-back.  GATE the answer on it: wrong-verify
+                # live bugs (projectile read as s=vt, multi-trade read
+                # as CP/SP) all shipped because the card and the answer
+                # arrived in the SAME message — the student saw the
+                # mis-parse only after the wrong answer.  Now: card
+                # first, answer on 'yes'; 'no'/edits recompute the spec
+                # deterministically.  Lanes with no parsed givens
+                # (exact kernels, memo, corpus) still ship directly —
+                # there is nothing to mis-read.
+                u = (r.socratic or {}).get("understood") or {}
+                # full-text specs (PROFIT_LOSS, percent, geometry)
+                # parse values internally and report empty givens —
+                # the same specs that wrong-verify most.  Synthesise
+                # the givens from 'key = value' assignments inside the
+                # verified steps so the gate still has values to read
+                # back to the student.
+                if not u.get("givens"):
+                    synth = {}
+                    # only the FIRST step's input side — that's where
+                    # givens get bound ('CP = 240, SP = 300'); later
+                    # steps assign computed values (profit = 60) which
+                    # must never appear on the read-back as 'givens'
+                    heads = [str(s).split("->")[0]
+                             for s in (r.steps or [])[:1]]
+                    for head in heads:
+                        for mm in re.finditer(
+                                r"([A-Za-z_][A-Za-z _%]{0,14}?)\s*=\s*"
+                                r"(-?\d+(?:\.\d+)?)", head):
+                            k = mm.group(1).strip()
+                            if k.lower() not in ("answer", "e", "i") \
+                                    and len(synth) < 8:
+                                synth[k] = float(mm.group(2))
+                    if synth:
+                        u = dict(u)
+                        u["givens"] = synth
+                        u.setdefault("structure",
+                                     getattr(r.socratic, "structure",
+                                             None) or
+                                     (u.get("structure") or "steps"))
+                if u.get("givens"):
+                    card = _understood_card(u, message, meta, gated=True)
+                    pend = meta.get("pending_understood") or {}
+                    # stash the already-computed answer: on 'yes' the
+                    # verified result ships without recomputing; on
+                    # edits the spec recomputes from corrected slots
+                    pend["solved_answer"] = r.answer
+                    pend["solved_steps"] = list(r.steps or [])
+                    pend["solved_numeric"] = r.numeric
+                    meta["pending_understood"] = pend
+                    return await TutorService._build_reply(
+                        session_id, meta, card, "confirm_values", db)
+                reply_content = (
+                    f"**Answer:** {r.answer}\n\n"
+                    + (f"{steps_text}\n\n" if steps_text else "")
+                    + "_verified deterministically"
+                    + (f" ({r.audit.anchor})" if r.audit and r.audit.anchor
+                       else "") + "_")
+                return await TutorService._build_reply(
+                    session_id, meta, reply_content, "solution", db
+                )
+            # Deterministic layers declined -> the LLM parses the
+            # question into {structure, values-with-units, ask} and the
+            # STUDENT cross-checks it before any compute runs.  Only
+            # extraction happens here; the math waits for 'yes'.
+            if not (outcome.result is not None
+                    and outcome.result.label.startswith("VERIFIED")):
+                try:
+                    from backend.its.solver.structure_extractor import \
+                        extract_slots
+                    ex = extract_slots(message)
+                except Exception:
+                    ex = None
+                if ex and ex.get("structure") and ex.get("slots"):
+                    card = _understood_card(
+                        {"structure": ex["structure"],
+                         "givens": ex.get("slots_rich") or ex["slots"],
+                         "ask": ex.get("ask") or ""},
+                        message, meta, gated=True)
+                    return await TutorService._build_reply(
+                        session_id, meta, card, "confirm_values", db)
+                # No registered spec fits -> PAL: the LLM writes a
+                # computation PROGRAM (composite questions have no slot
+                # map).  The card shows givens + plan; the sandbox runs
+                # the code only on 'yes'.
+                try:
+                    from backend.its.solver.structure_extractor import \
+                        extract_program
+                    prog = extract_program(message)
+                except Exception:
+                    prog = None
+                if prog and prog.get("code"):
+                    plan_lines = "\n".join(
+                        f"  {i + 1}. {s}"
+                        for i, s in enumerate(prog.get("plan") or []))
+                    card = _understood_card(
+                        {"structure": "PAL_PROGRAM",
+                         "structure_label": "Planned computation",
+                         "givens": prog.get("givens") or {},
+                         "ask": prog.get("ask") or "",
+                         "plan": prog.get("plan") or [],
+                         "flows": prog.get("flows") or [],
+                         "start": prog.get("start"),
+                         "code": prog.get("code")},
+                        message, meta, gated=True)
+                    if plan_lines:
+                        card += ("\n\n**How I'll compute it:**\n"
+                                 + plan_lines)
+                    return await TutorService._build_reply(
+                        session_id, meta, card, "confirm_values", db)
+                # extractor found nothing -> honest fall-through
+        except Exception:
+            pass  # deterministic layer unavailable — fall through honestly
+
         # Layer 2: Numerical problem → compute engine (SymPy) then template engine
         compute = ComputeEngine.attempt(message)
         if compute and compute.matched:
@@ -1713,6 +2434,20 @@ class TutorService:
         if llm_reply:
             return llm_reply
 
+        # Bare confirm/reject/depth words with nothing pending: the
+        # answer already shipped (no card was needed), so these are
+        # acknowledgements — nudge toward the next move instead of
+        # acting like the question failed.
+        if re.fullmatch(
+                r"(yes|yeah|yep|ok|okay|no|nope|hint|next|full|answer|"
+                r"show|solve)[.!]?", message.lower().strip()):
+            reply_content = (
+                "That's settled — want me to **explain any step**, "
+                "show a **mistake-check**, or do you have the **next "
+                "question**?")
+            return await TutorService._build_reply(
+                session_id, meta, reply_content, "clarify", db)
+
         # Absolute fallback
         reply_content = (
             "I'm not sure about that specific question. "
@@ -1742,11 +2477,15 @@ class TutorService:
             llm = get_llm_client()
             context_parts = []
             if enrichment.definition:
-                context_parts.append(f"Definition: {enrichment.definition}")
+                context_parts.append(f"Definition: {enrichment.definition[:800]}")
             if enrichment.text_walkthrough:
-                context_parts.append(f"Walkthrough: {enrichment.text_walkthrough}")
+                # trim: first token latency scales with prompt size — the
+                # walkthrough's middle is rarely needed for a doubt answer
+                wt = enrichment.text_walkthrough
+                context_parts.append(
+                    f"Walkthrough: {wt[:1200]}{'...' if len(wt) > 1200 else ''}")
             if enrichment.eli5:
-                context_parts.append(f"Simple explanation: {enrichment.eli5}")
+                context_parts.append(f"Simple explanation: {enrichment.eli5[:400]}")
             context = "\n\n".join(context_parts)
             llm_reply = await llm.answer_with_context(
                 question=message,
@@ -1754,6 +2493,13 @@ class TutorService:
                 scope_boundary=enrichment.scope_boundary or "",
             )
             if llm_reply and not llm_reply.startswith("[LLM"):
+                # HONEST LABELING (2026-10-02 audit): this tier is an
+                # unverified LLM answer grounded in lesson notes — the
+                # student must be able to tell it apart from a verified
+                # deterministic solution.
+                llm_reply = (llm_reply.rstrip()
+                             + "\n\n_AI-generated from this lesson's notes "
+                             "-- helpful, but not a verified solution._")
                 return await TutorService._build_reply(
                     session_id, meta, llm_reply, "llm_fallback", db
                 )
@@ -1796,6 +2542,44 @@ class TutorService:
         # solvers can't handle. This handles ANY math question.
         _PURE_CONVERSATIONAL = ["hi", "hello", "hey", "thanks", "thank you", "ok", "okay", "bye"]
         if message.lower().strip() not in _PURE_CONVERSATIONAL:
+            # ---- Layer -2: 10/10 Tier-0 Cross-Subject Cognitive Engine -------
+            try:
+                from backend.its.solver.deterministic_service import solve_deterministically
+                tier0_res = solve_deterministically(message, subject=subject, class_level=class_level)
+                if tier0_res and isinstance(tier0_res, dict) and tier0_res.get("status") == "verified" and tier0_res.get("answer"):
+                    steps_text = "\n".join(f"• {s}" for s in (tier0_res.get("steps") or []))
+                    audit = tier0_res.get("audit") or {}
+                    lane = audit.get("lane") or tier0_res.get("verification", {}).get("label", "deterministic_zenith")
+                    # Check for interdisciplinary bridge (Physics ⟷ Chemistry ⟷ Biology ⟷ Maths)
+                    bridge_note = ""
+                    try:
+                        from backend.services.cross_subject_bridge import CrossSubjectBridgeService
+                        bridge = CrossSubjectBridgeService.get_bridge_for_query(message)
+                        if bridge:
+                            bridge_note = (
+                                f"\n\n---\n🔗 **Cross-Disciplinary Bridge ({bridge.primary_subject.capitalize()} ⟷ {bridge.target_subject.capitalize()}):**\n"
+                                f"**{bridge.title}**\n"
+                                f"• *Foundational Invariant:* {bridge.shared_foundation}\n"
+                            )
+                            if bridge.convention_trap:
+                                bridge_note += f"• {bridge.convention_trap}\n"
+                    except Exception:
+                        pass
+
+                    return {
+                        "question": message,
+                        "answer": f"**Answer:** {tier0_res['answer']}\n\n{steps_text}{bridge_note}\n\n_verified deterministically via {lane}_",
+                        "node_id": None,
+                        "node_title": f"Deterministic ({lane})",
+                        "subject": subject,
+                        "class_level": class_level,
+                        "type": "deterministic_zenith",
+                        "confidence": 1.0,
+                        "method": lane,
+                    }
+            except Exception:
+                pass
+
             # ---- Layer -1: generic expression solver -------------------------
             # Runs BEFORE the hand-written patterns because measurement says it
             # is strictly safer: over 10,161 real corpus questions the generic
@@ -2248,6 +3032,45 @@ class TutorService:
             # This is handled by the caller (reply method) to set up Socratic state
             return "__TRIGGER_SOCRATIC__", "socratic_start"
 
+        # Exam Readiness / Percentile Projection
+        if any(w in lower for w in ["readiness", "predict my rank", "percentile", "exam readiness", "jee rank", "neet rank"]):
+            try:
+                from backend.services.exam_readiness_service import ExamReadinessService
+                target_exam = "neet" if (enrichment.subject or "").lower() == "biology" else "jee_advanced"
+                rep = ExamReadinessService.calculate_readiness(
+                    topic_mastery={enrichment.subject: 0.85, "default": 0.72},
+                    avg_solve_time_seconds=55.0,
+                    shortcut_triage_ratio=0.88,
+                    exam_target=target_exam
+                )
+                gaps = "\n".join([f"• **{g['category'].replace('_', ' ').title()}**: Current {g['current_mastery']}% (Potential Gain: +{g['potential_percentile_gain']}%ile)" for g in rep.critical_remediation_nodes])
+                recs = "\n".join([f"• {r}" for r in rep.recommendations])
+                content = (
+                    f"### 🎯 Predictive Exam Readiness Report ({rep.exam_target})\n\n"
+                    f"**Projected Percentile:** `{rep.projected_percentile}%ile` ({rep.predicted_score_range})\n"
+                    f"**Readiness Tier:** `{rep.readiness_tier}`\n"
+                    f"**Solving Velocity Index:** `{rep.solving_velocity_index}x` | **Shortcut Efficiency:** `{rep.shortcut_triage_efficiency*100:.0f}%`\n\n"
+                    f"**Critical High-Yield Focus Areas:**\n{gaps}\n\n"
+                    f"**Actionable Next Steps:**\n{recs}"
+                )
+                return content, "exam_readiness"
+            except Exception:
+                pass
+
+        # Cognitive Fatigue / Confusion -> Socratic 2-Button Choice Fork
+        if any(w in lower for w in ["confused", "don't get it", "dont get it", "huh", "lost", "too complicated", "brain hurts", "stuck"]):
+            eli5_text = enrichment.eli5 or "Let's strip away all the symbols and build the physical picture from scratch."
+            content = (
+                f"### 💡 Let's reset and build intuition first.\n\n"
+                f"{eli5_text}\n\n"
+                f"---\n"
+                f"**Quick Intuition Check:** Which statement feels more natural to you?\n\n"
+                f"🅰️ **Option A:** The phenomenon occurs spontaneously because the system seeks minimum potential energy.\n"
+                f"🅱️ **Option B:** An external continuous work input is required to maintain this state.\n\n"
+                f"*(Click or type 'A' or 'B' to test your mental model!)*"
+            )
+            return content, "socratic_fork"
+
         # ELI5 / simplify (including Hinglish variants)
         if any(w in lower for w in ["simplify", "simple", "eli5", "explain like", "easy way", "too hard",
                                      "easy way batao", "aur explain karo", "aur explain", "explain karo",
@@ -2448,6 +3271,40 @@ class TutorService:
 
         if best_field and best_score >= 3:
             content = fields[best_field]
+
+            # 1. Proactive Misconception Interceptor
+            misconception = enrichment.common_misconception or ""
+            if misconception and best_field != "common_misconception":
+                mis_words = set(re.findall(r"\b\w{4,}\b", misconception.lower()))
+                # If student's query touches misconception keywords or asks about mistakes
+                if len(msg_words & mis_words) >= 2 or any(k in message.lower() for k in ["wrong", "why not", "isn't", "is it true", "mistake", "slip", "confused"]):
+                    content = f"⚠️ **Examiner Alert (Common Trap):**\n_{misconception}_\n\n" + content
+
+            # 2. Tri-Modal Visual & Sandbox Recommendations
+            nid = getattr(enrichment, 'node_id', '') or ''
+            subj = getattr(enrichment, 'subject', '') or ''
+            visual_links: list[str] = []
+
+            # Map node subject to 3D sandbox
+            if '_phy_' in nid or 'phy' in subj:
+                visual_links.append(f"[⚛️ Open Physics 3D Sandbox](/sandbox?lab=physics&node={nid})")
+            elif '_chem_' in nid or 'chem' in subj:
+                visual_links.append(f"[🧪 Open Chemistry 3D Workbench](/sandbox?lab=chem&node={nid})")
+            elif '_bio_' in nid or 'bio' in subj:
+                visual_links.append(f"[🔬 Open Biology 3D Cell Lab](/sandbox?lab=biology&node={nid})")
+            elif '_math_' in nid or 'math' in subj:
+                visual_links.append(f"[📐 Open Maths 3D Sandbox](/sandbox?lab=maths&node={nid})")
+            elif '_acc_' in nid or 'account' in subj:
+                visual_links.append(f"[📒 Open Accountancy Ledger Lab](/sandbox?lab=accountancy&node={nid})")
+            elif '_econ_' in nid or 'econ' in subj:
+                visual_links.append(f"[📈 Open Economics Market Lab](/sandbox?lab=econ&node={nid})")
+            elif '_cs_' in nid or 'code' in subj:
+                visual_links.append(f"[💻 Open Code & Flowchart Bench](/sandbox?lab=code&node={nid})")
+
+            # If student asks for visual / sim / experiment / 3d
+            if visual_links and re.search(r"\b(sim|visual|see|show|experiment|lab|try|graph|3d|sandbox)\b", message, re.I):
+                content += "\n\n**Visual Lab Workbench:**\n" + "\n".join(f"• {link}" for link in visual_links)
+
             return content, best_field
 
         return None, ""
@@ -2528,6 +3385,7 @@ class TutorService:
             question_text=current_q.get("question", ""),
             node_id=meta["node_id"],
             cognitive_type=current_q.get("cognitive_type", ""),
+            solver_bridge=evaluator_solver_bridge,
         )
 
         # Record the answer and result
@@ -2574,8 +3432,24 @@ class TutorService:
         else:
             feedback_header = f"✗ **Not quite.** (Score: {display_score:.0%} — {bloom_label})"
 
-        # Award XP
+        # Award XP — the feedback header announces this number, so it must be
+        # REAL: route it through the canonical reward ledger (users.total_xp),
+        # keyed (session, question) exactly-once. The session counter below
+        # stays as the per-session display total; before this fix the header
+        # promised XP the dashboard wallet never received (council finding:
+        # XP shown vs XP banked disagreed).
         if xp_earned > 0:
+            try:
+                from backend.services.reward_ledger import RewardLedger
+
+                await RewardLedger.award_xp(
+                    db, str(meta.get("user_id") or ""),
+                    xp_earned,
+                    event="tutor",
+                    event_ref=f"{session_id}:{q_num}",
+                )
+            except Exception as exc:
+                logger.warning("tutor XP wallet write skipped: %s", exc)
             meta["xp_earned"] = meta.get("xp_earned", 0) + xp_earned
 
         # If wrong, try to match to a known misconception
@@ -3802,6 +4676,45 @@ class TutorService:
         # Persist mutated meta so other workers/replicas can continue
         # this session (messages, phase, diagnostic/drill state).
         await _meta_put(session_id, meta)
+
+        # U-LANE LABEL (Layer U2, BATCH_BRIEF §4B): ONE honesty enum on
+        # every answer surface.  kind->label: "solution"/"confirm_values"
+        # are deterministic-solver outputs (VERIFIED); node-content serves
+        # (eli5/glossary/walkthrough/banks) are GROUNDED; the LLM tier is
+        # AI; guidance/hints carry NONE.  The prose suffixes stay for
+        # readability; THIS field is what UIs render.
+        try:
+            from backend.services.answer_lane import AnswerLabel, stamp
+            _lane_map = {
+                "solution": AnswerLabel.VERIFIED,
+                "confirm_values": AnswerLabel.VERIFIED,
+                "llm_fallback": AnswerLabel.AI,
+                "eli5": AnswerLabel.GROUNDED,
+                "glossary": AnswerLabel.GROUNDED,
+                "topic_browse": AnswerLabel.GROUNDED,
+                "learning_path": AnswerLabel.GROUNDED,
+                "walkthrough": AnswerLabel.GROUNDED,
+                "flashcard_quiz_reveal": AnswerLabel.GROUNDED,
+                "guided_practice_solution": AnswerLabel.GROUNDED,
+            }
+            reply = {
+                "session_id": session_id,
+                "reply": {
+                    "role": "tutor",
+                    "content": content,
+                    "type": reply_type,
+                    "misconception_detected": "yes" if reply_type == "remediation" else None,
+                    "prerequisite_gap": meta.get("remediation_target"),
+                    "diagnostic_state": diag_state,
+                },
+                "updated_mastery": None,
+            }
+            _lane_label = _lane_map.get(reply_type, AnswerLabel.NONE)
+            if _lane_label is not AnswerLabel.NONE:
+                stamp(reply["reply"], "tutor_rest", _lane_label, reply_type)
+            return reply
+        except Exception:
+            pass
 
         return {
             "session_id": session_id,

@@ -1,0 +1,52 @@
+{
+ "edits": [
+  {
+   "file": "c8_physics_ch5_8.md",
+   "definition": "Water is called a universal solvent because its molecules are polar — one end slightly negative, the other slightly positive — so water molecules surround and pull apart the particles of an unusually wide range of substances: ionic compounds such as salt, polar covalent molecules such as sugar, and many gases. The result is a homogeneous mixture called an aqueous solution. No other common liquid dissolves so many different things, which is why water carries dissolved minerals through soil and rock, supplies the salt of the sea, and serves as the medium in which life's chemistry happens."
+  },
+  {
+   "file": "c8_physics_ch9_2.md",
+   "definition": "Earth's crust is the outermost solid, rocky layer of the planet — the thin 'skin' of rock on which everything we build and grow rests. It averages about 30 km thick beneath the continents but only 5–10 km beneath the oceans, and is richest in the lighter elements such as oxygen, silicon and aluminium. The crust supplies the solid foundation for terrestrial life, the minerals and ores mined from it, and, with the help of weathering, the soil in which crops grow — every field, mine and foundation sits on this layer."
+  },
+  {
+   "file": "c8_hist_ch1_10.md",
+   "definition": "Akbar's reign (1556–1605) established a centralised administrative framework that held an empire of many climates and faiths together. The Mansabdari system graded every noble and officer by a numerical rank (zat) that fixed both his salary and the cavalry he owed the emperor, binding military service to the crown rather than to clan. Todar Mal's revenue system (Zabt) measured land, averaged ten years of yields, and fixed a fair cash tax. Alongside these ran the policy of Sulh-i Kul — universal peace — debated openly at the Ibadat Khana, which gave Hindus, Muslims and other communities a place in the state's service."
+  },
+  {
+   "file": "c8_math_ch1_4.md",
+   "definition": "If a number ends with exactly n zeros — that is, it is a multiple of 10ⁿ but not of 10ⁿ⁺¹ — then its square ends with exactly 2n zeros, because squaring doubles the count of the paired factors of 10. So 1,200 (two trailing zeros) squared is 1,440,000 (four trailing zeros). The general rule that follows: a perfect square always has an even number of trailing zeros. An odd number of trailing zeros — 250 has one, 4,500 has two of the wrong pairing for a square — instantly marks a number as NOT a perfect square."
+  },
+  {
+   "file": "c8_math_ch1_5.md",
+   "definition": "The sum of the first n consecutive odd natural numbers, starting from 1, is always the perfect square n². In symbols, 1 + 3 + 5 + … + (2n − 1) = n² for every natural number n — check it: 1 + 3 = 4 = 2², and 1 + 3 + 5 = 9 = 3². The pattern has a picture behind it: each new odd number adds an L-shaped border of dots to the previous square, growing a 3×3 square into a 4×4 square, one arm at a time."
+  },
+  {
+   "file": "c8_math_ch4_11.md",
+   "definition": "A kite is a quadrilateral with two distinct pairs of adjacent sides equal in length — two short sides meet at one corner and two long sides at the next, like the toy kite it is named after. Its properties follow from that shape: one pair of opposite angles (the ones between the unequal sides) are equal, the diagonals cut each other at right angles, and exactly one diagonal — the one joining the corners where the equal pairs meet — bisects the other. A square or rhombus may look kite-like, but a true kite keeps its two pairs of equal sides distinct."
+  },
+  {
+   "file": "c8_math_ch4_4.md",
+   "definition": "In a rectangle, the two diagonals intersect at a point that divides each diagonal into two equal segments — each diagonal is bisected by the other, so the crossing point is the midpoint of both. Because a rectangle is a parallelogram, it inherits the bisection property; because its corners are right angles, its diagonals are additionally equal in length, making the four short segments from the centre to the corners all equal. That is why the centre of a rectangle is equidistant from all four corners — the point where a circumscribed circle's centre would sit."
+  },
+  {
+   "file": "c8_physics_ch9_11.md",
+   "definition": "Earth as a self-sustaining system means the planet runs its own life-support: matter is never freshly supplied from outside, yet it is never used up, because biogeochemical cycles — the water cycle, the carbon cycle, the nitrogen and phosphorus cycles — continuously recycle the same atoms between air, soil, water and living things. Sunlight supplies the fresh energy that drives every one of these cycles, while the atmosphere's greenhouse blanket regulates temperature within the narrow band life needs. The system stays stable because each cycle checks the others; disturb one — pump extra carbon into the air, say — and the balance shifts for all."
+  },
+  {
+   "file": "c8_civ_ch1_4.md",
+   "definition": "The lowering of the minimum voting age from 21 to 18 years, done through the 61st Constitutional Amendment Act in 1988, is a landmark in widening Indian democracy. Its argument was simple: an 18-year-old may marry, work, pay taxes and be recruited into the armed forces, so the same young adult is mature enough to choose representatives. The change added millions of first-time voters to the rolls, gave the young a direct say in laws that shape their own future, and made India one of the major democracies with the lowest voting age."
+  },
+  {
+   "file": "c8_civ_ch2_8.md",
+   "definition": "The Prime Minister is the head of the government in India's parliamentary system — the real executive power behind the ceremonial head of state. Appointed by the President under Article 75 (by convention, the leader of the majority party in the Lok Sabha), the Prime Minister chooses the Council of Ministers, allocates their portfolios, chairs Cabinet meetings, and coordinates the entire national administration. The Council of Ministers is collectively responsible to the Lok Sabha, so the Prime Minister answers for the government's every policy — and resigns with the ministry when the House withdraws its confidence."
+  },
+  {
+   "file": "c8_civ_ch3_11.md",
+   "definition": "Alternative Dispute Resolution (ADR) refers to mechanisms — mediation, arbitration, conciliation, negotiation — by which parties settle civil disputes outside the formal courtroom, with the help of a neutral third party. In mediation the third party helps the sides reach their own agreement; in arbitration the third party hears both sides and hands down a binding decision. ADR is faster and cheaper than litigation, keeps matters private, and preserves relationships that a winner-takes-all court verdict would sour — business partners, neighbours, families. It also eases the crushing load of pending cases on the regular judicial system."
+  },
+  {
+   "file": "c8_civ_ch3_5.md",
+   "definition": "The Supreme Court is the apex court of India, established under Part V, Chapter IV of the Constitution. It sits at the top of the judicial pyramid: appeals from every High Court and tribunal reach it, its law of the land binds all lower courts, and — above all — it is the final interpreter of the Constitution. Under Article 32 a citizen may move the Supreme Court directly for the enforcement of Fundamental Rights, which makes it the ultimate guardian of those rights; and its advisory power lets the President consult it on questions of law."
+  }
+ ]
+}

@@ -28,15 +28,39 @@ GROUND TRUTH -- the authored corpus only (never invented):
              01_003/01_004 (special majority = 2/3 of present-and-voting
              AND majority of total membership; joint sitting simple
              majority), c8_histciv_icse_09_001 (quorum = one-tenth).
-  History    corpus-dated national movement only: Revolt of 1857
-             (c10_histciv_icse_04_010), INC 1885 (05_001), Partition of
-             Bengal 1905, WWI 1914-18 (10_001), Lucknow Pact 1916 (06_009),
-             Rowlatt Act / Jallianwala Bagh 1919, Non-Cooperation 1920-22,
-             Lahore Congress 1929, Civil Disobedience 1930-34 (07_001..005),
-             Quit India August 1942 (07_004/006), Independence 1947
-             (c10_civ_cbse_02_003), Constitution adopted 26 Nov 1949 /
-             in force 26 Jan 1950 (c9_civ_ch1_3).  Any date or figure not
-             in this closed table is declined -- no invention.
+  History    corpus-dated events only (closed world; every row cites the
+             node files it came from):
+             Europe: French Revolution 1789, Napoleonic Code 1804,
+             Congress of Vienna 1815, Revolutions of 1848, unification of
+             Italy 1861, unification of Germany 1871 (c10_hist_cbse_01_*).
+             India: Revolt of 1857, INC 1885, Partition of Bengal 1905,
+             Swadeshi 1905, Surat Split 1907, Morley-Minto 1909, WWI
+             1914-18, Defence of India Act 1915, Lucknow Pact 1916, Home
+             Rule Leagues 1916, Champaran 1917, Montagu Declaration 1917,
+             Rowlatt Act / Jallianwala Bagh 1919, Khilafat Movement
+             1919-24, Non-Cooperation 1920-22, Chauri Chaura 1922, Simon
+             Commission 1927, Nehru Report 1928, Jinnah's Fourteen Points
+             1929, Lahore Congress 1929, Dandi Salt March 1930, Civil
+             Disobedience 1930-34, Gandhi-Irwin Pact 1931, Karachi
+             Resolution 1931, Communal Award / Poona Pact 1932, Government
+             of India Act 1935, Quit India 1942, Independence 1947,
+             Constitution adopted 26 Nov 1949 / in force 26 Jan 1950
+             (c10_hist_cbse_02_*, c10_civ_cbse_02_003, c9_civ_ch1_3).
+             Global economy: Battle of Plassey 1757, Diwani grant 1765,
+             Inland Emigration Act 1859, Suez Canal 1869, TISCO 1907,
+             Great Depression 1929-34, Bretton Woods 1944, UN Charter 1945
+             (c10_hist_cbse_03_*, c10_hist_cbse_04_005, c6/c8 nodes).
+             Industry: spinning jenny 1764, water frame 1769, Cromford
+             Mill 1771, power loom 1785, Bombay's first cotton mill 1854
+             (c10_hist_cbse_04_*).
+             Print: Diamond Sutra 868, Gutenberg press 1448, Gutenberg
+             Bible 1455, Luther's 95 Theses 1517, first press in India
+             1556 (Goa), Hicky's Bengal Gazette 1780, Vernacular Press Act
+             1878, Salt Act 1882 (c10_hist_cbse_05_*).
+             Any date or figure not in this closed table is declined -- no
+             invention (Russian Revolution 1917, WWII 1939-45 and Hitler's
+             rise have no dated anchor in the corpus and refuse honestly;
+             parked, see content_tools/pedagogy/GOLDEN_HIST.md).
 
 STEP CONTRACT (SOLVER_STEP_CONTRACT.md, enforced by
 test_socsci_families.py and audit_families_contract.py): every matched
@@ -268,6 +292,11 @@ def _c_timezone(g, m, text):
     # --- mode 2: local time at a longitude, given a clock elsewhere ----------
     t = _parse_time(text)
     if t is not None and lons:
+        # SOCIAL_GOLDEN fix (2026-10-06): Greenwich / the prime meridian IS
+        # 0° -- a question timed "at Greenwich" used to fall back to the IST
+        # meridian (82°30'E) as reference and ship a VERIFIED-wrong local
+        # time (90°E noon read 12:30 instead of 6:00 PM).
+        gm = re.search(r"greenwich|prime\s+meridian", text, re.I)
         ref_pos = None
         cm = None
         if t is not None:
@@ -284,13 +313,16 @@ def _c_timezone(g, m, text):
         if ref_pos is None and len(lons) > 1:
             ref_pos = min((p for _, p in lons), key=lambda p: abs(p - t[1]))
         tgt = [lon for lon, p in lons if p != ref_pos]
-        ref = next((lon for lon, p in lons if p == ref_pos), _IST_LON)
+        _def_ref = 0.0 if gm else _IST_LON
+        ref = next((lon for lon, p in lons if p == ref_pos), _def_ref)
         if not tgt:
-            tgt = [_IST_LON if abs(ref - _IST_LON) > 1e-9 else ref]
+            tgt = [_def_ref if abs(ref - _def_ref) > 1e-9 else ref]
         target = tgt[-1]
         mins = (target - ref) * 4.0
         ans = (t[0] + mins / 60.0) % 24.0
         ahead = mins > 0
+        anchor_note = ("Greenwich (the prime meridian, 0°)" if gm
+                       else "IST's 82°30'E reference meridian")
         steps = [
             "Method: Using the 1° = 4 minutes rule with east-add / "
             "west-subtract (Earth turns 360° in 24 h, corpus: "
@@ -306,18 +338,21 @@ def _c_timezone(g, m, text):
             "Check: substitute back - " + _clock(ans) +
             f" shifted {abs(mins):.6g} min in the opposite direction "
             f"returns {_clock(t[0])}, so the arithmetic closes.",
-            "Interpretation: local solar time at " + _lon_str(target) +
-            " is " + _clock(ans) + " while the country's clocks stay on "
-            "IST from the 82°30'E meridian - the east-west spread the "
-            "corpus puts at about 1 h 57 min across India.",
+            "Interpretation: local time at " + _lon_str(target) +
+            " is " + _clock(ans) + ", anchored on " + anchor_note +
+            "; for India the country's clocks stay on IST from the "
+            "82°30'E meridian - the east-west spread the corpus puts at "
+            "about 1 h 57 min across India.",
         ]
+        anchor_assumption = (
+            "reference meridian is Greenwich 0° (prime meridian)" if gm
+            else "anchored on IST 82°30'E = UTC+5:30 "
+                 "(corpus: c11_geo_cbse_08_003/08_006)")
         return _res("TIME_ZONE_LONGITUDE", g, ans,
                     "local time = ref time + (dLon) x 4 min", steps,
-                    answer=f"{_clock(ans)} local solar time at "
+                    answer=f"{_clock(ans)} local time at "
                            f"{_lon_str(target)}",
-                    assumptions=[
-                        "anchored on IST 82°30'E = UTC+5:30 "
-                        "(corpus: c11_geo_cbse_08_003/08_006)"],
+                    assumptions=[anchor_assumption],
                     extra={"longitude": target, "reference": ref,
                            "offset_minutes": mins,
                            "method": "LOCAL_TIME_LON"})
@@ -379,7 +414,12 @@ def _c_density(g, m, text):
         return _GATE
     area = float(area_m.group(1).replace(",", ""))
     dens_m = re.search(r"density\s+of\s+(\d[\d,]*(?:\.\d+)?)", text, re.I)
-    pop = _count_near(text, r"population\b")
+    # SOCIAL_GOLDEN fix (2026-10-06): the content gate accepts people/
+    # persons/inhabitants/residents, but this lookup only read "population"
+    # -- "a town has 50,000 people ... 250 sq km" gated out of the family
+    # and refused a board numerical it should solve.
+    pop = _count_near(text, r"(?:population|people|persons|inhabitants|"
+                             r"residents)\b")
     if dens_m and pop:
         dens = float(dens_m.group(1).replace(",", ""))
         if dens <= 0:
@@ -429,6 +469,132 @@ def _c_density(g, m, text):
                               "per sq km",
                 extra={"population": pop, "area_sq_km": area,
                        "method": "POP_DENSITY"})
+
+
+# --------------------------------------------------------------------------- #
+# GEOGRAPHY: vital statistics (CBR / CDR / natural growth)
+# --------------------------------------------------------------------------- #
+
+
+def _c_vital_migration(g, m, text):
+    """Migration-aware vital statistics -- the c12_geo_cbse_02_005 key's
+    full chain: CBR, CDR, natural growth, net-migration rate, ACTUAL
+    growth = natural + migration.  Gates out unless net migration is
+    stated AND the ask wants the actual growth rate; plain CBR/CDR
+    stems fall through to VITAL_STATS."""
+    if not re.search(r"actual\s+growth", text, re.I) \
+            or not re.search(r"migrat", text, re.I):
+        return _GATE
+    births = _count_near(text, r"births\b")
+    deaths = _count_near(text, r"deaths\b")
+    mig = _count_near(text, r"(?:net\s+)?(?:in-?)?migration\b")
+    pop = re.search(r"population\D{0,16}(\d[\d,]*(?:\.\d+)?)", text, re.I)
+    if None in (births, deaths, mig) or not pop:
+        return _GATE
+    p = float(pop.group(1).replace(",", ""))
+    if p <= 0:
+        return _GATE
+    cbr = births / p * 1000.0
+    cdr = deaths / p * 1000.0
+    ngr = cbr - cdr
+    mgr = mig / p * 1000.0
+    actual = ngr + mgr
+    steps = [
+        "Method: Using the corpus vital-statistics chain - CBR and CDR "
+        "per 1000, natural growth = CBR - CDR, net-migration rate = net "
+        "migrants / mid-year population x 1000, and ACTUAL growth = "
+        "natural growth + net-migration rate (c12_geo_cbse_02_005 "
+        "worked key).",
+        f"Given: births = {_big(births)}, deaths = {_big(deaths)}, net "
+        f"migration = {_big(mig)}, mid-year population = {_big(p)}.",
+        f"Computation: CBR = {_fmt(cbr)}, CDR = {_fmt(cdr)}, natural "
+        f"growth = {_fmt(ngr)}, migration rate = {_fmt(mgr)} per 1000; "
+        f"actual growth = {_fmt(ngr)} + {_fmt(mgr)} = {_fmt(actual)} "
+        "per 1000.",
+        "Check: substitute back - (births - deaths + net migrants)/"
+        f"population x 1000 = {_big(births - deaths + mig)}/{_big(p)} x "
+        f"1000 = {_fmt(actual)} per 1000, the same value via the "
+        "identity, so the chain closes.",
+        "Interpretation: " + _fmt(actual) + " per 1000 (" +
+        _fmt(actual / 10.0) + "%) is the REAL population change - the "
+        "natural rate alone understates it whenever people move in.",
+    ]
+    return _res("VITAL_STATS_MIGRATION", g, actual,
+                "actual growth = (CBR - CDR) + migration rate", steps,
+                answer=f"CBR = {_fmt(cbr)}, CDR = {_fmt(cdr)}, natural "
+                       f"growth = {_fmt(ngr)}, migration rate = "
+                       f"{_fmt(mgr)}, actual growth = {_fmt(actual)} per "
+                       "1000",
+                extra={"births": births, "deaths": deaths, "net_migration":
+                       mig, "population": p, "actual_growth": actual,
+                       "method": "VITAL_STATS_MIGRATION"})
+
+
+# --------------------------------------------------------------------------- #
+# GEOGRAPHY: mean deviation of a data set from a stated normal
+# (weather-station statistics, c9_geo_ch2_8 worked key)
+# --------------------------------------------------------------------------- #
+
+
+def _c_mean_deviation(g, m, text):
+    if not re.search(r"mean\s+deviation", text, re.I):
+        return _GATE
+    # the stated normal rides an 'is/of/=/: ' connector -- a bare scan
+    # grabbed the date digit in "the normal for June 1-5 is 40"
+    norm = (re.search(r"normal[^.]{0,60}?(?:is|of|=|:)\s*"
+                      r"(-?\d[\d,]*(?:\.\d+)?)", text, re.I)
+            or re.search(r"normal[^0-9\-]{0,30}(-?\d[\d,]*(?:\.\d+)?)",
+                         text, re.I))
+    if not norm:
+        return _GATE
+    n_val = float(norm.group(1).replace(",", ""))
+    # the data set is the LAST comma-separated number run before the
+    # word 'normal' ("... June 1-5: 42, 44, 41, 45, 43. The 30-year
+    # normal ...") -- a bare scan would swallow the date digits and the
+    # normal itself.  Tokens use strict digit grouping (2,50,000) so a
+    # separator comma is never consumed into a value.
+    pre = re.split(r"\bnormal\b", text, flags=re.I)[0]
+    runs = re.findall(
+        r"(-?\d{1,3}(?:,\d{3})*(?:\.\d+)?"
+        r"(?:\s*,\s*-?\d{1,3}(?:,\d{3})*(?:\.\d+)?){2,14})",
+        pre)
+    if not runs:
+        return _GATE
+    data = [float(x.replace(",", ""))
+            for x in runs[-1].split(",")]
+    data = [x for x in data if abs(x - n_val) > 1e-9]
+    if len(data) < 3 or len(data) > 15:
+        return _GATE
+    devs = [x - n_val for x in data]
+    mean_dev = sum(abs(d) for d in devs) / len(devs)
+    signed = ", ".join(("+" if d >= 0 else "") + _fmt(d) for d in devs)
+    steps = [
+        "Method: Using the corpus weather-statistics key - deviation = "
+        "value - normal for each observation, and the mean deviation is "
+        "the average of those deviations (c9_geo_ch2_8 worked key).",
+        f"Given: data {', '.join(_fmt(x) for x in data)}; the normal = "
+        f"{_fmt(n_val)}.",
+        f"Computation: deviations = {signed}; mean deviation = "
+        f"({_big(sum(abs(d) for d in devs))}) / {len(devs)} = "
+        f"{_fmt(mean_dev)}.",
+        "Check: each deviation reproduces as value - normal (e.g. " +
+        _fmt(data[0]) + " - " + _fmt(n_val) + " = " + _fmt(devs[0]) +
+        "), and re-averaging the deviations gives the same " +
+        _fmt(mean_dev) + ", so the arithmetic closes.",
+        "Interpretation: a " + _fmt(len(devs)) + "-day stretch is a "
+        "WEATHER sample, not climate - the deviation measures how far "
+        "this run sits from the 30-year normal, not a climate shift.",
+    ]
+    return _res("MEAN_DEVIATION", g, mean_dev,
+                "mean deviation = sum(|value - normal|) / n", steps,
+                answer=f"Mean deviation = {_fmt(mean_dev)}",
+                # specificity bump: a stem that says "mean deviation"
+                # must outrank the generic STATS_MEAN_UNGROUPED (0.95,
+                # earlier in the registry) that answers the plain mean
+                conf=0.97,
+                extra={"normal": n_val, "n": len(devs),
+                       "mean_deviation": mean_dev,
+                       "method": "MEAN_DEVIATION"})
 
 
 # --------------------------------------------------------------------------- #
@@ -774,8 +940,11 @@ def _c_scale(g, m, text):
     if not re.search(r"scale|\bmap\b|R\.?F\.?|representative\s+fraction",
                      text, re.I):
         return _GATE
-    # statement scale: "1 cm = 150 km"
-    sm = re.search(r"1\s*cm\s*(?:=|represents?|:)\s*(\d+(?:\.\d+)?)\s*"
+    # statement scale: "1 cm = 150 km" / "1 cm to 5 km" / "1 cm
+    # represents 150 km" (SOCIAL_GOLDEN 2026-10-07: the bare-word
+    # "to" form is a common board phrasing and used to gate the
+    # family out entirely)
+    sm = re.search(r"1\s*cm\s*(?:=|represents?|:|to)\s*(\d+(?:\.\d+)?)\s*"
                    r"(km|kilomet(?:re|er)s?|m|met(?:re|er)s?)\b", text, re.I)
     tail = text[sm.end():] if sm else text
     dist = re.search(r"(\d+(?:\.\d+)?)\s*cm\b", tail, re.I)
@@ -1293,7 +1462,344 @@ _EVENTS: List[Tuple[str, int, int, List[str]]] = [
     ("Constitution came into force", 1950, 1950,
      ["came into force on 26 january 1950", "26 january 1950",
       "constitution came into force"]),
+    # --- c10 ch01: nationalism in Europe (c10_hist_cbse_01_*) ---------------
+    # "Civil Code of 1804 (Napoleonic Code)" (01_002); "Napoleonic Code" x28
+    ("Napoleonic Code", 1804, 1804,
+     ["napoleonic code", "civil code of 1804", "code of 1804"]),
+    # "1815 settlement (Congress of Vienna)" (01_002/003/004, x31)
+    ("Congress of Vienna", 1815, 1815,
+     ["congress of vienna", "vienna settlement"]),
+    # "1848 revolutions: Mass uprisings across Europe" (01_003/004, x5+)
+    ("Revolutions of 1848", 1848, 1848,
+     ["revolutions of 1848", "1848 revolutions", "revolution of 1848",
+      "1848 uprising"]),
+    # "proclamation of the Kingdom of Italy (1861)" (01_006)
+    ("unification of Italy", 1861, 1861,
+     ["unification of italy", "italian unification", "kingdom of italy",
+      "kingdom proclaimed 1861"]),
+    # "German Empire proclaimed on 18 January 1871" (01_007; 13x "German
+    # unification", 7 files "1871")
+    ("unification of Germany", 1871, 1871,
+     ["unification of germany", "german unification",
+      "german empire proclaimed", "germany unified"]),
+    # --- c10 ch02: nationalism in India (c10_hist_cbse_02_*) ----------------
+    # "Swadeshi movement (1905)" / "1905 Partition of Bengal" (02_008 etc.)
+    ("Swadeshi Movement", 1905, 1905,
+     ["swadeshi movement", "swadeshi"]),
+    # "The 1907 Surat Split (Moderates vs Extremists)" (02_001)
+    ("Surat Split", 1907, 1907,
+     ["surat split"]),
+    # "the 1909 Morley-Minto Reforms (separate electorates)" (02_001)
+    ("Morley-Minto Reforms", 1909, 1909,
+     ["morley-minto", "morley minto"]),
+    # "Defence of India Act: 1915 emergency law" (02_001 x2)
+    ("Defence of India Act", 1915, 1915,
+     ["defence of india act", "defense of india act"]),
+    # "Home Rule Leagues of Tilak (1916) and Besant (1916)" (02_001 x3)
+    ("Home Rule Leagues", 1916, 1916,
+     ["home rule league", "home rule leagues"]),
+    # "the Montagu Declaration (1917)" / "August 1917" (02_001 x3)
+    ("Montagu Declaration", 1917, 1917,
+     ["montagu declaration", "montagu statement"]),
+    # "Khilafat Movement (1919-24)" (02_001/003/007)
+    ("Khilafat Movement", 1919, 1924, ["khilafat"]),
+    # "Chauri Chaura (Feb 5, 1922)" (02_004/005 x4)
+    ("Chauri Chaura incident", 1922, 1922,
+     ["chauri chaura"]),
+    # "Simon Commission (1927) -- all-British, no Indian members" (02_005 x2)
+    ("Simon Commission", 1927, 1927,
+     ["simon commission"]),
+    # "Nehru Report (1928)" (02_007/009 x3)
+    ("Nehru Report", 1928, 1928, ["nehru report"]),
+    # "Jinnah's 14 Points (1929)" (02_009 x2)
+    ("Jinnah's Fourteen Points", 1929, 1929,
+     ["jinnah's 14 points", "jinnah's fourteen points",
+      "fourteen points"]),
+    # "Gandhi-Irwin Pact (March 1931)" (02_007/009 x2)
+    ("Gandhi-Irwin Pact", 1931, 1931,
+     ["gandhi-irwin pact", "gandhi irwin pact"]),
+    # "1931 Karachi Resolution" (02_008 x2)
+    ("Karachi Resolution", 1931, 1931,
+     ["karachi resolution"]),
+    # "1932 Communal Award -> Poona Pact" (02_009 x3)
+    ("Poona Pact", 1932, 1932, ["poona pact"]),
+    ("Communal Award", 1932, 1932, ["communal award"]),
+    # --- c10 ch03: the making of a global world (c10_hist_cbse_03_*) --------
+    # "Battle of Plassey (1757)" (03_003/03_008/04_002; c6/c8 nodes)
+    ("Battle of Plassey", 1757, 1757,
+     ["battle of plassey", "plassey"]),
+    # "Company's Diwani rights (1765)" (05_006; c8_hist_ch3_6)
+    ("Diwani grant", 1765, 1765,
+     ["diwani rights", "diwani grant", "diwani"]),
+    # "Inland Emigration Act of 1859" (02_005 x2, 24x)
+    ("Inland Emigration Act", 1859, 1859,
+     ["inland emigration act"]),
+    # "first successful modern cotton textile mill ... Bombay in 1854"
+    # (04_002/03_004) -- Ahmedabad's first mill (1861) is a separate corpus
+    # fact and deliberately NOT an alias here
+    ("first cotton mill of Bombay", 1854, 1854,
+     ["cotton textile mill was established in bombay",
+      "first cotton mill of bombay", "first cotton mill in bombay"]),
+    # "TISCO (established 1907 in Jamshedpur)" (04_005/03_004 x3)
+    ("TISCO", 1907, 1907,
+     ["tisco", "tata iron and steel"]),
+    # "Suez Canal (1869) opens" (03_002/003/008 x2)
+    ("opening of the Suez Canal", 1869, 1869,
+     ["suez canal"]),
+    # "Great Depression (1929-1934) ... 'onset and spread (1929-1934)'"
+    # (03_004/03_005/02_007; 8 files; end 1934 per the definition-form span)
+    ("Great Depression", 1929, 1934,
+     ["great depression"]),
+    # "Bretton Woods Conference ... July 1944" (03_005; 7 files)
+    ("Bretton Woods Conference", 1944, 1944,
+     ["bretton woods"]),
+    # --- c10 ch04: the age of industrialisation (c10_hist_cbse_04_*) --------
+    # "Hargreaves' spinning jenny (1764)" (04_002/04_003 x2)
+    ("spinning jenny", 1764, 1764, ["spinning jenny"]),
+    # "Richard Arkwright's Cromford Mill (1771) ... first modern factory"
+    # (04_002 x2)
+    ("Cromford Mill", 1771, 1771,
+     ["cromford mill", "first modern factory"]),
+    # "Arkwright's Water Frame (1769)" (04_002/04_003 x2)
+    ("water frame", 1769, 1769, ["water frame"]),
+    # "Cartwright's power loom (1785)" (04_002)
+    ("power loom", 1785, 1785, ["power loom"]),
+    # --- c10 ch05: print culture (c10_hist_cbse_05_*) ------------------------
+    # "Diamond Sutra (868 CE), the world's oldest dated printed book" (05_001)
+    ("Diamond Sutra", 868, 868, ["diamond sutra"]),
+    # "movable-type printing press by Johannes Gutenberg in Mainz around
+    # 1448" (05_002; 6 files) -- Gutenberg-anchored aliases only: a bare
+    # "printing press" would mis-anchor India-press questions (1556 row)
+    ("Gutenberg printing press", 1448, 1448,
+     ["gutenberg's printing press", "gutenberg press",
+      "movable-type printing press", "movable metal type"]),
+    # "Gutenberg Bible (1455)" (05_003; 6 files)
+    ("Gutenberg Bible", 1455, 1455, ["gutenberg bible", "42-line bible"]),
+    # "a single pamphlet in 1517 (Luther's 95 Theses)" (05_002/05_003 x2)
+    ("Luther's Ninety-Five Theses", 1517, 1517,
+     ["95 theses", "ninety-five theses", "ninety five theses"]),
+    # "first printing press in India ... 1556 at Goa" (05_006)
+    ("first printing press of India", 1556, 1556,
+     ["first printing press in india", "first printing press of india",
+      "jesuit press"]),
+    # "Hicky's Bengal Gazette (1780)" -- first newspaper printed in India
+    # (05_007; private paper per its own answer key).  Bare "bengal
+    # gazette" is NOT an alias: Gangakishore Bhattacharya's 1816 paper of
+    # the same name is a different corpus fact.
+    ("Hicky's Bengal Gazette", 1780, 1780,
+     ["hicky's bengal gazette", "hicky's gazette",
+      "calcutta general advertiser"]),
+    # "Vernacular Press Act (1878) ... Lord Lytton" (05_008; x4)
+    ("Vernacular Press Act", 1878, 1878,
+     ["vernacular press act"]),
+    # "Salt Act (1882) gave the British a monopoly on manufacture" (02_006)
+    ("Salt Act", 1882, 1882, ["salt act"]),
+    # --- SOCIAL-ALL (2026-10-07): c11/c12 Themes (CBSE) + CISCE, mined the
+    # same way -- every row carries its corpus anchor; year-recall only
+    # answers what a taught file states. -----------------------------------
+    # "1066 Norman Conquest introduces feudal tenure" (c11_06_004)
+    ("Norman Conquest of England", 1066, 1066,
+     ["norman conquest"]),
+    # "Domesday Book 1086" (c11_03_003, c11_06_004)
+    ("Domesday Book", 1086, 1086, ["domesday book"]),
+    # "from Diocletian's accession (284 CE) to the fall of the Western
+    # Roman Empire (476 CE)" (c11_02_008)
+    ("Diocletian's accession", 284, 284,
+     ["diocletian's accession", "accession of diocletian",
+      "diocletian became emperor"]),
+    ("fall of the Western Roman Empire", 476, 476,
+     ["fall of the western roman empire", "western roman empire fell",
+      "western roman empire fall"]),
+    # "The Black Death (1346-1353) spread along the Silk Routes"
+    # (c11_05_008/010/011 definition form; c11_06 nodes narrate its 1348
+    # European arrival separately -- the span, not the arrival, dates it)
+    ("Black Death", 1346, 1353, ["black death"]),
+    # "lords enforce Statute of Labourers (1351)" (c11_06_005)
+    ("Statute of Labourers", 1351, 1351,
+     ["statute of labourers", "statute of laborers"]),
+    # "The Mongol Conquests (1206-1227)" (c11_05_002)
+    ("Mongol Conquests", 1206, 1227,
+     ["mongol conquests", "mongol conquest"]),
+    # "the impact of the 1453 fall of Constantinople" (c11_07_001/003)
+    ("fall of Constantinople", 1453, 1453,
+     ["fall of constantinople", "constantinople fell"]),
+    # "new voyages (Dias 1488, Columbus 1492, da Gama 1498)" (c11_07_003)
+    ("Bartolomeu Dias rounds the Cape", 1488, 1488,
+     ["bartolomeu dias"]),
+    ("Columbus reaches the Americas", 1492, 1492, ["columbus"]),
+    ("Vasco da Gama reaches India", 1498, 1498,
+     ["vasco da gama", "da gama"]),
+    # "Michelangelo's David (1504)" (c11_07_004)
+    ("David (the Michelangelo sculpture)", 1504, 1504,
+     ["michelangelo's david"]),
+    # "On the Revolutions of the Heavenly Spheres, published in 1543"
+    # (c11_07_008)
+    ("On the Revolutions of the Heavenly Spheres", 1543, 1543,
+     ["on the revolutions of the heavenly spheres", "de revolutionibus"]),
+    # "The Meiji Restoration (1868)" (c11_09_002; x11 across c11 lanes)
+    ("Meiji Restoration", 1868, 1868,
+     ["meiji restoration", "meiji restoration began",
+      "meiji restoration (1868)"]),
+    # "the First Opium War shattered the Sinocentric tribute order" under
+    # the "1839-1949" century frame (c11_09_001).  The corpus never states
+    # an end year (no 1842 anywhere) and never teaches a "Second Opium
+    # War", so: single-year row, and the bare "opium war" alias is a TRAP
+    # (it would swallow an untaught "Second Opium War" ask) -- excluded.
+    ("First Opium War", 1839, 1839, ["first opium war"]),
+    # "after the Taiping Rebellion (1850-64)" (c11_09_004)
+    ("Taiping Rebellion", 1850, 1864,
+     ["taiping rebellion", "taiping"]),
+    # "They lost the Sino-Japanese War (1894-95)" (c11_09_001)
+    ("First Sino-Japanese War", 1894, 1895,
+     ["sino-japanese war"]),
+    # "1904-05 Russo-Japanese War - Japan attacked Russia" (c11_09_002)
+    ("Russo-Japanese War", 1904, 1905,
+     ["russo-japanese war"]),
+    # "the 1911 Revolution (Xinhai Revolution)" (c11_09_001)
+    ("Xinhai Revolution", 1911, 1911,
+     ["xinhai revolution", "1911 revolution"]),
+    # "(b) 1336 -- Harihara-Bukka found Vijayanagara" (c12_07_002; "the
+    # Sangama dynasty (1336-1485) was the founding dynasty ... established
+    # by the brothers Harihara I and Bukka I in 1336")
+    ("founding of the Vijayanagara Empire", 1336, 1336,
+     ["founding of the vijayanagara empire", "founding of vijayanagara",
+      "vijayanagara empire was founded", "vijayanagara empire founded",
+      "founded vijayanagara", "found vijayanagara",
+      "establishment of the vijayanagara empire",
+      "harihara and bukka"]),
+    # "Krishnadevaraya raises the empire to its height (1509-29 ...)" /
+    # "Krishnadeva Raya (1509-29)" (c12_07_003/07_002) -- the taught fact
+    # is the REIGN span, not a "coronation" (the corpus never uses that
+    # word for him)
+    ("Krishnadeva Raya's reign", 1509, 1529,
+     ["krishnadevaraya", "krishna deva raya", "krishnadeva raya"]),
+    # "the 1565 Battle of Talikota (also known as Rakshasi-Tangadi)"
+    # (c12_07_011; x12 across the ch6/7 lanes)
+    ("Battle of Talikota", 1565, 1565,
+     ["battle of talikota", "talikota", "rakshasi-tangadi"]),
+    # "abolition of jizya (1564)" (c11_02_011 Mughal-trajectory step)
+    ("abolition of jizya", 1564, 1564,
+     ["abolition of jizya", "jizya abolished", "abolished jizya",
+      "abolish jizya"]),
+    # NO Aurangzeb-accession row: the corpus states it only inside a
+    # parenthetical ("Aurangzeb (who ascended the throne in 1658 ...)",
+    # c12_05_009), "war of succession" is NOT unique to him (c11_04 Ali's
+    # succession, c6/c9/c7histciv uses), and his DEATH year (1707) is
+    # taught in 25 files -- any broad alias would verified-wrong the
+    # death ask.  The accession ask declines honestly; closed world.
+    # "Shivaji's coronation (1674) at Raigad" (c8_hist_ch2_7; c12_07_002)
+    ("Shivaji's coronation", 1674, 1674,
+     ["shivaji's coronation", "coronation of shivaji"]),
+    # "when aurangzeb died in 1707 at ahmednagar" (c8_hist_ch2_8); "the
+    # war of succession after aurangzeb's death (1707 ce)" (c11_04_005)
+    ("Aurangzeb's death", 1707, 1707,
+     ["aurangzeb die", "death of aurangzeb", "aurangzeb's death"]),
+    # "The Permanent Settlement of 1793, introduced by Governor-General
+    # Lord Cornwallis in Bengal" (c12_09_001; x27 corpus-wide)
+    ("Permanent Settlement", 1793, 1793,
+     ["permanent settlement"]),
+    # "The Fifth Report (1813)" (c12_09_001/004)
+    ("Fifth Report", 1813, 1813, ["fifth report"]),
+    # "The Santhal Rebellion (1855-56)" (c12_09_005; "the 1855-56 Santhal
+    # revolt" 09_004_comp)
+    ("Santhal Rebellion", 1855, 1856,
+     ["santhal rebellion", "santhal revolt", "santhal hul"]),
+    # "the Deccan Riots of 1875" (c12_09_011; x16)
+    ("Deccan Riots", 1875, 1875, ["deccan riots", "deccan riot"]),
+    # "the Gandhi-Jinnah talks (1944)" (c12_11_006)
+    ("Gandhi-Jinnah talks", 1944, 1944,
+     ["gandhi-jinnah talks", "gandhi jinnah talks"]),
+    # "the Cripps Mission (March 1942)" (c12_11_006; x29)
+    ("Cripps Mission", 1942, 1942, ["cripps mission"]),
+    # "the Cabinet Mission (1946)" (c12_11_006/010; x64)
+    ("Cabinet Mission", 1946, 1946, ["cabinet mission"]),
+    # "Direct Action Day (16 Aug 1946)" (c12_11_010; x20)
+    ("Direct Action Day", 1946, 1946,
+     ["direct action day", "16 august 1946"]),
+    # "The Partition of India (1947) means the division of British India"
+    # (c12_11_010; distinct row from Indian independence: the ask "when
+    # was the partition of india" is its own taught fact)
+    ("Partition of India", 1947, 1947,
+     ["partition of india", "partition of the country into india"]),
 ]
+
+
+# --------------------------------------------------------------------------- #
+# HISTORY: direct year recall over the corpus event table (closed world)
+# --------------------------------------------------------------------------- #
+
+#: asks for a date outright ("In which year did X begin?", "When was the
+#: Jallianwala Bagh massacre?") or the fill-blank form ("...began in the
+#: year ___").  Deliberately narrow: an open "tell me about X" must NOT
+#: land here.
+_YEAR_ASK_RE = re.compile(
+    r"in\s+which\s+year|which\s+year\s+did|what\s+year|name\s+the\s+year|"
+    r"the\s+year\s*[_?]{2,}|"
+    r"\bwhen\s+(?:was|were|did|does)\b", re.I)
+
+_BEGIN_HINT_RE = re.compile(
+    r"begin|start|broke\s+out|launch|erupt|found|formed|adopt|signed|"
+    r"came\s+into\s+force|introduc|impos|passed\b|held\b|occur|take\s+place|"
+    r"took\s+place|happen", re.I)
+_END_HINT_RE = re.compile(
+    r"\bend(?:ed|s)?\b|conclud|finish", re.I)
+
+
+def _c_event_year(g, m, text):
+    if re.search(r"\bborn\b|\bage\b|\bhow old\b|birthday", text, re.I):
+        return _GATE  # biography arithmetic is maths territory
+    if not _YEAR_ASK_RE.search(text):
+        return _GATE
+    evs = _find_events(text)
+    if not evs:
+        return _GATE  # event outside the corpus table -> honest decline
+    canon, y0, y1, _pos = evs[0]
+    # A stem that embeds a year OUTSIDE the event's span is a comparison
+    # or a trick phrasing ("X began: 1776 or 1789?") -- decline rather
+    # than risk contradicting the stem.
+    embedded = [int(y) for y in
+                re.findall(r"\b(1[5-9]\d{2}|20[0-9]{2})\b", text)]
+    if any(y not in (y0, y1) for y in embedded):
+        return _GATE
+    if _END_HINT_RE.search(text):
+        year, phase = y1, "ended"
+    else:
+        # begin / bare "when was it" both anchor to the launch year; a
+        # spanned movement states its full span so the answer stays whole.
+        year, phase = y0, ("began" if y0 != y1 else "took place")
+        if phase == "took place" and re.search(
+                r"\b(?:act|code|pact|report|award|resolution|commission|"
+                r"sutra|bible|gazette|tisco|jenny|frame|loom|press|canal|"
+                r"congress|charter|book|sculpture|statue|painting|fresco|"
+                r"spheres?)\b", canon, re.I):
+            phase = "dates to"  # artifacts/institutions date, they don't occur
+    if y0 != y1 and phase != "ended":
+        span_note = f" (ran until {y1})"
+    elif y0 != y1:
+        span_note = f" (it had begun in {y0})"
+    else:
+        span_note = ""
+    phase_in = "dates to" if phase == "dates to" else f"{phase} in"
+    steps = [
+        "Method: Using the corpus-dated event table - a date recall is "
+        "read off the taught corpus, and any event outside the closed "
+        "table is declined rather than guessed.",
+        f"Given: the question dates {canon}; the corpus records it as "
+        f"{y0}" + (f"-{y1}" if y0 != y1 else "") + ".",
+        f"Computation: recall the corpus date -> {canon} {phase_in} "
+        f"{year}.",
+        f"Check: {year} lies inside the corpus span " +
+        (f"{y0}-{y1}" if y0 != y1 else f"({y0})") +
+        ", so the recall matches the taught node exactly.",
+        f"Interpretation: {canon} {phase_in} {year}{span_note} - the "
+        "date every chronology answer for this event anchors to.",
+    ]
+    return _res("EVENT_YEAR", g, float(year),
+                "corpus event date (closed-world recall)", steps,
+                answer=f"{canon} {phase_in} {year}{span_note}",
+                extra={"year": float(year), "start_year": float(y0),
+                       "end_year": float(y1), "method": "EVENT_YEAR"},
+                conf=0.97)
 
 
 def _find_events(text: str) -> List[Tuple[str, int, int, int]]:
@@ -1322,9 +1828,53 @@ def _c_chrono(g, m, text):
         return _GATE  # age arithmetic is maths territory
     evs = _find_events(text)
     # --- duration of a dated movement ----------------------------------------
-    if re.search(r"how\s+long|lasted|duration|span", text, re.I):
+    if re.search(r"how\s+long|lasted|duration|span|\blast\b", text, re.I):
         rm = re.search(r"\(?\s*(1[5-9]\d{2}|20[0-9]{2})\s*(?:[-\u2013]|to)\s*"
                        r"((?:1[5-9]\d{2}|20[0-9]{2})|(\d{2}))\s*\)?", text)
+        if not rm:
+            # SOCIAL-ALL additive fallback: prose-span phrasing with
+            # pre-1500 years the 15xx-20xx regexes never reached ("The
+            # Delhi Sultanate began in 1206 CE and came to an end in
+            # 1526 CE -- how many years did it last?", corpus key 320).
+            # Both anchor years must sit in the 500-2099 CE band and be
+            # stated in begin/end context, so stray 3-digit counts
+            # ("300 jars") cannot hijack the span.
+            bm = re.search(r"\b(?:began|started|start|founded|commenced?)"
+                           r"\s+(?:in\s+)?(\d{3,4})\b", text, re.I)
+            em = re.search(r"\b(?:came to an end|ended|end|until|till)"
+                           r"\s+(?:in\s+)?(\d{3,4})\b", text, re.I)
+            if bm and em:
+                y0c, y1c = int(bm.group(1)), int(em.group(1))
+                if 500 <= y0c < y1c <= 2099:
+                    rm_val = (y0c, y1c)
+                else:
+                    rm_val = None
+            else:
+                rm_val = None
+            if rm_val:
+                y0, y1 = rm_val
+                ev = evs[0][0] if evs else "the event"
+                dur = y1 - y0
+                steps = [
+                    "Method: Using duration = end year - start year for a "
+                    "dated span; the begin/end years stated in the "
+                    "question are the ground truth (corpus: Delhi "
+                    "Sultanate 1206-1526).",
+                    f"Given: {ev} spans {y0} to {y1}.",
+                    f"Computation: duration = {y1} - {y0} = {dur} years.",
+                    "Check: substitute back - start " + str(y0) + " + " +
+                    str(dur) + " years = " + str(y0 + dur) + ", the end "
+                    "year, so the interval closes.",
+                    "Interpretation: " + ev + " lasted " + str(dur) +
+                    " year" + ("s" if dur != 1 else "") + ".",
+                ]
+                return _res("CHRONO_INTERVAL", g, float(dur),
+                            "duration = end year - start year", steps,
+                            answer=f"{ev} lasted {dur} year"
+                                   f"{'s' if dur != 1 else ''}",
+                            extra={"start_year": float(y0),
+                                   "end_year": float(y1),
+                                   "method": "EVENT_DURATION"})
         if rm:
             y0 = int(rm.group(1))
             y1 = int(rm.group(2)) if rm.group(2).isdigit() and \
@@ -1378,7 +1928,7 @@ def _c_chrono(g, m, text):
                                "method": "EVENT_DURATION"})
         return _GATE  # event outside the corpus table -> honest decline
     # --- interval between two events / dated years ---------------------------
-    if re.search(r"how\s+many\s+years|years\s+(?:between|after|before|"
+    if re.search(r"how\s+many\s+years|years\s+(?:between|apart|after|before|"
                  r"passed|elapsed)|time\s+(?:gap|interval|span)|how\s+much"
                  r"\s+later", text, re.I):
         if len(evs) >= 2:
@@ -1387,9 +1937,7 @@ def _c_chrono(g, m, text):
             steps = [
                 "Method: Using chronology intervals - the gap in years "
                 "between two corpus-dated events is the difference of "
-                "their dates; the corpus table (1857 Revolt, 1885 INC, "
-                "1919 Rowlatt, 1920-22 Non-Cooperation, 1930 CDM, 1942 "
-                "Quit India, 1947 Independence) is the ground truth.",
+                "their dates; the corpus event table is the ground truth.",
                 f"Given: {first[0]} = {first[1]}; {second[0]} = "
                 f"{second[1]} (both corpus-dated).",
                 f"Computation: interval = {second[1]} - {first[1]} = "
@@ -1399,8 +1947,7 @@ def _c_chrono(g, m, text):
                 ", which lands on the second event's date, so the gap "
                 "closes.",
                 "Interpretation: " + str(span) + " years separate " +
-                first[0] + " from " + second[0] + " - the arc the "
-                "national movement travelled between the two.",
+                first[0] + " from " + second[0] + ".",
             ]
             return _res("CHRONO_INTERVAL", g, float(span),
                         "interval = |year2 - year1|", steps,
@@ -1450,9 +1997,19 @@ def _c_century(g, m, text):
     if not re.search(r"century|decade|millennium", text, re.I):
         return _GATE
     ym = re.search(r"\b(1[5-9]\d{2}|20[0-9]{2})\b", text)
+    corpus_dated = False
     if not ym:
-        return _GATE
-    year = int(ym.group(1))
+        # SOCIAL-ALL additive fallback: no year in the stem, but the stem
+        # names a corpus-dated event ("In which century was the Diamond
+        # Sutra printed?") -- read the year off the closed table instead
+        # of declining.  When the text DOES carry a year the behaviour is
+        # byte-identical to before.
+        evs_c = _find_events(text)
+        if not evs_c:
+            return _GATE
+        ym_val = evs_c[0][1]
+        corpus_dated = True
+    year = int(ym.group(1)) if ym else int(ym_val)
     century = (year - 1) // 100 + 1
     decade = year // 10 * 10
     ask_d = bool(re.search(r"decade", text, re.I))
@@ -1497,6 +2054,19 @@ def _c_timeline(g, m, text):
     evs = _find_events(text)
     if len(evs) < 2:
         return _GATE  # unknown event -> honest decline, never invented
+    # A listed item the table does NOT know means the full correct order
+    # cannot be proven -- decline the whole stem rather than order a
+    # subset while silently dropping one of the question's events.
+    tail = text.split(":", 1)[1] if ":" in text else ""
+    if tail:
+        for chunk in re.split(r"[,;]|\band\b", tail):
+            ch = chunk.strip(" \t.-()|")
+            if not ch or re.fullmatch(r"[\d\s\-–.|()]+", ch):
+                continue  # pure year/number chunks anchor via their year
+            if re.search(r"following|events?\b|chronolog", ch, re.I):
+                continue  # instruction filler, not an item
+            if not _find_events(ch):
+                return _GATE  # unrecognised item -> honest decline
     evs_sorted = sorted(evs, key=lambda e: (e[1], e[2]))
     ok = [e[0] for e in evs] == [e[0] for e in evs_sorted]
     chain = " -> ".join(f"{c} ({y})" for c, y, _, _ in evs_sorted)
@@ -1530,6 +2100,410 @@ def _c_timeline(g, m, text):
 
 
 # --------------------------------------------------------------------------- #
+# HISTORY: fraction levy arithmetic (corpus: the Mari tithe tablet, c11 ch1)
+# --------------------------------------------------------------------------- #
+
+#: word fraction -> value (the only shares the corpus and board papers use)
+_LEVY_FRACTIONS = [
+    (r"one[- ]tenth|a\s+tenth|\btithe\b", 0.10, "one-tenth"),
+    (r"one[- ]fifth|a\s+fifth", 0.20, "one-fifth"),
+    (r"one[- ]quarter|one[- ]fourth|a\s+quarter", 0.25, "one-quarter"),
+    (r"one[- ]third|a\s+third", 1.0 / 3.0, "one-third"),
+    (r"one[- ]half|a\s+half", 0.50, "one-half"),
+]
+
+#: the cargo/goods nouns a per-unit count can attach to
+_LEVY_GOODS_RE = re.compile(
+    r"(\d[\d,]*)\s+(?:(?:wine|grain|oil|salt|cloth|copper|tin|timber|"
+    r" spice|silk)\s+){0,2}"
+    r"(?:jars?|amphorae?|bales?|crates?|sacks?|bags?|units?|items?|"
+    r"containers?|loads?)", re.I)
+
+_LEVY_UNIT_VALUE_RE = re.compile(
+    r"(?:valued|priced|worth)\s+at\s+(?:about\s+|around\s+)?"
+    r"(\d[\d,]*(?:\.\d+)?)", re.I)
+
+
+def _c_levy(g, m, text):
+    """Fraction levy on cargo value: N units x unit value = total; the
+    state's share = fraction x total (corpus key: 300 jars x 5 shekels =
+    1,500; one-tenth = 150 silver shekels of tax)."""
+    if not re.search(r"how\s+much|how\s+many|total|tax|levy|revenue|"
+                     r"calculate|find\s+the", text, re.I):
+        return _GATE  # not a compute ask
+    frac = fr_label = None
+    for pat, v, label in _LEVY_FRACTIONS:
+        if re.search(pat, text, re.I):
+            frac, fr_label = v, label
+            break
+    if frac is None:
+        return _GATE
+    gm = _LEVY_GOODS_RE.search(text)
+    vm = _LEVY_UNIT_VALUE_RE.search(text)
+    if not (gm and vm):
+        return _GATE  # missing count or unit value -> honest decline
+    count = int(gm.group(1).replace(",", ""))
+    unit_val = float(vm.group(1).replace(",", ""))
+    unit_word = gm.group(0).strip()
+    total = count * unit_val
+    levy = total * frac
+    fmt = lambda x: (f"{x:,.10g}")
+    steps = [
+        "Method: A proportional levy - total cargo value = units x value "
+        "per unit, and the state's share = the stated fraction of that "
+        "total (corpus: the Mari tablet's one-tenth cargo tax).",
+        f"Given: {fmt(count)} units at {fmt(unit_val)} each; the levy is "
+        f"{fr_label} of the cargo's value.",
+        f"Computation: total value = {fmt(count)} x {fmt(unit_val)} = "
+        f"{fmt(total)}; levy = {fr_label} x {fmt(total)} = {fmt(levy)}.",
+        "Check: reverse the share - " + fmt(levy) + " is a tenth-weight "
+        "of " + fmt(total) + ", and " + fmt(total) + " - " + fmt(levy) +
+        " stays with the merchants, so the split closes.",
+        "Interpretation: the boat owes " + fmt(levy) + " (of the same "
+        "unit as the prices) on cargo worth " + fmt(total) + " - a "
+        "proportional duty of exactly " + fr_label + ", the signature of "
+        "a state that can value, inspect and tax moving goods.",
+    ]
+    return _res("LEVY_FRACTION", g, levy,
+                "levy = fraction x (units x unit value)", steps,
+                answer=f"Total value = {fmt(count)} x {fmt(unit_val)} = "
+                       f"{fmt(total)}; {fr_label} levy = {fmt(levy)}",
+                extra={"total_value": total, "levy": levy,
+                       "fraction": frac, "method": "LEVY_FRACTION"},
+                conf=0.96)
+
+
+# --------------------------------------------------------------------------- #
+# GEO/CIVICS/ECON: corpus fact recall (closed world - verified facts only)
+# --------------------------------------------------------------------------- #
+
+#: (lane, canonical answer, [alias regexes]).  Every row is mined from the
+#: authored corpus (SOCIAL_GOLDEN batch 2026-10-06); corpus anchors are code
+#: comments, never student-facing strings.  Canonical answers stay < 200
+#: chars so the prose-essay guard at the answer() choke point never strips
+#: them, and they carry no node ids (antislop gate).
+#:
+#:   geo: c7_geo_ch01_001 (India extent 8°4'N-37°6'N / 68°7'E-97°25'E,
+#:        Tropic of Cancer 23°30'N, 3.28 million sq km, 7th largest,
+#:        standard meridian 82°30'E), c6/c9 geo river nodes (Nile ~6,650 km
+#:        longest / Amazon largest volume / Ganga-Brahmaputra largest delta,
+#:        Gangotri-Bhagirathi source), c7 geo mountains (Andes ~7,000 km
+#:        longest vs Himalayas highest, Everest 8,848 m, ~2,400 km),
+#:        c6_geography realm nodes (Pacific largest ocean, Asia largest
+#:        continent, Australia smallest), c9_geo climate (SW monsoon Kerala
+#:        ~1 June, season June-September, withdrawal September-October).
+#:   civ: c9_civ_ch1_4 (SIX fundamental rights, Articles 12-35; Art. 32
+#:        constitutional remedies; Art. 19 freedoms incl. 19(1)(a) speech),
+#:        c6/c7 civics franchise nodes (vote at 18+, universal adult
+#:        franchise), c8_civ_ch1_5 (FPTP definition).
+#:   econ: c9/c10_eco sector nodes (GDP = money value of FINAL goods and
+#:        services within domestic territory in a year; tertiary =
+#:        services), c10_eco_cbse_01_006 area (HDI = UNDP composite:
+#:        health + education + income, 0-1), c10_eco poverty/employment
+#:        (MGNREGA 100 days; disguised unemployment = zero marginal
+#:        product).
+_FACTS: List[Tuple[str, str, List[str]]] = [
+    # ---- geography ----
+    ("geography",
+     "The Nile (about 6,650 km) is the longest river in the world; the "
+     "Amazon holds a different crown - largest water volume.",
+     [r"longest river in the world", r"world'?s longest river",
+      r"longest river\b"]),
+    ("geography",
+     "The Amazon carries the largest volume of water of any river; the "
+     "Nile, not the Amazon, is the longest.",
+     [r"largest river by volume", r"largest river in the world by volume",
+      r"river (?:that |which )?carries the (?:most|largest) water",
+      r"largest river\b"]),
+    ("geography",
+     "The Ganga rises from the Gangotri Glacier as the Bhagirathi, joined "
+     "by the Alaknanda at Devprayag.",
+     [r"source of the ganga", r"ganga (?:rise|originate|begin|born|come)",
+      r"where does the ganga"]),
+    ("geography",
+     "The Ganga-Brahmaputra delta (the Sundarbans) is the world's largest "
+     "delta.",
+     [r"largest delta", r"world'?s largest delta"]),
+    ("geography",
+     "The Andes in South America (about 7,000 km) form the longest "
+     "mountain range; the Himalayas are the HIGHEST, not the longest.",
+     [r"longest mountain range", r"longest range"]),
+    ("geography",
+     "The Himalayas hold the highest peaks on Earth (Mount Everest, 8,848 "
+     "m) and run about 2,400 km - the longest range is the Andes.",
+     [r"highest mountain range", r"highest peak in the world",
+      r"world'?s highest peak", r"highest peak\b"]),
+    ("geography",
+     "The Southwest Monsoon strikes the Kerala coast around 1 June and "
+     "advances across the mainland; the season runs June-September, with "
+     "withdrawal in September-October.",
+     [r"monsoon (?:arrive|reach|strike|onset|begin|start|break)",
+      r"onset of the (?:southwest |south-west |sw )?monsoon",
+      r"when does the monsoon"]),
+    ("geography",
+     "The Tropic of Cancer lies at 23°30'N (23.5°N) and crosses the "
+     "middle of India, splitting the tropical south from the subtropical "
+     "north; it passes through eight states.",
+     [r"latitude of the tropic of cancer",
+      r"tropic of cancer (?:lies|is located|passes|crosses)",
+      r"where (?:does|is) the tropic of cancer", r"tropic of cancer pass"]),
+    ("geography",
+     "India's coordinates run from 8°4'N to 37°6'N latitude and 68°7'E to "
+     "97°25'E longitude.",
+     [r"latitudinal extent", r"longitudinal extent",
+      r"(?:coordinates|latitude and longitude) of india"]),
+    ("geography",
+     "India spans about 3.28 million square kilometres - the seventh-"
+     "largest country on Earth.",
+     [r"area of india", r"size of india", r"how large is india"]),
+    ("geography",
+     "India's Standard Meridian is 82°30'E (near Mirzapur); IST runs 5 h "
+     "30 min ahead of UTC.",
+     [r"standard meridian",
+     r"why does india (?:have|keep) (?:one|a single) (?:time|clock)"]),
+    ("geography",
+     "The Pacific is the largest ocean.",
+     [r"largest ocean", r"biggest ocean"]),
+    ("geography",
+     "Asia is the largest continent; Australia is the smallest.",
+     [r"largest continent", r"smallest continent"]),
+    # ---- civics ----
+    ("civics",
+     "Six fundamental rights, Articles 12-35: equality; freedom; against "
+     "exploitation; freedom of religion; cultural and educational "
+     "rights; right to constitutional remedies.",
+     [r"how many fundamental rights",
+      r"which (?:are the|three|five|six) fundamental rights",
+      r"list (?:the )?fundamental rights",
+      r"fundamental rights.{0,30}\bhow many\b"]),
+    ("civics",
+     "The right to constitutional remedies (Article 32) lets citizens "
+     "move the Supreme Court directly to enforce their fundamental "
+     "rights - without it the other rights are unenforceable.",
+     [r"constitutional remedies", r"article\s*32"]),
+    ("civics",
+     "Article 19 guarantees the right to freedom - including speech and "
+     "expression, movement and assembly.",
+     [r"article\s*19"]),
+    ("civics",
+     "Universal adult franchise: every citizen aged 18 or older may vote, "
+     "regardless of wealth, caste or religion.",
+     [r"universal adult franchise", r"voting age", r"minimum age to vote",
+      r"what age can citizens vote"]),
+    ("civics",
+     "First-Past-The-Post: the candidate with the MOST votes in a "
+     "constituency wins the seat - an absolute majority is not required.",
+     [r"what is (?:a |the )?first[- ]past[- ]the[- ]post",
+      r"define (?:a |the )?first[- ]past[- ]the[- ]post",
+      r"meaning of fptp",
+      r"what is fptp"]),
+    # ---- economics ----
+    ("economics",
+     "GDP (Gross Domestic Product) is the money value of all FINAL goods "
+     "and services produced within a country's domestic territory in a "
+     "year.",
+     [r"what is gdp\b", r"define gdp\b", r"meaning of gdp",
+      r"full form of gdp", r"what is gross domestic product",
+      r"define gross domestic product", r"gross domestic product is the"]),
+    ("economics",
+     "The HDI (Human Development Index) is a UNDP composite score from 0 "
+     "to 1 built on three dimensions: health (life expectancy), education "
+     "(schooling) and income (GNI per capita).",
+     [r"what is (?:the )?hdi\b", r"define hdi\b", r"full form of hdi",
+      r"what is the human development index",
+      r"human development index.{0,25}(?:composed|made up|dimensions|"
+      r"indicators)"]),
+    ("economics",
+     "MGNREGA guarantees 100 days of wage employment per rural household "
+     "per year, with an unemployment allowance when it is not provided.",
+     [r"how many days.{0,40}mgnrega", r"mgnrega.{0,60}how many days",
+      r"what is mgnrega",
+      r"how many days of (?:guaranteed )?(?:wage )?employment"]),
+    ("economics",
+     "Disguised unemployment: more people work on the farm than are "
+     "needed - the extra workers add zero output, so removing them leaves "
+     "production unchanged.",
+     [r"what is disguised unemployment", r"define disguised unemployment",
+      r"disguised unemployment"]),
+    ("economics",
+     "The tertiary sector provides SERVICES that support the primary and "
+     "secondary sectors - transport, trade, banking, IT, education, "
+     "health - and is the largest contributor to India's GDP.",
+     [r"what is (?:the )?tertiary sector", r"define tertiary sector",
+      r"tertiary activities", r"meaning of tertiary sector"]),
+    # ---- history (SOCIAL-ALL 2026-10-07) ----
+    ("history",
+     "Sixteen major Mahajanapadas - large, powerful territorial states - "
+     "emerged in ancient India around the 6th century BCE.",
+     [r"how many.{0,40}mahajanapada", r"number of mahajanapadas",
+      r"mahajanapadas? emerg"]),
+]
+
+#: a world-scope fact must not answer an India-scoped question: an "in/of
+#: india" tail right after the matched alias means the alias under-read the
+#: question ("longest river IN INDIA" must not serve the Nile) - the honest
+#: move is to decline and let guided teaching take over.  Scope is tracked
+#: by index over _FACTS ("world" facts only); "indian Constitution" or a
+#: state mention after a civics/india fact is NOT an override (the corpus
+#: facts are themselves about India).
+_WORLD_FACT_IDX = frozenset({0, 1, 3, 4, 5, 11, 12})
+_QUALIFIER_OVERRIDE_RE = re.compile(r"\b(?:in|of)\s+india\b", re.I)
+
+_COMPUTE_ASK_RE = re.compile(
+    r"\bcalculate\b|\bcompute\b|\bsolve\b|find\s+the\s+(?:value|number)|"
+    r"\bhow\s+much\s+(?:is|are|would)\b|\bwork\s+out\b", re.I)
+
+
+def fact_recall_match(text: str) -> Optional[str]:
+    """Canonical corpus answer when the closed-world fact table covers the
+    question; None when the fact is outside the table.  Public hook: the
+    neurolink concept pre-route stands down for these so the deterministic
+    family owns the answer (a 300-char concept narrative on "What is GDP?"
+    was being stripped by the prose-essay guard into a dead-end refusal)."""
+    if _COMPUTE_ASK_RE.search(text):
+        return None
+    # a stem crowded with bare numbers is a numerical the numeric lanes
+    # already declined - fact recall must not free-associate on it
+    probe = re.sub(r"article\s*\d+", " ", text)
+    if len(re.findall(r"\d[\d,]*(?:\.\d+)?", probe)) >= 3:
+        return None
+    best = None  # (alias_len, fact_idx, match)
+    for fi, fact in enumerate(_FACTS):
+        for alias in fact[2]:
+            fm = re.search(alias, text, re.I)
+            if fm and (best is None or len(alias) > best[0]):
+                best = (len(alias), fi, fm)
+    if best is None:
+        return None  # fact outside the corpus table -> honest decline
+    _alias_len, fi, fm = best
+    # world-scope facts never answer India-scoped questions; an India-
+    # scoped fact not in the table refuses instead.
+    if fi in _WORLD_FACT_IDX:
+        tail = text[fm.end():fm.end() + 30]
+        if _QUALIFIER_OVERRIDE_RE.search(tail):
+            return None
+    return _FACTS[fi][1]
+
+
+def _c_fact_recall(g, m, text):
+    canon = fact_recall_match(text)
+    if canon is None:
+        return _GATE
+    fm = None
+    for fact in _FACTS:
+        for alias in fact[2]:
+            fm2 = re.search(alias, text, re.I)
+            if fm2 is not None:
+                fm = fm2
+    lane = next(f[0] for f in _FACTS
+                if any(re.search(a, text, re.I) for a in f[2]))
+    lane_word = {"geography": "geography", "civics": "civics",
+                 "economics": "economics", "history": "history"}[lane]
+    steps = [
+        "Method: Using corpus fact recall - this " + lane_word + " fact is "
+        "read off the taught text, and any fact outside the closed table "
+        "is declined rather than guessed.",
+        "Given: the question asks about " + fm.group(0).strip()[:60] + ".",
+        "Computation: recall the corpus value -> " + canon,
+        "Check: the recalled fact matches the taught answer including its "
+        "flagged trap (the neighbouring superlative students usually "
+        "swap it with) - nothing is extrapolated beyond the text.",
+        "Interpretation: this is the examinable anchor for the asked "
+        "fact; a different scope (another country or another superlative) "
+        "would need its own taught fact and is not improvised.",
+    ]
+    return _res("FACT_RECALL", g, None, "corpus fact recall (closed world)",
+                steps, answer=canon,
+                extra={"method": "FACT_RECALL"}, conf=0.97)
+
+
+# --------------------------------------------------------------------------- #
+# SOCIAL-ALL wave 3 (2026-10-07): ISC geography numerics the CISCE sweep
+# surfaced (c11_geo_isc_03_005 net slip; c9_geo_icse_01_008 nautical miles)
+# --------------------------------------------------------------------------- #
+
+def _c_net_slip(g, m, text):
+    """Net slip on a fault = sqrt(throw^2 + heave^2) (corpus key:
+    sqrt(120^2 + 80^2) = sqrt(20800) = 144.2 m; the ISC stem words the
+    components as 'vertically by ... m' and 'horizontally by ... m')."""
+    tm = re.search(r"(?:throw|vertically?)\D{0,16}"
+                   r"(\d[\d,]*(?:\.\d+)?)\s*m", text, re.I)
+    hm = re.search(r"(?:heave|horizontally?)\D{0,16}"
+                   r"(\d[\d,]*(?:\.\d+)?)\s*m", text, re.I)
+    if not (tm and hm):
+        return _GATE
+    throw = float(tm.group(1).replace(",", ""))
+    heave = float(hm.group(1).replace(",", ""))
+    slip = (throw ** 2 + heave ** 2) ** 0.5
+    steps = [
+        "Method: Using the fault-geometry relation - net slip is the "
+        "resultant of the vertical throw and the horizontal heave, so "
+        "net slip = sqrt(throw^2 + heave^2) (c11_geo_isc_03_005 key).",
+        f"Given: throw = {throw:g} m (vertical); heave = {heave:g} m "
+        "(horizontal).",
+        f"Computation: net slip = sqrt({throw:g}^2 + {heave:g}^2) = "
+        f"sqrt({_fmt(throw ** 2 + heave ** 2)}) = {slip:.1f} m.",
+        "Check: the resultant exceeds each component (dip slip is the "
+        "hypotenuse) and the right-triangle relation closes.",
+        f"Interpretation: the marker bed's net slip is {slip:.1f} m - "
+        "the true displacement along the fault plane, larger than "
+        "either its vertical or horizontal component alone.",
+    ]
+    return _res("NET_SLIP", g, slip,
+                "net slip = sqrt(throw^2 + heave^2)", steps,
+                answer=f"Net slip = {slip:.1f} m",
+                extra={"net_slip": slip, "throw": throw, "heave": heave,
+                       "method": "NET_SLIP"}, conf=0.96)
+
+
+_NM_DEG_SPAN_RE = re.compile(
+    r"separated by\s*(\d[\d,]*(?:\.\d+)?)\s*(?:degrees?|°)\s*of\s*latitude",
+    re.I)
+_NM_TWO_LAT_RE = re.compile(
+    r"(\d[\d,]*(?:\.\d+)?)\s*(?:degrees?|°)\s*([NS])\D{1,30}"
+    r"(\d[\d,]*(?:\.\d+)?)\s*(?:degrees?|°)\s*([NS])", re.I)
+
+
+def _c_nautical(g, m, text):
+    """Distance along a meridian: 1 degree of latitude = 60 nautical
+    miles (corpus key: 10 deg x 60 = 600 NM, ICSE 2023 pattern)."""
+    if not re.search(r"nautical", text, re.I):
+        return _GATE
+    sm = _NM_DEG_SPAN_RE.search(text)
+    if sm:
+        deg = float(sm.group(1).replace(",", ""))
+        src = f"{deg:g} degrees of latitude on the same meridian"
+    else:
+        tm2 = _NM_TWO_LAT_RE.search(text)
+        if not tm2:
+            return _GATE
+        a, ha, b, hb = (tm2.group(1), tm2.group(2).upper(),
+                        tm2.group(3), tm2.group(4).upper())
+        a, b = float(a), float(b)
+        deg = abs(a - b) if ha == hb else a + b
+        src = (f"{tm2.group(1)}\u00b0{ha} and {tm2.group(3)}\u00b0{hb} "
+               f"on the same meridian ({deg:g} degrees apart)")
+    nm = deg * 60.0
+    steps = [
+        "Method: Using the meridian-degree rule - one degree of "
+        "latitude spans 60 nautical miles, so distance = degrees of "
+        "latitude x 60 (ICSE 2023 map-working key).",
+        f"Given: {src}.",
+        f"Computation: {deg:g} x 60 = {_fmt(nm)} nautical miles.",
+        f"Check: {_fmt(nm)} / 60 = {deg:g} degrees - the working "
+        "inverts exactly.",
+        f"Interpretation: the two points are {_fmt(nm)} nautical miles "
+        "apart - the same-meridian measure every ICSE map question "
+        "anchors to.",
+    ]
+    return _res("NAUTICAL_DISTANCE", g, nm,
+                "NM = degrees of latitude x 60", steps,
+                answer=f"Distance = {_fmt(nm)} nautical miles",
+                extra={"nautical_miles": nm, "degrees": deg,
+                       "method": "NAUTICAL_DISTANCE"}, conf=0.96)
+
+
+# --------------------------------------------------------------------------- #
 # TABLE + dispatcher
 # --------------------------------------------------------------------------- #
 
@@ -1543,8 +2517,24 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"scale|R\.?F\.?|representative\s+fraction|1\s*:\s*\d[\d,]*|"
      r"1\s*cm\s*(?:=|represents?)",
      _c_scale),
+    # SOCIAL_GOLDEN wave 4 (2026-10-07): weather-station statistics --
+    # 'mean deviation from the 30-year normal' (c9_geo_ch2_8 key); the
+    # generic mean family answered the plain mean (43) to this ask
+    ("MEAN_DEVIATION", r"mean\s+deviation", _c_mean_deviation),
+    # SOCIAL-ALL wave 3 (2026-10-07): ISC geography numerics
+    ("NET_SLIP", r"net\s+slip|throw|heave|\bfault\b", _c_net_slip),
+    ("NAUTICAL_DISTANCE", r"nautical", _c_nautical),
     # ---- geography: population ----
     ("POP_DENSITY", r"density", _c_density),
+    # SOCIAL_GOLDEN wave 4 (2026-10-07): migration-aware vital statistics
+    # owns BEFORE VITAL_STATS -- a stem stating net migration AND asking
+    # for the actual growth rate needs the migration leg (the plain
+    # family answered CBR/CDR/natural and silently dropped the ask's
+    # fourth quantity; c12_geo_cbse_02_005 worked key)
+    ("VITAL_STATS_MIGRATION",
+     r"birth\s+rate|death\s+rate|\bCBR\b|\bCDR\b|natural\s+(?:increase|"
+     r"growth)|actual\s+growth|migration",
+     _c_vital_migration),
     ("VITAL_STATS",
      r"birth\s+rate|death\s+rate|\bCBR\b|\bCDR\b|natural\s+(?:increase|"
      r"growth)|vital\s+statistics",
@@ -1573,15 +2563,34 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"majority|quorum|two-?\s?thirds|present\s+and\s+voting",
      _c_majority),
     # ---- history ----
+    ("EVENT_YEAR",
+     r"in\s+which\s+year|which\s+year\s+did|what\s+year|name\s+the\s+year|"
+     r"the\s+year\s*[_?]{2,}|\bwhen\s+(?:was|were|did|does)\b",
+     _c_event_year),
     ("CHRONO_INTERVAL",
-     r"how\s+many\s+years|years\s+(?:between|after|before|passed|elapsed)|"
-     r"how\s+long|lasted|duration|time\s+(?:gap|interval|span)",
+     r"how\s+many\s+years|years\s+(?:between|apart|after|before|passed|"
+     r"elapsed)|how\s+long|lasted|duration|time\s+(?:gap|interval|span)",
      _c_chrono),
     ("CENTURY_DECADE", r"century|decade|millennium", _c_century),
+    # ---- history ----
     ("TIMELINE_ORDER",
      r"arrange|chronological|correct\s+order|sequence|order\s+the\s+"
      r"following",
      _c_timeline),
+    # SOCIAL-ALL (2026-10-07): the Mari-tablet proportional levy
+    # ("one-tenth the cargo's value", 300 jars x 5 shekels -> 150
+    # shekels tax; c11_hist_cbse_01_009 key)
+    ("LEVY_FRACTION",
+     r"one[- ]tenth|one[- ]fifth|one[- ]quarter|one[- ]fourth|one[- ]half|"
+     r"one[- ]third|a\s+tenth|\btithe\b",
+     _c_levy),
+    # ---- geo/civics/econ fact recall (LAST: every specific family wins
+    # first; FACT_RECALL only speaks when nothing deterministic matched) ----
+    ("FACT_RECALL",
+     r"what\s+(?:is|are|was)\b|which\s+(?:is|are|river|ocean|continent|"
+     r"state)\b|how\s+many\b|name\s+the\b|when\s+does\b|where\s+(?:is|does)"
+     r"\b|define\b|meaning\s+of\b|full\s+form\s+of\b|list\b",
+     _c_fact_recall),
 ]
 
 TABLE = _TABLE

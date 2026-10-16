@@ -1,5 +1,56 @@
 # DIAGRAMS WAVE-D resume state — FINAL for this session (handoff)
 
+## UPDATE 2026-09-30 — WAVE D-2 COMPLETE (batches 5-6, classes 11-12 geo/hist maps)
+38 diagrams published to waveD2 PART-FILES (0 validator errors):
+- deploy/frontend/public/diagrams/diagrams_index_waveD2.json  (38 nodes: class11 x31, class12 x7)
+- deploy/frontend/public/diagrams/diagram_attributions_waveD2.json
+- images: deploy/frontend/public/diagrams/class{11,12}/{node_id}.{png|jpg|svg}
+- root mirror D:\platform\frontend\public\diagrams\ (verified byte-equal)
+- backups: D:\platform\_cisce_build\diagwaveD2_backup\ (part-files + picks + final
+  search_terms + manifest snapshot + emit/validate D2 scripts)
+diagrams_index.json (188, wave A) and *_waveD.json (71) NOT touched (verified counts).
+No git, no docker, corpus md untouched.
+Licenses: PD x9, CC BY-SA 4.0 x11, CC BY-SA 3.0 x10, CC BY 4.0 x3, CC BY-SA 1.0/2.0/3.0de x3, CC BY 3.0 x1, CC0 x1.
+D2 emit/validate are SEPARATE scripts (emit_diagrams_waved2.py / validate_diagrams_waved2.py)
+that only read/write *_waveD2.json part-files; picks.json stays shared+cumulative.
+
+Batch 5 geography: 22/25 published. Explicit rejects (documented absence):
+- c11_geo_cbse_09_009 (India drainage): 3 query rounds — Commons has no all-India
+  English drainage map; best hit was South-India-only 1909 survey (region-partial).
+- c11_geo_cbse_15_004 (biosphere reserves map): only mapsofindia/mapsintra copies
+  (site watermarks) + scenery photos; watermarks = reject per spec.
+- c12_geo_cbse_09_009 (migration in India): only Malaysia/Singapore diaspora maps
+  (off-node); internal-migration maps absent on Commons.
+Batch 6 history: 16/16 published. Era proofs: "Roman Empire (117 AD)" on the
+27 BCE-476 CE node; "Map of the partition boundaries in the Punjab" (Sept 1948,
+Boundary Commission award) on the 1947-Partition node. Full era table in the
+wave D-2 final report.
+D2 MARGINAL ACCEPTS for owner review:
+- c12_hist_cbse_01_003 (Harappan town planning): Mohenjo-daro entrance-gate PHOTO
+  (Commons has no clean English-labeled MD city plan; shared-query instruction was
+  pick 0 = the other index vs c6's pick 1). Remove node from index if unwanted.
+- c12_hist_cbse_02_010 (Uttarapatha/Dakshinapatha): "Periplus World Map" (60 AD,
+  PD) — era+region correct but shows maritime Indo-Roman routes, not the two named
+  overland routes ("Transasia trade routes 1stC CE" PNG kept 429-failing).
+- c11_hist_cbse_04_007 (Abbasid): "Map of the Abbasid Caliphate in 1180 CE" — the
+  labeled rump-era map (Arabic-script classical PD map rejected for language).
+- c11_hist_cbse_06_004 (Third Order): medieval ploughing woodcut PD (no feudal
+  structure diagram available on Commons).
+- c11_geo_cbse_14_001: 1909 Imperial Gazetteer vegetation map (PD, English) —
+  vintage but the only English India vegetation map.
+Note: c12_hist_cbse_02_002 uses "Maurya Empire synthetic map 250 BCE.png" — a
+DIFFERENT file from c6_history_ch05_007's "Ashoka Maurya Empire 250 BCE.jpg"
+(shared-query dedup satisfied).
+CONCURRENT-WAVE ALERT (merge-time): sibling waves (E/F/G/H) are actively writing
+class11/12 (bio/phy/chem anchors + other hist node ids). One SAME-NODE collision:
+c11_hist_cbse_01_001 — waveD2 owns class11/c11_hist_cbse_01_001.png ("Map of
+Mesopotamia, 1770 BCE"); a sibling also dropped class11/c11_hist_cbse_01_001.jpg
+(its own part-file claims it). At merge, keep exactly ONE entry per node id and
+delete the loser file — do NOT let both part-files claim it. All other sibling
+c1[12]_(geo|hist)_ files use node ids outside waveD2's 38 — untouched per trap 6.
+
+
+
 ## Shipped (validated, 0 errors)
 71 diagrams published to waveD PART-FILES:
 - deploy/frontend/public/diagrams/diagrams_index_waveD.json  (71 nodes)
@@ -72,6 +123,23 @@ Shortlists already curated (all ids verified present in node_classes.json):
    Arabic/Turkish/German/French maps of Indian topics are common). English-label
    requirement is strict; re-query with different phrasing before giving up.
    Wave B's re-query notes: D:\platform\_cisce_build\diagwaveB_backup\.
+
+## VERIFICATION POSTSCRIPT 2026-09-30 (post-registry-drop resume audit)
+D-2 outputs re-verified on disk after the interrupted session — all COMPLETE claims hold:
+- 38/38 images exist in deploy AND root mirror (byte-equal both trees); part-files
+  byte-equal to backup; picks.json == backup; 3 rejects are pick=-1 and have NO
+  leaked files in class dirs; master diagrams_index.json now carries IDENTICAL
+  entries for all 38 waveD2 ids (merge landed; c11_hist_cbse_01_001 resolved to
+  waveD2's .png — sibling .jpg gone).
+- c12_geo_cbse_02_001.png mtime moved to 02:49 in both trees: re-copy only,
+  sha256 still equals staging pick __0 — content intact.
+- KNOWN NOISE (not a D-2 defect): validate_diagrams_waved2.py now reports 41
+  "orphan" errors — ALL are sibling-wave files (mtimes 02:44+, after D-2's
+  01:55 finish) for geo/hist node ids OUTSIDE D-2's 38, incl.
+  c12_geo_cbse_09_009.jpg (D-2 rejected this node, pick=-1; a sibling
+  published their own map). Per trap 6 these belong to sibling part-files —
+  reconcile at MERGE time, do not delete from D-2. "0 errors" was true at
+  D-2 finish and remains true for D-2-owned state.
 
 ## Per-batch flow
 write search_terms.json (batch only) -> python source_commons_waved.py

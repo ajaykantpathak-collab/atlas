@@ -1,0 +1,261 @@
+/* paper.css — the WORK layer. Answer-book skin. Light always. */
+
+.paper-surface {
+  --paper: #f7f2e7;
+  --paper-edge: #efe6d3;
+  --ink: #1e1b16;
+  --ink-soft: #4a463c;
+  --ink-faint: #8a8471;
+  --margin-red: #d4574a;
+  --rule-line: #b7c4d4;
+  --gold-paper: #b98a2f;
+  --stamp: #2f5d3a;
+
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.paper-surface ::selection { background: rgba(184, 138, 47, 0.3); }
+.paper-surface .specimen { color: var(--ink-faint); }
+.paper-surface .specimen.gold { color: var(--gold-paper); }
+
+/* ---- paper grain: fine fiber noise, near-invisible but felt ---- */
+:root {
+  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.55  0 0 0 0 0.5  0 0 0 0 0.42  0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.paper-surface {
+  position: relative;
+}
+.paper-surface::before {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  background-image: var(--paper-grain);
+  pointer-events: none;
+}
+.paper-surface > * { position: relative; z-index: 1; }
+
+/* ---- PaperSheet: answer-book sheet with red double margin ---- */
+.paper-sheet {
+  position: relative;
+  background:
+    linear-gradient(90deg, transparent 0, transparent 56px,
+      var(--margin-red) 56px, var(--margin-red) 57.5px,
+      transparent 57.5px, transparent 63px,
+      var(--margin-red) 63px, var(--margin-red) 64.5px, transparent 64.5px),
+    var(--paper-grain),
+    var(--paper);
+  border: 1px solid var(--paper-edge);
+  box-shadow:
+    0 1px 0 rgba(30, 27, 22, 0.06),
+    0 14px 34px -18px rgba(30, 27, 22, 0.35),
+    /* stacked sheets: a second page peeks below */
+    3px 3px 0 -1px var(--paper-edge),
+    6px 6px 0 -2px rgba(239, 230, 211, 0.6);
+  padding: 0 34px 0 88px;
+}
+.paper-sheet.ruled { --rule-gap: 30px; }
+.paper-sheet.ruled .sheet-body {
+  background-image: repeating-linear-gradient(to bottom,
+    transparent 0, transparent calc(var(--rule-gap) - 1px),
+    var(--rule-line) calc(var(--rule-gap) - 1px), var(--rule-line) var(--rule-gap));
+  background-position: 0 12px;
+}
+
+.sheet-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 18px 0 10px;
+  border-bottom: 2px solid var(--ink);
+}
+.sheet-head .l, .sheet-head .r {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.sheet-head .l { color: var(--ink); font-weight: 600; }
+.sheet-head .r { color: var(--ink-faint); }
+.sheet-body { padding: 22px 0 30px; }
+
+/* ---- margin question number ---- */
+.paper-qnum {
+  position: absolute; left: -72px; width: 44px; text-align: right;
+  font-family: var(--font-serif); font-size: 17px; font-weight: 700;
+  color: var(--ink);
+}
+.q-row { position: relative; margin: 26px 0; }
+
+/* ---- marks box [3] ---- */
+.paper-marks {
+  display: inline-block;
+  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+  letter-spacing: 0.06em;
+  border: 1.5px solid var(--ink); padding: 2px 7px;
+  color: var(--ink); vertical-align: middle; line-height: 1.4;
+}
+.paper-marks::before { content: "["; }
+.paper-marks::after { content: "]"; }
+
+/* ---- specimen tag on paper ---- */
+.paper-tag {
+  display: inline-block;
+  font-family: var(--font-mono); font-size: 9.5px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--ink-soft);
+  border: 1px solid var(--ink-faint); padding: 3px 7px;
+}
+.paper-tag.easy { border-color: var(--stamp); color: var(--stamp); }
+.paper-tag.med { border-color: var(--gold-paper); color: var(--gold-paper); }
+.paper-tag.hard { border-color: var(--margin-red); color: var(--margin-red); }
+
+/* ---- section bar SECTION A · COMPULSORY ---- */
+.paper-section {
+  display: flex; align-items: center; gap: 14px;
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.28em;
+  text-transform: uppercase; color: var(--ink); font-weight: 600;
+  margin: 26px 0 8px;
+}
+.paper-section::before, .paper-section::after {
+  content: ""; flex: 1; border-top: 2px solid var(--ink);
+}
+.paper-section .sub { font-weight: 400; color: var(--ink-faint); letter-spacing: 0.18em; }
+
+/* ---- lettered options a. b. c. ---- */
+.paper-opts { list-style: none; }
+.paper-opts li {
+  position: relative; padding: 9px 14px 9px 44px;
+  font-family: var(--font-serif); font-size: 16.5px;
+  border-bottom: 1px solid var(--rule-line);
+  cursor: pointer; transition: background var(--atlas-fast);
+  min-height: 44px; display: flex; align-items: center;
+}
+.paper-opts li::before {
+  content: attr(data-letter) ".";
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  font-family: var(--font-serif); font-weight: 700; color: var(--ink);
+}
+.paper-opts li:hover { background: rgba(183, 196, 212, 0.25); }
+.paper-opts li.picked { background: rgba(184, 138, 47, 0.14); }
+.paper-opts li.picked::after {
+  content: "✓"; position: absolute; right: 16px;
+  color: var(--stamp); font-weight: 700; font-family: var(--font-hand);
+  font-size: 22px;
+}
+.paper-opts li.right { background: rgba(47, 93, 58, 0.12); }
+.paper-opts li.wrong { background: rgba(212, 87, 74, 0.10); }
+
+/* ---- handwriting ---- */
+.paper-hand {
+  font-family: var(--font-hand); font-size: 23px; line-height: 30px;
+  color: #2a3350; letter-spacing: 0.01em;
+}
+.paper-redpen {
+  font-family: var(--font-hand); font-size: 22px; line-height: 28px;
+  color: var(--margin-red);
+}
+.paper-answer {
+  min-height: 90px; border: none; width: 100%;
+  font-family: var(--font-hand); font-size: 23px; line-height: 30px;
+  color: #2a3350; background:
+    repeating-linear-gradient(to bottom,
+      transparent 0, transparent 29px, var(--rule-line) 29px, var(--rule-line) 30px);
+  padding: 0 4px; resize: vertical; outline: none;
+}
+.paper-answer::placeholder { color: var(--ink-faint); font-family: var(--font-hand); }
+
+/* ---- stamp ---- */
+.paper-stamp {
+  display: inline-block;
+  font-family: var(--font-mono); font-size: 13px; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--stamp); border: 3px double var(--stamp);
+  padding: 8px 16px; transform: rotate(-6deg);
+  opacity: 0.92;
+  /* ink distress: real stamps never print clean — subtle pinholes only */
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60'%3E%3Cfilter id='d'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.28' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1.7 -0.12'/%3E%3C/filter%3E%3Crect width='120' height='60' filter='url(%23d)'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60'%3E%3Cfilter id='d'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.28' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1.7 -0.12'/%3E%3C/filter%3E%3Crect width='120' height='60' filter='url(%23d)'/%3E%3C/svg%3E");
+  mask-size: 120px 60px;
+}
+.paper-stamp.rejected { color: var(--margin-red); border-color: var(--margin-red); }
+
+/* ---- ledger ---- */
+.paper-ledger { width: 100%; border-collapse: collapse; }
+.paper-ledger th {
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--ink-faint); text-align: left;
+  padding: 10px 12px; border-bottom: 2px solid var(--ink);
+}
+.paper-ledger td {
+  font-family: var(--font-serif); font-size: 16px; color: var(--ink);
+  padding: 12px; border-bottom: 1px solid var(--rule-line);
+}
+.paper-ledger td.num, .paper-ledger th.num {
+  font-family: var(--font-mono); font-size: 12.5px; text-align: right;
+}
+.paper-ledger td.no, .paper-ledger th.no {
+  font-family: var(--font-mono); font-size: 11px; color: var(--ink-faint);
+  width: 40px;
+}
+.paper-ledger tr:hover td { background: rgba(183, 196, 212, 0.18); }
+
+/* ---- lettered steps a. b. c. ---- */
+.paper-steps { list-style: none; counter-reset: step; }
+.paper-steps li {
+  counter-increment: step;
+  position: relative; padding: 12px 14px 12px 46px;
+  border-bottom: 1px solid var(--rule-line);
+  font-family: var(--font-serif); font-size: 16px;
+}
+.paper-steps li::before {
+  content: counter(step, lower-alpha) ".";
+  position: absolute; left: 12px;
+  font-family: var(--font-serif); font-weight: 700;
+}
+
+/* ---- tick marks in margin ---- */
+.paper-tick { color: var(--margin-red); font-family: var(--font-hand); font-size: 24px; }
+.paper-tick.ok { color: var(--stamp); }
+
+/* ---- fold: cosmos -> paper hard boundary ---- */
+.fold {
+  height: 0; border-top: 6px solid var(--ink);
+  box-shadow: 0 -1px 0 rgba(247, 242, 231, 0.25);
+}
+
+/* ---- buttons on paper ---- */
+.btn-paper {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.2em;
+  text-transform: uppercase; padding: 12px 22px;
+  border: 2px solid var(--ink); color: var(--ink);
+  display: inline-block; background: transparent;
+  transition: background var(--atlas-fast), transform var(--atlas-fast);
+}
+.btn-paper:hover { background: rgba(30, 27, 22, 0.06); transform: translateY(-1px); }
+.btn-paper.ink { background: var(--ink); color: var(--paper); }
+.btn-paper.ink:hover { background: #33302a; }
+.btn-paper.red { border-color: var(--margin-red); color: var(--margin-red); }
+
+/* ---- junior variant: lighter, chunkier ---- */
+.junior-sheet {
+  --rule-line: #cfd8e4;
+  border-radius: 14px; border: 2px solid var(--paper-edge);
+  font-size: 20px;
+}
+
+/* ---- small screens: margin shrinks but never dies ---- */
+@media (max-width: 640px) {
+  .paper-sheet {
+    background:
+      linear-gradient(90deg, transparent 0, transparent 40px,
+        var(--margin-red) 40px, var(--margin-red) 41px,
+        transparent 41px, transparent 45px,
+        var(--margin-red) 45px, var(--margin-red) 46px, transparent 46px),
+      var(--paper);
+    padding: 0 16px 0 56px;
+  }
+  .paper-qnum { left: -50px; width: 30px; font-size: 14px; }
+  .sheet-head { flex-direction: column; gap: 3px; }
+}
+
+/* ---- skeleton ---- */
+.paper-skel {
+  background: repeating-linear-gradient(to bottom,
+    transparent 0, transparent 22px, var(--rule-line) 22px, var(--rule-line) 23px);
+  opacity: 0.5; min-height: 120px;
+}

@@ -42,6 +42,11 @@ never faked; Devanagari input never matches any family.
 
 Dispatcher: model_english(text) -> ModelResult (first grounded row
 wins; a gate refusal lets the scan continue).  Deterministic only.
+
+WS-B merge (2026-10-10): the English grammar LANG_* specs and their
+computes moved here from structure_families_lang.py (consolidation
+map step 6) as ENGLISH_LANG_SPECS -- ids verbatim, verifier keys
+keep hitting.
 """
 
 from __future__ import annotations
@@ -1130,6 +1135,55 @@ def _shift_pronouns(quote: str, spk_fem: bool,
     return " ".join(out)
 
 
+_UNIVERSAL_TRUTHS = re.compile(
+    r"\b("
+    # Astronomical / Planetary
+    r"earth\s+(?:revolves|moves|rotates|is\s+round)|"
+    r"sun\s+(?:rises|sets)|"
+    r"planets?\s+(?:revolve|orbit)|"
+    r"moon\s+(?:revolves|orbits)|"
+    r"stars?\s+shine|"
+    r"gravity\s+(?:pulls|acts)|"
+    # Physical / Chemical / Natural laws
+    r"water\s+(?:boils|freezes)|"
+    r"light\s+travels|"
+    r"sound\s+travels|"
+    r"magnets?\s+attract|"
+    r"metals?\s+expand|"
+    r"oil\s+floats|"
+    r"plants?\s+(?:produce|need)|"
+    r"humans?\s+(?:are\s+mortal|need)|"
+    # Proverbs / Maxims / Axioms
+    r"honesty\s+is\s+the\s+best\s+policy|"
+    r"slow\s+and\s+steady\s+wins|"
+    r"stitch\s+in\s+time\s+saves|"
+    r"time\s+and\s+tide\s+wait|"
+    r"actions?\s+speaks?\s+louder|"
+    r"all\s+that\s+glitters?\s+is\s+not\s+gold|"
+    r"barking\s+dogs?\s+seldom\s+bite|"
+    r"blood\s+is\s+thicker\s+than\s+water|"
+    r"cleanliness\s+is\s+next\s+to\s+godliness|"
+    r"knowledge\s+is\s+power|"
+    r"practice\s+makes\s+a\s+man\s+perfect|"
+    r"truth\s+always\s+triumphs?|"
+    r"where\s+there\s+is\s+a\s+will|"
+    r"necessity\s+is\s+the\s+mother\s+of\s+invention|"
+    r"work\s+is\s+worship|"
+    r"haste\s+makes\s+waste|"
+    r"two\s+and\s+two\s+make\s+four"
+    r")\b", re.I)
+
+
+def _is_semantic_exception(text: str) -> Tuple[bool, str]:
+    """Identify universal truths, scientific facts, and proverbs that never backshift in reported speech."""
+    if not text:
+        return False, ""
+    m = _UNIVERSAL_TRUTHS.search(text)
+    if m:
+        return True, f"universal truth / scientific axiom / proverb ('{m.group(1)}')"
+    return False, ""
+
+
 def _c_narration(g, m, text):
     qm = re.search(r'"([^"]+)"', text) or re.search(r"'([^']+)'", text)
     if not qm:
@@ -1264,7 +1318,11 @@ def _c_narration(g, m, text):
         elif len(ql) > 1 and ql[1] in _BE | _HAVEAUX | _MODAL:
             aux0 = ql[1]
             body = " ".join(qt[2:3] + [aux0] + qt[3:])
-    if rtense_past:
+    is_sem_exc, sem_exc_reason = _is_semantic_exception(body)
+    if is_sem_exc:
+        body2 = body
+        shifts = [f"{sem_exc_reason} -> no tense backshift (universal truth / scientific axiom rule)"]
+    elif rtense_past:
         body2, shifts = _backshift(body)
     else:
         body2 = body
@@ -1945,6 +2003,11 @@ def _c_clause_type(g, m, text):
     sent = _quote_of(text)
     if not sent or len(sent.split()) < 4:
         return _GATE
+    # FP guard (cisce-solver-langnew 2026-09-30): math set notation, LaTeX,
+    # code and equations are never English prose to classify.
+    if re.search(r"[{}=<>|\\]|\bin\b\s*[^.]{0,20}\bU\b|System\.out|"
+                 r"\bint\s+\w+\s*=|∈|≤|≥|→", sent):
+        return _GATE
     low_toks = [t.lower() for t in _tokenize(sent)]
     subs = [t for t in low_toks if t in _SUBORD]
     for k, t in enumerate(low_toks):
@@ -2164,6 +2227,15 @@ def _c_conditional(g, m, text):
             "conditional types: present/will, past/would, past perfect/" \
             "would have", {"type": tnum}
     sent = (_quote_of(text) or text).strip().rstrip(".?!")
+    # FP guard (cisce-solver-langnew 2026-09-30): the classify branch
+    # needs a real grammar ask, not a stray "conditional" inside answer
+    # prose; also math/code-marked text is never a conditional sentence.
+    if not re.search(r"(?:identify|name|state|pick|choose|tell|which|"
+                     r"what)\b[^.]{0,60}\bconditional|conditional\s+"
+                     r"(?:type|clause|sentence)|fill\s+in\s+the\s+blank|"
+                     r"type\s*-?\s*[123]\s+conditional", text, re.I) or \
+            re.search(r"[{}=<>|\\]|System\.out|∈|≤|≥", sent):
+        return _GATE
     ifm = re.search(r"\bif\b", sent, re.I)
     if not ifm:
         return _GATE
@@ -2515,7 +2587,22 @@ _FIG_TRAP = ("Corpus trap (c6_english_u1_005): students call any "
              "the metaphor.")
 
 
+# analysis/discussion asks are literature-essay territory: device
+# identification on them would be a false positive (cisce-solver-langnew
+# 2026-09-30: "Discuss how Frost's use of imagery and figurative language
+# ...", "Evaluate this statement for analytical depth" -> "alliteration").
+_ANALYSIS_ASK_RE = re.compile(
+    r"\b(?:discuss\w*|evaluate[sd]?|evaluating|critique|critically|"
+    r"comment\s+on|outline|response\s+outline|essay|examine\s+how|"
+    r"significance\s+of|assess(?:ment|ing)?\b|analytical\s+depth|"
+    r"justif(?:y|ies)|compare\s+(?:and\s+contrast|the\s+use|how))\b", re.I)
+
+
 def _c_figure(g, m, text):
+    # identification family: refuse when the ask is an essay/evaluation
+    # about figurative language rather than a name-the-device item
+    if _ANALYSIS_ASK_RE.search(text):
+        return _GATE
     line = _quote_of(text) or ""
     if len(line.split()) < 4:
         return _GATE
@@ -2594,6 +2681,1553 @@ def _c_figure(g, m, text):
                                "onomatopoeia": 5}[device])}
 
 
+
+# --------------------------------------------------------------------------- #
+# English morphology — irregular verb table (V1 -> (V2, V3, V-ing)) and
+# regular-verb rules.  Textbook register: only standard spellings.
+# --------------------------------------------------------------------------- #
+
+IRREGULAR: Dict[str, Tuple[str, str, str]] = {
+    "arise": ("arose", "arisen", "arising"), "awake": ("awoke", "awoken", "awaking"),
+    "be": ("was", "been", "being"), "am": ("was", "been", "being"),
+    "is": ("was", "been", "being"), "are": ("were", "been", "being"),
+    "beat": ("beat", "beaten", "beating"), "become": ("became", "become", "becoming"),
+    "begin": ("began", "begun", "beginning"), "bend": ("bent", "bent", "bending"),
+    "bet": ("bet", "bet", "betting"), "bind": ("bound", "bound", "binding"),
+    "bite": ("bit", "bitten", "biting"), "bleed": ("bled", "bled", "bleeding"),
+    "blow": ("blew", "blown", "blowing"), "break": ("broke", "broken", "breaking"),
+    "breed": ("bred", "bred", "breeding"), "bring": ("brought", "brought", "bringing"),
+    "build": ("built", "built", "building"), "burn": ("burnt", "burnt", "burning"),
+    "burst": ("burst", "burst", "bursting"), "buy": ("bought", "bought", "buying"),
+    "catch": ("caught", "caught", "catching"), "choose": ("chose", "chosen", "choosing"),
+    "come": ("came", "come", "coming"), "cost": ("cost", "cost", "costing"),
+    "cut": ("cut", "cut", "cutting"), "dig": ("dug", "dug", "digging"),
+    "do": ("did", "done", "doing"), "does": ("did", "done", "doing"),
+    "draw": ("drew", "drawn", "drawing"), "dream": ("dreamt", "dreamt", "dreaming"),
+    "drink": ("drank", "drunk", "drinking"), "drive": ("drove", "driven", "driving"),
+    "eat": ("ate", "eaten", "eating"), "fall": ("fell", "fallen", "falling"),
+    "feed": ("fed", "fed", "feeding"), "feel": ("felt", "felt", "feeling"),
+    "fight": ("fought", "fought", "fighting"), "find": ("found", "found", "finding"),
+    "flee": ("fled", "fled", "fleeing"), "fly": ("flew", "flown", "flying"),
+    "forget": ("forgot", "forgotten", "forgetting"),
+    "forgive": ("forgave", "forgiven", "forgiving"),
+    "freeze": ("froze", "frozen", "freezing"), "get": ("got", "got", "getting"),
+    "give": ("gave", "given", "giving"), "go": ("went", "gone", "going"),
+    "goes": ("went", "gone", "going"), "grow": ("grew", "grown", "growing"),
+    "hang": ("hung", "hung", "hanging"), "have": ("had", "had", "having"),
+    "has": ("had", "had", "having"), "hear": ("heard", "heard", "hearing"),
+    "hide": ("hid", "hidden", "hiding"), "hit": ("hit", "hit", "hitting"),
+    "hold": ("held", "held", "holding"), "hurt": ("hurt", "hurt", "hurting"),
+    "keep": ("kept", "kept", "keeping"), "kneel": ("knelt", "knelt", "kneeling"),
+    "know": ("knew", "known", "knowing"), "lay": ("laid", "laid", "laying"),
+    "lead": ("led", "led", "leading"), "leap": ("leapt", "leapt", "leaping"),
+    "learn": ("learnt", "learnt", "learning"), "leave": ("left", "left", "leaving"),
+    "lend": ("lent", "lent", "lending"), "lie": ("lay", "lain", "lying"),
+    "light": ("lit", "lit", "lighting"), "lose": ("lost", "lost", "losing"),
+    "make": ("made", "made", "making"), "mean": ("meant", "meant", "meaning"),
+    "meet": ("met", "met", "meeting"), "pay": ("paid", "paid", "paying"),
+    "put": ("put", "put", "putting"), "read": ("read", "read", "reading"),
+    "ride": ("rode", "ridden", "riding"), "ring": ("rang", "rung", "ringing"),
+    "rise": ("rose", "risen", "rising"), "run": ("ran", "run", "running"),
+    "say": ("said", "said", "saying"), "see": ("saw", "seen", "seeing"),
+    "seek": ("sought", "sought", "seeking"), "sell": ("sold", "sold", "selling"),
+    "send": ("sent", "sent", "sending"), "set": ("set", "set", "setting"),
+    "shake": ("shook", "shaken", "shaking"), "shine": ("shone", "shone", "shining"),
+    "shoot": ("shot", "shot", "shooting"), "show": ("showed", "shown", "showing"),
+    "shrink": ("shrank", "shrunk", "shrinking"),
+    "shut": ("shut", "shut", "shutting"), "sing": ("sang", "sung", "singing"),
+    "sink": ("sank", "sunk", "sinking"), "sit": ("sat", "sat", "sitting"),
+    "sleep": ("slept", "slept", "sleeping"), "slide": ("slid", "slid", "sliding"),
+    "speak": ("spoke", "spoken", "speaking"), "spend": ("spent", "spent", "spending"),
+    "spill": ("spilt", "spilt", "spilling"), "spin": ("spun", "spun", "spinning"),
+    "spit": ("spat", "spat", "spitting"), "split": ("split", "split", "splitting"),
+    "spread": ("spread", "spread", "spreading"),
+    "stand": ("stood", "stood", "standing"),
+    "steal": ("stole", "stolen", "stealing"),
+    "stick": ("stuck", "stuck", "sticking"),
+    "sting": ("stung", "stung", "stinging"),
+    "strike": ("struck", "struck", "striking"),
+    "swear": ("swore", "sworn", "swearing"),
+    "sweep": ("swept", "swept", "sweeping"),
+    "swim": ("swam", "swum", "swimming"),
+    "take": ("took", "taken", "taking"),
+    "teach": ("taught", "taught", "teaching"),
+    "tear": ("tore", "torn", "tearing"),
+    "tell": ("told", "told", "telling"),
+    "think": ("thought", "thought", "thinking"),
+    "throw": ("threw", "thrown", "throwing"),
+    "undergo": ("underwent", "undergone", "undergoing"),
+    "understand": ("understood", "understood", "understanding"),
+    "wake": ("woke", "woken", "waking"),
+    "wear": ("wore", "worn", "wearing"),
+    "weep": ("wept", "wept", "weeping"),
+    "win": ("won", "won", "winning"),
+    "wind": ("wound", "wound", "winding"),
+    "write": ("wrote", "written", "writing"),
+}
+# reverse index: any inflected surface form -> (base, V2, V3, Ving)
+_VFORMS: Dict[str, Tuple[str, str, str, str]] = {}
+for _b, (_v2, _v3, _ving) in IRREGULAR.items():
+    _VFORMS.setdefault(_b, (_b, _v2, _v3, _ving))
+    _VFORMS.setdefault(_v2, (_b, _v2, _v3, _ving))
+    _VFORMS.setdefault(_v3, (_b, _v2, _v3, _ving))
+    _VFORMS.setdefault(_ving, (_b, _v2, _v3, _ving))
+
+_BEForms = {"am", "is", "are", "was", "were", "be", "been", "being"}
+_HAVEForms = {"have", "has", "had"}
+_LG_MODAL = {"can", "could", "may", "might", "must", "shall", "should", "will",
+          "would", "ought", "used"}
+
+
+def _regular_forms(base: str) -> Tuple[str, str, str]:
+    """(V2, V3, V-ing) for a regular verb, with school spelling rules."""
+    if base.endswith("e"):
+        v2 = base + "d"
+        ving = base[:-1] + "ing"
+    elif len(base) >= 3 and base.endswith("y") and base[-2] not in "aeiou":
+        v2 = base[:-1] + "ied"
+        ving = base + "ing"
+    elif (len(base) >= 3 and base[-1] not in "aeiouwxy"
+          and base[-1] == base[-2] is not None and base[-2] in "aeiou"
+          and len(base) <= 4 and not base.endswith("l")):
+        # stop->stopped, sit->sat? no — sit is irregular; this catches
+        # short CVC: stop, plan, drop, hop... doubled consonant
+        v2 = base + base[-1] + "ed"
+        ving = base + base[-1] + "ing"
+    elif base.endswith("l") and len(base) >= 5 and base[-2] in "aeiou" and \
+            base[-3] not in "aeiou":
+        v2 = base + "led"
+        ving = base + "ling"          # travel -> travelled (BrE school form)
+    else:
+        v2 = base + "ed"
+        ving = base + "ing"
+    return v2, v2, ving
+
+
+def verb_forms(word: str) -> Optional[Tuple[str, str, str, str]]:
+    """surface form -> (base, V2, V3, V-ing); None when not verb-like.
+
+    Membership-guarded: a recovered base must be a KNOWN verb (irregular
+    table or the school base lexicon) so nouns never masquerade as verbs."""
+    w = word.lower().strip(".,!?;:'\"")
+    if not w:
+        return None
+    if w in _VFORMS:
+        return _VFORMS[w]
+    if w in BASE_VERBS:
+        v2, v3, ving = _regular_forms(w)
+        return (w, v2, v3, ving)
+
+    def _ret(base):
+        if base in _VFORMS:
+            x = _VFORMS[base]
+            return (base, x[1], x[2], x[3])
+        v2, v3, ving = _regular_forms(base)
+        return (base, v2, v3, ving)
+
+    # -s forms
+    if w.endswith("es") and (w[:-2] in _VFORMS or w[:-2] in BASE_VERBS):
+        return _ret(w[:-2])
+    if w.endswith("s") and (w[:-1] in _VFORMS or w[:-1] in BASE_VERBS):
+        return _ret(w[:-1])
+    # -ing / -ed of known verbs: recover the base by un-spelling
+    if w.endswith("ing") and len(w) > 4:
+        stem = w[:-3]
+        cands = [stem, stem + "e"]
+        if len(stem) >= 2 and stem[-1] == stem[-2]:
+            cands.append(stem[:-1])
+        if stem.endswith("i"):
+            cands.append(stem[:-1] + "y")
+        for cand in cands:
+            if cand in BASE_VERBS or cand in _VFORMS:
+                return _ret(cand)
+    if w.endswith("ied") and len(w) > 4:
+        cand = w[:-3] + "y"
+        if cand in BASE_VERBS or cand in _VFORMS:
+            return _ret(cand)
+    if w.endswith("ed") and len(w) > 3:
+        cands = [w[:-1], w[:-2]]
+        if len(w) >= 5 and w[-3] == w[-4] and w[-3] not in "aeiou":
+            cands.append(w[:-3])          # stopped -> stop
+        for cand in cands:
+            if cand in BASE_VERBS or cand in _VFORMS:
+                x = _ret(cand)
+                if x[1] == w or cand in BASE_VERBS and \
+                        _regular_forms(cand)[0] == w:
+                    return x
+        # e-final bases: baked -> bake (w[:-1] ends with e)
+        if w[:-1].endswith("e") and (w[:-1] in BASE_VERBS or
+                                     w[:-1] in _VFORMS):
+            return _ret(w[:-1])
+    return None
+
+
+def _third_person(base: str) -> str:
+    if base in ("be",):
+        return "is"
+    if base.endswith(("ch", "sh", "ss", "x", "o", "z")):
+        return base + "es"
+    if base.endswith("y") and len(base) >= 2 and base[-2] not in "aeiou":
+        return base[:-1] + "ies"
+    return base + "s"
+
+
+def _lg_be_for(subject: str, tense: str) -> str:
+    """am/is/are (present) or was/were (past) by subject number/person."""
+    s = subject.lower().strip()
+    pl = s.endswith("s") and not s.endswith("ss") or \
+        s.split()[-1:] and s.split()[-1].lower() in (
+            "we", "they", "these", "those", "children", "men", "women",
+            "people", "boys", "girls", "students")
+    if s.split()[-1].lower() in ("i", "we", "they", "you", "these",
+                                 "those", "children", "men", "women",
+                                 "people") or (
+            s.split()[-1].lower().endswith("s")
+            and s.split()[-1].lower() not in ("is", "was", "his", "its",
+                                              "this", "bus", "class", "gas")):
+        pl = True
+    if s.split()[-1].lower() == "i":
+        pl = False
+    if tense == "past":
+        return ("were" if pl else "was")
+    return ("are" if pl else "is")
+
+
+# --------------------------------------------------------------------------- #
+# sentence parsing helpers shared by ENG families
+# --------------------------------------------------------------------------- #
+
+_WORDS = re.compile(r"[A-Za-z']+")
+
+
+def _toks(s: str) -> List[str]:
+    return _WORDS.findall(s)
+
+
+def _obj_case(pron: str) -> str:
+    return {"i": "me", "we": "us", "he": "him", "she": "her", "they": "them",
+            "who": "whom"}.get(pron.lower(), pron.lower())
+
+
+def _subj_case(pron: str) -> str:
+    return {"me": "I", "us": "we", "him": "he", "her": "she", "them": "they",
+            "whom": "who"}.get(pron.lower(), pron.lower())
+
+
+def _poss_case(pron: str) -> str:
+    return {"i": "my", "we": "our", "he": "his", "she": "her", "they": "their",
+            "you": "your", "it": "its"}.get(pron.lower(), pron.lower())
+
+
+def _split_instruction(text: str) -> Optional[str]:
+    """The sentence to operate on: after a colon / quoted / after the ask."""
+    # "Change into passive voice: The dog bites the man."
+    m = re.search(r"(?::|\bis\b\s*:|\bfollowing\b|sentence\s+is|"
+                  r"given below|sentence:?)\s*[:\-]?\s*(.+?)\s*$",
+                  text, re.I)
+    if m:
+        cand = m.group(1).strip()
+    else:
+        # instruction ... "The dog bites the man." — last sentence
+        parts = re.split(r"(?<=[.?!])\s+", text.strip())
+        cand = parts[-1].strip() if parts else ""
+        if len(parts) < 2:
+            return None
+    cand = cand.strip("\"'“”‘’. ").strip()
+    if not cand or not re.search(r"[A-Za-z]{2,}", cand):
+        return None
+    # the candidate must look like a sentence (has a verb), not another ask
+    if re.search(r"\b(?:passive|active|indirect|direct|tense|speech|voice|"
+                 r"transform|rewrite|change|convert)\b", cand, re.I) \
+            and not re.search(r"['\"]", cand):
+        return None
+    return cand
+
+
+# common regular base verbs (school register) — the base lexicon that lets
+# -s/-ed/-ing surface forms be recognised without guessing
+BASE_VERBS = {
+    "accept", "act", "add", "admit", "announce", "arrive", "adopt",
+    "advise", "agree", "allow", "answer", "appear", "apply", "appoint",
+    "argue", "arrange", "ask", "attack", "attempt", "attend", "avoid",
+    "bake", "bark", "bathe", "bear", "beg", "bite", "boil", "borrow", "bother", "brush", "calculate", "call", "carry",
+    "celebrate", "change", "charge", "chase", "chat", "check", "cheat",
+    "cheer", "chew", "clean", "climb", "close", "collect", "combine",
+    "complain", "complete", "consider", "contain", "continue", "cook",
+    "copy", "count", "cover", "crash", "cross", "cry", "cure", "damage",
+    "dance", "decide", "declare", "defeat", "defend", "delay", "deliver",
+    "demand", "deny", "depend", "destroy", "develop", "die", "discover",
+    "discuss", "dismiss", "distance", "divide", "doubt", "drag", "draft",
+    "drown", "dry", "earn", "employ", "encourage", "enjoy", "enter",
+    "escape", "examine", "excuse", "exercise", "expect", "explain",
+    "express", "fail", "fill", "finish", "fix", "float", "flow", "fold",
+    "follow", "force", "form", "gain", "gather", "greet", "guess", "handle",
+    "happen", "hate", "help", "hire", "hope", "hurry", "ignore", "imagine",
+    "impress", "improve", "include", "increase", "influence", "inform",
+    "injure", "insist", "inspect", "install", "instruct", "intend",
+    "interest", "interview", "introduce", "invent", "invite", "join",
+    "joke", "judge", "jump", "kick", "kill", "kiss", "knock", "land",
+    "laugh", "launch", "lean", "lift", "like", "list", "listen", "live", "load",
+    "lock", "look", "love", "manage", "mark", "marry", "measure", "mention",
+    "milk", "miss", "mix", "move", "need", "note", "notice", "obey",
+    "observe", "obtain", "occur", "offer", "open", "order", "organize",
+    "own", "pack", "paint", "pass", "pause", "perform", "permit", "pick",
+    "plan", "plant", "play", "please", "point", "pour", "practise",
+    "praise", "pray", "prefer", "prepare", "present", "prevent", "print",
+    "produce", "promise", "protect", "prove", "provide", "pull", "punish",
+    "push", "question", "race", "rain", "reach", "realise", "receive",
+    "recognise", "record", "reduce", "refer", "reflect", "refuse", "regard",
+    "register", "release", "remain", "remove", "repair", "repeat", "reply",
+    "report", "request", "rescue", "respect", "rest", "return", "reveal",
+    "review", "reward", "row", "rub", "rule", "save", "scold", "score",
+    "search", "select", "separate", "serve", "settle", "share", "shock",
+    "shout", "sign", "smile", "smoke", "solve", "sort", "sound", "spell",
+    "spoil", "spread_", "start", "state", "stay", "steer", "step", "stop",
+    "stretch", "study", "stun", "suffer", "suggest", "supply", "support",
+    "suppose", "surprise", "surround", "survive", "suspect", "talk",
+    "taste", "tax", "terrify", "test", "thank", "throw_", "tie", "touch",
+    "train", "transfer", "transform", "travel", "treat", "trust", "try",
+    "turn", "type", "unite", "use", "vanish", "vary", "visit", "wait",
+    "wake_", "walk", "want", "warn", "wash", "waste", "watch", "water",
+    "wave", "welcome", "wish", "wonder", "work", "worry", "wrap",
+}
+
+
+def _verbish(tok: str) -> bool:
+    """token can act as a (main or auxiliary) verb here."""
+    w = tok.lower()
+    if w in _BEForms or w in _HAVEForms or w in _LG_MODAL:
+        return True
+    if w in _VFORMS:
+        return True
+    if w in BASE_VERBS:
+        return True
+    if w.endswith("s") and (w[:-1] in BASE_VERBS or w[:-1] in _VFORMS):
+        return True
+    if w.endswith("es") and (w[:-2] in BASE_VERBS or w[:-2] in _VFORMS):
+        return True
+    if w.endswith("ing") and (w[:-3] in BASE_VERBS or
+                              (w.endswith("ying") and w[:-3] + "ie" in
+                               BASE_VERBS) or w[:-3] + "e" in _VFORMS or
+                              w[:-3] in _VFORMS):
+        return True
+    if w.endswith("ed") and (w[:-1] in BASE_VERBS or w[:-2] in BASE_VERBS or
+                             (w.endswith("ied") and w[:-3] + "y" in
+                              BASE_VERBS) or w[:-1] in _VFORMS or
+                             w[:-2] in _VFORMS):
+        return True
+    return False
+
+
+def _inflect(base: str, kind: str, subject: str = "") -> str:
+    """kind: 'v1s' (3rd sgt present), 'v2', 'v3', 'ving'."""
+    if base in _VFORMS:
+        b, v2, v3, ving = _VFORMS[base]
+    else:
+        v2, v3, ving = _regular_forms(base)
+    return {"v1": base, "v1s": _third_person(base), "v2": v2, "v3": v3,
+            "ving": ving}[kind]
+
+
+def _parse_sentence(sentence: str):
+    """-> (subject, verb_tokens, tail) tokens or None.
+
+    Scope: simple declarative sentences (subject + verb group + object /
+    complement + optional tail).  Anything else must refuse."""
+    toks = _toks(sentence)
+    if len(toks) < 3 or len(toks) > 24:
+        return None
+    # leading sentence adverbs join the tail of the subject NP
+    lead_adv = {"today", "now", "yesterday", "tomorrow", "usually",
+                "always", "never", "often", "sometimes", "generally",
+                "recently", "already", "just", "still", "soon"}
+    vi = 0
+    while vi < len(toks) and toks[vi].lower() in lead_adv:
+        vi += 1
+    # find the first verbish token
+    k = vi
+    while k < len(toks) and not _verbish(toks[k]):
+        k += 1
+    if k == len(toks) or k == vi:
+        # verb before any subject noun, or no verb -> refuse
+        if k == len(toks):
+            return None
+    subject = toks[vi:k]
+    if not subject:
+        return None
+    # subject must be NP-shaped: starts with det/poss/number or is a
+    # pronoun/proper-ish noun — refuse 'if/when/because' clauses etc.
+    first = subject[0].lower()
+    subj_head = subject[-1].lower()
+    if first in ("if", "when", "because", "that", "although", "unless",
+                 "while", "since"):
+        return None
+    if first in ("the", "a", "an", "my", "our", "your", "his", "her",
+                 "their", "its", "this", "that", "these", "those") or \
+            first in ("i", "we", "you", "he", "she", "it", "they") or \
+            first[0].isupper():
+        pass
+    elif subj_head in _VFORMS or _verbish(subj_head):
+        return None
+    # extend the verb group over auxiliaries, then include the main verb
+    j = k
+    aux_run = {"do", "does", "did", "not", "n't", "never", "going", "to"}
+    aux_sets = _BEForms | _HAVEForms | _LG_MODAL | aux_run
+    while j < len(toks):
+        t = toks[j].lower()
+        if t in aux_sets:
+            j += 1
+            continue
+        if j > k and _verbish(t) and toks[j - 1].lower() in aux_sets:
+            j += 1
+            continue
+        break
+    if j == k:
+        j = k + 1                 # the verb at k is itself the group
+    elif j > k and j < len(toks) and toks[j - 1].lower() in _LG_MODAL and \
+            toks[j - 1].lower() not in aux_run:
+        # a bare modal needs its main verb (will + announce)
+        j += 1
+    if j > len(toks):
+        return None
+    tail = toks[j:]
+    return subject, toks[k:j], tail
+
+
+def _main_surface(vg: List[str]) -> Optional[str]:
+    """The main-verb SURFACE form: last verbish token that is not an
+    auxiliary placeholder (been/being/going/to)."""
+    for t in reversed(vg):
+        lw = t.lower()
+        if lw in ("been", "being", "going", "to", "not", "n't", "do",
+                  "does", "did"):
+            continue
+        if lw in _BEForms or lw in _HAVEForms or lw in _LG_MODAL:
+            continue
+        if lw in BASE_VERBS or _verbish(lw):
+            return lw
+        return None
+    return None
+
+
+def _base_of(surface: str) -> Optional[str]:
+    forms = verb_forms(surface)
+    return forms[0] if forms else None
+
+
+def _vgroup_kind(vg: List[str]):
+    """Classify the verb group -> (kind, base, aux, beform).
+
+    kind: pres_cont | past_cont | pres_perf | past_perf | future |
+    future_cont | fut_perf | modal | going_to | pres_simple | past_simple |
+    pres_perf_cont | past_perf_cont | used_to | pass_pres | pass_past |
+    pass_pres_cont | pass_past_cont | pass_perf | pass_modal | pass_future"""
+    lw = [t.lower() for t in vg]
+    surface = _main_surface(vg)
+    if surface is None:
+        return None
+    base = _base_of(surface)
+    if base is None:
+        return None
+    be = next((t for t in lw if t in _BEForms), None)
+    hv = next((t for t in lw if t in _HAVEForms), None)
+    mod = next((t for t in lw if t in _LG_MODAL and t != "used"), None)
+    ing = surface.endswith("ing") and surface != "going"
+    v3 = verb_forms(surface) and surface == verb_forms(surface)[2] and \
+        not surface.endswith("ing")
+    # PASSIVE shapes (be + V3 / being V3 / been V3)
+    if be is not None:
+        if "being" in lw and ing:
+            return ("pass_past_cont" if be in ("was", "were") else
+                    "pass_pres_cont", base, f"{be} being", None)
+        if "been" in lw:
+            return ("pass_perf", base, f"{hv or 'has'} been", None)
+        if v3:
+            return ("pass_past" if be in ("was", "were") else
+                    "pass_pres", base, be, None)
+        if ing:
+            return ("past_cont" if be in ("was", "were") else
+                    "pres_cont", base, be, None)
+        if surface == "going":
+            return ("going_to", base, f"{be} going to", None)
+        # be + adjective/noun complement (S+be+NP) — no voice change
+        return ("copula", base, be, None)
+    if "used" in lw and "to" in lw:
+        return ("used_to", base, "used to", None)
+    if mod in ("will", "shall"):
+        if "been" in lw:
+            return ("pass_fut_perf", base, "will have been", None)
+        if "been" in lw or v3 and hv:
+            return ("pass_fut_perf", base, "will have been", None)
+        if hv:
+            return ("fut_perf", base, "will have", None)
+        if ing:
+            return ("future_cont", base, "will be", None)
+        return ("future", base, "will", None)
+    if mod:
+        if "been" in lw:
+            return ("pass_modal", base, f"{mod} have been"
+                    if hv else f"{mod} be", None)
+        return ("modal", base, mod, None)
+    if hv:
+        if "been" in lw:
+            return ("pres_perf_cont" if hv in ("have", "has") else
+                    "past_perf_cont", base, f"{hv} been", None)
+        # has/have/had + V3 WITHOUT 'been' = ACTIVE perfect
+        return ("pres_perf" if hv in ("have", "has") else "past_perf",
+                base, hv, None)
+    if ing:
+        return None                      # bare -ing without aux: refuse
+    if surface.endswith("s") and surface not in _VFORMS:
+        return ("pres_simple", base, "", None)
+    forms = verb_forms(surface)
+    if forms and forms[1] == surface and base != surface:
+        return ("past_simple", base, "", None)
+    if surface in ("cost", "cut", "hit", "put", "read", "set", "shut",
+                   "hurt", "let", "bet"):
+        return ("past_simple", base, "", None)
+    return ("pres_simple", base, "", None)
+
+
+# --------------------------------------------------------------------------- #
+# ENG family computes
+# --------------------------------------------------------------------------- #
+
+_PASSIVE_KINDS = {"pass_pres", "pass_past", "pass_pres_cont",
+                  "pass_past_cont", "pass_perf", "pass_modal",
+                  "pass_fut_perf"}
+
+
+def _to_passive_vg(kind: str, base: str, subject: str):
+    """active verb group -> (passive verb group, beform or None on refuse)"""
+    be = _lg_be_for(subject, "past" if kind in
+                 ("past_cont", "past_perf", "past_simple", "used_to",
+                  "going_to_p") else "pres")
+    v3 = _inflect(base, "v3")
+    if kind == "pres_cont":
+        return f"{be} being {v3}"
+    if kind == "past_cont":
+        return f"{'were' if be == 'are' else 'was'} being {v3}"
+    if kind == "pres_perf":
+        return f"{'have' if be == 'are' else 'has'} been {v3}"
+    if kind == "past_perf":
+        return f"had been {v3}"
+    if kind == "future":
+        return f"will be {v3}"
+    if kind == "future_cont":
+        return f"will be being {v3}"
+    if kind == "fut_perf":
+        return f"will have been {v3}"
+    if kind == "modal":
+        return None                       # modal voice: ambiguous without
+                                          # the modal itself — refused
+    if kind == "going_to":
+        return f"{be} going to be {v3}"
+    if kind == "used_to":
+        return f"used to be {v3}"
+    if kind == "pres_simple":
+        return f"{be} {v3}"
+    if kind == "past_simple":
+        return (f"{'were' if be == 'are' else 'was'} {v3}")
+    return None
+
+
+def _c_eng_passive(slots, text):
+    """'Change into passive voice: <active sentence>' -> passive sentence."""
+    m = re.search(r"\bpassive\s+voice\b", text, re.I)
+    if not m:
+        return None
+    sentence = _split_instruction(text)
+    if not sentence:
+        return None
+    parsed = _parse_sentence(sentence)
+    if not parsed:
+        return None
+    subject, vg, tail = parsed
+    kind = _vgroup_kind(vg)
+    if not kind:
+        return None
+    kind, base, aux, _be = kind
+    if kind in _PASSIVE_KINDS:
+        return (None, ["already in the passive voice"],
+                "The sentence is already in the passive voice.", None,
+                "LANG_ENG_PASSIVE", None)
+    if kind == "copula" or kind in ("pres_be", "past_be"):
+        return None                        # no object: nothing to promote
+    new_vg = _to_passive_vg(kind, base, " ".join(tail[:1]))
+    if not new_vg:
+        return None
+    # object = head of the tail NP up to a preposition/adverb boundary
+    stop = {"in", "on", "at", "with", "for", "from", "by", "about",
+            "into", "onto", "over", "under", "near", "since", "during",
+            "because", "although", "if", "when", "while", "so", "that",
+            "to", "who", "which", "yesterday", "today",
+            "tomorrow", "now", "everyday", "regularly", "carefully",
+            "loudly", "quietly", "slowly", "quickly", "happily",
+            "kindly", "well", "hard", "here", "there", "home", "outside",
+            "inside", "away", "back", "again", "every", "each", "daily",
+            "often", "usually", "always", "never", "sometimes",
+            "tonight", "already", "just", "soon"}
+    toks = tail
+    # determiner-less object must still look NP-ish
+    oi = 0
+    while oi < len(toks) and toks[oi].lower() not in stop:
+        oi += 1
+    obj = toks[:oi]
+    rest = toks[oi:]
+    if not obj or len(obj) > 6:
+        return None
+    if obj[0].lower() in ("him", "her", "them", "me", "us", "you", "it",
+                          "someone", "everybody", "everyone", "nobody",
+                          "anybody", "anything", "nothing", "something",
+                          "people"):
+        # pronoun / indefinite object: keep case as-is as new subject
+        obj_np = _subj_case(obj[0]) if len(obj) == 1 else \
+            " ".join([_subj_case(obj[0])] + obj[1:])
+    else:
+        obj_np = " ".join(obj)
+    be = _lg_be_for(obj_np, "past" if kind in ("past_cont", "past_perf",
+                                            "past_simple", "used_to")
+                 else "pres")
+    # rebuild with the correct agreement
+    if kind == "pres_cont":
+        new_vg = f"{be} being {_inflect(base, 'v3')}"
+    elif kind == "past_cont":
+        new_vg = (f"{'were' if be == 'are' else 'was'} "
+                  f"{_inflect(base, 'v3')}")
+    elif kind == "pres_perf":
+        new_vg = (f"{'have' if be == 'are' else 'has'} been "
+                  f"{_inflect(base, 'v3')}")
+    elif kind == "past_perf":
+        new_vg = f"had been {_inflect(base, 'v3')}"
+    elif kind == "future":
+        new_vg = f"will be {_inflect(base, 'v3')}"
+    elif kind == "going_to":
+        new_vg = f"{be} going to be {_inflect(base, 'v3')}"
+    elif kind == "used_to":
+        new_vg = f"used to be {_inflect(base, 'v3')}"
+    elif kind == "pres_simple":
+        new_vg = f"{be} {_inflect(base, 'v3')}"
+    elif kind == "past_simple":
+        new_vg = (f"{'were' if be == 'are' else 'was'} "
+                  f"{_inflect(base, 'v3')}")
+    else:
+        return None
+    by_subj = " ".join([_obj_case(subject[0])] + subject[1:]) \
+        if subject[0].lower() in ("i", "we", "he", "she", "they", "you") \
+        else _decat(" ".join(subject))
+    passive = f"{_cap(obj_np)} {new_vg} by {by_subj}"
+    if rest:
+        rest_txt = _decat(" ".join(rest))
+        passive += " " + rest_txt
+    passive = passive.strip() + "."
+    return (None,
+            ["identify the object — it becomes the new subject",
+             "be-verb agrees with the new subject in the same tense",
+             "main verb -> past participle; old subject follows with 'by'"],
+            passive, None, "LANG_ENG_PASSIVE",
+            {"active": " ".join(subject + vg + tail)})
+
+
+def _decat(s: str) -> str:
+    """lowercase a sentence-initial determiner/possessive that now sits
+    mid-sentence (The boys -> the boys); proper nouns are left alone."""
+    first = s.split()[0] if s.split() else ""
+    if first[:1].isupper() and (len(first) == 1 or
+                                first[1:].islower()) and \
+            first.lower() in ("the", "a", "an", "my", "our", "your",
+                              "his", "her", "its", "their", "this",
+                              "that", "these", "those", "as", "it",
+                              "he", "she", "they", "we", "someone",
+                              "something", "somebody", "anyone",
+                              "anybody", "anything", "everyone",
+                              "everybody", "everything", "nobody",
+                              "nothing"):
+        return first.lower() + s[len(first):]
+    return s
+
+
+def _c_eng_active(slots, text):
+    """'Change into active voice: <passive sentence>' -> active sentence."""
+    if not re.search(r"\bactive\s+voice\b", text, re.I):
+        return None
+    sentence = _split_instruction(text)
+    if not sentence:
+        return None
+    parsed = _parse_sentence(sentence)
+    if not parsed:
+        return None
+    subject, vg, tail = parsed
+    kind = _vgroup_kind(vg)
+    if not kind:
+        return None
+    kind, base, aux, _be = kind
+    if kind not in _PASSIVE_KINDS:
+        return (None, ["already in the active voice"],
+                "The sentence is already in the active voice.", None,
+                "LANG_ENG_ACTIVE", None)
+    # agent: the 'by <NP>' tail — required for a full reversal
+    toks = tail
+    by_i = next((i for i, t in enumerate(toks)
+                 if t.lower() == "by"), None)
+    if by_i is None or by_i + 1 >= len(toks):
+        return None                        # agentless passive: refuse
+    agent = toks[by_i + 1:]
+    stop = {"in", "on", "at", "with", "for", "from", "about", "into",
+            "when", "while", "because", "if", "yesterday", "today",
+            "tomorrow", "now", "everyday", "yesterday."}
+    ai = 0
+    while ai < len(agent) and agent[ai].lower() not in stop:
+        ai += 1
+    agent_np = agent[:ai]
+    rest = agent[ai:]
+    if not agent_np or len(agent_np) > 6:
+        return None
+    # new subject = agent in subject case; plural drives be-form
+    new_subj_tok = _subj_case(agent_np[0]) if len(agent_np) == 1 and \
+        agent_np[0].lower() in ("him", "her", "them", "me", "us") \
+        else agent_np[0]
+    new_subj = " ".join([new_subj_tok] + agent_np[1:])
+    # object = old subject in object case if pronoun
+    obj = " ".join([_obj_case(subject[0])] + subject[1:]) if \
+        len(subject) == 1 and subject[0].lower() in (
+            "i", "we", "he", "she", "they", "who") else " ".join(subject)
+    v3 = _inflect(base, "v3")
+    subj_pl = _lg_be_for(new_subj, "pres") == "are"
+    if kind == "pass_pres":
+        vg2 = _inflect(base, "v1s") if not subj_pl else base
+        # 1st/2nd person take the bare base
+        if new_subj_tok.lower() in ("i", "we", "you", "they"):
+            vg2 = base
+    elif kind == "pass_past":
+        vg2 = _inflect(base, "v2")
+    elif kind == "pass_pres_cont":
+        vg2 = ("are " if subj_pl else "is ") + _inflect(base, "ving")
+        if new_subj_tok.lower() == "i":
+            vg2 = "am " + _inflect(base, "ving")
+    elif kind == "pass_past_cont":
+        vg2 = ("were " if subj_pl else "was ") + _inflect(base, "ving")
+    elif kind == "pass_perf":
+        vg2 = ("have " if subj_pl else "has ") + v3
+        if new_subj_tok.lower() == "i":
+            vg2 = "have " + v3
+    elif kind == "pass_modal":
+        # passive modal "can be seen" -> active "can see"
+        mod = aux.split()[0]
+        vg2 = f"{mod} {base}"
+    elif kind == "pass_fut_perf":
+        vg2 = f"will have {base}"
+    else:
+        return None
+    active = f"{_cap(new_subj)} {vg2}"
+    if kind != "pass_pres_cont" and kind != "pass_past_cont":
+        active = f"{_cap(new_subj)} {vg2}"
+    if obj:
+        active += " " + _decat(obj)
+    if rest:
+        active += " " + _decat(" ".join(rest))
+    active = active.strip() + "."
+    return (None,
+            ["the 'by' agent becomes the new subject",
+             "be + V3 -> the tense's active form (agreement with the new "
+             "subject)", "the old subject becomes the object"],
+            active, None, "LANG_ENG_ACTIVE",
+            {"passive": " ".join(subject + vg + tail)})
+
+
+_TENSE_ASK = {
+    "simple present": "pres_simple", "present indefinite": "pres_simple",
+    "present continuous": "pres_cont", "present progressive": "pres_cont",
+    "present perfect continuous": "pres_perf_cont",
+    "present perfect": "pres_perf", "perfect present": "pres_perf",
+    "simple past": "past_simple", "past indefinite": "past_simple",
+    "past continuous": "past_cont", "past progressive": "past_cont",
+    "past perfect": "past_perf", "simple future": "future",
+    "future indefinite": "future", "future continuous": "future_cont",
+    "future progressive": "future_cont", "future perfect": "fut_perf",
+}
+_TENSE_ORDER = ["present perfect continuous", "present continuous",
+                "present progressive", "present perfect", "simple present",
+                "present indefinite", "perfect present",
+                "past continuous", "past progressive", "past perfect",
+                "simple past", "past indefinite",
+                "future continuous", "future progressive",
+                "future perfect", "simple future", "future indefinite"]
+
+
+def _c_eng_tense(slots, text):
+    """'Change/rewrite ... into <tense> tense: <sentence>' -> converted."""
+    low = text.lower()
+    if not re.search(r"\b(?:tense)\b", low) or not re.search(
+            r"\b(?:change|rewrite|convert|transform|put|turn)\b", low):
+        return None
+    target = None
+    tpos = -1
+    for name in _TENSE_ORDER:
+        # the compound name must own the 'tense' word — 'future perfect
+        # continuous tense' must not match the 'future perfect' family
+        m_n = re.search(re.escape(name) + r"\s+tense", low)
+        if m_n and (target is None or m_n.start() < tpos):
+            target, tpos = _TENSE_ASK[name], m_n.start()
+    if target is None:
+        # plain tense names ('change into future tense')
+        m_pl = re.search(r"into\s+(?:the\s+)?(future|past|present)\s+"
+                         r"tense", low)
+        if m_pl:
+            target = {"future": "future", "past": "past_simple",
+                      "present": "pres_simple"}[m_pl.group(1)]
+    if target is None:
+        return None
+    sentence = _split_instruction(text)
+    if not sentence:
+        return None
+    parsed = _parse_sentence(sentence)
+    if not parsed:
+        return None
+    subject, vg, tail = parsed
+    kind = _vgroup_kind(vg)
+    if not kind:
+        return None
+    kind, base, aux, _be = kind
+    if kind == "copula":
+        # S + be + complement: convert the be-verb only
+        be = _lg_be_for(" ".join(subject), {"pres_cont": "pres",
+                                         "pres_simple": "pres",
+                                         "pres_perf": "pres",
+                                         "pres_perf_cont": "pres",
+                                         "future": "pres",
+                                         "future_cont": "pres",
+                                         "fut_perf": "pres"}.get(
+                                             target, "past"))
+        neg = " not" if any(t.lower() in ("not", "n't") for t in vg) \
+            else ""
+        new_vg = {
+            "pres_simple": be, "pres_cont": be, "pres_perf":
+            "have " if be == "are" else "has",
+            "pres_perf_cont": "have been" if be == "are" else "has been",
+            "past_simple": "was" if be == "is" or be == "am" else "were",
+            "past_cont": "was" if be == "is" or be == "am" else "were",
+            "past_perf": "had been",
+            "future": "will be",
+        }[target] + neg
+        out = f"{_cap(' '.join(subject))} {new_vg} {' '.join(tail)}".strip()
+        return (None, ["be-verb recast in the asked tense",
+                       "subject agreement preserved"],
+                out + ".", None, "LANG_ENG_TENSE", {"tense": target})
+    subj_txt = " ".join(subject)
+    pl = _lg_be_for(subj_txt, "pres") == "are"
+    first_i = subj_txt.split()[0].lower() == "i" if subj_txt else False
+    v2 = _inflect(base, "v2")
+    v3 = _inflect(base, "v3")
+    ving = _inflect(base, "ving")
+    v1s = base if (pl or first_i or subj_txt.split()[0].lower() in
+                   ("you", "we", "they")) else _inflect(base, "v1s")
+    hv = "have" if (pl or first_i or subj_txt.split()[0].lower() in
+                    ("you", "we", "they")) else "has"
+    be_p = ("were" if pl else "was") if not first_i else "was"
+    be_n = "are" if (pl or subj_txt.split()[0].lower() in
+                     ("you", "we", "they")) else "is"
+    if first_i:
+        be_n = "am"
+    new_vg = {
+        "pres_simple": v1s,
+        "pres_cont": f"{be_n} {ving}",
+        "pres_perf": f"{hv} {v3}",
+        "pres_perf_cont": f"{hv} been {ving}",
+        "past_simple": v2,
+        "past_cont": f"{be_p} {ving}",
+        "past_perf": f"had {v3}",
+        "future": f"will {base}",
+        "future_cont": f"will be {ving}",
+        "fut_perf": f"will have {v3}",
+    }.get(target)
+    if not new_vg:
+        return None
+    out = f"{_cap(subj_txt)} {new_vg} {' '.join(tail)}".strip()
+    return (None, [f"main verb recast in the {target} tense"],
+            out + ".", None, "LANG_ENG_TENSE", {"tense": target})
+
+
+# --------------------------------------------------------------------------- #
+# POS identification — closed-class lexicons + suffix rules + context
+# --------------------------------------------------------------------------- #
+
+_PRONOUNS = {"i", "me", "my", "mine", "myself", "we", "us", "our", "ours",
+             "ourselves", "you", "your", "yours", "yourself", "he", "him",
+             "his", "himself", "she", "her", "hers", "herself", "it", "its",
+             "itself", "they", "them", "their", "theirs", "themselves",
+             "this", "that", "these", "those", "who", "whom", "whose",
+             "which", "what", "someone", "somebody", "something", "anyone",
+             "anybody", "anything", "everyone", "everybody", "everything",
+             "nobody", "nothing", "one", "ones", "each", "either",
+             "neither", "both", "few", "many", "several", "all", "some",
+             "any", "none", "such"}
+_PREP = {"in", "on", "at", "by", "for", "with", "about", "against",
+         "between", "into", "through", "during", "before", "after", "above",
+         "below", "to", "from", "up", "down", "of", "off", "over", "under",
+         "further", "near", "behind", "beside", "besides", "among",
+         "along", "across", "around", "toward", "towards", "upon",
+         "within", "without", "until", "till", "except", "unlike",
+         "beneath", "beyond", "despite", "amid", "per", "via"}
+_CONJ = {"and", "but", "or", "nor", "so", "yet", "because", "although",
+         "though", "while", "whereas", "if", "unless", "when", "whenever",
+         "where", "wherever", "as", "than", "whether", "lest"}
+_DET = {"the", "a", "an", "my", "your", "his", "her", "its", "our",
+        "their", "this", "that", "these", "those", "each", "every",
+        "either", "neither", "much", "more", "most", "less", "least",
+        "little", "several", "enough", "another", "both", "half",
+        "one", "two", "three", "four", "five", "six", "seven", "eight",
+        "nine", "ten", "first", "second", "third"}
+_AUXV = {"be", "is", "am", "are", "was", "were", "been", "being", "have",
+         "has", "had", "do", "does", "did", "will", "would", "shall",
+         "should", "can", "could", "may", "might", "must", "ought"}
+_INTERJ = {"oh", "ah", "wow", "alas", "hurrah", "bravo", "hush", "oops",
+           "ouch", "hey"}
+_ADV_ALWAYS = {"not", "never", "very", "too", "quite", "rather", "almost",
+               "always", "usually", "often", "sometimes", "seldom",
+               "rarely", "ever", "here", "there", "now", "then", "soon",
+               "late", "early", "fast", "hard", "well", "badly", "loudly",
+               "quietly", "slowly", "quickly", "carefully", "happily",
+               "kindly", "tomorrow", "yesterday", "today", "tonight",
+               "again", "away", "outside", "inside", "upstairs",
+               "downstairs", "abroad", "daily", "regularly", "gently"}
+
+_NOUN_SUFFIX = ("tion", "sion", "ment", "ness", "ity", "ship", "hood",
+                "ance", "ence", "ism", "ist", "ee", "dom", "cy")
+_ADJ_SUFFIX = ("ous", "ful", "less", "ive", "able", "ible", "ish")
+
+# common school adjectives — the open-class words a POS exercise uses
+_COMMON_ADJ = {
+    "quick", "brown", "lazy", "big", "small", "tall", "short", "long",
+    "happy", "sad", "good", "bad", "old", "young", "new", "hot", "cold",
+    "warm", "cool", "fast", "slow", "sweet", "sour", "bitter", "red",
+    "blue", "green", "yellow", "black", "white", "beautiful", "ugly",
+    "kind", "cruel", "wise", "brave", "strong", "weak", "rich", "poor",
+    "clean", "dirty", "easy", "difficult", "soft", "hard", "heavy",
+    "light", "dark", "bright", "clever", "foolish", "honest", "great",
+    "little", "high", "low", "deep", "wide", "thin", "thick", "fat",
+    "proud", "humble", "gentle", "polite", "rude", "sharp", "sweet",
+    "sour", "fresh", "stale", "clear", "loud", "quiet", "busy", "free",
+}
+
+
+def _pos_of(tok: str, prev: str = "", nxt: str = "") -> str:
+    """Closed classes by lexicon, open classes by suffix + position."""
+    w = tok.lower().strip(".,!?;:'\"()")
+    pv = prev.lower().strip(".,!?;:'\"()")
+    nx = nxt.lower().strip(".,!?;:'\"()")
+    if not w:
+        return ""
+    if w in _ADV_ALWAYS:
+        return "adverb"
+    if w in _INTERJ:
+        return "interjection"
+    if w in _PRONOUNS:
+        if w in ("this", "that", "these", "those", "each", "some", "any",
+                 "all", "both", "few", "many", "several") and nx and nx \
+                not in ("is", "was", "are", "were", "will", "would",
+                        "can", "could", "has", "have", "had"):
+            return "determiner"
+        return "pronoun"
+    if w in _CONJ:
+        return "conjunction"
+    if w in _PREP:
+        if w in ("before", "after", "since", "until", "as") and (
+                nx in ("i", "we", "you", "he", "she", "it", "they") or
+                nx in _AUXV):
+            return "conjunction"
+        return "preposition"
+    if w in _AUXV:
+        return "verb"
+    if w in _DET:
+        return "determiner"
+    if w.endswith("ly") and len(w) > 4:
+        return "adverb"
+    forms = verb_forms(w)
+    if forms and (w.endswith("ing") or w.endswith("ed")):
+        if w.endswith("ing") and pv in _DET:
+            return "noun"        # gerund after a determiner
+        return "verb"
+    if forms and forms[0] == w:
+        # bare base: a noun/pronoun subject before it makes it the verb
+        # ('the children listen carefully'); after a determiner it is a
+        # noun ('the dance')
+        if pv and pv not in _DET and pv not in _PREP and                 pv not in _CONJ and pv not in _AUXV and                 verb_forms(pv) is None and pv not in ("not", "never"):
+            return "verb"
+    if w.endswith(_NOUN_SUFFIX) and len(w) > 5:
+        return "noun"
+    if w.endswith(_ADJ_SUFFIX) and len(w) > 5:
+        return "adjective"
+    if w in _COMMON_ADJ:
+        return "adjective"
+    if w.endswith("est") and len(w) > 5:
+        return "adjective"
+    if w.endswith("er") and len(w) > 4 and w[-3] not in "aeiou":
+        return "adjective"
+    if w.endswith("s"):
+        if pv in ("he", "she", "it", "who") or w[:-1] in BASE_VERBS or \
+                w[:-1] in _VFORMS:
+            return "verb"
+        return "noun"
+    if tok[:1].isupper() and pv:
+        return "noun"
+    if pv in _DET:
+        return "noun"
+    return "noun"
+
+
+def _c_eng_pos(slots, text):
+    """'Identify the parts of speech ...: <sentence>' -> word(pos) list."""
+    if not re.search(r"parts?\s+of\s+speech", text, re.I):
+        return None
+    sentence = _split_instruction(text)
+    if not sentence:
+        return None
+    toks = _toks(sentence)
+    if not (3 <= len(toks) <= 20):
+        return None
+    tags = []
+    for i, t in enumerate(toks):
+        prev = toks[i - 1] if i else ""
+        nxt = toks[i + 1] if i + 1 < len(toks) else ""
+        tags.append(f"{t} ({_pos_of(t, prev, nxt)})")
+    return (None,
+            ["closed classes by lexicon; open classes by suffix + "
+             "sentence position"],
+            ", ".join(tags), None, "LANG_ENG_POS", None)
+
+
+# --------------------------------------------------------------------------- #
+# Direct -> indirect speech
+# --------------------------------------------------------------------------- #
+
+_BACKSHIFT_AUX = {
+    "am": "was", "is": "was", "are": "were", "was": "had been",
+    "were": "had been", "will": "would", "shall": "should", "can":
+    "could", "may": "might", "must": "had to",
+}
+_TIME_SHIFT = {
+    "now": "then", "today": "that day", "tonight": "that night",
+    "yesterday": "the previous day", "tomorrow": "the next day",
+    "ago": "before", "here": "there", "hence": "thence",
+}
+_GENDERED = {"she", "her", "mother", "sister", "teacher", "girl", "woman",
+             "aunt", "wife", "lady", "daughter", "miss", "mrs"}
+
+
+def _gender_of(name: str) -> str:
+    return "she" if name.lower().rstrip(".,!?;:") in _GENDERED else "he"
+
+
+_SING_SUBJ = {"he", "she", "it", "who", "this", "that",
+              "the", "a", "an", "my", "our", "your", "his", "her",
+              "their", "its"}
+
+
+def _fix_be_agreement(words):
+    """after a pronoun shift the be-verb must agree with the NEW
+    subject: 'I am' with I->he becomes 'he is'."""
+    out = list(words)
+    for i, w in enumerate(out):
+        lw = w.lower().strip(".,!?;:'\"")
+        if lw not in ("am", "is", "are", "was", "were"):
+            continue
+        prev = out[i - 1].lower().strip(".,!?;:'\"") if i else ""
+        if lw == "am" and (prev in _SING_SUBJ or
+                           prev.endswith("s") and prev != "was"):
+            out[i] = "is" + w[2:]
+        elif lw == "is" and prev in ("i",):
+            out[i] = "am" + w[2:]
+        elif lw == "is" and prev in ("we", "they", "you", "these",
+                                     "those"):
+            out[i] = "are" + w[2:]
+        elif lw == "was" and prev in ("we", "they", "you", "these",
+                                      "those"):
+            out[i] = "were" + w[3:]
+        elif lw == "were" and prev in ("i", "he", "she", "it"):
+            out[i] = "was" + w[4:]
+    return out
+
+
+def _lg_shift_pronouns(words, reporter_last, robj):
+    """I/we/my -> reporter; you/your -> the reporter's object."""
+    out = []
+    g = _gender_of(reporter_last or "")
+    ro_l = (robj or "").lower().rstrip(".,!?;:")
+    go = "she" if ro_l in _GENDERED else "he"
+    for w in words:
+        lw = w.lower().strip(".,!?;:'\"")
+        tail = w[len(lw):] if lw else w
+        rep = None
+        if lw == "i":
+            rep = "I" if (reporter_last or "").lower() == "i" else g
+        elif lw == "we":
+            rep = "they"
+        elif lw == "me":
+            rep = "her" if g == "she" else "him"
+        elif lw == "us":
+            rep = "them"
+        elif lw == "my":
+            rep = "her" if g == "she" else "his"
+        elif lw == "our":
+            rep = "their"
+        elif lw == "mine":
+            rep = "hers" if g == "she" else "his"
+        elif lw == "ours":
+            rep = "theirs"
+        elif lw == "you":
+            rep = {"me": "me", "him": "him", "her": "her", "them": "them",
+                   "us": "us"}.get(ro_l, go if ro_l else "them")
+        elif lw == "your":
+            rep = {"me": "my", "him": "his", "her": "her", "them": "their",
+                   "us": "our"}.get(ro_l, "his" if go == "he" else "her")
+        elif lw == "yours":
+            rep = {"me": "mine", "him": "his", "her": "hers"}.get(
+                ro_l, "his" if go == "he" else "hers")
+        out.append((rep + tail) if rep else w)
+    return out
+
+
+def _backshift_words(words, skip=-1):
+    out = []
+    for i, w in enumerate(words):
+        lw = w.lower().strip(".,!?;:'\"")
+        punct = w[len(lw):] if len(w) > len(lw) else ""
+        if i == skip:
+            out.append(w)
+            continue
+        prev_lw = words[i - 1].lower().strip(".,!?;:'\"") if i else ""
+        prev_out = out[-1].lower() if out else ""
+        # after a backshifted modal / had: the verb group tail stands
+        if prev_lw in ("would", "should", "could", "might", "must",
+                       "had") or prev_out.split()[-1:] and \
+                prev_out.split()[-1] in ("would", "should", "could",
+                                         "might", "had", "to"):
+            if lw in ("have", "has", "be", "been", "being"):
+                out.append(("have" if lw in ("have", "has") else lw)
+                           + punct)
+                continue
+            forms = verb_forms(lw)
+            if forms and (lw.endswith("ed") or lw.endswith("ing") or
+                          lw.endswith("en") or lw in _VFORMS):
+                out.append(w)           # V3/V-ing tail: unchanged
+                continue
+        if lw in _TIME_SHIFT:
+            rep = _TIME_SHIFT[lw]
+            out.append(_cap(rep) + punct if w[:1].isupper() else rep)
+            continue
+        if lw == "this":
+            out.append("That" + punct if w[:1].isupper() else "that")
+            continue
+        if lw == "these":
+            out.append("Those" + punct if w[:1].isupper() else "those")
+            continue
+        if lw in _BACKSHIFT_AUX:
+            out.append(_BACKSHIFT_AUX[lw] + punct)
+            continue
+        if lw in ("have", "has"):
+            out.append("had" + punct)
+            continue
+        if lw in ("do", "does"):
+            out.append("did" + punct)
+            continue
+        if lw == "had":
+            out.append("had" + punct)   # past perfect: unchanged
+            continue
+        if lw == "did":
+            out.append("had done")
+            continue
+        forms = verb_forms(lw)
+        if forms and lw.endswith("s") and lw not in _VFORMS and \
+                forms[0] in BASE_VERBS:
+            out.append(_inflect(forms[0], "v2") + punct)
+            continue
+        if forms and forms[1] == lw and lw.endswith("ed"):
+            out.append("had " + lw + punct)
+            continue
+        if forms and forms[1] == lw and lw in _VFORMS:
+            # irregular past -> past perfect (went -> had gone,
+            # said -> had said)
+            out.append("had " + forms[2] + punct)
+            continue
+        out.append(w)
+    return [w for w in out if w]
+
+
+def _join(words):
+    return " ".join(w for w in words if w)
+
+
+def _lc_first(s):
+    # never lowercase the pronoun I
+    if s and s[:2] == "I " or s == "I":
+        return s
+    return s[:1].lower() + s[1:] if s else s
+
+
+def _scrub(s):
+    return re.sub(r"\s+", " ", s).replace(" .", ".").strip()
+
+
+def _c_eng_speech(slots, text):
+    """'Change into indirect speech: He said, "...".' -> reported speech."""
+    if not re.search(r"\bindirect\s+speech\b|\breported\s+speech\b", text,
+                     re.I):
+        return None
+    m = re.search(
+        r"([A-Z][A-Za-z .]{0,30}?)\s*(said to|says|said|asked|told|"
+        r"replied|exclaimed|ordered|requested|advised|proposed|suggested|"
+        r"wished)\b(?:\s+(?:to\s+)?([A-Za-z]{2,20}(?:\s+[A-Za-z]{2,20})?"
+        r"))?\s*[,;:]?\s*[\u201c\"](.+?)[\u201d\"]",
+        text)
+    if not m:
+        return None
+    reporter = m.group(1).strip()
+    rverb = m.group(2).lower()
+    robj = (m.group(3) or "").strip()
+    quoted = m.group(4).strip().rstrip(".").strip()
+    past_report = rverb != "says"
+    qt = _toks(quoted)
+    if not qt:
+        return None
+    ql = [w.lower() for w in qt]
+    reporter_last = reporter.split()[-1] if reporter else ""
+    words = _fix_be_agreement(_lg_shift_pronouns(qt, reporter_last, robj))
+    rep_name = reporter
+
+    is_q = quoted.endswith("?") or (ql and ql[0] in (
+        "what", "when", "where", "who", "whom", "whose", "why", "how",
+        "which")) or (ql and ql[0] in _AUXV and len(qt) > 1 and
+                      ql[1] in ("i", "me", "we", "us", "you", "he", "she",
+                                "it", "they") and
+                      ql[0] not in ("am", "is", "are", "was", "were"))
+    is_imp = (not is_q) and ql and (
+        ql[0] in BASE_VERBS or ql[0] in ("please", "kindly", "don't",
+                                         "never", "always", "let") or
+        (ql[0] == "do" and len(ql) > 2 and ql[1] == "not") or
+        (ql[0] == "not"))
+
+    if is_q:
+        if ql and ql[0] in ("what", "when", "where", "who", "whom",
+                            "whose", "why", "how", "which"):
+            cw = ql[0]
+            body = list(words[1:])
+        else:
+            cw = "if"
+            body = list(words)
+            # yes-no inversion: 'Are you going' -> statement order
+            if body and body[0].lower() in _AUXV and len(body) > 1:
+                subj = body[1]
+                if subj.lower() in ("me", "him", "her", "them", "us"):
+                    subj = _subj_case(subj)
+                body = [subj, body[0]] + body[2:]
+        dropped = ""
+        if body and body[0].lower() in ("do", "does", "did"):
+            dropped = body[0].lower()
+            body = body[1:]
+            # the shifted subject pronoun now stands in subject position
+            if body and body[0].lower() in ("me", "him", "her", "them",
+                                            "us"):
+                body[0] = _subj_case(body[0])
+            # main verb after the subject: did -> had + V3;
+            # do/does -> V2 (school backshift for do-support questions)
+            skip = -1
+            for bi in range(1, len(body)):
+                forms = verb_forms(body[bi].lower().strip(".,!?;:'\""))
+                if forms and body[bi].lower() not in _AUXV:
+                    if dropped == "did":
+                        body[bi] = "had " + forms[2]
+                        skip = bi        # already past perfect
+                    elif past_report:
+                        body[bi] = forms[1]
+                        skip = bi        # already simple past
+                    break
+        else:
+            skip = -1
+        if past_report:
+            body = _backshift_words(body, skip if dropped else -1)
+            for bi in range(1, len(body)):
+                if body[bi].lower() == "were" and body[bi - 1].lower()                         in ("i", "he", "she", "it"):
+                    body[bi] = "was"
+        rep = (f"{rep_name} asked{(' ' + robj) if robj else ''} {cw} "
+               f"{_lc_first(_join(body))}")
+        return (None,
+                ["reporting verb -> asked; wh-word/if as the conjunction",
+                 "question order -> statement order",
+                 "pronouns shifted, tense backshifted"],
+                _scrub(rep.rstrip(".") + "."), None, "LANG_ENG_SPEECH",
+                None)
+    if is_imp:
+        polite = any(w in ql for w in ("please", "kindly"))
+        rv = "requested" if polite else "ordered"
+        body = list(words)
+        neg = ""
+        if ql[0] in ("never", "always"):
+            adv, body = body[0], body[1:]
+            neg = _lc_first(adv) + " to "
+        elif ql[0] == "don't" or ql[0] == "not":
+            body = body[1:]
+            neg = "not to "
+        elif ql[0] == "do" and len(ql) > 2 and ql[1] == "not":
+            body = body[2:]
+            neg = "not to "
+        elif ql[0] == "let":
+            body2 = list(body[1:])
+            rep = (f"{rep_name} proposed{(' to ' + robj) if robj else ''} "
+                   f"that they {_lc_first(_join(body2))}")
+            return (None, ["let-imperative -> proposed that"],
+                    _scrub(rep.rstrip(".") + "."), None,
+                    "LANG_ENG_SPEECH", None)
+        else:
+            if body and body[0].lower() in ("please", "kindly"):
+                body = body[1:]
+            neg = "to "
+        rep = (f"{rep_name} {rv}{(' ' + robj) if robj else ''} "
+               f"{neg}{_lc_first(_join(body))}")
+        return (None,
+                ["imperative -> to-infinitive; requested when polite, "
+                 "ordered otherwise", "negative: not to + base verb"],
+                _scrub(rep.rstrip(".") + "."), None, "LANG_ENG_SPEECH",
+                None)
+    is_sem_exc, sem_exc_reason = _is_semantic_exception(_join(words))
+    if is_sem_exc:
+        body = list(words)
+        shift_note = f"; {sem_exc_reason} -> no backshift"
+    elif past_report:
+        body = _backshift_words(words)
+        shift_note = "; tense backshifted"
+    else:
+        body = list(words)
+        shift_note = "; present reporting: no backshift"
+    rep = f"{rep_name} {rv}"
+    if robj and rv == "told":
+        rep += f" {robj}"
+    rep += f" that {_lc_first(_join(body))}"
+    return (None,
+            ["statement: conjunction 'that'",
+             f"pronouns and time words shifted{shift_note}"],
+            _scrub(rep.rstrip(".") + "."), None, "LANG_ENG_SPEECH", None)
+
+
+# --------------------------------------------------------------------------- #
+# Sentence transformation (canonical school pairs)
+# --------------------------------------------------------------------------- #
+
+def _c_eng_trans(slots, text):
+    """too..to <-> so..that, as soon as <-> no sooner..than,
+    comparative <-> positive degree."""
+    low = text.lower()
+    if not re.search(r"\b(?:transform|rewrite|change|convert|combine)\b",
+                     low):
+        return None
+    sentence = _split_instruction(text)
+    if not sentence:
+        return None
+    # --- not only ... but also
+    if "not only" in low:
+        sents = [p.strip() for p in re.split(r"[.;]+\s*", sentence) if p.strip()]
+        if len(sents) == 2:
+            s1, s2 = sents[0], sents[1]
+            m1 = re.match(r"([\w' ]+?)\s+(is|are|am|was|were)\s+(.+)$", s1, re.I)
+            m2 = re.match(r"([\w' ]+?)\s+(is|are|am|was|were)\s+(.+)$", s2, re.I)
+            if m1 and m2:
+                subj1, be1, pred1 = m1.group(1).strip(), m1.group(2), m1.group(3).strip()
+                subj2, be2, pred2 = m2.group(1).strip(), m2.group(2), m2.group(3).strip()
+                if subj1.lower() == subj2.lower() and be1.lower() == be2.lower():
+                    out = f"{_cap(subj1)} {be1} not only {pred1} but also {pred2}."
+                    return (None,
+                            ["Combine clauses: Subject + be + not only + Predicate 1 + but also + Predicate 2"],
+                            _scrub(out), None, "LANG_ENG_TRANS", None)
+                elif pred1.lower() == pred2.lower() and be1.lower() == be2.lower():
+                    out = f"Not only {_cap(subj1)} but also {subj2} {be2} {pred1}."
+                    return (None,
+                            ["Combine subjects: Not only + Subject 1 + but also + Subject 2 + predicate"],
+                            _scrub(out), None, "LANG_ENG_TRANS", None)
+    s = sentence[0].lower() + sentence[1:] if sentence else ""
+    s = s.rstrip(".")
+    # --- too + ADJ + to + VERB  ->  so ADJ that ...
+    m = re.match(
+        r"([\w' ]+?)\s+(is|are|am|was|were)\s+too\s+([\w-]+)\s+"
+        r"to\s+([a-z]+)(.*)$", s, re.I)
+    if m:
+        subj, be, adj, verb, rest = m.group(1).strip(), \
+            m.group(2).lower(), m.group(3), m.group(4), \
+            m.group(5).strip()
+        neg = "could not" if be in ("was", "were") else "cannot"
+        subject_pron = {"the boy": "he", "the girl": "she",
+                        "the man": "he", "the woman": "she",
+                        "he": "he", "she": "she", "it": "it",
+                        "they": "they", "i": "I", "we": "we",
+                        "the students": "they", "the child": "he",
+                        "the children": "they", "my friend": "he",
+                        "the old man": "he", "the beggar": "he"}.get(
+                            subj.lower(), subj)
+        out = (f"{_cap(subj)} {be} so {adj} that {subject_pron} "
+               f"{neg} {verb}{(' ' + rest) if rest else ''}.")
+        return (None,
+                ["too + adjective + to = so + adjective + that + cannot"],
+                _scrub(out), None, "LANG_ENG_TRANS", None)
+    # --- so + ADJ + that ... -> too + ADJ + to (reverse)
+    m = re.match(
+        r"([\w' ]+?)\s+(?:is|are|am|was|were)\s+so\s+([\w-]+)\s+that\s+"
+        r"(\w+)\s+(cannot|could not|can not)\s+([a-z]+)(.*)$", s, re.I)
+    if m:
+        subj, adj, pron, _neg, verb, rest = m.groups()
+        return (None,
+                ["so + adjective + that + cannot = too + adjective + to"],
+                _scrub(f"{_cap(subj)} is too {adj} to {verb}"
+                       f"{(' ' + rest.strip()) if rest.strip() else ''}."),
+                None, "LANG_ENG_TRANS", None)
+    # --- as soon as X did ..., Y did ...  ->  no sooner had X V3 ... than
+    m = re.match(r"as soon as\s+(.+?),\s*(.+)$", s, re.I)
+    if m and "no sooner" not in s.lower():
+        first, second = m.group(1).strip(), m.group(2).strip()
+        ft = _toks(first)
+        # find the past-tense verb of the first clause
+        pv = next((t for t in ft if verb_forms(t) and
+                   verb_forms(t)[1] == t and t.lower() not in
+                   ("had", "was", "were", "did")), None)
+        if pv:
+            forms = verb_forms(pv)
+            sub = ft[:ft.index(pv)]
+            obj = ft[ft.index(pv) + 1:]
+            pv_base = _base_of(pv) or pv
+            v3 = _inflect(_base_of(pv) or pv, "v3")
+            out = (f"No sooner had {' '.join(sub)} {v3}"
+                   f"{(' ' + ' '.join(obj)) if obj else ''} than "
+                   f"{_lc_first(second)}.")
+            return (None,
+                    ["as soon as = no sooner ... than (inversion with "
+                     "'had + V3')"],
+                    _scrub(out), None, "LANG_ENG_TRANS", None)
+    # --- no sooner ... than ... -> as soon as
+    m = re.match(r"no sooner\s+(.+?)\s+than\s+(.+)$", s, re.I)
+    if m:
+        first, second = m.group(1).strip(), m.group(2).strip()
+        out = f"As soon as {_lc_first(first)}, {_lc_first(second)}."
+        out = out.replace(" had ", " ")
+        return (None,
+                ["no sooner ... than = as soon as (straight order)"],
+                _scrub(out), None, "LANG_ENG_TRANS", None)
+    # --- comparative -> positive: X is ADJ-er than Y -> Y is not as ADJ as X
+    m = re.match(r"([\w' ]+?)\s+is\s+([\w-]+)er\s+than\s+([\w' ]+?)\s*$",
+                 s, re.I)
+    if m:
+        x, adj, y = m.group(1).strip(), m.group(2), m.group(3).strip()
+        # 'bigger' parses as 'bigg'+'er' — de-double the CVC base
+        if len(adj) >= 4 and adj[-1] == adj[-2] and adj[-1] not in \
+                "aeiou" and adj[-3] in "aeiou" and adj[-4] not in "aeiou":
+            adj = adj[:-1]
+        return (None,
+                ["X is -er than Y = Y is not as ... as X"],
+                _scrub(f"{_cap(y)} is not as {adj} as {_cap(x)}."),
+                None, "LANG_ENG_TRANS", None)
+    # --- positive -> comparative (reverse)
+    m = re.match(r"([\w' ]+?)\s+is\s+not\s+as\s+([\w-]+)\s+as\s+"
+                 r"([\w' ]+?)\s*$", s, re.I)
+    if m:
+        y, adj, x = m.group(1).strip(), m.group(2), m.group(3).strip()
+        # CVC doubling: big -> bigger, sad -> sadder ('ll' words never
+        # double: tall -> taller)
+        cmp_adj = adj + "er"
+        if (len(adj) >= 3 and adj[-1] not in "aeiouwxy" and
+                adj[-2] in "aeiou" and adj[-3] not in "aeiou" and
+                (len(adj) <= 3 or adj[-1] != adj[-2])):
+            cmp_adj = adj + adj[-1] + "er"
+        return (None,
+                ["Y is not as ... as X = X is -er than Y"],
+                _scrub(f"{_cap(x)} is {cmp_adj} than {_cap(y)}."),
+                None, "LANG_ENG_TRANS", None)
+    return None
+
+# --------------------------------------------------------------------------- #
+# LANG EN specs (moved from structure_families_lang.py, WS-B consolidation
+# map step 6 / section 5.6): ids verbatim so the LANG_VERIFIERS keys in
+# independent_verifier keep hitting (map invariant I3).  These merge into
+# STRUCTURE_SPECS via structure_families' import-time lang block; the
+# FAST PATH runs them before the table families exactly as before.
+# --------------------------------------------------------------------------- #
+
+ENGLISH_LANG_SPECS: Dict[str, Dict[str, Any]] = {
+    "LANG_ENG_PASSIVE": {
+        "label": "Active to Passive Voice",
+        "force": (r"passive\s+voice|into\s+passive|change\s+(?:the\s+)?"
+                  r"voice"),
+        "exemplars": [
+            "change into passive voice the dog bites the man",
+            "rewrite the sentence in the passive voice",
+            "convert the following into passive voice",
+            "change the voice of the sentence",
+        ],
+        "slots": {}, "required": [], "full_text": True, "min_conf": 0.4,
+        "compute": _c_eng_passive,
+    },
+    "LANG_ENG_ACTIVE": {
+        "label": "Passive to Active Voice",
+        "force": r"active\s+voice|into\s+active",
+        "exemplars": [
+            "change into active voice the ball was thrown by the boy",
+            "rewrite the sentence in the active voice",
+            "convert the passive sentence into active voice",
+        ],
+        "slots": {}, "required": [], "full_text": True, "min_conf": 0.4,
+        "compute": _c_eng_active,
+    },
+    "LANG_ENG_TENSE": {
+        "label": "Tense Conversion",
+        "force": (r"(?:into|in|to)\s+(?:the\s+)?(?:simple\s+|present\s+|"
+                  r"past\s+|future\s+|perfect\s+|continuous\s+|"
+                  r"progressive\s+|indefinite\s+){1,3}tense"),
+        "exemplars": [
+            "change into simple past tense he writes a letter",
+            "rewrite in the present continuous tense",
+            "convert the sentence into future tense",
+            "put the sentence into the present perfect tense",
+        ],
+        "slots": {}, "required": [], "full_text": True, "min_conf": 0.4,
+        "compute": _c_eng_tense,
+    },
+    "LANG_ENG_SPEECH": {
+        "label": "Direct to Indirect Speech",
+        "force": (r"indirect\s+speech|reported\s+speech|direct\s+to\s+"
+                  r"indirect"),
+        "exemplars": [
+            "change into indirect speech he said i am ill",
+            "rewrite the sentence in indirect speech",
+            "convert into reported speech she said to me i will come",
+            "change the following into indirect speech",
+        ],
+        "slots": {}, "required": [], "full_text": True, "min_conf": 0.4,
+        "compute": _c_eng_speech,
+    },
+    "LANG_ENG_POS": {
+        "label": "Parts of Speech",
+        "force": r"parts?\s+of\s+speech",
+        "exemplars": [
+            "identify the parts of speech of the words in the sentence",
+            "name the part of speech of each word",
+            "what are the parts of speech in this sentence",
+        ],
+        "slots": {}, "required": [], "full_text": True, "min_conf": 0.4,
+        "compute": _c_eng_pos,
+    },
+    "LANG_ENG_TRANS": {
+        "label": "Sentence Transformation",
+        "force": (r"too\s+\w+\s+to|as soon as|no sooner|as\s+\w+\s+as\b|"
+                  r"degree[s]?\s+(?:of\s+)?comparison|"
+                  r"so\s+\w+\s+that\b|not\s+only\b"),
+        "exemplars": [
+            "rewrite using too to he is so weak that he cannot walk",
+            "transform the sentence using no sooner than",
+            "combine the sentences using as soon as",
+            "combine using not only but also he is intelligent he is hardworking",
+            "change the degree of comparison",
+        ],
+        "slots": {}, "required": [], "full_text": True, "min_conf": 0.4,
+        "compute": _c_eng_trans,
+    },
+}
+
 # --------------------------------------------------------------------------- #
 # TABLE: (family_id, trigger, compute)
 # --------------------------------------------------------------------------- #
@@ -2618,13 +4252,26 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"perfect\s+|continuous\s+|perfect\s*continuous\s+|indefinite\s+)+"
      r"tense",
      _c_tense_convert),
+    # FP fix (cisce-solver-langnew 2026-09-30): the old bare `conditional`
+    # alternative matched marking-scheme prose ("Concludes conditional
+    # soundness", "concludes conditionally") in bst/histciv answer text
+    # and classified business/legal sentences as grammar conditionals.
+    # The trigger now demands a grammar ask (identify/name/which ...,
+    # conditional type/clause) or the strict if-___-(verb) gap-fill
+    # signature; the classify branch re-checks the ask.
     ("CONDITIONAL_TYPE",
-     r"conditional|if\b[^_]{0,30}_{2,}",
+     r"(?:identify|name|state|pick|choose|tell|which|what)\s+(?:the\s+)?"
+     r"conditional|conditional\s+(?:sentence|type|clause|statements?)|"
+     r"type\s*-?\s*[123]\s+conditional|if\s*[-\u2013]?\s*clauses?\b|"
+     r"if\b[^_]{0,40}_{2,}\s*\([A-Za-z]+\)",
      _c_conditional),
     ("TOO_TO_SO_THAT",
      r"too\s*\.{2,}\s*to|so\s*\.{2,}\s*that|(?:rewrite|change|convert|"
      r"transform)\b.{0,60}\b(?:too\s+\w+\s+to\b|so\s+\w+\s+that\b)",
      _c_too_so),
+    ("CORRELATIVE_CONJUNCTION",
+     r"not\s+only\b",
+     lambda g, m, t: _c_eng_trans({}, t)),
     ("DEGREE_TRANSFORM",
      r"degrees?\s+of\s+comparison|(?:positive|comparative|superlative)"
      r"\s+degree|change\s+the\s+degree",
@@ -2645,9 +4292,23 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"(?:error|mistake)|correct\s+the\s+(?:sentence|following)|"
      r"error\s+(?:spotting|correction)",
      _c_error_spot),
+    # FP fix (cisce-solver-langnew 2026-09-30): the old trigger fired on
+    # the bare words simple/compound/complex anywhere in the node text
+    # ("complex division" -> "compound sentence" on an appmath item;
+    # "a simple rote-memory task" -> "complex sentence" on psy), and on
+    # "identify the type of each of the following sets".  The trigger now
+    # demands a sentence-grammar ask; the handler additionally refuses
+    # math/code-marked text.
     ("CLAUSE_TYPE",
-     r"(?:identify|state|name)\s+the\s+(?:sentence\s+)?type|"
-     r"\bsimple\b|\bcompound\b|\bcomplex\b",
+     r"(?:identify|state|name|tell)\s+the\s+(?:sentence|clause)s?\s+"
+     r"type|type\s+of\s+(?:the\s+)?(?:sentence|statement)s?\b|"
+     r"(?:simple|compound|complex)\s+(?:sentence|statement)s?\b|"
+     r"state\s+whether\s+(?:the\s+)?(?:following\s+)?(?:sentence|"
+     r"statement)s?\b|which\s+(?:of\s+the\s+following\s+)?"
+     r"(?:sentences?|statements?)\s+(?:is|are)\s+(?:a\s+)?"
+     r"(?:simple|compound|complex)|"
+     r"\(\s*(?:simple|compound|complex)(?:\s*/\s*"
+     r"(?:simple|compound|complex))+\s*\)",
      _c_clause_type),
     ("DETERMINER_CHOICE",
      r"determiner|article|fill\s+in\s+the\s+blank",
@@ -2704,3 +4365,16 @@ def model_english(text: str) -> ModelResult:
 # model_<subject>_families; modelling_layer registers model_english.
 # One dispatcher, both names.
 model_english_families = model_english
+
+
+# LANG spec self-registration (physics_families pattern, WS-B map step 6):
+# when this module is imported ahead of structure_families, the spec
+# merge block there would see a partially-initialised module and skip;
+# registering here, after the module body completes, repairs that order.
+# The update is idempotent (the same dict merged twice).
+try:
+    from backend.its.solver.structure_families import \
+        STRUCTURE_SPECS as _SS_ENG
+    _SS_ENG.update(ENGLISH_LANG_SPECS)
+except Exception:  # pragma: no cover - structure_families unavailable
+    pass

@@ -733,14 +733,33 @@ class PracticeService:
         Returns:
             Dict with topic_ids and questions list
         """
-        # Resolve student's class once for corpus filtering
+        # Resolve student's class + board once for corpus filtering.
+        # Board decides which bank pool serves: ICSE/ISC rows come from
+        # cisce_nodes_v2, everything else defaults to the CBSE bank.
         class_level: Optional[int] = None
+        board = "CBSE"
         try:
             student = await self._get_student(student_id)
             if student and student.student_class:
                 import re as _re
                 m = _re.search(r"\d+", str(student.student_class))
                 class_level = int(m.group()) if m else None
+        except Exception:
+            pass
+        try:
+            from backend.models.user import User as _UserModel
+            udb = async_session_maker()
+            try:
+                row = (await udb.execute(
+                    select(_UserModel.board).where(
+                        _UserModel.id == student_id))).scalar_one_or_none()
+            finally:
+                await udb.close()
+            b = str(row or "").strip().upper()
+            if b in ("ICSE", "ISC"):
+                board = b
+            elif b == "CISCE":
+                board = "ISC" if (class_level or 0) >= 11 else "ICSE"
         except Exception:
             pass
 
@@ -813,7 +832,8 @@ class PracticeService:
             q_seed = self._compute_seed(student_id, q_index)
 
             question = await self._generate_question_from_topic(
-                topic_id, subject, difficulty, q_seed, class_level
+                topic_id, subject, difficulty, q_seed, class_level,
+                board=board
             )
             if question:
                 questions.append(question)
@@ -826,7 +846,8 @@ class PracticeService:
             q_seed = self._compute_seed(student_id, q_index)
 
             question = await self._generate_question_from_topic(
-                topic_id, subject, difficulty, q_seed, class_level
+                topic_id, subject, difficulty, q_seed, class_level,
+                board=board
             )
             if question:
                 question["is_review"] = True
@@ -840,7 +861,8 @@ class PracticeService:
             q_seed = self._compute_seed(student_id, q_index)
 
             question = await self._generate_question_from_topic(
-                topic_id, subject, difficulty, q_seed, class_level
+                topic_id, subject, difficulty, q_seed, class_level,
+                board=board
             )
             if question:
                 questions.append(question)
@@ -851,7 +873,8 @@ class PracticeService:
             topic_id = rng.choice(available_topics)
             q_seed = self._compute_seed(student_id, q_index)
             question = await self._generate_question_from_topic(
-                topic_id, subject, 1.0, q_seed, class_level
+                topic_id, subject, 1.0, q_seed, class_level,
+                board=board
             )
             if question:
                 questions.append(question)
@@ -926,22 +949,29 @@ class PracticeService:
         class_level: Optional[int],
         difficulty: float,
         seed: int,
+        board: str = "CBSE",
     ) -> Optional[Dict[str, Any]]:
         """Fetch a real question from the node corpus (board_questions).
 
-        All rows are extracted from enhanced_nodes_md — node-tagged,
-        answered, CBSE. Returns generator-shaped dict or None.
+        Rows are extracted from enhanced_nodes_md (CBSE) and
+        cisce_nodes_v2 (ICSE/ISC) — ``board`` selects the student's own
+        board pool so an ICSE student is served ICSE-authored questions.
+        Returns generator-shaped dict or None.
         """
         import re
-        from backend.models.enrichment import BoardQuestion
+        from backend.models.enrichment import (
+            BoardQuestion, board_question_not_flagged)
         from sqlalchemy.dialects.postgresql import JSONB
         from sqlalchemy import cast, func as sa_func
 
         db = async_session_maker()
         try:
             q = select(BoardQuestion).where(
-                BoardQuestion.board == "CBSE",
+                BoardQuestion.board == board,
                 BoardQuestion.correct_answer.isnot(None),
+                # BANK-REPAIR 2026-10-03: skip no-answer-key rows (can
+                # never verify) and flag-excluded template rows.
+                board_question_not_flagged(),
             )
             if re.match(r"^c\d+_", topic_id or ""):
                 q = q.where(cast(BoardQuestion.node_tags, JSONB)
@@ -990,6 +1020,7 @@ class PracticeService:
         difficulty: float,
         seed: int,
         class_level: Optional[int] = None,
+        board: str = "CBSE",
     ) -> Optional[Dict[str, Any]]:
         """
         Generate a question from a specific topic using the question registry.
@@ -1005,7 +1036,8 @@ class PracticeService:
         """
         # Corpus-first: real node-derived question if one exists
         corpus_q = await self._db_question_for_topic(
-            topic_id, subject, class_level, difficulty, seed)
+            topic_id, subject, class_level, difficulty, seed,
+            board=board)
         if corpus_q:
             return corpus_q
 
@@ -1209,11 +1241,21 @@ class PracticeService:
         else:
             msg = f"{correct}/{total} sahi. Mat chhodo, practice makes perfect! 🔥"
 
-        # Mastery changes
+        # Mastery changes — integer percents, never "NaN%": a None/NaN
+        # mastery from the store renders as an em dash (render-fix)
+        def _pct(value: Any) -> str:
+            try:
+                f = float(value)
+            except (TypeError, ValueError):
+                return "—"
+            if f != f or f in (float("inf"), float("-inf")):
+                return "—"
+            return str(int(round(f * 100)))
+
         improved = [m for m in mastery_changes if m["change"] > 0]
         if improved:
             changes_str = ", ".join(
-                f"{m['topic_name']} {int(m['mastery_before']*100)}%→{int(m['mastery_after']*100)}%"
+                f"{m['topic_name']} {_pct(m['mastery_before'])}%→{_pct(m['mastery_after'])}%"
                 for m in improved[:3]
             )
             msg += f"\nMastery: {changes_str}."
@@ -1232,6 +1274,14 @@ class PracticeService:
         # Streak bonus
         if correct == total and total >= 3:
             msg += "\nStreak bonus! Agle session mein bonus question! 🔥"
+
+        # render-fix: topic names come from the corpus and can carry raw
+        # LaTeX/markdown — normalize before the message reaches a student
+        try:
+            from backend.services.display_scrub import normalize_student_text
+            msg = normalize_student_text(msg) or msg
+        except Exception:
+            pass
 
         return msg
 

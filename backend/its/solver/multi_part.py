@@ -80,14 +80,20 @@ _ASK_WORD_RE = re.compile(
     r"convert|expand|factoris\w*|factoriz\w*|differentiat\w*|integrat\w*|"
     r"estimate|arrange|choose|select|list|name)\b", re.I)
 
-# paren enumerators: (a) (B) ...; roman (i) (ii) ... (x), lowercase only
+# paren enumerators: (a) (B) ...; roman (i) (ii) ... (x), case-insensitive; numbered (1) (2) ...
 _PAREN_LETTER_RE = re.compile(r"\(\s*([a-hA-H])\s*\)")
-_PAREN_ROMAN_RE = re.compile(r"\(\s*(x|ix|viii|vii|vi|v|iv|iii|ii|i)\s*\)")
+_PAREN_ROMAN_RE = re.compile(r"\(\s*(x|ix|viii|vii|vi|v|iv|iii|ii|i)\s*\)", re.I)
+_PAREN_NUM_RE = re.compile(r"\(\s*([1-9]|10)\s*\)")
 _LETTER_ORDER = [chr(c) for c in range(ord("a"), ord("h") + 1)]
 _ROMAN_ORDER = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"]
+_NUM_ORDER = [str(n) for n in range(1, 11)]
 
 # bare enumerators "a) " -- only after a colon-ish lead-in
 _BARE_LETTER_RE = re.compile(r"(?:^|(?<=[\s]))([a-hA-H])\)\s+")
+# bare roman 'i. ii. iii.' — common CBSE case-study numbering; the
+# '_bare_list_start' gate plus run-coverage keep it honest
+_BARE_ROMAN_RE = re.compile(
+    r"(?:^|(?<=[\s.]))(x|ix|viii|vii|vi|v|iv|iii|ii|i)\.\s+")
 
 # the standalone uppercase OR between two alternative readings
 _OR_TOKEN_RE = re.compile(r"(?<![A-Za-z])OR(?![A-Za-z])")
@@ -168,11 +174,42 @@ def _bare_list_start(markers: List[_Marker], text: str) -> List[_Marker]:
     return []
 
 
-def _parts_from_run(text: str, run: List[_Marker]) -> Optional[SplitReading]:
+_VIC_RE = re.compile(r"for\s+visually\s+impaired", re.I)
+_POINT_GIVEN_RE = re.compile(
+    r"\b([A-Z])\s*=?\s*\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)")
+
+
+def _vic_givens(text: str) -> str:
+    """Harvest 'P(2,5), Q(4,4)'-style labeled givens from a VIC tail —
+    case-study coordinates often live ONLY in the VIC variant, so the
+    sighted-question parts reference points whose values sit downstream."""
+    m = _VIC_RE.search(text)
+    if not m:
+        return ""
+    pts = _POINT_GIVEN_RE.findall(text[m.start():])
+    if not pts:
+        return ""
+    return ("Given coordinates: " +
+            ", ".join(f"{L} = ({x},{y})" for L, x, y in pts) + ".")
+
+
+def _parts_from_run(text: str, run: List[_Marker],
+                    givens_source: Optional[str] = None
+                    ) -> Optional[SplitReading]:
+    givens = _vic_givens(givens_source if givens_source is not None
+                         else text)
     context = text[:run[0][0]].strip()
+    if givens:
+        context = (context + " " + givens).strip()
     parts: List[PartReading] = []
     for i, (start, end, label) in enumerate(run):
-        nxt = run[i + 1][0] if i + 1 < len(run) else len(text)
+        if i + 1 < len(run):
+            nxt = run[i + 1][0]
+        else:
+            # stop the last part at the VIC tail — it is a duplicate
+            # variant of the whole case study, not part content
+            vic_m = _VIC_RE.search(text)
+            nxt = vic_m.start() if vic_m else len(text)
         raw = text[end:nxt].strip()
         if not raw:
             return None
@@ -190,28 +227,60 @@ def _parts_from_run(text: str, run: List[_Marker]) -> Optional[SplitReading]:
 
 def _split_enumerated(text: str) -> Optional[SplitReading]:
     """(a)/(b), bare 'a)', and roman '(i)' splitting."""
+    # a VIC tail duplicates the whole item's markers — scan only the
+    # sighted question so marker coverage stays honest; the givens in
+    # the tail still reach every part via _parts_from_run's
+    # givens_source
+    vic_m = _VIC_RE.search(text)
+    scan = text[:vic_m.start()] if vic_m else text
     passes = (
         (_PAREN_LETTER_RE, _LETTER_ORDER, "ab", False),
         (_BARE_LETTER_RE, _LETTER_ORDER, "ab", True),
         (_PAREN_ROMAN_RE, _ROMAN_ORDER, "roman", False),
+        (_BARE_ROMAN_RE, _ROMAN_ORDER, "roman", True),
+        (_PAREN_NUM_RE, _NUM_ORDER, "num", False),
     )
+    best: Optional[SplitReading] = None
     for pattern, order, kind, bare in passes:
         markers: List[_Marker] = [
             (m.start(), m.end(), (m.group(1) or "").strip())
-            for m in pattern.finditer(text)]
+            for m in pattern.finditer(scan)]
+        # WS-MH: "(a)" inside "in part (a)"/"of (b)"/"from (a)" is a
+        # cross-part REFERENCE, not a marker -- counting it breaks the
+        # consecutive-run coverage and the whole split refuses
+        markers = [m for m in markers if not re.search(
+            r"(?:part|from|of|in|above|earlier|first|second|third)\s*$",
+            scan[:m[0]][-16:], re.I)]
         if bare:
-            markers = _bare_list_start(markers, text)
+            gated = _bare_list_start(markers, scan)
+            # the colon gate assumes 'the following: i.' style — when it
+            # empties the list, fall back to the raw markers; the
+            # full-coverage + ask-word gates still protect the split
+            markers = gated or markers
         if len(markers) < 2:
             continue
-        run = _best_run(markers, text, order)
+        run = _best_run(markers, scan, order)
         # the run must cover ALL markers: a partial chain means part of
         # the item would be silently dropped, so refuse the split
         if len(run) >= 2 and run == markers:
-            reading = _parts_from_run(text, run)
+            reading = _parts_from_run(scan, run, givens_source=text)
             if reading is not None:
-                reading.kind = kind
-                return reading
-    return None
+                # Detect internal choice between enumerated parts: e.g. "(I) ... OR (II) ..."
+                has_or = False
+                for p in reading.parts:
+                    if _OR_TOKEN_RE.search(p.raw):
+                        has_or = True
+                        p.raw = _OR_TOKEN_RE.sub("", p.raw).strip(" \t\r\n,;:")
+                        p.text = _OR_TOKEN_RE.sub("", p.text).strip(" \t\r\n,;:")
+                if has_or:
+                    reading.kind = "or"
+                else:
+                    reading.kind = kind
+                # the outermost numbering wins: i/ii/iii items each
+                # carrying their own (a)/(b) choice are 3 parts, not 2
+                if best is None or len(reading.parts) > len(best.parts):
+                    best = reading
+    return best
 
 
 def _split_or(text: str) -> Optional[SplitReading]:
@@ -244,15 +313,20 @@ def _split_or(text: str) -> Optional[SplitReading]:
                 preamble = " ".join(sentences[:i])
             break
     raw_first = " ".join(sentences[ask_idx:])
+    _CHOICE_PREFIX_RE = re.compile(r"^\s*(?:\([A-Za-z0-9]+\)\s*)+")
     parts: List[PartReading] = []
     for k, side in enumerate(sides, start=1):
+        clean_side = _CHOICE_PREFIX_RE.sub("", side).strip()
         if k == 1:
-            # the first side already contains the preamble verbatim
-            parts.append(PartReading(label=str(k), text=side,
-                                     raw=raw_first))
+            clean_raw = _CHOICE_PREFIX_RE.sub("", raw_first).strip()
+            parts.append(PartReading(label=str(k), text=clean_side,
+                                     raw=clean_raw))
         else:
-            body = (preamble + " " + side) if preamble else side
-            parts.append(PartReading(label=str(k), text=body, raw=side))
+            if preamble and preamble not in clean_side:
+                body = (preamble + " " + clean_side).strip()
+            else:
+                body = clean_side
+            parts.append(PartReading(label=str(k), text=body, raw=clean_side))
     return SplitReading(context=preamble, parts=parts, kind="or")
 
 
@@ -274,6 +348,79 @@ def split_multi_part(text: str) -> Optional[SplitReading]:
     return _split_or(text)
 
 
+# WS-MH: "from (a)"/"of part (ii)"/"using the value of (a)" givens --
+# a later part may reuse an EARLIER part's verified answer.  The label
+# referenced must exist and already be verified; an unverified or
+# forward reference is never carried (that would guess a dependency).
+_LABEL_ORD = {c: i for i, c in enumerate(
+    [chr(c) for c in range(ord("a"), ord("h") + 1)])}
+_LABEL_ORD.update({r: i for i, r in enumerate(
+    ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"])})
+_LABEL_ORD.update({str(n): n - 1 for n in range(1, 11)})
+
+_FROM_PART_RE = re.compile(
+    r"\bfrom\s+part\s*\(?\s*([a-h1-9]|x|ix|viii|vii|vi|iv|v|iii|ii|i)"
+    r"\s*\)?|"
+    r"\b(?:result|value|answer|root|quantity)\s+(?:of|from|in|"
+    r"obtained\s+in|found\s+in)\s+part\s*\(?\s*([a-h1-9]|x|ix|viii|"
+    r"vii|vi|iv|v|iii|ii|i)\s*\)?|"
+    r"\b(?:of|from|in)\s+part\s*\(?\s*([a-h1-9]|x|ix|viii|vii|vi|iv|"
+    r"v|iii|ii|i)\s*\)?|"
+    r"\bfrom\s+\(([a-h1-9]|x|ix|viii|vii|vi|iv|v|iii|ii|i)\)\s*"
+    r"(?:above|in\s+part|is\b|,|and\b|then\b|$)|"
+    r"\busing\s+the\s+(?:value|result|answer|root)\s+(?:of|from)\s+"
+    r"(?:part\s+)?\(?\s*([a-h1-9]|x|ix|viii|vii|vi|iv|v|iii|ii|i)"
+    r"\s*\)?",
+    re.I)
+
+_MARKS_RE = re.compile(
+    r"[\[\(]?\s*(\d{1,2})\s*marks?\s*[\]\)]?\s*$|"
+    r"\b(\d{1,2})\s*marks?\b", re.I)
+
+
+def _ref_part_label(raw: str) -> Optional[str]:
+    """The earlier part label a clause references ('from (a)', 'the
+    value obtained in part (ii)'), or None."""
+    m = _FROM_PART_RE.search(raw or "")
+    if not m:
+        return None
+    tok = next((g for g in m.groups() if g), None)
+    return tok.strip().lower() if tok else None
+
+
+def _marks_of(raw: str) -> Optional[int]:
+    m = _MARKS_RE.search(raw or "")
+    if not m:
+        return None
+    g = m.group(1) or m.group(2)
+    try:
+        return int(g) if g else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _carry_text(part_text: str, ref: str, val: object) -> str:
+    """Rewrite a 'from part (a)' reference so ordinary quantity
+    extractors see the carried literal: 'Find 5% of the amount in
+    part (a)' -> 'Find 5% of 200'.  The label token is only ever
+    '(a)'/parenthesised or 'part a' -- a bare article 'a' must never
+    match.  Falls back to an explicit 'Given: from part (a), <val>.'
+    tail when the phrase cannot be substituted cleanly."""
+    pat = re.compile(
+        r"(?:the\s+|that\s+|this\s+)?\w*\s*"
+        r"(?:of\s+part|from\s+part|in\s+part|obtained\s+in\s+part|"
+        r"found\s+in\s+part|computed\s+in\s+part)\s*\(?\s*"
+        + re.escape(ref) +
+        r"\s*\)?(?:\s+above|\s+earlier|\s+before)?"
+        r"|(?:the\s+|that\s+|this\s+)?\w*\s*(?:of|from|in)\s*\(\s*"
+        + re.escape(ref) + r"\s*\)(?:\s+above|\s+earlier)?", re.I)
+    sub = pat.sub(str(val), part_text or "", count=1)
+    if sub != (part_text or ""):
+        return sub
+    return ((part_text or "").rstrip("?.; ")
+            + ".  Given: from part (" + ref + "), " + str(val) + ".")
+
+
 def try_multi_part(text: str, solve: Callable[[str], object]
                    ) -> Optional[Dict]:
     """Solve each part with the ordinary pipeline; aggregate honestly.
@@ -293,17 +440,52 @@ def try_multi_part(text: str, solve: Callable[[str], object]
     all_verified is True only when EVERY part is VERIFIED /
     VERIFIED_WITH_ASSUMPTIONS / VERIFIED_OFFICIAL.  Even one guided
     part keeps all_verified False; verified parts stay listed.
+
+    WS-MH: each part also carries its tier, parsed mark weight, solve
+    text, and audit evidence (route/gates/structure/quantities) so the
+    caller can re-run the registered second path per part before the
+    aggregate ships -- and a later part that names an earlier one
+    ('from (a)') solves with that part's verified answer appended as
+    an explicit Given.
     """
     reading = split_multi_part(text)
     if reading is None or len(reading.parts) < 2:
         return None
     out: List[Dict] = []
     n_verified = 0
+    # imperative-only directive lead-ins ("Answer the following:",
+    # "Solve:") are layout text -- they break several lanes when
+    # prepended, so parts solve against context minus the directive
+    _DIRECTIVE_RE = re.compile(
+        r"^\s*(?:answer|solve|find|attempt|respond\s+to|do|complete|"
+        r"evaluate)\b[^0-9?]{0,40}:?\s*$", re.I)
     for part in reading.parts:
+        # 'from (a)' carry: append the referenced earlier part's
+        # verified answer as an explicit given -- never an unverified
+        # or forward reference
+        solve_text = part.text
+        if reading.context and _DIRECTIVE_RE.match(reading.context):
+            solve_text = part.raw
+        ref = _ref_part_label(part.raw) or _ref_part_label(
+            part.text or "")
+        carried_from = None
+        if ref:
+            ref_ord = _LABEL_ORD.get(ref)
+            if ref_ord is not None:
+                for done in out:
+                    if done["label"] == ref and done.get("verified"):
+                        val = done.get("numeric") \
+                            if done.get("numeric") is not None \
+                            else done.get("answer")
+                        if val is not None:
+                            solve_text = _carry_text(
+                                solve_text, ref, val)
+                            carried_from = ref
+                        break
         core = None
         refusal: Optional[str] = None
         try:
-            core = solve(part.text)
+            core = solve(solve_text)
         except Exception as exc:            # a crash must never ship
             refusal = "solver error: " + type(exc).__name__
         verified = core is not None and \
@@ -312,17 +494,42 @@ def try_multi_part(text: str, solve: Callable[[str], object]
             n_verified += 1
         elif core is not None and refusal is None:
             refusal = getattr(core, "refusal_reason", None)
+        _audit = getattr(core, "audit", None)
+        _route = list(getattr(_audit, "route", None) or [])
+        _gates = list(getattr(_audit, "gates_passed", None) or [])
+        _pq: Dict[str, object] = {}
+        for _qd in (getattr(_audit, "quantities", None) or []):
+            if isinstance(_qd, dict):
+                _pq.update(_qd)
+        _struct = getattr(_audit, "_sweep_structure", None) or next(
+            (r.split(":", 1)[1] for r in _route
+             if str(r).startswith("structure:")), None)
         out.append({
             "label": part.label,
             "label_full": "(" + part.label + ")",
             "answer": getattr(core, "answer", None),
             "numeric": getattr(core, "numeric", None),
+            # real derivation steps travel with the part — the marker
+            # scores marking-scheme coverage against them, and the
+            # all-verified promotion shows real working, not a summary
+            "steps": list(getattr(core, "steps", None) or []),
             "verified": verified,
             "refusal": refusal,
+            # WS-MH: per-part verdict detail + the evidence the
+            # aggregate re-checks before promoting
+            "tier": getattr(core, "label", None),
+            "marks": _marks_of(part.raw),
+            "solve_text": solve_text,
+            "carried_from": carried_from,
+            "route": _route,
+            "gates": _gates,
+            "structure": _struct,
+            "quantities": _pq,
         })
+    is_all = (n_verified == len(reading.parts)) if reading.kind != "or" else (n_verified >= 1)
     return {
         "kind": reading.kind,
         "parts": out,
-        "all_verified": n_verified == len(reading.parts),
+        "all_verified": is_all,
         "n_verified": n_verified,
     }

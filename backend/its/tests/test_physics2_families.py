@@ -14,7 +14,7 @@ import math
 
 import pytest
 
-from backend.its.solver.physics2_families import TABLE, model_physics2
+from backend.its.solver.physics_families import TABLE_P2 as TABLE, model_physics2
 
 
 def _check(text: str, want: float, rel: float = 1e-3,

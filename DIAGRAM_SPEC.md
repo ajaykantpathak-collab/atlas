@@ -155,3 +155,98 @@ Nodes whose concept has no genuinely matching open image get NOTHING
 - Zoom/pan + part-highlighting by reusing sims_v2's hotspot engine on the
   same assets.
 - Class 6-8 + 11-12 waves reusing this exact pipeline.
+
+---
+
+## wave-T (2026-09-29) — NCERT textbook-figure recovery, SPEC-ONLY
+
+Owner rulings during this wave (coordinator, 2026-09-29): **(1) the NCERT
+page-extraction PNGs in `ncert_books/text_cache_new/diagrams/` are
+NCERT-copyrighted expression and are NOT publishable** — no extraction file
+may be copied into either public diagrams tree, ever; **(2) clean-room
+protocol** — an NCERT figure may be used only as a TOPIC POINTER (what the
+curriculum needs), never as a visual reference (no tracing / layout
+imitation); original diagrams are created from the node's own
+DEFINITION/WALKTHROUGH facts with independent layout, recorded as
+`spec → creator → date` per diagram.
+
+### What wave-T shipped
+
+1. **Book-code map** (`_cisce_build/wavet_backup/bookcode_map.json`):
+   `<class letter><3-letter subject><1NN>` — class letters f6 g7 h8 i9 j10
+   k11 l12; subjects ebo=Biology, ech=Chemistry, eph=Physics, emh=Maths …;
+   `1NN` → chapter NN. The wave's sources: kebo105 (c11 Bio ch5 Morphology),
+   kebo108 (ch8 Cell), kebo117 (ch17 Locomotion), kebo118 (ch18 Neural).
+2. **Figure spec** (`wavet_backup/figure_specs.json`, 150 extracted figures):
+   per-figure {book, chapter, pdf/text page, fig_ref, concept, node_id,
+   confidence, lab_status}. Page→figure alignment via the cached book text
+   ("Figure C.N" mentions per PDF page; extraction page = text page − 1,
+   verified on 10 exact `_figC_F_pP` anchors). 106/150 figures mapped to a
+   node; 44 unmapped (cover art, photos, uncaptioned page debris) and
+   fig 8.8 (chloroplast) has NO node in the ch8 pool (honest unmapped).
+3. **Free equivalents published (19 nodes, all class 11, deployed + merged
+   into `diagrams_index.json`, canonical v2 gate 0 errors on deploy)**:
+   - Commons (14): flower parts 05_005, prokaryote 08_002 (LadyofHats PD),
+     fluid mosaic 08_003, plant cell 08_005 (LadyofHats PD), mitochondrion
+     08_006 (LadyofHats PD), ribosome 08_007 (CC0), animal cell/nucleus
+     08_008 (LadyofHats PD), centrosome 08_009 (Kelvinsong CC BY 3.0),
+     neuromuscular junction 17_004 (CC BY 4.0), skeleton 17_005 (LadyofHats
+     PD), neuron 18_001 (LadyofHats PD), sagittal brain lobes 18_004
+     (CC BY-SA 3.0), eye 18_008 (CC BY-SA 4.0), ear 18_009 (Chittka
+     CC BY 2.5).
+   - Original clean-room SVGs (5, CC0, provenance in
+     `wavet_backup/original_diagrams.json`): leaf morphology 05_003,
+     dicot/monocot seed 05_008, sarcomere sliding-filament 17_003, nerve
+     impulse conduction 18_002, chemical synapse 18_003.
+   - BioIcons (`assets/diagram_lab/bioicons_*`) was evaluated FIRST per the
+     priority order; 19 candidates fetched from the pinned GitHub tree and
+     eyeballed — all but `ear-label` are UNLABELLED icons, below the §2
+     "legible labels" bar, so none were published; the ear slot went to the
+     richer Commons CC BY 2.5 diagram.
+4. **Honest absence (documented, nothing forced)**: 05_001 (already
+   illustrated by wave B), 05_002 stem + 05_004 inflorescence + 05_007
+   fruit + 05_009 floral formula + 05_010 (only unlabelled/non-English or
+   numbered-legend candidates found), 08_001 cell theory, 08_004 cell wall,
+   08_010 microbodies, 17_002 muscle tissue types (numbered worksheet only),
+   17_006/17_007, 18_005–18_007, 18_008 eye figure never had a captured
+   caption (spec entry is page-context, low confidence).
+5. **Interactive exercises**: the lab's "41 PASS" is 41 figures that passed
+   its classifier, of which only 6 carried REAL tap-exercise specs
+   (4 with parts + 2 aestivation variants); all 44 lab .md files + report
+   preserved at `_cisce_build/wavet_backup/exercises/` for the revival
+   follow-up.
+6. **Gates**: `diagtools_waveT/validate_diagrams.py` (part-file gate, both
+   trees, license allow-list, orphan check vs waveB∪waveT claims, and a
+   COPYRIGHT GATE rejecting any `kebo*/lebo*/ncert*` image in the served
+   tree) → 0 errors; merged deploy tree passes the canonical v2 gate
+   (188 nodes, 0 errors); waveB gate patched to accept waveT's class11
+   claims → 0 errors. Root-mirror canonical gate has 7 PRE-EXISTING
+   orphan errors from wave D (c6_* files misplaced in class7/ of the root
+   mirror; deploy is correct) — left untouched, reported to coordinator.
+
+Backups: `_cisce_build/wavet_backup/` (specs, merged index snapshots,
+original-diagram provenance, exercises). Sourcing workdir:
+`_cisce_build/diagtools_waveT/` (search terms, staging, bioicons staging,
+picks, sheets).
+
+## Quality bar for created diagrams (owner directive 2026-09-29)
+
+Every created/generated diagram must meet the **LadyofHats/Kelvinsong
+standard** (the free-redraw classics already in our collection) — not
+programmer art:
+
+1. **Judge at full size before accepting.** Programmer-art look (plain
+   boxes, default arrows, cramped labels) = rework, up to 3 rounds.
+   Rejecting your own work freely is correct; a missing diagram beats an
+   ugly one.
+2. **Drawn shapes, not boxes** — bezier paths, layered fills, subtle
+   gradients. A heart has chamber-shaped paths; a nephron has the loop.
+3. **Label discipline** — leader lines to exact structures, no overlap,
+   font ≥14px at render size.
+4. **Cohesive palette** (2-3 hues + neutrals) per diagram.
+5. **Density = what the WALKTHROUGH teaches** — the labelled parts a board
+   exam asks about, not 2 boxes.
+
+If a concept can't be drawn well (complex 3D anatomy), prefer honest
+absence — but exhaust rich-SVG first: paths + gradients + layers CAN look
+world-class. This bar is retroactive to all created diagrams.

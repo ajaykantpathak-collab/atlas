@@ -1,0 +1,203 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c7)",
+ "source_file": "c7_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C7_001",
+   "title": "Statement scale: Statement scale = ...",
+   "section": "",
+   "formula": "Statement_scale = RF_distance*converted_to_km",
+   "_pats_extra": [],
+   "key_idea": "Statement scale",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find statement scale using statement scale",
+    "calculate statement scale",
+    "statement scale formula question",
+    "given values find statement scale"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C7_001",
+     "question_pattern": "statement scale with {RF_distance} and {converted_to_km} find statement scale",
+     "extracted_variables": {
+      "RF_distance": "given RF_distance",
+      "converted_to_km": "given converted_to_km"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for RF_distance, converted_to_km from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Statement scale = RF_distance*converted_to_km",
+     "compute": "Statement_scale = RF_distance*converted_to_km"
+    }
+   ],
+   "chapter_title": "geo c7 formulas"
+  },
+  {
+   "id": "FB_GEO_C7_002",
+   "title": "Real distance: Real distance = ...",
+   "section": "",
+   "formula": "Real_distance = Map_distance*Scale_denominator",
+   "_pats_extra": [],
+   "key_idea": "Real distance",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find real distance using real distance",
+    "calculate real distance",
+    "real distance formula question",
+    "given values find real distance"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C7_002",
+     "question_pattern": "real distance with {Map_distance} and {Scale_denominator} find real distance",
+     "extracted_variables": {
+      "Map_distance": "given Map_distance",
+      "Scale_denominator": "given Scale_denominator"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Map_distance, Scale_denominator from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Real distance = Map_distance*Scale_denominator",
+     "compute": "Real_distance = Map_distance*Scale_denominator"
+    }
+   ],
+   "chapter_title": "geo c7 formulas"
+  },
+  {
+   "id": "FB_GEO_C7_003",
+   "title": "Temperature at altitude: Temperature at altitude = ...",
+   "section": "",
+   "formula": "Temperature_at_altitude = Ground_temp - (altitude_km*6.5/km)",
+   "_pats_extra": [],
+   "key_idea": "Temperature at altitude",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find temperature at altitude using temperature at altitude",
+    "calculate temperature at altitude",
+    "temperature at altitude formula question",
+    "given values find temperature at altitude"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C7_003",
+     "question_pattern": "temperature at altitude with {Ground_temp} and {altitude_km} and {km} find temperature at altitude",
+     "extracted_variables": {
+      "Ground_temp": "given Ground_temp",
+      "altitude_km": "given altitude_km",
+      "km": "given km"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Ground_temp, altitude_km, km from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Temperature at altitude = Ground_temp - (altitude_km*6.5/km)",
+     "compute": "Temperature_at_altitude = Ground_temp - (altitude_km*6.5/km)"
+    }
+   ],
+   "chapter_title": "geo c7 formulas"
+  },
+  {
+   "id": "FB_GEO_C7_004",
+   "title": "RH: RH = ...",
+   "section": "",
+   "formula": "RH = (Actual_vapour_pressure / Saturation_vapour_pressure)*100",
+   "_pats_extra": [],
+   "key_idea": "RH",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rh using rh",
+    "calculate rh",
+    "rh formula question",
+    "given values find rh"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C7_004",
+     "question_pattern": "rh with {Actual_vapour_pressure} and {Saturation_vapour_pressure} find rh",
+     "extracted_variables": {
+      "Actual_vapour_pressure": "given Actual_vapour_pressure",
+      "Saturation_vapour_pressure": "given Saturation_vapour_pressure"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Actual_vapour_pressure, Saturation_vapour_pressure from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "RH = (Actual_vapour_pressure / Saturation_vapour_pressure)*100",
+     "compute": "RH = (Actual_vapour_pressure / Saturation_vapour_pressure)*100"
+    }
+   ],
+   "chapter_title": "geo c7 formulas"
+  },
+  {
+   "id": "FB_GEO_C7_005",
+   "title": "Real area: Real area = ...",
+   "section": "",
+   "formula": "Real_area = Map_area*(Scale_denominator)^2",
+   "_pats_extra": [],
+   "key_idea": "Real area",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find real area using real area",
+    "calculate real area",
+    "real area formula question",
+    "given values find real area"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C7_005",
+     "question_pattern": "real area with {Map_area} and {Scale_denominator} find real area",
+     "extracted_variables": {
+      "Map_area": "given Map_area",
+      "Scale_denominator": "given Scale_denominator"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Map_area, Scale_denominator from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Real area = Map_area*(Scale_denominator)^2",
+     "compute": "Real_area = Map_area*(Scale_denominator)^2"
+    }
+   ],
+   "chapter_title": "geo c7 formulas"
+  }
+ ]
+}

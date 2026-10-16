@@ -1,0 +1,21 @@
+{
+  "artifact_contract": "semia-run-v1",
+  "checked_at": "2026-10-04T12:01:49Z",
+  "detected_at": "2026-10-04T12:01:50Z",
+  "detector_status": "ok",
+  "evidence_match_rate": 1.0,
+  "evidence_taint_threshold": 0.1,
+  "finding_count": 0,
+  "hostile_input_nonce": "fb6d3afbdc42d9bd",
+  "prepared_at": "2026-10-04T12:01:49Z",
+  "prepared_skill_sha256": "4ed9e89dbdab89665cec6cff36f159b6f6163ab57d23b87257b2236fb4c91d44",
+  "program_valid": true,
+  "reference_unit_coverage": 0.011029411764705883,
+  "source_hash": "c5403876cecdc73b9d2a5c00ab61af43c2db10303438b072dc6c960de6534194",
+  "source_id": "fleet-manager",
+  "ssa_input_availability": 1.0,
+  "stage": "detected",
+  "synthesis_mode": "conservative_baseline",
+  "synthesis_written_at": "2026-10-04T12:01:49Z",
+  "synthesized_facts_sha256": "8eff60c5d2ca857f4dd46175c77500347525f72417930b816a940f7dca6a36d5"
+}

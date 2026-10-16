@@ -73,6 +73,17 @@ def _eval_mcq(student_answer: str, expected: str, options: list[str]) -> Evaluat
     """Evaluate MCQ answer — match by option text or index."""
     student = student_answer.strip()
 
+    if student.lower() == expected.lower().strip():
+        return EvaluationResult(
+            is_correct=True,
+            answer_type="mcq",
+            confidence=1.0,
+            matched_answer=expected,
+            student_answer=student,
+            expected_answer=expected,
+            evaluation_method="exact_expected_match",
+        )
+
     # Try to match by option text directly
     for i, opt in enumerate(options):
         if student.lower() == opt.lower().strip():

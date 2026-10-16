@@ -156,3 +156,50 @@ async def require_self_or_staff(
         )
     return str(user.id)
 
+
+async def require_self_or_linked_parent(
+    student_id: str,
+    user: User,
+    db: AsyncSession,
+) -> str:
+    """Ownership guard for student records a linked PARENT may also read
+    (the weekly digest, exam history — the lane-B 2026-10-15 IDOR fix).
+
+    The rule is exactly the one ``api/engagement.py::get_weekly_digest``
+    has always enforced inline; it lives here so every per-student route
+    reuses the same check instead of re-implementing it:
+
+    * the student themself                          -> canonical id
+    * ``role == "parent"`` + a ``parent_student_links`` row to this
+      student                                       -> canonical id
+    * anyone else — other students, teachers, admins -> 403
+
+    Staff are deliberately NOT allowed here: the surfaces this guards are
+    student/parent reads; teacher views go through ``/api/teacher/*``.
+    Wrong ids yield 403 (not 404) so a differing status never confirms
+    which student ids exist, and malformed ids yield 422 before any GUID
+    bind — the same contract as :func:`require_self_or_staff`.
+    """
+    student_id = canonical_user_id(student_id)
+    if student_id == str(user.id):
+        return student_id
+    if (getattr(user, "role", None) or "") != "parent":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Not authorized for this student",
+        )
+    from backend.services.auth_service import ParentStudentLinkModel
+
+    link = await db.execute(
+        select(ParentStudentLinkModel.id).where(
+            ParentStudentLinkModel.parent_id == user.id,
+            ParentStudentLinkModel.student_id == student_id,
+        )
+    )
+    if link.scalar_one_or_none() is None:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="This student is not linked to your account",
+        )
+    return student_id
+

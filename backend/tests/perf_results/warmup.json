@@ -1,0 +1,362 @@
+[
+ {
+  "iter": 1,
+  "endpoint": "GET /",
+  "ms": 252.2,
+  "status": 200
+ },
+ {
+  "iter": 1,
+  "endpoint": "GET /api/health",
+  "ms": 597.4,
+  "status": 200
+ },
+ {
+  "iter": 1,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 71.2,
+  "status": 200
+ },
+ {
+  "iter": 1,
+  "endpoint": "GET /learn",
+  "ms": 131.6,
+  "status": 200
+ },
+ {
+  "iter": 1,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2187.4,
+  "status": 201
+ },
+ {
+  "iter": 1,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 17098.9,
+  "status": 200
+ },
+ {
+  "iter": 2,
+  "endpoint": "GET /",
+  "ms": 316.8,
+  "status": 200
+ },
+ {
+  "iter": 2,
+  "endpoint": "GET /api/health",
+  "ms": 15004.2,
+  "status": -1
+ },
+ {
+  "iter": 2,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 85.9,
+  "status": 200
+ },
+ {
+  "iter": 2,
+  "endpoint": "GET /learn",
+  "ms": 108.1,
+  "status": 200
+ },
+ {
+  "iter": 2,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2546.4,
+  "status": 201
+ },
+ {
+  "iter": 2,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 8843.3,
+  "status": 200
+ },
+ {
+  "iter": 3,
+  "endpoint": "GET /",
+  "ms": 227.7,
+  "status": 200
+ },
+ {
+  "iter": 3,
+  "endpoint": "GET /api/health",
+  "ms": 7504.8,
+  "status": 200
+ },
+ {
+  "iter": 3,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 24.1,
+  "status": 200
+ },
+ {
+  "iter": 3,
+  "endpoint": "GET /learn",
+  "ms": 171.1,
+  "status": 200
+ },
+ {
+  "iter": 3,
+  "endpoint": "POST /api/practice/start",
+  "ms": 1770.3,
+  "status": 201
+ },
+ {
+  "iter": 3,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 358.8,
+  "status": 200
+ },
+ {
+  "iter": 4,
+  "endpoint": "GET /",
+  "ms": 279.9,
+  "status": 200
+ },
+ {
+  "iter": 4,
+  "endpoint": "GET /api/health",
+  "ms": 1513.9,
+  "status": 200
+ },
+ {
+  "iter": 4,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 34.8,
+  "status": 200
+ },
+ {
+  "iter": 4,
+  "endpoint": "GET /learn",
+  "ms": 269.5,
+  "status": 200
+ },
+ {
+  "iter": 4,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2609.9,
+  "status": 201
+ },
+ {
+  "iter": 4,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 16.0,
+  "status": 200
+ },
+ {
+  "iter": 5,
+  "endpoint": "GET /",
+  "ms": 102.1,
+  "status": 200
+ },
+ {
+  "iter": 5,
+  "endpoint": "GET /api/health",
+  "ms": 146.3,
+  "status": 200
+ },
+ {
+  "iter": 5,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 6650.4,
+  "status": 200
+ },
+ {
+  "iter": 5,
+  "endpoint": "GET /learn",
+  "ms": 136.1,
+  "status": 200
+ },
+ {
+  "iter": 5,
+  "endpoint": "POST /api/practice/start",
+  "ms": 1520.6,
+  "status": 201
+ },
+ {
+  "iter": 5,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 361.9,
+  "status": 200
+ },
+ {
+  "iter": 6,
+  "endpoint": "GET /",
+  "ms": 270.2,
+  "status": 200
+ },
+ {
+  "iter": 6,
+  "endpoint": "GET /api/health",
+  "ms": 2271.9,
+  "status": 200
+ },
+ {
+  "iter": 6,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 212.5,
+  "status": 200
+ },
+ {
+  "iter": 6,
+  "endpoint": "GET /learn",
+  "ms": 420.5,
+  "status": 200
+ },
+ {
+  "iter": 6,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2661.2,
+  "status": 201
+ },
+ {
+  "iter": 6,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 441.2,
+  "status": 200
+ },
+ {
+  "iter": 7,
+  "endpoint": "GET /",
+  "ms": 345.0,
+  "status": 200
+ },
+ {
+  "iter": 7,
+  "endpoint": "GET /api/health",
+  "ms": 2721.9,
+  "status": 200
+ },
+ {
+  "iter": 7,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 73.2,
+  "status": 200
+ },
+ {
+  "iter": 7,
+  "endpoint": "GET /learn",
+  "ms": 361.8,
+  "status": 200
+ },
+ {
+  "iter": 7,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2237.0,
+  "status": 201
+ },
+ {
+  "iter": 7,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 264.1,
+  "status": 200
+ },
+ {
+  "iter": 8,
+  "endpoint": "GET /",
+  "ms": 248.8,
+  "status": 200
+ },
+ {
+  "iter": 8,
+  "endpoint": "GET /api/health",
+  "ms": 890.2,
+  "status": 200
+ },
+ {
+  "iter": 8,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 31.4,
+  "status": 200
+ },
+ {
+  "iter": 8,
+  "endpoint": "GET /learn",
+  "ms": 385.2,
+  "status": 200
+ },
+ {
+  "iter": 8,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2755.4,
+  "status": 201
+ },
+ {
+  "iter": 8,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 454.2,
+  "status": 200
+ },
+ {
+  "iter": 9,
+  "endpoint": "GET /",
+  "ms": 168.2,
+  "status": 200
+ },
+ {
+  "iter": 9,
+  "endpoint": "GET /api/health",
+  "ms": 2348.3,
+  "status": 200
+ },
+ {
+  "iter": 9,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 20.1,
+  "status": 200
+ },
+ {
+  "iter": 9,
+  "endpoint": "GET /learn",
+  "ms": 428.4,
+  "status": 200
+ },
+ {
+  "iter": 9,
+  "endpoint": "POST /api/practice/start",
+  "ms": 1651.9,
+  "status": 201
+ },
+ {
+  "iter": 9,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 8317.0,
+  "status": 200
+ },
+ {
+  "iter": 10,
+  "endpoint": "GET /",
+  "ms": 383.1,
+  "status": 200
+ },
+ {
+  "iter": 10,
+  "endpoint": "GET /api/health",
+  "ms": 85.2,
+  "status": 200
+ },
+ {
+  "iter": 10,
+  "endpoint": "GET /api/content/subjects",
+  "ms": 24.4,
+  "status": 200
+ },
+ {
+  "iter": 10,
+  "endpoint": "GET /learn",
+  "ms": 541.6,
+  "status": 200
+ },
+ {
+  "iter": 10,
+  "endpoint": "POST /api/practice/start",
+  "ms": 2403.2,
+  "status": 201
+ },
+ {
+  "iter": 10,
+  "endpoint": "POST /api/practice/deterministic/solve",
+  "ms": 115.3,
+  "status": 200
+ }
+]

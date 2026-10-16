@@ -1,0 +1,68 @@
+{
+  "edits": [
+    {
+      "file": "c11_ip_cbse_01_004.md",
+      "definition": "Output devices are the hardware units through which a computer delivers the results of processing to the user or to another machine, converting digital signals into a form people can perceive. Visual output comes from monitors and projectors; hardcopy output from printers (impact, inkjet, laser) and plotters, with 3D printers now producing physical objects; audio output from speakers and headphones; and tactile output from devices such as braille displays that serve visually impaired users. An output device only presents information — it does not supply data to the computer, which is the role of input devices — and its quality is judged by measures such as resolution (DPI for printers, pixel count for screens) and fidelity."
+    },
+    {
+      "file": "c11_ip_cbse_03_007.md",
+      "definition": "Iteration is the repetition of a set of statements until a stated condition ends the repetition, and a loop is the program construct that performs this repetition without writing the same statements again and again. Python provides two loop forms: the for loop, which iterates over the items of a sequence (string, list, tuple, range) once per item, and the while loop, which repeats its body as long as a condition remains True, suiting cases where the number of repetitions is not known in advance. Loop control is refined by break (exit the loop immediately), continue (skip to the next iteration) and pass; and a loop may contain another loop (nested loops) so that repeated work is done within each repetition of the outer cycle."
+    },
+    {
+      "file": "c11_ip_cbse_04_001.md",
+      "definition": "A list is Python's ordered and mutable sequence type, written as comma-separated values inside square brackets, such as marks = [72, 84, 'na', 91.5]. Lists may contain elements of any data type — numbers, strings, booleans, even other lists and tuples — so heterogeneous collections are allowed, and duplicate values are permitted. Because lists are mutable, their elements can be replaced by index, appended, inserted, removed and reordered through methods like append(), insert(), extend(), remove(), pop(), sort() and reverse(); indexing starts at zero, negative indices count from the end, and slicing extracts sub-lists. Lists are the everyday container for ordered data in Python programs."
+    },
+    {
+      "file": "c11_ip_cbse_04_007.md",
+      "definition": "A tuple is an ordered, immutable sequence of elements, normally written as comma-separated values inside parentheses, for example point = (10, 20, 'east'). Immutability is the defining property: once created, a tuple's elements cannot be changed, added or removed, which makes tuples safe for fixed data such as coordinates, dates and constant records, and allows them to be used as dictionary keys where lists cannot. Tuples still support the read operations of sequences — indexing and slicing with positive or negative indices, concatenation with +, repetition with *, membership testing with in, and functions len(), min(), max() and count(). A one-element tuple needs a trailing comma, and the tuple() constructor converts other iterables."
+    },
+    {
+      "file": "c11_ip_cbse_04_009.md",
+      "definition": "A dictionary is Python's built-in mapping type: a mutable collection of key-value pairs in which each key is unique and immutable (strings, numbers or tuples) and maps to exactly one value of any type. Written in curly braces as student = {'roll': 21, 'name': 'Meera'}, the dictionary is accessed by key rather than by position: student['name'] returns the value directly, which makes dictionary lookup effectively a search by label instead of a scan by index. Values are added or changed by assignment to a key, removed with pop() or del, and methods keys(), values() and items() return views for iteration. Dictionaries are the standard structure for records, counting and look-up tables."
+    },
+    {
+      "file": "c11_ip_cbse_06_006.md",
+      "definition": "The with statement is Python's context-manager construct for working with resources such as files, guaranteeing that the resource is properly released when the block ends. In file handling, with open('data.txt', 'r') as f: binds the open file to f for the indented block and, whatever happens inside — normal completion, return, or an exception — automatically calls the file's close operation at block exit, because the statement invokes the object's __enter__ and __exit__ methods. This removes the classic bug of a file left open after an error and makes the code shorter than the equivalent try-finally pattern. The with statement works with any context manager, including network connections and locks."
+    },
+    {
+      "file": "c11_ip_cbse_06_011.md",
+      "definition": "Writing CSV files in Python is done through the csv module's writer and DictWriter classes, which serialise rows of data into the comma-separated-values format correctly. A csv.writer object wraps an open file (opened with newline='') and its writerow() method writes one list as a line, while writerows() writes many; csv.DictWriter does the same for dictionaries by mapping each dictionary's keys to named columns declared in fieldnames. The module handles the awkward details automatically — quoting fields that contain commas or newlines, escaping embedded quote characters, and applying the chosen delimiter — so that spreadsheets and other programs can read the file reliably. The typical pattern is with open('out.csv', 'w', newline='') as f: followed by writer and writerows calls."
+    },
+    {
+      "file": "c11_ip_cbse_08_001.md",
+      "definition": "Data visualisation is the representation of data in graphical form — as line charts, bar charts, histograms, pie charts, scatter plots and maps — so that the information can be taken in at a glance. Its purpose is communication: patterns, trends over time, comparisons between categories, distributions, outliers and relationships between variables are visible in a well-chosen chart long before they emerge from a table of numbers. Effective visualisation selects the chart type to suit the question (trend: line; comparison: bar; part-to-whole: pie; distribution: histogram; relationship: scatter), labels axes and titles clearly, and avoids distortion of scale. Because the eye processes images far faster than text, visualisation accelerates analysis and decision-making, and libraries such as Matplotlib and Pandas make it programmable."
+    },
+    {
+      "file": "c11_ip_cbse_08_006.md",
+      "definition": "Customising a Matplotlib chart means adding the descriptive elements that make it self-explanatory: xlabel() and ylabel() name the axes with quantities and units, title() states what the plot shows, text() and annotate() mark specific points, grid() adds reference lines, and legend() identifies multiple data series when several lines or bars share the axes. Colours, line styles, markers and limits can be set per series, and the whole figure's size is chosen at creation. Once complete, savefig('chart.png') exports the figure to an image file — PNG for reports and web, PDF or SVG for print — with dpi controlling resolution. A chart without labels or a saved file rarely survives beyond the session; customisation is what turns a plot into a report-ready figure."
+    },
+    {
+      "file": "c12_ip_cbse_01_006.md",
+      "definition": "SQL aggregate functions compute a single summary value from a collection of rows: SUM() totals a numeric column, AVG() averages it, COUNT() counts rows or non-null values, and MAX() and MIN() return the largest and smallest values. Applied to a whole table they answer questions like the highest salary in the company; combined with GROUP BY, they answer it per category: GROUP BY city collapses the rows into one group per city, and the aggregate is then evaluated for each group separately — SELECT city, AVG(salary) FROM employee GROUP BY city. Rows may be filtered before grouping with WHERE (which cannot contain aggregates), and the groups themselves filtered afterwards with HAVING (which can), giving the full pattern for summary reporting."
+    },
+    {
+      "file": "c12_ip_cbse_02_008.md",
+      "definition": "Descriptive statistics in Pandas are the built-in summarising methods available on Series and DataFrame objects. Measures of central tendency — mean(), median() and mode() — locate the centre of the data; measures of dispersion — std() for standard deviation, var() for variance, and min()/max() with quantile() — describe its spread; count() reports non-null values and sum() totals. On a DataFrame, df.describe() produces the classic one-shot summary: for every numeric column it returns count, mean, standard deviation, minimum, the three quartiles and the maximum, giving an immediate profile of each variable. These methods skip missing values by default and return a scalar for a Series or a labelled Series/DataFrame for a DataFrame, making them the first step of every data-exploration task."
+    },
+    {
+      "file": "c12_ip_cbse_02_012.md",
+      "definition": "Plotting from Pandas means creating charts directly from Series and DataFrame objects with the .plot() method, without handling Matplotlib's figure and axes plumbing by hand. The kind parameter selects the chart: 'line' for trends, 'bar' and 'barh' for comparisons, 'hist' for distributions, 'box' for spread and outliers, and 'pie' for shares of a whole. Pandas maps the labelled structure of the data onto the chart automatically — the index becomes the x-axis, column names become series names in the legend, and titles and axis labels can be passed as arguments — while the actual drawing is delegated to Matplotlib underneath. A typical sequence is df.plot(kind='bar', title='Sales'), then plt.show() (or plt.savefig()) to display or export the result."
+    },
+    {
+      "file": "c12_ip_cbse_03_010.md",
+      "definition": "The Domain Name System (DNS) is the distributed, hierarchical service that translates human-friendly domain names, such as www.example.com, into the IP addresses computers need to route traffic. The name space is organised as a tree: root servers know the top-level domain servers (.com, .in, .org), which in turn know the authoritative name servers of each domain, where the actual records live. When a program asks for a name, a recursive resolver (usually the ISP's or a public one) is queried; if it lacks the answer in cache, it asks a root server, is directed to the TLD server, then to the authoritative server, and returns the address to the client. DNS also supports aliases (CNAME) and mail routing (MX), and its distributed design is what makes the web's names scale and survive failures."
+    },
+    {
+      "file": "c12_ip_cbse_04_009.md",
+      "definition": "Netiquette, or network etiquette, is the set of conventions that keep online communication respectful, clear and safe across email, social media, forums, chats and comments. Its core rules: address people courteously and avoid typing in all capitals, which reads as shouting; stay on topic in forums and avoid flooding; never forward chain mail or spread unverified messages; respect others' privacy and do not share personal data or photographs without consent; cite sources and do not plagiarise; disagree with ideas, not persons (no flaming or trolling); and remember that digital messages persist — write nothing you would not say face to face. Netiquette also includes safety practice: strong passwords, caution with links and attachments, and reporting abuse, since online conduct has real legal and social consequences."
+    },
+    {
+      "file": "c12_ip_cbse_06_004.md",
+      "definition": "HTML provides dedicated structural elements for the three commonest kinds of web content. Images are embedded with the <img> tag, whose src attribute names the image file and whose alt attribute supplies text shown when the image cannot load or for accessibility; width and height control display size. Lists come in two forms — <ul> with <li> items for unordered (bulleted) lists and <ol> for ordered (numbered) lists, nestable for hierarchies — plus <dl>, <dt> and <dd> for description lists. Tables are built with <table>, organised into rows (<tr>), with header cells (<th>) and data cells (<td>), optionally grouped with <thead>, <tbody> and a <caption>. Together these elements organise media, sequences and tabular data so browsers render them meaningfully."
+    },
+    {
+      "file": "c12_ip_cbse_06_012.md",
+      "definition": "DOM manipulation is the use of JavaScript to read and change a web page after it has loaded, by acting on the Document Object Model — the browser's tree representation of the document in which every element, attribute and text node is an object. Scripts locate nodes with document.getElementById(), getElementsByClassName(), querySelector() and querySelectorAll(); change content with innerHTML or textContent; alter attributes and styles through element.src, setAttribute() and the style property; create and attach new nodes with createElement() and appendChild(); and remove nodes with remove(). Responding to events — onclick, addEventListener() for clicks, inputs and key presses — makes pages interactive: form validation, live search, image sliders. DOM manipulation is the mechanism behind all dynamic client-side behaviour."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+sync-deploy --check (dry run)
+  backend/.benchmarks is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/_cache is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/agents is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/ai is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/api is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/content_parsers is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/database is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/db is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/formulas is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/implicit_rules is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/its is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/models is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/routers is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/schemas is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/scripts is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/services is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/solvers is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/solvers_regen is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/tools is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/tutor_brain is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  backend/utils is deploy-owned (not in SYNCABLE) — never deleted by this script.
+backend: +5 copied, -1 deleted, 16424 unchanged  (drift)  (230.0s)
+  frontend/.next-mobile is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/.next-mobile-dev is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/_audit_artifacts is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/_shots is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/_shots_authed is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/app is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/components is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/data is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/frontend is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/hooks is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/i18n is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/lib is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/messages is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/public is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/scripts is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/services is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/stores is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  frontend/types is deploy-owned (not in SYNCABLE) — never deleted by this script.
+frontend: +77 copied, -42 deleted, 23002 unchanged  (drift)  (2076.4s)
+  content/cisce is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  content/cisce_nodes_md is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  content/cisce_nodes_v2 is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  content/index is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  content/nodes is deploy-owned (not in SYNCABLE) — never deleted by this script.
+  content/practice_variants is deploy-owned (not in SYNCABLE) — never deleted by this script.
+content: +545 copied, -49 deleted, 25918 unchanged  (drift)  (732.0s)

@@ -1,0 +1,74 @@
+{
+  "edits": [
+    {
+      "file": "c11_acc_isc_01_015.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** Purchases from M/s Singh & Co. during the year were ₹40,000; returns to them were ₹5,000; payment made to them was ₹30,000. Determine the amount still owed to M/s Singh & Co. and give the journal entries.\n\n**SOLUTION (step by step):**\nStep 1 — open the creditor's account at ₹40,000 (credit) for the purchases. Step 2 — debit the creditor with returns of ₹5,000. Step 3 — debit the creditor with the payment of ₹30,000. Step 4 — balance the account: 40,000 − 5,000 − 30,000 = 5,000 still payable.\n\n**ANSWER:** The closing balance owed to M/s Singh & Co. is ₹5,000 (credit). The journal entries are: 1) Purchases A/c Dr. 40,000 to M/s Singh & Co. Cr. 40,000. 2) M/s Singh & Co. Dr. 5,000 to Purchase Returns A/c Cr. 5,000. 3) M/s Singh & Co. Dr. 30,000 to Bank A/c Cr. 30,000. The ledger shows an opening of 40,000 (Cr), a debit of 5,000 (returns), and a debit of 30,000 (payment), leaving a 5,000 (Cr) balance.\n\n**WHY THIS METHOD:** Creditor questions are graded on the ledger logic (credit opening, debits for returns and payments) and on journal order, so showing the account arithmetic before the entries earns both the working and method marks."
+      }
+    },
+    {
+      "file": "c11_acc_isc_02_013.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** Ravi's stationery shop had the following cash transactions in March 2025 (opening cash ₹15,000): 2-Mar Cash sales ₹7,200; 5-Mar Paid for stationery purchase ₹4,800; 8-Mar Received from debtor Meena ₹3,500; 12-Mar Paid wages ₹2,000. Prepare the simple cash book and find the closing balance.\n\n**SOLUTION (step by step):**\nStep 1 — open the cash column with the opening balance ₹15,000 on the debit (receipts) side. Step 2 — enter receipts: cash sales ₹7,200 and Meena's collection ₹3,500 on the debit side; enter payments — stationery ₹4,800 and wages ₹2,000 — on the credit side. Step 3 — total both sides and carry down the balance.\n\n**ANSWER:** Total receipts = 15,000 + 7,200 + 3,500 = ₹25,700; total payments = 4,800 + 2,000 = ₹6,800; closing cash balance = 25,700 − 6,800 = ₹18,900 (debit balance c/d to 1 April).\n\n**WHY THIS METHOD:** A simple cash book is graded on side discipline — receipts debit, payments credit — and on the balancing figure; writing the c/d and b/d dates closes the question completely."
+      }
+    },
+    {
+      "file": "c11_acc_isc_08_006.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** The trial balance of M/s Singh Enterprises shows a debit total of ₹4,50,000 and a credit total of ₹4,45,000. The only error discovered is that a purchase of ₹5,000 from M/s Kapoor Traders was completely omitted from the books. Is a suspense account required, and what is the rectifying entry?\n\n**SOLUTION (step by step):**\nStep 1 — measure the difference: 4,50,000 − 4,45,000 = ₹5,000 (debit excess). Step 2 — classify the error: a complete omission affects one debit and one credit equally, so posting it now removes exactly the imbalance. Step 3 — write the rectifying entry: Purchases A/c Dr. ₹5,000 to M/s Kapoor Traders ₹5,000.\n\n**ANSWER:** No suspense account is needed once the omitted entry is posted — Purchases A/c Dr. ₹5,000 to M/s Kapoor Traders ₹5,000 clears the ₹5,000 debit excess and both totals agree at ₹4,50,000.\n\n**WHY THIS METHOD:** Before the trial balance, errors are corrected directly in the ledger; a suspense account arises only for differences that cannot be located, so naming the error class (complete omission) justifies the direct entry — exactly what the examiner rewards."
+      }
+    },
+    {
+      "file": "c11_ai_isc_09_001.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** Identify which subtopic(s) of Chapter 9 address the development of a voice-enabled app that reads Hindi news aloud.\n\n**SOLUTION (step by step):**\nStep 1 — split the app's behaviour into AI tasks: it must understand spoken Hindi and it must produce fluent Hindi speech. Step 2 — map task one to speech recognition (automatic speech recognition converts the user's spoken query into text). Step 3 — map task two to speech synthesis (text-to-speech converts the news text into natural Hindi audio). Step 4 — note where language modelling sits: the pipeline between them uses NLP language models to clean and pace the text before synthesis.\n\n**ANSWER:** Speech recognition (ASR) for the spoken input, natural language processing for the text pipeline, and speech synthesis (TTS) for the spoken output.\n\n**WHY THIS METHOD:** Application-mapping questions reward the decomposition step: naming the two directions of the voice loop (recognition → processing → synthesis) shows the examiner the subtopics were chosen by function, not by keyword match."
+      }
+    },
+    {
+      "file": "c11_biotech_isc_02_010.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** The Registrar raises a Section 9(1)(b) objection that VitaGen's mark “GrowSure” is laudatory and therefore non-distinctive. Advise VitaGen on overcoming the objection.\n\n**SOLUTION (step by step):**\nVitaGen can overcome the objection by demonstrating that “GrowSure” has acquired distinctiveness through extensive use and is not merely laudatory, supported by survey evidence and relevant case law. (1) Analyse the objection: Laudatory marks are considered non‑distinctive under Section 9(1)(b). (2) Argue that “GrowSure” is a coined compound — “Grow” + “Sure” — not a direct dictionary word praising quality. (3) Submit evidence of use: marketing brochures, prescription data, and a consumer survey showing 78% of surveyed endocrinologists associate “GrowSure” exclusively with VitaGen's product. (4) Cite precedent: *M/s. Hindustan Lever Ltd. v. Registrar of Trade Marks* where “Fair & Lovely” was held registrable as a coined phrase.\n\n**ANSWER:** VitaGen should plead acquired distinctiveness, evidence the coined-compound character of “GrowSure,” and rely on the Hindustan Lever precedent — together these answer the Section 9(1)(b) objection on both distinctiveness and acquired-meaning grounds.\n\n**WHY THIS METHOD:** Law case answers are graded on structure — objection, argument, evidence, precedent — and each labelled step corresponds to a marking point, so the frame carries as many marks as the law itself."
+      }
+    },
+    {
+      "file": "c11_bst_isc_04_006.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** A steel-fabrication workshop in Ludhiana uses manual cutting tools and resists purchasing CNC machines despite competitors delivering higher-precision parts faster. The owner says, “We have always done it this way.” Identify the entrepreneurial trait displayed.\n\n**SOLUTION (step by step):**\n1. Observe the behaviour: continued use of outdated manual tools despite clear productivity and quality advantages of CNC.\n2. Check for innovation: no new product or process introduced → not innovative.\n3. Check for imitation: no adoption of competitors' CNC technology → not imitating.\n4. Check for Fabian trait: no indication of eventual adoption even under pressure (e.g., loss of orders) → not Fabian.\n5. Conclude: the owner exhibits persistent resistance to change → **drone entrepreneur**.\n\n**ANSWER:** Drone entrepreneur — one who resists change and sticks to traditional methods even at the cost of reduced returns.\n\n**WHY THIS METHOD:** Trait-identification questions are eliminated by testing each alternative trait against the case facts; the drone conclusion is only defensible after innovation, imitation, and Fabian resistance are explicitly ruled out."
+      }
+    },
+    {
+      "file": "c11_math_isc_06_007.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** How many 3-digit numbers can be formed from the digits 0, 1, 2, 3, 4, 5 if repetition is allowed?\n\n**SOLUTION (step by step):**\nFirst digit cannot be 0 → 5 choices (1-5). Each of the remaining two places can be any of the 6 digits → 6 × 6.\nTotal = 5 × 6 × 6 = 180.\n\n**ANSWER:** 180 numbers.\n\n**WHY THIS METHOD:** Digit problems turn on the leading-zero restriction — fixing the hundred's place first and multiplying the remaining places by the multiplication principle is the structure examiners look for, and stating “repetition allowed” in the working confirms the choices are independent."
+      }
+    },
+    {
+      "file": "c12_appmath_isc_15_005.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** Solve \\((2xy+y^2)dx+(x^2+2xy)dy=0\\).\n\n**SOLUTION (step by step):**\n\\(\\partial M/\\partial y = \\partial(2xy+y^2)/\\partial y = 2x+2y\\).\n\\(\\partial N/\\partial x = \\partial(x^2+2xy)/\\partial x = 2x+2y\\).\nCondition holds → exact.\nIntegrate \\(M\\) w.r.t. \\(x\\): \\(\\phi = \\int (2xy+y^2)dx = x^2y+xy^2+g(y)\\).\nDifferentiate \\(\\phi\\) w.r.t. \\(y\\): \\(\\partial\\phi/\\partial y = x^2+2xy+g'(y)\\).\nSet equal to \\(N = x^2+2xy\\) → \\(g'(y)=0\\) → \\(g(y)=\\) constant.\nThus \\(\\phi = x^2y+xy^2\\) and the solution is \\(x^2y+xy^2=C\\).\n\n**ANSWER:** \\(x^2y+xy^2=C\\).\n\n**WHY THIS METHOD:** Exact-equation questions are graded on the three checkpoints — verify \\(M_y = N_x\\), integrate \\(M\\) for \\(\\phi\\), recover \\(g(y)\\) by differentiation — and writing each checkpoint separately guarantees every method mark even if the arithmetic slips."
+      }
+    },
+    {
+      "file": "c11_biotech_isc_06_009.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** A normal human sperm fertilises a normal ovum, but the sperm was produced under a non-disjunction event in meiosis I and carries 24 chromosomes. Predict the chromosome number, aneuploidy type, and karyotype notation of the resulting zygote.\n\n**SOLUTION (step by step):**\n1) Normal ovum = n = 23 chromosomes.\n2) Aberrant sperm = n + 1 = 24 chromosomes.\n3) Zygote chromosome number = 23 + 24 = 47.\n4) The zygote is trisomic (2n + 1).\n5) Karyotype notation: 47,XY,+chr.\n\n**ANSWER:** 47 chromosomes — a trisomic zygote (2n + 1), written 47,XY,+chr.\n\n**WHY THIS METHOD:** Non-disjunction questions are pure gamete arithmetic: writing the three chromosome counts (gamete, gamete, zygote) in order prevents the classic error of doubling the aberrant count, and the karyotype line converts reasoning into a full-mark answer."
+      }
+    },
+    {
+      "file": "c11_hist_isc_10_007.md",
+      "worked_example_replace": {
+        "index": 1,
+        "body": "**PROBLEM:** Explain how the 1935-36 Abyssinian crisis pushed Fascist Italy into the German orbit.\n\n**SOLUTION (step by step):**\nThe 1935-36 Abyssinian crisis was the diplomatic watershed that pushed Fascist Italy into the German orbit. When the League of Nations imposed half-hearted sanctions — excluding oil and keeping the Suez Canal open — Britain and France revealed their unwillingness to confront Mussolini, while Hitler refused to join the sanctions. Feeling isolated, Mussolini proclaimed the “Rome-Berlin Axis” in November 1936, joined the Anti-Comintern Pact in 1937, and finally signed the Pact of Steel in May 1939, committing Italy to a full military alliance with Nazi Germany. Thus, the failed collective security over Ethiopia transformed Italy from a Stresa Front partner into the Axis's junior ally.\n\n**ANSWER:** The half-hearted League sanctions over Ethiopia exposed the Anglo-French unwillingness to confront Mussolini and drove Italy into the Rome-Berlin Axis (1936), the Anti-Comintern Pact (1937), and the Pact of Steel (May 1939).\n\n**WHY THIS METHOD:** Chain questions award a mark per dated link — the sanction's design, the Stresa Front's collapse, and each treaty — so answering as a dated causal chain outperforms a general paragraph on “growing friendship.”"
+      }
+    }
+  ]
+}

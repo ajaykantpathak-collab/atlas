@@ -1,0 +1,9 @@
+{
+ "edits": [
+  {"file": "c9_math_ch1_11.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch1_2: Need to plot points and understand coordinate representation before using them in a formula.\nc9_math_ch1_4: Distance formula is used in alternative methods (Heron's formula) and reinforces coordinate differences.\nc9_math_ch1_10: Collinearity using area formula is a direct application; understanding collinearity helps interpret zero area.\nc8_math_ch14_2: Prior knowledge of triangle area as half base times height provides geometric intuition.\nc8_math_ch14_4: Area of triangle from parallelogram connects to the determinant derivation.\nc9_math_ch1_1: The Cartesian coordinate system with its axes, origin and ordered pairs is the setting in which the area formula is stated.\nc9_math_ch1_3: Quadrant sign conventions decide the sign of each coordinate term in the area expression.\nc9_math_ch1_5: Distance along an axis is the absolute difference of the differing coordinates, the simplest case of the general distance idea.\nc9_math_ch1_6: The distance formula works with the same coordinate differences that appear inside the area expression, so fluency transfers directly.\nc9_math_ch1_8: The midpoint formula is a special case of the section formula for internal division, which the area method can verify.\nc9_math_ch1_9: Trisection points divide a segment in 1:2 and 2:1 ratios, the same internal-division idea the area formula uses to test collinearity."
+   }
+  }
+ ]
+}

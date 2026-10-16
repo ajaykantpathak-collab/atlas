@@ -419,10 +419,6 @@ def gen_electrochemistry_problem(vg: VarGen, competency: bool = False) -> Genera
 
     topic_pool = [
         ("electrochemistry_cell_emf",           "Cell EMF"),
-        ("electrochemistry_faraday_electrolysis","Faraday's Laws"),
-        ("electrochemistry_lead_battery",        "Lead Storage Battery"),
-        ("electrochemistry_galvanic_corrosion",  "Galvanic Corrosion"),
-        ("electrochemistry_nernst_conc",         "Nernst Equation"),
     ]
     fn_name, label = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -644,7 +640,6 @@ def gen_surface_chemistry_problem(vg: VarGen, competency: bool = False) -> Gener
 
     topic_pool = [
         ("surface_chem_gibbs_adsorption", "Gibbs Adsorption"),
-        ("surface_chem_freundlich",       "Freundlich Adsorption"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -713,7 +708,6 @@ def gen_metallurgy_problem(vg: VarGen, competency: bool = False) -> GeneratedQue
 
     topic_pool = [
         ("metallurgy_ellingham",          "Ellingham Diagram"),
-        ("metallurgy_al_reduction",       "Aluminium Thermite"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -782,7 +776,6 @@ def gen_pblock_problem(vg: VarGen, competency: bool = False) -> GeneratedQuestio
 
     topic_pool = [
         ("pblock_contact_process",  "Contact Process"),
-        ("pblock_lead_battery_emf", "Lead Battery Nernst"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -886,7 +879,6 @@ def gen_coordination_compounds_problem(vg: VarGen, competency: bool = False) -> 
 
     topic_pool = [
         ("coord_compound_analysis",    "Compound Analysis"),
-        ("coord_stability_constant",   "Stability Constant"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -954,8 +946,6 @@ def gen_haloalkanes_problem(vg: VarGen, competency: bool = False) -> GeneratedQu
 
     topic_pool = [
         ("haloalkanes_wurtz_yield",       "Wurtz Coupling"),
-        ("haloalkanes_sn1_sn2_compete",   "SN1/SN2 Competition"),
-        ("haloalkanes_free_radical",      "Free Radical Halogenation"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -1039,7 +1029,6 @@ def gen_alcohols_problem(vg: VarGen, competency: bool = False) -> GeneratedQuest
 
     topic_pool = [
         ("alcohols_oxidation_yield",  "Oxidation Yield"),
-        ("alcohols_fermentation",     "Fermentation"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]
@@ -1110,7 +1099,6 @@ def gen_aldehydes_problem(vg: VarGen, competency: bool = False) -> GeneratedQues
 
     topic_pool = [
         ("aldehydes_aldol_condensation", "Aldol Condensation"),
-        ("aldehydes_bisulfite_titration", "NaHSO₃ Titration"),
     ]
     fn_name, _ = vg.choice(topic_pool)
     solver_fn = SOLVER_REGISTRY[fn_name]

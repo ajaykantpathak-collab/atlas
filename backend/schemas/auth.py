@@ -1,6 +1,6 @@
-from typing import Optional
+from typing import Literal, Optional
 
-from pydantic import AliasChoices, BaseModel, EmailStr, Field
+from pydantic import AliasChoices, BaseModel, EmailStr, Field, model_validator
 
 
 class LoginRequest(BaseModel):
@@ -11,14 +11,43 @@ class LoginRequest(BaseModel):
 class SignupRequest(BaseModel):
     name: str = Field(..., min_length=1)
     email: EmailStr
-    password: str = Field(..., min_length=6)
-    role: str = Field(default="student")
+    password: str = Field(..., min_length=8)
+    # Public signup may only pick these roles. "admin" is granted solely by
+    # an existing admin (DB/seed) — never accepted from client input.
+    role: Literal["student", "teacher", "parent"] = "student"
     board: Optional[str] = None
     # Web signup form sends camelCase classLevel; accept both spellings.
     class_level: Optional[int] = Field(
         default=None, ge=1, le=12,
         validation_alias=AliasChoices("class_level", "classLevel"),
     )
+    # DPDP §9 parental consent (WS-LEGAL): every student account on this
+    # platform is a minor's (Classes 1–12), so a student signup must carry
+    # a parent/guardian email and an explicit consent checkbox.  Teacher
+    # and parent signups are adults and need neither field.
+    parent_email: Optional[EmailStr] = Field(
+        default=None,
+        validation_alias=AliasChoices("parent_email", "parentEmail"),
+    )
+    parent_consent: Optional[bool] = Field(
+        default=None,
+        validation_alias=AliasChoices("parent_consent", "parentConsent"),
+    )
+
+    @model_validator(mode="after")
+    def _student_requires_parental_consent(self):
+        if self.role == "student":
+            if not self.parent_email:
+                raise ValueError(
+                    "parent_email is required for student accounts "
+                    "(DPDP parental consent)"
+                )
+            if self.parent_consent is not True:
+                raise ValueError(
+                    "parent_consent must be confirmed for student accounts "
+                    "(DPDP parental consent)"
+                )
+        return self
 
 
 class UserInfo(BaseModel):

@@ -1,0 +1,87 @@
+{
+ "subject": "chem",
+ "chapter_title": "ICSE chem formula bank (c6)",
+ "source_file": "c6_chem_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CHEM_C6_001",
+   "title": "ATOMIC STRUCTURE: Mass number (A) = ...",
+   "section": "ATOMIC STRUCTURE",
+   "formula": "Mass_number_A = protons + neutrons",
+   "_pats_extra": [],
+   "key_idea": "ATOMIC STRUCTURE (ATOMIC STRUCTURE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mass number (a) using atomic structure",
+    "calculate atomic structure",
+    "atomic structure formula question",
+    "given values find mass number (a)",
+    "atomic structure atomic structure numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C6_001",
+     "question_pattern": "atomic structure with {protons} and {neutrons} find mass number (a)",
+     "extracted_variables": {
+      "protons": "given protons",
+      "neutrons": "given neutrons"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for protons, neutrons from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mass number (A) = protons + neutrons",
+     "compute": "Mass_number_A = protons + neutrons"
+    }
+   ],
+   "chapter_title": "ATOMIC STRUCTURE"
+  },
+  {
+   "id": "FB_CHEM_C6_002",
+   "title": "ATOMIC STRUCTURE: Neutrons = ...",
+   "section": "ATOMIC STRUCTURE",
+   "formula": "Neutrons = A - Z",
+   "_pats_extra": [],
+   "key_idea": "ATOMIC STRUCTURE (ATOMIC STRUCTURE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find neutrons using atomic structure",
+    "calculate atomic structure",
+    "atomic structure formula question",
+    "given values find neutrons",
+    "atomic structure atomic structure numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C6_002",
+     "question_pattern": "atomic structure with {A} and {Z} find neutrons",
+     "extracted_variables": {
+      "A": "given A",
+      "Z": "given Z"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, Z from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Neutrons = A - Z",
+     "compute": "Neutrons = A - Z"
+    }
+   ],
+   "chapter_title": "ATOMIC STRUCTURE"
+  }
+ ]
+}

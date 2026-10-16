@@ -1,0 +1,84 @@
+{
+ "edits": [
+  {
+   "file": "c7_math_ch02_001.md",
+   "definition": "An arithmetic expression is a phrase made of numbers joined by operation symbols — 12 + 4 × 3, 20 − 6 ÷ 2, (8 + 2) × 5 — that names one numerical value. Its parts separated by plus or minus signs are called terms; brackets, 'of' and powers group the structure. An expression is a recipe, not an answer until it is evaluated, and evaluating it must follow the agreed order of operations (brackets first, then of/of, then × and ÷ left to right, then + and − left to right) — otherwise the same expression would give two different values, which mathematics cannot allow."
+  },
+  {
+   "file": "c7_math_ch03_007.md",
+   "definition": "Comparing and ordering decimals means deciding which of two or more decimals is larger, and lining them up in increasing or decreasing order. The reliable method is place-by-place from the left: equalise the number of decimal digits by annexing zeros (2.5 becomes 2.500), compare whole-number parts first, then tenths, then hundredths, until one digit decides. What never works is the length trap — 0.125 has more digits than 0.5 but is smaller, because 1 tenth loses to 5 tenths. Only the place values carry the verdict, never the count of digits."
+  },
+  {
+   "file": "c7_math_ch03_008.md",
+   "definition": "Adding decimals combines quantities that have fractional parts — tenths, hundredths, thousandths — under one rule: align the decimal points, then add column by column as ordinary numbers, carrying exactly as in whole-number addition. Writing 3.75 + 12.4 as 3.75 over 12.40 puts tenths under tenths and hundredths under hundredths, and the answer 16.15 carries its decimal point straight down from the two above. Annexing zeros to equalise lengths keeps the columns honest; the points are the guide rails that stop whole numbers mixing with tenths."
+  },
+  {
+   "file": "c7_math_ch04_002.md",
+   "definition": "An algebraic expression is a phrase built from terms joined by + and − signs, where each term is either a constant (a bare number like 7), or a coefficient multiplying one or more variables (3x², −5ab), or a product of both. In 4x² − 3xy + 9 the terms are 4x², −3xy and 9; the coefficient carries its sign. Terms with identical variable parts (like 2x and 5x) are 'like terms' and merge; unlike terms never combine — x + y stays x + y. An expression, unlike an equation, makes no claim of equality: it is a quantity ready to be evaluated or used."
+  },
+  {
+   "file": "c7_math_ch05_001.md",
+   "definition": "Intersecting lines are lines in the same plane that meet at exactly one point — the point of intersection — like two roads crossing or the blades of open scissors. Wherever they cross, four angles form, and they come with a built-in law: the angles opposite each other (vertically opposite angles) are equal, while any two adjacent angles form a linear pair and sum to 180°. So one measured angle fixes all four. If two lines in the same plane never intersect they are parallel, so 'one meeting point' is precisely what separates intersecting from parallel."
+  },
+  {
+   "file": "c7_math_ch06_004.md",
+   "definition": "Grids and arrays turn arithmetic into geometry you can see: numbers, dots or counters arranged in rows and columns expose the rule behind their growth. A matchstick pattern of L-shapes, a square of dots growing 1, 4, 9, a rectangle of counters gaining one row and one column at a time — each arrangement encodes a relationship that a variable can capture: the n-th figure of a square array has n rows and n columns, hence n² counters, and the matchstick count of a row of squares is 3n + 1. Counting by eye becomes predicting by expression — the grid shows why, the algebra says how many."
+  },
+  {
+   "file": "c7_math_ch08_003.md",
+   "definition": "Multiplying fractions needs no common denominator and no borrowing — multiply straight across: numerators with numerators for the new top, denominators with denominators for the new bottom. Thus 2/3 × 4/5 = 8/15, and the same rule absorbs mixed numbers once they are first turned into improper fractions (1 1/2 × 2/3 = 3/2 × 2/3 = 6/6 = 1). Cross-cancellation before multiplying keeps the numbers small: cancel a factor shared by any numerator and any denominator, then multiply. The answer is always completed in lowest terms — and multiplying by a fraction below 1 should shrink, which is the quickest check that the work is right."
+  },
+  {
+   "file": "c7_math_ch11_001.md",
+   "definition": "Common factors of two numbers are the numbers that divide both exactly — the whole numbers appearing in both factor lists. For 12 (1, 2, 3, 4, 6, 12) and 18 (1, 2, 3, 6, 9, 18) the shared set is {1, 2, 3, 6}, and the largest of these, the HCF 6, is the one with the real jobs: reducing 12/18 to 2/3, cutting a 12-by-18 floor into the largest possible equal squares, and splitting 12 pens and 18 pencils into identical biggest packets. Every common factor divides the HCF — the lists are not accidents but a structure."
+  },
+  {
+   "file": "c7_bio_ch02_002.md",
+   "definition": "Animals are sorted by what they eat and how they are built to get it. Herbivores — cows, deer, elephants — crop plants with grinding molasses-flat teeth and ferment cellulose in long guts; carnivores — tigers, eagles, frogs — hunt with sharp Canines, clawed limbs and short guts built for meat; omnivores — bears, crows, humans — run mixed dentition for mixed diets. The specialists vary the theme: parasites like the tapeworm absorb ready-made food through their skin from a host's gut, and filter feeders like the whale strain tonnes of water through baleen plates for krill. In every case the menu wrote the mouth, the gut and the strategy."
+  },
+  {
+   "file": "c7_geo_ch02_007.md",
+   "definition": "Meteorology begins with measurement, and its first instruments are simple. The thermometer reads air temperature (a mercury or alcohol column rising and falling in degrees); the barometer reads atmospheric pressure — falling glass means a storm is likely, rising glass fair weather; and the rain gauge, an open cylinder with a measured funnel, collects precipitation so its depth can be read in millimetres. Wind vane and anemometer add direction and speed of wind, and hygrometer humidity. Together they turn the sky's behaviour into numbers that can be recorded, compared and forecast — weather stations are just these instruments, reading the atmosphere day and night."
+  },
+  {
+   "file": "c7_geo_ch03_003.md",
+   "definition": "The monsoon is the great seasonal reversal of winds that sets India's calendar: for half the year the winds blow one way, then turn and arrive as rain-bearers. In summer the subcontinent's land heats far faster than the Indian Ocean; low pressure forms over the plains and moisture-laden south-westerly winds rush in from the sea, dumping heavy rainfall as they strike the Western Ghats and the Himalaya — the advancing monsoon of June to September. In winter the pattern reverses: high pressure over the cold land sends dry north-easterlies out to sea. Differential heating plus shifting pressure belts drive the whole machine — India's year is measured against it."
+  },
+  {
+   "file": "c7_geo_ch04_009.md",
+   "definition": "The agricultural landscape is the visible pattern of farming across a region — the size and shape of fields, the crops they carry, the terraces on slopes, the canals and wells between them, the farmhouses and storage beyond. Terrain writes the first lines: flat plains grow large rectilinear fields of rice or wheat; hills grow stepped terraces; arid zones scatter small irrigated plots among pasture. Soil, water availability and climate decide which crop dominates each belt — the rice bowl of the delta, the wheat sea of the northern plain, the plantation hills of tea and coffee — so the landscape is a map of geography read at ground level."
+  },
+  {
+   "file": "c7_geo_ch05_007.md",
+   "definition": "No two countries share water the way India and Bangladesh do: the Ganga, Brahmaputra and Meghna — three of Asia's greatest rivers — gather in Bangladesh into the largest delta on Earth, after flowing through or along India for most of their courses. That shared hydrology makes everything downstream a negotiation: the Farakka Barrage's diversion of Ganga water to the Hooghly is managed under a 1996 treaty that splits the dry-season flow; flood warnings travel upstream so that Assam's water can be Bangladesh's warning; and talks continue on river-linking, navigation and the Sundarbans' shared mangroves. The two countries live on one river system — its management is their permanent cooperation."
+  },
+  {
+   "file": "c7_hist_ch01_010.md",
+   "definition": "The age of the Mahajanapadas (c. 600–300 BCE) made war a permanent institution. Kingships and republics alike kept standing, professional armies — paid regularly, drilled seasonally, equipped with iron weapons and war elephants — instead of part-time farmers called up for a season. Fortifications answered them: ramparts, moats and gate-towered walls encircled capitals like Rajagriha and later Pataliputra. The cost of all this security was the engine behind taxation — the famous sixth of the produce — and the competition it fed, as each state armed, walled and taxed to survive its neighbours, until Magadha turned the whole system into empire."
+  },
+  {
+   "file": "c7_hist_ch04_006.md",
+   "definition": "The Gupta age set scientific standards the world followed for centuries. Aryabhata (c. 499 CE) calculated pi to four decimal places, explained eclipses as shadows rather than demons, and proposed that the Earth rotates on its axis; Varahamihira compiled astronomy, astrology and meteorology into encyclopedic treatises. Decimal place-value notation and the concept of zero as a number matured in this era, and metallurgy kept pace — the iron pillar of Delhi stands rust-free sixteen centuries on, while Gupta gold coins show minting mastery. These advances travelled with trade and texts into the Islamic world and, through it, to Europe."
+  },
+  {
+   "file": "c7_hist_ch08_008.md",
+   "definition": "India has repeatedly welcomed communities that arrived as traders or refugees — and each wove new threads into the national fabric. The Parsis, fleeing Persia, landed on the Gujarat coast over a millennium ago and gave India industry, philanthropy and institutions; Jewish communities settled on the Malabar coast nearly two thousand years ago and lived without a single recorded persecution; Syrian Christians anciently, and Muslim traders and settlers from the 8th century, brought new faiths, foods, scripts and styles of building. From dress and cuisine to music, banking and architecture, the migrant contribution is woven so deep that these communities are not guests in the story — they are co-authors of it."
+  },
+  {
+   "file": "c7_math_ch02_003.md",
+   "definition": "Comparing arithmetic expressions means evaluating each side honestly — brackets first, then multiplication and division left to right, then addition and subtraction left to right — and only then judging which value is larger with the comparison symbols: less than (<), greater than (>) or equal to (=). So for 4 + 3 × 2 □ (4 + 3) × 2, the left evaluates to 10 and the right to 14, and the box takes '<'. The discipline is order: the relation symbol may only be placed after both expressions have a single settled value — guessing by eye is how brackets win arguments."
+  },
+  {
+   "file": "c7_eco_ch02_004.md",
+   "definition": "Markets are how producers and consumers find each other — and how most people find their livelihood. A market is any arrangement where buyers and sellers meet to exchange: the weekly haat, the neighbourhood kirana shop, the national grain exchange, an online store. For consumers, markets put a year's variety within reach — food from distant states, goods from across the world. For producers, the price that forms in the market is income, and the hope of that income is what organises what gets grown, woven or built. Behind every stall stands a chain of farmers, weavers, transporters and traders earning their living from the same exchange."
+  },
+  {
+   "file": "c7_eco_ch04_002.md",
+   "definition": "A bank is a licensed financial institution whose two faces are deposits and loans: it accepts the public's savings — payable on demand or after a term — and lends those funds, at interest, to borrowers who need them for homes, farms, studies and businesses. The interest spread between savers and borrowers pays for the service and keeps both sides supplied: safe custody and earnings for one, credit for the other. Beyond this bridge role, banks operate payments (cheques, transfers, cards), and are regulated tightly because they hold the public's money. Without banks, every saver would need a borrower in the same room; with them, money flows to where it can work."
+  },
+  {
+   "file": "c7_geo_ch03_001.md",
+   "definition": "Weather is the atmosphere's mood on a given day at a given place — today's 34°C, the evening humidity, the sudden downpour — changing hour to hour. Climate is the weather's long-term personality: the average and typical range of temperature, rainfall, humidity and wind for a region, computed over long periods, conventionally thirty years. Mumbai's climate is humid-warm even when a January morning feels cool; Rajasthan's is arid even after a wet August. Weather tells you what to wear today; climate tells the farmer what to sow, the builder what to design for, and the planner what water to expect over a lifetime."
+  }
+ ]
+}

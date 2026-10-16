@@ -1,0 +1,166 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c12)",
+ "source_file": "c12_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C12_001",
+   "title": "Worked example (India, Census 2011 age structure): N_e = ...",
+   "section": "",
+   "formula": "N_e = N/(1 + F)",
+   "_pats_extra": [],
+   "key_idea": "Worked example (India, Census 2011 age structure)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n_e using worked example (india, census 2011 age structure)",
+    "calculate worked example (india, census 2011 age structure)",
+    "worked example (india, census 2011 age structure) formula question",
+    "given values find n_e"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C12_001",
+     "question_pattern": "worked example (india, census 2011 age structure) with {N} and {F} find n_e",
+     "extracted_variables": {
+      "N": "given N",
+      "F": "given F"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, F from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N_e = N/(1 + F)",
+     "compute": "N_e = N/(1 + F)"
+    }
+   ],
+   "chapter_title": "evs c12 formulas"
+  },
+  {
+   "id": "FB_EVS_C12_002",
+   "title": "General formula: Contamination Factor CF = ...",
+   "section": "",
+   "formula": "Contamination_Factor_CF = C_metal_sample / C_metal_background",
+   "_pats_extra": [],
+   "key_idea": "General formula",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find contamination factor cf using general formula",
+    "calculate general formula",
+    "general formula formula question",
+    "given values find contamination factor cf"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C12_002",
+     "question_pattern": "general formula with {C_metal_sample} and {C_metal_background} find contamination factor cf",
+     "extracted_variables": {
+      "C_metal_sample": "given C_metal_sample",
+      "C_metal_background": "given C_metal_background"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C_metal_sample, C_metal_background from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Contamination Factor CF = C_metal_sample / C_metal_background",
+     "compute": "Contamination_Factor_CF = C_metal_sample / C_metal_background"
+    }
+   ],
+   "chapter_title": "evs c12 formulas"
+  },
+  {
+   "id": "FB_EVS_C12_003",
+   "title": "Depletion cost (resource rent method): GPI = ...",
+   "section": "",
+   "formula": "GPI = Personal_consumption*weighted_by*income_distribution",
+   "_pats_extra": [],
+   "key_idea": "Depletion cost (resource rent method)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find gpi using depletion cost (resource rent method)",
+    "calculate depletion cost (resource rent method)",
+    "depletion cost (resource rent method) formula question",
+    "given values find gpi"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C12_003",
+     "question_pattern": "depletion cost (resource rent method) with {Personal_consumption} and {weighted_by} and {income_distribution} find gpi",
+     "extracted_variables": {
+      "Personal_consumption": "given Personal_consumption",
+      "weighted_by": "given weighted_by",
+      "income_distribution": "given income_distribution"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Personal_consumption, weighted_by, income_distribution from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "GPI = Personal_consumption*weighted_by*income_distribution",
+     "compute": "GPI = Personal_consumption*weighted_by*income_distribution"
+    }
+   ],
+   "chapter_title": "evs c12 formulas"
+  },
+  {
+   "id": "FB_EVS_C12_004",
+   "title": "Depletion cost (resource rent method): K_natural = ...",
+   "section": "",
+   "formula": "K_natural = n*o*n-renewable_stocks + renewable_stocks + land + ecosystems",
+   "_pats_extra": [],
+   "key_idea": "Depletion cost (resource rent method)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find k_natural using depletion cost (resource rent method)",
+    "calculate depletion cost (resource rent method)",
+    "depletion cost (resource rent method) formula question",
+    "given values find k_natural"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C12_004",
+     "question_pattern": "depletion cost (resource rent method) with {n} and {o} and {n} and {renewable_stocks} and {renewable_stocks} and {land} find k_natural",
+     "extracted_variables": {
+      "n": "given n",
+      "o": "given o",
+      "renewable_stocks": "given renewable_stocks",
+      "land": "given land"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, o, n, renewable_stocks, renewable_stocks from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "K_natural = n*o*n-renewable_stocks + renewable_stocks + land + ecosystems",
+     "compute": "K_natural = n*o*n-renewable_stocks + renewable_stocks + land + ecosystems"
+    }
+   ],
+   "chapter_title": "evs c12 formulas"
+  }
+ ]
+}

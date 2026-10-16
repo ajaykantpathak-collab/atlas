@@ -1,0 +1,25 @@
+MISS fegp.101.1.2.1 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+W0921 19:34:59.562000 24388 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-21 19:35:04,068 --- Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5634.71it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+MISS fegp.101.1.4.2 | The sum of 4 consecutive triangular numbers starti -> None exp 16
+ch101.json 64/66
+ch102.json 66/66
+MISS fegp.3.10.1 | The first two terms of a sequence are 20 and 28. F -> 28.0 exp 8
+ch103.json 53/54
+MISS fegp.4.3.1 | Write the ratio 32 : 96 in its simplest form and g -> 1.0 exp 4
+MISS fegp.4.4.1 | Write the ratio 20 : 40 in its simplest form and g -> 1.0 exp 4
+ch104.json 40/42
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1 at x = 1, the tangent slope  -> 12.0 exp -0.08
+MISS fegp.105.5.1.4 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.2.2 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.3.1 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+ch105.json 62/66

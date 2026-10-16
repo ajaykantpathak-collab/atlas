@@ -1,0 +1,237 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c9)",
+ "source_file": "c9_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C9_001",
+   "title": "Time Difference (minutes): Time Difference (minutes) = ...",
+   "section": "",
+   "formula": "Time_Difference_minutes = Longitude_Difference*4",
+   "_pats_extra": [],
+   "key_idea": "Time Difference (minutes)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time difference (minutes) using time difference (minutes)",
+    "calculate time difference (minutes)",
+    "time difference (minutes) formula question",
+    "given values find time difference (minutes)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C9_001",
+     "question_pattern": "time difference (minutes) with {Longitude_Difference} find time difference (minutes)",
+     "extracted_variables": {
+      "Longitude_Difference": "given Longitude_Difference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Longitude_Difference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time Difference (minutes) = Longitude_Difference*4",
+     "compute": "Time_Difference_minutes = Longitude_Difference*4"
+    }
+   ],
+   "chapter_title": "geo c9 formulas"
+  },
+  {
+   "id": "FB_GEO_C9_002",
+   "title": "Distance (km): Distance (km) = ...",
+   "section": "",
+   "formula": "Distance_km = Latitude_Difference*111",
+   "_pats_extra": [],
+   "key_idea": "Distance (km)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance (km) using distance (km)",
+    "calculate distance (km)",
+    "distance (km) formula question",
+    "given values find distance (km)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C9_002",
+     "question_pattern": "distance (km) with {Latitude_Difference} find distance (km)",
+     "extracted_variables": {
+      "Latitude_Difference": "given Latitude_Difference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Latitude_Difference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance (km) = Latitude_Difference*111",
+     "compute": "Distance_km = Latitude_Difference*111"
+    }
+   ],
+   "chapter_title": "geo c9 formulas"
+  },
+  {
+   "id": "FB_GEO_C9_003",
+   "title": "Distance (km): Distance (km) = ...",
+   "section": "",
+   "formula": "Distance_km = Longitude_Difference*111*cos",
+   "_pats_extra": [],
+   "key_idea": "Distance (km)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance (km) using distance (km)",
+    "calculate distance (km)",
+    "distance (km) formula question",
+    "given values find distance (km)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C9_003",
+     "question_pattern": "distance (km) with {Longitude_Difference} find distance (km)",
+     "extracted_variables": {
+      "Longitude_Difference": "given Longitude_Difference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Longitude_Difference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance (km) = Longitude_Difference*111*cos",
+     "compute": "Distance_km = Longitude_Difference*111*cos"
+    }
+   ],
+   "chapter_title": "geo c9 formulas"
+  },
+  {
+   "id": "FB_GEO_C9_004",
+   "title": "Amplitude ratio: Amplitude ratio = ...",
+   "section": "",
+   "formula": "Amplitude_ratio = 10^(M1 - M2)",
+   "_pats_extra": [],
+   "key_idea": "Amplitude ratio",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find amplitude ratio using amplitude ratio",
+    "calculate amplitude ratio",
+    "amplitude ratio formula question",
+    "given values find amplitude ratio"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C9_004",
+     "question_pattern": "amplitude ratio with {M1} and {M2} find amplitude ratio",
+     "extracted_variables": {
+      "M1": "given M1",
+      "M2": "given M2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M1, M2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Amplitude ratio = 10^(M1 - M2)",
+     "compute": "Amplitude_ratio = 10^(M1 - M2)"
+    }
+   ],
+   "chapter_title": "geo c9 formulas"
+  },
+  {
+   "id": "FB_GEO_C9_005",
+   "title": "Energy ratio: Energy ratio = ...",
+   "section": "",
+   "formula": "Energy_ratio = 32^(M1 - M2)",
+   "_pats_extra": [],
+   "key_idea": "Energy ratio",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find energy ratio using energy ratio",
+    "calculate energy ratio",
+    "energy ratio formula question",
+    "given values find energy ratio"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C9_005",
+     "question_pattern": "energy ratio with {M1} and {M2} find energy ratio",
+     "extracted_variables": {
+      "M1": "given M1",
+      "M2": "given M2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M1, M2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Energy ratio = 32^(M1 - M2)",
+     "compute": "Energy_ratio = 32^(M1 - M2)"
+    }
+   ],
+   "chapter_title": "geo c9 formulas"
+  },
+  {
+   "id": "FB_GEO_C9_006",
+   "title": "Speed at latitude: Speed at latitude = ...",
+   "section": "",
+   "formula": "Speed_at_latitude = Speed_at_equator*cos",
+   "_pats_extra": [],
+   "key_idea": "Speed at latitude",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find speed at latitude using speed at latitude",
+    "calculate speed at latitude",
+    "speed at latitude formula question",
+    "given values find speed at latitude"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C9_006",
+     "question_pattern": "speed at latitude with {Speed_at_equator} find speed at latitude",
+     "extracted_variables": {
+      "Speed_at_equator": "given Speed_at_equator"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Speed_at_equator from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Speed at latitude = Speed_at_equator*cos",
+     "compute": "Speed_at_latitude = Speed_at_equator*cos"
+    }
+   ],
+   "chapter_title": "geo c9 formulas"
+  }
+ ]
+}

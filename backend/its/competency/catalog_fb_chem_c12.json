@@ -1,0 +1,416 @@
+{
+ "subject": "chem",
+ "chapter_title": "ICSE chem formula bank (c12)",
+ "source_file": "c12_chem_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CHEM_C12_001",
+   "title": "6. ELECTROCHEMISTRY (C12): E deg cell = ...",
+   "section": "6. ELECTROCHEMISTRY (C12)",
+   "formula": "E_deg_cell = E*deg_cathode - E*deg_anode",
+   "_pats_extra": [],
+   "key_idea": "6. ELECTROCHEMISTRY (C12) (6. ELECTROCHEMISTRY (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e deg cell using 6. electrochemistry (c12)",
+    "calculate 6. electrochemistry (c12)",
+    "6. electrochemistry (c12) formula question",
+    "given values find e deg cell",
+    "6. electrochemistry (c12) 6. electrochemistry (c12) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_001",
+     "question_pattern": "6. electrochemistry (c12) with {E} and {deg_cathode} and {E} and {deg_anode} find e deg cell",
+     "extracted_variables": {
+      "E": "given E",
+      "deg_cathode": "given deg_cathode",
+      "deg_anode": "given deg_anode"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for E, deg_cathode, E, deg_anode from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E deg cell = E*deg_cathode - E*deg_anode",
+     "compute": "E_deg_cell = E*deg_cathode - E*deg_anode"
+    }
+   ],
+   "chapter_title": "6. ELECTROCHEMISTRY (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_002",
+   "title": "Gibbs energy: DeltaG deg = ...",
+   "section": "6. ELECTROCHEMISTRY (C12)",
+   "formula": "DeltaG_deg = -nFE_deg_cell",
+   "_pats_extra": [],
+   "key_idea": "Gibbs energy (6. ELECTROCHEMISTRY (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deltag deg using gibbs energy",
+    "calculate gibbs energy",
+    "gibbs energy formula question",
+    "given values find deltag deg",
+    "6. electrochemistry (c12) gibbs energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_002",
+     "question_pattern": "gibbs energy with {nFE_deg_cell} find deltag deg",
+     "extracted_variables": {
+      "nFE_deg_cell": "given nFE_deg_cell"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for nFE_deg_cell from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DeltaG deg = -nFE_deg_cell",
+     "compute": "DeltaG_deg = -nFE_deg_cell"
+    }
+   ],
+   "chapter_title": "6. ELECTROCHEMISTRY (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_003",
+   "title": "Gibbs energy: F = ...",
+   "section": "6. ELECTROCHEMISTRY (C12)",
+   "formula": "F = 96500/mol",
+   "_pats_extra": [],
+   "key_idea": "Gibbs energy (6. ELECTROCHEMISTRY (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using gibbs energy",
+    "calculate gibbs energy",
+    "gibbs energy formula question",
+    "given values find f",
+    "6. electrochemistry (c12) gibbs energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_003",
+     "question_pattern": "gibbs energy with {mol} find f",
+     "extracted_variables": {
+      "mol": "given mol"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mol from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = 96500/mol",
+     "compute": "F = 96500/mol"
+    }
+   ],
+   "chapter_title": "6. ELECTROCHEMISTRY (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_004",
+   "title": "Molar conductivity: Lambdam = ...",
+   "section": "6. ELECTROCHEMISTRY (C12)",
+   "formula": "Lambdam = kappa*1000 / C",
+   "_pats_extra": [],
+   "key_idea": "Molar conductivity (6. ELECTROCHEMISTRY (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find lambdam using molar conductivity",
+    "calculate molar conductivity",
+    "molar conductivity formula question",
+    "given values find lambdam",
+    "6. electrochemistry (c12) molar conductivity numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_004",
+     "question_pattern": "molar conductivity with {C} find lambdam",
+     "extracted_variables": {
+      "C": "given C"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Lambdam = kappa*1000 / C",
+     "compute": "Lambdam = kappa*1000 / C"
+    }
+   ],
+   "chapter_title": "6. ELECTROCHEMISTRY (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_005",
+   "title": "Arrhenius equation: k = ...",
+   "section": "7. CHEMICAL KINETICS (C12)",
+   "formula": "k = A*e^(-E*a/RT)",
+   "_pats_extra": [],
+   "key_idea": "Arrhenius equation (7. CHEMICAL KINETICS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find k using arrhenius equation",
+    "calculate arrhenius equation",
+    "arrhenius equation formula question",
+    "given values find k",
+    "7. chemical kinetics (c12) arrhenius equation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_005",
+     "question_pattern": "arrhenius equation with {A} and {e} and {E} and {a} and {RT} find k",
+     "extracted_variables": {
+      "A": "given A",
+      "e": "given e",
+      "E": "given E",
+      "a": "given a",
+      "RT": "given RT"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, e, E, a, RT from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "k = A*e^(-E*a/RT)",
+     "compute": "k = A*e^(-E*a/RT)"
+    }
+   ],
+   "chapter_title": "7. CHEMICAL KINETICS (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_006",
+   "title": "Boiling point elevation: DeltaTb = ...",
+   "section": "8. SOLUTIONS (C12)",
+   "formula": "DeltaTb = K*b*m*i",
+   "_pats_extra": [],
+   "key_idea": "Boiling point elevation (8. SOLUTIONS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deltatb using boiling point elevation",
+    "calculate boiling point elevation",
+    "boiling point elevation formula question",
+    "given values find deltatb",
+    "8. solutions (c12) boiling point elevation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_006",
+     "question_pattern": "boiling point elevation with {K} and {b} and {m} and {i} find deltatb",
+     "extracted_variables": {
+      "K": "given K",
+      "b": "given b",
+      "m": "given m",
+      "i": "given i"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K, b, m, i from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DeltaTb = K*b*m*i",
+     "compute": "DeltaTb = K*b*m*i"
+    }
+   ],
+   "chapter_title": "8. SOLUTIONS (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_007",
+   "title": "Freezing point depression: DeltaTf = ...",
+   "section": "8. SOLUTIONS (C12)",
+   "formula": "DeltaTf = K*f*m*i",
+   "_pats_extra": [],
+   "key_idea": "Freezing point depression (8. SOLUTIONS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deltatf using freezing point depression",
+    "calculate freezing point depression",
+    "freezing point depression formula question",
+    "given values find deltatf",
+    "8. solutions (c12) freezing point depression numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_007",
+     "question_pattern": "freezing point depression with {K} and {f} and {m} and {i} find deltatf",
+     "extracted_variables": {
+      "K": "given K",
+      "f": "given f",
+      "m": "given m",
+      "i": "given i"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K, f, m, i from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DeltaTf = K*f*m*i",
+     "compute": "DeltaTf = K*f*m*i"
+    }
+   ],
+   "chapter_title": "8. SOLUTIONS (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_008",
+   "title": "Osmotic pressure: pi = ...",
+   "section": "8. SOLUTIONS (C12)",
+   "formula": "pi = i*(n/V)*RT",
+   "_pats_extra": [],
+   "key_idea": "Osmotic pressure (8. SOLUTIONS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pi using osmotic pressure",
+    "calculate osmotic pressure",
+    "osmotic pressure formula question",
+    "given values find pi",
+    "8. solutions (c12) osmotic pressure numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_008",
+     "question_pattern": "osmotic pressure with {i} and {n} and {V} and {RT} find pi",
+     "extracted_variables": {
+      "i": "given i",
+      "n": "given n",
+      "V": "given V",
+      "RT": "given RT"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for i, n, V, RT from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "pi = i*(n/V)*RT",
+     "compute": "pi = i*(n/V)*RT"
+    }
+   ],
+   "chapter_title": "8. SOLUTIONS (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_009",
+   "title": "Density of unit cell: d = ...",
+   "section": "9. SOLID STATE (C12)",
+   "formula": "d = (Z*M) / (a^3*N*a)",
+   "_pats_extra": [],
+   "key_idea": "Density of unit cell (9. SOLID STATE (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find d using density of unit cell",
+    "calculate density of unit cell",
+    "density of unit cell formula question",
+    "given values find d",
+    "9. solid state (c12) density of unit cell numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_009",
+     "question_pattern": "density of unit cell with {Z} and {M} and {a} and {N} and {a} find d",
+     "extracted_variables": {
+      "Z": "given Z",
+      "M": "given M",
+      "a": "given a",
+      "N": "given N"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Z, M, a, N, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "d = (Z*M) / (a^3*N*a)",
+     "compute": "d = (Z*M) / (a^3*N*a)"
+    }
+   ],
+   "chapter_title": "9. SOLID STATE (C12)"
+  },
+  {
+   "id": "FB_CHEM_C12_010",
+   "title": "EAN (Effective Atomic Number): EAN = ...",
+   "section": "10. COORDINATION COMPOUNDS (C12)",
+   "formula": "EAN = Z - (oxidation_state) + 2*x",
+   "_pats_extra": [],
+   "key_idea": "EAN (Effective Atomic Number) (10. COORDINATION COMPOUNDS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ean using ean (effective atomic number)",
+    "calculate ean (effective atomic number)",
+    "ean (effective atomic number) formula question",
+    "given values find ean",
+    "10. coordination compounds (c12) ean (effective atomic number) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C12_010",
+     "question_pattern": "ean (effective atomic number) with {Z} and {oxidation_state} find ean",
+     "extracted_variables": {
+      "Z": "given Z",
+      "oxidation_state": "given oxidation_state"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Z, oxidation_state from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "EAN = Z - (oxidation_state) + 2*x",
+     "compute": "EAN = Z - (oxidation_state) + 2*x"
+    }
+   ],
+   "chapter_title": "10. COORDINATION COMPOUNDS (C12)"
+  }
+ ]
+}

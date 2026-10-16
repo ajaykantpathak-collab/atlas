@@ -1,0 +1,716 @@
+[
+ {
+  "file": "c11_acc_isc_03_007.md",
+  "subject": "acc",
+  "words": 182,
+  "flags": [],
+  "definition": "This node focuses on the integrated application of all four bank reconciliation methods — preparation from cash book balance, from pass book balance, from extracts of both books, and the amended cash book method — to solve comprehensive problems that involve a mixture of timing differences (unpresented cheques, uncleared deposits), errors in the cash book (omissions, commissions), errors in the pass book (bank charges not recorded, wrong credits), and overdraft situations. It emphasizes the decision-making framework: identifying whether to start from the cash book or pass book balance, classifying each discrepancy as a timing difference (adjust only in reconciliation statement) or an error/omission (adjust in amended cash book), and sequencing the steps logically to arrive at a reconciled balance. The node also covers the treatment of bank charges, interest, direct deposits, dishonoured cheques, and the interpretation of bank reconciliation as an internal control tool for businesses such as M/s Gupta & Sons, aligning with RBI guidelines on banking transparency. It builds directly on the isolated methods taught in the earlier nodes in this chain and the foundational integration in the earlier node."
+ },
+ {
+  "file": "c11_ai_isc_01_001.md",
+  "subject": "ai",
+  "words": 142,
+  "flags": [],
+  "definition": "This node provides the chapter overview for ISC Class 11 Artificial Intelligence (866) Chapter 01. It outlines the four core sub-topics — AI definition, history of AI, categories of AI (narrow, general, super), and an applications overview — and explains the pedagogical rationale: establishing a conceptual framework, showing the evolution of ideas, and linking theory to real-world Indian contexts such as language translation for regional languages, agricultural advisory systems, and healthcare diagnostics. The overview connects each sub-topic to the next, so students see a logical progression from “what is AI?” to “how did we get here?” to “what forms can it take?” and finally “where is it used today?”. It also signals the assessment focus: conceptual clarity, ability to trace historical milestones, classify AI systems, and cite contemporary applications. No technical algorithms or code are introduced here; those belong to later nodes."
+ },
+ {
+  "file": "c11_ai_isc_02_007.md",
+  "subject": "ai",
+  "words": 178,
+  "flags": [],
+  "definition": "This node examines the critical challenges that arise when deploying AI and NLP systems at scale: bias and fairness, privacy and data governance, transparency and explainability, accountability, and environmental impact. It connects these challenges to the current AI landscape (covered in the earlier node) and chatbot deployments by showing how large language models can amplify societal biases present in training data, how chatbots may inadvertently reveal personal information, and why \"black-box\" decisions are problematic in high-stakes domains like healthcare or loan approvals. The node then surveys emerging responsible-AI practices — datasheets for datasets, model cards, fairness metrics (demographic parity, equalized odds), privacy-preserving frameworks (federated learning, differential privacy), and green AI techniques (model distillation, efficient architectures). Finally, it outlines near-future directions: multimodal foundation models, AI agents that use tools, regulation trends (India's DPDP Act, EU AI Act), and the shift toward human-centred AI. Relationships: bias mitigation relies on the NLP preprocessing pipeline (tokenization, embedding) taught earlier; privacy techniques build on the data-handling concepts from the current AI landscape; future trends extend the transformer architecture discussed in the landscape node."
+ },
+ {
+  "file": "c11_ai_isc_03_008.md",
+  "subject": "ai",
+  "words": 169,
+  "flags": [],
+  "definition": "This node integrates the three mathematical pillars of Chapter 3 — linear algebra basics, statistics, and probability for AI — into a unified problem‑solving framework aligned with CISCE ISC examination patterns. Linear algebra supplies vector‑matrix operations that represent data transformations and model parameters; statistics provides descriptive measures (mean, variance, covariance) and inferential tools (hypothesis testing, confidence intervals) to summarise and draw conclusions from data; probability contributes the language of uncertainty (conditional probability, Bayes’ theorem, random variables) essential for probabilistic models and decision‑making. The synthesis emphasises how these sub‑concepts interact: covariance matrices arise from statistical expectations of vector‑valued random variables; eigen‑decomposition of such matrices underpins principal component analysis, a linear‑algebraic technique driven by statistical variance maximisation; Bayesian updating uses probability rules on statistical likelihoods. The node also maps typical ISC question formats — short‑answer recall, structured numericals, case‑study interpretation, and multi‑part long answers — and supplies practice items that require students to move fluidly across the three domains, reflecting the board’s emphasis on integrated reasoning rather than isolated topic testing."
+ },
+ {
+  "file": "c11_ai_isc_05_007.md",
+  "subject": "ai",
+  "words": 146,
+  "flags": [],
+  "definition": "This node covers the stage after data cleaning: **data transformation, feature engineering, and data splitting**. Data transformation converts cleaned data into a format suitable for modelling — scaling numerical features (e.g., min‑max normalization, z‑score standardization), encoding categorical variables (one‑hot, label encoding), and handling skewed distributions (log, Box‑Cox). Feature engineering creates new predictive attributes from existing ones — e.g., extracting day‑of‑week from a timestamp, combining “area” and “rooms” into “area_per_room”, or generating polynomial features. Data splitting partitions the dataset into training, validation, and test sets (commonly 70/15/15 or 80/10/10) using stratified sampling to preserve class distribution. These steps are interdependent: transformation must be fitted only on training data to avoid leakage; engineered features must be validated for relevance; and splitting must be reproducible (fixed random seed). Together they turn raw cleaned data into a modelling‑ready pipeline, ensuring the AI system learns generalisable patterns rather than memorising noise."
+ },
+ {
+  "file": "c11_ai_isc_06_005.md",
+  "subject": "ai",
+  "words": 155,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node covers the four classical assumptions of simple linear regression — linearity, independence, homoscedasticity, and normality of residuals — and the diagnostic tools used to verify them. Linearity means the true relationship between the predictor (X) and response (Y) is well approximated by a straight line. Independence requires that residuals are not correlated, often checked with the Durbin‑Watson statistic. Homoscedasticity demands constant variance of residuals across all fitted values; a funnel‑shaped residual plot signals violation. Normality assumes residuals follow a Gaussian distribution, assessed via Q‑Q plots or Shapiro‑Wilk test. Residual analysis — plotting residuals versus fitted values, leverage, and Cook’s distance — identifies outliers, high‑leverage points, and influential observations that can distort the fitted line. Understanding these checks ensures the model’s inference (confidence intervals, p‑values) and predictions are trustworthy. This node builds directly on the evaluation metrics (R², MSE, MAE) from the previous node and prepares for multiple regression and regularisation in later nodes."
+ },
+ {
+  "file": "c11_ai_isc_09_006.md",
+  "subject": "ai",
+  "words": 128,
+  "flags": [],
+  "definition": "This node explores the current state-of-the-art in AI and NLP, focusing on the Transformer architecture and Large Language Models (LLMs). The Transformer, introduced in 2017, replaced recurrent networks with self-attention mechanisms, enabling parallel processing of sequences and capturing long-range dependencies. LLMs like BERT (bidirectional encoder representations) and GPT (generative pre-trained transformers) are pre-trained on massive corpora using masked language modeling or next-token prediction, then fine-tuned for downstream tasks. Key concepts include tokenization, embedding layers, attention heads, positional encoding, and scaling laws. These models exhibit emergent abilities such as in-context learning, reasoning, and zero-shot generalization. Their deployment raises issues of bias, hallucination, computational cost, and ethical use. This node connects the historical evolution, NLP domain fundamentals, potential applications, and societal impacts to the cutting-edge technologies defining today's AI landscape."
+ },
+ {
+  "file": "c11_ai_isc_09_007.md",
+  "subject": "ai",
+  "words": 135,
+  "flags": [],
+  "definition": "This node introduces the **Transformer architecture** and its core **self‑attention mechanism**, the foundation of modern Large Language Models (LLMs) such as GPT and BERT. The transformer replaces recurrent loops with parallelizable attention layers, allowing the model to capture long‑range dependencies in text without sequential processing. Key sub‑concepts include:  \n- **Token embeddings** – vector representations of words/subwords.  \n- **Positional encodings** – added to embeddings to convey order.  \n- **Multi‑head attention** – multiple parallel attention heads that learn different relational patterns (syntax, semantics, coreference).  \n- **Feed‑forward networks** – position‑wise fully connected layers applied after attention.  \n- **Layer normalization & residual connections** – stabilize deep stacking.  \nThe node connects to prior nodes: The earlier node on NLP domain and the earlier node on deep learning basics. It prepares students for the later node on pre‑training and fine‑tuning pipelines."
+ },
+ {
+  "file": "c11_ai_isc_09_010.md",
+  "subject": "ai",
+  "words": 130,
+  "flags": [],
+  "definition": "This node examines the emerging trends and future directions shaping the state of the art in Artificial Intelligence and Natural Language Processing. It connects the foundational concepts of AI history, NLP domains, potential applications, and societal impacts (covered in preceding nodes) to current research frontiers: foundation models (large language models, multimodal models), parameter-efficient fine‑tuning, retrieval‑augmented generation, AI governance frameworks, and the push for low‑resource language support — especially for Indian languages. The concept emphasizes how these trends interrelate: scaling laws drive model capability; multimodality expands use cases; efficiency techniques democratize access; regulation shapes deployment; and linguistic inclusivity determines real‑world impact in India. Students must understand the causal links — e.g., how scaling leads to emergent abilities, which then raise alignment concerns that governance addresses — rather than memorising isolated buzzwords."
+ },
+ {
+  "file": "c11_ai_isc_09_011.md",
+  "subject": "ai",
+  "words": 129,
+  "flags": [],
+  "definition": "This node covers the state-of-the-art in AI and NLP centered on the Transformer architecture. The Transformer, introduced in \"Attention Is All You Need\" (2017), replaces recurrence with self-attention, enabling parallel processing of sequences. Key sub-concepts: (1) Self-attention mechanism computes contextual relationships between all tokens simultaneously, capturing long-range dependencies. (2) Pre-training on large corpora (masked language modeling, next-token prediction) yields general language representations. (3) Fine-tuning adapts these representations to downstream tasks (classification, generation, translation). (4) Scaling laws show performance improves predictably with model size, data, and compute. Models like BERT (encoder-only), GPT (decoder-only), and T5 (encoder-decoder) exemplify this paradigm. Relationships: self-attention → contextual embeddings → pre-trained models → fine-tuned applications. This slice connects to prior nodes on NLP domain and potential uses by showing how modern systems achieve those uses."
+ },
+ {
+  "file": "c11_ai_isc_09_012.md",
+  "subject": "ai",
+  "words": 148,
+  "flags": [],
+  "definition": "This node synthesizes the four core subtopics of Chapter 09 — brief history and primary elements of AI, domain of Natural Language Processing, potential uses of AI, and AI and society — into a coherent framework for CISCE ISC examination preparation. It maps each subtopic to the board’s question typology: very short answer (1 mark), short answer (2‑3 marks), long answer (5‑8 marks), and case‑study/application (10 marks). The node provides a structured revision matrix linking key terms (e.g., Turing test, tokenization, bias, autonomy) to expected command words (define, explain, evaluate, justify). It also outlines answer‑writing strategies: using precise definitions, citing Indian context examples (Aadhaar‑based AI, language translation for regional languages), and embedding ethical reasoning. The node does not introduce new technical content; it consolidates, organizes, and drills the material covered in the earlier nodes in this chain, ensuring students can retrieve, connect, and apply knowledge under timed conditions."
+ },
+ {
+  "file": "c11_ai_isc_10_007.md",
+  "subject": "ai",
+  "words": 181,
+  "flags": [],
+  "definition": "This node introduces eigen decomposition of square matrices and its direct application in Principal Component Analysis (PCA), a cornerstone technique for dimensionality reduction in Artificial Intelligence. An eigenvector of a matrix **A** is a non‑zero vector **v** such that **A v = λ v**, where λ is the corresponding eigenvalue. The set of all eigenvalues forms the spectrum of **A**. For a real symmetric matrix (e.g., a covariance matrix), eigenvalues are real and eigenvectors are orthogonal, enabling a change of basis that diagonalises the matrix. PCA computes the covariance matrix of centred data, finds its eigenvectors (principal components) and eigenvalues (variance explained), then projects data onto the top‑k eigenvectors to retain maximum variance with fewer dimensions. This node connects the matrix algebra from the earlier node and vector geometry from the earlier node to a concrete AI workflow: data preprocessing → covariance → eigen decomposition → projection → reduced feature set for downstream models. It also touches on the set‑theoretic view of feature spaces and the statistical interpretation of variance. The focus is on the mathematical mechanism, not on coding libraries."
+ },
+ {
+  "file": "c11_ai_isc_11_006.md",
+  "subject": "ai",
+  "words": 189,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node introduces advanced multivariate visualisation techniques that extend the basic plots covered in the earlier nodes on Python visualisation basics and the earlier node on statistical graphs. It focuses on three interconnected ideas: (1) **Pair plots** (scatter‑plot matrices) that display pairwise relationships among several numerical variables simultaneously, enabling quick detection of correlations, clusters, and outliers. (2) **Heatmaps** that encode a matrix — typically a correlation or confusion matrix — as coloured cells, making magnitude patterns instantly readable. (3) **Dimensionality‑reduction visualisations** such as Principal Component Analysis (PCA) and t‑Distributed Stochastic Neighbour Embedding (t‑SNE) projected onto 2‑D or 3‑D scatter plots, allowing high‑dimensional data to be explored visually. The node demonstrates how Python libraries — seaborn for pair plots and heatmaps, matplotlib for customisation, and scikit‑learn for PCA/t‑SNE — work together. It emphasises interpretation over implementation: choosing the right plot for the question, reading colour scales, and understanding that PCA axes are linear combinations of original features. The concepts link directly to the “Introduction to dimensionality of data” by showing how reducing dimensions aids visual insight, and they prepare students for the synthesis node where full visualisation pipelines are evaluated."
+ },
+ {
+  "file": "c11_ai_isc_12_008.md",
+  "subject": "ai",
+  "words": 133,
+  "flags": [],
+  "definition": "This node synthesizes three core data processing stages: cleaning, exploration, and transformation. Data cleaning handles missing values, duplicates, outliers, and inconsistent labels — ensuring dataset integrity. Exploring Kaggle datasets teaches real-world data acquisition, understanding data dictionaries, and performing exploratory data analysis (EDA) including distributions, correlations, and visualizations. Data transformation and standardization cover scaling (min-max, z-score), encoding categorical variables (one-hot, label encoding), handling skewed distributions (log, Box-Cox), and feature engineering basics. These stages form a pipeline: raw data → cleaned data → explored/understood data → transformed features ready for modeling. The synthesis emphasizes that each step informs the next — cleaning decisions affect transformation choices, and exploration reveals what cleaning and transformation are needed. CISCE exam patterns test this pipeline thinking through case-study questions requiring method selection justification, code snippet completion, and output interpretation."
+ },
+ {
+  "file": "c11_ai_isc_13_007.md",
+  "subject": "ai",
+  "words": 161,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node covers the critical assumptions underlying simple linear regression (SLR) and the diagnostic tools used to validate them. The four core assumptions are: (1) Linearity – the relationship between the independent variable X and dependent variable Y is linear; (2) Independence – residuals (errors) are uncorrelated, often verified with the Durbin‑Watson statistic; (3) Homoscedasticity – residual variance is constant across all levels of X, checked via residual‑versus‑fitted plots; (4) Normality – residuals follow a normal distribution, assessed with Q‑Q plots or Shapiro‑Wilk test. Violations bias coefficient estimates, inflate Type‑I error, and invalidate confidence/prediction intervals. Model evaluation metrics include the coefficient of determination (R²), adjusted R² (penalising extra predictors), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). Residual analysis — plotting residuals against fitted values, leverage, and Cook’s distance — identifies outliers, high‑leverage points, and influential observations. This node connects the estimation concepts from earlier nodes (the earlier nodes) to the synthesis and exam‑focused practice in the later node."
+ },
+ {
+  "file": "c11_ai_isc_13_008.md",
+  "subject": "ai",
+  "words": 119,
+  "flags": [],
+  "definition": "This node synthesises the chapter’s core ideas: data modelling as the process of representing real‑world phenomena with mathematical structures, and simple linear regression as the specific technique fitting a straight line \\(y = \\beta_0 + \\beta_1 x\\) to paired observations \\((x_i, y_i)\\). It connects the conceptual steps — defining variables, checking linearity, estimating parameters via least squares, evaluating goodness‑of‑fit (R², residuals) — to the patterns CISCE examiners use: short‑answer derivation of normal equations, numerical computation of slope/intercept, interpretation of coefficients, residual analysis, and prediction with confidence intervals. The node also maps each sub‑topic (introduction to data modelling, regression assumptions, parameter estimation, model validation) to typical question formats (define, calculate, interpret, critique) so students can recognise and tackle them efficiently."
+ },
+ {
+  "file": "c11_ai_isc_14_008.md",
+  "subject": "ai",
+  "words": 166,
+  "flags": [],
+  "definition": "This node synthesises the three core ethical pillars of Chapter 14 — bias, privacy, and responsible AI practices — into a coherent framework for evaluation and exam preparation. Bias refers to systematic errors in model outcomes caused by unrepresentative training data or flawed design choices; privacy concerns the protection of personal data throughout the AI lifecycle, including collection, storage, and inference; responsible AI practices encompass governance, transparency, accountability, and fairness checks that ensure models behave ethically in deployment. The node maps the inter‑relationships: biased data can amplify privacy risks (e.g., over‑fitting to sensitive attributes), while responsible‑AI governance provides the procedural safeguards (audit trails, impact assessments) that mitigate both. It also aligns these concepts with the CISCE ISC Artificial Intelligence (866) examination pattern, highlighting typical question types (short‑answer recall, case‑study analysis, design‑a‑checklist) and marking schemes. The synthesis does not re‑teach the individual definitions — those are covered in the earlier nodes of this chapter — but shows how to integrate them in answers that demonstrate higher‑order thinking."
+ },
+ {
+  "file": "c11_appmath_isc_01_008.md",
+  "subject": "appmath",
+  "words": 211,
+  "flags": [],
+  "definition": "This node synthesises the three core concepts of Chapter 01 — sets, relations, and functions — and aligns them with CISCE ISC examination patterns. A **set** is a well‑defined collection of distinct objects, denoted by capital letters (e.g., \\(A, B\\)) and described either by roster form \\(\\{a,b,c\\}\\) or set‑builder notation \\(\\{x \\mid P(x)\\}\\). A **relation** \\(R\\) from set \\(A\\) to set \\(B\\) is a subset of the Cartesian product \\(A \\times B\\); it pairs elements \\(a \\in A\\) with elements \\(b \\in B\\). A **function** \\(f: A \\to B\\) is a relation where every \\(a \\in A\\) appears exactly once as the first component, guaranteeing a unique image \\(f(a) \\in B\\). Key inter‑relationships: every function is a relation, every relation is a subset of a Cartesian product, and the domain, co‑domain, and range of a function are derived from the underlying sets. CISCE exam questions typically test: (i) identification of set types (finite, infinite, empty, singleton, equal, equivalent), (ii) construction of Cartesian products and verification of relation properties (reflexive, symmetric, transitive), (iii) determination of whether a given relation is a function, and (iv) evaluation of function properties (one‑one, onto, bijective) and composition. Mastery requires fluency in set notation, Venn‑diagram reasoning, and the ability to translate word problems into formal set‑theoretic language."
+ },
+ {
+  "file": "c11_appmath_isc_02_007.md",
+  "subject": "appmath",
+  "words": 151,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node covers the solution of a system of linear equations in three variables using matrix methods. Given a system \\(AX = B\\) where \\(A\\) is a \\(3 \\times 3\\) coefficient matrix, \\(X\\) is the column matrix of variables, and \\(B\\) is the constant column matrix, two equivalent techniques are taught: (1) **Matrix Inversion Method** — if \\(\\det(A) \\neq 0\\), the unique solution is \\(X = A^{-1}B\\); (2) **Cramer’s Rule** — each variable \\(x_i = \\frac{\\det(A_i)}{\\det(A)}\\) where \\(A_i\\) is obtained by replacing the \\(i\\)-th column of \\(A\\) with \\(B\\). The node also introduces **consistency conditions**: a system is consistent if \\(\\operatorname{rank}(A) = \\operatorname{rank}([A|B])\\); it has a unique solution when this rank equals the number of variables (3), infinite solutions when rank < 3 but equal, and no solution when ranks differ. The relationship between determinants, matrix inverses, and rank is emphasized, linking the earlier nodes on matrices, determinants, and matrix inversion."
+ },
+ {
+  "file": "c11_appmath_isc_02_008.md",
+  "subject": "appmath",
+  "words": 151,
+  "flags": [],
+  "definition": "This node synthesises the three core sub‑concepts of Chapter 02 — matrices, determinants, and their applications — into a unified problem‑solving toolkit aligned with ISC examination expectations. A matrix is a rectangular array of real numbers arranged in rows and columns, denoted \\(A = [a_{ij}]_{m \\times n}\\). The determinant, defined only for square matrices, is a scalar function \\(\\det(A)\\) that encodes volume‑scaling and invertibility information. Key relationships: a square matrix \\(A\\) is invertible iff \\(\\det(A) \\neq 0\\); the inverse is given by \\(A^{-1} = \\frac{1}{\\det(A)}\\operatorname{adj}(A)\\); Cramer’s rule expresses each unknown \\(x_i\\) in a linear system \\(AX = B\\) as \\(x_i = \\frac{\\det(A_i)}{\\det(A)}\\) where \\(A_i\\) replaces column \\(i\\) of \\(A\\) with \\(B\\). Applications include solving simultaneous equations, analysing network flows, and performing geometric transformations. The node emphasises recognizing which method (inverse, Cramer, row‑reduction) is most efficient for a given ISC‑style problem, handling singular matrices, and interpreting determinant sign changes under row operations."
+ },
+ {
+  "file": "c11_appmath_isc_04_008.md",
+  "subject": "appmath",
+  "words": 159,
+  "flags": [],
+  "definition": "This node synthesises the two core ideas of Chapter 4: limits and derivatives (introduction). A limit describes the value a function approaches as its input approaches a specific point, formalised as \\(\\lim_{x\\to a}f(x)=L\\) when for every \\(\\varepsilon>0\\) there exists \\(\\delta>0\\) such that \\(0<|x-a|<\\delta\\Rightarrow|f(x)-L|<\\varepsilon\\). The derivative of \\(f\\) at \\(a\\) is defined as the limit of the difference quotient: \\(f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\), provided the limit exists. The derivative represents the instantaneous rate of change of \\(f\\) with respect to its variable and geometrically equals the slope of the tangent to the curve \\(y=f(x)\\) at \\((a,f(a))\\). The relationship is hierarchical: limits provide the rigorous foundation; the derivative is a *specific* limit of a quotient. Mastery of limit laws (sum, product, quotient, composition) and standard limits (\\(\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\), \\(\\lim_{x\\to0}\\frac{e^x-1}{x}=1\\)) is essential before differentiating elementary functions (polynomials, \\(\\sin x\\), \\(\\cos x\\), \\(e^x\\), \\(\\ln x\\)) from first principles. This node does **not** introduce differentiation rules (product, quotient, chain) — those belong to the next chapter slice."
+ },
+ {
+  "file": "c11_appmath_isc_05_008.md",
+  "subject": "appmath",
+  "words": 178,
+  "flags": [],
+  "definition": "This node integrates the two core pillars of Chapter 5 — descriptive statistics and probability basics — into a coherent framework for solving CISCE ISC Applied Mathematics problems. Descriptive statistics provides numerical summaries: measures of central tendency (mean μ, median, mode), measures of dispersion (range, variance σ², standard deviation σ, coefficient of variation), and graphical representations (histograms, ogives). Probability basics supplies the language of randomness: sample space S, events A, B, axioms of probability, addition rule P(A∪B)=P(A)+P(B)−P(A∩B), multiplication rule P(A∩B)=P(A)·P(B|A), and conditional probability P(A|B)=P(A∩B)/P(B). The synthesis requires recognising when a problem demands a statistical summary first (e.g., compute mean and σ from a frequency table) and then a probability calculation based on that summary (e.g., find the probability that a randomly chosen observation lies within one σ of the mean). It also covers typical ISC exam patterns: combined mean/variance problems, “at least one” probability using complement, and interpretation of skewed data using median versus mean. The node does not introduce new theory but consolidates, extends, and applies the concepts from the earlier nodes and 003 in exam‑style contexts."
+ },
+ {
+  "file": "c11_appmath_isc_06_008.md",
+  "subject": "appmath",
+  "words": 144,
+  "flags": [],
+  "definition": "This node synthesises propositional logic, statement classification, and argument analysis into a unified framework aligned with ISC examination patterns. It integrates the concepts of simple and compound propositions, logical connectives (¬, ∧, ∨, →, ↔), truth‑table construction for up to three variables, and the identification of tautologies, contradictions, and contingencies. Arguments are formalised as sets of premises leading to a conclusion; validity is tested via truth tables or rules of inference (modus ponens, modus tollens, hypothetical syllogism, disjunctive syllogism). The node also maps common ISC question types — symbolic translation, truth‑table completion, logical equivalence proofs, fallacy detection, and mark‑allocation strategies — to the sub‑topics covered in the earlier nodes in this chain. Relationships between sub‑concepts are emphasised: every argument rests on the truth‑functional behaviour of its component statements; logical equivalences (De Morgan, implication, biconditional) provide algebraic shortcuts that reduce truth‑table workload in timed exams."
+ },
+ {
+  "file": "c11_appmath_isc_12_007.md",
+  "subject": "appmath",
+  "words": 154,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node introduces the exponential (Euler) form of a complex number and De Moivre’s theorem. A complex number `z = x + iy` with modulus `r = √(x² + y²)` and argument `θ = arg(z)` can be written as `z = r(cos θ + i sin θ) = r e^{iθ}` (Euler’s formula). De Moivre’s theorem states that for any integer `n`, `(cos θ + i sin θ)^n = cos(nθ) + i sin(nθ)` or equivalently `(r e^{iθ})^n = r^n e^{inθ}`. The theorem extends to rational `n` to find the `n` distinct `n`‑th roots of a complex number: `z^{1/n} = r^{1/n} e^{i(θ + 2kπ)/n}`, `k = 0,1,…,n‑1`. These results link algebraic powers/roots to geometric rotation and scaling on the Argand plane. The node assumes mastery of rectangular form, conjugate, modulus, and argument (the earlier nodes) and polar representation. It does not cover applications to differential equations, contour integration, or hyperbolic functions, which belong to higher‑level courses."
+ },
+ {
+  "file": "c11_appmath_isc_15_006.md",
+  "subject": "appmath",
+  "words": 156,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node covers applications of the binomial theorem for a positive integral index n. Building on the general term T_{r+1} = ^nC_r a^{n-r} b^r and the identification of middle term(s), we apply these tools to: (1) find a particular term in the expansion (e.g., the 7th term), (2) determine the coefficient of a specified power of x, (3) locate the term independent of x (constant term) by solving for r such that the exponent of x vanishes, and (4) use the binomial approximation (1+x)^n ≈ 1+nx for |x| ≪ 1 to estimate values like (1.01)^5 or √(1.02). The relationship between sub‑concepts is linear: the general term formula is the engine; setting its exponent equal to a target yields the desired term; setting the exponent to zero yields the constant term; truncating after the linear term gives the approximation. All results are exact for positive integer n; the approximation is valid only when higher‑order terms are negligible."
+ },
+ {
+  "file": "c11_appmath_isc_17_008.md",
+  "subject": "appmath",
+  "words": 155,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node synthesises the two core sub‑concepts of Chapter 17: (1) **Slope and forms of equations** — the slope *m* = (y₂−y₁)/(x₂−x₁) quantifies steepness; the line can be expressed in point‑slope form *y−y₁ = m(x−x₁)*, slope‑intercept form *y = mx + c*, intercept form *x/a + y/b = 1*, and general form *Ax + By + C = 0*. (2) **Distance of a point from a line** — the perpendicular distance *d* from point *P(x₀, y₀)* to line *Ax + By + C = 0* is *d = |Ax₀ + By₀ + C| / √(A² + B²)*. The synthesis requires fluency in converting between forms, recognising parallel (equal slopes) and perpendicular (product of slopes = −1) conditions, and applying the distance formula to loci, parallel‑line offsets, and optimisation problems. Mastery means a student can, given any geometric description, select the most efficient algebraic form, manipulate it correctly, and interpret the result in the original context."
+ },
+ {
+  "file": "c11_appmath_isc_20_005.md",
+  "subject": "appmath",
+  "words": 146,
+  "flags": [],
+  "definition": "This node covers the derivatives of standard transcendental functions: trigonometric (sin x, cos x, tan x, cot x, sec x, cosec x), exponential (eˣ, aˣ), and logarithmic (ln x, logₐ x). Each derivative is derived once from first principles (limit of the difference quotient) and then stored as a differentiation rule. The rules relate to the algebraic differentiation rules (sum, product, quotient, chain) mastered in the prerequisite node. For example, d/dx(sin x) = cos x, d/dx(eˣ) = eˣ, d/dx(ln x) = 1/x. These formulas allow instantaneous rate‑of‑change calculations for any combination of these functions using the chain rule. The domain restrictions (e.g., ln x defined for x>0, tan x undefined at odd multiples of π/2) are part of the definition. The node also introduces the derivative of inverse trigonometric functions (sin⁻¹x, cos⁻¹x, tan⁻¹x) as an extension, but their full treatment is reserved for the next node."
+ },
+ {
+  "file": "c11_appmath_isc_20_007.md",
+  "subject": "appmath",
+  "words": 196,
+  "flags": [],
+  "definition": "This node covers the derivatives of standard transcendental functions: trigonometric (sin x, cos x, tan x, cot x, sec x, cosec x), exponential (eˣ, aˣ) and logarithmic (ln x, logₐ x). The derivative of a function f at x, denoted f′(x) or df/dx, is defined as the limit limₕ→₀ [f(x+h)−f(x)]/h, provided the limit exists. For the six trigonometric functions, the derivatives are derived using the limits limₕ→₀ (sin h)/h = 1 and limₕ→₀ (1−cos h)/h = 0, together with trigonometric identities. For the exponential function eˣ, the derivative is eˣ because limₕ→₀ (eʰ−1)/h = 1. For aˣ (a>0, a≠1), the derivative is aˣ ln a, obtained by writing aˣ = eˣˡⁿᵃ and applying the chain rule. For the natural logarithm ln x, the derivative is 1/x, derived from the inverse relationship with eˣ. For logₐ x, the derivative is 1/(x ln a). These formulas are the building blocks for differentiating composite functions involving these standard functions, using the chain rule, product rule, and quotient rule. The node also includes higher‑order derivatives (e.g., d²/dx² sin x = −sin x) and the derivatives of inverse trigonometric functions (e.g., d/dx sin⁻¹x = 1/√(1−x²)), which are required for ISC‑level problems."
+ },
+ {
+  "file": "c11_appmath_isc_20_008.md",
+  "subject": "appmath",
+  "words": 134,
+  "flags": [],
+  "definition": "This node synthesises the chapter’s core ideas — limits of standard functions (polynomial, rational, trigonometric, exponential, logarithmic) and differentiation from first principles together with the sum, product, quotient, and chain rules — into a coherent problem‑solving framework aligned with CISCE ISC examination patterns. It emphasises recognising which limit theorem or differentiation rule applies, manipulating algebraic forms to standard limits (e.g., \\(\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\)), and executing multi‑step derivative calculations under timed conditions. The node also maps typical question types: “evaluate the limit”, “find the derivative using first principles”, “apply the chain rule to a composite function”, and “interpret the derivative as a rate of change in a real‑world context”. Mastery here means a student can select the appropriate technique, present a logically ordered solution, and avoid common algebraic slips that cost marks in the board paper."
+ },
+ {
+  "file": "c11_appmath_isc_21_006.md",
+  "subject": "appmath",
+  "words": 217,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node addresses the selection and interpretation of measures of dispersion after the student has learned to compute range, mean deviation, standard deviation, variance, and coefficient of variation. It establishes criteria for choosing an appropriate measure based on (i) the nature of the data (raw, grouped, open‑ended classes), (ii) the presence of outliers, (iii) the need for unit‑free comparison across datasets, and (iv) the purpose of analysis (descriptive summary, inferential readiness, or risk assessment). The concept links each measure to its mathematical properties: range is simple but highly sensitive to extremes; mean deviation uses absolute deviations and is less affected by outliers than variance; standard deviation and variance square deviations, giving weight to larger gaps and enabling algebraic manipulation; coefficient of variation (CV) expresses standard deviation as a percentage of the mean, providing a dimensionless index for comparing variability of datasets with different units or scales. The node also clarifies that no single measure is universally superior; the choice depends on the analytical goal and data characteristics. Relationships among sub‑concepts are highlighted: variance is the square of standard deviation; CV = (σ/μ)×100; mean deviation about mean vs. median; and the effect of linear transformations on each measure. This synthesis prepares the student for advanced applications such as quality control, portfolio risk, and hypothesis testing in later chapters."
+ },
+ {
+  "file": "c11_appmath_isc_26_007.md",
+  "subject": "appmath",
+  "words": 161,
+  "flags": [],
+  "definition": "This node covers three core proof techniques in deductive reasoning: **direct proof**, **proof by contrapositive**, and **proof by contradiction**. A *direct proof* assumes the hypothesis \\(P\\) and uses definitions, axioms, and previously established theorems to deduce the conclusion \\(Q\\). A *proof by contrapositive* proves the logically equivalent statement \\(\\neg Q \\Rightarrow \\neg P\\) instead of \\(P \\Rightarrow Q\\). A *proof by contradiction* assumes \\(\\neg (P \\Rightarrow Q)\\) (i.e., \\(P \\land \\neg Q\\)) and derives a contradiction (a statement and its negation both true), thereby establishing \\(P \\Rightarrow Q\\). These methods rely on the logical connectives and quantifiers studied in earlier nodes (the earlier nodes) and on the concept of a mathematically acceptable statement. They also connect to *odd man out* puzzles where identifying the invalid step mirrors spotting a flawed inference. Mastery of these techniques enables students to construct rigorous arguments and to evaluate the validity of given proofs — a skill tested in ISC Applied Mathematics through multi-step reasoning questions."
+ },
+ {
+  "file": "c11_appmath_isc_30_006.md",
+  "subject": "appmath",
+  "words": 201,
+  "flags": [],
+  "definition": "This node covers the **computation of total income and tax liability for resident individuals** under the Income‑Tax Act, 1961 (as amended for the relevant assessment year). The process involves:  \n1. **Gross Total Income (GTI)** – sum of five heads of income (salary, house property, business/profession, capital gains, other sources).  \n2. **Deductions under Chapter VI‑A** – primarily Section 80C (up to ₹1.5 lakh), 80D (health insurance premiums), 80E (education loan interest), etc., subtracted from GTI to arrive at **Total Income (TI)**.  \n3. **Application of slab rates** – for FY 2023‑24 (AY 2024‑25) the slabs for individuals below 60 years are:  \n   - ₹0‑₹2.5 lakh → 0 %  \n   - ₹2.5‑₹5 lakh → 5 %  \n   - ₹5‑₹10 lakh → 20 %  \n   - Above ₹10 lakh → 30 %  \n   (Senior citizens have higher exemption limits.)  \n4. **Rebate under Section 87A** – up to ₹12,500 if TI ≤ ₹5 lakh.  \n5. **Health & Education Cess** – 4 % on tax after rebate.  \nThe final **Tax Payable** = (Tax on slabs – Rebate) × 1.04.  \nRelationships: GTI → (minus deductions) → TI → (slab calculation) → Tax before cess → (minus rebate) → Tax after rebate → (+ cess) → Tax Payable. All amounts in Indian Rupees (INR)."
+ },
+ {
+  "file": "c11_bio_isc_03_007.md",
+  "subject": "bio",
+  "words": 169,
+  "flags": [
+   "R2_takeaway",
+   "R2_steps"
+  ],
+  "definition": "This node details four plant‑specific structural components: chloroplasts, vacuoles, cytoskeleton, and cell wall. Chloroplasts are double‑membrane organelles containing thylakoid stacks (grana) where photosynthetic pigments capture light energy; stroma houses Calvin‑cycle enzymes. Vacuoles are membrane‑bound (tonoplast) sacs occupying up to 90 % of cell volume; they store ions, metabolites, pigments, and hydrolytic enzymes, and generate turgor pressure against the cell wall. The cytoskeleton comprises microtubules (tubulin polymers, 25 nm diameter), microfilaments (actin, 7 nm), and intermediate filaments; it maintains cell shape, anchors organelles, directs vesicle traffic, and forms the phragmoplast during cytokinesis. The cell wall is a rigid extracellular matrix of cellulose microfibrils embedded in hemicellulose and pectin; primary walls are flexible, secondary walls (with lignin) provide waterproofing and mechanical strength. These structures interact: chloroplast‑produced sucrose loads into vacuoles, raising osmotic pressure; cytoskeleton positions chloroplasts for optimal light capture; cell wall resists the resulting turgor, preventing lysis. Unlike animal cells, plant cells lack centrosomes and lysosomes; vacuoles perform lysosomal degradation. Understanding these organelles explains plant rigidity, autotrophy, and growth patterns."
+ },
+ {
+  "file": "c11_biotech_isc_12_008.md",
+  "subject": "biotech",
+  "words": 137,
+  "flags": [],
+  "definition": "This node synthesises the four core concepts of Chapter 12 — gene pool, allele frequency, Hardy‑Weinberg equilibrium, and pharmacogenetics/pharmacogenomics — into a coherent framework for CISCE ISC examination preparation. A gene pool is the total genetic information in a population; allele frequency quantifies the proportion of each allele at a locus. The Hardy‑Weinberg law (p² + 2pq + q² = 1, p + q = 1) predicts genotype frequencies under ideal conditions (no mutation, migration, selection, drift, or non‑random mating). Deviations from these expectations reveal evolutionary forces. Pharmacogenetics studies how single‑gene variants affect drug response, while pharmacogenomics extends this to genome‑wide influences, enabling personalised therapy. The node connects these ideas by showing how population‑level allele frequencies inform drug‑dose guidelines for Indian sub‑populations, and how exam questions test both quantitative Hardy‑Weinberg calculations and conceptual links to clinical biotechnology."
+ },
+ {
+  "file": "c11_cs_isc_05_008.md",
+  "subject": "cs",
+  "words": 201,
+  "flags": [],
+  "definition": "This node synthesises the three core ideas of Chapter 05 — class versus object, the BlueJ/Greenfoot objects‑first pedagogy, and interfaces as behavioural contracts — into a toolkit for ISC examination success. A class defines the static blueprint: fields, constructors, and methods. An object is a runtime instance that holds its own copy of instance fields and responds to method calls. BlueJ/Greenfoot makes this concrete by letting students instantiate objects on the object bench, inspect field values, and invoke methods interactively, mirroring the “trace the execution” questions that dominate ISC papers. An interface declares a set of method signatures without implementation; any class that implements the interface guarantees those behaviours, enabling polymorphic code — a favourite theme in 4‑mark design questions. The node maps each sub‑concept to recurring exam patterns: (1) predict‑output snippets that test object creation, method chaining, and reference assignment; (2) find‑the‑error items where a missing implementation or incorrect constructor visibility breaks compilation; (3) design tasks requiring a minimal interface and two implementing classes. By practising these patterns with timed drills, students internalise the step‑by‑step reasoning the marking scheme rewards: identify the type of each reference, follow the construction chain, apply dynamic dispatch, and write the exact output or correction."
+ },
+ {
+  "file": "c11_cs_isc_13_008.md",
+  "subject": "cs",
+  "words": 80,
+  "flags": [],
+  "definition": "This node integrates algorithm design, correctness proof, Java implementation, and systematic debugging into a coherent exam-ready workflow. Short-answer tracing, long-answer program writing, error-spotting, and algorithm-analysis items all map directly to Chapter 13 sub-concepts here. Correct algorithms must remain logically sound with valid pre-/post-conditions and compile safely within the prescribed Java subset. Marking schemes reward algorithm descriptions, variable declarations, loop invariants, edge-case handling, and exact output formatting. Past-paper fragments and timed lab tasks help students internalize abstract design into examinable code."
+ },
+ {
+  "file": "c11_econ_isc_06_008.md",
+  "subject": "econ",
+  "words": 171,
+  "flags": [],
+  "definition": "This node synthesises the chapter’s core parameters of development: per capita income (PCI) and the Human Development Index (HDI). PCI is defined as national income divided by mid‑year population; it is a simple average that ignores distribution, non‑market activities, and price‑level differences across countries. Its limitations — inequality blindness, exclusion of informal sector, purchasing power parity (PPP) adjustments — are critical for exam answers. HDI, constructed by UNDP, combines three dimension indices: health (life expectancy at birth), education (mean years of schooling and expected years of schooling), and standard of living (GNI per capita at PPP). Each dimension index is calculated using goalposts (minimum and maximum values) and then aggregated by geometric mean. India’s HDI value and rank in the latest UNDP Human Development Report illustrate progress and gaps; the report also provides inequality‑adjusted HDI (IHDI) and gender‑related indices. Understanding the construction steps, the rationale for geometric mean, and the interpretation of India’s position relative to peers is essential for CISCE ISC questions that ask for calculation, comparison, or critical evaluation."
+ },
+ {
+  "file": "c11_econ_isc_10_008.md",
+  "subject": "econ",
+  "words": 75,
+  "flags": [],
+  "definition": "This node consolidates Chapter 10 core ideas—economic growth versus development, sustainable development, and global warming—into a single ISC exam framework for short-answer, data-response, and evaluative essay questions. It maps command words like \"distinguish\", \"explain\", \"analyse\", and \"evaluate\" to answer templates covering definitions, Indian examples, diagrams or tables, and policy implications. The node integrates the earlier nodes, and 004 to help students transition from isolated recall to the advanced analysis and evaluation required by the Council."
+ },
+ {
+  "file": "c11_hist_isc_04_007.md",
+  "subject": "hist",
+  "words": 197,
+  "flags": [],
+  "definition": "This node examines the constitutional and repressive measures of 1919 that marked a decisive shift from elite petitioning to mass civil resistance in the growth of Indian nationalism. The **Montagu-Chelmsford Reforms** (Government of India Act, 1919) introduced **dyarchy** in provinces, transferring subjects like education and health to elected Indian ministers while keeping finance, law, and order under British-appointed governors. Simultaneously, the **Rowlatt Act** (Anarchical and Revolutionary Crimes Act, 1919) extended wartime emergency powers — detention without trial, censorship, and special courts — into peacetime. The **Jallianwala Bagh massacre** (13 April 1919) in Amritsar, where General Dyer ordered troops to fire on an unarmed crowd, became the symbol of British brutality. In response, **Mahatma Gandhi** launched the **Rowlatt Satyagraha** (April 1919), the first all-India hartal and civil disobedience campaign, signalling the advent of Gandhian mass nationalism. These events are causally linked: the reforms disappointed nationalist aspirations for responsible government; the Rowlatt Act betrayed wartime promises of reform; the massacre radicalised moderate opinion; and Gandhi’s satyagraha provided a new methodology that would define the next phase (Non-Cooperation Movement). The node connects the constitutional trajectory (Morley-Minto 1909 → Montagu-Chelmsford 1919) with the shift from constitutional agitation to extra-legal mass mobilisation."
+ },
+ {
+  "file": "c11_hist_isc_10_005.md",
+  "subject": "hist",
+  "words": 118,
+  "flags": [],
+  "definition": "This node examines Mussolini’s foreign policy and expansionist drives from the March on Rome (1922) to the eve of World War II (1939). It covers the shift from diplomatic caution (Corfu Incident 1923, Locarno 1925, Lateran Treaty 1929) to overt aggression (invasion of Abyssinia 1935‑36, intervention in Spanish Civil War 1936‑39, annexation of Albania 1939) and the alignment with Nazi Germany (Rome‑Berlin Axis 1936, Anti‑Comintern Pact 1937, Pact of Steel 1939). The concept links domestic consolidation — censorship, corporatist economy, cult of the Duce — to the need for foreign triumphs to legitimise the regime. It also analyses the League of Nations’ failure to check Italian aggression and the strategic miscalculations that tied Italy to Hitler’s war machine."
+ },
+ {
+  "file": "c11_hist_isc_10_007.md",
+  "subject": "hist",
+  "words": 120,
+  "flags": [
+   "R5_worked"
+  ],
+  "definition": "This node examines Mussolini’s foreign policy and expansionist drive from the consolidation of his dictatorship (1925) to the eve of World War II (1939). It links the domestic “corporate state” (covered in the earlier node) to Italy’s aggressive diplomacy: the 1923 Corfu incident, the 1924 Fiume annexation, the 1928 Italo‑Ethiopian Treaty, the 1935‑36 invasion of Abyssinia, the 1936‑39 intervention in the Spanish Civil War, and the 1939 Pact of Steel with Nazi Germany. The concept connects ideological motives (reviving Roman glory, “spazio vitale”), strategic calculations (Mediterranean dominance, countering France/Britain), and the diplomatic isolation that pushed Mussolini toward Hitler. It also evaluates the economic strain of militarisation on the corporate economy and the propaganda machine that sold war as national regeneration."
+ },
+ {
+  "file": "c11_hist_isc_10_008.md",
+  "subject": "hist",
+  "words": 175,
+  "flags": [],
+  "definition": "This node synthesises the entire Chapter 10 — Rise of Fascism under Mussolini (1919‑39) — and translates the historical content into CISCE ISC examination practice. It connects three core sub‑concepts: (1) post‑war discontent (economic collapse, social unrest, weak liberal governments) that created a vacuum for radical alternatives; (2) Mussolini’s political trajectory from the 1921 election, through the formation of the National Fascist Party, the March on Rome (October 1922), to the legal consolidation via the Acerbo Law (1923) and subsequent exceptional laws; (3) the domestic and economic policies — corporate state, Battle for Grain, Battle for Births, public works, and repression — and their critical appraisal (short‑term gains vs. long‑term structural weaknesses). The node does not re‑teach these narratives (they belong to the earlier nodes of this chapter) but shows how to integrate them into structured answers, source‑based questions, and comparative essays that match ISC marking rubrics. It also highlights typical exam traps: overstating the March on Rome as a violent coup, confusing Fascist corporatism with pure capitalism, and treating propaganda speeches as factual evidence."
+ },
+ {
+  "file": "c11_hist_isc_12_003.md",
+  "subject": "hist",
+  "words": 132,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node examines the **key incidents and expansionist actions (1931‑1937)** that transformed Japanese militarism from ideology into concrete aggression. It covers the **Manchurian Incident (18 Sept 1931)**, the **establishment of Manchukuo (1932)**, the **Lytton Commission and Japan’s withdrawal from the League of Nations (1933)**, the **May 15 Incident (1932)** and **February 26 Incident (1936)** — two attempted coups by radical officers — the **Anti‑Comintern Pact (1936)** with Germany, and the **Marco Polo Bridge Incident (7 July 1937)** that launched full‑scale war with China. The node links these events to the **Kwantung Army’s autonomy**, the **weakness of party cabinets**, and the **emperor’s ambiguous role**, showing how each crisis deepened military control over foreign and domestic policy. Relationships: economic distress (Great Depression) → military radicalisation → unilateral actions → international isolation → further militarisation."
+ },
+ {
+  "file": "c11_legal_isc_03_002.md",
+  "subject": "legal",
+  "words": 243,
+  "flags": [],
+  "definition": "This node covers the foundational procedural framework for civil litigation in India and the consumer protection regime. **Choosing the proper court** requires analysing three jurisdictional pillars: *territorial jurisdiction* (the geographic area where the cause of action arose or the defendant resides), *pecuniary jurisdiction* (the monetary value of the suit determining which level of court can hear it), and *subject‑matter jurisdiction* (the nature of the dispute, e.g., contract, property, consumer dispute). The **hierarchy of civil courts** ascends from the District Court (original jurisdiction up to a prescribed pecuniary limit), to the High Court (original and appellate jurisdiction, including writ jurisdiction), to the Supreme Court (appellate and original jurisdiction under Article 131). **Res subjudice** (Section 10 CPC) bars a court from trying a suit where the same matter is already pending in a competent court, preventing parallel proceedings. **Res judicata** (Section 11 CPC) precludes re‑litigation of issues finally decided between the same parties. The **Consumer Protection Act, 1986** (repealed) and the **Consumer Protection Act, 2019** define a *consumer* as any person who buys goods or hires services for consideration, excluding commercial resale. The 2019 Act enumerates six consumer rights (safety, information, choice, redress, consumer education, and healthy environment) and establishes a three‑tier redressal mechanism: District Commission, State Commission, National Commission. **Offences and penalties** under Sections 89‑91 of the 2019 Act punish false or misleading advertisements, manufacture/sale of adulterated/spurious goods, and non‑compliance with orders, with fines up to ₹10 lakh and imprisonment up to two years."
+ },
+ {
+  "file": "c11_legal_isc_03_006.md",
+  "subject": "legal",
+  "words": 244,
+  "flags": [],
+  "definition": "This node covers the procedural framework for selecting the proper civil court and the substantive consumer protections under the 2019 Act. **Territorial jurisdiction** (CPC Sections 16‑20) determines the geographic court where a suit may be filed — based on the defendant’s residence, cause of action, or location of immovable property. **Pecuniary jurisdiction** fixes the monetary ceiling of each court tier (e.g., District Courts up to a State‑specified limit, High Courts above that). **Subject‑matter jurisdiction** allocates specific categories (e.g., probate, matrimonial) to designated courts. The **hierarchy of civil courts** — District Court → High Court → Supreme Court — governs appeals and revisional powers. **Res subjudice** (Section 10 CPC) stays a later suit when the same matter is already pending in a competent court, preventing contradictory judgments. **Res judicata** (Section 11 CPC) bars a fresh suit on the same cause of action between the same parties after a final decision on merits. Under the **Consumer Protection Act 2019**, a “consumer” (Section 2(7)) is any person who buys goods or hires services for consideration, excluding commercial resale. The Act guarantees six **consumer rights** (Section 2(9)): safety, information, choice, redressal, consumer education, and hearing. **Offences and penalties** (Sections 89‑91) punish manufacturing/spurious goods, false advertising, and non‑compliance with orders — with fines up to ₹10 lakh and imprisonment up to seven years. These concepts interlink: proper jurisdiction ensures the consumer forum or civil court can adjudicate efficiently, while res judicata and res subjudice preserve judicial economy and finality."
+ },
+ {
+  "file": "c11_legal_isc_03_008.md",
+  "subject": "legal",
+  "words": 229,
+  "flags": [],
+  "definition": "This node covers the Consumer Protection Act (CPA) 1986 and its 2019 replacement, focusing on consumer connotations, rights, and the offences and penalties under Sections 89–91 of the 2019 Act. A “consumer” is any person who buys goods or hires services for consideration, excluding commercial resale. The 2019 Act expands the definition to include online transactions, teleshopping, and multi-level marketing. Consumer rights include the right to safety, information, choice, redressal, consumer education, and to be heard. The Act establishes a three-tier quasi-judicial machinery: District Commissions (up to ₹1 crore), State Commissions (₹1 crore–₹10 crore), and the National Commission (above ₹10 crore). Sections 89–91 prescribe penalties: Section 89 punishes false or misleading advertisements with imprisonment up to two years and fine up to ₹10 lakh; Section 90 penalises manufacture, sale, or distribution of adulterated or spurious goods with imprisonment up to seven years and fine up to ₹5 lakh; Section 91 imposes penalties for non-compliance with orders of the Commissions, including imprisonment up to three years and fine up to ₹1 lakh. These provisions work together to deter unfair trade practices and ensure effective enforcement of consumer orders. The node also links to the hierarchy of civil courts and the doctrines of res subjudice (Section 10 CPC) and res judicata (Section 11 CPC) taught in earlier blocks, showing how consumer forums operate parallel to but distinct from regular civil courts."
+ },
+ {
+  "file": "c11_legal_isc_03_013.md",
+  "subject": "legal",
+  "words": 181,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node maps the “supporting characters” of civil procedure — territorial, pecuniary, and subject‑matter jurisdiction — and their relationships with the hierarchy of civil courts (District Court → High Court → Supreme Court). It explains how *res subjudice* (Section 10 CPC) pauses a later suit when the same matter is already pending, while *res judicata* (Section 11 CPC) bars re‑litigation of a finally decided issue. These doctrines interact with jurisdiction: a court must first have jurisdiction before *res subjudice* or *res judicata* can apply. The node then introduces the Consumer Protection Act 1986 (repealed) and the 2019 Act, defining “consumer”, the six consumer rights (safety, information, choice, redressal, etc.), and the offences/penalties under Sections 89 (false complaint), 90 (non‑compliance with orders), and 91 (non‑compliance with directions). The relationship is procedural: jurisdiction selects the forum; *res subjudice*/*res judicata* regulate multiplicity; the Consumer Protection Act creates specialised forums (District Commission, State Commission, National Commission) with their own pecuniary limits, overlaying the general civil hierarchy. Understanding these links lets a student trace a dispute from filing to finality across both general and consumer‑specific tracks."
+ },
+ {
+  "file": "c11_robotics_isc_07_008.md",
+  "subject": "robotics",
+  "words": 178,
+  "flags": [],
+  "definition": "This node synthesises the mechanical‑system concepts of Chapter 07 — links, joints, manipulators, actuators, end effectors, and degrees of freedom (DoF) — into a coherent framework for CISCE ISC Robotics (867) examination. Links are rigid members that form the robot’s skeleton; joints (revolute, prismatic, spherical, etc.) connect links and constrain relative motion. A manipulator is an open kinematic chain of links and joints designed to position an end effector. Actuators (electric, hydraulic, pneumatic) supply the torque or force at joints, while end effectors (grippers, welding torches, suction cups) perform the task. The Grübler‑Kutzbach criterion (DoF = 6(N‑1) – Σ constraints) quantifies the independent motions of a spatial mechanism; for planar systems the formula reduces to DoF = 3(N‑1) – 2J₁ – J₂. Understanding how joint types, link lengths, and actuator selection interact determines workspace, payload, precision, and singularities. The node emphasises exam‑style synthesis: deriving DoF from a given kinematic diagram, selecting an actuator based on torque‑speed curves, matching an end effector to a handling task, and identifying common pitfalls such as over‑constraining a mechanism or ignoring joint limits."
+ },
+ {
+  "file": "c11_robotics_isc_10_008.md",
+  "subject": "robotics",
+  "words": 173,
+  "flags": [],
+  "definition": "This node synthesises the two core sub‑topics of Chapter 10 — sector applications and design thinking for robotic solutions — into a single exam‑focused framework. Sector applications require identifying domain‑specific constraints (e.g., hygiene in hospitals, dust‑resistance in agriculture, payload limits in logistics) and mapping them to robotic subsystems (sensors, actuators, controllers, communication). Design thinking supplies a repeatable five‑stage cycle — empathise, define, ideate, prototype, test — that structures the problem‑solving narrative examiners expect. The synthesis step teaches students to write answers that first state the sector need, then walk through each design‑thinking stage with concrete robotic choices, and finally close with evaluation criteria (cost, safety, scalability). Exam‑pattern practice covers the three ISC question archetypes: (1) 1‑mark recall/definition, (2) 3‑mark structured explanation linking a sector requirement to a sensor/actuator choice, and (3) 5‑mark case‑study where a full design‑thinking report is marked for completeness, justification, and critical reflection. Mastery here means a student can deconstruct any unseen sector scenario, produce a coherent design‑thinking response, and allocate marks per sub‑question exactly as the marking scheme demands."
+ },
+ {
+  "file": "c11_soc_isc_01_006.md",
+  "subject": "soc",
+  "words": 174,
+  "flags": [],
+  "definition": "This node examines the four major theoretical schools that shaped anthropology’s intellectual growth from the late‑19th to the mid‑20th century. **Evolutionism** (unilinear) argued that all cultures pass through identical stages — savagery, barbarism, civilization — with key proponents Edward Tylor (*Primitive Culture*, 1871) and Lewis Henry Morgan (*Ancient Society*, 1877). **Diffusionism** rejected universal stages, insisting cultural traits spread from centres of innovation; British (Grafton Elliot Smith), German (Fritz Graebner), and American (Clark Wissler) variants mapped culture circles and culture areas. **Functionalism** shifted focus to the present‑day operation of institutions: Bronisław Malinowski (*Argonauts of the Western Pacific*, 1922) emphasized biological and psychological needs, while A.R. Radcliffe‑Brown (*Structure and Function in Primitive Society*, 1952) stressed social structure’s role in maintaining solidarity. **Structuralism**, led by Claude Lévi‑Strauss (*Structural Anthropology*, 1958), sought universal deep structures of the human mind expressed in myths, kinship, and classification systems. Together these schools trace anthropology’s move from speculative history to empirical fieldwork and finally to cognitive analysis, providing the analytical lenses used in later Indian anthropological work (e.g., N.K. Bose, S.C. Dube)."
+ },
+ {
+  "file": "c11_soc_isc_03_010.md",
+  "subject": "soc",
+  "words": 211,
+  "flags": [],
+  "definition": "This node examines how sociology advances by **borrowing, adapting, and integrating key concepts** from its sister social sciences — political science, economics, anthropology, history, and psychology — into a shared analytical toolkit. The relationship is not mere copying; each concept is reshaped to fit sociological questions about group life, social structure, and collective behaviour.  \n\n* **Culture** (from anthropology) becomes a lens for shared meanings, symbols, and practices — e.g., the concept of *purity‑pollution* in caste studies.  \n* **Power, authority, state** (from political science) are re‑theorised as dispersed, relational forces shaping everyday interactions, not only formal institutions.  \n* **Class, market, rational choice** (from economics) are embedded in social relations, showing how economic positions are mediated by kinship, religion, and region.  \n* **Historical process, continuity and rupture** (from history) provide the temporal depth needed to explain why present structures — like the persistence of zamindari legacies — exist.  \n* **Motivation, identity, socialisation** (from psychology) are situated within collective norms, avoiding reduction to individual psychology.  \n\nThe node also highlights **theoretical borrowing** — e.g., Marx’s historical materialism (economic origin) re‑worked by Weber into a multi‑causal sociology of stratification — and **conceptual stretching risks** where a term loses precision when moved across disciplines. Indian illustrations (caste, panchayats, migration, consumer culture) ground each borrowing in familiar contexts."
+ },
+ {
+  "file": "c11_soc_isc_12_008.md",
+  "subject": "soc",
+  "words": 153,
+  "flags": [],
+  "definition": "This node synthesises the five core Indian sociologists covered in the chapter — Radha Kamal Mukherjee (Social Ecology), G. S. Ghurye (Theories of origin of caste), N. K. Bose (Hindu Method of Tribal Absorption), Irawati Karve (Kinship and Family), and M. N. Srinivas (Brahminization and Sanskritization). It establishes the conceptual links among them: Mukherjee’s ecological framework sets the environmental backdrop; Ghurye’s historical‑structural analysis explains caste’s emergence within that backdrop; Bose demonstrates how tribal groups are incorporated into the caste‑based Hindu order; Karve provides the kinship‑family lens that reveals regional variations in marriage, descent, and household organisation; Srinivas shows the dynamic process by which lower groups adopt Brahminical rituals (Sanskritization) and how Brahmins themselves set cultural standards (Brahminization). The synthesis highlights three recurring themes — ecology‑society interaction, structural continuity and change, and the role of ritual‑cultural emulation in mobility — which together form the analytical toolkit for answering CISCE ISC questions on Indian sociology."
+ },
+ {
+  "file": "c12_acc_isc_01_015.md",
+  "subject": "acc",
+  "words": 200,
+  "flags": [],
+  "definition": "This node synthesises the entire Chapter 1 – Fundamentals of Partnership – by integrating the statutory framework (Indian Partnership Act 1932, Sections 4, 13, 19, 24‑30), default provisions when a deed is absent, and the accounting mechanics of profit appropriation. It connects the Profit & Loss Appropriation Account (the ledger that distributes net profit) with partner‑level allocations: interest on capital (calculated on opening/closing balances per the deed or at 6 % p.a. under the Act), interest on drawings (charged on amounts withdrawn, using product or average‑period method), partner salary and commission (allowed only if the deed authorises), and transfers to reserves (e.g., General Reserve, Investment Fluctuation Reserve). It distinguishes fixed capital accounts (capital remains constant; current accounts record drawings, interest, share of profit) from fluctuating capital accounts (all transactions directly affect the capital account). The guarantee of profit clause forces the guaranteeing partner(s) to bear any shortfall so the guaranteed partner receives the promised minimum. Past adjustments rectify errors/omissions of prior periods through a Profit & Loss Adjustment Account, impacting current‑year appropriation. Mastery of these inter‑linkages enables a student to construct complete partnership final accounts, answer case‑based ISC questions, and apply the correct statutory defaults when the deed is silent."
+ },
+ {
+  "file": "c12_acc_isc_08_008.md",
+  "subject": "acc",
+  "words": 160,
+  "flags": [],
+  "definition": "This node synthesises the five core sub‑topics of Chapter 08 — Balance Sheet preparation per Schedule III Part I with notes to accounts, treatment of proposed dividend under AS‑4 (Contingencies and Events Occurring after the Balance Sheet Date), the revised nomenclature for Property, Plant & Equipment (PPE) as per the Companies (Accounting Standards) Amendment Rules, disclosure of current maturities of long‑term borrowings as a separate line item under current liabilities, and the presentation of Securities Premium under “Reserves & Surplus” with its utilisation restrictions. It connects each concept to the others: the Balance Sheet structure dictates where current maturities and securities premium appear; AS‑4 governs whether proposed dividend is a liability or a note; PPE nomenclature changes affect the fixed‑asset schedule and depreciation notes. The node’s purpose is to enable students to integrate these discrete rules into a complete, exam‑ready set of final accounts for a company, and to recognise the pattern of CISCE ISC questions that test such integration."
+ },
+ {
+  "file": "c12_ai_isc_01_003.md",
+  "subject": "ai",
+  "words": 185,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node extends the survey of AI applications across sectors by examining three high‑impact domains — Healthcare, Agriculture, and Smart Cities — through concrete Indian case studies. In Healthcare, AI systems employ computer vision (e.g., CNN‑based radiology screening) and natural language processing (clinical note extraction) to augment diagnosis, triage, and resource allocation. In Agriculture, AI combines remote sensing (satellite/drone imagery), time‑series forecasting (weather, yield), and recommendation engines (precision irrigation, pest alerts) to enable precision farming at scale. In Smart Cities, AI integrates IoT sensor streams (traffic cameras, air‑quality monitors, waste‑bin fill levels) with real‑time analytics and optimization algorithms for adaptive traffic control, pollution hotspot prediction, and dynamic waste‑collection routing. Across these sectors, the common pipeline is: data acquisition → preprocessing → model inference → decision support → human‑in‑the‑loop action. The case studies illustrate how domain constraints (data scarcity, language diversity, infrastructure gaps) shape model choice, deployment architecture (cloud vs. edge), and evaluation metrics (sensitivity, latency, cost‑per‑prediction). Relationships between sub‑concepts: the same underlying techniques (transfer learning, federated learning, reinforcement learning for control) reappear across sectors, but their instantiation differs due to regulatory, ethical, and operational contexts."
+ },
+ {
+  "file": "c12_ai_isc_01_006.md",
+  "subject": "ai",
+  "words": 133,
+  "flags": [],
+  "definition": "This node examines how Artificial Intelligence is deployed across major Indian economic sectors through concrete case studies. It connects the generic AI pipeline — data acquisition, preprocessing, model training, deployment, monitoring — to domain‑specific requirements such as regulatory compliance in healthcare (Clinical Establishments Act), seasonal variability in agriculture (kharif/rabi cycles), real‑time fraud detection in banking (RBI guidelines), and predictive maintenance in manufacturing (Industry 4.0 standards). Each case study illustrates the adaptation of model architecture (CNN for medical imaging, RNN/LSTM for time‑series crop yield, Gradient Boosting for credit scoring) and the handling of Indian‑context challenges: multilingual data, limited labelled samples, edge deployment on low‑cost hardware, and ethical bias mitigation. The node also highlights the feedback loop where domain experts validate AI outputs, enabling continuous improvement — a critical concept for the ISC practical project."
+ },
+ {
+  "file": "c12_ai_isc_02_008.md",
+  "subject": "ai",
+  "words": 121,
+  "flags": [],
+  "definition": "This node synthesizes the three core AI paradigms — Neural Networks (NN), Machine Learning (ML), and Deep Learning (DL) — by contrasting their data hunger, feature engineering needs, model complexity, interpretability, training time, and typical ISC examination focus. It maps each paradigm to the syllabus sub‑topics covered in the earlier nodes in this chain, showing how exam questions cluster around comparison tables, scenario‑based selection, and evaluation of trade‑offs. The synthesis emphasizes that NN sits between classical ML and DL: NN uses learned representations but usually with fewer layers than DL, while ML relies on handcrafted features. The node also distills CISCE marking patterns — 2‑mark definition, 3‑mark comparison, 5‑mark justification — and provides practice items that mirror the board’s “apply‑analyse‑evaluate” ladder."
+ },
+ {
+  "file": "c12_ai_isc_03_002.md",
+  "subject": "ai",
+  "words": 163,
+  "flags": [],
+  "definition": "This node covers the end‑to‑end practical workflow of constructing, training, and evaluating a feedforward artificial neural network (ANN) using Python and the Keras library. It connects the theoretical concepts — neurons, layers, activation functions, loss functions, backpropagation, and optimizers — to runnable code. The sub‑concepts include: (1) data preparation (loading, normalization, train/validation/test split), (2) model architecture definition (sequential stacking of Dense layers, choice of activation functions like ReLU for hidden layers and sigmoid/softmax for output), (3) compilation (selecting optimizer such as Adam, loss function like categorical crossentropy, and metrics), (4) training (fitting the model with epochs, batch size, and validation data), (5) evaluation (loss/accuracy curves, confusion matrix, classification report), and (6) saving/loading the trained model for inference. The relationships are sequential: data feeds the model, architecture determines capacity, compilation sets the learning objective, training updates weights via gradient descent, and evaluation validates generalization. This node does not cover convolutional or recurrent architectures, advanced regularization, or deployment pipelines — those belong to later nodes."
+ },
+ {
+  "file": "c12_ai_isc_03_005.md",
+  "subject": "ai",
+  "words": 145,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node covers the systematic evaluation of artificial neural networks (ANNs) after training. It introduces key performance metrics — accuracy, precision, recall, F1‑score, and area under the ROC curve — that quantify how well a model generalises to unseen data. Validation strategies such as hold‑out validation, k‑fold cross‑validation, and stratified sampling are explained to ensure metric estimates are unbiased and have low variance. Hyperparameter tuning methods — grid search, random search, and Bayesian optimisation — are presented as iterative loops that use validation metrics to select optimal learning rates, batch sizes, network depth, and regularisation strengths. The relationship between these sub‑concepts is causal: validation metrics guide hyperparameter choices; robust validation reduces the risk of overfitting; regularisation techniques (dropout, L2 weight decay, early stopping) directly improve validation scores. Together they form a feedback cycle that transforms a trained ANN into a reliable predictor for practical deployment."
+ },
+ {
+  "file": "c12_ai_isc_03_008.md",
+  "subject": "ai",
+  "words": 155,
+  "flags": [],
+  "definition": "This node synthesizes the end-to-end artificial neural network (ANN) workflow covered in Chapter 03, focusing on practical implementation skills required for the CISCE ISC Class 12 Artificial Intelligence (866) examination. It integrates sub-concepts from earlier nodes: data preprocessing (normalization, train-test split), model architecture design (layer types, activation functions, output units), training dynamics (loss functions, optimizers, learning rate scheduling, batch size), regularization (dropout, early stopping, weight decay), and evaluation (accuracy, precision, recall, F1-score, ROC-AUC). The relationships among these sub-concepts are emphasized: preprocessing affects convergence speed; architecture depth interacts with regularization to control overfitting; optimizer choice influences loss landscape navigation; and evaluation metrics must align with the problem type (classification vs. regression, balanced vs. imbalanced). The node also maps common ISC exam patterns — such as debugging a training loop, interpreting learning curves, selecting hyperparameters for a given dataset, and justifying design decisions — to the hands-on competencies students must demonstrate in practical assessments and theory questions."
+ },
+ {
+  "file": "c12_ai_isc_04_008.md",
+  "subject": "ai",
+  "words": 122,
+  "flags": [],
+  "definition": "This node consolidates the complete machine‑learning workflow — data acquisition, cleaning, feature engineering, model selection, training, validation, deployment, and monitoring — into a single repeatable pipeline that matches the CISCE ISC Artificial Intelligence (866) practical marking scheme. It relates each sub‑concept: raw data feeds preprocessing; engineered features feed model training; hyper‑parameter tuning feeds validation; validated model feeds deployment; monitoring feeds back into data collection. The node also maps typical exam question patterns — short‑answer definitions, diagram‑based pipeline labeling, code‑snippet debugging, and full‑pipeline design tasks — to the specific mark allocations used in the board’s practical and theory papers. By synthesising earlier concept nodes (001‑007) it provides a framework for students to translate theoretical knowledge into the structured, evidence‑driven answers the examiner expects."
+ },
+ {
+  "file": "c12_ai_isc_06_007.md",
+  "subject": "ai",
+  "words": 138,
+  "flags": [],
+  "definition": "This node explores AI applications in the agriculture sector, focusing on precision farming case studies. It covers how machine learning models (convolutional neural networks for image classification, regression models for yield prediction, and reinforcement learning for irrigation control) are trained on multispectral satellite imagery, drone-captured field photos, and IoT sensor data (soil moisture, temperature, humidity). Key sub-concepts include data acquisition (remote sensing, ground sensors), preprocessing (radiometric correction, cloud masking), model training (transfer learning from ImageNet to crop disease datasets), deployment (edge inference on low-power devices), and evaluation metrics (precision, recall, F1-score, mean absolute error for yield). Relationships: data quality directly impacts model generalizability; edge deployment constraints dictate model compression (quantization, pruning); and socio-economic factors (farmer literacy, connectivity) affect adoption. The node also examines ethical considerations: data ownership, algorithmic bias against smallholder farms, and environmental impact of AI compute."
+ },
+ {
+  "file": "c12_ai_isc_07_002.md",
+  "subject": "ai",
+  "words": 181,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node compares three AI paradigms that sit on a continuum of data‑driven abstraction. **Machine Learning (ML)** is the broad field where algorithms improve performance on a task through experience (data) without explicit programming for every rule. **Neural Networks (NN)** are a family of ML models inspired by biological neurons; they consist of layers of weighted connections that transform inputs into outputs via non‑linear activations. **Deep Learning (DL)** is a subset of NN characterised by many hidden layers (depth), enabling hierarchical feature learning — from edges to shapes to objects — directly from raw data such as images, audio, or text.  \n\nRelationships: every deep learning model is a neural network; every neural network is a machine learning model; but not every ML model is a neural network (e.g., decision trees, SVMs). The paradigms differ in **feature engineering** (manual in classical ML, automatic in DL), **data hunger** (DL needs massive labelled datasets), **interpretability** (classical ML > shallow NN > deep NN), and **compute demand** (DL >> NN >> classical ML). Understanding these trade‑offs guides the choice of paradigm for a given problem."
+ },
+ {
+  "file": "c12_ai_isc_07_008.md",
+  "subject": "ai",
+  "words": 132,
+  "flags": [],
+  "definition": "This node synthesises the three core AI paradigms — Neural Networks (NN), Machine Learning (ML), and Deep Learning (DL) — by comparing their architectural assumptions, data requirements, computational cost, and typical use‑cases. It establishes decision criteria: use classical ML (e.g., decision trees, SVM) when data is tabular, features are engineered, and interpretability matters; use shallow NN when non‑linear patterns exist but data is moderate; use DL (CNN, RNN, Transformers) for high‑dimensional unstructured data (images, audio, text) where massive labelled datasets and GPU resources are available. The node also maps CISCE ISC examination patterns: 2‑mark definition/contrast questions, 4‑mark “justify the choice” case studies, and 6‑mark design‑a‑pipeline problems. It links back to the comparison concepts and the “when to use each approach” guidelines without re‑teaching them, focusing instead on integration, exam‑style reasoning, and practice."
+ },
+ {
+  "file": "c12_ai_isc_09_008.md",
+  "subject": "ai",
+  "words": 131,
+  "flags": [],
+  "definition": "This node synthesises the two core pillars of the chapter: ML workflows (supervised and unsupervised) and model evaluation. A supervised workflow uses labelled data to learn a mapping from inputs to targets, iterating through data preprocessing, feature engineering, model selection, hyper‑parameter tuning, and validation. An unsupervised workflow discovers structure in unlabelled data via clustering, dimensionality reduction, or association rules, followed by internal validation (silhouette score, inertia). Model evaluation ties both workflows together: it defines quantitative measures (accuracy, precision, recall, F1, ROC‑AUC, RMSE) and validation strategies (k‑fold cross‑validation, stratified splits, leave‑one‑out) to estimate generalisation error. The synthesis emphasises how workflow choices (e.g., stratification in classification, scaling in clustering) directly affect which evaluation metric is trustworthy, and how exam questions test the ability to match a problem statement to the correct workflow‑evaluation pair."
+ },
+ {
+  "file": "c12_ai_isc_10_008.md",
+  "subject": "ai",
+  "words": 117,
+  "flags": [],
+  "definition": "This node synthesises the core ideas of Chapter 10 — image processing basics (pixel representation, filtering, edge detection, morphological operations) and computer vision applications (object detection, classification, segmentation, facial recognition) — into a unified framework for CISCE ISC examination preparation. It connects low‑level pixel manipulations (convolution kernels, histogram equalisation) to high‑level tasks (feature extraction, model inference) and maps each concept to typical ISC question patterns: short‑answer definitions, numerical problems on kernel convolution, algorithmic tracing of edge detection, and case‑study evaluation of real‑world CV systems (e.g., Aadhaar face authentication, traffic monitoring). The node does not introduce new algorithms; it consolidates, contrasts, and provides practice that mirrors the board’s emphasis on reasoning, error analysis, and application to Indian contexts."
+ },
+ {
+  "file": "c12_appmath_isc_01_008.md",
+  "subject": "appmath",
+  "words": 178,
+  "flags": [],
+  "definition": "This node synthesises the advanced concepts of relations and functions covered in the earlier nodes in this chain and aligns them with CISCE ISC examination patterns. It consolidates the definitions of relations (reflexive, symmetric, transitive, equivalence), functions (injective, surjective, bijective), composition of functions, inverse functions, and binary operations. The node maps each sub‑concept to typical ISC question formats: very short answer (1 mark), short answer (2‑3 marks), long answer (4‑6 marks), and case‑study or application‑based questions (5‑8 marks). It emphasises the marking scheme — step‑wise credit for stating properties, showing domain/range analysis, proving equivalence, and verifying inverse conditions. Relationships between sub‑concepts are highlighted: an equivalence relation partitions a set into disjoint equivalence classes; a bijective function guarantees a unique inverse; composition of functions is associative but not commutative. The node also identifies common exam traps — confusing codomain with range, neglecting domain restrictions in composition, and assuming every relation is a function. By integrating these elements, the node prepares students to recognise question stems, allocate time, and present solutions in the structured, step‑wise manner that ISC examiners expect."
+ },
+ {
+  "file": "c12_appmath_isc_02_008.md",
+  "subject": "appmath",
+  "words": 227,
+  "flags": [],
+  "definition": "This node consolidates the two core pillars of ISC Class 12 Applied Mathematics Chapter 2 — matrices and linear programming (LPP) foundations — into an exam‑ready synthesis. Matrices provide the algebraic machinery: a rectangular array \\(A = [a_{ij}]_{m \\times n}\\) with operations of addition, scalar multiplication, multiplication, transpose, determinant (for square matrices), inverse (when \\(\\det A \\neq 0\\)), rank, and the solution of linear systems \\(AX = B\\) via \\(X = A^{-1}B\\) or Gaussian elimination. LPP foundations build on this by formulating real‑world optimisation as: maximise/minimise \\(Z = c^T X\\) subject to \\(AX \\le b,\\; X \\ge 0\\), where \\(A\\) is the constraint matrix, \\(b\\) the resource vector, and \\(c\\) the profit/cost coefficients. The feasible region is a convex polyhedron; optimal solutions occur at extreme points (corner‑point theorem). The graphical method solves two‑variable LPPs by plotting constraints; the simplex method extends this to \\(n\\) variables using tableau pivot operations that are essentially row‑reduction on an augmented matrix. The synthesis emphasises that ISC papers frequently blend these: a multi‑part question may give a system of equations from a word problem, ask for its matrix solution, then use the resulting values as coefficients in an LPP to be solved graphically or by one simplex iteration. Mastery requires fluency in switching between matrix algebra and LPP geometry, recognising that the same row operations underpin both Gaussian elimination and simplex pivots."
+ },
+ {
+  "file": "c12_appmath_isc_03_005.md",
+  "subject": "appmath",
+  "words": 137,
+  "flags": [],
+  "definition": "This node covers **applications of definite integrals** to find areas bounded by curves. The definite integral \\(\\int_a^b f(x)\\,dx\\) represents the signed area between the graph of \\(y=f(x)\\), the x‑axis, and the vertical lines \\(x=a\\) and \\(x=b\\). When \\(f(x)\\ge 0\\) on \\([a,b]\\), the integral equals the geometric area. For two continuous curves \\(y=f(x)\\) (upper) and \\(y=g(x)\\) (lower) on \\([a,b]\\) with \\(f(x)\\ge g(x)\\), the area between them is \\(\\int_a^b [f(x)-g(x)]\\,dx\\). The concept extends the indefinite integration (antiderivatives) taught in the previous node by imposing limits and interpreting the result as a measurable quantity (area in square units). It connects to derivative applications because the Fundamental Theorem of Calculus links the area function \\(A(x)=\\int_a^x f(t)\\,dt\\) to the derivative \\(A'(x)=f(x)\\). The node also introduces the idea of splitting the interval when curves intersect, ensuring the integrand remains non‑negative for area calculation."
+ },
+ {
+  "file": "c12_appmath_isc_03_007.md",
+  "subject": "appmath",
+  "words": 190,
+  "flags": [],
+  "definition": "This node covers the application of definite integrals to compute the area between two curves and the volume of solids generated by revolving a plane region about an axis. The area between curves y = f(x) (upper) and y = g(x) (lower) from x = a to x = b is A = ∫ₐᵇ [f(x) – g(x)] dx, provided f(x) ≥ g(x) on [a, b]. For volumes, the disc method gives V = π ∫ₐᵇ [R(x)]² dx when the region is revolved about the x‑axis, where R(x) is the distance from the axis to the curve. The washer method extends this to V = π ∫ₐᵇ ([R_outer(x)]² – [R_inner(x)]²) dx for a hollow solid. These formulas rely on the Fundamental Theorem of Calculus and the concept of Riemann sums. The node also addresses setting up correct limits of integration, identifying top/bottom or outer/inner functions, and handling cases where curves intersect within the interval, requiring splitting the integral. Units: area in square units (e.g., m²), volume in cubic units (e.g., m³). The techniques are foundational for later work in differential equations, probability density functions, and commerce applications such as consumer surplus."
+ },
+ {
+  "file": "c12_appmath_isc_03_008.md",
+  "subject": "appmath",
+  "words": 138,
+  "flags": [],
+  "definition": "This node synthesises the applications of derivatives (rate of change, optimisation, tangents, normals, related rates) and integration (indefinite integrals, definite integrals, area under curves, differential equations) covered in the earlier nodes in this chain. It establishes the structural links: the derivative of a function gives instantaneous rate; the integral accumulates that rate over an interval. The Fundamental Theorem of Calculus binds them: if F'(x)=f(x), then ∫_a^b f(x) dx = F(b)−F(a). In applied contexts, derivatives model marginal cost, velocity, slope of tangent; integrals model total cost, displacement, area, consumer surplus. The node also maps the typical ISC question patterns: (i) optimisation word problems, (ii) area between curves, (iii) solving first‑order differential equations, (iv) interpreting graphs of f, f′, f″. Mastery requires fluency in switching representations — algebraic, graphical, numerical — and in recognising which calculus tool the question demands."
+ },
+ {
+  "file": "c12_appmath_isc_10_005.md",
+  "subject": "appmath",
+  "words": 148,
+  "flags": [],
+  "definition": "This node covers the algebraic properties of the inverse of a square matrix and the theorem of uniqueness of the inverse. For a non-singular square matrix A of order n, its inverse A⁻¹ is the unique matrix satisfying AA⁻¹ = A⁻¹A = Iₙ. The uniqueness theorem states that if B and C are both inverses of A, then B = C. Key properties include: (A⁻¹)⁻¹ = A; (AB)⁻¹ = B⁻¹A⁻¹ for non-singular A, B of same order; (Aᵀ)⁻¹ = (A⁻¹)ᵀ; (kA)⁻¹ = (1/k)A⁻¹ for any non-zero scalar k. These properties extend the concept of inverse from a single matrix to products, transposes, and scalar multiples, enabling simplification of complex matrix expressions. They rely on the associativity of matrix multiplication and the definition of the identity matrix. The node does not cover computation of inverses via elementary operations (reserved for next node) or application to linear systems (later node)."
+ },
+ {
+  "file": "c12_appmath_isc_13_008.md",
+  "subject": "appmath",
+  "words": 198,
+  "flags": [],
+  "definition": "This node synthesises the two core sub‑topics of Chapter 13: **standard integrals** and **definite integrals**. Standard integrals are the antiderivative formulas for elementary functions — algebraic (∫xⁿ dx = xⁿ⁺¹/(n+1) + C, n≠−1), trigonometric (∫sin x dx = −cos x + C, ∫cos x dx = sin x + C), exponential (∫eˣ dx = eˣ + C), and logarithmic (∫1/x dx = ln|x| + C). Definite integrals extend these by evaluating the antiderivative at upper and lower limits: ∫ₐᵇ f(x) dx = F(b) − F(a), where F′(x)=f(x). The Fundamental Theorem of Calculus links the two: differentiation and integration are inverse processes. Key properties of definite integrals — linearity (∫(af+bg)=a∫f+b∫g), additivity over intervals (∫ₐᵇ+∫ᵇᶜ=∫ₐᶜ), reversal (∫ₐᵇ = −∫ᵇₐ), and symmetry (∫₀ᵃ f(x) dx = ∫₀ᵃ f(a−x) dx) — are repeatedly tested in ISC papers. Exam patterns emphasise: (i) direct evaluation using standard forms, (ii) manipulation using properties before integrating, (iii) application to area, average value, and simple differential equations, and (iv) “show that” proofs requiring algebraic manipulation of the integral expression. Mastery means recognising which property or substitution simplifies a given integral, executing the algebra without sign errors, and presenting the final answer with correct limits and constant handling."
+ },
+ {
+  "file": "c12_appmath_isc_16_008.md",
+  "subject": "appmath",
+  "words": 148,
+  "flags": [],
+  "definition": "This node synthesizes four core concepts of Chapter 16: conditional probability, Bayes’ theorem, random variables, and their mean and variance. Conditional probability \\(P(A|B) = \\frac{P(A \\cap B)}{P(B)}\\) quantifies the likelihood of event \\(A\\) given that \\(B\\) has occurred. Bayes’ theorem \\(P(A|B) = \\frac{P(B|A)P(A)}{P(B)}\\) reverses the conditioning, enabling posterior probability updates from prior knowledge and new evidence. A random variable \\(X\\) maps each outcome of a random experiment to a real number; its probability distribution lists values \\(x_i\\) with probabilities \\(p_i\\). The mean (expected value) \\(E(X) = \\sum x_i p_i\\) measures central tendency, while the variance \\(\\text{Var}(X) = E(X^2) - [E(X)]^2\\) measures dispersion. These ideas interlink: conditional probabilities often define the distribution of a random variable (e.g., number of successes in Bernoulli trials), and Bayes’ theorem updates the parameter probabilities of that distribution. Mastery requires fluently moving between these representations to model real-world uncertainty and solve ISC examination problems."
+ },
+ {
+  "file": "c12_appmath_isc_21_007.md",
+  "subject": "appmath",
+  "words": 159,
+  "flags": [],
+  "definition": "This node introduces **Weighted Moving Averages (WMA)** and **Exponential Smoothing (ES)** as advanced smoothing techniques for time series data. A Weighted Moving Average assigns distinct weights \\(w_i\\) (summing to 1) to the most recent \\(k\\) observations, computing \\(\\hat{Y}_t = \\sum_{i=1}^{k} w_i Y_{t-i+1}\\) where \\(w_1\\) applies to the latest observation \\(Y_t\\). Exponential Smoothing recursively updates the forecast: \\(\\hat{Y}_{t+1} = \\alpha Y_t + (1-\\alpha)\\hat{Y}_t\\) with smoothing constant \\(\\alpha \\in (0,1)\\). Both methods prioritize recent data, reducing lag compared to simple moving averages. WMA requires choosing a weight scheme; ES requires selecting \\(\\alpha\\). They are used for short-term forecasting and trend estimation when the series has no strong seasonality. The node also covers **Centered Moving Averages (CMA)** for even-period cycles (e.g., 4-quarter) to align the average with the central time point, computed by averaging two successive simple moving averages. These techniques extend the basic moving average concepts from earlier nodes (the earlier nodes) and prepare for model evaluation in the later node."
+ },
+ {
+  "file": "c12_bio_isc_06_008.md",
+  "subject": "bio",
+  "words": 136,
+  "flags": [],
+  "definition": "This node integrates the five core sub‑concepts of the Evolution chapter — Darwinism (descent with modification), natural selection (differential survival/reproduction), mechanisms of evolution (mutation, gene flow, genetic drift, non‑random mating), Hardy‑Weinberg equilibrium (allele‑frequency stability under ideal conditions), and human evolution (fossil and molecular evidence). It defines the quantitative relationship between allele frequencies (p, q) and genotype frequencies (p², 2pq, q²) and shows how violations of Hardy‑Weinberg assumptions (large population, random mating, no mutation, no migration, no selection) produce measurable evolutionary change. The node also maps the typical ISC question patterns: (i) numerical Hardy‑Weinberg calculations, (ii) interpretation of phylogenetic trees, (iii) evaluation of evidence for natural selection, and (iv) synthesis of multiple mechanisms in a single scenario. Mastery requires the ability to move fluidly between conceptual description, algebraic manipulation, and critical appraisal of experimental or fossil data."
+ },
+ {
+  "file": "c12_bio_isc_10_008.md",
+  "subject": "bio",
+  "words": 149,
+  "flags": [],
+  "definition": "This node integrates the five core biotechnology applications — Bt crops, RNA interference (RNAi), gene therapy, transgenic animals, and bioethics — into a coherent framework for CISCE ISC Class 12 assessment. It defines the logical relationships: Bt crops illustrate *in planta* expression of a bacterial Cry protein; RNAi demonstrates post‑transcriptional gene silencing via siRNA/miRNA; gene therapy distinguishes somatic (non‑heritable) from germline (heritable) approaches; transgenic animals showcase recombinant protein production (e.g., human antithrombin in goat milk) and disease models; ethics supplies the decision‑making lens (biosafety, IPR, equity). The node maps each sub‑concept to typical ISC question patterns — definition (1 mark), mechanism (2 marks), comparison (3 marks), evaluation (4 marks), and case‑study (5 marks) — and provides synthesis strategies: concept‑mapping, keyword‑trigger tables, and timed answer‑writing drills. It does not re‑teach the molecular details covered in the earlier nodes in this chain but shows how to interconnect them for high‑order questions."
+ },
+ {
+  "file": "c12_bio_isc_12_008.md",
+  "subject": "bio",
+  "words": 192,
+  "flags": [],
+  "definition": "This node synthesises the four core sub‑concepts of Chapter 12 — energy flow, nutrient cycles, ecological pyramids, and succession — into a single framework for ISC examination readiness. Energy flow is unidirectional, governed by the laws of thermodynamics; only ~10 % of energy ingested at one trophic level is transferred to the next (Lindeman’s rule), the rest lost as heat. Nutrient cycles (carbon, nitrogen, phosphorus) are biogeochemical loops where elements move between abiotic reservoirs and biotic pools, driven by processes such as photosynthesis, respiration, decomposition, and nitrogen fixation. Ecological pyramids — of numbers, biomass, and energy — visually represent the decline of these quantities across trophic levels; the energy pyramid is always upright, while numbers and biomass pyramids may invert depending on organism size and turnover rates. Succession describes the predictable, directional change in community composition over time, from pioneer species on bare substrate (primary) or disturbed soil (secondary) to a relatively stable climax community, with each stage modifying the environment for the next. The node’s role is to integrate these ideas, expose recurring ISC question patterns (diagram labelling, numerical efficiency calculations, multi‑part descriptive answers), and provide practice in constructing mark‑scheme‑aligned responses."
+ },
+ {
+  "file": "c12_bst_isc_21_008.md",
+  "subject": "bst",
+  "words": 198,
+  "flags": [],
+  "definition": "This node synthesises the two core online‑business models covered in Chapter 21 — Intra‑B (intra‑business electronic processes) and G2B (government‑to‑business electronic services) — and maps them to the CISCE ISC examination pattern. Intra‑B refers to the use of intranets, ERP modules, workflow automation, and internal APIs to integrate functions such as procurement, inventory, HR, and finance within a single legal entity. G2B covers portals like the MCA21 portal for company filings, the GSTN portal for tax compliance, the ICEGATE portal for customs, and the RBI’s Bharat Bill Payment System for regulatory payments. The synthesis highlights how Intra‑B creates data readiness (master data, transaction logs) that G2B portals consume for statutory reporting, and how G2B mandates (e‑invoicing, e‑way bill) drive further Intra‑B automation. Relationships include: (1) data flow from Intra‑B to G2B (e.g., GST returns auto‑populated from ERP), (2) compliance feedback loop (G2B status updates trigger Intra‑B alerts), and (3) strategic alignment (digital transformation roadmaps prioritise modules that satisfy both internal efficiency and external regulatory requirements). The node also catalogues typical ISC question types — short‑answer definitions, case‑based application, diagram‑labeling of data flows, and evaluation of implementation challenges — and provides practice items that mirror the board’s marking scheme."
+ },
+ {
+  "file": "c12_chem_isc_08_008.md",
+  "subject": "chem",
+  "words": 190,
+  "flags": [],
+  "definition": "This node consolidates the synthetic toolkit for aldehydes, ketones, and carboxylic acids covered in the earlier nodes of this chapter and translates it into the patterns that appear in CISCE ISC Class 12 Chemistry papers. It defines the reagent‑product map for key transformations: oxidation of primary alcohols to aldehydes (PCC, DMP) and to acids (KMnO₄, CrO₃/H₂SO₄), oxidation of secondary alcohols to ketones (PCC, PDC), reduction of carbonyls (NaBH₄, LiAlH₄), nucleophilic addition of Grignard reagents, cyanide, and bisulfite, and the interconversion of acids, esters, and acid chlorides. It also specifies the typical ISC question archetypes — short‑answer reagent identification, mechanism drawing with arrow‑pushing, numerical yield calculations (theoretical, actual, percentage), and multi‑step synthesis design — and the marking scheme (1 mark per correct reagent, 2 marks for a complete mechanism, 3 marks for a balanced yield calculation with units). The node links each synthetic decision to the underlying electronic and steric factors taught earlier, and it emphasizes the exam‑level precision required: SI units (mol, g, dm³), significant figures (minimum three), and correct structural representation (condensed or skeletal). It does not re‑teach mechanisms or acidity trends; those remain in their respective concept nodes."
+ },
+ {
+  "file": "c12_chem_isc_09_008.md",
+  "subject": "chem",
+  "words": 128,
+  "flags": [],
+  "definition": "This node consolidates the synthetic routes, reaction mechanisms, and examination strategies for the chapter “Organic Compounds containing Nitrogen”. It integrates the classification, preparation, basicity trends, diazonium chemistry, and cyanide/isocyanide reactions covered in the earlier nodes in this chain. The focus is on (i) designing multi‑step syntheses that interconvert amines, diazonium salts, nitriles, and isocyanides; (ii) recognising ISC‑style question patterns such as “predict the product”, “write the mechanism”, “compare basicity”, and “calculate yield”; (iii) applying stoichiometric calculations, limiting‑reagent concepts, and percentage‑yield formulas to numerical problems; and (iv) developing a checklist for common pitfalls (e.g., over‑alkylation, diazonium stability, cyanide vs isocyanide regioselectivity). Mastery here enables a student to translate a target molecule into a feasible laboratory sequence and to answer both descriptive and numerical ISC questions with full mark allocation."
+ },
+ {
+  "file": "c12_chem_isc_10_008.md",
+  "subject": "chem",
+  "words": 167,
+  "flags": [],
+  "definition": "This node synthesises the entire Chapter 10 (Biomolecules) by integrating the classification and structural details of carbohydrates (monosaccharides, disaccharides, polysaccharides), the amino‑acid building blocks and hierarchical organisation of proteins (primary to quaternary), the chemical nature and deficiency diseases of fat‑soluble and water‑soluble vitamins, the components of nucleic acids (nucleotides, base pairing, DNA/RNA distinction), and the general characteristics of enzymes and hormones as biological catalysts and messengers. It maps each sub‑topic to the typical ISC question patterns: very‑short‑answer (definition, one‑word), short‑answer (structure drawing, reasoning), long‑answer (mechanism, comparison), numerical problems (molecular‑weight calculation, percentage composition), and diagram‑based questions (Haworth projections, peptide bonds). The node also highlights mark allocation trends (1‑mark recall, 2‑mark reasoning, 3‑mark structured, 5‑mark essay) and the importance of SI units (g mol⁻¹ for molar mass, kJ mol⁻¹ for energy) and significant figures in calculations. Relationships are stressed: carbohydrate anomeric carbon determines reducing property; peptide bond formation links amino‑acid sequence to protein function; vitamin structure dictates co‑enzyme role; nucleotide sequence encodes genetic information; enzyme active‑site geometry explains specificity."
+ },
+ {
+  "file": "c12_cs_isc_03_008.md",
+  "subject": "cs",
+  "words": 157,
+  "flags": [],
+  "definition": "This node synthesises the five core sub‑concepts of Chapter 3 — lab assignments, algorithm design, correctness, Java implementation, and debugging — into a coherent examination‑ready skill set. It maps each sub‑concept to the typical ISC question formats: short‑answer (recall of design steps), long‑answer (full algorithm with correctness argument), code‑completion (Java snippets), and debugging‑trace questions. The synthesis emphasises the interplay between a clear problem specification, a well‑structured algorithm (pseudocode or flowchart), a formal correctness invariant, a clean Java translation adhering to ISC coding standards, and a systematic debugging strategy (trace tables, watch expressions, boundary tests). Exam‑pattern practice includes analysing past papers for mark distribution, identifying recurring themes (sorting, searching, recursion, string manipulation), and rehearsing time‑boxed solutions. The node also covers answer presentation: proper indentation, meaningful variable names, comment headers, and explicit complexity statements. By integrating these elements, students develop the ability to produce complete, examinable solutions under timed conditions, moving from isolated concept mastery to holistic problem‑solving competence."
+ },
+ {
+  "file": "c12_hist_isc_06_008.md",
+  "subject": "hist",
+  "words": 215,
+  "flags": [],
+  "definition": "This node synthesises the three core sub‑themes of Chapter 06 — the Towards Equality Report (1974), the anti‑dowry and anti‑domestic‑violence movements (1970s‑80s), and subsequent government legislative measures — into a coherent framework for CISCE ISC examination preparation. The Towards Equality Report, produced by the Committee on the Status of Women in India (CSWI), aimed to assess women’s socio‑economic condition, identify structural inequalities, and recommend policy interventions; its significance lies in shifting discourse from welfare to rights and providing data that fueled later activism. The anti‑dowry movement, spearheaded by groups like the Mahila Dakshata Samiti and the Stree Sangharsh, combined public protests, media campaigns, and legal petitions to expose dowry deaths, while the parallel struggle against domestic violence highlighted the inadequacy of existing criminal law. Government responses included the Dowry Prohibition Act (1961) and its 1984 amendment, the Criminal Law (Second Amendment) Act 1983 introducing Section 498A IPC, and the Indecent Representation of Women (Prohibition) Act 1986. This node does not re‑teach each sub‑topic (covered in the earlier nodes of this chapter) but shows how they interlink: the report’s recommendations informed movement demands, which in turn pressured legislative action. For the ISC exam, the synthesis enables students to tackle source‑based questions, comparative essays, and evaluative prompts that require tracing cause‑effect across report → movement → law."
+ },
+ {
+  "file": "c12_hist_isc_10_012.md",
+  "subject": "hist",
+  "words": 175,
+  "flags": [],
+  "definition": "This node examines three major post‑independence Indian protest movements — the JP Movement (1974‑75), the Chipko Movement (1973 onward), and the Narmada Bachao Andolan (1985 onward) — as the “next slice” of Chapter 10 after the Civil Rights, Anti‑Apartheid, and Second‑Wave Feminist movements. Each movement arose from distinct grievances: the JP Movement targeted systemic corruption and authoritarian drift during the Emergency; Chipko resisted commercial deforestation threatening Himalayan ecology and livelihoods; Narmada Bachao opposed large‑scale displacement without rehabilitation. Together they illustrate how democratic dissent, environmental consciousness, and rights‑based mobilisation operate in a post‑colonial state. Key relationships include the shared tactic of non‑violent civil disobedience (echoing Gandhi and King), the role of grassroots leadership (students, women, tribals), and the impact on policy — e.g., the 1980 Forest Conservation Act (Chipko influence) and the 2000 Supreme Court verdict on Narmada rehabilitation. The node positions these movements within the broader global protest wave of the 1970s‑90s, highlighting both convergence (non‑violence, media attention) and divergence (state response, institutional outcomes) with the movements covered in the earlier nodes of this chapter."
+ },
+ {
+  "file": "c12_hist_isc_10_013.md",
+  "subject": "hist",
+  "words": 134,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node provides a comparative framework linking the Civil Rights Movement (USA, 1950s‑70s), the Anti‑Apartheid Movement (South Africa, 1948‑1994), and the Second‑Wave Feminist Movement (USA, 1960s‑80s). It identifies shared strategies — non‑violent direct action, legal advocacy, mass mobilisation, and transnational solidarity — and examines how each movement adapted these to its specific context. Relationships include: the influence of Gandhian non‑violence on Martin Luther King Jr. and the African National Congress; the role of United Nations declarations in legitimising anti‑apartheid and women’s rights claims; and the way legislative victories (Civil Rights Act 1964, end of apartheid laws, Equal Pay Act 1963) were secured through combined pressure from streets, courts, and international opinion. The node does not re‑teach the detailed chronology of each movement (covered in sibling nodes) but synthesises their methodological commonalities and divergent outcomes."
+ },
+ {
+  "file": "c12_hist_isc_10_014.md",
+  "subject": "hist",
+  "words": 181,
+  "flags": [
+   "R2_takeaway"
+  ],
+  "definition": "This node synthesises the three major protest movements studied in the earlier nodes of this chapter — the US Civil Rights Movement (1950s‑70s), the South African Anti‑Apartheid Movement (1948‑1994), and the US Second‑Wave Feminist Movement (1960s‑80s) — by identifying their shared structural elements: (1) **moral framing** that cast injustice as a violation of universal human rights (e.g., King’s “I Have a Dream”, Mandela’s “Freedom Charter”, Friedan’s “The Feminine Mystique”); (2) **legal leverage** through landmark legislation and court rulings (Civil Rights Act 1964, Voting Rights Act 1965, Equal Pay Act 1963, Title VII of the Civil Rights Act, South Africa’s 1993 Interim Constitution); (3) **mass mobilisation** via non‑violent direct action (Montgomery Bus Boycott, Sharpeville protest, Women’s Strike for Equality); (4) **institutional organisation** (SCLC, ANC, NOW) that sustained campaigns over decades; and (5) **international solidarity** that turned domestic struggles into global moral issues (UN sanctions on South Africa, global feminist networks). The node does not re‑narrate each movement’s chronology — those are covered in sibling nodes — but maps the comparative architecture that allowed marginalised groups to convert moral claims into enforceable rights."
+ },
+ {
+  "file": "c12_legal_isc_04_015.md",
+  "subject": "legal",
+  "words": 161,
+  "flags": [],
+  "definition": "This node consolidates the statutory language and landmark judicial phrases of the Indian Contract Act, 1872 that repeatedly appear in ISC Legal Studies reference‑to‑context (RTC) and essay questions. It maps each core concept — proposal (S.2(a)), promise (S.2(b)), agreement (S.2(e)), contract (S.2(h)), essential elements (S.10), free consent (S.13‑22), legality of object (S.23), and void agreements (S.24‑30) — to the precise wording that candidates must recognise, locate, and interpret. The node also codifies the standard RTC answer structure: (i) identify the provision/maxim, (ii) state the factual matrix, (iii) explain the legal principle, (iv) apply to the facts, and (v) conclude. For essays, it prescribes the ISC‑approved pattern: introduction with definition, body paragraphs each anchored to a section or case maxim, comparative analysis where required (e.g., coercion vs. undue influence, fraud vs. misrepresentation), and a concise conclusion linking back to the question. Mastery of these quotations and patterns enables students to convert raw legal knowledge into the structured, mark‑fetching responses the board expects."
+ },
+ {
+  "file": "c12_math_isc_06_008.md",
+  "subject": "math",
+  "words": 238,
+  "flags": [],
+  "definition": "This node synthesises the four core sub‑concepts of Chapter 6 — rate of change, increasing/decreasing behaviour, maxima/minima, and tangents/normals — into a unified problem‑solving framework aligned with CISCE ISC examination patterns. Rate of change is the instantaneous derivative dy/dx, representing how a dependent quantity varies with respect to an independent variable (SI unit: unit of y per unit of x). A function f is strictly increasing on an interval I iff f'(x) > 0 ∀ x ∈ I, and strictly decreasing iff f'(x) < 0 ∀ x ∈ I. Critical points occur where f'(x) = 0 or f'(x) does not exist; the first derivative test examines sign changes of f' around a critical point to classify it as local maximum (f' changes + to −), local minimum (− to +), or neither. The second derivative test uses f''(c): if f''(c) > 0 → local minimum, f''(c) < 0 → local maximum, f''(c) = 0 → test inconclusive. The tangent line at (x₀, y₀) has equation y − y₀ = f'(x₀)(x − x₀); the normal line, perpendicular to the tangent, has equation y − y₀ = −1/f'(x₀)(x − x₀) provided f'(x₀) ≠ 0. These relationships are interdependent: monotonicity intervals are determined by the sign of f', extrema occur at critical points where monotonicity changes, and tangents/normals provide geometric interpretation of the derivative at a point. Mastery requires seamless transition between algebraic, graphical, and physical (e.g., velocity, marginal cost) representations."
+ },
+ {
+  "file": "c12_math_isc_07_007.md",
+  "subject": "math",
+  "words": 147,
+  "flags": [],
+  "definition": "This node deals with the **application of definite integrals to compute plane areas**. The central idea: if a continuous function \\(f(x)\\) is non‑negative on \\([a,b]\\), the area bounded by the curve \\(y=f(x)\\), the x‑axis, and the vertical lines \\(x=a\\) and \\(x=b\\) is given by the definite integral \\(\\int_a^b f(x)\\,dx\\). When two curves \\(y=f(x)\\) and \\(y=g(x)\\) intersect at \\(x=a\\) and \\(x=b\\) with \\(f(x)\\ge g(x)\\) on \\([a,b]\\), the area between them is \\(\\int_a^b [f(x)-g(x)]\\,dx\\). If the curves cross within the interval, the integral must be split at each intersection point and the absolute difference integrated piecewise. The relationship to prior nodes is direct: the **Fundamental Theorem of Calculus** provides the evaluation mechanism, while **Properties of Definite Integrals** allow splitting intervals, changing limits, and handling symmetry. This node does not cover volumes of revolution, surface areas, or applications to physics (work, centre of mass) — those belong to later chapters."
+ },
+ {
+  "file": "c12_math_isc_11_008.md",
+  "subject": "math",
+  "words": 199,
+  "flags": [],
+  "definition": "This node synthesises the four core subtopics of Chapter 11: direction cosines and ratios, equation of a line in space, angle between two lines, and shortest distance between two lines. Direction cosines (l, m, n) are the cosines of the angles a line makes with the positive x, y, z axes; they satisfy l²+m²+n²=1 and are derived from direction ratios (a, b, c) by normalising. The equation of a line can be expressed in vector form **r** = **a** + λ**b**, parametric form, or symmetric (Cartesian) form (x−x₁)/a = (y−y₁)/b = (z−z₁)/c, where **a** is a point on the line and **b** gives its direction. The angle θ between two lines with direction vectors **b₁**, **b₂** is given by cos θ = |**b₁**·**b₂**|/(|**b₁**||**b₂**|). The shortest distance between two skew lines **r** = **a₁**+λ**b₁** and **r** = **a₂**+μ**b₂** is d = |(**a₂**−**a₁**)·(**b₁**×**b₂**)| / |**b₁**×**b₂**|; for parallel lines the formula reduces to the perpendicular distance from a point on one line to the other. These concepts interlink: direction ratios feed into line equations, which supply direction vectors for angle and distance calculations. Mastery requires moving fluently among vector, parametric, and Cartesian representations and recognising when lines are parallel, intersecting, or skew."
+ },
+ {
+  "file": "c12_math_isc_13_008.md",
+  "subject": "math",
+  "words": 91,
+  "flags": [],
+  "definition": "This node synthesizes the four core sub‑topics of Chapter 13: conditional probability \\(P(A|B)=\\frac{P(A\\cap B)}{P(B)}\\), Bayes’ theorem \\(P(B_i|A)=\\frac{P(A|B_i)P(B_i)}{\\sum_j P(A|B_j)P(B_j)}\\), discrete random variables with probability mass functions \\(P(X=x_i)\\), and their mean \\(\\mu=E(X)=\\sum x_iP(X=x_i)\\) and variance \\(\\sigma^2=Var(X)=E(X^2)-[E(X)]^2\\). It shows how these concepts interlock: total probability feeds Bayes; a random variable’s distribution is built from conditional probabilities; mean and variance summarise that distribution. The node focuses on recognising ISC question patterns — multi‑stage experiments, “find the distribution then compute mean/variance”, “reverse conditional using Bayes” — and on selecting the right formula chain without re‑deriving basics."
+ },
+ {
+  "file": "c12_robotics_isc_01_008.md",
+  "subject": "robotics",
+  "words": 124,
+  "flags": [],
+  "definition": "This node synthesises the entire Chapter 01 “Introduction (Class XII)” by mapping each sub‑topic — advanced recap of robotic subsystems, scope of autonomous navigation, sensor fusion basics, real‑time control constraints, and ethical‑safety considerations — to the CISCE ISC Robotics (867) examination pattern. It defines the relationship between conceptual understanding and the three assessment components: theory paper (70 marks), practical/project (30 marks), and viva‑voce. The node establishes a framework for translating textbook knowledge into structured answers, identifying command words (e.g., “explain”, “compare”, “design”), allocating time per question, and applying the marking rubric’s emphasis on labelled diagrams, algorithmic pseudocode, and SI‑unit consistency. It also delineates the boundary where Class XII content ends and higher‑level research or industry‑specific tools begin, ensuring students focus only on examinable material."
+ },
+ {
+  "file": "c12_robotics_isc_04_007.md",
+  "subject": "robotics",
+  "words": 198,
+  "flags": [],
+  "definition": "This node covers the convergence of artificial intelligence, advanced analytics, and Industry 5.0 principles within smart manufacturing. It builds on automation, collaborative robots, and smart factories by adding a cognitive layer: machine learning models ingest real-time streams from Industrial IoT (IIoT) sensors, digital twins, and enterprise systems to enable predictive maintenance, prescriptive quality control, generative design optimization, and autonomous decision-making. Industry 5.0 extends Industry 4.0’s focus on efficiency with three pillars — human-centricity (cobots augmenting workers, ergonomic exoskeletons, inclusive design), sustainability (energy-aware scheduling, circular economy tracking, carbon-footprint analytics), and resilience (supply-chain risk modeling, adaptive production replanning). Key technologies include supervised learning for anomaly detection (e.g., vibration spectra classification), reinforcement learning for real-time process control, graph neural networks for supply-chain topology analysis, and explainable AI (XAI) to maintain operator trust. The node also addresses data governance (edge vs cloud compute, data sovereignty), model lifecycle management (MLOps), and ethical AI frameworks aligned with Indian regulatory context (DPDP Act 2023, upcoming AI governance guidelines). Relationships: automation provides the actuation backbone; cobots provide the human-machine interface; smart factories provide the connected infrastructure; digital twins provide the simulation sandbox; this node provides the intelligence that turns data into actionable insight and closed-loop autonomy."
+ },
+ {
+  "file": "c12_robotics_isc_06_001.md",
+  "subject": "robotics",
+  "words": 163,
+  "flags": [],
+  "definition": "This node provides the chapter overview for ISC Class 12 Robotics (867) Chapter 06. It defines the scope of the chapter by listing its major sub‑topics — advanced recap of Class 11 fundamentals, the expanding scope of modern robotics, and the subsequent concept slices that dive into sensors, actuators, control architectures, programming paradigms, and ethical considerations. The overview establishes the logical flow: first reinforcing prior knowledge (kinematics, basic sensors, simple control loops), then expanding to contemporary trends (collaborative robots, AI‑enabled perception, ROS 2, human‑robot interaction), and finally preparing students for synthesis and exam‑style problem solving. Relationships between sub‑concepts are highlighted: the advanced recap supplies the mathematical and hardware foundation; the scope section contextualises why new paradigms (e.g., behaviour‑based control, SLAM) are needed; each following concept node builds on the previous one, creating a cumulative knowledge chain that culminates in the synthesis node. The overview also signals assessment expectations — conceptual questions, design‑scenario problems, and code‑fragment analysis — aligning with CISCE ISC marking patterns."
+ },
+ {
+  "file": "c12_robotics_isc_09_008.md",
+  "subject": "robotics",
+  "words": 175,
+  "flags": [],
+  "definition": "This node synthesises the chapter’s core pillars — automation with collaborative robots (cobots) and smart factories powered by IoT integration — into a coherent framework for CISCE ISC examination. Automation refers to programmable machines executing predefined sequences; cobots extend this by incorporating force/torque sensors and safety-rated monitored stop, enabling shared workspace without cages. Smart factories embed cyber-physical systems: sensors (temperature, vibration, vision), edge gateways, and cloud platforms communicate via industrial protocols (OPC UA, MQTT) to enable predictive maintenance, digital twins, and real-time scheduling. IoT integration stitches these layers — device, connectivity, data, application — creating a closed-loop where data from the shop floor informs enterprise decisions (ERP, MES) and vice versa. Relationships: cobots are edge nodes in the IoT fabric; their sensor streams feed digital twins; analytics from the twin adjust cobot trajectories. The synthesis emphasises interoperability standards (RAMI 4.0, ISA-95), data governance, and human-centric design (Industry 5.0). Exam relevance: ISC Robotics (867) tests ability to map these concepts to case studies, calculate key performance indicators (OEE, MTBF), and evaluate design trade-offs (safety vs throughput)."
+ },
+ {
+  "file": "c12_robotics_isc_10_008.md",
+  "subject": "robotics",
+  "words": 127,
+  "flags": [],
+  "definition": "This node synthesises the two core sub‑topics of Chapter 10 — rovers (mobility, localisation, power, thermal control) and manipulators (kinematics, dynamics, end‑effector design, force control) — and links them to real mission case studies such as NASA’s Mars Science Laboratory, ESA’s ExoMars, and ISRO’s Chandrayaan‑3. It emphasises how system‑level trade‑offs (mass vs. science return, autonomy vs. ground control) are evaluated in CISCE ISC Robotics (867) examinations. Students learn to integrate mobility planning with manipulation task sequencing, to interpret telemetry constraints (bandwidth, latency), and to structure answers according to the board’s marking scheme: definition (1 mark), diagram/block‑diagram (2 marks), algorithmic steps (3 marks), and critical analysis (4 marks). The node does not introduce new hardware details; it consolidates concepts from the earlier nodes and trains exam‑oriented problem solving."
+ }
+]

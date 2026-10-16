@@ -2,9 +2,11 @@
 Gate B — service reachability (ATLAS_10x10_PLAN.md §2a).
 
 A service module that no other module imports is dead code that still ships in
-the image. It rots silently: `services/streak_service.py` (1,091 lines) and
-`AuthService.get_children_for_parent` were both written against a schema that
-does not exist, and both crash on first use if anyone ever wires them.
+the image. It rots silently: `services/streak_service.py` (1,091 lines) was
+written against a schema that does not exist and crashed on first use if
+anyone ever wired it — it was DELETED 2026-10-05 (audit lane) rather than
+exempted, which is the preferred exit. `AuthService.get_children_for_parent`
+was the other historical resident.
 
 The gate therefore locks the CURRENT state rather than demanding zero: the
 baseline below is the set of known-unwired services, each with a note. A NEW
@@ -25,6 +27,7 @@ _SERVICES = _BACKEND / "services"
 # Services nothing imports, with the reason each is still here. "Unwired" is a
 # fact this test proves; the notes are context, not justification.
 KNOWN_UNWIRED: dict[str, str] = {
+    "board_format": "staged board answer-shape profiles (CBSE vs ICSE/ISC marking contracts); pure data + lookup, awaiting its answer-emission consumer — not on any request path",
     "bloom_marker_parser": "content/corpus tooling (content deferred by directive)",
     "cognitive_diagnosis_engine": "unwired; diagnosis path never mounted",
     "discussion_moments": "unwired feature stub",

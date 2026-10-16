@@ -133,7 +133,11 @@ class SolverStatus(str, Enum):
 
 # answer_pipeline truth labels that count as verified tiers
 _VERIFIED_LABELS = frozenset({
-    "VERIFIED", "VERIFIED_WITH_ASSUMPTIONS", "VERIFIED_OFFICIAL"})
+    "VERIFIED", "VERIFIED_WITH_ASSUMPTIONS", "VERIFIED_OFFICIAL",
+    # semantic bank match (2026-10-03): the board's stored key served
+    # through the calibrated cross-encoder lane -- a verified retrieval
+    # tier, still no computation and no LLM
+    "VERIFIED_SEMANTIC"})
 
 
 @dataclass
@@ -418,4 +422,24 @@ def emit_solver_metrics(outcome: SolverOutcome, **extra: Any) -> None:
         _metrics_logger.info(json.dumps(payload, ensure_ascii=False,
                                         default=str))
     except Exception:  # pragma: no cover — never break the solve
+        pass
+
+
+def log_lane_exception(stage: str, exc: BaseException,
+                       question_hash: str = "", **extra: Any) -> None:
+    """Structured log for a silently-swallowed lane exception.
+    Fail-open stays — this makes the degradation OBSERVABLE so real
+    bugs (TypeError/KeyError inside a transformer) stop masquerading
+    as clean fallbacks.  Never raises."""
+    try:
+        _ensure_metrics_handler()
+        _metrics_logger.warning(json.dumps({
+            "event": "lane_exception",
+            "stage": stage,
+            "error_type": type(exc).__name__,
+            "error": str(exc)[:300],
+            "q_hash": question_hash,
+            **{k: v for k, v in extra.items()}},
+            ensure_ascii=False, default=str))
+    except Exception:  # pragma: no cover
         pass

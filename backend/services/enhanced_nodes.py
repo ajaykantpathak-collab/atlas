@@ -44,11 +44,15 @@ No network, no LLM calls -- fully deterministic.
 from __future__ import annotations
 
 import json
+import logging
+import hashlib
 import os
 import re
 import threading
 import time
-from typing import Dict, List, Optional, Tuple
+
+logger = logging.getLogger(__name__)
+from typing import Any, Dict, List, Optional, Tuple
 
 # --------------------------------------------------------------------------
 # Configuration
@@ -76,7 +80,7 @@ CACHE_FILENAME = "enhanced_nodes_index.json"
 #: metadata-only remap from _grade_map.json (misgraded class/subject/
 #: chapter), and the cache fingerprint covers that file so editing it
 #: rebuilds the index exactly once.
-CACHE_VERSION = 7
+CACHE_VERSION = 8
 
 #: Core sections a node must expose at least one of to count as parsed.
 CORE_SECTIONS = ("DEFINITION", "WALKTHROUGH")
@@ -273,25 +277,75 @@ def parse_markdown(text: str) -> Dict:
     }
 
 
-def parse_node_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
-    """Parse one node markdown file.
+def parse_competency_questions(sections: Dict[str, str]) -> List[Dict]:
+    """Collect COMPETENCY_QUESTION_N bodies with structured fields."""
+    competencies: List[Dict] = []
+    n = 1
+    while n <= 20:
+        body = sections.get("COMPETENCY_QUESTION_%d" % n)
+        if not body:
+            break
+        q_m = re.search(r"QUESTION[:\s]+([\s\S]*?)(?=COMPETENCY|STEPS|ANSWER|DIFFICULTY|$)", body, re.I)
+        c_m = re.search(r"COMPETENCY[:\s]+([\s\S]*?)(?=STEPS|ANSWER|DIFFICULTY|$)", body, re.I)
+        st_m = re.search(r"STEPS[:\s]+([\s\S]*?)(?=ANSWER|DIFFICULTY|$)", body, re.I)
+        a_m = re.search(r"ANSWER[:\s]+([\s\S]*?)(?=DIFFICULTY|$)", body, re.I)
+        d_m = re.search(r"DIFFICULTY[:\s]+([\s\S]*?)$", body, re.I)
 
-    Returns ``(node, None)`` on success or ``(None, reason)`` when the
-    file must be skipped (unreadable / unparseable filename / no core
-    sections).  Never raises for content issues.
+        steps = []
+        if st_m:
+            for line in st_m.group(1).strip().split("\n"):
+                clean_line = re.sub(r"^[-*•\s]+|(?:Step\s*\d+[:.\s]*)", "", line).strip()
+                if clean_line:
+                    steps.append(clean_line)
+
+        competencies.append({
+            "index": n,
+            "question": q_m.group(1).strip() if q_m else body[:200],
+            "competency": c_m.group(1).strip() if c_m else "",
+            "steps": steps,
+            "answer": a_m.group(1).strip() if a_m else "",
+            "difficulty": (d_m.group(1).strip() if d_m else "medium").lower()
+        })
+        n += 1
+    return competencies
+
+
+def parse_mapping_reasons(text: str) -> Dict[str, str]:
+    """Parse lines like 'node_id: pedagogical reason' into a dictionary."""
+    mapping: Dict[str, str] = {}
+    if not text:
+        return mapping
+    for line in text.split("\n"):
+        line = line.strip()
+        if not line or ":" not in line:
+            continue
+        parts = line.split(":", 1)
+        nid = parts[0].strip().strip("*")
+        reason = parts[1].strip()
+        if nid and reason:
+            mapping[nid] = reason
+    return mapping
+
+
+def _clean_field(val: Optional[str]) -> Optional[str]:
+    """Sanitize N/A or empty authored fields."""
+    if not val:
+        return None
+    val = val.strip()
+    if val.upper() in ("N/A", "NONE", "N/A - CONCEPTUAL", "N/A - DESCRIPTIVE"):
+        return None
+    return val
+
+
+def _node_from_sections(stem: str, sections: Dict[str, str]) -> Tuple[Optional[Dict], Optional[str]]:
+    """Shape a node dict from already-split ``{SECTION: body}`` sections.
+
+    Shared by parse_node_file (pure-Python path) and the optional
+    atlas_speed (Rust) fast path in build_index — identical output either way.
     """
-    fname = os.path.basename(path)
-    stem = os.path.splitext(fname)[0]
     coords = parse_filename(stem)
     if coords is None:
         return None, "unparseable_filename"
-    try:
-        with open(path, "r", encoding="utf-8-sig", errors="replace") as fh:
-            text = fh.read()
-    except OSError as exc:                      # pragma: no cover - defensive
-        return None, "read_error: %s" % exc
-
-    sections = parse_markdown(text)["sections"]
     definition = sections.get("DEFINITION", "")
     walkthrough = sections.get("WALKTHROUGH", "")
     if not definition and not walkthrough:
@@ -303,6 +357,17 @@ def parse_node_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
         sections.get("PREREQUISITE_NODE_IDS", "").replace("\n", ",").split(",")
         if p.strip()
     ]
+    forward_ids = [
+        p.strip() for p in
+        sections.get("FORWARD_NODE_IDS", "").replace("\n", ",").split(",")
+        if p.strip()
+    ]
+    cross_ids = [
+        p.strip() for p in
+        sections.get("CROSS_SUBJECT_PREREQS", "").replace("\n", ",").split(",")
+        if p.strip()
+    ]
+
     node = {
         "node_id": stem,
         "class": coords["class"],
@@ -317,14 +382,44 @@ def parse_node_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
         "walkthrough": walkthrough,
         "diagnostics": parse_diagnostics(sections),
         "prereq_ids": prereq_ids,
+        "forward_node_ids": forward_ids,
         "eli5": sections.get("ELI5", "") or None,
         "examples": parse_worked_examples(sections),
         "common_misconception": sections.get("COMMON_MISCONCEPTION", "") or None,
         "on_failure": sections.get("ON_FAILURE", "") or None,
+        # Unlocked authored fields
+        "formula": _clean_field(sections.get("THIS_FORMULA")),
+        "formula_variables": _clean_field(sections.get("FORMULA_VARIABLES")),
+        "formula_units": _clean_field(sections.get("FORMULA_UNITS")),
+        "computation_type": _clean_field(sections.get("COMPUTATION_TYPE")),
+        "competency_questions": parse_competency_questions(sections),
+        "prerequisite_reasons": parse_mapping_reasons(sections.get("PREREQUISITE_REASONS", "")),
+        "forward_reasons": parse_mapping_reasons(sections.get("FORWARD_REASONS", "")),
+        "cross_subject_prereqs": cross_ids,
+        "cross_subject_reasons": parse_mapping_reasons(sections.get("CROSS_SUBJECT_REASONS", "")),
+        "prereq_stuck": _clean_field(sections.get("PREREQ_STUCK")),
+        "prereq_before": _clean_field(sections.get("PREREQ_BEFORE")),
         "missing_sections": missing,
-        "source_file": fname,
+        "source_file": stem + ".md",
     }
     return node, None
+
+
+def parse_node_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
+    """Parse one node markdown file.
+
+    Returns ``(node, None)`` on success or ``(None, reason)`` when the
+    file must be skipped (unreadable / unparseable filename / no core
+    sections).  Never raises for content issues.
+    """
+    fname = os.path.basename(path)
+    stem = os.path.splitext(fname)[0]
+    try:
+        with open(path, "r", encoding="utf-8-sig", errors="replace") as fh:
+            text = fh.read()
+    except OSError as exc:                      # pragma: no cover - defensive
+        return None, "read_error: %s" % exc
+    return _node_from_sections(stem, parse_markdown(text)["sections"])
 
 
 # --------------------------------------------------------------------------
@@ -514,29 +609,347 @@ def parse_companion_file(path: str) -> Tuple[Optional[Dict], Optional[str]]:
 # --------------------------------------------------------------------------
 
 
+# --------------------------------------------------------------------------
+# Title derivation — the corpus has no TITLE field; the topic name is mined
+# from the definition's own prose.  The W2 title sweep found three recurring
+# degenerate shapes, all handled here:
+#   * markdown leak   "A **polar covalent bond** forms when…" -> markup is
+#                     stripped before the clause is taken
+#   * meta-narration  "This node synthesizes the chapter's core concepts:
+#                     one-dimensional arrays …" -> the covered object, and
+#                     'The chapter "Pollution" …' -> the quoted topic name
+#   * verb-less heads truncated mid-word at char 57 -> the clause is cut at
+#                     a word boundary, and a wider verb set catches most
+#                     sentence-shaped heads before truncation is needed
+# Every title comes from the file's own words — never invented, never the
+# node id.
+# --------------------------------------------------------------------------
+
+_TITLE_MARKUP = re.compile(r"[*_`~]+")
+_TITLE_QUOTED = re.compile(r"[\"'“‘]\s*([^\"'”’]{3,80}?)\s*[\"'”’]")
+#: Openers that talk ABOUT the material instead of naming it (an optional
+#: adjective run between the determiner and the meta noun: "this synthesis
+#: node", "the entire Class IX revision chapter").
+_TITLE_META_SUBJ = re.compile(
+    r"^(?:this|the|our|each|every|entire)\s+(?:\w+\s+){0,4}?"
+    r"(?:node|chapter|section|unit|topic|lesson|block|module|part|study|"
+    r"exercise|overview|discussion)\b", re.I)
+#: "Chapter 10 “Transport”" / "Chapter 11 (Waste Management)" /
+#: "Chapter 2, “Map of India,”" — the bracketed/quoted name IS the topic.
+_TITLE_CHAPTER_NAME = re.compile(
+    r"\b(?:chapter|unit|lesson|book|part|act|scene)\s+(?:[ivxlcdm]+|\d+)"
+    r"\s*[,;:]?\s*[(\"'“‘]\s*([^)\"'”’,;\n]{3,60}?)\s*[)\"'”’]", re.I)
+#: Candidates that can never be a topic name on their own.
+_TITLE_BAD_START = re.compile(
+    r"^(?:chapter|concept\s+nodes?)s?\b|"
+    r"^(?:unit|lesson|part|section)\s+\d+\b|"
+    r"^(?:here|this|these|it|its|we|they|he|she|there|now|let|also)\b|"
+    r"^(?:called|termed|dubbed|labelled|labeled)\b|"
+    r"^(?:named|known)\s+(?:after|as|for)\b|"
+    r"^\d", re.I)
+#: Context lead-ins: "In Java, a type classifies…" -> "a type".
+_TITLE_LEADIN = re.compile(r"^(?:in|for)\s+[^,.;:]{2,40},\s*", re.I)
+_TITLE_ARTICLE = re.compile(r"^(?:a|an|the)\s+", re.I)
+#: Possessive meta prefix: "the chapter's core concepts" -> "core concepts".
+#: An adjective run may sit between determiner and meta noun (mirrors
+#: _TITLE_META_SUBJ): "this synthesis node", "the entire Class IX
+#: revision chapter" — the whole container phrase drops, not its head.
+_TITLE_META_POS = re.compile(
+    r"^(?:(?:this|that|the|our)\s+(?:[\w'’\-]+\s+){0,4}?)?"
+    r"(?:chapter|node|section|unit|topic|"
+    r"lesson|syllabus|book|portion|course)['’]?s?(?:\s+|$)", re.I)
+#: Collective prefixes that name the container, not the topic:
+#: "each sub-topic of the chapter", "the nine preceding concept nodes of
+#: Chapter 2", "all sections of the unit".
+_TITLE_COLLECTIVE = re.compile(
+    r"^(?:(?:each|every|all|both|neither|several|various|the|its|their)\s+)?"
+    r"(?:(?:preceding|following|earlier|previous|above|main|core|key|"
+    r"entire|major|supporting|one|two|three|four|five|six|seven|eight|"
+    r"nine|ten|\d+)\s+)*"
+    r"(?:sub[-‑]?topics?|concepts?|sections?|parts?|units?|aspects?|"
+    r"areas?|themes?|elements?|points?|items?|questions?|components?|"
+    r"nodes?|chapters?|lessons?|ideas|paragraphs?|steps?)\s+"
+    r"(?:of|in|from|to|across|throughout|within)\s+"
+    r"(?:(?:the|this|that|its|their)\s+)?"
+    r"(?:chapter|node|unit|section|book|syllabus|course|portion|"
+    r"curriculum|paper|exam)s?\b(?:['’]s)?(?:\s+\d+)?\.?\s*", re.I)
+#: Trailing container refs: "Key quotations in this chapter" ->
+#: "Key quotations"; "Banking chapter in ICSE Class 10 …" -> "Banking";
+#: "Traders to Rulers — the chapter overview" -> "Traders to Rulers";
+#: "X — this node's lesson: Y" -> "X".
+_TITLE_TRAIL_META = re.compile(
+    r"\s+(?:in|of|for|from|across|throughout|within)\s+"
+    r"(?:the|this|that|each|every|its|a|an)\s+(?:previous|preceding|next|"
+    r"earlier|present|current|same|whole|entire)?\s*"
+    r"(?:chapter|node|unit|section|book|part|lesson|syllabus|paper|exam|"
+    r"course)\b.*$"
+    r"|\s*[-–—]\s*(?:this|the|our)\s+(?:node|chapter|unit|section|book)"
+    r"['’]?s?\b.*$"
+    r"|\s+(?:the\s+)?(?:chapter|node|unit|section)s?[-‐‑–—\s]"
+    r"(?:overview|map|summary|synthesis|introduction|recap)\s*$"
+    r"|\s+(?:chapter|node|unit|section|book|part|lesson)s?"
+    r"(?:\s+(?:in|of|for|on)\b.*)?$", re.I)
+#: The defined concept always precedes the first finite verb.
+_TITLE_VERB = re.compile(
+    r"\s+(?:is|are|was|were|has|have|had|means|refers?(?:\s+to)?|denotes|"
+    r"describ\w+|defines?|forms?|formed|forming|consists?(?:\s+of)?|"
+    r"comprises?|quantif\w+|covers?|provides?|introduc\w+|deals?\s+with|"
+    r"explores?|examines?|explains?|focus(?:es|ed)?(?:\s+on)?|involves?|"
+    r"occurs?|takes?\s+place|uses?|includes?|measures?|represents?|"
+    r"governs?|regulates?|controls?|converts?|transforms?|produces?|"
+    r"classif\w+|determines?|accepts?|declares?|applies|applied|"
+    r"synthesi[sz]\w+|consolidates?|revises?|summari[sz]\w+|studies|"
+    r"helps?|allows?|enables?|plays?|serves?|functions?|requires?|"
+    r"presents?|discusses?|reviews?|surveys?|offers?|addresses?|aims?|"
+    r"seeks?|attempts?|concerns?|traces?|lists?|maps|outlines?|details?|"
+    r"walks?\s+through|looks?\s+at|can\s+be|may\s+be|acts?|works?|"
+    r"operates?|links?|connects?|leads?\s+to|differs?|remains?|extends?|"
+    r"underpins?|builds?(?:\s+on)?|combines?|separates?|relates|"
+    r"opens?|gives?|yields?|establish\w+|known\s+as|called|termed|named|"
+    r"dubbed|labelled|labeled|revolves?(?:\s+around)?|centr(?:es?|ers?)"
+    r"\s+on|spans?|ranges?|prescribed|adapts?|adapted|based\s+on|"
+    r"drawn\s+from|taken\s+from|assess\w+|enforc\w+|demonstrat\w+|"
+    r"states?|shows?|constitutes?|"
+    r"illustrat\w+|portray\w+|depict\w+|trains?|develops?|evaluat\w+|"
+    r"tests?|targets?|expects?|creates?|stores?|returns?|handles?|"
+    r"process\w+|calculat\w+|comput\w+|solves?|finds?|obtains?|runs?|"
+    r"begins?|ends?|starts?|continues?|maintains?|supports?|protects?|"
+    r"prevents?|detects?|ensures?|performs?|conducts?|undertakes?|"
+    r"implements?|employs?|utili[sz]\w+|organi[sz]\w+|structures?|"
+    r"frames?|composes?|constructs?|analy[sz]\w+|interprets?|"
+    r"translates?|teach\w+|practis\w+|practic\w+|memori[sz]\w+|"
+    r"recalls?|identif\w+|enumerat\w+|observes?|investigat\w+|"
+    r"responds?|reacts?|answers?|argues?|asserts?|"
+    r"claims?|suggests?|implies?|infers?|concludes?|proves?|justif\w+|"
+    r"compares?|contrasts?|distinguish\w+|differentiat\w+|orders?|"
+    r"ranks?|arranges?|displays?|reveals?|narrates?|recounts?|equips?|"
+    r"prepares?|positions?|situates?|locates?|unpacks?|navigates?|"
+    r"follows?|precedes?|anchors?|grounds?|unpacks?)\b", re.I)
+#: A candidate made only of generic nouns carries no topic — when it heads
+# a "…: <real list>" shape, the list's first item is the better title.
+#: Subject-word guard: when a "verb" match is immediately followed —
+#: parentheticals aside — by a real finite verb, it is the subject's own
+#: noun and the actual predicate comes later: "**Age structure** is…"
+#: (match "structure", next word "is"), "calculations (stoichiometry)
+#: use…" (match "calculations", next verb "use").  Without this check the
+#: candidate truncates to the noun's left neighbour ("Age", "Chemical
+#: equation").
+_TITLE_FOLLOW_VERB = re.compile(
+    r"^\s*(?:\([^)]{1,60}\)\s*)*"
+    r"(?:is|are|was|were|has|have|had|means|meant|refers|denotes|"
+    r"describes|defines|consists|comprises|represents|involves|use|uses|"
+    r"serves|functions|remains|becomes|seems|appears|helps|allows|"
+    r"enables|provides|covers|includes|contains|forms|acts|works|"
+    r"plays|takes|makes|lies|holds)\b", re.I)
+_TITLE_VAGUE = re.compile(
+    r"^(?:(?:core|key|main|basic|fundamental|major|essential|important|"
+    r"all|various|concepts?|topics?|ideas|themes?|points?|principles?|"
+    r"areas?|aspects?|elements?|features?|basics|fundamentals|skeleton|"
+    r"outlines?|frameworks?|templates?|backbones?|recaps?|wrap[-\s]?ups?|"
+    r"revisions?|consolidations?|synthes[ie]s|overviews?|summaries|of)\s*)+$",
+    re.I)
+
+
+def _title_clean(text: str) -> str:
+    """Normalise a raw clause into a title-shaped string (or "")."""
+    t = _TITLE_MARKUP.sub("", text or "")
+    # corpus typography: U+2011 non-breaking hyphen, U+202F narrow nbsp,
+    # U+00A0 nbsp all break naive word-boundary rules.
+    t = (t.replace("‑", "-").replace(" ", " ")
+          .replace(" ", " "))
+    t = re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"^\(\s*[0-9ivxlcdm]+\s*\)\s*", "", t, flags=re.I)
+    t = re.sub(r"^[\s,;:.\-–—]+", "", t)
+    t = re.sub(r"^\d+['’]?s?\s+", "", t)      # "04004's counting work"
+    t = re.sub(r"^(?:concept\s+nodes?|chapters?)\s+(?=\D)", "", t,
+               flags=re.I)
+    t = _TITLE_LEADIN.sub("", t)
+    t = _TITLE_COLLECTIVE.sub("", t)   # "each sub-topic of the chapter"
+    t = _TITLE_META_POS.sub("", t)     # needs the determiner — runs first
+    t = _TITLE_ARTICLE.sub("", t)
+    t = re.sub(r"^[\s,;:.\-–—(]+", "", t)  # "chapter — OOP" -> "OOP"
+    t = re.sub(r"\s+\(.*$", "", t)          # "Chlorine (Cl)" -> "Chlorine"
+    t = t.strip(" \"'“”‘’")
+    t = _TITLE_TRAIL_META.sub("", t)        # "… in this chapter" -> ""
+    t = t.split(",", 1)[0]                  # enumeration tails off
+    t = re.sub(r"[\s,;:.\-–—]+$", "", t)
+    t = re.sub(r"^(?:of|for|in|on|to|and|or|with|by|from|as|about|into|"
+               r"onto|upon|through)\s+", "", t, flags=re.I)
+    t = _TITLE_ARTICLE.sub("", t)           # "about the X" -> "X"
+    # Trailing stopwords — repeated so "… in Java can" loses "can" and
+    # "… should be" loses both.  Includes auxiliaries/modals: candidates
+    # cut before "can accept"/"may declare" would otherwise dangle one.
+    t = re.sub(r"(?:\s+(?:of|for|in|on|to|and|or|with|by|from|as|the|a|"
+               r"an|can|could|may|might|will|would|shall|should|must|"
+               r"ought|do|does|did|is|are|was|were|has|have|had|be|been|"
+               r"being|am))+$", "", t, flags=re.I)
+    t = t.strip()
+    if t.isupper() and (" " in t or len(t) > 6):
+        t = t.title()               # "NUMBER SYSTEM" -> "Number System"
+    return t
+
+
+#: A numbered container ref can never be a topic name, wherever it sits.
+_TITLE_NUMBERED = re.compile(
+    r"\b(?:chapter|unit|lesson|part|section|concept\s+node|node)s?"
+    r"\s+(?:\d+|[ivxlcdm]+)\b", re.I)
+#: Node ids (c10_bio_icse_01_001 / c6mathicse04005) never reach display.
+_TITLE_ID = re.compile(r"\bc\d{1,2}(?:_[a-z0-9]+){2,}\b|"
+                       r"\bc\d{1,2}[a-z]{3,}\d{4,}\b", re.I)
+#: Function words and bare containers are never titles — they survive
+#: cleaning when a "verb" match cuts inside the subject ("The |order
+#: (or dimension) of a matrix is…" -> cand "The").
+_TITLE_STOPWORDS = frozenset({
+    "the", "a", "an", "of", "in", "on", "at", "to", "for", "and", "or",
+    "by", "with", "as", "is", "are", "was", "were", "be", "it", "its",
+    "we", "they", "he", "she", "this", "that", "these", "those",
+    "there", "here", "chapter", "node", "unit", "part", "section",
+    "topic", "lesson", "overview", "concept",
+    "concepts", "thing", "things",
+    # question words and bare number words — truncation fragments, not
+    # topics ("Who", "How", "Two" seen in the W2 title sweep)
+    "who", "how", "two", "one", "why", "what", "when", "where",
+    "which"})
+
+
+def _title_ok(t: str) -> bool:
+    return (bool(t) and 3 <= len(t) <= 60 and len(t.split()) <= 10
+            and re.search(r"[^\W\d_]", t) is not None
+            and "(" not in t and ")" not in t
+            and t.lower() not in _TITLE_STOPWORDS
+            and not _TITLE_META_SUBJ.match(t)
+            and not _TITLE_BAD_START.match(t)
+            and not _TITLE_NUMBERED.search(t)
+            and not _TITLE_ID.search(t))
+
+
+def _title_from_head(head: str, _depth: int = 0) -> str:
+    """Topic title from a definition's first line ("" when nothing honest).
+
+    Order of trust: a "Chapter N (Name)" reference's bracketed name ->
+    quoted topic name on a meta opener -> clause left of the first finite
+    verb -> separator-delimited first clause -> whole head -> word-bounded
+    cut.  Meta, vague and unusable candidates descend (depth-capped) into
+    the covered object ("This node covers X" -> X)."""
+    head = re.sub(r"\s+", " ", _TITLE_MARKUP.sub(
+        "", (head or "").replace("‑", "-").replace(" ", " ")
+        .replace(" ", " "))).strip()
+    if not head:
+        return ""
+    if _TITLE_META_SUBJ.match(head) or re.match(
+            r"^(?:the\s+|this\s+|our\s+|entire\s+)?"
+            r"(?:chapter|unit|lesson|book|part)\s+\d+\b", head, re.I):
+        cn = _TITLE_CHAPTER_NAME.search(head[:140])
+        if cn:
+            cand = _title_clean(cn.group(1))
+            if _title_ok(cand):
+                return cand
+        q = _TITLE_QUOTED.search(head[:220])
+        if q:
+            cand = _title_clean(q.group(1))
+            if _title_ok(cand):
+                return cand
+    descend_at = []
+    for m in _TITLE_VERB.finditer(head):
+        if not head[m.end():].strip():
+            # A "verb" that ends the head is a noun here ("Age structure").
+            continue
+        if _TITLE_FOLLOW_VERB.match(head[m.end():]):
+            # Subject noun, not the predicate — the real verb follows
+            # immediately: "Age structure is…", "calculations (…) use…".
+            continue
+        cand = _title_clean(head[:m.start()])
+        if _title_ok(cand):
+            return cand
+        if _depth < 2:
+            if not cand:
+                # Meta clause stripped to nothing — the topic is right
+                # of the verb ("This node covers X").
+                sub = _title_from_head(head[m.end():], _depth + 1)
+                if sub:
+                    return sub
+            else:
+                # Non-empty but unusable ("The", too long, numbered):
+                # later verbs may still frame the full clause — descend
+                # here only if none of them yield a title.
+                descend_at.append(m.end())
+    if _depth < 2:
+        for pos in descend_at:
+            sub = _title_from_head(head[pos:], _depth + 1)
+            if sub:
+                return sub
+    for sep in (" – ", " — ", " - ", ": ", "; ", "।", "."):
+        if sep in head:
+            left, _, right = head.partition(sep)
+            cand = _title_clean(left)
+            if _title_ok(cand):
+                if _TITLE_VAGUE.match(cand) and _depth < 2:
+                    sub = _title_from_head(right, _depth + 1)
+                    if sub:
+                        return sub
+                return cand
+            if _depth < 2:
+                sub = _title_from_head(right, _depth + 1)
+                if sub:
+                    return sub
+    cand = _title_clean(head)
+    if _title_ok(cand):
+        return cand
+    if len(head) > 57:
+        cut = head[:57]
+        sp = cut.rfind(" ")
+        return (cut[:sp] if sp > 10 else cut).rstrip(",;: ") + "…"
+    # Last resort: the raw head only when it is real words — never a
+    # punctuation stub (":"), never a meta fragment.
+    if (re.search(r"[^\W\d_]", head)
+            and not _TITLE_META_SUBJ.match(head)
+            and not _TITLE_BAD_START.match(head)):
+        return head
+    return ""
+
+
 def _derive_title(node: Dict) -> str:
     """Best-effort topic title.
 
     The corpus has no title field — the definition's first clause is the
     defined concept ("Electric current is the rate of flow…" -> "Electric
-    current").  Falls back to a prettified node_id.
+    current"); meta openers un-nest to the covered object.  Falls back to
+    a prettified node_id.
     """
     definition = (node.get("definition") or "").strip()
     if definition:
-        head = definition.split("\n")[0].strip()
-        for sep in (" is defined as", " is the ", " are the ", " refers to ",
-                    " means ", " is a ", " is an ", " is ", " are ", " – ", " — ", " - ", ": ", "."):
-            if sep in head:
-                cand = head.split(sep, 1)[0].strip()
-                if 3 <= len(cand) <= 60 and len(cand.split()) <= 10:
-                    return cand[0].upper() + cand[1:]
-        # whole first sentence if short enough
-        if len(head) <= 60:
-            return head[0].upper() + head[1:]
-        return head[:57].rstrip() + "…"
+        title = _title_from_head(definition.split("\n")[0])
+        if title:
+            return title[0].upper() + title[1:]
     nid = node.get("node_id", "")
     parts = nid.split("_")
     return " ".join(p.capitalize() for p in parts if p and not p.isdigit()) or nid
+
+
+#: Literal container nouns + meta openers — never a topic name, however
+#: they reached the row (pre-hardening loader truncation, markup leak).
+_TITLE_WEAK_META = re.compile(
+    r"^(?:this|the|an?|our|each|every)\s+[\w'’\-]*\s*"
+    r"(?:chapter|node|section|unit|topic|lesson|overview|block|module|"
+    r"part|object)s?\b", re.I)
+
+
+def is_weak_title(title: str) -> bool:
+    """True when a stored/served title is degenerate — never a topic name.
+
+    Covers the audit's W2 shapes: literal meta nouns ("This Chapter",
+    "This Node", "An Object"), truncated first-sentence fragments
+    ("This chapter introduces object-oriented…"), markdown/LaTeX leaks
+    ("A **polar covalent bond**"), embedded newlines, and unusable
+    length.  Serve paths use it to prefer the derived title over a stale
+    enrichment_content.title row; tools/fix_weak_titles uses it to find
+    the rows to repair.
+    """
+    t = (title or "").strip()
+    return (not t or len(t) < 4 or len(t) > 60 or "\n" in t
+            or _TITLE_WEAK_META.match(t) is not None
+            or _TITLE_MARKUP.search(t) is not None
+            or re.search(r"…|\.{3,}", t) is not None)
 
 
 def _summary(node: Dict, snippet_chars: int = 220) -> Dict:
@@ -559,15 +972,44 @@ _SUBJECT_ALIASES = {
 }
 
 
+# Subject FAMILIES (many-to-many): corpus codes that belong to one subject
+# family. "comp" is deliberately NOT in the computer family — it is the
+# English-composition code in this corpus (audit 2026-10-11). The computer
+# corpus really lives at cs (11-12) + compst/comst (6-8) + compapp (9-10).
+_SUBJECT_GROUPS = [
+    {"cs", "computer", "computer_science", "compst", "comst", "compapp", "ip"},
+    {"hin", "hindi", "hin_a", "hin_v", "hin_al", "hin_ar", "hin_ga",
+     "hin_kr", "hin_ks", "hin_sp"},
+    {"eng", "engl", "english", "eng_k", "eng_w", "eng_f", "eng_v",
+     "eng_s", "eng_h", "eng_elec", "eng_mod", "gram", "grammar", "comp"},
+    {"econ", "eco", "economics"},
+    {"bst", "bs", "business_studies", "business"},
+    {"polsci", "pol", "political_science"},
+]
+
+
 def _subject_matches(node_subject: str, wanted: str) -> bool:
     ns = (node_subject or "").strip().lower()
     ws = (wanted or "").strip().lower()
-    if not ws or ns == ws:
+    if not ws or not ns or ns == ws:
         return True
     # bidirectional alias match — "bio" expands to biology, and the
     # long form "physics" must also find nodes coded "phy"
     if _SUBJECT_ALIASES.get(ws) == ns or _SUBJECT_ALIASES.get(ns) == ws:
         return True
+    # family match — cs/computer reach compst/comst/compapp; hindi the
+    # hin_* book family; english the eng_* family + comp(osition). A
+    # subject that lives in a family does NOT prefix-match outside it
+    # (that is what let "comp" — English composition — match
+    # "computer_science" through the startswith fallback).
+    ns_fam = ws_fam = None
+    for fam in _SUBJECT_GROUPS:
+        if ns in fam:
+            ns_fam = fam
+        if ws in fam:
+            ws_fam = fam
+    if ns_fam is not None or ws_fam is not None:
+        return ns_fam is not None and ns_fam is ws_fam
     # prefix fallback for related spellings (math/maths, eng/english…)
     return bool(ns and ws and (ns.startswith(ws) or ws.startswith(ns))
                 and len(ns) >= 3 and len(ws) >= 3)
@@ -594,6 +1036,19 @@ class EnhancedNodesIndex:
                 (node["class"], node["subject"]), []).append(nid)
         for ids in self._by_cs.values():
             ids.sort()
+        # build the search haystack once (rides the pickle cache); the lazy
+        # per-query build in search() stays as a fallback for older caches
+        for nid, node in self.nodes.items():
+            self._hay[nid] = (
+                nid.lower(),
+                _derive_title(node).lower(),
+                (node["definition"] or "").lower(),
+                " ".join(filter(None, [
+                    node["walkthrough"], node["mastery_criteria"],
+                    node["scope_boundary"], node["cognitive_level"],
+                    *[d["q"] for d in node["diagnostics"]],
+                ])).lower(),
+            )
 
     # -- basic access ------------------------------------------------------
 
@@ -624,6 +1079,166 @@ class EnhancedNodesIndex:
                 if self.companions[cid].get("parent_node_id", "").lower()
                 == pid]
 
+    def exam_coaching_for_parent(self, parent_node_id: str) -> Dict[str, Any]:
+        """Extract shortcuts, traps, and exam strategies from case-study companions."""
+        comps = self.companions_for_parent(parent_node_id)
+        shortcuts: List[Dict[str, str]] = []
+        traps: List[str] = []
+        variants: List[str] = []
+        exam_targets: set[str] = set()
+        for comp in comps:
+            for t in comp.get("exam_targets", "").split(","):
+                if t.strip():
+                    exam_targets.add(t.strip())
+            strat = comp.get("exam_strategy") or {}
+            if strat.get("common_traps"):
+                traps.append(strat["common_traps"])
+            for sq in comp.get("seed_questions") or []:
+                for sub_key, sub_text in (sq.get("sub_parts") or {}).items():
+                    sc_m = re.search(r"\*\*Shortcut:\*\*\s*([\s\S]*?)(?=\||Traps|\n\n|$)", sub_text)
+                    if sc_m:
+                        shortcuts.append({"title": sq.get("title", f"Scenario {sq.get('index', 1)}"), "text": sc_m.group(1).strip()})
+                    tr_m = re.search(r"\*\*Traps:\*\*\s*([\s\S]*?)(?=\||Variants|\n\n|$)", sub_text)
+                    if tr_m:
+                        for trap_item in re.split(r"\(\d+\)", tr_m.group(1)):
+                            cleaned = trap_item.strip().strip(".,;")
+                            if len(cleaned) > 5 and cleaned not in traps:
+                                traps.append(cleaned)
+                    va_m = re.search(r"\*\*Variants:\*\*\s*([\s\S]*?)$", sub_text)
+                    if va_m:
+                        variants.append(va_m.group(1).strip())
+        return {
+            "shortcuts": shortcuts,
+            "traps": traps[:8],
+            "variants": variants[:5],
+            "exam_targets": sorted(list(exam_targets)),
+        }
+
+    def teach_loop_for(self, node_id: str) -> Optional[Dict[str, Any]]:
+        """The doubt -> learning-loop payload for one teaching node.
+
+        An answered doubt is the highest-intent learning signal the app
+        gets; this hands the frontend the authored pedagogy for that node
+        in one shot so the student rolls straight from the answer into
+        the concept, a self-check, an exam-level capstone and the next
+        concept -- understand -> check -> stretch -> next.
+
+          concept : title + definition + ELI5 + story deep link
+          check   : the node's first diagnostic (q/a + misconception)
+          stretch : the case-study companion's first seed question
+                    (the ..._comp capstone), when one exists
+          next    : forward_node_ids resolved to titles + the authored
+                    reason each one follows
+
+        Teaching nodes only -- companion ids and unknown ids return None
+        so callers attach ``teach_loop: None`` and move on."""
+        node = self.nodes.get((node_id or "").strip())
+        if node is None:
+            return None
+        nid = node["node_id"]
+
+        diags = node.get("diagnostics") or []
+        first = diags[0] if diags else None
+        check = ({
+            "index": first["index"],
+            "question": first["q"],
+            "answer": first["a"],
+            "misconception": first["misconception"],
+            "total": len(diags),
+        } if first else None)
+
+        stretch = None
+        comps = self.companions_for_parent(nid)
+        cqs = node.get("competency_questions") or []
+        # Hindi-medium nodes: their _comp companions are authored in English,
+        # but the node's own competency question is in Hindi — prefer it so
+        # the loop stays in the student's medium. The comp remains linked
+        # below as an optional deep-dive.
+        is_hindi = nid.split("_")[1].startswith("hin") if "_" in nid else False
+        if is_hindi and cqs:
+            cq = cqs[0]
+            stretch = {
+                "comp_id": comps[0]["node_id"] if comps else None,
+                "title": (cq.get("question") or "")[:120],
+                "difficulty": cq.get("difficulty") or "medium",
+                "exam_targets": cq.get("competency") or "",
+                "url": f"/learn/{nid}/story",
+                "question": cq.get("question"),
+                "answer": cq.get("answer"),
+            }
+        elif comps:
+            comp = comps[0]
+            seeds = comp.get("seed_questions") or []
+            seed = seeds[0] if seeds else {}
+            stretch = {
+                "comp_id": comp["node_id"],
+                "title": seed.get("title") or "Case study",
+                "difficulty": seed.get("difficulty") or "",
+                "exam_targets": comp.get("exam_targets") or "",
+                "url": f"/learn/{nid}/story?comp={comp['node_id']}",
+            }
+        elif cqs:
+            # No companion file: fall back to the node's own competency
+            # question as the stretch target so every teach loop closes.
+            cq = cqs[0]
+            stretch = {
+                "comp_id": None,
+                "title": (cq.get("question") or "")[:120],
+                "difficulty": cq.get("difficulty") or "medium",
+                "exam_targets": cq.get("competency") or "",
+                "url": f"/learn/{nid}/story",
+                "question": cq.get("question"),
+                "answer": cq.get("answer"),
+            }
+
+        reasons = node.get("forward_reasons") or {}
+        nxt = []
+        for fwd in (node.get("forward_node_ids") or [])[:3]:
+            fwd_node = self.nodes.get(fwd)
+            nxt.append({
+                "node_id": fwd,
+                "title": _derive_title(fwd_node) if fwd_node else fwd,
+                "reason": reasons.get(fwd, ""),
+            })
+
+        # spiral-curriculum "revise earlier": the prerequisite list crosses
+        # classes (a c10 photosynthesis node points back to c7/c8/c9 bio) —
+        # surface it so a weak senior student can drop to the earlier pass.
+        prereq_reasons = node.get("prerequisite_reasons") or {}
+        revise = []
+        for pre in (node.get("prereq_ids") or []):
+            pre_node = self.nodes.get(pre)
+            if not pre_node:
+                continue
+            if pre_node.get("class") == node.get("class"):
+                continue          # same-class prerequisites are linear, not spiral
+            revise.append({
+                "node_id": pre,
+                "title": _derive_title(pre_node),
+                "class": pre_node.get("class"),
+                "reason": prereq_reasons.get(pre, ""),
+                "url": f"/learn/{pre}/story",
+            })
+            if len(revise) >= 2:
+                break
+
+        return {
+            "node_id": nid,
+            "concept": {
+                "title": _derive_title(node),
+                "definition": node.get("definition") or "",
+                "eli5": node.get("eli5"),
+                "subject": node.get("subject"),
+                "chapter": node.get("chapter"),
+                "learn_url": f"/learn/{nid}",
+                "story_url": f"/learn/{nid}/story",
+            },
+            "check": check,
+            "stretch": stretch,
+            "next": nxt,
+            "revise": revise,
+        }
+
     def classes(self) -> List[int]:
         return sorted({c for c, _ in self._by_cs})
 
@@ -652,7 +1267,8 @@ class EnhancedNodesIndex:
     # -- class/subject listing --------------------------------------------
 
     def by_class_subject(self, cls: int, subject: str,
-                         summaries: bool = True) -> List[Dict]:
+                         summaries: bool = True,
+                         board: Optional[str] = None) -> List[Dict]:
         ids = self._by_cs.get((int(cls), (subject or "").strip().lower()))
         if not ids:
             # alias-tolerant scan (e.g. subject="bio" vs stored "biology")
@@ -660,6 +1276,14 @@ class EnhancedNodesIndex:
                 nid for (c, s), nids in self._by_cs.items() if c == int(cls)
                 for nid in nids if _subject_matches(s, subject))
         nodes = [self.nodes[nid] for nid in ids]
+        if board:
+            # icse/isc are one family: CISCE. Unmarked nodes are neutral
+            # (serve both boards).
+            b = board.strip().lower()
+            want = {"icse", "isc"} if b in {"icse", "isc", "cisce"} else {b}
+            nodes = [n for n in nodes
+                     if (n.get("board") or "") in want
+                     or not (n.get("board") or "")]
         return [_summary(n) for n in nodes] if summaries else nodes
 
     # -- search ------------------------------------------------------------
@@ -671,37 +1295,53 @@ class EnhancedNodesIndex:
         if not ql:
             return []
         terms = ql.split()
-        results: List[Tuple[float, str]] = []
-        for nid, node in self.nodes.items():
-            if cls is not None and node["class"] != int(cls):
-                continue
-            if subject and not _subject_matches(node["subject"], subject):
-                continue
-            # haystack is memoised per node: rebuilding the multi-KB body
-            # string for every node on EVERY search cost seconds per call
-            hay = self._hay.get(nid)
-            if hay is None:
-                hay_id = nid.lower()
-                hay_def = (node["definition"] or "").lower()
-                hay_body = " ".join(filter(None, [
-                    node["walkthrough"], node["mastery_criteria"],
-                    node["scope_boundary"], node["cognitive_level"],
-                    *[d["q"] for d in node["diagnostics"]],
-                ])).lower()
-                hay = self._hay[nid] = (hay_id, hay_def, hay_body)
-            else:
-                hay_id, hay_def, hay_body = hay
-            score = 0.0
-            for t in terms:
-                if t in hay_id:
-                    score += 8.0
-                if t in hay_def:
-                    score += 3.0
-                if t in hay_body:
-                    score += 1.0
-            if score:
-                results.append((score, nid))
-        results.sort(key=lambda x: (-x[0], x[1]))
+        # Rust fast path (optional): atlas_speed.search_hay does the same
+        # scoring in parallel across all hay entries — ~50× faster.
+        try:
+            import atlas_speed as _rs
+        except ImportError:
+            _rs = None
+        if _rs is not None:
+            rows = [(nid, *self._hay[nid]) for nid, node in self.nodes.items()
+                    if nid in self._hay
+                    and (cls is None or node["class"] == int(cls))
+                    and (not subject or _subject_matches(node["subject"], subject))]
+            results = _rs.search_hay(rows, terms, max(1, int(limit)))
+        else:
+            results: List[Tuple[float, str]] = []
+            for nid, node in self.nodes.items():
+                if cls is not None and node["class"] != int(cls):
+                    continue
+                if subject and not _subject_matches(node["subject"], subject):
+                    continue
+                # haystack is memoised per node: rebuilding the multi-KB body
+                # string for every node on EVERY search cost seconds per call
+                hay = self._hay.get(nid)
+                if hay is None:
+                    hay_id = nid.lower()
+                    hay_title = _derive_title(node).lower()
+                    hay_def = (node["definition"] or "").lower()
+                    hay_body = " ".join(filter(None, [
+                        node["walkthrough"], node["mastery_criteria"],
+                        node["scope_boundary"], node["cognitive_level"],
+                        *[d["q"] for d in node["diagnostics"]],
+                    ])).lower()
+                    hay = self._hay[nid] = (hay_id, hay_title, hay_def, hay_body)
+                else:
+                    hay_id, hay_title, hay_def, hay_body = hay
+                score = 0.0
+                for t in terms:
+                    if t in hay_title:
+                        score += 15.0
+                    if t in hay_id:
+                        score += 8.0
+                    if t in hay_def:
+                        score += 3.0
+                    if t in hay_body:
+                        score += 1.0
+                if score:
+                    results.append((score, nid))
+            results.sort(key=lambda x: (-x[0], x[1]))
         out = []
         for score, nid in results[:max(1, int(limit))]:
             s = _summary(self.nodes[nid])
@@ -720,12 +1360,19 @@ class EnhancedNodesIndex:
         survive the class/subject filter.
         """
         picked: List[str] = []
-        for nid, node in self.nodes.items():
-            if cls is not None and node["class"] != int(cls):
-                continue
-            if subject and not _subject_matches(node["subject"], subject):
-                continue
-            picked.append(nid)
+        if cls is not None:
+            # scope via _by_cs (alias-aware over ~115 keys, not 20k nodes)
+            for (c, s), nids in self._by_cs.items():
+                if c != int(cls):
+                    continue
+                if subject and not _subject_matches(s, subject):
+                    continue
+                picked.extend(nids)
+        else:
+            for nid, node in self.nodes.items():
+                if subject and not _subject_matches(node["subject"], subject):
+                    continue
+                picked.append(nid)
         picked.sort()
         picked = picked[:max(1, int(limit))]
         picked_set = set(picked)
@@ -880,9 +1527,16 @@ def dir_fingerprint(md_dir: str) -> Dict:
     return fp
 
 
-def build_index(md_dirs: List[str]) -> EnhancedNodesIndex:
+def build_index(md_dirs):
     """Scan every md_dir and parse every node + companion file.  Tolerates
-    malformed files -- they are counted as skipped in ``index.stats``."""
+    malformed files -- they are counted as skipped in ``index.stats``.
+
+    ``md_dirs`` may also be a single path (str/PathLike) — callers that
+    hand one in would otherwise iterate it character-by-character."""
+    if isinstance(md_dirs, (str, os.PathLike)):
+        md_dirs = [os.fspath(md_dirs)]
+    else:
+        md_dirs = list(md_dirs)
     t0 = time.time()
     pairs = [(d, f) for d in md_dirs for f in _md_files(d)]
     nodes: List[Dict] = []
@@ -890,11 +1544,34 @@ def build_index(md_dirs: List[str]) -> EnhancedNodesIndex:
     skipped: Dict[str, str] = {}
     degraded = 0
     companions_degraded = 0
+    # Rust fast path (optional): atlas_speed.parse_dir reads + splits every
+    # file in a dir off-GIL; _node_from_sections shapes identical output.
+    _rust = None
+    try:
+        import atlas_speed as _rust_mod
+        _rust = _rust_mod
+    except ImportError:
+        pass
+    rust_sections: Dict[str, Tuple[str, Dict[str, str]]] = {}
+    if _rust is not None:
+        for d in md_dirs:
+            try:
+                for stem, secs in _rust.parse_dir(d):
+                    rust_sections[os.path.join(d, stem + ".md")] = (stem, secs)
+            except Exception as exc:
+                logger.warning("atlas_speed parse_dir failed on %s: %s", d, exc)
+                rust_sections = {}
+                break
     for d, fname in pairs:
         stem = os.path.splitext(fname)[0]
         is_comp = stem.endswith(COMP_SUFFIX)
-        parser = parse_companion_file if is_comp else parse_node_file
-        node, reason = parser(os.path.join(d, fname))
+        rust_hit = rust_sections.get(os.path.join(d, fname))
+        if is_comp:
+            node, reason = parse_companion_file(os.path.join(d, fname))
+        elif rust_hit is not None:
+            node, reason = _node_from_sections(rust_hit[0], rust_hit[1])
+        else:
+            node, reason = parse_node_file(os.path.join(d, fname))
         if node is None:
             skipped[fname] = reason or "unknown"
             continue
@@ -957,15 +1634,20 @@ def _read_cache(fingerprint: Dict) -> Optional[EnhancedNodesIndex]:
                 idx.stats["cache_hit"] = True
                 idx.stats["cache_format"] = "pickle"
                 return idx
-        except (OSError, ValueError, KeyError, TypeError, AttributeError):
+        except Exception:
             pass
 
     path = _cache_path()
     if not os.path.isfile(path):
         return None
     try:
-        with open(path, "r", encoding="utf-8") as fh:
-            payload = json.load(fh)
+        try:
+            import orjson
+            with open(path, "rb") as fh:
+                payload = orjson.loads(fh.read())
+        except ImportError:
+            with open(path, "r", encoding="utf-8") as fh:
+                payload = json.load(fh)
         if payload.get("cache_version") != CACHE_VERSION:
             return None
         if payload.get("fingerprint") != fingerprint:
@@ -991,16 +1673,25 @@ def _read_cache(fingerprint: Dict) -> Optional[EnhancedNodesIndex]:
 
 def _write_cache(index: EnhancedNodesIndex, fingerprint: Dict) -> None:
     path = _cache_path()
+    payload = {"cache_version": CACHE_VERSION,
+               "fingerprint": fingerprint,
+               **index.to_dict()}
     try:
+        import orjson                              # ~30× faster than json.dump
         os.makedirs(os.path.dirname(path), exist_ok=True)
         tmp = path + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as fh:
-            json.dump({
-                "cache_version": CACHE_VERSION,
-                "fingerprint": fingerprint,
-                **index.to_dict(),
-            }, fh, ensure_ascii=False)
+        with open(tmp, "wb") as fh:
+            fh.write(orjson.dumps(payload))
         os.replace(tmp, path)
+    except ImportError:
+        try:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            tmp = path + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as fh:
+                json.dump(payload, fh, ensure_ascii=False)
+            os.replace(tmp, path)
+        except OSError:
+            pass                                   # cache is best-effort
     except OSError:
         pass                                       # cache is best-effort
     # binary cache — restores in seconds, not minutes
@@ -1021,6 +1712,52 @@ def _write_cache(index: EnhancedNodesIndex, fingerprint: Dict) -> None:
 
 _LOCK = threading.Lock()
 _INDEX: Optional[EnhancedNodesIndex] = None
+
+
+def _read_stale_cache() -> Optional[EnhancedNodesIndex]:
+    """Newest usable index regardless of fingerprint — served instantly
+    while a background rebuild warms the fresh one."""
+    ppath = _pickle_cache_path()
+    for cand in ([ppath] if os.path.isfile(ppath) else []) + \
+                ([_cache_path()] if os.path.isfile(_cache_path()) else []):
+        try:
+            if cand.endswith(".pickle"):
+                import pickle
+                with open(cand, "rb") as fh:
+                    payload = pickle.load(fh)
+            else:
+                try:
+                    import orjson
+                    with open(cand, "rb") as fh:
+                        payload = orjson.loads(fh.read())
+                except ImportError:
+                    with open(cand, "r", encoding="utf-8") as fh:
+                        payload = json.load(fh)
+            idx = payload.get("index") or (
+                EnhancedNodesIndex.from_dict(payload)
+                if payload.get("cache_version") == CACHE_VERSION else None)
+            if idx is not None:
+                idx.stats = dict(idx.stats)
+                idx.stats["cache_hit"] = True
+                idx.stats["stale_serve"] = True
+                return idx
+        except Exception:
+            continue
+    return None
+
+
+def _background_rebuild(dirs, fingerprint):
+    """Rebuild the index off the request path and hot-swap the singleton."""
+    global _INDEX
+    try:
+        index = build_index(dirs)
+        _write_cache(index, fingerprint)
+        with _LOCK:
+            _INDEX = index
+        logger.info("enhanced-nodes: background rebuild swapped in (%d nodes)",
+                    len(index.nodes))
+    except Exception as exc:
+        logger.warning("enhanced-nodes: background rebuild failed: %s", exc)
 
 
 def load_index(force: bool = False,
@@ -1046,6 +1783,17 @@ def load_index(force: bool = False,
         fingerprint = "|".join(
             json.dumps(dir_fingerprint(d), sort_keys=True) for d in dirs)
         index = None if force else _read_cache(fingerprint)
+        if index is None and not force:
+            # stale-serve: hand back the previous index NOW and rebuild in
+            # the background — requests never eat the 2-minute rebuild
+            stale = _read_stale_cache()
+            if stale is not None:
+                threading.Thread(
+                    target=_background_rebuild,
+                    args=(dirs, fingerprint), daemon=True,
+                ).start()
+                _INDEX = stale
+                return stale
         if index is None:
             index = build_index(dirs)
             _write_cache(index, fingerprint)
@@ -1141,6 +1889,45 @@ _NODE_EMB = None
 _NODE_EMB_LOCK = threading.Lock()
 
 
+class _LazyEmbedModel:
+    """E1 (BATCH_BRIEF §4): the MiniLM must load on FIRST QUERY, not at
+    cache load — a boot that reads the .npy must not pay the ~48s torch
+    import.  Implements .encode over the shared model_hub singleton."""
+
+    def __init__(self, mname: str, getter):
+        self._mname = mname
+        self._getter = getter
+        self._m = None
+
+    def encode(self, texts, **kw):
+        if self._m is None:
+            self._m = self._getter()
+        return self._m.encode(texts, **kw)
+
+
+def _embed_texts_and_key(index):
+    """THE node-embedding text construction + content key.  Byte-exact
+    contract: the precompute tool (tools/precompute_node_embeds.py) and
+    the boot loader MUST derive the same texts or the .npy key misses
+    and boot falls back to a stale cache / a 45-minute encode."""
+    nids = sorted(index.nodes.keys())
+    texts = []
+    for nid in nids:
+        n = index.nodes[nid]
+        texts.append(" ".join(filter(None, [
+            nid, n.get("definition", ""),
+            n.get("mastery_criteria", ""),
+            " ".join(d.get("q", "") for d in
+                     (n.get("diagnostics") or [])[:4]),
+        ])).lower())
+    mname = os.environ.get("COMPETENCY_EMBEDDER",
+                           "all-MiniLM-L6-v2")
+    key = hashlib.sha256(
+        (mname + "|nodes|" + "\x00".join(texts)).encode()
+    ).hexdigest()[:24]
+    return nids, texts, mname, key
+
+
 def _node_embeddings(index):
     global _NODE_EMB
     if _NODE_EMB is not None:
@@ -1149,24 +1936,21 @@ def _node_embeddings(index):
         if _NODE_EMB is not None:
             return _NODE_EMB
         try:
-            import hashlib
             import numpy as np
-            from sentence_transformers import SentenceTransformer
-            nids = sorted(index.nodes.keys())
-            texts = []
-            for nid in nids:
-                n = index.nodes[nid]
-                texts.append(" ".join(filter(None, [
-                    nid, n.get("definition", ""),
-                    n.get("mastery_criteria", ""),
-                    " ".join(d.get("q", "") for d in
-                             (n.get("diagnostics") or [])[:4]),
-                ])).lower())
-            mname = os.environ.get("COMPETENCY_EMBEDDER",
-                                   "all-MiniLM-L6-v2")
-            key = hashlib.sha256(
-                (mname + "|nodes|" + "\x00".join(texts)).encode()
-            ).hexdigest()[:24]
+            nids, texts, mname, key = _embed_texts_and_key(index)
+            # PERF (2026-10-03): default MiniLM rides the process-wide
+            # shared singleton (backend.ai.model_hub) instead of its own
+            # SentenceTransformer instance.
+            # E1: sentence_transformers imports torch (~48s cold) — it
+            # belongs INSIDE the model getter, so a .npy cache hit never
+            # pays it at boot (the lazy proxy defers to first query).
+            def _get_model():
+                if mname in ("all-MiniLM-L6-v2",
+                             "sentence-transformers/all-MiniLM-L6-v2"):
+                    from backend.ai import model_hub
+                    return model_hub.load_sync()
+                from sentence_transformers import SentenceTransformer
+                return SentenceTransformer(mname)
             cache = os.path.join(_REPO_ROOT, "cbse_data",
                                  f"node_embed_{key}.npy")
             emb = None
@@ -1176,19 +1960,43 @@ def _node_embeddings(index):
                 except Exception:
                     emb = None
             if emb is None:
-                model = SentenceTransformer(mname)
+                # Content-wave fallback: when the exact content-hash cache
+                # misses (definitions being rewritten by authoring waves),
+                # serve the newest existing embeddings rather than blocking
+                # every solve for a ~45-minute rebuild.  Slightly stale
+                # semantic recall is harmless; a wedged solver is not.
+                import glob as _glob
+                _stale = sorted(_glob.glob(os.path.join(_REPO_ROOT, "cbse_data",
+                                                       "node_embed_*.npy")),
+                                key=os.path.getmtime)
+                if _stale:
+                    try:
+                        _prev = np.load(_stale[-1])
+                        if _prev.ndim == 2 and len(nids) == _prev.shape[0]:
+                            emb = _prev
+                            logger.warning(
+                                "node embeddings: serving STALE cache %s "
+                                "(content waves in progress — will rebuild "
+                                "when they finish)", os.path.basename(_stale[-1]))
+                    except Exception:
+                        emb = None
+            if emb is None:
+                model = _get_model()
                 emb = model.encode(texts, normalize_embeddings=True)
                 try:
                     np.save(cache, emb)
                 except Exception:
                     pass
-            _NODE_EMB = (nids, emb, SentenceTransformer(mname))
+            # E1: lazy model — a .npy/stale-cache hit must not import
+            # torch at boot; the model loads on the first real query
+            _NODE_EMB = (nids, emb, _LazyEmbedModel(mname, _get_model))
         except Exception:
             _NODE_EMB = None
     return _NODE_EMB
 
 
-def _semantic_hits(index, ql: str, limit: int) -> List[str]:
+def _semantic_hits(index, ql: str, limit: int,
+                   threshold: float = 0.3) -> List[str]:
     """Top-``limit`` node_ids by embedding similarity; [] when the model
     or cache is unavailable (caller falls back to lexical-only)."""
     try:
@@ -1199,7 +2007,7 @@ def _semantic_hits(index, ql: str, limit: int) -> List[str]:
         q = model.encode([ql.lower()], normalize_embeddings=True)[0]
         scores = emb @ q
         order = scores.argsort()[::-1][:limit]
-        return [nids[i] for i in order if scores[i] > 0.3]
+        return [nids[i] for i in order if scores[i] > threshold]
     except Exception:
         return []
 

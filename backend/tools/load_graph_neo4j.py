@@ -24,6 +24,25 @@ from collections import Counter
 
 from neo4j import GraphDatabase
 
+# D11 hard/soft edge classifier (shared with the runtime consumers).  The
+# loader is also run as a bare script, so fall back to a local copy of the
+# rule if the backend package is not importable — the RULE itself lives in
+# backend/services/graph_edges.py and must stay the single definition.
+try:
+    _HERE = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, os.path.abspath(os.path.join(_HERE, "..", "..")))
+    from backend.services.graph_edges import classify as _classify_edge
+except Exception:                                       # pragma: no cover
+    def _classify_edge(a, b):
+        try:
+            if int(b.get("class")) < int(a.get("class")):
+                return "hard"
+        except (TypeError, ValueError):
+            pass
+        sa = str(a.get("subject") or "").strip().lower()
+        sb = str(b.get("subject") or "").strip().lower()
+        return "hard" if (sa and sb and sa != sb) else "soft"
+
 # Canonical enhanced-nodes corpus first (content/enhanced_nodes_md, mirrored
 # to deploy/content/enhanced_nodes_md) so graph edges always parse the SAME
 # files the parser index was built from.  content/md_cache is a Desktop-era
@@ -69,6 +88,11 @@ SECTION_MAP = {
     "CROSS_SUBJECT_PREREQS": "CROSS_SUBJECT_PREREQ",
 }
 
+# D11: PREREQUISITE_OF edges are stamped kind='hard'|'soft' so the graph
+# carries the semantics, not just the raw header dump.  Gating consumers
+# filter at read time too (the served graph may predate this stamp).
+KIND_STAMP_RELS = {"PREREQUISITE_OF"}
+
 
 def _env_of(node: dict) -> dict:
     return {
@@ -82,8 +106,11 @@ def _env_of(node: dict) -> dict:
     }
 
 
-def _md_reference_edges(node_ids: set) -> tuple:
-    """Parse the 5 reference sections from md files. Returns (rows, skipped)."""
+def _md_reference_edges(node_ids: set, coords: dict) -> tuple:
+    """Parse the 5 reference sections from md files. Returns (rows, skipped).
+
+    ``coords`` maps node_id -> {"class", "subject"} so PREREQUISITE_OF rows
+    can be stamped with the D11 edge kind (hard | soft)."""
     erows = []
     skipped = 0
     seen = set()
@@ -118,7 +145,11 @@ def _md_reference_edges(node_ids: set) -> tuple:
                 if key in seen:
                     continue
                 seen.add(key)
-                erows.append({"a": src, "b": tgt, "rel": rel})
+                row = {"a": src, "b": tgt, "rel": rel}
+                if rel in KIND_STAMP_RELS:
+                    row["kind"] = _classify_edge(coords.get(src) or {},
+                                                 coords.get(tgt) or {})
+                erows.append(row)
     return erows, skipped
 
 
@@ -126,6 +157,8 @@ def _load_depth() -> dict:
     depth = {}
     audit_dirs = [AUDIT_DIR, os.path.join(ROOT, "sims_v2")]
     for base in audit_dirs:
+        if not os.path.isdir(base):
+            continue  # sims_v2 lives in the frontend image, not this one
         for f in os.listdir(base):
             if f.endswith("_NODE_DEPTH.json"):
                 d = json.load(open(os.path.join(base, f), encoding="utf-8"))
@@ -147,6 +180,10 @@ def main(wipe: bool = False) -> None:
              if not str(n.get("node_id") or "").endswith("_comp")
              and n.get("kind") != "case_companion"]
     node_ids = {n.get("node_id") for n in nodes}
+    # D11 coordinates for the hard/soft edge stamp.
+    coords = {n.get("node_id"): {"class": n.get("class"),
+                                 "subject": n.get("subject")}
+              for n in nodes}
     print(f"index: {len(all_parsed)} parsed -> {len(nodes)} graph nodes "
           f"({len(all_parsed) - len(nodes)} companions excluded)")
 
@@ -249,8 +286,10 @@ def main(wipe: bool = False) -> None:
             """, rows=rows[i:i + 500])
         print(f"nodes written: {len(rows)}")
 
-        erows, skipped = _md_reference_edges(node_ids)
+        erows, skipped = _md_reference_edges(node_ids, coords)
         rel_counts = Counter(r["rel"] for r in erows)
+        kind_counts = Counter((r["rel"], r.get("kind")) for r in erows
+                              if r.get("kind"))
         by_rel = {}
         for r in erows:
             by_rel.setdefault(r["rel"], []).append(r)
@@ -259,10 +298,13 @@ def main(wipe: bool = False) -> None:
                 s.run(f"""
                     UNWIND $rows AS row
                     MATCH (a:Node {{node_id: row.a}}), (b:Node {{node_id: row.b}})
-                    MERGE (a)-[:{rel}]->(b)
+                    MERGE (a)-[r:{rel}]->(b)
+                    SET r.kind = row.kind
                 """, rows=rows_r[i:i + 1000])
         print(f"edges written: {len(erows)} (skipped broken refs: {skipped})")
         print("  by type:", dict(rel_counts))
+        for (rel, kind), k in sorted(kind_counts.items()):
+            print(f"  {rel} kind={kind}: {k}")
 
         sim_rows = list(sims.values())
         for e in map_entries:

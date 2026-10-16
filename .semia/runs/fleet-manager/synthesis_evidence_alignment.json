@@ -1,0 +1,37 @@
+{
+  "alignments": [
+    {
+      "args": [
+        "fleet-manager",
+        "name: fleet-manager"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: fleet-manager",
+      "line": 3,
+      "matched": true,
+      "relation": "skill_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "act_review",
+        "name: fleet-manager"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: fleet-manager",
+      "line": 5,
+      "matched": true,
+      "relation": "action_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    }
+  ],
+  "evidence_match_rate": 1.0,
+  "grounding_score": 0.011029411764705883,
+  "normalized_facts": [
+    "skill_evidence(\"fleet-manager\", \"su_0\").",
+    "action_evidence(\"act_review\", \"su_0\")."
+  ],
+  "reference_unit_coverage": 0.011029411764705883
+}

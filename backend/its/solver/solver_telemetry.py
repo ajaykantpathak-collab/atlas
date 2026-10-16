@@ -24,10 +24,12 @@ _REFUSAL_REASONS: Counter = Counter()
 _TOTALS = {"solves": 0, "verified": 0, "refused": 0, "withheld": 0}
 
 
-def record(route: str, *, verified: bool, refused: bool = False,
+def record(route: str, *, verified: bool = False, refused: bool = False,
            withheld: bool = False, refusal_reason: str = "",
            latency_ms: float = 0.0) -> None:
-    """Record one solve. `route` is the family/structure id."""
+    """Record one solve. `route` is the family/structure id.
+    verified=False + refused=False + withheld=False counts as UNKNOWN,
+    NOT as verified (the independent-audit fix)."""
     global _last_slo_alert
     with _LOCK:
         _TOTALS["solves"] += 1
@@ -36,8 +38,11 @@ def record(route: str, *, verified: bool, refused: bool = False,
             _REFUSAL_REASONS[refusal_reason or "unspecified"] += 1
         elif withheld:
             _TOTALS["withheld"] += 1
-        else:
+        elif verified:
             _TOTALS["verified"] += 1
+        else:
+            _TOTALS.setdefault("unknown", 0)
+            _TOTALS["unknown"] += 1
         _FAMILY_COUNTS[route or "unrouted"] += 1
         if latency_ms:
             _LATENCY_WINDOW.append(latency_ms)

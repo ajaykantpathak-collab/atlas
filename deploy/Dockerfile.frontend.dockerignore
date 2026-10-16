@@ -1,0 +1,43 @@
+# Frontend-image context — Dockerfile.frontend copies ONLY frontend/.
+# The backend corpus (content/, multi-GB incl. the live-growing cisce_nodes_v2
+# output) must never be uploaded for a frontend build — it made the context
+# balloon from ~215MB to 4.6GB between builds (9+ min of pure transfer).
+# Inherits the shared .dockerignore rules and adds the backend-only tree.
+.git
+.github
+.env
+.env.local
+.env.production
+*.log
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+**/node_modules
+frontend/.next
+frontend/.next*
+frontend/out
+frontend/_*
+frontend/node_modules
+**/_archive
+**/tests
+backend/_cache/*.tmp
+backend/_cache/*_audit*.json
+backend/_cache/*_backup*/
+backend/_cache/*.log
+deploy/tmp
+*.md
+!README.md
+frontend/public/doodle_cards
+frontend/_shots
+frontend/_audit_pages.js
+
+# backend-only trees — not referenced by Dockerfile.frontend
+content/
+backend/
+_cisce_build/
+_tmp_ctr/
+*.py
+*.ps1
+*.sh
+Dockerfile.backend

@@ -12,15 +12,24 @@ SAFETY: Only adds edges. Never deletes or modifies existing nodes/edges.
 """
 
 import json
+import os
 import sys
 from pathlib import Path
 from neo4j import GraphDatabase
 from collections import defaultdict
 
 OUTPUT_DIR = Path(r"D:\platform\parsed_output")
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "dream_neo4j_2024"
+# Same env chain as backend/services/graph_service.py — the password is
+# never a literal (lane-B audit 2026-10-15: it was hardcoded here).
+NEO4J_URI = os.getenv("PLATFORM_NEO4J_URI") or os.getenv("NEO4J_URI", "bolt://localhost:7687")
+NEO4J_USER = os.getenv("PLATFORM_NEO4J_USER") or os.getenv("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = os.getenv("PLATFORM_NEO4J_PASSWORD") or os.getenv("NEO4J_PASSWORD", "")
+
+
+def _require_password() -> None:
+    if not NEO4J_PASSWORD:
+        raise SystemExit(
+            "NEO4J_PASSWORD (or PLATFORM_NEO4J_PASSWORD) env var is required")
 
 
 def extract_edges():
@@ -51,6 +60,7 @@ def extract_edges():
 
 def load_edges_to_neo4j(edges):
     """Load edges into Neo4j using MERGE (idempotent)."""
+    _require_password()
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
     # Group by edge type
@@ -109,6 +119,7 @@ def load_edges_to_neo4j(edges):
 
 def get_stats():
     """Get current Neo4j statistics."""
+    _require_password()
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
     with driver.session() as session:
         result = session.run("MATCH (n:KnowledgeNode) RETURN count(n) as count")

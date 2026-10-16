@@ -14,22 +14,28 @@ Structural zero-wrong gate per item (BUGS.md B02 bug-class):
 Node ids never surfaced (node_tags=[]). Hindi subjects excluded.
 Idempotent: (source_file, question_text) dedup like extract_node_questions.
 """
+import argparse
 import asyncio
 import sys
-
-sys.path.insert(0, "/app/backend")
-sys.path.insert(0, "/app")
-
-from services.question_adapter import AdapterRegistry          # noqa: E402
-from services.question_selector import QuestionSelector        # noqa: E402
-from solvers.registry import SolverRegistry                    # noqa: E402
-from backend.database import async_session                     # noqa: E402
-from backend.models.enrichment import BoardQuestion            # noqa: E402
-from sqlalchemy import select                                  # noqa: E402
 
 MAX_SEEDS_PER_QTYPE = 120
 MAX_ROWS_PER_SUBJECT_GRADE = 300
 DIFFS = [0.35, 0.5, 0.65, 0.8]
+
+#: question_type aliases applied at ingestion (WS-E 2026-10-10): the
+#: adapters emitted a stray "fill_blank_type" value that is the SAME
+#: serving shape as "fill_blank" (10 legacy rows already in the table;
+#: both ride the identical grading path).  Normalize at insert so the
+#: question_type domain stops growing near-duplicates.
+QTYPE_ALIASES = {
+    "fill_blank_type": "fill_blank",
+}
+
+
+def normalize_qtype(qt) -> str:
+    """Map an adapter question_type onto the canonical domain."""
+    s = str(qt or "").strip().lower()
+    return QTYPE_ALIASES.get(s, s)
 
 #: api subject -> board_questions subject code (matches _CORPUS_SUBJECTS
 #: aliases so the selector's corpus queries actually serve these rows)
@@ -86,6 +92,17 @@ def valid(q: dict) -> bool:
 
 
 async def main() -> None:
+    # heavy / container-path imports stay lazy so the module imports
+    # cleanly off-container (tests, audits)
+    sys.path.insert(0, "/app/backend")
+    sys.path.insert(0, "/app")
+    from services.question_adapter import AdapterRegistry          # noqa: E402
+    from services.question_selector import QuestionSelector        # noqa: E402
+    from solvers.registry import SolverRegistry                    # noqa: E402
+    from backend.database import async_session                     # noqa: E402
+    from backend.models.enrichment import BoardQuestion            # noqa: E402
+    from sqlalchemy import select                                  # noqa: E402
+
     reg = SolverRegistry()
     if not getattr(reg, "_initialized", False):
         reg.initialize()
@@ -138,7 +155,8 @@ async def main() -> None:
                             node_tags=[],
                             subject=code, class_level=grade,
                             chapter=None, section="generator_variant",
-                            question_type=str(q.get("question_type") or "mcq_single"),
+                            question_type=normalize_qtype(
+                                q.get("question_type") or "mcq_single"),
                             question_text=text,
                             options=opts,
                             correct_answer=str(q.get("correct_answer")).strip(),

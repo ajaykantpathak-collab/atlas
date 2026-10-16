@@ -1,0 +1,17 @@
+{
+ "receipt_id": "rcpt_20261013T160417Z_f3a77a69",
+ "work_item": "WI-20261013-004",
+ "from_state": "STAGED",
+ "to_state": "SOAK",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T16:04:17Z",
+ "gates": [],
+ "evidence": {
+  "soak_report": "D:\\platform\\harness\\receipts\\WI-20261013-004\\soak_report.json",
+  "thresholds": {
+   "boot": false
+  }
+ },
+ "notes": "soak RED",
+ "prev_receipt_sha256": "d24081bbc15d9af9b201d1d7a7dfaf801900676125bbc842d4174ef547fb0dbf"
+}

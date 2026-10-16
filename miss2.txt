@@ -1,0 +1,88 @@
+W0921 17:39:17.067000 7812 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-21 17:39:21,858 --- Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4481.14it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+MISS fegp.4.1.1 | A pictograph uses one symbol for 2 units. If a row s -> 3.0 exp 6
+MISS fegp.4.1.1 | In a pictograph with key 1 symbol = 2 units, how man -> 19.0 exp 8
+MISS fegp.4.1.1 | In a bar graph, 1 unit of bar height stands for 20 b -> 27.0 exp 120
+MISS fegp.4.1.1 | A bar must show a frequency of 15 with scale 1 unit  -> 21.0 exp 3
+MISS fegp.4.1.2 | In a frequency table the rows have frequencies 2, 7  -> None exp 16
+MISS fegp.4.1.2 | A pictograph uses one symbol for 25 units. If a row  -> 5.0 exp 125
+MISS fegp.4.1.2 | In a pictograph with key 1 symbol = 25 units, how ma -> 25.0 exp 9
+MISS fegp.4.1.2 | In a bar graph, 1 unit of bar height stands for 5 bo -> None exp 30
+MISS fegp.4.1.2 | A bar must show a frequency of 100 with scale 1 unit -> None exp 20
+MISS fegp.4.2.1 | Write the ratio 10 : 90 in its simplest form and giv -> None exp 1
+MISS fegp.4.2.1 | Rs 780 is divided between two friends in the ratio 5 -> None exp 300
+MISS fegp.4.2.1 | Rs 300 is split in the ratio 1 : 2 : 3. Find the lar -> None exp 150
+MISS fegp.4.2.1 | Find the missing term: 5 : 6 = 15 : ?  (give the fou -> None exp 18
+MISS fegp.4.2.1 | Check the proportion 5 : 6 :: 15 : 18 by computing t -> None exp 0
+MISS fegp.4.2.1 | If 8 notebooks cost Rs 100, what will 15 notebooks c -> None exp 187.5
+MISS fegp.4.3.1 | Write the ratio 32 : 96 in its simplest form and giv -> None exp 4
+MISS fegp.4.3.1 | Rs 600 is divided between two friends in the ratio 4 -> None exp 240
+MISS fegp.4.3.1 | Rs 300 is split in the ratio 1 : 2 : 3. Find the lar -> None exp 150
+MISS fegp.4.3.1 | Find the missing term: 5 : 2 = 15 : ?  (give the fou -> None exp 6
+MISS fegp.4.3.1 | Check the proportion 5 : 2 :: 15 : 6 by computing th -> None exp 0
+MISS fegp.4.3.1 | If 10 notebooks cost Rs 40, what will 4 notebooks co -> None exp 16
+MISS fegp.4.4.1 | Write the ratio 20 : 40 in its simplest form and giv -> None exp 4
+MISS fegp.4.4.1 | Rs 600 is divided between two friends in the ratio 1 -> None exp 60
+MISS fegp.4.4.1 | Rs 240 is split in the ratio 1 : 2 : 3. Find the lar -> None exp 120
+MISS fegp.4.4.1 | Find the missing term: 7 : 5 = 28 : ?  (give the fou -> None exp 20
+MISS fegp.4.4.1 | Check the proportion 7 : 5 :: 28 : 20 by computing t -> None exp 0
+MISS fegp.4.4.1 | If 5 notebooks cost Rs 30, what will 20 notebooks co -> None exp 120
+MISS fegp.4.5.1 | A pictograph uses one symbol for 2 units. If a row s -> 3.0 exp 6
+MISS fegp.4.5.1 | In a pictograph with key 1 symbol = 2 units, how man -> 21.0 exp 9
+MISS fegp.4.5.1 | In a bar graph, 1 unit of bar height stands for 50 b -> 59.0 exp 400
+MISS fegp.4.5.1 | A bar must show a frequency of 10 with scale 1 unit  -> 16.0 exp 2
+MISS fegp.4.5.2 | A pictograph uses one symbol for 25 units. If a row  -> 6.0 exp 150
+MISS fegp.4.5.2 | In a pictograph with key 1 symbol = 25 units, how ma -> 176.0 exp 6
+MISS fegp.4.5.2 | In a bar graph, 1 unit of bar height stands for 5 bo -> 11.0 exp 25
+MISS fegp.4.5.2 | A bar must show a frequency of 25 with scale 1 unit  -> 31.0 exp 5
+ch104: 7/42
+MISS fegp.105.5.1.1 | Evaluate the limit of 1x^2 + 5x + 7 as x approaches  -> None exp 43
+MISS fegp.105.5.1.1 | By the power rule, the derivative of 3x^3 is 9x^2. F -> None exp 144
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1, find the slope of the tangent -> None exp 12
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1 at x = 1, the tangent slope is -> None exp -0.08
+MISS fegp.105.5.1.1 | Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. -> None exp 2160
+MISS fegp.105.5.1.1 | Second derivative test: for y = x^3 - 3x^2 + 2, y''  -> None exp 0
+MISS fegp.105.5.1.2 | Find the LCM of 30 and 40 given their HCF is 10 and  -> 3.0 exp 120
+MISS fegp.105.5.1.2 | The LCM of 30 and 40 is 120. Use HCF x LCM = a x b t -> None exp 10
+MISS fegp.105.5.1.2 | Two ropes of lengths 30 cm and 40 cm are cut into eq -> 2.0 exp 10
+MISS fegp.105.5.1.2 | Two bells ring together now. They ring at intervals  -> 30.0 exp 120
+MISS fegp.105.5.1.3 | Find the LCM of 56 and 16 given their HCF is 8 and H -> 5.0 exp 112
+MISS fegp.105.5.1.3 | The LCM of 56 and 16 is 112. Use HCF x LCM = a x b t -> None exp 8
+MISS fegp.105.5.1.3 | Two ropes of lengths 56 cm and 16 cm are cut into eq -> 2.0 exp 8
+MISS fegp.105.5.1.3 | Two bells ring together now. They ring at intervals  -> 56.0 exp 112
+MISS fegp.105.5.1.4 | Check whether 6 is a perfect number: its proper divi -> 1.0 exp 6
+MISS fegp.105.5.1.4 | Divisibility by 9: a number is divisible by 9 when i -> 18.0 exp 0
+MISS fegp.105.5.2.1 | Find the LCM of 45 and 72 given their HCF is 9 and H -> 4.0 exp 360
+MISS fegp.105.5.2.1 | The LCM of 45 and 72 is 360. Use HCF x LCM = a x b t -> None exp 9
+MISS fegp.105.5.2.1 | Two ropes of lengths 45 cm and 72 cm are cut into eq -> 1.0 exp 9
+MISS fegp.105.5.2.1 | Two bells ring together now. They ring at intervals  -> 90.0 exp 360
+MISS fegp.105.5.2.2 | Check whether 6 is a perfect number: its proper divi -> 1.0 exp 6
+MISS fegp.105.5.2.2 | Divisibility by 9: a number is divisible by 9 when i -> 18.0 exp 0
+MISS fegp.105.5.3.1 | Check whether 6 is a perfect number: its proper divi -> 1.0 exp 6
+MISS fegp.105.5.3.1 | Divisibility by 9: a number is divisible by 9 when i -> 18.0 exp 0
+MISS fegp.105.5.4.1 | Find the LCM of 70 and 80 given their HCF is 10 and  -> 7.0 exp 560
+MISS fegp.105.5.4.1 | The LCM of 70 and 80 is 560. Use HCF x LCM = a x b t -> None exp 10
+MISS fegp.105.5.4.1 | Two ropes of lengths 70 cm and 80 cm are cut into eq -> 2.0 exp 10
+MISS fegp.105.5.4.1 | Two bells ring together now. They ring at intervals  -> 70.0 exp 560
+MISS fegp.105.5.4.2 | Find the LCM of 84 and 60 given their HCF is 12 and  -> 8.0 exp 420
+MISS fegp.105.5.4.2 | The LCM of 84 and 60 is 420. Use HCF x LCM = a x b t -> None exp 12
+MISS fegp.105.5.4.2 | Two ropes of lengths 84 cm and 60 cm are cut into eq -> 2.0 exp 12
+MISS fegp.105.5.4.2 | Two bells ring together now. They ring at intervals  -> 84.0 exp 420
+MISS fegp.105.5.5.1 | Find the LCM of 12 and 96 given their HCF is 12 and  -> 1.0 exp 96
+MISS fegp.105.5.5.1 | The LCM of 12 and 96 is 96. Use HCF x LCM = a x b to -> None exp 12
+MISS fegp.105.5.5.1 | Two ropes of lengths 12 cm and 96 cm are cut into eq -> 2.0 exp 12
+MISS fegp.105.5.5.1 | Two bells ring together now. They ring at intervals  -> 12.0 exp 96
+MISS fegp.105.5.5.2 | Find the LCM of 45 and 72 given their HCF is 9 and H -> 4.0 exp 360
+MISS fegp.105.5.5.2 | The LCM of 45 and 72 is 360. Use HCF x LCM = a x b t -> None exp 9
+MISS fegp.105.5.5.2 | Two ropes of lengths 45 cm and 72 cm are cut into eq -> 1.0 exp 9
+MISS fegp.105.5.5.2 | Two bells ring together now. They ring at intervals  -> 90.0 exp 360
+ch105: 26/66

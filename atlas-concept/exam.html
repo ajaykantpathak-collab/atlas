@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exam Simulator — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  body { background: var(--cosmos-bg); }
+  .exam-shell { display: flex; gap: 26px; }
+  .exam-side { width: 190px; flex-shrink: 0; padding-top: 46px; }
+  @media (max-width: 900px) {
+    .exam-shell { flex-direction: column; }
+    .exam-side { width: 100%; padding-top: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+    .exam-side .timer-box { border-top: 2px solid var(--ink); }
+    .exam-side .btn-paper { grid-column: 1 / -1; }
+  }
+  .timer-box { border: 2px solid var(--ink); padding: 14px 16px; background: var(--paper); text-align: center; }
+  .timer-box .t { font-family: var(--font-mono); font-size: 24px; font-weight: 700; color: var(--ink); letter-spacing: 0.08em; }
+  .palette-grid { font-family: var(--font-mono); font-size: 12px; line-height: 2.1; color: var(--ink-soft); }
+  .palette-grid b { border: 1.5px solid var(--ink); padding: 1px 5px; }
+  .palette-grid .done { color: var(--stamp); }
+  .palette-grid .flag { color: var(--margin-red); }
+</style>
+</head>
+<body>
+<div class="paper-surface paper-page">
+  <div class="specimen-bar" data-specimen-bar></div>
+
+  <div class="paper-wrap" style="max-width:1080px;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;">
+      <div>
+        <p class="specimen gold">Board simulator · Mathematics · Class 12 · CBSE</p>
+        <h1 class="paper-title">Sample paper 2026-27</h1>
+      </div>
+      <span class="specimen">Σ 0/16 attempted</span>
+    </div>
+
+    <div class="exam-shell">
+      <aside class="exam-side" data-motion="settle">
+        <div class="timer-box">
+          <span class="specimen">Time left</span>
+          <div class="t">02:59:54</div>
+          <span class="specimen">3 hours total</span>
+        </div>
+        <div class="timer-box" style="border-top:none;text-align:left;">
+          <span class="specimen">Section A</span>
+          <div class="palette-grid">
+            <span class="done">1</span> <span class="done">2</span> <b>3</b> 4 5 6 7 8<br>
+            9 10 11 12 13 14 15 16
+          </div>
+          <span class="specimen" style="margin-top:10px;display:block;">Section B</span>
+          <div class="palette-grid">17 18 19 20 21 22<br><span class="flag">✩ flagged: none</span></div>
+        </div>
+        <button class="btn-paper red" style="width:100%;margin-top:14px;" onclick="submitExam()">Submit exam</button>
+        <div id="ex-verdict" style="display:none;margin-top:12px;text-align:center;">
+          <span class="paper-stamp" id="ex-stamp"></span>
+        </div>
+      </aside>
+
+      <div style="flex:1;">
+        <div class="paper-sheet ruled" data-motion="settle">
+          <div class="sheet-head"><span class="l" id="ex-head"></span><span class="r">General instructions on cover</span></div>
+          <div class="sheet-body">
+
+            <div class="paper-section">Section A <span class="sub">· compulsory · 1 mark each</span></div>
+
+            <div class="q-row">
+              <span class="paper-qnum" id="ex-num"></span>
+              <p style="font-size:17px;max-width:600px;">
+                <span id="ex-q"></span>
+                <span class="paper-marks" id="ex-marks"></span>
+                <span class="paper-tag" id="ex-diff"></span>
+                <span class="paper-tag" id="ex-tag"></span>
+              </p>
+            </div>
+            <ul class="paper-opts" style="max-width:600px;" id="ex-opts"></ul>
+            <p style="margin-top:10px;">
+              <button class="btn-paper" id="ex-review" style="padding:6px 12px;font-size:10px;">☆ Review</button>
+              <span class="specimen" style="margin-left:12px;" id="ex-sub"></span>
+            </p>
+
+            <div class="paper-section" style="margin-top:44px;">Section B <span class="sub">· short answer · 2–3 marks</span></div>
+            <div class="q-row">
+              <span class="paper-qnum" id="ex2-num"></span>
+              <p style="font-size:17px;max-width:600px;">
+                <span id="ex2-q"></span>
+                <span class="paper-marks" id="ex2-marks"></span> <span class="paper-tag" id="ex2-diff"></span>
+              </p>
+              <textarea class="paper-answer" rows="5" id="ex2-ans"></textarea>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;margin-top:36px;">
+              <button class="btn-paper" onclick="loadExam()">← Prev</button>
+              <button class="btn-paper ink" onclick="loadExam()">Next →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+<script>
+let lastE = -1;
+function loadExam() {
+  const sheet = document.querySelector(".paper-sheet.ruled");
+  if (lastE === -1) _swapExam(); else pageTurn(sheet, _swapExam);
+}
+function _swapExam() {
+  let i; do { i = Math.floor(Math.random() * ATLAS_DATA.EXAMS.length); } while (i === lastE);
+  lastE = i;
+  const d = ATLAS_DATA.EXAMS[i];
+  document.getElementById("ex-head").textContent = d.head;
+  const m = d.mcq;
+  document.getElementById("ex-num").textContent = m.qnum;
+  document.getElementById("ex-q").textContent = m.q + " ";
+  document.getElementById("ex-marks").textContent = m.marks;
+  const dd = document.getElementById("ex-diff");
+  dd.textContent = m.diff[0]; dd.className = "paper-tag " + m.diff[1];
+  document.getElementById("ex-tag").textContent = m.tag;
+  document.getElementById("ex-opts").innerHTML = m.opts.map((o, k) =>
+    `<li data-letter="${"abcd"[k]}" ${k === m.correct ? 'data-correct' : ""} onclick="pick(this)">${o}</li>`).join("");
+  document.getElementById("ex-sub").textContent = `Sub-topic: ${m.sub} · 1/16`;
+  const s = d.saq;
+  document.getElementById("ex2-num").textContent = s.qnum;
+  document.getElementById("ex2-q").textContent = s.q + " ";
+  document.getElementById("ex2-marks").textContent = s.marks;
+  const d2 = document.getElementById("ex2-diff");
+  d2.textContent = s.diff[0]; d2.className = "paper-tag " + s.diff[1];
+  document.getElementById("ex2-ans").placeholder = s.ph;
+  document.getElementById("ex2-ans").value = "";
+  document.getElementById("ex-verdict").style.display = "none";
+}
+function submitExam() {
+  grade();
+  const got = !!document.querySelector(".paper-opts li.picked.right");
+  document.getElementById("ex-stamp").textContent = got ? "Marked · saved" : "Submitted — unattempted flagged";
+  document.getElementById("ex-stamp").className = "paper-stamp" + (got ? "" : " rejected");
+  document.getElementById("ex-verdict").style.display = "block";
+}
+document.getElementById("ex-review").addEventListener("click", function () {
+  const on = this.textContent.includes("★");
+  this.textContent = on ? "☆ Review" : "★ Review";
+});
+loadExam();
+motionScan();
+</script>
+</body>
+</html>

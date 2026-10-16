@@ -1,0 +1,52 @@
+{
+ "edits": [
+  {
+   "file": "c8_math_ch4_10.md",
+   "definition": "In a parallelogram, the two diagonals intersect at a point that divides each diagonal into two equal segments — the diagonals bisect each other. If ABCD is a parallelogram with diagonals AC and BD meeting at O, then AO = OC and BO = OD. This bisection is the test that separates parallelograms from ordinary quadrilaterals: in a kite or a general trapezium the crossing point does not cut both diagonals in half. It also gives a quick construction — two segments crossing at their midpoints always trace out a parallelogram, which is why the property is used both to prove a figure is a parallelogram and to build one."
+  },
+  {
+   "file": "c8_math_ch4_9.md",
+   "definition": "A parallelogram is a quadrilateral in which both pairs of opposite sides are parallel. That single condition pulls the rest of the properties with it: opposite sides are equal in length, opposite angles are equal in measure, adjacent angles are supplementary (they add to 180°), and the two diagonals bisect each other. Rectangles, rhombuses and squares are special parallelograms in which these properties sharpen further — into right angles or equal diagonals — while any four-sided figure failing the parallel test is not a parallelogram at all."
+  },
+  {
+   "file": "c8_math_ch8_4.md",
+   "definition": "Finding the percentage of a given quantity means calculating the part of the quantity that corresponds to the given rate, using the fact that 'per cent' means 'per hundred'. The rule is: (Percentage ÷ 100) × Given Quantity. So 20% of ₹250 is (20 ÷ 100) × 250 = ₹50. The same rule reads backwards for the reverse questions — finding what per cent one number is of another, or finding the whole when a part and its percentage are known — by moving the known values to the other side of the same relation."
+  },
+  {
+   "file": "c8_physics_ch1_8.md",
+   "definition": "Balancing careful observation with creative thinking is the working habit of science: the observer's half collects accurate, unbiased data — measuring, recording, repeating — while the thinker's half imagines hypotheses, designs experiments and reads meanings that the raw facts alone do not announce. Neither half works alone; observation without imagination piles up unexplained facts, and imagination without observation builds castles that no measurement supports. The great discoveries pair the two: a watching eye catches the odd detail, and a daring mind proposes what the detail might mean, which the next experiment then tests."
+  },
+  {
+   "file": "c8_physics_ch2_10.md",
+   "definition": "Efficiency of a light bulb is the ratio of the useful energy output — visible light — to the total electrical energy fed in, expressed as a percentage: Efficiency = (useful light energy ÷ total electrical energy) × 100. A bulb converts most of its input into heat rather than light, so a traditional filament bulb wastes roughly 90% of the electricity it draws, while an LED converts a far larger share into light. Comparing efficiencies tells which lamp lights a room for the least electricity, which is the number electricity bills and energy ratings are built on."
+  },
+  {
+   "file": "c8_physics_ch4_2.md",
+   "definition": "The SI unit of pressure is the pascal (symbol Pa), defined as one newton of force acting perpendicularly on an area of one square metre: 1 Pa = 1 N/m². It measures how concentrated a force is on a surface — the same 100 N pushes hardest where it is squeezed into the smallest area. Because one pascal is a very small pressure in daily life (a ₹1 coin resting flat exerts several hundred pascals), larger practical units such as kilopascals (kPa) are often used; pressure is a scalar, with no direction of its own."
+  },
+  {
+   "file": "c8_physics_ch4_7.md",
+   "definition": "Wind is the horizontal movement of air from regions of higher atmospheric pressure towards regions of lower pressure, driven by the pressure gradient — the difference in pressure over a distance. The greater the pressure difference over a given distance, the harder the air is pushed and the faster the wind blows; gentle sea breezes and violent storms are the same mechanism at different strengths. Uneven heating of the Earth's surface is what creates the pressure differences in the first place: warm air rises and lowers the pressure beneath it, cooler air flows in to take its place, and that flowing air is the wind."
+  },
+  {
+   "file": "c8_physics_ch7_2.md",
+   "definition": "The changing shape of the Moon — its phases — is caused by the changing relative positions of the Sun, the Earth and the Moon as the Moon orbits the Earth roughly once a month. The Sun always lights exactly half of the Moon's surface; what changes is how much of that sunlit half faces the Earth, so we see everything from the fully lit full Moon, through the quarters, to the fully dark new Moon. The Moon produces no light of its own — the phases are only our shifting view of one fixed half-lit sphere."
+  },
+  {
+   "file": "c8_bio_ch1_10.md",
+   "definition": "Beneficial microorganisms such as bacteria and fungi act as nature's decomposers: they secrete enzymes that break the complex organic matter of dead plants and animals, and of animal droppings, into simple inorganic nutrients — nitrates, phosphates, carbon compounds — which mix back into the soil. Plants reabsorb these nutrients through their roots, so the same elements cycle endlessly through the ecosystem. Without this cleaning and recycling crew, dead matter would pile up unbroken, and the soil's fertility — the stock of reusable nutrients that every field depends on — would run dry."
+  },
+  {
+   "file": "c8_bio_ch2_9.md",
+   "definition": "Vaccines are biological preparations that train the body's defences in advance: they contain weakened (attenuated) or killed pathogens, or fragments of them, which are enough to be recognised as foreign but too feeble to cause the disease. Meeting these harmless stand-ins, the immune system produces specific antibodies and, crucially, memory cells that persist for years. On any later encounter with the real pathogen, the memory cells trigger a fast, massive antibody response that destroys the invader before it can multiply — immunity without ever paying the price of the illness. Vaccination is therefore protection prepared before the attack."
+  },
+  {
+   "file": "c8_hist_ch1_11.md",
+   "definition": "The socio-economic impacts of the Central Asian, Turkic, Afghan and Mughal invasions (11th–16th centuries CE) are the structural changes those conquests wrote into Indian society and economy: new systems of land revenue collected in cash, the growth of cities built around garrisons and courts, trade routes re-plugged into Central Asian commerce, shifts in social stratification as new ruling groups settled in, and a long cultural synthesis visible in architecture, food, dress and language. Political conquest faded with each dynasty, but these economic and social rearrangements outlasted the sword and reshaped northern India permanently."
+  },
+  {
+   "file": "c8_math_ch8_1.md",
+   "definition": "Percentage is a way of expressing a number as a fraction of 100. The symbol % means 'per hundred', so x% is simply x/100 — 45% is 45/100, and 100% is the whole. Percentages give every part-to-whole comparison the same denominator, which is why they are the standard currency of marks, discounts, interest and population statistics: scoring 64 out of 80 (80%) against 63 out of 90 (70%) argues nothing in raw marks, but the percentages settle it instantly. To convert a fraction or decimal into a percentage, multiply by 100; to turn a percentage back into a number for calculation, divide by 100."
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "receipt_id": "rcpt_20261013T155802Z_734ceb6c",
+ "work_item": "WI-20261013-004",
+ "from_state": "VERIFY",
+ "to_state": "REVIEW",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:58:02Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "judge PASS; reruns=[{'gate': 'G5', 'exit': 0}, {'gate': 'G1', 'exit': 0}]",
+ "prev_receipt_sha256": "039d982f99f2b989ba773fba5a6a95257c2b207b078b6858e04e302139f27a2b",
+ "judge_verdict": "PASS"
+}

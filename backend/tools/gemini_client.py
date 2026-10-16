@@ -39,13 +39,12 @@ if not _KEYS and _KEYS_FILE.exists():
     _KEYS = [k.strip() for k in
              _KEYS_FILE.read_text(encoding="utf-8").splitlines() if k.strip()]
 
-# model tiers, owner's order; flash-latest kept as last-resort fallback
+# Active live models on Google API endpoint
 _MODELS = [
-    "gemini-3.7-flash",
-    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
     "gemini-3.5-flash",
     "gemini-3.1-flash-lite",
-    "gemini-flash-latest",
+    "gemini-2.5-flash",
 ]
 
 # Tiers confirmed dead this run (404/invalid) are skipped entirely.

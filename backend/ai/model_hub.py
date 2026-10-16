@@ -16,10 +16,19 @@ Contract:
   the startup preload should make this unreachable in practice).
 """
 import asyncio
+import logging
+import os
 import threading
+
+# Offline + thread env BEFORE sentence_transformers/torch can be imported
+# (best-effort: only engages when no earlier import baked the constants).
+# Containers get these from the image env anyway; this covers bare dev runs.
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 _MODEL = None
 _LOCK = threading.Lock()
+_logger = logging.getLogger(__name__)
 
 
 def _load_sync():
@@ -28,11 +37,27 @@ def _load_sync():
         return _MODEL
     with _LOCK:
         if _MODEL is None:
-            import os
-            os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
-            os.environ.setdefault("HF_HUB_OFFLINE", "1")
+            import time
+            import torch
+            # PERF (2026-10-03 solve cold-start): cap torch threads — on the
+            # 8-core box oversubscribed inference threads slowed CPU encode.
+            # This is the ONE shared MiniLM instance per process; every
+            # solver-path embedder (semantic_matcher, variable_registry,
+            # quantity_binder) loads THROUGH here since this fix.
+            torch.set_num_threads(int(os.environ.get("TORCH_NUM_THREADS", "1")))
             from sentence_transformers import SentenceTransformer
-            _MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+            t0 = time.time()
+            try:
+                _MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+            except Exception:
+                # Cache missing on this host — retry once with network on.
+                os.environ.pop("TRANSFORMERS_OFFLINE", None)
+                os.environ.pop("HF_HUB_OFFLINE", None)
+                _MODEL = SentenceTransformer("all-MiniLM-L6-v2")
+            # Canonical per-process log line: grep "MiniLM loaded" — must
+            # appear exactly ONCE per worker (double-load regression probe).
+            _logger.info("MiniLM loaded (shared singleton) in %.1fs",
+                         time.time() - t0)
     return _MODEL
 
 

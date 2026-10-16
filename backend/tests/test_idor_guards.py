@@ -82,6 +82,51 @@ GUARDED_ENDPOINTS = [
     (accessibility, "update_accessibility", "require_self_or_staff"),
 ]
 
+#: WS-D overhaul batch (2026-10-10): per-router probes across the 26 api/
+#: routers that take a user/student/session/class id. Lazy imports keep
+#: collection light; each row: (module name, function, guard name).
+WS_D_GUARDED_ENDPOINTS = [
+    # practice.py — review queue was fully anonymous
+    ("backend.api.practice", "get_due_reviews", "require_self_or_staff"),
+    # practice.py — sessions carry an inline owner check in the body
+    ("backend.api.practice", "submit_answer", "_caller_sub"),
+    ("backend.api.practice", "get_session", "_caller_sub"),
+    ("backend.api.practice", "end_session", "_caller_sub"),
+    ("backend.api.practice", "get_session_summary", "_caller_sub"),
+    ("backend.api.practice", "skip_question", "_caller_sub"),
+    ("backend.api.practice", "start_session", "_enforce_start_target"),
+    # intelligence.py — interaction log was anonymous + unbound
+    ("backend.api.intelligence", "log_interaction", "get_current_user"),
+    # teacher.py — staff gate on every teacher-surface route
+    ("backend.api.teacher", "list_classes", "_require_staff"),
+    ("backend.api.teacher", "list_students", "_require_staff"),
+    ("backend.api.teacher", "class_progress", "_require_staff"),
+    ("backend.api.teacher", "list_worksheets", "_require_staff"),
+    ("backend.api.teacher", "misconception_groups", "_require_staff"),
+    ("backend.api.teacher", "repair_slip", "_require_staff"),
+    # parent_digest.py — parent role + link check
+    ("backend.api.parent_digest", "send_digest", "role_checker"),
+]
+
+
+@pytest.mark.parametrize("module_name,func_name,guard_name", WS_D_GUARDED_ENDPOINTS)
+def test_wsd_guard_is_attached(module_name, func_name, guard_name):
+    import importlib
+
+    mod = importlib.import_module(module_name)
+    func = getattr(mod, func_name)
+    attached = [getattr(dep, "__name__", repr(dep)) for dep in _dependencies_of(func)]
+    # inline guards (function-body calls) count too — some routers check
+    # ownership in the body rather than via a dependency.
+    if guard_name not in attached:
+        import inspect as _inspect
+
+        body = _inspect.getsource(func)
+        assert guard_name in body, (
+            f"{module_name}.{func_name} lost its {guard_name} guard "
+            f"(deps={attached}, body lacks an inline check)."
+        )
+
 
 def test_me_routes_are_registered_before_the_parameterized_ones():
     """FastAPI matches in registration order: a literal route declared AFTER

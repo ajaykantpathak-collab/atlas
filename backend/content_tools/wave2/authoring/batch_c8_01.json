@@ -1,0 +1,48 @@
+{
+ "edits": [
+  {
+   "file": "c8_chem_ch3_11.md",
+   "definition": "An alloy is a homogeneous mixture of two or more metals, or of a metal and a non-metal, made by melting the components together and cooling the melt, so that the added atoms settle inside the metal's crystal structure. Alloying is done to obtain properties the pure metal lacks — greater hardness, strength, resistance to corrosion, or a lower melting point. Brass (copper + zinc), bronze (copper + tin) and steel (iron + carbon) are the classic commercial alloys; in each, the parent metal gains useful toughness from the added component.",
+   "walkthrough_append": "**Worked step:** trace one alloy from ore to workshop. First, melt the copper; next, weigh in about 30% tin and stir until the melt is uniform; then cool it — the bronze that sets is far harder than either metal alone, which is why the Bronze Age outran the Copper Age. **In the exam:** for each named alloy give its two components and one use — brass for instruments and utensils, bronze for statues and medals, steel for rails and construction. **Check yourself:** why does an inhomogeneous lump not count as an alloy? Because its composition, and so its properties, would vary from grain to grain."
+  },
+  {
+   "file": "c8_physics_ch6_9.md",
+   "definition": "Convex mirrors are spherical mirrors whose reflecting surface is curved outward, so parallel incident rays spread apart (diverge) after reflection. The reflected rays behave as if they come from a focus behind the mirror, so the image is always virtual, erect and diminished in size, no matter where the object stands. Because the image is smaller, one small mirror packs in a wide field of view — exactly what a driver's side-view mirror and a shop's security mirror need.",
+   "walkthrough_append": "**Worked step:** compare the two mirrors on a car. First, the flat inner mirror shows the bus behind at its true size. Next, the curved outer mirror shows a long stretch of road — but the same bus looks small and far away inside the glass. Then the driver learns the rule written on the glass: objects are closer than they appear, because a diminished image in a wide-angle view is the price of the wide view. **In the exam:** answer 'why convex and not plane?' with two reasons — an upright, diminished image and a much wider field of view. **Check yourself:** can a convex mirror ever burn a paper with sunlight? No — diverging rays never meet at a real focus, so no hot point forms."
+  },
+  {
+   "file": "c8_physics_ch9_4.md",
+   "definition": "The atmosphere is the thin blanket of gases around the Earth, and it keeps the planet alive in three ways. It supplies the oxygen organisms use to release energy from food during respiration, and the carbon dioxide plants use to build food by photosynthesis. Its carbon dioxide and water vapour also trap part of the Sun's heat (the greenhouse effect), holding surface temperature in the narrow range in which life can survive, while abundant nitrogen dilutes these active gases to safe levels.",
+   "walkthrough_append": "**Worked step:** follow one carbon atom through the day. First, a leaf takes in CO2 during photosynthesis and locks it into glucose. Next, you eat the plant and oxidise that glucose in respiration, exhaling CO2 back to the air. Then the leaf reuses it the next morning — the same atom can serve breakfast twice. **In the exam:** link each gas to its role in one line — O2: respiration; CO2: photosynthesis and heat-trapping; N2: dilution — and never call CO2 a mere pollutant. **Check yourself:** why does cutting forests raise CO2 levels? Fewer leaves breathe in the gas that respiration and burning pour out."
+  },
+  {
+   "file": "c8_physics_ch4_1.md",
+   "definition": "Pressure is the thrust (the force acting perpendicular to a surface) applied per unit area of that surface, written as P = F/A. Its SI unit is the pascal (Pa), where 1 Pa = 1 N/m². The same force presses harder or softer according to the area it acts over: sharp knife edges and nail tips concentrate force onto tiny areas to cut and pierce, while broad straps, wide tyres and a camel's flat feet spread the same force so as not to sink or snap.",
+   "walkthrough_append": "**Worked step:** turn the ratio into numbers. First take a 400 N box resting on a base of 0.2 m²: P = 400 ÷ 0.2 = 2,000 Pa. Next stand it on one narrow edge of 0.02 m²: the force is unchanged but P = 400 ÷ 0.02 = 20,000 Pa — ten times larger. **In the exam:** quote P = F/A first, then argue the area case; converting cm² to m² (1 m² = 10,000 cm²) before dividing is where the marks are. **Check yourself:** why does a school bag have wide straps? To increase the area and so reduce the pressure on the shoulders."
+  },
+  {
+   "file": "c8_physics_ch6_4.md",
+   "walkthrough_append": "**Worked step:** locate the focus of a convex mirror from outside the math. First let sunlight fall on the mirror — the reflected patch spreads out, never gathers to a point. Next, extend each reflected ray backwards with dotted lines through the glass: the extensions meet at one point behind the mirror. That point is the principal focus F, and the distance PF is the focal length f, equal to half the radius of curvature. **In the exam:** if a question gives the radius of curvature R, halve it to get f, and always add that F is virtual — it lies behind the mirror. **Check yourself:** why 'virtual'? Because real reflected rays never pass through F; only their backward extensions meet there."
+  },
+  {
+   "file": "c8_hist_ch1_1.md",
+   "walkthrough_append": "**Worked step:** follow one raid from pass to temple. First, the horse archers cross the mountain passes in winter, when rivers run low and the rival Rajput kingdoms will not combine. Next, they refuse set battle, sack a wealthy temple city for bullion, and withdraw before the summer heat. Ghori later repeats the same route — but keeps the land. **In the exam:** one line settles the compare question: Ghazni raided for wealth, Ghori conquered for territory. **Check yourself:** name the enabling condition of both campaigns — the fragmented, mutually rival Rajput states, which no invader had to face united."
+  },
+  {
+   "file": "c8_physics_ch3_7.md",
+   "walkthrough_append": "**Worked step:** classify with one test — do the objects touch? First push a sliding book with your palm: muscular force, applied by contact. Next let the book slide across the desk: friction acts between the two touching surfaces. Then hook the book to a stretched spring: the spring force pulls it back — still contact, now through the coiled wire. Switch off the touch and each of the three forces vanishes. **In the exam:** name the force, state why it is a contact force ('acts only while touching'), and quote the SI unit, the newton. **Check yourself:** gravity pulls without any contact, so it belongs to the non-contact family — not to this node's."
+  },
+  {
+   "file": "c8_physics_ch4_3.md",
+   "walkthrough_append": "**Worked step:** compute, don't describe. First take a 600 N student standing on both feet, total area 0.06 m²: P = 600 ÷ 0.06 = 10,000 Pa. Next, the same student sits down: the contact area drops to 0.02 m², so P = 600 ÷ 0.02 = 30,000 Pa — same force, three times the pressure. **In the exam:** convert cm² to m² before dividing (1 m² = 10,000 cm²); that single conversion is where most marks go. **Check yourself:** doubling the contact area at constant force does what to the pressure? Halves it — the ratio, not the force, decides."
+  },
+  {
+   "file": "c8_physics_ch2_1.md",
+   "walkthrough_append": "**Worked step:** read the compass like a switch. First place the compass just under a wire pointing north–south, current off: the needle settles along the wire. Next, close the circuit — the needle swings aside at once. Then break the circuit: the needle falls back. Finally, reverse the battery connections: the needle swings the opposite way. **In the exam:** that four-beat pattern (no current, deflect, return, reverse) is the full answer to 'how do we show a current produces a magnetic field?'. **Check yourself:** why does the needle rest north–south when the current is off? Because the wire then adds no field of its own — only the Earth's acts."
+  },
+  {
+   "file": "c8_hist_ch1_5.md",
+   "walkthrough_append": "**Worked step:** stress-test one experiment to its failure point. First, the capital shift: Delhi to Daulatabad, well over a thousand kilometres south. Next, the entire population is ordered to walk — the old, the sick and the city's trade move together; the suffering is recorded, and empty Delhi can neither trade nor guard itself. Then the order reverses, and the people walk home again. **In the exam:** the standard question is 'why did the experiments fail?' — answer with implementation, not ambition: the plans were sound on the map and impossible on the road. **Check yourself:** the token currency failed differently — copper coins at silver's face value invited mass forgery, and had to be withdrawn at ruinous cost."
+  }
+ ]
+}

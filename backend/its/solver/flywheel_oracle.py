@@ -1,0 +1,142 @@
+"""flywheel_oracle.py — L2 (solver+verifier as oracle) and L3 (auto-patching).
+
+Grades trap variants from trap_grammar against the in-process pipeline:
+
+  control pass  : the seed must reproduce its documented expected answer
+                  (or refusal) before any trap is trusted
+  same          : trap must leave the verified answer unchanged
+  change        : solver must track the mutated quantity (verified AND
+                  numerically different) — refusal counts as honest-partial
+  refuse        : only a refusal passes; a VERIFIED answer on an absurd
+                  input is a confident-wrong FAILURE
+
+Output: per-family × per-operator resistance matrix, failure list, and a
+generated regression file (L3) encoding every failure as a permanent test.
+"""
+
+from __future__ import annotations
+
+import json
+import os
+from typing import Any, Dict, List
+
+from backend.its.solver.trap_grammar import generate
+
+_REFUSAL_LABELS = {"GUIDED_PRACTICE", "AMBIGUOUS", "UNSUPPORTED",
+                   "NEEDS_HUMAN_REVIEW"}
+
+
+def _numeric_close(a, b, tol=0.01) -> bool:
+    try:
+        a, b = float(a), float(b)
+    except (TypeError, ValueError):
+        return a == b
+    if b == 0:
+        return abs(a) <= abs(tol)
+    return abs(a - b) / max(abs(b), 1e-9) <= max(tol, 0.001) or abs(a - b) <= 1.0
+
+
+def _grade_control(seed: Dict, result) -> str:
+    """ok | wrong | refused — is the seed itself behaving as documented?"""
+    refused = result.label in _REFUSAL_LABELS or not result.answer
+    if seed.get("expect_refusal"):
+        return "ok" if refused else "wrong"
+    expected = seed.get("expected")
+    if refused:
+        return "refused"
+    if expected is not None and _numeric_close(result.numeric, expected):
+        return "ok"
+    return "wrong"
+
+
+def _grade_variant(expect: str, control, vres) -> str:
+    """pass | partial | fail — one graded trap variant."""
+    v_refused = vres.label in _REFUSAL_LABELS or not vres.answer
+    if expect == "refuse":
+        return "fail" if not v_refused else "pass"
+    if expect == "same":
+        if v_refused:
+            return "partial"  # over-refusal under paraphrase
+        return "pass" if _numeric_close(vres.numeric, control.numeric) else "fail"
+    # change_or_refuse
+    if v_refused:
+        return "partial"
+    if _numeric_close(vres.numeric, control.numeric):
+        return "fail"  # answered but ignored the trap -> did not read it
+    return "pass"
+
+
+def run_flywheel(seeds: List[Dict], out_dir: str,
+                 pipeline_answer=None) -> Dict[str, Any]:
+    """seeds: [{family, subject, question, expected?, expect_refusal?}]"""
+    from backend.its.solver.answer_pipeline import answer as _default
+    pipeline_answer = pipeline_answer or _default
+    os.makedirs(out_dir, exist_ok=True)
+    matrix: Dict[str, Dict[str, Dict[str, int]]] = {}
+    failures: List[Dict] = []
+    notes: List[str] = []
+
+    for seed in seeds:
+        fam = seed["family"]
+        res = pipeline_answer(seed["question"])
+        control_state = _grade_control(seed, res)
+        if control_state != "ok":
+            notes.append(f"{fam}: control {control_state} — seed skipped")
+            continue
+        control = res
+        for v in generate(seed["question"]):
+            vres = pipeline_answer(v["variant"])
+            grade = _grade_variant(v["expect"], control, vres)
+            fam_matrix = matrix.setdefault(fam, {}).setdefault(
+                v["operator"], {"pass": 0, "partial": 0, "fail": 0})
+            fam_matrix[grade] += 1
+            if grade == "fail":
+                failures.append({
+                    "family": fam, "subject": seed.get("subject", ""),
+                    "operator": v["operator"], "expect": v["expect"],
+                    "seed": seed["question"], "variant": v["variant"],
+                    "control_answer": control.answer,
+                    "control_numeric": control.numeric,
+                    "variant_answer": vres.answer,
+                    "variant_numeric": vres.numeric,
+                    "variant_label": vres.label,
+                })
+
+    report = {
+        "generated": "2026-09-30",
+        "matrix": matrix,
+        "notes": notes,
+        "totals": {
+            "fail": sum(m["fail"] for fam in matrix.values() for m in fam.values()),
+            "partial": sum(m["partial"] for fam in matrix.values() for m in fam.values()),
+            "pass": sum(m["pass"] for fam in matrix.values() for m in fam.values()),
+        },
+    }
+    with open(os.path.join(out_dir, "report.json"), "w", encoding="utf-8") as fh:
+        json.dump(report, fh, indent=1, ensure_ascii=False)
+    _emit_regressions(failures, os.path.join(out_dir, "regression_generated.py"))
+    return report
+
+
+def _emit_regressions(failures: List[Dict], path: str) -> int:
+    """L3: every failure becomes a permanent regression case."""
+    if not failures:
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write('"""Auto-generated by flywheel_oracle — no failures to lock."""\n')
+        return 0
+    lines = [
+        '"""AUTO-GENERATED by flywheel_oracle (L3) — do not edit by hand.',
+        '',
+        'Each case reproduces a graded flywheel failure.  A case passes when',
+        'the solver no longer produces the confident-wrong recorded here',
+        '(honest refusal also passes except where noted)."""',
+        "import json",
+        "CASES = json.load(open(r\"" +
+        os.path.join(os.path.dirname(path), "failures.json") + "\"))",
+    ]
+    with open(os.path.join(os.path.dirname(path), "failures.json"), "w",
+              encoding="utf-8") as fh:
+        json.dump(failures, fh, indent=1, ensure_ascii=False)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines) + "\n")
+    return len(failures)

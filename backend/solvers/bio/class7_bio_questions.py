@@ -277,10 +277,10 @@ class QuestionFactory:
 
         if term in indian_defs and rng.rand() > 0.5:
             context = "indian"
-            q_text = f"Q: Define '{term}' as used in Biology (Class 7 level)."
+            q_text = f"Define '{term}' as used in Biology (Class 7 level)."
         else:
             context = "standard"
-            q_text = f"Q: What is meant by the term '{term}' in the context of Biology?"
+            q_text = f"What is meant by the term '{term}' in the context of Biology?"
 
         answer_text = definitions.get(term, f"{term} is a biological term studied at Class 7 level.")
 
@@ -528,7 +528,7 @@ class QuestionFactory:
             difficulty="Easy" if rng.rand() > 0.6 else "Medium",
             cognitive=self.node.cognitive,
             topic=self.node.title,
-            question_text=f"Q: {item['q']}",
+            question_text=f"{item['q']}",
             options=shuffled,
             answer=label,
             explanation=f"Answer: ({label}) {shuffled[correct_idx]}. {item['exp']}",
@@ -597,7 +597,7 @@ class QuestionFactory:
             difficulty="Easy",
             cognitive="Remember",
             topic=self.node.title,
-            question_text=f"Q: State whether the following is True or False.\n{stmt}",
+            question_text=f"State whether the following is True or False.\n{stmt}",
             answer=answer_word,
             explanation=f"{explanation} {correction}".strip(),
             marks=1,
@@ -734,7 +734,7 @@ class QuestionFactory:
             difficulty="Medium",
             cognitive=self.node.cognitive,
             topic=self.node.title,
-            question_text=f"Q: {q_text}",
+            question_text=f"{q_text}",
             answer=answer_text,
             explanation=f"Expected answer in {marks} marks: {answer_text}",
             marks=marks,
@@ -813,7 +813,7 @@ class QuestionFactory:
             difficulty="Hard" if rng.rand() > 0.5 else "Medium",
             cognitive="Apply" if rng.rand() > 0.5 else "Understand",
             topic=self.node.title,
-            question_text=f"Q: {q_text}",
+            question_text=f"{q_text}",
             answer=answer_text,
             explanation="See detailed answer above. Key points must be covered for full marks.",
             marks=3 if rng.rand() > 0.5 else 5,
@@ -868,7 +868,7 @@ class QuestionFactory:
         idx = int(rng.randint(0, len(analogies)))
         a, b, explanation = analogies[idx]
 
-        q_text = f"Q: Complete the analogy: {a}"
+        q_text = f"Complete the analogy: {a}"
 
         return Question(
             question_id=f"{self.nid}_ana_{qi+1:02d}",
@@ -991,7 +991,7 @@ class QuestionFactory:
             difficulty="Hard",
             cognitive="Apply",
             topic=self.node.title,
-            question_text=f"Q: {item['q']}",
+            question_text=f"{item['q']}",
             answer=item["ans"],
             explanation=item["exp"],
             marks=3,
@@ -1089,7 +1089,7 @@ class QuestionFactory:
             formula_str = f"Height = Initial + Rate × Days"
 
         q_text = (
-            f"Q: A meristematic tissue in a wheat seedling grows at a rate of "
+            f"A meristematic tissue in a wheat seedling grows at a rate of "
             f"{growth_rate:.2f} cm/day. If the initial height was {initial_h:.2f} cm, "
             f"what will be its height after {days} days? "
             f"Use the formula: Height = Initial height + (Growth rate × Days)"

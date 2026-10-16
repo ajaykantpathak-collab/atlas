@@ -14,11 +14,11 @@ import math
 
 import pytest
 
-from backend.its.solver.applied_maths_families import model_applied_maths
+from backend.its.solver.maths_families import model_maths
 
 
 def _match(text: str, structure: str):
-    r = model_applied_maths(text)
+    r = model_maths(text)
     assert r.matched, f"not matched: {text!r} ({r.note})"
     assert r.structure == structure, \
         f"got {r.structure}, want {structure}: {text!r}"
@@ -28,7 +28,7 @@ def _match(text: str, structure: str):
 
 
 def _no_match(text: str):
-    r = model_applied_maths(text)
+    r = model_maths(text)
     assert not r.matched, f"unexpectedly matched: {text!r} -> {r.final_answer}"
 
 
@@ -231,10 +231,98 @@ def test_rate_of_change():
 
 
 # --------------------------------------------------------------------------- #
+# BATCH-4 tests (commercial & applied math)
+# --------------------------------------------------------------------------- #
+
+def test_shares_dividend_income():
+    r = _match("Find the annual dividend income from 500 shares of face value Rs 100 at 8% dividend.",
+               "SHARES_DIVIDEND_INCOME")
+    assert r.numeric_answer == pytest.approx(4000.0)
+
+
+def test_shares_return_percentage():
+    r = _match("Find the percentage return on shares of nominal value Rs 100 bought at market value Rs 125 paying 10% dividend.",
+               "SHARES_RETURN_PERCENT")
+    assert r.numeric_answer == pytest.approx(8.0)
+
+
+def test_alligation_and_mixture():
+    r = _match("In what ratio must tea at Rs 60 per kg be mixed with tea at Rs 75 per kg so that the mixture is worth Rs 65 per kg?",
+               "ALLIGATION_AND_MIXTURE")
+    assert r.numeric_answer == pytest.approx(2.0)
+
+
+def test_replacement_mixture():
+    r = _match("A container contains 80 litres of milk. 8 litres are drawn and replaced with water 2 times. Find the quantity of milk left.",
+               "REPLACEMENT_MIXTURE")
+    assert r.numeric_answer == pytest.approx(64.8)
+
+
+def test_boats_and_streams():
+    r = _match("A boat's speed in still water is 15 km/h and speed of stream is 3 km/h. Find time to travel 36 km downstream.",
+               "BOATS_AND_STREAMS")
+    assert r.numeric_answer == pytest.approx(2.0)
+
+
+def test_effective_interest_rate():
+    r = _match("Find the effective rate of interest for nominal rate 8% compounded quarterly.",
+               "EFFECTIVE_INTEREST_RATE")
+    assert r.numeric_answer == pytest.approx(8.2432, abs=1e-3)
+
+
+def test_perpetuity_pv():
+    r = _match("Find the present value of a perpetuity paying Rs 1200 annually at an interest rate of 6%.",
+               "PERPETUITY_PV")
+    assert r.numeric_answer == pytest.approx(20000.0)
+
+
+def test_depreciation_straight_line():
+    r = _match("A machine was purchased for Rs 100000 with scrap value Rs 10000 after useful life of 10 years. Find annual depreciation under straight line method.",
+               "DEPRECIATION_STRAIGHT_LINE")
+    assert r.numeric_answer == pytest.approx(9000.0)
+
+
+def test_bankers_discount():
+    r = _match("Find the banker's discount on a bill of Rs 5000 due in 6 months at 8% per annum.",
+               "BANKERS_DISCOUNT")
+    assert r.numeric_answer == pytest.approx(200.0)
+
+
+def test_true_discount():
+    r = _match("Find the true discount on a bill of Rs 5400 due after 1 year at 8% per annum.",
+               "TRUE_DISCOUNT")
+    assert r.numeric_answer == pytest.approx(400.0)
+
+
+def test_bankers_gain():
+    r = _match("Find the banker's gain on a bill if true discount is Rs 400 at 5% for 6 months.",
+               "BANKERS_GAIN")
+    assert r.numeric_answer == pytest.approx(10.0)
+
+
+def test_sinking_fund_deposit():
+    r = _match("Find the annual sinking fund deposit to accumulate Rs 50000 in 5 years at 8% interest.",
+               "SINKING_FUND_DEPOSIT")
+    assert r.numeric_answer == pytest.approx(8522.82, abs=0.1)
+
+
+def test_poisson_distribution():
+    r = _match("For a Poisson distribution with mean 2, find P(X = 3).",
+               "POISSON_DISTRIBUTION")
+    assert r.numeric_answer == pytest.approx(0.180447, abs=1e-4)
+
+
+def test_normal_distribution_z():
+    r = _match("A normal distribution has mean 50 and standard deviation 10. Find the z-score for X = 65.",
+               "NORMAL_DISTRIBUTION_Z")
+    assert r.numeric_answer == pytest.approx(1.5)
+
+
+# --------------------------------------------------------------------------- #
 # dispatcher refusals
 # --------------------------------------------------------------------------- #
 
 def test_dispatcher_refuses_unrelated_text():
-    r = model_applied_maths("What is the capital of France?")
+    r = model_maths("What is the capital of France?")
     assert not r.matched
-    assert r.structure == "APPLIED_MATHS"
+    assert r.structure == "MATHS"

@@ -1,0 +1,383 @@
+[
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! A stadium holds thousands of cheering people and the organizer announces the crowd size minutes after the gates close. Nobody counted heads ",
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, a"
+    ],
+    "picked": "They asked every person to raise a hand at once",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 2"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p2",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! A stadium holds thousands of cheering people and the organizer announces the crowd size minutes after the gates close. Nobody counted heads ",
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, a"
+    ],
+    "picked": "They asked every person to raise a hand at once",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 2"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! A classroom floor is 4 m × 4 m and tiles are 1 m × 1 m — you need 16 tiles. Now: why do we write that as 4² instead of just '4 times 4'? 🔊 B",
+    "options": [
+     "Because tiles can only be counted in squares",
+     "Because squaring IS the area of a square — n² counts th",
+     "Because 4² means 4 + 4 = 8",
+     "Because mathematicians like small writing"
+    ],
+    "picked": "Because tiles can only be counted in squares",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 2"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch02_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! Fold a paper in half again and again — the layers go 2, 4, 8, 16. What will the 10th fold give: 20 layers or 1,024? 🔊 100 — ten folds times ",
+    "options": [
+     "100 — ten folds times ten",
+     "1,024 — each fold doubles the layers, and doubling ten ",
+     "Nobody can fold paper that many times so it doesn't mat",
+     "20 — each fold just adds 2 more layers"
+    ],
+    "picked": "100 — ten folds times ten",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 2"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! Take any number — 60, 867, even a million — and break it into primes. The Fundamental Theorem of Arithmetic swears you'll always land on the",
+    "options": [
+     "Because it proves every number is secretly prime",
+     "Because without it, calculators couldn't multiply",
+     "Because unique prime factorisation lets us prove things",
+     "Because it shows multiplication and division are the sa"
+    ],
+    "picked": "Because it proves every number is secretly prime",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 2"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch02_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! Graph the polynomial y = x² − 4. It crosses the x-axis at exactly two spots: −2 and +2. A friend claims a cubic MUST cross the axis three ti",
+    "options": [
+     "The friend — cubics always cross exactly three times",
+     "You — all cubics cross exactly twice",
+     "Neither — a degree-n polynomial can cross AT MOST n tim",
+     "Graphs can't tell us anything about zeros at all"
+    ],
+    "picked": "The friend — cubics always cross exactly three times",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   },
+   {
+    "step": 3,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 3"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_bio_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! You ate a samosa an hour ago — where is it right now, doing what? 🔊 Being broken into molecules your cells absorb Sitting whole in your stom",
+    "options": [
+     "Being broken into molecules your cells absorb",
+     "Sitting whole in your stomach",
+     "Filtered out by the liver",
+     "Already converted to pure energy"
+    ],
+    "picked": "Being broken into molecules your cells absorb",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-em",
+    "green": true,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   },
+   {
+    "step": 3,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   },
+   {
+    "step": 4,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 4"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_chem_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! You burn 10g of magnesium and the ash weighs MORE than 10g. Where did the extra mass come from? 🔊 Burning creates matter Oxygen from the air",
+    "options": [
+     "Burning creates matter",
+     "Oxygen from the air joined the magnesium",
+     "Heat adds weight",
+     "The scale is wrong"
+    ],
+    "picked": "Burning creates matter",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "cont": "Check ✅"
+   },
+   {
+    "step": 3,
+    "question": "",
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 3"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! Group students by birth month for relay teams — is that a fair mathematical grouping? What three tests does it quietly pass? 🔊 Reflexive (ev",
+    "options": [
+     "Reflexive (everyone groups with self), symmetric (A wit",
+     "Any grouping works",
+     "Only symmetry matters"
+    ],
+    "picked": "Reflexive (everyone groups with self), symmetric (A with B m",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-em",
+    "green": true,
+    "cont": "Only symmetry matters",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for loca"
+   },
+   {
+    "step": 1,
+    "question": "QUESTION! Group students by birth month for relay teams — is that a fair mathematical grouping? What three tests does it quietly pass? 🔊 Reflexive (ev",
+    "options": [
+     "Reflexive (everyone groups with self), symmetric (A wit",
+     "Any grouping works",
+     "Only symmetry matters"
+    ],
+    "picked": "Only symmetry matters",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "Only symmetry matters",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for loca"
+   }
+  ],
+  "anomalies": [
+   "no-change step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch02_p1",
+  "steps": [
+   {
+    "step": 0,
+    "question": "QUESTION! 'The angle whose tangent is 1/12' has infinitely many answers — yet the ramp engineer needs exactly one. How do we force uniqueness? 🔊 Use d",
+    "options": [
+     "Pick the smallest",
+     "Round the answer",
+     "Restrict the domain — chop sine, cosine, tangent to int"
+    ],
+    "picked": "Pick the smallest",
+    "intended": "WRONG",
+    "cls_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition-all bg-ro",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "question": "",
+    "filled_input": true,
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change step 2"
+  ],
+  "boot": "ok"
+ }
+]

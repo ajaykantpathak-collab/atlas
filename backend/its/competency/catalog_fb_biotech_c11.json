@@ -1,0 +1,532 @@
+{
+ "subject": "biotech",
+ "chapter_title": "ICSE biotech formula bank (c11)",
+ "source_file": "c11_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_BIOTECH_C11_001",
+   "title": "SECTION 1: FERMENTATION AND GROWTH: D = ...",
+   "section": "SECTION 1: FERMENTATION AND GROWTH",
+   "formula": "D = F / V",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: FERMENTATION AND GROWTH (SECTION 1: FERMENTATION AND GROWTH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find d using section 1: fermentation and growth",
+    "calculate section 1: fermentation and growth",
+    "section 1: fermentation and growth formula question",
+    "given values find d",
+    "section 1: fermentation and growth section 1: fermentation and growth numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_001",
+     "question_pattern": "section 1: fermentation and growth with {F} and {V} find d",
+     "extracted_variables": {
+      "F": "given F",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "D = F / V",
+     "compute": "D = F / V"
+    }
+   ],
+   "chapter_title": "SECTION 1: FERMENTATION AND GROWTH"
+  },
+  {
+   "id": "FB_BIOTECH_C11_002",
+   "title": "SECTION 1: FERMENTATION AND GROWTH: mu = ...",
+   "section": "SECTION 1: FERMENTATION AND GROWTH",
+   "formula": "mu = mu*_max * S / (K*s + S)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: FERMENTATION AND GROWTH (SECTION 1: FERMENTATION AND GROWTH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mu using section 1: fermentation and growth",
+    "calculate section 1: fermentation and growth",
+    "section 1: fermentation and growth formula question",
+    "given values find mu",
+    "section 1: fermentation and growth section 1: fermentation and growth numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_002",
+     "question_pattern": "section 1: fermentation and growth with {_max} and {S} and {K} and {s} and {S} find mu",
+     "extracted_variables": {
+      "_max": "given _max",
+      "S": "given S",
+      "K": "given K",
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for _max, S, K, s, S from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "mu = mu*_max * S / (K*s + S)",
+     "compute": "mu = mu*_max * S / (K*s + S)"
+    }
+   ],
+   "chapter_title": "SECTION 1: FERMENTATION AND GROWTH"
+  },
+  {
+   "id": "FB_BIOTECH_C11_003",
+   "title": "SECTION 1: FERMENTATION AND GROWTH: mu_max = ...",
+   "section": "SECTION 1: FERMENTATION AND GROWTH",
+   "formula": "mu_max = maximum_specific*growth_rate",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: FERMENTATION AND GROWTH (SECTION 1: FERMENTATION AND GROWTH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mu_max using section 1: fermentation and growth",
+    "calculate section 1: fermentation and growth",
+    "section 1: fermentation and growth formula question",
+    "given values find mu_max",
+    "section 1: fermentation and growth section 1: fermentation and growth numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_003",
+     "question_pattern": "section 1: fermentation and growth with {maximum_specific} and {growth_rate} find mu_max",
+     "extracted_variables": {
+      "maximum_specific": "given maximum_specific",
+      "growth_rate": "given growth_rate"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for maximum_specific, growth_rate from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "mu_max = maximum_specific*growth_rate",
+     "compute": "mu_max = maximum_specific*growth_rate"
+    }
+   ],
+   "chapter_title": "SECTION 1: FERMENTATION AND GROWTH"
+  },
+  {
+   "id": "FB_BIOTECH_C11_004",
+   "title": "SECTION 1: FERMENTATION AND GROWTH: OTR = ...",
+   "section": "SECTION 1: FERMENTATION AND GROWTH",
+   "formula": "OTR = k*L*a * (C* - C)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: FERMENTATION AND GROWTH (SECTION 1: FERMENTATION AND GROWTH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find otr using section 1: fermentation and growth",
+    "calculate section 1: fermentation and growth",
+    "section 1: fermentation and growth formula question",
+    "given values find otr",
+    "section 1: fermentation and growth section 1: fermentation and growth numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_004",
+     "question_pattern": "section 1: fermentation and growth with {k} and {L} and {a} and {C} and {C} find otr",
+     "extracted_variables": {
+      "k": "given k",
+      "L": "given L",
+      "a": "given a",
+      "C": "given C"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, L, a, C, C from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "OTR = k*L*a * (C* - C)",
+     "compute": "OTR = k*L*a * (C* - C)"
+    }
+   ],
+   "chapter_title": "SECTION 1: FERMENTATION AND GROWTH"
+  },
+  {
+   "id": "FB_BIOTECH_C11_005",
+   "title": "SECTION 1: FERMENTATION AND GROWTH: OUR = ...",
+   "section": "SECTION 1: FERMENTATION AND GROWTH",
+   "formula": "OUR = qO2 * X",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: FERMENTATION AND GROWTH (SECTION 1: FERMENTATION AND GROWTH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find our using section 1: fermentation and growth",
+    "calculate section 1: fermentation and growth",
+    "section 1: fermentation and growth formula question",
+    "given values find our",
+    "section 1: fermentation and growth section 1: fermentation and growth numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_005",
+     "question_pattern": "section 1: fermentation and growth with {qO2} and {X} find our",
+     "extracted_variables": {
+      "qO2": "given qO2",
+      "X": "given X"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for qO2, X from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "OUR = qO2 * X",
+     "compute": "OUR = qO2 * X"
+    }
+   ],
+   "chapter_title": "SECTION 1: FERMENTATION AND GROWTH"
+  },
+  {
+   "id": "FB_BIOTECH_C11_006",
+   "title": "SECTION 2: BOD AND ENVIRONMENTAL: BOD = ...",
+   "section": "SECTION 2: BOD AND ENVIRONMENTAL",
+   "formula": "BOD = (D1 - D2) / P",
+   "_pats_extra": [],
+   "key_idea": "SECTION 2: BOD AND ENVIRONMENTAL (SECTION 2: BOD AND ENVIRONMENTAL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find bod using section 2: bod and environmental",
+    "calculate section 2: bod and environmental",
+    "section 2: bod and environmental formula question",
+    "given values find bod",
+    "section 2: bod and environmental section 2: bod and environmental numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_006",
+     "question_pattern": "section 2: bod and environmental with {D1} and {D2} and {P} find bod",
+     "extracted_variables": {
+      "D1": "given D1",
+      "D2": "given D2",
+      "P": "given P"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for D1, D2, P from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "BOD = (D1 - D2) / P",
+     "compute": "BOD = (D1 - D2) / P"
+    }
+   ],
+   "chapter_title": "SECTION 2: BOD AND ENVIRONMENTAL"
+  },
+  {
+   "id": "FB_BIOTECH_C11_007",
+   "title": "SECTION 2: BOD AND ENVIRONMENTAL: COD = ...",
+   "section": "SECTION 2: BOD AND ENVIRONMENTAL",
+   "formula": "COD = (a - b) * N * 8000 / V",
+   "_pats_extra": [],
+   "key_idea": "SECTION 2: BOD AND ENVIRONMENTAL (SECTION 2: BOD AND ENVIRONMENTAL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cod using section 2: bod and environmental",
+    "calculate section 2: bod and environmental",
+    "section 2: bod and environmental formula question",
+    "given values find cod",
+    "section 2: bod and environmental section 2: bod and environmental numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_007",
+     "question_pattern": "section 2: bod and environmental with {a} and {b} and {N} and {V} find cod",
+     "extracted_variables": {
+      "a": "given a",
+      "b": "given b",
+      "N": "given N",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, b, N, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "COD = (a - b) * N * 8000 / V",
+     "compute": "COD = (a - b) * N * 8000 / V"
+    }
+   ],
+   "chapter_title": "SECTION 2: BOD AND ENVIRONMENTAL"
+  },
+  {
+   "id": "FB_BIOTECH_C11_008",
+   "title": "SECTION 4: STERILIZATION: N = ...",
+   "section": "SECTION 4: STERILIZATION",
+   "formula": "N = N0 * e^(-k*t)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 4: STERILIZATION (SECTION 4: STERILIZATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using section 4: sterilization",
+    "calculate section 4: sterilization",
+    "section 4: sterilization formula question",
+    "given values find n",
+    "section 4: sterilization section 4: sterilization numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_008",
+     "question_pattern": "section 4: sterilization with {N0} and {e} and {k} and {t} find n",
+     "extracted_variables": {
+      "N0": "given N0",
+      "e": "given e",
+      "k": "given k",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N0, e, k, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N = N0 * e^(-k*t)",
+     "compute": "N = N0 * e^(-k*t)"
+    }
+   ],
+   "chapter_title": "SECTION 4: STERILIZATION"
+  },
+  {
+   "id": "FB_BIOTECH_C11_009",
+   "title": "SECTION 6: DILUTIONS AND SOLUTIONS: M = ...",
+   "section": "SECTION 6: DILUTIONS AND SOLUTIONS",
+   "formula": "M = moles / volume",
+   "_pats_extra": [],
+   "key_idea": "SECTION 6: DILUTIONS AND SOLUTIONS (SECTION 6: DILUTIONS AND SOLUTIONS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find m using section 6: dilutions and solutions",
+    "calculate section 6: dilutions and solutions",
+    "section 6: dilutions and solutions formula question",
+    "given values find m",
+    "section 6: dilutions and solutions section 6: dilutions and solutions numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C11_009",
+     "question_pattern": "section 6: dilutions and solutions with {moles} and {volume} find m",
+     "extracted_variables": {
+      "moles": "given moles",
+      "volume": "given volume"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for moles, volume from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "M = moles / volume",
+     "compute": "M = moles / volume"
+    }
+   ],
+   "chapter_title": "SECTION 6: DILUTIONS AND SOLUTIONS"
+  },
+  {
+   "id": "FBD_BIOTECH_C11_001",
+   "title": "Vmax: Vmax = ...",
+   "section": "decision tree",
+   "formula": "Vmax = 1/y-intercept",
+   "key_idea": "Vmax (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find vmax using vmax",
+    "calculate vmax",
+    "vmax formula question",
+    "given values find vmax",
+    "product yield, use Yp/s = (P - P0) / (S0 - S)\n\nQUESTION ASKS"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C11_001",
+     "question_pattern": "vmax with {y} and {intercept} find vmax",
+     "extracted_variables": {
+      "y": "given y",
+      "intercept": "given intercept"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for y, intercept from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Vmax = 1/y-intercept",
+     "compute": "Vmax = 1/y-intercept"
+    }
+   ],
+   "chapter_title": "biotech c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIOTECH_C11_002",
+   "title": "Km: Km = ...",
+   "section": "decision tree",
+   "formula": "Km = -1/x-intercept",
+   "key_idea": "Km (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find km using km",
+    "calculate km",
+    "km formula question",
+    "given values find km",
+    "product yield, use Yp/s = (P - P0) / (S0 - S)\n\nQUESTION ASKS"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C11_002",
+     "question_pattern": "km with {intercept} find km",
+     "extracted_variables": {
+      "intercept": "given intercept"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for intercept from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Km = -1/x-intercept",
+     "compute": "Km = -1/x-intercept"
+    }
+   ],
+   "chapter_title": "biotech c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIOTECH_C11_003",
+   "title": "slope: slope = ...",
+   "section": "decision tree",
+   "formula": "slope = K*m/Vmax",
+   "key_idea": "slope (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find slope using slope",
+    "calculate slope",
+    "slope formula question",
+    "given values find slope",
+    "product yield, use Yp/s = (P - P0) / (S0 - S)\n\nQUESTION ASKS"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C11_003",
+     "question_pattern": "slope with {K} and {m} and {Vmax} find slope",
+     "extracted_variables": {
+      "K": "given K",
+      "m": "given m",
+      "Vmax": "given Vmax"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K, m, Vmax from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "slope = K*m/Vmax",
+     "compute": "slope = K*m/Vmax"
+    }
+   ],
+   "chapter_title": "biotech c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIOTECH_C11_004",
+   "title": "V_stock: V_stock = ...",
+   "section": "decision tree",
+   "formula": "V_stock = V_final / X",
+   "key_idea": "V_stock (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v_stock using v_stock",
+    "calculate v_stock",
+    "v_stock formula question",
+    "given values find v_stock",
+    "product yield, use Yp/s = (P - P0) / (S0 - S)\n\nQUESTION ASKS"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C11_004",
+     "question_pattern": "v_stock with {V_final} and {X} find v_stock",
+     "extracted_variables": {
+      "V_final": "given V_final",
+      "X": "given X"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for V_final, X from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V_stock = V_final / X",
+     "compute": "V_stock = V_final / X"
+    }
+   ],
+   "chapter_title": "biotech c11 decision formulas"
+  }
+ ]
+}

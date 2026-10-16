@@ -1,0 +1,20 @@
+{
+ "receipt_id": "rcpt_20261013T173618Z_f7228ad0",
+ "work_item": "WI-20261013-004",
+ "from_state": "SOAK",
+ "to_state": "SOAK",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T17:36:18Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "CORRECTION: 13_IMPLEMENT_VERIFY.json gate G1 field log_sha256: re-run pytest overwrote shared log during rework",
+ "prev_receipt_sha256": "d7df78b102db21f710cbbc3d109c3d53c81665961122fa294ffbad9580f824a9",
+ "correction": [
+  {
+   "receipt": "13_IMPLEMENT_VERIFY.json",
+   "gate": "G1",
+   "field": "log_sha256",
+   "reason": "re-run pytest overwrote shared log during rework"
+  }
+ ]
+}

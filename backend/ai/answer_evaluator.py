@@ -453,6 +453,29 @@ async def evaluate_answer(
         # If numerical comparison failed completely, fall through to free-text
         # (the student might have written an explanation, not just a number)
 
+    # --- Deterministic Cross-Subject & Symbolic Math Lane (Zero-LLM Verification) ---
+    try:
+        from backend.ai.hybrid_evaluator import (
+            _evaluate_cross_subject_deterministic,
+            _evaluate_symbolic_algebraic,
+        )
+        cross_res = _evaluate_cross_subject_deterministic(student_answer, model_answer or "", question_text)
+        if cross_res is not None:
+            return EvalResult(
+                correct=cross_res.correct, score=cross_res.score,
+                question_type=cross_res.question_type, feedback=cross_res.feedback,
+                matched_answer=cross_res.matched_answer, partial=cross_res.partial,
+            )
+        sym_res = _evaluate_symbolic_algebraic(student_answer, model_answer or "")
+        if sym_res is not None:
+            return EvalResult(
+                correct=sym_res.correct, score=sym_res.score,
+                question_type=sym_res.question_type, feedback=sym_res.feedback,
+                matched_answer=sym_res.matched_answer, partial=sym_res.partial,
+            )
+    except Exception:
+        pass
+
     # --- Short answer (answer embedded in question text) ---
     if question_type == "short_answer" and not model_answer and question_text:
         embedded = _extract_embedded_answer(question_text)

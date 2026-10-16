@@ -45,6 +45,8 @@ from backend.deps import get_current_user
 from backend.models.enrichment import BoardQuestion
 from backend.models.user import User
 from backend.api._assessment_sessions import TestSessionStore, grade_answer
+from backend.services.feedback_scrub import (
+    scrub_answer_key, scrub_explanation)
 
 logger = logging.getLogger(__name__)
 
@@ -770,9 +772,13 @@ async def _grade(db: AsyncSession, sess: Dict[str, Any]) -> dict:
                 "section": s["sectionId"],
                 "question": q["text"],
                 "studentAnswer": answered.get(q["questionId"], ""),
-                "expectedAnswer": str(key.get("correct_answer") or ""),
+                # bank fields can hold GRADER prose — scrub at serving.
+                # model_answer is authored prose: never scrubbed.
+                "expectedAnswer": scrub_answer_key(
+                    key.get("correct_answer")),
                 "modelAnswer": str(key.get("model_answer") or ""),
-                "explanation": str(key.get("explanation") or ""),
+                "explanation": scrub_explanation(
+                    key.get("explanation"), bool(g.get("correct"))),
                 "isCorrect": bool(g.get("correct")),
                 "attempted": bool(g.get("attempted")),
                 "marks": round(g.get("marks", 0.0), 1),

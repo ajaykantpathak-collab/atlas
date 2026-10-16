@@ -1,0 +1,32 @@
+{
+  "_comment": "Placeholder — A5-HARDENING 2026-10-02. This file is OVERWRITTEN by the post-ship loadgen run: python -m backend.harness.loadgen.run --base http://localhost --ramp 50 --seconds 600 --json backend/harness/load_baseline.json. Shape below is what build_report() emits (meta + summary + per-endpoint p50/p75/p95/p99 over the STEADY phase only).",
+  "meta": {
+    "tool": "backend.harness.loadgen",
+    "base_url": "",
+    "ramp": 0,
+    "seconds": 0,
+    "warmup_seconds": 0,
+    "elapsed_seconds": 0,
+    "seed": null,
+    "warmup_samples": 0,
+    "scenario_weights": {
+      "content_get": 70,
+      "solve_post": 15,
+      "tutor_flow": 10,
+      "auth_progress": 5
+    },
+    "note": "placeholder — run the generator to fill real numbers"
+  },
+  "summary": {
+    "requests_total": 0,
+    "requests_steady": 0,
+    "errors_steady": 0,
+    "error_rate_steady": null,
+    "rps_steady": 0.0,
+    "p50_ms": 0.0,
+    "p75_ms": 0.0,
+    "p95_ms": 0.0,
+    "p99_ms": 0.0
+  },
+  "endpoints": []
+}

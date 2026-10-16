@@ -82,6 +82,10 @@ class QuickQuestionResponse(BaseModel):
     hint_level: int = 0
     quality_score: float = 0.0
     feedback: Optional[str] = None
+    # U-LANE LABEL (Layer U2): the honesty enum every answer surface
+    # stamps — VERIFIED/GROUNDED/AI/NONE, mapped from `method` by
+    # answer_lane.label_from_method. Never absent on a shipped answer.
+    answer_label: str = "NONE"
 
 
 class TutorHintResponse(BaseModel):
@@ -427,6 +431,15 @@ async def quick_question(
         # Bounded: psy/cs lookups were hanging 49-120s on cold/qdrant-slow
         # paths and nginx 504'd the worker (B12). Degrade in <10s.
         import asyncio as _asyncio
+        # TELEMETRY (COLD-START brief §C): bind request context so the
+        # solve row carries subject/class (student stays unbound on this
+        # public endpoint — an absent hash is honest, a raw id is banned).
+        from backend.services.answer_telemetry import bind as _tel_bind
+        _tel_bind(
+            subject=payload.subject,
+            class_level=payload.class_level,
+            surface="tutor-graph/ask",
+        )
         result = await _asyncio.wait_for(
             TutorService.quick_question(
                 db,
@@ -480,6 +493,13 @@ async def quick_question(
     resp.text = resp.answer
     resp.intent = resp.type or "answer"
     resp.quality_score = resp.confidence
+    # U-LANE LABEL (Layer U2): stamp the honesty enum from the lane that
+    # actually produced the answer — same enum as /ask-stream and voice.
+    try:
+        from backend.services.answer_lane import label_from_method
+        resp.answer_label = label_from_method(resp.method).value
+    except Exception:
+        pass  # label defaults to NONE — never break an answer over a stamp
 
     # ---- Funnel telemetry -------------------------------------------------
     # `method` is already set by every one of the six deterministic layers in
@@ -505,6 +525,87 @@ async def quick_question(
     except Exception:  # telemetry must never break an answer
         pass
     return resp
+
+
+class AskStreamRequest(BaseModel):
+    model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
+    node_id: str = Field(validation_alias=AliasChoices("node_id", "nodeId"))
+    message: str
+
+
+@router.post("/ask-stream")
+async def ask_stream(payload: AskStreamRequest):
+    """SSE-streamed answer grounded in a node's enrichment content.
+
+    The student sees the first token in ~0.5s instead of waiting for the
+    full completion. Events: `{"t":"tok","d":"..."}` chunks, then
+    `{"t":"done","node_id":...}`. If the node isn't found or the LLM is
+    down, a single `{"t":"tok",...}` carries the fallback text."""
+    import json as _json
+    from fastapi.responses import StreamingResponse
+    from backend.services.enhanced_nodes import load_index
+    from backend.ai.llm_client import get_llm_client
+
+    async def gen():
+        node = load_index().get(payload.node_id)
+        if node is None:
+            yield f'data: {_json.dumps({"t":"tok","d":"I could not find that lesson — try opening it from your syllabus."})}\n\n'
+            yield f'data: {_json.dumps({"t":"done","node_id":None,"answer_label":"NONE"})}\n\n'
+            return
+        # U-LANE LABEL (Layer U2): this surface streams an LLM answer
+        # grounded in the node's own notes — honest labeling is
+        # mandatory: it is AI, never VERIFIED.
+        # U1 DECISION ORDER (fixed): the deterministic lane gets the
+        # FIRST shot within a strict latency budget; only its VERIFIED
+        # tier answers here (as a single fast event), everything else
+        # falls through to the grounded LLM stream — the LLM stays the
+        # fallback, never the default (same law as the REST tutor).
+        try:
+            import asyncio as _asyncio
+            from backend.services.solve_isolation import cache_key as _ck, \
+                run_async as _run_async
+            from backend.services.solver_gateway import \
+                answer as _pipeline_answer
+            _iso = await _asyncio.wait_for(
+                _run_async(_ck("tutor.stream.det", payload.message),
+                           _pipeline_answer, payload.message,
+                           payload.node_id, True),   # defer_llm: no LLM extract
+                timeout=3.0)
+            _r = getattr(_iso, "result", None)
+            if (_r is not None
+                    and str(getattr(_r, "label", "")).startswith("VERIFIED")
+                    and getattr(_r, "answer", None)):
+                yield f'data: {_json.dumps({"t":"tok","d":str(_r.answer)})}\n\n'
+                if getattr(_r, "steps", None):
+                    _steps = " ".join(f"[{i+1}] {s}"
+                                      for i, s in enumerate(_r.steps[:6]))
+                    yield f'data: {_json.dumps({"t":"tok","d":"  Steps: " + _steps})}\n\n'
+                yield f'data: {_json.dumps({"t":"done","node_id":payload.node_id,"answer_label":"VERIFIED"})}\n\n'
+                return
+        except Exception:
+            pass   # deterministic declined/timeout -> grounded LLM stream
+        _lane_label = "AI"
+        parts = []
+        if node.get("definition"):
+            parts.append(f"Definition: {node['definition']}")
+        if node.get("walkthrough"):
+            parts.append(f"Walkthrough: {node['walkthrough']}")
+        if node.get("eli5"):
+            parts.append(f"Simple explanation: {node['eli5']}")
+        context = "\n\n".join(parts)
+        llm = get_llm_client()
+        sys_msg = ("You are a CBSE/CISCE tutor. Answer the student's question using ONLY "
+                   "the provided lesson content — no new facts, no invented examples. "
+                   "Conversational tone, 3-5 sentences. If the content can't answer, say "
+                   "'Let me find the right lesson for you.'"
+                   + (f" Scope: {node['scope_boundary']}" if node.get("scope_boundary") else ""))
+        msgs = [{"role": "system", "content": sys_msg},
+                {"role": "user", "content": f"Lesson content:\n{context}\n\nStudent question: {payload.message}"}]
+        async for tok in llm.chat_stream(msgs, temperature=0.0, max_tokens=800):
+            yield f'data: {_json.dumps({"t":"tok","d":tok})}\n\n'
+        yield f'data: {_json.dumps({"t":"done","node_id":payload.node_id,"answer_label":_lane_label})}\n\n'
+
+    return StreamingResponse(gen(), media_type="text/event-stream")
 
 
 # --------------------------------------------------------------------------- #

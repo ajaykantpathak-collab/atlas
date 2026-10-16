@@ -1,0 +1,413 @@
+{
+ "subject": "bio",
+ "chapter_title": "ICSE bio formula bank (c11-c12)",
+ "source_file": "bio_formula_bank_c11_c12.marker",
+ "concepts": [
+  {
+   "id": "FB_BIO_C11_001",
+   "title": "Dark reactions (Calvin cycle): RuBisCO = ...",
+   "section": "PHOTOSYNTHESIS (C11)",
+   "formula": "RuBisCO = Ribulose-1,5-bisphosphate_carboxylase/oxygenase",
+   "_pats_extra": [],
+   "key_idea": "Dark reactions (Calvin cycle) (PHOTOSYNTHESIS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rubisco using dark reactions (calvin cycle)",
+    "calculate dark reactions (calvin cycle)",
+    "dark reactions (calvin cycle) formula question",
+    "given values find rubisco",
+    "photosynthesis (c11) dark reactions (calvin cycle) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C11_001",
+     "question_pattern": "dark reactions (calvin cycle) with {Ribulose} and {bisphosphate_carboxylase} and {oxygenase} find rubisco",
+     "extracted_variables": {
+      "Ribulose": "given Ribulose",
+      "bisphosphate_carboxylase": "given bisphosphate_carboxylase",
+      "oxygenase": "given oxygenase"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Ribulose, bisphosphate_carboxylase, oxygenase from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "RuBisCO = Ribulose-1,5-bisphosphate_carboxylase/oxygenase",
+     "compute": "RuBisCO = Ribulose-1,5-bisphosphate_carboxylase/oxygenase"
+    }
+   ],
+   "chapter_title": "PHOTOSYNTHESIS (C11)"
+  },
+  {
+   "id": "FB_BIO_C11_002",
+   "title": "Respiratory quotient (RQ): RQ = ...",
+   "section": "RESPIRATION (C11)",
+   "formula": "RQ = CO_2*produced / O_2*consumed",
+   "_pats_extra": [],
+   "key_idea": "Respiratory quotient (RQ) (RESPIRATION (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rq using respiratory quotient (rq)",
+    "calculate respiratory quotient (rq)",
+    "respiratory quotient (rq) formula question",
+    "given values find rq",
+    "respiration (c11) respiratory quotient (rq) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C11_002",
+     "question_pattern": "respiratory quotient (rq) with {CO_2} and {produced} and {O_2} and {consumed} find rq",
+     "extracted_variables": {
+      "CO_2": "given CO_2",
+      "produced": "given produced",
+      "O_2": "given O_2",
+      "consumed": "given consumed"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for CO_2, produced, O_2, consumed from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "RQ = CO_2*produced / O_2*consumed",
+     "compute": "RQ = CO_2*produced / O_2*consumed"
+    }
+   ],
+   "chapter_title": "RESPIRATION (C11)"
+  },
+  {
+   "id": "FB_BIO_C11_003",
+   "title": "DNA structure: Distance between bases = ...",
+   "section": "GENETICS (C12)",
+   "formula": "Distance_between_bases = 0.34*nm",
+   "_pats_extra": [],
+   "key_idea": "DNA structure (GENETICS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance between bases using dna structure",
+    "calculate dna structure",
+    "dna structure formula question",
+    "given values find distance between bases",
+    "genetics (c12) dna structure numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C11_003",
+     "question_pattern": "dna structure with {nm} find distance between bases",
+     "extracted_variables": {
+      "nm": "given nm"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for nm from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance between bases = 0.34*nm",
+     "compute": "Distance_between_bases = 0.34*nm"
+    }
+   ],
+   "chapter_title": "GENETICS (C12)"
+  },
+  {
+   "id": "FB_BIO_C11_004",
+   "title": "DNA structure: Diameter = ...",
+   "section": "GENETICS (C12)",
+   "formula": "Diameter = 2*nm",
+   "_pats_extra": [],
+   "key_idea": "DNA structure (GENETICS (C12))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find diameter using dna structure",
+    "calculate dna structure",
+    "dna structure formula question",
+    "given values find diameter",
+    "genetics (c12) dna structure numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C11_004",
+     "question_pattern": "dna structure with {nm} find diameter",
+     "extracted_variables": {
+      "nm": "given nm"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for nm from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Diameter = 2*nm",
+     "compute": "Diameter = 2*nm"
+    }
+   ],
+   "chapter_title": "GENETICS (C12)"
+  },
+  {
+   "id": "FB_BIO_C11_005",
+   "title": "Cardiac output: CO = ...",
+   "section": "HUMAN PHYSIOLOGY (C11)",
+   "formula": "CO = Stroke_Volume*Heart_Rate",
+   "_pats_extra": [],
+   "key_idea": "Cardiac output (HUMAN PHYSIOLOGY (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find co using cardiac output",
+    "calculate cardiac output",
+    "cardiac output formula question",
+    "given values find co",
+    "human physiology (c11) cardiac output numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C11_005",
+     "question_pattern": "cardiac output with {Stroke_Volume} and {Heart_Rate} find co",
+     "extracted_variables": {
+      "Stroke_Volume": "given Stroke_Volume",
+      "Heart_Rate": "given Heart_Rate"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Stroke_Volume, Heart_Rate from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CO = Stroke_Volume*Heart_Rate",
+     "compute": "CO = Stroke_Volume*Heart_Rate"
+    }
+   ],
+   "chapter_title": "HUMAN PHYSIOLOGY (C11)"
+  },
+  {
+   "id": "FBD_BIO_C11_001",
+   "title": "DPD: DPD = ...",
+   "section": "decision tree",
+   "formula": "DPD = OP - TP",
+   "key_idea": "DPD (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find dpd using dpd",
+    "calculate dpd",
+    "dpd formula question",
+    "given values find dpd",
+    "water movement, osmosis, or turgor in plant cells",
+    "\"diffusion pressure deficit\" or \"DPD\"",
+    "\"water potential\" or psi (symbol)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIO_C11_001",
+     "question_pattern": "dpd with {OP} and {TP} find dpd",
+     "extracted_variables": {
+      "OP": "given OP",
+      "TP": "given TP"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for OP, TP from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DPD = OP - TP",
+     "compute": "DPD = OP - TP"
+    }
+   ],
+   "chapter_title": "bio c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIO_C11_002",
+   "title": "GPP: GPP = ...",
+   "section": "decision tree",
+   "formula": "GPP = NPP + R",
+   "key_idea": "GPP (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find gpp using gpp",
+    "calculate gpp",
+    "gpp formula question",
+    "given values find gpp",
+    "water movement, osmosis, or turgor in plant cells",
+    "\"diffusion pressure deficit\" or \"DPD\"",
+    "\"water potential\" or psi (symbol)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIO_C11_002",
+     "question_pattern": "gpp with {NPP} and {R} find gpp",
+     "extracted_variables": {
+      "NPP": "given NPP",
+      "R": "given R"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for NPP, R from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "GPP = NPP + R",
+     "compute": "GPP = NPP + R"
+    }
+   ],
+   "chapter_title": "bio c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIO_C11_003",
+   "title": "NPP: NPP = ...",
+   "section": "decision tree",
+   "formula": "NPP = GPP - R",
+   "key_idea": "NPP (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find npp using npp",
+    "calculate npp",
+    "npp formula question",
+    "given values find npp",
+    "water movement, osmosis, or turgor in plant cells",
+    "\"diffusion pressure deficit\" or \"DPD\"",
+    "\"water potential\" or psi (symbol)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIO_C11_003",
+     "question_pattern": "npp with {GPP} and {R} find npp",
+     "extracted_variables": {
+      "GPP": "given GPP",
+      "R": "given R"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for GPP, R from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "NPP = GPP - R",
+     "compute": "NPP = GPP - R"
+    }
+   ],
+   "chapter_title": "bio c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIO_C11_004",
+   "title": "CO: CO = ...",
+   "section": "decision tree",
+   "formula": "CO = SV*HR",
+   "key_idea": "CO (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find co using co",
+    "calculate co",
+    "co formula question",
+    "given values find co",
+    "water movement, osmosis, or turgor in plant cells",
+    "\"diffusion pressure deficit\" or \"DPD\"",
+    "\"water potential\" or psi (symbol)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIO_C11_004",
+     "question_pattern": "co with {SV} and {HR} find co",
+     "extracted_variables": {
+      "SV": "given SV",
+      "HR": "given HR"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for SV, HR from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CO = SV*HR",
+     "compute": "CO = SV*HR"
+    }
+   ],
+   "chapter_title": "bio c11 decision formulas"
+  },
+  {
+   "id": "FBD_BIO_C11_005",
+   "title": "Surface Area to Volume Ratio: Surface Area to Volume Ratio = ...",
+   "section": "decision tree",
+   "formula": "Surface_Area_to_Volume_Ratio = SA/V",
+   "key_idea": "Surface Area to Volume Ratio (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find surface area to volume ratio using surface area to volume ratio",
+    "calculate surface area to volume ratio",
+    "surface area to volume ratio formula question",
+    "given values find surface area to volume ratio",
+    "water movement, osmosis, or turgor in plant cells",
+    "\"diffusion pressure deficit\" or \"DPD\"",
+    "\"water potential\" or psi (symbol)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIO_C11_005",
+     "question_pattern": "surface area to volume ratio with {SA} and {V} find surface area to volume ratio",
+     "extracted_variables": {
+      "SA": "given SA",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for SA, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Surface Area to Volume Ratio = SA/V",
+     "compute": "Surface_Area_to_Volume_Ratio = SA/V"
+    }
+   ],
+   "chapter_title": "bio c11 decision formulas"
+  }
+ ]
+}

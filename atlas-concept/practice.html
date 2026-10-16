@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  body { background: var(--cosmos-bg); }
+  .practice-shell { display: flex; gap: 26px; }
+  .practice-side { width: 210px; flex-shrink: 0; padding-top: 52px; }
+  @media (max-width: 900px) {
+    .practice-shell { flex-direction: column; }
+    .practice-side { width: 100%; padding-top: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .practice-side .side-card { margin-bottom: 0; }
+  }
+  .side-card { border:1px solid var(--paper-edge); background: var(--paper); padding: 16px; margin-bottom: 14px; }
+  .side-card .specimen { display:block; margin-bottom: 8px; }
+  .side-num { font-family: var(--font-mono); font-size: 26px; font-weight: 700; color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="paper-surface paper-page">
+  <div class="specimen-bar" data-specimen-bar></div>
+
+  <div class="paper-wrap" style="max-width:1080px;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;">
+      <div>
+        <p class="specimen gold">Practice · Mathematics · Class 10</p>
+        <h1 class="paper-title">Answer book</h1>
+      </div>
+      <span class="specimen">Session 1 · q 3 / 20</span>
+    </div>
+
+    <div class="practice-shell">
+      <!-- side register -->
+      <aside class="practice-side" data-motion="settle">
+        <div class="side-card"><span class="specimen">Streak</span><span class="side-num">0 <span style="font-size:12px;color:var(--ink-faint)">days</span></span></div>
+        <div class="side-card"><span class="specimen">Mastery</span><span class="side-num">0%</span></div>
+        <div class="side-card"><span class="specimen">Answered</span><span class="side-num">2/20</span></div>
+        <div class="side-card">
+          <span class="specimen">Palette</span>
+          <div style="font-family:var(--font-mono);font-size:12px;line-height:2;color:var(--ink-soft)">
+            1 ✓ &nbsp; 2 ✓ &nbsp; <b style="border:1.5px solid var(--ink);padding:1px 5px;">3</b> &nbsp; 4 &nbsp; 5<br>
+            6 &nbsp; 7 &nbsp; 8 &nbsp; 9 &nbsp; 10
+          </div>
+        </div>
+      </aside>
+
+      <!-- the sheet — question rotates on load and on Next -->
+      <div style="flex:1;">
+        <div class="paper-sheet ruled" data-motion="settle">
+          <div class="sheet-head"><span class="l" id="pq-head"></span><span class="r" id="pq-topic"></span></div>
+          <div class="sheet-body">
+            <div class="q-row">
+              <span class="paper-qnum" id="pq-num"></span>
+              <p style="font-size:17px;max-width:600px;">
+                <span id="pq-q"></span>
+                <span class="paper-marks" id="pq-marks"></span> <span class="paper-tag" id="pq-diff"></span>
+              </p>
+            </div>
+            <ul class="paper-opts" style="max-width:600px;" id="pq-opts"></ul>
+
+            <div class="q-row" style="margin-top:40px;">
+              <span class="paper-qnum" id="pq2-num"></span>
+              <p style="font-size:17px;max-width:600px;">
+                <span id="pq2-q"></span>
+                <span class="paper-marks" id="pq2-marks"></span> <span class="paper-tag" id="pq2-diff"></span>
+              </p>
+              <textarea class="paper-answer" rows="4" id="pq2-ans"></textarea>
+            </div>
+
+            <div id="pq-verdict" style="margin-top:20px;display:none;align-items:center;gap:18px;">
+              <span class="paper-stamp" data-motion="stamp" id="pq-stamp"></span>
+              <span class="paper-redpen" id="pq-note" style="font-size:20px;"></span>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;margin-top:36px;align-items:center;">
+              <button class="btn-paper" onclick="loadPractice()">← Prev</button>
+              <button class="btn-paper red" onclick="markPractice()">Submit for marking</button>
+              <button class="btn-paper ink" onclick="loadPractice()">Next →</button>
+            </div>
+          </div>
+        </div>
+
+        <p class="specimen" style="margin-top:18px;text-align:center;">
+          Marking uses the CBSE scheme — method marks live in the steps, not just the total.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+<script>
+let lastIdx = -1;
+function loadPractice() {
+  const sheet = document.querySelector(".paper-sheet.ruled");
+  const apply = () => _swapPractice();
+  if (lastIdx === -1) apply(); else pageTurn(sheet, apply);
+}
+function _swapPractice() {
+  let i; do { i = Math.floor(Math.random() * ATLAS_DATA.PRACTICE.length); } while (i === lastIdx);
+  lastIdx = i;
+  const d = ATLAS_DATA.PRACTICE[i];
+  document.getElementById("pq-head").textContent = d.head;
+  document.getElementById("pq-topic").textContent = d.topic;
+  document.getElementById("pq-num").textContent = d.qnum;
+  document.getElementById("pq-q").textContent = d.q + " ";
+  document.getElementById("pq-marks").textContent = d.marks;
+  const dt = document.getElementById("pq-diff");
+  dt.textContent = d.diff[0]; dt.className = "paper-tag " + d.diff[1];
+  document.getElementById("pq-opts").innerHTML = d.opts.map((o, k) =>
+    `<li data-letter="${"abcd"[k]}" ${k === d.correct ? 'data-correct' : ""} onclick="pick(this)">${o}</li>`).join("");
+  document.getElementById("pq2-num").textContent = d.long.qnum;
+  document.getElementById("pq2-q").textContent = d.long.q + " ";
+  document.getElementById("pq2-marks").textContent = d.long.marks;
+  const d2 = document.getElementById("pq2-diff");
+  d2.textContent = d.long.diff[0]; d2.className = "paper-tag " + d.long.diff[1];
+  document.getElementById("pq2-ans").placeholder = d.long.ph;
+  document.getElementById("pq2-ans").value = "";
+  document.getElementById("pq-verdict").style.display = "none";
+}
+function markPractice() {
+  grade();
+  const got = !!document.querySelector(".paper-opts li.picked.right");
+  const v = document.getElementById("pq-verdict");
+  document.getElementById("pq-stamp").textContent = got ? "Verified · 1/1" : "Marked · 0/1";
+  document.getElementById("pq-stamp").className = "paper-stamp" + (got ? "" : " rejected");
+  document.getElementById("pq-note").textContent = got
+    ? "Correct. The verifier agrees — keep going."
+    : "Check the HCF rule — take the lowest power of each prime.";
+  v.style.display = "flex";
+}
+loadPractice();
+motionScan();
+</script>
+</body>
+</html>

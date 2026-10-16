@@ -1,0 +1,34 @@
+{
+  "artifact_contract": "semia-prepare-v1",
+  "created_at": "2026-10-04T12:01:49Z",
+  "hostile_input_nonce": "fb6d3afbdc42d9bd",
+  "prepared_skill_sha256": "4ed9e89dbdab89665cec6cff36f159b6f6163ab57d23b87257b2236fb4c91d44",
+  "source": {
+    "file_inventory": [
+      {
+        "disposition": "inlined",
+        "language": "markdown",
+        "line_count": 48,
+        "path": "SKILL.md",
+        "size_bytes": 2783
+      }
+    ],
+    "files": [
+      "SKILL.md"
+    ],
+    "inlined_text": "---\nname: fleet-manager\ndescription: Manage the Atlas agent build fleet at D:\\platform \u2014 launch fixer/auditor agents, enforce the 6-agent cap, claim protocol, restart locks, timeboxes, kill runaways, and resume killed waves. Use whenever launching subagent waves, coordinating parallel agents, diagnosing stuck or runaway agents, or resuming killed agent work.\n---\n\n# Fleet Manager \u2014 parallel agent discipline\n\nMax **6 concurrent agents.** This cap exists because exceeding it got every\nagent killed by the platform. Count before every launch.\n\n## Agent archetypes\n- **AUDITOR** \u2014 walks the product, files findings. Never fixes. Finishes by\n  producing a report file (their \"completion\" is a document, not code).\n- **FIXER** \u2014 claims items from a ledger (BUGS.md / CURRICULUM_GAPS.md), fixes,\n  verifies live, mirrors to deploy, logs. One fixer per disjoint workstream.\n\n## Launch protocol\n1. Count running agents first. Free slots = 6 \u2212 running.\n2. Write self-contained prompts: platform path, claim protocol, verification\n   standard (Playwright rendered-page checks for UI, curl for APIs \u2014 never curl\n   for pages), mirror-to-deploy rule, OPS restart-lock rule, zero-wrong rule.\n3. Split workstreams by FILE/domain so parallel agents never edit the same file.\n   Define integration contracts upfront (e.g. \"story2 exports X, story1 imports\n   it with a fallback\").\n4. Relaunching killed agents: instruct them to check their output files\n   (CURRICULUM_GAPS.md sections, report docs) and RESUME, not restart.\n\n## Coordination ledger\n`BUGS.md` is the single source of coordination:\n- Claim before fixing: retag `- [STUDENT-X]` \u2192 `- [claimed-<tag>]` (Edit with the\n  full line as old_string \u2014 the failing Edit is the collision detector).\n- Done: `[fixed-<tag>]` + evidence. Blocked by owner: `[blocked-owner]` + reason.\n- Backend restarts: append `- [restart-lock <tag> <HH:MM>]` under `## OPS`,\n  restart backends + nginx, verify, clear the lock. Never restart unlocked \u2014\n  unlogged restarts kill in-flight requests and trigger index-rebuild CPU storms.\n- Stale-copy rule: before docker cp of any backend file, diff repo vs container;\n  pull container\u2192repo first if newer (stale pushes reverted live fixes twice).\n\n## Runaway handling\nSymptoms: agent hours past its scope, repeating steps, token burn complaint.\n1. TaskStop the agent (verify it actually stopped).\n2. Audit its leftovers: partial files, half-mirrored deploy changes, open locks.\n3. Relaunch tight-scoped with a resume instruction and a HARD checklist.\n\n## Verification before declaring a wave done\n- Every claim: [fixed-*] with evidence, deploy mirrors diff-identical.\n- Run the verify-sweep skill (acceptance checklist) against :3001.\n- Only then: production rebuild via the atlas-deploy skill.\n",
+    "main_path": "D:\\platform\\.agents\\skills\\fleet-manager\\SKILL.md",
+    "root": "D:\\platform\\.agents\\skills\\fleet-manager",
+    "source_hash": "c5403876cecdc73b9d2a5c00ab61af43c2db10303438b072dc6c960de6534194",
+    "source_id": "fleet-manager",
+    "source_map": [
+      {
+        "enriched_line_end": 48,
+        "enriched_line_start": 1,
+        "source_file": "SKILL.md",
+        "source_line_end": 48,
+        "source_line_start": 1
+      }
+    ]
+  }
+}

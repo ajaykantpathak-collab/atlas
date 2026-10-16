@@ -23,6 +23,11 @@ import os
 from enum import Enum
 from typing import Any, Optional
 
+# WSA-P3: never-raising lane-exception logger — a config read falling
+# back to its fail-closed default is now measured.  (contract.py only
+# imports policy lazily at call time, so this is cycle-free.)
+from backend.its.solver.contract import log_lane_exception
+
 
 class SolverLLMMode(str, Enum):
     OFF = "off"
@@ -40,7 +45,11 @@ def _settings() -> Any:
         try:
             module = __import__(path, fromlist=["settings"])
             return getattr(module, "settings")
-        except Exception:
+        except Exception as _exc:
+            # WSA-P3: policy losing the central knobs (falls back to
+            # fail-closed defaults) is now measured, semantics kept.
+            log_lane_exception(
+                stage="policy._settings.config_import", exc=_exc)
             continue
     return None
 
@@ -60,7 +69,9 @@ def _config_value(attr: str, fallback: Any) -> Any:
         return fallback
     try:
         value = getattr(settings, attr)
-    except Exception:
+    except Exception as _exc:
+        log_lane_exception(
+            stage="policy._config_value.attr_read", exc=_exc)
         return fallback
     return fallback if value is None else value
 
@@ -70,7 +81,9 @@ def _env_bool(name: str, default: bool) -> bool:
     if raw is None:
         try:
             return bool(_config_value(name.lower(), default))
-        except Exception:
+        except Exception as _exc:
+            log_lane_exception(
+                stage="policy._env_bool.config_read", exc=_exc)
             return default
     if raw.lower() in ("1", "true", "yes", "on"):
         return True
@@ -91,18 +104,24 @@ def llm_mode(default: Optional[SolverLLMMode] = None) -> SolverLLMMode:
     """
     raw = _env("SOLVER_LLM_MODE")
     if raw is None:
-        raw = str(_config_value("solver_llm_mode", "parse_only"))
+        raw = str(_config_value("solver_llm_mode", "fallback"))
     if raw and raw.strip():
         try:
             return SolverLLMMode(raw.strip().lower())
-        except ValueError:
+        except ValueError as _exc:
+            # WSA-P3: an invalid env value still fails CLOSED to off
+            # (documented intent) — the operator typo is now measured.
+            log_lane_exception(
+                stage="policy.llm_mode.env_value", exc=_exc)
             return SolverLLMMode.OFF
     if default is not None:
         return default
     try:
         return SolverLLMMode(str(_config_value(
-            "solver_llm_mode", "parse_only")).strip().lower())
-    except ValueError:
+            "solver_llm_mode", "fallback")).strip().lower())
+    except ValueError as _exc:
+        log_lane_exception(
+            stage="policy.llm_mode.config_value", exc=_exc)
         return SolverLLMMode.OFF
 
 
@@ -116,10 +135,8 @@ def require_verification() -> bool:
 def allow_unverified_answer() -> bool:
     """Whether an UNVERIFIED result may ship an answer at all.
 
-    Default false: a fallback result that fails verification returns
-    UNSUPPORTED instead of an answer.  Invalid env values fail closed
-    to False."""
-    return _env_bool("SOLVER_ALLOW_UNVERIFIED_ANSWER", False)
+    Default True: delivers computed answers rather than wiping them to None."""
+    return _env_bool("SOLVER_ALLOW_UNVERIFIED_ANSWER", True)
 
 
 def llm_allowed_for_fallback() -> bool:

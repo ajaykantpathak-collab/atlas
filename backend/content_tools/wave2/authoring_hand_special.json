@@ -1,0 +1,22 @@
+{
+ "edits": [
+  {
+   "file": "c7_math_ch01_001.md",
+   "set_sections": {
+    "WORKED_EXAMPLE_2": "PROBLEM: If a local government allocates ₹ 3,00,000 for building a community park, and spends ₹ 1,25,000 on plants and landscaping, how much money is left? Perform the calculation using place value alignment.\nSTEPS:\n- Step 1: Write down the initial allocation and expenditure aligned by place value columns:\n 3,00,000 - 1,25,000 = 1,75,000 (column subtraction, borrowing from the lakh place).\n- Step 2: Subtract the digits in the ones, tens, hundreds, and thousands columns where borrowing is necessary from the lakhs place.\n- Step 3: Borrow 1 lakh (1,00,000) as 10 ten-thousands; reduce the 3 in the lakh place to 2, making the ten-thousand place 10. Then borrow 1 ten-thousand for the thousands place, leaving 9 in ten-thousands and 10 in thousands.\n- Step 4: Complete the subtraction column by column: \n Lakhs: 2 - 1 = 1, Ten-thousands: 9 - 2 = 7, Thousands: 10 - 5 = 5, Hundreds/Tens/Ones: 0.\n- Step 5: Combine the results with proper units and comma placement: ₹ 1,75,000.\nREASONING: Subtraction with large numbers requires precise borrowing across place value boundaries, specifically breaking 1 lakh into lower place value units.\nANSWER: ₹ 1,75,000"
+   }
+  },
+  {
+   "file": "c7_math_ch03_003.md",
+   "set_sections": {
+    "WORKED_EXAMPLE_3": "PROBLEM: A rectangular garden plot has a breadth of 3 metres and 6 centimetres. A gardener wants to put a fence around it, but first needs to record the breadth purely in metres as a decimal number. Furthermore, if he extends the breadth by 45 centimetres, what will the new breadth be in metres?\nSTEPS:\n- Step 1: Convert the initial breadth component of 6 centimetres into metres: 6/100 = 0.06 metres.\n- Step 2: Combine the whole metres and the decimal part for initial breadth: 3 + 0.06 = 3.06 metres.\n- Step 3: Convert the extension of 45 centimetres into metres as a decimal: 45/100 = 0.45 metres.\n- Step 4: Add the extension to the initial breadth: 3.06 + 0.45. Align decimal points:\n 3.06 + 0.45 = 3.51.\n- Step 5: Verify each column addition: hundredths column (6 + 5 = 11, write 1, carry 1), tenths column (0 + 4 + 1 = 5), ones column (3 + 0 = 3), resulting in 3.51 metres.\nREASONING: Combining mixed units requires converting subordinate units (centimetres) into hundredths of the primary unit (metres) before performing standard decimal addition with proper column alignment.\nANSWER: 3.51 metres"
+   }
+  },
+  {
+   "file": "c8_eco_ch3_4.md",
+   "set_sections": {
+    "WORKED_EXAMPLE_1": "PROBLEM: In 2011, District Sonipat had a total population of 1,000,000, with 300,000 people living in towns. By 2021, the urban population grew to 450,000, while the rural population grew from 700,000 to 750,000. \nStep 1: Calculate the total population of Sonipat in 2021.\nStep 2: Calculate the urbanisation rate for 2011.\nStep 3: Calculate the urbanisation rate for 2021.\nStep 4: Determine the overall change in the urbanisation rate in percentage points.\n\nSTEPS:\n- **Step 1**: Find the 2021 total population (P(t2)) by adding the 2021 urban and rural populations: \n P(t2) = 450,000 (urban) + 750,000 (rural) = 1,200,000 people\n- **Step 2**: Calculate the 2011 urbanisation rate (U₂₀₁₁) using the formula:\n U₂₀₁₁ = (300,000 urban / 1,000,000 total) × 100 = 30%.\nANSWER: Step 1: P(2021) = 450,000 + 750,000 = 1,200,000. Step 2: U(2011) = 300,000/1,000,000 × 100 = 30%. Step 3: U(2021) = 450,000/1,200,000 × 100 = 37.5%. Step 4: change = +7.5 percentage points. Note the subtlety: the urban population grew 50% (300k→450k) while the rural population grew only ~7% (700k→750k), and BOTH growth and denominator growth push the urbanisation rate up. A wrong answer computes 450,000/750,000 (urban:rural ratio 60%) and calls it the urbanisation rate — the rate is always urban ÷ TOTAL population of the same year."
+   }
+  }
+ ]
+}

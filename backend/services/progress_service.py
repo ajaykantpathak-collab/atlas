@@ -11,11 +11,10 @@ Implements:
   * XP awarding, streak updates, and activity logging
 """
 
-import math
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone
 from typing import Any, Optional
 
-from sqlalchemy import select, func, and_
+from sqlalchemy import select, func, and_, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.models.content import ContentBundle, KnowledgeNodeModel
@@ -33,8 +32,8 @@ BKT_P_TRANSIT = 0.1
 BKT_P_SLIP = 0.1
 BKT_P_GUESS = 0.2
 
-# XP / level configuration
-XP_PER_LEVEL = 100
+# XP / level configuration — CANONICAL values live in services/reward_ledger.py
+# (XP_PER_LEVEL re-exported above). Do not redefine here.
 
 # SM-2 constants
 SM2_MIN_EF = 1.3
@@ -43,17 +42,37 @@ SM2_MIN_EF = 1.3
 # ---------------------------------------------------------------------------
 # Streak read model lives in services/streak_state.py (stdlib-only, dependency
 # free) so routers can share it without importing the heavy service/model graph.
-# It is re-exported here because this module owns the WRITER (`update_streak`),
+# It is re-exported here because this module owns the WRITER (`update_streak`,
+# now delegated to services/reward_ledger.py — the canonical reward service),
 # and therefore owns the day math that every read path must agree on.
 # ---------------------------------------------------------------------------
 from backend.services.streak_state import (  # noqa: E402
+    IST,
     STREAK_ACTIVE_TODAY,
     STREAK_AT_RISK,
     STREAK_LAPSED,
     STREAK_NONE,
     STREAK_UNKNOWN,
     classify_streak,
+    student_today,
+    to_ist,
     unknown_streak,
+)
+
+# ---------------------------------------------------------------------------
+# CANONICAL REWARD SERVICE (single source of truth for XP/level/streak/stars):
+# XP_PER_LEVEL and the level formula live in services/reward_ledger.py and are
+# re-exported here for backwards compatibility. award_xp / update_streak below
+# DELEGATE to RewardLedger — do not add new inline reward math in this module.
+# ---------------------------------------------------------------------------
+from backend.services.reward_ledger import (  # noqa: E402
+    RewardLedger,
+    XP_PER_LEVEL,
+    level_breakdown,
+    level_for,
+    stars_for,
+    total_stars_for,
+    xp_for_answer,
 )
 
 
@@ -87,19 +106,38 @@ class ProgressService:
             raise ValueError("User not found")
 
         total_xp = user.total_xp or 0
-        level = math.floor(total_xp / XP_PER_LEVEL) + 1
+        # Level is ALWAYS derived from XP via the canonical formula (a stale
+        # users.current_level column must never reach a dashboard).
+        level = level_for(total_xp)
         level_xp = total_xp % XP_PER_LEVEL
-
         recommended = await ContentService.get_recommended_lessons(db, user_id)
         mastery_subjects = await ProgressService.get_subject_mastery(db, user_id)
         recent_activity = await ProgressService.get_recent_activity(db, user_id, limit=5)
 
         # Decay-aware: the stored counter is NOT a current streak (see
-        # streak_read_state). Never hand a lapsed counter to a dashboard.
+        # streak_read_state). Classified on the IST student day — the SAME
+        # boundary the canonical writer (reward_ledger.update_streak) buckets
+        # with. Never hand a lapsed counter to a dashboard.
         _streak = streak_read_state(
             getattr(user, "streak_days", 0),
             getattr(user, "last_activity_date", None),
+            today=student_today(),
         )
+
+        # Stars are a DERIVATION of live mastery (canonical bands in
+        # reward_ledger.stars_for), never a stored counter — nothing to go
+        # stale, so every surface asking "how many stars" reads this number.
+        try:
+            _mp_rows = (
+                await db.execute(
+                    select(MasteryRecord.mastery_probability).where(
+                        MasteryRecord.user_id == user_id
+                    )
+                )
+            ).scalars().all()
+            stars = total_stars_for(_mp_rows)
+        except Exception:
+            stars = 0
 
         return {
             "user": {
@@ -119,6 +157,7 @@ class ProgressService:
             "level": level,
             "level_xp": level_xp,
             "level_max": XP_PER_LEVEL,
+            "stars": stars,
             "streak": _streak["current_streak"],
             # Decay-aware extras for callers that need to tell "lapsed" apart
             # from "never practised" (ignored by DashboardSchema).
@@ -352,34 +391,49 @@ class ProgressService:
 
     @staticmethod
     async def get_weekly_activity(db: AsyncSession, user_id: str) -> list[dict]:
-        """Return activity counts for the last 7 days."""
-        now = datetime.now(timezone.utc)
-        start = now - timedelta(days=6)
-        start = start.replace(hour=0, minute=0, second=0, microsecond=0)
+        """Return activity counts for the last 7 student days (IST).
+
+        The window AND every bucket use the IST student-day boundary via
+        ``student_today()`` — the same boundary the canonical streak writer
+        uses. This used to bucket by the UTC server clock, so on a UTC host
+        a 23:30 IST submit landed on the wrong weekday (and the "week"
+        rolled over at 05:30 IST instead of midnight). Display-only: this
+        chart feeds no rewards.
+
+        The SQL bound is a coarse prefilter padded by one day on each side
+        (naive-vs-aware column skew on SQLite must not drop edge rows);
+        the Python-side ``to_ist(...).date()`` bucketing is the source of
+        truth.
+        """
+        today = student_today()
+        days = [today - timedelta(days=offset) for offset in range(6, -1, -1)]
+        window_start = datetime.combine(
+            days[0] - timedelta(days=1), time.min, tzinfo=IST
+        )
 
         result = await db.execute(
             select(ActivityLog).where(
                 and_(
                     ActivityLog.user_id == user_id,
-                    ActivityLog.created_at >= start,
+                    ActivityLog.created_at >= window_start,
                 )
             )
         )
         logs = list(result.scalars().all())
 
-        day_counts: dict[str, int] = {}
-        for i in range(7):
-            day = start + timedelta(days=i)
-            day_name = day.strftime("%a")
-            day_counts[day_name] = 0
-
+        counts: dict[date, int] = {day: 0 for day in days}
         for log in logs:
-            if log.created_at:
-                day_name = log.created_at.strftime("%a")
-                if day_name in day_counts:
-                    day_counts[day_name] += 1
+            ts = to_ist(
+                log.created_at.replace(tzinfo=timezone.utc)
+                if log.created_at and log.created_at.tzinfo is None
+                else log.created_at
+            )
+            if ts is not None and ts.date() in counts:
+                counts[ts.date()] += 1
 
-        return [{"day": day, "value": count} for day, count in day_counts.items()]
+        return [
+            {"day": day.strftime("%a"), "value": counts[day]} for day in days
+        ]
 
     # ================================================================== #
     # Milestones
@@ -455,16 +509,32 @@ class ProgressService:
     async def get_mastery_record(
         db: AsyncSession, user_id: str, node_id: str
     ) -> Optional[MasteryRecord]:
-        """Return the mastery record for a user/node pair, or ``None``."""
+        """Return the mastery record for a user/node pair, or ``None``.
+
+        MASTERY-SOLID fix: ``mastery_records`` has no UNIQUE constraint on
+        (user_id, node_id) and repeated practice HAS been observed to leave
+        several rows per node — get_all_mastery_records (below) and
+        learnpath._ledger both carry best-row dedup for exactly that reason.
+        The old ``scalar_one_or_none()`` raised MultipleResultsFound on the
+        second row; mastery_ledger swallowed it as ``orm_error``, so the
+        dashboard/galaxy store silently STOPPED updating for that node
+        forever. Read the canonical row instead: highest probability, then
+        most attempts — the same semantics every reader dedupes by.
+        """
         result = await db.execute(
-            select(MasteryRecord).where(
+            select(MasteryRecord)
+            .where(
                 and_(
                     MasteryRecord.user_id == user_id,
                     MasteryRecord.node_id == node_id,
                 )
             )
+            .order_by(
+                MasteryRecord.mastery_probability.desc(),
+                MasteryRecord.attempts.desc(),
+            )
         )
-        return result.scalar_one_or_none()
+        return result.scalars().first()
 
     @staticmethod
     async def get_all_mastery_records(db: AsyncSession, user_id: str) -> list:
@@ -504,11 +574,35 @@ class ProgressService:
                   + p_correct_given_unknown * (1 - p_known)
           then normalise.
 
+        MASTERY-SOLID: this is an UPSERT onto ONE canonical row per
+        (user_id, node_id) — never an insert-per-attempt. Legacy duplicate
+        rows for the same node (the table has no unique constraint) are
+        consolidated here: the canonical row (best probability, then most
+        attempts) absorbs the update and the extras are deleted, so
+        get_mastery_record / get_all_mastery_records / learnpath gating all
+        keep agreeing on a single number.
+
         Returns the updated mastery probability.
         """
-        record = await ProgressService.get_mastery_record(db, user_id, node_id)
+        rows = (
+            (await db.execute(
+                select(MasteryRecord)
+                .where(
+                    and_(
+                        MasteryRecord.user_id == user_id,
+                        MasteryRecord.node_id == node_id,
+                    )
+                )
+                .order_by(
+                    MasteryRecord.mastery_probability.desc(),
+                    MasteryRecord.attempts.desc(),
+                )
+            ))
+            .scalars()
+            .all()
+        )
 
-        if record is None:
+        if not rows:
             # Prior aligned with the live mastery_state store
             # (services/mastery_sync.MasteryState.bkt_p_know = 0.1) so BOTH
             # stores compute IDENTICAL trajectories from the same evidence —
@@ -525,6 +619,16 @@ class ProgressService:
                 attempts=0,
             )
             db.add(record)
+        else:
+            record = rows[0]
+            # One-record rule: collapse legacy duplicates so every read path
+            # sees exactly one row per node. The canonical row keeps the
+            # best probability AND the sum of evidence (attempts), then the
+            # BKT update below applies to it.
+            if len(rows) > 1:
+                for extra in rows[1:]:
+                    record.attempts += int(extra.attempts or 0)
+                    await db.delete(extra)
 
         p_known = record.p_known
         p_transit = record.p_transit
@@ -648,15 +752,24 @@ class ProgressService:
 
     @staticmethod
     async def get_review_queue(db: AsyncSession, user_id: str) -> list[ReviewItem]:
-        """Return items due for review (next_review_date <= today)."""
+        """Return items due for review (next_review_date <= today).
+
+        MASTERY-SOLID: ordered most-overdue first so every consumer
+        (router /review/queue, orchestrator next-step, spiral service)
+        serves the same deterministic, pedagogically-honest order — the
+        item the student has been putting off the longest comes back
+        first (same order review_scheduler.due_queue uses).
+        """
         today = date.today()
         result = await db.execute(
-            select(ReviewItem).where(
+            select(ReviewItem)
+            .where(
                 and_(
                     ReviewItem.user_id == user_id,
                     ReviewItem.next_review_date <= today,
                 )
             )
+            .order_by(ReviewItem.next_review_date.asc())
         )
         return list(result.scalars().all())
 
@@ -668,7 +781,13 @@ class ProgressService:
         ``response_time_seconds`` (optional).
         """
         item_id = data.get("item_id")
-        quality = int(data.get("quality", 3))
+        raw_quality = data.get("quality", 3)
+        if raw_quality is None:
+            raw_quality = 3
+        try:
+            quality = int(raw_quality)
+        except (TypeError, ValueError):
+            quality = 3
         quality = max(0, min(5, quality))
 
         result = await db.execute(
@@ -845,77 +964,50 @@ class ProgressService:
     # ================================================================== #
     # XP, streak, activity logging
     # ================================================================== #
+    # BOTH writers delegate to services/reward_ledger.py — the canonical
+    # reward service. Every caller of ProgressService.award_xp /
+    # ProgressService.update_streak is therefore already routed through the
+    # single ledger; no caller needs to change.
     @staticmethod
-    async def award_xp(db: AsyncSession, user_id: str, amount: int) -> User:
-        """Add XP to the user and update their level.
+    async def award_xp(
+        db: AsyncSession,
+        user_id: str,
+        amount: int,
+        *,
+        event: str = "generic",
+        event_ref: Optional[str] = None,
+    ) -> User:
+        """Add XP through the canonical ledger (see reward_ledger.award_xp).
 
-        Level = floor(total_xp / 100) + 1
+        Pass ``event`` + ``event_ref`` wherever the surface has an attempt
+        identity (e.g. f"{session_id}:{question_id}") and the award becomes
+        exactly-once per logical attempt — retries cannot double-pay.
+        Level = floor(total_xp / XP_PER_LEVEL) + 1 (canonical derivation).
         """
-        result = await db.execute(select(User).where(User.id == user_id))
-        user = result.scalar_one_or_none()
-        if user is None:
-            raise ValueError("User not found")
-
-        user.total_xp = (user.total_xp or 0) + amount
-        user.current_level = math.floor(user.total_xp / XP_PER_LEVEL) + 1
-        user.updated_at = datetime.now(timezone.utc)
-
-        await db.flush()
-        await db.refresh(user)
-        return user
-
-    @staticmethod
-    async def update_streak(db: AsyncSession, user_id: str) -> User:
-        """Update the user's daily streak.
-
-        - If last_activity_date is yesterday → streak++
-        - If last_activity_date is today → no change
-        - If last_activity_date is older or None → reset to 1
-        """
-        from backend.models.achievement import StreakRecord
-
-        result = await db.execute(select(User).where(User.id == user_id))
-        user = result.scalar_one_or_none()
-        if user is None:
-            raise ValueError("User not found")
-
-        today = date.today()
-        yesterday = today - timedelta(days=1)
-        last = user.last_activity_date
-
-        if last is None or last < yesterday:
-            user.streak_days = 1
-        elif last == yesterday:
-            user.streak_days = (user.streak_days or 0) + 1
-        # else: last == today → no change
-
-        user.last_activity_date = today
-
-        # Upsert streak record for today
-        streak_result = await db.execute(
-            select(StreakRecord).where(
-                and_(
-                    StreakRecord.user_id == user_id,
-                    StreakRecord.date == today,
-                )
-            )
+        await RewardLedger.award_xp(
+            db, user_id, amount, event=event, event_ref=event_ref
         )
-        streak_rec = streak_result.scalar_one_or_none()
-        if streak_rec is None:
-            streak_rec = StreakRecord(
-                user_id=user_id,
-                date=today,
-                completed=True,
-                activities_count=1,
-            )
-            db.add(streak_rec)
-        else:
-            streak_rec.completed = True
-            streak_rec.activities_count += 1
-
-        await db.flush()
+        result = await db.execute(select(User).where(User.id == user_id))
+        user = result.scalar_one_or_none()
+        if user is None:
+            raise ValueError("User not found")
         await db.refresh(user)
         return user
+
+    @staticmethod
+    async def update_streak(db: AsyncSession, user_id: str) -> dict[str, Any]:
+        """Update the daily streak through the canonical ledger.
+
+        RewardLedger.update_streak owns ALL the day math:
+          - IST student-day boundary (student_today()) — same boundary every
+            read path classifies against;
+          - same-day submit → no counter change;
+          - consecutive day → +1, freeze token earned each completed 5-day
+            streak;
+          - gap → each missed day consumes one token; a shortage resets to 1
+            honestly (the freeze is a preservation benefit, never fabricated).
+        """
+        return await RewardLedger.update_streak(db, user_id)
 
     @staticmethod
     async def log_activity(

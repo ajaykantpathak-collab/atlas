@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("fixing-accessibility").
+skill_evidence_text("fixing-accessibility", "name: fixing-accessibility").
+action("act_review", "fixing-accessibility").
+action_evidence_text("act_review", "name: fixing-accessibility").

@@ -1,0 +1,3 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("atlas-content").
+action("act_review", "atlas-content").

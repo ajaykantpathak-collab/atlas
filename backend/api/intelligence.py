@@ -23,10 +23,10 @@ import time
 import uuid
 from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field
 
-from backend.deps import get_current_user, is_staff, require_self_or_staff
+from backend.deps import get_current_user, is_staff, require_role, require_self_or_staff
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/intelligence", tags=["intelligence"])
@@ -268,12 +268,18 @@ def _get_self_play():
 # ---------------------------------------------------------------------------
 
 class TutorRequest(BaseModel):
-    student_id: str = Field(..., description="Student identifier")
-    query: str = Field(..., description="Student's question or response")
-    node_id: str = Field(..., description="Current concept node ID")
+    """WS-D caps (2026-10-10): free-text and array fields bounded."""
+    student_id: str = Field(..., min_length=1, max_length=64,
+                            description="Student identifier")
+    query: str = Field(..., min_length=1, max_length=4000,
+                       description="Student's question or response")
+    node_id: str = Field(..., min_length=1, max_length=64,
+                         description="Current concept node ID")
     mastery_map: dict[str, float] = Field(default_factory=dict, description="Concept -> mastery 0-1")
-    interaction_history: list[dict] = Field(default_factory=list, description="Previous interactions")
-    language: str = Field(default="en", description="Response language")
+    interaction_history: list[dict] = Field(default_factory=list, max_length=40,
+                                            description="Previous interactions")
+    language: str = Field(default="en", max_length=8,
+                          description="Response language")
 
 
 class TutorResponse(BaseModel):
@@ -292,9 +298,12 @@ class TutorResponse(BaseModel):
 
 
 class SolveRequest(BaseModel):
-    problem_text: str = Field(..., description="JEE/NEET problem text")
-    subject: Optional[str] = Field(None, description="physics/chemistry/math/biology")
-    exam_type: Optional[str] = Field(None, description="jee_main/jee_advanced/neet")
+    problem_text: str = Field(..., min_length=1, max_length=4000,
+                              description="JEE/NEET problem text")
+    subject: Optional[str] = Field(None, max_length=24,
+                                   description="physics/chemistry/math/biology")
+    exam_type: Optional[str] = Field(None, max_length=24,
+                                    description="jee_main/jee_advanced/neet")
     student_state: Optional[dict] = Field(None, description="4D student state for calibration")
 
 
@@ -322,17 +331,19 @@ class ConfidenceRequest(BaseModel):
 
 
 class InteractionLogRequest(BaseModel):
-    student_id: str
-    node_id: str
-    question: str
-    response: str
+    """WS-D caps (2026-10-10): every field lands verbatim in the capture
+    JSONL and the intelligence bus — bound them all."""
+    student_id: str = Field(min_length=1, max_length=64)
+    node_id: str = Field(min_length=1, max_length=64)
+    question: str = Field(default="", max_length=4000)
+    response: str = Field(default="", max_length=8000)
     is_correct: bool
-    time_spent_ms: int = 0
-    hints_used: int = 0
-    action_taken: str = ""
-    mastery_before: float = 0.0
-    mastery_after: float = 0.0
-    session_id: Optional[str] = None
+    time_spent_ms: int = Field(default=0, ge=0, le=24 * 3600 * 1000)
+    hints_used: int = Field(default=0, ge=0, le=50)
+    action_taken: str = Field(default="", max_length=200)
+    mastery_before: float = Field(default=0.0, ge=0.0, le=1.0)
+    mastery_after: float = Field(default=0.0, ge=0.0, le=1.0)
+    session_id: Optional[str] = Field(default=None, max_length=64)
 
 
 class MetaBrainRequest(BaseModel):
@@ -453,8 +464,17 @@ async def solve(req: SolveRequest):
 
 
 @router.post("/state")
-async def build_state(req: StateRequest):
-    """Build 4D student state (cognitive + affective + behavioral + temporal)."""
+async def build_state(req: StateRequest, user=Depends(get_current_user)):
+    """Build 4D student state (cognitive + affective + behavioral + temporal).
+
+    Was unauthenticated: any caller could assemble any student's profile.
+    Now the student themselves or staff, mirroring /confidence.
+    """
+    if not is_staff(user) and str(req.student_id) != str(user.id):
+        raise HTTPException(
+            status_code=403,
+            detail="Not authorized for this student record",
+        )
     try:
         builder = _get_state_builder()
         # Extract concept from first interaction or use default
@@ -557,8 +577,22 @@ async def get_calibration(
 
 
 @router.post("/interaction")
-async def log_interaction(req: InteractionLogRequest):
-    """Log a student interaction for the meta-brain."""
+async def log_interaction(req: InteractionLogRequest,
+                          user=Depends(get_current_user)):
+    """Log a student interaction for the meta-brain.
+
+    WS-D (2026-10-10): the route was fully anonymous and accepted an
+    ARBITRARY student_id — anyone could append interaction records to
+    any student (polluting the capture JSONL and the intelligence-bus
+    mastery signals).  Now: authenticated callers only, and the student
+    named must be the caller (staff may log on behalf of students,
+    mirroring require_self_or_staff).
+    """
+    if not is_staff(user) and str(req.student_id) != str(user.id):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Not authorized to log interactions for this student",
+        )
     try:
         cap = _get_capture()
         record = cap.capture(
@@ -605,8 +639,12 @@ async def log_interaction(req: InteractionLogRequest):
 
 
 @router.post("/meta-brain")
-async def run_meta_brain(req: MetaBrainRequest):
-    """Run meta-brain jobs (nightly self-improvement)."""
+async def run_meta_brain(req: MetaBrainRequest, user=Depends(require_role("admin"))):
+    """Run meta-brain jobs (nightly self-improvement).
+
+    Admin-only: runs self-improvement jobs over supplied interaction data —
+    an unauthenticated call lets anyone feed the improvement loop.
+    """
     try:
         mb = _get_meta_brain()
         report = mb.run_all_jobs(
@@ -668,8 +706,12 @@ async def list_rules():
 
 
 @router.post("/rules")
-async def add_rule(req: RuleRequest):
-    """Add or update an orchestrator rule."""
+async def add_rule(req: RuleRequest, user=Depends(require_role("admin"))):
+    """Add or update an orchestrator rule.
+
+    Admin-only: this writes live orchestration rules that shape every
+    student's solving flow — it was an unauthenticated WRITE.
+    """
     try:
         orch = _get_orchestrator()
         from services.deterministic_orchestrator import OrchestratorRule
@@ -689,8 +731,8 @@ async def add_rule(req: RuleRequest):
 
 
 @router.post("/generate")
-async def generate_problems(req: GenerateRequest):
-    """Self-play problem generation."""
+async def generate_problems(req: GenerateRequest, user=Depends(require_role("admin"))):
+    """Self-play problem generation (admin-only — heavy compute endpoint)."""
     try:
         gen = _get_self_play()
         problems = gen.generate_batch(
@@ -715,8 +757,11 @@ async def generate_problems(req: GenerateRequest):
 
 
 @router.post("/evolve")
-async def evolve_intelligence():
+async def evolve_intelligence(user=Depends(require_role("admin"))):
     """Run the self-evolving loop on live data (was an orphaned script).
+
+    Admin-only: mutates strategy effectiveness profiles and misconception
+    data derived from live student interactions.
 
     Reads interaction_outcome via the DB fallback when the synthetic
     interactions file isn't present, computes strategy effectiveness,
@@ -733,8 +778,12 @@ async def evolve_intelligence():
 
 
 @router.post("/warmup")
-async def intelligence_warmup():
-    """Eagerly initialize all intelligence components."""
+async def intelligence_warmup(user=Depends(require_role("admin"))):
+    """Eagerly initialize all intelligence components.
+
+    Admin-only: forces 12 heavy component loads — an anonymous caller
+    could use it to burn worker memory on demand.
+    """
     results = {}
     for name, fn in [
         ("pipeline", _get_pipeline),

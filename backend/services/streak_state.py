@@ -19,9 +19,11 @@ practice silently rewrites it to `1` and the streak collapses with no
 explanation.
 
 Every read path must therefore classify the streak off `last_activity_date`,
-using the SAME day boundary the writer uses (server-local `date.today()`).
-Mixing in a UTC clock here silently disagrees with the writer for part of every
-day and flips alerts on/off at the wrong hour.
+using the SAME day boundary the writer uses — the IST student day
+(`student_today()` above; owner decision 2026-10, replacing the old
+server-local `date.today()` which split IST evenings across two server days).
+Buckets come from ONE clock, so no surface can disagree about whether the
+streak is alive.
 
 Consumers (all three must stay in step):
   - services/progress_service.py  -> GET /api/progress/dashboard
@@ -34,8 +36,37 @@ it without pulling in the heavy service/model graph.
 
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from typing import Any, Optional
+
+# ---------------------------------------------------------------------------
+# DAY BOUNDARY (canonical, owner decision 2026-10)
+# ---------------------------------------------------------------------------
+# The student's LOCAL day is IST (Asia/Kolkata, UTC+05:30, no DST). Production
+# hosts run UTC, so bucketing reward days on the server clock split one IST
+# evening of practice across two UTC days — a 23:30 IST submit and the 00:30
+# IST follow-up are ONE UTC day but TWO student days. The streak writer
+# (services/reward_ledger.update_streak) and every reader below share THIS
+# boundary; timestamps are converted to IST before their date is compared.
+IST = timezone(timedelta(hours=5, minutes=30), name="IST")
+
+
+def student_today(now: Optional[datetime] = None) -> date:
+    """The IST calendar day "right now" — THE platform reward day boundary."""
+    if now is None:
+        now = datetime.now(timezone.utc)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=timezone.utc)
+    return now.astimezone(IST).date()
+
+
+def to_ist(ts: Optional[datetime]) -> Optional[datetime]:
+    """Convert a stored timestamp to IST (naive input is assumed UTC)."""
+    if ts is None:
+        return None
+    if ts.tzinfo is None:
+        ts = ts.replace(tzinfo=timezone.utc)
+    return ts.astimezone(IST)
 
 #: Practised today — the streak is counted today.
 STREAK_ACTIVE_TODAY = "active_today"
@@ -63,7 +94,7 @@ def classify_streak(
       last_activity_date  ISO string or None
       days_since_last   integer gap in days, or None when never practised
     """
-    day = today or date.today()
+    day = today or student_today()
     try:
         recorded = int(streak_days or 0)
     except (TypeError, ValueError):

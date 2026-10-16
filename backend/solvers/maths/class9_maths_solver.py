@@ -812,3 +812,43 @@ if __name__ == "__main__":
 
     print("\n" + "=" * 60)
     print("All tests passed.")
+
+# ---------------------------------------------------------------------------
+# Registry surface: named problem types per node topic, so practice routing
+# can address rational numbers, irrationals and the number line directly.
+# ---------------------------------------------------------------------------
+
+_SOLVER9 = Class9MathSolver()
+
+
+def _c9_entry(node_id: str, label: str, default_task: str):
+    def _run(params=None, **kw):
+        payload = dict(params or {})
+        payload.update(kw)
+        task = payload.pop("task", payload.pop("question_type", default_task))
+        try:
+            r = _SOLVER9.solve(node_id, task, **payload)
+        except KeyError as exc:
+            return {"answer": None,
+                    "steps": [f"Missing parameter {exc} for task '{task}'"],
+                    "verification": {"passed": False,
+                                     "details": f"missing {exc}"}}
+        except Exception as exc:
+            return {"answer": None, "steps": [f"Solver error: {exc}"],
+                    "verification": {"passed": False, "details": str(exc)}}
+        return {
+            "answer": r.correct_answer,
+            "steps": r.steps,
+            "verification": {"passed": True,
+                             "details": f"{node_id}:{task} ({label})"},
+        }
+    _run.__name__ = f"c9_math_{label}"
+    return _run
+
+
+SOLVER_REGISTRY = {
+    "c9_math_rational_numbers": _c9_entry("c9_math_001", "rational_numbers", "identify_rational"),
+    "c9_math_irrational_numbers": _c9_entry("c9_math_002", "irrational_numbers", "identify_irrational"),
+    "c9_math_number_line": _c9_entry("c9_math_003", "number_line", "locate_rational"),
+    "c9_math_solve": _c9_entry("c9_math_001", "dispatcher", "default"),
+}

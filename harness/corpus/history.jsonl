@@ -1,0 +1,24 @@
+{"ts_utc": "2026-10-13T15:11:09Z", "action": "add", "id": "COR-000001", "status": "red"}
+{"ts_utc": "2026-10-13T15:14:15Z", "action": "status", "id": "COR-000001", "status": "parked", "reason": "fix requires authoring formula-substitution plugin families + DECLARATIVE_INVARIANTS verifier rows (SOLVER_MAP.md lists formula_plugin_families ~3 families; model_formula_plugin exists at structure idx 32 but this textbook shape 'Using the formula A = l*w, calculate A when l=19, w=5' matches nothing — confidence 0.0, parity 2026-10-13 matched=18/200). Real solver-authoring work, not trivially fixable in this batch; stays visible as debt."}
+{"ts_utc": "2026-10-13T17:33:41Z", "action": "status", "id": "COR-000001", "status": "green", "reason": "formula plugin regex broadened, verifier row added, test_COR-000001 passed green"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000002", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000003", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000004", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000005", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000006", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000007", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000008", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000009", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000010", "status": "red"}
+{"ts_utc": "2026-10-15T15:45:15Z", "action": "add", "id": "COR-000011", "status": "red"}
+{"ts_utc": "2026-10-15T17:34:53Z", "action": "status", "id": "COR-000001", "status": "parked", "reason": "RE-PARKED 2026-10-15: the 10-13 green flip was premature — model_problem still refuses the formula-substitution shape (50-min suite run FAIL); closing needs formula-plugin family authoring + verifier rows. Pipeline-layer fixes (F2) do not cover this class."}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000002", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000003", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000004", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000005", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000006", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000007", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000008", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000009", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000010", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}
+{"ts_utc": "2026-10-15T17:47:05Z", "action": "status", "id": "COR-000011", "status": "green", "reason": "pinned check green on deploy tree 2026-10-15 (F2 solver-truth fixes verified at seam; ship to containers pending)"}

@@ -1,0 +1,2337 @@
+{
+ "combos": [
+  {
+   "class": 6,
+   "subject": "biology",
+   "bank_questions": 31,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class6_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class6_bio_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 6,
+   "subject": "chem",
+   "bank_questions": 112,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class6_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class6_chem_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class6_chem_solver'"
+  },
+  {
+   "class": 6,
+   "subject": "chemistry",
+   "bank_questions": 428,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class6_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class6_chem_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class6_chem_solver'"
+  },
+  {
+   "class": 6,
+   "subject": "civics",
+   "bank_questions": 705,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "comp",
+   "bank_questions": 2,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class6_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class6_cs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 6,
+   "subject": "economics",
+   "bank_questions": 30,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "english",
+   "bank_questions": 1077,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class6_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class6_english_questions.py",
+   "solver_entries": 2,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 6,
+   "subject": "geography",
+   "bank_questions": 643,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "gram",
+   "bank_questions": 152,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class6_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class6_english_questions.py",
+   "solver_entries": 2,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 6,
+   "subject": "hin",
+   "bank_questions": 2167,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "history",
+   "bank_questions": 1154,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "math",
+   "bank_questions": 2734,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class6_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class6_maths_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 6,
+   "subject": "physics",
+   "bank_questions": 1095,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class6_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class6_physics_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class6_physics_solver'"
+  },
+  {
+   "class": 7,
+   "subject": "bio",
+   "bank_questions": 779,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class7_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class7_bio_questions.py",
+   "solver_entries": 3,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 7,
+   "subject": "chem",
+   "bank_questions": 494,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class7_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class7_chem_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class7_chem_solver'"
+  },
+  {
+   "class": 7,
+   "subject": "civ",
+   "bank_questions": 643,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class7_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class7_histciv_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 7,
+   "subject": "comp",
+   "bank_questions": 3,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class7_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class7_cs_questions.py",
+   "solver_entries": 2,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class7_cs_solver'"
+  },
+  {
+   "class": 7,
+   "subject": "eco",
+   "bank_questions": 239,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 7,
+   "subject": "engl",
+   "bank_questions": 1464,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class7_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class7_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 7,
+   "subject": "geo",
+   "bank_questions": 1101,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class7_geo_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class7_geo_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 7,
+   "subject": "gram",
+   "bank_questions": 116,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class7_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class7_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 7,
+   "subject": "hin",
+   "bank_questions": 1646,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 7,
+   "subject": "hist",
+   "bank_questions": 1636,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class7_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class7_histciv_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 7,
+   "subject": "math",
+   "bank_questions": 2981,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class7_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class7_maths_questions.py",
+   "solver_entries": 2,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'maths'"
+  },
+  {
+   "class": 7,
+   "subject": "physics",
+   "bank_questions": 1464,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class7_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class7_physics_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class7_physics_solver'"
+  },
+  {
+   "class": 8,
+   "subject": "bio",
+   "bank_questions": 875,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class8_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class8_bio_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "chem",
+   "bank_questions": 482,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class8_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class8_chem_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class8_chem_solver'"
+  },
+  {
+   "class": 8,
+   "subject": "civ",
+   "bank_questions": 906,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class8_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class8_histciv_questions.py",
+   "solver_entries": 2,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "comp",
+   "bank_questions": 3,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class8_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class8_cs_questions.py",
+   "solver_entries": 2,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "cs",
+   "bank_questions": 1,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class8_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class8_cs_questions.py",
+   "solver_entries": 2,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "eco",
+   "bank_questions": 682,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 8,
+   "subject": "engl",
+   "bank_questions": 1722,
+   "solver_file": null,
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class8_english_questions.py",
+   "solver_entries": null,
+   "gen_entries": 0,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "geo",
+   "bank_questions": 460,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class8_geo_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class8_geo_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "gram",
+   "bank_questions": 113,
+   "solver_file": null,
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class8_english_questions.py",
+   "solver_entries": null,
+   "gen_entries": 0,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "hin",
+   "bank_questions": 1709,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 8,
+   "subject": "hist",
+   "bank_questions": 1077,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class8_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class8_histciv_questions.py",
+   "solver_entries": 2,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "math",
+   "bank_questions": 3042,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class8_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class8_maths_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'maths'"
+  },
+  {
+   "class": 8,
+   "subject": "physics",
+   "bank_questions": 2009,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class8_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class8_physics_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "bio",
+   "bank_questions": 903,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class9_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class9_bio_questions.py",
+   "solver_entries": 1,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "chem",
+   "bank_questions": 608,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class9_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class9_chem_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'chem'"
+  },
+  {
+   "class": 9,
+   "subject": "civ",
+   "bank_questions": 693,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class9_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class9_histciv_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "comp",
+   "bank_questions": 3,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class9_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class9_cs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class9_cs_solver'"
+  },
+  {
+   "class": 9,
+   "subject": "eco",
+   "bank_questions": 591,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class9_econ_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class9_econ_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "engl",
+   "bank_questions": 1585,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class9_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class9_english_questions.py",
+   "solver_entries": 1,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "geo",
+   "bank_questions": 597,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class9_geo_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class9_geo_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class9_geo_solver'"
+  },
+  {
+   "class": 9,
+   "subject": "gram",
+   "bank_questions": 80,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class9_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class9_english_questions.py",
+   "solver_entries": 1,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "hin_ga",
+   "bank_questions": 2013,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 9,
+   "subject": "hist",
+   "bank_questions": 778,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class9_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class9_histciv_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "math",
+   "bank_questions": 2112,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class9_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class9_maths_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 9,
+   "subject": "physics",
+   "bank_questions": 1310,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class9_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class9_physics_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class9_physics_solver'"
+  },
+  {
+   "class": 10,
+   "subject": "bio",
+   "bank_questions": 904,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class10_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class10_bio_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 10,
+   "subject": "chem",
+   "bank_questions": 1103,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class10_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class10_chem_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 10,
+   "subject": "civ",
+   "bank_questions": 827,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class10_histciv_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 10,
+   "subject": "comp",
+   "bank_questions": 8,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class10_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class10_cs_questions.py",
+   "solver_entries": 4,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 10,
+   "subject": "eco",
+   "bank_questions": 1644,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class10_econ_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class10_econ_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 10,
+   "subject": "engl",
+   "bank_questions": 2955,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class10_english_solver.py",
+   "gen_file": null,
+   "solver_entries": 8,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 10,
+   "subject": "geo",
+   "bank_questions": 1243,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class10_geo_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class10_geo_questions.py",
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'geo'"
+  },
+  {
+   "class": 10,
+   "subject": "gram",
+   "bank_questions": 218,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class10_english_solver.py",
+   "gen_file": null,
+   "solver_entries": 8,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 10,
+   "subject": "hin_kr",
+   "bank_questions": 479,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 10,
+   "subject": "hin_ks",
+   "bank_questions": 1822,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 10,
+   "subject": "hin_sp",
+   "bank_questions": 2246,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 10,
+   "subject": "hist",
+   "bank_questions": 873,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class10_histciv_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 10,
+   "subject": "math",
+   "bank_questions": 2896,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class10_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class10_maths_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 10,
+   "subject": "phy",
+   "bank_questions": 846,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class10_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class10_physics_questions.py",
+   "solver_entries": 1,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "acc",
+   "bank_questions": 1952,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class11_acc_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class11_acc_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "app",
+   "bank_questions": 759,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class11_appmath_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class11_appmath_questions.py",
+   "solver_entries": 14,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'solvers'"
+  },
+  {
+   "class": 11,
+   "subject": "bio",
+   "bank_questions": 3210,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class11_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class11_bio_questions.py",
+   "solver_entries": 16,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'solvers'"
+  },
+  {
+   "class": 11,
+   "subject": "biotech",
+   "bank_questions": 2460,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class11_biotech_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class11_biotech_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "bs",
+   "bank_questions": 2275,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class11_bs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class11_bs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "chem",
+   "bank_questions": 2352,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class11_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class11_chem_questions.py",
+   "solver_entries": 23,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'solvers'"
+  },
+  {
+   "class": 11,
+   "subject": "comp",
+   "bank_questions": 37,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_questions.py",
+   "solver_entries": 13,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "cs",
+   "bank_questions": 2958,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_questions.py",
+   "solver_entries": 13,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "eco",
+   "bank_questions": 2103,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class11_econ_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class11_econ_questions.py",
+   "solver_entries": 16,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "eng_h",
+   "bank_questions": 3720,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "eng_s",
+   "bank_questions": 1526,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "eng_w",
+   "bank_questions": 8417,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "geo",
+   "bank_questions": 4390,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class11_geo_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class11_geo_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "gram",
+   "bank_questions": 87,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_a",
+   "bank_questions": 2656,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_al",
+   "bank_questions": 329,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_ar",
+   "bank_questions": 3393,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_v",
+   "bank_questions": 1051,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hist",
+   "bank_questions": 1578,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class11_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class11_histciv_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "hs",
+   "bank_questions": 2606,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\home\\class11_home_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\home\\class11_home_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "ip",
+   "bank_questions": 1909,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_questions.py",
+   "solver_entries": 13,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "leg",
+   "bank_questions": 985,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class11_legal_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class11_legal_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "math",
+   "bank_questions": 2670,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class11_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class11_maths_questions.py",
+   "solver_entries": 20,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "phy",
+   "bank_questions": 3505,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class11_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class11_physics_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "ps",
+   "bank_questions": 3951,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class11_psy_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class11_psy_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "psy",
+   "bank_questions": 1682,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_questions.py",
+   "solver_entries": 3,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "soc",
+   "bank_questions": 2090,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_questions.py",
+   "solver_entries": 3,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 11,
+   "subject": "stat",
+   "bank_questions": 1690,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_questions.py",
+   "solver_entries": 3,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "acc",
+   "bank_questions": 3784,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class12_acc_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class12_acc_questions.py",
+   "solver_entries": 8,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'class12_acc_solver'"
+  },
+  {
+   "class": 12,
+   "subject": "app",
+   "bank_questions": 1078,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class12_appmath_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class12_appmath_questions.py",
+   "solver_entries": 27,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "bio",
+   "bank_questions": 4013,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class12_bio_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class12_bio_questions.py",
+   "solver_entries": 18,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'solvers'"
+  },
+  {
+   "class": 12,
+   "subject": "biotech",
+   "bank_questions": 5023,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class12_biotech_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class12_biotech_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "bs",
+   "bank_questions": 3920,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class12_bs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class12_bs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "ca",
+   "bank_questions": 704,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 12,
+   "subject": "chem",
+   "bank_questions": 3456,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class12_chem_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class12_chem_questions.py",
+   "solver_entries": 30,
+   "gen_entries": null,
+   "solver_error": null,
+   "gen_error": "ModuleNotFoundError: No module named 'solvers'"
+  },
+  {
+   "class": 12,
+   "subject": "comp",
+   "bank_questions": 36,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "cs",
+   "bank_questions": 5253,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "eco",
+   "bank_questions": 4167,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class12_econ_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class12_econ_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "eng_f",
+   "bank_questions": 7826,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 12,
+   "subject": "eng_k",
+   "bank_questions": 12289,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 12,
+   "subject": "eng_v",
+   "bank_questions": 3358,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 12,
+   "subject": "geo",
+   "bank_questions": 8645,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class12_geo_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class12_geo_questions.py",
+   "solver_entries": 15,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "gram",
+   "bank_questions": 77,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class12_english_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class12_english_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_a",
+   "bank_questions": 8297,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_al",
+   "bank_questions": 1437,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_ar",
+   "bank_questions": 7205,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_v",
+   "bank_questions": 1452,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hist",
+   "bank_questions": 5166,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class12_histciv_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class12_histciv_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "hs",
+   "bank_questions": 6210,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\home\\class12_home_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\home\\class12_home_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "ip",
+   "bank_questions": 3062,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "leg",
+   "bank_questions": 923,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class12_legal_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class12_legal_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "math",
+   "bank_questions": 3988,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class12_maths_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class12_maths_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "phy",
+   "bank_questions": 4201,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class12_physics_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class12_physics_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "ps",
+   "bank_questions": 6579,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class12_psy_solver.py",
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class12_psy_questions.py",
+   "solver_entries": 0,
+   "gen_entries": 0,
+   "solver_error": null,
+   "gen_error": null
+  },
+  {
+   "class": 12,
+   "subject": "psy",
+   "bank_questions": 3177,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  },
+  {
+   "class": 12,
+   "subject": "soc",
+   "bank_questions": 6922,
+   "solver_file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "gen_file": null,
+   "solver_entries": 0,
+   "gen_entries": null,
+   "solver_error": null
+  }
+ ],
+ "module_audit": [
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class6_bio_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.22
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class6_bio_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class6_chem_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class6_chem_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class6_chem_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class6_cs_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class6_cs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class6_english_solver.py",
+   "entries": 2,
+   "bad_entries": [],
+   "import_s": 0.76
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class6_english_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class6_maths_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class6_maths_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class6_physics_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class6_physics_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class6_physics_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class7_bio_solver.py",
+   "entries": 3,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class7_bio_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class7_chem_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class7_chem_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class7_chem_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class7_histciv_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class7_histciv_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class7_cs_solver.py",
+   "entries": 2,
+   "bad_entries": [],
+   "import_s": 0.02
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class7_cs_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class7_cs_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class7_english_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class7_english_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class7_geo_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class7_geo_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class7_maths_solver.py",
+   "entries": 2,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class7_maths_questions.py",
+   "error": "ModuleNotFoundError: No module named 'maths'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class7_physics_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class7_physics_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class7_physics_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class8_bio_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class8_bio_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class8_chem_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class8_chem_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class8_chem_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class8_histciv_solver.py",
+   "entries": 2,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class8_histciv_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class8_cs_solver.py",
+   "entries": 2,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class8_cs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class8_english_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class8_geo_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class8_geo_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class8_maths_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class8_maths_questions.py",
+   "error": "ModuleNotFoundError: No module named 'maths'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class8_physics_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class8_physics_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class9_bio_solver.py",
+   "entries": 1,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class9_bio_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class9_chem_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class9_chem_questions.py",
+   "error": "ModuleNotFoundError: No module named 'chem'",
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class9_histciv_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.02
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class9_histciv_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class9_cs_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class9_cs_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class9_cs_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class9_econ_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class9_econ_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class9_english_solver.py",
+   "entries": 1,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class9_english_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class9_geo_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class9_geo_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class9_geo_solver'",
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class9_maths_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class9_maths_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class9_physics_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class9_physics_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class9_physics_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class10_bio_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class10_bio_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class10_chem_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class10_chem_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class10_histciv_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class10_cs_solver.py",
+   "entries": 4,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class10_cs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class10_econ_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class10_econ_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class10_english_solver.py",
+   "entries": 8,
+   "bad_entries": [],
+   "import_s": 0.02
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class10_geo_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class10_geo_questions.py",
+   "error": "ModuleNotFoundError: No module named 'geo'",
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class10_maths_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class10_maths_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class10_physics_solver.py",
+   "entries": 1,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class10_physics_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class11_acc_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 1.39
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class11_acc_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class11_appmath_solver.py",
+   "entries": 14,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class11_appmath_questions.py",
+   "error": "ModuleNotFoundError: No module named 'solvers'",
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class11_bio_solver.py",
+   "entries": 16,
+   "bad_entries": [],
+   "import_s": 2.35
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class11_bio_questions.py",
+   "error": "ModuleNotFoundError: No module named 'solvers'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class11_biotech_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class11_biotech_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class11_bs_solver.py",
+   "entries": 0,
+   "bad_entries": [
+    "c11_bs_001",
+    "c11_bs_006",
+    "c11_bs_018"
+   ],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class11_bs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class11_chem_solver.py",
+   "entries": 23,
+   "bad_entries": [],
+   "import_s": 1.31
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class11_chem_questions.py",
+   "error": "ModuleNotFoundError: No module named 'solvers'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_solver.py",
+   "entries": 13,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class11_cs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class11_econ_solver.py",
+   "entries": 16,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class11_econ_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class11_english_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class11_geo_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class11_geo_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class11_histciv_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class11_histciv_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\home\\class11_home_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\home\\class11_home_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class11_legal_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class11_legal_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class11_maths_solver.py",
+   "entries": 20,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class11_maths_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class11_physics_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class11_physics_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class11_psy_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class11_psy_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_solver.py",
+   "entries": 3,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class11_soc_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class12_acc_solver.py",
+   "entries": 8,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\acc\\class12_acc_questions.py",
+   "error": "ModuleNotFoundError: No module named 'class12_acc_solver'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class12_appmath_solver.py",
+   "entries": 27,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\appmath\\class12_appmath_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class12_bio_solver.py",
+   "entries": 18,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bio\\class12_bio_questions.py",
+   "error": "ModuleNotFoundError: No module named 'solvers'",
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class12_biotech_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\biotech\\class12_biotech_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class12_bs_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\bs\\class12_bs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\soc\\class12_soc_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class12_chem_solver.py",
+   "entries": 30,
+   "bad_entries": [],
+   "import_s": 0.45
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\chem\\class12_chem_questions.py",
+   "error": "ModuleNotFoundError: No module named 'solvers'",
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\cs\\class12_cs_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class12_econ_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\econ\\class12_econ_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class12_geo_solver.py",
+   "entries": 15,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\geo\\class12_geo_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class12_english_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\english\\class12_english_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class12_histciv_solver.py",
+   "entries": 0,
+   "bad_entries": [
+    "civil_rights",
+    "arab_nationalism",
+    "august_offer",
+    "cripps_mission"
+   ],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\histciv\\class12_histciv_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\home\\class12_home_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\home\\class12_home_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class12_legal_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\legal\\class12_legal_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.01
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class12_maths_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.02
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\maths\\class12_maths_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class12_physics_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.05
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\physics\\class12_physics_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class12_psy_solver.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  },
+  {
+   "file": "D:\\platform\\deploy\\backend\\solvers\\psy\\class12_psy_questions.py",
+   "entries": 0,
+   "bad_entries": [],
+   "import_s": 0.0
+  }
+ ],
+ "missing": [
+  {
+   "class": 6,
+   "subject": "civics",
+   "bank_questions": 705,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "economics",
+   "bank_questions": 30,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "geography",
+   "bank_questions": 643,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "hin",
+   "bank_questions": 2167,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 6,
+   "subject": "history",
+   "bank_questions": 1154,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 7,
+   "subject": "eco",
+   "bank_questions": 239,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 7,
+   "subject": "hin",
+   "bank_questions": 1646,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 8,
+   "subject": "eco",
+   "bank_questions": 682,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 8,
+   "subject": "engl",
+   "bank_questions": 1722,
+   "solver_file": null,
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class8_english_questions.py",
+   "solver_entries": null,
+   "gen_entries": 0,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "gram",
+   "bank_questions": 113,
+   "solver_file": null,
+   "gen_file": "D:\\platform\\deploy\\backend\\solvers\\english\\class8_english_questions.py",
+   "solver_entries": null,
+   "gen_entries": 0,
+   "gen_error": null
+  },
+  {
+   "class": 8,
+   "subject": "hin",
+   "bank_questions": 1709,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 9,
+   "subject": "hin_ga",
+   "bank_questions": 2013,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 10,
+   "subject": "hin_kr",
+   "bank_questions": 479,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 10,
+   "subject": "hin_ks",
+   "bank_questions": 1822,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 10,
+   "subject": "hin_sp",
+   "bank_questions": 2246,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_a",
+   "bank_questions": 2656,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_al",
+   "bank_questions": 329,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_ar",
+   "bank_questions": 3393,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 11,
+   "subject": "hin_v",
+   "bank_questions": 1051,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_a",
+   "bank_questions": 8297,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_al",
+   "bank_questions": 1437,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_ar",
+   "bank_questions": 7205,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  },
+  {
+   "class": 12,
+   "subject": "hin_v",
+   "bank_questions": 1452,
+   "solver_file": null,
+   "gen_file": null,
+   "solver_entries": null,
+   "gen_entries": null
+  }
+ ]
+}

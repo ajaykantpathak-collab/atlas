@@ -201,7 +201,7 @@ def gen_basic_concepts_problem(vg: VarGen, competency: bool = False) -> Generate
                 f"calculate the minimum mass of ore required. Discuss the economic implications "
                 f"of ore grade in the context of the Indian mining sector."
             )
-            variables = {"mass_pure": mass_fe, "percentage": pct}
+            variables = {"mass_component": mass_fe, "mass_total": mass_ore}
             solver_name = "basic_concepts_percentage_composition"
             result = _call_solver(solver_name, variables)
             steps = [asdict(s) for s in result.steps]
@@ -341,7 +341,7 @@ def gen_atomic_structure_problem(vg: VarGen, competency: bool = False) -> Genera
             final = result.final_answer
 
         elif sub_type == 1:
-            p = vg.float(1e-12, 5e-12, 4)
+            p = float(vg.rng.uniform(1e-12, 5e-12))
             h = 6.626e-34
             c = 3e8
             lambda_val = round(h / (p * c), 10)
@@ -402,7 +402,7 @@ def gen_atomic_structure_problem(vg: VarGen, competency: bool = False) -> Genera
             final = result.final_answer
 
         elif sub_type == 1:
-            p_val = vg.float(1e-12, 5e-12, 4)
+            p_val = float(vg.rng.uniform(1e-12, 5e-12))
             question_text = f"Calculate the de Broglie wavelength of a particle with momentum {p_val} kg·m/s. (h = 6.626 × 10⁻³⁴ J·s)"
             variables = {"momentum": p_val}
             solver_name = "atomic_debroglie_wavelength"
@@ -548,8 +548,11 @@ def gen_periodic_table_problem(vg: VarGen, competency: bool = False) -> Generate
 
         elif sub_type == 1:
             ie = vg.float(400, 2000, 1)
-            question_text = f"Explain why the first ionization energy of an element is {ie} kJ/mol. Which group does it likely belong to?"
-            variables = {"IE1": ie}
+            ie2 = round(ie * vg.float(1.8, 3.2, 2), 1)
+            question_text = (f"Explain why the first ionization energy of an element is "
+                             f"{ie} kJ/mol and its second ionization energy is {ie2} kJ/mol. "
+                             f"Which group does it likely belong to?")
+            variables = {"IE1": ie, "IE2": ie2}
             solver_name = "periodic_ionization_energy_group"
             result = _call_solver(solver_name, variables)
             steps = [asdict(s) for s in result.steps]
@@ -662,7 +665,10 @@ def gen_chemical_bonding_problem(vg: VarGen, competency: bool = False) -> Genera
                 f"catalysts for {vg.choice(INDIAN_CONTEXTS['companies'])}. Explain how VSEPR "
                 f"theory predicts this geometry."
             )
-            variables = {"hybridization": hyb, "bond_angle": bond_angle}
+            _hb = {"sp": (2, 0), "sp2": (3, 0), "sp3": (4, 0)}
+            _bp, _lp = _hb.get(hyb, (4, 0))
+            variables = {"bond_pairs": _bp, "lone_pairs": _lp,
+                         "hybridization": hyb, "bond_angle": bond_angle}
             solver_name = "bonding_vsepr_geometry"
             result = _call_solver(solver_name, variables)
             steps = [asdict(s) for s in result.steps]
@@ -708,7 +714,10 @@ def gen_chemical_bonding_problem(vg: VarGen, competency: bool = False) -> Genera
             h = vg.choice(["sp", "sp2", "sp3"])
             ba = vg.float(90, 180, 1)
             question_text = f"What is the expected bond angle for a molecule with {h} hybridization? If observed angle is {ba}°, explain the deviation."
-            variables = {"hybridization": h, "bond_angle": ba}
+            _hb = {"sp": (2, 0), "sp2": (3, 0), "sp3": (4, 0)}
+            _bp, _lp = _hb.get(h, (4, 0))
+            variables = {"bond_pairs": _bp, "lone_pairs": _lp,
+                         "hybridization": h, "bond_angle": ba}
             solver_name = "bonding_vsepr_geometry"
             result = _call_solver(solver_name, variables)
             steps = [asdict(s) for s in result.steps]
@@ -918,7 +927,7 @@ def gen_equilibrium_problem(vg: VarGen, competency: bool = False) -> GeneratedQu
             final = result.final_answer
 
         elif sub_type == 1:
-            Ka = vg.float(1e-5, 1e-3, 6)
+            Ka = float('%.6g' % vg.rng.uniform(1e-5, 1e-3))
             conc = vg.float(0.01, 0.5, 3)
             pH = round(-math.log10(math.sqrt(Ka * conc)), 2)
             question_text = (
@@ -933,7 +942,7 @@ def gen_equilibrium_problem(vg: VarGen, competency: bool = False) -> GeneratedQu
             final = result.final_answer
 
         elif sub_type == 2:
-            Ksp = vg.float(1e-10, 1e-6, 10)
+            Ksp = float('%.6g' % vg.rng.uniform(1e-10, 1e-6))
             conc_ion = vg.float(0.001, 0.1, 4)
             solubility = round(Ksp / conc_ion, 8)
             question_text = (
@@ -978,7 +987,7 @@ def gen_equilibrium_problem(vg: VarGen, competency: bool = False) -> GeneratedQu
             final = result.final_answer
 
         elif sub_type == 1:
-            ka_val = vg.float(1e-5, 1e-3, 6)
+            ka_val = float('%.6g' % vg.rng.uniform(1e-5, 1e-3))
             c_val = vg.float(0.01, 0.5, 3)
             question_text = f"Calculate pH of a {c_val} M weak acid solution with Ka = {ka_val}."
             variables = {"Ka": ka_val, "concentration": c_val}
@@ -988,7 +997,7 @@ def gen_equilibrium_problem(vg: VarGen, competency: bool = False) -> GeneratedQu
             final = result.final_answer
 
         elif sub_type == 2:
-            ksp_val = vg.float(1e-10, 1e-6, 10)
+            ksp_val = float('%.6g' % vg.rng.uniform(1e-10, 1e-6))
             ci_val = vg.float(0.001, 0.1, 4)
             question_text = f"Calculate solubility of a salt with Ksp = {ksp_val} in {ci_val} M common ion solution."
             variables = {"Ksp": ksp_val, "common_ion_concentration": ci_val}
@@ -1040,6 +1049,7 @@ def gen_redox_problem(vg: VarGen, competency: bool = False) -> GeneratedQuestion
         blooms = vg.choice(COMPETENCY_BLOOMS)
         sub_type = vg.int(0, 3)
         name = vg.choice(INDIAN_NAMES)
+        place = vg.choice(INDIAN_PLACES)
 
         if sub_type == 0:
             mass_sample = vg.float(0.5, 5, 2)
@@ -1266,7 +1276,8 @@ def gen_hydrogen_problem(vg: VarGen, competency: bool = False) -> GeneratedQuest
 
         elif sub_type == 2:
             question_text = "Classify LiH, SiH₄, and CrH as ionic, covalent, and metallic hydrides."
-            variables = {}
+            variables = {"hydride_type": vg.choice(
+                ["ionic", "covalent", "metallic", "interstitial"])}
             solver_name = "hydrogen_hydride_classification"
             result = _call_solver(solver_name, variables)
             steps = [asdict(s) for s in result.steps]

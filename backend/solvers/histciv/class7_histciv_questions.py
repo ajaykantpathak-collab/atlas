@@ -41,6 +41,9 @@ class SeededRNG:
     def sample(self, pop, k):
         return self._rng.sample(pop, k)
 
+    def random(self) -> float:
+        return self._rng.random()
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Syllabus Node Definitions

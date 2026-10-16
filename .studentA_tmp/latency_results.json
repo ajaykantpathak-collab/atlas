@@ -1,0 +1,161 @@
+[
+ {
+  "route": "/",
+  "load_s": 9.1,
+  "len": 713,
+  "errors": [],
+  "notable": "Skip to content Lumen Lab Class 1\u201312 262,144 light-points Enter the app \u2192 01 Astronomy 23:55:47 Astronomy Grad"
+ },
+ {
+  "route": "/login",
+  "load_s": 8.6,
+  "len": 570,
+  "errors": [],
+  "notable": "Skip to content Atlas See every subject in a new light. AI-powered learning for CBSE, ICSE & ISC. All subjects"
+ },
+ {
+  "route": "/dashboard",
+  "load_s": 6.6,
+  "len": 456,
+  "errors": [],
+  "notable": "Skip to content Atlas Command Center Live data YOUR LEARNING, IN REAL NUMBERS Good evening, Scholar Every numb"
+ },
+ {
+  "route": "/learn",
+  "load_s": 5.9,
+  "len": 354,
+  "errors": [],
+  "notable": "Skip to content Knowledge Graph EN Explore Your Knowledge Universe 0 topics available. Click any topic to see "
+ },
+ {
+  "route": "/practice",
+  "load_s": 5.4,
+  "len": 203,
+  "errors": [],
+  "notable": "Skip to content Practice Mathematics 0% 0 Days \ud83d\udd25 \ud83d\udca1 Ready to practice? Mathematics 5 questions \u2022 Instant feedba"
+ },
+ {
+  "route": "/diagnostic",
+  "load_s": 6.0,
+  "len": 515,
+  "errors": [],
+  "notable": "Skip to content L Atlas EN \u0939\u093f\u0902 \u0939\u093f \ud83c\udfaf Ready? We'll find out what you know and what you need to learn. \u2705 Availabl"
+ },
+ {
+  "route": "/sims-v2",
+  "load_s": 9.0,
+  "len": 7339,
+  "errors": [],
+  "notable": "Skip to content ADAPTIVE \u00b7 LEARN BY DOING Simulation Gallery 3,306 simulations \u00b7 9,099 official topic nodes \u00b7 "
+ },
+ {
+  "route": "/exam",
+  "load_s": 5.6,
+  "len": 249,
+  "errors": [],
+  "notable": "Skip to content \ud83d\udcdd Board Exam Simulator Real-time simulator for ISC Board Exams EN \u0939\u093f\u0902 \u0939\u093f \u2211 Mathematics \u2605 80 ma"
+ },
+ {
+  "route": "/progress",
+  "load_s": 5.4,
+  "len": 452,
+  "errors": [],
+  "notable": "Skip to content Your Progress Live data THE FULL REPORT Every number, Scholar Mastery, activity and retention "
+ },
+ {
+  "route": "/achievements",
+  "load_s": 5.7,
+  "len": 234,
+  "errors": [],
+  "notable": "Skip to content Achievements Badge wall Sign in to open your badge wall Every badge you can earn \u2014 and every s"
+ },
+ {
+  "route": "/my-world",
+  "load_s": 6.2,
+  "len": 852,
+  "errors": [],
+  "notable": "Skip to content My Galaxy Your syllabus as one living galaxy \u2014 it brightens as you master topics. Back to Game"
+ },
+ {
+  "route": "/explore",
+  "load_s": 5.9,
+  "len": 186,
+  "errors": [],
+  "notable": "Skip to content Dashboard Class 1 2 3 4 5 6 7 8 9 10 11 12 Knowledge Graph 0 nodes \u00b7 0 links All Physics Chemi"
+ },
+ {
+  "route": "/quizzes",
+  "load_s": 6.0,
+  "len": 496,
+  "errors": [],
+  "notable": "Skip to content Quizzes Live data Sign in to open your command center Your mastery, streak and achievements ar"
+ },
+ {
+  "route": "/study-tools",
+  "load_s": 5.3,
+  "len": 633,
+  "errors": [],
+  "notable": "Skip to content Back to Dashboard Class 10 Study Tools Interactive tools to master every topic Flashcards 52 i"
+ },
+ {
+  "route": "/portfolio",
+  "load_s": 5.3,
+  "len": 217,
+  "errors": [],
+  "notable": "Skip to content Mastery Portfolio Live data Sign in to open your command center Your mastery, streak and achie"
+ },
+ {
+  "route": "/homework",
+  "load_s": 5.3,
+  "len": 589,
+  "errors": [],
+  "notable": "Skip to content Homework Stay on track with your assignments EN \u0939\u093f \u0939\u093f/EN Pending3 Completed All3 Mathematics H"
+ },
+ {
+  "route": "/junior",
+  "load_s": 5.4,
+  "len": 109,
+  "errors": [],
+  "notable": "Skip to content \u2b50 0 \ud83c\udf10 Hing Aaj hum kya seekhenge? \ud83d\udc47 Aaj hum kya seekhenge? \ud83d\udd22 Maths \ud83d\udd24 English \ud83d\udd2c Science \ud83c\udf0d GK \ud83d\udd12"
+ },
+ {
+  "route": "/premium",
+  "load_s": 6.1,
+  "len": 3895,
+  "errors": [],
+  "notable": "Skip to content Atlas Features How It Works Level Up Pricing Log In Start Free AI-Powered Learning for Bharat "
+ },
+ {
+  "route": "/games",
+  "load_s": 5.7,
+  "len": 49,
+  "errors": [
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "notable": "Skip to content 404 This page could not be found."
+ },
+ {
+  "route": "/settings",
+  "load_s": 5.4,
+  "len": 311,
+  "errors": [],
+  "notable": "Skip to content Settings Account Notifications Appearance Language & Region Privacy & Security Accessibility A"
+ },
+ {
+  "route": "/profile",
+  "load_s": 5.1,
+  "len": 49,
+  "errors": [
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)",
+   "error:Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "notable": "Skip to content 404 This page could not be found."
+ }
+]

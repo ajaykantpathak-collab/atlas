@@ -1,0 +1,410 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c4)",
+ "source_file": "c4_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C4_001",
+   "title": "RULE 3: FILE MANAGEMENT: Folder = ...",
+   "section": "RULE 3: FILE MANAGEMENT",
+   "formula": "Folder = container_that*holds_files",
+   "_pats_extra": [],
+   "key_idea": "RULE 3: FILE MANAGEMENT (RULE 3: FILE MANAGEMENT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find folder using rule 3: file management",
+    "calculate rule 3: file management",
+    "rule 3: file management formula question",
+    "given values find folder",
+    "rule 3: file management rule 3: file management numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_001",
+     "question_pattern": "rule 3: file management with {container_that} and {holds_files} find folder",
+     "extracted_variables": {
+      "container_that": "given container_that",
+      "holds_files": "given holds_files"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for container_that, holds_files from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Folder = container_that*holds_files",
+     "compute": "Folder = container_that*holds_files"
+    }
+   ],
+   "chapter_title": "RULE 3: FILE MANAGEMENT"
+  },
+  {
+   "id": "FB_CS_C4_002",
+   "title": "RULE 3: FILE MANAGEMENT: Delete = ...",
+   "section": "RULE 3: FILE MANAGEMENT",
+   "formula": "Delete = send_to*Recycle_Bin",
+   "_pats_extra": [],
+   "key_idea": "RULE 3: FILE MANAGEMENT (RULE 3: FILE MANAGEMENT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delete using rule 3: file management",
+    "calculate rule 3: file management",
+    "rule 3: file management formula question",
+    "given values find delete",
+    "rule 3: file management rule 3: file management numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_002",
+     "question_pattern": "rule 3: file management with {send_to} and {Recycle_Bin} find delete",
+     "extracted_variables": {
+      "send_to": "given send_to",
+      "Recycle_Bin": "given Recycle_Bin"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for send_to, Recycle_Bin from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delete = send_to*Recycle_Bin",
+     "compute": "Delete = send_to*Recycle_Bin"
+    }
+   ],
+   "chapter_title": "RULE 3: FILE MANAGEMENT"
+  },
+  {
+   "id": "FB_CS_C4_003",
+   "title": "RULE 3: FILE MANAGEMENT: Recycle Bin = ...",
+   "section": "RULE 3: FILE MANAGEMENT",
+   "formula": "Recycle_Bin = stores_deleted*files_temporarily",
+   "_pats_extra": [],
+   "key_idea": "RULE 3: FILE MANAGEMENT (RULE 3: FILE MANAGEMENT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find recycle bin using rule 3: file management",
+    "calculate rule 3: file management",
+    "rule 3: file management formula question",
+    "given values find recycle bin",
+    "rule 3: file management rule 3: file management numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_003",
+     "question_pattern": "rule 3: file management with {stores_deleted} and {files_temporarily} find recycle bin",
+     "extracted_variables": {
+      "stores_deleted": "given stores_deleted",
+      "files_temporarily": "given files_temporarily"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for stores_deleted, files_temporarily from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Recycle Bin = stores_deleted*files_temporarily",
+     "compute": "Recycle_Bin = stores_deleted*files_temporarily"
+    }
+   ],
+   "chapter_title": "RULE 3: FILE MANAGEMENT"
+  },
+  {
+   "id": "FB_CS_C4_004",
+   "title": "RULE 3: FILE MANAGEMENT: Restore = ...",
+   "section": "RULE 3: FILE MANAGEMENT",
+   "formula": "Restore = bring_back*from_Recycle_Bin",
+   "_pats_extra": [],
+   "key_idea": "RULE 3: FILE MANAGEMENT (RULE 3: FILE MANAGEMENT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find restore using rule 3: file management",
+    "calculate rule 3: file management",
+    "rule 3: file management formula question",
+    "given values find restore",
+    "rule 3: file management rule 3: file management numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_004",
+     "question_pattern": "rule 3: file management with {bring_back} and {from_Recycle_Bin} find restore",
+     "extracted_variables": {
+      "bring_back": "given bring_back",
+      "from_Recycle_Bin": "given from_Recycle_Bin"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for bring_back, from_Recycle_Bin from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Restore = bring_back*from_Recycle_Bin",
+     "compute": "Restore = bring_back*from_Recycle_Bin"
+    }
+   ],
+   "chapter_title": "RULE 3: FILE MANAGEMENT"
+  },
+  {
+   "id": "FB_CS_C4_005",
+   "title": "RULE 4: TEXT FORMATTING: Font size = ...",
+   "section": "RULE 4: TEXT FORMATTING",
+   "formula": "Font_size = how_big*the_letters_are",
+   "_pats_extra": [],
+   "key_idea": "RULE 4: TEXT FORMATTING (RULE 4: TEXT FORMATTING)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find font size using rule 4: text formatting",
+    "calculate rule 4: text formatting",
+    "rule 4: text formatting formula question",
+    "given values find font size",
+    "rule 4: text formatting rule 4: text formatting numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_005",
+     "question_pattern": "rule 4: text formatting with {how_big} and {the_letters_are} find font size",
+     "extracted_variables": {
+      "how_big": "given how_big",
+      "the_letters_are": "given the_letters_are"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for how_big, the_letters_are from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Font size = how_big*the_letters_are",
+     "compute": "Font_size = how_big*the_letters_are"
+    }
+   ],
+   "chapter_title": "RULE 4: TEXT FORMATTING"
+  },
+  {
+   "id": "FB_CS_C4_006",
+   "title": "RULE 5: WEB BROWSER: Search bar = ...",
+   "section": "RULE 5: WEB BROWSER",
+   "formula": "Search_bar = where_we*type_what*we_want*to_find",
+   "_pats_extra": [],
+   "key_idea": "RULE 5: WEB BROWSER (RULE 5: WEB BROWSER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find search bar using rule 5: web browser",
+    "calculate rule 5: web browser",
+    "rule 5: web browser formula question",
+    "given values find search bar",
+    "rule 5: web browser rule 5: web browser numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_006",
+     "question_pattern": "rule 5: web browser with {where_we} and {type_what} and {we_want} and {to_find} find search bar",
+     "extracted_variables": {
+      "where_we": "given where_we",
+      "type_what": "given type_what",
+      "we_want": "given we_want",
+      "to_find": "given to_find"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for where_we, type_what, we_want, to_find from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Search bar = where_we*type_what*we_want*to_find",
+     "compute": "Search_bar = where_we*type_what*we_want*to_find"
+    }
+   ],
+   "chapter_title": "RULE 5: WEB BROWSER"
+  },
+  {
+   "id": "FB_CS_C4_007",
+   "title": "RULE 5: WEB BROWSER: Website = ...",
+   "section": "RULE 5: WEB BROWSER",
+   "formula": "Website = a*page_on*the_internet",
+   "_pats_extra": [],
+   "key_idea": "RULE 5: WEB BROWSER (RULE 5: WEB BROWSER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find website using rule 5: web browser",
+    "calculate rule 5: web browser",
+    "rule 5: web browser formula question",
+    "given values find website",
+    "rule 5: web browser rule 5: web browser numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_007",
+     "question_pattern": "rule 5: web browser with {a} and {page_on} and {the_internet} find website",
+     "extracted_variables": {
+      "a": "given a",
+      "page_on": "given page_on",
+      "the_internet": "given the_internet"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, page_on, the_internet from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Website = a*page_on*the_internet",
+     "compute": "Website = a*page_on*the_internet"
+    }
+   ],
+   "chapter_title": "RULE 5: WEB BROWSER"
+  },
+  {
+   "id": "FB_CS_C4_008",
+   "title": "RULE 7: SCRATCH BASICS: Scratch = ...",
+   "section": "RULE 7: SCRATCH BASICS",
+   "formula": "Scratch = block-based_programming_tool",
+   "_pats_extra": [],
+   "key_idea": "RULE 7: SCRATCH BASICS (RULE 7: SCRATCH BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find scratch using rule 7: scratch basics",
+    "calculate rule 7: scratch basics",
+    "rule 7: scratch basics formula question",
+    "given values find scratch",
+    "rule 7: scratch basics rule 7: scratch basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_008",
+     "question_pattern": "rule 7: scratch basics with {block} and {based_programming_tool} find scratch",
+     "extracted_variables": {
+      "block": "given block",
+      "based_programming_tool": "given based_programming_tool"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for block, based_programming_tool from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Scratch = block-based_programming_tool",
+     "compute": "Scratch = block-based_programming_tool"
+    }
+   ],
+   "chapter_title": "RULE 7: SCRATCH BASICS"
+  },
+  {
+   "id": "FB_CS_C4_009",
+   "title": "RULE 7: SCRATCH BASICS: Blocks = ...",
+   "section": "RULE 7: SCRATCH BASICS",
+   "formula": "Blocks = colorful_commands*we_snap_together",
+   "_pats_extra": [],
+   "key_idea": "RULE 7: SCRATCH BASICS (RULE 7: SCRATCH BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find blocks using rule 7: scratch basics",
+    "calculate rule 7: scratch basics",
+    "rule 7: scratch basics formula question",
+    "given values find blocks",
+    "rule 7: scratch basics rule 7: scratch basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_009",
+     "question_pattern": "rule 7: scratch basics with {colorful_commands} and {we_snap_together} find blocks",
+     "extracted_variables": {
+      "colorful_commands": "given colorful_commands",
+      "we_snap_together": "given we_snap_together"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for colorful_commands, we_snap_together from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Blocks = colorful_commands*we_snap_together",
+     "compute": "Blocks = colorful_commands*we_snap_together"
+    }
+   ],
+   "chapter_title": "RULE 7: SCRATCH BASICS"
+  },
+  {
+   "id": "FB_CS_C4_010",
+   "title": "RULE 10: COMPUTER ETHICS: Cyberbullying = ...",
+   "section": "RULE 10: COMPUTER ETHICS",
+   "formula": "Cyberbullying = being_mean*to_someone_online",
+   "_pats_extra": [],
+   "key_idea": "RULE 10: COMPUTER ETHICS (RULE 10: COMPUTER ETHICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cyberbullying using rule 10: computer ethics",
+    "calculate rule 10: computer ethics",
+    "rule 10: computer ethics formula question",
+    "given values find cyberbullying",
+    "rule 10: computer ethics rule 10: computer ethics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C4_010",
+     "question_pattern": "rule 10: computer ethics with {being_mean} and {to_someone_online} find cyberbullying",
+     "extracted_variables": {
+      "being_mean": "given being_mean",
+      "to_someone_online": "given to_someone_online"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for being_mean, to_someone_online from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Cyberbullying = being_mean*to_someone_online",
+     "compute": "Cyberbullying = being_mean*to_someone_online"
+    }
+   ],
+   "chapter_title": "RULE 10: COMPUTER ETHICS"
+  }
+ ]
+}

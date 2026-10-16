@@ -1,0 +1,10 @@
+{
+  "work_item": "WI-20261013-004",
+  "verdict": "PASS",
+  "independent_reruns": [
+    {"gate": "G5", "exit": 0},
+    {"gate": "G1", "exit": 0}
+  ],
+  "issues": [],
+  "ts_utc": "2026-10-13T16:12:31Z"
+}

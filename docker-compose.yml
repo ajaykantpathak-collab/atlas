@@ -1,3 +1,12 @@
+# ─────────────────────────────────────────────────────────────────────
+# DEV/INFRA-ONLY compose: databases + caches, NO app services.
+# `docker compose up` here gives you postgres/redis/qdrant/etc and
+# NOTHING serving them — that is by design.
+#
+#   Full production stack:  docker compose -f docker-compose.prod.yml
+#                           --env-file .env.production up -d --build
+#   (build sources live under deploy/ — see AGENTS.md)
+# ─────────────────────────────────────────────────────────────────────
 services:
   postgres:
     image: postgres:15-alpine

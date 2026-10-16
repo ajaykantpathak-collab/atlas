@@ -1,0 +1,59 @@
+MISS jemh.1.3 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.4 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.5 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.6 | Fermat's Last Theorem says x^n + y^n = z^n has no posit -> None exp 34
+MISS jemh.1.6 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.8 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+ch101.json 48/54
+ch102.json 48/48
+MISS jemh.3.2.1 | Write the ratio 8 : 48 in its simplest form and give th -> 1.0 exp 2
+ch103.json 41/42
+ch104.json 60/60
+ch105.json 54/54
+MISS jemh.106.3.1 | Write the ratio 4 : 24 in its simplest form and give th -> 1.0 exp 2
+MISS jemh.106.4.4 | Write the ratio 60 : 80 in its simplest form and give t -> 3.0 exp 6
+ch106.json 46/48
+MISS jemh.7.5 | Write the ratio 12 : 48 in its simplest form and give t -> 1.0 exp 2
+MISS jemh.7.9 | A kite has one pair of equal angles. If the angle betwe -> 280.0 exp 240
+ch107.json 52/54
+MISS jemh.8.1 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.8.3 | For the same triangle (legs 12 and 16, hypotenuse 20),  -> 0.6 exp 4/5
+MISS jemh.8.4 | For the same triangle (legs 6 and 8, hypotenuse 10), fi -> 0.6 exp 4/5
+MISS jemh.8.5 | For the same triangle (legs 7 and 24, hypotenuse 25), f -> 0.28 exp 24/25
+MISS jemh.8.7 | Verify sin^2 A + cos^2 A = 1 for the right triangle wit -> 0.6 exp 1
+MISS jemh.8.7 | Using 1 + tan^2 A = sec^2 A with tan A = 12/16, find se -> 1.0 exp 5/4
+MISS jemh.8.7 | Using 1 + cot^2 A = cosec^2 A with cot A = 16/12, find  -> 1.0 exp 5/3
+MISS jemh.8.8 | For the same triangle (legs 12 and 16, hypotenuse 20),  -> 0.6 exp 4/5
+MISS jemh.8.9 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+ch108.json 45/54
+MISS jemh.9.2 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.9.3 | For the same triangle (legs 8 and 15, hypotenuse 17), f -> 0.47058823529411764 exp 15/17
+MISS jemh.9.4 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.9.6 | For the same triangle (legs 12 and 16, hypotenuse 20),  -> 0.6 exp 4/5
+MISS jemh.9.7 | For the same triangle (legs 5 and 12, hypotenuse 13), f -> 0.38461538461538464 exp 12/13
+ch109.json 43/48
+ch110.json 66/66
+ch111.json 48/48
+MISS jemh.12.3 | Find the volume of a sphere of radius 35 cm (pi = 22/7) -> 179666.67 exp 179667
+MISS jemh.12.3 | Find the total surface area of a solid hemisphere of ra -> 5544.0 exp 16632
+MISS jemh.12.3 | Find the volume of a hemispherical bowl of radius 28 cm -> None exp 45994.7
+MISS jemh.12.3 | A tent is a cylinder of radius 28 m and height 8 m, cap -> 19712.0 exp 26282.7
+ch112.json 98/102
+ch113.json 42/42
+ch114.json 48/48
+jemh103.json 24/24
+jemh104.json 24/24
+jemh105.json 18/18
+jemh106.json 24/24
+jemh107.json 18/18
+MISS jemh.108.8.1 | For the same triangle (legs 3 and 4, hypotenuse 5), fin -> 0.6 exp 4/5
+MISS jemh.108.8.3 | Verify sin^2 A + cos^2 A = 1 for the right triangle wit -> 0.5 exp 1
+jemh108.json 16/18
+jemh110.json 18/18
+jemh111.json 18/18
+MISS jemh.112.12.3 | Find the total surface area of a solid hemisphere of ra -> 616.0 exp 1848
+MISS jemh.112.12.3 | Find the volume of a hemispherical bowl of radius 7 cm  -> None exp 718.667
+MISS jemh.112.12.3 | A tent is a cylinder of radius 56 m and height 26 m, ca -> 256256.0 exp 341675
+jemh112.json 15/18
+jemh114.json 18/18
+CLASS10 TOTAL: 932 / 966 in 12 s

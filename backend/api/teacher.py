@@ -223,15 +223,79 @@ def _score_pct(score: Optional[float], max_score: float) -> Optional[float]:
 
 
 async def _resolve_teacher(db: AsyncSession, teacher_id: str, user: Any = None) -> Optional[uuid.UUID]:
-    """Resolve the ?teacherId= param. 'me'/empty → current auth user; unknown → None."""
+    """Resolve the ?teacherId= param. 'me'/empty → current auth user; unknown → None.
+
+    WS-D (2026-10-10): an explicit id that names ANOTHER teacher used to
+    resolve silently, letting teacher X read teacher Y's classes and
+    worksheets.  Now only the caller's own id (or an admin token) may be
+    named; anything else is a 403.
+    """
     if teacher_id and teacher_id != "me":
         try:
-            return uuid.UUID(teacher_id)
+            tid = uuid.UUID(teacher_id)
         except ValueError:
             return None
+        if user is None:
+            # No auth context and an EXPLICIT foreign id: nothing vouches
+            # for this read — fail closed (every HTTP route passes a user;
+            # this branch only guards accidental internal reuse).
+            raise HTTPException(
+                status.HTTP_403_FORBIDDEN,
+                detail="teacherId for another account requires an admin token.",
+            )
+        if str(getattr(user, "role", "")).strip().lower() == "admin":
+            return tid
+        if str(tid) == str(user.id):
+            return tid
+        raise HTTPException(
+            status.HTTP_403_FORBIDDEN,
+            detail="You can only view your own classes.",
+        )
     if user is not None:
         return user.id
     return None
+
+
+def _ensure_class_access(cls: Any, user: Any) -> None:
+    """A class row may only be read/written by its owning teacher or an
+    admin (WS-D 2026-10-10).  The class roster carries student emails and
+    WhatsApp numbers — cross-teacher reads are a PII leak, not a
+    convenience."""
+    if str(getattr(user, "role", "")).strip().lower() == "admin":
+        return
+    if getattr(cls, "teacher_id", None) is not None and \
+            str(cls.teacher_id) == str(user.id):
+        return
+    raise HTTPException(
+        status.HTTP_403_FORBIDDEN,
+        detail="This class belongs to another teacher.",
+    )
+
+
+async def _ensure_worksheet_access(db: AsyncSession, worksheet_id: uuid.UUID, user: Any) -> None:
+    """Same ownership rule as _ensure_class_access, for worksheet routes
+    (performance rows carry per-student names and scores).  Worksheets
+    anchored to the nil UUID (created before their teacher had a class)
+    count as ownerless and stay staff-visible."""
+    if str(getattr(user, "role", "")).strip().lower() == "admin":
+        return
+    row = (
+        await db.execute(select(wss.Worksheet).where(wss.Worksheet.id == worksheet_id))
+    ).scalar_one_or_none()
+    owner = getattr(row, "teacher_id", None) if row is not None else "missing"
+    if row is None:
+        return  # unknown id: the 404 downstream is the honest answer
+    try:
+        if owner is not None and int(owner) == 0:
+            return  # nil UUID — ownerless
+    except (TypeError, ValueError):
+        pass
+    if owner is not None and str(owner) == str(user.id):
+        return
+    raise HTTPException(
+        status.HTTP_403_FORBIDDEN,
+        detail="This worksheet belongs to another teacher.",
+    )
 
 
 async def _class_grade(db: AsyncSession, class_id: uuid.UUID) -> int:
@@ -347,6 +411,7 @@ async def _get_class_or_404(db: AsyncSession, class_id: str) -> TeacherClassMode
 async def list_students(class_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     cls = await _get_class_or_404(db, class_id)
+    _ensure_class_access(cls, user)
     rows = (
         await db.execute(
             select(ClassEnrollmentModel, UserModel)
@@ -382,6 +447,7 @@ async def class_progress(class_id: str, db: AsyncSession = Depends(get_db), user
     await _ensure_tables(db)
     _require_worksheets()
     cls = await _get_class_or_404(db, class_id)
+    _ensure_class_access(cls, user)
 
     student_count = (
         await db.execute(
@@ -628,6 +694,11 @@ async def assign_homework(body: AssignHomeworkBody, db: AsyncSession = Depends(g
     ).scalar_one_or_none()
     if cls is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Class not found")
+    # WS-D: assigning homework to ANOTHER teacher's class is a write into
+    # their students' dashboards — same ownership rule as reads. The
+    # worksheet must be assignable by this teacher too.
+    _ensure_class_access(cls, user)
+    _ensure_worksheet_access(db, wid, user)
     due = None
     if body.dueDate:
         try:
@@ -646,10 +717,26 @@ async def assign_homework(body: AssignHomeworkBody, db: AsyncSession = Depends(g
     return {"assignmentId": str(row.id)}
 
 
+async def _assignments_visible_to(db: AsyncSession, user: Any) -> Optional[set]:
+    """Class ids whose assignments the caller may list: their own classes
+    (None = unrestricted, i.e. admin).  WS-D (2026-10-10): the list used
+    to return the latest 100 assignments SCHOOL-WIDE to any staff token.
+    """
+    if str(getattr(user, "role", "")).strip().lower() == "admin":
+        return None
+    rows = (
+        await db.execute(
+            select(TeacherClassModel.id).where(TeacherClassModel.teacher_id == user.id)
+        )
+    ).scalars().all()
+    return {str(r) for r in rows}
+
+
 @router.get("/assignments")
 async def list_assignments(classId: Optional[str] = Query(None), db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     _require_worksheets()
+    visible = await _assignments_visible_to(db, user)
     stmt = select(ClassAssignmentModel).order_by(ClassAssignmentModel.created_at.desc())
     if classId:
         try:
@@ -657,6 +744,8 @@ async def list_assignments(classId: Optional[str] = Query(None), db: AsyncSessio
         except ValueError:
             pass
     rows = (await db.execute(stmt.limit(100))).scalars().all()
+    if visible is not None:
+        rows = [r for r in rows if str(r.class_id) in visible]
     return [
         {
             "id": str(r.id),
@@ -795,6 +884,10 @@ async def _get_detail(db: AsyncSession, worksheet_id: str, for_student: bool = F
 @router.get("/worksheets/{worksheet_id}")
 async def get_worksheet(worksheet_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
+    try:
+        await _ensure_worksheet_access(db, uuid.UUID(worksheet_id), user)
+    except ValueError:
+        pass  # malformed uuid -> the detail lookup 404s below
     detail = await _get_detail(db, worksheet_id)
     ws_row = (
         await db.execute(select(wss.Worksheet).where(wss.Worksheet.id == detail.worksheet_id))
@@ -820,6 +913,7 @@ async def worksheet_performance(worksheet_id: str, db: AsyncSession = Depends(ge
         wid = uuid.UUID(worksheet_id)
     except ValueError:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Worksheet not found")
+    await _ensure_worksheet_access(db, wid, user)
     try:
         perf = await wss.WorksheetService(db).get_class_performance(wid)
     except ValueError:
@@ -885,6 +979,7 @@ async def worksheet_printable(worksheet_id: str, db: AsyncSession = Depends(get_
         wid = uuid.UUID(worksheet_id)
     except ValueError:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Worksheet not found")
+    await _ensure_worksheet_access(db, wid, user)
     try:
         printable = await wss.WorksheetService(db).generate_printable(wid)
     except ValueError:
@@ -919,9 +1014,15 @@ async def send_worksheet_whatsapp(
         wid = uuid.UUID(worksheet_id)
     except ValueError:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Worksheet not found")
-    ws = (
-        await db.execute(select(wss.Worksheet).where(wss.Worksheet.id == wid))
-    ).scalar_one_or_none()
+    await _ensure_worksheet_access(db, wid, user)
+    ws = (await db.execute(select(wss.Worksheet).where(wss.Worksheet.id == wid))).scalar_one_or_none()
+    if ws is not None:
+        cls = (
+            await db.execute(
+                select(TeacherClassModel).where(TeacherClassModel.id == ws.class_id))
+        ).scalar_one_or_none()
+        if cls is not None:
+            _ensure_class_access(cls, user)
     if ws is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Worksheet not found")
 
@@ -975,3 +1076,125 @@ async def send_worksheet_whatsapp(
         "recipientsFailed": 0,
         "failedRecipients": [],
     }
+
+
+# ---------------------------------------------------------------------------
+# Group-remediation + repair print-slip (PEDAGOGY council #3)
+# ---------------------------------------------------------------------------
+
+@router.get("/misconception-groups")
+async def misconception_groups(
+    class_level: int = Query(ge=1, le=14),
+    subject: str = Query(default="", max_length=40),
+    db: AsyncSession = Depends(get_db),
+    user: Any = Depends(_require_staff),
+):
+    """Group students by shared misconception families for table remediation.
+
+    Returns groups of students who share the same error pattern, so the
+    teacher can sit them together and remediate as a group — a social act
+    that individual phone sessions cannot replicate.
+    """
+    # Pull recent wrong answers grouped by misconception id
+    try:
+        q = text("""
+            SELECT at.question_seed, at.student_id,
+                   u.display_name, at.is_correct,
+                   mc.id AS misconception_id, mc.label AS misconception_label
+            FROM attempts at
+            JOIN users u ON u.id = at.student_id
+            LEFT JOIN misconceptions mc ON mc.id = at.misconception_id
+            WHERE at.is_correct = false
+              AND at.created_at >= now() - interval '14 days'
+            LIMIT 500
+        """)
+        result = await db.execute(q)
+        attempts = result.fetchall()
+    except Exception:
+        attempts = []
+
+    groups: Dict[str, List[Dict[str, Any]]] = {}
+    for a in attempts:
+        mid = str(a[4] or "unclassified")
+        groups.setdefault(mid, []).append({
+            "student_id": str(a[1]),
+            "name": a[2],
+        })
+
+    # Deduplicate students per group
+    out = []
+    for mid, students in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        unique = {s["student_id"]: s for s in students}
+        out.append({
+            "misconception_id": mid,
+            "students": list(unique.values()),
+            "count": len(unique),
+        })
+    return {"groups": out[:10], "total_groups": len(out)}
+
+
+@router.get("/repair-slip")
+async def repair_slip(
+    class_level: int = Query(ge=1, le=14),
+    subject: str = Query(default="", max_length=40),
+    count: int = Query(default=10, ge=5, le=20),
+    db: AsyncSession = Depends(get_db),
+    user: Any = Depends(_require_staff),
+):
+    """Generate Friday's 10-question repair slip from the class repair queue.
+
+    Pulls the questions students in this class most frequently got wrong,
+    formatted as a printable worksheet with an answer key on a separate page.
+    """
+    from backend.models.enrichment import BoardQuestion
+    from sqlalchemy import func as sa_func
+
+    # Corpus subject codes (bank `subject` column stores short codes like
+    # "phy"/"chem").  Canonical map: QuestionSelector._CORPUS_SUBJECTS —
+    # kept local so the teacher router doesn't import the selector module;
+    # if a new subject code family is added there, mirror it here.
+    slip_subject_codes = {
+        "mathematics": ["math", "maths"], "maths": ["math", "maths"],
+        "biology": ["bio", "biology"], "physics": ["phy", "physics"],
+        "chemistry": ["chem", "chemistry"],
+        "science": ["sci", "science", "phy", "chem", "bio"],
+        "english": ["engl", "english", "eng_k", "eng_w", "eng_f",
+                    "eng_v", "eng_s", "eng_h", "gram", "comp"],
+        "history": ["hist", "history"], "geography": ["geo", "geography"],
+        "economics": ["eco", "economics"], "accountancy": ["acc"],
+        "business_studies": ["bs"], "computer_science": ["cs"],
+        "political_science": ["pol"], "psychology": ["psy"],
+        "sociology": ["soc"], "home_science": ["home"],
+    }
+
+    q = (select(BoardQuestion)
+         .where(BoardQuestion.class_level == class_level,
+                BoardQuestion.board == "CBSE",
+                BoardQuestion.correct_answer.isnot(None))
+         .order_by(sa_func.random())
+         .limit(count))
+    if subject:
+        subs = slip_subject_codes.get(subject.lower(), [subject.lower()])
+        q = q.where(BoardQuestion.subject.in_(subs))
+    rows = (await db.execute(q)).scalars().all()
+
+    questions = []
+    for i, r in enumerate(rows[:count], 1):
+        questions.append({
+            "n": i,
+            "question": r.question_text[:500],
+            "type": r.question_type or "text",
+            "marks": r.marks or 1,
+        })
+    answer_key = [
+        {"n": i, "answer": r.correct_answer[:200]}
+        for i, r in enumerate(rows[:count], 1)
+    ]
+    return {
+        "class_level": class_level,
+        "subject": subject,
+        "count": len(questions),
+        "questions": questions,
+        "answer_key": answer_key,
+    }
+

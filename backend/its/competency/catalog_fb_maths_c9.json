@@ -1,0 +1,950 @@
+{
+ "subject": "maths",
+ "chapter_title": "ICSE maths formula bank (c9-c10)",
+ "source_file": "maths_formula_bank_c9_c10.marker",
+ "concepts": [
+  {
+   "id": "FB_MATHS_C9_001",
+   "title": "GEOMETRY -- CIRCLES: Angle at centre = ...",
+   "section": "GEOMETRY -- CIRCLES",
+   "formula": "Angle_at_centre = 2*angle_at_circumference",
+   "_pats_extra": [],
+   "key_idea": "GEOMETRY -- CIRCLES (GEOMETRY -- CIRCLES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find angle at centre using geometry -- circles",
+    "calculate geometry -- circles",
+    "geometry -- circles formula question",
+    "given values find angle at centre",
+    "geometry -- circles geometry -- circles numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_001",
+     "question_pattern": "geometry -- circles with {angle_at_circumference} find angle at centre",
+     "extracted_variables": {
+      "angle_at_circumference": "given angle_at_circumference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for angle_at_circumference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Angle at centre = 2*angle_at_circumference",
+     "compute": "Angle_at_centre = 2*angle_at_circumference"
+    }
+   ],
+   "chapter_title": "GEOMETRY -- CIRCLES"
+  },
+  {
+   "id": "FB_MATHS_C9_002",
+   "title": "Area theorems: Triangle = ...",
+   "section": "GEOMETRY -- CIRCLES",
+   "formula": "Triangle = 1/2*parallelogram_on*same_base, same_parallels",
+   "_pats_extra": [],
+   "key_idea": "Area theorems (GEOMETRY -- CIRCLES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find triangle using area theorems",
+    "calculate area theorems",
+    "area theorems formula question",
+    "given values find triangle",
+    "geometry -- circles area theorems numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_002",
+     "question_pattern": "area theorems with {parallelogram_on} and {same_base} and {same_parallels} find triangle",
+     "extracted_variables": {
+      "parallelogram_on": "given parallelogram_on",
+      "same_base": "given same_base",
+      "same_parallels": "given same_parallels"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for parallelogram_on, same_base, same_parallels from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Triangle = 1/2*parallelogram_on*same_base, same_parallels",
+     "compute": "Triangle = 1/2*parallelogram_on*same_base, same_parallels"
+    }
+   ],
+   "chapter_title": "GEOMETRY -- CIRCLES"
+  },
+  {
+   "id": "FB_MATHS_C9_003",
+   "title": "HERON'S FORMULA: s = ...",
+   "section": "HERON'S FORMULA",
+   "formula": "s = (a+b+c)/2 (semi-perimeter)",
+   "_pats_extra": [],
+   "key_idea": "HERON'S FORMULA (HERON'S FORMULA)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find s using heron's formula",
+    "calculate heron's formula",
+    "heron's formula formula question",
+    "given values find s",
+    "heron's formula heron's formula numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_003",
+     "question_pattern": "heron's formula with {a} and {b} and {c} and {semi} and {perimeter} find s",
+     "extracted_variables": {
+      "a": "given a",
+      "b": "given b",
+      "c": "given c",
+      "semi": "given semi",
+      "perimeter": "given perimeter"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, b, c, semi, perimeter from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "s = (a+b+c)/2 (semi-perimeter)",
+     "compute": "s = (a+b+c)/2 (semi-perimeter)"
+    }
+   ],
+   "chapter_title": "HERON'S FORMULA"
+  },
+  {
+   "id": "FB_MATHS_C9_004",
+   "title": "Circle: Area = ...",
+   "section": "MENSURATION",
+   "formula": "Area = p*i*r^2",
+   "_pats_extra": [],
+   "key_idea": "Circle (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find area using circle",
+    "calculate circle",
+    "circle formula question",
+    "given values find area",
+    "mensuration circle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_004",
+     "question_pattern": "circle with {p} and {i} and {r} find area",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Area = p*i*r^2",
+     "compute": "Area = p*i*r^2"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_005",
+   "title": "Circle: Sector area = ...",
+   "section": "MENSURATION",
+   "formula": "Sector_area = (theta/360)*p*i*r^2",
+   "_pats_extra": [],
+   "key_idea": "Circle (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sector area using circle",
+    "calculate circle",
+    "circle formula question",
+    "given values find sector area",
+    "mensuration circle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_005",
+     "question_pattern": "circle with {p} and {i} and {r} find sector area",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Sector area = (theta/360)*p*i*r^2",
+     "compute": "Sector_area = (theta/360)*p*i*r^2"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_006",
+   "title": "Circle: Arc length = ...",
+   "section": "MENSURATION",
+   "formula": "Arc_length = (theta/360)*2*p*i*r",
+   "_pats_extra": [],
+   "key_idea": "Circle (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find arc length using circle",
+    "calculate circle",
+    "circle formula question",
+    "given values find arc length",
+    "mensuration circle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_006",
+     "question_pattern": "circle with {p} and {i} and {r} find arc length",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Arc length = (theta/360)*2*p*i*r",
+     "compute": "Arc_length = (theta/360)*2*p*i*r"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_007",
+   "title": "Cylinder: CSA = ...",
+   "section": "MENSURATION",
+   "formula": "CSA = 2*pi*r*h",
+   "_pats_extra": [],
+   "key_idea": "Cylinder (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find csa using cylinder",
+    "calculate cylinder",
+    "cylinder formula question",
+    "given values find csa",
+    "mensuration cylinder numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_007",
+     "question_pattern": "cylinder with {r} and {h} find csa",
+     "extracted_variables": {
+      "r": "given r",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for r, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CSA = 2*pi*r*h",
+     "compute": "CSA = 2*pi*r*h"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_008",
+   "title": "Cylinder: Volume = ...",
+   "section": "MENSURATION",
+   "formula": "Volume = p*i*r^2*h",
+   "_pats_extra": [],
+   "key_idea": "Cylinder (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find volume using cylinder",
+    "calculate cylinder",
+    "cylinder formula question",
+    "given values find volume",
+    "mensuration cylinder numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_008",
+     "question_pattern": "cylinder with {p} and {i} and {r} and {h} find volume",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Volume = p*i*r^2*h",
+     "compute": "Volume = p*i*r^2*h"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_009",
+   "title": "Cone: CSA = ...",
+   "section": "MENSURATION",
+   "formula": "CSA = pi*r*l",
+   "_pats_extra": [],
+   "key_idea": "Cone (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find csa using cone",
+    "calculate cone",
+    "cone formula question",
+    "given values find csa",
+    "mensuration cone numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_009",
+     "question_pattern": "cone with {r} and {l} find csa",
+     "extracted_variables": {
+      "r": "given r",
+      "l": "given l"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for r, l from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CSA = pi*r*l",
+     "compute": "CSA = pi*r*l"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_010",
+   "title": "Cone: Volume = ...",
+   "section": "MENSURATION",
+   "formula": "Volume = 1/3*p*i*r^2*h",
+   "_pats_extra": [],
+   "key_idea": "Cone (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find volume using cone",
+    "calculate cone",
+    "cone formula question",
+    "given values find volume",
+    "mensuration cone numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_010",
+     "question_pattern": "cone with {p} and {i} and {r} and {h} find volume",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Volume = 1/3*p*i*r^2*h",
+     "compute": "Volume = 1/3*p*i*r^2*h"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_011",
+   "title": "Sphere: Surface area = ...",
+   "section": "MENSURATION",
+   "formula": "Surface_area = 4*p*i*r^2",
+   "_pats_extra": [],
+   "key_idea": "Sphere (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find surface area using sphere",
+    "calculate sphere",
+    "sphere formula question",
+    "given values find surface area",
+    "mensuration sphere numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_011",
+     "question_pattern": "sphere with {p} and {i} and {r} find surface area",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Surface area = 4*p*i*r^2",
+     "compute": "Surface_area = 4*p*i*r^2"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_012",
+   "title": "Cube and Cuboid: Cuboid SA = ...",
+   "section": "MENSURATION",
+   "formula": "Cuboid_SA = 2(l*b+b*h+l*h)",
+   "_pats_extra": [],
+   "key_idea": "Cube and Cuboid (MENSURATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cuboid sa using cube and cuboid",
+    "calculate cube and cuboid",
+    "cube and cuboid formula question",
+    "given values find cuboid sa",
+    "mensuration cube and cuboid numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_012",
+     "question_pattern": "cube and cuboid with {l} and {b} and {b} and {h} and {l} and {h} find cuboid sa",
+     "extracted_variables": {
+      "l": "given l",
+      "b": "given b",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for l, b, b, h, l from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Cuboid SA = 2(l*b+b*h+l*h)",
+     "compute": "Cuboid_SA = 2(l*b+b*h+l*h)"
+    }
+   ],
+   "chapter_title": "MENSURATION"
+  },
+  {
+   "id": "FB_MATHS_C9_013",
+   "title": "Heights and distances: tantheta = ...",
+   "section": "TRIGONOMETRY",
+   "formula": "tantheta = height/distance",
+   "_pats_extra": [],
+   "key_idea": "Heights and distances (TRIGONOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find tantheta using heights and distances",
+    "calculate heights and distances",
+    "heights and distances formula question",
+    "given values find tantheta",
+    "trigonometry heights and distances numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_013",
+     "question_pattern": "heights and distances with {height} and {distance} find tantheta",
+     "extracted_variables": {
+      "height": "given height",
+      "distance": "given distance"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for height, distance from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "tantheta = height/distance",
+     "compute": "tantheta = height/distance"
+    }
+   ],
+   "chapter_title": "TRIGONOMETRY"
+  },
+  {
+   "id": "FB_MATHS_C9_014",
+   "title": "GST (C10): GST = ...",
+   "section": "GST (C10)",
+   "formula": "GST = (Rate/100)*Price",
+   "_pats_extra": [],
+   "key_idea": "GST (C10) (GST (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find gst using gst (c10)",
+    "calculate gst (c10)",
+    "gst (c10) formula question",
+    "given values find gst",
+    "gst (c10) gst (c10) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_014",
+     "question_pattern": "gst (c10) with {Rate} and {Price} find gst",
+     "extracted_variables": {
+      "Rate": "given Rate",
+      "Price": "given Price"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Rate, Price from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "GST = (Rate/100)*Price",
+     "compute": "GST = (Rate/100)*Price"
+    }
+   ],
+   "chapter_title": "GST (C10)"
+  },
+  {
+   "id": "FB_MATHS_C9_015",
+   "title": "BANKING -- RECURRING DEPOSIT (C10): Maturity Value = ...",
+   "section": "BANKING -- RECURRING DEPOSIT (C10)",
+   "formula": "Maturity_Value = P*n + Interest",
+   "_pats_extra": [],
+   "key_idea": "BANKING -- RECURRING DEPOSIT (C10) (BANKING -- RECURRING DEPOSIT (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find maturity value using banking -- recurring deposit (c10)",
+    "calculate banking -- recurring deposit (c10)",
+    "banking -- recurring deposit (c10) formula question",
+    "given values find maturity value",
+    "banking -- recurring deposit (c10) banking -- recurring deposit (c10) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_015",
+     "question_pattern": "banking -- recurring deposit (c10) with {P} and {n} and {Interest} find maturity value",
+     "extracted_variables": {
+      "P": "given P",
+      "n": "given n",
+      "Interest": "given Interest"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, n, Interest from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Maturity Value = P*n + Interest",
+     "compute": "Maturity_Value = P*n + Interest"
+    }
+   ],
+   "chapter_title": "BANKING -- RECURRING DEPOSIT (C10)"
+  },
+  {
+   "id": "FB_MATHS_C9_016",
+   "title": "SHARES (C10): Number of shares = ...",
+   "section": "SHARES (C10)",
+   "formula": "Number_of_shares = Investment / Market_Value",
+   "_pats_extra": [],
+   "key_idea": "SHARES (C10) (SHARES (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find number of shares using shares (c10)",
+    "calculate shares (c10)",
+    "shares (c10) formula question",
+    "given values find number of shares",
+    "shares (c10) shares (c10) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_016",
+     "question_pattern": "shares (c10) with {Investment} and {Market_Value} find number of shares",
+     "extracted_variables": {
+      "Investment": "given Investment",
+      "Market_Value": "given Market_Value"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Investment, Market_Value from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Number of shares = Investment / Market_Value",
+     "compute": "Number_of_shares = Investment / Market_Value"
+    }
+   ],
+   "chapter_title": "SHARES (C10)"
+  },
+  {
+   "id": "FB_MATHS_C9_017",
+   "title": "Geometric Progression (GP): T_n = ...",
+   "section": "SEQUENCES (C10)",
+   "formula": "T_n = a*r^(n-1)",
+   "_pats_extra": [],
+   "key_idea": "Geometric Progression (GP) (SEQUENCES (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find t_n using geometric progression (gp)",
+    "calculate geometric progression (gp)",
+    "geometric progression (gp) formula question",
+    "given values find t_n",
+    "sequences (c10) geometric progression (gp) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_017",
+     "question_pattern": "geometric progression (gp) with {a} and {r} and {n} find t_n",
+     "extracted_variables": {
+      "a": "given a",
+      "r": "given r",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, r, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "T_n = a*r^(n-1)",
+     "compute": "T_n = a*r^(n-1)"
+    }
+   ],
+   "chapter_title": "SEQUENCES (C10)"
+  },
+  {
+   "id": "FB_MATHS_C9_018",
+   "title": "TRIANGLE CENTRES (C9-C10): I = ...",
+   "section": "TRIANGLE CENTRES (C9-C10)",
+   "formula": "I = (axx_1 + bxx_2 + cxx_3)/(a+b+c), (axy_1 + bxy_2 + cxy_3)/(a+b+c)",
+   "_pats_extra": [],
+   "key_idea": "TRIANGLE CENTRES (C9-C10) (TRIANGLE CENTRES (C9-C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find i using triangle centres (c9-c10)",
+    "calculate triangle centres (c9-c10)",
+    "triangle centres (c9-c10) formula question",
+    "given values find i",
+    "triangle centres (c9-c10) triangle centres (c9-c10) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_018",
+     "question_pattern": "triangle centres (c9-c10) with {axx_1} and {bxx_2} and {cxx_3} and {a} and {b} and {c} find i",
+     "extracted_variables": {
+      "axx_1": "given axx_1",
+      "bxx_2": "given bxx_2",
+      "cxx_3": "given cxx_3",
+      "a": "given a",
+      "b": "given b",
+      "c": "given c"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for axx_1, bxx_2, cxx_3, a, b from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "I = (axx_1 + bxx_2 + cxx_3)/(a+b+c), (axy_1 + bxy_2 + cxy_3)/(a+b+c)",
+     "compute": "I = (axx_1 + bxx_2 + cxx_3)/(a+b+c), (axy_1 + bxy_2 + cxy_3)/(a+b+c)"
+    }
+   ],
+   "chapter_title": "TRIANGLE CENTRES (C9-C10)"
+  },
+  {
+   "id": "FB_MATHS_C9_019",
+   "title": "DATA REPRESENTATION (C9-C10): Frequency density = ...",
+   "section": "DATA REPRESENTATION (C9-C10)",
+   "formula": "Frequency_density = frequency / class_width",
+   "_pats_extra": [],
+   "key_idea": "DATA REPRESENTATION (C9-C10) (DATA REPRESENTATION (C9-C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find frequency density using data representation (c9-c10)",
+    "calculate data representation (c9-c10)",
+    "data representation (c9-c10) formula question",
+    "given values find frequency density",
+    "data representation (c9-c10) data representation (c9-c10) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_019",
+     "question_pattern": "data representation (c9-c10) with {frequency} and {class_width} find frequency density",
+     "extracted_variables": {
+      "frequency": "given frequency",
+      "class_width": "given class_width"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for frequency, class_width from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Frequency density = frequency / class_width",
+     "compute": "Frequency_density = frequency / class_width"
+    }
+   ],
+   "chapter_title": "DATA REPRESENTATION (C9-C10)"
+  },
+  {
+   "id": "FB_MATHS_C9_020",
+   "title": "Median (grouped): Median = ...",
+   "section": "STATISTICS",
+   "formula": "Median = l + ((n/2 - c*f)/f)*h",
+   "_pats_extra": [],
+   "key_idea": "Median (grouped) (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find median using median (grouped)",
+    "calculate median (grouped)",
+    "median (grouped) formula question",
+    "given values find median",
+    "statistics median (grouped) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_020",
+     "question_pattern": "median (grouped) with {l} and {n} and {c} and {f} and {f} and {h} find median",
+     "extracted_variables": {
+      "l": "given l",
+      "n": "given n",
+      "c": "given c",
+      "f": "given f",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for l, n, c, f, f from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Median = l + ((n/2 - c*f)/f)*h",
+     "compute": "Median = l + ((n/2 - c*f)/f)*h"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FB_MATHS_C9_021",
+   "title": "Mode (grouped): Mode = ...",
+   "section": "STATISTICS",
+   "formula": "Mode = l + ((f_1-f_0)/(2*f_1-f_0-f_2))*h",
+   "_pats_extra": [],
+   "key_idea": "Mode (grouped) (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mode using mode (grouped)",
+    "calculate mode (grouped)",
+    "mode (grouped) formula question",
+    "given values find mode",
+    "statistics mode (grouped) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_021",
+     "question_pattern": "mode (grouped) with {l} and {f_1} and {f_0} and {f_1} and {f_0} and {f_2} find mode",
+     "extracted_variables": {
+      "l": "given l",
+      "f_1": "given f_1",
+      "f_0": "given f_0",
+      "f_2": "given f_2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for l, f_1, f_0, f_1, f_0 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mode = l + ((f_1-f_0)/(2*f_1-f_0-f_2))*h",
+     "compute": "Mode = l + ((f_1-f_0)/(2*f_1-f_0-f_2))*h"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FB_MATHS_C9_022",
+   "title": "Quartiles: IQR = ...",
+   "section": "STATISTICS",
+   "formula": "IQR = Q3 - Q1",
+   "_pats_extra": [],
+   "key_idea": "Quartiles (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find iqr using quartiles",
+    "calculate quartiles",
+    "quartiles formula question",
+    "given values find iqr",
+    "statistics quartiles numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C9_022",
+     "question_pattern": "quartiles with {Q3} and {Q1} find iqr",
+     "extracted_variables": {
+      "Q3": "given Q3",
+      "Q1": "given Q1"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Q3, Q1 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "IQR = Q3 - Q1",
+     "compute": "IQR = Q3 - Q1"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FBD_MATHS_C9_001",
+   "title": "Angle in semicircle: Angle in semicircle = ...",
+   "section": "decision tree",
+   "formula": "Angle_in_semicircle = 90*degrees",
+   "key_idea": "Angle in semicircle (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find angle in semicircle using angle in semicircle",
+    "calculate angle in semicircle",
+    "angle in semicircle formula question",
+    "given values find angle in semicircle",
+    "amount or interest compounded annually",
+    "half-yearly or quarterly compounding",
+    "difference between CI and SI"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_MATHS_C9_001",
+     "question_pattern": "angle in semicircle with {degrees} find angle in semicircle",
+     "extracted_variables": {
+      "degrees": "given degrees"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for degrees from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Angle in semicircle = 90*degrees",
+     "compute": "Angle_in_semicircle = 90*degrees"
+    }
+   ],
+   "chapter_title": "maths c9 decision formulas"
+  }
+ ]
+}

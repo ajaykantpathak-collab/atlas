@@ -1,0 +1,20 @@
+ch104.json 60/60
+lemh101.json 72/72
+MISS lemh.102.3.3 | State the principal value (in degrees) of the tan inver -> None exp 60
+lemh102.json 59/60
+lemh103.json 78/78
+lemh104.json 84/84
+lemh105.json 84/84
+lemh106.json 60/60
+lemh201.json 72/72
+lemh202.json 48/48
+MISS lemh.203.9.3.3 | Continuity check: f(x) = x for x < 2 and f(x) = 2x - 2  -> None exp 0
+MISS lemh.203.9.3.3 | Discontinuity size: f(x) = x + 1 for x < 1 and f(x) = 3 -> None exp 1
+lemh203.json 52/54
+MISS lemh.204.10.2.2 | Find the magnitude of the vector -3i + -5j + 6k (two de -> None exp 8.37
+MISS lemh.204.10.6.2.1 | Find the magnitude of the vector 5i + 0j + 5k (two deci -> None exp 7.07
+lemh204.json 76/78
+lemh205.json 54/54
+lemh206.json 48/48
+lemh207.json 54/54
+CLASS12 TOTAL: 901 / 906 in 16 s

@@ -543,6 +543,21 @@ def convert(value: float, from_unit: str, to_unit: str,
             prefer_dim: Optional[str] = None) -> Optional[float]:
     """Convert value between two units (surface words or canonical
     names); None when either is unknown or dimensions disagree."""
+    try:
+        from its.solver import pint_physics_engine
+        u_f = from_unit.split("_", 1)[1] if from_unit.startswith((
+            "length_", "speed_", "area_", "volume_", "time_", "mass_",
+            "energy_", "temperature_", "pressure_", "density_", "power_",
+            "current_", "charge_")) else from_unit
+        u_t = to_unit.split("_", 1)[1] if to_unit.startswith((
+            "length_", "speed_", "area_", "volume_", "time_", "mass_",
+            "energy_", "temperature_", "pressure_", "density_", "power_",
+            "current_", "charge_")) else to_unit
+        p_val = pint_physics_engine.convert_units(value, u_f, u_t)
+        if p_val is not None:
+            return p_val
+    except Exception:
+        pass
     rf = _resolve_full(from_unit, prefer_dim)
     rt = _resolve_full(to_unit)
     if rf is None or rt is None:

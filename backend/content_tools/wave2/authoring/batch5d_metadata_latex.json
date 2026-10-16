@@ -1,0 +1,148 @@
+{
+ "edits": [
+  {
+   "file": "c9_math_ch1_2.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch1_3: quadrants and signs of coordinates require ability to plot points and observe sign patterns\nc9_math_ch1_4: distance formula derivation uses plotted points as endpoints of segments\nc9_math_ch1_5: distance on lines parallel to axes uses coordinates of plotted points\nc9_math_ch1_6: word problems on distance formula require plotting points from given coordinates first\nc10_math_cbse_02_001: Ability to plot points accurately is needed to sketch polynomial graphs and identify intercepts.\nc10_math_cbse_02_002: Teaches plotting points, necessary to plot the x-intercept and draw the graph.\nc10_math_cbse_02_003: Plotting points to sketch the parabola.\nc10_math_cbse_02_004: Plotting points on Cartesian plane — needed to accurately sketch cubic graphs using calculated points.\nc10_math_cbse_03_001: Plotting points (x,y) is required to mark intercepts and draw lines.\nc10_math_cbse_07_001: Ability to plot points and read coordinates is needed to identify x₁, y₁, x₂, y₂.\nc10_math_cbse_07_005: Plotting Points on the Cartesian Plane — needed to visualize the midpoint geometrically and verify answers.\nc10_math_cbse_07_010: Ability to plot points helps visualize the division of a segment.\nc10_math_cbse_13_006: Plotting points (x, y) is the core skill for marking cumulative frequency points.\nc10_math_cbse_13_007: Plotting points on Cartesian plane is essential for drawing ogives accurately.\nc9_math_ch1_10: Plotting points helps visualize collinearity before calculation.\nc9_math_ch1_11: Need to plot points and understand coordinate representation before using them in a formula.\nc9_math_ch1_7: Ability to plot points helps visualize the segment and the dividing point.\nc9_math_ch1_8: Plotting points is needed to visualize the midpoint on the Cartesian plane."
+   }
+  },
+  {
+   "file": "c9_math_ch2_1.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch2_3 | Both use the concept of a constant rate of change: in physics, speed = distance/time gives distance = speed × time + initial distance, which is a linear polynomial in time.\nc9_eco_ch1_2 | In economics, total cost = variable cost per unit × quantity + fixed cost, which is exactly the linear polynomial ax + b with a = marginal cost, b = fixed cost."
+   }
+  },
+  {
+   "file": "c9_math_ch2_2.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch2_1 | velocity-time relation v = u + at is linear in t; leading coefficient a = acceleration, constant u = initial velocity\nc9_eco_ch1_2 | total cost function C = mx + b is linear in quantity x; leading coefficient m = marginal cost per unit, constant b = fixed cost\nc9_chem_ch1_3 | concentration dilution C_1V₁ = C_2V₂ rearranges to linear form; coefficient relates initial and final concentrations"
+   }
+  },
+  {
+   "file": "c9_math_ch2_6.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch2_7: Visualising linear relationships requires using slope and intercept to plot quickly and accurately.\nc9_math_ch2_8: Substitution method often requires one equation in slope-intercept form (y = ...) to substitute into the other.\nc9_math_ch2_9: Determining consistency (parallel, coincident, intersecting) relies on comparing slopes and intercepts from slope-intercept form.\nc9_math_ch2_10: Word problems are modeled by writing equations in slope-intercept form to represent initial value and rate of change.\nc10_math_cbse_02_002: Introduces slope-intercept form, helping interpret a as slope and b as y-intercept.\nc10_math_cbse_02_003: Slope-intercept form for lines; quadratics have vertex form a(x-h)²+k.\nc10_math_cbse_03_001: Slope-intercept form (y = mx + c) helps in quickly finding y-intercept and slope for accurate graphing.\nc10_math_cbse_03_003: Slope-intercept form y = mx + c is essential to understand that equal m (slope) means parallel lines."
+   }
+  },
+  {
+   "file": "c9_math_ch2_7.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch2_5: Requires ability to plot points and understand that a linear equation's graph is a straight line.\nc9_math_ch2_6: Requires understanding slope-intercept form y = mx + c to directly read slope and y-intercept.\nc9_math_ch2_4: Requires recognising linear growth/decay in context to assign meaning to slope and intercept.\nc6_math_ch07_070: Requires understanding points, lines, and the Cartesian plane as geometric objects.\nc6_math_ch07_071: Requires knowing parallel/intersecting/perpendicular line properties for comparing graphs.\nc6_math_ch05_052: Requires fluency with variables and constants to manipulate equations.\nc7_math_ch04_009: Requires substituting values into expressions to find points on the line.\nc7_math_ch15_003: Requires solving linear equations to find intercepts algebraically.\nc9_math_ch2_2: A linear polynomial in one variable is an expression of the form ax + b where a and - earlier chapter node that this node's author flags as feeding into this content."
+   }
+  },
+  {
+   "file": "c9_math_ch3_10.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch1_1 | Physical quantities (distance, time, mass) are real numbers; operations on them (e.g., speed = distance/time) must yield real numbers for meaningful results.\nc9_eco_ch1_1 | Economic data (prices, quantities, GDP) are real numbers; calculating total revenue (price × quantity) relies on closure of ℝ under multiplication."
+   }
+  },
+  {
+   "file": "c9_math_ch3_5.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch1_1 | Physical constants like π (circumference/diameter) and √2 (diagonal of square) are irrational; measurement in physics always involves approximation of these values.\nc9_chem_ch1_1 | Avogadro's number and molar masses involve irrational numbers in precise definitions; stoichiometry calculations approximate them."
+   }
+  },
+  {
+   "file": "c9_math_ch3_6.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch3_7: Decimal expansions of rational numbers (terminating) rely on the fact that rationals are a subset of reals with specific decimal patterns.\nc9_math_ch3_8: Non-terminating recurring decimals are rational; this classification requires knowing they belong to ℚ ⊂ ℝ.\nc9_math_ch3_9: Non-terminating non-recurring decimals define irrational numbers; this node establishes they are the complement in ℝ.\nc9_math_ch3_10: Operations on real numbers (closure) require the set ℝ to be defined as the universal set for these operations.\nc9_math_ch3_11: Representing √x on the number line uses the geometric fact that every real number corresponds to a point, which is the essence of the real number line.\nc10_math_cbse_04_007: The concept of real numbers as union of rational and irrational clarifies why D < 0 means \"no real roots\" (roots are not in ℝ)."
+   }
+  },
+  {
+   "file": "c9_math_ch4_1.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch2_1 | Kinematic equation v² = u² + 2as uses the square of a binomial structure when deriving from v = u + at and s = ut + 1/2at².\nc9_eco_ch1_2 | Calculating compound interest for 2 years: A = P(1+r/100)² expands using (a+b)² where a=1, b=r/100."
+   }
+  },
+  {
+   "file": "c9_math_ch4_2.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch4_5: Factorisation by common factor method uses a² - b² as one of the factorisation tools.\nc9_math_ch4_7: Factorisation using algebraic identities includes a² - b² as a key identity.\nc9_math_ch4_10: Simplifying rational expressions often requires factorising using a² - b².\nc10_math_cbse_04_001: Identity a²-b² = (a+b)(a-b) — factorization foundation\nc10_math_cbse_04_012: Difference-of-squares identity (a+b)(a-b) = a²-b² is needed to simplify and solve formed equations like x²-25 = 0.\nc10_math_cbse_08_011: Identity a²-b²=(a+b)(a-b) — used in conjugate rationalisation of trig expressions.\nc9_math_ch4_4: Provides the algebraic identity a²-b² = (a+b)(a-b) that is visualised as rectangle rearrangement.\nc9_math_ch4_9: Identity a²-b² is modelled as a rectangle with a missing square (difference of squares)."
+   }
+  },
+  {
+   "file": "c9_math_ch4_5.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch2_3 | In physics, factorising v² - u² = (v-u)(v+u) uses common factor method as a step when deriving equations of motion from v = u+at and s = ut + 1/2at².\nc9_eco_ch1_2 | In economics, factorising cost function C(x) = 5x² + 20x as 5x(x+4) helps identify variable and fixed cost components for break-even analysis."
+   }
+  },
+  {
+   "file": "c9_math_ch4_7.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch4_8: Factorisation of quadratics by splitting middle term often requires first recognising perfect square patterns or difference of squares as special cases.\nc9_math_ch4_9: Algebra tiles provide physical/digital manipulatives to visualise the identity-based factorisations learned here.\nc9_math_ch4_10: Simplification of rational expressions requires factorising numerators and denominators using these identities to cancel common factors.\nc10_math_cbse_02_005: Factorisation using identities like (x+a)(x+b) = x²+(a+b)x+ab is the algebraic basis for the sum-product relationship.\nc10_math_cbse_02_006: Factorisation using algebraic identities (like (a+b)² ) helps in recognising patterns during expansion.\nc10_math_cbse_02_007: Factorisation using identities (especially a²-b² ) helps recognise patterns in quotient and remainder.\nc10_math_cbse_04_001: Factorization using identities — connects to solving later\nc10_math_cbse_04_004: Factorisation using identities (like splitting the middle term) reinforces the pattern recognition needed to see the perfect square structure.\nc10_math_cbse_08_011: Factorisation using identities — teaches pattern recognition transferable to trig identities."
+   }
+  },
+  {
+   "file": "c9_math_ch4_8.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch2_1 | Quadratic equations arise in kinematics (e.g., s = ut + 1/2at²); factorisation solves for time when displacement is known.\nc9_eco_ch1_3 | Quadratic cost functions C(x) = ax² + bx + c are factorised to find roots representing break-even quantities."
+   }
+  },
+  {
+   "file": "c9_math_ch6_8.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch6_9: Area of a sector is a fraction of the circle's area — requires this formula.\nc9_math_ch6_10: Area of a segment is derived from sector area minus triangle area.\nc9_math_ch6_11: Composite figures involving circles require combining circle area with rectangle/triangle areas.\nc10_math_cbse_11_001: Class 9 coverage of area of a circle formula and derivation; this node builds on that foundation with board-exam level rigour.\nc10_math_cbse_11_003: Class 9 derivation of circle area using rearrangement; reinforces why area is π r².\nc10_math_cbse_11_004: Area of circle formula (πr²) is the foundation — sector area is a fraction of this.\nc10_math_cbse_11_008: Covers the area of a circle (A = pi * r²); the base formula for the circular component in composite area problems.\nc10_math_cbse_12_001: Area of circle (πr²) — needed for the flat circular faces where cylinders, cones, hemispheres join.\nc10_math_cbse_12_002: Covers area of a circle (πr²) and derivation of sphere surface area (4πr²), leading to hemisphere curved surface area (2πr²).\nc10_math_cbse_12_003: Provides the circle area formula πr² which is the base area for cylinder and cone volume formulas.\nc10_math_cbse_12_004: Covers area of circle (πr²) which is the base area for both cylinder and cone volumes.\nc10_math_cbse_12_005: Derives area of circle (πr²), which is the base area for cylinder and cone volumes.\nc10_math_cbse_12_007: Covers area of a circle (π r²), needed for the circular ends in TSA.\nc10_math_cbse_12_008: Area of a circle (πr²) is the basis for the R² and r² terms in the volume formula.\nc10_math_cbse_12_010: Area of circle (base areas) — needed for flat faces."
+   }
+  },
+  {
+   "file": "c9_math_ch8_1.md",
+   "sections": {
+    "CROSS_SUBJECT": "c7_math_ch06_005 | The Virahanka-Fibonacci sequence (1, 1, 2, 3, 5, 8, ...) is a classic biological sequence appearing in plant phyllotaxis; understanding sequences allows modeling such natural patterns.\nc8_math_ch11_2 | Sierpinski Carpet uses a geometric sequence of remaining squares at each iteration; the number of squares follows a sequence rule aₙ = 8ⁿ, connecting sequences to fractal geometry and computer graphics."
+   }
+  },
+  {
+   "file": "c9_math_ch8_5.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_physics_ch2_1 | Uniform motion: distance covered in nth second follows AP with a = u - a/2 , d = a (acceleration). The nth term formula gives displacement in nth second.\nc9_eco_ch1_3 | Simple interest: interest earned each year is constant (AP with d = (P × R)/100 ). The nth term gives interest in nth year."
+   }
+  },
+  {
+   "file": "c9_math_ch8_6.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_math_ch8_7: Word problems on AP require the sum formula to solve real-life applications.\nc9_math_ch8_10: Fractals as recursive geometric sequences use sum of series concepts, extending AP sum ideas to geometric contexts.\nc10_math_cbse_05_005: Class 9 sum formula, needed when sum is given instead of nth term.\nc10_math_cbse_05_007: Class 9 sum of first n terms — prior exposure to the formula.\nc10_math_cbse_05_010: Class 9 foundation for sum of first n terms of AP formula.\nc10_math_cbse_05_011: Class 9 sum formula — prior exposure to sum formula structure.\nc10_math_cbse_05_012: Class 9 foundation of AP sum formula — students must recall this before applying to financial contexts."
+   }
+  },
+  {
+   "file": "c9_math_ch8_8.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_eco_ch2_1 | The concept of compounding returns in economics (compound interest, GDP growth) is a direct application of geometric progression with r = 1 + growth rate ."
+   }
+  },
+  {
+   "file": "c9_math_ch8_9.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch8_8: Provides definition of GP and method to find common ratio r, which is essential before applying nth term formula\nc9_math_ch8_1: Establishes what a sequence is and notation for terms (a₁, a₂, ..., aₙ)\nc9_math_ch8_2: Introduces explicit rules for sequences, preparing students for formula-based term finding\nc8_math_ch2_3: Exponential notation (base and exponent) is the foundation for writing r^(n-1)\nc8_math_ch2_7: Law aᵐ * aⁿ = a^(m+n) needed when manipulating GP terms algebraically\nc8_math_ch2_8: Law aᵐ / aⁿ = a^(m-n) used when finding r from two given terms (dividing equations)\nc8_math_ch2_9: Law (aᵐ)ⁿ = a^(mn) used in advanced problems like finding term when given aₖ and aₘ\nc8_math_ch2_12: Zero exponent rule a⁰ = 1 explains why first term has r⁰ = 1\nc9_math_ch8_5: The nth term of an arithmetic progression (AP) is given by the formula aₙ = a + (n-1)d - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch8_7: An arithmetic progression (AP) word problem is a real-world scenario where quantities change - earlier chapter node that this node's author flags as feeding into this content."
+   }
+  },
+  {
+   "file": "c9_physics_ch2_10.md",
+   "sections": {
+    "CROSS_SUBJECT": "c9_math_ch2_1 | Algebraic manipulation of formulas like F_(c) = (mv²)/r requires solving for v, r, or m using polynomial rearrangement\nc9_math_ch8_1 | Trigonometry (sine, cosine) is used to resolve velocity vectors into components and derive centripetal acceleration direction mathematically"
+   }
+  },
+  {
+   "file": "c9_physics_ch2_2.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_physics_ch2_3: Velocity builds on speed by adding direction; students must master speed as a scalar first.\nc9_physics_ch2_4: Uniform and non-uniform motion classification requires a clear understanding of constant vs changing speed.\nc9_physics_ch2_6: Distance-time graphs interpret speed as slope; the concept of speed as rate of change of distance is the physical basis.\nc10_phy_cbse_04_007: Understanding speed as distance/time and its units (m/s) is essential to grasp c and v in the formula n = c/v.\nc9_physics_ch2_10: Speed definition and formula (v = d/t) needed to compute orbital speed from circumference and period\nc9_physics_ch2_9: Speed vs velocity distinction avoids using speed in vector equations."
+   }
+  },
+  {
+   "file": "c9_physics_ch2_8.md",
+   "sections": {
+    "FORWARD_REASONS": "c9_physics_ch2_9: The applications node requires students to select and use the derived equations to solve numerical problems in diverse contexts (free fall, vehicles, etc.).\nc9_physics_ch2_11: Kinematic problem solving combines multiple equations and concepts (graphs, vectors, gravity) – mastery of derivation ensures students understand the origin, not just the plug-and-chug.\nc9_physics_ch2_10: Equations of motion derivation builds algebraic manipulation skills used in deriving a_(c) = (v²)/r"
+   }
+  },
+  {
+   "file": "c9_physics_ch4_3.md",
+   "sections": {
+    "CROSS_SUBJECT": "c8_physics_ch3_2 | Force changes speed; the theorem gives the exact quantitative relationship between net force work and speed change.\nc7_physics_ch04_006 | Speed measurement is essential for calculating kinetic energy; the formula v = d/t is used in lab verification."
+   }
+  },
+  {
+   "file": "c9_physics_ch4_5.md",
+   "sections": {
+    "CROSS_SUBJECT": "c7_physics_ch04_006 | Speed definition v = d/t is used to measure velocity in kinetic energy problems; requires unit conversion (km/h to m/s) which uses ratio-proportion math.\nc7_physics_ch04_007 | The relationship d = vt underpins the kinematic equation v² = u² + 2as used in derivation; algebraic rearrangement skills from math are essential."
+   }
+  }
+ ]
+}

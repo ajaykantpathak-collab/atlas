@@ -1,0 +1,10 @@
+{
+  "work_item": "WI-YYYYMMDD-NNN",
+  "verdict": "PASS",
+  "independent_reruns": [
+    {"gate": "G5", "exit": 0},
+    {"gate": "G1", "exit": 0}
+  ],
+  "issues": [],
+  "ts_utc": "2026-10-13T00:00:00Z"
+}

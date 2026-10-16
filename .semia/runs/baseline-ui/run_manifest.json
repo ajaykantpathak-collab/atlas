@@ -1,0 +1,21 @@
+{
+  "artifact_contract": "semia-run-v1",
+  "checked_at": "2026-10-04T12:01:33Z",
+  "detected_at": "2026-10-04T12:01:35Z",
+  "detector_status": "ok",
+  "evidence_match_rate": 1.0,
+  "evidence_taint_threshold": 0.1,
+  "finding_count": 0,
+  "hostile_input_nonce": "0616f099ec6839c6",
+  "prepared_at": "2026-10-04T12:01:33Z",
+  "prepared_skill_sha256": "fea3322f36d58fdafafce2aef56e4556dd2ac7b20876b7dff7d8be7f25fa597f",
+  "program_valid": true,
+  "reference_unit_coverage": 0.006507592190889371,
+  "source_hash": "3e8b6e6522e06be79724df0b8395c564784a2e96467f87e01198aaa26245abab",
+  "source_id": "baseline-ui",
+  "ssa_input_availability": 1.0,
+  "stage": "detected",
+  "synthesis_mode": "conservative_baseline",
+  "synthesis_written_at": "2026-10-04T12:01:33Z",
+  "synthesized_facts_sha256": "db1d27310ce8c6b3ac76f7ced0ba7f374326ac20156b1af77ff04121fb0f0001"
+}

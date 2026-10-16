@@ -1,0 +1,384 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 61,
+      "path": "SKILL.md",
+      "size_bytes": 3983
+    }
+  ],
+  "source_id": "atlas-ops",
+  "source_map": [
+    {
+      "enriched_line_end": 61,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 61,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 40,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: atlas-ops",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Deploy, restart, and operate the Atlas CBSE platform at D:\\platform \u2014 production builds, container restarts, agent fleet management, verification sweeps, and outage recovery. Use whenever deploying Atlas changes, restarting services, launching agent build waves, diagnosing 502s or unhealthy containers, or running acceptance checks on :3001.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Atlas Ops \u2014 deploy, fleet, verify",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "The platform: FastAPI backends (dream-backend-1/2, docker-cp workflow), Next.js",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "SKILL.md",
+      "text": "frontend (dream-frontend, rebuild-to-ship), nginx (dream-nginx), postgres/neo4j/",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "redis/qdrant/clickhouse. Dev server: :3000. Production: :80 and :3001.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 11,
+      "line_start": 11,
+      "source_file": "SKILL.md",
+      "text": "Source of truth: deploy/ \u2014 always build from deploy, never recreate from",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "stale images.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "Deploy SOP (every deployment, no skipped steps)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "SKILL.md",
+      "text": "docker compose --env-file .env.production -f deploy/docker-compose.prod.yml build <services> (background it; frontend \u2248 5-10 min, backends \u2248 cache-fast)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "docker compose \u2026 up -d <services> \u2014 then verify the recreate completed (containers can stick in \"Created\" \u2014 re-run up -d if so)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "docker restart dream-nginx \u2014 MANDATORY after any backend restart (nginx resolves upstreams at startup; skipping this = fleet-wide 502)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "Warm-up wait: backends rebuild the 213MB index + load models at boot \u2014 health flips to healthy after 2-5 min. Poll, don't guess.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "SKILL.md",
+      "text": "Verify: curl http://localhost/api/health (all-true), landing 200, one deep page (galaxy/story/pre-board) 200.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "Clear the restart lock in BUGS.md ## OPS.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "Backend hot-fix workflow (no rebuild)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "Edit \u2192 docker cp into BOTH backends \u2192 restart both \u2192 nginx \u2192 verify \u2192 mirror",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "to deploy. Before docker cp: diff repo vs container file (docker exec",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "dream-backend-1 diff \u2026, with MSYSNOPATHCONV=1 in Git Bash) \u2014 stale repo",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "copies have reverted live fixes. If container is newer, pull container\u2192repo first.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "Batch changes; ONE restart per batch, under a restart lock (below).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "SKILL.md",
+      "text": "Agent fleet discipline",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "SKILL.md",
+      "text": "Max 6 concurrent agents. Never launch beyond the cap.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "SKILL.md",
+      "text": "Every fixer claims work in BUGS.md before touching it ([claimed-<tag>]);",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "Backend restarts require appending - [restart-lock <tag> <HH:MM>] under",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "Time-box agents: a workstream that exceeds 6h is runaway \u2014 stop it, audit its",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "Auditors find; fixers fix. Never let an auditor \"just also fix\" a claimed item.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "Verification harness",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "SKILL.md",
+      "text": "Full capture: frontend/auditpersonal.js (17 surfaces, 2 viewports, 3 personas)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "Health: curl http://localhost/api/health (all-true) + landing/galaxy/story/pre-board 200s",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "NEVER verify pages via curl alone \u2014 SSR shells return 200 while the app is broken.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "Fair-use: tasks/user, no fabricated data anywhere, zero-wrong content rule",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "SKILL.md",
+      "text": "Known failure modes (all previously hit \u2014 recognize fast)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "| Symptom | Cause | Fix |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 56,
+      "line_start": 56,
+      "source_file": "SKILL.md",
+      "text": "| 502 on :80/:3001 after backend restart | nginx stale upstreams | restart nginx |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "SKILL.md",
+      "text": "| Page downloads instead of rendering | poisoned SW navigation cache | clear site data; SW version-bump |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 58,
+      "line_start": 58,
+      "source_file": "SKILL.md",
+      "text": "| Backend unhealthy 5+ min after start | boot warm-up (index+model) \u2014 OR crash; check docker logs for NameError/Traceback | wait if progressing; fix code if Traceback |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "| 401 on authed endpoints after login | token never persisted / fetch missing auth header | check localStorage keys (token, dream-auth.state.token) |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 60,
+      "line_start": 60,
+      "source_file": "SKILL.md",
+      "text": "| Empty question pools | subject alias missing in CORPUSSUBJECTS or class-gate leak | alias map + class gating |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 61,
+      "line_start": 61,
+      "source_file": "SKILL.md",
+      "text": "| Dev :3000 hollow (200 but no JS) | stale .next | rm -rf .next, restart dev server |",
+      "unit_type": "table_row"
+    }
+  ]
+}

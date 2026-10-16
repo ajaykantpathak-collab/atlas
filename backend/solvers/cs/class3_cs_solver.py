@@ -8,6 +8,7 @@ Deterministic, no LLM — uses SymPy-free pure-Python logic.
 import hashlib
 import json
 import math
+import os
 import re
 from dataclasses import dataclass, field
 from enum import Enum
@@ -736,7 +737,14 @@ def _verify():
             print(f"  {node}: {info['total']} q  |  {info['by_difficulty']}")
 
 
-_verify()
+# E1 dedupe: this file executes TWICE in one process — the registry
+# imports it as solvers._plugins.class3_cs_solver while the questions
+# pack imports the bare `class3_cs_solver` (sys.path).  Two module
+# objects = two _verify() runs (the triple [Solver Verification PASSED]
+# print).  The env sentinel is shared across module instances.
+if not os.environ.get("_CLASS3_CS_VERIFY_DONE"):
+    _verify()
+    os.environ["_CLASS3_CS_VERIFY_DONE"] = "1"
 
 
 # ─── PUBLIC API ──────────────────────────────────────────────────────────────

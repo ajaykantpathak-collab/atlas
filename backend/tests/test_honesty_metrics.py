@@ -139,7 +139,11 @@ class TestWiring:
         assert 'return {"minutes": 0, "measured": False}' in src
 
     def test_xp_ladder_is_not_hardcoded(self):
-        """Hardcoding 100 would drift the day XP_PER_LEVEL changes."""
+        """Hardcoding 100 would drift the day XP_PER_LEVEL changes. The
+        parent dashboard must derive the level with the CANONICAL function
+        (services/reward_ledger.level_breakdown — the same one the student
+        dashboard uses), never a local modulo-100 or the stale column."""
         src = _read("api/dashboard.py")
-        assert "from backend.services.progress_service import XP_PER_LEVEL" in src
+        assert "level_breakdown(total_xp)" in src
         assert "total_xp % 100" not in src
+        assert "from backend.services.reward_ledger import level_breakdown" in src

@@ -1,0 +1,12 @@
+{
+ "receipt_id": "rcpt_20261013T153145Z_76eb63c7",
+ "work_item": "WI-20261013-002",
+ "from_state": "REWORK",
+ "to_state": "IMPLEMENT",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:31:45Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "implementation begins",
+ "prev_receipt_sha256": "5a6f1c7e77987687741ef50a576981d7ece47a48fe04557d42d84554303fc58d"
+}

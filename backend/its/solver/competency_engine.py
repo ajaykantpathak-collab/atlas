@@ -152,6 +152,48 @@ def _normalize_question(q: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
+_RADICAL_EQUATION_CONCEPT = {
+    "id": "c10_algebra_radical_equations",
+    "title": "Algebra: Radical Equations and Extraneous Roots",
+    "chapter_title": "Quadratic and Non-Linear Equations",
+    "formula": "sqrt(f(x)) = g(x)  =>  f(x) = [g(x)]^2 (subject to f(x) >= 0 and g(x) >= 0)",
+    "definition": (
+        "A radical equation contains an unknown under a radical sign. "
+        "Solving requires identifying the real domain (radicand >= 0), isolating the radical, "
+        "checking that the opposite side is non-negative, squaring both sides to form a polynomial equation, "
+        "and testing all roots in the original equation to identify extraneous roots."
+    ),
+    "key_idea": "Isolate the radical, check non-negativity of both sides, square, and verify candidate roots in the original equation.",
+    "solution_steps": [
+        {
+            "step": 1,
+            "action": "Determine Domain Restrictions",
+            "explain": "The expression inside the square root must be non-negative: radicand >= 0. Any real solution must satisfy this domain condition."
+        },
+        {
+            "step": 2,
+            "action": "Isolate the Radical Term",
+            "explain": "Rearrange the equation so that the square root expression stands alone on one side: sqrt(f(x)) = -g(x)."
+        },
+        {
+            "step": 3,
+            "action": "Check Non-Negativity Condition",
+            "explain": "Because the principal square root is non-negative (sqrt(f(x)) >= 0), the opposite side must also be non-negative (-g(x) >= 0). If the opposite side is strictly negative on the domain, there are NO real solutions."
+        },
+        {
+            "step": 4,
+            "action": "Square Both Sides and Solve",
+            "explain": "Square both sides to eliminate the radical: f(x) = [-g(x)]^2. Rearrange into standard polynomial form and find candidate roots."
+        },
+        {
+            "step": 5,
+            "action": "Verify Against Original Equation",
+            "explain": "Squaring both sides may introduce extraneous roots. Substitute all candidate values back into the original equation to determine valid solutions."
+        }
+    ]
+}
+
+
 class _Router:
     def __init__(self) -> None:
         from sentence_transformers import SentenceTransformer
@@ -164,9 +206,18 @@ class _Router:
                 c["chapter_title"] = cat.get("chapter_title", "")
                 self.concepts.append(c)
         # COMPETENCY_EMBEDDER overrides the default (bge-m3 is stronger
-        # and multilingual); MiniLM stays the offline fallback
-        self.model = SentenceTransformer(
-            os.environ.get("COMPETENCY_EMBEDDER", "all-MiniLM-L6-v2"))
+        # and multilingual); MiniLM stays the offline fallback.
+        # PERF (2026-10-03 solve cold-start): the default MiniLM now comes
+        # from the process-wide shared singleton (model_hub) — was yet one
+        # more independent SentenceTransformer load on the solve path.
+        _embedder_name = os.environ.get("COMPETENCY_EMBEDDER",
+                                        "all-MiniLM-L6-v2")
+        if _embedder_name in ("all-MiniLM-L6-v2",
+                              "sentence-transformers/all-MiniLM-L6-v2"):
+            from backend.ai import model_hub
+            self.model = model_hub.load_sync()
+        else:
+            self.model = SentenceTransformer(_embedder_name)
         texts = [_normalize_question(_concept_text(c))
                  for c in self.concepts]
         self.embeddings = self._embed_cached(texts)
@@ -217,7 +268,14 @@ class _Router:
         best = max(range(len(scores)), key=lambda i: scores[i])
         if scores[best] < _ROUTE_THRESHOLD:
             return None
-        return self.concepts[best], float(scores[best])
+        concept = self.concepts[best]
+        # Incompatibility check: non-linear / radical questions must not route to linear equations
+        is_radical = bool(re.search(r"\b(?:sqrt|radical|surd)\b|√|\\sqrt", text.lower()))
+        is_linear_concept = any(term in str(concept.get("formula", "")).lower() or term in str(concept.get("title", "")).lower()
+                                for term in ("(right_const - left_const)", "linear equation", "linear_both_sides", "simple equation"))
+        if is_radical and is_linear_concept:
+            return _RADICAL_EQUATION_CONCEPT, 0.95
+        return concept, float(scores[best])
 
 
 def _keyword_override(q_lower: str,
@@ -226,6 +284,22 @@ def _keyword_override(q_lower: str,
 
     def pick(cid: str) -> Optional[Dict]:
         return by_id.get(cid)
+
+    # --- radical / surd equations ---
+    if re.search(r"\b(?:sqrt|radical|surd)\b|√|\\sqrt", q_lower) and \
+            re.search(r"=\s*0|solve|\bfor\s+x\b|\bequation\b", q_lower):
+        return _RADICAL_EQUATION_CONCEPT
+
+    # --- kinematics: 'accelerates from X m/s to Y m/s covering Z m'
+    # is the v2=u2+2as shape; embeddings land it on km/h-conversion
+    # (0.63 sibling confusion) so route it deterministically ---
+    if re.search(r"accelerat\w*[^.]*\bfrom\b[^.]*\bto\b[^.]*"
+                 r"\b(?:covering|covered|distance|over)\b",
+                 q_lower):
+        for cid in ("FB_PHY_C9_KIN2", "FB_PHY_C10_KIN2"):
+            c = pick(cid)
+            if c:
+                return c
 
     # --- exponents / powers (chapter 11) ---
     if any(w in q_lower for w in
@@ -734,6 +808,41 @@ def _sum_ask_coherent(text: str, concept: Dict) -> bool:
     return bool(_SUMMATION_CONCEPT_RE.search(blob))
 
 
+# ---- NAMED-CONSTRUCT COLLISION GUARD (2026-10-15 wave98) ------------- #
+# A stem that names a specific construct must be computed by a concept
+# whose own text names it too.  A BRS stem ("Cash Book ... Pass Book
+# ... prepare a BRS") embedded onto the 'Single Column Cash Book'
+# concept (keac.4.1.1) — shared 'cash book' vocabulary, different
+# construct — and the slot binder forced arbitrary numbers (the '31'
+# of '31 March' as total_cash_payments) into the wrong formula,
+# shipping 86,969 VERIFIED for the true ₹47,500.  Each pair is
+# (ask-side marker, concept-side evidence): when the ask marker hits
+# and the concept blob lacks the evidence marker, the concept is a
+# shared-vocabulary sibling and must not execute the stem.
+_NAMED_CONSTRUCTS = [
+    (re.compile(r"\bbrs\b|bank\s+reconcil\w*|pass\s?book", re.I),
+     re.compile(r"reconcil|pass\s?book|\bbrs\b", re.I)),
+]
+
+
+def _foreign_construct_concept(text: str, concept: Dict) -> bool:
+    """True when the stem names a construct the routed concept does not
+    cover — embedding similarity landed on a shared-vocabulary sibling
+    whose formula would compute a different question."""
+    blob = None
+    for ask_rx, ev_rx in _NAMED_CONSTRUCTS:
+        if not ask_rx.search(text or ""):
+            continue
+        if blob is None:
+            blob = " ".join(str(concept.get(k, "") or "") for k in
+                            ("title", "formula", "key_idea", "definition"))
+            blob += " " + " ".join(
+                str(p) for p in (concept.get("question_patterns") or []))
+        if not ev_rx.search(blob):
+            return True
+    return False
+
+
 # Per-question canonicalizer budget.  Each question used to spend an
 # LLM call on the primary concept, every multipart clause, AND each of
 # 4 sibling alternates -- ~10 calls/question.  Under upstream congestion
@@ -799,6 +908,18 @@ def _llm_canonicalize(text: str, concept: Dict) -> Optional[Dict[str, float]]:
         import concurrent.futures
         import asyncio as _aio
 
+        # TELEMETRY (COLD-START brief §C): a real LLM request is about to
+        # leave the process — flip the per-request flag the answer
+        # telemetry reads. Set in THIS thread (the _run executor thread's
+        # contextvars do not propagate back), and only here — after the
+        # mode/budget/key gates passed and a prompt is actually built —
+        # so llm_used stays an honest "a network LLM call ran".
+        try:
+            from backend.services.answer_telemetry import mark_llm_invoked
+            mark_llm_invoked()
+        except Exception:
+            pass
+
         def _run():
             async def _go():
                 from backend.services.llm_client import get_llm_client
@@ -844,6 +965,43 @@ def _llm_canonicalize(text: str, concept: Dict) -> Optional[Dict[str, float]]:
         return None
 
 
+# ASK-COHERENCE (2026-10-06 SOLVER-DIG-1): normalise the quantity words
+# of the ask clause and of a concept's target so a chain that PRODUCES a
+# different quantity than the one asked can be refused before it ships.
+_ASK_QTY_RES = [
+    (re.compile(r"\btotal\s+surface\s+area\b|\btsa\b", re.I), "tsa"),
+    (re.compile(r"\b(?:curved|lateral)\s+surface\s+area\b|\bcsa\b|"
+                r"\bc\.s\.a", re.I), "csa"),
+    (re.compile(r"\b(?:volume|capacity)\b", re.I), "volume"),
+    (re.compile(r"\bradi(?:us|ii)\b", re.I), "radius"),
+    (re.compile(r"\b(?:height|depth)\b", re.I), "height"),
+    (re.compile(r"\bdiameter\b", re.I), "diameter"),
+    (re.compile(r"\bperimeter\b", re.I), "perimeter"),
+    (re.compile(r"\bsimple\s+interest\b|\bcompound\s+interest\b|\bci\b",
+                re.I), "interest"),
+    (re.compile(r"\bprincipal\b", re.I), "principal"),
+    (re.compile(r"\bspeed\b", re.I), "speed"),
+    # generic area — suppressed when a specific tsa/csa tag is present
+    (re.compile(r"\barea\b", re.I), "area"),
+]
+_ASK_CLAUSE_RE = re.compile(
+    r"(?:find|what(?:'s| is| are)|how\s+(?:much|many|far|long|fast)|"
+    r"calculate|compute|determine|evaluate)(.*$)", re.I | re.S)
+
+
+def _ask_quantities(text: str) -> set:
+    """Quantity tags named in the question's ASK clause only — a given
+    ('the curved surface area is 220') must not count toward the ask."""
+    m = _ASK_CLAUSE_RE.search(text or "")
+    seg = m.group(1) if m else (text or "")
+    tags = {tag for rx, tag in _ASK_QTY_RES if rx.search(seg)}
+    # a specific surface-area ask is not the generic 'area' — 'find the
+    # TSA' must not share the 'area' tag with a CSA concept
+    if "tsa" in tags or "csa" in tags:
+        tags.discard("area")
+    return tags
+
+
 def model_competency(text: str) -> ModelResult:
     hit = route_concept(text)
     if hit is None:
@@ -855,6 +1013,25 @@ def model_competency(text: str) -> ModelResult:
         return _no("no competency concept above threshold")
     concept, score = hit
     cid = concept.get("id", "")
+    # NAMED-CONSTRUCT COLLISION (wave98): the stem names a construct the
+    # routed concept does not cover — re-route to a top-k sibling whose
+    # blob names it (the reconciliation concepts sit in the same
+    # embedding neighbourhood), else refuse rather than force foreign
+    # numbers into the wrong formula.
+    if _foreign_construct_concept(text, concept):
+        _swapped = None
+        for _alt, _sc in _route_topk(text, k=4):
+            if str(_alt.get("id", "")) != cid \
+                    and not _foreign_construct_concept(text, _alt):
+                _swapped = _alt
+                break
+        if _swapped is None:
+            return _no(f"concept {cid}: ask names a construct the routed "
+                       f"concept does not cover "
+                       f"('{concept.get('title')}') — refusing rather "
+                       f"than binding foreign numbers")
+        concept = _swapped
+        cid = concept.get("id", "")
     # explicit multi-part markers ((a)...(b)...) must aggregate ALL parts
     # -- the whole-text path would silently answer only the part whose
     # labels happen to bind
@@ -922,6 +1099,36 @@ def model_competency(text: str) -> ModelResult:
                 return result
             # bound family refused the reading: fall through to the
             # catalog executor with the same concept before giving up
+
+    # ASK-COHERENCE gate (2026-10-06 SOLVER-DIG-1): the catalog chain
+    # computes the CONCEPT's target, whatever the question asked for.
+    # 'TSA 616, h 7 — find the RADIUS' ran a TSA chain and answered
+    # 615.752 VERIFIED; 'CSA 220, h 5 — find the TSA' ran a CSA chain
+    # (misbinding r=5) and answered 157.08 VERIFIED.  When the ask
+    # clause names a quantity the concept's target does not produce,
+    # the chain would answer a different question — refuse.
+    ask_q = _ask_quantities(text)
+    # target + title only — the FORMULA names its input variables
+    # ('area = 2*pi*radius*(radius+height)'), which would satisfy an
+    # ask for 'radius' and let the area chain answer a radius question
+    # (615.752 VERIFIED for a 'find the radius' ask)
+    tgt_q = _ask_quantities(
+        str(_target_name(concept) or "").replace("_", " ") + " " +
+        str(concept.get("title") or ""))
+    if ask_q and tgt_q and not (ask_q & tgt_q):
+        return _no(f"concept {cid}: ask names {sorted(ask_q)} but the "
+                   f"concept produces {sorted(tgt_q)} — different "
+                   f"quantity asked")
+    # SHAPE-COHERENCE (2026-10-06 SOLVER-DIG-1): a hemispherical-bowl
+    # capacity question routed to a CYLINDER-volume concept (diameter
+    # bound as r AND h) and shipped 8620.53 VERIFIED (true: 0.719 L).
+    # The solid named in the question must appear in the concept.
+    if re.search(r"hemispher\w*", text, re.I) and not re.search(
+            r"hemispher\w*|spher\w*",
+            f"{concept.get('id', '')} {concept.get('title', '')} "
+            f"{concept.get('formula', '')}", re.I):
+        return _no(f"concept {cid}: hemispherical question routed to a "
+                   f"non-hemisphere concept")
 
     if slots is not None:
         try:

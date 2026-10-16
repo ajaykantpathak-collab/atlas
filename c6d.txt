@@ -1,0 +1,28 @@
+MISS fegp.101.1.2.1 | Check whether 6 is a perfect number: its proper di -> 3.0 exp 6
+MISS fegp.101.1.2.1 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+W0921 20:17:37.189000 15636 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-21 20:17:42,827 --- Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5498.10it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+MISS fegp.101.1.2.4 | The number 1250 has the prime factorisation 5^4 x  -> 5.0 exp 10
+ch101.json 63/66
+ch102.json 66/66
+ch103.json 54/54
+MISS fegp.4.3.1 | Write the ratio 32 : 96 in its simplest form and g -> 1.0 exp 4
+MISS fegp.4.4.1 | Write the ratio 20 : 40 in its simplest form and g -> 1.0 exp 4
+ch104.json 40/42
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1 at x = 1, the tangent slope  -> 12.0 exp -0.08
+MISS fegp.105.5.1.4 | Check whether 6 is a perfect number: its proper di -> 3.0 exp 6
+MISS fegp.105.5.1.4 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.2.2 | Check whether 6 is a perfect number: its proper di -> 3.0 exp 6
+MISS fegp.105.5.2.2 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+MISS fegp.105.5.3.1 | Check whether 6 is a perfect number: its proper di -> 3.0 exp 6
+MISS fegp.105.5.3.1 | Divisibility by 9: a number is divisible by 9 when -> 18.0 exp 0
+ch105.json 59/66

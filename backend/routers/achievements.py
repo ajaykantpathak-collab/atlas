@@ -36,7 +36,10 @@ class AchievementStatsResponse(BaseModel):
     total_achievements: int = 0
     unlocked_count: int = 0
     locked_count: int = 0
+    # Badge-wall XP (sum of unlocked badge xp_reward) — NOT the wallet.
     total_xp_earned: int = 0
+    # Canonical wallet XP (users.total_xp via services/reward_ledger.py).
+    wallet_xp: int = 0
     completion_percentage: float = 0.0
     recent_unlocks: list = []
     tier_breakdown: dict = {}
@@ -95,11 +98,22 @@ async def get_achievements(
 
     unlocked = [a for a in items if a.unlocked]
     total_xp = sum(a.xp_reward for a in unlocked)
+    wallet_xp = 0
+    try:
+        from sqlalchemy import select as _select
+
+        row = (
+            await db.execute(_select(User.total_xp).where(User.id == str(user.id)))
+        ).first()
+        wallet_xp = int(row[0] or 0) if row else 0
+    except Exception:
+        wallet_xp = 0
     return _fill_compat(
         AchievementListResponse(
             achievements=items,
             unlocked_count=len(unlocked),
             total_xp=total_xp,
+            wallet_xp=wallet_xp,
         )
     )
 

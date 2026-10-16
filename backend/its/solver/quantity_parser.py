@@ -84,6 +84,10 @@ def parse_quantities(text: str) -> List[Quantity]:
     quants: List[Quantity] = []
     try:
         from quantulum3 import parser as q3parser
+        # quantulum3.parser pulls numpy.f2py, whose crackfortran.py sets
+        # re._MAXCACHE = 50 process-wide — restores it for the family sweep
+        from backend.its.solver import _regex_cache
+        _regex_cache.ensure()
 
         for q in q3parser.parse(text):
             span = getattr(q, "surface", "") or ""

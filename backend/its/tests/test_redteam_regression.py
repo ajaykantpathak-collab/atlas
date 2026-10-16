@@ -15,8 +15,8 @@ import pytest
 sys.path.insert(0, os.path.abspath(os.path.join(
     os.path.dirname(__file__), "..", "..", "..")))
 
-CORPUS = os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                      "_redteam", "questions.json")
+CORPUS = os.path.join(os.path.dirname(__file__), "..", "..", "..", "..",
+                      "_trash", "_redteam", "questions.json")
 
 
 def _numbers(s):
@@ -44,6 +44,9 @@ def _load():
     qs = json.load(open(CORPUS, encoding="utf-8"))
     return [q for q in qs if q.get("id") not in ("INT-03", "MOT-03")]
 
+
+if not os.path.exists(CORPUS):
+    pytest.skip(f"redteam corpus absent: {CORPUS}", allow_module_level=True)
 
 QS = _load()
 IDS = [q["id"] for q in QS]

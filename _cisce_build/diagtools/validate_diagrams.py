@@ -103,6 +103,9 @@ def main(argv: Optional[List[str]] = None) -> int:
             errors.append("%s: no attribution record" % where)
             continue
         lic = str(a.get("license", ""))
+        # STRICT (legacy-resolution wave, 2026-09-30): the generated-original
+        # and legacy-collection exemptions are REMOVED — every record must
+        # carry a real allow-listed license and a non-empty source_url.
         if not lic or not ALLOWED_LICENSE_RE.search(lic):
             errors.append("%s: license %r not in the allowed set" % (where, lic))
         if not str(a.get("source_url", "")).strip():

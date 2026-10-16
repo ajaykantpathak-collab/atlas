@@ -61,6 +61,7 @@ services:
       PLATFORM_ENV: production
       PLATFORM_JWT_SECRET: ${PLATFORM_JWT_SECRET:?PLATFORM_JWT_SECRET must be set}
       PLATFORM_DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
+      COMPLIANCE_DATABASE_URL: postgresql+psycopg2://atlas_compliance:cmp_9f4k2Lw8Qz5tR1xV@postgres:5432/atlas_compliance
       DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
       PLATFORM_NEO4J_URI: bolt://neo4j:7687
       PLATFORM_NEO4J_USER: neo4j
@@ -68,6 +69,9 @@ services:
       PLATFORM_REDIS_URL: redis://redis:6379/0
       PLATFORM_QDRANT_URL: http://qdrant:6333
       PLATFORM_CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost}
+      # Deterministic truth-core default. Set to fallback only for an
+      # explicitly approved experiment; it is never used by /v3/deterministic.
+      SOLVER_LLM_MODE: ${SOLVER_LLM_MODE:-off}
       INTERACTIONS_PATH: /app/cbse_data/interactions.json
       ORGANIZED_CONTENT_DIR: /app/organized
       ENRICHMENT_JSONL: /app/parsed_output/enrichment.jsonl
@@ -89,8 +93,8 @@ services:
       FREELLM_API_KEY: ${FREELLM_API_KEY:-${GEMINI_API_KEY:-}}
       FREELLM_MODEL: ${FREELLM_MODEL:-gemini-2.5-flash}
     volumes:
-      - D:/cisce:/app/cisce:ro
-      - D:/_KEEP/atomic_graph/cisce_stem:/app/cisce_stem:ro
+      - ${CISCE_CORPUS_HOST:-D:/cisce}:/app/cisce:ro
+      - ${CISCE_STEM_HOST:-D:/_KEEP/atomic_graph/cisce_stem}:/app/cisce_stem:ro
     command: python -m backend.init_db
     depends_on:
       postgres:
@@ -105,6 +109,15 @@ services:
       dockerfile: Dockerfile.backend
     container_name: dream-backend-1
     restart: unless-stopped
+    healthcheck:
+      # READINESS gate (2026-10-02 audit): /ready flips 200 only after the
+      # worker's heavy warm completes -- compose restarts a worker that
+      # never finishes warming, and depends_on-healthy stops admitting it.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready', timeout=3)"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 420s
     volumes:
       - ./organized:/app/organized:ro
       - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro
@@ -145,6 +158,15 @@ services:
       dockerfile: Dockerfile.backend
     container_name: dream-backend-2
     restart: unless-stopped
+    healthcheck:
+      # READINESS gate (2026-10-02 audit): /ready flips 200 only after the
+      # worker's heavy warm completes -- compose restarts a worker that
+      # never finishes warming, and depends_on-healthy stops admitting it.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready', timeout=3)"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 420s
     volumes:
       - ./organized:/app/organized:ro
       - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro

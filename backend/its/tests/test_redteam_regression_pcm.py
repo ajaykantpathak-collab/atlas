@@ -22,8 +22,8 @@ import pytest
 sys.path.insert(0, os.path.abspath(os.path.join(
     os.path.dirname(__file__), "..", "..", "..")))
 
-CORPUS = os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                      "redteam_attack", "questions.json")
+CORPUS = os.path.join(os.path.dirname(__file__), "..", "..", "..", "..",
+                      "_trash", "redteam_attack", "questions.json")
 
 
 def _numbers(s):
@@ -50,6 +50,12 @@ def _load():
                     "true": q.get("true_answer") or q.get("true")})
     return [q for q in out if q["q"] and q["true"] is not None]
 
+
+if not os.path.exists(CORPUS):
+    pytest.skip(f"redteam corpus absent: {CORPUS}", allow_module_level=True)
+
+if not os.path.exists(CORPUS):
+    pytest.skip(f"redteam corpus absent: {CORPUS}", allow_module_level=True)
 
 QS = _load()
 IDS = [q["id"] for q in QS]

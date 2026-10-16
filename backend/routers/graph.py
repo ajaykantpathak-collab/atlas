@@ -170,6 +170,9 @@ async def find_gaps(req: GapAnalysisRequest):
 
     Given a node the student wants to learn and the set of nodes they've
     already mastered, return the prerequisite nodes they're missing.
+    D11: HARD gates only (graph_edges) — a prereq must be in an earlier
+    class or a different subject to gate; same-class sibling mesh never
+    appears in a gap list.
     """
     try:
         mastered_set = set(req.mastered_node_ids)
@@ -196,6 +199,8 @@ async def get_learning_path(req: LearningPathRequest):
 
     Returns an ordered list of nodes to learn, starting from root gaps
     and building up to the target. Excludes already-mastered nodes.
+    D11: the path is built from HARD gates only (graph_edges) — same-class
+    sibling edges are ordering hints and never enter the path.
     """
     try:
         mastered_set = set(req.mastered_node_ids)

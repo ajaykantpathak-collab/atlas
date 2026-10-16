@@ -1,0 +1,28 @@
+{
+  "edits": [
+    {
+      "file": "c12_hist_cbse_05_002.md",
+      "eli5": "Imagine a foreign scholar moves to India, spends years learning Sanskrit from pandits, reads the originals himself, and then writes a book about India that asks questions and weighs answers instead of repeating rumours. That is Al-Biruni's Kitab-ul-Hind — an outsider's patient, check-everything guide to our country written a thousand years ago."
+    },
+    {
+      "file": "c12_hist_cbse_08_010.md",
+      "eli5": "Think of a Mughal village as a layered cake: at the bottom, peasant families tilling by caste tradition; in the middle, artisans owed a share of every harvest; on top, zamindars collecting revenue and keeping soldiers. The emperor's officers sat above them all with ledgers — everyone owed someone, and the ledgers recorded it."
+    },
+    {
+      "file": "c12_bio_cbse_01_002.md",
+      "definition": "Asexual reproduction is the process by which a single parent produces genetically identical offspring without the fusion of gametes. In plants it proceeds by three main mechanisms: binary fission in single-celled forms, fragmentation where pieces of the parent grow into new plants, and budding. More specifically, vegetative propagation runs through runners, tubers, bulbs, suckers and offsets, so that every offspring is a clone of the parent — a rapid, reliable means of multiplication whose price is the absence of the genetic variety that sexual reproduction creates."
+    },
+    {
+      "file": "c12_soc_cbse_07_010.md",
+      "definition": "A survey is the careful, planned questioning of people chosen to represent a larger group, so that facts about the whole can be learned from the answers of the part. In sociology it is both a teaching device and a research method: the student frames a question, designs a questionnaire or interview schedule, selects respondents honestly, records answers without twisting them, and then reads tables rather than impressions. The discipline of the survey lies in its rules — random choice, courteous consent, faithful recording — because a biased question or a chosen sample produces confident, well-organised error."
+    },
+    {
+      "file": "c11_cs_cbse_06_004.md",
+      "walkthrough_append": "In the examination, a tracing question on string assignment is the standard probe: s = 'Exam', t = s + '2024' makes a NEW string 'Exam2024' while s stays 'Exam' — strings are immutable, so nothing is appended in place. State the two values, note that rebinding created a new object, and the answer is complete."
+    },
+    {
+      "file": "c12_ip_cbse_06_010.md",
+      "walkthrough_append": "For the examination, CSS-selector questions give markup and ask which rules apply — match tag selectors to every element, class selectors to the dots that name them, and note that the more specific selector wins when rules collide; write the matched elements' names beside each rule as your working."
+    }
+  ]
+}

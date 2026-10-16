@@ -1,0 +1,169 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c4)",
+ "source_file": "c4_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C4_001",
+   "title": "HEART RATE (pulse) SIMPLE FORMULA: Beats per minute = ...",
+   "section": "",
+   "formula": "Beats_per_minute = b*p*m",
+   "_pats_extra": [],
+   "key_idea": "HEART RATE (pulse) SIMPLE FORMULA",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find beats per minute using heart rate (pulse) simple formula",
+    "calculate heart rate (pulse) simple formula",
+    "heart rate (pulse) simple formula formula question",
+    "given values find beats per minute"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C4_001",
+     "question_pattern": "heart rate (pulse) simple formula with {b} and {p} and {m} find beats per minute",
+     "extracted_variables": {
+      "b": "given b",
+      "p": "given p",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for b, p, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Beats per minute = b*p*m",
+     "compute": "Beats_per_minute = b*p*m"
+    }
+   ],
+   "chapter_title": "evs c4 formulas"
+  },
+  {
+   "id": "FB_EVS_C4_002",
+   "title": "BALANCED PLATE (simple count): Groups on plate = ...",
+   "section": "",
+   "formula": "Groups_on_plate = 3 (energy + body-building + protective)",
+   "_pats_extra": [],
+   "key_idea": "BALANCED PLATE (simple count)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find groups on plate using balanced plate (simple count)",
+    "calculate balanced plate (simple count)",
+    "balanced plate (simple count) formula question",
+    "given values find groups on plate"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C4_002",
+     "question_pattern": "balanced plate (simple count) with {energy} and {body} and {building} and {protective} find groups on plate",
+     "extracted_variables": {
+      "energy": "given energy",
+      "body": "given body",
+      "building": "given building",
+      "protective": "given protective"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for energy, body, building, protective from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Groups on plate = 3 (energy + body-building + protective)",
+     "compute": "Groups_on_plate = 3 (energy + body-building + protective)"
+    }
+   ],
+   "chapter_title": "evs c4 formulas"
+  },
+  {
+   "id": "FB_EVS_C4_003",
+   "title": "WATER NEEDED PER DAY (idea): Water for a day = ...",
+   "section": "",
+   "formula": "Water_for_a_day = W_drink + W_cook + W_bath + W_other",
+   "_pats_extra": [],
+   "key_idea": "WATER NEEDED PER DAY (idea)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find water for a day using water needed per day (idea)",
+    "calculate water needed per day (idea)",
+    "water needed per day (idea) formula question",
+    "given values find water for a day"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C4_003",
+     "question_pattern": "water needed per day (idea) with {W_drink} and {W_cook} and {W_bath} and {W_other} find water for a day",
+     "extracted_variables": {
+      "W_drink": "given W_drink",
+      "W_cook": "given W_cook",
+      "W_bath": "given W_bath",
+      "W_other": "given W_other"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for W_drink, W_cook, W_bath, W_other from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Water for a day = W_drink + W_cook + W_bath + W_other",
+     "compute": "Water_for_a_day = W_drink + W_cook + W_bath + W_other"
+    }
+   ],
+   "chapter_title": "evs c4 formulas"
+  },
+  {
+   "id": "FB_EVS_C4_004",
+   "title": "MATERIAL COUNT (simple): Total materials = ...",
+   "section": "",
+   "formula": "Total_materials = materials_from_nature + materials_made*by_people",
+   "_pats_extra": [],
+   "key_idea": "MATERIAL COUNT (simple)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total materials using material count (simple)",
+    "calculate material count (simple)",
+    "material count (simple) formula question",
+    "given values find total materials"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C4_004",
+     "question_pattern": "material count (simple) with {materials_from_nature} and {materials_made} and {by_people} find total materials",
+     "extracted_variables": {
+      "materials_from_nature": "given materials_from_nature",
+      "materials_made": "given materials_made",
+      "by_people": "given by_people"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for materials_from_nature, materials_made, by_people from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total materials = materials_from_nature + materials_made*by_people",
+     "compute": "Total_materials = materials_from_nature + materials_made*by_people"
+    }
+   ],
+   "chapter_title": "evs c4 formulas"
+  }
+ ]
+}

@@ -41,6 +41,10 @@ def row_from_event(event: AttemptEvent) -> dict:
         "response_ms": d.get("response_ms"),
         "misconception_id": d.get("misconception_id"),
         "session_id": d.get("session_id"),
+        # CL-06: route chain capped at ROUTE_CAP (same 32-entry cap the
+        # JSONL plane uses) + the winning stage.
+        "route": (d.get("route") or [])[:32],
+        "stage": d.get("stage"),
         "created_at": d.get("created_at"),
     }
 

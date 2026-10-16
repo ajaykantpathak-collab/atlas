@@ -1,0 +1,41 @@
+# DEV HOT-RELOAD SERVER (2026-10-02) — iterate without ever restarting
+# the production replicas.
+#
+#   docker compose -f deploy/dev.docker-compose.yml up -d
+#
+# -> atlas-devserver on port 8003: uvicorn --reload with deploy/backend
+#    volume-mounted. Every file save hot-reloads in ~2 seconds.
+#    Production backends (8000/8001 behind nginx) stay untouched during
+#    development; they only restart at deliberate batch ships.
+#
+# Requires the slim backend image to exist:
+#   docker tag deploy-backend-1:latest atlas-devserver:latest  (once)
+services:
+  devserver:
+    image: deploy-backend-1:latest
+    container_name: atlas-devserver
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app/backend
+    environment:
+      DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
+      PLATFORM_DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
+      PLATFORM_REDIS_URL: redis://:at_mj93IR9URGYEIPaXGikkewwxkUBBiFBW@redis:6379/0
+      PLATFORM_NEO4J_URI: bolt://neo4j:7687
+      PLATFORM_NEO4J_USER: neo4j
+      PLATFORM_NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
+      PLATFORM_QDRANT_URL: http://qdrant:6333
+      COMPLIANCE_DATABASE_URL: postgresql+psycopg2://atlas_compliance:cmp_9f4k2Lw8Qz5tR1xV@postgres:5432/atlas_compliance
+      UVICORN_WORKERS: "1"
+      # 9p mounts swallow inotify events — polling makes hot-reload work
+      WATCHFILES_FORCE_POLLING: "true"
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload --workers 1 --timeout-keep-alive 5
+    ports:
+      - "8003:8000"
+    networks:
+      - dream-net
+
+networks:
+  dream-net:
+    name: deploy_dream-net
+    external: true

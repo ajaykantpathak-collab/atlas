@@ -1,0 +1,636 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 116,
+      "path": "SKILL.md",
+      "size_bytes": 7830
+    }
+  ],
+  "source_id": "improve-ui",
+  "source_map": [
+    {
+      "enriched_line_end": 116,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 116,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 68,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: improve-ui",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Improve UI",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Audit one coherent product surface against the system that actually governs it. Preserve the product's identity, reuse existing owners, and prefer no finding to an unsupported one. Write plans only for changes the user selects; another agent executes them.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "Boundaries",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "Never modify product source. Create or edit files only under design-plans/.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 13,
+      "line_start": 13,
+      "source_file": "SKILL.md",
+      "text": "Do not install dependencies, run formatters, commit, push, or otherwise mutate the working tree.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "Do not update design documentation. Record accepted documentation changes in the plan for its executor.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "Use rendered evidence only when the user provides it or explicitly requests visual inspection.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "SKILL.md",
+      "text": "Make every plan self-contained; its executor has no context from the audit or conversation.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "1. Select the surface",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "SKILL.md",
+      "text": "Honor the user's scope. If the request is broad, select one deployable application and one coherent surface family representing a primary product task. State the selection; do not synthesize the whole repository into one product.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "SKILL.md",
+      "text": "Start from the surface's routes and layouts. Trace the rendered path through compositions, shared components, variants, resolved tokens, and styles. Do not begin with a repository-wide search for inconsistencies.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "SKILL.md",
+      "text": "A connection exists only when it is proven through rendering, imports, props, resolved configuration, CSS inheritance, or a generated artifact loaded by the surface. Shared names, similar tokens, repository proximity, and conceptual relationships do not establish a connection. Exclude other applications, previews, configurators, generated registries, legacy systems, and enterprise variants unless they participate in the traced path.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "2. Reconstruct the local system",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "Check for DESIGN.md, repository guidance, and surface-local design documentation. Use a source only after proving it is current and governs the selected surface; drafts, proposals, migrations, and task lists describe future intent unless explicitly accepted and current. Absence of design documentation is not a finding.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "Inspect only the tokens, variables, themes, primitives, variants, and compositions relevant to the traced path. Resolve aliases and variants to their definitions. Classify an implementation as local or legacy only when the repository says so.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "Record:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "## Design language",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "- Audited surface:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "- Design sources:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "SKILL.md",
+      "text": "- Documented decisions:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "- Governing owners and consumers:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "- Explicit exceptions:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "Write None documented under Explicit exceptions unless a cited source explicitly identifies the exception.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "SKILL.md",
+      "text": "3. Prove findings",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "Before applying the proof gate, inspect every traced surface's user-facing labels, active-state presentation, responsive branches, and sibling variants for internal contradictions. Treat the results only as candidates.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "A finding is in scope only when its correction primarily changes visual presentation, interface copy, layout, component styling, or conformance to a documented design rule. If the correction primarily changes whether product behavior works, reject it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 51,
+      "line_start": 51,
+      "source_file": "SKILL.md",
+      "text": "Search results, repetition, and implementation differences produce candidates, not findings. Keep a candidate only when all three proofs exist:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 53,
+      "line_start": 53,
+      "source_file": "SKILL.md",
+      "text": "Contract \u2014 Cite a binding design decision for this property and scope, or a direct contradiction in user-facing presentation or content within the same task. \u201cPrefer,\u201d \u201cgenerally,\u201d names, omissions, repetition, and absence of an exception do not establish a contract.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "Runtime \u2014 Prove that the cited owner, value, or behavior reaches the affected surface through the traced runtime path. Do not compare separate ownership layers or lifecycle states.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 55,
+      "line_start": 55,
+      "source_file": "SKILL.md",
+      "text": "Correction \u2014 State one change required by the evidence. If it depends on an existing token, variant, primitive, or exemplar, name it exactly. If the evidence cannot determine the correct choice, the intended condition is ambiguous, the proposal contains alternatives, or the correction requires inventing product intent, reject the candidate.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "SKILL.md",
+      "text": "Source can prove token, typography, color, spacing, layout, copy, component-variant, responsive-presentation, and explicit design-contract violations. It cannot turn functional behavior, state management, or interaction correctness into design findings. Hierarchy, prominence, density, clarity, discoverability, usability, and perceived coherence require rendered or user evidence.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "Discard accessibility and HTML/ARIA semantic findings unless the user explicitly requests them. Discard broken routes, redirects, data wiring, action failures, metadata, package API, performance, architecture, and code-quality findings unless the user requested them or a product-specific design contract governs them.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 61,
+      "line_start": 61,
+      "source_file": "SKILL.md",
+      "text": "Assign confidence only after all proofs pass. Reuse an existing owner when the evidence supports it; do not create a shared primitive from repetition alone.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 63,
+      "line_start": 63,
+      "source_file": "SKILL.md",
+      "text": "4. Vet findings",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 65,
+      "line_start": 65,
+      "source_file": "SKILL.md",
+      "text": "Before reporting, re-open every cited source and try to falsify each candidate. Delete it when:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 67,
+      "line_start": 67,
+      "source_file": "SKILL.md",
+      "text": "The problem does not exactly match the cited implementation.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 68,
+      "line_start": 68,
+      "source_file": "SKILL.md",
+      "text": "The rule does not govern that property and surface.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 69,
+      "line_start": 69,
+      "source_file": "SKILL.md",
+      "text": "Counterevidence shows the difference is valid or deliberate.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_40",
+      "id": 40,
+      "line_end": 70,
+      "line_start": 70,
+      "source_file": "SKILL.md",
+      "text": "The evidence supports multiple corrections.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_41",
+      "id": 41,
+      "line_end": 71,
+      "line_start": 71,
+      "source_file": "SKILL.md",
+      "text": "The correction invents product intent.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_42",
+      "id": 42,
+      "line_end": 72,
+      "line_start": 72,
+      "source_file": "SKILL.md",
+      "text": "Another finding describes the same root problem.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_43",
+      "id": 43,
+      "line_end": 74,
+      "line_start": 74,
+      "source_file": "SKILL.md",
+      "text": "Only findings that survive this pass may enter the table.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_44",
+      "id": 44,
+      "line_end": 76,
+      "line_start": 76,
+      "source_file": "SKILL.md",
+      "text": "5. Report",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_45",
+      "id": 45,
+      "line_end": 78,
+      "line_start": 78,
+      "source_file": "SKILL.md",
+      "text": "Order surviving findings by confidence, user impact, reach, and correction cost. Stop at three.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_46",
+      "id": 46,
+      "line_end": 80,
+      "line_start": 80,
+      "source_file": "SKILL.md",
+      "text": "Use this structure:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_47",
+      "id": 47,
+      "line_end": 83,
+      "line_start": 83,
+      "source_file": "SKILL.md",
+      "text": "## Design language",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_48",
+      "id": 48,
+      "line_end": 84,
+      "line_start": 84,
+      "source_file": "SKILL.md",
+      "text": "- Audited surface:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_49",
+      "id": 49,
+      "line_end": 85,
+      "line_start": 85,
+      "source_file": "SKILL.md",
+      "text": "- Design sources:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_50",
+      "id": 50,
+      "line_end": 86,
+      "line_start": 86,
+      "source_file": "SKILL.md",
+      "text": "- Documented decisions:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_51",
+      "id": 51,
+      "line_end": 87,
+      "line_start": 87,
+      "source_file": "SKILL.md",
+      "text": "- Governing owners and consumers:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_52",
+      "id": 52,
+      "line_end": 88,
+      "line_start": 88,
+      "source_file": "SKILL.md",
+      "text": "- Explicit exceptions:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_53",
+      "id": 53,
+      "line_end": 90,
+      "line_start": 90,
+      "source_file": "SKILL.md",
+      "text": "## Findings",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_54",
+      "id": 54,
+      "line_end": 91,
+      "line_start": 91,
+      "source_file": "SKILL.md",
+      "text": "| # | Problem | Evidence | Proposed change | Scope | Confidence |",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_55",
+      "id": 55,
+      "line_end": 92,
+      "line_start": 92,
+      "source_file": "SKILL.md",
+      "text": "| --- | --- | --- | --- | --- | --- |",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_56",
+      "id": 56,
+      "line_end": 94,
+      "line_start": 94,
+      "source_file": "SKILL.md",
+      "text": "## Improve first",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_57",
+      "id": 57,
+      "line_end": 95,
+      "line_start": 95,
+      "source_file": "SKILL.md",
+      "text": "<Highest-leverage finding and why, or no supported recommendation.>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_58",
+      "id": 58,
+      "line_end": 98,
+      "line_start": 98,
+      "source_file": "SKILL.md",
+      "text": "Evidence must establish the contract, runtime relationship, and deterministic interface consequence. Proposed change must contain one correction. Delete unsupported or overlapping rows before returning.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_59",
+      "id": 59,
+      "line_end": 100,
+      "line_start": 100,
+      "source_file": "SKILL.md",
+      "text": "Delete any finding that does not include every required column, including Confidence.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_60",
+      "id": 60,
+      "line_end": 102,
+      "line_start": 102,
+      "source_file": "SKILL.md",
+      "text": "Under Improve first, select one surviving finding with the strongest evidence and highest leverage. Never combine findings.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_61",
+      "id": 61,
+      "line_end": 104,
+      "line_start": 104,
+      "source_file": "SKILL.md",
+      "text": "If no candidate survives, write No supported findings were found. under ## Findings and No supported recommendation. under ## Improve first.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_62",
+      "id": 62,
+      "line_end": 106,
+      "line_start": 106,
+      "source_file": "SKILL.md",
+      "text": "If findings survive, stop and ask which to turn into plans. If the user already selected a finding or explicitly requested a plan for a described improvement, continue with that scope. If asked to fix or improve directly, offer a plan; never implement it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_63",
+      "id": 63,
+      "line_end": 108,
+      "line_start": 108,
+      "source_file": "SKILL.md",
+      "text": "6. Specify selected changes",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_64",
+      "id": 64,
+      "line_end": 110,
+      "line_start": 110,
+      "source_file": "SKILL.md",
+      "text": "Read references/plan-template.md. Write one plan per selected change, never one per symptom.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_65",
+      "id": 65,
+      "line_end": 112,
+      "line_start": 112,
+      "source_file": "SKILL.md",
+      "text": "Before writing, re-open every cited source, record the current commit when available, identify exact reusable primitives and exemplars, and trace affected surfaces. Reconcile an existing plan instead of duplicating it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_66",
+      "id": 66,
+      "line_end": 114,
+      "line_start": 114,
+      "source_file": "SKILL.md",
+      "text": "Do not invent values when the repository provides a token or component contract. Introduce a primitive only after proving why the existing system cannot express the decision and which consumers should share it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_67",
+      "id": 67,
+      "line_end": 116,
+      "line_start": 116,
+      "source_file": "SKILL.md",
+      "text": "If asked to reconcile, recheck existing plans against current source and documented decisions; update stale evidence, affected surfaces, and status.",
+      "unit_type": "paragraph"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+ "edits": [
+  {
+   "file": "c9_math_ch1_7.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch1_1: Understanding axes and origin is essential to interpret coordinates.\nc9_math_ch1_2: Ability to plot points helps visualize the segment and the dividing point.\nc9_math_ch1_3: Knowledge of quadrants and signs ensures correct handling of negative coordinates.\nc9_math_ch1_4: Distance formula is used to verify section-formula results and solve related ratio problems.\nc6_math_ch06_062: Concept of ratio (a:b) is the foundation of the section formula.\nc6_math_ch06_063: Understanding equivalent ratios and proportion allows manipulation of m:n.\nc6_math_ch05_056: Solving linear equations is needed when finding the ratio given the point.\nc9_math_ch1_6: The distance formula computes the length of a segment from its endpoints, coordinates, the same coordinate-difference thinking this node applies."
+   }
+  },
+  {
+   "file": "c9_math_ch1_8.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch1_7: The section formula for internal division is the direct parent concept; midpoint is derived by setting m=n=1.\nc9_math_ch1_2: Plotting points is needed to visualize the midpoint on the Cartesian plane.\nc9_math_ch1_3: Understanding quadrants and signs of coordinates is essential for handling negative coordinates in midpoint calculations.\nc6_math_ch05_056: Linear equations in one variable are used when solving for a missing endpoint given the midpoint.\nc6_math_ch05_057: Solving linear equations methods (transposition, balancing) are required for the reverse midpoint problems.\nc9_math_ch1_1: The Cartesian coordinate system is a two-dimensional plane formed by two perpendicular number  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_4: The distance formula gives the length of the segment joining two coordinate points, which this node applies to midpoints and equal-length checks.\nc9_math_ch1_6: The distance formula computes the length of a segment from its endpoints, coordinates, the same coordinate-difference thinking this node applies."
+   }
+  },
+  {
+   "file": "c9_math_ch1_9.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch1_7: Section formula for internal division is the direct basis for trisection coordinates.\nc9_math_ch1_8: Midpoint formula is a special case (ratio 1:1); understanding it helps see trisection as another special case.\nc6_math_ch03_036: Division of fractions is needed to compute coordinates like (x₁+2x₂)/3 when coordinates are fractions.\nc6_math_ch05_057: Solving linear equations is required when one trisection point is given and an endpoint must be found.\nc9_math_ch1_1: The Cartesian coordinate system is a two-dimensional plane formed by two perpendicular number  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_3: The Cartesian plane is divided into four quadrants by the x-axis and y-axis. The signs of the  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_6: The distance formula computes the length of a segment from its endpoints, coordinates, the same coordinate-difference thinking this node applies."
+   }
+  },
+  {
+   "file": "c9_math_ch1_10.md",
+   "sections": {
+    "PREREQUISITE_REASONS": "c9_math_ch1_4: Distance formula derivation and application is the direct computational tool needed.\nc9_math_ch1_1: Understanding axes, origin, and coordinates is necessary to read point coordinates.\nc9_math_ch1_2: Plotting points helps visualize collinearity before calculation.\nc8_math_ch9_5: Baudhayana-Pythagoras theorem is the geometric basis of the distance formula.\nc8_math_ch9_8: Applications of Pythagoras theorem reinforce the distance concept in real contexts.\nc9_math_ch1_3: The Cartesian plane is divided into four quadrants by the x-axis and y-axis. The signs of the  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_5: The distance between two points on a line parallel to the x-axis is the absolute difference of  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_6: The distance formula computes the length of a segment from its endpoints, coordinates, the same coordinate-difference thinking this node applies.\nc9_math_ch1_7: The section formula for internal division states that if a point P(x, y) divides the line  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_8: The midpoint formula is a special case of the section formula for internal division where the  - earlier chapter node that this node's author flags as feeding into this content.\nc9_math_ch1_9: If a line segment joining points A(x₁, y₁) and B(x₂, y₂) is divided into three equal parts by  - earlier chapter node that this node's author flags as feeding into this content."
+   }
+  }
+ ]
+}

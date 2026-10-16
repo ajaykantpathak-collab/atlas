@@ -1,0 +1,3 @@
+ERROR:  column "node_id" does not exist
+LINE 1: SELECT DISTINCT node_id FROM board_questions WHERE node_id L...
+                        ^

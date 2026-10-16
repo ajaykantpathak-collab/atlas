@@ -194,6 +194,9 @@ class SolutionResult(BaseModel):
     error: str = ""
     error_code: str = ""
 
+    # Truth tier surfaced to clients (VERIFIED / METHOD_ONLY / ...)
+    tier: str = "METHOD_ONLY"
+
     # Metadata
     solver_tier: SolverTier = SolverTier.DETERMINISTIC
     solver_path: list[str] = Field(default_factory=list)  # which solvers were tried
@@ -216,6 +219,7 @@ class IdentifyResult(BaseModel):
     """Result of identify(question)."""
     success: bool = True
     error: str = ""
+    error_code: str = ""
     question: str = ""
     matches: list[ProblemTypeMatch] = Field(default_factory=list)
     best_match: Optional[ProblemTypeMatch] = None

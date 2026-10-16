@@ -1,0 +1,21 @@
+{
+  "artifact_contract": "semia-run-v1",
+  "checked_at": "2026-10-04T12:01:27Z",
+  "detected_at": "2026-10-04T12:01:28Z",
+  "detector_status": "ok",
+  "evidence_match_rate": 1.0,
+  "evidence_taint_threshold": 0.1,
+  "finding_count": 0,
+  "hostile_input_nonce": "39874df9548d9846",
+  "prepared_at": "2026-10-04T12:01:27Z",
+  "prepared_skill_sha256": "c19dc7bcaa2df5fd419687cdc0d57019677ed18e6994574713721ff19442db02",
+  "program_valid": true,
+  "reference_unit_coverage": 0.00819672131147541,
+  "source_hash": "c5bccf1153edf65d8f129bb7f2b49de939b8c129978cc4ff3ae625b1cc83f3b8",
+  "source_id": "atlas-deploy",
+  "ssa_input_availability": 1.0,
+  "stage": "detected",
+  "synthesis_mode": "conservative_baseline",
+  "synthesis_written_at": "2026-10-04T12:01:27Z",
+  "synthesized_facts_sha256": "babd732056e1923edd500aa8447b75bd2fcf15326b1f6af6bc6d040a34f01f2f"
+}

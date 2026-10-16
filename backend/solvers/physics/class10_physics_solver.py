@@ -572,7 +572,17 @@ def solve(node_id: str = "", params: dict | None = None, **kw):
             float(params.get("weight_left_g", 20)), float(params.get("dist_left_cm", 30)),
             float(params.get("weight_right_g", 24)), float(params.get("dist_right_cm", 25)))
     if task in ("cg_regular", "solve_cg_regular"):
-        return s.solve_cg_regular()
+        fields = CGRegularBody.__dataclass_fields__
+        bp = {k: v for k, v in params.items() if k in fields}
+        bp.setdefault("shape", "rectangle")
+        if bp["shape"] == "rectangle":
+            bp.setdefault("length_cm", 20.0)
+            bp.setdefault("breadth_cm", 10.0)
+        elif bp["shape"] == "circle":
+            bp.setdefault("radius_cm", 10.0)
+        elif bp["shape"] == "triangle":
+            bp.setdefault("side_cm", 10.0)
+        return s.solve_cg_regular(CGRegularBody(**bp))
     if task in ("equilibrium", "solve_equilibrium"):
         return s.solve_equilibrium()
     return {"node_id": node_id, "error": "unknown task %s" % task,
@@ -580,3 +590,29 @@ def solve(node_id: str = "", params: dict | None = None, **kw):
 
 SOLVER_REGISTRY = {"c10_phy_solve": solve}
 NODE_MAP = {"c10_phy_001": "c10_phy_solve", "c10_phy_002": "c10_phy_solve", "c10_phy_003": "c10_phy_solve"}
+
+
+# ---------------------------------------------------------------------------
+# Registry surface: per-task problem types (moments, spring balance, CG).
+# ---------------------------------------------------------------------------
+
+def _c10_task(task: str):
+    def _run(params=None, **kw):
+        payload = dict(params or {})
+        payload.update(kw)
+        payload.setdefault("task", task)
+        try:
+            return solve(params=payload)
+        except Exception as exc:
+            return {"answer": None, "steps": [f"Solver error: {exc}"],
+                    "verification": {"passed": False, "details": str(exc)}}
+    _run.__name__ = f"c10_phy_{task}"
+    return _run
+
+
+SOLVER_REGISTRY.update({
+    "c10_phy_moments": _c10_task("lever"),
+    "c10_phy_spring_balance": _c10_task("spring_balance"),
+    "c10_phy_cg_regular": _c10_task("cg_regular"),
+    "c10_phy_equilibrium": _c10_task("equilibrium"),
+})

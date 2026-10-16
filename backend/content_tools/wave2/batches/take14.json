@@ -1,0 +1,220 @@
+{
+  "edits": [
+    {
+      "file": "c11_psy_isc_03_004.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Perceptual organisation runs on a SMALL, UNIVERSAL set of principles — figure-ground, proximity, similarity, closure, continuity, common fate — and each principle explains a DIFFERENT grouping; testing figure-ground where proximity is asked (or listing principles without one-line examples) loses the application marks."
+    },
+    {
+      "file": "c11_psy_isc_03_009.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The Muller-Lyer illusion arises from DEPTH CUES misapplied to 2-D lines — arrowheads (in) read as near corners, arrowfeathers (out) as far edges, so equal lines look unequal — and knowing the lines are equal does NOT abolish the percept; citing learning/carpentered-world explanations shows the theory layer, but the illusion's persistence is the fact being tested."
+    },
+    {
+      "file": "c11_psy_isc_03_010.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** In the height-width ILLUSION a vertical line looks LONGER than an equal horizontal one — the explanation draws on our eye-movement habits and the vertical dimension's greater effort in a 3-D world; measuring with a ruler proves equality but perception stays — confusing physical equality with perceptual equality is exactly the concept the question checks."
+    },
+    {
+      "file": "c11_psy_isc_04_002.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The THALAMUS routes ALL sensory input EXCEPT SMELL (olfaction reaches the cortex directly) — it is a GATEWAY/relay, not an interpreter; and it also gates attention by filtering during sleep; giving smell a thalamic route, or calling the thalamus the seat of emotion (limbic), are the two standard station-confusion errors."
+    },
+    {
+      "file": "c11_psy_isc_04_004.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The LIMBIC system INTEGRATES emotion with memory and physiology — hippocampus (memory formation), amygdala (fear/anger evaluation), hypothalamus (autonomic drives) — and emotional memory explains why smells trigger vivid recollections; locating memory in the amygdala (hippocampus) or drives in the hippocampus (hypothalamus) scrambles the hub's division of labour."
+    },
+    {
+      "file": "c11_psy_isc_04_007.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** James-Lange says we FEEL BECAUSE the body reacts — perceive the physiological change, then experience the emotion (running precedes fear) — Cannon-Bard countered that arousal and experience are SIMULTANEOUS; sequencing the theory backwards, or attributing simultaneous firing to James-Lange, is the classic theory-ordering error."
+    },
+    {
+      "file": "c11_psy_isc_04_010.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** A MOTIVE is the INTERNAL force converting NEED into GOAL-DIRECTED action — the chain runs need → drive → incentive → goal — and motives VARY in direction and strength between people; conflating motive with the incentive (the external bait) or the drive (the aroused state) blurs the sequence the definition depends on."
+    },
+    {
+      "file": "c11_psy_isc_05_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Operant conditioning shapes VOLUNTARY behaviour by CONSEQUENCES — reinforcement INCREASES (positive: add something good; negative: remove something bad), punishment DECREASES — and negative reinforcement is NOT punishment; swapping the negative-reinforcement and punishment terms is the single most common operant-conditioning error in exams."
+    },
+    {
+      "file": "c11_psy_isc_05_009.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Dyscalculia is a BRAIN-BASED, PERSISTENT number difficulty despite normal intelligence and schooling — distinct from dyslexia (reading) and from low achievement caused by poor teaching; and it shows in number sense, estimation, and calculation fluency; calling it laziness or mere maths weakness, or pairing it with reading by default, misses the specific-learning-disability framing."
+    },
+    {
+      "file": "c11_psy_isc_06_007.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** ICONIC memory is VISUAL, HIGH-capacity, and ULTRA-brief (under a second) — demonstrated by Sperling's partial-report experiment — echoic memory is its auditory twin lasting several seconds; swapping the durations, or calling iconic memory low-capacity, inverts the sensory-register properties the experiment established."
+    },
+    {
+      "file": "c11_psy_isc_06_010.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** EPISODIC memory stores PERSONAL EVENTS with time and place tags (your last birthday) — SEMANTIC memory stores general FACTS without personal context (a capital city) — both are declarative/explicit; giving a capital-city example for episodic memory, or calling procedural skills episodic, confuses the long-term memory taxonomy."
+    },
+    {
+      "file": "c11_psy_isc_06_011.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** SEMANTIC memory is the SHARED KNOWLEDGE BASE — facts, meanings, concepts retrievable WITHOUT time-place context — distinct from episodic (personal events) and procedural (skills); and semantic knowledge can be acquired vicariously (never having visited Paris); answering with a personal-experience example for a semantic-memory question mislocates the memory type."
+    },
+    {
+      "file": "c11_psy_isc_07_002.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Thinking TYPES serve different tasks — CONVERGENT narrows to one right answer, DIVERGENT generates many possibilities (creativity's core), critical EVALUATES, analytical BREAKS DOWN — and creativity depends on divergent thinking while exam problem-solving rewards convergent; using convergent where divergent is asked (brainstorming one best idea immediately) inverts the task-type match."
+    },
+    {
+      "file": "c11_psy_isc_07_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** ARTIFICIAL concepts are HUMAN-DEFINED with NECESSARY-AND-SUFFICIENT attributes (a triangle: three sides, closed) — natural concepts (a game, a bird) have fuzzy boundaries and prototypes instead; testing triangle rules on a game, or demanding strict definitions for natural concepts, mismatches the concept type the question names."
+    },
+    {
+      "file": "c12_psy_isc_01_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Cattell SPLITS intelligence — FLUID (gf): fast, biological, novel-problem reasoning that DECLINES with age; CRYSTALLISED (gc): learned knowledge and skills that GROWS — and gf feeds gc; calling vocabulary a fluid ability, or claiming both decline identically with ageing, reverses the theory's core distinction."
+    },
+    {
+      "file": "c12_psy_isc_02_001.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Allport defines personality as a DYNAMIC ORGANISATION of body-mind processes — emphasizing ORGANISATION (structured, not a trait pile), DYNAMISM (always changing), and UNIQUENESS of each adjustment — and personality DETERMINES unique adjustment to environment; quoting the definition without the dynamic-organisation phrases (or treating traits as the whole system) loses the definitional precision."
+    },
+    {
+      "file": "c12_psy_isc_02_002.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** TEMPERAMENT is BIOLOGICALLY ROOTED and EARLY-APPEARING (activity level, emotionality, sociability noticed in infancy) — it is the SCAFFOLD personality builds ON, not personality itself — and it is MODERATELY stable, shaped by environment into adult style; calling temperament learned, or identical to character (value-laden), misses the biological-basis distinction."
+    },
+    {
+      "file": "c12_psy_isc_02_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The SELF is MULTI-LAYERED — material (body, possessions), social (roles others recognise), spiritual (inner values) per James, plus the I (knower) versus ME (known) split — and it ORGANISES experience and GUIDES behaviour; collapsing the layers into one self-image, or omitting the I/ME distinction, loses the layered-system framing."
+    },
+    {
+      "file": "c12_psy_isc_03_001.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** DEVELOPMENT is LIFELONG and QUALITATIVE reorganisation — not just quantitative growth (more of the same) — it emerges from HEREDITY-ENVIRONMENT interaction, proceeds in a predictable SEQUENCE with individual RATES, and different domains develop at different PACES; writing development as uniform growth in size alone misses the qualitative-reorganisation definition."
+    },
+    {
+      "file": "c12_psy_isc_03_011.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The preoperational-to-concrete-operational shift is a QUALITATIVE stage change — the child gains CONSERVATION (quantity survives appearance changes), REVERSIBILITY, and DECENTRING, replacing preoperational egocentrism and centration — and concrete operations still need CONCRETE materials (hypothetical-abstract waits for the formal stage); citing conservation as mere knowledge growth misses the stage-transition logic."
+    },
+    {
+      "file": "c12_psy_isc_03_017.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Marcia's FOUR statuses cross TWO axes — EXPLORATION (crisis) and COMMITMENT — identity achievement (both), moratorium (exploring, uncommitted), foreclosure (committed WITHOUT exploring, usually parents' path), diffusion (neither) — and statuses are DYNAMIC (movement is normal); calling foreclosure the healthiest (it skipped exploration) or treating statuses as fixed types misreads the matrix."
+    },
+    {
+      "file": "c12_psy_isc_05_014.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Schizophrenia's clusters OPPOSE each other — POSITIVE symptoms ADD (hallucinations, delusions, disorganised speech) and respond better to medication; NEGATIVE symptoms SUBTRACT (blunted affect, avolition, social withdrawal) and drive long-term disability — calling social withdrawal a positive symptom, or expecting medication to fix negatives fully, misreads the two-cluster structure."
+    },
+    {
+      "file": "c12_psy_isc_06_002.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The FUNDAMENTAL ATTRIBUTION ERROR over-credits PERSONALITY and under-credits SITUATION when judging OTHERS — but for OURSELVES we do the reverse (actor-observer bias: my failure is the situation) — and it persists even when situational forces are visible; swapping the self-other direction, or calling it situational over-attribution, inverts the error's defining asymmetry."
+    },
+    {
+      "file": "c12_psy_isc_06_004.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** FALSE CONSENSUS overestimates how many SHARE our views — we generalise from our own reference group — while FALSE UNIQUENESS underestimates company for our ABILITIES; the two biases move in OPPOSITE directions for opinions versus abilities — mixing their directions, or explaining false consensus by conformity (it is an estimation bias, not pressure), loses the distinction."
+    },
+    {
+      "file": "c12_psy_isc_06_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** AUTOMATIC VIGILANCE is NON-CONSCIOUS, FAST scanning that PRIORITISES socially relevant stimuli (faces, threats, one's own name in a din — the cocktail-party effect) — it operates BEFORE deliberate attention and cannot be switched off; calling it conscious choice, or claiming we attend to everything equally before filtering, misreads the pre-attentive priority system."
+    },
+    {
+      "file": "c12_psy_isc_06_010.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** GROUP POLARISATION shifts the group TOWARD ITS INITIAL LEANING — a risk-taking group becomes MORE risky, cautious more cautious — it is NOT random drift toward risk alone (that older risky-shift reading is incomplete); mechanisms: persuasive arguments and social comparison; predicting uniform moderation after discussion, or applying polarisation to groups with no initial leaning, misreads the effect's directionality."
+    },
+    {
+      "file": "c12_psy_isc_06_011.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Conformity runs on TWO motives — NORMATIVE (belong; conform publicly, privately disagree) and INFORMATIONAL (be right; conform because others seem to know) — and the PRIVATE-PUBLIC split diagnoses which motive operated; labelling informational conformity as mere peer pressure (that is normative) blurs the motive pair the question separates."
+    },
+    {
+      "file": "c12_psy_isc_06_012.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** ASCH's line-judgment studies showed ~75% conformed AT LEAST ONCE to a CLEARLY WRONG majority — conformity FELL with one dissenting ally and with written/private responses — proving majority pressure distorts even unambiguous perception; citing the study as obedience-to-authority (that is Milgram) or ignoring the ally effect loses the experiment's actual findings."
+    },
+    {
+      "file": "c12_psy_isc_06_014.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** MILGRAM's obedience studies: ~65% delivered the maximum shock under AN AUTHORITY FIGURE's prompts — proximity of the authority AND the victim modulated obedience — the lesson is SITUATIONAL power, not cruel dispositions; writing that only sadists obeyed (all were ordinary people), or that the authority's presence was irrelevant, misses the finding that made the study famous and troubling."
+    },
+    {
+      "file": "c12_psy_isc_07_002.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The AFFECTIVE component gives attitudes MOTIVATIONAL FORCE — feelings drive approach/avoid faster than beliefs — and the three components (affective, behavioural, cognitive) can CONFLICT (cognitively knowing smoking harms while feeling drawn to it) — reducing an attitude to its cognitive half misses the emotional engine the question highlights."
+    },
+    {
+      "file": "c12_psy_isc_07_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The BEHAVIOURAL component is the OUTWARD ACTION tendency — what one DOES or intends (boycotting a brand, volunteering) — not the belief behind it (cognitive) or the feeling (affective); and behaviour can SHIFT the attitude (self-perception); quoting opinions as behavioural evidence confuses the expression channel the tri-component model separates."
+    },
+    {
+      "file": "c12_psy_isc_07_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Conditioning builds attitudes by REPEATEDLY LINKING a neutral object with an emotional response — advertisements pair products with music/faces until the feeling transfers — and this works WITHOUT conscious belief change, which is its advertising power; requiring a rational argument for every attitude (that is the cognitive route) misses the conditioning route the question isolates."
+    },
+    {
+      "file": "c12_psy_isc_07_006.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** CULTURAL NORMS are the INVISIBLE SCRIPT for what society thinks, feels, and does — they set attitudes PRE-consciously (what is praiseworthy, shameful) — and norms DIFFER, so the same behaviour is polite in one culture, rude in another; reading one's own norms as universal is precisely the ethnocentric error cross-cultural attitude questions test."
+    },
+    {
+      "file": "c12_psy_isc_07_014.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** RECATEGORISATION reduces prejudice by building a SUPERORDINATE identity — from us-vs-them to a WE that includes both (the common in-group identity model) — distinct from mere CONTACT (which needs its four conditions) and from suppressing category awareness; claiming colour-blindness (ignoring categories) is recategorisation misses the inclusive new WE the method builds."
+    },
+    {
+      "file": "c12_psy_isc_07_015.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Contact reduces prejudice ONLY under FOUR conditions — EQUAL STATUS, COMMON GOALS (cooperation), INTERGROUP COOPERATION not competition, and INSTITUTIONAL SUPPORT — competing contact can WORSEN prejudice (Robbers Cave before the superordinate goals); listing contact alone as the cure, or omitting institutional support, loses the condition-set the question demands."
+    },
+    {
+      "file": "c12_psy_isc_07_016.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** POSITIVE VALUES act as INTERNAL STANDARDS that motivate behaviour INTRINSICALLY — equality or compassion guides action even without reward or surveillance — distinct from extrinsic incentives (fines, prizes), which work only while present; predicting that values need continuous external enforcement inverts the internalised-standard logic the question highlights."
+    },
+    {
+      "file": "c12_psy_isc_08_007.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** CROWDING is the SUBJECTIVE STRESS from PERCEIVED density exceeding comfort — density is a physical measure, crowding the psychological EXPERIENCE of it — the same crowd is festive at a match, stressful in a queue; and high density harms performance mainly on COMPLEX tasks; equating crowding with density (or predicting uniform stress) misses the appraisal difference the definition turns on."
+    },
+    {
+      "file": "c12_psy_isc_08_009.md", "walkthrough_append": "\n\n**EXAM TRAP:** Pro-environmental behaviour needs INFORMATION, MOTIVATION, and STRUCTURAL SUPPORT together — awareness campaigns alone fail when infrastructure (recycling bins, transit) is missing, and incentives alone fail without understanding; answering with education alone (or fines alone) misses the three-lever combination the promotion question requires."
+    },
+    {
+      "file": "c11_legal_isc_01_001.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The Constitution CREATES, LIMITS, and GUIDES the State — every organ's power flows FROM it and stops WHERE it says — and its supremacy makes conflicting laws void (Article 13); calling Parliament supreme over the Constitution (it is supreme UNDER it), or citing the Constitution as one source among equals, inverts the legal hierarchy the chapter opens with."
+    },
+    {
+      "file": "c11_legal_isc_01_004.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Fundamental DUTIES (Article 51A, Part IVA, added by the 42nd Amendment 1976) are the MIRROR of rights — non-justiciable (no court enforcement) but a interpretive aid to rights and a legislative guide; writing that duties are enforceable like rights, or dating them to 1950, misses both their legal nature and their amendment-era origin."
+    },
+    {
+      "file": "c11_legal_isc_01_006.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** SCHEDULES are BINDING parts of the Constitution housing DETAIL (languages in the Eighth, anti-defection in the Tenth, land reform in the Ninth) — amendments to schedules follow constitutional procedure, not ordinary legislation; describing schedules as mere appendices, or claiming ordinary law can alter them, misses their constitutional status."
+    },
+    {
+      "file": "c11_legal_isc_01_014.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Article 368 is the SAFETY VALVE — change without revolution — but amendment power has a CEILING: the basic structure doctrine (Kesavananda, 1973) bars destroying the Constitution's identity (supremacy, secularism, judicial review); answering that Parliament may amend ANYTHING by the right majority, or that courts can strike amendments on policy grounds, misses both the power and its limit."
+    },
+    {
+      "file": "c11_legal_isc_02_004.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The HISTORICAL SCHOOL holds law is DISCOVERED, not made — it grows organically from the VOLKSGEIST (people's spirit), custom preceding legislation (Savigny) — its counterpoint is the analytical/positivist school (law as sovereign command); quoting Savigny as a law-MAKER theorist, or expecting the school to justify rapid legislative transplant of foreign codes, misreads its organic-evolution stance."
+    },
+    {
+      "file": "c11_legal_isc_02_008.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** CUSTOM becomes law through LONG, CONTINUOUS, CERTAIN, PEACEABLE practice accompanied by OPINIO JURIS (conviction of legal obligation) — and custom must yield to STATUTE; a practice followed for convenience or out of courtesy never ripens — validating a habit by age alone, or ranking custom above enacted law, misses the acceptance test and the hierarchy."
+    },
+    {
+      "file": "c11_legal_isc_03_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** JURISDICTION is the GATEWAY — a decree from a court WITHOUT jurisdiction is a NULLITY, curable by no amount of argument — and its three locks (territorial, pecuniary, subject-matter) are checked IN ORDER before filing; subject-matter jurisdiction CANNOT be conferred by agreement, though territorial and pecuniary limits may sometimes be waived — confusing which locks are waivable loses the procedural mark."
+    },
+    {
+      "file": "c11_legal_isc_03_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The THREE-LOCK test — TERRITORIAL (where the defendant resides/cause arose), PECUNIARY (the court's value ceiling), SUBJECT-MATTER (the class of disputes the court may hear) — must ALL pass; failing any one is fatal, and appeals cannot cure a jurisdictional defect; treating the locks as alternatives (any one suffices) inverts the AND-structure the CPC prescribes."
+    },
+    {
+      "file": "c11_legal_isc_03_010.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Correct FORUM selection is the LITIGANT'S burden — the court will not fix a wrong filing, and objections to jurisdiction can defeat even a winning case — the practical sequence: identify the defendant's residence, compute claim value, classify the subject matter, THEN file; drafting the plaint before the jurisdiction analysis inverts the workflow the question tests."
+    },
+    {
+      "file": "c11_legal_isc_03_012.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The CPA 2019 is the CONSUMER-CENTRIC counterpart to general civil law — it adds definitions (product liability, e-commerce), expanded pecuniary tiers (District, State, National), mediation, and CCPA's regulatory powers — but it does NOT displace the CPC for non-consumer disputes; describing the 2019 Act as replacing civil courts wholesale, or missing the e-commerce coverage that distinguishes it from 1986, loses the comparison marks."
+    },
+    {
+      "file": "c11_legal_isc_04_004.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The IDEA-EXPRESSION dichotomy protects EXPRESSION ONLY — the exact words, code, artwork — never the underlying IDEA, plot, or method (ideas are public domain to keep creativity competitive); a different novel with the same boy-wizard IDEA does not infringe; claiming idea protection, or demanding copyright registration as a precondition (it arises on creation), loses the dichotomy's two halves."
+    },
+    {
+      "file": "c11_legal_isc_04_011.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Patentability needs ALL THREE prongs — NOVELTY (new to the world), INVENTIVE STEP (non-obvious to a skilled person), INDUSTRIAL APPLICATION — and failing ONE defeats the claim; an old drug with a new use may face section 3(d)'s enhanced-efficacy bar (Novartis/Glivec); checking novelty alone, or treating discovery of a natural substance as patentable, loses the three-prong test."
+    },
+    {
+      "file": "c11_legal_isc_04_012.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Section 3 EXCLUSIONS are absolute — discoveries, scientific principles, business methods, computer programs per se, traditional knowledge — NO amount of novelty cures them; and 3(d) blocks evergreening (new forms without enhanced THERAPEUTIC efficacy); writing that a business method with a technical app qualifies, or that 3(d) is about novelty, misses the carve-out's independence from the three-prong test."
+    },
+    {
+      "file": "c11_legal_isc_04_013.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The Indian patent term is 20 YEARS FROM THE FILING DATE — non-extendable except narrowly — renewal fees keep it alive annually; after expiry the invention enters PUBLIC DOMAIN for all; dating the term from GRANT (shortening it wrongly) or expecting extension cycles (a pharma-evergreening habit the law blocks) loses the term-calculation mark."
+    },
+    {
+      "file": "c11_legal_isc_05_001.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Hindu marriage law runs from CUSTOMARY roots to STATUTORY form — the HMA 1955 codified conditions (Section 5), monogamy, and divorce (earlier only for some communities), while customs survive IF pleaded and proven (ancient, certain, reasonable, not against public policy) — answering with statute alone ignores living custom, and with custom alone ignores the Act's overriding conditions."},
+    {
+      "file": "c11_legal_isc_05_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The family SCHOOL decides inheritance at BIRTH — MITAKSHARA gives the grandson an immediate BIRTHRIGHT in coparcenary property; DAYABHAGA gives no right until the father's death (Bengal/Assam) — and the school follows the father, not the property's location; citing Dayabhaga for a Bombay-family coparcenary question (or vice versa) loses the school-application mark."},
+    {
+      "file": "c11_legal_isc_05_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Section 5's conditions run in ORDER — monogamy (no living spouse), MENTAL CAPACITY (no unsoundness at the time), AGE (bride 18, groom 21 — not both 21), no prohibited relationship UNLESS custom permits, no sapinda bond unless custom allows — and violation of Sections 5(i)/(ii) makes the marriage void while other breaches are punishable but may leave validity; swapping the age bar or voidability consequences loses the conditions map."}
+  ]
+}

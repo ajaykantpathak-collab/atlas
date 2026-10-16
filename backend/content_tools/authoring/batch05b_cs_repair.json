@@ -1,0 +1,14 @@
+{
+  "edits": [
+    {
+      "file": "c11_cs_cbse_02_003.md",
+      "definition": "The three fundamental Boolean operations work on True and False values: AND (conjunction) returns True only when both inputs are True; OR (disjunction) returns True when at least one input is True; NOT (negation) reverses its single input, turning True to False and False to True. Each operation is completely described by its truth table — a listing of the output for every combination of inputs — two rows for NOT, four for two-input AND and OR. Every complex logical condition in a program, however long, is built from these three operations alone.",
+      "walkthrough_append": "Evaluate a condition step by step the way the computer does: for age = 17 and has_permission = True, the expression age >= 18 OR has_permission breaks into False OR True, and the OR table returns True; swap to age >= 18 AND has_permission and the same inputs give False AND True, which is False. Count the rows as you write each table — two inputs, four rows; one input, two rows — and no entry can be forgotten. Exam takeaway: AND needs both, OR needs one, NOT flips; the truth table is the definition. Self-check: write the truth tables of A AND B and A OR B from memory, then evaluate (True AND False) OR NOT False."
+    },
+    {
+      "file": "c11_cs_cbse_03_007.md",
+      "definition": "Pseudocode is a structured description of an algorithm written in ordinary language stiffened with programming-like constructs — keywords such as READ, PRINT, IF-THEN-ELSE, WHILE, FOR, indented blocks and clear assignment statements — without obeying the syntax rules of any real programming language. It captures the logic completely: what is read, what is computed, in what order, and what is printed, while leaving punctuation, declarations and language detail to the coding stage. Its purpose is communication and planning: an algorithm in pseudocode can be reviewed by a reader who has never seen the target language, then translated into Python, C or any other language with the logic already settled.",
+      "walkthrough_append": "Translate one small algorithm both ways to see the distance pseudocode covers: 'READ marks; IF marks >= 33 THEN PRINT \"Pass\" ELSE PRINT \"Fail\"' needs only a colon, indentation and print() to become Python — the logic never changes, only the dress. Keep the conventions straight while writing: one statement per line, indentation to show what belongs inside IF and WHILE blocks, and descriptive names (total_marks, not x). Exam takeaway: pseudocode states the logic precisely but syntax-freely; keywords and indentation carry the structure. Self-check: write pseudocode to read numbers until 0 is entered and print their sum, using READ, WHILE and PRINT, then point to the line you would change to turn it into Python."
+    }
+  ]
+}

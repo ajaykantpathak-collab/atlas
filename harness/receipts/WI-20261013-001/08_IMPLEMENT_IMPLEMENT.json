@@ -1,0 +1,12 @@
+{
+ "receipt_id": "rcpt_20261013T155433Z_d00c3271",
+ "work_item": "WI-20261013-001",
+ "from_state": "IMPLEMENT",
+ "to_state": "IMPLEMENT",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:54:33Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "BLOCKED-ENVIRONMENT: verify 04 was red on G2/G3 due to a CONCURRENT session in-flight edits (deploy/backend/its/solver/answer_pipeline.py + deploy/backend/api/solve_check.py, both mtime 2026-10-13 20:10 local, uncommitted, root-shadow stale, author-unknown): G2 = 5 new unlisted silent-except sites + pin 14!=19; G3 = ROUTER_DIRECT_SOLVER in api/solve_check.py:112. Out of this WI lane per BRIEF_SHARED law 5 — not edited here. This WI (question_hash change) is code-complete, own-scope gates green; retry verify when the concurrent batch lands its pin/boundary obligations.",
+ "prev_receipt_sha256": "68cc187d4598efa819563958fd88463f6136343ad6b308dfcd4ecb8ab909b3b9"
+}

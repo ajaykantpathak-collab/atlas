@@ -313,7 +313,7 @@ def parse_question_bank_file(filepath: str) -> dict:
 
     # Parse questions from body — rich inline formats first (they carry
     # options/answers/node tags), then legacy formats
-    questions = _parse_inline_questions(header_content)
+    questions, dropped_rows = _parse_inline_questions(header_content)
     if not questions:
         questions = _parse_diag_questions(header_content)
 
@@ -335,6 +335,9 @@ def parse_question_bank_file(filepath: str) -> dict:
         "subject": sections.get("SUBJECT", "").strip(),
         "chapter": sections.get("CHAPTER", "").strip(),
         "questions": questions,
+        # rows the parser built then dropped (empty text etc.) — the
+        # reload planner reconciles these; nothing is dropped silently.
+        "dropped_rows": dropped_rows,
     }
 
 
@@ -342,12 +345,25 @@ def _parse_qb_questions(body: str) -> list[dict]:
     """Parse question bank body into structured Q&A pairs.
 
     Handles "Q1. ... (2 marks) Answer: ..." format.
+
+    WS-E (2026-10-11) ingestion-integrity fix, two contract changes:
+
+    1. The Q-header separator class is same-line only (``[.:\\t ]*``).
+       The old ``[.:\\s]+`` matched newlines, so a stemless question
+       ("Q2.\\nAnswer: ...") consumed its own ANSWER LINE as the stem
+       and inherited the NEXT question's answer — silent data
+       corruption.  A stemless question now parses with an empty
+       ``question`` and its OWN answer.
+    2. Empty-stem questions are RETURNED (not silently skipped) so
+       callers can account for the drop explicitly
+       (load_content.load_question_banks skips them at insert;
+       reload_questions.plan_reload counts them as empty_text_drops).
     """
     questions: list[dict] = []
     current_section = ""
 
     q_matches = list(re.finditer(
-        r'Q(\d+)[.:\s]+\s*(.*?)(?=\nAnswer:|\nQ\d+[.:\s]|\n===|\Z)',
+        r'Q(\d+)(?:[.:\t ][.:\t ]*|(?=\n))(.*?)(?=\nAnswer:|\nQ\d+[.:\s]|\n===|\Z)',
         body, re.DOTALL,
     ))
 
@@ -385,10 +401,9 @@ def _parse_qb_questions(body: str) -> list[dict]:
         else:
             answer_text = ""
 
-        # Skip empty questions
-        if not q_text_clean:
-            continue
-
+        # Empty stems stay in the output (contract change, see docstring):
+        # callers (load_content insert path, reload plan accounting)
+        # model the drop explicitly instead of the parser hiding it.
         questions.append({
             "number": q_num,
             "question": q_text_clean,
@@ -542,9 +557,12 @@ def _field(body: str, name: str) -> str:
     return m.group(1).strip().strip('"') if m else ""
 
 
-def _parse_inline_questions(body: str) -> list[dict]:
-    """Parse 'Question: Q001, node, marks, TYPE, "text", OPTIONS:...' format."""
+def _parse_inline_questions(body: str) -> tuple[list[dict], int]:
+    """Parse 'Question: Q001, node, marks, TYPE, "text", OPTIONS:...' format.
+    Returns (questions, dropped_rows) — rows built then dropped for empty
+    question text are counted, never silent."""
     questions: list[dict] = []
+    dropped = 0
     current_section = ""
     for qm in INLINE_Q_RE.finditer(body):
         q_num, node_id, marks, q_type, rest = (
@@ -572,6 +590,7 @@ def _parse_inline_questions(body: str) -> list[dict]:
             ]
 
         if not qtext:
+            dropped += 1
             continue
         questions.append({
             "number": q_num,
@@ -585,7 +604,7 @@ def _parse_inline_questions(body: str) -> list[dict]:
             "marks": marks,
             "section": current_section,
         })
-    return questions
+    return questions, dropped
 
 
 def _parse_diag_questions(body: str) -> list[dict]:

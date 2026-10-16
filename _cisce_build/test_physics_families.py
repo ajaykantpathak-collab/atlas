@@ -59,6 +59,8 @@ CASES = [
     ("Find the weight of a 10 kg object (take g = 9.8 m/s^2).", 98.0,
      "WEIGHT_MG"),
     ("Find the weight of a 10 kg object on the moon.", 16.0, "WEIGHT_MG"),
+    ("Find the weight of a 10 kg object on the Moon where g = 1.6 m/s^2.",
+     16.0, "WEIGHT_MG"),
     ("A block of mass 5 kg rests on a table. The coefficient of friction "
      "is 0.4. Find the force of friction (g = 9.8 m/s^2).", 19.6,
      "FRICTION_MU_N"),
@@ -316,6 +318,13 @@ GATES = [
     # ball less dense than the fluid: no terminal fall term
     "Find the terminal velocity of a ball of radius 2 mm and density "
     "900 kg/m^3 falling through water of viscosity 0.001 Pa s.",
+    # absurd g on a named body: 200 m/s^2 contradicts the Moon's 1.62
+    # (redteam regression -- answered 2000 N VERIFIED with a fake check)
+    "Find the weight of a 10 kg object on the Moon where g = 200 m/s^2.",
+    # explicit g far below the plausible band [0.5, 350] m/s^2
+    "Find the weight of a 60 kg object where g = 0.05 m/s^2.",
+    # explicit g far above the plausible band [0.5, 350] m/s^2
+    "Find the weight of a 60 kg object where g = 900 m/s^2.",
 ]
 
 # negatives: other-subject probes must not fire any physics family

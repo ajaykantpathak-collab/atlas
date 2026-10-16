@@ -1,0 +1,127 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c4)",
+ "source_file": "c4_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C4_001",
+   "title": "NO FORMULAS AT THIS LEVEL: No speed = ...",
+   "section": "NO FORMULAS AT THIS LEVEL",
+   "formula": "No_speed = distance / time",
+   "_pats_extra": [],
+   "key_idea": "NO FORMULAS AT THIS LEVEL (NO FORMULAS AT THIS LEVEL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find no speed using no formulas at this level",
+    "calculate no formulas at this level",
+    "no formulas at this level formula question",
+    "given values find no speed",
+    "no formulas at this level no formulas at this level numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C4_001",
+     "question_pattern": "no formulas at this level with {distance} and {time} find no speed",
+     "extracted_variables": {
+      "distance": "given distance",
+      "time": "given time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for distance, time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "No speed = distance / time",
+     "compute": "No_speed = distance / time"
+    }
+   ],
+   "chapter_title": "NO FORMULAS AT THIS LEVEL"
+  },
+  {
+   "id": "FB_PHY_C4_002",
+   "title": "NO FORMULAS AT THIS LEVEL: No work = ...",
+   "section": "NO FORMULAS AT THIS LEVEL",
+   "formula": "No_work = force*distance",
+   "_pats_extra": [],
+   "key_idea": "NO FORMULAS AT THIS LEVEL (NO FORMULAS AT THIS LEVEL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find no work using no formulas at this level",
+    "calculate no formulas at this level",
+    "no formulas at this level formula question",
+    "given values find no work",
+    "no formulas at this level no formulas at this level numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C4_002",
+     "question_pattern": "no formulas at this level with {force} and {distance} find no work",
+     "extracted_variables": {
+      "force": "given force",
+      "distance": "given distance"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for force, distance from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "No work = force*distance",
+     "compute": "No_work = force*distance"
+    }
+   ],
+   "chapter_title": "NO FORMULAS AT THIS LEVEL"
+  },
+  {
+   "id": "FB_PHY_C4_003",
+   "title": "NO FORMULAS AT THIS LEVEL: No power = ...",
+   "section": "NO FORMULAS AT THIS LEVEL",
+   "formula": "No_power = work / time",
+   "_pats_extra": [],
+   "key_idea": "NO FORMULAS AT THIS LEVEL (NO FORMULAS AT THIS LEVEL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find no power using no formulas at this level",
+    "calculate no formulas at this level",
+    "no formulas at this level formula question",
+    "given values find no power",
+    "no formulas at this level no formulas at this level numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C4_003",
+     "question_pattern": "no formulas at this level with {work} and {time} find no power",
+     "extracted_variables": {
+      "work": "given work",
+      "time": "given time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for work, time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "No power = work / time",
+     "compute": "No_power = work / time"
+    }
+   ],
+   "chapter_title": "NO FORMULAS AT THIS LEVEL"
+  }
+ ]
+}

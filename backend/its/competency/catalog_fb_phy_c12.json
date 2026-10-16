@@ -1,0 +1,1338 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c12)",
+ "source_file": "c12_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C12_001",
+   "title": "Coulomb's law: epsilon_0 = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)",
+   "_pats_extra": [],
+   "key_idea": "Coulomb's law (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find epsilon_0 using coulomb's law",
+    "calculate coulomb's law",
+    "coulomb's law formula question",
+    "given values find epsilon_0",
+    "electrostatics coulomb's law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_001",
+     "question_pattern": "coulomb's law with {N} and {m} find epsilon_0",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)",
+     "compute": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_002",
+   "title": "Electric field: E = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "E = k*q/r^2",
+   "_pats_extra": [],
+   "key_idea": "Electric field (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using electric field",
+    "calculate electric field",
+    "electric field formula question",
+    "given values find e",
+    "electrostatics electric field numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_002",
+     "question_pattern": "electric field with {k} and {q} and {r} find e",
+     "extracted_variables": {
+      "k": "given k",
+      "q": "given q",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, q, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = k*q/r^2",
+     "compute": "E = k*q/r^2"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_003",
+   "title": "Electric field: E = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "E = sigma/(2*epsilon_0)",
+   "_pats_extra": [],
+   "key_idea": "Electric field (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using electric field",
+    "calculate electric field",
+    "electric field formula question",
+    "given values find e",
+    "electrostatics electric field numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_003",
+     "question_pattern": "electric field with {epsilon_0} find e",
+     "extracted_variables": {
+      "epsilon_0": "given epsilon_0"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for epsilon_0 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = sigma/(2*epsilon_0)",
+     "compute": "E = sigma/(2*epsilon_0)"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_004",
+   "title": "Electric field: E = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "E = Q/(4*pi*epsilon_0*R^2)",
+   "_pats_extra": [],
+   "key_idea": "Electric field (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using electric field",
+    "calculate electric field",
+    "electric field formula question",
+    "given values find e",
+    "electrostatics electric field numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_004",
+     "question_pattern": "electric field with {Q} and {epsilon_0} and {R} find e",
+     "extracted_variables": {
+      "Q": "given Q",
+      "epsilon_0": "given epsilon_0",
+      "R": "given R"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Q, epsilon_0, R from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = Q/(4*pi*epsilon_0*R^2)",
+     "compute": "E = Q/(4*pi*epsilon_0*R^2)"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_005",
+   "title": "Electric dipole: E_axial = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "E_axial = 2*k*p/r^3 (on_axis, far_away)",
+   "_pats_extra": [],
+   "key_idea": "Electric dipole (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e_axial using electric dipole",
+    "calculate electric dipole",
+    "electric dipole formula question",
+    "given values find e_axial",
+    "electrostatics electric dipole numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_005",
+     "question_pattern": "electric dipole with {k} and {p} and {r} and {on_axis} and {far_away} find e_axial",
+     "extracted_variables": {
+      "k": "given k",
+      "p": "given p",
+      "r": "given r",
+      "on_axis": "given on_axis",
+      "far_away": "given far_away"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, p, r, on_axis, far_away from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E_axial = 2*k*p/r^3 (on_axis, far_away)",
+     "compute": "E_axial = 2*k*p/r^3 (on_axis, far_away)"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_006",
+   "title": "Electric dipole: E_equatorial = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "E_equatorial = k*p/r^3 (on_equator, far_away)",
+   "_pats_extra": [],
+   "key_idea": "Electric dipole (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e_equatorial using electric dipole",
+    "calculate electric dipole",
+    "electric dipole formula question",
+    "given values find e_equatorial",
+    "electrostatics electric dipole numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_006",
+     "question_pattern": "electric dipole with {k} and {p} and {r} and {on_equator} and {far_away} find e_equatorial",
+     "extracted_variables": {
+      "k": "given k",
+      "p": "given p",
+      "r": "given r",
+      "on_equator": "given on_equator",
+      "far_away": "given far_away"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, p, r, on_equator, far_away from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E_equatorial = k*p/r^3 (on_equator, far_away)",
+     "compute": "E_equatorial = k*p/r^3 (on_equator, far_away)"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_007",
+   "title": "Electric potential: V = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "V = k*q/r",
+   "_pats_extra": [],
+   "key_idea": "Electric potential (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using electric potential",
+    "calculate electric potential",
+    "electric potential formula question",
+    "given values find v",
+    "electrostatics electric potential numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_007",
+     "question_pattern": "electric potential with {k} and {q} and {r} find v",
+     "extracted_variables": {
+      "k": "given k",
+      "q": "given q",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, q, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V = k*q/r",
+     "compute": "V = k*q/r"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_008",
+   "title": "Electric potential: V = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "V = W/q_0",
+   "_pats_extra": [],
+   "key_idea": "Electric potential (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using electric potential",
+    "calculate electric potential",
+    "electric potential formula question",
+    "given values find v",
+    "electrostatics electric potential numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_008",
+     "question_pattern": "electric potential with {W} and {q_0} find v",
+     "extracted_variables": {
+      "W": "given W",
+      "q_0": "given q_0"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for W, q_0 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V = W/q_0",
+     "compute": "V = W/q_0"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_009",
+   "title": "Potential energy: U = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "U = kq_1*q_2/r",
+   "_pats_extra": [],
+   "key_idea": "Potential energy (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find u using potential energy",
+    "calculate potential energy",
+    "potential energy formula question",
+    "given values find u",
+    "electrostatics potential energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_009",
+     "question_pattern": "potential energy with {kq_1} and {q_2} and {r} find u",
+     "extracted_variables": {
+      "kq_1": "given kq_1",
+      "q_2": "given q_2",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kq_1, q_2, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "U = kq_1*q_2/r",
+     "compute": "U = kq_1*q_2/r"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_010",
+   "title": "Potential energy: U = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "U = q*V",
+   "_pats_extra": [],
+   "key_idea": "Potential energy (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find u using potential energy",
+    "calculate potential energy",
+    "potential energy formula question",
+    "given values find u",
+    "electrostatics potential energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_010",
+     "question_pattern": "potential energy with {q} and {V} find u",
+     "extracted_variables": {
+      "q": "given q",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for q, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "U = q*V",
+     "compute": "U = q*V"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_011",
+   "title": "Capacitance: C = ...",
+   "section": "ELECTROSTATICS",
+   "formula": "C = Q/V",
+   "_pats_extra": [],
+   "key_idea": "Capacitance (ELECTROSTATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c using capacitance",
+    "calculate capacitance",
+    "capacitance formula question",
+    "given values find c",
+    "electrostatics capacitance numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_011",
+     "question_pattern": "capacitance with {Q} and {V} find c",
+     "extracted_variables": {
+      "Q": "given Q",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Q, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "C = Q/V",
+     "compute": "C = Q/V"
+    }
+   ],
+   "chapter_title": "ELECTROSTATICS"
+  },
+  {
+   "id": "FB_PHY_C12_012",
+   "title": "Ohm's law: rho = ...",
+   "section": "CURRENT ELECTRICITY",
+   "formula": "rho = m/(n*e^2*tau)",
+   "_pats_extra": [],
+   "key_idea": "Ohm's law (CURRENT ELECTRICITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rho using ohm's law",
+    "calculate ohm's law",
+    "ohm's law formula question",
+    "given values find rho",
+    "current electricity ohm's law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_012",
+     "question_pattern": "ohm's law with {m} and {n} and {e} find rho",
+     "extracted_variables": {
+      "m": "given m",
+      "n": "given n",
+      "e": "given e"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, n, e from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "rho = m/(n*e^2*tau)",
+     "compute": "rho = m/(n*e^2*tau)"
+    }
+   ],
+   "chapter_title": "CURRENT ELECTRICITY"
+  },
+  {
+   "id": "FB_PHY_C12_013",
+   "title": "Ampere's law: integralBxdl = ...",
+   "section": "MAGNETISM",
+   "formula": "integralBxdl = mu*_0*I_enclosed",
+   "_pats_extra": [],
+   "key_idea": "Ampere's law (MAGNETISM)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find integralbxdl using ampere's law",
+    "calculate ampere's law",
+    "ampere's law formula question",
+    "given values find integralbxdl",
+    "magnetism ampere's law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_013",
+     "question_pattern": "ampere's law with {_0} and {I_enclosed} find integralbxdl",
+     "extracted_variables": {
+      "_0": "given _0",
+      "I_enclosed": "given I_enclosed"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for _0, I_enclosed from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "integralBxdl = mu*_0*I_enclosed",
+     "compute": "integralBxdl = mu*_0*I_enclosed"
+    }
+   ],
+   "chapter_title": "MAGNETISM"
+  },
+  {
+   "id": "FB_PHY_C12_014",
+   "title": "Force on charge/conductor: F = ...",
+   "section": "MAGNETISM",
+   "formula": "F = q*v*B",
+   "_pats_extra": [],
+   "key_idea": "Force on charge/conductor (MAGNETISM)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using force on charge/conductor",
+    "calculate force on charge/conductor",
+    "force on charge/conductor formula question",
+    "given values find f",
+    "magnetism force on charge/conductor numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_014",
+     "question_pattern": "force on charge/conductor with {q} and {v} and {B} find f",
+     "extracted_variables": {
+      "q": "given q",
+      "v": "given v",
+      "B": "given B"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for q, v, B from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = q*v*B",
+     "compute": "F = q*v*B"
+    }
+   ],
+   "chapter_title": "MAGNETISM"
+  },
+  {
+   "id": "FB_PHY_C12_015",
+   "title": "Motional EMF: epsilon = ...",
+   "section": "ELECTROMAGNETIC INDUCTION",
+   "formula": "epsilon = B*l*v",
+   "_pats_extra": [],
+   "key_idea": "Motional EMF (ELECTROMAGNETIC INDUCTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find epsilon using motional emf",
+    "calculate motional emf",
+    "motional emf formula question",
+    "given values find epsilon",
+    "electromagnetic induction motional emf numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_015",
+     "question_pattern": "motional emf with {B} and {l} and {v} find epsilon",
+     "extracted_variables": {
+      "B": "given B",
+      "l": "given l",
+      "v": "given v"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for B, l, v from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "epsilon = B*l*v",
+     "compute": "epsilon = B*l*v"
+    }
+   ],
+   "chapter_title": "ELECTROMAGNETIC INDUCTION"
+  },
+  {
+   "id": "FB_PHY_C12_016",
+   "title": "Motional EMF: epsilon = ...",
+   "section": "ELECTROMAGNETIC INDUCTION",
+   "formula": "epsilon = 1/2*Bomegal^2",
+   "_pats_extra": [],
+   "key_idea": "Motional EMF (ELECTROMAGNETIC INDUCTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find epsilon using motional emf",
+    "calculate motional emf",
+    "motional emf formula question",
+    "given values find epsilon",
+    "electromagnetic induction motional emf numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_016",
+     "question_pattern": "motional emf with {Bomegal} find epsilon",
+     "extracted_variables": {
+      "Bomegal": "given Bomegal"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Bomegal from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "epsilon = 1/2*Bomegal^2",
+     "compute": "epsilon = 1/2*Bomegal^2"
+    }
+   ],
+   "chapter_title": "ELECTROMAGNETIC INDUCTION"
+  },
+  {
+   "id": "FB_PHY_C12_017",
+   "title": "Self/Mutual inductance: L = ...",
+   "section": "ELECTROMAGNETIC INDUCTION",
+   "formula": "L = mu*_0^2*A/l",
+   "_pats_extra": [],
+   "key_idea": "Self/Mutual inductance (ELECTROMAGNETIC INDUCTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l using self/mutual inductance",
+    "calculate self/mutual inductance",
+    "self/mutual inductance formula question",
+    "given values find l",
+    "electromagnetic induction self/mutual inductance numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_017",
+     "question_pattern": "self/mutual inductance with {_0} and {A} and {l} find l",
+     "extracted_variables": {
+      "_0": "given _0",
+      "A": "given A",
+      "l": "given l"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for _0, A, l from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L = mu*_0^2*A/l",
+     "compute": "L = mu*_0^2*A/l"
+    }
+   ],
+   "chapter_title": "ELECTROMAGNETIC INDUCTION"
+  },
+  {
+   "id": "FB_PHY_C12_018",
+   "title": "AC generator: epsilon_rms = ...",
+   "section": "ELECTROMAGNETIC INDUCTION",
+   "formula": "epsilon_rms = NBAomega/sqrt2",
+   "_pats_extra": [],
+   "key_idea": "AC generator (ELECTROMAGNETIC INDUCTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find epsilon_rms using ac generator",
+    "calculate ac generator",
+    "ac generator formula question",
+    "given values find epsilon_rms",
+    "electromagnetic induction ac generator numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_018",
+     "question_pattern": "ac generator with {NBAomega} and {sqrt2} find epsilon_rms",
+     "extracted_variables": {
+      "NBAomega": "given NBAomega",
+      "sqrt2": "given sqrt2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for NBAomega, sqrt2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "epsilon_rms = NBAomega/sqrt2",
+     "compute": "epsilon_rms = NBAomega/sqrt2"
+    }
+   ],
+   "chapter_title": "ELECTROMAGNETIC INDUCTION"
+  },
+  {
+   "id": "FB_PHY_C12_019",
+   "title": "Reflection (spherical mirrors): f = ...",
+   "section": "OPTICS",
+   "formula": "f = R/2",
+   "_pats_extra": [],
+   "key_idea": "Reflection (spherical mirrors) (OPTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using reflection (spherical mirrors)",
+    "calculate reflection (spherical mirrors)",
+    "reflection (spherical mirrors) formula question",
+    "given values find f",
+    "optics reflection (spherical mirrors) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_019",
+     "question_pattern": "reflection (spherical mirrors) with {R} find f",
+     "extracted_variables": {
+      "R": "given R"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for R from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "f = R/2",
+     "compute": "f = R/2"
+    }
+   ],
+   "chapter_title": "OPTICS"
+  },
+  {
+   "id": "FB_PHY_C12_020",
+   "title": "Prism: delta = ...",
+   "section": "OPTICS",
+   "formula": "delta = (i_1 + i_2) - A",
+   "_pats_extra": [],
+   "key_idea": "Prism (OPTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta using prism",
+    "calculate prism",
+    "prism formula question",
+    "given values find delta",
+    "optics prism numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_020",
+     "question_pattern": "prism with {i_1} and {i_2} and {A} find delta",
+     "extracted_variables": {
+      "i_1": "given i_1",
+      "i_2": "given i_2",
+      "A": "given A"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for i_1, i_2, A from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "delta = (i_1 + i_2) - A",
+     "compute": "delta = (i_1 + i_2) - A"
+    }
+   ],
+   "chapter_title": "OPTICS"
+  },
+  {
+   "id": "FB_PHY_C12_021",
+   "title": "Interference (Young's double slit): beta = ...",
+   "section": "OPTICS",
+   "formula": "beta = lambdaD/d",
+   "_pats_extra": [],
+   "key_idea": "Interference (Young's double slit) (OPTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find beta using interference (young's double slit)",
+    "calculate interference (young's double slit)",
+    "interference (young's double slit) formula question",
+    "given values find beta",
+    "optics interference (young's double slit) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_021",
+     "question_pattern": "interference (young's double slit) with {lambdaD} and {d} find beta",
+     "extracted_variables": {
+      "lambdaD": "given lambdaD",
+      "d": "given d"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for lambdaD, d from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "beta = lambdaD/d",
+     "compute": "beta = lambdaD/d"
+    }
+   ],
+   "chapter_title": "OPTICS"
+  },
+  {
+   "id": "FB_PHY_C12_022",
+   "title": "Diffraction (single slit): Central max width = ...",
+   "section": "OPTICS",
+   "formula": "Central_max_width = 2*lambdaD/a",
+   "_pats_extra": [],
+   "key_idea": "Diffraction (single slit) (OPTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find central max width using diffraction (single slit)",
+    "calculate diffraction (single slit)",
+    "diffraction (single slit) formula question",
+    "given values find central max width",
+    "optics diffraction (single slit) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_022",
+     "question_pattern": "diffraction (single slit) with {lambdaD} and {a} find central max width",
+     "extracted_variables": {
+      "lambdaD": "given lambdaD",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for lambdaD, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Central max width = 2*lambdaD/a",
+     "compute": "Central_max_width = 2*lambdaD/a"
+    }
+   ],
+   "chapter_title": "OPTICS"
+  },
+  {
+   "id": "FB_PHY_C12_023",
+   "title": "Photoelectric effect: h = ...",
+   "section": "MODERN PHYSICS",
+   "formula": "h = 6.626*10^-34*J*x*s",
+   "_pats_extra": [],
+   "key_idea": "Photoelectric effect (MODERN PHYSICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find h using photoelectric effect",
+    "calculate photoelectric effect",
+    "photoelectric effect formula question",
+    "given values find h",
+    "modern physics photoelectric effect numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_023",
+     "question_pattern": "photoelectric effect with {J} and {s} find h",
+     "extracted_variables": {
+      "J": "given J",
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for J, s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "h = 6.626*10^-34*J*x*s",
+     "compute": "h = 6.626*10^-34*J*x*s"
+    }
+   ],
+   "chapter_title": "MODERN PHYSICS"
+  },
+  {
+   "id": "FB_PHY_C12_024",
+   "title": "Bohr model: mvr = ...",
+   "section": "MODERN PHYSICS",
+   "formula": "v = (n*h*pi)/(m*r*n*h*pi); r = (n*h*pi)/(m*v*n*h*pi); pi = (n*h*pi)/(m*v*r*n*h); m = (n*h*pi)/(v*r*n*h*pi); n = (n*h*pi)/(m*v*r*h*pi); h = (n*h*pi)/(m*v*r*n*pi)",
+   "_pats_extra": [],
+   "key_idea": "Bohr model (MODERN PHYSICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mvr using bohr model",
+    "calculate bohr model",
+    "bohr model formula question",
+    "given values find mvr",
+    "modern physics bohr model numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_024",
+     "question_pattern": "bohr model with {n} and {h} find mvr",
+     "extracted_variables": {
+      "n": "given n",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "mvr = n*h/(2*pi)",
+     "compute": "v = (n*h*pi)/(m*r*n*h*pi); r = (n*h*pi)/(m*v*n*h*pi); pi = (n*h*pi)/(m*v*r*n*h); m = (n*h*pi)/(v*r*n*h*pi); n = (n*h*pi)/(m*v*r*h*pi); h = (n*h*pi)/(m*v*r*n*pi)"
+    }
+   ],
+   "chapter_title": "MODERN PHYSICS"
+  },
+  {
+   "id": "FB_PHY_C12_025",
+   "title": "Nuclear physics: E = ...",
+   "section": "MODERN PHYSICS",
+   "formula": "E = m*c^2 (mass-energy_equivalence)",
+   "_pats_extra": [],
+   "key_idea": "Nuclear physics (MODERN PHYSICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using nuclear physics",
+    "calculate nuclear physics",
+    "nuclear physics formula question",
+    "given values find e",
+    "modern physics nuclear physics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_025",
+     "question_pattern": "nuclear physics with {m} and {c} and {mass} and {energy_equivalence} find e",
+     "extracted_variables": {
+      "m": "given m",
+      "c": "given c",
+      "mass": "given mass",
+      "energy_equivalence": "given energy_equivalence"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, c, mass, energy_equivalence from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = m*c^2 (mass-energy_equivalence)",
+     "compute": "E = m*c^2 (mass-energy_equivalence)"
+    }
+   ],
+   "chapter_title": "MODERN PHYSICS"
+  },
+  {
+   "id": "FB_PHY_C12_026",
+   "title": "CONSTANTS: c = ...",
+   "section": "CONSTANTS",
+   "formula": "c = 3*10^8/s",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find c",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_026",
+     "question_pattern": "constants with {s} find c",
+     "extracted_variables": {
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c = 3*10^8/s",
+     "compute": "c = 3*10^8/s"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_027",
+   "title": "CONSTANTS: G = ...",
+   "section": "CONSTANTS",
+   "formula": "G = 6.674*10^-11*N*x*m^2/kg^2",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find g",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_027",
+     "question_pattern": "constants with {N} and {m} and {kg} find g",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "G = 6.674*10^-11*N*x*m^2/kg^2",
+     "compute": "G = 6.674*10^-11*N*x*m^2/kg^2"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_028",
+   "title": "CONSTANTS: k_B = ...",
+   "section": "CONSTANTS",
+   "formula": "k_B = 1.38*10^-23/K",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find k_b using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find k_b",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_028",
+     "question_pattern": "constants with {K} find k_b",
+     "extracted_variables": {
+      "K": "given K"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "k_B = 1.38*10^-23/K",
+     "compute": "k_B = 1.38*10^-23/K"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_029",
+   "title": "CONSTANTS: R = ...",
+   "section": "CONSTANTS",
+   "formula": "R = 8.314/(molxK)",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find r using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find r",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_029",
+     "question_pattern": "constants with {molxK} find r",
+     "extracted_variables": {
+      "molxK": "given molxK"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for molxK from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "R = 8.314/(molxK)",
+     "compute": "R = 8.314/(molxK)"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_030",
+   "title": "CONSTANTS: N_A = ...",
+   "section": "CONSTANTS",
+   "formula": "N_A = 6.022*10^23 /mol",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n_a using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find n_a",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_030",
+     "question_pattern": "constants with {mol} find n_a",
+     "extracted_variables": {
+      "mol": "given mol"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mol from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N_A = 6.022*10^23 /mol",
+     "compute": "N_A = 6.022*10^23 /mol"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_031",
+   "title": "CONSTANTS: epsilon_0 = ...",
+   "section": "CONSTANTS",
+   "formula": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find epsilon_0 using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find epsilon_0",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_031",
+     "question_pattern": "constants with {N} and {m} find epsilon_0",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)",
+     "compute": "epsilon_0 = 8.854*10^-12^2/(N*x*m^2)"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_032",
+   "title": "CONSTANTS: sigma = ...",
+   "section": "CONSTANTS",
+   "formula": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann)",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sigma using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find sigma",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_032",
+     "question_pattern": "constants with {m} and {Stefan} and {Boltzmann} find sigma",
+     "extracted_variables": {
+      "m": "given m",
+      "Stefan": "given Stefan",
+      "Boltzmann": "given Boltzmann"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, Stefan, Boltzmann from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann)",
+     "compute": "sigma = 5.67*10^-8/(m^2^4)*(Stefan-Boltzmann)"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C12_033",
+   "title": "CONSTANTS: a_0 = ...",
+   "section": "CONSTANTS",
+   "formula": "a_0 = 0.529*Angstrom",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find a_0 using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find a_0",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C12_033",
+     "question_pattern": "constants with {Angstrom} find a_0",
+     "extracted_variables": {
+      "Angstrom": "given Angstrom"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Angstrom from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "a_0 = 0.529*Angstrom",
+     "compute": "a_0 = 0.529*Angstrom"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  }
+ ]
+}

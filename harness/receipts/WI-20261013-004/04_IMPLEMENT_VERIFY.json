@@ -1,0 +1,121 @@
+{
+ "receipt_id": "rcpt_20261013T155425Z_fb592f96",
+ "work_item": "WI-20261013-004",
+ "from_state": "IMPLEMENT",
+ "to_state": "VERIFY",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:54:25Z",
+ "gates": [
+  {
+   "id": "G5",
+   "name": "static scans (control/nan/id/parse/pins/oversize)",
+   "ok": true,
+   "exit": 0,
+   "seconds": 20.8,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-004/logs/G5_scans.log",
+   "log_sha256": "cca5a58f2daf5c9c93ca3f94c7581257472862809c45be64d42264e12dbcedeb",
+   "hard_findings": 0
+  },
+  {
+   "id": "G1",
+   "name": "pytest tests/corpus",
+   "ok": true,
+   "exit": 0,
+   "seconds": 10.3,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-004/logs/G1_pytest.log",
+   "log_sha256": "4d9ff730fc24380897722b43c8ad9557d46a1ff8dc11463f054e33e95f897a0c",
+   "tests": [
+    "tests/corpus"
+   ]
+  },
+  {
+   "id": "G2",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "no backend .py changed"
+  },
+  {
+   "id": "G3",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "no backend .py changed"
+  },
+  {
+   "id": "G4",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "no .py string literals changed"
+  },
+  {
+   "id": "G6",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "its/solver/** unchanged"
+  },
+  {
+   "id": "G9",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "chisel CLI not installed on host — verified 2026-10-13"
+  },
+  {
+   "id": "G7",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "no backend .py changed — no boot needed"
+  },
+  {
+   "id": "G8",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "no frontend change"
+  },
+  {
+   "id": "G10",
+   "name": "soak thresholds",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": false,
+   "reason": "",
+   "linked": false,
+   "note": "executes at SOAK state; VERIFY linked no recent receipt"
+  }
+ ],
+ "evidence": {
+  "changed_files": [
+   {
+    "path": "deploy/backend/its/README.md",
+    "sha256_before": "87d65adda374cf4a99b5787a38446f48f5f648d94adeef16582c5d64d24a7a62",
+    "sha256_after": "87736253c6fa67fd6efa4917011c606acf0b2ddbc392eb1393c90e8918788da0"
+   }
+  ]
+ },
+ "notes": "all applicable gates green",
+ "prev_receipt_sha256": "334ac751542980ca018291bd3109ca140c896d5f21d3f6d511dc135726077a42"
+}

@@ -22,16 +22,17 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, AsyncIterator, TYPE_CHECKING
 
-from fastapi import APIRouter, Depends, Request
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 
 if TYPE_CHECKING:  # pragma: no cover
     from backend.models.user import User
 
-from backend.deps import get_current_user_optional
+from backend.deps import get_current_user, get_current_user_optional
 
 logger = logging.getLogger(__name__)
 router = APIRouter(tags=["student-sync"])
@@ -45,9 +46,26 @@ _A11Y_STORE = _CACHE_DIR / "student_a11y_prefs.json"
 _ONBOARDING_STORE = _CACHE_DIR / "student_onboarding.json"
 _SYNC_LOG = _CACHE_DIR / "sync_events.jsonl"
 
+#: WS-D (2026-10-10): every raw-body endpoint here persists what it is
+#: handed (JSON stores / JSONL append).  A body cap turns an anonymous
+#: disk-fill stream into a bounded one; the sync action_type lands inside
+#: captured records, so it stays a slug.
+MAX_BODY_BYTES = 256 * 1024
+_ACTION_TYPE_RE = re.compile(r"^[a-z0-9][a-z0-9_-]{0,39}$")
+
 
 def _student_id(user: "User | None") -> str:
     return str(getattr(user, "id", None) or "guest")
+
+
+def _validate_action_type(action_type: str) -> str:
+    at = str(action_type or "").strip().lower()
+    if not _ACTION_TYPE_RE.match(at):
+        raise HTTPException(
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail="action_type must be a short slug (a-z, 0-9, -, _)",
+        )
+    return at
 
 
 def _read_json(path: Path) -> dict:
@@ -64,10 +82,19 @@ def _write_json_atomic(path: Path, data: dict) -> None:
     os.replace(tmp, path)
 
 
-async def _json_body(request: Request) -> dict:
+async def _json_body(request: Request, max_bytes: int = MAX_BODY_BYTES) -> dict:
     """Parse a JSON object body regardless of Content-Type (sendBeacon
-    dispatches strings as text/plain)."""
+    dispatches strings as text/plain).
+
+    Bodies over ``max_bytes`` are rejected 413 BEFORE parsing — the sync
+    sinks persist whatever they are handed, so an unbounded anonymous
+    POST was an unbounded disk write (WS-D 2026-10-10)."""
     raw = await request.body()
+    if len(raw) > max_bytes:
+        raise HTTPException(
+            status_code=413,
+            detail=f"payload too large (max {max_bytes // 1024} KB)",
+        )
     if not raw:
         return {}
     try:
@@ -171,6 +198,7 @@ async def sync_action(
 ) -> dict:
     payload = await _json_body(request)
     sid = _student_id(user)
+    action_type = _validate_action_type(action_type)
 
     # ── Offline recovery: practice answers are RECONCILED, not just logged ──
     # The practice page queues every answer made offline and flushes it here

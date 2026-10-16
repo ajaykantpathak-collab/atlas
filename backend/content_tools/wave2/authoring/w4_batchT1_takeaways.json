@@ -1,0 +1,216 @@
+{
+  "edits": [
+    {
+      "file": "c11_biotech_cbse_06_002.md",
+      "walkthrough_append": "For the board examination, expect a monohybrid cross to be drawn and its F2 ratios named — write the Punnett square, state 1:2:1 genotypic and 3:1 phenotypic, and label the parental genotypes; the labelled square is the working that earns the marks."
+    },
+    {
+      "file": "c11_biotech_cbse_11_006.md",
+      "walkthrough_append": "For the board examination, feature-table questions ask you to extract exons or CDS regions by filtering record.features on feature.type — write the filter line and say what the retrieved feature's qualifiers hold; that two-step answer is the expected depth."
+    },
+    {
+      "file": "c11_biotech_cbse_11_008.md",
+      "walkthrough_append": "For the board examination, dynamic-programming alignment questions test the recurrence: fill one row of the scoring matrix by hand, showing match, mismatch and gap penalties applied at each cell; one completed row demonstrates the principle better than a page of prose."
+    },
+    {
+      "file": "c11_biotech_cbse_11_009.md",
+      "walkthrough_append": "For the board examination, file-parsing questions ask how a FASTA file is recognised and split — state the '>' header rule and the sequence-lines-until-next-header rule, and write the two Biopython lines that replace the hand-written state machine; naming both levels is the full answer."
+    },
+    {
+      "file": "c11_biotech_cbse_12_001.md",
+      "walkthrough_append": "For the board examination, microscopy questions hinge on resolution versus magnification — state that resolution is set by the illuminating wavelength, give the compound microscope and electron microscope limits, and conclude that magnifying an unresolved image only enlarges blur; that conclusion is the scored line."
+    },
+    {
+      "file": "c11_biotech_cbse_12_002.md",
+      "walkthrough_append": "For the board examination, centrifugation questions ask you to choose the method from given particle properties — similar sizes but different densities: density gradient; very different sizes: differential — and to justify the choice in one sentence; the justification carries the mark."
+    },
+    {
+      "file": "c11_biotech_cbse_12_003.md",
+      "walkthrough_append": "For the board examination, Beer-Lambert questions give absorbance and ask concentration — rearrange c = A/(εl), substitute with units, and state one assumption you are honouring (dilute solution); showing the rearrangement and the assumption is what full credit requires."
+    },
+    {
+      "file": "c11_biotech_cbse_12_005.md",
+      "walkthrough_append": "For the board examination, PCR questions give temperatures and ask the step names — 95 °C denaturation, 55 °C annealing, 72 °C extension — plus the duplication arithmetic: n cycles yield 2 to the power n copies; a labelled three-step diagram with the copy count after 10 cycles is the standard full answer."
+    },
+    {
+      "file": "c11_biotech_cbse_12_011.md",
+      "walkthrough_append": "For the board examination, tissue-culture questions ask for the stages with the hormone switches — auxin-to-cytokinin ratio deciding shoot versus root, then hardening before the field — and one contrast with animal cell culture's serum requirement; the hormone-ratio sentence is the detail examiners hunt."
+    },
+    {
+      "file": "c11_bs_cbse_09_001.md",
+      "walkthrough_append": "For the board examination, MSME-classification questions give investment and turnover figures and ask the category — apply both tests, and where they point to different categories, state the rule that the lower category prevails; showing both tests is the method the examiner marks."
+    },
+    {
+      "file": "c11_cs_cbse_01_006.md",
+      "walkthrough_append": "For the board examination, memory-hierarchy questions ask why each level exists — register for speed, cache for frequent data, RAM for running programs, disk for everything kept — and to order four given devices by speed and cost; two ordered lists with one reason each is the complete answer."
+    },
+    {
+      "file": "c11_cs_cbse_02_007.md",
+      "walkthrough_append": "For the board examination, distributive-law questions ask for one simplification using A + BC = (A + B)(A + C) — prove the identity with a truth table, then reduce a given expression, naming the law at each line; the proof table plus the named steps is the full-credit shape."
+    },
+    {
+      "file": "c11_cs_cbse_03_001.md",
+      "walkthrough_append": "For the board examination, problem-solving questions ask the phases in order with one sentence each — analysis, algorithm design, coding, testing, debugging — and one artefact per phase (IPO chart, pseudocode, program, test cases); the artefact column is what separates a list from an answer."
+    },
+    {
+      "file": "c11_cs_cbse_03_004.md",
+      "walkthrough_append": "For the board examination, algorithm questions give a task and ask for the steps — write numbered, finite, unambiguous steps with explicit input and output lines, then check your own algorithm against the five properties; the self-check line is often a named mark."
+    },
+    {
+      "file": "c11_cs_cbse_04_008.md",
+      "walkthrough_append": "For the board examination, input questions give code with input() and arithmetic and ask the output — remember every input returns a string, so '5' + '3' gives '53' while int('5') + int('3') gives 8; evaluating both variants side by side is how such questions are answered."
+    },
+    {
+      "file": "c11_cs_cbse_05_001.md",
+      "walkthrough_append": "For the board examination, control-flow questions give a short program and ask its output — trace the path taken for the given inputs, writing the condition values as you go; when asked to supply code, name the construct (sequence, selection, repetition) the task demands before writing it."
+    },
+    {
+      "file": "c11_cs_cbse_05_002.md",
+      "walkthrough_append": "For the board examination, relational-operator questions give expressions like 7 >= 7 and 'a' < 'b' to evaluate — write True or False for each, remembering that strings compare by dictionary order and == tests equality while = assigns; the assignment-versus-equality trap is the question's target."
+    },
+    {
+      "file": "c11_cs_cbse_05_007.md",
+      "walkthrough_append": "For the board examination, iteration questions give a while loop to trace — tabulate the loop variable, the accumulator and the condition per pass, then state the output; when writing your own loop, the four parts (initialise, condition, body, update) must each be visible."
+    },
+    {
+      "file": "c11_cs_cbse_08_004.md",
+      "walkthrough_append": "For the board examination, positional-argument questions give calls like bill(3, 50) against def bill(qty, price) and ask which parameter receives what — write the binding pairs, and mark the mixed call that breaks order as the error; the binding list is the answer's body."
+    },
+    {
+      "file": "c11_cs_cbse_10_002.md",
+      "walkthrough_append": "For the board examination, stack questions give a push-pop sequence and ask the final state plus each returned value — tabulate operation, stack, return; and when asked why LIFO suits undo or recursion, answer with the most-recent-first sentence applied to the given scenario."
+    },
+    {
+      "file": "c11_cs_cbse_11_013.md",
+      "walkthrough_append": "For the board examination, firewall questions ask the function (filter traffic by rules), the types (packet-filtering, application-level), and where it sits — between the trusted internal network and the untrusted outside; one permitted-versus-blocked example makes the answer concrete."
+    },
+    {
+      "file": "c11_leg_cbse_12_004.md",
+      "walkthrough_append": "For the board examination, family-law procedure questions ask the sequence — petition, service of notice, counselling or mediation, decree, appeal windows — with the governing statute named at each step; a numbered timeline of one contested divorce is the answer shape examiners reward."
+    },
+    {
+      "file": "c11_math_cbse_05_002.md",
+      "walkthrough_append": "For the board examination, complex-number questions ask for real and imaginary parts, conjugates, and simple arithmetic — write z = a + ib, state z-bar = a - ib, and compute one product using i-squared = minus-one; every such answer should end with the value written in standard form."
+    },
+    {
+      "file": "c11_psy_cbse_02_007.md",
+      "walkthrough_append": "For the board examination, psychological-test questions ask the properties — standardisation, objectivity, reliability, validity, norms — defined in one line each and illustrated from a named test; the property-to-example pairing is what the long question rewards."
+    },
+    {
+      "file": "c11_psy_cbse_06_008.md",
+      "walkthrough_append": "For the board examination, constructive-memory questions cite the evidence — Loftus's misinformation studies and Bartlett's reproductions — and ask what they prove: memory rebuilds from fragments and expectations, so errors are systematic, not random; quote one study's procedure in two lines."
+    },
+    {
+      "file": "c12_cs_cbse_07_010.md",
+      "walkthrough_append": "For the board examination, K-map questions give a truth table and ask the minimal expression — draw the grid in Gray order, ring the ones in groups of eight, four or two, and read each group as one product term; one fully worked four-variable map is the complete demonstration."
+    },
+    {
+      "file": "c12_cs_cbse_08_001.md",
+      "walkthrough_append": "For the board examination, data-structure questions ask linear versus non-linear with examples, and which structure suits a stated operation — answer with the structure, its access rule, and one sentence on why the rule fits the operation; that fit is the reasoning being marked."
+    },
+    {
+      "file": "c12_cs_cbse_13_006.md",
+      "walkthrough_append": "For the board examination, AI questions ask for the definition, three domains (vision, speech, decision) with one application each, and one ethical caveat — bias or job displacement — stated in a sentence; the caveat is increasingly a named mark on such papers."
+    },
+    {
+      "file": "c12_geo_cbse_15_002.md",
+      "walkthrough_append": "For the board examination, road-classification questions ask the hierarchy with the maintaining authority — national highways by the Centre, state highways by states, district and village roads below — and one numbered example per class; the authority column is what the table is tested for."
+    },
+    {
+      "file": "c12_geo_cbse_18_007.md",
+      "walkthrough_append": "For the board examination, census questions ask the periodicity, the agency (Registrar General of India), and two uses of census data — delimitation and planning — with one datum quoted from the 2011 count; the quoted figure is the evidence the answer needs."
+    },
+    {
+      "file": "c12_geo_cbse_19_004.md",
+      "walkthrough_append": "For the board examination, central-tendency questions give a series and ask the mean, median and mode — compute all three, state which suits the series (skewed data: median), and justify in one line; the justification sentence converts arithmetic into statistics marks."
+    },
+    {
+      "file": "c12_geo_cbse_20_001.md",
+      "walkthrough_append": "For the board examination, graphical-representation questions ask which diagram suits which purpose — trend: line graph, comparison: bar, part-to-whole: pie, distribution: histogram — with one data example each; the matching table with purposes is the expected answer form."
+    },
+    {
+      "file": "c12_geo_cbse_21_002.md",
+      "walkthrough_append": "For the board examination, survey-design questions ask the steps in order — objective, hypotheses, population, sample, tool, schedule, pilot — with one decision recorded at each step from the given study; the ordered steps with decisions is the answer's architecture."
+    },
+    {
+      "file": "c12_hist_cbse_01_002.md",
+      "walkthrough_append": "For the board examination, Mature-Harappan questions ask the period, three features (grid streets, standardized bricks, trade with Mesopotamia) and the extent from Sutkagendor to Alamgirpur; each feature with one site named is the answer's working."
+    },
+    {
+      "file": "c12_hist_cbse_01_006.md",
+      "walkthrough_append": "For the board examination, Great Bath questions ask its dimensions, construction (waterproof bitumen lining, steps on two sides) and the argued function — ritual purity — stated as an argument from use, not a fact; the hedge is part of the expected answer."
+    },
+    {
+      "file": "c12_hist_cbse_01_007.md",
+      "walkthrough_append": "For the board examination, granary questions ask what the structures imply — collected surplus, administrative control, and the feeding of a non-farming population — with one site example; the implication chain is what the marks follow."
+    },
+    {
+      "file": "c12_hist_cbse_01_009.md",
+      "walkthrough_append": "For the board examination, seal questions describe the material (steatite), the standard features (animal motif, script line, pierced boss) and two uses — stamping goods and, possibly, amuletic — noting that the script remains undeciphered; the undeciphered point is the standard closing line."
+    },
+    {
+      "file": "c12_hist_cbse_04_001.md",
+      "walkthrough_append": "For the board examination, yajna questions ask the ritual's elements (fire, offerings, hymns, priests), its social role in Vedic life, and how the sacrifice's centrality fed later critiques by Buddhists and Jainas — the critique link is the point that turns description into history."
+    },
+    {
+      "file": "c12_hist_cbse_05_002.md",
+      "walkthrough_append": "For the board examination, Al-Biruni's-method questions ask the steps — learn Sanskrit, read the sources in the original, present each topic as question and answer, compare with other civilizations — and why the method matters: it is the first evidence-based, source-critical account of India."
+    },
+    {
+      "file": "c12_hist_cbse_05_009.md",
+      "walkthrough_append": "For the board examination, Bernier questions give his identity (French physician to a Mughal prince), his work's title and purpose, and two of his comparisons — crown ownership of land, the absence of private property — each with his reasoning stated in one line."
+    },
+    {
+      "file": "c12_hist_cbse_05_010.md",
+      "walkthrough_append": "For the board examination, Bernier's-critique questions ask the two comparisons and the counter-view — his thesis of Oriental despotism and landlessness, and the historians' correction from village records showing peasant property — thesis, then correction, is the expected structure."
+    },
+    {
+      "file": "c12_hist_cbse_06_001.md",
+      "walkthrough_append": "For the board examination, religious-ferment questions ask the strands in play — Puranic worship, Tantric practice, Buddhist and Jaina orders, and the new devotional currents — and how they met: competition for patrons, borrowing of idioms; the interaction, not the list, is the answer."
+    },
+    {
+      "file": "c12_hist_cbse_06_004.md",
+      "walkthrough_append": "For the board examination, Alvar questions give the count and period, two named saints with one hymn-idea each, and the canon's later compilation under Chola patronage — with the social range of the saints as the closing observation."
+    },
+    {
+      "file": "c12_hist_cbse_07_011.md",
+      "walkthrough_append": "For the board examination, Talikota questions give the date, the combatants (the four Deccan sultanates against the empire), the outcome, and one consequence each — the captured-and-executed raya, the sacked capital, the shift of power; consequences, not the battle narrative, carry the marks."
+    },
+    {
+      "file": "c12_hist_cbse_08_001.md",
+      "walkthrough_append": "For the board examination, Ain-i-Akbari questions ask the author, the parent work, and the five books' contents in one line each — with the administrative data (mansab ranks, prices, revenues) named as the historian's favourite section."
+    },
+    {
+      "file": "c12_hist_cbse_09_006.md",
+      "walkthrough_append": "For the board examination, Paharia questions ask their way of life (shifting hill cultivation, forest rights), the threat from plains settlers and the Company's interventions, and the revolt's suppression — ending with the policy of separating the hills as Santhal Parganas was later separated."
+    },
+    {
+      "file": "c12_hist_cbse_09_007.md",
+      "walkthrough_append": "For the board examination, zamindar-default questions give the sunset law's operation — unpaid demand by the fixed date, the estate to auction — and the consequences: the quickened sales, the new purchaser class, and the resentment recorded in the 1857 countryside; the sunset rule stated exactly is the core mark."
+    },
+    {
+      "file": "c12_hist_cbse_10_010.md",
+      "walkthrough_append": "For the board examination, failure-of-1857 questions ask the causes grouped — limited geography, superior British arms and sea-links, divided leadership, and the loyal camps (Punjab, Bengal, the south) — each with one fact; grouped causes with facts, in that order, is the full-credit shape."
+    },
+    {
+      "file": "c12_hist_cbse_12_002.md",
+      "walkthrough_append": "For the board examination, Drafting-Committee questions give the chairman, the date (29 August 1947), and the committee's task — clause-by-clause consideration of the drafted text — with two named members and the Assembly's revision role; the task's precision is what the answer must state."
+    },
+    {
+      "file": "c12_hist_cbse_12_005.md",
+      "walkthrough_append": "For the board examination, federalism questions ask the division of powers with the three lists named and one subject each, the Union's emergency powers, and why the Assembly chose a strong centre — partition and integration as the stated reasons; the lists with subjects are the core marks."
+    },
+    {
+      "file": "c12_hist_cbse_12_012.md",
+      "walkthrough_append": "For the board examination, sources-of-the-Constitution questions ask the borrowing map — parliamentary government from Britain, fundamental rights from the USA, directive principles from Ireland, emergency provisions from Germany — each with the borrowed provision named; the provision named beside the source is the answer."
+    },
+    {
+      "file": "c12_hs_cbse_13_008.md",
+      "walkthrough_append": "For the board examination, weights-and-measures questions ask why standards matter in consumer protection — fair trade, correct labelling, legal redress — and name the enforcing framework (the Legal Metrology Act and verified stamped instruments) with one market example; the Act named is the mark."
+    },
+    {
+      "file": "c12_soc_cbse_13_001.md",
+      "walkthrough_append": "For the board examination, globalisation questions ask the definition, three carriers (trade, capital, technology) with one example each, and one argued effect on Indian society — employment or culture — stated with a case; the argued effect is where the marks concentrate."
+    }
+  ]
+}

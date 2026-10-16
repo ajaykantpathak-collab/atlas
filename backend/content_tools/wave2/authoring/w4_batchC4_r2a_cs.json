@@ -1,0 +1,104 @@
+{
+  "edits": [
+    {
+      "file": "c11_cs_cbse_09_006.md",
+      "walkthrough_append": "Worked check: see what close actually does — write to a file, then open it in another window before f.close(): the text is missing, because writes sit in a buffer; close() flushes the buffer to disk, releases the OS resource, and only then do other programs see the content. Forgetting close in a long program risks lost tail-data and file locks. For the board examination, close() questions ask what the call does and why the with-statement is preferred — answer: flush plus resource release, automatic under with, guaranteed even when an exception fires mid-block."
+    },
+    {
+      "file": "c11_cs_cbse_09_008.md",
+      "walkthrough_append": "Worked check: watch the pointer move — open a file, f.read(5) returns the first five characters and the pointer sits at position 5; f.read(5) again returns the next five; f.seek(0) rewinds to the start and the next read repeats the first five; f.tell() reports the current position as a byte number. For the board examination, file-pointer questions give a read-seek-read sequence and ask each read's output — track the pointer position after every operation in a small column, since every answer follows from where the pointer stands."
+    },
+    {
+      "file": "c11_cs_cbse_09_010.md",
+      "walkthrough_append": "Worked check: store one record two ways — as text: '21,Meera,88.5' written in 'w' mode, human-readable but must be parsed back; as binary: pickle.dump(record, f) in 'wb' mode writes the object's bytes, and pickle.load(f) in 'rb' returns the object whole, types intact. Text for people, binary for programs. For the board examination, binary-file questions contrast the two storages, give pickle.dump and pickle.load with their modes (wb, rb), and often a small code-completion — write the four lines of dump-then-load from memory; the mode letters are the marks."
+    },
+    {
+      "file": "c11_cs_cbse_09_012.md",
+      "walkthrough_append": "Worked check: write a copy utility in four lines — open source in 'rb', destination in 'wb', loop: chunk = src.read(1024); while chunk: dst.write(chunk); chunk = src.read(1024); close both. The chunk loop copies any file — text or binary — without loading it whole into memory. For the board examination, practical file questions ask for such small utilities (copy, count lines, search a word) — write the open-loop-close skeleton first, then the task's logic inside the loop; the skeleton is half the marks on every such question."
+    },
+    {
+      "file": "c11_cs_cbse_10_001.md",
+      "walkthrough_append": "Worked check: pick the structure by the access pattern — undo needs the most recent action first: stack; a printer queue serves first come first served: queue; a dictionary needs lookup by name: hashing. The data is the same; the structure is the promise about which end answers fastest. For the board examination, data-structure questions define the term, classify linear (stack, queue, list) versus non-linear (tree, graph) with one example each, and usually ask which structure suits a stated scenario — answer with the structure and the access rule that justifies it."
+    },
+    {
+      "file": "c11_cs_cbse_10_003.md",
+      "walkthrough_append": "Worked check: run push and pop by hand — empty stack, push 10: [10]; push 20: [10, 20]; push 30: [10, 20, 30] (30 on top); pop removes and returns 30, leaving [10, 20]; pop again returns 20. Last in, first out, both operations at the top only. Pop on empty raises underflow. For the board examination, push-pop questions give an operation sequence and ask each state and each returned value — tabulate operation, stack state, and returned value; the returned-value column is where examiners look for the difference between pop and push."
+    },
+    {
+      "file": "c11_cs_cbse_10_004.md",
+      "walkthrough_append": "Worked check: implement it in four lines — stack = []; push: stack.append(item); pop: stack.pop() (returns the top, raising IndexError when empty); top: stack[-1]. Because append and pop both work at the list's right end, the LIFO discipline comes free. Guard the pop: if len(stack) > 0 before popping, or catch the exception. For the board examination, list-stack questions ask for exactly these operations written as functions — push, pop with the empty check, and display from top to bottom; the display loop reversed is the detail they test."
+    },
+    {
+      "file": "c11_cs_cbse_10_005.md",
+      "walkthrough_append": "Worked check: swap the list for a deque — from collections import deque; stack = deque(); push: stack.append(item); pop: stack.pop() — same calls, but deque's operations are constant-time at both ends, while a Python list can slow when it must move its memory block. For the board examination, deque-stack questions ask for the import, the two operations, and the reason deque is preferred (efficient ends, thread-safe appends and pops); write the four-line implementation — import, create, push, pop — as the answer's core."
+    },
+    {
+      "file": "c11_cs_cbse_10_006.md",
+      "walkthrough_append": "Worked check: use peek and isEmpty safely — peek: return stack[-1] if stack else None — read the top without removing, the list still holds it afterwards; isEmpty: return len(stack) == 0, the guard that keeps pop from raising on an empty stack. Peek twice, same value both times — that is the test of not-removing. For the board examination, peek-isEmpty questions ask for each definition, the one-line implementations, and why pop without an isEmpty check is dangerous; write the guarded pop — check, then pop — as the combined demonstration."
+    },
+    {
+      "file": "c11_cs_cbse_10_007.md",
+      "walkthrough_append": "Worked check: balance one expression by hand — (a+b)*(c-d): scan left to right; '(' pushes; a second '(' pushes; each ')' pops one '('. End of scan, stack empty: balanced. Now ((a+b): scan ends with one '(' still on the stack: unbalanced. a+b): a pop with nothing to pop: unbalanced. Three failure modes, one scan. For the board examination, parentheses questions ask for the algorithm (push openers, pop-and-match closers, check the stack at the end) and its three failure cases; writing the three failure conditions is what the marks scheme lists."
+    },
+    {
+      "file": "c11_cs_cbse_10_010.md",
+      "walkthrough_append": "Worked check: run the queue's two ends — enqueue 10: [10]; enqueue 20: [10, 20] (20 at the rear); dequeue removes and returns 10, the oldest — [20]; enqueue 30: [20, 30]. First in, first out: the dequeue always takes the head, the enqueue always joins the tail. Dequeue on empty: underflow. For the board examination, enqueue-dequeue questions give operation sequences and ask states with returned values — tabulate operation, queue state, returned value, exactly as with stacks but noting which end each operation uses; the ends are the whole discipline."
+    },
+    {
+      "file": "c11_cs_cbse_10_011.md",
+      "walkthrough_append": "Worked check: implement with a list's two ends — queue = []; enqueue: queue.append(item) joins at the rear; dequeue: return queue.pop(0) leaves from the front, and the list closes ranks; guard with if len(queue) > 0 against popping empty. Note the cost: pop(0) shifts every remaining element left — which is why collections.deque with popleft() is the professional choice. For the board examination, list-queue questions ask for enqueue-dequeue functions and often the pop(0) inefficiency comment; write the two functions plus that one-line critique, and the answer is complete."
+    },
+    {
+      "file": "c11_cs_cbse_10_014.md",
+      "walkthrough_append": "Worked check: name the queue family by its twist — plain queue: strict FIFO, ticket-counter fairness; circular queue: the rear wraps to the front of a fixed array, reusing freed cells; priority queue: dequeue takes the highest priority first, not the oldest; deque: both ends open for both operations. Each answers a different waiting problem. For the board examination, queue-type questions define FIFO, name three variants with one application each (printer spool, CPU round-robin, hospital triage), and close by matching a given scenario to its variant with the deciding rule stated."
+    },
+    {
+      "file": "c11_cs_cbse_11_002.md",
+      "walkthrough_append": "Worked check: sort the networks by reach — a school lab's thirty machines on one switch: LAN; a city's bank branches interlinked across town: MAN; a company's Delhi and New York offices on one private web: WAN; the planet-spanning public network: the Internet. Coverage decides technology: LAN is fast and cheap per metre, WAN is slow and dear over distance. For the board examination, network-type questions give scenarios and ask LAN, MAN or WAN — answer with the class, the radius that justifies it, and one ownership note (LAN is privately owned, WAN uses leased carriers)."
+    },
+    {
+      "file": "c11_cs_cbse_11_003.md",
+      "walkthrough_append": "Worked check: weigh the topologies against failure — bus: one backbone cable, a single break darkens all; star: every node on a central switch, one cable's failure isolates one node but the switch is the crown jewel; ring: each node passes to the next, one break can circle the whole; mesh: everyone to everyone, costliest but nearly unbreakable. For the board examination, topology questions give a layout to name or a named topology to evaluate — answer with the identification, the cabling cost, and the single-point-of-failure sentence; the failure analysis is what the marks follow."
+    },
+    {
+      "file": "c11_cs_cbse_11_004.md",
+      "walkthrough_append": "Worked check: assign each device its floor — modem: translates between the phone line's signals and the computer's bits; hub: repeats every bit to every port (dumb); switch: reads addresses and forwards only to the destination port (smart); router: connects different networks and chooses the route between them; repeater: strengthens a signal before it dies of distance. For the board examination, network-device questions give situations (join two LANs, connect to the ISP, split one room's links) and ask the device — answer with the device and its one-line working principle; the working, not the name, is the mark."
+    },
+    {
+      "file": "c11_cs_cbse_11_005.md",
+      "walkthrough_append": "Worked check: match the medium to the job — twisted pair (the LAN cable, cheap, hundred-metre runs); coaxial (older networks and cable TV, better shielding); optical fibre (light through glass, gigabits over kilometres, immune to electrical noise); wireless radio (mobility, no digging, interference-prone). Bandwidth rises with cost down the list until wireless breaks the pattern by removing the cable entirely. For the board examination, transmission-media questions give scenarios (campus backbone, home Wi-Fi, undersea link) and ask the medium — answer with the medium and the property that decides it: distance, bandwidth, or mobility."
+    },
+    {
+      "file": "c11_cs_cbse_11_006.md",
+      "walkthrough_append": "Worked check: dissect one address — 192.168.10.5: four numbers, each 0 to 255, one byte each, so 32 bits total; the network part identifies the lane, the host part the machine, and the subnet mask decides where the split falls; 192.168.x.x is reserved for private networks behind a router. IPv6's 128 bits answered the exhaustion of IPv4's four billion. For the board examination, IP-address questions give addresses to classify (public/private, version) and validity checks — test each octet against 0-255, name the version, and explain the private-range rule; the octet check is the standard mark."
+    },
+    {
+      "file": "c11_cs_cbse_11_007.md",
+      "walkthrough_append": "Worked check: follow one name to its number — the browser asks for www.cbse.gov.in; the resolver checks its cache, climbs to a root server, then to the .in registry, then to the domain's own name server, and returns the IP; the browser connects. Seconds, invisible, and it repeats billions of times a day. For the board examination, DNS questions ask for the purpose (names to addresses), why it exists (humans remember words, machines route numbers), and the resolution order — answer with the chain resolver-root-TLD-authoritative written as one path; the path is the answer."
+    },
+    {
+      "file": "c11_cs_cbse_11_008.md",
+      "walkthrough_append": "Worked check: trace one request through the model — the browser (client) sends GET /results to the web server on port 80; the server fetches the page, returns it; the browser renders. Many clients, one server; the server may itself be a client of a database server behind it — layers of the same pattern. For the board examination, client-server questions define both roles, contrast with peer-to-peer (every node both roles), and often give a service (web, email, file sharing) to map onto the model — answer with client, server, protocol, and one sentence on scaling and the single point of failure."
+    },
+    {
+      "file": "c11_cs_cbse_11_009.md",
+      "walkthrough_append": "Worked check: name the protocol by the job — HTTP fetches web pages (and HTTPS the same with encryption); SMTP posts your mail out, POP3/IMAP fetch it in; FTP moves files; TCP guarantees ordered, complete delivery; IP routes the packets hop by hop. No protocol, no agreement — the sender and receiver would speak past each other. For the board examination, protocol questions give tasks (send mail, load a page, transfer a file) and ask the protocol — answer with the acronym expanded and its one-line rule; pairing send-and-fetch protocols (SMTP with POP3) is the usual extra mark."
+    },
+    {
+      "file": "c11_cs_cbse_11_010.md",
+      "walkthrough_append": "Worked check: audit one account with best practices — a unique long passphrase (not the pet's name), two-factor authentication so a stolen password still fails, updates applied so known holes are patched, and a healthy suspicion of 'your account is blocked' mails. Each practice answers one real attack: guessing, phishing, and exploit. For the board examination, cyber-safety questions list threats and ask measures — pair every measure to the threat it defeats in one clause; the pairing, not the list, is what the marking scheme reads."
+    },
+    {
+      "file": "c11_cs_cbse_11_011.md",
+      "walkthrough_append": "Worked check: classify malware by its habit — virus: attaches to files, spreads when run; worm: copies itself across networks unaided; trojan: hides inside useful software, opens the door from within; ransomware: encrypts your files and sells the key; spyware: watches quietly. Each has a defence shaped to its habit. For the board examination, malware questions give descriptions and ask the type — answer with the type and the behavioural clause that identifies it (self-spreads: worm; user-invited: trojan), and close with the matched defence: updated antivirus, backups against ransomware."
+    },
+    {
+      "file": "c11_cs_cbse_11_012.md",
+      "walkthrough_append": "Worked check: read one phishing mail like an investigator — the sender's address is close but not exact (support@bank-secure.example); the link's text says the bank's site, but hovering shows another domain; the mail threatens account closure in 24 hours; it asks for password and OTP — which no bank ever does. Four tells, one fraud. For the board examination, phishing questions give a sample mail and ask the red flags — list them (spoofed sender, mismatched URL, urgency, credential demand) and the response rule: never click, verify through the official channel, report."
+    },
+    {
+      "file": "c11_cs_cbse_11_014.md",
+      "walkthrough_append": "Worked check: run one safe-browsing checklist before a purchase — the address bar shows https and the padlock (the connection is encrypted, though not necessarily honest); the URL is the shop's own spelling, not a near-miss; no payment data goes in over public Wi-Fi without a VPN; the password is unique to this site. Four checks, each defeating one hazard. For the board examination, safe-browsing questions ask for practices against named risks — pair HTTPS with eavesdropping, URL checking with spoofing, unique passwords with credential reuse, and close that the padlock proves encryption, never honesty."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  body { background: var(--cosmos-bg); }
+  .mission-card {
+    border: 2px solid var(--ink); padding: 20px 24px; margin-bottom: 26px;
+    display: flex; justify-content: space-between; align-items: center; gap: 20px;
+    background: var(--paper);
+  }
+  .mission-card h2 { font-family: var(--font-disp); font-size: 24px; font-weight: 600; margin: 6px 0 4px; }
+  .mission-card p { color: var(--ink-soft); font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="paper-surface paper-page">
+  <div class="specimen-bar" data-specimen-bar></div>
+
+  <div class="paper-wrap">
+    <p class="specimen gold">Today's briefing · Sat, 10 Oct · Class 10 · CBSE</p>
+    <h1 class="paper-title" id="db-greet"></h1>
+
+    <div class="mission-card" data-motion="settle">
+      <div>
+        <p class="specimen gold">01 · Today's mission</p>
+        <h2 id="db-mission"></h2>
+        <p id="db-sub"></p>
+      </div>
+      <a class="btn-paper ink" href="galaxy.html">Explore the map →</a>
+    </div>
+
+    <div class="paper-sheet" data-motion="settle">
+      <div class="sheet-head"><span class="l">The state of you</span><span class="r">register · live</span></div>
+      <div class="sheet-body">
+        <table class="paper-ledger">
+          <thead><tr><th class="no">No.</th><th>Metric</th><th>Descriptor</th><th class="num">Value</th></tr></thead>
+          <tbody id="db-rows"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="paper-sheet" style="margin-top:26px;" data-motion="settle">
+      <div class="sheet-head"><span class="l">Homework — from your teachers</span><span class="r" id="db-hwn"></span></div>
+      <div class="sheet-body">
+        <table class="paper-ledger">
+          <thead><tr><th class="no">No.</th><th>Assignment</th><th>Teacher</th><th class="num">Due</th></tr></thead>
+          <tbody id="db-hw"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+<script>
+const d = ATLAS_DATA.pick(ATLAS_DATA.DASH);
+document.getElementById("db-greet").textContent = d.greet;
+document.getElementById("db-mission").textContent = d.mission;
+document.getElementById("db-sub").textContent = d.sub;
+document.getElementById("db-rows").innerHTML = d.rows.map(([m, dsc, v], i) =>
+  `<tr style="--i:${i}"><td class="no">0${i+1}</td><td>${m}</td><td>${dsc}</td><td class="num">${v}</td></tr>`).join("");
+document.getElementById("db-hwn").textContent = d.hw.length + " due";
+document.getElementById("db-hw").innerHTML = d.hw.map(([a, t, due], i) =>
+  `<tr style="--i:${i}"><td class="no">0${i+1}</td><td>${a}</td><td>${t}</td><td class="num">${due}</td></tr>`).join("");
+motionScan();
+</script>
+</body>
+</html>

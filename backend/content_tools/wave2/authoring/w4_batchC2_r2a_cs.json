@@ -1,0 +1,104 @@
+{
+  "edits": [
+    {
+      "file": "c11_cs_cbse_03_008.md",
+      "walkthrough_append": "Worked check: write one branching step properly — pass or fail: Step 1 input marks; Step 2 IF marks >= 33 THEN print 'Pass' ELSE print 'Fail'; Step 3 stop. The condition reads one way, the two paths are both written, and the algorithm covers every case. For the board examination, branching questions are answered with the condition written in full (no bare 'if marks'), both branches present, and — when asked for a flowchart — the diamond with two labelled exits (Yes/No); unlabelled diamond exits lose the mark every year."
+    },
+    {
+      "file": "c11_cs_cbse_03_009.md",
+      "walkthrough_append": "Worked check: write one loop by its parts — print the first ten multiples of 3: Step 1 set i ← 1; Step 2 WHILE i <= 10, print 3 × i; Step 3 i ← i + 1; Step 4 repeat from Step 2 until the condition fails. Initialisation, condition, body, update — four parts, and forgetting the update is how infinite loops are born. For the board examination, iteration questions are graded on these four parts being visible in the algorithm or flowchart (the flowchart's arrow that loops back is the update drawn); show all four and the question is done."
+    },
+    {
+      "file": "c11_cs_cbse_03_010.md",
+      "walkthrough_append": "Worked check: run one dry run on paper — algorithm: sum of 1 to 4. Columns: i, sum, condition. Row 1: i = 1, sum = 1, 1 <= 4 true; row 2: i = 2, sum = 3, true; row 3: i = 3, sum = 6, true; row 4: i = 4, sum = 10, true; row 5: i = 5, condition false, stop. Output: 10. For the board examination, dry-run questions supply the algorithm and ask for the variable table with every iteration as a row and the final output stated — draw the table with one column per variable and a column for the loop condition; that table is the answer."
+    },
+    {
+      "file": "c11_cs_cbse_03_012.md",
+      "walkthrough_append": "Worked check: feel the difference with a search — a linear search over 1,000 sorted items may check all thousand; a binary search halves the field each probe: 10 checks at most. Ten doublings, that is the gap. For the board examination, efficiency questions define time and space complexity, compare two algorithms for the same task (linear versus binary search is the standard pair), and count operations for a given small input — a worked count of comparisons is what converts a definition into marks."
+    },
+    {
+      "file": "c11_cs_cbse_04_002.md",
+      "walkthrough_append": "Worked check: install and verify in four steps — download the installer from python.org matching your OS; run it with 'Add Python to PATH' ticked; open a terminal and type python --version to see the version echo back; launch IDLE from the start menu and a shell window with the >>> prompt confirms the interpreter is listening. For the board examination, installation questions ask for the steps in order and the purpose of IDLE (integrated editor plus shell); a verified-installation step — the version check — is the line that shows the answer knows installation is tested, not assumed."
+    },
+    {
+      "file": "c11_cs_cbse_04_003.md",
+      "walkthrough_append": "Worked check: use each mode where it wins — interactive mode: type 2 ** 10 at the >>> prompt and 1024 returns at once, perfect for trying one expression; script mode: save a ten-line program as marks.py and press F5 — the output appears in the shell, and the file can be edited and rerun. One for questions, one for programs. For the board examination, execution-mode questions ask for the distinction, the prompt symbol, and which mode a given task suits; answering with one worked command in each mode shows rather than tells the difference."
+    },
+    {
+      "file": "c11_cs_cbse_04_004.md",
+      "walkthrough_append": "Worked check: inventory the character set by group — letters (a-z, A-Z), digits (0-9), special symbols (+ - * / = < > and the rest), whitespace (space, newline, tab), and the Unicode letters beyond ASCII that Python accepts in strings. A name a program may use is drawn from letters, digits and underscore, never starting with a digit — that is a token rule built on this set. For the board examination, character-set questions ask for the categories with two examples each, and the token follow-up: which of these is a valid identifier? — answer by testing against the rules the set underlies."
+    },
+    {
+      "file": "c11_cs_cbse_04_005.md",
+      "walkthrough_append": "Worked check: see the clash and avoid it — class = 10 raises a SyntaxError because class names the class construct; if, else, while, def, return, import, True, False, None, and, or, not, in, is are all spoken for. type('keywords') and help('keywords') lists them in any interpreter. For the board examination, keyword questions ask for the definition (reserved, predefined, unchangeable), the count (35 in Python 3.x), and a spot-the-invalid-identifier exercise where class, for or global appear among valid names — the error message each would raise is the detail worth quoting."
+    },
+    {
+      "file": "c11_cs_cbse_04_007.md",
+      "walkthrough_append": "Worked check: watch one variable be born, change, and die — x = 5 makes the name x refer to the integer 5; x = 'five' re-binds the same name to a string: the name never had a type, the value does — that is dynamic typing; del x removes the binding and any later use raises NameError. For the board examination, variable questions give code to trace: which values does x hold at which lines, and what does print(x) show after rebinding; trace line by line and quote the object type at each step — that is the whole answer."
+    },
+    {
+      "file": "c11_cs_cbse_04_009.md",
+      "walkthrough_append": "Worked check: test each type with its operations — int: 7 // 2 gives 3 (floor), 7 % 2 gives 1 (remainder); float: 7.0 / 2 gives 3.5; bool: True + True gives 2 (True is 1 under the hood); complex: (1+2j) * (1+2j) gives (-3+4j). Each type's ops betray its nature. For the board examination, data-type questions give expressions to evaluate and type() to state — write the value and the type for each, and include the // versus / contrast; that pair is the examiner's favourite probe."
+    },
+    {
+      "file": "c11_cs_cbse_04_012.md",
+      "walkthrough_append": "Worked check: watch both conversions — implicit: 5 + 2.0 gives 7.0, Python widened the int to float to avoid loss; explicit: int('25') + 5 gives 30, and float('3.14') * 2 gives 6.28 — but int('3.9') raises a ValueError and int(3.9) truncates to 3, losing the fraction silently. Every conversion has a failure mode. For the board examination, type-conversion questions give expressions to evaluate and often the trick pair int('3.9') versus int(3.9) — answer with value and type for each, and name the exception where one applies."
+    },
+    {
+      "file": "c11_cs_cbse_04_013.md",
+      "walkthrough_append": "Worked check: provoke all three errors once — print 'hello' without the closing bracket: SyntaxError, the program never starts; print(10/0): ZeroDivisionError at run time, the program halts mid-way; a program that computes an average but divides by the wrong count and prints 37.5 instead of 75: no crash, just a wrong answer — the logical error, the hardest to see. For the board examination, error-classification questions give three broken snippets and ask the class of each; answer with the class, the moment of detection (compile, run, output), and one line of fix."
+    },
+    {
+      "file": "c11_cs_cbse_04_014.md",
+      "walkthrough_append": "Worked check: debug one bug systematically — the loop prints one value too many: first, reproduce it with a small input; second, insert print(i) inside the loop or step through with a debugger to see i's values; third, form the hypothesis (the range is off by one); fourth, fix range(1, n + 1) to range(1, n) and rerun with the same input. Reproduce, trace, hypothesise, fix, retest. For the board examination, debugging questions give faulty code and ask the correction plus the error's class — state the wrong line, the corrected line, and the output after the fix."
+    },
+    {
+      "file": "c11_cs_cbse_05_003.md",
+      "walkthrough_append": "Worked check: write one if and watch the colon — n = int(input()); if n % 2 == 0: print('even') — the condition ends in a colon and the body is defined by four-space indentation; forget either and Python answers with a SyntaxError or an IndentationError. An if with no else executes nothing when the condition is False. For the board examination, if-statement questions give code to complete or predict: write the colon-and-indent form exactly, and predict output for given inputs by testing the condition aloud — the discipline of indentation is what the examiner's eye scans first."
+    },
+    {
+      "file": "c11_cs_cbse_05_005.md",
+      "walkthrough_append": "Worked check: write one ladder and one nest for the same job — grade from marks: if m >= 90: 'A' elif m >= 75: 'B' elif m >= 33: 'C' else: 'F' — a ladder, each condition tried top-down, first true wins. Nested version: if m >= 33: if m >= 90: 'A' elif m >= 75: 'B' else: 'C' else: 'F' — the pass branch opened before ranking. For the board examination, both forms are asked: write each for the given criteria, and note in one sentence when the nest earns its extra depth (a gate condition before fine-grained ranking)."
+    },
+    {
+      "file": "c11_cs_cbse_05_006.md",
+      "walkthrough_append": "Worked check: compress an if-else into one line — the long form: if marks >= 33: result = 'Pass' else: result = 'Fail'; the ternary: result = 'Pass' if marks >= 33 else 'Fail' — one expression, evaluated conditionally, assigned in one step. Read it as: value-if-true IF condition ELSE value-if-false. For the board examination, ternary questions give an if-else to convert or a ternary to expand; both directions appear, and the marks sit in preserving the exact condition and values while noting the operator's right-to-left chaining when two ternaries nest."
+    },
+    {
+      "file": "c11_cs_cbse_05_009.md",
+      "walkthrough_append": "Worked check: trace one for loop — for i in range(1, 6): print(i, i * i) walks i through 1, 2, 3, 4, 5 (the stop value 6 never printed) and prints five rows of squares. range's grammar: start included, stop excluded, step optional (range(10, 0, -2) walks 10, 8, 6, 4, 2). For the board examination, for-loop questions give range calls to enumerate or loops to predict; write out the generated sequence first — the sequence written is the prediction — and remember a for can walk any sequence, so for c in 'abc' is fair game."
+    },
+    {
+      "file": "c11_cs_cbse_05_010.md",
+      "walkthrough_append": "Worked check: run one nest to see the multiplication — for i in 1..3, for j in 1..3, print(i, j): i holds 1 while j walks 1, 2, 3; then i = 2 and j walks again: nine prints in all, the pattern of a multiplication table. Outer once, inner completely. For the board examination, nested-loop questions ask for the exact output in order — trace with a two-column table (i, j) and count the total iterations (3 × 3 = 9) explicitly; the count is usually a written mark of its own."
+    },
+    {
+      "file": "c11_cs_cbse_05_011.md",
+      "walkthrough_append": "Worked check: use break for a search — for n in range(2, 100): if n % 7 == 0: print('first multiple:', n); break — the loop stops at 7 instead of running to 99, control jumping to the first statement outside the loop. In nested loops, break frees only the innermost loop. For the board examination, break questions give a loop to complete or an output to predict; write the break condition explicitly, and state what value the loop variable holds after the jump — examiners ask that detail precisely because most candidates guess it."
+    },
+    {
+      "file": "c11_cs_cbse_05_012.md",
+      "walkthrough_append": "Worked check: watch loop-else choose its branch — for n in range(2, 20): if 20 % n == 0: print('divisor found:', n); break else: print('prime') — with 20, the break fires at n = 2 and else is skipped; with 19, no divisor breaks the loop, and 'prime' prints. Else belongs to normal termination only. For the board examination, loop-else questions predict output for two inputs, one that breaks and one that does not — write both traces side by side; the contrast is the question's whole point."
+    },
+    {
+      "file": "c11_cs_cbse_05_013.md",
+      "walkthrough_append": "Worked check: create and cure one infinite loop — i = 0; while i < 5: print(i) — the update is missing, so i never grows and the condition never falls; add i += 1 inside the body and the loop runs five times and exits. The classic sources: forgotten update, wrong comparison direction, and a condition on user input never refreshed. For the board examination, infinite-loop questions give code and ask what is wrong and the minimal fix — name the missing or misplaced update line, write the corrected line, and state how many iterations the fixed loop runs."
+    },
+    {
+      "file": "c11_cs_cbse_06_002.md",
+      "walkthrough_append": "Worked check: prove immutability to yourself — s = 'hello'; s[0] = 'H' raises TypeError: strings cannot be changed in place; but s = 'H' + s[1:] builds a new string 'Hello' and rebinds the name — legal, because the old string was never edited. Indexing runs both ways: s[-1] is 'o'. For the board examination, string questions test exactly this line between forbidden edit and legal rebuild — identify which operations raise errors, which return new strings, and write the slice that produces the requested change."
+    },
+    {
+      "file": "c11_cs_cbse_06_003.md",
+      "walkthrough_append": "Worked check: slice one string four ways — s = 'programming': s[0:3] gives 'pro' (stop index excluded); s[3:] gives 'ramming' (to the end); s[-3:] gives 'ing' (negative start counts from the end); s[::-1] gives the whole string reversed (step -1). One syntax, every substring. For the board examination, slicing questions give strings and ranges to evaluate — write each slice's result and remember the two rules: stop never included, negative step walks backwards; the reversed-string slice is the examiner's standing favourite."
+    },
+    {
+      "file": "c11_cs_cbse_06_005.md",
+      "walkthrough_append": "Worked check: apply the methods to one string — 'Data Science'.upper() gives 'DATA SCIENCE'; .lower() gives 'data science'; .find('ci') gives 5, the first index where it appears (and -1 when absent); .replace('c', 'k') gives 'Data Skienke' — every occurrence, and a new string, since the original is untouched. For the board examination, string-method questions give calls to evaluate — write the returned string exactly, mind case and every occurrence replaced — and note the method returns a value; s.upper() alone changes nothing unless assigned."
+    },
+    {
+      "file": "c11_cs_cbse_06_006.md",
+      "walkthrough_append": "Worked check: traverse and count — count the vowels in 'banana': count = 0; for ch in 'banana': if ch in 'aeiou': count += 1 — the loop hands the function 'b', 'a', 'n', 'a', 'n', 'a' in turn, and count ends at 3. The index form does the same: for i in range(len(s)): process s[i], useful when the position itself matters. For the board examination, traversal questions ask for counting, reversing or filtering programs — write the loop, initialise the accumulator before it, and return or print after it; the accumulator pattern is what every such answer shares."
+    }
+  ]
+}

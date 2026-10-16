@@ -1,0 +1,49 @@
+{
+ "generated": "2026-10-05 20:39:31",
+ "harness": "D:\\platform\\deploy\\backend\\tests\\recompute_lomo_harness.py",
+ "bank_source": {
+  "source": "D:\\platform\\backups\\dream_app_20260920_0330.sql.zip",
+  "member": "dream_app_20260920_0330.sql",
+  "built_ts": "2026-10-05 07:42:50",
+  "rows": 212987,
+  "seconds": 26.7,
+  "live_db_used": false
+ },
+ "method": {
+  "clustering": "per (subject, class) group; TIER A: exact normalize_skeleton equality (SCIENTIST-literal); TIER B: content-word template key (stopwords dropped, light stem, slot-type tokens kept, sorted); both need >=3 members, >=2 key-parseable; TIER C: singleton clusters -- the bank is authored one-question-per-node and has essentially no same-template numeric clusters (measured), so every numeric-key row is its own held-out fixture",
+  "lomo": "family identified on the train member via the production registry sweep + red-team guards + release gate (autobind lane as fallback); every other eligible member is a held-out recompute trial (Tier C: the row itself)",
+  "match_rule": "numeric-equivalent within max(0.01, 2% of max(|a|,|s|))",
+  "precision": "matches / shipped (guard refusals, family non-matches, structure drift and no-numeric results are NOT shipped: coverage losses, never precision hits)",
+  "bar": 0.98
+ },
+ "globals": {
+  "rows_scanned": 89257,
+  "clusters_formed": 15,
+  "clusters_eligible": 15,
+  "clusters_low_eligible": 0,
+  "cluster_unmatched": 15,
+  "trials_exact": 0,
+  "trials_template": 0,
+  "trials_singleton": 0,
+  "singleton_unmatched": 5669,
+  "heldout_trials": 0,
+  "shipped": 0,
+  "matches": 0,
+  "multipart_keys": 0,
+  "mismatches_multipart": 0,
+  "worker_timeouts": 0,
+  "worker_errors": 5685
+ },
+ "headline": {
+  "weighted_recompute_accuracy": 0.0,
+  "families": 0,
+  "registry_only_accuracy": 0.0,
+  "families_at_or_above_bar": 0,
+  "families_below_bar": 0,
+  "families_insufficient_fixtures": 0
+ },
+ "families": [],
+ "family_rollups": [],
+ "elapsed_s": 105.8,
+ "partial_note": ""
+}

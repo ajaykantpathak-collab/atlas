@@ -1,0 +1,37 @@
+{
+  "alignments": [
+    {
+      "args": [
+        "ui-skills-root",
+        "name: ui-skills-root"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: ui-skills-root",
+      "line": 3,
+      "matched": true,
+      "relation": "skill_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "act_review",
+        "name: ui-skills-root"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: ui-skills-root",
+      "line": 5,
+      "matched": true,
+      "relation": "action_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    }
+  ],
+  "evidence_match_rate": 1.0,
+  "grounding_score": 0.01694915254237288,
+  "normalized_facts": [
+    "skill_evidence(\"ui-skills-root\", \"su_0\").",
+    "action_evidence(\"act_review\", \"su_0\")."
+  ],
+  "reference_unit_coverage": 0.01694915254237288
+}

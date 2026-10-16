@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 import time
 import uuid
 from collections import defaultdict
@@ -432,6 +433,67 @@ class MisconceptionsResponse(BaseModel):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# Numeric-answer fold (unit/percent/currency tolerant)
+# ══════════════════════════════════════════════════════════════════════════════
+# A student who types "77" against a bank key of "77 cm²" (or "77 sq cm",
+# "Rs. 1,35,000", "50%") answered CORRECTLY — the exact-match grader used
+# to mark these wrong (the checkup sector-area defect).  Same law the
+# practice grader applies (api/practice.py _fold_numeric_with_unit):
+#   True   — both sides reduce to exactly ONE number and the units match
+#            or are absent on one side
+#   False  — same unit context but the numbers genuinely differ
+#   None   — not comparable numerically (prose, 2+ numbers, or conflicting
+#            units like "77 cm" vs "77 m") — caller falls through
+
+_LEAD_CURRENCY_RE = re.compile(
+    r"^[-+]?\s*(?:[₹$€£]|rs\.?)\s*", re.IGNORECASE)
+_PURE_NUM_RE = re.compile(r"^[-+]?[\d,]*\.?\d+$")
+_NUM_UNIT_RE = re.compile(
+    r"^[-+]?[\d,]*\.?\d+\s*(?P<unit>[a-zA-Z0-9°µ%²³^]{1,6}"
+    r"(?:[a-zA-Z0-9°µ%²³^\s]{0,14})?)$")
+
+
+def _normalise_unit(unit: str) -> str:
+    """Canonical unit token: 'cm²'/'cm^2'/'cm2'/'sq. cm' → comparable form."""
+    u = (unit or "").strip().lower()
+    u = u.replace("²", "2").replace("³", "3").replace("^", "")
+    u = u.replace("square", "sq")
+    u = re.sub(r"[^a-z0-9%°]+", "", u)
+    return u
+
+
+def _numeric_unit_fold(student: str, correct: str) -> Optional[bool]:
+    """Numeric-equivalence fold tolerant of units/decoration.  See block
+    comment above for the True/False/None contract."""
+
+    def parts(s: str) -> Optional[Tuple[float, str]]:
+        t = str(s).strip()
+        t = _LEAD_CURRENCY_RE.sub("", t)
+        t = t.strip().strip(".,;:!?\"'()").strip()
+        t = re.sub(r"\s+", " ", t)
+        if _PURE_NUM_RE.match(t):
+            num, unit = t, ""
+        else:
+            m = _NUM_UNIT_RE.match(t)
+            if not m:
+                return None
+            num = t[:m.start("unit")].strip()
+            unit = _normalise_unit(m.group("unit"))
+        try:
+            return float(num.replace(",", "")), unit
+        except ValueError:
+            return None
+
+    pa, pc = parts(student), parts(correct)
+    if pa is None or pc is None:
+        return None
+    (na, ua), (nc, uc) = pa, pc
+    if ua and uc and ua != uc:
+        return None  # conflicting units — never fold deterministically
+    return abs(na - nc) <= 1e-6
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # SECTION 3 – ORM model
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -642,21 +704,38 @@ class DiagnosticService:
             )
 
         # ── locate the question that was just answered ─────────────────────
+        # TOLERANT MATCH (2026-10-08 student-audit P1 DIAG-FAKE-RESULTS):
+        # the old contract required the answer to be for the LAST issued
+        # question (LIFO).  The student UI serves a LIST and submits in
+        # served order (FIFO), so any out-of-order answer -> 400 "Question
+        # mismatch", sessions became permanently unfinishable and the FE
+        # fell back to local fake results.  Now: accept any question the
+        # server actually issued and hasn't answered yet; replayed or
+        # never-issued ids still get the specific errors.
         answered_q_list = session.questions_asked_list
-        answered_index = session.current_question_index - 1   # we already incremented
-        if answered_index >= len(answered_q_list):
+        if not answered_q_list:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail="No pending question to answer. "
                        "Call start_diagnostic first.",
             )
-        answered_q = answered_q_list[answered_index]
-
-        if answered_q["question_id"] != question_id:
+        _already = {r.get("question_id") for r in session.responses_list}
+        answered_q = None
+        for _q in answered_q_list:
+            if _q.get("question_id") == question_id:
+                if question_id in _already:
+                    raise HTTPException(
+                        status_code=status.HTTP_400_BAD_REQUEST,
+                        detail=f"Question {question_id} was already "
+                               f"answered.",
+                    )
+                answered_q = _q
+                break
+        if answered_q is None:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=f"Question mismatch. Expected {answered_q['question_id']}, "
-                       f"got {question_id}.",
+                detail=f"Question mismatch. {question_id} was never "
+                       f"issued in this session.",
             )
 
         # ── fetch canonical question & evaluate ─────────────────────────────
@@ -1411,6 +1490,15 @@ class DiagnosticService:
                 return True
         except Exception:
             pass
+
+        # Unit/percent/currency-tolerant numeric fold: "77" == "77 cm²" ==
+        # "77 sq cm" == "Rs. 77".  Without this, a mathematically correct
+        # typed answer (e.g. the sector-area 77 against a "77 cm²" bank
+        # key) was graded wrong.  Conflicting units ("77 cm" vs "77 m")
+        # still fall through to False.
+        fold = _numeric_unit_fold(student, correct)
+        if fold is not None:
+            return fold
 
         return False
 

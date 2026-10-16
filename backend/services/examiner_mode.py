@@ -1,11 +1,18 @@
 """examiner_mode.py — grade a student's answer against the corpus node's
-MARKING_POINTS, returning a per-point mark breakdown + what was missing
+authored answer key, returning a per-point mark breakdown + what was missing
 (the CopyWorthy diff).
 
-Closed-world: the marking scheme comes from the authored corpus node file
-in cisce_nodes_v2 (COMPETENCY_QUESTION_* / CISCE_BOARD_* MARKING_POINTS
-lines). Text extraction from an image is delegated to the existing vision
-surface when available; otherwise the caller supplies transcribed text.
+Closed-world: the marking scheme comes from the authored corpus node file.
+Two corpus families (dual-corpus serving, 2026-09-29):
+
+- cisce_nodes_v2: COMPETENCY_QUESTION_* / CISCE_BOARD_* MARKING_POINTS lines
+- enhanced_nodes_md (CBSE): DIAGNOSTIC_QUESTION_N / DIAGNOSTIC_ANSWER_N
+  pairs — each authored diagnostic answer key becomes one marking point
+  (1 mark), so a student who searched a CBSE topic gets graded against the
+  same corpus the search served instead of "not found in corpus".
+
+Text extraction from an image is delegated to the existing vision surface
+when available; otherwise the caller supplies transcribed text.
 """
 from __future__ import annotations
 
@@ -14,10 +21,13 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 CORPUS = Path("D:/platform/deploy/content/cisce_nodes_v2")
+CORPUS_CBSE = Path("D:/platform/deploy/content/enhanced_nodes_md")
 
 
 def _load_node(node_id: str) -> Optional[str]:
-    for base in (CORPUS, CORPUS.parent / "content" / "cisce_nodes_v2"):
+    for base in (CORPUS, CORPUS.parent / "content" / "cisce_nodes_v2",
+                 CORPUS_CBSE, CORPUS_CBSE.parent / "content" /
+                 "enhanced_nodes_md"):
         p = base / f"{node_id}.md"
         if p.exists():
             try:
@@ -57,6 +67,22 @@ def _marking_points(node_text: str) -> List[Dict[str, Any]]:
                 "question": (qhead.group(3)[:200] if qhead else ""),
                 "criterion": mp.group(1).strip(),
                 "max_marks": int(mp.group(2)),
+            })
+    # CBSE corpus (enhanced_nodes_md): authored DIAGNOSTIC_QUESTION_N /
+    # DIAGNOSTIC_ANSWER_N pairs — each answer key is one 1-mark point, so
+    # CBSE topics grade against the same corpus that search served.
+    for dq in re.finditer(
+            r"## DIAGNOSTIC_QUESTION_(\d+)\n(.*?)(?=\n## )\n?## DIAGNOSTIC_ANSWER_\1\n(.*?)(?=\n## )",
+            node_text, re.S):
+        qn, qbody, abody = dq.group(1), dq.group(2), dq.group(3)
+        question = (qbody.strip().splitlines() or [""])[0][:200]
+        answer_key = abody.strip()
+        if answer_key:
+            points.append({
+                "source": f"DIAGNOSTIC_QUESTION_{qn}",
+                "question": question,
+                "criterion": answer_key.split("\n")[0][:200].strip(),
+                "max_marks": 1,
             })
     return points
 

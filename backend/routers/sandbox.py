@@ -23,8 +23,8 @@ router = APIRouter(prefix="/api/sandbox", tags=["sandbox"])
 # subject whose families module is missing degrades instead of crashing
 # the whole router import.
 _SUBJECT_MODELS = {
-    "maths": ("backend.its.solver.maths2_families", "model_maths2"),
-    "applied_maths": ("backend.its.solver.applied_maths_families", "model_applied_maths"),
+    "maths": ("backend.its.solver.maths_families", "model_maths"),
+    "applied_maths": ("backend.its.solver.maths_families", "model_maths"),
     "physics": ("backend.its.solver.physics_families", "model_physics_families"),
     "chemistry": ("backend.its.solver.chemistry_families", "model_chemistry_families"),
     # batch-16 fix: the module's entry point is model_biology (the
@@ -40,7 +40,10 @@ _SUBJECT_MODELS = {
     "compapp": ("backend.its.solver.compapp_families", "model_compapp"),
     "socsci": ("backend.its.solver.socsci_families", "model_socsci"),
     "commerce": ("backend.its.solver.commerce_families", "model_commerce_families"),
-    "commerce2": ("backend.its.solver.commerce_families2", "model_commerce2"),
+    # WS-B map step 5: commerce_families2 dissolved into commerce_families;
+    # the "commerce2" sandbox key keeps working, pointed at the merged
+    # dispatcher (map §8 importer list).
+    "commerce2": ("backend.its.solver.commerce_families", "model_commerce_families"),
 }
 
 _model_cache: Dict[str, Any] = {}
@@ -53,9 +56,9 @@ def _physics_chain():
     missing module degrades to the remaining ones."""
     fns = []
     for module_path, fn_name in (
+        # WS-B step 2: physics2/physics3 folded into physics_families —
+        # the merged dispatcher IS the chain.
         ("backend.its.solver.physics_families", "model_physics_families"),
-        ("backend.its.solver.physics2_families", "model_physics2"),
-        ("backend.its.solver.physics3_families", "model_physics3"),
     ):
         try:
             import importlib
@@ -137,7 +140,7 @@ def _verification_receipt(result, question: str = "") -> Optional[Dict[str, Any]
     if not route:
         return None
     try:
-        from backend.its.solver.independent_verifier import (
+        from backend.services.solver_gateway import (
             verify_independent)
         ok, proof = verify_independent(route, question, result)
         if proof:
@@ -220,7 +223,7 @@ def sandbox_solve(req: SolveRequest):
     # VERIFIED only when the family's own verification beat passed (the
     # answer_pipeline promotion gate); anything else ships GUIDED method
     # or UNSUPPORTED, never an unverified answer.
-    from backend.its.solver.contract import (SolverOutcome,
+    from backend.services.solver_gateway import (SolverOutcome,
                                              SolverStatus, promotion_gate,
                                              emit_solver_metrics)
     try:
@@ -237,7 +240,7 @@ def sandbox_solve(req: SolveRequest):
         pass
     # telemetry loop: verified/refused/family counters + latency window
     try:
-        from backend.its.solver.solver_telemetry import record as _tel
+        from backend.services.solver_gateway import telemetry_record as _tel
         latency = (time.perf_counter() - t0) * 1000
         refused = not getattr(result, "matched", False)
         _tel(getattr(result, "structure", "") or subject, verified=bool(
@@ -255,7 +258,7 @@ async def solver_metrics_snapshot():
     """Live per-solve telemetry: verified/refused/family counts, latency
     window, SLO state. Internal operational surface (nginx /metrics is
     locked to private ranges; this one is read-only counters)."""
-    from backend.its.solver.solver_telemetry import snapshot
+    from backend.services.solver_gateway import telemetry_snapshot
     return snapshot()
 
 
@@ -283,7 +286,7 @@ def _emit_metrics(subject: str, status: str, route: List[str],
 
 def _solver_version() -> str:
     try:
-        from backend.its.solver.contract import SOLVER_VERSION
+        from backend.services.solver_gateway import SOLVER_VERSION
         return SOLVER_VERSION
     except Exception:
         import os

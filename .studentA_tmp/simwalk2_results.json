@@ -1,0 +1,362 @@
+[
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and got a close-"
+    ],
+    "picked": "They counted a small sample area, estimated the rest, and got a close-",
+    "feedback": null,
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and got a close-"
+    ],
+    "picked": "They counted a small sample area, estimated the rest, and got a close-",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p2",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and got a close-"
+    ],
+    "picked": "They counted a small sample area, estimated the rest, and got a close-",
+    "feedback": null,
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and got a close-"
+    ],
+    "picked": "They counted a small sample area, estimated the rest, and got a close-",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "Because tiles can only be counted in squares",
+     "Because squaring IS the area of a square — n² counts the unit squares ",
+     "Because 4² means 4 + 4 = 8",
+     "Because mathematicians like small writing"
+    ],
+    "picked": "Because mathematicians like small writing",
+    "feedback": null,
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "Because tiles can only be counted in squares",
+     "Because squaring IS the area of a square — n² counts the unit squares ",
+     "Because 4² means 4 + 4 = 8",
+     "Because mathematicians like small writing"
+    ],
+    "picked": "Because mathematicians like small writing",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch02_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "100 — ten folds times ten",
+     "1,024 — each fold doubles the layers, and doubling ten times explodes ",
+     "Nobody can fold paper that many times so it doesn't matter",
+     "20 — each fold just adds 2 more layers"
+    ],
+    "picked": "20 — each fold just adds 2 more layers",
+    "feedback": null,
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "100 — ten folds times ten",
+     "1,024 — each fold doubles the layers, and doubling ten times explodes ",
+     "Nobody can fold paper that many times so it doesn't matter",
+     "20 — each fold just adds 2 more layers"
+    ],
+    "picked": "20 — each fold just adds 2 more layers",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "Because it proves every number is secretly prime",
+     "Because without it, calculators couldn't multiply",
+     "Because unique prime factorisation lets us prove things like √2 is irr",
+     "Because it shows multiplication and division are the same operation"
+    ],
+    "picked": "Because it shows multiplication and division are the same operation",
+    "feedback": "actually powerful? 🔊 Because it proves every number is secretly prime Because without it, calculator",
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "Because it proves every number is secretly prime",
+     "Because without it, calculators couldn't multiply",
+     "Because unique prime factorisation lets us prove things like √2 is irr",
+     "Because it shows multiplication and division are the same operation"
+    ],
+    "picked": "Because it shows multiplication and division are the same operation",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch02_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "The friend — cubics always cross exactly three times",
+     "You — all cubics cross exactly twice",
+     "Neither — a degree-n polynomial can cross AT MOST n times, but sometim",
+     "Graphs can't tell us anything about zeros at all"
+    ],
+    "picked": "Graphs can't tell us anything about zeros at all",
+    "feedback": "exactly",
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "The friend — cubics always cross exactly three times",
+     "You — all cubics cross exactly twice",
+     "Neither — a degree-n polynomial can cross AT MOST n times, but sometim",
+     "Graphs can't tell us anything about zeros at all"
+    ],
+    "picked": "Graphs can't tell us anything about zeros at all",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_bio_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "Being broken into molecules your cells absorb",
+     "Sitting whole in your stomach",
+     "Filtered out by the liver",
+     "Already converted to pure energy"
+    ],
+    "picked": "Already converted to pure energy",
+    "feedback": null,
+    "advanced": true
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "Being broken into molecules your cells absorb",
+     "Sitting whole in your stomach",
+     "Filtered out by the liver",
+     "Already converted to pure energy"
+    ],
+    "picked": "Already converted to pure energy",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_chem_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 4,
+    "options": [
+     "Burning creates matter",
+     "Oxygen from the air joined the magnesium",
+     "Heat adds weight",
+     "The scale is wrong"
+    ],
+    "picked": "The scale is wrong",
+    "feedback": null,
+    "advanced": true
+   },
+   {
+    "step": 1,
+    "n_opts": 4,
+    "options": [
+     "Burning creates matter",
+     "Oxygen from the air joined the magnesium",
+     "Heat adds weight",
+     "The scale is wrong"
+    ],
+    "picked": "The scale is wrong",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch01_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 3,
+    "options": [
+     "Reflexive (everyone groups with self), symmetric (A with B means B wit",
+     "Any grouping works",
+     "Only symmetry matters"
+    ],
+    "picked": "Only symmetry matters",
+    "feedback": null,
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 3,
+    "options": [
+     "Reflexive (everyone groups with self), symmetric (A with B means B wit",
+     "Any grouping works",
+     "Only symmetry matters"
+    ],
+    "picked": "Only symmetry matters",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch02_p1",
+  "slides": [
+   {
+    "step": 0,
+    "n_opts": 3,
+    "options": [
+     "Pick the smallest",
+     "Round the answer",
+     "Restrict the domain — chop sine, cosine, tangent to intervals where th"
+    ],
+    "picked": "Restrict the domain — chop sine, cosine, tangent to intervals where th",
+    "feedback": "exactly",
+    "advanced": false
+   },
+   {
+    "step": 1,
+    "n_opts": 3,
+    "options": [
+     "Pick the smallest",
+     "Round the answer",
+     "Restrict the domain — chop sine, cosine, tangent to intervals where th"
+    ],
+    "picked": "Restrict the domain — chop sine, cosine, tangent to intervals where th",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"button:visible\""
+   }
+  ],
+  "anomalies": [
+   "no-change loop at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_physics_ch01_p1",
+  "slides": [],
+  "anomalies": [],
+  "boot": "DEAD"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_chemistry_ch01_p1",
+  "slides": [],
+  "anomalies": [],
+  "boot": "DEAD"
+ }
+]

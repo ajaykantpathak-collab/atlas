@@ -6,7 +6,8 @@ Everything here is DERIVED from real recorded data; nothing is invented:
 - Daily goal progress counts today's real ``activity_log`` quiz rows (the
   rows written by actual practice/assessment submissions).
 - Streak state mirrors the exact day-boundary math of
-  ``ProgressService.update_streak`` (server-local ``date.today()``) so the
+  ``services/reward_ledger.update_streak`` (the IST student day,
+  ``services/streak_state.student_today``) so the
   "at risk" nudge can never disagree with the streak service.
 - Notifications are computed on read from real rows (activity_log,
   user_achievements, review_items, users.last_activity_date) and carry
@@ -33,7 +34,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
-from backend.deps import get_current_user
+from backend.deps import get_current_user, require_self_or_linked_parent
 from backend.models.progress import ActivityLog
 from backend.models.user import User
 
@@ -64,8 +65,16 @@ _READS_KEY = "notif_reads"
 # ---------------------------------------------------------------------------
 
 def _server_today() -> date:
-    """The SAME boundary ProgressService.update_streak uses (date.today())."""
-    return date.today()
+    """The SAME boundary the canonical streak writer uses.
+
+    services/reward_ledger.update_streak buckets reward days with the IST
+    student day (services/streak_state.student_today) — the goal "today" must
+    be the student's today, not the server's, or a 23:30 IST submit counts on
+    the wrong day on a UTC host.
+    """
+    from backend.services.streak_state import student_today
+
+    return student_today()
 
 
 def _prefs_block(user: User) -> dict[str, Any]:
@@ -119,6 +128,13 @@ def _row_utc(row: Any) -> Optional[datetime]:
     return ts
 
 
+def _ist_day_start(day: date) -> datetime:
+    """IST midnight of a student day, as an aware datetime (DB fetch window)."""
+    from backend.services.streak_state import IST
+
+    return datetime.combine(day, time.min, tzinfo=IST)
+
+
 def _row_correct(row: Any) -> bool:
     meta = row.extra_data if isinstance(row.extra_data, dict) else {}
     raw = meta.get("is_correct")
@@ -160,11 +176,17 @@ def _streak_state(user: User, today: date) -> dict[str, Any]:
     }
 
 def _today_summary(rows: List[Any], today: date) -> dict[str, Any]:
-    """Aggregate TODAY's quiz rows — the only source of goal progress."""
+    """Aggregate TODAY's quiz rows — the only source of goal progress.
+
+    Rows are stored UTC; their date is taken in IST so "today" matches the
+    student day the goal and streak are bucketed on.
+    """
+    from backend.services.streak_state import to_ist
+
     questions = 0
     seconds = 0
     for row in rows:
-        ts = _row_utc(row)
+        ts = to_ist(_row_utc(row))
         if ts is None:
             continue
         if ts.date() == today:
@@ -204,7 +226,7 @@ async def _quiz_rows_since(
 
 async def _goal_payload(user: User, db: AsyncSession) -> dict[str, Any]:
     today = _server_today()
-    day_start = datetime.combine(today, time.min, tzinfo=timezone.utc)
+    day_start = _ist_day_start(today)
     # Pull yesterday too so "today" filtering is purely date-based (defensive
     # against clock-edge writes); _today_summary keeps only today's rows.
     rows = await _quiz_rows_since(db, str(user.id), day_start - timedelta(days=1))
@@ -356,7 +378,7 @@ async def _build_notifications(user: User, db: AsyncSession) -> List[dict[str, A
     # 2. Goal completed TODAY — only when real rows meet the real target.
     goal = _stored_goal(user)
     if goal:
-        day_start = datetime.combine(today, time.min, tzinfo=timezone.utc)
+        day_start = _ist_day_start(today)
         rows = await _quiz_rows_since(db, str(user.id), day_start - timedelta(days=1))
         stats = _today_summary(rows, today)
         if _goal_completed(goal, stats):
@@ -489,30 +511,13 @@ async def get_weekly_digest(
 ) -> dict[str, Any]:
     """Real weekly summary for one student — self or linked parent only."""
     # ---- Authorization: the student themself or a LINKED parent ----
-    if str(user.id) != str(student_id):
-        if (getattr(user, "role", None) or "") != "parent":
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="Not authorized for this student",
-            )
-        from backend.services.auth_service import ParentStudentLinkModel
+    # (shared guard in backend.deps — the same check exams/history reuses)
+    student_id = await require_self_or_linked_parent(student_id, user, db)
 
-        link = await db.execute(
-            select(ParentStudentLinkModel.id).where(
-                ParentStudentLinkModel.parent_id == user.id,
-                ParentStudentLinkModel.student_id == student_id,
-            )
-        )
-        if link.scalar_one_or_none() is None:
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="This student is not linked to your account",
-            )
-
-    # ---- Window: the last 7 days INCLUDING today, server-date boundary ----
+    # ---- Window: the last 7 days INCLUDING today, IST student-day boundary ----
     today = _server_today()
     week_start_date = today - timedelta(days=DIGEST_DAYS - 1)
-    window_start = datetime.combine(week_start_date, time.min, tzinfo=timezone.utc)
+    window_start = _ist_day_start(week_start_date)
 
     student = (
         await db.execute(select(User).where(User.id == student_id))

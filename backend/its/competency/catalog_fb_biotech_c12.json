@@ -1,0 +1,533 @@
+{
+ "subject": "biotech",
+ "chapter_title": "ICSE biotech formula bank (c12)",
+ "source_file": "c12_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_BIOTECH_C12_001",
+   "title": "SECTION 1: DNA AND MOLECULAR BIOLOGY: moles = ...",
+   "section": "SECTION 1: DNA AND MOLECULAR BIOLOGY",
+   "formula": "moles = 1*10^-6 / (b*p * 660)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: DNA AND MOLECULAR BIOLOGY (SECTION 1: DNA AND MOLECULAR BIOLOGY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find moles using section 1: dna and molecular biology",
+    "calculate section 1: dna and molecular biology",
+    "section 1: dna and molecular biology formula question",
+    "given values find moles",
+    "section 1: dna and molecular biology section 1: dna and molecular biology numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_001",
+     "question_pattern": "section 1: dna and molecular biology with {b} and {p} find moles",
+     "extracted_variables": {
+      "b": "given b",
+      "p": "given p"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for b, p from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "moles = 1*10^-6 / (b*p * 660)",
+     "compute": "moles = 1*10^-6 / (b*p * 660)"
+    }
+   ],
+   "chapter_title": "SECTION 1: DNA AND MOLECULAR BIOLOGY"
+  },
+  {
+   "id": "FB_BIOTECH_C12_002",
+   "title": "SECTION 1: DNA AND MOLECULAR BIOLOGY: Annealing temp = ...",
+   "section": "SECTION 1: DNA AND MOLECULAR BIOLOGY",
+   "formula": "Annealing_temp = T*m - 5",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: DNA AND MOLECULAR BIOLOGY (SECTION 1: DNA AND MOLECULAR BIOLOGY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find annealing temp using section 1: dna and molecular biology",
+    "calculate section 1: dna and molecular biology",
+    "section 1: dna and molecular biology formula question",
+    "given values find annealing temp",
+    "section 1: dna and molecular biology section 1: dna and molecular biology numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_002",
+     "question_pattern": "section 1: dna and molecular biology with {T} and {m} find annealing temp",
+     "extracted_variables": {
+      "T": "given T",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Annealing temp = T*m - 5",
+     "compute": "Annealing_temp = T*m - 5"
+    }
+   ],
+   "chapter_title": "SECTION 1: DNA AND MOLECULAR BIOLOGY"
+  },
+  {
+   "id": "FB_BIOTECH_C12_003",
+   "title": "SECTION 1: DNA AND MOLECULAR BIOLOGY: N = ...",
+   "section": "SECTION 1: DNA AND MOLECULAR BIOLOGY",
+   "formula": "N = N0 * (1+E)^n",
+   "_pats_extra": [],
+   "key_idea": "SECTION 1: DNA AND MOLECULAR BIOLOGY (SECTION 1: DNA AND MOLECULAR BIOLOGY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using section 1: dna and molecular biology",
+    "calculate section 1: dna and molecular biology",
+    "section 1: dna and molecular biology formula question",
+    "given values find n",
+    "section 1: dna and molecular biology section 1: dna and molecular biology numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_003",
+     "question_pattern": "section 1: dna and molecular biology with {N0} and {E} and {n} find n",
+     "extracted_variables": {
+      "N0": "given N0",
+      "E": "given E",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N0, E, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N = N0 * (1+E)^n",
+     "compute": "N = N0 * (1+E)^n"
+    }
+   ],
+   "chapter_title": "SECTION 1: DNA AND MOLECULAR BIOLOGY"
+  },
+  {
+   "id": "FB_BIOTECH_C12_004",
+   "title": "SECTION 3: CELL DENSITY AND GROWTH: mu = ...",
+   "section": "SECTION 3: CELL DENSITY AND GROWTH",
+   "formula": "mu = mu*_max * S / (K*s + S)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 3: CELL DENSITY AND GROWTH (SECTION 3: CELL DENSITY AND GROWTH)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mu using section 3: cell density and growth",
+    "calculate section 3: cell density and growth",
+    "section 3: cell density and growth formula question",
+    "given values find mu",
+    "section 3: cell density and growth section 3: cell density and growth numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_004",
+     "question_pattern": "section 3: cell density and growth with {_max} and {S} and {K} and {s} and {S} find mu",
+     "extracted_variables": {
+      "_max": "given _max",
+      "S": "given S",
+      "K": "given K",
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for _max, S, K, s, S from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "mu = mu*_max * S / (K*s + S)",
+     "compute": "mu = mu*_max * S / (K*s + S)"
+    }
+   ],
+   "chapter_title": "SECTION 3: CELL DENSITY AND GROWTH"
+  },
+  {
+   "id": "FB_BIOTECH_C12_005",
+   "title": "SECTION 4: FERMENTATION: D = ...",
+   "section": "SECTION 4: FERMENTATION",
+   "formula": "D = F / V",
+   "_pats_extra": [],
+   "key_idea": "SECTION 4: FERMENTATION (SECTION 4: FERMENTATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find d using section 4: fermentation",
+    "calculate section 4: fermentation",
+    "section 4: fermentation formula question",
+    "given values find d",
+    "section 4: fermentation section 4: fermentation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_005",
+     "question_pattern": "section 4: fermentation with {F} and {V} find d",
+     "extracted_variables": {
+      "F": "given F",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "D = F / V",
+     "compute": "D = F / V"
+    }
+   ],
+   "chapter_title": "SECTION 4: FERMENTATION"
+  },
+  {
+   "id": "FB_BIOTECH_C12_006",
+   "title": "SECTION 4: FERMENTATION: OTR = ...",
+   "section": "SECTION 4: FERMENTATION",
+   "formula": "OTR = k*L*a * (C* - C)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 4: FERMENTATION (SECTION 4: FERMENTATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find otr using section 4: fermentation",
+    "calculate section 4: fermentation",
+    "section 4: fermentation formula question",
+    "given values find otr",
+    "section 4: fermentation section 4: fermentation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_006",
+     "question_pattern": "section 4: fermentation with {k} and {L} and {a} and {C} and {C} find otr",
+     "extracted_variables": {
+      "k": "given k",
+      "L": "given L",
+      "a": "given a",
+      "C": "given C"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, L, a, C, C from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "OTR = k*L*a * (C* - C)",
+     "compute": "OTR = k*L*a * (C* - C)"
+    }
+   ],
+   "chapter_title": "SECTION 4: FERMENTATION"
+  },
+  {
+   "id": "FB_BIOTECH_C12_007",
+   "title": "SECTION 4: FERMENTATION: OUR = ...",
+   "section": "SECTION 4: FERMENTATION",
+   "formula": "OUR = qO2 * X",
+   "_pats_extra": [],
+   "key_idea": "SECTION 4: FERMENTATION (SECTION 4: FERMENTATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find our using section 4: fermentation",
+    "calculate section 4: fermentation",
+    "section 4: fermentation formula question",
+    "given values find our",
+    "section 4: fermentation section 4: fermentation numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_007",
+     "question_pattern": "section 4: fermentation with {qO2} and {X} find our",
+     "extracted_variables": {
+      "qO2": "given qO2",
+      "X": "given X"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for qO2, X from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "OUR = qO2 * X",
+     "compute": "OUR = qO2 * X"
+    }
+   ],
+   "chapter_title": "SECTION 4: FERMENTATION"
+  },
+  {
+   "id": "FB_BIOTECH_C12_008",
+   "title": "SECTION 5: rDNA TECHNOLOGY: ng_insert = ...",
+   "section": "SECTION 5: rDNA TECHNOLOGY",
+   "formula": "ng_insert = (molar_ratio * ng_vector * kb_insert) / kb_vector",
+   "_pats_extra": [],
+   "key_idea": "SECTION 5: rDNA TECHNOLOGY (SECTION 5: rDNA TECHNOLOGY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ng_insert using section 5: rdna technology",
+    "calculate section 5: rdna technology",
+    "section 5: rdna technology formula question",
+    "given values find ng_insert",
+    "section 5: rdna technology section 5: rdna technology numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_008",
+     "question_pattern": "section 5: rdna technology with {molar_ratio} and {ng_vector} and {kb_insert} and {kb_vector} find ng_insert",
+     "extracted_variables": {
+      "molar_ratio": "given molar_ratio",
+      "ng_vector": "given ng_vector",
+      "kb_insert": "given kb_insert",
+      "kb_vector": "given kb_vector"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for molar_ratio, ng_vector, kb_insert, kb_vector from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "ng_insert = (molar_ratio * ng_vector * kb_insert) / kb_vector",
+     "compute": "ng_insert = (molar_ratio * ng_vector * kb_insert) / kb_vector"
+    }
+   ],
+   "chapter_title": "SECTION 5: rDNA TECHNOLOGY"
+  },
+  {
+   "id": "FB_BIOTECH_C12_009",
+   "title": "SECTION 5: rDNA TECHNOLOGY: TE = ...",
+   "section": "SECTION 5: rDNA TECHNOLOGY",
+   "formula": "TE = (colonies * total_volume) / (volume_plated * DNA_in_ug)",
+   "_pats_extra": [],
+   "key_idea": "SECTION 5: rDNA TECHNOLOGY (SECTION 5: rDNA TECHNOLOGY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find te using section 5: rdna technology",
+    "calculate section 5: rdna technology",
+    "section 5: rdna technology formula question",
+    "given values find te",
+    "section 5: rdna technology section 5: rdna technology numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_009",
+     "question_pattern": "section 5: rdna technology with {colonies} and {total_volume} and {volume_plated} and {DNA_in_ug} find te",
+     "extracted_variables": {
+      "colonies": "given colonies",
+      "total_volume": "given total_volume",
+      "volume_plated": "given volume_plated",
+      "DNA_in_ug": "given DNA_in_ug"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for colonies, total_volume, volume_plated, DNA_in_ug from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "TE = (colonies * total_volume) / (volume_plated * DNA_in_ug)",
+     "compute": "TE = (colonies * total_volume) / (volume_plated * DNA_in_ug)"
+    }
+   ],
+   "chapter_title": "SECTION 5: rDNA TECHNOLOGY"
+  },
+  {
+   "id": "FB_BIOTECH_C12_010",
+   "title": "SECTION 8: GENETICS AND STATISTICS: Recombination frequency = ...",
+   "section": "SECTION 8: GENETICS AND STATISTICS",
+   "formula": "Recombination_frequency = (recombinant_offspring / total_offspring) * 100",
+   "_pats_extra": [],
+   "key_idea": "SECTION 8: GENETICS AND STATISTICS (SECTION 8: GENETICS AND STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find recombination frequency using section 8: genetics and statistics",
+    "calculate section 8: genetics and statistics",
+    "section 8: genetics and statistics formula question",
+    "given values find recombination frequency",
+    "section 8: genetics and statistics section 8: genetics and statistics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIOTECH_C12_010",
+     "question_pattern": "section 8: genetics and statistics with {recombinant_offspring} and {total_offspring} find recombination frequency",
+     "extracted_variables": {
+      "recombinant_offspring": "given recombinant_offspring",
+      "total_offspring": "given total_offspring"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for recombinant_offspring, total_offspring from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Recombination frequency = (recombinant_offspring / total_offspring) * 100",
+     "compute": "Recombination_frequency = (recombinant_offspring / total_offspring) * 100"
+    }
+   ],
+   "chapter_title": "SECTION 8: GENETICS AND STATISTICS"
+  },
+  {
+   "id": "FBD_BIOTECH_C12_001",
+   "title": "MW: MW = ...",
+   "section": "decision tree",
+   "formula": "MW = n*t * 330*D*a",
+   "key_idea": "MW (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mw using mw",
+    "calculate mw",
+    "mw formula question",
+    "given values find mw"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C12_001",
+     "question_pattern": "mw with {n} and {t} and {D} and {a} find mw",
+     "extracted_variables": {
+      "n": "given n",
+      "t": "given t",
+      "D": "given D",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, t, D, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "MW = n*t * 330*D*a",
+     "compute": "MW = n*t * 330*D*a"
+    }
+   ],
+   "chapter_title": "biotech c12 decision formulas"
+  },
+  {
+   "id": "FBD_BIOTECH_C12_002",
+   "title": "Annealing temperature: Annealing temperature = ...",
+   "section": "decision tree",
+   "formula": "Annealing_temperature = T*m - 5",
+   "key_idea": "Annealing temperature (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find annealing temperature using annealing temperature",
+    "calculate annealing temperature",
+    "annealing temperature formula question",
+    "given values find annealing temperature"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C12_002",
+     "question_pattern": "annealing temperature with {T} and {m} find annealing temperature",
+     "extracted_variables": {
+      "T": "given T",
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T, m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Annealing temperature = T*m - 5",
+     "compute": "Annealing_temperature = T*m - 5"
+    }
+   ],
+   "chapter_title": "biotech c12 decision formulas"
+  },
+  {
+   "id": "FBD_BIOTECH_C12_003",
+   "title": "V1: V1 = ...",
+   "section": "decision tree",
+   "formula": "V1 = C2 * V2 / C1",
+   "key_idea": "V1 (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v1 using v1",
+    "calculate v1",
+    "v1 formula question",
+    "given values find v1"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_BIOTECH_C12_003",
+     "question_pattern": "v1 with {C2} and {V2} and {C1} find v1",
+     "extracted_variables": {
+      "C2": "given C2",
+      "V2": "given V2",
+      "C1": "given C1"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C2, V2, C1 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V1 = C2 * V2 / C1",
+     "compute": "V1 = C2 * V2 / C1"
+    }
+   ],
+   "chapter_title": "biotech c12 decision formulas"
+  }
+ ]
+}

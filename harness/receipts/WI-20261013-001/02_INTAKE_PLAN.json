@@ -1,0 +1,64 @@
+{
+ "receipt_id": "rcpt_20261013T151504Z_485a48b8",
+ "work_item": "WI-20261013-001",
+ "from_state": "INTAKE",
+ "to_state": "PLAN",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:15:04Z",
+ "gates": [],
+ "evidence": {
+  "plan": {
+   "path": "D:\\platform\\harness\\receipts\\WI-20261013-001\\plan.md",
+   "sha256": "32ad93b13f629ed5298331c43f8397aa4a53d3d7864834c126092d08c5e24b2e"
+  },
+  "files_in_scope": [
+   "deploy/backend/services/answer_telemetry.py",
+   "deploy/backend/tests/test_answer_telemetry.py"
+  ],
+  "gates_expected": {
+   "G1": {
+    "applies": "apply",
+    "reason": "new tests/test_answer_telemetry.py maps to the changed service"
+   },
+   "G2": {
+    "applies": "apply",
+    "reason": "backend .py changed"
+   },
+   "G3": {
+    "applies": "apply",
+    "reason": "backend .py changed"
+   },
+   "G4": {
+    "applies": "apply",
+    "reason": "services/ strings changed — docstrings + code"
+   },
+   "G5": {
+    "applies": "apply"
+   },
+   "G6": {
+    "applies": "not_applicable",
+    "reason": "its/solver/** untouched; modeling_layer unchanged"
+   },
+   "G7": {
+    "applies": "apply",
+    "reason": "backend .py changed — dev boot + health"
+   },
+   "G8": {
+    "applies": "not_applicable",
+    "reason": "no frontend change"
+   },
+   "G9": {
+    "applies": "not_applicable",
+    "reason": "chisel CLI not installed on host — verified 2026-10-13"
+   },
+   "G10": {
+    "applies": "apply",
+    "reason": "executes at SOAK state"
+   }
+  },
+  "wi_type": "IMPROVEMENT",
+  "citation": "telemetry mining blocker, verified live 2026-10-13: `harness mine --since 7d`\nranked 214 refusal signatures from runtime_data/ops/answer_telemetry.jsonl,\nbut the solve-row schema carries NO question text and NO question hash\n(fields: text_len only — sample rows at lines 39572/37170, refusal clusters\n3056x \"needs a different approach\" / 1773x \"No canonical structure\nmatched\"). Corpus mining cannot "
+ },
+ "notes": "type=IMPROVEMENT files=2",
+ "prev_receipt_sha256": "db4b90795bd2ebf3a205d4dcc250a3825c068f25583a10845a01d3423888564f"
+}

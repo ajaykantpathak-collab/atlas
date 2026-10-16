@@ -9,11 +9,13 @@
 
 name: CI/CD
 
+# 2026-10-02 audit: this pipeline's paths are stale (./platform,
+# ./dream_app/frontend) and it ran CONCURRENTLY with ci.yml + solver-gate.yml
+# on the same pushes -- the exact silent-skip shape the audit flagged.
+# Demoted to manual dispatch until its paths are fixed; ci.yml and
+# solver-gate.yml are the enforcing gates.
 on:
-  push:
-    branches: [main, develop]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 env:
   PYTHON_VERSION: "3.13"

@@ -1,0 +1,12 @@
+{
+ "receipt_id": "rcpt_20261013T155352Z_d74fa918",
+ "work_item": "WI-20261013-004",
+ "from_state": "NEW",
+ "to_state": "INTAKE",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:53:52Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "title='its/README: corpus + improvement loop pointer (DEMO-3 carrier)' lanes=['deploy/backend/its/README.md']",
+ "prev_receipt_sha256": null
+}

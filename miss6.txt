@@ -1,0 +1,31 @@
+W0921 18:09:56.521000 5964 torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-21 18:10:01,097 --- Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+MISS fegp.4.1.1 | In a bar graph, 1 unit of bar height stands for 20 b -> 27.0 exp 120
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4687.85it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+MISS fegp.4.1.2 | In a bar graph, 1 unit of bar height stands for 5 bo -> None exp 30
+MISS fegp.4.3.1 | Write the ratio 32 : 96 in its simplest form and giv -> 1.0 exp 4
+MISS fegp.4.4.1 | Write the ratio 20 : 40 in its simplest form and giv -> 1.0 exp 4
+MISS fegp.4.5.1 | In a bar graph, 1 unit of bar height stands for 50 b -> 59.0 exp 400
+MISS fegp.4.5.2 | In a bar graph, 1 unit of bar height stands for 5 bo -> 11.0 exp 25
+ch104: 36/42
+MISS fegp.105.5.1.1 | Evaluate the limit of 1x^2 + 5x + 7 as x approaches  -> None exp 43
+MISS fegp.105.5.1.1 | By the power rule, the derivative of 3x^3 is 9x^2. F -> None exp 144
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1, find the slope of the tangent -> None exp 12
+MISS fegp.105.5.1.1 | For y = 4x^2 + 4x + 1 at x = 1, the tangent slope is -> None exp -0.08
+MISS fegp.105.5.1.1 | Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. -> 0.0 exp 2160
+MISS fegp.105.5.1.1 | Second derivative test: for y = x^3 - 3x^2 + 2, y''  -> None exp 0
+MISS fegp.105.5.1.4 | Fermat's Last Theorem says x^n + y^n = z^n has no po -> -37.0 exp 34
+MISS fegp.105.5.1.4 | Divisibility by 9: a number is divisible by 9 when i -> 18.0 exp 0
+MISS fegp.105.5.2.2 | Fermat's Last Theorem says x^n + y^n = z^n has no po -> -37.0 exp 34
+MISS fegp.105.5.2.2 | Divisibility by 9: a number is divisible by 9 when i -> 18.0 exp 0
+MISS fegp.105.5.3.1 | Fermat's Last Theorem says x^n + y^n = z^n has no po -> -37.0 exp 34
+MISS fegp.105.5.3.1 | Divisibility by 9: a number is divisible by 9 when i -> 18.0 exp 0
+ch105: 54/66

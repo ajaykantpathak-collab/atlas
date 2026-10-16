@@ -3,7 +3,7 @@
 Exposes endpoints for quizzes, exams, and exam attempts.
 """
 
-from typing import List, Optional
+from typing import Any, List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -22,6 +22,8 @@ from backend.schemas.assessment import (
     QuizQuestionSchema,
 )
 from backend.services.assessment_service import AssessmentService
+from backend.services.feedback_scrub import (
+    has_grader_voice, scrub_answer_key)
 
 router = APIRouter(prefix="/api/assessment", tags=["assessment"])
 
@@ -30,19 +32,51 @@ router = APIRouter(prefix="/api/assessment", tags=["assessment"])
 # Helper
 # --------------------------------------------------------------------------- #
 def _quiz_question_to_schema(q) -> QuizQuestionSchema:
-    """Convert a ``QuizQuestion`` ORM instance to its schema."""
+    """Convert a ``QuizQuestion`` ORM instance to its schema.
+
+    Key-withholding rule: this schema backs the question-serving GET, so
+    ``correct_answer``/``explanation``/``marking_scheme`` NEVER leave the
+    server here — a student could read the key out of the payload before
+    answering. The graded key + explanation arrive post-submit via the
+    ``QuizAnswerResponse`` on ``POST /quiz/answer`` (scrubbed there).
+    """
     return QuizQuestionSchema(
         id=str(q.id),
         node_id=q.node_id,
         question=q.question,
         question_type=q.question_type,
         options=q.options,
-        correct_answer=q.correct_answer,
-        explanation=q.explanation,
+        correct_answer="",
+        explanation=None,
         marks=q.marks,
-        marking_scheme=q.marking_scheme,
+        marking_scheme=None,
         difficulty=q.difficulty,
     )
+
+
+def _scrub_weakness_areas(weakness_areas) -> list:
+    """Serve the weakness_areas list with the grader's voice removed.
+
+    Exam-authored rows can carry grader prose in ``correct_answer``
+    ("You's diagram is incorrect.") — the same bank dirt the quiz/exam
+    feedback scrubs already strip.  The list only ships post-submit, so
+    a legit key still serves; grader-voice items blank to ""
+    (``scrub_answer_key``).  An ``explanation``-style field has no
+    verdict context on this surface, so a grader-voice opener withholds
+    it (``has_grader_voice`` detect).  Non-dict items pass through.
+    """
+    scrubbed = []
+    for item in weakness_areas or []:
+        if not isinstance(item, dict):
+            scrubbed.append(item)
+            continue
+        item = dict(item)
+        item["correct_answer"] = scrub_answer_key(item.get("correct_answer"))
+        for field in ("explanation", "feedback", "note"):
+            if has_grader_voice(item.get(field)):
+                item[field] = ""
+        scrubbed.append(item)
+    return scrubbed
 
 
 def _exam_to_list_dict(exam) -> dict:
@@ -264,6 +298,10 @@ async def submit_exam(
 
     if isinstance(result, ExamResultSchema):
         return result
+    if isinstance(result, dict):
+        result = dict(result)
+        result["weakness_areas"] = _scrub_weakness_areas(
+            result.get("weakness_areas"))
     return ExamResultSchema(**result)
 
 
@@ -286,6 +324,9 @@ async def get_exam_attempts(
         if isinstance(attempt, ExamResultSchema):
             results.append(attempt)
         elif isinstance(attempt, dict):
+            attempt = dict(attempt)
+            attempt["weakness_areas"] = _scrub_weakness_areas(
+                attempt.get("weakness_areas"))
             results.append(ExamResultSchema(**attempt))
         else:
             # ORM ExamAttempt object
@@ -297,7 +338,8 @@ async def get_exam_attempts(
                     time_taken=attempt.time_taken_seconds or 0,
                     section_scores=attempt.section_scores or [],
                     topic_scores=attempt.topic_scores or [],
-                    weakness_areas=attempt.weakness_areas or [],
+                    weakness_areas=_scrub_weakness_areas(
+                        attempt.weakness_areas),
                 )
             )
     return results
@@ -324,6 +366,14 @@ async def start_exam_simulation(
     Generates a paper from board questions and serves questions one at a time.
     The timer starts immediately. Submit answers via /exam-sim/{session_id}/answer.
     """
+    # Premium entitlement — the UI gate was bypassable via direct POST +
+    # sessionStorage seed (2026-10-11 e2e audit). Enforce at the mint:
+    # no session can exist for a non-premium user to replay.
+    if not getattr(user, "is_premium", False):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="PREMIUM_REQUIRED",
+        )
     result = await ExamService.start_exam(
         db,
         user_id=str(user.id),
@@ -354,6 +404,19 @@ async def submit_exam_answer(
     Returns feedback for the current question and serves the next question.
     When all questions are answered, returns the final scorecard with grade.
     """
+    # IDOR fix (2026-10-02 wave): answer was reachable without the owner
+    # guard -- any authed student could write into another student's live
+    # session given the id. Same guard start/status/finish already use.
+    from backend.services.exam_service import _exam_load
+
+    session = await _exam_load(session_id)
+    if not session:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Exam session not found",
+        )
+    _require_exam_sim_owner(session, user)
+
     result = await ExamService.submit_answer(
         db, session_id=session_id, student_answer=answer, skip=skip
     )
@@ -381,6 +444,7 @@ async def get_exam_status(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Exam session not found",
         )
+    _require_exam_sim_owner(session, user)
     _started = session.started_at
     if _started is not None and _started.tzinfo is None:
         _started = _started.replace(tzinfo=timezone.utc)  # legacy naive stamp
@@ -396,6 +460,19 @@ async def get_exam_status(
         "questions_answered": len(session.answers),
     }
 
+
+
+def _require_exam_sim_owner(session: Any, user: User) -> None:
+    """IDOR fix (2026-10-02 audit): exam-sim sessions were loaded by bare id
+    with no ownership check -- any authed student could read/tamper with
+    another student's live exam.  Owner or staff only."""
+    owner = str(getattr(session, "user_id", "") or "")
+    if owner and owner != str(user.id) and getattr(user, "role", "") not in (
+            "admin", "teacher", "staff"):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="This exam session belongs to another student.",
+        )
 
 @router.post("/exam-sim/{session_id}/finish")
 async def finish_exam(
@@ -415,6 +492,7 @@ async def finish_exam(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Exam session not found",
         )
+    _require_exam_sim_owner(session, user)
     # Skip remaining questions
     while session.current_question < len(session.paper.questions):
         await ExamService.submit_answer(db, session_id, "", skip=True)
@@ -454,6 +532,9 @@ async def get_attempt_detail(
     if isinstance(result, ExamResultSchema):
         return result
     if isinstance(result, dict):
+        result = dict(result)
+        result["weakness_areas"] = _scrub_weakness_areas(
+            result.get("weakness_areas"))
         return ExamResultSchema(**result)
     # ORM ExamAttempt object
     return ExamResultSchema(
@@ -463,5 +544,5 @@ async def get_attempt_detail(
         time_taken=result.time_taken_seconds or 0,
         section_scores=result.section_scores or [],
         topic_scores=result.topic_scores or [],
-        weakness_areas=result.weakness_areas or [],
+        weakness_areas=_scrub_weakness_areas(result.weakness_areas),
     )

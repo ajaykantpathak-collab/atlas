@@ -8,6 +8,26 @@
 # NOTE on env naming: backend config (backend/config.py) uses pydantic
 # env_prefix="PLATFORM_" — service env vars below must carry that prefix.
 # Unprefixed names (NEO4J_URI etc.) are silently ignored → localhost defaults.
+#
+# ── Resource limits (LAUNCH-FIX-F4, 2026-10-15) ──────────────────
+# Host: 8 logical CPUs, 40GB RAM; Docker Desktop WSL2 VM budget 19.53GB
+# (this is the number `docker stats` reports against). Native FE (node)
+# runs on Windows OUTSIDE the VM, so it is not part of this arithmetic.
+# Measured working set 2026-10-15 ~20:25 IST (steady state, shards active):
+#   backend-1 6.45G / backend-2 4.93G / worker 1.97G @534% CPU /
+#   postgres 1.75G / neo4j 0.44G / clickhouse 0.67G / qdrant 0.05G /
+#   redis 0.01G / nginx 0.006G
+# Caps = ~1.1-1.4x measured working set: a leak in ANY one container can
+# no longer eat the whole VM (audit B4 HIGH: "one leak OOMs the host").
+# NOTE (owner handoff said "≈3GB per backend"): 3g was REJECTED — it sits
+# BELOW the measured steady-state working set (min observed 4.93G) and
+# would OOM-kill both replicas at ship. 7g caps the runaway instead.
+# Honest caveat: the always-on cap SUM (~23.5g) exceeds the 19.5g VM —
+# caps bound single runaways, not a simultaneous all-cap burst; shrink
+# backend working set (corpus/solver cache tuning) before tightening.
+# CPU: worker capped at 1.5 — the 2026-10-15 audit measured shards at
+# 167% (534% today) starving the API lane into 12s logins + 503s;
+# bank_preroute is additionally night-window-gated (workers/preroute.py).
 
 services:
   # ── Databases ────────────────────────────────────────────────
@@ -17,11 +37,17 @@ services:
     # network only now; no host port.
     image: postgres:15-alpine
     container_name: dream-postgres
+    # F4 limits: measured 1.75G working set 2026-10-15 (audit saw 277M
+    # idle; nightly backups + preroute pushes it up).
+    mem_limit: 2560m
+    cpus: 1.0
+    ports:
+      - "127.0.0.1:5432:5432"
     restart: unless-stopped
     environment:
       POSTGRES_DB: dream_app
       POSTGRES_USER: dream_user
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in .env.production}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -38,9 +64,12 @@ services:
   neo4j:
     image: neo4j:5.20-community
     container_name: dream-neo4j
+    # F4 limits: 440M measured; heap max 1G below.
+    mem_limit: 1536m
+    cpus: 1.0
     restart: unless-stopped
     environment:
-      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-dream_neo4j_2024}
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set in .env.production}
       NEO4J_PLUGINS: '["apoc"]'
       NEO4J_dbms_memory_heap_max__size: 1G
     ports:
@@ -62,6 +91,11 @@ services:
     # binding. Now: internal-only + requirepass (core-audit 2026-09-29).
     image: redis:7-alpine
     container_name: dream-redis
+    # F4 limits: 9M measured; --maxmemory 256mb already bounds the cache.
+    mem_limit: 384m
+    cpus: 0.25
+    ports:
+      - "127.0.0.1:16379:6379"
     restart: unless-stopped
     command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru --requirepass "${REDIS_PASSWORD}"
     volumes:
@@ -79,13 +113,23 @@ services:
   qdrant:
     # Inlined (was extends) — dev file carried 0.0.0.0:6333-6334 bindings.
     # Internal network only; no host ports (core-audit 2026-09-29).
-    image: qdrant/qdrant:latest
+    # F4 pin (audit LOW): :latest → digest pin. The running container is
+    # v1.19.1 (GET / → "version":"1.19.1", image sha256:12364fe8… pulled
+    # 2026-09-03); this digest is bit-identical to what is deployed — a
+    # plain version-tag pull could silently drift majors again (1.9 → 1.19
+    # is what :latest already did to this compose file).
+    image: qdrant/qdrant@sha256:12364fe851b9f17356fc88189fc06d1b521262e04659ec7345975b00c9246a10
     container_name: dream-qdrant
+    # F4 limits: 48M measured.
+    mem_limit: 1g
+    cpus: 0.5
+    ports:
+      - "127.0.0.1:6333:6333"
     restart: unless-stopped
     volumes:
       - qdrant_data:/qdrant/storage
     healthcheck:
-      test: ["CMD-SHELL", "wget -O /dev/null -q http://localhost:6333/healthz || exit 1"]
+      test: ['CMD-SHELL', "bash -c 'exec 3<>/dev/tcp/localhost/6333'"]
       interval: 15s
       timeout: 5s
       retries: 5
@@ -98,15 +142,20 @@ services:
       context: .
       dockerfile: Dockerfile.backend
     container_name: dream-db-init
+    # F4 limits: one-shot (same image as the backends; seeds tables before
+    # they start, so its cap never coexists with backend pressure).
+    mem_limit: 4g
+    cpus: 2.0
     environment: &backend-env
       PLATFORM_ENV: production
       PLATFORM_JWT_SECRET: ${PLATFORM_JWT_SECRET:?PLATFORM_JWT_SECRET must be set}
-      PLATFORM_DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
-      DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:-dream_secure_2024}@postgres:5432/dream_app
+      PLATFORM_DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in .env.production}@postgres:5432/dream_app
+      COMPLIANCE_DATABASE_URL: ${COMPLIANCE_DATABASE_URL:?COMPLIANCE_DATABASE_URL must be set in .env.production}
+      DATABASE_URL: postgresql+asyncpg://dream_user:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD must be set in .env.production}@postgres:5432/dream_app
       PLATFORM_NEO4J_URI: bolt://neo4j:7687
       PLATFORM_NEO4J_USER: neo4j
-      PLATFORM_NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
-      PLATFORM_REDIS_URL: redis://:at_mj93IR9URGYEIPaXGikkewwxkUBBiFBW@redis:6379/0
+      PLATFORM_NEO4J_PASSWORD: ${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set in .env.production}
+      PLATFORM_REDIS_URL: redis://:${REDIS_PASSWORD:?REDIS_PASSWORD must be set in .env.production}@redis:6379/0
       PLATFORM_QDRANT_URL: http://qdrant:6333
       PLATFORM_CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost,http://localhost:3000,http://localhost:3001}
       # Deterministic truth-core default. Set to fallback only for an
@@ -122,11 +171,11 @@ services:
       # (graph_service reads NEO4J_URI, llm clients read FREELLM_*).
       NEO4J_URI: bolt://neo4j:7687
       NEO4J_USER: neo4j
-      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-dream_neo4j_2024}
-      REDIS_URL: redis://:at_mj93IR9URGYEIPaXGikkewwxkUBBiFBW@redis:6379/0
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:?NEO4J_PASSWORD must be set in .env.production}
+      REDIS_URL: redis://:${REDIS_PASSWORD:?REDIS_PASSWORD must be set in .env.production}@redis:6379/0
       CLICKHOUSE_URL: http://clickhouse:8123
       CLICKHOUSE_USER: dream_user
-      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:-dream_ch_2024}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?CLICKHOUSE_PASSWORD must be set in .env.production}
       # LLM client → Gemini's OpenAI-compatible endpoint (tutor fallback
       # layer + hint generation). FREELLM_API_KEY falls back to GEMINI_API_KEY.
       # NOTE: do not trust FREELLM_* shell envs here -- the host has stale
@@ -142,8 +191,8 @@ services:
       # Vision extraction (camera → problem text) — NIM OCR/vision models
       NVIDIA_API_KEY: ${NVIDIA_API_KEY:-}
     volumes:
-      - D:/cisce:/app/cisce:ro
-      - D:/_KEEP/atomic_graph/cisce_stem:/app/cisce_stem:ro
+      - ${CISCE_CORPUS_HOST:-D:/cisce}:/app/cisce:ro
+      - ${CISCE_STEM_HOST:-D:/_KEEP/atomic_graph/cisce_stem}:/app/cisce_stem:ro
     command: python -m backend.init_db
     depends_on:
       postgres:
@@ -158,11 +207,29 @@ services:
       dockerfile: Dockerfile.backend
     container_name: dream-backend-1
     restart: unless-stopped
+    # F4 limits: measured 6.45G working set 2026-10-15 (replica-2 4.93G).
+    # Cap 7g bounds leak growth without OOMing steady state; see the
+    # budget arithmetic in the header. CPU 2.0 keeps solver-lane cores
+    # out of the worker's hands during shard windows.
+    mem_limit: 7g
+    cpus: 2.0
+    healthcheck:
+      # READINESS gate (2026-10-02 audit): /ready flips 200 only after the
+      # worker's heavy warm completes -- compose restarts a worker that
+      # never finishes warming, and depends_on-healthy stops admitting it.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready', timeout=3)"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      # 1800s: launch gate + bounded warm legally take ~17-25 min on the
+      # HDD corpus (content-index rebuild); 420s flapped 'unhealthy' mid-boot
+      start_period: 1800s
     volumes:
       - ./organized:/app/organized:ro
       - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro
+      - ./backend/_cache:/app/backend/_cache
       - ./content:/app/content:ro
-      - D:/platform/runtime_data:/app/cbse_data
+      - ${RUNTIME_DATA_HOST:-D:/platform/runtime_data}:/app/cbse_data
       # Atlas data assets (host corpora under D:/platform, read-only):
       # diagnostics + misconceptions jsonl, study packs, diagram specs.
       - ../parsed_output/diagnostics.jsonl:/app/parsed_output/diagnostics.jsonl:ro
@@ -194,6 +261,10 @@ services:
       LOG_FORMAT: ${LOG_FORMAT:-text}
       SOLVER_POOL_SIZE: ${SOLVER_POOL_SIZE:-8}
       SOLVER_TIMEOUT_S: ${SOLVER_TIMEOUT_S:-12}
+      # solve-isolation boundary: widen so background completions of
+      # budget-exceeded solves cannot starve foreground solves
+      SOLVE_POOL_WORKERS: "8"
+      SOLVE_MAX_QUEUE: "64"
       FREE_TEXT_TIMEOUT_S: ${FREE_TEXT_TIMEOUT_S:-10}
       IDENTIFY_TIMEOUT_S: ${IDENTIFY_TIMEOUT_S:-15}
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
@@ -222,11 +293,27 @@ services:
       dockerfile: Dockerfile.backend
     container_name: dream-backend-2
     restart: unless-stopped
+    # F4 limits: symmetric with backend-1 (measured 4.93G; the replica must
+    # be able to carry the full traffic shape solo during rolling restarts).
+    mem_limit: 7g
+    cpus: 2.0
+    healthcheck:
+      # READINESS gate (2026-10-02 audit): /ready flips 200 only after the
+      # worker's heavy warm completes -- compose restarts a worker that
+      # never finishes warming, and depends_on-healthy stops admitting it.
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready', timeout=3)"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      # 1800s: launch gate + bounded warm legally take ~17-25 min on the
+      # HDD corpus (content-index rebuild); 420s flapped 'unhealthy' mid-boot
+      start_period: 1800s
     volumes:
       - ./organized:/app/organized:ro
       - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro
+      - ./backend/_cache:/app/backend/_cache
       - ./content:/app/content:ro
-      - D:/platform/runtime_data:/app/cbse_data
+      - ${RUNTIME_DATA_HOST:-D:/platform/runtime_data}:/app/cbse_data
       # Atlas data assets (host corpora under D:/platform, read-only):
       # diagnostics + misconceptions jsonl, study packs, diagram specs.
       - ../parsed_output/diagnostics.jsonl:/app/parsed_output/diagnostics.jsonl:ro
@@ -258,6 +345,10 @@ services:
       LOG_FORMAT: ${LOG_FORMAT:-text}
       SOLVER_POOL_SIZE: ${SOLVER_POOL_SIZE:-8}
       SOLVER_TIMEOUT_S: ${SOLVER_TIMEOUT_S:-12}
+      # solve-isolation boundary: widen so background completions of
+      # budget-exceeded solves cannot starve foreground solves
+      SOLVE_POOL_WORKERS: "8"
+      SOLVE_MAX_QUEUE: "64"
       FREE_TEXT_TIMEOUT_S: ${FREE_TEXT_TIMEOUT_S:-10}
       IDENTIFY_TIMEOUT_S: ${IDENTIFY_TIMEOUT_S:-15}
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
@@ -286,6 +377,10 @@ services:
         NEXT_PUBLIC_API_URL: ${PUBLIC_API_URL:-}
     container_name: dream-frontend
     restart: unless-stopped
+    # F4 limits: container RETIRED (native FE on the host serves :3001);
+    # defensive cap only.
+    mem_limit: 1g
+    cpus: 0.5
     environment:
       # server-side /api/* rewrites target the backend pool, not localhost
       INTERNAL_API_URL: http://backends:8000
@@ -293,6 +388,9 @@ services:
     volumes:
       # 4.8GB of doodle-card art — mounted at runtime, not baked into the image
       - ./frontend/public/doodle_cards:/app/public/doodle_cards:ro
+      # Diagram art is also runtime content; do not send it through the Docker
+      # build context. The host bundle must contain this directory.
+      - ./frontend/public/diagrams:/app/public/diagrams:ro
     depends_on:
       backend-1:
         condition: service_healthy
@@ -309,6 +407,9 @@ services:
     image: nginx:alpine
     container_name: dream-nginx
     restart: unless-stopped
+    # F4 limits: 6M measured; the LB must never be the leak.
+    mem_limit: 128m
+    cpus: 0.25
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
     ports:
@@ -326,10 +427,13 @@ services:
     image: clickhouse/clickhouse-server:24.8
     container_name: dream-clickhouse
     restart: unless-stopped
+    # F4 limits: 671M measured (brief 149% CPU spikes during merges).
+    mem_limit: 1g
+    cpus: 0.5
     environment:
       CLICKHOUSE_DB: dream_analytics
       CLICKHOUSE_USER: dream_user
-      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:-dream_ch_2024}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?CLICKHOUSE_PASSWORD must be set in .env.production}
     ports:
       - "127.0.0.1:8123:8123"
       - "127.0.0.1:9000:9000"
@@ -344,6 +448,61 @@ services:
       interval: 15s
       timeout: 5s
       retries: 5
+    networks:
+      - dream-net
+
+  # ── Background worker (jobs queue + compliance fulfilment) ──
+  # Patch: deploy/patches/worker_service.md (A6-OPS). Applied by coordinator.
+  worker:
+    build:
+      context: .
+      dockerfile: worker.Dockerfile
+    container_name: dream-worker
+    restart: unless-stopped
+    # F4 limits: measured 1.97G / 534% CPU with shards active (audit
+    # measured 167%). cpus: 1.5 is the structural fix for shards starving
+    # the API lane; the heavy jobs also self-pause at RSS 1.5G and are
+    # night-window-gated (workers/main.py + workers/preroute.py, F4).
+    mem_limit: 3g
+    cpus: 1.5
+    volumes:
+      # content corpora for content_reindex (read-only, same as backends)
+      - ./backend/_cache:/app/backend/_cache
+      - ./content:/app/content:ro
+      - ./organized:/app/organized:ro
+      # writable runtime data: worker state (selfprobe results) +
+      # compliance export files land here
+      - ${RUNTIME_DATA_HOST:-D:/platform/runtime_data}:/app/cbse_data
+      # embed_rebuild inputs (match the backends' mounts)
+      - ./parsed_output/enrichment.jsonl:/app/parsed_output/enrichment.jsonl:ro
+      - ../parsed_output/diagnostics.jsonl:/app/parsed_output/diagnostics.jsonl:ro
+      - ../parsed_output/misconceptions.jsonl:/app/parsed_output/misconceptions.jsonl:ro
+      # HF weights shared with the backends (embed_rebuild model load)
+      - hf_cache:/app/hf_cache
+    environment:
+      <<: *backend-env
+      WORKER_ID: dream-worker
+      WORKER_POLL_SECONDS: "1"
+      WORKER_JOB_TIMEOUT_S: "600"
+      WORKER_STALE_AFTER_S: "900"
+      EMBED_REBUILD_QDRANT_URL: http://qdrant:6333
+      EMBED_REBUILD_OUTPUT_DIR: /app/parsed_output
+      # "stub" no-ops embed_rebuild until model weights are verified here;
+      # remove once the first real run is green.
+      WORKER_EMBED_REBUILD_MODE: stub
+      WORKER_STATE_DIR: /app/cbse_data/worker_state
+      COMPLIANCE_EXPORT_DIR: /app/cbse_data/compliance_exports
+      # selfprobe target: hit backend-1 directly, not the nginx LB
+      WORKER_PROBE_BASE_URL: http://backend-1:8000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      db-init:
+        condition: service_completed_successfully
+    # deliberately NO dependency on backend-1: the worker must keep
+    # fulfilling compliance jobs even while the API is restarting;
+    # nightly_selfprobe records backend-outage probes as failures instead
+    # of the container being blocked from starting.
     networks:
       - dream-net
 

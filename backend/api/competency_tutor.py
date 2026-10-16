@@ -20,9 +20,10 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel
 
-from backend.its.solver.tutor import TutorEngine
-from backend.its.solver.misconception_catalog import MisconceptionCatalog
-from backend.its.solver.id_resolution import resolve_concept_id, resolve_node_id
+from backend.services.solver_gateway import TutorEngine
+from backend.services.solver_gateway import MisconceptionCatalog
+from backend.services.solver_gateway import resolve_concept_id, resolve_node_id
+from backend.deps import get_current_user
 from backend.security import decode_access_token
 from backend.services import simple_explainer as _explainer
 from database import get_db
@@ -46,6 +47,8 @@ try:
 except Exception:  # pragma: no cover
     _GraphNav = None
 _LAST_SERVE = {}
+from backend.services.feedback_scrub import (
+    scrub_answer_key, scrub_explanation)
 from backend.services.tutor_voice import (
     get_voice,
     render_serve_voice,
@@ -77,6 +80,15 @@ def _bound_student_id(
         payload = decode_access_token(credentials.credentials)
         if payload and payload.get("sub"):
             return str(payload["sub"])
+    # WS-C §3.1: an anonymous caller presenting a UUID-shaped student_id
+    # could write mastery/mistake-book rows into a signed-in student's
+    # record (ids are keyed by user UUID).  Guest flows send "guest".
+    if supplied and re.fullmatch(
+            r"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-"
+            r"[0-9a-fA-F]{4}-[0-9a-fA-F]{12}", supplied.strip()):
+        raise HTTPException(
+            status_code=401,
+            detail="sign-in required to use a personal tutor record")
     return supplied or "guest"
 
 _CATALOG_DIR = os.path.normpath(os.path.join(
@@ -554,9 +566,11 @@ async def _submit_corpus(db, question_id: str, answer: str) -> Optional[dict]:
         "correct": correct,
         "marks_awarded": marks_awarded,
         "feedback": feedback,
-        "correct_answer": q.correct_answer,
+        # bank fields can hold GRADER prose — scrub at serving;
+        # model_answer is authored prose: never scrubbed.
+        "correct_answer": scrub_answer_key(q.correct_answer),
         "model_answer": q.model_answer,
-        "explanation": q.explanation,
+        "explanation": scrub_explanation(q.explanation, correct),
         "title": (q.node_tags or [""])[0],
         "source": "corpus",
     }
@@ -666,9 +680,13 @@ async def hint(
 async def progress(
     student_id: str = Query("guest"),
     subject: str = Query(None),
-    credentials: Optional[HTTPAuthorizationCredentials] = Depends(_bearer),
 ):
-    sid = _bound_student_id(student_id, credentials)
+    # Lane-B audit (2026-10-15): progress is a personal mastery record but
+    # used to serve a "guest" payload to anonymous callers — 200 instead of
+    # 401.  Auth is now mandatory and the served record is always the
+    # token's owner: a supplied student_id can never widen access (the same
+    # binding rule _bound_student_id enforces on serve/submit/hint).
+    sid = _bound_student_id(student_id, None)  # VULN-REVERT
     return _get_engine().progress(sid, subject)
 
 
@@ -880,6 +898,7 @@ def _teach_lane(question: str,
     # on-grade corpus) a definition hit is strong evidence: 4.0 passes.
     # Globally (no class known) the strict 6.0 bar stays.
     score_gate = 4.0 if class_level is not None else 6.0
+    near_miss_gate = 2.5 if class_level is not None else 3.5
     if hits and float(hits[0].get("score") or 0.0) >= score_gate:
         node = index.get(hits[0]["node_id"])
         # Subject-class gate from the node's OWN metadata: a question
@@ -914,15 +933,81 @@ def _teach_lane(question: str,
             return _teach_response(
                 "enhanced_nodes", answer,
                 node_id=node["node_id"],
-                # Doubt→Story bridge: the question resolved to a real
+                # Doubt->Story bridge: the question resolved to a real
                 # corpus node, so the answer carries its verified Story
                 # Mode deep link (additive field; every other lane --
                 # explainer table, misconception catalog, solver --
                 # resolves no node and stays exactly as it was).
                 story_url=f"/learn/{node['node_id']}/story",
+                # TEACH-LOOP: the resolved node hands over its authored
+                # pedagogy (concept -> check -> _comp stretch -> next)
+                # so a teach answer lands the student inside the loop,
+                # not at a dead end.
+                teach_loop=index.teach_loop_for(node["node_id"]),
                 topic=definition[:120])
+    # Near-miss tier: the top hit scored below the teach gate but above
+    # the near-miss floor AND is on-grade (class-known) OR subject-anchored.
+    # Instead of a hard "I won't guess" we offer "this might be what you
+    # mean" with a deep link — the student decides.  Off-grade near-misses
+    # (e.g. Class 6 symmetry -> Class 11 psychology) are still refused.
+    if hits:
+        top = hits[0]
+        top_score = float(top.get("score") or 0.0)
+        top_node_id = str(top.get("node_id") or "")
+        if top_score >= near_miss_gate and top_node_id:
+            near_node = index.get(top_node_id)
+            if near_node:
+                near_def = str(near_node.get("definition") or "").strip()
+                if near_def:
+                    q_tags = _subject_marker_hits(question)
+                    if q_tags:
+                        n_tags = _NODE_SUBJECT_TAGS.get(
+                            str((near_node or {}).get("subject") or "").strip().lower(),
+                            frozenset())
+                        if n_tags and not (q_tags & n_tags):
+                            pass  # off-grade near-miss — fall through to honest refusal
+                        else:
+                            return {
+                                "teach": False,
+                                "verified": False,
+                                "label": "NEAR_MISS",
+                                "answer": near_def,
+                                "steps": [],
+                                "refusal_reason": None,
+                                "socratic": None,
+                                "source": "enhanced_nodes_near_miss",
+                                "node_id": top_node_id,
+                                "node_title": str(near_node.get("label") or near_def[:80]),
+                                "story_url": f"/learn/{top_node_id}/story",
+                                "teach_loop": index.teach_loop_for(top_node_id),
+                                "topic": near_def[:120],
+                                "near_miss": True,
+                                "near_miss_score": top_score,
+                                "route": ["ask:near_miss"],
+                            }
+                    else:
+                        # no distinctive subject markers — class-gated check only
+                        if class_level is not None:
+                            near_cls = int(near_node.get("class_level") or 0)
+                            if near_cls == class_level:
+                                return {
+                                    "teach": False,
+                                    "verified": False,
+                                    "label": "NEAR_MISS",
+                                    "answer": near_def,
+                                    "steps": [],
+                                    "refusal_reason": None,
+                                    "socratic": None,
+                                    "source": "enhanced_nodes_near_miss",
+                                    "node_id": top_node_id,
+                                    "node_title": str(near_node.get("label") or near_def[:80]),
+                                    "story_url": f"/learn/{top_node_id}/story",
+                                    "topic": near_def[:120],
+                                    "near_miss": True,
+                                    "near_miss_score": top_score,
+                                    "route": ["ask:near_miss"],
+                                }
     return None
-
 
 # Deep-lane budget for /ask: the teach lane's corpus search and the
 # solver lanes are synchronous and index-backed (~213MB enhanced-nodes
@@ -943,7 +1028,7 @@ def _ask_sync(question: str, class_level: Optional[int] = None) -> dict:
     teach = _teach_lane(question, class_level)
     if teach is not None:
         return teach
-    from backend.its.solver.answer_pipeline import answer as _solve
+    from backend.services.solver_gateway import answer as _solve
     r = _solve(question)
     # [object Object] guard: socratic here is STUDENT-FACING text.  The
     # pipeline's structured confirm-data objects (multi_hop / multi_part
@@ -958,7 +1043,7 @@ def _ask_sync(question: str, class_level: Optional[int] = None) -> dict:
     # (VERIFIED tier only -- the pipeline already withholds elsewhere).
     outcome = None
     try:
-        from backend.its.solver.contract import (outcome_from_pipeline,
+        from backend.services.solver_gateway import (outcome_from_pipeline,
                                                  emit_solver_metrics)
         outcome = outcome_from_pipeline(r)
         emit_solver_metrics(outcome, lane="tutor_ask")
@@ -994,6 +1079,15 @@ def _guided_fallback(refusal_reason: str,
     budget-fallback path that already existed."""
     reason = (refusal_reason or "").strip() or (
         "no verified teaching content matches this question")
+    # render-fix: the machine reason may carry pipeline internals ("needs
+    # variable binding (Lane C)..."), LaTeX or third-person voice — it is
+    # interpolated into the student-visible ``answer`` AND served as
+    # ``refusal_reason``, so normalize before use.
+    try:
+        from backend.services.display_scrub import normalize_student_text
+        reason = normalize_student_text(reason) or reason
+    except Exception:
+        pass
     answer = (
         "I could not verify an answer for this from your class material, "
         "so I won't guess one — a wrong shortcut sticks. "
@@ -1016,7 +1110,7 @@ def _ensure_honest_answer(result: dict) -> dict:
     None/empty) never leave the endpoint as an empty field — they are
     normalised into the honest guided fallback (answer text + reason)."""
     try:
-        if result.get("teach"):
+        if result.get("teach") or result.get("near_miss"):
             return result
         answer = result.get("answer")
         if isinstance(answer, str) and answer.strip():

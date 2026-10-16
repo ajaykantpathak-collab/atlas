@@ -1,0 +1,37 @@
+{
+ "subject_labels": [
+  "accountancy",
+  "biology",
+  "biotech",
+  "business_studies",
+  "ca",
+  "chemistry",
+  "civics",
+  "computer_science",
+  "economics",
+  "english",
+  "evs",
+  "geography",
+  "gram",
+  "hindi",
+  "history",
+  "home_science",
+  "maths",
+  "physics",
+  "psychology",
+  "sociology",
+  "statistics",
+  "unknown"
+ ],
+ "type_labels": [
+  "diagnostic",
+  "fill",
+  "long",
+  "mcq",
+  "numerical",
+  "short",
+  "true_false"
+ ],
+ "train": 217945,
+ "dev": 13819
+}

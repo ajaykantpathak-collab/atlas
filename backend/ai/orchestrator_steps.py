@@ -21,7 +21,13 @@ def _substitute_placeholders(command: str, step_results: dict) -> str:
     resolved = re.sub(r'\{step_(\d+)\}', _replacer, command)
     
     # Handle "with x = <value>" or "with <var> = <value>" syntax
-    with_match = re.search(r'(.+?)\s+with\s+(\w+)\s*=\s*(.+)', resolved)
+    # ReDoS guard: the lazy dot-all is quadratic on long non-matching
+    # inputs -- only run it on bounded text that literally contains
+    # " with " (the pattern cannot match otherwise).
+    if len(resolved) <= 500 and ' with ' in resolved:
+        with_match = re.search(r'(.+?)\s+with\s+(\w+)\s*=\s*(.+)', resolved)
+    else:
+        with_match = None
     if with_match:
         expr_part = with_match.group(1).strip()
         var = with_match.group(2)

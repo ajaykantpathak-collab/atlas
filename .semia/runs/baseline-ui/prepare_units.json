@@ -1,0 +1,564 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 85,
+      "path": "SKILL.md",
+      "size_bytes": 3419
+    }
+  ],
+  "source_id": "baseline-ui",
+  "source_map": [
+    {
+      "enriched_line_end": 85,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 85,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 60,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: baseline-ui",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Baseline UI",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Enforces an opinionated UI baseline to prevent AI-generated interface slop.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "How to use",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "/baseline-ui",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "/baseline-ui <file>",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "violations (quote the exact line/snippet)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "why it matters (1 short sentence)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "a concrete fix (code-level suggestion)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "Stack",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "MUST use Tailwind CSS defaults unless custom values already exist or are explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "SKILL.md",
+      "text": "MUST use motion/react (formerly framer-motion) when JavaScript animation is required",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use tw-animate-css for entrance and micro-animations in Tailwind CSS",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "MUST use cn utility (clsx + tailwind-merge) for class logic",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "Components",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "MUST use accessible component primitives for anything with keyboard or focus behavior (Base UI, React Aria, Radix)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "SKILL.md",
+      "text": "MUST use the project\u2019s existing component primitives first",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "NEVER mix primitive systems within the same interaction surface",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "SKILL.md",
+      "text": "SHOULD prefer Base UI for new primitives if compatible with the stack",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "SKILL.md",
+      "text": "MUST add an aria-label to icon-only buttons",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "NEVER rebuild keyboard or focus behavior by hand unless explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "Interaction",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "MUST use an AlertDialog for destructive or irreversible actions",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use structural skeletons for loading states",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "NEVER use h-screen, use h-dvh",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "SKILL.md",
+      "text": "MUST respect safe-area-inset for fixed elements",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "MUST show errors next to where the action happens",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "SKILL.md",
+      "text": "NEVER block paste in input or textarea elements",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "Animation",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 48,
+      "line_start": 48,
+      "source_file": "SKILL.md",
+      "text": "NEVER add animation unless it is explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "MUST animate only compositor props (transform, opacity)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 50,
+      "line_start": 50,
+      "source_file": "SKILL.md",
+      "text": "NEVER animate layout properties (width, height, top, left, margin, padding)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 51,
+      "line_start": 51,
+      "source_file": "SKILL.md",
+      "text": "SHOULD avoid animating paint properties (background, color) except for small, local UI (text, icons)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use ease-out on entrance",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 53,
+      "line_start": 53,
+      "source_file": "SKILL.md",
+      "text": "NEVER exceed 200ms for interaction feedback",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "MUST pause looping animations when off-screen",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 55,
+      "line_start": 55,
+      "source_file": "SKILL.md",
+      "text": "SHOULD respect prefers-reduced-motion",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 56,
+      "line_start": 56,
+      "source_file": "SKILL.md",
+      "text": "NEVER introduce custom easing curves unless explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "SKILL.md",
+      "text": "SHOULD avoid animating large images or full-screen surfaces",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_40",
+      "id": 40,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "Typography",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_41",
+      "id": 41,
+      "line_end": 61,
+      "line_start": 61,
+      "source_file": "SKILL.md",
+      "text": "MUST use text-balance for headings and text-pretty for body/paragraphs",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_42",
+      "id": 42,
+      "line_end": 62,
+      "line_start": 62,
+      "source_file": "SKILL.md",
+      "text": "MUST use tabular-nums for data",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_43",
+      "id": 43,
+      "line_end": 63,
+      "line_start": 63,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use truncate or line-clamp for dense UI",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_44",
+      "id": 44,
+      "line_end": 64,
+      "line_start": 64,
+      "source_file": "SKILL.md",
+      "text": "NEVER modify letter-spacing (tracking-) unless explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_45",
+      "id": 45,
+      "line_end": 66,
+      "line_start": 66,
+      "source_file": "SKILL.md",
+      "text": "Layout",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_46",
+      "id": 46,
+      "line_end": 68,
+      "line_start": 68,
+      "source_file": "SKILL.md",
+      "text": "MUST use a fixed z-index scale (no arbitrary z-)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_47",
+      "id": 47,
+      "line_end": 69,
+      "line_start": 69,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use size- for square elements instead of w- + h-",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_48",
+      "id": 48,
+      "line_end": 71,
+      "line_start": 71,
+      "source_file": "SKILL.md",
+      "text": "Performance",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_49",
+      "id": 49,
+      "line_end": 73,
+      "line_start": 73,
+      "source_file": "SKILL.md",
+      "text": "NEVER animate large blur() or backdrop-filter surfaces",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_50",
+      "id": 50,
+      "line_end": 74,
+      "line_start": 74,
+      "source_file": "SKILL.md",
+      "text": "NEVER apply will-change outside an active animation",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_51",
+      "id": 51,
+      "line_end": 75,
+      "line_start": 75,
+      "source_file": "SKILL.md",
+      "text": "NEVER use useEffect for anything that can be expressed as render logic",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_52",
+      "id": 52,
+      "line_end": 77,
+      "line_start": 77,
+      "source_file": "SKILL.md",
+      "text": "Design",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_53",
+      "id": 53,
+      "line_end": 79,
+      "line_start": 79,
+      "source_file": "SKILL.md",
+      "text": "NEVER use gradients unless explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_54",
+      "id": 54,
+      "line_end": 80,
+      "line_start": 80,
+      "source_file": "SKILL.md",
+      "text": "NEVER use purple or multicolor gradients",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_55",
+      "id": 55,
+      "line_end": 81,
+      "line_start": 81,
+      "source_file": "SKILL.md",
+      "text": "NEVER use glow effects as primary affordances",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_56",
+      "id": 56,
+      "line_end": 82,
+      "line_start": 82,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use Tailwind CSS default shadow scale unless explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_57",
+      "id": 57,
+      "line_end": 83,
+      "line_start": 83,
+      "source_file": "SKILL.md",
+      "text": "MUST give empty states one clear next action",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_58",
+      "id": 58,
+      "line_end": 84,
+      "line_start": 84,
+      "source_file": "SKILL.md",
+      "text": "SHOULD limit accent color usage to one per view",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_59",
+      "id": 59,
+      "line_end": 85,
+      "line_start": 85,
+      "source_file": "SKILL.md",
+      "text": "SHOULD use existing theme or Tailwind CSS color tokens before introducing new ones",
+      "unit_type": "list_item"
+    }
+  ]
+}

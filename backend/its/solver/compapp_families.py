@@ -186,8 +186,11 @@ def _c_base_convert(g, m, text):
                 break
     if num is None:
         # form C1: "<base> equivalent of N" -- the keyword is the TARGET
+        # (cisce-solver-langnew 2026-09-30: also "octal representation
+        # of the decimal number 83" -- ISC c11 number-system phrasing)
         mcx = re.search(r"\b(hex(?:adecimal)?|binary|octal|decimal)\s+"
                         r"(?:equivalent|form|representation|value)\s+of\s+"
+                        r"(?:the\s+)?(?:decimal\s+)?(?:number\s+)?"
                         r"(-?[0-9A-Fa-f]+)\b", t, re.I)
         if mcx:
             num = mcx.group(2)
@@ -280,6 +283,64 @@ def _c_base_convert(g, m, text):
         f"the digit alphabet changed, the value did not.")
     return _res("BASE_CONVERT", g, float(dec), eq, steps,
                 answer=eq, extra={"src_base": src, "tgt_base": tgt})
+
+
+# cisce-solver-langnew 2026-09-30: claim-verification conversions
+# ("A student writes that binary 1101 equals decimal 13. Evaluate this
+# claim." / "Explain why the binary number 101 represents the decimal
+# value 5.")  Exact arithmetic: recompute the base-x value and compare
+# with the stated decimal.
+_BASE_VERIFY_RE = re.compile(
+    r"\b(hex(?:adecimal)?|binary|octal|decimal)\s*(?:number\s+)?"
+    r"([0-9A-Fa-f]{1,12})\b.{0,30}?\b(?:equals?|is\s+equal\s+to|"
+    r"represents?|corresponds\s+to)\b\s*(?:the\s+)?(?:decimal\s+)?"
+    r"(?:value\s+)?(\d+(?:\.\d+)?)\b", re.I)
+_BASE_OF_WORD = {"hex": 16, "hexadecimal": 16, "binary": 2, "octal": 8,
+                 "decimal": 10}
+
+
+def _c_base_verify(g, m, text):
+    mm = _BASE_VERIFY_RE.search(text)
+    if not mm:
+        return _GATE
+    word = mm.group(1).lower()
+    digs = mm.group(2)
+    stated = float(mm.group(3))
+    if stated != int(stated):
+        return _GATE
+    stated = int(stated)
+    base = _BASE_OF_WORD.get("hex" if word.startswith("hex") else word)
+    if base is None:
+        return _GATE
+    if not _valid_in(digs, base):
+        return _GATE
+    dec = _to_dec(digs, base)
+    ok = (dec == stated)
+    weights = " + ".join(
+        f"{d}x{base ** p}" for p, d in
+        enumerate(reversed(digs)) if d != "0") or "0"
+    verdict = ("correct" if ok else
+               f"incorrect -- ({digs}){base} = {dec}, not {stated}")
+    answer = f"({digs}){base} = {dec} -- the claim is correct" if ok \
+        else f"({digs}){base} = {dec}, not {stated} -- the claim is incorrect"
+    eq = f"({digs}){base} = {dec} vs stated {stated}"
+    steps = [
+        "Method -- positional-weight rule: a base-b digit string equals "
+        "the sum of each digit times its place weight b^k (k from 0 at "
+        "the right); a claimed decimal value is checked by recomputing "
+        "that sum exactly.",
+        f"Given -- claim to test: ({digs}){base} "
+        f"{'=' if ok else 'claimed ='} {stated} in decimal.",
+        f"Computation -- expand ({digs}){base}: {weights} = {dec}.",
+        f"Verification -- the recomputed decimal value {dec} "
+        f"{'matches' if ok else 'does not match'} the stated {stated}; "
+        f"the digit alphabet of base {base} admits no other reading, so "
+        f"the check is decisive.",
+        f"Interpretation -- the claim is {verdict}.",
+    ]
+    return _res("BASE_VERIFY", g, float(dec), eq, steps,
+                answer=answer,
+                extra={"value": dec, "stated": stated, "base": base})
 
 
 def _c_base_arith(g, m, text):
@@ -376,7 +437,7 @@ def _c_bits_range(g, m, text):
         ]
         return _res("BITS_RANGE", g, float(bits), "2^k - 1 >= N", steps,
                     answer=f"{bits} bits", extra={"n": n, "bits": bits})
-    mb = re.search(r"(\d+)\s*bits?", t, re.I)
+    mb = re.search(r"(\d+)\s*[-\u2011]?\s*bits?", t, re.I)
     if not mb:
         return _GATE
     n = int(mb.group(1))
@@ -402,8 +463,8 @@ def _c_bits_range(g, m, text):
         ]
         return _res("BITS_RANGE", g, float(mx), eq, steps, answer=f"{mx}",
                     extra={"n": n})
-    if re.search(r"how many (?:different |distinct |possible )?"
-                 r"(?:values|numbers|patterns|combinations)|can "
+    if re.search(r"how many (?:different |distinct |possible |unique )?"
+                 r"(?:values|numbers|patterns|combinations|codes)|can "
                  r"represent|representable", t, re.I):
         eq = f"{n} bits -> {count} values"
         steps = [
@@ -2558,9 +2619,10 @@ _TABLE: List[Tuple[str, str, Any]] = [
      _c_storage),
     ("BITS_RANGE",
      r"how many bits|(?:largest|greatest|maximum|highest|how many "
-     r"different|how many possible|values can|numbers can).{0,80}"
-     r"\bbits?\b|\bbits?\b.{0,60}(?:represent|values|largest|greatest|"
-     r"maximum|patterns|combinations|needed)", _c_bits_range),
+     r"different|how many possible|how many unique|values can|numbers can)"
+     r".{0,80}\bbits?\b|\bbits?\b.{0,60}(?:represent|values|largest|"
+     r"greatest|maximum|patterns|combinations|codes|unique|needed)",
+     _c_bits_range),
     ("BIT_WEIGHT",
      r"\bMSB\b|\bLSB\b|most significant bit|least significant bit|place "
      r"value|weight", _c_bit_weight),
@@ -2578,9 +2640,17 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"(?:add|sum|subtract|difference|minus|plus).{0,90}(?:binary|octal|"
      r"hex|base\s*(?:2|8|16))|(?:binary|octal|hex).{0,90}(?:add|sum|plus|"
      r"subtract|minus)|\(\s*[0-9A-Fa-f]+\s*\)\s*(?:2|8|16)\b", _c_base_arith),
+    # claim-verification conversions must run BEFORE BASE_CONVERT's loose
+    # "equivalent/representation" trigger can misread the same text
+    ("BASE_VERIFY",
+     r"\b(?:hex(?:adecimal)?|binary|octal|decimal)\s*(?:number\s+)?"
+     r"[0-9A-Fa-f]{1,12}\b.{0,30}?\b(?:equals?|is\s+equal\s+to|"
+     r"represents?|corresponds\s+to)\b",
+     _c_base_verify),
     ("BASE_CONVERT",
      r"convert|equivalent|\)\s*[28]\b|\(\s*[01]{2,}\s*\)|base\s*(?:2|8|10"
-     r"|16)", _c_base_convert),
+     r"|16)|(?:binary|octal|decimal|hex\w*)\s+representation",
+     _c_base_convert),
 ]
 
 TABLE = _TABLE

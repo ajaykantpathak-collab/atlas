@@ -26,7 +26,7 @@ from backend.its.solver.input_normalizer import normalize_input
 # --------------------------------------------------------------------------- #
 
 def test_regression_interest_family_matches_normalized_text():
-    from backend.its.solver.class8_families import model_interest
+    from backend.its.solver.maths_families import model_interest
     raw = "Find the SI on Rs 5000 at 4 percent per annum for 3 years"
     norm = normalize_input(raw)
     assert norm == ("Find the simple interest on Rs 5000 at 4 % "
@@ -37,7 +37,7 @@ def test_regression_interest_family_matches_normalized_text():
 
 
 def test_regression_exponent_family_matches_normalized_text():
-    from backend.its.solver.class7_families import model_exponent_eval
+    from backend.its.solver.maths_families import model_exponent_eval
     raw = "Evaluate 2 raised to the power 6."
     norm = normalize_input(raw)
     assert norm == "Evaluate 2 ^ 6"

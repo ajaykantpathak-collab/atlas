@@ -1,0 +1,368 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c3)",
+ "source_file": "c3_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C3_001",
+   "title": "RULE 1: ALL COMPUTER PARTS: Headphones = ...",
+   "section": "RULE 1: ALL COMPUTER PARTS",
+   "formula": "Headphones = listen_to*sound_privately",
+   "_pats_extra": [],
+   "key_idea": "RULE 1: ALL COMPUTER PARTS (RULE 1: ALL COMPUTER PARTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find headphones using rule 1: all computer parts",
+    "calculate rule 1: all computer parts",
+    "rule 1: all computer parts formula question",
+    "given values find headphones",
+    "rule 1: all computer parts rule 1: all computer parts numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_001",
+     "question_pattern": "rule 1: all computer parts with {listen_to} and {sound_privately} find headphones",
+     "extracted_variables": {
+      "listen_to": "given listen_to",
+      "sound_privately": "given sound_privately"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for listen_to, sound_privately from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Headphones = listen_to*sound_privately",
+     "compute": "Headphones = listen_to*sound_privately"
+    }
+   ],
+   "chapter_title": "RULE 1: ALL COMPUTER PARTS"
+  },
+  {
+   "id": "FB_CS_C3_002",
+   "title": "RULE 4: CAPS LOCK: Caps Lock ON = ...",
+   "section": "RULE 4: CAPS LOCK",
+   "formula": "Caps_Lock_ON = all_letters*are_CAPITAL",
+   "_pats_extra": [],
+   "key_idea": "RULE 4: CAPS LOCK (RULE 4: CAPS LOCK)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find caps lock on using rule 4: caps lock",
+    "calculate rule 4: caps lock",
+    "rule 4: caps lock formula question",
+    "given values find caps lock on",
+    "rule 4: caps lock rule 4: caps lock numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_002",
+     "question_pattern": "rule 4: caps lock with {all_letters} and {are_CAPITAL} find caps lock on",
+     "extracted_variables": {
+      "all_letters": "given all_letters",
+      "are_CAPITAL": "given are_CAPITAL"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for all_letters, are_CAPITAL from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Caps Lock ON = all_letters*are_CAPITAL",
+     "compute": "Caps_Lock_ON = all_letters*are_CAPITAL"
+    }
+   ],
+   "chapter_title": "RULE 4: CAPS LOCK"
+  },
+  {
+   "id": "FB_CS_C3_003",
+   "title": "RULE 4: CAPS LOCK: Caps Lock OFF = ...",
+   "section": "RULE 4: CAPS LOCK",
+   "formula": "Caps_Lock_OFF = all_letters*are_small",
+   "_pats_extra": [],
+   "key_idea": "RULE 4: CAPS LOCK (RULE 4: CAPS LOCK)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find caps lock off using rule 4: caps lock",
+    "calculate rule 4: caps lock",
+    "rule 4: caps lock formula question",
+    "given values find caps lock off",
+    "rule 4: caps lock rule 4: caps lock numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_003",
+     "question_pattern": "rule 4: caps lock with {all_letters} and {are_small} find caps lock off",
+     "extracted_variables": {
+      "all_letters": "given all_letters",
+      "are_small": "given are_small"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for all_letters, are_small from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Caps Lock OFF = all_letters*are_small",
+     "compute": "Caps_Lock_OFF = all_letters*are_small"
+    }
+   ],
+   "chapter_title": "RULE 4: CAPS LOCK"
+  },
+  {
+   "id": "FB_CS_C3_004",
+   "title": "RULE 5: DESKTOP: Icons = ...",
+   "section": "RULE 5: DESKTOP",
+   "formula": "Icons = small_pictures*on_the_desktop",
+   "_pats_extra": [],
+   "key_idea": "RULE 5: DESKTOP (RULE 5: DESKTOP)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find icons using rule 5: desktop",
+    "calculate rule 5: desktop",
+    "rule 5: desktop formula question",
+    "given values find icons",
+    "rule 5: desktop rule 5: desktop numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_004",
+     "question_pattern": "rule 5: desktop with {small_pictures} and {on_the_desktop} find icons",
+     "extracted_variables": {
+      "small_pictures": "given small_pictures",
+      "on_the_desktop": "given on_the_desktop"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for small_pictures, on_the_desktop from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Icons = small_pictures*on_the_desktop",
+     "compute": "Icons = small_pictures*on_the_desktop"
+    }
+   ],
+   "chapter_title": "RULE 5: DESKTOP"
+  },
+  {
+   "id": "FB_CS_C3_005",
+   "title": "RULE 6: FILES AND FOLDERS: Folder = ...",
+   "section": "RULE 6: FILES AND FOLDERS",
+   "formula": "Folder = a*container_that*holds_files",
+   "_pats_extra": [],
+   "key_idea": "RULE 6: FILES AND FOLDERS (RULE 6: FILES AND FOLDERS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find folder using rule 6: files and folders",
+    "calculate rule 6: files and folders",
+    "rule 6: files and folders formula question",
+    "given values find folder",
+    "rule 6: files and folders rule 6: files and folders numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_005",
+     "question_pattern": "rule 6: files and folders with {a} and {container_that} and {holds_files} find folder",
+     "extracted_variables": {
+      "a": "given a",
+      "container_that": "given container_that",
+      "holds_files": "given holds_files"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, container_that, holds_files from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Folder = a*container_that*holds_files",
+     "compute": "Folder = a*container_that*holds_files"
+    }
+   ],
+   "chapter_title": "RULE 6: FILES AND FOLDERS"
+  },
+  {
+   "id": "FB_CS_C3_006",
+   "title": "RULE 6: FILES AND FOLDERS: Save = ...",
+   "section": "RULE 6: FILES AND FOLDERS",
+   "formula": "Save = keep_work*in_the_computer",
+   "_pats_extra": [],
+   "key_idea": "RULE 6: FILES AND FOLDERS (RULE 6: FILES AND FOLDERS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find save using rule 6: files and folders",
+    "calculate rule 6: files and folders",
+    "rule 6: files and folders formula question",
+    "given values find save",
+    "rule 6: files and folders rule 6: files and folders numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_006",
+     "question_pattern": "rule 6: files and folders with {keep_work} and {in_the_computer} find save",
+     "extracted_variables": {
+      "keep_work": "given keep_work",
+      "in_the_computer": "given in_the_computer"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for keep_work, in_the_computer from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Save = keep_work*in_the_computer",
+     "compute": "Save = keep_work*in_the_computer"
+    }
+   ],
+   "chapter_title": "RULE 6: FILES AND FOLDERS"
+  },
+  {
+   "id": "FB_CS_C3_007",
+   "title": "RULE 6: FILES AND FOLDERS: Open = ...",
+   "section": "RULE 6: FILES AND FOLDERS",
+   "formula": "Open = see_saved*work_again",
+   "_pats_extra": [],
+   "key_idea": "RULE 6: FILES AND FOLDERS (RULE 6: FILES AND FOLDERS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find open using rule 6: files and folders",
+    "calculate rule 6: files and folders",
+    "rule 6: files and folders formula question",
+    "given values find open",
+    "rule 6: files and folders rule 6: files and folders numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_007",
+     "question_pattern": "rule 6: files and folders with {see_saved} and {work_again} find open",
+     "extracted_variables": {
+      "see_saved": "given see_saved",
+      "work_again": "given work_again"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for see_saved, work_again from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Open = see_saved*work_again",
+     "compute": "Open = see_saved*work_again"
+    }
+   ],
+   "chapter_title": "RULE 6: FILES AND FOLDERS"
+  },
+  {
+   "id": "FB_CS_C3_008",
+   "title": "RULE 10: PAINT TOOLS: Brush = ...",
+   "section": "RULE 10: PAINT TOOLS",
+   "formula": "Brush = draw_with*different_sizes",
+   "_pats_extra": [],
+   "key_idea": "RULE 10: PAINT TOOLS (RULE 10: PAINT TOOLS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find brush using rule 10: paint tools",
+    "calculate rule 10: paint tools",
+    "rule 10: paint tools formula question",
+    "given values find brush",
+    "rule 10: paint tools rule 10: paint tools numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_008",
+     "question_pattern": "rule 10: paint tools with {draw_with} and {different_sizes} find brush",
+     "extracted_variables": {
+      "draw_with": "given draw_with",
+      "different_sizes": "given different_sizes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for draw_with, different_sizes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Brush = draw_with*different_sizes",
+     "compute": "Brush = draw_with*different_sizes"
+    }
+   ],
+   "chapter_title": "RULE 10: PAINT TOOLS"
+  },
+  {
+   "id": "FB_CS_C3_009",
+   "title": "RULE 10: PAINT TOOLS: Text tool = ...",
+   "section": "RULE 10: PAINT TOOLS",
+   "formula": "Text_tool = add_words*to_your_drawing",
+   "_pats_extra": [],
+   "key_idea": "RULE 10: PAINT TOOLS (RULE 10: PAINT TOOLS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find text tool using rule 10: paint tools",
+    "calculate rule 10: paint tools",
+    "rule 10: paint tools formula question",
+    "given values find text tool",
+    "rule 10: paint tools rule 10: paint tools numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C3_009",
+     "question_pattern": "rule 10: paint tools with {add_words} and {to_your_drawing} find text tool",
+     "extracted_variables": {
+      "add_words": "given add_words",
+      "to_your_drawing": "given to_your_drawing"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for add_words, to_your_drawing from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Text tool = add_words*to_your_drawing",
+     "compute": "Text_tool = add_words*to_your_drawing"
+    }
+   ],
+   "chapter_title": "RULE 10: PAINT TOOLS"
+  }
+ ]
+}

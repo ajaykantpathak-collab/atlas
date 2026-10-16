@@ -68,12 +68,20 @@ class TestBadgePayloadIsReadable:
         assert "read_ok = True" in endpoint
         assert "source_readable=read_ok" in endpoint
 
-    def test_both_read_paths_set_the_flag(self):
-        """A single success is enough; two silent paths are not."""
+    def test_the_single_real_read_path_sets_the_flag(self):
+        """AUDIT FIX 2026-10-05: the endpoint used to have TWO paths — a
+        "primary" calling get_earned_achievements() (a method that never
+        existed) and a fallback querying columns the achievements table does
+        not have — so nothing ever genuinely read. There is now exactly ONE
+        path (the real service API the /api/achievements router shares) and
+        it is the only thing allowed to set the flag."""
         src = _read("backend/api/dashboard.py")
         endpoint = src.split('"/student/{student_id}/achievements"', 1)[1]
         endpoint = endpoint.split("\n@router.", 1)[0]
-        assert endpoint.count("read_ok = True") == 2
+        assert endpoint.count("read_ok = True") == 1
+        # The one path is the real static service API, filtered to earned.
+        assert 'AchievementService.get_achievements(' in endpoint
+        assert 'filter="unlocked"' in endpoint
 
 
 class TestKnownUnresolved:

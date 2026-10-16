@@ -15,29 +15,40 @@ import math
 
 import pytest
 
-from backend.its.solver.extra_families2 import (
+# WS-B step 1: maths families of the old extra_families2 moved to
+# maths_families; physics/chemistry/accountancy families stay here.
+# INVERSE_PROPORTION was DROPPED per map §4a (core spec + maths2 row own
+# the id; its two positive stems resolve via PAL_PROGRAM with the same
+# answers, its refusal pins were refusal-class already) -- the four tests
+# pinning the deleted fn were removed with it.
+from backend.its.solver.maths_families import (
     model_ap_equal_terms,
     model_basic_proportionality,
-    model_bernoulli_lift,
-    model_carbon_dating,
     model_chord_from_distance,
-    model_coil_magnetic_moment,
     model_dice_product_prob,
     model_discount_marked,
     model_equilateral_altitude,
-    model_extra2,
-    model_geometric_depreciation,
-    model_inverse_proportion,
-    model_kelvin_convert,
-    model_lens_power_real,
     model_mean_variance_missing,
     model_not_perfect_cube_list,
-    model_projectile_ceiling,
-    model_rotating_cylinder,
     model_section_formula,
     model_tangent_quadrilateral,
     model_three_digit_multiples,
     model_two_point_line,
+)
+from backend.its.solver.physics_families import (
+    model_bernoulli_lift,
+    model_coil_magnetic_moment,
+    model_kelvin_convert,
+    model_lens_power_real,
+    model_projectile_ceiling,
+    model_rotating_cylinder,
+)
+from backend.its.solver.chemistry_families import model_carbon_dating
+from backend.its.solver.accountancy_families import (
+    model_geometric_depreciation,
+)
+from backend.its.solver.physics_families import (
+    model_physics_families as model_extra2,
 )
 
 
@@ -749,51 +760,22 @@ def test_mean_variance_missing_inconsistent_refused():
              "Find the remaining two observations.")
 
 
-# ---- INVERSE_PROPORTION_DAYS (row 4473) ----
-
-def test_inverse_proportion_ncert():
-    # 2 persons, 3 days: job = 6 person-days -> 1 person: 6 days;
-    # for one day: 6 persons
-    r = _check(model_inverse_proportion,
-               "Two persons could fit new windows in a house in 3 days. "
-               "(i) One of the persons fell ill before the work started. "
-               "How long would the job take now? (ii) How many persons "
-               "would be needed to fit the windows in one day?",
-               6.0, "INVERSE_PROPORTION_DAYS")
-    assert "6 days" in r.final_answer and "6 persons" in r.final_answer
-
-
-def test_inverse_proportion_six_workers():
-    # 6 persons, 12 days -> 5 persons: 72/5 = 14.4 days; one day: 72 persons
-    r = _check(model_inverse_proportion,
-               "Six persons could dig a pond in 12 days. One of the "
-               "persons fell ill before the work started. How long would "
-               "the job take now? How many persons would be needed to dig "
-               "the pond in one day?",
-               14.4, "INVERSE_PROPORTION_DAYS")
-    assert "72 persons" in r.final_answer
-
-
-def test_inverse_proportion_last_person_refused():
-    _refused(model_inverse_proportion,
-             "One person could paint a wall in 3 days. The person fell "
-             "ill. How long would the job take now?")
-
-
-def test_inverse_proportion_no_illness_refused():
-    _refused(model_inverse_proportion,
-             "Two persons could fit new windows in a house in 3 days. How "
-             "long would three persons take to fit the windows?")
 
 
 # ---- dispatcher ----
 
 def test_dispatcher_reaches_families():
-    r = model_extra2("How many three-digit numbers are divisible by 7?")
+    # WS-B step 1: the maths families (THREE_DIGIT_MULTIPLES among them)
+    # moved to maths_families -- the moved family serves via model_maths,
+    # the dispatcher still reaches its surviving families.
+    from backend.its.solver.maths_families import model_maths
+    r = model_maths("How many three-digit numbers are divisible by 7?")
     assert r.matched and r.structure == "THREE_DIGIT_MULTIPLES"
+    r2 = model_extra2("Convert 300 K to Celsius and Fahrenheit.")
+    assert r2.matched and r2.structure == "KELVIN_CONVERT"
 
 
 def test_dispatcher_garbage_refused():
     r = model_extra2("Tell me a joke about dice, lenses and tarpaulins.")
     assert not r.matched
-    assert r.structure == "EXTRA2"
+    assert r.structure == "PHYSICS_FAMILIES"

@@ -1,0 +1,20 @@
+{
+ "receipt_id": "rcpt_20261013T173554Z_c46f60d3",
+ "work_item": "WI-20261013-002",
+ "from_state": "ROLLED_BACK",
+ "to_state": "ROLLED_BACK",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T17:35:54Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "CORRECTION: 04_IMPLEMENT_VERIFY.json gate G1 field log_sha256: re-run pytest overwrote shared log during DEMO-5 rollback cycle",
+ "prev_receipt_sha256": "3455c97beaab913c207fe5cd34776968450a0add4f3639d2aa5e55be6da522b0",
+ "correction": [
+  {
+   "receipt": "04_IMPLEMENT_VERIFY.json",
+   "gate": "G1",
+   "field": "log_sha256",
+   "reason": "re-run pytest overwrote shared log during DEMO-5 rollback cycle"
+  }
+ ]
+}

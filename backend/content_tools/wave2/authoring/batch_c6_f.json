@@ -1,0 +1,84 @@
+{
+ "edits": [
+  {
+   "file": "c6_math_ch03_035.md",
+   "definition": "Multiplying fractions answers the question 'what is a part of a part?' — half of a half, two-thirds of three-quarters. The rule is the simplest in fraction arithmetic: multiply the numerators together for the new numerator and the denominators together for the new denominator, so 2/3 × 3/4 = 6/12 = 1/2. Mixed numbers are first converted to improper fractions; cross-cancellation (dividing a top and a bottom by a shared factor before multiplying) keeps the numbers small; and the answer is always simplified. The sense-check is built in: multiplying by a proper fraction shrinks, because a part of a part is smaller than either part."
+  },
+  {
+   "file": "c6_math_ch06_065.md",
+   "definition": "Two quantities are in direct proportion when they move together in lockstep — both grow or both shrink — while the ratio between them stays constant: double one, the other doubles; halve one, the other halves. Cost and quantity at a fixed price are the classic pair (2 pens cost ₹30, 4 pens cost ₹60, 6 cost ₹90 — cost per pen never changes), and so are distance and time at constant speed. The working test is the constant ratio, and its practical power is extension: once one complete pair of values is known, any other value can be found by simple multiplication or the unitary method, no new measurement needed."
+  },
+  {
+   "file": "c6_math_ch07_072.md",
+   "definition": "An angle is the opening between two rays that start from the same point — the vertex — and it measures the amount of turn from one ray to the other. The unit is the degree (°), with a full turn divided into 360°, so a straight line is 180°, a right angle a quarter-turn of 90°, and angles smaller than 90° are acute while those between 90° and 180° are obtuse. The size of an angle depends only on the opening, not on how long the arms are drawn — a fact every protractor user eventually proves to themselves — and angle notation (∠ABC) names the vertex in the middle."
+  },
+  {
+   "file": "c6_physics_ch03_013.md",
+   "definition": "A circuit diagram is the standard language of electricity: a drawing in which each component is replaced by an agreed symbol — a cell by one long and one short parallel line, a battery by several in a row, a bulb by a circle with a cross, a switch by a breakable line, connecting wires by straight lines. Because the symbols are universal, any electrician anywhere can rebuild the circuit from the drawing alone, without seeing the original — something no realistic picture can guarantee. The diagram shows the connections, not the appearances, and drawing one neatly with a ruler is the first skill of practical circuit work."
+  },
+  {
+   "file": "c6_physics_ch03_014.md",
+   "definition": "Materials answer the electric test in two ways. Conductors — all metals, graphite, and solutions like salt water — let current flow through them easily, because they contain charges free to move; that is why wires are copper and plugs are pinned with brass. Insulators — plastic, rubber, glass, wood, paper, dry air — hold their charges fixed and block the flow; that is why cables are sheathed in plastic, tools get rubber grips and switch boards are plastic. The same complete circuit lights with a conductor in the gap and stays dark with an insulator — the standard test, and the reason the two materials are always used together: a conductor to carry, an insulator to guard."
+  },
+  {
+   "file": "c6_physics_ch08_030.md",
+   "definition": "Uniform motion is motion in a straight line at an unchanging speed — equal distances covered in equal intervals of time, however small the interval. A car cruising steadily at 60 km/h covers a kilometre every minute, every minute, for as long as it holds that speed: its distance–time graph is one straight rising line, and its speed at every instant equals its average. Real travel is rarely so obedient — vehicles accelerate, brake and turn — so uniform motion is the ideal case that the average speed approximates, and the benchmark against which all speeding up and slowing down is described."
+  },
+  {
+   "file": "c6_geography_ch04_023.md",
+   "definition": "India's farming year runs in seasons. The kharif season opens with the monsoon (June–July) and closes in autumn: crops sown then — rice, maize, millets, cotton, groundnut, pulses like arhar — need the rains' heat and water. The rabi season follows the monsoon's retreat (October–November) and harvests in spring: wheat, barley, gram and mustard, sown in the cooling soil and watered by irrigation and winter rain. A short zaid summer season in between grows watermelons, cucumbers and fodder under irrigation. Which season a crop belongs to is decided by what it needs — kharif crops live on the monsoon, rabi crops on the cool, dry winter."
+  },
+  {
+   "file": "c6_history_ch08_031.md",
+   "definition": "The Sikh Kingdom of Punjab, known as the Sikh Empire, was forged by Maharaja Ranjit Singh (ruled 1801–1839). Rising as leader of the Sukerchakia misl — one of the twelve warrior bands (misls) into which Sikh forces had organised after the fall of Mughal authority — he united the misls, took Lahore in 1799, and was crowned Maharaja of Punjab in 1801. His empire stretched from the Khyber Pass to Kashmir and Multan, run with a secular administration in which Sikhs, Muslims and Hindus held high office, its strength resting on the disciplined army he built — until the Anglo-Sikh wars followed his death and annexed Punjab to British India in 1849."
+  },
+  {
+   "file": "c6_history_ch09_037.md",
+   "definition": "Two reigns carried the Mughal Empire to and from its peak. Shah Jahan (1628–1658) presided over its golden age of stability and splendour: the treasury full from Akbar's and Jahangir's foundations, and architecture at its zenith — the Taj Mahal, the Red Fort, the Jama Masjid of Delhi. Aurangzeb (1658–1707) ruled longer and expanded the empire to its largest extent, but his rigid religious orthodoxy alienated the Rajputs, the Sikhs and the Deccan sultanates, and decades of draining wars in the south stretched the treasury. By his death in 1707 the empire was over-extended; within a century it had shrunk to Delhi's outskirts."
+  },
+  {
+   "file": "c6_math_ch03_031.md",
+   "definition": "Equivalent fractions are fractions wearing different numerals for the same amount: 1/2, 2/4, 3/6 and 50/100 all mark the same share of the whole. They arise from splitting the whole into more or fewer equal pieces — cut every piece in two and 1/2 becomes 2/4; merge every pair and 2/4 returns to 1/2. The generating rule is multiplying or dividing both numerator and denominator by the same non-zero number, and the test for equivalence is cross-multiplication: a × d = b × c means a/b = c/d. Every reduced fraction is one representative of an infinite family of equivalents."
+  },
+  {
+   "file": "c6_biology_ch09_006.md",
+   "definition": "A food chain is energy's path through a living community, drawn as a line of who eats whom: grass → grasshopper → frog → snake → eagle. It always begins with a producer — a green plant that captures the Sun's energy into food — and each arrow means 'is eaten by', passing the energy to the next level: primary consumers (herbivores), then secondary and tertiary consumers (carnivores), with decomposers recycling the remains of every level. Because energy is lost as heat at every step, chains rarely run beyond four or five links — which is why big fierce animals are always rare."
+  },
+  {
+   "file": "c6_history_ch05_008.md",
+   "definition": "Ashoka (ruled c. 268–232 BCE), the third Mauryan emperor, is remembered as the king who turned from conquest to conscience. His early reign extended the empire across the subcontinent; then came Kalinga, whose war — by his own admission in his thirteenth rock edict — brought 'a hundred thousand slain and many times that number dead'. Repenting, he embraced the Buddha's dhamma, renounced armed conquest for dhamma-vijaya (conquest by righteousness), issued edicts of kindness and tolerance carved on rocks and pillars throughout his realm, served hospitals, wells and rest-houses, and sent missions carrying Buddhism across Asia. No ruler's remorse has ever reshaped so much."
+  },
+  {
+   "file": "c6_math_ch02_020.md",
+   "definition": "Subtracting an integer is the same as adding its opposite — this single rule runs all integer subtraction. To find 8 − 3, add the additive inverse of 3: 8 + (−3) = 5; to find 4 − (−6), add the opposite of −6: 4 + 6 = 10, so subtracting a negative gives more, not less. The 'keep–change–change' routine encodes it: keep the first number, change the minus to plus, change the sign of the second. On the number line, subtraction becomes a walk in the reverse direction, and every difference can now be computed by the addition rules already learned."
+  },
+  {
+   "file": "c6_math_ch07_074.md",
+   "definition": "A quadrilateral is a closed flat shape bounded by four straight sides meeting at four vertices, and holding four interior angles that always total exactly 360° — whatever the shape's slings and stretches. The family is sorted by sides and angles: the general quadrilateral, the trapezium with one pair of parallel sides, the parallelogram with two, the rectangle adding right angles, the rhombus equal sides, and the square combining every property. Draw one diagonal and the four-sided figure splits into two triangles — 180° + 180° = 360° — which is why the angle sum is a law and not an observation."
+  },
+  {
+   "file": "c6_physics_ch11_036.md",
+   "definition": "Light is a form of energy that makes vision possible, and it travels in straight lines — a property called rectilinear propagation. Its straightness explains the sharpness of shadows, the working of pinhole cameras and the fact that a beam cannot bend around a wall to reach you. Light can, however, change direction at a boundary — bouncing back from a mirror (reflection) or bending as it passes from air into water (refraction) — and it does so instantly and invisibly: a room lights up the moment the switch clicks, because light travels at the fastest speed in the universe, about 300,000 km per second."
+  },
+  {
+   "file": "c6_math_ch06_067.md",
+   "definition": "Ratios come in two kinds, and the difference is what sits in the denominator of thought. A part-to-part ratio compares one group with another group inside the whole — in a class of 40 with 15 girls and 25 boys, girls : boys = 15 : 25 = 3 : 5. A part-to-whole ratio compares one group with the entire collection: girls : students = 15 : 40 = 3 : 8. The same numbers, two different questions; the part-to-whole form is secretly a fraction (3/8 of the class), while part-to-part is not, and confusing the two is the standard error in ratio problems."
+  },
+  {
+   "file": "c6_math_ch09_102.md",
+   "definition": "The mode is the most frequent value in a data set — the observation that appears more often than any other, the crowd's own choice. In the sizes 6, 7, 7, 8, 9, 7, 8 the mode is 7, occurring three times; some sets have two modes (bimodal), some none at all when every value appears equally often. Unlike the mean and median, the mode needs no arithmetic and works on non-numerical data too — the most popular colour, the most ordered dish. When you ask 'which one is most common?', the mode is the only average that answers."
+  },
+  {
+   "file": "c6_history_ch11_050.md",
+   "definition": "Independence and Partition arrived together on 15 August 1947: two centuries of British rule ended and India awoke as a free nation — while, in the same Act, the country was divided and Pakistan was created from its Muslim-majority northwestern and eastern regions. The partition followed the Muslim League's demand for a separate homeland and failed negotiations over power-sharing, and its border was drawn in haste through Bengal and Punjab. Its cost was terrible: some 10–15 million people crossed the new borders in both directions amid violence, and over a million died. India's freedom was thus born twinned with a tragedy whose consequences still shape the subcontinent."
+  },
+  {
+   "file": "c6_geography_ch03_015.md",
+   "definition": "Climate is the long-term pattern of a region's atmosphere: the average and typical range of its temperature, humidity, rainfall and wind, computed from about thirty years of records rather than any single day. It is what makes Kerala reliably warm and wet, Rajasthan hot and dry, Shillong cool and rainy — not the weather forecast of any particular week but the tendency those weeks keep returning to. Climate sets the region's crops, clothing, houses and water planning, because everyone from farmer to architect builds for the pattern, not for tomorrow."
+  },
+  {
+   "file": "c6_math_ch11_117.md",
+   "definition": "An angle bisector is the ray that springs from an angle's vertex and splits the angle into two equal halves — the 60° angle's bisector makes two perfect 30° angles. Every point on the bisector has a special property: it sits at exactly the same perpendicular distance from both arms of the angle, which is why folded paper or a swung compass always finds the bisector as the crease or the shared-chord line. In a triangle, the three internal bisectors meet at one point — the incentre — the centre of the circle that touches all three sides, making the humble bisector the architect of a triangle's balance."
+  }
+ ]
+}

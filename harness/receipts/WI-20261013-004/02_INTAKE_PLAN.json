@@ -1,0 +1,63 @@
+{
+ "receipt_id": "rcpt_20261013T155353Z_08ffa2fa",
+ "work_item": "WI-20261013-004",
+ "from_state": "INTAKE",
+ "to_state": "PLAN",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:53:53Z",
+ "gates": [],
+ "evidence": {
+  "plan": {
+   "path": "D:\\platform\\harness\\receipts\\WI-20261013-004\\plan.md",
+   "sha256": "98f6a20264db5866e8ab007545ddcb02fbbfc0cc91a014739552112681e1d5cb"
+  },
+  "files_in_scope": [
+   "deploy/backend/its/README.md"
+  ],
+  "gates_expected": {
+   "G1": {
+    "applies": "apply",
+    "reason": "no mapped test -> corpus pinned suite"
+   },
+   "G2": {
+    "applies": "not_applicable",
+    "reason": "no backend .py changed"
+   },
+   "G3": {
+    "applies": "not_applicable",
+    "reason": "no backend .py changed"
+   },
+   "G4": {
+    "applies": "not_applicable",
+    "reason": "no .py string literals changed"
+   },
+   "G5": {
+    "applies": "apply"
+   },
+   "G6": {
+    "applies": "not_applicable",
+    "reason": "its/solver/** unchanged"
+   },
+   "G7": {
+    "applies": "not_applicable",
+    "reason": "no backend .py changed — no boot needed"
+   },
+   "G8": {
+    "applies": "not_applicable",
+    "reason": "no frontend change"
+   },
+   "G9": {
+    "applies": "not_applicable",
+    "reason": "chisel CLI not installed on host — verified 2026-10-13"
+   },
+   "G10": {
+    "applies": "apply",
+    "reason": "executes at SOAK state"
+   }
+  },
+  "wi_type": "IMPROVEMENT",
+  "citation": "corpus case COR-000001 (parked 2026-10-13): formula-substitution question\nrefuses to model — parity 2026-10-13 matched=18/200, top actionable refusal\nclass 2,884 rows/7d. Solver authors fixing such gaps need a documented\npointer from the solver tree to the corpus mining loop; this README change\nadds it (doc-only; the citation is the corpus case the docs describe how\nto attack)."
+ },
+ "notes": "type=IMPROVEMENT files=1",
+ "prev_receipt_sha256": "03aa9f0ebf536d69f465afa41a9c617e4bed7e05c2b764e8cb74f483dca90d92"
+}

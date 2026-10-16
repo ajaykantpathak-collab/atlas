@@ -1,0 +1,34 @@
+{
+  "artifact_contract": "semia-prepare-v1",
+  "created_at": "2026-10-04T12:01:27Z",
+  "hostile_input_nonce": "39874df9548d9846",
+  "prepared_skill_sha256": "c19dc7bcaa2df5fd419687cdc0d57019677ed18e6994574713721ff19442db02",
+  "source": {
+    "file_inventory": [
+      {
+        "disposition": "inlined",
+        "language": "markdown",
+        "line_count": 52,
+        "path": "SKILL.md",
+        "size_bytes": 2988
+      }
+    ],
+    "files": [
+      "SKILL.md"
+    ],
+    "inlined_text": "---\nname: atlas-deploy\ndescription: Deploy Atlas platform changes to production at D:\\platform \u2014 build images, recreate containers, handle warm-up, restart nginx, and verify. Use whenever deploying Atlas code, rebuilding the frontend or backends, shipping fixes to :3001/:80, or when the user says ship/deploy/rebuild.\n---\n\n# Atlas Deploy\n\nShip changes from `deploy/` (the only build tree) to production. Every skipped\nstep in this sequence has previously caused a production incident.\n\n## The sequence \u2014 run in order, never skip\n\n```\n1. PRECHECK   deploy/ tree is synced with the repo (diff changed files).\n              Containers may hold newer hot-fixed code than the repo \u2014 diff\n              container vs repo before building (MSYS_NO_PATHCONV=1 for docker exec).\n2. BUILD      cd D:/platform/deploy\n              docker compose --env-file .env.production -f docker-compose.prod.yml build <services>\n              Background it (frontend \u2248 5-10 min). Do NOT build in parallel with\n              other heavy work \u2014 CPU storms have wedged builds and dev servers.\n3. RECREATE   docker compose \u2026 up -d\n              Verify the recreate COMPLETED \u2014 containers can stick in \"Created\"\n              state forever if interrupted. Re-run `up -d` until all show Up.\n4. WARM-UP    Backends rebuild the 213MB index + preload models at boot (~2-5 min).\n              `docker logs dream-backend-1` should show solver self-tests passing.\n              Poll \u2014 never declare done while health says \"starting\".\n5. NGINX      docker restart dream-nginx   \u2190 MANDATORY, every time.\n              nginx resolves upstream IPs at startup; a skipped restart = 502s\n              for everyone while every container looks healthy.\n6. VERIFY     curl http://localhost/api/health        (all services true)\n              curl -o /dev/null -w \"%{http_code}\" http://localhost:3001/        (200)\n              + one deep page per changed area (galaxy / story / pre-board)\n```\n\n## Service names\nbackend-1, backend-2, frontend, nginx, postgres, neo4j, redis, qdrant, clickhouse, db-init.\nBackend-1 and backend-2 have SEPARATE build sections \u2014 build both.\n\n## Rollback / recovery\n- Stuck \"Created\" containers \u2192 re-run `up -d` until recreated.\n- Backends unhealthy long after start \u2192 `docker logs dream-backend-1` and grep for\n  NameError/Traceback. Boot progresses through solver self-tests when healthy.\n- Frontend \"unhealthy\" while serving 200 \u2192 healthcheck probes /api, which fails\n  while backends are down. Fix backends, not the frontend.\n\n## Rules\n- One build per batch of changes. Background builds and verify only after completion.\n- Env file: always `--env-file .env.production`. PUBLIC_API_URL stays EMPTY\n  (relative base \u2014 absolute values caused the CORS download-prompt incident).\n- After frontend changes: Next compiles at build time \u2014 dev :3000 shows fixes\n  immediately, production only after a rebuild. Never tell the user \"fixed\" for\n  :3001 until the rebuild shipped.\n",
+    "main_path": "D:\\platform\\.agents\\skills\\atlas-deploy\\SKILL.md",
+    "root": "D:\\platform\\.agents\\skills\\atlas-deploy",
+    "source_hash": "c5bccf1153edf65d8f129bb7f2b49de939b8c129978cc4ff3ae625b1cc83f3b8",
+    "source_id": "atlas-deploy",
+    "source_map": [
+      {
+        "enriched_line_end": 52,
+        "enriched_line_start": 1,
+        "source_file": "SKILL.md",
+        "source_line_end": 52,
+        "source_line_start": 1
+      }
+    ]
+  }
+}

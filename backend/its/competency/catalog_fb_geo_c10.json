@@ -1,0 +1,208 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c10)",
+ "source_file": "c10_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C10_001",
+   "title": "SCALE AND DISTANCE: Statement scale = ...",
+   "section": "SCALE AND DISTANCE",
+   "formula": "Statement_scale = RF_denominator*in_cm*converted_to_km",
+   "_pats_extra": [],
+   "key_idea": "SCALE AND DISTANCE (SCALE AND DISTANCE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find statement scale using scale and distance",
+    "calculate scale and distance",
+    "scale and distance formula question",
+    "given values find statement scale",
+    "scale and distance scale and distance numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C10_001",
+     "question_pattern": "scale and distance with {RF_denominator} and {in_cm} and {converted_to_km} find statement scale",
+     "extracted_variables": {
+      "RF_denominator": "given RF_denominator",
+      "in_cm": "given in_cm",
+      "converted_to_km": "given converted_to_km"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for RF_denominator, in_cm, converted_to_km from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Statement scale = RF_denominator*in_cm*converted_to_km",
+     "compute": "Statement_scale = RF_denominator*in_cm*converted_to_km"
+    }
+   ],
+   "chapter_title": "SCALE AND DISTANCE"
+  },
+  {
+   "id": "FB_GEO_C10_002",
+   "title": "LATITUDE/LONGITUDE EXTENT: Latitudinal extent = ...",
+   "section": "LATITUDE/LONGITUDE EXTENT",
+   "formula": "Latitudinal_extent = Northernmost_latitude - Southernmost_latitude",
+   "_pats_extra": [],
+   "key_idea": "LATITUDE/LONGITUDE EXTENT (LATITUDE/LONGITUDE EXTENT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find latitudinal extent using latitude/longitude extent",
+    "calculate latitude/longitude extent",
+    "latitude/longitude extent formula question",
+    "given values find latitudinal extent",
+    "latitude/longitude extent latitude/longitude extent numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C10_002",
+     "question_pattern": "latitude/longitude extent with {Northernmost_latitude} and {Southernmost_latitude} find latitudinal extent",
+     "extracted_variables": {
+      "Northernmost_latitude": "given Northernmost_latitude",
+      "Southernmost_latitude": "given Southernmost_latitude"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Northernmost_latitude, Southernmost_latitude from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Latitudinal extent = Northernmost_latitude - Southernmost_latitude",
+     "compute": "Latitudinal_extent = Northernmost_latitude - Southernmost_latitude"
+    }
+   ],
+   "chapter_title": "LATITUDE/LONGITUDE EXTENT"
+  },
+  {
+   "id": "FB_GEO_C10_003",
+   "title": "LATITUDE/LONGITUDE EXTENT: Longitudinal extent = ...",
+   "section": "LATITUDE/LONGITUDE EXTENT",
+   "formula": "Longitudinal_extent = Easternmost_longitude - Westernmost_longitude",
+   "_pats_extra": [],
+   "key_idea": "LATITUDE/LONGITUDE EXTENT (LATITUDE/LONGITUDE EXTENT)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find longitudinal extent using latitude/longitude extent",
+    "calculate latitude/longitude extent",
+    "latitude/longitude extent formula question",
+    "given values find longitudinal extent",
+    "latitude/longitude extent latitude/longitude extent numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C10_003",
+     "question_pattern": "latitude/longitude extent with {Easternmost_longitude} and {Westernmost_longitude} find longitudinal extent",
+     "extracted_variables": {
+      "Easternmost_longitude": "given Easternmost_longitude",
+      "Westernmost_longitude": "given Westernmost_longitude"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Easternmost_longitude, Westernmost_longitude from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Longitudinal extent = Easternmost_longitude - Westernmost_longitude",
+     "compute": "Longitudinal_extent = Easternmost_longitude - Westernmost_longitude"
+    }
+   ],
+   "chapter_title": "LATITUDE/LONGITUDE EXTENT"
+  },
+  {
+   "id": "FB_GEO_C10_004",
+   "title": "POPULATION DENSITY: Population density = ...",
+   "section": "POPULATION DENSITY",
+   "formula": "Population_density = Population / Area",
+   "_pats_extra": [],
+   "key_idea": "POPULATION DENSITY (POPULATION DENSITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find population density using population density",
+    "calculate population density",
+    "population density formula question",
+    "given values find population density",
+    "population density population density numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C10_004",
+     "question_pattern": "population density with {Population} and {Area} find population density",
+     "extracted_variables": {
+      "Population": "given Population",
+      "Area": "given Area"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Population, Area from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Population density = Population / Area",
+     "compute": "Population_density = Population / Area"
+    }
+   ],
+   "chapter_title": "POPULATION DENSITY"
+  },
+  {
+   "id": "FB_GEO_C10_005",
+   "title": "RAINFALL: Percentage in a season = ...",
+   "section": "RAINFALL",
+   "formula": "Percentage_in_a_season = (Season_rainfall / Annual_rainfall)*100",
+   "_pats_extra": [],
+   "key_idea": "RAINFALL (RAINFALL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find percentage in a season using rainfall",
+    "calculate rainfall",
+    "rainfall formula question",
+    "given values find percentage in a season",
+    "rainfall rainfall numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C10_005",
+     "question_pattern": "rainfall with {Season_rainfall} and {Annual_rainfall} find percentage in a season",
+     "extracted_variables": {
+      "Season_rainfall": "given Season_rainfall",
+      "Annual_rainfall": "given Annual_rainfall"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Season_rainfall, Annual_rainfall from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Percentage in a season = (Season_rainfall / Annual_rainfall)*100",
+     "compute": "Percentage_in_a_season = (Season_rainfall / Annual_rainfall)*100"
+    }
+   ],
+   "chapter_title": "RAINFALL"
+  }
+ ]
+}

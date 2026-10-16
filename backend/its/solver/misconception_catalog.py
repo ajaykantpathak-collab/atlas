@@ -2,9 +2,9 @@
 
 Maps frequent student errors to subjects, class bands and curriculum graph
 nodes, and provides remediation text plus deterministic isolating-question
-specs for follow-up practice. Pre-populated with 20 well-documented
+specs for follow-up practice. Pre-populated with 23 well-documented
 misconceptions across maths, physics, chemistry, biology, geography,
-history/social science and economics.
+history/social science, economics, english and hindi.
 
 Everything here is deterministic -- no LLM calls. Detector patterns are raw
 regex strings matched against student error text.
@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 CATALOG_FORMAT = "misconception_catalog_v1"
 
 # --------------------------------------------------------------------------- #
-# Built-in catalog: 20 common K-12 misconceptions
+# Built-in catalog: 23 common K-12 misconceptions
 # --------------------------------------------------------------------------- #
 
 DEFAULT_MISCONCEPTIONS: List[Dict[str, Any]] = [
@@ -273,6 +273,48 @@ DEFAULT_MISCONCEPTIONS: List[Dict[str, Any]] = [
         ),
         "isolating_questions": 3,
     },
+    # LOOP-FIXER wave (2026-10-08): language grammar families — the
+    # socratic catalog had ZERO english/hindi entries at any class while
+    # the deterministic grammar lanes (english_families.ENGLISH_LANG_SPECS
+    # / hindi_families.HINDI_LANG_SPECS: LANG_ENG_TENSE, LANG_HI_SANDHI,
+    # LANG_HI_KARAK -- structure_families_lang.py dissolved 2026-10-10) already serve those
+    # subjects. One misconception family per high-traffic grammar lane.
+    {
+        "id": "english_tense_shift",
+        "description": "Student shifts the verb to the wrong tense — the time marker and the verb form disagree",
+        "subjects": ["english"],
+        "classes": [6, 7, 8, 9, 10, 11, 12],
+        "detector_pattern": r"wrong tense|tense.*(shift|error|confus)|helping verb.*wrong|past.*present.*confus",
+        "remediation": (
+            "Time-line drills: mark the time adverb first, then choose the "
+            "verb form that matches it"
+        ),
+        "isolating_questions": 3,
+    },
+    {
+        "id": "hindi_sandhi_blend",
+        "description": "Student joins a sandhi word letter-by-letter instead of fusing the vowel sounds",
+        "subjects": ["hindi"],
+        "classes": [6, 7, 8, 9, 10, 11, 12],
+        "detector_pattern": r"\u0938\u0902\u0927\u093f.*(\u0917\u0932\u0924|wrong)|sandhi.*(wrong|error)|\u0905\u0915\u094d\u0937\u0930.*\u091c\u094b\u0921\u093c",
+        "remediation": (
+            "Junction-sound drills: say the two word-ends aloud, then write "
+            "the fused sound the ear actually hears"
+        ),
+        "isolating_questions": 3,
+    },
+    {
+        "id": "hindi_karak_mislabel",
+        "description": "Student labels the wrong kaarak — the postposition and the verb relation are misread",
+        "subjects": ["hindi"],
+        "classes": [6, 7, 8, 9, 10, 11, 12],
+        "detector_pattern": r"\u0915\u093e\u0930\u0915.*(\u0917\u0932\u0924|wrong)|karak.*(wrong|error)|\u092a\u0930\u0938\u0930\u094d\u0917.*confus",
+        "remediation": (
+            "Postposition drills: underline the parsarg before the noun, then "
+            "name the kaarak the verb relation demands"
+        ),
+        "isolating_questions": 3,
+    },
 ]
 
 _SUBJECT_ALIASES = {
@@ -338,7 +380,7 @@ class MisconceptionCatalog:
 
     def load(self, path: Optional[str] = None) -> "MisconceptionCatalog":
         """Reload the catalog. With ``path`` read entries from JSON; without,
-        reset to the built-in 20-entry catalog. Returns self."""
+        reset to the built-in 23-entry catalog. Returns self."""
         if path is None:
             self._entries = {}
             for entry in DEFAULT_MISCONCEPTIONS:

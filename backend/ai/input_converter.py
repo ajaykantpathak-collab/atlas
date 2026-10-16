@@ -241,9 +241,9 @@ def convert_vector(vec_str: str) -> str:
     if re.search(r'\d+[ijk]', result):
         components = [0, 0, 0]
         # Find i, j, k components
-        i_match = re.search(r'([+-]?\d*\.?\d*)\s*i', result)
-        j_match = re.search(r'([+-]?\d*\.?\d*)\s*j', result)
-        k_match = re.search(r'([+-]?\d*\.?\d*)\s*k', result)
+        i_match = re.search(r'([+-]?(?:\d+(?:\.\d+)?|\.\d+))\s*i', result)
+        j_match = re.search(r'([+-]?(?:\d+(?:\.\d+)?|\.\d+))\s*j', result)
+        k_match = re.search(r'([+-]?(?:\d+(?:\.\d+)?|\.\d+))\s*k', result)
         if i_match:
             val = i_match.group(1)
             components[0] = val if val not in ('', '+', '-') else (val + '1' if val in ('+', '-') else '1')

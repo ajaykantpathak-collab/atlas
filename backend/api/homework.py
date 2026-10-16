@@ -9,17 +9,18 @@ import json
 import logging
 import uuid
 from datetime import datetime, timezone
-from typing import Optional, List, Literal
+from typing import Annotated, Optional, List, Literal
 
 import httpx
 from fastapi import APIRouter, Depends, HTTPException, Query, status
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import BaseModel, BeforeValidator, Field, ConfigDict
 from sqlalchemy import select, and_
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from database import get_db, Student, Homework, HomeworkQuestion, HomeworkSubmission
 from services.llm_client import LLMClient
+from services.feedback_scrub import scrub_answer_key
 from backend.deps import get_current_user
 from backend.models.user import User
 
@@ -31,6 +32,18 @@ router = APIRouter(prefix="/api/homework", tags=["homework"])
 # =====================================================================
 # PYDANTIC V2 SCHEMAS
 # =====================================================================
+
+# GUID columns hand back uuid.UUID objects (as_uuid=True on postgres), and
+# pydantic v2 refuses to coerce UUID -> str. Every response field that carries
+# an ORM id uses this string type so a valid UUID serialises as its canonical
+# string instead of 500-ing the whole response (A2 school triangle fix).
+def _uuid_to_str(v: object) -> object:
+    if isinstance(v, uuid.UUID):
+        return str(v)
+    return v
+
+StrId = Annotated[str, BeforeValidator(_uuid_to_str)]
+
 
 class QuestionIn(BaseModel):
     """Schema for a homework question (teacher input)."""
@@ -61,7 +74,7 @@ class QuestionOut(BaseModel):
     """Schema for question in response — correct_answer is NOT exposed."""
     model_config = ConfigDict(from_attributes=True)
 
-    id: str
+    id: StrId
     question_text: str
     question_type: str
     options: Optional[List[str]] = None
@@ -74,8 +87,8 @@ class HomeworkDetail(BaseModel):
     """Full homework detail returned to a student."""
     model_config = ConfigDict(from_attributes=True)
 
-    id: str
-    student_id: str
+    id: StrId
+    student_id: StrId
     title: str
     description: Optional[str] = None
     subject: str
@@ -93,7 +106,7 @@ class HomeworkSummary(BaseModel):
     """Compact homework item for list views."""
     model_config = ConfigDict(from_attributes=True)
 
-    id: str
+    id: StrId
     title: str
     subject: str
     due_date: datetime
@@ -118,7 +131,7 @@ class HomeworkSubmit(BaseModel):
 
 class GradedAnswer(BaseModel):
     """Per-question grading detail with Hinglish feedback."""
-    question_id: str
+    question_id: StrId
     question_text: str
     question_type: str
     student_answer: str
@@ -133,7 +146,7 @@ class HomeworkResult(BaseModel):
     """Graded homework result returned after submission or via result endpoint."""
     model_config = ConfigDict(from_attributes=True)
 
-    homework_id: str
+    homework_id: StrId
     title: str
     subject: str
     total_score: float
@@ -158,7 +171,7 @@ class OverdueItem(BaseModel):
     """Overdue homework item with days overdue."""
     model_config = ConfigDict(from_attributes=True)
 
-    id: str
+    id: StrId
     title: str
     subject: str
     due_date: datetime
@@ -289,12 +302,12 @@ async def _send_whatsapp_reminder(
     else:
         due_str = due_date.strftime("%d %B %Y, %I:%M %p")
         body = (
-            f"Namaste {student_name}! \ud83d\udcdc\n\n"
+            f"Namaste {student_name}! 📜\n\n"
             f"Aapke homework ka yaad dilaya ja raha hai:\n"
-            f"\ud83d\udcdd Title: {homework_title}\n"
-            f"\ud83d\udcca Subject: {subject}\n"
+            f"📝 Title: {homework_title}\n"
+            f"📊 Subject: {subject}\n"
             f"\u23f0 Due Date: {due_str}\n\n"
-            f"Jaldi se complete karein! All the best! \ud83d\udcaa\n\n"
+            f"Jaldi se complete karein! All the best! 💪\n\n"
             f"\u2014 Padho aur Badho"
         )
 
@@ -376,10 +389,18 @@ class HomeworkService:
     ) -> Homework:
         """Create a homework assignment with questions for one student."""
         await self._get_or_create_student(data.student_id)
+        # homework.teacher_id FKs the legacy teachers table; signup-created
+        # teachers predating identity-bridge provisioning have no row yet —
+        # create it on first use so the FK holds (no misleading 400).
+        try:
+            from backend.services.identity_bridge import ensure_teacher_row
+            await ensure_teacher_row(self.db, teacher_id)
+        except Exception:
+            pass  # legacy table unavailable — the insert reports the truth
 
         now = datetime.now(timezone.utc)
         hw = Homework(
-            id=str(uuid.uuid4()),
+            id=uuid.uuid4(),
             student_id=data.student_id,
             teacher_id=teacher_id,
             title=data.title,
@@ -398,7 +419,7 @@ class HomeworkService:
         for q in data.questions:
             self.db.add(
                 HomeworkQuestion(
-                    id=str(uuid.uuid4()),
+                    id=uuid.uuid4(),
                     homework_id=hw.id,
                     question_text=q.question_text,
                     question_type=q.question_type,
@@ -546,8 +567,10 @@ class HomeworkService:
                 ),
             )
 
-        # All questions answered?
-        q_ids = {q.id for q in hw.questions}
+        # All questions answered? (str() both sides: q.id is uuid.UUID from
+        # the GUID column while the payload carries strings — comparing the
+        # raw sets never matched, so every submission was rejected.)
+        q_ids = {str(q.id) for q in hw.questions}
         s_ids = {a.question_id for a in data.answers}
         if q_ids != s_ids:
             missing = len(q_ids - s_ids)
@@ -564,7 +587,7 @@ class HomeworkService:
         total_score = 0.0
         for q in hw.questions:
             ans = next(
-                (a for a in data.answers if a.question_id == q.id), None
+                (a for a in data.answers if a.question_id == str(q.id)), None
             )
             student_ans = ans.answer if ans else ""
             marks, fb, correct = await _grade_with_llm(
@@ -577,11 +600,12 @@ class HomeworkService:
             )
             total_score += marks
             graded.append({
-                "question_id": q.id,
+                "question_id": str(q.id),
                 "question_text": q.question_text,
                 "question_type": q.question_type,
                 "student_answer": student_ans,
-                "correct_answer": q.correct_answer,
+                # stored key can hold grader prose — scrub the served copy.
+                "correct_answer": scrub_answer_key(q.correct_answer),
                 "marks_awarded": marks,
                 "total_marks": q.marks,
                 "feedback": fb,
@@ -592,7 +616,7 @@ class HomeworkService:
         grade = _compute_grade(pct)
 
         if pct >= 90:
-            overall = "Shabash! Outstanding performance! Keep it up! \ud83d\udd25"
+            overall = "Shabash! Outstanding performance! Keep it up! 🔥"
         elif pct >= 70:
             overall = "Bahut badhiya! Thodi aur mehnat se top kar sakte ho!"
         elif pct >= 50:
@@ -600,11 +624,11 @@ class HomeworkService:
         else:
             overall = (
                 "Fikar not! Phir se try karo. "
-                "Practice makes perfect! \ud83d\udcda"
+                "Practice makes perfect! 📚"
             )
 
         sub = HomeworkSubmission(
-            id=str(uuid.uuid4()),
+            id=uuid.uuid4(),
             homework_id=homework_id,
             student_id=student_id,
             answers=graded,

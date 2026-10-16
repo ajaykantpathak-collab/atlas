@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  body { background: var(--cosmos-bg); }
+  .plan-stamp { transform: rotate(-6deg); margin-left: 18px; font-size: 9.5px; padding: 4px 9px; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="paper-surface paper-page">
+  <div class="specimen-bar" data-specimen-bar></div>
+
+  <div class="paper-wrap" style="max-width:880px;">
+    <p class="specimen gold">Fee circular · 2026-27</p>
+    <h1 class="paper-title">Priced like school fees, not SaaS.</h1>
+    <p class="paper-sub">A register, not a comparison grid. Pick the row that fits.</p>
+
+    <div class="paper-sheet" data-motion="settle">
+      <div class="sheet-head"><span class="l">Atlas · Fee Register</span><span class="r">per student · per month</span></div>
+      <div class="sheet-body">
+        <table class="paper-ledger">
+          <thead><tr><th class="no">No.</th><th>Plan</th><th>What the register says</th><th class="num">Fee</th></tr></thead>
+          <tbody>
+            <tr class="plan-row" style="--i:0">
+              <td class="no">01</td><td><strong>Free Sky</strong></td>
+              <td>Galaxy map, daily practice set, story mode — the honest basics, forever</td>
+              <td class="num">₹0</td>
+            </tr>
+            <tr class="plan-row" style="--i:1">
+              <td class="no">02</td><td><strong>Scholar</strong></td>
+              <td>Everything in Free + verified solves, exam simulator, chapter tests, parent report</td>
+              <td class="num">₹299</td>
+            </tr>
+            <tr class="plan-row" style="--i:2">
+              <td class="no">03</td><td><strong>Scholar+</strong></td>
+              <td>Everything + socratic tutor unlimited, preboard papers, misconception file
+                  <span class="paper-stamp plan-stamp" data-motion="stamp">Most chosen</span></td>
+              <td class="num">₹499</td>
+            </tr>
+            <tr class="plan-row" style="--i:3">
+              <td class="no">04</td><td><strong>School</strong></td>
+              <td>Teacher dashboards, homework engine, class registers — priced per institution</td>
+              <td class="num">Talk to us</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="specimen" style="margin-top:20px;">Scholarship note — fee waivers for govt-school students, like a real circular would say.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+</body>
+</html>

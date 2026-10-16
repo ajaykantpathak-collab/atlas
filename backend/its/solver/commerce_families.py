@@ -36,7 +36,11 @@ the 6-tuple
 with _GATE = (None, [], None, None, None, None) meaning "trigger hit but
 plausibility gate refused -- keep scanning".  The single dispatcher
 model_commerce_families scans the table in order; first grounded hit
-wins.  Recognition is by trigger regex only -- no LLM, no randomness.
+wins (it also carries the four commerce_families2 rows -- GST,
+PARTNERSHIP_SHARE, CURRENT_RATIO, INTEREST_ON_CAPITAL -- dissolved
+into this file by the WS-B map step 5, registered in
+modeling_layer._STRUCTURES at the old commerce2 slot).  Recognition
+is by trigger regex only -- no LLM, no randomness.
 The dispatcher deliberately has NO blanket try/except: a crash must
 surface to the auditor, not silently drop a family.
 
@@ -811,10 +815,614 @@ def _c_operating_cycle(g, m, t):
 
 
 # --------------------------------------------------------------------------- #
+# 13. NET GST PAYABLE (electives-all additive 2026-10-07, c12_bs ch 3)
+#     output GST on sales - input credit (GST on purchases) = cash GST
+# --------------------------------------------------------------------------- #
+
+def _c_net_gst_payable(g, m, t):
+    """Two-side GST chain: purchases (with GST rate) + sales (with GST
+    rate) -> net GST payable in cash = output GST - input credit."""
+    low = t.lower()
+    if not re.search(r"net\s+gst\s+payable|gst\s+payable", low):
+        return _GATE
+    # purchase side: "buys raw materials worth Rs 5,00,000 (plus GST @18%)"
+    buys = [x for x in re.finditer(
+        r"(?:buys?|bought|purchas\w+|raw\s+materials?|inputs?)[^.;]{0,60}?"
+        r"(?:worth\s+|of\s+|costs?(?:ing)?\s+|valued\s+at\s+)?" + _RS +
+        r"(?P<v>" + _NUM + r")[^.;%]{0,40}?GST\s*@?\s*(?P<r>" + _U_NUM +
+        r")\s*%", t, re.I)]
+    sells = [x for x in re.finditer(
+        r"(?:sells?|sold|sales?|output|finished\s+goods?|turnover)"
+        r"[^.;]{0,60}?(?:worth\s+|of\s+|for\s+|at\s+)?" + _RS +
+        r"(?P<v>" + _NUM + r")[^.;%]{0,40}?GST\s*@?\s*(?P<r>" + _U_NUM +
+        r")\s*%", t, re.I)]
+    if not buys or not sells:
+        return _GATE
+    # first purchase-side and first sale-side match, rate sanity gate
+    bp, br = _n(buys[0].group("v")), float(buys[0].group("r"))
+    sp, sr = _n(sells[0].group("v")), float(sells[0].group("r"))
+    if min(bp, sp) <= 0 or not 0 < br <= 40 or not 0 < sr <= 40:
+        return _GATE
+    in_gst = bp * br / 100.0
+    out_gst = sp * sr / 100.0
+    net = out_gst - in_gst
+    steps = _five(
+        "GST chain rule: GST paid on purchases is an INPUT CREDIT; GST "
+        "charged on sales is OUTPUT GST; the firm pays only the "
+        "difference in cash -- net GST payable = output GST - input "
+        "credit.",
+        f"purchases = {_fmt(bp)} with GST at {br:g}%, sales = {_fmt(sp)} "
+        f"with GST at {sr:g}%",
+        [f"Input credit (GST on purchases) = {_fmt(bp)} x {br:g}% = "
+         f"{_fmt(in_gst)}",
+         f"Output GST (on sales) = {_fmt(sp)} x {sr:g}% = {_fmt(out_gst)}",
+         f"Net GST payable = {_fmt(out_gst)} - {_fmt(in_gst)} = "
+         f"{_fmt(net)}"],
+        f"Check: the credit can never exceed the output liability for "
+        f"the same period here -- {br:g}% of {_fmt(bp)} = {_fmt(in_gst)} "
+        f"against {sr:g}% of {_fmt(sp)} = {_fmt(out_gst)}; the "
+        f"{'firm pays' if net >= 0 else 'excess carries forward as'} "
+        f"{_fmt(abs(net))}.",
+        (f"The manufacturer deposits {_fmt(net)} in cash: output GST "
+         f"{_fmt(out_gst)} minus the input credit {_fmt(in_gst)} already "
+         f"paid on inputs.")
+        if net >= 0 else
+        (f"Input credit exceeds output GST by {_fmt(abs(net))}: nothing "
+         f"is payable in cash and the excess carries forward."))
+    return (net, steps, f"net GST payable = {_fmt(net)}", None,
+            "net GST payable = output GST - input credit",
+            {"input_credit": in_gst, "output_gst": out_gst,
+             "a_in": bp, "r_in": br, "a_out": sp, "r_out": sr})
+
+
+# --------------------------------------------------------------------------- #
 # family table (trigger -> compute)
 # --------------------------------------------------------------------------- #
 
+def _c_profit_on_cost_sale(g, m, t):
+    """'goods costing C are sold for S. What is the profit?' -> S - C."""
+    if not re.search(r"profit", t, re.I):
+        return None
+    cm = re.search(r"(?:costing|cost|bought\s+for|purchased\s+for)\s*"
+                   r"(?:rs\.?|inr|₹)?\s*([\d,]+(?:\.\d+)?)", t, re.I)
+    sm = re.search(r"(?:sold\s+for|sale\s+for|sell(?:s|ing)?\s+for)\s*"
+                   r"(?:rs\.?|inr|₹)?\s*([\d,]+(?:\.\d+)?)", t, re.I)
+    if not (cm and sm):
+        return None
+    c = float(cm.group(1).replace(",", ""))
+    s = float(sm.group(1).replace(",", ""))
+    if c <= 0 or s <= 0 or s == c:
+        return None
+    profit = s - c
+    verdict = "profit" if profit > 0 else "loss"
+    steps = [f"cost price = Rs {c:g}, selling price = Rs {s:g}",
+             f"{verdict} = S - C = {s:g} - {c:g} = Rs {abs(profit):g}",
+             f"the transaction yields a {verdict} of Rs {abs(profit):g}."]
+    return abs(profit), steps, (f"{verdict} = Rs {abs(profit):g}"
+                                if profit < 0 else f"profit = Rs {profit:g}"),         None, "profit = S - C", {"C": c, "S": s, "profit": profit}
+
+
+def _c_goodwill_years_purchase(g, m, t):
+    """'goodwill valued at N years purchase of average profit P'
+    -> goodwill = N x P."""
+    if not re.search(r"goodwill", t, re.I) or not re.search(r"years?[' ]?\s*purchase|years.{0,3}purchase", t, re.I):
+        return None
+    if re.search(r"super\s+profit|capitali[sz]|normal\s+rate|capital\s+employed|outside\s+liabilit", t, re.I):
+        return None  # Comprehensive accountancy_families owns super profit and capitalisation methods
+    pm = re.search(r"(?:average|avg\.?)\s+profit[^.\d]{0,60}?"
+                   r"(?P<p>[\d,]+(?:\.\d+)?)", t, re.I)
+    ym = re.search(r"([\d.]+)\s*years?[' ]?\s*purchase", t, re.I)
+    if not (pm and ym):
+        return None
+    p = float(pm.group(1).replace(",", ""))
+    ny = float(ym.group(1))
+    if p <= 0 or ny <= 0:
+        return None
+    gw = ny * p
+    steps = [f"average profit = Rs {p:g}, years' purchase = {ny:g}",
+             f"goodwill = {ny:g} x Rs {p:g} = Rs {gw:g}",
+             f"the firm's goodwill is valued at Rs {gw:g}."]
+    return gw, steps, f"goodwill = Rs {gw:g}", None,         "goodwill = years' purchase x average profit",         {"avg_profit": p, "years": ny, "goodwill": gw}
+
+
+
+# --------------------------------------------------------------------------- #
+# COMMERCE2 CHAINS (moved from commerce_families2.py, WS-B map
+# step 5 / map section 5.5 -- one commerce file).  Row order: the
+# core commerce rows keep their exact positions (the NET_GST_PAYABLE
+# trigger is narrower than the GST row's and the dispatcher order is
+# load-bearing: read_commerce / cs_fastpath pin the two-side GST
+# chain ahead of the plain-GST arithmetic, proven by
+# test_electives_all.test_net_gst); the four commerce2 rows follow
+# as a block in their original internal order.
+# --------------------------------------------------------------------------- #
+
+
+def _fmt_ratio(r: float) -> str:
+    if abs(r - round(r)) < 1e-9:
+        return f"{int(round(r))} : 1"
+    return f"{r:.4g} : 1"
+
+
+# --------------------------------------------------------------------------- #
+# 1. GST  (exclusive amount / inclusive extraction / CGST-SGST-IGST)
+# --------------------------------------------------------------------------- #
+
+_GST_CTX = re.compile(r"\bGST\b|goods\s+(?:and|&)\s+services\s+tax", re.I)
+_GST_RATE_RE = re.compile(
+    r"GST(?:\s*(?:at|@|of|is|rate\s+(?:of\s+)?))?\s*(?P<v>" + _U_NUM +
+    r")\s*%|(?:at|@|of)\s*(?P<v2>" + _U_NUM + r")\s*%\s*GST", re.I)
+_INCL_ASK_RE = re.compile(
+    r"taxable\s+(?:value|price)|before\s+GST|pre-?GST|excluding\s+GST|"
+    r"original\s+price|basic\s+(?:price|value)|how\s+much\s+(?:is\s+)?"
+    r"(?:the\s+)?(?:GST|tax)[^?]{0,30}includ\w*", re.I)
+_CGST_CTX = re.compile(
+    r"CGST|SGST|intra-?state|same\s+state|own\s+state|within\s+(?:the|"
+    r"his|her)\s+(?:own\s+)?state|sold\s+locally|local\s+sale", re.I)
+_IGST_CTX = re.compile(
+    r"IGST|inter-?state|another\s+state|outside\s+(?:the\s+)?state|"
+    r"other\s+state", re.I)
+
+
+def _gst_rate(t: str) -> Optional[float]:
+    m = _GST_RATE_RE.search(t)
+    if not m:
+        return None
+    return float((m.group("v") or m.group("v2")))
+
+
+def _gst_base(t: str) -> Optional[float]:
+    b = _grab(r"(?:worth|valued\s+at|priced\s+at|sold\s+for|costs?)", t)
+    if b is not None:
+        return b
+    m = re.search(r"(?:orders?|bought|purchases?|supplies?)\s+(?:a|an|"
+                  r"the)?[^.]{0,30}?" + _RS + r"(?P<v>" + _NUM + r")"
+                  r"\s*(?P<u>lakh|lac|crores?|thousand)?", t, re.I)
+    return _scaled(m) if m else None
+
+
+def _c_gst(g, m, t):
+    if not _GST_CTX.search(t):
+        return _GATE
+    # inclusive price: amount and rate may appear in either order
+    # ("Rs 23600 including 18% GST" / "including 18% GST the price is
+    # Rs 23600"); the ask must name the taxable value.  Handled BEFORE
+    # the plain-rate gate because "18% GST" word order defeats the
+    # forward rate regex here.
+    im = re.search(r"(?P<v>" + _NUM + r")[^.]{0,30}?includ\w+[^.]{0,40}?"
+                   r"(?P<r>" + _U_NUM + r")\s*%\s*GST", t, re.I) or \
+        re.search(r"includ\w+[^.]{0,40}?(?P<r>" + _U_NUM + r")\s*%\s*GST"
+                  r"[^.]{0,40}?" + _RS + r"(?P<v>" + _NUM + r")", t, re.I)
+    if im:
+        final = _scaled(im)
+        rate = float(im.group("r"))
+        if not (0 < rate <= 28) or final is None or final <= 0:
+            return _GATE
+        if not _INCL_ASK_RE.search(t):
+            return _GATE      # inclusive price without a taxable-value ask
+        den = 1.0 + rate / 100.0
+        taxable = final / den
+        gst = final - taxable
+        steps = _five(
+            "GST-inclusive extraction rule: final price = taxable value x "
+            "(1 + r/100), so taxable value = final / (1 + r/100) and GST "
+            "= final - taxable -- GST is levied ON the taxable value, so "
+            "the inclusive price back-divides instead of subtracting the "
+            "rate directly.",
+            f"final price (including {rate:g}% GST) = {_fmt(final)}",
+            [f"Taxable value = {final:g} / (1 + {rate:g}/100) = "
+             f"{final:g} / {den:g} = Rs {taxable:,.2f}",
+             f"GST = {final:g} - {taxable:,.2f} = {_fmt(gst)}"],
+            f"Check: forward recompute -- {taxable:,.2f} x (1 + "
+            f"{rate:g}/100) = Rs {taxable * den:,.2f}, the given final "
+            f"price; the extraction closes.",
+            f"Of the {_fmt(final)} paid, {_fmt(taxable)} is the seller's "
+            f"taxable value and {_fmt(gst)} is GST -- subtracting "
+            f"{rate:g}% of the final price directly would overstate the "
+            f"tax (the classic error).")
+        return (gst, steps,
+                f"taxable value = Rs {taxable:,.2f} (GST = {_fmt(gst)})",
+                None, "taxable = final / (1 + r/100)",
+                {"final": final, "taxable": taxable, "rate": rate})
+    # an inclusive-GST price without a taxable-value ask is owned by the
+    # inclusive path above -- never fall through to the exclusive branch
+    # (_U_NUM is wrapped: it carries a TOP-LEVEL alternation, and an
+    # unwrapped concatenation after | splits the pattern so a bare
+    # number alone matches and gates every plain GST probe)
+    if re.search(r"includ\w+[^.]{0,40}?(?:" + _U_NUM + r")\s*%\s*GST|"
+                 r"(?:" + _U_NUM + r")\s*%\s*GST[^.]{0,40}?includ\w+",
+                 t, re.I):
+        return _GATE
+    rate = _gst_rate(t)
+    if rate is None:
+        return _GATE
+    if not (0 < rate <= 28):
+        # GST slabs are taught between 0 and 28%; anything else is a
+        # non-taught tax structure -> refuse (mission gate)
+        return _GATE
+    base = _gst_base(t)
+    if base is None or base <= 0:
+        return _GATE
+    gst = base * rate / 100.0
+    total = base + gst
+    if _IGST_CTX.search(t) and not _CGST_CTX.search(t):
+        steps = _five(
+            "IGST rule: inter-state supply attracts ONE integrated GST = "
+            "taxable value x r/100, collected by the destination state -- "
+            "no CGST/SGST split on inter-state sales (corpus: Gujarat -> "
+            "Tamil Nadu supply).",
+            f"taxable value = {_fmt(base)}, GST rate = {rate:g}% "
+            f"(inter-state)",
+            [f"IGST = {base:g} x {rate:g}/100 = {_fmt(gst)}",
+             f"Total invoice = {base:g} + {gst:g} = {_fmt(total)}"],
+            f"Check: split test -- had this been intra-state, CGST = SGST "
+            f"= {gst:g}/2 = {_fmt(gst / 2)} each; the single IGST "
+            f"{_fmt(gst)} equals their sum, consistent.",
+            f"The inter-state invoice carries IGST of {_fmt(gst)}; total "
+            f"payable = {_fmt(total)}.")
+        return (gst, steps, f"IGST = {_fmt(gst)} (total {_fmt(total)})",
+                None, "IGST = base x r/100",
+                {"base": base, "rate": rate, "igst": gst, "total": total})
+    if _CGST_CTX.search(t):
+        half = gst / 2.0
+        steps = _five(
+            "Intra-state GST split rule: GST divides equally between the "
+            "Centre and the State -- CGST = SGST = taxable value x r/200; "
+            "the invoice total = taxable value + CGST + SGST (corpus: "
+            "Rs 12,000 laptop at 18% -> CGST = SGST = Rs 1,080).",
+            f"taxable value = {_fmt(base)}, GST rate = {rate:g}% "
+            f"(intra-state: CGST + SGST)",
+            [f"GST = {base:g} x {rate:g}/100 = {_fmt(gst)}",
+             f"CGST = SGST = {_fmt(gst)} / 2 = {_fmt(half)} each",
+             f"Total invoice = {base:g} + {gst:g} = {_fmt(total)}"],
+            f"Check: CGST + SGST = {_fmt(half)} + {_fmt(half)} = "
+            f"{_fmt(gst)} = {base:g} x {rate:g}/100 -- the halves "
+            f"recombine to the full GST.",
+            f"The invoice shows CGST and SGST of {_fmt(half)} each and "
+            f"totals {_fmt(total)}.")
+        return (half, steps,
+                f"CGST = {_fmt(half)}; SGST = {_fmt(half)}; total invoice "
+                f"value = {_fmt(total)}",
+                None, "CGST = SGST = base x r/200",
+                {"base": base, "rate": rate, "cgst": half, "sgst": half,
+                 "total": total})
+    steps = _five(
+        "GST amount rule: GST = taxable value x rate/100 and the invoice "
+        "total = taxable value + GST -- GST is an indirect tax added on "
+        "the value of supply at the notified rate.",
+        f"taxable value = {_fmt(base)}, GST rate = {rate:g}%",
+        [f"GST = {base:g} x {rate:g}/100 = {_fmt(gst)}",
+         f"Total invoice value = {base:g} + {gst:g} = {_fmt(total)}"],
+        f"Check: back-substitute -- ({total:g} - {base:g}) / {base:g} x "
+        f"100 = {rate:g}%, the stated rate; the addition is consistent.",
+        f"The supply attracts GST of {_fmt(gst)} and the customer pays "
+        f"{_fmt(total)} in total.")
+    return (gst, steps,
+            f"GST = {_fmt(gst)} (total invoice value {_fmt(total)})", None,
+            "GST = base x r/100; total = base + GST",
+            {"base": base, "rate": rate, "gst": gst, "total": total})
+
+
+# --------------------------------------------------------------------------- #
+# 2. PARTNERSHIP PROFIT SHARE
+#     stated ratio -> ratio shares; "in their capital ratio" -> capitals;
+#     otherwise equal split (no-deed default)
+# --------------------------------------------------------------------------- #
+
+_NAME2_RE = re.compile(
+    r"\b([A-Za-z]{1,15})\s+(?:and|&)\s+([A-Za-z]{1,15})\s+(?:are|were)?"
+    r"\s*(?:partners?)\b", re.I)
+_PROFIT_RE = re.compile(
+    r"(?:total\s+)?profits?\s+(?:is|are|of|=|earned|amounted\s+to)?\s*"
+    + _RS + r"(?P<v>" + _NUM + r")\s*(?P<u>lakh|lac|crores?|thousand)?",
+    re.I)
+_RATIO_RE = re.compile(
+    r"(?:sharing|share|shared|divide|divided|ratio\s+of)\s+(?:profits?|"
+    r"profit|losses?|it|them)?[^.]{0,30}?(?P<a>" + _U_NUM + r")\s*:\s*"
+    r"(?P<b>" + _U_NUM + r")(?:\s*:\s*(?P<c>" + _U_NUM + r"))?", re.I)
+_CAP_RATIO_ASK = re.compile(r"in\s+(?:their\s+)?capital\s+ratio|"
+                            r"in\s+the\s+ratio\s+of\s+(?:their|the)\s+"
+                            r"capitals?", re.I)
+_CAPS_RE = re.compile(
+    r"capitals?\s+(?:of|are|is|=|:)?\s*" + _RS + r"(?P<v1>" + _NUM + r")"
+    r"\s*(?P<u1>lakh|lac|crores?|thousand)?\s*(?:and|,)\s*"
+    r"(?:(?:with\s+)?capitals?\s+(?:of\s+)?)?" + _RS + r"(?P<v2>" + _NUM +
+    r")\s*(?P<u2>lakh|lac|crores?|thousand)?", re.I)
+
+
+def _profit_total(t: str) -> Optional[float]:
+    """The distributable total, skipping ratio misreads: 'share profits
+    5:3' must NOT yield 'total profit = Rs 5' (it shipped 'Partner 1 =
+    Rs 3.125' on a pure ratio question).  First match whose tail is not
+    ':part' wins; negative totals are losses, handled by the caller."""
+    for rm in _PROFIT_RE.finditer(t):
+        tail = t[rm.end(): rm.end() + 4]
+        if tail.lstrip().startswith(":"):
+            continue              # the number opens a ratio, not an amount
+        return _scaled(rm)
+    return None
+
+
+def _loss_total(t: str) -> Optional[float]:
+    """'incurs a loss of Rs 9 lakh' / 'loss of Rs 9,00,000' -> positive
+    magnitude of the stated LOSS."""
+    for rm in re.finditer(
+            r"loss(?:es)?\s+(?:is|are|of|=|incurred|amounted\s+to)?\s*"
+            + _RS + r"(" + _NUM + r")\s*(?P<u>lakh|lac|crores?|thousand)?",
+            t, re.I):
+        tail = t[rm.end(): rm.end() + 4]
+        if tail.lstrip().startswith(":"):
+            continue
+        v = float(str(rm.group(1)).replace(",", "")) * \
+            _UNIT_MULT.get((rm.groupdict().get("u") or "").lower(), 1.0)
+        if v > 0:
+            return v
+    return None
+
+
+def _c_partnership(g, m, t):
+    # electives-all 2026-10-07 gate: an APPROPRIATION-context question
+    # (interest on capital / salaries / commission before the split) is
+    # a multi-step chain -- a bare ratio split here ships a wrong
+    # "divisible = net profit" answer VERIFIED (observed on the
+    # c12_acc appropriation corpus shape).  PROFIT_APPROPRIATION in
+    # accountancy_families owns these; decline and keep scanning.
+    if re.search(r"interest\s+on\s+capital|appropriat|salary.{0,40}"
+                 r"(?:to|each|partner)|commission.{0,40}(?:to|each|"
+                 r"partner)|divisible\s+profit", t, re.I):
+        return _GATE
+    total = _profit_total(t)
+    is_loss = False
+    if total is None:
+        lt = _loss_total(t)
+        if lt is None:
+            return _GATE
+        total, is_loss = -lt, True
+    if total == 0:
+        return _GATE
+    nm = _NAME2_RE.search(t)
+    names = [nm.group(1), nm.group(2)] if nm else None
+    rm2 = _RATIO_RE.search(t)
+    cap_ratio = bool(_CAP_RATIO_ASK.search(t))
+    if cap_ratio:
+        cm = _CAPS_RE.search(t)
+        if not cm:
+            return _GATE
+        c1 = float(str(cm.group("v1")).replace(",", "")) * \
+            _UNIT_MULT.get((cm.group("u1") or "").lower(), 1.0)
+        c2 = float(str(cm.group("v2")).replace(",", "")) * \
+            _UNIT_MULT.get((cm.group("u2") or "").lower(), 1.0)
+        if c1 <= 0 or c2 <= 0:
+            return _GATE
+        s1 = total * c1 / (c1 + c2)
+        s2 = total - s1
+        names = names or ["Partner 1", "Partner 2"]
+        steps = _five(
+            "Capital-ratio sharing rule: when partners agree to share "
+            "profits in their capital ratio, each share = total profit x "
+            "own capital / total capital.",
+            f"{names[0]}'s capital = {_fmt(c1)}, {names[1]}'s capital = "
+            f"{_fmt(c2)}, total profit = {_fmt(total)}",
+            [f"Total capital = {c1:g} + {c2:g} = {_fmt(c1 + c2)}",
+             f"{names[0]}'s share = {_fmt(total)} x {c1:g}/{c1 + c2:g} = "
+             f"{_fmt(s1)}",
+             f"{names[1]}'s share = {_fmt(total)} x {c2:g}/{c1 + c2:g} = "
+             f"{_fmt(s2)}"],
+            f"Check: the shares must rebuild the profit -- {_fmt(s1)} + "
+            f"{_fmt(s2)} = {_fmt(s1 + s2)} = the stated total profit.",
+            f"Sharing in the capital ratio, {names[0]} takes {_fmt(s1)} "
+            f"and {names[1]} takes {_fmt(s2)} of the year's profit.")
+        return (s1, steps,
+                f"{names[0]} = {_fmt(s1)}; {names[1]} = {_fmt(s2)}",
+                None, "share_i = profit x capital_i / total capital",
+                {"capital1": c1, "capital2": c2, "share1": s1, "share2": s2})
+    if rm2:
+        parts = [float(rm2.group("a")), float(rm2.group("b"))]
+        if rm2.group("c"):
+            parts.append(float(rm2.group("c")))
+        if any(p <= 0 for p in parts):
+            return _GATE
+        s = sum(parts)
+        shares = [total * p / s for p in parts]
+        who = names if names and len(parts) == 2 else \
+            [f"partner {i + 1}" for i in range(len(parts))]
+        lines = [f"Sum of ratio = {' + '.join(f'{p:g}' for p in parts)} "
+                 f"= {s:g}"]
+        for w, p, sh in zip(who, parts, shares):
+            lines.append(f"{w.capitalize()}'s share = {_fmt(total)} x "
+                         f"{p:g}/{s:g} = {_fmt(sh)}")
+        steps = _five(
+            "Ratio-sharing rule: profits divided in the stated ratio go "
+            "share_i = total profit x part_i / sum of ratio parts.",
+            f"profit-sharing ratio = "
+            f"{' : '.join(f'{p:g}' for p in parts)}, total profit = "
+            f"{_fmt(total)}",
+            lines,
+            f"Check: shares must sum to the profit -- " +
+            " + ".join(f"{sh:,.2f}" for sh in shares) +
+            f" = {_fmt(sum(shares))}, the stated total.",
+            f"Profits are distributed " +
+            " : ".join(f"{p:g}" for p in parts) +
+            f"; {who[0].capitalize()} receives {_fmt(shares[0])}.")
+        extra = {f"share{i + 1}": sh for i, sh in enumerate(shares)}
+        return (shares[0], steps,
+                "; ".join(f"{w.capitalize()} = {_fmt(sh)}"
+                          for w, sh in zip(who, shares)),
+                None, "share_i = profit x part_i / sum(ratio)", extra)
+    # default: no deed / no stated ratio -> equal shares
+    if not nm:
+        return _GATE
+    n = 2
+    each = total / n
+    steps = _five(
+        "Equal-sharing default rule: in the absence of a partnership deed "
+        "or a stated ratio, the Partnership Act default applies -- profits "
+        "are shared EQUALLY, regardless of capitals contributed.",
+        f"{nm.group(1)} and {nm.group(2)} are partners, total profit = "
+        f"{_fmt(total)}, no ratio stated",
+        [f"Each partner's share = {_fmt(total)} / {n} = {_fmt(each)}"],
+        f"Check: {_fmt(each)} + {_fmt(each)} = {_fmt(total)} -- the "
+        f"equal shares rebuild the total profit exactly.",
+        f"Without a deed the law presumes equality: each partner takes "
+        f"{_fmt(each)} (capitals do NOT change this default).")
+    return (each, steps,
+            f"{nm.group(1)} = {_fmt(each)}; {nm.group(2)} = {_fmt(each)}",
+            None, "each share = profit / number of partners",
+            {"share1": each, "share2": each})
+
+
+# --------------------------------------------------------------------------- #
+# 3. CURRENT / LIQUID RATIO  (answer is an "x : 1" SHAPE)
+# --------------------------------------------------------------------------- #
+
+_ASK_CURRENT_RE = re.compile(r"current\s+ratio", re.I)
+_ASK_LIQUID_RE = re.compile(r"liquid\s+ratio|quick\s+ratio|"
+                            r"acid[\s-]?test", re.I)
+
+
+def _c_current_ratio(g, m, t):
+    ask_liquid = bool(_ASK_LIQUID_RE.search(t))
+    ask_current = bool(_ASK_CURRENT_RE.search(t))
+    if not (ask_liquid or ask_current):
+        return _GATE      # the RATIO must be asked, not merely CA/CL given
+    ca = _grab(r"current\s+assets?", t)
+    cl = _grab(r"current\s+liabilit\w+", t)
+    if ask_liquid:
+        la = _grab(r"liquid\s+assets?|quick\s+assets?", t)
+        if la is None:
+            inv = _grab(r"(?:closing\s+)?(?:inventory|stock)", t)
+            pre = (r"liquid\s+ratio|quick\s+ratio|acid[\s-]?test")
+            if inv is None or ca is None or cl is None:
+                return _GATE
+            la = ca - inv
+            num_line = (f"Liquid assets = current assets - inventory = "
+                        f"{ca:g} - {inv:g} = {_fmt(la)}")
+        else:
+            num_line = f"Liquid assets = {_fmt(la)}"
+        if la is None or cl is None:
+            return _GATE
+        if cl <= 0 or la < 0 or cl < 0:
+            return _GATE
+        ratio = la / cl
+        steps = _five(
+            "Liquid (quick) ratio rule: liquid ratio = liquid assets / "
+            "current liabilities, where liquid assets = current assets - "
+            "inventory (stock cannot be relied on for immediate payment); "
+            "the answer is an 'x : 1' shape, not a rupee amount.",
+            f"liquid assets = {_fmt(la)}, current liabilities = {_fmt(cl)}",
+            [num_line,
+             f"Liquid ratio = {la:g} / {cl:g} = {ratio:.4g}"],
+            f"Check: multiply back -- {cl:g} x {ratio:.4g} = "
+            f"{cl * ratio:,.0f}, the liquid assets we started with; the "
+            f"ratio reconstructs its numerator.",
+            f"For every Re 1 of current liabilities the firm holds "
+            f"Rs {ratio:.4g} of liquid assets"
+            + (" -- around the 1:1 comfort benchmark."
+               if 0.9 <= ratio <= 1.1 else "."))
+        return (None, steps, f"liquid ratio = {_fmt_ratio(ratio)}", None,
+                "liquid ratio = liquid assets / current liabilities",
+                {"liquid_assets": la, "cl": cl, "ratio": ratio})
+    if ca is None or cl is None:
+        return _GATE
+    if cl <= 0 or ca < 0 or cl < 0:
+        return _GATE
+    ratio = ca / cl
+    steps = _five(
+        "Current ratio rule: current ratio = current assets / current "
+        "liabilities -- short-term payment capacity; the answer is an "
+        "'x : 1' SHAPE, not a rupee amount (Rs 2 would be a unit error).",
+        f"current assets = {_fmt(ca)}, current liabilities = {_fmt(cl)}",
+        [f"Current ratio = {ca:g} / {cl:g} = {ratio:.4g}"],
+        f"Check: multiply back -- {cl:g} x {ratio:.4g} = "
+        f"{cl * ratio:,.0f}, the current assets we started with; the "
+        f"ratio reconstructs its numerator.",
+        f"For every Re 1 owed short-term the firm holds Rs {ratio:.4g} "
+        f"of current assets" +
+        (" -- above the 2:1 conventional benchmark."
+         if ratio >= 2 else
+         " -- below the 2:1 conventional comfort level.") + ".")
+    return (None, steps, f"current ratio = {_fmt_ratio(ratio)}", None,
+            "current ratio = CA / CL",
+            {"ca": ca, "cl": cl, "ratio": ratio})
+
+
+# --------------------------------------------------------------------------- #
+# 4. INTEREST ON CAPITAL  IoC = P x r/100 x months/12
+# --------------------------------------------------------------------------- #
+
+def _c_interest_on_capital(g, m, t):
+    low = t.lower()
+    if not re.search(r"interest\s+on\s+capital", low):
+        return _GATE
+    # electives-all 2026-10-07 guard on the bare fallback: "capital"
+    # followed by the RATE figure ("interest on capital @ 12% on
+    # Rs 400000 ...") must never bind the rate as the capital (observed:
+    # truncated surface served 12 x 12% = 1.44 VERIFIED).  The fallback
+    # now requires a currency marker within the gap and rejects a "%"
+    # between the label and the number; the explicit of/is/are forms
+    # above are untouched.
+    cap = (_grab(r"(?:partner'?s?\s+)?capitals?\s+(?:of|is|are|=|:)", t)
+           or _grab(r"capital\s+account\s+(?:of|is|stands\s+at)", t)
+           or _grab(r"capital(?![^.\n]{0,30}%)[^\d]{0,40}?"
+                    r"(?:rs\.?|inr|\u20b9)\s*", t))
+    if cap is None:
+        return _GATE
+    rate_m2 = re.search(r"interest\s+on\s+capital[^.\n]{0,80}?@\s*"
+                        r"(?P<r2>" + _U_NUM + r")\s*%", t, re.I)
+    if cap is not None and rate_m2 \
+            and abs(cap - float(rate_m2.group("r2"))) < 1e-9:
+        return _GATE          # grabbed the rate figure, not a capital
+    rm = re.search(r"interest\s+on\s+capital[^.]{0,60}?(?P<v>" + _U_NUM +
+                   r")\s*%", t, re.I)
+    if not rm:
+        return _GATE
+    rate = float(rm.group("v"))
+    if not (0 < rate <= 30):
+        return _GATE
+    pm = re.search(r"for\s+(?P<v>" + _U_NUM + r")\s*(?P<u>months?|years?)",
+                   t, re.I)
+    months = None
+    if pm:
+        months = _n(pm.group("v"))
+        if pm.group("u").lower().startswith("year"):
+            months *= 12.0
+    frac = (months / 12.0) if months is not None else 1.0
+    if frac <= 0:
+        return _GATE
+    if cap <= 0:
+        return _GATE
+    ioc = cap * rate / 100.0 * frac
+    period_txt = (f"for {months:g} months" if months is not None
+                  else "for the full year (12 months)")
+    steps = _five(
+        "Interest-on-capital rule: IoC = capital x rate/100 x period/12 -- "
+        "interest accrues only for the months the capital was employed, "
+        "so the annual rate must be time-scaled (period-aware, per the "
+        "partnership appropriation chapters).",
+        f"capital = {_fmt(cap)}, rate = {rate:g}% per annum, period = "
+        f"{period_txt}",
+        [f"Full-year interest = {cap:g} x {rate:g}/100 = "
+         f"{cap * rate / 100:,.4g}",
+         (f"IoC = {cap * rate / 100:,.4g} x {months:g}/12 = {_fmt(ioc)}"
+          if months is not None else
+          f"IoC for the full year = {_fmt(ioc)}")],
+        f"Check: rate per month = {rate:g}/12 = {rate / 12:.4g}%; "
+        f"{cap:g} x {rate / 12:.4g}% x "
+        f"{months if months is not None else 12:g} months = "
+        f"{cap * rate / 100 * frac:,.4g} -- both routes agree.",
+        f"Interest on capital of {_fmt(ioc)} is credited to the partner's "
+        f"capital (current) account before profits are shared.")
+    return (ioc, steps, f"interest on capital = {_fmt(ioc)}", None,
+            "IoC = P x r/100 x months/12",
+            {"capital": cap, "rate": rate,
+             "months": months if months is not None else 12.0})
+
 _TABLE: List[Tuple[str, str, Any]] = [
+    # ---- electives-all additive row (2026-10-07): two-side GST chain;
+    # trigger is narrow ("net GST payable") so landed rows are untouched
+    ("NET_GST_PAYABLE",
+     r"net\s+gst\s+payable|gst\s+payable",
+     _c_net_gst_payable),
     # ---- break-even / contribution arithmetic ----
     # BEP_SALES must sit BEFORE the wide BEP_UNITS trigger ("break-even
     # sales in rupees" would otherwise compute units).  BEP_UNITS is
@@ -860,11 +1468,72 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"operating\s+cycle|cash\s+conversion|conversion\s+cycle|"
      r"collection\s+period",
      _c_operating_cycle),
+    ("PROFIT_ON_COST_SALE",
+     r"profit",
+     _c_profit_on_cost_sale),
+    ("GOODWILL_YEARS_PURCHASE",
+     r"goodwill",
+     _c_goodwill_years_purchase),
+    # ---- COMM2 block (moved from commerce_families2.py, WS-B map
+    # step 5): GST / partnership / ratio / interest-on-capital
+    # chains, internal order preserved.
+    ("GST",
+     r"\bGST\b|goods\s+(?:and|&)\s+services\s+tax|CGST|SGST|IGST",
+     _c_gst),
+    ("PARTNERSHIP_SHARE",
+     r"partners?\b.{0,80}profit|profit.{0,80}partners?\b|"
+     r"sharing\s+profits?|profit[\s-]sharing\s+ratio|capital\s+ratio",
+     _c_partnership),
+    ("CURRENT_RATIO",
+     r"current\s+ratio|liquid\s+ratio|quick\s+ratio|acid[\s-]?test\s+"
+     r"ratio",
+     _c_current_ratio),
+    ("INTEREST_ON_CAPITAL",
+     r"interest\s+on\s+capital",
+     _c_interest_on_capital),
 ]
 
 # precompile triggers once at import (regex errors surface immediately)
 TABLE = [(fid, re.compile(pat, re.I), fn) for fid, pat, fn in _TABLE]
 
+
+
+
+# --------------------------------------------------------------------------- #
+# BLOCK EXTRA_COMM: Perpetuity (from extra_families.py — WS-B Step 7)
+# --------------------------------------------------------------------------- #
+
+_NUM_X = r"(?:\d{1,3}(?:,\d{2,3})+|\d+(?:\.\d+)?)"
+
+
+def model_perpetuity(text: str) -> ModelResult:
+    m = re.search(
+        r"perpetuity\s+of\s+(?:rs\.?|rs\s*|₹\s*)?(" + _NUM_X + r")\s*"
+        r"(?:payable\s+at\s+the\s+end\s+of\s+each\s+)?"
+        r"(quarter|month|year|half[- ]?year)", text, re.I)
+    pv = re.search(
+        r"(?:rs\.?|rs\s*|₹\s*)?(" + _NUM_X + r")\s*(?:in\s+)?cash\s+"
+        r"(?:is\s+)?equivalent", text, re.I)
+    if not m or not pv:
+        return _no("PERPETUITY", "need perpetuity payment and present value")
+    pay = _n(m.group(1))
+    period = m.group(2).lower()
+    principal = _n(pv.group(1))
+    if principal <= 0 or pay <= 0:
+        return _no("PERPETUITY", "non-positive values")
+    i_period = pay / principal
+    per_year = {"month": 12, "quarter": 4, "half-year": 2, "year": 1}[period]
+    nominal = i_period * per_year * 100.0
+    steps = [
+        f"Perpetuity: PV = A / i  ->  i = A / PV",
+        f"i per {period} = {pay:g} / {principal:g} = {i_period:.6g}",
+        f"Nominal annual rate = {i_period:.6g} x {per_year} = "
+        f"{nominal:.4g}%",
+        f"ANSWER: rate = {nominal:.4g}% p.a. (nominal)",
+    ]
+    return _res("PERPETUITY",
+                {"payment": pay, "pv": principal, "i_period": i_period},
+                nominal, "PV = A / i", steps, f"rate = {nominal:.4g}% p.a.")
 
 # --------------------------------------------------------------------------- #
 # dispatcher
@@ -890,7 +1559,17 @@ def model_commerce_families(text: str) -> ModelResult:
         return _res(fid, m.groupdict(), value, eq or fid, steps or [],
                     answer=answer, assumptions=assumptions,
                     extra=extra or {})
+    for fn in _EXTRA_COMMERCE_MODELS:
+        try:
+            r = fn(norm)
+        except Exception:
+            continue
+        if r is not None and r.matched:
+            return r
     return _no("COMMERCE", "no commerce family matched")
+
+
+_EXTRA_COMMERCE_MODELS = [model_perpetuity]
 
 
 def read_commerce(text: str, audit: Any) -> Optional[object]:
@@ -903,6 +1582,10 @@ def read_commerce(text: str, audit: Any) -> Optional[object]:
         return None
     from backend.its.solver.answer_pipeline import VERIFIED, PipelineResult
     audit.route.append("event_chain:" + r.structure.lower())
+    # WS-PAL (ovh-pal 2026-10-13): stamp the structure: route so the
+    # badge gate resolves the registered verifier instead of
+    # verifier_no_route -> strict_unverified.
+    audit.route.append("structure:" + r.structure)
     audit.gates_passed.append("commerce_grounding")
     return PipelineResult(label=VERIFIED, answer=r.final_answer,
                           numeric=r.numeric_answer, steps=r.steps,

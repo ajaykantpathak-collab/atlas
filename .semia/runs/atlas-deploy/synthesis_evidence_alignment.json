@@ -1,0 +1,37 @@
+{
+  "alignments": [
+    {
+      "args": [
+        "atlas-deploy",
+        "name: atlas-deploy"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: atlas-deploy",
+      "line": 3,
+      "matched": true,
+      "relation": "skill_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "act_review",
+        "name: atlas-deploy"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: atlas-deploy",
+      "line": 5,
+      "matched": true,
+      "relation": "action_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    }
+  ],
+  "evidence_match_rate": 1.0,
+  "grounding_score": 0.00819672131147541,
+  "normalized_facts": [
+    "skill_evidence(\"atlas-deploy\", \"su_0\").",
+    "action_evidence(\"act_review\", \"su_0\")."
+  ],
+  "reference_unit_coverage": 0.00819672131147541
+}

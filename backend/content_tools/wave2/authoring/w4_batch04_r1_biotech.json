@@ -1,0 +1,84 @@
+{
+  "edits": [
+    {
+      "file": "c11_biotech_cbse_01_009.md",
+      "definition": "Bioethics in biotechnology is the systematic study of the moral questions raised by manipulating living organisms and biological systems, built on four working principles: autonomy (respect for persons and informed consent), beneficence (acting for benefit), non-maleficence (avoiding harm) and justice (fair sharing of benefits and risks). It asks whether a technique — gene editing, cloning, GM crops, prenatal testing — is permissible, under what safeguards, and who decides. Its answers demand structured reasoning from principles and evidence rather than personal opinion, because the same technology may protect health while raising questions about consent, animal welfare, ecological safety and fairness to future generations."
+    },
+    {
+      "file": "c11_biotech_cbse_01_010.md",
+      "definition": "Biosafety is the discipline of preventing unintentional exposure to biological agents and the accidental release of organisms, especially pathogens and genetically modified organisms, into the environment. It rests on containment — physical barriers ranked as biosafety levels (BSL-1 to BSL-4) with progressively stricter laboratory design, equipment and practices; on good microbiological technique, sterilisation and waste decontamination; and on legal oversight, in India through the Institutional Biosafety Committees, the Review Committee on Genetic Manipulation and the Genetic Engineering Appraisal Committee. Its aim is to protect laboratory workers, public health, agriculture and ecosystems while allowing biotechnological work to proceed responsibly."
+    },
+    {
+      "file": "c11_biotech_cbse_02_008.md",
+      "definition": "A chloroplast is the green, double-membrane-bound plastid of plant and algal cells in which photosynthesis occurs. Its inner membrane encloses the stroma, a fluid holding the enzymes of the Calvin cycle (carbon fixation), circular DNA, 70S ribosomes and starch grains — equipment that makes the organelle semi-autonomous, like a descendant of a free-living prokaryote. Suspended in the stroma are grana: stacks of flattened membrane sacs called thylakoids, whose membranes carry chlorophyll and the electron-transport chains of the light reactions, and whose fluid interior (thylakoid lumen) accumulates protons used to drive ATP synthesis. Thus light capture, water splitting, and sugar-building are compartmentalised within one organelle."
+    },
+    {
+      "file": "c11_biotech_cbse_04_003.md",
+      "definition": "The induced fit model of enzyme action proposes that the active site is not a rigid pre-carved template but a flexible structure that changes shape when the substrate binds. Initial contact between substrate and active site induces a conformational change that moulds the site closely around the substrate, aligns the catalytic amino acid residues, and often strains the substrate towards its transition state, lowering the activation energy. The fit is therefore induced rather than pre-formed, which explains enzyme specificity for both binding and reaction, and also the action of competitive inhibitors whose binding induces an unproductive conformation without catalysis."
+    },
+    {
+      "file": "c11_biotech_cbse_04_010.md",
+      "definition": "Ribozymes are RNA molecules that act as biological catalysts, accelerating specific biochemical reactions — for example cleavage and ligation of RNA phosphodiester bonds, and peptide-bond formation by the ribosomal RNA of the large ribosomal subunit — without being consumed in the process. Their discovery showed that catalysis is not the monopoly of proteins and gave strong support to the RNA world hypothesis, which places a catalytic RNA at the origin of life. Ribozymes depend on their folded three-dimensional structure for specificity, and engineered ribozymes are studied as research tools and as potential therapeutic agents able to cut chosen RNA targets."
+    },
+    {
+      "file": "c11_biotech_cbse_06_008.md",
+      "definition": "Crossing over is the reciprocal exchange of corresponding segments between non-sister chromatids of a homologous chromosome pair, occurring during the pachytene sub-stage of prophase I of meiosis at the recombination nodules of the synaptonemal complex. Enzymes break and rejoin the chromatids so that each recombinant chromatid carries alleles in new combinations from the two parents. Crossing over, together with independent assortment, is the chief source of genetic variation in gametes; its frequency is roughly proportional to the physical distance between genes, a fact that historically allowed genetic maps to be drawn in map units (centimorgans)."
+    },
+    {
+      "file": "c11_biotech_cbse_09_001.md",
+      "definition": "Bioinformatics is the interdisciplinary field that applies computer science, statistics, mathematics and information engineering to biological data, particularly DNA, RNA and protein sequences and molecular structures. It builds and maintains databases (such as GenBank and the Protein Data Bank), provides tools to search and align sequences (such as BLAST), predicts gene locations, protein structures and functions, and constructs evolutionary relationships. By converting enormous raw data — a genome is billions of letters — into annotations, comparisons and testable hypotheses, bioinformatics has become indispensable to genomics, drug discovery, diagnostics and the comparative study of evolution."
+    },
+    {
+      "file": "c11_biotech_cbse_10_008.md",
+      "definition": "Protein-protein interaction (PPI) prediction methods are computational approaches that infer whether two or more proteins physically bind or functionally cooperate, without testing every pair in the laboratory. Genomic-context methods exploit shared patterns — genes fused in some genomes, conserved neighbours, or co-occurrence across species; sequence and structure methods look for co-evolution of paired residues or complementarity of docking surfaces; expression and network methods use correlated mRNA profiles and known interaction graphs to propagate links. Predicted interactions are scored and combined into interactome maps that suggest gene functions, reveal pathways and nominate drug targets for experimental confirmation."
+    },
+    {
+      "file": "c11_biotech_cbse_10_009.md",
+      "definition": "Protein function prediction from sequence is the inference of what a newly sequenced protein does — its biochemical activity, the biological process it serves and its partners — purely from its amino acid string. The main evidence is homology: if a database search (BLAST) finds clearly related proteins of known function, function can transfer, provided key residues are conserved. Complementary clues include conserved domains and motifs catalogued in domain databases (for example kinase or zinc-finger signatures), predicted secondary structure and transmembrane segments, subcellular-localisation signals and physico-chemical profiles. Predictions are stated with confidence levels and require experimental verification before being treated as established."
+    },
+    {
+      "file": "c11_biotech_cbse_12_003.md",
+      "definition": "Spectrophotometry is the quantitative analytical technique that measures how much light a solution absorbs at each wavelength of the electromagnetic spectrum. A source, monochromator and detector compare the light passing through the sample (I) with the incident light (I₀); the absorbance that results follows the Beer-Lambert law, A = εlc, so that absorbance is proportional to concentration (c) for a fixed path length (l) and molar absorptivity (ε). Biomolecules have characteristic absorption maxima — nucleic acids near 260 nm, proteins near 280 nm — which permits both identification (qualitative) and, from a calibration curve, accurate measurement of concentration (quantitative)."
+    },
+    {
+      "file": "c11_biotech_cbse_12_005.md",
+      "definition": "The Polymerase Chain Reaction (PCR) is an in vitro technique that amplifies a chosen DNA sequence into billions of copies within hours. Each cycle has three temperature steps — denaturation (about 95 °C) separating the strands, annealing (roughly 50-65 °C) letting sequence-specific primers bind flanking the target, and extension (about 72 °C) where a thermostable DNA polymerase (Taq) copies the strand — and every cycle doubles the target. After 30 cycles the amplification is about a billion-fold. Essential ingredients are template DNA, primers, the four deoxynucleotide triphosphates, magnesium ions and the polymerase; applications include diagnostics, forensics, cloning and gene-expression studies."
+    },
+    {
+      "file": "c11_biotech_cbse_12_007.md",
+      "definition": "Restriction enzymes, or restriction endonucleases, are enzymes of bacteria that defend them against invading bacteriophage DNA by cutting it at defined sites. Each enzyme recognises a short specific sequence, usually 4-8 base pairs and palindromic, and cleaves the phosphodiester backbone within or near it: EcoRI recognises GAATTC and cuts between G and A, leaving staggered single-stranded 5' overhangs called sticky ends, while others cut cleanly across both strands to leave blunt ends. Sticky ends that are complementary can be rejoined by DNA ligase with any other fragment cut by the same enzyme — the property that makes restriction enzymes the scissors of recombinant DNA technology. Their names encode genus, species and strain (for example, EcoRI from Escherichia coli)."
+    },
+    {
+      "file": "c12_biotech_cbse_03_009.md",
+      "definition": "A probe is a known single-stranded DNA or RNA sequence, typically 100 to several thousand bases (or a shorter synthetic oligonucleotide), that is complementary to the target nucleic acid one wants to detect. Because of complementarity it hybridises — forms base pairs — only with its target, which is fixed on a membrane or inside a cell; a detectable label (radioactive phosphorus, a fluorescent dye, an enzyme yielding colour or light) attached to the probe makes the hybridisation visible. Probe specificity is governed by the stringency of the hybridisation conditions, and labelled probes are the working tools of techniques such as Southern and Northern blotting, colony hybridisation, FISH and microarrays."
+    },
+    {
+      "file": "c12_biotech_cbse_05_007.md",
+      "definition": "Bioinformatics in the genomic era is the science of organising and extracting meaning from biological data at scale: it creates and curates databases of genomes, transcripts and proteins, and builds the algorithms and software that search, align, compare and visualise this information. Its daily work spans sequence assembly, gene prediction, homology searching, multiple alignment, phylogeny reconstruction, and structural prediction and docking. The payoff is interpretation — annotating a newly sequenced genome, identifying a pathogen from a fragment, choosing a drug target from a proteome — tasks impossible by hand because a single sequencing run can produce terabases of data."
+    },
+    {
+      "file": "c12_biotech_cbse_05_009.md",
+      "definition": "Genome annotation is the process by which the raw sequence of a genome is converted into a biological map: first structural annotation identifies which stretches are genes — protein-coding regions with their start and stop codons and intron-exon boundaries — and which are regulatory elements, non-coding RNAs or repeats; then functional annotation assigns each gene product a role (enzyme, transporter, transcription factor) by homology to characterised genes, domain signatures and experimental data. Computational pipelines (for example GeneMark, GLIMMER, BLAST-based transfer) do the first pass, and curated databases such as RefSeq and GO terms standardise the descriptions. Annotation quality decides how useful a genome is to later research."
+    },
+    {
+      "file": "c12_biotech_cbse_05_011.md",
+      "definition": "Metabolomics is the large-scale study of the metabolome — the complete set of small-molecule metabolites, such as sugars, amino acids, lipids and organic acids, present in a cell, tissue or biofluid at a given moment. Because metabolites are the end products of gene expression, enzyme regulation and environment acting together, the metabolome is the closest functional snapshot of an organism's actual physiological state. The field uses separation techniques (gas and liquid chromatography) coupled to mass spectrometry and NMR spectroscopy for detection, and multivariate statistics such as PCA to find patterns; applications include biomarker discovery, diagnosis, plant and food quality analysis and toxicity testing."
+    },
+    {
+      "file": "c12_biotech_cbse_06_009.md",
+      "definition": "Somatic embryogenesis is the developmental pathway in which somatic (non-reproductive) plant cells, maintained in vitro on a suitable nutrient and hormone regime, reorganise into embryos without any gametic fusion. The embryos are bipolar — they carry both a shoot pole and a root pole — and pass through the same morphological stages as zygotic embryos: globular, heart, torpedo and cotyledonary, before germinating into complete plantlets. Because each embryo typically arises from a single cell and thousands can be produced synchronously in suspension culture, somatic embryogenesis is the preferred route for clonal mass propagation, synthetic seed production and genetic transformation of crop species."
+    },
+    {
+      "file": "c12_biotech_cbse_08_001.md",
+      "definition": "Animal cell culture is the maintenance and growth of animal cells outside the living organism, under precisely controlled conditions: a temperature near 37 °C, pH about 7.2-7.4 maintained with bicarbonate buffer and CO₂, appropriate osmolality and oxygen, and a sterile nutrient medium supplying amino acids, glucose, vitamins, salts, serum or defined growth factors. Cells are obtained from tissue by enzymatic or mechanical disaggregation (primary culture), may be passaged into finite cell lines or transformed into continuous lines (for example HeLa), and grow either suspended or attached to a surface as a monolayer. Culture supplies uniform living material for research, vaccine production, antibody manufacture and drug testing."
+    },
+    {
+      "file": "c12_biotech_cbse_10_010.md",
+      "definition": "ELISA (Enzyme-Linked Immunosorbent Assay) is a plate-based immunoassay that measures an antigen or an antibody by coupling antibody specificity to an enzyme's signal amplification. An antibody or antigen is adsorbed onto a microtitre well; the sample antigen or antibody binds; an enzyme-linked (commonly HRP or alkaline-phosphatase) second antibody attaches to the complex; and addition of substrate produces a colour change proportional to the amount of analyte, read with a spectrophotometer. Direct, indirect, sandwich and competitive formats suit different targets, and the assay quantifies hormones, viral antigens (HIV, hepatitis), antibodies and allergens with high sensitivity at low cost."
+    },
+    {
+      "file": "c12_biotech_cbse_11_008.md",
+      "definition": "Abiotic stress-tolerant transgenic crops are plants engineered to carry genes whose products raise tolerance to non-living stresses — drought, soil salinity, heat, cold, heavy metals and oxidative damage. The introduced genes act through several strategies: over-expression of transcription factors that switch on whole stress-response programmes; accumulation of protective osmolytes such as proline or glycine betaine that keep cells hydrated; detoxifying enzymes (superoxide dismutase, catalase) that clear reactive oxygen species; and transporters (for example Salt Overly Sensitive pathways) that exclude or compartmentalise sodium. The goal is stable yield on marginal land, and each release must be assessed for efficacy, ecological interactions and regulatory approval."
+    }
+  ]
+}

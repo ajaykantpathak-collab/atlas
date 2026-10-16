@@ -17,6 +17,7 @@ Usage:
 
 import argparse
 import asyncio
+import logging
 import os
 import re
 from pathlib import Path
@@ -275,6 +276,14 @@ async def load_question_banks(
     inserted = 0
     errors: list[str] = []
     by_subject: dict[str, int] = {}
+    # WS-E: every drop is counted per reason + logged at WARNING with the
+    # row key — no silent data loss in the ingestion path.
+    drop_reasons: dict[str, int] = {}
+    _log = logging.getLogger(__name__)
+
+    def _drop(reason: str, key: str) -> None:
+        drop_reasons[reason] = drop_reasons.get(reason, 0) + 1
+        _log.warning("load_question_banks dropped %s: %s", reason, key)
 
     # Idempotent: files already loaded are skipped (init_db may re-run).
     from sqlalchemy import select as _select
@@ -283,21 +292,30 @@ async def load_question_banks(
 
     for subject, source_type, filepath in files:
         if str(filepath) in existing:
+            _drop("already_loaded_file", filepath.name)
             continue
         try:
             parsed = parse_question_bank_file(str(filepath))
             questions = parsed.get("questions", [])
+            # rows the parser stripped upstream (empty text) — counted
+            # here so the drop is visible at the write layer too
+            _pre = int(parsed.get("dropped_rows") or 0)
+            for _i in range(_pre):
+                _drop("empty_text", f"{filepath.name}#parser-strip")
             classes = extract_class_from_filename(filepath.name)
             if not classes and parsed.get("class_level"):
                 classes = [parsed["class_level"]]
             if not classes:
-                classes = [0]  # unknown class
+                classes = [0]
+                _drop("unknown_class_default", filepath.name)
 
             file_subject = extract_subject_from_filename(filepath.name, subject)
 
             for q in questions:
                 qtext = q.get("question", "").strip()
                 if not qtext:
+                    _drop("empty_text",
+                          f"{filepath.name}#q{q.get('number')}")
                     continue
 
                 node_id = q.get("node_id", "")
@@ -327,10 +345,12 @@ async def load_question_banks(
 
         except Exception as e:
             errors.append(f"{filepath.name}: {e}")
+            _drop("file_error", filepath.name)
 
     await db.commit()
     return {"total_files": len(files), "inserted": inserted,
-            "by_subject": by_subject, "errors": errors}
+            "by_subject": by_subject, "errors": errors,
+            "drop_reasons": drop_reasons}
 
 
 def _answer_family(stem: str) -> str:

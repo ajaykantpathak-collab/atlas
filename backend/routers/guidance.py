@@ -73,7 +73,8 @@ async def teacher_tomorrow(
     _require_teacher(user)
 
     from backend.services.auth_service import TeacherClassModel
-    from backend.api.teacher import ClassEnrollmentModel
+    # (boundary: no backend.api.teacher import here — ClassEnrollmentModel
+    # was unused; router cross-imports are a lint violation class)
 
     try:
         cid = uuid.UUID(str(class_id))

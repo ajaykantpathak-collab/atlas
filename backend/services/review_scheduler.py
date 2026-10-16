@@ -76,7 +76,19 @@ async def upcoming(
 
 
 def _sm2(item: ReviewItem, quality: int) -> None:
-    """Apply an SM-2 grade (0-5) in place. Mirrors lib/srs.ts."""
+    """Apply an SM-2 grade (0-5) in place.
+
+    MASTERY-SOLID: canonical SM-2 order — the easiness factor updates
+    FIRST, and the interval for reps >= 3 multiplies by the NEW EF. This
+    module writes the same review_items rows as
+    ProgressService.submit_review / schedule_practice_review, so it must
+    reproduce their math exactly; the old version multiplied by the OLD
+    EF (interval drift from the third review on) and rounded EF to 4dp.
+    """
+    quality = max(0, min(5, quality))
+    # Update easiness factor first (canonical SM-2 step 1)
+    new_ef = item.easiness_factor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
+    item.easiness_factor = max(1.3, new_ef)
     if quality < 3:
         item.repetitions = 0
         item.interval_days = 1
@@ -88,8 +100,6 @@ def _sm2(item: ReviewItem, quality: int) -> None:
         else:
             item.interval_days = max(1, round(item.interval_days * item.easiness_factor))
         item.repetitions += 1
-    new_ef = item.easiness_factor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
-    item.easiness_factor = max(1.3, round(new_ef, 4))
     item.last_review_date = date.today()
     item.next_review_date = date.today() + timedelta(days=item.interval_days)
 

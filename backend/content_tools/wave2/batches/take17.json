@@ -1,0 +1,64 @@
+{
+  "edits": [
+    {
+      "file": "c11_acc_isc_01_015.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Credit purchases raise BOTH stock and creditors — leaving creditors unchanged after a purchase entry is the standard omission; and creditors always appear under CURRENT LIABILITIES in the balance sheet, never as an asset — the dual check (stock up AND creditor up) is what the examiner verifies first."
+    },
+    {
+      "file": "c11_acc_isc_08_006.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Suspense-account questions end only when the suspense balance reaches ZERO — every rectification must pair a debit and credit (with suspense on the side the error left open); leaving a suspense balance after rectification, or writing one-sided corrections, are the two failures the working is checked for."
+    },
+    {
+      "file": "c11_ai_isc_06_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The four assumptions are verified, not assumed — linearity (residual vs fitted plot straight), independence (no time-clustering), homoscedasticity (funnel-free spread), normality (Q-Q diagonal) — and violating one without remedy (transformation, robust errors) invalidates inference; quoting assumptions from the list without naming their diagnostic test loses the application mark."
+    },
+    {
+      "file": "c11_ai_isc_11_006.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Multivariate plots earn marks only when ANNOTATED — labelled axes, titles, and the variance explained reported (PCA components' percentages) — an unlabelled pair plot is unreadable evidence; and variance explained must come from the data, not be asserted — the contextualisation discipline is what the visual-communication standard checks."
+    },
+    {
+      "file": "c11_ai_isc_13_007.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Trustworthy regression runs the WORKFLOW in order — assume, diagnose, remedy, re-evaluate — and skipping diagnosis after fitting is where mark-losers hide (curved residuals mean a missing term, Q-Q deviations mean non-normal errors); writing conclusions from R² alone before the diagnostic loop closes is exactly the shortcut the workflow exists to prevent."
+    },
+    {
+      "file": "c11_appmath_isc_21_006.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The CV is the COMPARISON tool precisely because it is UNIT-FREE and INVARIANT under scale change — multiplying every value by a constant leaves CV unchanged while the SD scales — comparing SDs across datasets with different units (rupees vs marks) is the error CV exists to prevent; quoting SD where the question compares different-scale series loses the choice mark."
+    },
+    {
+      "file": "c11_biotech_isc_06_009.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Non-disjunction gamete arithmetic must run BOTH directions — n+1 gamete fertilised gives 2n+1 (trisomy) while n−1 gives 2n−1 (monosomy) — and MOST monosomies are lethal while specific trisomies survive; writing only the trisomy half of the answer (or swapping which gamete is viable) loses the reciprocal-result mark."
+    },
+    {
+      "file": "c11_hist_isc_12_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Japan's crises REPEAT a pattern — local initiative → central acquiescence → international isolation → deeper militarisation (Manchuria 1931, then the Marco Polo Bridge escalation) — and each episode NORMALISED army autonomy further; narrating the incidents as separate events without the repeating pattern misses the escalation logic the comparative question rewards."
+    },
+    {
+      "file": "c11_legal_isc_03_013.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The jurisdictional characters INTERACT in real disputes — wrong-forum filing gets the case dismissed at the threshold, a district forum's order is appealable upward, and Commission orders carry Section 90 penalty teeth — analysing one lock while ignoring the enforcement chain (or the appeal route) gives a partial map where the question wants the full interaction."
+    },
+    {
+      "file": "c12_ai_isc_01_003.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Case-study answers score on MEASUREMENT discipline — impact stated against a BASELINE, scaling via open tooling (ONNX, Kubernetes) justified by cost, and LOCAL CAPACITY built so the system survives the vendor — case narration without the measured-impact and capacity-building layers reads as description, not analysis."
+    },
+    {
+      "file": "c12_ai_isc_03_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** ANN evaluation is a SEQUENCE — split before touching anything, tune with regularisation and hyperparameter search on VALIDATION data only, and report on the TEST set once — evaluating on training accuracy (or tuning against the test set) are the two leaks the marking scheme hunts; the sequence's discipline, not the final number, carries the marks."
+    },
+    {
+      "file": "c12_ai_isc_07_002.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Paradigm choice ESCALATES STEPWISE — rules, then classical ML, then deep learning — justified at each step by DATA volume, labels, and compute against VALUE; jumping to deep learning for small structured datasets (or staying with rules when data explodes) inverts the escalation logic — the answer must show WHY each step up (or down) is justified, not just which paradigm is chosen."
+    },
+    {
+      "file": "c12_appmath_isc_15_005.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The exactness test is GEOMETRIC, not just algebraic — the differential df = M dx + N dy being exact means the solution curves are LEVEL SURFACES of φ — connecting the integrability condition to the level-surface picture is what distinguishes a mechanical solver from an understanding answer, and the question's justification half asks precisely for that link."
+    },
+    {
+      "file": "c12_hist_isc_10_013.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** Comparative movement answers need a STRUCTURED FRAME — shared elements (moral framing, legal leverage, mobilisation, organisation, solidarity) applied movement by movement, THEN differences (targets: law vs franchise vs culture) — a two-column table filled per theme is the expected form; writing three separate mini-essays without the comparative grid loses the comparison marks."
+    },
+    {
+      "file": "c12_hist_isc_10_014.md",
+      "walkthrough_append": "\n\n**EXAM TRAP:** The five shared structural elements (moral framing, legal leverage, mass mobilisation, institutional organisation, international solidarity) recur across movements — recognising the PATTERN lets you analyse any protest movement comparably, which is the chapter's transferable skill; naming elements without showing the pattern's recurrence across at least two movements misses the analytical payoff."
+    }
+  ]
+}

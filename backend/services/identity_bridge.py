@@ -62,3 +62,43 @@ async def student_id_for(db: AsyncSession, user_id: str) -> str:
     """Like :func:`ensure_student_row` but returns the id string only."""
     row = await ensure_student_row(db, user_id)
     return str(row.id)
+
+
+async def ensure_teacher_row(db: AsyncSession, user_id: str) -> "object":
+    """Return the legacy ``teachers`` row for an auth ``users.id``,
+    creating it on first use so legacy FKs hold.
+
+    Mirrors :func:`ensure_student_row` for the teacher side: ``homework
+    .teacher_id`` FKs the legacy ``teachers`` table, but signup-created
+    teacher accounts used to get a users row ONLY — the teachers row
+    appeared lazily on first dashboard open, so a brand-new teacher's
+    first homework create died on the FK.  Provisioning here (signup +
+    homework create) makes the row exist at identity creation.
+    """
+    from backend.database import Teacher
+    from backend.models.user import User
+
+    tid = str(user_id)
+    try:
+        row = (await db.execute(
+            select(Teacher).where(Teacher.id == tid)
+        )).scalar_one_or_none()
+    except Exception:
+        # legacy teachers table unavailable — degrade honestly, caller
+        # proceeds and the FK (if enforced) reports the real problem
+        return None
+    if row is not None:
+        return row
+
+    user = (await db.execute(
+        select(User).where(User.id == tid)
+    )).scalar_one_or_none()
+
+    row = Teacher(
+        id=user.id if user is not None else tid,
+        name=getattr(user, "name", None) or "Teacher",
+        is_active=True,
+    )
+    db.add(row)
+    await db.flush()
+    return row

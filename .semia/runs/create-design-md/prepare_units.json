@@ -1,0 +1,1356 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 254,
+      "path": "SKILL.md",
+      "size_bytes": 16208
+    }
+  ],
+  "source_id": "create-design-md",
+  "source_map": [
+    {
+      "enriched_line_end": 254,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 254,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 148,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: create-design-md",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Create or update a DESIGN.md from an existing product repository or public website. Use when asked to document an interface's design language, reconstruct its visual system, extract design tokens and guidance from current evidence, or give coding agents persistent UI context. Do not modify product source or promote accidental implementation patterns into design decisions.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Create DESIGN.md",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Create a DESIGN.md for one product or coherent website. Record the design language that governs it, not every value that happens to exist.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "Boundaries",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "Modify only DESIGN.md. Do not change product source, dependencies, configuration, or generated files.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 13,
+      "line_start": 13,
+      "source_file": "SKILL.md",
+      "text": "Use the DESIGN.md format contract below. Do not invent a competing schema.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "Do not copy every discovered token or component into the document.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "Do not convert repetition, local styling, or visual preference into product intent.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "1. Choose the mode",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "Repository mode",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "Use when a local product repository is available. Create or update DESIGN.md at the root of the selected product.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "If the repository contains multiple deployable products, select the one named by the user. If the request does not identify one and ownership is ambiguous, ask before writing.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "Repository evidence may establish normative values, token names, component ownership, and documented rationale.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "URL mode",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "Use when the user provides a public URL without its source repository. Create a reconstructed DESIGN.md draft in the current workspace.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "SKILL.md",
+      "text": "URL mode requires rendered browser access. Inspect the DOM, computed styles, and publicly loaded stylesheets at desktop and mobile widths. Screenshots may support interpretation but cannot establish exact values by themselves.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "SKILL.md",
+      "text": "Inspect the supplied page and shared chrome. For a site-wide request, sample up to three same-origin pages that represent distinct templates.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "URL evidence may establish only observable visual patterns and computed values. It cannot establish internal token names, component ownership, undocumented rationale, or whether a pattern is intentionally canonical.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "If rendered inspection is unavailable, ask for screenshots or source files. Do not create a DESIGN.md from copy, metadata, or HTML structure alone.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "Choose repository mode whenever source is available. A supplied URL may verify rendered presentation but does not replace repository evidence.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "Shared evidence pipeline",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "The modes differ only in how they collect evidence. They must use the same record and output pipeline:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "role \u2192 value \u2192 source \u2192 scope \u2192 recurrence \u2192 confidence",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "Collect evidence using the selected mode.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 50,
+      "line_start": 50,
+      "source_file": "SKILL.md",
+      "text": "Record the source, scope, and recurrence for each candidate.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 51,
+      "line_start": 51,
+      "source_file": "SKILL.md",
+      "text": "Normalize candidates into the DESIGN.md schema.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "SKILL.md",
+      "text": "Omit candidates that are uncertain, local without a contract, or not implementation-relevant.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 53,
+      "line_start": 53,
+      "source_file": "SKILL.md",
+      "text": "Validate frontmatter shape and export compatibility.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "Write Markdown only after the normalized frontmatter passes.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 56,
+      "line_start": 56,
+      "source_file": "SKILL.md",
+      "text": "Never let repository or URL evidence introduce a second token schema. The same flat token names, mapping-shaped typography, omission rules, and export gates apply to both modes.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 58,
+      "line_start": 58,
+      "source_file": "SKILL.md",
+      "text": "The generated document is private until validation passes. Never return, display, or summarize a DESIGN.md draft before lint and export succeed. If validation reports an invalid shape or missing export category, rewrite the frontmatter and rerun; if the category cannot be repaired, remove it and report it as omitted.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 60,
+      "line_start": 60,
+      "source_file": "SKILL.md",
+      "text": "2. Trace the evidence",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 62,
+      "line_start": 62,
+      "source_file": "SKILL.md",
+      "text": "In repository mode, inspect in this order:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 64,
+      "line_start": 64,
+      "source_file": "SKILL.md",
+      "text": "Existing DESIGN.md and explicit repository guidance",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 65,
+      "line_start": 65,
+      "source_file": "SKILL.md",
+      "text": "Tokens, themes, variables, and global styles",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 66,
+      "line_start": 66,
+      "source_file": "SKILL.md",
+      "text": "Shared primitives and their variants",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 67,
+      "line_start": 67,
+      "source_file": "SKILL.md",
+      "text": "Representative routes and rendered consumers",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 68,
+      "line_start": 68,
+      "source_file": "SKILL.md",
+      "text": "Surface-local implementations",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 70,
+      "line_start": 70,
+      "source_file": "SKILL.md",
+      "text": "A source participates only when the selected product imports, references, inherits, or renders it. Exclude proposals, migrations, examples, generated outputs, legacy implementations, and similarly named packages unless the selected product uses them.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_40",
+      "id": 40,
+      "line_end": 72,
+      "line_start": 72,
+      "source_file": "SKILL.md",
+      "text": "In URL mode, sample representative elements for:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_41",
+      "id": 41,
+      "line_end": 74,
+      "line_start": 74,
+      "source_file": "SKILL.md",
+      "text": "colors and surface roles",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_42",
+      "id": 42,
+      "line_end": 75,
+      "line_start": 75,
+      "source_file": "SKILL.md",
+      "text": "typography roles",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_43",
+      "id": 43,
+      "line_end": 76,
+      "line_start": 76,
+      "source_file": "SKILL.md",
+      "text": "spacing and layout",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_44",
+      "id": 44,
+      "line_end": 77,
+      "line_start": 77,
+      "source_file": "SKILL.md",
+      "text": "borders, radii, and elevation",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_45",
+      "id": 45,
+      "line_end": 78,
+      "line_start": 78,
+      "source_file": "SKILL.md",
+      "text": "navigation, buttons, inputs, cards, and repeated content structures",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_46",
+      "id": 46,
+      "line_end": 79,
+      "line_start": 79,
+      "source_file": "SKILL.md",
+      "text": "desktop and mobile presentation",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_47",
+      "id": 47,
+      "line_end": 81,
+      "line_start": 81,
+      "source_file": "SKILL.md",
+      "text": "Prefer computed values and loaded CSS declarations over visual estimation.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_48",
+      "id": 48,
+      "line_end": 83,
+      "line_start": 83,
+      "source_file": "SKILL.md",
+      "text": "Before drafting URL-mode prose or YAML, build a private evidence ledger for each sampled page and viewport. For each candidate, record: page, viewport, element role, computed property/value, and the matching loaded-CSS declaration or custom property when available. Inspect the public stylesheets loaded by the page, including custom properties and media-query rules; a stylesheet value is usable only when it is connected to a rendered element or recurs across the sampled pages.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_49",
+      "id": 49,
+      "line_end": 85,
+      "line_start": 85,
+      "source_file": "SKILL.md",
+      "text": "Promote a URL value into DESIGN.md when either (a) the rendered computed value and a loaded declaration/custom property agree, or (b) the same computed value recurs for the same role across the required samples. If neither condition holds, omit the value. You may preserve an exposed custom-property name only when its declaration and rendered use are directly observable; do not invent semantic aliases from a raw value.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_50",
+      "id": 50,
+      "line_end": 87,
+      "line_start": 87,
+      "source_file": "SKILL.md",
+      "text": "For every URL-mode claim, require all three proofs before writing it:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_51",
+      "id": 51,
+      "line_end": 89,
+      "line_start": 89,
+      "source_file": "SKILL.md",
+      "text": "Observation: the pattern or value is visible or computed on the rendered page.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_52",
+      "id": 52,
+      "line_end": 90,
+      "line_start": 90,
+      "source_file": "SKILL.md",
+      "text": "Basis: it is measured, or recurs across the required sampled pages/viewports.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_53",
+      "id": 53,
+      "line_end": 91,
+      "line_start": 91,
+      "source_file": "SKILL.md",
+      "text": "Consequence: it changes a concrete implementation choice in DESIGN.md.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_54",
+      "id": 54,
+      "line_end": 93,
+      "line_start": 93,
+      "source_file": "SKILL.md",
+      "text": "If any proof is missing, omit the claim. Do not turn a visual impression into a token, a single occurrence into a site-wide rule, or a guessed value into YAML. Exact values require computed styles or loaded CSS; otherwise describe the role without a value or omit it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_55",
+      "id": 55,
+      "line_end": 95,
+      "line_start": 95,
+      "source_file": "SKILL.md",
+      "text": "3. Decide what belongs",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_56",
+      "id": 56,
+      "line_end": 97,
+      "line_start": 97,
+      "source_file": "SKILL.md",
+      "text": "In repository mode, find explicit product intent or a design reference before describing product character. In URL mode, do not invent product character; the Overview may state only the site's observable purpose and presentation, and must identify the document as reconstructed.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_57",
+      "id": 57,
+      "line_end": 99,
+      "line_start": 99,
+      "source_file": "SKILL.md",
+      "text": "Write YAML only from named shared tokens and roles in governing sources. Do not turn utility classes, repeated literals, or component values into token scales.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_58",
+      "id": 58,
+      "line_end": 101,
+      "line_start": 101,
+      "source_file": "SKILL.md",
+      "text": "Treat frontmatter shape as a hard gate, not a stylistic choice: a value that is a token group must be a mapping whose children are the schema's fields. Never emit scalar typography entries (sans: Geist), arbitrary nested source objects (font-family: { mono: ... }), or rounded keys copied from CSS variable names (radius-sm, radius-md, etc.).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_59",
+      "id": 59,
+      "line_end": 103,
+      "line_start": 103,
+      "source_file": "SKILL.md",
+      "text": "Use mappings, never sequences, for token groups. When a governing source defines one group-level token such as --radius, normalize it to base; otherwise preserve the source token names.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_60",
+      "id": 60,
+      "line_end": 105,
+      "line_start": 105,
+      "source_file": "SKILL.md",
+      "text": "Map source values into DESIGN.md schema fields. Preserve semantic token names, not source object nesting. For example, write typography.mono.fontFamily: Geist Mono, never typography.mono: Geist Mono; write rounded.base: 0.625rem when the source has only --radius, never rounded.radius or derived radius steps.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_61",
+      "id": 61,
+      "line_end": 107,
+      "line_start": 107,
+      "source_file": "SKILL.md",
+      "text": "Resolve framework utilities through the active theme or configuration before writing exact values.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_62",
+      "id": 62,
+      "line_end": 109,
+      "line_start": 109,
+      "source_file": "SKILL.md",
+      "text": "Identify the repository's export target before writing frontmatter: css-tailwind for Tailwind v4, json-tailwind for Tailwind v3, and dtcg otherwise. Token names must be valid for that target.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_63",
+      "id": 63,
+      "line_end": 111,
+      "line_start": 111,
+      "source_file": "SKILL.md",
+      "text": "Check the installed DESIGN.md specification before encoding theme modes:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_64",
+      "id": 64,
+      "line_end": 114,
+      "line_start": 114,
+      "source_file": "SKILL.md",
+      "text": "npx @google/design.md spec",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_65",
+      "id": 65,
+      "line_end": 117,
+      "line_start": 117,
+      "source_file": "SKILL.md",
+      "text": "If the specification supports themes and default-theme, use its theme-aware token syntax. Otherwise, put the default-theme value under each canonical semantic token and preserve exact alternate-theme values in a ## Themes table. Do not create parallel -light and -dark token names, discard alternate-theme values, or use unreleased syntax. A fallback Themes table is documentation only; do not pretend it makes the frontmatter theme-aware.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_66",
+      "id": 66,
+      "line_end": 119,
+      "line_start": 119,
+      "source_file": "SKILL.md",
+      "text": "In repository mode, every prose rule must be supported by explicit guidance, a named shared token or variant, or a shared owner used by at least two audited surfaces. Otherwise omit it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_67",
+      "id": 67,
+      "line_end": 121,
+      "line_start": 121,
+      "source_file": "SKILL.md",
+      "text": "In URL mode, every prose rule must be directly observable. A site-wide rule must recur across at least two sampled templates; otherwise scope it to the inspected page. Use reconstructed role-based names and label the document as a draft.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_68",
+      "id": 68,
+      "line_end": 123,
+      "line_start": 123,
+      "source_file": "SKILL.md",
+      "text": "URL-mode YAML is intentionally sparse, but not empty when measured evidence exists. Add a category when at least one supported value or role survives the three-proof gate. Colors may use computed values or verified public custom properties, but must remain flat and export-safe; typography must use canonical fields such as fontFamily, fontSize, lineHeight, and fontWeight; rounded and spacing values must come from computed styles or loaded declarations. Do not create aliases such as primary, elevated, or display merely to organize observations. A component section requires the same interaction or surface treatment to recur across at least two sampled pages and to change a concrete implementation choice.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_69",
+      "id": 69,
+      "line_end": 125,
+      "line_start": 125,
+      "source_file": "SKILL.md",
+      "text": "URL reconstruction does not change the frontmatter schema. Use only these typography property names: fontFamily, fontSize, lineHeight, fontWeight, and letterSpacing. For example:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_70",
+      "id": 70,
+      "line_end": 128,
+      "line_start": 128,
+      "source_file": "SKILL.md",
+      "text": "typography:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_71",
+      "id": 71,
+      "line_end": 129,
+      "line_start": 129,
+      "source_file": "SKILL.md",
+      "text": "sans:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_72",
+      "id": 72,
+      "line_end": 130,
+      "line_start": 130,
+      "source_file": "SKILL.md",
+      "text": "fontFamily: Inter Variable",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_73",
+      "id": 73,
+      "line_end": 131,
+      "line_start": 131,
+      "source_file": "SKILL.md",
+      "text": "display:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_74",
+      "id": 74,
+      "line_end": 132,
+      "line_start": 132,
+      "source_file": "SKILL.md",
+      "text": "fontFamily: Inter Variable",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_75",
+      "id": 75,
+      "line_end": 133,
+      "line_start": 133,
+      "source_file": "SKILL.md",
+      "text": "fontSize: 64px",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_76",
+      "id": 76,
+      "line_end": 134,
+      "line_start": 134,
+      "source_file": "SKILL.md",
+      "text": "lineHeight: 64px",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_77",
+      "id": 77,
+      "line_end": 135,
+      "line_start": 135,
+      "source_file": "SKILL.md",
+      "text": "fontWeight: 510",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_78",
+      "id": 78,
+      "line_end": 138,
+      "line_start": 138,
+      "source_file": "SKILL.md",
+      "text": "Never emit URL-specific aliases such as family, size, weight, mobile-display, or nested sans/mono values inside a typography scale. Reconstructed role names may vary; schema field names may not.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_79",
+      "id": 79,
+      "line_end": 140,
+      "line_start": 140,
+      "source_file": "SKILL.md",
+      "text": "For URL output, use css-tailwind as the compatibility export target unless the user specifies another target. Flatten reconstructed color roles into valid token names. Use background-primary, foreground-secondary, or border-muted, not nested keys such as background.primary or foreground.secondary. Every emitted token name must match ^[a-zA-Z0-9][a-zA-Z0-9-]$; reject and rewrite any key that would fail this test.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_80",
+      "id": 80,
+      "line_end": 142,
+      "line_start": 142,
+      "source_file": "SKILL.md",
+      "text": "Normalize URL frontmatter before writing any Markdown. The order is: collect evidence, choose the export target, map evidence into the canonical schema, reject invalid shapes, then write the document. Never draft prose first and retrofit the YAML afterward.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_81",
+      "id": 81,
+      "line_end": 144,
+      "line_start": 144,
+      "source_file": "SKILL.md",
+      "text": "URL frontmatter must satisfy these shape rules:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_82",
+      "id": 82,
+      "line_end": 146,
+      "line_start": 146,
+      "source_file": "SKILL.md",
+      "text": "colors is a flat mapping of valid token names to values.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_83",
+      "id": 83,
+      "line_end": 147,
+      "line_start": 147,
+      "source_file": "SKILL.md",
+      "text": "typography is a mapping of named scales; each scale is a mapping using only canonical fields.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_84",
+      "id": 84,
+      "line_end": 148,
+      "line_start": 148,
+      "source_file": "SKILL.md",
+      "text": "rounded and spacing are flat mappings of valid token names to values.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_85",
+      "id": 85,
+      "line_end": 149,
+      "line_start": 149,
+      "source_file": "SKILL.md",
+      "text": "components may reference canonical token paths but may not introduce a second token schema.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_86",
+      "id": 86,
+      "line_end": 151,
+      "line_start": 151,
+      "source_file": "SKILL.md",
+      "text": "If normalization would require inventing a token name, field, scale, or semantic relationship, omit the candidate.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_87",
+      "id": 87,
+      "line_end": 153,
+      "line_start": 153,
+      "source_file": "SKILL.md",
+      "text": "Outside the Overview, every Markdown sentence must change an implementation choice. Delete component inventories, generic design advice, and prose that only restates YAML.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_88",
+      "id": 88,
+      "line_end": 155,
+      "line_start": 155,
+      "source_file": "SKILL.md",
+      "text": "Preserve the scope and direction of every rule. When implementation conflicts with explicit guidance, document the guidance and report the conflict outside DESIGN.md.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_89",
+      "id": 89,
+      "line_end": 157,
+      "line_start": 157,
+      "source_file": "SKILL.md",
+      "text": "4. Write the document",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_90",
+      "id": 90,
+      "line_end": 159,
+      "line_start": 159,
+      "source_file": "SKILL.md",
+      "text": "Start with the smallest valid frontmatter:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_91",
+      "id": 91,
+      "line_end": 162,
+      "line_start": 162,
+      "source_file": "SKILL.md",
+      "text": "---",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_92",
+      "id": 92,
+      "line_end": 163,
+      "line_start": 163,
+      "source_file": "SKILL.md",
+      "text": "version: alpha",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_93",
+      "id": 93,
+      "line_end": 164,
+      "line_start": 164,
+      "source_file": "SKILL.md",
+      "text": "name: <string>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_94",
+      "id": 94,
+      "line_end": 165,
+      "line_start": 165,
+      "source_file": "SKILL.md",
+      "text": "description: <string>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_95",
+      "id": 95,
+      "line_end": 166,
+      "line_start": 166,
+      "source_file": "SKILL.md",
+      "text": "---",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_96",
+      "id": 96,
+      "line_end": 169,
+      "line_start": 169,
+      "source_file": "SKILL.md",
+      "text": "Only name is required. Add colors, typography, rounded, spacing, or components only when a governing source already defines that named system or contract. Do not create token names to organize implementation values. Token references use {path.to.token}.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_97",
+      "id": 97,
+      "line_end": 171,
+      "line_start": 171,
+      "source_file": "SKILL.md",
+      "text": "Use schema-shaped mappings, not copied source nesting. A typography scale is always named and maps its properties beneath it:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_98",
+      "id": 98,
+      "line_end": 174,
+      "line_start": 174,
+      "source_file": "SKILL.md",
+      "text": "typography:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_99",
+      "id": 99,
+      "line_end": 175,
+      "line_start": 175,
+      "source_file": "SKILL.md",
+      "text": "sans:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_100",
+      "id": 100,
+      "line_end": 176,
+      "line_start": 176,
+      "source_file": "SKILL.md",
+      "text": "fontFamily: Geist",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_101",
+      "id": 101,
+      "line_end": 177,
+      "line_start": 177,
+      "source_file": "SKILL.md",
+      "text": "mono:",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_102",
+      "id": 102,
+      "line_end": 178,
+      "line_start": 178,
+      "source_file": "SKILL.md",
+      "text": "fontFamily: Geist Mono",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_103",
+      "id": 103,
+      "line_end": 181,
+      "line_start": 181,
+      "source_file": "SKILL.md",
+      "text": "If the source defines only --radius, write rounded.base, not rounded.radius; do not derive sm, md, lg, or xl from utility classes or repeated values. Before saving, inspect the parsed frontmatter and reject it yourself if any typography child is scalar or if rounded contains keys not present in the governing source.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_104",
+      "id": 104,
+      "line_end": 183,
+      "line_start": 183,
+      "source_file": "SKILL.md",
+      "text": "Start with ## Overview. State only the product's purpose and evidenced design direction. Do not summarize pages, components, tokens, or implementation. Add only supported sections from this order:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_105",
+      "id": 105,
+      "line_end": 185,
+      "line_start": 185,
+      "source_file": "SKILL.md",
+      "text": "Colors",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_106",
+      "id": 106,
+      "line_end": 186,
+      "line_start": 186,
+      "source_file": "SKILL.md",
+      "text": "Themes",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_107",
+      "id": 107,
+      "line_end": 187,
+      "line_start": 187,
+      "source_file": "SKILL.md",
+      "text": "Typography",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_108",
+      "id": 108,
+      "line_end": 188,
+      "line_start": 188,
+      "source_file": "SKILL.md",
+      "text": "Layout",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_109",
+      "id": 109,
+      "line_end": 189,
+      "line_start": 189,
+      "source_file": "SKILL.md",
+      "text": "Elevation & Depth",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_110",
+      "id": 110,
+      "line_end": 190,
+      "line_start": 190,
+      "source_file": "SKILL.md",
+      "text": "Shapes",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_111",
+      "id": 111,
+      "line_end": 191,
+      "line_start": 191,
+      "source_file": "SKILL.md",
+      "text": "Components",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_112",
+      "id": 112,
+      "line_end": 192,
+      "line_start": 192,
+      "source_file": "SKILL.md",
+      "text": "Do's and Don'ts",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_113",
+      "id": 113,
+      "line_end": 194,
+      "line_start": 194,
+      "source_file": "SKILL.md",
+      "text": "Do not create a section merely because it exists in the format. Do not reorder or duplicate included sections. Add an unknown section only when supported guidance cannot fit a standard section.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_114",
+      "id": 114,
+      "line_end": 196,
+      "line_start": 196,
+      "source_file": "SKILL.md",
+      "text": "Markdown records design intent and application guidance. Except for the fallback ## Themes table, do not put token inventories, component configuration, source syntax, or documentation methodology in Markdown.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_115",
+      "id": 115,
+      "line_end": 198,
+      "line_start": 198,
+      "source_file": "SKILL.md",
+      "text": "Include a Don't only when a governing source states an explicit prohibition.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_116",
+      "id": 116,
+      "line_end": 200,
+      "line_start": 200,
+      "source_file": "SKILL.md",
+      "text": "Put exact normative values in YAML frontmatter, except alternate-theme values when the installed specification cannot represent modes.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_117",
+      "id": 117,
+      "line_end": 201,
+      "line_start": 201,
+      "source_file": "SKILL.md",
+      "text": "Put supported rationale and application guidance in Markdown.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_118",
+      "id": 118,
+      "line_end": 202,
+      "line_start": 202,
+      "source_file": "SKILL.md",
+      "text": "Preserve accepted decisions from an existing DESIGN.md unless the user or current governing evidence replaces them.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_119",
+      "id": 119,
+      "line_end": 203,
+      "line_start": 203,
+      "source_file": "SKILL.md",
+      "text": "Do not invent brand personality, audience, or emotional rationale.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_120",
+      "id": 120,
+      "line_end": 204,
+      "line_start": 204,
+      "source_file": "SKILL.md",
+      "text": "Do not include citations, audit notes, rejected candidates, conflicts, or unresolved questions inside DESIGN.md.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_121",
+      "id": 121,
+      "line_end": 206,
+      "line_start": 206,
+      "source_file": "SKILL.md",
+      "text": "Before saving, delete:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_122",
+      "id": 122,
+      "line_end": 208,
+      "line_start": 208,
+      "source_file": "SKILL.md",
+      "text": "any YAML token not already named by a governing source",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_123",
+      "id": 123,
+      "line_end": 209,
+      "line_start": 209,
+      "source_file": "SKILL.md",
+      "text": "any page-local behavior presented as a product-wide rule",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_124",
+      "id": 124,
+      "line_end": 210,
+      "line_start": 210,
+      "source_file": "SKILL.md",
+      "text": "any implementation pattern that conflicts with explicit guidance",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_125",
+      "id": 125,
+      "line_end": 211,
+      "line_start": 211,
+      "source_file": "SKILL.md",
+      "text": "any prohibition not explicitly stated",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_126",
+      "id": 126,
+      "line_end": 212,
+      "line_start": 212,
+      "source_file": "SKILL.md",
+      "text": "any exact implementation value outside YAML frontmatter or the fallback ## Themes table",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_127",
+      "id": 127,
+      "line_end": 213,
+      "line_start": 213,
+      "source_file": "SKILL.md",
+      "text": "any component configuration or documentation methodology in Markdown",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_128",
+      "id": 128,
+      "line_end": 214,
+      "line_start": 214,
+      "source_file": "SKILL.md",
+      "text": "any sentence that does not change the resulting DESIGN.md",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_129",
+      "id": 129,
+      "line_end": 216,
+      "line_start": 216,
+      "source_file": "SKILL.md",
+      "text": "Run one final no-op pass: remove vague advice such as \u201cbe thorough,\u201d \u201ckeep it polished,\u201d or \u201cuse good judgment.\u201d Keep only evidence gates, schema constraints, or application rules that change the document.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_130",
+      "id": 130,
+      "line_end": 218,
+      "line_start": 218,
+      "source_file": "SKILL.md",
+      "text": "5. Validate",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_131",
+      "id": 131,
+      "line_end": 220,
+      "line_start": 220,
+      "source_file": "SKILL.md",
+      "text": "Run structural linting:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_132",
+      "id": 132,
+      "line_end": 223,
+      "line_start": 223,
+      "source_file": "SKILL.md",
+      "text": "npx @google/design.md lint DESIGN.md",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_133",
+      "id": 133,
+      "line_end": 226,
+      "line_start": 226,
+      "source_file": "SKILL.md",
+      "text": "Then run one compatibility export using the target selected above:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_134",
+      "id": 134,
+      "line_end": 229,
+      "line_start": 229,
+      "source_file": "SKILL.md",
+      "text": "npx @google/design.md export --format <format> DESIGN.md",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_135",
+      "id": 135,
+      "line_end": 232,
+      "line_start": 232,
+      "source_file": "SKILL.md",
+      "text": "Inspect the output. Every populated frontmatter category supported by the target must emit its corresponding token category; an empty or missing category is a schema failure even when the command exits successfully. Rewrite the frontmatter and rerun validation until the category is emitted, unless the target genuinely cannot represent it. Do not report success while any populated category is missing from the export. Do not return the document while lint or export fails. Do not remove supported design information solely to satisfy an exporter limitation; report that limitation instead. Do not create or retain exported files.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_136",
+      "id": 136,
+      "line_end": 234,
+      "line_start": 234,
+      "source_file": "SKILL.md",
+      "text": "For css-tailwind, verify these output families: colors \u2192 --color-, typography.<name>.fontFamily \u2192 --font-, typography.<name>.fontSize \u2192 --text-, rounded \u2192 --radius-, and spacing \u2192 --spacing-. Typography entries are named scales; put fontFamily, fontSize, and lineHeight inside each scale, never under arbitrary source nesting such as font-family. If typography is populated but the export contains neither --font- nor --text-, the document is invalid and must be rewritten before reporting.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_137",
+      "id": 137,
+      "line_end": 236,
+      "line_start": 236,
+      "source_file": "SKILL.md",
+      "text": "When updating an existing document, preserve its original contents temporarily and run:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_138",
+      "id": 138,
+      "line_end": 239,
+      "line_start": 239,
+      "source_file": "SKILL.md",
+      "text": "npx @google/design.md diff <previous-file> DESIGN.md",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_139",
+      "id": 139,
+      "line_end": 242,
+      "line_start": 242,
+      "source_file": "SKILL.md",
+      "text": "Restore any removed accepted decision unless current governing evidence or the user explicitly replaces it.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_140",
+      "id": 140,
+      "line_end": 244,
+      "line_start": 244,
+      "source_file": "SKILL.md",
+      "text": "6. Report",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_141",
+      "id": 141,
+      "line_end": 246,
+      "line_start": 246,
+      "source_file": "SKILL.md",
+      "text": "Return:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_142",
+      "id": 142,
+      "line_end": 248,
+      "line_start": 248,
+      "source_file": "SKILL.md",
+      "text": "mode and audited product or URL",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_143",
+      "id": 143,
+      "line_end": 249,
+      "line_start": 249,
+      "source_file": "SKILL.md",
+      "text": "created or updated DESIGN.md",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_144",
+      "id": 144,
+      "line_end": 250,
+      "line_start": 250,
+      "source_file": "SKILL.md",
+      "text": "governing sources used",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_145",
+      "id": 145,
+      "line_end": 251,
+      "line_start": 251,
+      "source_file": "SKILL.md",
+      "text": "conflicts or unsupported areas omitted from the document",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_146",
+      "id": 146,
+      "line_end": 252,
+      "line_start": 252,
+      "source_file": "SKILL.md",
+      "text": "final lint and export results",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_147",
+      "id": 147,
+      "line_end": 254,
+      "line_start": 254,
+      "source_file": "SKILL.md",
+      "text": "In URL mode, label the output as a reconstructed draft.",
+      "unit_type": "paragraph"
+    }
+  ]
+}

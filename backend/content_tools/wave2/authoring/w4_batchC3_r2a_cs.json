@@ -1,0 +1,104 @@
+{
+  "edits": [
+    {
+      "file": "c11_cs_cbse_06_007.md",
+      "walkthrough_append": "Worked check: prove immutability with one error — s = 'hello'; s[0] = 'H' raises TypeError, but s = 'H' + s[1:] succeeds: a new object 'Hello' was built and the name re-bound, the original untouched. Tuples behave the same; lists are the mutable contrast (L[0] = 9 works). For the board examination, immutability questions give such code and ask which lines fail, which succeed and why — answer with object-type in one clause and new-object-versus-modification in the next; that clause pair is the full concept."
+    },
+    {
+      "file": "c11_cs_cbse_06_008.md",
+      "walkthrough_append": "Worked check: operate on one list end to end — L = [10, 20, 30]: L[1] = 99 changes it (mutable), L.append(40) grows it, len(L) reports 4, L[1:3] slices [99, 30], and 30 in L tests membership as True. One container, and every sequence operation on display. For the board examination, list questions give a list and a run of operations to evaluate — write the list's state after each operation, one line per operation; carrying the state forward line by line is the method, and skipping a step is where marks die."
+    },
+    {
+      "file": "c11_cs_cbse_06_011.md",
+      "walkthrough_append": "Worked check: run the five on one list — L = [5, 1, 8]: L.append(2) gives [5, 1, 8, 2]; L.insert(1, 9) gives [5, 9, 1, 8, 2]; L.remove(8) hunts the value 8 and deletes it (ValueError if absent); L.pop() returns and removes the last item, L.pop(1) the one at index 1; L.sort() orders ascending in place (reverse=True flips it), while sorted(L) would return a new list instead. For the board examination, method questions are state-tracing exercises — write the list after each call, and know pop's return value versus remove's None."
+    },
+    {
+      "file": "c11_cs_cbse_06_012.md",
+      "walkthrough_append": "Worked check: read one matrix from a nested list — M = [[1, 2, 3], [4, 5, 6]]: M[1] is the second row [4, 5, 6]; M[1][2] is 6 — first index picks the row, second the column; M[0][0] + M[1][2] is 7. Nested loops walk it: for row in M, for x in row. For the board examination, nested-list questions give a matrix and ask for element access, row sums or transpose logic — write the double-index explicitly (row then column) and show one full traversal; index order is where every error is born."
+    },
+    {
+      "file": "c11_cs_cbse_06_013.md",
+      "walkthrough_append": "Worked check: compress a loop into one line — squares of 1 to 5: [x * x for x in range(1, 6)] gives [1, 4, 9, 16, 25]; with a filter: [x for x in range(10) if x % 2 == 0] gives [0, 2, 4, 6, 8]; with transformation and filter together: [x.upper() for x in 'abc' if x != 'b'] gives ['A', 'C']. For the board examination, comprehension questions give a loop-pair to convert or a comprehension to evaluate; expand the comprehension back into for-and-append when unsure — the expansion is the meaning, and writing it earns working marks."
+    },
+    {
+      "file": "c11_cs_cbse_06_014.md",
+      "walkthrough_append": "Worked check: watch an alias bite — a = [1, 2, 3]; b = a makes b another name for the same object; b.append(4) and then print(a) shows [1, 2, 3, 4]: one list, two names. The cure is a copy: c = a[:] (or list(a)), after which c.append(5) leaves a alone. For the board examination, aliasing questions give such sequences and ask the printed values — trace which names share the object (draw the two arrows to one box if it helps) and state the copy method when the question asks how to break the sharing."
+    },
+    {
+      "file": "c11_cs_cbse_07_002.md",
+      "walkthrough_append": "Worked check: create and test a tuple — t = (10, 'a', 3.5); t[0] is 10, t[-1] is 3.5, len(t) is 3; t[0] = 99 raises TypeError — immutable, case closed. The singleton trap: x = (5) is just the integer 5; x = (5,) is the one-element tuple — the comma, not the parenthesis, makes the tuple. For the board examination, tuple questions give expressions to evaluate, including the singleton trap and an attempted mutation; write value-and-type for each, and quote the TypeError for the mutation attempt by name."
+    },
+    {
+      "file": "c11_cs_cbse_07_003.md",
+      "walkthrough_append": "Worked check: run the operations once each — t = (1, 2) + (3,) gives (1, 2, 3) (a new tuple); t * 2 gives (1, 2, 3, 1, 2, 3); 3 in t is True; t[1:3] slices (2, 3) — all read-only operations permitted on an immutable sequence. What is forbidden: any assignment to an index, append, or remove. For the board examination, tuple-operation questions give expressions to evaluate and mutation attempts to reject — evaluate each, and for the rejections name the error; the boundary between legal read operations and illegal edits is the whole question."
+    },
+    {
+      "file": "c11_cs_cbse_07_004.md",
+      "walkthrough_append": "Worked check: use both methods on one tuple — t = (4, 7, 4, 9, 4): t.count(4) returns 3, t.index(4) returns 0 (the first occurrence only), and t.index(5) raises ValueError since the value is absent. Both are read-only, fitting the tuple's immutability — no append or remove exists to contradict it. For the board examination, method questions give tuples and calls to evaluate — write the returned number or name the exception, and note the first-occurrence rule for index(); the exception case is the mark most candidates drop."
+    },
+    {
+      "file": "c11_cs_cbse_07_006.md",
+      "walkthrough_append": "Worked check: unpack in one line — a, b = 10, 20 swaps with a, b = b, a: the right side packs (20, 10) as a tuple, the left unpacks it into the names; a function returning two values works the same way: low, high = min_max(data). Mismatched counts raise ValueError ('too many values to unpack'). For the board examination, unpacking questions give assignment statements to evaluate (the swap is the classic) or a function to write returning multiple values — trace the pack-then-unpack order explicitly, since that order is the mechanism being tested."
+    },
+    {
+      "file": "c11_cs_cbse_07_008.md",
+      "walkthrough_append": "Worked check: build one dictionary — student = {'roll': 21, 'name': 'Meera'}; student['marks'] = 88 adds a pair; student['roll'] reads 21 by key, and student['city'] raises KeyError while student.get('city', 'NA') returns NA quietly; keys must be immutable (strings, numbers, tuples), values anything at all. For the board examination, dictionary questions give operations to trace — write the dictionary after each add, modify or delete, and for every lookup state the returned value or the exception; get-with-default versus bracket access is the contrast examiners set."
+    },
+    {
+      "file": "c11_cs_cbse_07_009.md",
+      "walkthrough_append": "Worked check: run the mutators once — d = {'a': 1}; d['b'] = 2 adds; d['a'] = 9 overwrites; del d['b'] removes the pair (KeyError if absent); d.pop('a') removes and returns 9; d.clear() empties the dictionary; d.update({'c': 3, 'd': 4}) merges pairs in bulk. For the board examination, dictionary-method questions give a start dictionary and a run of calls — write the state after each, mind pop's return value, and distinguish del (no return) from pop (returns the removed value); that return-value contrast is the question's usual target."
+    },
+    {
+      "file": "c11_cs_cbse_08_001.md",
+      "walkthrough_append": "Worked check: write and call one function — def area(r): return 3.14 * r * r; then a = area(7) runs the body with r bound to 7 and returns 153.86 into the caller's name. The anatomy: def, name, parameter list, indented body, return. Without return, the function gives back None — worth remembering before printing instead of returning. For the board examination, function questions give a task and ask for the definition plus a sample call — write the def line exactly, the return (not print), and show one call with its value; returning versus printing is the distinction being probed."
+    },
+    {
+      "file": "c11_cs_cbse_08_002.md",
+      "walkthrough_append": "Worked check: dissect one definition — def bill(qty, price=50): total = qty * price; return total — the header names the function and its parameters (price carrying a default); the body computes; return hands total back. Scope check: total exists only inside the call. For the board examination, definition questions ask for the def-syntax with parts labelled (keyword, name, parameters, colon, body, return), and often to write a function from a worded task; label the parts in the margin — the labelling is where the definition's marks are counted."
+    },
+    {
+      "file": "c11_cs_cbse_08_003.md",
+      "walkthrough_append": "Worked check: trace one call's journey — the statement y = double(5) passes 5 into the parameter, runs the body, returns 10, resumes after the call site; the argument's value is copied into the parameter (pass by value for immutable types), and names created inside the function vanish at return. For the board examination, calling questions give code with function calls and ask the printed output — trace control: into the function, through the body, back with the value, then the assignment; drawing the parameter's value beside the argument at each call untangles every such question."
+    },
+    {
+      "file": "c11_cs_cbse_08_005.md",
+      "walkthrough_append": "Worked check: call one defaulted function both ways — def greet(name, msg='Hello'): then greet('Asha') uses the default and greet('Asha', 'Get well') overrides it; the rules: defaults must sit after positional parameters in the definition, and a mutable default (a list) is created once and shared across calls — the classic trap. For the board examination, default-argument questions give calls to evaluate or rules to state — evaluate each call with the effective parameter values written out, and flag the mutable-default trap with a one-line example when the paper invites it."
+    },
+    {
+      "file": "c11_cs_cbse_08_006.md",
+      "walkthrough_append": "Worked check: pass arguments by name — def bill(qty, price): ...; bill(price=50, qty=3) works exactly like bill(3, 50) but cannot be misread: each value lands on its named parameter regardless of order. Mixing is allowed with one rule — positionals first: bill(3, price=50) is fine, bill(qty=3, 50) is a SyntaxError. For the board examination, keyword-argument questions give mixed calls to evaluate or errors to name — write which parameter receives which value, and mark the positional-after-keyword call as the syntax error by name."
+    },
+    {
+      "file": "c11_cs_cbse_08_012.md",
+      "walkthrough_append": "Worked check: use lambda where it belongs — square = lambda x: x * x works like the def version, but the real use is inline: sorted(pairs, key=lambda p: p[1]) sorts pairs by their second element; list(filter(lambda n: n % 2 == 0, nums)) keeps evens. One expression, no name, no return — the expression's value returns itself. For the board examination, lambda questions ask for the syntax, its limits (single expression, no statements), and a conversion both ways — def to lambda and lambda back to def; both directions appear on papers with equal weight."
+    },
+    {
+      "file": "c11_cs_cbse_08_013.md",
+      "walkthrough_append": "Worked check: import once and use twice — save def GST(amount): return amount * 0.18 in billing.py; in another program, import billing and call billing.GST(1000) for 180.0; or from billing import GST to call GST(1000) directly. The module's namespace keeps its names apart from the importing program's — no clashes unless you force them. For the board examination, module questions ask for the import syntaxes (whole-module versus from-import versus alias import billing as b) and the dot-notation consequences of each; writing the same call under all three syntaxes is the complete answer."
+    },
+    {
+      "file": "c11_cs_cbse_08_014.md",
+      "walkthrough_append": "Worked check: build one module by hand — write def sq(n): return n * n into mymath.py in the project folder; in the same folder, import mymath and call mymath.sq(9) for 81; add a __doc__ string and print(mymath.__doc__) to see it. First import runs the file once; later imports reuse it. For the board examination, user-defined-module questions ask for the file rules (.py, importable name), the search-path point (current folder first), and a worked create-import-call sequence; write the two files' contents side by side — that pairing is the expected answer shape."
+    },
+    {
+      "file": "c11_cs_cbse_09_001.md",
+      "walkthrough_append": "Worked check: contrast the two storages with one scenario — a quiz app keeps scores in variables: close the program and they vanish (RAM is volatile); the same scores written to scores.txt survive restarts, edits and power cuts (disk is persistent). File handling is the set of operations that makes that persistence controllable: create, open, read, write, append, close. For the board examination, file-handling questions open with the need for persistence — answer with the volatile-versus-persistent pair, then list the operation cycle in order; the cycle, not the definition, is the scored core."
+    },
+    {
+      "file": "c11_cs_cbse_09_002.md",
+      "walkthrough_append": "Worked check: open one file and close it — f = open('data.txt', 'r') returns the handle or raises FileNotFoundError if absent; work through f.read(); then f.close() releases the resource; the safer with open('data.txt', 'r') as f: closes it automatically even on error. The handle is the working connection — everything goes through it. For the board examination, open() questions give open calls to interpret (filename, mode, result) and error cases to name; write the with-form for any given open-close pair, since examiners increasingly require the safe pattern."
+    },
+    {
+      "file": "c11_cs_cbse_09_003.md",
+      "walkthrough_append": "Worked check: choose a mode by intent — reading an existing file: 'r' (FileNotFoundError if missing); overwriting from scratch: 'w' (truncates immediately, creates if missing); adding to a log: 'a' (appends at the end, creates if missing); read-and-write on existing content: 'r+'; binary images: 'rb', 'wb'. The plus signs widen, the b switches encoding off. For the board examination, file-mode questions give scenarios and ask the mode letter — answer with the letter, its full name (read/write/append), and the one-line behaviour on a missing file, which is the detail that separates grades."
+    },
+    {
+      "file": "c11_cs_cbse_09_004.md",
+      "walkthrough_append": "Worked check: read one file three ways — f.read() returns the whole file as one string (or n characters with read(n)); f.readline() returns the next line including its newline, and an empty string only at end of file; f.readlines() returns a list of all lines, each still carrying its newline. Ten lines, one method each: watch the newline in printouts. For the board examination, read-method questions give file contents and ask each method's return — write the exact returned string or list, newlines shown as \\n; the newline detail is the examiner's favourite subtlety."
+    },
+    {
+      "file": "c11_cs_cbse_09_005.md",
+      "walkthrough_append": "Worked check: write and verify — f = open('log.txt', 'w'); f.write('line one') returns 8, the character count; f.write('\\nline two') adds a new line — write never adds newlines itself; after f.close(), open the file to see both lines; and note 'w' erased whatever was there before the first write. For the board examination, write-method questions give write calls and ask the file's final contents and the returned counts — show each write's effect in sequence, remember write returns the character count (not the file), and state the overwrite behaviour of 'w' mode explicitly."
+    }
+  ]
+}

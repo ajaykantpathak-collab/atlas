@@ -1,0 +1,2013 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c9)",
+ "source_file": "c9_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C9_001",
+   "title": "Equations of motion (uniform acceleration): v = ...",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "v = u + a*t",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using equations of motion (uniform acceleration)",
+    "calculate equations of motion (uniform acceleration)",
+    "equations of motion (uniform acceleration) formula question",
+    "given values find v",
+    "motion in one dimension equations of motion (uniform acceleration) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_001",
+     "question_pattern": "equations of motion (uniform acceleration) with {u} and {a} and {t} find v",
+     "extracted_variables": {
+      "u": "given u",
+      "a": "given a",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  },
+  {
+   "id": "FB_PHY_C9_002",
+   "title": "Equations of motion (uniform acceleration): s = ...",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "s = u*t + 1/2*a*t^2",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find s using equations of motion (uniform acceleration)",
+    "calculate equations of motion (uniform acceleration)",
+    "equations of motion (uniform acceleration) formula question",
+    "given values find s",
+    "motion in one dimension equations of motion (uniform acceleration) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_002",
+     "question_pattern": "equations of motion (uniform acceleration) with {u} and {t} and {a} and {t} find s",
+     "extracted_variables": {
+      "u": "given u",
+      "t": "given t",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, t, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "s = u*t + 1/2*a*t^2",
+     "compute": "s = u*t + 1/2*a*t^2"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  },
+  {
+   "id": "FB_PHY_C9_003",
+   "title": "Newton's Third Law: F_1_2 = ...",
+   "section": "LAWS OF MOTION",
+   "formula": "F_1_2 = -F_2*_1",
+   "_pats_extra": [],
+   "key_idea": "Newton's Third Law (LAWS OF MOTION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f_1_2 using newton's third law",
+    "calculate newton's third law",
+    "newton's third law formula question",
+    "given values find f_1_2",
+    "laws of motion newton's third law numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_003",
+     "question_pattern": "newton's third law with {F_2} and {_1} find f_1_2",
+     "extracted_variables": {
+      "F_2": "given F_2",
+      "_1": "given _1"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F_2, _1 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F_1_2 = -F_2*_1",
+     "compute": "F_1_2 = -F_2*_1"
+    }
+   ],
+   "chapter_title": "LAWS OF MOTION"
+  },
+  {
+   "id": "FB_PHY_C9_004",
+   "title": "Energy: KE = ...",
+   "section": "WORK, ENERGY, POWER",
+   "formula": "KE = 1/2*m*v^2 (kinetic_energy, always_positive)",
+   "_pats_extra": [],
+   "key_idea": "Energy (WORK, ENERGY, POWER)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ke using energy",
+    "calculate energy",
+    "energy formula question",
+    "given values find ke",
+    "work, energy, power energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_004",
+     "question_pattern": "energy with {m} and {v} and {kinetic_energy} and {always_positive} find ke",
+     "extracted_variables": {
+      "m": "given m",
+      "v": "given v",
+      "kinetic_energy": "given kinetic_energy",
+      "always_positive": "given always_positive"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, v, kinetic_energy, always_positive from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "KE = 1/2*m*v^2 (kinetic_energy, always_positive)",
+     "compute": "KE = 1/2*m*v^2 (kinetic_energy, always_positive)"
+    }
+   ],
+   "chapter_title": "WORK, ENERGY, POWER"
+  },
+  {
+   "id": "FB_PHY_C9_005",
+   "title": "Wave properties: f = ...",
+   "section": "SOUND",
+   "formula": "f = 1/T",
+   "_pats_extra": [],
+   "key_idea": "Wave properties (SOUND)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using wave properties",
+    "calculate wave properties",
+    "wave properties formula question",
+    "given values find f",
+    "sound wave properties numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_005",
+     "question_pattern": "wave properties with {T} find f",
+     "extracted_variables": {
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "f = 1/T",
+     "compute": "f = 1/T"
+    }
+   ],
+   "chapter_title": "SOUND"
+  },
+  {
+   "id": "FB_PHY_C9_006",
+   "title": "Speed of sound: v = ...",
+   "section": "SOUND",
+   "formula": "v = 331 + 0.6*T*deg*C*approximate_formula",
+   "_pats_extra": [],
+   "key_idea": "Speed of sound (SOUND)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using speed of sound",
+    "calculate speed of sound",
+    "speed of sound formula question",
+    "given values find v",
+    "sound speed of sound numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_006",
+     "question_pattern": "speed of sound with {T} and {deg} and {C} and {approximate_formula} find v",
+     "extracted_variables": {
+      "T": "given T",
+      "deg": "given deg",
+      "C": "given C",
+      "approximate_formula": "given approximate_formula"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T, deg, C, approximate_formula from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = 331 + 0.6*T*deg*C*approximate_formula",
+     "compute": "v = 331 + 0.6*T*deg*C*approximate_formula"
+    }
+   ],
+   "chapter_title": "SOUND"
+  },
+  {
+   "id": "FB_PHY_C9_007",
+   "title": "EMF and internal resistance: V = ...",
+   "section": "ELECTRICITY",
+   "formula": "V = epsilon - I*r*voltage_drops",
+   "_pats_extra": [],
+   "key_idea": "EMF and internal resistance (ELECTRICITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using emf and internal resistance",
+    "calculate emf and internal resistance",
+    "emf and internal resistance formula question",
+    "given values find v",
+    "electricity emf and internal resistance numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_007",
+     "question_pattern": "emf and internal resistance with {I} and {r} and {voltage_drops} find v",
+     "extracted_variables": {
+      "I": "given I",
+      "r": "given r",
+      "voltage_drops": "given voltage_drops"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for I, r, voltage_drops from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "V = epsilon - I*r*voltage_drops",
+     "compute": "V = epsilon - I*r*voltage_drops"
+    }
+   ],
+   "chapter_title": "ELECTRICITY"
+  },
+  {
+   "id": "FB_PHY_C9_008",
+   "title": "CONSTANTS: G = ...",
+   "section": "CONSTANTS",
+   "formula": "G = 6.674*10^-11*N*x*m^2/kg^2",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find g",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_008",
+     "question_pattern": "constants with {N} and {m} and {kg} find g",
+     "extracted_variables": {
+      "N": "given N",
+      "m": "given m",
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N, m, kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "G = 6.674*10^-11*N*x*m^2/kg^2",
+     "compute": "G = 6.674*10^-11*N*x*m^2/kg^2"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C9_009",
+   "title": "CONSTANTS: c = ...",
+   "section": "CONSTANTS",
+   "formula": "c = 3*10^8/s",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find c",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_009",
+     "question_pattern": "constants with {s} find c",
+     "extracted_variables": {
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c = 3*10^8/s",
+     "compute": "c = 3*10^8/s"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C9_010",
+   "title": "CONSTANTS: Density of water = ...",
+   "section": "CONSTANTS",
+   "formula": "Density_of_water = 1000/m^3",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find density of water using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find density of water",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_010",
+     "question_pattern": "constants with {m} find density of water",
+     "extracted_variables": {
+      "m": "given m"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Density of water = 1000/m^3",
+     "compute": "Density_of_water = 1000/m^3"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C9_011",
+   "title": "CONSTANTS: c_water = ...",
+   "section": "CONSTANTS",
+   "formula": "c_water = 4200/kgxK",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c_water using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find c_water",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_011",
+     "question_pattern": "constants with {kgxK} find c_water",
+     "extracted_variables": {
+      "kgxK": "given kgxK"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kgxK from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c_water = 4200/kgxK",
+     "compute": "c_water = 4200/kgxK"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C9_012",
+   "title": "CONSTANTS: L_f (ice) = ...",
+   "section": "CONSTANTS",
+   "formula": "L_f_ice = 3.36*10^5/kg",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l_f (ice) using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find l_f (ice)",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_012",
+     "question_pattern": "constants with {kg} find l_f (ice)",
+     "extracted_variables": {
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L_f (ice) = 3.36*10^5/kg",
+     "compute": "L_f_ice = 3.36*10^5/kg"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FB_PHY_C9_013",
+   "title": "CONSTANTS: L_v (water) = ...",
+   "section": "CONSTANTS",
+   "formula": "L_v_water = 2.26*10^6/kg",
+   "_pats_extra": [],
+   "key_idea": "CONSTANTS (CONSTANTS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find l_v (water) using constants",
+    "calculate constants",
+    "constants formula question",
+    "given values find l_v (water)",
+    "constants constants numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_013",
+     "question_pattern": "constants with {kg} find l_v (water)",
+     "extracted_variables": {
+      "kg": "given kg"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kg from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "L_v (water) = 2.26*10^6/kg",
+     "compute": "L_v_water = 2.26*10^6/kg"
+    }
+   ],
+   "chapter_title": "CONSTANTS"
+  },
+  {
+   "id": "FBD_PHY_C9_001",
+   "title": "Pendulum Time Period T: Pendulum Time Period T = ...",
+   "section": "decision tree",
+   "formula": "Pendulum_Time_Period_T = 2*pi*sqrt",
+   "key_idea": "Pendulum Time Period T (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pendulum time period t using pendulum time period t",
+    "calculate pendulum time period t",
+    "pendulum time period t formula question",
+    "given values find pendulum time period t",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_001",
+     "question_pattern": "pendulum time period t with {pi} and {sqrt} find pendulum time period t",
+     "extracted_variables": {
+      "pi": "given pi",
+      "sqrt": "given sqrt"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for pi, sqrt from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Pendulum Time Period T = 2*pi*sqrt",
+     "compute": "Pendulum_Time_Period_T = 2*pi*sqrt"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_002",
+   "title": "Average Speed: Average Speed = ...",
+   "section": "decision tree",
+   "formula": "Average_Speed = total_distance / total_time",
+   "key_idea": "Average Speed (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find average speed using average speed",
+    "calculate average speed",
+    "average speed formula question",
+    "given values find average speed",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_002",
+     "question_pattern": "average speed with {total_distance} and {total_time} find average speed",
+     "extracted_variables": {
+      "total_distance": "given total_distance",
+      "total_time": "given total_time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for total_distance, total_time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Average Speed = total_distance / total_time",
+     "compute": "Average_Speed = total_distance / total_time"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_003",
+   "title": "Speed: Speed = ...",
+   "section": "decision tree",
+   "formula": "Speed = distance / time",
+   "key_idea": "Speed (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find speed using speed",
+    "calculate speed",
+    "speed formula question",
+    "given values find speed",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_003",
+     "question_pattern": "speed with {distance} and {time} find speed",
+     "extracted_variables": {
+      "distance": "given distance",
+      "time": "given time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for distance, time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Speed = distance / time",
+     "compute": "Speed = distance / time"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_004",
+   "title": "Friction f: Friction f = ...",
+   "section": "decision tree",
+   "formula": "Friction_f = mu*N",
+   "key_idea": "Friction f (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find friction f using friction f",
+    "calculate friction f",
+    "friction f formula question",
+    "given values find friction f",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_004",
+     "question_pattern": "friction f with {mu} and {N} find friction f",
+     "extracted_variables": {
+      "mu": "given mu",
+      "N": "given N"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mu, N from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Friction f = mu*N",
+     "compute": "Friction_f = mu*N"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_005",
+   "title": "Pressure P: Pressure P = ...",
+   "section": "decision tree",
+   "formula": "Pressure_P = h*rho*g",
+   "key_idea": "Pressure P (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pressure p using pressure p",
+    "calculate pressure p",
+    "pressure p formula question",
+    "given values find pressure p",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_005",
+     "question_pattern": "pressure p with {h} and {rho} and {g} find pressure p",
+     "extracted_variables": {
+      "h": "given h",
+      "rho": "given rho",
+      "g": "given g"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for h, rho, g from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Pressure P = h*rho*g",
+     "compute": "Pressure_P = h*rho*g"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_006",
+   "title": "F1/A1: F1/A1 = ...",
+   "section": "decision tree",
+   "formula": "F1/A1 = F2/A2",
+   "key_idea": "F1/A1 (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f1/a1 using f1/a1",
+    "calculate f1/a1",
+    "f1/a1 formula question",
+    "given values find f1/a1",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_006",
+     "question_pattern": "f1/a1 with {F2} and {A2} find f1/a1",
+     "extracted_variables": {
+      "F2": "given F2",
+      "A2": "given A2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F2, A2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F1/A1 = F2/A2",
+     "compute": "F1/A1 = F2/A2"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_007",
+   "title": "Pressure: Pressure = ...",
+   "section": "decision tree",
+   "formula": "Pressure = Force / Area",
+   "key_idea": "Pressure (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pressure using pressure",
+    "calculate pressure",
+    "pressure formula question",
+    "given values find pressure",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_007",
+     "question_pattern": "pressure with {Force} and {Area} find pressure",
+     "extracted_variables": {
+      "Force": "given Force",
+      "Area": "given Area"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Force, Area from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Pressure = Force / Area",
+     "compute": "Pressure = Force / Area"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_008",
+   "title": "Thermal Capacity: Thermal Capacity = ...",
+   "section": "decision tree",
+   "formula": "Thermal_Capacity = m*c",
+   "key_idea": "Thermal Capacity (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find thermal capacity using thermal capacity",
+    "calculate thermal capacity",
+    "thermal capacity formula question",
+    "given values find thermal capacity",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_008",
+     "question_pattern": "thermal capacity with {m} and {c} find thermal capacity",
+     "extracted_variables": {
+      "m": "given m",
+      "c": "given c"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, c from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Thermal Capacity = m*c",
+     "compute": "Thermal_Capacity = m*c"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_009",
+   "title": "Q/t: Q/t = ...",
+   "section": "decision tree",
+   "formula": "Q/t = k*A*x",
+   "key_idea": "Q/t (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q/t using q/t",
+    "calculate q/t",
+    "q/t formula question",
+    "given values find q/t",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_009",
+     "question_pattern": "q/t with {k} and {A} find q/t",
+     "extracted_variables": {
+      "k": "given k",
+      "A": "given A"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for k, A from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q/t = k*A*x",
+     "compute": "Q/t = k*A*x"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_010",
+   "title": "Magnification m: Magnification m = ...",
+   "section": "decision tree",
+   "formula": "Magnification_m = v/u",
+   "key_idea": "Magnification m (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find magnification m using magnification m",
+    "calculate magnification m",
+    "magnification m formula question",
+    "given values find magnification m",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_010",
+     "question_pattern": "magnification m with {v} and {u} find magnification m",
+     "extracted_variables": {
+      "v": "given v",
+      "u": "given u"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for v, u from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Magnification m = v/u",
+     "compute": "Magnification_m = v/u"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_011",
+   "title": "Power P: Power P = ...",
+   "section": "decision tree",
+   "formula": "Power_P = 1/f",
+   "key_idea": "Power P (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find power p using power p",
+    "calculate power p",
+    "power p formula question",
+    "given values find power p",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_011",
+     "question_pattern": "power p with {f} find power p",
+     "extracted_variables": {
+      "f": "given f"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for f from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Power P = 1/f",
+     "compute": "Power_P = 1/f"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_012",
+   "title": "n2/n1: n2/n1 = ...",
+   "section": "decision tree",
+   "formula": "n2/n1 = v1/v2",
+   "key_idea": "n2/n1 (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n2/n1 using n2/n1",
+    "calculate n2/n1",
+    "n2/n1 formula question",
+    "given values find n2/n1",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_012",
+     "question_pattern": "n2/n1 with {v1} and {v2} find n2/n1",
+     "extracted_variables": {
+      "v1": "given v1",
+      "v2": "given v2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for v1, v2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n2/n1 = v1/v2",
+     "compute": "n2/n1 = v1/v2"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_013",
+   "title": "sin C: sin C = ...",
+   "section": "decision tree",
+   "formula": "sin_C = 1/n",
+   "key_idea": "sin C (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sin c using sin c",
+    "calculate sin c",
+    "sin c formula question",
+    "given values find sin c",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_013",
+     "question_pattern": "sin c with {n} find sin c",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sin C = 1/n",
+     "compute": "sin_C = 1/n"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_014",
+   "title": "PE: PE = ...",
+   "section": "decision tree",
+   "formula": "PE = m*g*h",
+   "key_idea": "PE (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pe using pe",
+    "calculate pe",
+    "pe formula question",
+    "given values find pe",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_014",
+     "question_pattern": "pe with {m} and {g} and {h} find pe",
+     "extracted_variables": {
+      "m": "given m",
+      "g": "given g",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, g, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PE = m*g*h",
+     "compute": "PE = m*g*h"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_015",
+   "title": "delta PE: delta PE = ...",
+   "section": "decision tree",
+   "formula": "delta_PE = m*g*x",
+   "key_idea": "delta PE (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta pe using delta pe",
+    "calculate delta pe",
+    "delta pe formula question",
+    "given values find delta pe",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_015",
+     "question_pattern": "delta pe with {m} and {g} find delta pe",
+     "extracted_variables": {
+      "m": "given m",
+      "g": "given g"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, g from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "delta PE = m*g*x",
+     "compute": "delta_PE = m*g*x"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_016",
+   "title": "Density: Density = ...",
+   "section": "decision tree",
+   "formula": "Density = mass / volume",
+   "key_idea": "Density (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find density using density",
+    "calculate density",
+    "density formula question",
+    "given values find density",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_016",
+     "question_pattern": "density with {mass} and {volume} find density",
+     "extracted_variables": {
+      "mass": "given mass",
+      "volume": "given volume"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mass, volume from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Density = mass / volume",
+     "compute": "Density = mass / volume"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_017",
+   "title": "v: v = ...",
+   "section": "decision tree",
+   "formula": "v = u + a*t",
+   "key_idea": "v (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using v",
+    "calculate v",
+    "v formula question",
+    "given values find v",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_017",
+     "question_pattern": "v with {u} and {a} and {t} find v",
+     "extracted_variables": {
+      "u": "given u",
+      "a": "given a",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_018",
+   "title": "s: s = ...",
+   "section": "decision tree",
+   "formula": "s = (u + v)/2*t",
+   "key_idea": "s (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find s using s",
+    "calculate s",
+    "s formula question",
+    "given values find s",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_018",
+     "question_pattern": "s with {u} and {v} and {t} find s",
+     "extracted_variables": {
+      "u": "given u",
+      "v": "given v",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, v, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "s = (u + v)/2*t",
+     "compute": "s = (u + v)/2*t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_019",
+   "title": "a: a = ...",
+   "section": "decision tree",
+   "formula": "a = (v - u)/t",
+   "key_idea": "a (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find a using a",
+    "calculate a",
+    "a formula question",
+    "given values find a",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_019",
+     "question_pattern": "a with {v} and {u} and {t} find a",
+     "extracted_variables": {
+      "v": "given v",
+      "u": "given u",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for v, u, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "a = (v - u)/t",
+     "compute": "a = (v - u)/t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_020",
+   "title": "F: F = ...",
+   "section": "decision tree",
+   "formula": "F = m*a",
+   "key_idea": "F (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using f",
+    "calculate f",
+    "f formula question",
+    "given values find f",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_020",
+     "question_pattern": "f with {m} and {a} find f",
+     "extracted_variables": {
+      "m": "given m",
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = m*a",
+     "compute": "F = m*a"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_021",
+   "title": "F: F = ...",
+   "section": "decision tree",
+   "formula": "F = (m*v - mu)/t",
+   "key_idea": "F (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using f",
+    "calculate f",
+    "f formula question",
+    "given values find f",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_021",
+     "question_pattern": "f with {m} and {v} and {mu} and {t} find f",
+     "extracted_variables": {
+      "m": "given m",
+      "v": "given v",
+      "mu": "given mu",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, v, mu, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "F = (m*v - mu)/t",
+     "compute": "F = (m*v - mu)/t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_022",
+   "title": "f: f = ...",
+   "section": "decision tree",
+   "formula": "f = mu*N",
+   "key_idea": "f (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find f using f",
+    "calculate f",
+    "f formula question",
+    "given values find f",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_022",
+     "question_pattern": "f with {mu} and {N} find f",
+     "extracted_variables": {
+      "mu": "given mu",
+      "N": "given N"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mu, N from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "f = mu*N",
+     "compute": "f = mu*N"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_023",
+   "title": "P: P = ...",
+   "section": "decision tree",
+   "formula": "P = h*rho*g",
+   "key_idea": "P (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p using p",
+    "calculate p",
+    "p formula question",
+    "given values find p",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_023",
+     "question_pattern": "p with {h} and {rho} and {g} find p",
+     "extracted_variables": {
+      "h": "given h",
+      "rho": "given rho",
+      "g": "given g"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for h, rho, g from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P = h*rho*g",
+     "compute": "P = h*rho*g"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_024",
+   "title": "Q: Q = ...",
+   "section": "decision tree",
+   "formula": "Q = m*c*delta*T",
+   "key_idea": "Q (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q using q",
+    "calculate q",
+    "q formula question",
+    "given values find q",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_024",
+     "question_pattern": "q with {m} and {c} and {delta} and {T} find q",
+     "extracted_variables": {
+      "m": "given m",
+      "c": "given c",
+      "delta": "given delta",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, c, delta, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q = m*c*delta*T",
+     "compute": "Q = m*c*delta*T"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_025",
+   "title": "Q: Q = ...",
+   "section": "decision tree",
+   "formula": "Q = m*L",
+   "key_idea": "Q (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q using q",
+    "calculate q",
+    "q formula question",
+    "given values find q",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_025",
+     "question_pattern": "q with {m} and {L} find q",
+     "extracted_variables": {
+      "m": "given m",
+      "L": "given L"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, L from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q = m*L",
+     "compute": "Q = m*L"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_026",
+   "title": "n: n = ...",
+   "section": "decision tree",
+   "formula": "n = c/v",
+   "key_idea": "n (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n using n",
+    "calculate n",
+    "n formula question",
+    "given values find n",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_026",
+     "question_pattern": "n with {c} and {v} find n",
+     "extracted_variables": {
+      "c": "given c",
+      "v": "given v"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for c, v from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "n = c/v",
+     "compute": "n = c/v"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_027",
+   "title": "v: v = ...",
+   "section": "decision tree",
+   "formula": "v = 2*d/t",
+   "key_idea": "v (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v using v",
+    "calculate v",
+    "v formula question",
+    "given values find v",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_027",
+     "question_pattern": "v with {d} and {t} find v",
+     "extracted_variables": {
+      "d": "given d",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for d, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = 2*d/t",
+     "compute": "v = 2*d/t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_028",
+   "title": "d: d = ...",
+   "section": "decision tree",
+   "formula": "d = v*t / 2",
+   "key_idea": "d (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find d using d",
+    "calculate d",
+    "d formula question",
+    "given values find d",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_028",
+     "question_pattern": "d with {v} and {t} find d",
+     "extracted_variables": {
+      "v": "given v",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for v, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "d = v*t / 2",
+     "compute": "d = v*t / 2"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_029",
+   "title": "I: I = ...",
+   "section": "decision tree",
+   "formula": "I = Q/t",
+   "key_idea": "I (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find i using i",
+    "calculate i",
+    "i formula question",
+    "given values find i",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_029",
+     "question_pattern": "i with {Q} and {t} find i",
+     "extracted_variables": {
+      "Q": "given Q",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Q, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "I = Q/t",
+     "compute": "I = Q/t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_030",
+   "title": "R: R = ...",
+   "section": "decision tree",
+   "formula": "R = rho*L / A",
+   "key_idea": "R (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find r using r",
+    "calculate r",
+    "r formula question",
+    "given values find r",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_030",
+     "question_pattern": "r with {rho} and {L} and {A} find r",
+     "extracted_variables": {
+      "rho": "given rho",
+      "L": "given L",
+      "A": "given A"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for rho, L, A from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "R = rho*L / A",
+     "compute": "R = rho*L / A"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_031",
+   "title": "E: E = ...",
+   "section": "decision tree",
+   "formula": "E = V*I*t",
+   "key_idea": "E (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using e",
+    "calculate e",
+    "e formula question",
+    "given values find e",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_031",
+     "question_pattern": "e with {V} and {I} and {t} find e",
+     "extracted_variables": {
+      "V": "given V",
+      "I": "given I",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for V, I, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = V*I*t",
+     "compute": "E = V*I*t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_032",
+   "title": "W: W = ...",
+   "section": "decision tree",
+   "formula": "W = F*s*cos",
+   "key_idea": "W (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find w using w",
+    "calculate w",
+    "w formula question",
+    "given values find w",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_032",
+     "question_pattern": "w with {F} and {s} and {cos} find w",
+     "extracted_variables": {
+      "F": "given F",
+      "s": "given s",
+      "cos": "given cos"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for F, s, cos from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "W = F*s*cos",
+     "compute": "W = F*s*cos"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_033",
+   "title": "P: P = ...",
+   "section": "decision tree",
+   "formula": "P = W/t",
+   "key_idea": "P (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p using p",
+    "calculate p",
+    "p formula question",
+    "given values find p",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_033",
+     "question_pattern": "p with {W} and {t} find p",
+     "extracted_variables": {
+      "W": "given W",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for W, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P = W/t",
+     "compute": "P = W/t"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FBD_PHY_C9_034",
+   "title": "P1 V1: P1 V1 = ...",
+   "section": "decision tree",
+   "formula": "P1_V1 = P2*V2",
+   "key_idea": "P1 V1 (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p1 v1 using p1 v1",
+    "calculate p1 v1",
+    "p1 v1 formula question",
+    "given values find p1 v1",
+    "the least count of an instrument",
+    "a vernier scale reading",
+    "screw gauge reading"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_PHY_C9_034",
+     "question_pattern": "p1 v1 with {P2} and {V2} find p1 v1",
+     "extracted_variables": {
+      "P2": "given P2",
+      "V2": "given V2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P2, V2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P1 V1 = P2*V2",
+     "compute": "P1_V1 = P2*V2"
+    }
+   ],
+   "chapter_title": "phy c9 decision formulas"
+  },
+  {
+   "id": "FB_PHY_C9_KIN2",
+   "title": "Third equation of motion: v2 = u2 + 2as",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "v^2 = u^2 + 2*a*s",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find acceleration from initial and final velocity and distance",
+    "accelerates from velocity to velocity covering distance",
+    "v squared equals u squared plus 2as",
+    "body changes speed over a distance find acceleration"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_KIN2",
+     "question_pattern": "accelerates from {u} m/s to {v} m/s covering {s} m find a",
+     "extracted_variables": {
+      "u": 15,
+      "v": 25,
+      "s": 80
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  },
+  {
+   "id": "FB_PHY_C9_KIN3",
+   "title": "Second equation of motion: s = ut + 1/2 at2",
+   "section": "MOTION IN ONE DIMENSION",
+   "formula": "s = u*t + (1/2)*a*t^2",
+   "_pats_extra": [],
+   "key_idea": "Equations of motion (uniform acceleration) (MOTION IN ONE DIMENSION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance travelled with initial velocity acceleration time",
+    "body starts with velocity and accelerates find distance",
+    "s equals ut plus half at squared"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C9_KIN3",
+     "question_pattern": "initial velocity {u} m/s acceleration {a} m/s2 for {t} s find s",
+     "extracted_variables": {
+      "u": 5,
+      "a": 2,
+      "t": 4
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for u, a, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v = u + a*t",
+     "compute": "v = u + a*t"
+    }
+   ],
+   "chapter_title": "MOTION IN ONE DIMENSION"
+  }
+ ]
+}

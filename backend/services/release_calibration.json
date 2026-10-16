@@ -1,0 +1,3270 @@
+{
+  "_meta": {
+    "generated": "2026-10-01",
+    "generator": "flywheel_l4 (trap_grammar L1 + flywheel_oracle L2, in-process, local)",
+    "definition": "resistance = (passes + 0.5*partials) / graded",
+    "floor": 0.7,
+    "min_probes": 4,
+    "families_probed": 411,
+    "families_skipped_no_control": 144,
+    "gated_count": 40
+  },
+  "families": {
+    "BALANCE_SHEET_MISSING": {
+      "resistance": 1.0,
+      "probes": 15,
+      "fails": 0,
+      "partials": 0,
+      "passes": 15,
+      "module": "accountancy_families"
+    },
+    "BILL_DISCOUNT": {
+      "resistance": 0.875,
+      "probes": 4,
+      "fails": 0,
+      "partials": 1,
+      "passes": 3,
+      "module": "accountancy_families"
+    },
+    "BILL_RENEWAL": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 1,
+      "partials": 0,
+      "passes": 4,
+      "module": "accountancy_families"
+    },
+    "BRS_ADJUST": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "accountancy_families"
+    },
+    "CASH_FLOW_OPERATING": {
+      "resistance": 0.8056,
+      "probes": 18,
+      "fails": 1,
+      "partials": 5,
+      "passes": 12,
+      "module": "accountancy_families"
+    },
+    "DEBENTURE_ISSUE": {
+      "resistance": 0.875,
+      "probes": 4,
+      "fails": 0,
+      "partials": 1,
+      "passes": 3,
+      "module": "accountancy_families"
+    },
+    "DECEASED_SHARE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "accountancy_families"
+    },
+    "DEP_SLM": {
+      "resistance": 0.9412,
+      "probes": 17,
+      "fails": 1,
+      "partials": 0,
+      "passes": 16,
+      "module": "accountancy_families"
+    },
+    "DEP_WDV": {
+      "resistance": 0.6923,
+      "probes": 13,
+      "fails": 2,
+      "partials": 4,
+      "passes": 7,
+      "module": "accountancy_families"
+    },
+    "FORFEITURE_REISSUE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "accountancy_families"
+    },
+    "GOODWILL_VALUATION": {
+      "resistance": 0.7941,
+      "probes": 17,
+      "fails": 2,
+      "partials": 3,
+      "passes": 12,
+      "module": "accountancy_families"
+    },
+    "GP_RATIO": {
+      "resistance": 0.9167,
+      "probes": 12,
+      "fails": 0,
+      "partials": 2,
+      "passes": 10,
+      "module": "accountancy_families"
+    },
+    "GROSS_PROFIT": {
+      "resistance": 0.9167,
+      "probes": 12,
+      "fails": 0,
+      "partials": 2,
+      "passes": 10,
+      "module": "accountancy_families"
+    },
+    "INCOMPLETE_RECORDS_PROFIT": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 1,
+      "partials": 0,
+      "passes": 5,
+      "module": "accountancy_families"
+    },
+    "INSOLVENCY_RECOVERY": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "accountancy_families"
+    },
+    "INTEREST_CAPITAL": {
+      "resistance": 0.9444,
+      "probes": 9,
+      "fails": 0,
+      "partials": 1,
+      "passes": 8,
+      "module": "accountancy_families"
+    },
+    "INTEREST_COVERAGE": {
+      "resistance": 0.9167,
+      "probes": 6,
+      "fails": 0,
+      "partials": 1,
+      "passes": 5,
+      "module": "accountancy_families"
+    },
+    "INTEREST_DRAWINGS": {
+      "resistance": 0.875,
+      "probes": 12,
+      "fails": 0,
+      "partials": 3,
+      "passes": 9,
+      "module": "accountancy_families"
+    },
+    "JOURNAL_ENTRY": {
+      "resistance": 0.75,
+      "probes": 6,
+      "fails": 1,
+      "partials": 1,
+      "passes": 4,
+      "module": "accountancy_families"
+    },
+    "NET_PROFIT": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "accountancy_families"
+    },
+    "OPENING_CAPITAL": {
+      "resistance": 0.75,
+      "probes": 4,
+      "fails": 0,
+      "partials": 2,
+      "passes": 2,
+      "module": "accountancy_families"
+    },
+    "PARTNER_GUARANTEE": {
+      "resistance": 0.6667,
+      "probes": 6,
+      "fails": 2,
+      "partials": 0,
+      "passes": 4,
+      "module": "accountancy_families"
+    },
+    "SHARE_ISSUE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "accountancy_families"
+    },
+    "SUBSCRIPTION_INCOME": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "accountancy_families"
+    },
+    "TRADE_THREE_LEVEL": {
+      "resistance": 0.625,
+      "probes": 12,
+      "fails": 2,
+      "partials": 5,
+      "passes": 5,
+      "module": "accountancy_families"
+    },
+    "TRIAL_BALANCE_DIFF": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "accountancy_families"
+    },
+    "WORKING_CAPITAL": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "commerce_families"
+    },
+    "ANNUITY": {
+      "resistance": 0.6667,
+      "probes": 3,
+      "fails": 1,
+      "partials": 0,
+      "passes": 2,
+      "module": "applied_maths_families"
+    },
+    "AREA_UNDER_CURVE": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "applied_maths_families"
+    },
+    "BINOMIAL_TERM": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "applied_maths_families"
+    },
+    "CAGR": {
+      "resistance": 0.6667,
+      "probes": 3,
+      "fails": 1,
+      "partials": 0,
+      "passes": 2,
+      "module": "applied_maths_families"
+    },
+    "DEPRECIATION": {
+      "resistance": 0.8125,
+      "probes": 8,
+      "fails": 0,
+      "partials": 3,
+      "passes": 5,
+      "module": "applied_maths_families"
+    },
+    "DERIVATIVE_EVAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "applied_maths_families"
+    },
+    "DERIVATIVE_POWER": {
+      "resistance": 0.0,
+      "probes": 2,
+      "fails": 2,
+      "partials": 0,
+      "passes": 0,
+      "module": "applied_maths_families"
+    },
+    "EMI": {
+      "resistance": 0.5,
+      "probes": 2,
+      "fails": 1,
+      "partials": 0,
+      "passes": 1,
+      "module": "applied_maths_families"
+    },
+    "EXP_GROWTH_SOLVE": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "applied_maths_families"
+    },
+    "INDEX_NUMBER": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "applied_maths_families"
+    },
+    "INTEGRAL_BASIC": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "applied_maths_families"
+    },
+    "LIMIT_FACTOR": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "applied_maths_families"
+    },
+    "LOG_EVAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "applied_maths_families"
+    },
+    "LOG_SOLVE": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 3,
+      "partials": 0,
+      "passes": 3,
+      "module": "applied_maths_families"
+    },
+    "PIPES_CISTERN": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "applied_maths_families"
+    },
+    "PROBABILITY_BINOMIAL": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 2,
+      "partials": 2,
+      "passes": 2,
+      "module": "applied_maths_families"
+    },
+    "RATE_OF_CHANGE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "applied_maths_families"
+    },
+    "ALVEOLAR_VENTILATION": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "biology_families"
+    },
+    "BLOOD_VOLUME_INDICES": {
+      "resistance": 0.7857,
+      "probes": 7,
+      "fails": 1,
+      "partials": 1,
+      "passes": 5,
+      "module": "biology_families"
+    },
+    "BREATHING_VOLUME": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "biology_families"
+    },
+    "CARDIAC_OUTPUT": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "biology_families"
+    },
+    "CELL_DIVISION_COUNT": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "biology_families"
+    },
+    "CELL_MAGNIFICATION": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "biology_families"
+    },
+    "CHARGAFF_DNA": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 2,
+      "partials": 2,
+      "passes": 2,
+      "module": "biology_families"
+    },
+    "DIHYBRID_COUNTS": {
+      "resistance": 0.2,
+      "probes": 5,
+      "fails": 4,
+      "partials": 0,
+      "passes": 1,
+      "module": "biology_families"
+    },
+    "ENERGY_FLOW_10_PERCENT": {
+      "resistance": 0.5625,
+      "probes": 8,
+      "fails": 3,
+      "partials": 1,
+      "passes": 4,
+      "module": "biology_families"
+    },
+    "FIELD_OF_VIEW": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "biology_families"
+    },
+    "HARDY_WEINBERG": {
+      "resistance": 0.8333,
+      "probes": 9,
+      "fails": 1,
+      "partials": 1,
+      "passes": 7,
+      "module": "biology_families"
+    },
+    "NPP_GPP": {
+      "resistance": 0.8889,
+      "probes": 9,
+      "fails": 0,
+      "partials": 2,
+      "passes": 7,
+      "module": "biology_families"
+    },
+    "PCR_AMPLIFICATION": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "biology_families"
+    },
+    "POP_DOUBLING": {
+      "resistance": 0.6667,
+      "probes": 9,
+      "fails": 3,
+      "partials": 0,
+      "passes": 6,
+      "module": "biology_families"
+    },
+    "RECOMBINATION_FREQUENCY": {
+      "resistance": 0.7,
+      "probes": 5,
+      "fails": 1,
+      "partials": 1,
+      "passes": 3,
+      "module": "biology_families"
+    },
+    "RQ_NUMERIC": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "biology_families"
+    },
+    "SHANNON_INDEX": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "biology_families"
+    },
+    "SPECIES_AREA": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "biology_families"
+    },
+    "SPECIES_RICHNESS": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "biology_families"
+    },
+    "SPORE_COUNTS": {
+      "resistance": 0.75,
+      "probes": 6,
+      "fails": 0,
+      "partials": 3,
+      "passes": 3,
+      "module": "biology_families"
+    },
+    "TRANSPIRATION_RATE": {
+      "resistance": 0.7778,
+      "probes": 9,
+      "fails": 1,
+      "partials": 2,
+      "passes": 6,
+      "module": "biology_families"
+    },
+    "buffer_ph": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry2_families"
+    },
+    "concentration_ppm": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry2_families"
+    },
+    "emf_cell": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry2_families"
+    },
+    "equilibrium_kc": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry2_families"
+    },
+    "hess_law": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry2_families"
+    },
+    "kinetics_first_order": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "chemistry2_families"
+    },
+    "limiting_reagent": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry2_families"
+    },
+    "molality": {
+      "resistance": 0.8125,
+      "probes": 8,
+      "fails": 1,
+      "partials": 1,
+      "passes": 6,
+      "module": "chemistry2_families"
+    },
+    "mole_fraction": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "chemistry2_families"
+    },
+    "nernst_eq": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "chemistry2_families"
+    },
+    "percent_composition": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry2_families"
+    },
+    "ph_calc": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "chemistry2_families"
+    },
+    "ph_strong_acid": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "chemistry2_families"
+    },
+    "thermochemistry": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry2_families"
+    },
+    "DILUTION_M1V1": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry3_families"
+    },
+    "ELECTROLYSIS_MASS": {
+      "resistance": 0.5,
+      "probes": 4,
+      "fails": 0,
+      "partials": 4,
+      "passes": 0,
+      "module": "chemistry3_families"
+    },
+    "ENTROPY_CHANGE": {
+      "resistance": 0.75,
+      "probes": 2,
+      "fails": 0,
+      "partials": 1,
+      "passes": 1,
+      "module": "chemistry3_families"
+    },
+    "FARADAY_ELECTROLYSIS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry3_families"
+    },
+    "GIBBS_ENERGY": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry3_families"
+    },
+    "MOLES_AT_STP": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry3_families"
+    },
+    "OXIDATION_NUMBER": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry3_families"
+    },
+    "PH_FROM_H": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "chemistry3_families"
+    },
+    "PH_POH": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "chemistry3_families"
+    },
+    "SECOND_ORDER_KINETICS": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry3_families"
+    },
+    "STOICHIOMETRY_MASS_MASS": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "chemistry3_families"
+    },
+    "ATOM_COUNT": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "chemistry_families"
+    },
+    "BOYLE_LAW": {
+      "resistance": 0.7778,
+      "probes": 9,
+      "fails": 2,
+      "partials": 0,
+      "passes": 7,
+      "module": "chemistry_families"
+    },
+    "CHARLES_LAW": {
+      "resistance": 0.6667,
+      "probes": 3,
+      "fails": 0,
+      "partials": 2,
+      "passes": 1,
+      "module": "chemistry_families"
+    },
+    "GAY_LUSSAC_LAW": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "chemistry_families"
+    },
+    "MOLARITY_ANY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry_families"
+    },
+    "MOLECULAR_MASS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry_families"
+    },
+    "MOLE_MASS_ANY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry_families"
+    },
+    "PARTICLES_AVOGADRO": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry_families"
+    },
+    "PERCENT_FROM_FORMULA": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry_families"
+    },
+    "PH_FROM_OH": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "chemistry_families"
+    },
+    "PH_TO_OH": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "chemistry_families"
+    },
+    "VALENCY_FROM_FORMULA": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "chemistry_families"
+    },
+    "WATER_HARDNESS": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "chemistry_families"
+    },
+    "ARITHMETIC_EVAL": {
+      "resistance": 0.3333,
+      "probes": 9,
+      "fails": 5,
+      "partials": 2,
+      "passes": 2,
+      "module": "class6_families"
+    },
+    "SQUARE_MENSURATION": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "class6_families"
+    },
+    "ANGLE_SUM": {
+      "resistance": 0.6667,
+      "probes": 3,
+      "fails": 0,
+      "partials": 2,
+      "passes": 1,
+      "module": "class7_families"
+    },
+    "CIRCLE_MENSURATION": {
+      "resistance": 0.9375,
+      "probes": 8,
+      "fails": 0,
+      "partials": 1,
+      "passes": 7,
+      "module": "class7_families"
+    },
+    "EXPONENT_EVAL": {
+      "resistance": 0.6667,
+      "probes": 6,
+      "fails": 0,
+      "partials": 4,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "FRACTION_PERCENT_OF": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "class7_families"
+    },
+    "PERCENT_CHANGE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "FRACTION_ARITHMETIC": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 0,
+      "partials": 6,
+      "passes": 0,
+      "module": "class7_families2"
+    },
+    "TRIANGLE_PARALLELOGRAM_AREA": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "class7_families2"
+    },
+    "INTEREST": {
+      "resistance": 0.8,
+      "probes": 15,
+      "fails": 3,
+      "partials": 0,
+      "passes": 12,
+      "module": "class8_families"
+    },
+    "MENSURATION_3D": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "class8_families"
+    },
+    "PROPORTION": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "class8_families"
+    },
+    "GST": {
+      "resistance": 1.0,
+      "probes": 12,
+      "fails": 0,
+      "partials": 0,
+      "passes": 12,
+      "module": "commerce_families2"
+    },
+    "INTEREST_ON_CAPITAL": {
+      "resistance": 0.7917,
+      "probes": 12,
+      "fails": 1,
+      "partials": 3,
+      "passes": 8,
+      "module": "commerce_families2"
+    },
+    "PARTNERSHIP_SHARE": {
+      "resistance": 0.7188,
+      "probes": 16,
+      "fails": 4,
+      "partials": 1,
+      "passes": 11,
+      "module": "commerce_families2"
+    },
+    "BASE_CONVERT": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "compapp_families"
+    },
+    "BASE_VERIFY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "compapp_families"
+    },
+    "BITS_RANGE": {
+      "resistance": 0.1429,
+      "probes": 7,
+      "fails": 6,
+      "partials": 0,
+      "passes": 1,
+      "module": "compapp_families"
+    },
+    "BIT_WEIGHT": {
+      "resistance": 0.0,
+      "probes": 2,
+      "fails": 2,
+      "partials": 0,
+      "passes": 0,
+      "module": "compapp_families"
+    },
+    "BOOL_EVAL": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "compapp_families"
+    },
+    "JAVA_TRACE": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "compapp_families"
+    },
+    "LOGIC_GATE": {
+      "resistance": 0.9375,
+      "probes": 8,
+      "fails": 0,
+      "partials": 1,
+      "passes": 7,
+      "module": "compapp_families"
+    },
+    "MATH_METHOD_EVAL": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "compapp_families"
+    },
+    "STORAGE_UNITS": {
+      "resistance": 0.0,
+      "probes": 4,
+      "fails": 4,
+      "partials": 0,
+      "passes": 0,
+      "module": "compapp_families"
+    },
+    "APC_APS_IDENTITIES": {
+      "resistance": 0.875,
+      "probes": 8,
+      "fails": 1,
+      "partials": 0,
+      "passes": 7,
+      "module": "economics_families"
+    },
+    "BOP_CLASSIFY_ANY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "BUDGET_DEFICITS_ANY": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "CONSUMER_EQUIB_RATIO": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "CONSUMPTION_FUNCTION_ANY": {
+      "resistance": 0.7857,
+      "probes": 7,
+      "fails": 1,
+      "partials": 1,
+      "passes": 5,
+      "module": "economics_families"
+    },
+    "CORRELATION_COEFFICIENT": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "economics_families"
+    },
+    "COST_SCHEDULE_ANY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "CPI_INFLATION_RATE": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "economics_families"
+    },
+    "DEMAND_Q_AT_P": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "economics_families"
+    },
+    "DEPOSIT_CREATION_CHAIN": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "EXCESS_DEMAND_SUPPLY": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "EXCHANGE_RATE_CHANGE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "economics_families"
+    },
+    "FISHER_REAL_RATE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "economics_families"
+    },
+    "GDP_DEFLATOR": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "economics_families"
+    },
+    "GDP_EXPENDITURE_ANY_MISSING": {
+      "resistance": 0.9167,
+      "probes": 6,
+      "fails": 0,
+      "partials": 1,
+      "passes": 5,
+      "module": "economics_families"
+    },
+    "GDP_WELFARE_PERCAPITA": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "HEADCOUNT_RATIO": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "INCOME_METHOD_NI": {
+      "resistance": 0.8333,
+      "probes": 3,
+      "fails": 0,
+      "partials": 1,
+      "passes": 2,
+      "module": "economics_families"
+    },
+    "INDEX_AGGREGATIVE": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "INVESTMENT_MULTIPLIER": {
+      "resistance": 0.0,
+      "probes": 4,
+      "fails": 4,
+      "partials": 0,
+      "passes": 0,
+      "module": "economics_families"
+    },
+    "MARKET_EQUILIBRIUM": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "economics_families"
+    },
+    "MARKET_SUPPLY_SUM": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "MONEY_MULTIPLIER": {
+      "resistance": 0.75,
+      "probes": 8,
+      "fails": 2,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "MPC_DELTA": {
+      "resistance": 0.65,
+      "probes": 10,
+      "fails": 2,
+      "partials": 3,
+      "passes": 5,
+      "module": "economics_families"
+    },
+    "MU_FROM_TU": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "economics_families"
+    },
+    "NNPFC_CONVERSION": {
+      "resistance": 0.8333,
+      "probes": 3,
+      "fails": 0,
+      "partials": 1,
+      "passes": 2,
+      "module": "economics_families"
+    },
+    "PED_PERCENTAGE": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "PED_POINT_LINEAR": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "economics_families"
+    },
+    "PED_TOTAL_OUTLAY": {
+      "resistance": 0.6667,
+      "probes": 3,
+      "fails": 1,
+      "partials": 0,
+      "passes": 2,
+      "module": "economics_families"
+    },
+    "PRICE_CEILING_FLOOR": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "PRICE_CONTROL_GAP": {
+      "resistance": 0.5455,
+      "probes": 11,
+      "fails": 5,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "REVENUE_CURVES_ANY": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "economics_families"
+    },
+    "TP_AP_MP_SCHEDULE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "UNEMPLOYMENT_RATES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "economics_families"
+    },
+    "VALUE_ADDED_CHAIN": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "economics_families"
+    },
+    "AP_CONSECUTIVE_X": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "extra_families"
+    },
+    "BAROMETER_COLUMN": {
+      "resistance": 0.8077,
+      "probes": 13,
+      "fails": 0,
+      "partials": 5,
+      "passes": 8,
+      "module": "extra_families"
+    },
+    "COMPOSITE_SOLID": {
+      "resistance": 0.9,
+      "probes": 10,
+      "fails": 0,
+      "partials": 2,
+      "passes": 8,
+      "module": "extra_families"
+    },
+    "GAS_WALL_IMPULSE": {
+      "resistance": 0.625,
+      "probes": 8,
+      "fails": 2,
+      "partials": 2,
+      "passes": 4,
+      "module": "extra_families"
+    },
+    "LINEAR_DEPRECIATION": {
+      "resistance": 0.9,
+      "probes": 5,
+      "fails": 0,
+      "partials": 1,
+      "passes": 4,
+      "module": "extra_families"
+    },
+    "MIXTURE_ADDITION": {
+      "resistance": 0.9167,
+      "probes": 6,
+      "fails": 0,
+      "partials": 1,
+      "passes": 5,
+      "module": "extra_families"
+    },
+    "PERFECT_CUBE": {
+      "resistance": 0.9167,
+      "probes": 6,
+      "fails": 0,
+      "partials": 1,
+      "passes": 5,
+      "module": "extra_families"
+    },
+    "WORD_PERMUTATIONS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "extra_families"
+    },
+    "BASIC_PROPORTIONALITY": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "extra_families2"
+    },
+    "BERNOULLI_LIFT": {
+      "resistance": 0.7,
+      "probes": 10,
+      "fails": 0,
+      "partials": 6,
+      "passes": 4,
+      "module": "extra_families2"
+    },
+    "CARBON_DATING": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "extra_families2"
+    },
+    "CHORD_FROM_DISTANCE": {
+      "resistance": 0.7273,
+      "probes": 11,
+      "fails": 2,
+      "partials": 2,
+      "passes": 7,
+      "module": "extra_families2"
+    },
+    "DICE_PRODUCT_PROB": {
+      "resistance": 0.8889,
+      "probes": 9,
+      "fails": 0,
+      "partials": 2,
+      "passes": 7,
+      "module": "extra_families2"
+    },
+    "EQUILATERAL_ALTITUDE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "extra_families2"
+    },
+    "GEOMETRIC_DEPRECIATION": {
+      "resistance": 0.5,
+      "probes": 4,
+      "fails": 1,
+      "partials": 2,
+      "passes": 1,
+      "module": "extra_families2"
+    },
+    "INVERSE_PROPORTION_DAYS": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "extra_families2"
+    },
+    "PROJECTILE_CEILING": {
+      "resistance": 0.7222,
+      "probes": 9,
+      "fails": 0,
+      "partials": 5,
+      "passes": 4,
+      "module": "extra_families2"
+    },
+    "ROTATING_CYLINDER": {
+      "resistance": 0.8,
+      "probes": 15,
+      "fails": 0,
+      "partials": 6,
+      "passes": 9,
+      "module": "extra_families2"
+    },
+    "SECTION_FORMULA": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "TANGENT_QUADRILATERAL": {
+      "resistance": 0.95,
+      "probes": 10,
+      "fails": 0,
+      "partials": 1,
+      "passes": 9,
+      "module": "extra_families2"
+    },
+    "THREE_DIGIT_MULTIPLES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "extra_families2"
+    },
+    "TWO_POINT_LINE": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "extra_families2"
+    },
+    "STATS_MEAN_ADJUST": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "isc_stats_families"
+    },
+    "STATS_MEAN_COMBINED": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "isc_stats_families"
+    },
+    "STATS_MEAN_GROUPED": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "isc_stats_families"
+    },
+    "STATS_MEAN_UNGROUPED": {
+      "resistance": 0.9286,
+      "probes": 7,
+      "fails": 0,
+      "partials": 1,
+      "passes": 6,
+      "module": "isc_stats_families"
+    },
+    "STATS_MODE_UNGROUPED": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "isc_stats_families"
+    },
+    "STATS_RANGE_UNGROUPED": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "isc_stats_families"
+    },
+    "STATS_SE_MEAN": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "isc_stats_families"
+    },
+    "AM_TWO": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "ANGLE_BETWEEN_LINES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "AP_NTH": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 0,
+      "partials": 2,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "AP_SUM": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 0,
+      "partials": 2,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "ARC_LENGTH": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "AREA_TRIANGLE_COORDS": {
+      "resistance": 0.5,
+      "probes": 2,
+      "fails": 0,
+      "partials": 2,
+      "passes": 0,
+      "module": "maths2_families"
+    },
+    "AREA_UNDER_LINE": {
+      "resistance": 0.25,
+      "probes": 4,
+      "fails": 2,
+      "partials": 2,
+      "passes": 0,
+      "module": "maths2_families"
+    },
+    "BINOMIAL_COEFFICIENT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "CENTROID_TRIANGLE": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "maths2_families"
+    },
+    "CIRCLE_AREA": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "CIRCLE_CIRCUMFERENCE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "CIRCLE_SECTOR_AREA": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "COMBINATION_COMMITTEE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "COMPOUND_ANGLES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "COMPOUND_INTEREST": {
+      "resistance": 0.9091,
+      "probes": 11,
+      "fails": 0,
+      "partials": 2,
+      "passes": 9,
+      "module": "maths2_families"
+    },
+    "DERIV_QUAD_EVAL": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 1,
+      "partials": 0,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "DETERMINANT_2X2": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "DIRECT_PROPORTION": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 0,
+      "partials": 2,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "DISCOUNT_SP": {
+      "resistance": 0.9375,
+      "probes": 8,
+      "fails": 0,
+      "partials": 1,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "DISCRIMINANT_NATURE": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 3,
+      "partials": 0,
+      "passes": 3,
+      "module": "maths2_families"
+    },
+    "DISTANCE_3D": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "DISTANCE_PARALLEL_LINES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "DISTANCE_POINT_LINE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "DISTANCE_TWO_POINTS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "DOMAIN_RATIONAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "DOMAIN_SQRT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "DOUBLE_ANGLE": {
+      "resistance": 0.6667,
+      "probes": 6,
+      "fails": 2,
+      "partials": 0,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "ELLIPSE_PROPERTIES": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "EXTREMA_QUAD": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "FRACTION_ADD_SUB": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "FRACTION_MUL_DIV": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "GM_TWO": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "GP_NTH": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "GP_SUM": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "GST_AMOUNT": {
+      "resistance": 1.0,
+      "probes": 12,
+      "fails": 0,
+      "partials": 0,
+      "passes": 12,
+      "module": "maths2_families"
+    },
+    "HARMONIC_MEAN": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "HCF_TWO_NUMBERS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "HEIGHTS_DISTANCES": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "maths2_families"
+    },
+    "HERONS_FORMULA": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "INCREASING_DECREASING": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "INTEGRAL_POWER": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "INVERSE_PROPORTION": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "INV_TRIG_STD": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 0,
+      "partials": 6,
+      "passes": 0,
+      "module": "maths2_families"
+    },
+    "LCM_TWO_NUMBERS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "LIMIT_POLY_DIRECT": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 1,
+      "partials": 0,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "LIMIT_QUAD_FACTOR": {
+      "resistance": 0.4167,
+      "probes": 6,
+      "fails": 3,
+      "partials": 1,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "LIMIT_STANDARD": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "LINEAR_INEQUALITY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "LINEAR_SOLVE": {
+      "resistance": 0.5,
+      "probes": 8,
+      "fails": 4,
+      "partials": 0,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "LINEAR_SYSTEM_2X2": {
+      "resistance": 0.5,
+      "probes": 2,
+      "fails": 1,
+      "partials": 0,
+      "passes": 1,
+      "module": "maths2_families"
+    },
+    "LINE_EQ_SLOPE_INTERCEPT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "LINE_INTERCEPT_FORM": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "LINE_POINT_SLOPE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "LINE_THROUGH_TWO_POINTS": {
+      "resistance": 0.75,
+      "probes": 4,
+      "fails": 0,
+      "partials": 2,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "LPP_OPTIMAL": {
+      "resistance": 0.3333,
+      "probes": 6,
+      "fails": 2,
+      "partials": 4,
+      "passes": 0,
+      "module": "maths2_families"
+    },
+    "MATRIX_MULTIPLY_2X2": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "MATRIX_TRANSPOSE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "MEAN_GROUPED": {
+      "resistance": 0.3333,
+      "probes": 6,
+      "fails": 4,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "MEAN_LIST": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "MEDIAN": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "MEDIAN_GROUPED": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "MIDPOINT_3D": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "MODE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "MODE_GROUPED": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "MODULUS_COMPLEX": {
+      "resistance": 0.0,
+      "probes": 6,
+      "fails": 6,
+      "partials": 0,
+      "passes": 0,
+      "module": "maths2_families"
+    },
+    "NPR_NCR_EVAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PERCENT_OF": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PERIMETER_RECTANGLE": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "PERIMETER_SQUARE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PERMUTATION_WAYS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "POLY_FACTOR_CHECK": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "POLY_REMAINDER": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "POLY_UNKNOWN_COEFF": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "POLY_ZEROES_QUAD": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PROBABILITY_BASIC": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "PROBABILITY_CONDITIONAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PROBABILITY_COND_EVENTS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PROBABILITY_DEPENDENT": {
+      "resistance": 0.8333,
+      "probes": 9,
+      "fails": 0,
+      "partials": 3,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "PROFIT_LOSS_PERCENT": {
+      "resistance": 0.5714,
+      "probes": 14,
+      "fails": 3,
+      "partials": 6,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "PYTHAGORAS": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "maths2_families"
+    },
+    "QUADRATIC_ROOTS": {
+      "resistance": 0.3333,
+      "probes": 6,
+      "fails": 4,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "RATE_SPHERE_VOLUME": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "RATIO_SHARE": {
+      "resistance": 0.875,
+      "probes": 8,
+      "fails": 0,
+      "partials": 2,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "RD_MATURITY": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "maths2_families"
+    },
+    "RD_MATURITY_PERIOD": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "maths2_families"
+    },
+    "RD_MATURITY_RATE": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "maths2_families"
+    },
+    "RECT_AREA": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "maths2_families"
+    },
+    "REFLECTION_POINT": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "ROOT_PERFECT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SA_CUBE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SA_CYLINDER": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "SA_SPHERE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SECTION_FORMULA_3D": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SECTION_FORMULA_EXTERNAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SECTION_FORMULA_LABELED": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SET_CARD_INCLUSION_EXCLUSION": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "maths2_families"
+    },
+    "SET_OPERATIONS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SIMPLE_INTEREST": {
+      "resistance": 0.8636,
+      "probes": 11,
+      "fails": 1,
+      "partials": 1,
+      "passes": 9,
+      "module": "maths2_families"
+    },
+    "SLOPE_TWO_POINTS": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "maths2_families"
+    },
+    "SPEED_DIST_TIME": {
+      "resistance": 0.8571,
+      "probes": 14,
+      "fails": 1,
+      "partials": 2,
+      "passes": 11,
+      "module": "maths2_families"
+    },
+    "SQUARE_AREA": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SUM_CUBES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "SUM_SQUARES": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "TANGENT_SLOPE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "TIME_WORK_TOGETHER": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "maths2_families"
+    },
+    "TRIANGLE_AREA_BH": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "maths2_families"
+    },
+    "TRIANGLE_THIRD_ANGLE": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "maths2_families"
+    },
+    "TRIG_IDENTITY_EVAL": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "UNITARY": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 0,
+      "partials": 2,
+      "passes": 5,
+      "module": "maths2_families"
+    },
+    "VECTOR_CROSS_PRODUCT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "VECTOR_DOT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "VECTOR_MAGNITUDE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "VOLUME_CONE": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "maths2_families"
+    },
+    "VOLUME_CUBE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "VOLUME_CYLINDER": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "maths2_families"
+    },
+    "VOLUME_HEMISPHERE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "VOLUME_SPHERE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "maths2_families"
+    },
+    "ANGULAR_VELOCITY": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics2_families"
+    },
+    "BOHR_ENERGY": {
+      "resistance": 0.0,
+      "probes": 6,
+      "fails": 6,
+      "partials": 0,
+      "passes": 0,
+      "module": "physics2_families"
+    },
+    "ELECTRIC_FIELD": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics2_families"
+    },
+    "FARADAY_EMF": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics2_families"
+    },
+    "HALF_LIFE": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "physics2_families"
+    },
+    "HEAT_ENGINE_EFFICIENCY": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "physics2_families"
+    },
+    "IMPULSE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics2_families"
+    },
+    "LENS_FORMULA": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "physics2_families"
+    },
+    "MAGNIFICATION_MIRROR": {
+      "resistance": 0.875,
+      "probes": 8,
+      "fails": 1,
+      "partials": 0,
+      "passes": 7,
+      "module": "physics2_families"
+    },
+    "MIRROR_FORMULA": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "physics2_families"
+    },
+    "MOMENTUM": {
+      "resistance": 0.875,
+      "probes": 4,
+      "fails": 0,
+      "partials": 1,
+      "passes": 3,
+      "module": "physics2_families"
+    },
+    "PARALLEL_RESISTANCE_2": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics2_families"
+    },
+    "PHOTOELECTRIC": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics2_families"
+    },
+    "PRESSURE": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 0,
+      "partials": 2,
+      "passes": 5,
+      "module": "physics2_families"
+    },
+    "SERIES_RESISTANCE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics2_families"
+    },
+    "SHM_PERIOD_SPRING": {
+      "resistance": 0.625,
+      "probes": 12,
+      "fails": 3,
+      "partials": 3,
+      "passes": 6,
+      "module": "physics2_families"
+    },
+    "THERMO_FIRST_LAW": {
+      "resistance": 0.75,
+      "probes": 2,
+      "fails": 0,
+      "partials": 1,
+      "passes": 1,
+      "module": "physics2_families"
+    },
+    "CAPACITANCE": {
+      "resistance": 0.5,
+      "probes": 2,
+      "fails": 0,
+      "partials": 2,
+      "passes": 0,
+      "module": "physics3_families"
+    },
+    "CAPACITORS_PARALLEL": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics3_families"
+    },
+    "CAPACITORS_SERIES": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics3_families"
+    },
+    "CRITICAL_ANGLE": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics3_families"
+    },
+    "DE_BROGLIE": {
+      "resistance": 1.0,
+      "probes": 2,
+      "fails": 0,
+      "partials": 0,
+      "passes": 2,
+      "module": "physics3_families"
+    },
+    "ELECTRIC_POTENTIAL": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "physics3_families"
+    },
+    "FORCE_ON_CONDUCTOR": {
+      "resistance": 0.5,
+      "probes": 8,
+      "fails": 2,
+      "partials": 4,
+      "passes": 2,
+      "module": "physics3_families"
+    },
+    "KIRCHHOFF_CURRENT": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics3_families"
+    },
+    "MAGNETIC_FIELD": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 1,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics3_families"
+    },
+    "PHOTON_ENERGY": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "physics3_families"
+    },
+    "POWER_LENS": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "physics3_families"
+    },
+    "PRISM_DEVIATION": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics3_families"
+    },
+    "RADIOACTIVE_DECAY": {
+      "resistance": 0.6667,
+      "probes": 6,
+      "fails": 0,
+      "partials": 4,
+      "passes": 2,
+      "module": "physics3_families"
+    },
+    "SNELLS_LAW": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "physics3_families"
+    },
+    "WAVE_SPEED": {
+      "resistance": 0.8333,
+      "probes": 9,
+      "fails": 0,
+      "partials": 3,
+      "passes": 6,
+      "module": "physics3_families"
+    },
+    "WHEATSTONE_BALANCED": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "physics3_families"
+    },
+    "ARCHIMEDES_BUOYANCY": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "physics_families"
+    },
+    "COULOMB_ALT": {
+      "resistance": 0.8333,
+      "probes": 6,
+      "fails": 0,
+      "partials": 2,
+      "passes": 4,
+      "module": "physics_families"
+    },
+    "ELECTRICAL_ENERGY_KWH": {
+      "resistance": 0.75,
+      "probes": 4,
+      "fails": 0,
+      "partials": 2,
+      "passes": 2,
+      "module": "physics_families"
+    },
+    "ELECTRICAL_POWER_VI": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "physics_families"
+    },
+    "EMF_INTERNAL_RESISTANCE": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "physics_families"
+    },
+    "FRICTION_MU_N": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "physics_families"
+    },
+    "GRAVITY_SURFACE_G": {
+      "resistance": 0.8,
+      "probes": 5,
+      "fails": 0,
+      "partials": 2,
+      "passes": 3,
+      "module": "physics_families"
+    },
+    "HOOKE_LAW": {
+      "resistance": 1.0,
+      "probes": 9,
+      "fails": 0,
+      "partials": 0,
+      "passes": 9,
+      "module": "physics_families"
+    },
+    "HYDROSTATIC_PRESSURE": {
+      "resistance": 0.9444,
+      "probes": 9,
+      "fails": 0,
+      "partials": 1,
+      "passes": 8,
+      "module": "physics_families"
+    },
+    "KINEMATICS_S_UT_AT2": {
+      "resistance": 0.9091,
+      "probes": 11,
+      "fails": 1,
+      "partials": 0,
+      "passes": 10,
+      "module": "physics_families"
+    },
+    "KINEMATICS_V2_U2_2AS": {
+      "resistance": 0.9231,
+      "probes": 13,
+      "fails": 0,
+      "partials": 2,
+      "passes": 11,
+      "module": "physics_families"
+    },
+    "KINEMATICS_V_U_AT": {
+      "resistance": 1.0,
+      "probes": 12,
+      "fails": 0,
+      "partials": 0,
+      "passes": 12,
+      "module": "physics_families"
+    },
+    "KINETIC_ENERGY": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "physics_families"
+    },
+    "LATENT_HEAT": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "physics_families"
+    },
+    "MOMENT_OF_FORCE": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "physics_families"
+    },
+    "NEWTON_SECOND_LAW": {
+      "resistance": 0.8889,
+      "probes": 18,
+      "fails": 2,
+      "partials": 0,
+      "passes": 16,
+      "module": "physics_families"
+    },
+    "OHMS_LAW_ANY": {
+      "resistance": 0.8889,
+      "probes": 9,
+      "fails": 0,
+      "partials": 2,
+      "passes": 7,
+      "module": "physics_families"
+    },
+    "PENDULUM_PERIOD": {
+      "resistance": 0.7143,
+      "probes": 7,
+      "fails": 2,
+      "partials": 0,
+      "passes": 5,
+      "module": "physics_families"
+    },
+    "POTENTIAL_ENERGY": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "physics_families"
+    },
+    "POWER_FORCE_VELOCITY": {
+      "resistance": 0.8333,
+      "probes": 3,
+      "fails": 0,
+      "partials": 1,
+      "passes": 2,
+      "module": "physics_families"
+    },
+    "POWER_WORK_TIME": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "physics_families"
+    },
+    "REFRACTIVE_INDEX_SPEED": {
+      "resistance": 0.8333,
+      "probes": 3,
+      "fails": 0,
+      "partials": 1,
+      "passes": 2,
+      "module": "physics_families"
+    },
+    "SPECIFIC_HEAT": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "physics_families"
+    },
+    "WEIGHT_MG": {
+      "resistance": 0.7333,
+      "probes": 15,
+      "fails": 3,
+      "partials": 2,
+      "passes": 10,
+      "module": "physics_families"
+    },
+    "WORK_DONE": {
+      "resistance": 1.0,
+      "probes": 5,
+      "fails": 0,
+      "partials": 0,
+      "passes": 5,
+      "module": "physics_families"
+    },
+    "WORK_ENERGY_THEOREM": {
+      "resistance": 1.0,
+      "probes": 4,
+      "fails": 0,
+      "partials": 0,
+      "passes": 4,
+      "module": "physics_families"
+    },
+    "CHRONO_INTERVAL": {
+      "resistance": 0.8125,
+      "probes": 8,
+      "fails": 1,
+      "partials": 1,
+      "passes": 6,
+      "module": "socsci_families"
+    },
+    "CLIMATE_TABLE": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 1,
+      "partials": 0,
+      "passes": 6,
+      "module": "socsci_families"
+    },
+    "MAJORITY_COUNT": {
+      "resistance": 0.4286,
+      "probes": 7,
+      "fails": 4,
+      "partials": 0,
+      "passes": 3,
+      "module": "socsci_families"
+    },
+    "MAP_SCALE": {
+      "resistance": 0.9375,
+      "probes": 16,
+      "fails": 0,
+      "partials": 2,
+      "passes": 14,
+      "module": "socsci_families"
+    },
+    "POP_DENSITY": {
+      "resistance": 0.5,
+      "probes": 4,
+      "fails": 1,
+      "partials": 2,
+      "passes": 1,
+      "module": "socsci_families"
+    },
+    "POP_GROWTH": {
+      "resistance": 0.6667,
+      "probes": 3,
+      "fails": 1,
+      "partials": 0,
+      "passes": 2,
+      "module": "socsci_families"
+    },
+    "SEAT_VOTE_SHARE": {
+      "resistance": 0.75,
+      "probes": 6,
+      "fails": 1,
+      "partials": 1,
+      "passes": 4,
+      "module": "socsci_families"
+    },
+    "SEX_RATIO_LITERACY": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "socsci_families"
+    },
+    "TIME_ZONE_LONGITUDE": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "socsci_families"
+    },
+    "VITAL_STATS": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "socsci_families"
+    },
+    "ap_nth": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "ap_sum": {
+      "resistance": 0.5,
+      "probes": 6,
+      "fails": 0,
+      "partials": 6,
+      "passes": 0,
+      "module": "syllabus_families"
+    },
+    "combinations": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "cone_volume": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "syllabus_families"
+    },
+    "cylinder_volume": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "syllabus_families"
+    },
+    "density": {
+      "resistance": 0.5,
+      "probes": 2,
+      "fails": 1,
+      "partials": 0,
+      "passes": 1,
+      "module": "syllabus_families"
+    },
+    "determinant_2x2": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "distance_formula": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "dot_product": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "electrical_power": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "elevation_height": {
+      "resistance": 1.0,
+      "probes": 3,
+      "fails": 0,
+      "partials": 0,
+      "passes": 3,
+      "module": "syllabus_families"
+    },
+    "gp_infinite_sum": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "heat_energy": {
+      "resistance": 0.75,
+      "probes": 4,
+      "fails": 1,
+      "partials": 0,
+      "passes": 3,
+      "module": "syllabus_families"
+    },
+    "heron_area": {
+      "resistance": 0.7727,
+      "probes": 11,
+      "fails": 0,
+      "partials": 5,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "kinetic_energy": {
+      "resistance": 1.0,
+      "probes": 10,
+      "fails": 0,
+      "partials": 0,
+      "passes": 10,
+      "module": "syllabus_families"
+    },
+    "mean_list": {
+      "resistance": 0.875,
+      "probes": 8,
+      "fails": 0,
+      "partials": 2,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "molarity": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "moles_from_mass": {
+      "resistance": 0.9167,
+      "probes": 6,
+      "fails": 0,
+      "partials": 1,
+      "passes": 5,
+      "module": "syllabus_families"
+    },
+    "newton_second": {
+      "resistance": 0.8125,
+      "probes": 8,
+      "fails": 0,
+      "partials": 3,
+      "passes": 5,
+      "module": "syllabus_families"
+    },
+    "ohm_current": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "ohm_resistance": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "permutations": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "potential_energy": {
+      "resistance": 1.0,
+      "probes": 8,
+      "fails": 0,
+      "partials": 0,
+      "passes": 8,
+      "module": "syllabus_families"
+    },
+    "sector_area": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 1,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "sphere_area": {
+      "resistance": 0.8571,
+      "probes": 7,
+      "fails": 1,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "sphere_volume": {
+      "resistance": 1.0,
+      "probes": 7,
+      "fails": 0,
+      "partials": 0,
+      "passes": 7,
+      "module": "syllabus_families"
+    },
+    "trig_eval": {
+      "resistance": 0.6364,
+      "probes": 11,
+      "fails": 2,
+      "partials": 4,
+      "passes": 5,
+      "module": "syllabus_families"
+    },
+    "vector_magnitude": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    },
+    "wave_speed": {
+      "resistance": 0.75,
+      "probes": 2,
+      "fails": 0,
+      "partials": 1,
+      "passes": 1,
+      "module": "syllabus_families"
+    },
+    "work_force_distance": {
+      "resistance": 1.0,
+      "probes": 6,
+      "fails": 0,
+      "partials": 0,
+      "passes": 6,
+      "module": "syllabus_families"
+    }
+  }
+}

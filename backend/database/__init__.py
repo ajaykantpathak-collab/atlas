@@ -21,6 +21,9 @@ engine = create_async_engine(
 async_session = async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
 # Alias for routers that import async_session_maker instead of async_session
 async_session_maker = async_session
+# Alias for callers written against the flat database.py naming
+# (backend.database is a package shim shadowing that module — CL-03).
+AsyncSessionLocal = async_session
 
 
 class Base(DeclarativeBase):

@@ -60,6 +60,8 @@ from backend.deps import get_current_user, get_current_user_optional
 from backend.models.user import User as UserModel
 from backend.models.enrichment import BoardQuestion
 from backend.services.auth_service import TeacherClassModel
+from backend.services.feedback_scrub import (
+    scrub_answer_key, scrub_explanation)
 from backend.api.teacher import ClassEnrollmentModel, _require_staff
 
 logger = logging.getLogger(__name__)
@@ -660,8 +662,10 @@ async def assignment_submit(
                 "questionText": strip_pipeline_markers(q.question_text or ""),
                 "studentAnswer": student_answer,
                 "isCorrect": is_correct,
-                "correctAnswer": model_answer[:400],
-                "explanation": (q.explanation or "")[:400],
+                # bank fields can hold GRADER prose — scrub at serving.
+                "correctAnswer": scrub_answer_key(model_answer)[:400],
+                "explanation": scrub_explanation(
+                    q.explanation, is_correct)[:400],
             }
         )
 
@@ -693,8 +697,22 @@ async def assignment_submit(
                     },
                 )
                 activity_written += 1
-                await ProgressService.award_xp(db, uid, 10 if r["isCorrect"] else 2)
-                xp_earned += 10 if r["isCorrect"] else 2
+                # XP via the canonical service, keyed by (assignment, student,
+                # question) so a retried submit can never double-pay even if
+                # the completion-row guard above were to miss. The receipt's
+                # `awarded` flag keeps the reported xp_earned honest.
+                from backend.services.reward_ledger import (
+                    RewardLedger as _Ledger,
+                    xp_for_answer as _xp_for,
+                )
+                _amount = _xp_for(bool(r["isCorrect"]))
+                _receipt = await _Ledger.award_xp(
+                    db, uid, _amount,
+                    event="assignment",
+                    event_ref=f"{asgmt.id}:{uid}:{r.get('questionId', '')}",
+                )
+                if _receipt.get("awarded"):
+                    xp_earned += _amount
             except Exception as exc:
                 logger.warning("assignment progress write failed: %s", exc)
         try:

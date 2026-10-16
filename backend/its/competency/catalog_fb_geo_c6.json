@@ -1,0 +1,84 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c6)",
+ "source_file": "c6_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C6_001",
+   "title": "Real distance (km): Real distance (km) = ...",
+   "section": "",
+   "formula": "Real_distance_km = map_distance*denominator / 100000",
+   "_pats_extra": [],
+   "key_idea": "Real distance (km)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find real distance (km) using real distance (km)",
+    "calculate real distance (km)",
+    "real distance (km) formula question",
+    "given values find real distance (km)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C6_001",
+     "question_pattern": "real distance (km) with {map_distance} and {denominator} find real distance (km)",
+     "extracted_variables": {
+      "map_distance": "given map_distance",
+      "denominator": "given denominator"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for map_distance, denominator from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Real distance (km) = map_distance*denominator / 100000",
+     "compute": "Real_distance_km = map_distance*denominator / 100000"
+    }
+   ],
+   "chapter_title": "geo c6 formulas"
+  },
+  {
+   "id": "FBD_GEO_C6_001",
+   "title": "Gradient: Gradient = ...",
+   "section": "decision tree",
+   "formula": "Gradient = height_difference / horizontal_distance",
+   "key_idea": "Gradient (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find gradient using gradient",
+    "calculate gradient",
+    "gradient formula question",
+    "given values find gradient"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_GEO_C6_001",
+     "question_pattern": "gradient with {height_difference} and {horizontal_distance} find gradient",
+     "extracted_variables": {
+      "height_difference": "given height_difference",
+      "horizontal_distance": "given horizontal_distance"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for height_difference, horizontal_distance from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Gradient = height_difference / horizontal_distance",
+     "compute": "Gradient = height_difference / horizontal_distance"
+    }
+   ],
+   "chapter_title": "geo c6 decision formulas"
+  }
+ ]
+}

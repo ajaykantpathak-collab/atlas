@@ -46,6 +46,9 @@ class TutorResponse:
     quality_score: float
     latency_ms: float
     errors: list
+    # U-LANE LABEL (Layer U2): the one honesty enum — socratic guidance
+    # is NONE; any surface that ships an answer must set it for real
+    answer_label: str = "NONE"
 
 
 class TutorServiceV2:

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas — Every answer verified, never guessed | CBSE</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+</head>
+<body class="cosmos-page">
+
+<!-- ======================= WONDER: the hero ======================= -->
+<section class="hero">
+  <canvas id="cosmos" aria-hidden="true"></canvas>
+  <span class="side-label l">01 · Astronomy</span>
+  <span class="side-label r">Specimen · Live</span>
+
+  <div class="specimen-bar" style="position:absolute;top:0;left:0;right:0;border-bottom:none;">
+    <a class="brand" href="index.html">Atlas</a>
+    <div style="display:flex;gap:24px;align-items:center;">
+      <span class="specimen">Class 1–12 · 262,144 light-points</span>
+      <a class="btn-cosmos gold" href="login.html">Enter the app →</a>
+    </div>
+  </div>
+
+  <div class="hero-inner" data-motion="cosmos-in">
+    <div class="hero-eyebrow">
+      <span class="specimen-tag lit" id="sc-tag">Astronomy</span>
+      <span class="specimen" id="sc-grade">Grades 6–9</span>
+    </div>
+    <h1 id="sc-title">Solar System</h1>
+    <p class="lede" id="sc-lede">A star, eight worlds, and a thin disk of leftover ice.
+      Gravity writes ellipses. Distance writes time.</p>
+    <ul class="hero-facts" id="sc-facts">
+      <li>Inner worlds are rocky. Outer worlds are gas and ice giants.</li>
+      <li>Kepler's law: closer planets sweep faster. Mercury sprints. Neptune crawls.</li>
+      <li>If the Sun were a grapefruit, Earth would be a peppercorn about 15 meters away.</li>
+    </ul>
+    <p class="specimen gold" id="sc-pointer">Your pointer is a passing mass — nudge a world off its path, watch gravity remember the orbit.</p>
+  </div>
+
+  <nav class="hero-scene-nav" id="sc-nav">
+    <button class="on" data-scene="orbit"><span class="n">01</span> Solar System</button>
+    <button data-scene="band"><span class="n">02</span> Milky Way</button>
+    <button data-scene="hole"><span class="n">03</span> Black Hole</button>
+  </nav>
+
+  <div class="hero-foot">
+    <div class="chain">
+      <span class="specimen">Move · disturb — Hold · gather</span>
+    </div>
+    <span class="specimen">ATLAS — 3,806 SIMS — PRACTICE — JUNIOR WORLD</span>
+  </div>
+</section>
+
+<!-- ======================= THE FOLD ======================= -->
+<div class="fold" role="separator"></div>
+
+<!-- ======================= WORK: paper begins ======================= -->
+<section class="paper-surface" style="padding: 70px 5vw 90px;">
+
+  <div style="max-width:880px;margin:0 auto;" data-motion="settle">
+    <p class="specimen gold">The register · live counts</p>
+    <h2 class="paper-title">Every topic, on record.</h2>
+    <p class="paper-sub">Not a feature grid — a mark-register. The corpus, ruled.</p>
+
+    <div class="paper-sheet" data-motion="settle">
+      <div class="sheet-head"><span class="l">Atlas · Syllabus Register</span><span class="r">CBSE + CISCE · 2026-27</span></div>
+      <div class="sheet-body">
+        <table class="paper-ledger" data-motion="ledger">
+          <thead><tr><th class="no">No.</th><th>Class</th><th>Descriptor</th><th class="num">Topics</th></tr></thead>
+          <tbody>
+            <tr style="--i:0"><td class="no">01</td><td>Class 6–8</td><td>Foundation sciences, mathematics, languages</td><td class="num">4,881</td></tr>
+            <tr style="--i:1"><td class="no">02</td><td>Class 9–10</td><td>Board-pattern topics, competency-tagged</td><td class="num">7,942</td></tr>
+            <tr style="--i:2"><td class="no">03</td><td>Class 11–12</td><td>Electives — sciences, commerce, humanities</td><td class="num">7,974</td></tr>
+            <tr style="--i:3"><td class="no">04</td><td>Practice bank</td><td>Node-derived questions, board blueprint</td><td class="num">253,456</td></tr>
+            <tr style="--i:4"><td class="no">05</td><td>Simulations</td><td>Interactive specimen scenes</td><td class="num">3,806</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- marked-answer proof: the "it's education" moment — rotates per load -->
+  <div style="max-width:880px;margin:70px auto 0;" data-motion="settle">
+    <p class="specimen gold">Proof · a real marked answer</p>
+    <h2 class="paper-title">Graded like the board grades.</h2>
+    <p class="paper-sub">An actual engine-marked response — margin ticks, honest score. Never fake red ink.</p>
+
+    <div class="paper-sheet ruled" data-motion="settle">
+      <div class="sheet-head"><span class="l" id="pf-subject"></span><span class="r" id="pf-chapter"></span></div>
+      <div class="sheet-body" style="position:relative;">
+        <div class="q-row">
+          <span class="paper-qnum" id="pf-qnum">3.</span>
+          <p style="font-size:17px;max-width:560px;">
+            <span id="pf-q"></span>
+            <span class="paper-marks" id="pf-marks"></span> <span class="paper-tag" id="pf-diff"></span>
+          </p>
+        </div>
+
+        <div class="q-row" data-motion="hand">
+          <span class="paper-qnum" style="top:2px;">&nbsp;</span>
+          <div class="paper-hand" style="max-width:560px;" id="pf-lines"></div>
+          <svg class="paper-tick ok" data-motion="draw" width="26" height="26" viewBox="0 0 26 26"
+               style="position:absolute;right:18px;top:8px;">
+            <path d="M4 14 L10 20 L22 6" fill="none" stroke="#2f5d3a" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="paper-tick ok" data-motion="draw" width="26" height="26" viewBox="0 0 26 26"
+               style="position:absolute;right:18px;top:98px;">
+            <path d="M4 14 L10 20 L22 6" fill="none" stroke="#2f5d3a" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="paper-redpen" data-motion="tick" style="--i:2;position:absolute;right:14px;top:158px;max-width:190px;font-size:17px;line-height:1.3;" id="pf-note"></div>
+        </div>
+
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:34px;">
+          <div class="paper-redpen" data-motion="tick" style="--i:3;font-size:22px;" id="pf-remark"></div>
+          <div class="paper-stamp" data-motion="stamp" id="pf-score"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- lettered steps -->
+  <div style="max-width:880px;margin:70px auto 0;" data-motion="settle">
+    <p class="specimen gold">How an answer is born</p>
+    <h2 class="paper-title">Solved, then verified.</h2>
+    <div class="paper-sheet" data-motion="settle">
+      <div class="sheet-head"><span class="l">The engine · per question</span><span class="r">deterministic — no guessing</span></div>
+      <div class="sheet-body">
+        <ol class="paper-steps">
+          <li><strong>Parsed.</strong> Your question is read into slots — quantities, asks, given data.</li>
+          <li><strong>Routed.</strong> A solver family built for that pattern computes the answer — real math, not a language model's memory.</li>
+          <li><strong>Verified.</strong> An independent checker re-derives every number before it reaches you. Wrong math never ships.</li>
+          <li><strong>Marked.</strong> Steps are graded against the board's marking scheme — you see where marks live, not just the total.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= cosmos close ======================= -->
+<section class="cosmos-section" style="text-align:center;padding:120px 7vw;">
+  <p class="specimen gold" data-motion="cosmos-in">9,099 stars. One is yours.</p>
+  <p class="display-quote" style="margin:22px auto 40px;" data-motion="cosmos-in">
+    Sign in and the syllabus becomes a <em>living sky</em> — every topic you master lights another star.</p>
+  <a class="btn-cosmos gold" href="galaxy.html" data-motion="cosmos-in">See your galaxy →</a>
+</section>
+
+<footer style="border-top:1px solid var(--cosmos-line);padding:18px 28px;display:flex;justify-content:space-between;" data-specimen-foot></footer>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/cosmos.js"></script>
+<script src="js/motions.js"></script>
+<script>
+// scene switching: canvas scene + copy swap, live
+document.querySelectorAll("#sc-nav button").forEach(b => {
+  b.addEventListener("click", () => {
+    const sc = ATLAS_DATA.SCENES.find(s => s.id === b.dataset.scene);
+    if (!sc) return;
+    cosmosScene(sc.id, b);
+    document.getElementById("sc-tag").textContent = sc.tag;
+    document.getElementById("sc-grade").textContent = sc.grade;
+    document.getElementById("sc-title").textContent = sc.title;
+    document.getElementById("sc-lede").textContent = sc.lede;
+    document.getElementById("sc-facts").innerHTML = sc.facts.map(f => `<li>${f}</li>`).join("");
+    document.getElementById("sc-pointer").textContent = sc.pointer;
+  });
+});
+
+// proof card rotates per load
+const pf = ATLAS_DATA.pick(ATLAS_DATA.PROOFS);
+document.getElementById("pf-subject").textContent = pf.subject;
+document.getElementById("pf-chapter").textContent = pf.chapter;
+document.getElementById("pf-q").textContent = pf.q + " ";
+document.getElementById("pf-marks").textContent = pf.marks;
+const pfDiff = document.getElementById("pf-diff");
+pfDiff.textContent = pf.diff[0]; pfDiff.classList.add(pf.diff[1]);
+document.getElementById("pf-lines").innerHTML =
+  pf.lines.map((l, i) => `<div class="hand-line" style="--i:${i}">${l}</div>`).join("");
+document.getElementById("pf-note").innerHTML = pf.note.replace(/\[(\d+)\]/, '<span class="paper-marks">$1</span>');
+document.getElementById("pf-remark").textContent = pf.remark;
+document.getElementById("pf-score").textContent = pf.score;
+motionScan();
+</script>
+</body>
+</html>

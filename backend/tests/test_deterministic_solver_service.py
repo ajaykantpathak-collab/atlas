@@ -33,10 +33,16 @@ def test_verified_answer_is_preserved_and_marked_verified():
 
     original = service.answer
     service.answer = lambda question: fake
+    # The NeuroLink concept lane (added after these tests were written)
+    # intercepts non-math inputs BEFORE the answer() seam; pin it off so
+    # this input deterministically exercises the seam under contract.
+    original_concept = service.is_pure_concept_query
+    service.is_pure_concept_query = lambda text: False
     try:
         result = service.solve_deterministically("novel question")
     finally:
         service.answer = original
+        service.is_pure_concept_query = original_concept
 
     assert result["status"] == "verified"
     assert result["answer"] == "4"
@@ -60,10 +66,14 @@ def test_unverified_result_never_carries_an_answer():
 
     original = service.answer
     service.answer = lambda question: fake
+    # Same seam pin: the concept lane must not intercept before answer().
+    original_concept = service.is_pure_concept_query
+    service.is_pure_concept_query = lambda text: False
     try:
         result = service.solve_deterministically("novel question")
     finally:
         service.answer = original
+        service.is_pure_concept_query = original_concept
 
     assert result["status"] == "guided_practice"
     assert result["answer"] is None

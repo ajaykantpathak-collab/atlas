@@ -19,7 +19,7 @@ from __future__ import annotations
 import re
 from typing import Dict, Optional, Tuple
 
-_NUM = r"(?:\d{1,3}(?:,\d{2,3})+|\d+(?:\.\d+)?)"
+_NUM = r"(?:-?\d{1,3}(?:,\d{2,3})+|-?\d+(?:\.\d+)?)"
 _VAL = (r"(" + _NUM + r")(?:\s*/\s*(" + _NUM + r")|"
         r"\s*[eE]\s*([+-]?\d+)|\s*x\s*10\s*(?:\^|\*\*)?\s*([+-]?\d+))?")
 
@@ -103,16 +103,135 @@ def try_mcq(text: str, solve) -> Optional[object]:
         {"option": "b", "value": <float>, "core": <PipelineResult>}
     """
     opts = parse_numeric_options(text)
-    if opts is None:
-        return None
-    stem, _ = split_stem(text)
-    if len(stem) < 30:
-        return None
-    core = solve(stem)
-    if core is None or core.label != "VERIFIED" or core.numeric is None:
-        return None
-    letters, n = match_options(core.numeric, opts)
-    if n != 1:
-        return None
-    letter = letters
-    return {"option": letter, "value": opts[letter], "core": core}
+    stem, has_opts = split_stem(text)
+    
+    # 1. Standard numeric matching
+    if opts is not None and len(stem) >= 15:
+        core = solve(stem)
+        if core is not None and core.label == "VERIFIED" and core.numeric is not None:
+            letters, n = match_options(core.numeric, opts)
+            if n == 1:
+                letter = letters
+                return {"option": letter, "value": opts[letter], "core": core}
+
+        # 2. Back-Substitution Lane for Equations (NEET/JEE fast-path)
+        # If core solver stayed guided or couldn't invert an equation f(x) = y,
+        # test each option directly into the stem's equation.
+        try:
+            eq_match = re.search(r"([0-9xX\+\-\*\/\^\(\)\.\s]+)\s*=\s*([0-9xX\+\-\*\/\^\(\)\.\s]+)", stem)
+            if eq_match:
+                lhs_str, rhs_str = eq_match.group(1).strip(), eq_match.group(2).strip()
+                if "x" in lhs_str.lower() or "x" in rhs_str.lower():
+                    # Substitute candidate values for x
+                    valid_hits = []
+                    for opt_letter, opt_val in opts.items():
+                        try:
+                            # opt_val is substituted into an expression that is
+                            # then eval()'d — accept numeric candidates only so
+                            # hostile option text can never reach code execution
+                            if not re.fullmatch(r"[-+]?\d+(?:\.\d+)?", opt_val.strip()):
+                                continue
+                            # Safe evaluate numerical difference: LHS - RHS
+                            lhs_sub = re.sub(r"\bx\b", f"({opt_val})", lhs_str, flags=re.I)
+                            rhs_sub = re.sub(r"\bx\b", f"({opt_val})", rhs_str, flags=re.I)
+                            # Convert caret to exponent
+                            lhs_sub = lhs_sub.replace("^", "**")
+                            rhs_sub = rhs_sub.replace("^", "**")
+                            # Evaluate within restricted math scope
+                            safe_scope = {"__builtins__": None, "abs": abs, "round": round}
+                            diff = abs(eval(lhs_sub, safe_scope) - eval(rhs_sub, safe_scope))
+                            if diff < 1e-4:
+                                valid_hits.append((opt_letter, opt_val))
+                        except Exception:
+                            continue
+                    if len(valid_hits) == 1:
+                        best_letter, best_val = valid_hits[0]
+                        from backend.its.solver.answer_pipeline import AuditTrail, PipelineResult, VERIFIED
+                        audit = AuditTrail(lane="D", route=["mcq:back_substitution"],
+                                           gates_passed=["algebraic_residual_verification"])
+                        core = PipelineResult(
+                            label=VERIFIED,
+                            answer=f"option ({best_letter}) {best_val}",
+                            numeric=best_val,
+                            steps=[
+                                f"Direct back-substitution into equation: {eq_match.group(0)}",
+                                f"Substituting x = {best_val} yields LHS == RHS (residual < 1e-4)."
+                            ],
+                            audit=audit
+                        )
+                        return {"option": best_letter, "value": best_val, "core": core}
+        except Exception:
+            pass
+
+    # 3. Qualitative / Concept MCQ evaluation via NeuroLink
+    if has_opts:
+        try:
+            # Extract textual options: (a) text (b) text (c) text (d) text
+            text_opts_matches = list(re.finditer(r"(?:\(\s*([a-dA-D])\s*\)|\[?\b([a-dA-D])[\)\.\]])\s*([^\(\)\[\]\n\r]{2,80})", text))
+            if len(text_opts_matches) >= 3:
+                cand_map = {}
+                for m in text_opts_matches:
+                    let = (m.group(1) or m.group(2) or "").lower()
+                    opt_text = m.group(3).strip().rstrip(".,;")
+                    cand_map[let] = opt_text
+
+                from backend.its.solver.neurolink import NeuroLinkEngine
+                nl = NeuroLinkEngine.get_instance()
+                stem_solve = nl.fast_solve(stem)
+                # Relation-MCQ guard (class-9 biology board audit,
+                # 2026-10-06): "seen in / found in / occurs in / present
+                # in" stems ask WHICH ORGANISM/STRUCTURE, but the concept
+                # lane only verifies topic similarity — it returned a
+                # yeast-reproduction concept for "Binary fission is the
+                # mode of reproduction seen in:" and option (c) Yeast
+                # shipped VERIFIED-wrong.  Attribution asks ("proposed
+                # by", "coined by") stay promotable: the person name is
+                # itself the body anchor.  Relation facts belong to the
+                # NCERT fact table or bank keys, which verify the pair.
+                if re.search(r"\b(seen in|found in|occurs in|present in)\b",
+                             stem, re.I):
+                    return None
+                if stem_solve and stem_solve.get("status") == "verified":
+                    target_body = (stem_solve.get("answer", "") + " " + " ".join(stem_solve.get("steps", []))).lower()
+
+                    matched_opts = []
+                    # a word shared by several options ("cell" in every
+                    # biology option) is not evidence for any one of them
+                    # -- only DISTINCTIVE words may certify a match
+                    # ("Egg cell" shipped a longest-cell question because
+                    # its only >=4-letter word was "cell", 2026-10-06).
+                    opt_words = {let: [w.lower() for w in
+                                       re.findall(r"[A-Za-z]{3,}", o_text)]
+                                 for let, o_text in cand_map.items()}
+                    for let, o_text in cand_map.items():
+                        words = opt_words[let]
+                        others = set()
+                        for other_let, ws in opt_words.items():
+                            if other_let != let:
+                                others.update(ws)
+                        distinctive = [w for w in words if w not in others]
+                        if distinctive and all(w in target_body
+                                               for w in distinctive):
+                            matched_opts.append(let)
+
+                    if len(matched_opts) == 1:
+                        best_let = matched_opts[0]
+                        from backend.its.solver.answer_pipeline import AuditTrail, PipelineResult, VERIFIED
+                        audit = AuditTrail(lane="D", route=["mcq:neurolink_concept_match"],
+                                           gates_passed=["neurolink_concept_verification"])
+                        core = PipelineResult(
+                            label=VERIFIED,
+                            answer=f"option ({best_let}) {cand_map[best_let]}",
+                            numeric=None,
+                            steps=[
+                                f"Concept: {stem_solve.get('audit', {}).get('title', stem)}",
+                                f"Option ({best_let}) '{cand_map[best_let]}' matches the verified principle: {stem_solve.get('answer', '')[:120]}..."
+                            ],
+                            audit=audit
+                        )
+                        return {"option": best_let, "value": None,
+                                "core": core}
+        except Exception:
+            pass
+
+    return None

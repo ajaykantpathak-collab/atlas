@@ -1,0 +1,276 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 48,
+      "path": "SKILL.md",
+      "size_bytes": 2783
+    }
+  ],
+  "source_id": "fleet-manager",
+  "source_map": [
+    {
+      "enriched_line_end": 48,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 48,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 28,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: fleet-manager",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Manage the Atlas agent build fleet at D:\\platform \u2014 launch fixer/auditor agents, enforce the 6-agent cap, claim protocol, restart locks, timeboxes, kill runaways, and resume killed waves. Use whenever launching subagent waves, coordinating parallel agents, diagnosing stuck or runaway agents, or resuming killed agent work.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Fleet Manager \u2014 parallel agent discipline",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Max 6 concurrent agents. This cap exists because exceeding it got every",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "SKILL.md",
+      "text": "agent killed by the platform. Count before every launch.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 11,
+      "line_start": 11,
+      "source_file": "SKILL.md",
+      "text": "Agent archetypes",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "AUDITOR \u2014 walks the product, files findings. Never fixes. Finishes by",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "FIXER \u2014 claims items from a ledger (BUGS.md / CURRICULUMGAPS.md), fixes,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "Launch protocol",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "Count running agents first. Free slots = 6 \u2212 running.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "Write self-contained prompts: platform path, claim protocol, verification",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "SKILL.md",
+      "text": "Split workstreams by FILE/domain so parallel agents never edit the same file.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "Relaunching killed agents: instruct them to check their output files",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "Coordination ledger",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "BUGS.md is the single source of coordination:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "Claim before fixing: retag - [STUDENT-X] \u2192 - [claimed-<tag>] (Edit with the",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "Done: [fixed-<tag>] + evidence. Blocked by owner: [blocked-owner] + reason.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 33,
+      "line_start": 33,
+      "source_file": "SKILL.md",
+      "text": "Backend restarts: append - [restart-lock <tag> <HH:MM>] under ## OPS,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "Stale-copy rule: before docker cp of any backend file, diff repo vs container;",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "Runaway handling",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "Symptoms: agent hours past its scope, repeating steps, token burn complaint.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "TaskStop the agent (verify it actually stopped).",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "SKILL.md",
+      "text": "Audit its leftovers: partial files, half-mirrored deploy changes, open locks.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "Relaunch tight-scoped with a resume instruction and a HARD checklist.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "SKILL.md",
+      "text": "Verification before declaring a wave done",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "Every claim: [fixed-] with evidence, deploy mirrors diff-identical.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "Run the verify-sweep skill (acceptance checklist) against :3001.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 48,
+      "line_start": 48,
+      "source_file": "SKILL.md",
+      "text": "Only then: production rebuild via the atlas-deploy skill.",
+      "unit_type": "list_item"
+    }
+  ]
+}

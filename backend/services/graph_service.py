@@ -2,16 +2,34 @@
 
 Connects to the Neo4j database and provides methods for querying
 the CISCE curriculum knowledge graph.
+
+D11 (2026-09-30): the GATING endpoints — /api/graph/gaps and
+/api/graph/path (find_gaps / find_root_gaps / get_learning_path) —
+filter prerequisites through the shared hard-edge classifier
+(services/graph_edges): an edge A→B (A requires B) is a hard gate iff
+B's class is strictly below A's OR B's subject differs.  Same-class
+sibling mesh never gates.  Display endpoints (/prerequisites,
+/unlocks, /visualize) keep the full edge set for chain display.
 """
 from __future__ import annotations
 
 import logging
 import os
-from typing import Any, Optional
+import re
+from typing import Any, Optional, Tuple
 
 from fastapi.concurrency import run_in_threadpool
 
+try:  # package import (platform runtime)
+    from backend.services import graph_edges
+except ImportError:  # legacy flat import path
+    from services import graph_edges  # type: ignore[no-redef]
+
 logger = logging.getLogger(__name__)
+
+#: a bare corpus node id ("c6_math_ch03_040") in a display-name field —
+#: broadened to any lowercase slug token so unknown-id shapes are caught too
+_LOOKS_LIKE_ID = re.compile(r"^[a-z0-9][a-z0-9_-]{7,}$")
 
 try:
     from neo4j import GraphDatabase
@@ -32,7 +50,8 @@ class GraphService:
     ):
         self._uri = uri or os.getenv("PLATFORM_NEO4J_URI") or os.getenv("NEO4J_URI", "bolt://localhost:7687")
         self._user = user or os.getenv("PLATFORM_NEO4J_USER") or os.getenv("NEO4J_USER", "neo4j")
-        self._password = password or os.getenv("PLATFORM_NEO4J_PASSWORD") or os.getenv("NEO4J_PASSWORD", "dream_neo4j_2024")
+        # no literal default (lane-B audit 2026-10-15): the env must supply it
+        self._password = password or os.getenv("PLATFORM_NEO4J_PASSWORD") or os.getenv("NEO4J_PASSWORD", "")
         self._driver = None
 
     async def check_connection(self) -> bool:
@@ -387,10 +406,19 @@ class GraphService:
             labels_record = labels_result.single()
             labels = labels_record["labels"] if labels_record else []
 
+            # Per-label breakdown so consumers can distinguish curriculum
+            # nodes from Sim/catalog nodes — a single flat count hid that
+            # "25k nodes" meant 20.9k curriculum + 3.8k sims (2026-10-10).
+            breakdown_result = session.run(
+                "MATCH (n) RETURN labels(n)[0] as lbl, count(*) as c"
+            )
+            breakdown = {r["lbl"]: r["c"] for r in breakdown_result}
+
         return {
             "total_nodes": nodes_count,
             "total_edges": edges_count,
             "labels": labels,
+            "node_breakdown": breakdown,
         }
 
     async def get_roots(self) -> list[dict[str, Any]]:
@@ -575,6 +603,73 @@ class GraphService:
 
     _UNAVAILABLE_STATS = {"total_nodes": 0, "total_edges": 0, "labels": [], "status": "neo4j_unavailable"}
 
+    # ------------------------------------------------------------------ #
+    # Display-name resolution (render-fix wave, 2026-10-04).  The graph
+    # endpoints used to leak raw node ids in the ``name`` field of
+    # unlocks/prerequisites/related rows — rendered verbatim by the FE
+    # "UNLOCKS NEXT" panel.  Titles resolve from the enhanced-nodes
+    # corpus index (already a warm singleton in the serving process);
+    # when no title exists the name is dropped (None) so the frontend's
+    # sanctioned friendly-label fallback engages instead.
+    # ------------------------------------------------------------------ #
+
+    _TITLES_CACHE: Optional[dict] = None
+
+    @staticmethod
+    def _node_titles() -> dict:
+        if GraphService._TITLES_CACHE is None:
+            titles: dict = {}
+            try:
+                try:  # package import (platform runtime)
+                    from backend.services.enhanced_nodes import (
+                        _derive_title, load_index)
+                except ImportError:  # legacy flat import path
+                    from services.enhanced_nodes import (  # type: ignore
+                        _derive_title, load_index)
+                idx = load_index()
+                pools = []
+                for pool in ("nodes", "companions"):
+                    mapping = getattr(idx, pool, None)
+                    if isinstance(mapping, dict):
+                        pools.append(mapping)
+                for mapping in pools:
+                    for nid, node in mapping.items():
+                        if not isinstance(node, dict):
+                            continue
+                        # corpus nodes carry no title field — the API
+                        # derives one from the definition's first clause
+                        title = str(node.get("title")
+                                    or _derive_title(node) or "").strip()
+                        if title:
+                            titles[nid] = title
+            except Exception as e:  # noqa: BLE001 -- degrade, never fail
+                logger.warning("graph title map unavailable: %s", e)
+            GraphService._TITLES_CACHE = titles
+        return GraphService._TITLES_CACHE
+
+    @staticmethod
+    def _friendly_names(rows: list) -> list:
+        """Replace id-like/absent ``name`` values with corpus titles."""
+        if not rows:
+            return rows
+        titles = GraphService._node_titles()
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            name = row.get("name")
+            if isinstance(name, str) and name.strip() \
+                    and not _LOOKS_LIKE_ID.match(name.strip()):
+                continue  # real display text (snippet/label) — keep it
+            nid = row.get("node_id") or (name.strip() if isinstance(name, str) else "")
+            title = titles.get(nid)
+            if title:
+                row["name"] = title
+            else:
+                # never serve the raw id: let the FE friendly-label
+                # fallback engage ("Next topic" / nodeRefLabel)
+                row["name"] = None
+        return rows
+
     @staticmethod
     async def get_stats() -> dict[str, Any]:
         svc = get_graph_service()
@@ -659,7 +754,7 @@ class GraphService:
             """
             rows = await GraphService._run_cypher(cypher, class_level=int(class_level))
         if rows:
-            return rows
+            return GraphService._friendly_names(rows)
         try:
             return await _sqlite_fb.get_nodes_by_class(class_level, subject)
         except Exception as e:
@@ -673,7 +768,7 @@ class GraphService:
             if await svc.check_connection():
                 found = await svc.search(query, limit=limit)
                 if found.get("results"):
-                    return found["results"]
+                    return GraphService._friendly_names(found["results"])
         except Exception as e:
             logger.warning("graph search unavailable: %s", e)
         try:
@@ -683,25 +778,48 @@ class GraphService:
             return []
 
     @staticmethod
-    async def get_all_prerequisites(node_id: str, max_depth: int = 10) -> list[dict[str, Any]]:
+    async def _prereq_bundle(
+        node_id: str, max_depth: int = 10
+    ) -> Tuple[Optional[dict[str, Any]], list[dict[str, Any]]]:
+        """(target_brief, prerequisite_rows) for one node — Neo4j first,
+        SQLite fallback second, ``(``None``, ``[])`` when unknown.
+
+        The shared source for get_all_prerequisites (display, unfiltered)
+        and the D11 hard-only gating consumers below; the target brief
+        carries the ``subject``/``class_level`` coordinates the hard-edge
+        classifier needs.
+        """
         svc = get_graph_service()
         try:
             if await svc.check_connection():
                 data = await svc.get_prerequisites(node_id, max_depth)
                 if data.get("prerequisites"):
-                    return data["prerequisites"]
-                # Node may exist but have no prereqs in Neo4j; fall back to
-                # SQLite which may know the edge.
+                    return data.get("target_node"), data.get("prerequisites") or []
+                # Node may exist but have no prereqs in Neo4j.
                 node = await svc._get_node_neo4j(node_id)
                 if node is not None:
-                    return []
+                    return node.get("node"), []
         except Exception as e:
             logger.warning("graph prerequisites unavailable: %s", e)
         try:
             data = await _sqlite_fb.get_prerequisites(node_id, max_depth)
-            return data.get("prerequisites", [])
+            return data.get("target_node"), data.get("prerequisites", [])
         except Exception as e:
             logger.warning("graph sqlite fallback (prerequisites) failed: %s", e)
+            return None, []
+
+    @staticmethod
+    async def get_all_prerequisites(node_id: str, max_depth: int = 10) -> list[dict[str, Any]]:
+        """ALL prerequisite rows (display — NOT hard-filtered; see D11 note
+        in the module docstring).  Gating consumers use find_gaps /
+        get_learning_path, which hard-filter through graph_edges.
+
+        The bundle already degrades Neo4j → SQLite fallback → []."""
+        try:
+            _target, rows = await GraphService._prereq_bundle(node_id, max_depth)
+            return GraphService._friendly_names(rows)
+        except Exception as e:
+            logger.warning("graph prerequisites unavailable: %s", e)
             return []
 
     @staticmethod
@@ -747,13 +865,13 @@ class GraphService:
                     seen.add(nid)
                     out.append({
                         "node_id": nid,
-                        "name": nid,
+                        "name": nid,   # display-resolved by _friendly_names
                         "subject": r.get("subject"),
                     })
                     nxt.append(nid)
                 frontier = nxt
             if out:
-                return out
+                return GraphService._friendly_names(out)
         except Exception as e:
             logger.warning("graph unlocks BFS failed: %s", e)
         try:
@@ -772,7 +890,7 @@ class GraphService:
         """
         rows = await GraphService._run_cypher(cypher, node_id=node_id)
         if rows:
-            return rows
+            return GraphService._friendly_names(rows)
         try:
             return await _sqlite_fb.get_related_nodes(node_id)
         except Exception as e:
@@ -783,20 +901,30 @@ class GraphService:
     async def find_gaps(
         target_node_id: str, mastered_node_ids: set, max_depth: int = 10
     ) -> list[dict[str, Any]]:
+        """Unmastered HARD prerequisites of the target (D11).
+
+        Same-class sibling mesh never appears here: an edge only gates
+        when the prereq's class is strictly below the target's or its
+        subject differs (services/graph_edges.filter_hard_rows)."""
         mastered = set(mastered_node_ids or [])
-        prereqs = await GraphService.get_all_prerequisites(target_node_id, max_depth)
-        return [p for p in prereqs if p.get("node_id") not in mastered]
+        target, prereqs = await GraphService._prereq_bundle(target_node_id, max_depth)
+        hard = graph_edges.filter_hard_rows(prereqs, target)
+        return [p for p in hard if p.get("node_id") not in mastered]
 
     @staticmethod
     async def find_root_gaps(
         target_node_id: str, mastered_node_ids: set, max_depth: int = 10
     ) -> list[dict[str, Any]]:
+        """Deepest learnable roots of the unmet HARD chain (D11): gaps
+        whose OWN hard prerequisites are all mastered."""
         mastered = set(mastered_node_ids or [])
         gaps = await GraphService.find_gaps(target_node_id, mastered, max_depth)
         roots: list[dict[str, Any]] = []
         for gap in gaps:
-            own = await GraphService.get_all_prerequisites(gap.get("node_id", ""), max_depth)
-            unmet = [p for p in own if p.get("node_id") not in mastered]
+            g_target, g_prereqs = await GraphService._prereq_bundle(
+                gap.get("node_id", ""), max_depth)
+            hard = graph_edges.filter_hard_rows(g_prereqs, g_target)
+            unmet = [p for p in hard if p.get("node_id") not in mastered]
             if not unmet:
                 roots.append(gap)
         return roots
@@ -805,24 +933,19 @@ class GraphService:
     async def get_learning_path(
         target_node_id: str, mastered_node_ids: set, max_depth: int = 10
     ) -> list[dict[str, Any]]:
-        """Ordered nodes to learn: deepest prerequisites first, target last."""
+        """Ordered nodes to learn: deepest HARD prerequisites first, target
+        last (D11 — sibling mesh is excluded from the path)."""
         mastered = set(mastered_node_ids or [])
-        svc = get_graph_service()
-        try:
-            if await svc.check_connection():
-                data = await svc.get_prerequisites(target_node_id, max_depth)
-                prereqs = [
-                    p for p in data.get("prerequisites", [])
-                    if p.get("node_id") not in mastered
-                ]
-                path = list(reversed(prereqs))  # deepest first
-                target = data.get("target_node")
-                if target:
-                    path.append(target)
-                if path:
-                    return path
-        except Exception as e:
-            logger.warning("graph path unavailable: %s", e)
+        target, prereqs = await GraphService._prereq_bundle(target_node_id, max_depth)
+        hard = [
+            p for p in graph_edges.filter_hard_rows(prereqs, target)
+            if p.get("node_id") not in mastered
+        ]
+        path = list(reversed(hard))  # deepest first
+        if target:
+            path.append(target)
+        if path:
+            return GraphService._friendly_names(path)
         try:
             return await _sqlite_fb.get_learning_path(
                 target_node_id, mastered, max_depth

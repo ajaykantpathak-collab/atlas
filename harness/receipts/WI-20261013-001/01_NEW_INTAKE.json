@@ -1,0 +1,12 @@
+{
+ "receipt_id": "rcpt_20261013T151449Z_98420744",
+ "work_item": "WI-20261013-001",
+ "from_state": "NEW",
+ "to_state": "INTAKE",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:14:49Z",
+ "gates": [],
+ "evidence": {},
+ "notes": "title='solve telemetry question_hash' lanes=['deploy/backend/services/answer_telemetry.py']",
+ "prev_receipt_sha256": null
+}

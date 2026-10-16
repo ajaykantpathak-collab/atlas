@@ -1,0 +1,31 @@
+import sys, json, re
+sys.path.insert(0, r'D:/platform/.studentA_tmp')
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    b = p.chromium.launch(channel='chrome', headless=True)
+    ctx = b.new_context(viewport={'width':1366,'height':900})
+    page = ctx.new_page()
+    page.goto('http://localhost/sims-v2/v3_c6_math_ch01_p1', wait_until='domcontentloaded', timeout=45000)
+    page.wait_for_timeout(4000)
+    page.get_by_text('Begin the mission').first.click()
+    page.wait_for_timeout(2500)
+    page.get_by_text("Let's learn").first.click()
+    page.wait_for_timeout(2500)
+    print('AFTER LEARN:', re.sub(r'\s+',' ', page.inner_text('body'))[:400])
+    page.get_by_text("Let's Play").first.click()
+    page.wait_for_timeout(2500)
+    print('CHALLENGE:', re.sub(r'\s+',' ', page.inner_text('body'))[:500])
+    btns = page.locator('button:visible')
+    for i in range(btns.count()):
+        print(f'  btn[{i}]: "{btns.nth(i).inner_text().strip()[:60]}"')
+    inps = page.locator('input:visible, textarea:visible')
+    print('inputs:', inps.count())
+    if inps.count():
+        inps.first.fill('42')
+    page.screenshot(path=r'D:/platform/.studentA_tmp/chal_before_check.png')
+    page.get_by_text('Check').first.click()
+    page.wait_for_timeout(2500)
+    after = re.sub(r'\s+',' ', page.inner_text('body'))
+    print('AFTER CHECK:', after[:500])
+    page.screenshot(path=r'D:/platform/.studentA_tmp/chal_after_check.png')
+    ctx.close(); b.close()

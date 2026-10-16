@@ -133,11 +133,25 @@ def db_env():
             for t in ("topics", "practice_session_topics")
             if t in Base.metadata.tables
         ]
+        # the users parent table: mastery_ledger's FK-safe write probes for
+        # a users row before writing mastery_records — without it every
+        # write honestly skips and the whole continuity suite tests nothing
+        users_tbl = Base.metadata.tables.get("users")
+        if users_tbl is not None:
+            needed.append(users_tbl)
 
         async with engine.begin() as conn:
             await conn.run_sync(
                 lambda sync: Base.metadata.create_all(sync, tables=needed)
             )
+        if users_tbl is not None:
+            # seed the parent row for the user id the tests practice under
+            import sqlalchemy as _sa
+
+            async with engine.begin() as conn:
+                ins = users_tbl.insert().values(
+                    id=uuid.UUID(USER_ID), name="Continuity Student")
+                await conn.execute(ins)
 
     asyncio.run(_create())
     maker = async_sessionmaker(engine, expire_on_commit=False)

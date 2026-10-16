@@ -1,0 +1,254 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c5)",
+ "source_file": "c5_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C5_001",
+   "title": "RULE 3: NETWORKS: Internet = ...",
+   "section": "RULE 3: NETWORKS",
+   "formula": "Internet = the_largest*WAN_in*the_world",
+   "_pats_extra": [],
+   "key_idea": "RULE 3: NETWORKS (RULE 3: NETWORKS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find internet using rule 3: networks",
+    "calculate rule 3: networks",
+    "rule 3: networks formula question",
+    "given values find internet",
+    "rule 3: networks rule 3: networks numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C5_001",
+     "question_pattern": "rule 3: networks with {the_largest} and {WAN_in} and {the_world} find internet",
+     "extracted_variables": {
+      "the_largest": "given the_largest",
+      "WAN_in": "given WAN_in",
+      "the_world": "given the_world"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for the_largest, WAN_in, the_world from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Internet = the_largest*WAN_in*the_world",
+     "compute": "Internet = the_largest*WAN_in*the_world"
+    }
+   ],
+   "chapter_title": "RULE 3: NETWORKS"
+  },
+  {
+   "id": "FB_CS_C5_002",
+   "title": "RULE 5: PRESENTATION BASICS: Template = ...",
+   "section": "RULE 5: PRESENTATION BASICS",
+   "formula": "Template = a*p*r*e-designed_slide_layout",
+   "_pats_extra": [],
+   "key_idea": "RULE 5: PRESENTATION BASICS (RULE 5: PRESENTATION BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find template using rule 5: presentation basics",
+    "calculate rule 5: presentation basics",
+    "rule 5: presentation basics formula question",
+    "given values find template",
+    "rule 5: presentation basics rule 5: presentation basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C5_002",
+     "question_pattern": "rule 5: presentation basics with {a} and {p} and {r} and {e} and {designed_slide_layout} find template",
+     "extracted_variables": {
+      "a": "given a",
+      "p": "given p",
+      "r": "given r",
+      "e": "given e",
+      "designed_slide_layout": "given designed_slide_layout"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, p, r, e, designed_slide_layout from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Template = a*p*r*e-designed_slide_layout",
+     "compute": "Template = a*p*r*e-designed_slide_layout"
+    }
+   ],
+   "chapter_title": "RULE 5: PRESENTATION BASICS"
+  },
+  {
+   "id": "FB_CS_C5_003",
+   "title": "RULE 5: PRESENTATION BASICS: Title slide = ...",
+   "section": "RULE 5: PRESENTATION BASICS",
+   "formula": "Title_slide = the_first*slide_with*the_presentation_title",
+   "_pats_extra": [],
+   "key_idea": "RULE 5: PRESENTATION BASICS (RULE 5: PRESENTATION BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find title slide using rule 5: presentation basics",
+    "calculate rule 5: presentation basics",
+    "rule 5: presentation basics formula question",
+    "given values find title slide",
+    "rule 5: presentation basics rule 5: presentation basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C5_003",
+     "question_pattern": "rule 5: presentation basics with {the_first} and {slide_with} and {the_presentation_title} find title slide",
+     "extracted_variables": {
+      "the_first": "given the_first",
+      "slide_with": "given slide_with",
+      "the_presentation_title": "given the_presentation_title"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for the_first, slide_with, the_presentation_title from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Title slide = the_first*slide_with*the_presentation_title",
+     "compute": "Title_slide = the_first*slide_with*the_presentation_title"
+    }
+   ],
+   "chapter_title": "RULE 5: PRESENTATION BASICS"
+  },
+  {
+   "id": "FB_CS_C5_004",
+   "title": "RULE 9: EMAIL BASICS: Attachment = ...",
+   "section": "RULE 9: EMAIL BASICS",
+   "formula": "Attachment = a*file_attached*to_the_email",
+   "_pats_extra": [],
+   "key_idea": "RULE 9: EMAIL BASICS (RULE 9: EMAIL BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find attachment using rule 9: email basics",
+    "calculate rule 9: email basics",
+    "rule 9: email basics formula question",
+    "given values find attachment",
+    "rule 9: email basics rule 9: email basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C5_004",
+     "question_pattern": "rule 9: email basics with {a} and {file_attached} and {to_the_email} find attachment",
+     "extracted_variables": {
+      "a": "given a",
+      "file_attached": "given file_attached",
+      "to_the_email": "given to_the_email"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, file_attached, to_the_email from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Attachment = a*file_attached*to_the_email",
+     "compute": "Attachment = a*file_attached*to_the_email"
+    }
+   ],
+   "chapter_title": "RULE 9: EMAIL BASICS"
+  },
+  {
+   "id": "FB_CS_C5_005",
+   "title": "RULE 9: EMAIL BASICS: Reply = ...",
+   "section": "RULE 9: EMAIL BASICS",
+   "formula": "Reply = respond_to*an_email",
+   "_pats_extra": [],
+   "key_idea": "RULE 9: EMAIL BASICS (RULE 9: EMAIL BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find reply using rule 9: email basics",
+    "calculate rule 9: email basics",
+    "rule 9: email basics formula question",
+    "given values find reply",
+    "rule 9: email basics rule 9: email basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C5_005",
+     "question_pattern": "rule 9: email basics with {respond_to} and {an_email} find reply",
+     "extracted_variables": {
+      "respond_to": "given respond_to",
+      "an_email": "given an_email"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for respond_to, an_email from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Reply = respond_to*an_email",
+     "compute": "Reply = respond_to*an_email"
+    }
+   ],
+   "chapter_title": "RULE 9: EMAIL BASICS"
+  },
+  {
+   "id": "FB_CS_C5_006",
+   "title": "RULE 9: EMAIL BASICS: Forward = ...",
+   "section": "RULE 9: EMAIL BASICS",
+   "formula": "Forward = send_an*email_to*another_person",
+   "_pats_extra": [],
+   "key_idea": "RULE 9: EMAIL BASICS (RULE 9: EMAIL BASICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find forward using rule 9: email basics",
+    "calculate rule 9: email basics",
+    "rule 9: email basics formula question",
+    "given values find forward",
+    "rule 9: email basics rule 9: email basics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C5_006",
+     "question_pattern": "rule 9: email basics with {send_an} and {email_to} and {another_person} find forward",
+     "extracted_variables": {
+      "send_an": "given send_an",
+      "email_to": "given email_to",
+      "another_person": "given another_person"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for send_an, email_to, another_person from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Forward = send_an*email_to*another_person",
+     "compute": "Forward = send_an*email_to*another_person"
+    }
+   ],
+   "chapter_title": "RULE 9: EMAIL BASICS"
+  }
+ ]
+}

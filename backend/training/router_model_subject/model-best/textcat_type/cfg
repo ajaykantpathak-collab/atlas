@@ -1,0 +1,29 @@
+{
+  "labels":[
+    "SUBJ_hindi",
+    "SUBJ_maths",
+    "SUBJ_business_studies",
+    "SUBJ_geography",
+    "SUBJ_history",
+    "SUBJ_biotech",
+    "SUBJ_accountancy",
+    "SUBJ_psychology",
+    "SUBJ_physics",
+    "SUBJ_sociology",
+    "SUBJ_english",
+    "SUBJ_home_science",
+    "SUBJ_computer_science",
+    "SUBJ_civics",
+    "SUBJ_legal_studies",
+    "SUBJ_chemistry",
+    "SUBJ_biology",
+    "SUBJ_economics",
+    "SUBJ_statistics",
+    "SUBJ_commerce_apps",
+    "SUBJ_applied_maths",
+    "SUBJ_gram",
+    "SUBJ_ca"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

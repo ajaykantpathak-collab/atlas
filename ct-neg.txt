@@ -1,0 +1,25 @@
+check-tokens: 4530 files scanned
+  raw-hex occurrences: 78627 (baseline 78624, delta +3)
+  regressed files: 1
+
+  These files gained raw hex — use a token or extend tailwind.config.js:
+    components/__token_probe.tsx  0 -> 3  (+3)
+
+  DENY-LIST: 1 new file(s) under frozen Lumen/Premium surfaces:
+    components/premium/__rebuild_probe.tsx
+
+  largest existing debt (de-drift targets):
+      1294  components/sims_v2/engine/canvasLab.tsx
+       830  components/sims_v2/generated/11_geo_gen.ts
+       788  lib/c6_12_gameRegistry.ts
+       587  components/sims_v2/generated/12_geo_gen.ts
+       545  components/sims_v2/generated/12_eng_k_gen.ts
+       533  components/sims_v2/generated/11_eng_w_gen.ts
+       453  components/sims_v2/generated/12_hs_gen.ts
+       450  components/sims_v2/generated/12_hin_a_gen.ts
+       404  components/sims_v2/generated/11_ps_gen.ts
+       386  components/sims_v2/generated/12_eng_f_gen.ts
+
+Ratchet violated: raw hex is growing. Fix the listed files, or run
+  node scripts/check-tokens.js --update-baseline
+only if the growth was deliberate and reviewed.

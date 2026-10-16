@@ -1,0 +1,167 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c11)",
+ "source_file": "c11_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C11_001",
+   "title": "CI: CI = ...",
+   "section": "",
+   "formula": "CI = (D + S + I) / 3",
+   "_pats_extra": [],
+   "key_idea": "CI",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ci using ci",
+    "calculate ci",
+    "ci formula question",
+    "given values find ci"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C11_001",
+     "question_pattern": "ci with {D} and {S} and {I} find ci",
+     "extracted_variables": {
+      "D": "given D",
+      "S": "given S",
+      "I": "given I"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for D, S, I from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CI = (D + S + I) / 3",
+     "compute": "CI = (D + S + I) / 3"
+    }
+   ],
+   "chapter_title": "evs c11 formulas"
+  },
+  {
+   "id": "FB_EVS_C11_002",
+   "title": "Biomagnification factor (BMF) for a pollutant: BMF = ...",
+   "section": "",
+   "formula": "BMF = C_predator / C_prey",
+   "_pats_extra": [],
+   "key_idea": "Biomagnification factor (BMF) for a pollutant",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find bmf using biomagnification factor (bmf) for a pollutant",
+    "calculate biomagnification factor (bmf) for a pollutant",
+    "biomagnification factor (bmf) for a pollutant formula question",
+    "given values find bmf"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C11_002",
+     "question_pattern": "biomagnification factor (bmf) for a pollutant with {C_predator} and {C_prey} find bmf",
+     "extracted_variables": {
+      "C_predator": "given C_predator",
+      "C_prey": "given C_prey"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C_predator, C_prey from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "BMF = C_predator / C_prey",
+     "compute": "BMF = C_predator / C_prey"
+    }
+   ],
+   "chapter_title": "evs c11 formulas"
+  },
+  {
+   "id": "FB_EVS_C11_003",
+   "title": "Key relationships: TAS = ...",
+   "section": "",
+   "formula": "TAS = (L + R + E + S + V) / 5",
+   "_pats_extra": [],
+   "key_idea": "Key relationships",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find tas using key relationships",
+    "calculate key relationships",
+    "key relationships formula question",
+    "given values find tas"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C11_003",
+     "question_pattern": "key relationships with {L} and {R} and {E} and {S} and {V} find tas",
+     "extracted_variables": {
+      "L": "given L",
+      "R": "given R",
+      "E": "given E",
+      "S": "given S",
+      "V": "given V"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for L, R, E, S, V from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "TAS = (L + R + E + S + V) / 5",
+     "compute": "TAS = (L + R + E + S + V) / 5"
+    }
+   ],
+   "chapter_title": "evs c11 formulas"
+  },
+  {
+   "id": "FB_EVS_C11_004",
+   "title": "Quantitative relationships: Relative risk (RR) = ...",
+   "section": "",
+   "formula": "Relative_risk_RR = I_exposed / I_unexposed",
+   "_pats_extra": [],
+   "key_idea": "Quantitative relationships",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find relative risk (rr) using quantitative relationships",
+    "calculate quantitative relationships",
+    "quantitative relationships formula question",
+    "given values find relative risk (rr)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C11_004",
+     "question_pattern": "quantitative relationships with {I_exposed} and {I_unexposed} find relative risk (rr)",
+     "extracted_variables": {
+      "I_exposed": "given I_exposed",
+      "I_unexposed": "given I_unexposed"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for I_exposed, I_unexposed from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Relative risk (RR) = I_exposed / I_unexposed",
+     "compute": "Relative_risk_RR = I_exposed / I_unexposed"
+    }
+   ],
+   "chapter_title": "evs c11 formulas"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "receipt_id": "rcpt_20261013T152430Z_f8946841",
+ "work_item": "WI-20261013-001",
+ "from_state": "IMPLEMENT",
+ "to_state": "VERIFY",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:24:30Z",
+ "gates": [
+  {
+   "id": "G5",
+   "name": "static scans (control/nan/id/parse/pins/oversize)",
+   "ok": false,
+   "exit": 1,
+   "seconds": 30.5,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-001/logs/G5_scans.log",
+   "log_sha256": "30f7fd2d6be592b3109abd9848e3036534b17e3bb96280f78e678fa2f6be9159",
+   "hard_findings": 1
+  },
+  {
+   "id": "G1",
+   "name": "pytest tests/test_answer_telemetry.py",
+   "ok": true,
+   "exit": 0,
+   "seconds": 15.3,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-001/logs/G1_pytest.log",
+   "log_sha256": "58f9209b30a6c9a86d799ff3571436047c61a7b5823b19d08284b1f21726cb2f",
+   "tests": [
+    "tests/test_answer_telemetry.py"
+   ]
+  },
+  {
+   "id": "G2",
+   "name": "PIN_TOTALS monotonic (no silent pass)",
+   "ok": false,
+   "exit": 1,
+   "seconds": 17.0,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-001/logs/G2_pins.log",
+   "log_sha256": "35b9a92400c72053be6ef970c89f35564f39729ba136f57cd4363c3af0ddd82b"
+  },
+  {
+   "id": "G3",
+   "name": "import lint (boundaries)",
+   "ok": false,
+   "exit": 1,
+   "seconds": 76.7,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-001/logs/G3_boundaries.log",
+   "log_sha256": "68f0fed1772cf8ea694e0c2dbae8a36637eccd801f27119d1002a90a8627a472"
+  },
+  {
+   "id": "G4",
+   "name": "antislop scrub on new/changed student-facing strings",
+   "ok": false,
+   "exit": 1,
+   "seconds": 0.4,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-001/logs/G4_slop.log",
+   "log_sha256": "daaad88f9cc4df1df70e77d7fd01ee96cac929bd5741abc2d23c389f94269bb8",
+   "scope_files": 1,
+   "violations": 1
+  },
+  {
+   "id": "G6",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "its/solver/** untouched; modeling_layer unchanged"
+  },
+  {
+   "id": "G9",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "chisel CLI not installed on host — verified 2026-10-13"
+  },
+  {
+   "id": "G7",
+   "name": "dev boot + health (SAFE TO SERVE + /api/health 200)",
+   "ok": false,
+   "exit": 1,
+   "seconds": 365.4,
+   "skipped": false,
+   "reason": "",
+   "log": "harness/receipts/WI-20261013-001/logs/G7_boot.log",
+   "log_sha256": "da4ceb08a8b2b76ebddc4598621849dfd4c4f8998a90091ddf5b0442fe4dd0b1",
+   "pid": 20992,
+   "healthy": false,
+   "smoke_ok": true
+  },
+  {
+   "id": "G8",
+   "name": "not applicable per plan matrix",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": true,
+   "reason": "no frontend change"
+  },
+  {
+   "id": "G10",
+   "name": "soak thresholds",
+   "ok": true,
+   "exit": 0,
+   "seconds": 0.0,
+   "skipped": false,
+   "reason": "",
+   "linked": false,
+   "note": "executes at SOAK state; VERIFY linked no recent receipt"
+  }
+ ],
+ "evidence": {
+  "changed_files": [
+   {
+    "path": "deploy/backend/services/answer_telemetry.py",
+    "sha256_before": "72ad2d30c2a12d05778f1564f9723eba9148326f3e48627fe3852f2522cce0ef",
+    "sha256_after": "cf7d3ba508a1dc0d38bd11df23d9243d4e859648fc3424b3de08539251224d53"
+   },
+   {
+    "path": "deploy/backend/tests/test_answer_telemetry.py",
+    "sha256_before": null,
+    "sha256_after": "4fa2e402eac375ffbe7eb11deef457eaf2f74471ef4009d3af4484c259bfa559"
+   }
+  ]
+ },
+ "notes": "red/blocking gates: ['G5', 'G2', 'G3', 'G4', 'G7']",
+ "prev_receipt_sha256": "2267ee78b175e6b5feb461d96c33c1937298638293c921d27be0b2ae5ad11d50"
+}

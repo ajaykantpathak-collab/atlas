@@ -127,6 +127,15 @@ CASES = [
      "A machine costing Rs 100,000 has salvage value of Rs 10,000 and a life of 5 years. Find the annual depreciation",
      lambda r: (r.matched and r.structure == "DEP_SLM" and close(
          r.numeric_answer, 18000.0), f"got {r.numeric_answer}")),
+    # unseen-gate A01 regression: the scrap value sits AFTER an intervening
+    # clause; the extractor must not silently drop it (was 92000/6 = 15,333)
+    ("slm_scrap_after_clause",
+     "A machine costs Rs 92,000 and its estimated scrap value at the end "
+     "of a working life of 6 years is Rs 8,000. Find the annual "
+     "depreciation under the straight line method.",
+     lambda r: (r.matched and r.structure == "DEP_SLM" and close(
+         r.numeric_answer, 14000.0),      # (92000-8000)/6
+                f"got {r.numeric_answer}")),
     ("wdv_value_after_3",
      "Machinery costing Rs 1,00,000 is depreciated at 10% per annum on "
      "written down value method. Find the book value after 3 years.",
@@ -365,6 +374,30 @@ CASES = [
      lambda r: (r.matched and r.structure == "GAINING_RATIO" and
                 "3 : 5" in r.final_answer,
                 f"got {r.final_answer!r}")),
+    # unseen-gate A09 regression: the stated ACQUISITION ratio distributes
+    # the outgoing share -- asked for the NEW profit-sharing ratio, the
+    # family must add the acquired slices (14:13), never subtract the
+    # acquisition ratio from the old shares (was "gaining 1 : 3")
+    ("new_psr_after_acquisition",
+     "P, Q and R share profits in the ratio 4:3:2. R retires and his "
+     "entire share is acquired by P and Q in the ratio 1:2 respectively. "
+     "Find the new profit sharing ratio between P and Q.",
+     lambda r: (r.matched and r.structure == "GAINING_RATIO" and
+                "14:13" in r.final_answer,
+                f"got {r.final_answer!r}")),
+    ("gaining_equals_acquisition_ratio",
+     "P, Q and R share profits in the ratio 4:3:2. R retires and his "
+     "entire share is acquired by P and Q in the ratio 1:2 respectively. "
+     "Find the gaining ratio.",
+     lambda r: (r.matched and r.structure == "GAINING_RATIO" and
+                "1:2" in r.final_answer,
+                f"got {r.final_answer!r}")),
+    ("new_psr_no_agreement",
+     "M, N and O share profits in the ratio 3:2:1. O retires. Find the "
+     "new profit sharing ratio between M and N.",
+     lambda r: (r.matched and r.structure == "GAINING_RATIO" and
+                "3:2" in r.final_answer,
+                f"got {r.final_answer!r}")),
     ("deceased_share",
      "A partner C died on 1st June 2024. The profit for the year ended "
      "31st March 2024 was Rs 60,000 and C's share of profit was 1/4. "
@@ -447,6 +480,116 @@ CASES = [
      lambda r: (r.matched and r.structure == "WORKING_CAPITAL" and
                 close(r.numeric_answer, 200000.0),  # 350000-150000
                 f"got {r.numeric_answer}")),
+
+    # ---------------- ISC recognition wave (cisce-solver-commerce
+    # 2026-09-30): every case also demands an independent-check PASS --
+    # each new route carries a registered second-path verifier ----------
+    ("trade_three_level_1",
+     "A trader purchases goods for Rs 5,00,000 and sells them for "
+     "Rs 6,50,000. He also pays Rs 30,000 rent and Rs 20,000 salaries. "
+     "Calculate gross profit, operating profit, and net profit assuming "
+     "no other items.",
+     lambda r: (r.matched and r.structure == "TRADE_THREE_LEVEL" and
+                close(r.numeric_answer, 100000.0) and
+                entry_has(r, "Gross profit = Rs 150,000") and
+                entry_has(r, "Operating profit = Rs 100,000"),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("trade_three_level_2",
+     "A merchant purchases goods worth Rs 8,00,000 and sells them for "
+     "Rs 11,00,000 during the year. Operating expenses: advertising "
+     "Rs 40,000 and insurance Rs 20,000. Find the gross profit, "
+     "operating profit and net profit.",
+     lambda r: (r.matched and r.structure == "TRADE_THREE_LEVEL" and
+                close(r.numeric_answer, 240000.0),   # 300000-60000
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("trade_three_level_3",
+     "Mehra and Co. purchases stock for Rs 2,40,000 and sells it for "
+     "Rs 3,00,000. Salaries paid are Rs 35,000. Calculate the gross "
+     "profit, operating profit and net profit.",
+     lambda r: (r.matched and r.structure == "TRADE_THREE_LEVEL" and
+                close(r.numeric_answer, 25000.0),    # 60000-35000
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("icr_new_loan",
+     "A firm has EBIT of Rs 8 crore and interest expense of Rs 2 crore. "
+     "It plans a new loan adding Rs 0.5 crore interest. Calculate the "
+     "new interest coverage ratio and comment on the change.",
+     lambda r: (r.matched and r.structure == "INTEREST_COVERAGE" and
+                close(r.numeric_answer, 3.2) and
+                entry_has(r, "Old ICR = 4 times"),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("icr_plain",
+     "A company has EBIT of Rs 10 crore and interest of Rs 2.5 crore. "
+     "Calculate the interest coverage ratio.",
+     lambda r: (r.matched and r.structure == "INTEREST_COVERAGE" and
+                close(r.numeric_answer, 4.0),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("icr_lakh",
+     "The operating profit of a firm is Rs 60 lakh and the interest "
+     "liability is Rs 15 lakh. Compute the interest coverage ratio.",
+     lambda r: (r.matched and r.structure == "INTEREST_COVERAGE" and
+                close(r.numeric_answer, 4.0),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("opening_capital_1",
+     "From the following balances, determine the Capital amount that "
+     "will appear in the opening entry: Cash Rs 30,000; Bank Rs 1,20,000; "
+     "Stock Rs 2,00,000; Debtors Rs 1,50,000; Furniture Rs 80,000; "
+     "Creditors Rs 1,10,000; Bank Loan Rs 2,00,000.",
+     lambda r: (r.matched and r.structure == "OPENING_CAPITAL" and
+                close(r.numeric_answer, 270000.0),   # 580000-310000
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("opening_capital_2",
+     "An opening entry is to be passed for the following: Machinery "
+     "Rs 5,00,000; Inventory Rs 90,000; Cash in hand Rs 10,000; Bank "
+     "Loan Rs 1,50,000; Creditors Rs 50,000. Ascertain the capital.",
+     lambda r: (r.matched and r.structure == "OPENING_CAPITAL" and
+                close(r.numeric_answer, 400000.0),   # 600000-200000
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("brs_dual_balance",
+     "A cash book shows a debit balance of Rs 12,000. The pass book "
+     "shows a credit balance of Rs 12,850. The differences are: "
+     "(i) cheques issued but not presented for payment Rs 4,000; "
+     "(ii) bank charges debited by bank Rs 150; (iii) interest credited "
+     "by bank Rs 500; (iv) cheques deposited not yet credited Rs 3,500.",
+     lambda r: (r.matched and r.structure == "BRS_ADJUST" and
+                close(r.numeric_answer, 12850.0),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("cash_flow_two_stage",
+     "Given: Profit before tax Rs 12,00,000; Depreciation Rs 2,00,000; "
+     "Loss on sale of machinery Rs 1,00,000; Increase in inventory "
+     "Rs 3,00,000; Decrease in trade payables Rs 1,50,000; Interest "
+     "paid Rs 2,00,000; Tax paid Rs 3,00,000. Compute cash generated "
+     "from operations.",
+     lambda r: (r.matched and r.structure == "CASH_FLOW_OPERATING" and
+                close(r.numeric_answer, 550000.0) and
+                entry_has(r, "Cash generated from operations = Rs 1,050,000"),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("cash_flow_year_ended",
+     "A company's profit before tax for the year ended 31-Mar-2024 is "
+     "Rs 12,00,000. The following additional information is available: "
+     "Depreciation Rs 2,00,000, Loss on sale of machinery Rs 50,000, "
+     "Increase in trade receivables Rs 1,50,000. Compute the net cash "
+     "flow from operating activities.",
+     lambda r: (r.matched and r.structure == "CASH_FLOW_OPERATING" and
+                close(r.numeric_answer, 1300000.0),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("dep_capitalised_cost",
+     "M/s Gupta Textiles purchases a power loom on 1-Jul-2023 for "
+     "Rs 4,00,000. Additional costs: freight Rs 15,000, installation "
+     "Rs 10,000, trial run material Rs 5,000. GST paid Rs 72,000 (fully "
+     "creditable). Estimated useful life 10 years, residual value "
+     "Rs 30,000. Find the depreciation for the first year by the "
+     "straight line method.",
+     lambda r: (r.matched and r.structure == "DEP_SLM" and
+                close(r.numeric_answer, 40000.0) and
+                any("430,000" in st for st in (r.steps or [])),
+                # capitalised base named in the steps
+                f"got {r.numeric_answer} {r.final_answer!r}")),
+    ("gp_ratio_from_cogs",
+     "A firm has net sales of Rs 12,00,000 and COGS is Rs 8,40,000. "
+     "Calculate the Gross Profit Ratio.",
+     lambda r: (r.matched and r.structure == "GP_RATIO" and
+                close(r.numeric_answer, 30.0),
+                f"got {r.numeric_answer} {r.final_answer!r}")),
 ]
 
 # gate cases: must NOT match (or must decline) -- guards against
@@ -464,6 +607,21 @@ DECLINE_CASES = [
     "Given Qd = 100 - 5P, find the quantity demanded when the price is 6",
     "Nominal GDP is 2200 and real GDP is 2000. Find the GDP deflator",
     "A convex lens forms an image at 30 cm with focal length 10 cm",
+    # ISC wave gates (cisce-solver-commerce 2026-09-30): a BRS whose
+    # items do NOT reconcile with the other book's stated balance must
+    # refuse, not invent a reconciliation
+    "A cash book shows a debit balance of Rs 12,000. The pass book "
+    "shows a credit balance of Rs 14,850. The differences are: cheques "
+    "issued but not presented Rs 4,000; bank charges Rs 150; interest "
+    "credited by bank Rs 500; cheques deposited not yet credited Rs 3,500.",
+    # a trading LOSS (sales below purchases) is not the three-level ask
+    "A trader purchases goods for Rs 6,00,000 and sells them for "
+    "Rs 5,00,000. He pays Rs 20,000 rent. Calculate the gross profit "
+    "and net profit.",
+    # an unclassifiable balance figure must refuse the capital rollup
+    "Determine the capital for the opening entry: Cash Rs 30,000; "
+    "Machinery Rs 2,00,000; Creditors Rs 50,000; Miscellaneous "
+    "Rs 25,000.",
 ]
 
 passed = failed = declined_wrong = contract_bad = 0

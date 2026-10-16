@@ -54,7 +54,11 @@ _COMPETENCY_DIR = os.path.normpath(os.path.join(
 # Token scanning (verbatim numbers + spans)
 # ------------------------------------------------------------------ #
 
-_NUM_TOKEN_RE = re.compile(r"\(?(-?\d+(?:\.\d+)?)\)?")
+# comma-grouped numbers are ONE value ('Rs 12,000' -> 12000, Indian
+# '10,00,000' -> 1000000) -- the whole grouped match is the token so
+# spans stay aligned to the source text
+_NUM_TOKEN_RE = re.compile(
+    r"\(?(-?\d{1,3}(?:,\d{2,3})+(?:\.\d+)?|-?\d+(?:\.\d+)?)\)?")
 _WORD_NUM_RE = re.compile(
     r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\b",
     re.IGNORECASE)
@@ -181,7 +185,8 @@ def _scan_numbers(text: str) -> List[Tuple[float, int, int, str]]:
     """
     out: List[Tuple[float, int, int, str]] = []
     for m in _NUM_TOKEN_RE.finditer(text):
-        out.append((float(m.group(1)), m.start(1), m.end(1), m.group(1)))
+        out.append((float(m.group(1).replace(",", "")),
+                    m.start(1), m.end(1), m.group(1)))
     for m in _WORD_NUM_RE.finditer(text):
         prev = text[:m.start()].rstrip()
         if not prev:
@@ -204,13 +209,43 @@ def _scan_numbers(text: str) -> List[Tuple[float, int, int, str]]:
     return out
 
 
+# Calendar references are DATES, not givens: "on 31 March" and
+# "in 1975" must never enter the number pool — a wave98 serve bound
+# the 31 of "31 March" as `total_cash_payments` (single-column-cash-
+# book concept) and the 1975 of "in 1975" as a journal amount.
+# Excluded spans: day-of-month + month name (either order, optional
+# year), "in/of/from/since/during <year>", bare "year YYYY" and fiscal
+# "YYYY-YY".  Durations ("for 3 years", "of 2 months") are untouched —
+# they are real quantities.
+_MONTH_WORD = (
+    r"jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|"
+    r"jul(?:y)?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|"
+    r"nov(?:ember)?|dec(?:ember)?")
+_DATE_SPAN_RES = [
+    # "31 March", "1st April, 2023"
+    re.compile(r"\b\d{1,2}(?:st|nd|rd|th)?\s+(?:" + _MONTH_WORD +
+               r")\b(?:\s*,?\s*\d{4})?", re.I),
+    # "March 31", "April 1st 2023"
+    re.compile(r"\b(?:" + _MONTH_WORD + r")\s+\d{1,2}(?:st|nd|rd|th)?"
+               r"\b(?:\s*,?\s*\d{4})?", re.I),
+    # "in 1975", "of 1975", "during 2020", "since 2010", "year 2023"
+    re.compile(r"\b(?:in|of|from|since|during|dated?|year)\s+"
+               r"(19|20)\d{2}\b", re.I),
+    # fiscal year "2023-24" / "2022-2023"
+    re.compile(r"\b(19|20)\d{2}\s*[-/]\s*\d{2,4}\b"),
+]
+
+
 def _excluded_spans(text: str) -> List[Tuple[int, int]]:
-    """Spans whose numbers are constants or answers, not question
-    values: the pi approximation hint plus a trailing answer-key tail."""
+    """Spans whose numbers are constants, dates or answers, not question
+    values: the pi approximation hint, a trailing answer-key tail, and
+    calendar references ("31 March", "in 1975", "2023-24")."""
     spans = [m.span() for m in _PI_HINT_RE.finditer(text)]
     tail = _ans_tail_span(text)
     if tail is not None:
         spans.append(tail)
+    for _rx in _DATE_SPAN_RES:
+        spans.extend(m.span() for m in _rx.finditer(text))
     # digits glued to letters are unit notation, not values:
     # '3 m3' -> the '3' in 'm3' is cubic-metre notation, not a
     # number to bind positionally ('m/s2', 'cm2', 'km2' likewise).
@@ -278,6 +313,16 @@ _SYNONYMS: Dict[str, Tuple[str, ...]] = {
     "resistance": ("r", "R", "resistance"),
     "power": ("p", "P", "power"),
     "mass": ("m", "mass"),
+    # 'molar mass' is M (g/mol), NOT m -- without this the last-word
+    # fallback binds 'molar mass 18' to the mass slot and ships
+    # n = 18/18 = 1 instead of 36/18 = 2
+    "molar mass": ("molar_mass", "M", "molecular_mass",
+                   "molecular_weight"),
+    "molecular mass": ("molar_mass", "M", "molecular_mass",
+                       "molecular_weight"),
+    "molecular weight": ("molar_mass", "M", "molecular_mass",
+                         "molecular_weight"),
+    "atomic mass": ("atomic_mass", "molar_mass", "M"),
     "weight": ("w", "weight", "f", "force"),
     "force": ("f", "F", "force", "thrust"),
     "velocity": ("v", "velocity", "speed"),
@@ -1516,6 +1561,18 @@ def extract_slots_detailed(
                 return SlotExtraction(reason=cross)
             return SlotExtraction(values, spans, "unit-consistent",
                                   False, "")
+        # auto-inferred roles must not guess positionally from canon --
+        # but the concept's OWN worked-example templates are authored
+        # patterns (auto-generated formula-bank catalogs ship them);
+        # positional binding inside an authored template is the same
+        # contract real catalogs use.  Try it before refusing.
+        hit_t, _e = _try_templates(entries, text, cid, blocked,
+                                   "positional")
+        if hit_t is not None:
+            cross = _cross_guards(hit_t.values)
+            if cross:
+                return SlotExtraction(reason=cross)
+            return hit_t
         return SlotExtraction(reason="inferred roles require labeled "
                                      "binding; positional not available "
                                      "for auto-inferred concept")
@@ -1564,6 +1621,17 @@ def extract_list_slots(
     if role is None:
         return None
     text = str(text or "")
+    # HEADER/CONTEXT LEAK (2026-10-06): '(2 marks)' scores and 'in 7
+    # matches' counts are not observations — scrub them before the
+    # number scan so mean/median/range don't ingest the mark-weight.
+    text = re.sub(r"[\(\[]\s*\d+(?:\.\d+)?\s*marks?\s*[\)\]]",
+                  " ", text, flags=re.I)
+    text = re.sub(
+        r"(?:in|over|across|for|of|from)\s+\d+(?:\.\d+)?\s*"
+        r"(?:match\w*|observation\w*|number\w*|data|value\w*|"
+        r"student\w*|test\w*|inning\w*|game\w*|day\w*|term\w*|"
+        r"number\w*)",
+        " ", text, flags=re.I)
     blocked = _excluded_spans(text)
     nums = [(v, s, e, tok) for (v, s, e, tok) in _scan_numbers(text)
             if not _in_blocked((s, e), blocked)]

@@ -1,0 +1,37 @@
+{
+  "alignments": [
+    {
+      "args": [
+        "baseline-ui",
+        "name: baseline-ui"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: baseline-ui",
+      "line": 3,
+      "matched": true,
+      "relation": "skill_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "act_review",
+        "name: baseline-ui"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: baseline-ui",
+      "line": 5,
+      "matched": true,
+      "relation": "action_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    }
+  ],
+  "evidence_match_rate": 1.0,
+  "grounding_score": 0.006507592190889371,
+  "normalized_facts": [
+    "skill_evidence(\"baseline-ui\", \"su_0\").",
+    "action_evidence(\"act_review\", \"su_0\")."
+  ],
+  "reference_unit_coverage": 0.006507592190889371
+}

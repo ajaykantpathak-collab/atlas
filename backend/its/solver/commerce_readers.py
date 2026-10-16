@@ -660,6 +660,14 @@ def _term_years(t: str) -> Optional[float]:
         return None
     v = float(m.group(1))
     unit = m.group(2).lower()
+    # MONTHS TAIL (2026-10-07): 'for 2 years 4 months' matched 'for 2
+    # years' -> T=2 not 7/3, shipping SI=1800 instead of 2100.  Add the
+    # trailing months fraction.
+    tail = t[m.end(): m.end() + 25]
+    mm = re.match(r"\s*(?:and\s+)?(\d+(?:\.\d+)?)\s*months?", tail, re.I)
+    if mm and unit.startswith("year"):
+        v += float(mm.group(1)) / 12.0
+        return v
     if unit.startswith("year"):
         return v
     if unit.startswith("month"):
@@ -816,6 +824,13 @@ def _f_ratio_division(t: str) -> ModelResult:
         return None
     if re.search(r"divide[^.]{0,25}\bby\b", t, re.I):
         return None                      # pure arithmetic "divide x by y"
+    # GEOMETRY GUARD (C10 dig): 'D divides BC in ratio 2:3, area
+    # ABD = 12 -> area ADC' is a triangle ratio ask — the share lane
+    # shipped 'share 1's share = Rs 0.80'.
+    if re.search(r"triangle|area\b|vertex|line\s+segment|"
+                 r"divides\s+(?:bc|the\s+(?:line|side|base))",
+                 t, re.I):
+        return None
     amount = _first_amount(t)
     rm = _RATIO_RE.search(t)
     if amount is None or amount <= 0:
@@ -895,6 +910,12 @@ def read_commerce_narrative(text: str, audit) -> Optional[object]:
         return None
     from backend.its.solver.answer_pipeline import VERIFIED, PipelineResult
     audit.route.append("event_chain:" + r.structure.lower())
+    # WS-PAL (ovh-pal 2026-10-13): the badge gate resolves the verifier
+    # by structure name; 'event_chain:' entries never reach VERIFIERS,
+    # so an INTEREST_NARRATIVE answer stamped here used to come back
+    # verifier_no_route -> GUIDED ('simple interest on Rs 5000 at 8%
+    # for 3 years' in the cross-check replay).  Name the route.
+    audit.route.append("structure:" + r.structure)
     audit.gates_passed.append("commerce_narrative_grounding")
     return PipelineResult(label=VERIFIED, answer=r.final_answer,
                           numeric=r.numeric_answer, steps=r.steps,

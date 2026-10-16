@@ -1,0 +1,914 @@
+{
+ "subject": "chem",
+ "chapter_title": "ICSE chem formula bank (c11)",
+ "source_file": "c11_chem_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CHEM_C11_001",
+   "title": "3. THERMODYNAMICS (C11): w = ...",
+   "section": "3. THERMODYNAMICS (C11)",
+   "formula": "w = -PDeltaV",
+   "_pats_extra": [],
+   "key_idea": "3. THERMODYNAMICS (C11) (3. THERMODYNAMICS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find w using 3. thermodynamics (c11)",
+    "calculate 3. thermodynamics (c11)",
+    "3. thermodynamics (c11) formula question",
+    "given values find w",
+    "3. thermodynamics (c11) 3. thermodynamics (c11) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_001",
+     "question_pattern": "3. thermodynamics (c11) with {PDeltaV} find w",
+     "extracted_variables": {
+      "PDeltaV": "given PDeltaV"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for PDeltaV from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "w = -PDeltaV",
+     "compute": "w = -PDeltaV"
+    }
+   ],
+   "chapter_title": "3. THERMODYNAMICS (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_002",
+   "title": "3. THERMODYNAMICS (C11): DeltaH at constant pressure = ...",
+   "section": "3. THERMODYNAMICS (C11)",
+   "formula": "DeltaH_at_constant_pressure = q*p",
+   "_pats_extra": [],
+   "key_idea": "3. THERMODYNAMICS (C11) (3. THERMODYNAMICS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deltah at constant pressure using 3. thermodynamics (c11)",
+    "calculate 3. thermodynamics (c11)",
+    "3. thermodynamics (c11) formula question",
+    "given values find deltah at constant pressure",
+    "3. thermodynamics (c11) 3. thermodynamics (c11) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_002",
+     "question_pattern": "3. thermodynamics (c11) with {q} and {p} find deltah at constant pressure",
+     "extracted_variables": {
+      "q": "given q",
+      "p": "given p"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for q, p from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DeltaH at constant pressure = q*p",
+     "compute": "DeltaH_at_constant_pressure = q*p"
+    }
+   ],
+   "chapter_title": "3. THERMODYNAMICS (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_003",
+   "title": "Entropy: DeltaS = ...",
+   "section": "3. THERMODYNAMICS (C11)",
+   "formula": "DeltaS = q_rev / T",
+   "_pats_extra": [],
+   "key_idea": "Entropy (3. THERMODYNAMICS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deltas using entropy",
+    "calculate entropy",
+    "entropy formula question",
+    "given values find deltas",
+    "3. thermodynamics (c11) entropy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_003",
+     "question_pattern": "entropy with {q_rev} and {T} find deltas",
+     "extracted_variables": {
+      "q_rev": "given q_rev",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for q_rev, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DeltaS = q_rev / T",
+     "compute": "DeltaS = q_rev / T"
+    }
+   ],
+   "chapter_title": "3. THERMODYNAMICS (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_004",
+   "title": "Gibbs free energy: DeltaG = ...",
+   "section": "3. THERMODYNAMICS (C11)",
+   "formula": "DeltaG = DeltaH - TDeltaS",
+   "_pats_extra": [],
+   "key_idea": "Gibbs free energy (3. THERMODYNAMICS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find deltag using gibbs free energy",
+    "calculate gibbs free energy",
+    "gibbs free energy formula question",
+    "given values find deltag",
+    "3. thermodynamics (c11) gibbs free energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_004",
+     "question_pattern": "gibbs free energy with {DeltaH} and {TDeltaS} find deltag",
+     "extracted_variables": {
+      "DeltaH": "given DeltaH",
+      "TDeltaS": "given TDeltaS"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for DeltaH, TDeltaS from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "DeltaG = DeltaH - TDeltaS",
+     "compute": "DeltaG = DeltaH - TDeltaS"
+    }
+   ],
+   "chapter_title": "3. THERMODYNAMICS (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_005",
+   "title": "Gibbs free energy: T = ...",
+   "section": "3. THERMODYNAMICS (C11)",
+   "formula": "T = DeltaH / DeltaS",
+   "_pats_extra": [],
+   "key_idea": "Gibbs free energy (3. THERMODYNAMICS (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find t using gibbs free energy",
+    "calculate gibbs free energy",
+    "gibbs free energy formula question",
+    "given values find t",
+    "3. thermodynamics (c11) gibbs free energy numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_005",
+     "question_pattern": "gibbs free energy with {DeltaH} and {DeltaS} find t",
+     "extracted_variables": {
+      "DeltaH": "given DeltaH",
+      "DeltaS": "given DeltaS"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for DeltaH, DeltaS from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "T = DeltaH / DeltaS",
+     "compute": "T = DeltaH / DeltaS"
+    }
+   ],
+   "chapter_title": "3. THERMODYNAMICS (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_006",
+   "title": "4. CHEMICAL EQUILIBRIUM (C11): Kp = ...",
+   "section": "4. CHEMICAL EQUILIBRIUM (C11)",
+   "formula": "RT = (K*c*RT*D*e*l*tan)/(K*p*K*c*D*e*l*tan); tan = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*D*e*l); c = (K*c*RT*D*e*l*tan)/(K*p*K*RT*D*e*l*tan); p = (K*c*RT*D*e*l*tan)/(K*K*c*RT*D*e*l*tan); K = (K*c*RT*D*e*l*tan)/(p*c*RT*D*e*l*tan); l = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*D*e*tan); D = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*e*l*tan); e = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*D*l*tan)",
+   "_pats_extra": [],
+   "key_idea": "4. CHEMICAL EQUILIBRIUM (C11) (4. CHEMICAL EQUILIBRIUM (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find kp using 4. chemical equilibrium (c11)",
+    "calculate 4. chemical equilibrium (c11)",
+    "4. chemical equilibrium (c11) formula question",
+    "given values find kp",
+    "4. chemical equilibrium (c11) 4. chemical equilibrium (c11) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_006",
+     "question_pattern": "4. chemical equilibrium (c11) with {K} and {c} and {RT} and {D} and {e} and {l} find kp",
+     "extracted_variables": {
+      "K": "given K",
+      "c": "given c",
+      "RT": "given RT",
+      "D": "given D",
+      "e": "given e",
+      "l": "given l"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for K, c, RT, D, e from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Kp = K*c*(RT)^D*e*l*tan",
+     "compute": "RT = (K*c*RT*D*e*l*tan)/(K*p*K*c*D*e*l*tan); tan = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*D*e*l); c = (K*c*RT*D*e*l*tan)/(K*p*K*RT*D*e*l*tan); p = (K*c*RT*D*e*l*tan)/(K*K*c*RT*D*e*l*tan); K = (K*c*RT*D*e*l*tan)/(p*c*RT*D*e*l*tan); l = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*D*e*tan); D = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*e*l*tan); e = (K*c*RT*D*e*l*tan)/(K*p*K*c*RT*D*l*tan)"
+    }
+   ],
+   "chapter_title": "4. CHEMICAL EQUILIBRIUM (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_007",
+   "title": "Reaction quotient Q: Q = ...",
+   "section": "4. CHEMICAL EQUILIBRIUM (C11)",
+   "formula": "Q = same_expression*as_Kc*but_with*current_concentrations",
+   "_pats_extra": [],
+   "key_idea": "Reaction quotient Q (4. CHEMICAL EQUILIBRIUM (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q using reaction quotient q",
+    "calculate reaction quotient q",
+    "reaction quotient q formula question",
+    "given values find q",
+    "4. chemical equilibrium (c11) reaction quotient q numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_007",
+     "question_pattern": "reaction quotient q with {same_expression} and {as_Kc} and {but_with} and {current_concentrations} find q",
+     "extracted_variables": {
+      "same_expression": "given same_expression",
+      "as_Kc": "given as_Kc",
+      "but_with": "given but_with",
+      "current_concentrations": "given current_concentrations"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for same_expression, as_Kc, but_with, current_concentrations from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q = same_expression*as_Kc*but_with*current_concentrations",
+     "compute": "Q = same_expression*as_Kc*but_with*current_concentrations"
+    }
+   ],
+   "chapter_title": "4. CHEMICAL EQUILIBRIUM (C11)"
+  },
+  {
+   "id": "FB_CHEM_C11_008",
+   "title": "Degree of dissociation (alpha): alpha = ...",
+   "section": "4. CHEMICAL EQUILIBRIUM (C11)",
+   "formula": "alpha = (moles_dissociated / initial_moles)*100",
+   "_pats_extra": [],
+   "key_idea": "Degree of dissociation (alpha) (4. CHEMICAL EQUILIBRIUM (C11))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find alpha using degree of dissociation (alpha)",
+    "calculate degree of dissociation (alpha)",
+    "degree of dissociation (alpha) formula question",
+    "given values find alpha",
+    "4. chemical equilibrium (c11) degree of dissociation (alpha) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CHEM_C11_008",
+     "question_pattern": "degree of dissociation (alpha) with {moles_dissociated} and {initial_moles} find alpha",
+     "extracted_variables": {
+      "moles_dissociated": "given moles_dissociated",
+      "initial_moles": "given initial_moles"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for moles_dissociated, initial_moles from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "alpha = (moles_dissociated / initial_moles)*100",
+     "compute": "alpha = (moles_dissociated / initial_moles)*100"
+    }
+   ],
+   "chapter_title": "4. CHEMICAL EQUILIBRIUM (C11)"
+  },
+  {
+   "id": "FBD_CHEM_C11_001",
+   "title": "v(n): v(n) = ...",
+   "section": "decision tree",
+   "formula": "v(n) = 2.18*10^6*Z / n*m/s",
+   "key_idea": "v(n) (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find v(n) using v(n)",
+    "calculate v(n)",
+    "v(n) formula question",
+    "given values find v(n)",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_001",
+     "question_pattern": "v(n) with {Z} and {n} and {m} and {s} find v(n)",
+     "extracted_variables": {
+      "Z": "given Z",
+      "n": "given n",
+      "m": "given m",
+      "s": "given s"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Z, n, m, s from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "v(n) = 2.18*10^6*Z / n*m/s",
+     "compute": "v(n) = 2.18*10^6*Z / n*m/s"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_002",
+   "title": "Z(eff): Z(eff) = ...",
+   "section": "decision tree",
+   "formula": "Z(eff) = Z - sigma",
+   "key_idea": "Z(eff) (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find z(eff) using z(eff)",
+    "calculate z(eff)",
+    "z(eff) formula question",
+    "given values find z(eff)",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_002",
+     "question_pattern": "z(eff) with {Z} and {sigma} find z(eff)",
+     "extracted_variables": {
+      "Z": "given Z",
+      "sigma": "given sigma"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Z, sigma from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Z(eff) = Z - sigma",
+     "compute": "Z(eff) = Z - sigma"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_003",
+   "title": "mu: mu = ...",
+   "section": "decision tree",
+   "formula": "mu = q*d",
+   "key_idea": "mu (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mu using mu",
+    "calculate mu",
+    "mu formula question",
+    "given values find mu",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_003",
+     "question_pattern": "mu with {q} and {d} find mu",
+     "extracted_variables": {
+      "q": "given q",
+      "d": "given d"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for q, d from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "mu = q*d",
+     "compute": "mu = q*d"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_004",
+   "title": "Molar mass M: Molar mass M = ...",
+   "section": "decision tree",
+   "formula": "Molar_mass_M = d*R*T / P",
+   "key_idea": "Molar mass M (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find molar mass m using molar mass m",
+    "calculate molar mass m",
+    "molar mass m formula question",
+    "given values find molar mass m",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_004",
+     "question_pattern": "molar mass m with {d} and {R} and {T} and {P} find molar mass m",
+     "extracted_variables": {
+      "d": "given d",
+      "R": "given R",
+      "T": "given T",
+      "P": "given P"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for d, R, T, P from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Molar mass M = d*R*T / P",
+     "compute": "Molar_mass_M = d*R*T / P"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_005",
+   "title": "q(p): q(p) = ...",
+   "section": "decision tree",
+   "formula": "q(p) = Delta*H",
+   "key_idea": "q(p) (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q(p) using q(p)",
+    "calculate q(p)",
+    "q(p) formula question",
+    "given values find q(p)",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_005",
+     "question_pattern": "q(p) with {Delta} and {H} find q(p)",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "H": "given H"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, H from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "q(p) = Delta*H",
+     "compute": "q(p) = Delta*H"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_006",
+   "title": "q(v): q(v) = ...",
+   "section": "decision tree",
+   "formula": "q(v) = Delta*U",
+   "key_idea": "q(v) (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q(v) using q(v)",
+    "calculate q(v)",
+    "q(v) formula question",
+    "given values find q(v)",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_006",
+     "question_pattern": "q(v) with {Delta} and {U} find q(v)",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "U": "given U"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, U from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "q(v) = Delta*U",
+     "compute": "q(v) = Delta*U"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_007",
+   "title": "Delta H: Delta H = ...",
+   "section": "decision tree",
+   "formula": "Delta_H = Delta*U + Delta*n",
+   "key_idea": "Delta H (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta h using delta h",
+    "calculate delta h",
+    "delta h formula question",
+    "given values find delta h",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_007",
+     "question_pattern": "delta h with {Delta} and {U} and {Delta} and {n} find delta h",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "U": "given U",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, U, Delta, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta H = Delta*U + Delta*n",
+     "compute": "Delta_H = Delta*U + Delta*n"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_008",
+   "title": "Delta U: Delta U = ...",
+   "section": "decision tree",
+   "formula": "Delta_U = q + w",
+   "key_idea": "Delta U (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta u using delta u",
+    "calculate delta u",
+    "delta u formula question",
+    "given values find delta u",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_008",
+     "question_pattern": "delta u with {q} and {w} find delta u",
+     "extracted_variables": {
+      "q": "given q",
+      "w": "given w"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for q, w from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta U = q + w",
+     "compute": "Delta_U = q + w"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_009",
+   "title": "Delta G: Delta G = ...",
+   "section": "decision tree",
+   "formula": "Delta_G = Delta*H - T*Delta*S",
+   "key_idea": "Delta G (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta g using delta g",
+    "calculate delta g",
+    "delta g formula question",
+    "given values find delta g",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_009",
+     "question_pattern": "delta g with {Delta} and {H} and {T} and {Delta} and {S} find delta g",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "H": "given H",
+      "T": "given T",
+      "S": "given S"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, H, T, Delta, S from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta G = Delta*H - T*Delta*S",
+     "compute": "Delta_G = Delta*H - T*Delta*S"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_010",
+   "title": "Delta G: Delta G = ...",
+   "section": "decision tree",
+   "formula": "Delta_G = Delta*G",
+   "key_idea": "Delta G (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta g using delta g",
+    "calculate delta g",
+    "delta g formula question",
+    "given values find delta g",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_010",
+     "question_pattern": "delta g with {Delta} and {G} find delta g",
+     "extracted_variables": {
+      "Delta": "given Delta",
+      "G": "given G"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Delta, G from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta G = Delta*G",
+     "compute": "Delta_G = Delta*G"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_011",
+   "title": "log K: log K = ...",
+   "section": "decision tree",
+   "formula": "log_K = n*E",
+   "key_idea": "log K (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find log k using log k",
+    "calculate log k",
+    "log k formula question",
+    "given values find log k",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_011",
+     "question_pattern": "log k with {n} and {E} find log k",
+     "extracted_variables": {
+      "n": "given n",
+      "E": "given E"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, E from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "log K = n*E",
+     "compute": "log_K = n*E"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_012",
+   "title": "PV: PV = ...",
+   "section": "decision tree",
+   "formula": "PV = n*R*T",
+   "key_idea": "PV (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pv using pv",
+    "calculate pv",
+    "pv formula question",
+    "given values find pv",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_012",
+     "question_pattern": "pv with {n} and {R} and {T} find pv",
+     "extracted_variables": {
+      "n": "given n",
+      "R": "given R",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, R, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PV = n*R*T",
+     "compute": "PV = n*R*T"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_013",
+   "title": "Delta H: Delta H = ...",
+   "section": "decision tree",
+   "formula": "Delta_H = -50*kJ",
+   "key_idea": "Delta H (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find delta h using delta h",
+    "calculate delta h",
+    "delta h formula question",
+    "given values find delta h",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_013",
+     "question_pattern": "delta h with {kJ} find delta h",
+     "extracted_variables": {
+      "kJ": "given kJ"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for kJ from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Delta H = -50*kJ",
+     "compute": "Delta_H = -50*kJ"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  },
+  {
+   "id": "FBD_CHEM_C11_014",
+   "title": "q: q = ...",
+   "section": "decision tree",
+   "formula": "q = C*Delta*T",
+   "key_idea": "q (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q using q",
+    "calculate q",
+    "q formula question",
+    "given values find q",
+    "moles, mass, atoms, molecules, or a number of particles",
+    "the number of particles from mass (or vice versa)",
+    "the percentage of an element in a compound"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_CHEM_C11_014",
+     "question_pattern": "q with {C} and {Delta} and {T} find q",
+     "extracted_variables": {
+      "C": "given C",
+      "Delta": "given Delta",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C, Delta, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "q = C*Delta*T",
+     "compute": "q = C*Delta*T"
+    }
+   ],
+   "chapter_title": "chem c11 decision formulas"
+  }
+ ]
+}

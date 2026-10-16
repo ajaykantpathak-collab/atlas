@@ -1,0 +1,60 @@
+{
+  "edits": [
+    {
+      "file": "c11_biotech_cbse_11_003.md",
+      "walkthrough_append": "Worked check: parse one GenBank record in three lines — from Bio import SeqIO; record = SeqIO.read('plasmid.gb', 'genbank'); print(record.id, len(record.seq)) — and the file's header, features and sequence become attributes without a single parsing loop. For the examination, Biopython questions ask what the library is, name two submodules or functions (SeqIO, Seq), and what problem they solve; a one-line code example with the file format named is what separates a memorised definition from a working answer."
+    },
+    {
+      "file": "c11_biotech_cbse_11_004.md",
+      "walkthrough_append": "Worked check: build one regex against a real motif — the TATA box 'TATAAW': in regex terms TATAA[AT] matches the consensus exactly; applied to a 5,000-base sequence with a match loop, it returns every promoter site with its position. Vague question in, precise pattern out. For the examination, regex answers state the purpose (pattern search in sequences), define two constructs (a character class like [AT], a quantifier like A{2,}), and give one motif example with its pattern — that conversion of biology into syntax is precisely the skill being tested."
+    },
+    {
+      "file": "c11_biotech_cbse_11_007.md",
+      "walkthrough_append": "Worked check: implement translation as three operations — take the coding strand, replace T with U (transcription), map each codon through the standard table to its amino acid (translation), and reverse-complement the template strand first when the gene runs the other way. Then hunt the open reading frame: scan all six frames for ATG followed by a stop codon. For the examination, questions pair the central-dogma step with the code that does it — write the codon-table dictionary for four codons, or state why six frames must be searched — the pairing of process and program is what earns the marks."
+    },
+    {
+      "file": "c11_biotech_cbse_12_004.md",
+      "walkthrough_append": "Worked check: choose a column from the protein's properties — a protein with pI 9 and good stability at neutral pH: ion-exchange with a cation resin binds it while contaminants wash through; a tagged recombinant protein: affinity resin first, then size-exclusion to polish; a small molecule mixture: reverse-phase partition. One property, one column, one reason. For the board examination, chromatography answers define the two phases, name four types with the property each separates on (charge, size, affinity, hydrophobicity), and run one choice-and-justify example — the justification sentence carries the marks."
+    },
+    {
+      "file": "c11_biotech_cbse_12_007.md",
+      "walkthrough_append": "Worked check: read the cut before you clone — EcoRI at GAATTC cuts G^AATTC leaving AATT overhangs; run the same enzyme over insert and vector and the ends are mutual keys; mix with ligase and the annealed nicks seal into one recombinant molecule. Change to a blunt cutter and the randomness of ligation multiplies. For the board examination, restriction-enzyme answers give the definition with the palindromic-site point, one named enzyme with its site and cut written out, and the sticky-versus-blunt contrast worked as the ligation argument above — the written cut is the detail examiners check."
+    },
+    {
+      "file": "c11_biotech_cbse_12_008.md",
+      "walkthrough_append": "Worked check: solve one cloning puzzle end to end — goal: express a human gene in bacteria. Cut insert and plasmid with the same enzyme (compatible ends), ligate, transform into E. coli, plate on ampicillin: only plasmid-carrying cells survive; screen white versus blue colonies for the insert. Every step exists because a vector feature demanded it — origin, marker, cloning site. For the board examination, recombinant-DNA answers must run this pipeline in order with the tool named at each step, ending at screening: an answer that stops at ligation is only half the experiment."
+    },
+    {
+      "file": "c12_geo_cbse_21_003.md",
+      "walkthrough_append": "Worked check: pick the method by the question — do households spend more on health in slum and non-slum wards? A structured questionnaire across 200 households yields comparable numbers. Why do slum households delay clinic visits? Interviews with twenty mothers yield the reasons numbers cannot. How do commuters actually cross the station road? Observation at two peak hours yields the behaviour. For the board examination, method-choice questions are answered by question-type to method in one line each — numbers, meanings, behaviour — with one locality example; that mapping is the entire tested skill."
+    },
+    {
+      "file": "c12_geo_cbse_21_004.md",
+      "walkthrough_append": "Worked check: pick the design from the map — a village of evenly mixed farm sizes: systematic sampling, every tenth house on the list; a settlement split into farmers, shopkeepers and landless labourers: stratified sampling, proportion from each stratum, or the results will speak only for the majority; and a pilot study of five households: convenience, with the bias admitted. For the board examination, sampling answers define representativeness, distinguish random-systematic-stratified with one situation each, and close with the consequence sentence — a wrong design makes every later calculation precise and wrong."
+    },
+    {
+      "file": "c12_geo_cbse_21_005.md",
+      "walkthrough_append": "Worked check: write one field page that survives without you — head it with place, date, time and collector; number every schedule; key the sketch map with a north line and scale; code answers as filled circles, not ticks and moods; and same evening, transcribe notes while the memory holds. A page another student can read and use is the standard. For the board examination, recording-technique answers list the tools (schedule, sketch, log, photographs with captions), give the same-day transcription rule, and close on the principle that field data is written for strangers — memory is not an archive."
+    },
+    {
+      "file": "c12_geo_cbse_21_006.md",
+      "walkthrough_append": "Worked check: run one workflow across the tools — a flood-warning task: satellite images map the inundated tracts (remote sensing); field teams locate breached embankments by GPS coordinates; the GIS overlays both on village boundaries and road networks, and the database joins population to each ward; the output map routes relief. Each tool did one job; the integration did the task. For the board examination, SIT answers name the five components in one line each, then run one such end-to-end example — the workflow, not the definitions, is what distinguishes an answer about integration from a list of acronyms."
+    },
+    {
+      "file": "c12_geo_cbse_21_007.md",
+      "walkthrough_append": "Worked check: ask a GIS one what-if — a new hospital site: input layers of population density, road access and land use; query which vacant land parcels fall within 2 km of 20,000 residents (buffer and overlay); rank the candidates; map the result for the council. The database answered a planning question no single map could. For the board examination, GIS answers give the definition, the six functions from capture to display, the geometry-plus-attribute idea with the point-line-polygon example, and one worked what-if like the hospital siting — the query demonstrated is the answer's proof."
+    },
+    {
+      "file": "c12_geo_cbse_21_009.md",
+      "walkthrough_append": "Worked check: solve one siting task with three operations — where may a school stand? Buffer 500 metres around every main road (noise-free zone), overlay the land-use layer to keep vacant or residential parcels, then use network analysis to check which candidate parcels lie within 10 minutes' walk of the target neighbourhood. Three operations, one ranked answer. For the board examination, spatial-analysis answers define overlay, buffer and network in one line each, then run exactly such a combined example — examiners set combined tasks precisely to see whether the operations are tools or words."
+    },
+    {
+      "file": "c12_geo_cbse_21_010.md",
+      "walkthrough_append": "Worked check: follow one pixel's journey — the sun's energy reflects off a winter wheat field; the sensor aboard an Indian remote-sensing satellite records the reflected strength in visible and infrared bands; the computer compares the red and infrared signals, and healthy chlorophyll-rich crop separates from stressed crop; the classified map reaches the agriculture office. No one touched the field. For the board examination, remote-sensing answers define the contactless principle, name the platform-sensor-band triad, give the false-colour-combination trick for vegetation, and close with two Indian applications — crop forecasting and forest-cover mapping — from the national programme."
+    },
+    {
+      "file": "c12_geo_cbse_21_012.md",
+      "walkthrough_append": "Worked check: solve one Indian problem end to end — mapping groundwater recharge zones in a Rajasthan district: satellite imagery classifies lithology and structure, GIS overlays it with rainfall and slope layers, field teams verify wells by GPS, and the output zonal map tells the drilling programme where recharge structures belong. The same stack serves school-dropout mapping in a city ward. For the board examination, SIT-application answers pick two domains (agriculture, urban planning, disaster management), run one full workflow each from data to decision, and close with the national infrastructure — NRSC, Bhuvan — that makes such workflows routine."
+    }
+  ]
+}

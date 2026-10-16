@@ -38,9 +38,9 @@ REGISTRATION:
 
 from __future__ import annotations
 
+import logging
 import time
 import threading
-import traceback
 from typing import Callable, Optional, Type
 
 from backend.contracts import (
@@ -53,6 +53,91 @@ from backend.contracts import (
     SolverTier,
     StepForm,
 )
+
+logger = logging.getLogger(__name__)
+
+# ═══════════════════════════════════════════════════════════════════
+# Truth-contract exit helpers (WSA-P5, 2026-10-10)
+# ═══════════════════════════════════════════════════════════════════
+
+#: Honest method-only label for unverified work. Labeling, NOT gating —
+#: no verifier is invented at the facade; `verified` rides only when the
+#: winning backend actually verified (step_chainer symbolic check /
+#: chain all-verified).
+_METHOD_ONLY_MSG = ("Method shown — this result was not independently "
+                    "verified, so treat it as a worked approach.")
+
+
+def _scrub_str(text):
+    """Slop-scrub one student-facing string (fail-open, same law as the
+    answer() choke point: a broken gate never breaks the solve)."""
+    if not isinstance(text, str) or not text:
+        return text
+    try:
+        from backend.its.solver.slop_gate import gate_text
+        cleaned, _flags = gate_text(text)
+        return cleaned
+    except Exception:
+        return text
+
+
+def _typed_backend_error(backend_id: str, exc: BaseException) -> str:
+    """Student-safe fallback for a backend crash: nothing from the
+    exception text (paths, queries, internals) reaches the student. The
+    raw failure is logged (operator-facing) and the machine code rides in
+    the separate ``error_code`` field."""
+    try:
+        logger.warning("solver backend %s failed: %s: %s",
+                       backend_id, type(exc).__name__, exc)
+    except Exception:
+        pass
+    return ("This solver could not complete the request. Try again, or "
+            "approach the question with a different method.")
+
+
+def _finalize_result(result: SolutionResult) -> SolutionResult:
+    """THE honest exit for every facade solve (WSA-P5).
+
+    Scrubs the student-facing strings (final_answer, step descriptions,
+    error, verification messages) through the slop gate — fail-open — and
+    normalizes the truth label: ``verified`` stays True only when the
+    winning backend actually verified; everything else ships a
+    method-only ``verification_msg``. This is labeling, not gating: the
+    /solver page is a structured practice surface, and no verifier is
+    invented here."""
+    try:
+        result.final_answer = _scrub_str(result.final_answer)
+        result.error = _scrub_str(result.error)
+        result.verification_msg = _scrub_str(result.verification_msg)
+        result.next_step_suggestion = _scrub_str(result.next_step_suggestion)
+        result.verified = bool(result.verified)
+        if not result.verified and not result.verification_msg.strip():
+            result.verification_msg = _METHOD_ONLY_MSG
+        for step in (result.steps or []):
+            step.description = _scrub_str(step.description)
+            step.answer = _scrub_str(step.answer)
+            step.verification_msg = _scrub_str(step.verification_msg)
+    except Exception:
+        pass
+    return result
+
+
+def _finalize_identify(result: IdentifyResult) -> IdentifyResult:
+    """Identify twin of _finalize_result: scrub the student-facing
+    strings (error, matched names, form labels). Fail-open."""
+    try:
+        result.error = _scrub_str(result.error)
+        for match in (result.matches or []):
+            match.name = _scrub_str(match.name)
+        if result.best_match is not None:
+            result.best_match.name = _scrub_str(result.best_match.name)
+        for field in (result.form_fields or []):
+            field.label = _scrub_str(field.label)
+            field.placeholder = _scrub_str(field.placeholder)
+    except Exception:
+        pass
+    return result
+
 
 # ═══════════════════════════════════════════════════════════════════
 # Circuit Breaker
@@ -250,7 +335,8 @@ class PatternSolverBackend(SolverBackend):
             )
         except Exception as e:
             self.breaker.record_failure()
-            return SolutionResult(success=False, error=str(e)[:200],
+            return SolutionResult(success=False,
+                                  error=_typed_backend_error(self.backend_id, e),
                                   error_code="BACKEND_ERROR",
                                   solver_tier=self.tier)
 
@@ -299,7 +385,8 @@ class StepChainerBackend(SolverBackend):
             )
         except Exception as e:
             self.breaker.record_failure()
-            return SolutionResult(success=False, error=str(e)[:200],
+            return SolutionResult(success=False,
+                                  error=_typed_backend_error(self.backend_id, e),
                                   error_code="BACKEND_ERROR",
                                   solver_tier=self.tier)
 
@@ -336,7 +423,8 @@ class StepChainerBackend(SolverBackend):
             )
         except Exception as e:
             self.breaker.record_failure()
-            return SolutionResult(success=False, error=str(e)[:200],
+            return SolutionResult(success=False,
+                                  error=_typed_backend_error(self.backend_id, e),
                                   error_code="BACKEND_ERROR",
                                   solver_tier=self.tier)
 
@@ -394,7 +482,8 @@ class SolverV2Backend(SolverBackend):
             )
         except Exception as e:
             self.breaker.record_failure()
-            return SolutionResult(success=False, error=str(e)[:200],
+            return SolutionResult(success=False,
+                                  error=_typed_backend_error(self.backend_id, e),
                                   error_code="BACKEND_ERROR",
                                   solver_tier=self.tier)
 
@@ -446,7 +535,8 @@ class JEENEETBackend(SolverBackend):
             )
         except Exception as e:
             self.breaker.record_failure()
-            return SolutionResult(success=False, error=str(e)[:200],
+            return SolutionResult(success=False,
+                                  error=_typed_backend_error(self.backend_id, e),
                                   error_code="BACKEND_ERROR",
                                   solver_tier=self.tier)
 
@@ -498,7 +588,8 @@ class PipelineBackend(SolverBackend):
             )
         except Exception as e:
             self.breaker.record_failure()
-            return SolutionResult(success=False, error=str(e)[:200],
+            return SolutionResult(success=False,
+                                  error=_typed_backend_error(self.backend_id, e),
                                   error_code="BACKEND_ERROR",
                                   solver_tier=self.tier)
 
@@ -539,7 +630,28 @@ class SolverFacade:
                type(backend).solve_step is SolverBackend.solve_step:
                 continue
             tried.append(backend.backend_id)
-            result = backend.solve_step(step_type_id, inputs)
+            try:
+                result = backend.solve_step(step_type_id, inputs)
+            except Exception as e:
+                # the facade NEVER raises (its own contract) — a backend
+                # crash becomes typed data with error_code intact
+                if hasattr(backend, "breaker"):
+                    try:
+                        backend.breaker.record_failure()
+                    except Exception:
+                        pass
+                result = SolutionResult(
+                    success=False,
+                    error=_typed_backend_error(backend.backend_id, e),
+                    error_code="BACKEND_ERROR",
+                    solver_tier=getattr(backend, "tier", SolverTier.DETERMINISTIC))
+            if not isinstance(result, SolutionResult):
+                # rogue backend shape — coerce, never raise out of here
+                result = SolutionResult(
+                    success=False,
+                    error="This solver returned an unreadable result.",
+                    error_code="BACKEND_ERROR",
+                    solver_tier=getattr(backend, "tier", SolverTier.DETERMINISTIC))
             result.solver_path = tried
             result.problem_type_id = step_type_id
             if result.success:
@@ -560,7 +672,7 @@ class SolverFacade:
             emit_solve(result, student_id=student_id)
         except Exception:
             pass
-        return result
+        return _finalize_result(result)
 
     # ── Multi-step problem solve ─────────────────────────────────
     def solve_problem(self, problem_type_id: str, step_inputs: list,
@@ -574,17 +686,37 @@ class SolverFacade:
                type(backend).solve_problem is SolverBackend.solve_problem:
                 continue
             tried.append(backend.backend_id)
-            result = backend.solve_problem(problem_type_id, step_inputs)
+            try:
+                result = backend.solve_problem(problem_type_id, step_inputs)
+            except Exception as e:
+                # typed data, never a raise out of the facade
+                if hasattr(backend, "breaker"):
+                    try:
+                        backend.breaker.record_failure()
+                    except Exception:
+                        pass
+                result = SolutionResult(
+                    success=False,
+                    error=_typed_backend_error(backend.backend_id, e),
+                    error_code="BACKEND_ERROR",
+                    solver_tier=getattr(backend, "tier", SolverTier.DETERMINISTIC))
+            if not isinstance(result, SolutionResult):
+                # rogue backend shape — coerce, never raise out of here
+                result = SolutionResult(
+                    success=False,
+                    error="This solver returned an unreadable result.",
+                    error_code="BACKEND_ERROR",
+                    solver_tier=getattr(backend, "tier", SolverTier.DETERMINISTIC))
             result.solver_path = tried
             if result.success:
-                return result
-        return SolutionResult(
+                return _finalize_result(result)
+        return _finalize_result(SolutionResult(
             success=False,
             problem_type_id=problem_type_id,
             error=f"no backend could solve problem '{problem_type_id}'",
             error_code="NO_SOLVER",
             solver_path=tried,
-        )
+        ))
 
     # ── Free-text solve with fallback chain ──────────────────────
     def solve_free_text(self, problem_text: str, subject: str = "",
@@ -606,13 +738,13 @@ class SolverFacade:
         for backend in get_registry():
             # Deadline check before each backend attempt
             if deadline_s > 0 and (_t.time() - _start) >= deadline_s:
-                return SolutionResult(
+                return _finalize_result(SolutionResult(
                     success=False,
                     question=problem_text,
                     error=last_error or f"solve timed out after {deadline_s}s (tried: {', '.join(tried)})",
                     error_code="SOLVE_TIMEOUT",
                     solver_path=tried,
-                )
+                ))
             if not backend.can_handle(subject, class_level):
                 continue
             if not hasattr(backend, "solve_free_text") or \
@@ -625,19 +757,25 @@ class SolverFacade:
                     values=values, **kwargs
                 )
             except Exception as e:
-                last_error = f"{backend.backend_id}: {e}"
+                # typed, student-safe text — raw internals never surface
+                last_error = _typed_backend_error(backend.backend_id, e)
+                continue
+            if not isinstance(result, SolutionResult):
+                # rogue backend shape — coerce, never raise out of here
+                last_error = ("This solver returned an unreadable result "
+                              "for this question.")
                 continue
             result.solver_path = tried
             if result.success:
-                return result
+                return _finalize_result(result)
             last_error = result.error
-        return SolutionResult(
+        return _finalize_result(SolutionResult(
             success=False,
             question=problem_text,
             error=last_error or "all backends failed",
             error_code="ALL_BACKENDS_FAILED",
             solver_path=tried,
-        )
+        ))
 
     # ── Identify ─────────────────────────────────────────────────
     def identify(self, question: str, class_level: str = "") -> IdentifyResult:
@@ -662,7 +800,7 @@ class SolverFacade:
                 category=r.category,
                 needs_student_input=r.needs_student_input,
             )
-            return IdentifyResult(
+            return _finalize_identify(IdentifyResult(
                 success=usable,
                 error=r.error,
                 question=question,
@@ -680,14 +818,14 @@ class SolverFacade:
                 ],
                 category=r.category,
                 elapsed_ms=int((_t.time() - start) * 1000),
-            )
+            ))
         except Exception as e:
-            return IdentifyResult(
+            return _finalize_identify(IdentifyResult(
                 success=False,
-                error=f"identify failed: {e}",
+                error=_typed_backend_error("identify", e),
                 question=question,
                 elapsed_ms=int((_t.time() - start) * 1000),
-            )
+            ))
 
     # ── Catalog (problem types / step types / categories) ────────
     def get_problem_types(self, topic: str = "") -> list[dict]:

@@ -1,0 +1,76 @@
+{
+  "edits": [
+    {
+      "file": "c11_cs_cbse_03_001.md",
+      "definition": "Problem solving in computing is the systematic path from a stated problem to a working program. It begins with analysing the problem — what is given, what is required, what are the constraints — followed by designing the algorithm: a finite, unambiguous, step-by-step procedure that transforms the input into the desired output. The algorithm is expressed (in natural language, flowchart or pseudocode), then implemented as a program in a chosen language, and finally validated and tested with sample data so that logical errors are traced and removed by debugging. Breaking a large problem into smaller sub-problems (decomposition) and recognising which sub-problem matches a known pattern are the habits that make this cycle efficient and repeatable."
+    },
+    {
+      "file": "c11_cs_cbse_05_005.md",
+      "definition": "Python offers two ways of building multi-branch decisions from if statements. In nested if statements one complete if-else construct is placed inside another — inside the if block or the else block — so that a second condition is tested only after the first holds, which suits hierarchical conditions such as checking eligibility in stages; deep nesting, however, harms readability. The if-elif-else ladder instead tests conditions one after another from the top: the first condition that evaluates to True gets its block executed, and all remaining branches are skipped; if no condition is true, the final else block runs. A ladder is preferred when the conditions are alternatives of equal rank, as in grading marks into bands."
+    },
+    {
+      "file": "c11_cs_cbse_07_002.md",
+      "definition": "A tuple is an ordered, immutable sequence type of Python that can hold elements of different data types. Tuple objects are normally written as comma-separated values inside parentheses, for example t = (10, 'abc', 3.5), and the tuple() constructor converts another iterable into a tuple; the parentheses are optional — the comma is what makes the tuple. Elements are accessed with zero-based indexing inside square brackets, and negative indices count from the end, so t[0] is the first element and t[-1] the last. Because tuples cannot be changed after creation — no item assignment, append or removal — they are useful for fixed collections of values such as coordinates, dates and database records, and they can serve as dictionary keys."
+    },
+    {
+      "file": "c11_cs_cbse_08_005.md",
+      "definition": "A default argument is a function parameter for which the definition supplies a value, written as parameter = value in the parameter list. The caller may omit that argument; if omitted, the supplied default is used automatically, and if given, the caller's value overrides the default. This lets one function serve several call patterns, for example def greet(name, msg='Good morning'): works for both greet('Asha') and greet('Asha', 'Congratulations'). Rules to remember: default parameters must come after non-default (positional) parameters in the definition; positional and keyword arguments may be mixed at call time, but positional must precede keyword; and a mutable default (like a list) is created once and shared across calls, which is usually avoided."
+    },
+    {
+      "file": "c11_cs_cbse_08_012.md",
+      "definition": "A lambda function is an anonymous one-line function created with the keyword lambda instead of def: the syntax is lambda arguments: expression. It may take any number of arguments but its body is exactly one expression, whose value is returned implicitly — there is no return statement and no statements, loops or assignments inside. For example, square = lambda x: x * x behaves like the equivalent def function, and lambda is most useful where a tiny function is needed on the spot as an argument, such as key = lambda s: s[1] in a sort, or with map() and filter(). Because the object has no name of its own, lambda functions are called anonymous functions."
+    },
+    {
+      "file": "c11_cs_cbse_08_014.md",
+      "definition": "A user-defined module is a Python source file with a .py extension that contains definitions — functions, classes and variables — and possibly executable statements, written so that other programs can reuse them. Any such file is imported by name with the import statement (import mymodule) or brought in partially with from mymodule import functionname; on first import Python executes the module once and creates its namespace, so names inside the module are accessed with the dot notation mymodule.name. The search path for modules includes the current directory and the directories listed in sys.path. User-defined modules promote code reuse, logical organisation of large programs into related files, and clean namespace separation between programs."
+    },
+    {
+      "file": "c11_cs_cbse_10_010.md",
+      "definition": "Enqueue and dequeue are the two fundamental operations of the queue, a linear data structure that works on the First-In-First-Out (FIFO) principle. Enqueue inserts an element at the rear end of the queue, so every new arrival takes the last place; dequeue removes and returns the element at the front end, which is always the element that has waited longest. If the queue is empty, a dequeue attempt causes underflow; if a fixed-size implementation is full, enqueue causes overflow. This service order — first arrival first served — is why queues model ticket counters, printer job spools, keyboard buffers and process scheduling: the order of processing must match the order of arrival."
+    },
+    {
+      "file": "c11_cs_cbse_11_008.md",
+      "definition": "Client-server architecture is a model of networked computing in which work is divided between two kinds of programs: clients, which request services, and servers, which provide them. A client — a browser, mail program or app — sends a request over the network to a server that is listening on a known address and port; the server processes the request (fetching a web page, a database record or a file) and returns a response, after which the client renders or stores the result. Centralising data and services on servers gives shared resources, easier administration, better security control and scalability to many simultaneous clients, though it also concentrates load and makes the server a critical point of failure; the web, email and database systems are all built on this model."
+    },
+    {
+      "file": "c12_cs_cbse_02_001.md",
+      "definition": "Network topology is the arrangement of the nodes (computers, servers, switches, peripherals) and the links (cables or wireless channels) that connect them in a network. The physical topology is the actual layout of devices and wiring, with the standard patterns being bus (a single backbone cable to which all nodes attach), star (all nodes connected to a central hub or switch), ring (each node connected to exactly two neighbours forming a closed loop), mesh (every node linked to every other, fully or partially), tree (hierarchical star networks) and hybrid combinations. The logical topology describes the path data actually follows, which may differ from the wiring. Topology determines cost, ease of installation, fault tolerance and performance: a star fails gracefully per-node but depends on its hub, while a bus fails wholly if the backbone breaks."
+    },
+    {
+      "file": "c12_cs_cbse_02_007.md",
+      "definition": "The TCP/IP protocol suite is the family of protocols on which the Internet runs, organised as four conceptual layers. The application layer holds the protocols users see — HTTP and HTTPS for the web, SMTP and POP/IMAP for mail, FTP for file transfer, DNS for name resolution. The transport layer provides end-to-end delivery: TCP gives reliable, ordered, error-checked streams by numbering segments, acknowledging receipt and retransmitting losses, while UDP offers fast connectionless delivery without guarantees. The internet layer moves packets across networks using IP addressing and routing. The network access (link) layer handles delivery over the local physical medium, such as Ethernet or Wi-Fi. Layering lets heterogeneous hardware and networks interoperate: each layer serves the one above it and uses the one below."
+    },
+    {
+      "file": "c12_cs_cbse_05_009.md",
+      "definition": "WHERE and HAVING are the two filtering clauses of SQL, and they act at different stages of query processing. The WHERE clause filters individual rows before any grouping: it is applied while rows are read, so aggregate functions such as SUM(), COUNT() or AVG() — which need many rows — cannot appear in it. GROUP BY then collapses the surviving rows into groups, and the HAVING clause filters those groups after aggregation, so HAVING is exactly where conditions on aggregates belong. For example, SELECT dept, AVG(sal) FROM emp WHERE city='Delhi' GROUP BY dept HAVING AVG(sal) > 50000 first keeps only Delhi employees, groups them by department, and then keeps only departments whose average salary crosses 50000."
+    },
+    {
+      "file": "c12_cs_cbse_06_001.md",
+      "definition": "Database connectivity is the arrangement by which a Python program talks to a database management system such as MySQL, so that data can be queried, inserted, updated and deleted from within the program. In Python the interface follows the Python Database API specification: the mysql.connector module (or an equivalent driver) is imported; a connection object is created with connect(), supplying host, user, password and database; a cursor object is obtained with connection.cursor(); SQL commands are sent through cursor.execute() — preferably with parameterised queries (%s placeholders) to prevent SQL injection; results are fetched with fetchone() or fetchall(); and changes are made permanent with connection.commit(), released with cursor.close() and connection.close(). This interface turns the DBMS from a standalone tool into a data engine behind applications and websites."
+    },
+    {
+      "file": "c12_cs_cbse_06_009.md",
+      "definition": "CRUD operations are the four fundamental actions on stored data — Create, Read, Update and Delete — which in SQL are the INSERT, SELECT, UPDATE and DELETE statements. From Python these are performed through the connector interface: a connection to the MySQL database is opened, a cursor is created, and each operation is executed with cursor.execute(), using parameterised queries (values passed as a tuple against %s placeholders) so that user input is escaped safely rather than concatenated into the SQL string. After changes, connection.commit() makes them permanent (or connection.rollback() undoes them within a transaction), and SELECT results are retrieved with fetchone()/fetchall(). Together CRUD covers the complete data lifecycle of almost every database application."
+    },
+    {
+      "file": "c12_cs_cbse_08_002.md",
+      "definition": "A stack is a linear data structure in which insertion and deletion are permitted at one end only, called the top, so the element inserted last is the first to come out — the Last-In-First-Out (LIFO) rule. The insertion operation is push, the deletion operation is pop, and peek (top) examines the topmost element without removing it; attempting to pop from an empty stack is underflow, pushing onto a full fixed-size stack is overflow. The LIFO order mirrors real stacks of plates or books and is exactly what programs need for function calls and recursion (the call stack), reversing a string or list, checking balanced parentheses, undo operations in editors and expression evaluation — which is why stacks are among the most used structures in computing."
+    },
+    {
+      "file": "c12_cs_cbse_08_005.md",
+      "definition": "A queue is a linear data structure organised on the First-In-First-Out (FIFO) principle: the element inserted first is the element removed first. Insertion (enqueue) happens only at the rear end and deletion (dequeue) only at the front end, so the queue preserves arrival order exactly. Supporting operations include peek/front to read the front element without removing it, and size or isEmpty tests; a dequeue on an empty queue is underflow, and inserting into a full fixed-capacity queue is overflow. In circular queues the rear wraps around to reuse freed cells. Queues model every first-come-first-served situation — ticket lines, printer job spools, keyboard and CPU scheduling buffers — where fairness of order must be guaranteed."
+    },
+    {
+      "file": "c12_cs_cbse_11_001.md",
+      "definition": "A list is Python's ordered, mutable sequence type, written as comma-separated values inside square brackets, for example marks = [88, 92, 79]. Lists may hold elements of different data types, allow duplicate values, and are indexed from zero, with negative indexing counting from the end and slicing (marks[1:3]) returning sub-lists. Because lists are mutable, elements can be replaced by index, and methods such as append(), insert(), remove(), pop(), sort() and reverse() change the list in place; the list grows and shrinks dynamically as the program runs. Lists preserve insertion order and are the everyday container of Python — used for iterating over collections of data, stacking values, storing records and passing groups of values between functions."
+    },
+    {
+      "file": "c12_cs_cbse_11_005.md",
+      "definition": "A dictionary is Python's built-in mapping type: a mutable collection of key-value pairs written inside curly braces, for example student = {'roll': 12, 'name': 'Ravi'}. Each key must be unique and immutable (strings, numbers or tuples), while values may be of any type and may repeat; since Python 3.7 dictionaries also preserve insertion order. Values are accessed, added or changed by key in square brackets (student['name']) or by the get() method, which returns a default instead of an error for a missing key, and pairs are removed with pop() or del. Dictionary operations — lookup, insert, delete by key — are fast, and methods keys(), values() and items() support iteration, making dictionaries the natural structure for look-up tables, records and counting tasks."
+    },
+    {
+      "file": "c12_cs_cbse_13_008.md",
+      "definition": "Online shopping, or e-commerce, is the buying and selling of goods and services over the internet: a buyer browses a virtual catalogue, places an order through a website or app, pays through an electronic payment system (credit or debit card, net banking, wallet or UPI), and the seller delivers the goods or activates the service. The main business models are B2C (business to consumer, as in retail sites), B2B (business to business supply), C2C (consumer to consumer platforms and auctions) and the newer direct-to-consumer forms. E-commerce offers round-the-clock reach, wider choice, price comparison and door delivery, and rests on secure payment gateways, data protection, and consumer-protection law for grievance redressal; its challenges include fraud, privacy and the digital divide."
+    }
+  ]
+}

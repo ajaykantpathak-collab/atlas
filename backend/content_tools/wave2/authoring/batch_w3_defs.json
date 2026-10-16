@@ -1,0 +1,228 @@
+{
+ "edits": [
+  {
+   "file": "c10_math_cbse_01_009.md",
+   "definition": "The product of a non-zero rational number and an irrational number is always irrational. If r is a non-zero rational number and x is irrational, then the product rx is irrational: assuming rx were rational, dividing it by the rational number r would give x as the quotient of two rational numbers, hence rational — contradicting that x is irrational. The proof technique is contradiction: assume the opposite of what must be proved and derive an impossibility."
+  },
+  {
+   "file": "c10_math_cbse_01_010.md",
+   "definition": "For three positive integers written in prime factorisation form, the Highest Common Factor (HCF) is the product of the prime factors common to all three numbers, each raised to the smallest exponent it has in the three factorisations. The Least Common Multiple (LCM) is the product of every prime that appears in at least one of the numbers, each raised to the largest exponent it has. A prime absent from a number is treated as having exponent zero there; for 12, 18 and 30 the HCF is 6 and the LCM is 180."
+  },
+  {
+   "file": "c10_math_cbse_01_011.md",
+   "definition": "A rational number p/q in lowest terms — integers p and q with q not zero and HCF(p, q) = 1 — has a terminating decimal expansion if and only if the prime factorisation of the denominator q involves no prime except 2 and 5, that is q = 2^m × 5^n for non-negative integers m and n. If q has any other prime factor, the decimal expansion is non-terminating recurring (repeating). The condition is checked on the reduced fraction, not the original one."
+  },
+  {
+   "file": "c10_math_cbse_02_002.md",
+   "definition": "A zero of a linear polynomial p(x) = ax + b, where a is not zero, is the value of x that satisfies p(x) = 0; solving the equation gives x = -b/a. Geometrically, this zero is the x-coordinate of the point where the graph of y = ax + b, a straight line, crosses the x-axis — the x-intercept (-b/a, 0). A linear polynomial has exactly one real zero, because a straight line with non-zero slope crosses the x-axis exactly once."
+  },
+  {
+   "file": "c10_math_cbse_02_003.md",
+   "definition": "The zeros of a quadratic polynomial p(x) = ax² + bx + c, where a, b, c are real numbers and a is not zero, are the real values of x that satisfy p(x) = 0. Geometrically, they are the x-coordinates of the points where the parabola y = ax² + bx + c meets the x-axis. Depending on the discriminant D = b² - 4ac, a quadratic polynomial has two distinct real zeros, one repeated real zero, or no real zero at all."
+  },
+  {
+   "file": "c10_math_cbse_02_005.md",
+   "definition": "For a quadratic polynomial p(x) = ax² + bx + c with a not zero, if α and β are its zeros, then the sum of the zeros is α + β = -b/a and the product of the zeros is αβ = c/a. These relations tie the zeros directly to the coefficients, so the sum and product can be read off without solving the equation, and they hold for every quadratic polynomial with real coefficients."
+  },
+  {
+   "file": "c10_math_cbse_02_006.md",
+   "definition": "For a cubic polynomial p(x) = ax³ + bx² + cx + d with a not zero, if α, β and γ are its zeros, then the sum of the zeros is α + β + γ = -b/a; the sum of the products of zeros taken two at a time is αβ + βγ + γα = c/a; and the product of the zeros is αβγ = -d/a. These relations follow by comparing the expanded product a(x - α)(x - β)(x - γ) with the standard form."
+  },
+  {
+   "file": "c10_math_cbse_02_007.md",
+   "definition": "The Division Algorithm for Polynomials states that for any two polynomials p(x) and g(x), with g(x) not the zero polynomial, there exist unique polynomials q(x), the quotient, and r(x), the remainder, such that p(x) = g(x)·q(x) + r(x), where either r(x) is the zero polynomial or the degree of r(x) is strictly less than the degree of g(x). It is the polynomial analogue of Euclid's division algorithm for integers and guarantees that division stops with a remainder of degree smaller than the divisor."
+  },
+  {
+   "file": "c10_math_cbse_02_008.md",
+   "definition": "The Division Algorithm for polynomials states that for a dividend p(x) and a non-zero divisor g(x) there exist unique polynomials q(x), the quotient, and r(x), the remainder, with p(x) = g(x)·q(x) + r(x), where r(x) is zero or has degree strictly less than the degree of g(x). Its step-by-step application is the long-division procedure: arrange both polynomials in descending powers of x, fill missing powers with zero coefficients, divide leading terms, multiply, subtract, and repeat while the working degree stays at or above the divisor's degree."
+  },
+  {
+   "file": "c10_math_cbse_02_009.md",
+   "definition": "The Division Algorithm for polynomials states that for polynomials p(x) and g(x) with g(x) not zero, there exist unique polynomials q(x) and r(x) such that p(x) = g(x)·q(x) + r(x), where r(x) is zero or has degree less than that of g(x). To find all zeros of p(x): once one zero α is known, the Factor Theorem makes (x - α) a factor, so dividing p(x) by (x - α) yields a quotient q(x) of degree one less, and the remaining zeros are exactly the zeros of q(x), found by further division or factorisation."
+  },
+  {
+   "file": "c10_math_cbse_02_010.md",
+   "definition": "Factorisation of a polynomial using the division algorithm is the process of writing p(x) as a product of factors by dividing it by a known factor g(x) of degree at least one. When the remainder r(x) comes out zero, g(x) is confirmed as a factor and p(x) = g(x)·q(x); the quotient q(x), one degree lower, is then factorised further by the same method or by splitting the middle term, continuing until the polynomial stands as a product of linear factors."
+  },
+  {
+   "file": "c10_math_cbse_02_011.md",
+   "definition": "Verifying the zeros-coefficients relationship means substituting the known zeros of a polynomial into the standard relations and checking that they reproduce the ratios of the coefficients. For a quadratic ax² + bx + c with zeros α and β, verify α + β = -b/a and αβ = c/a. For a cubic ax³ + bx² + cx + d with zeros α, β, γ, verify α + β + γ = -b/a, αβ + βγ + γα = c/a and αβγ = -d/a. Verification catches arithmetic slips in either the zeros or the coefficients."
+  },
+  {
+   "file": "c10_math_cbse_03_001.md",
+   "definition": "A pair of linear equations in two variables, each of the form ax + by + c = 0, is represented graphically by two straight lines in the coordinate plane, one line per equation. A solution of the pair is a point (x, y) lying on both lines at once. Plotting both lines reveals the situation: intersecting lines meet at exactly one point (a consistent pair with a unique solution), parallel lines never meet (an inconsistent pair with no solution), and coincident lines share every point (a dependent pair with infinitely many solutions)."
+  },
+  {
+   "file": "c10_math_cbse_03_003.md",
+   "definition": "A pair of linear equations in two variables is called inconsistent when its two lines are parallel and distinct, so there is no point of intersection and the system has no solution. For the equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0, the pair is inconsistent exactly when a₁/a₂ = b₁/b₂ while c₁/c₂ is different: the equal ratios of the x and y coefficients give equal slopes, and the unequal constant terms keep the lines apart."
+  },
+  {
+   "file": "c10_math_cbse_03_004.md",
+   "definition": "A pair of linear equations in two variables represents a dependent system with infinitely many solutions when the ratios of corresponding coefficients are all equal: a₁/a₂ = b₁/b₂ = c₁/c₂. Both equations then describe the same straight line, so every point on that line satisfies both equations at once. In the graphical method the two lines coincide — one line drawn twice — and any point on it is a valid solution of the pair."
+  },
+  {
+   "file": "c10_math_cbse_03_007.md",
+   "definition": "The cross-multiplication method solves a pair of linear equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 directly, without eliminating a variable first, using the relation x/(b₁c₂ - b₂c₁) = y/(c₁a₂ - c₂a₁) = 1/(a₁b₂ - a₂b₁), which requires a₁b₂ - a₂b₁ to be non-zero. It gives x = (b₁c₂ - b₂c₁)/(a₁b₂ - a₂b₁) and y = (c₁a₂ - c₂a₁)/(a₁b₂ - a₂b₁). When a₁b₂ - a₂b₁ = 0 the lines are parallel or coincident, and the method does not apply."
+  },
+  {
+   "file": "c10_math_cbse_04_002.md",
+   "definition": "Forming a quadratic equation from a real-life situation is the process of translating a verbal or contextual problem into the standard form ax² + bx + c = 0, where a, b, c are real numbers and a is not zero, with the variable x representing the unknown quantity of the situation. The given conditions — areas, speeds, ages, numbers — are written as algebraic statements in x, simplified, and rearranged so that the final equation models the situation exactly before any solving begins."
+  },
+  {
+   "file": "c10_math_cbse_04_003.md",
+   "definition": "Solving a quadratic equation ax² + bx + c = 0 by factorisation means splitting the middle term bx into two terms px and qx chosen so that p + q = b and p·q = ac. The expression is then grouped and written as a product of two linear factors, (x - α)(x - β) = 0, and the zero-product property gives the two roots x = α and x = β. The method applies whenever the quadratic factors nicely over the integers."
+  },
+  {
+   "file": "c10_math_cbse_04_004.md",
+   "definition": "Completing the square solves a quadratic equation ax² + bx + c = 0, with a not zero, by reshaping it so that one side becomes a perfect square: after dividing by a and adding the square of half the coefficient of x, the equation takes the form (x + b/2a)² = (b² - 4ac)/4a². Taking square roots on both sides and simplifying gives the two roots. The method converts any quadratic into this square form and is the route by which the quadratic formula is derived."
+  },
+  {
+   "file": "c10_math_cbse_04_005.md",
+   "definition": "The quadratic formula x = (-b ± √(b² - 4ac))/2a is derived by applying the method of completing the square to the general quadratic equation ax² + bx + c = 0 with a not zero: divide by a, reshape the left side into the perfect square (x + b/2a)², move the constant to the right, and take square roots. The derivation shows the formula is not a separate trick but the completed-square form of every quadratic, giving the roots straight from a, b and c."
+  },
+  {
+   "file": "c10_math_cbse_04_006.md",
+   "definition": "The quadratic formula x = (-b ± √(b² - 4ac))/2a gives the roots of any quadratic equation ax² + bx + c = 0 with real coefficients and a not zero. It is a universal method: whether the roots are real and distinct, real and equal, or not real at all, substituting the coefficients always yields the answer, and the expression under the square root, b² - 4ac, decides which of the three cases occurs. Class 10 considers only real roots."
+  },
+  {
+   "file": "c10_math_cbse_04_007.md",
+   "definition": "The discriminant of a quadratic equation ax² + bx + c = 0, where a, b, c are real and a is not zero, is the quantity D = b² - 4ac. It determines the nature of the roots without solving the equation: D greater than zero gives two distinct real roots, D equal to zero gives two equal real roots (a repeated root), and D less than zero gives no real roots. Reading D first tells which solving method will be quickest and what kind of answer to expect."
+  },
+  {
+   "file": "c10_math_cbse_04_008.md",
+   "definition": "For a quadratic equation ax² + bx + c = 0 with real coefficients and a not zero, the discriminant D = b² - 4ac is positive exactly when the equation has two distinct real roots, given by α = (-b + √D)/2a and β = (-b - √D)/2a. They are unequal because √D is positive, so one root lies above and the other below the value -b/2a on the number line. Graphically, the parabola cuts the x-axis at two separate points."
+  },
+  {
+   "file": "c10_math_cbse_04_009.md",
+   "definition": "For a quadratic equation in standard form ax² + bx + c = 0 with a not zero, the discriminant is D = b² - 4ac. When D = 0 the equation has two equal real roots, also called coincident or repeated roots, both given by the single value x = -b/2a. The quadratic expression is then a perfect square trinomial, and its parabola touches the x-axis at exactly one point — the vertex — instead of cutting across it."
+  },
+  {
+   "file": "c10_math_cbse_04_010.md",
+   "definition": "For a quadratic equation ax² + bx + c = 0 with real coefficients and a not zero, the discriminant is D = b² - 4ac. If D is negative, the equation has no real roots: the square root of a negative number is not a real number, so the quadratic formula produces no real value of x. The parabola y = ax² + bx + c then lies entirely above or entirely below the x-axis and never touches it."
+  },
+  {
+   "file": "c10_math_cbse_04_011.md",
+   "definition": "Word problems involving quadratic equations require translating a real-life situation into the standard form ax² + bx + c = 0 with a not zero, solving it by factorisation, completing the square, or the quadratic formula, and interpreting the roots in the context of the problem. One root is frequently rejected because a length, time, speed or count cannot be negative or meaningless in the situation; keeping only the admissible root and stating it with units is part of the answer."
+  },
+  {
+   "file": "c10_math_cbse_05_002.md",
+   "definition": "An Arithmetic Progression (AP) in general form is the ordered list of numbers a, a + d, a + 2d, a + 3d, and so on, where a is the first term and d is the common difference. Counting from n = 1, the nth term is a + (n - 1)d; counting the first term as the zeroth, the kth term is a + kd. The defining property is that each term after the first is obtained by adding the same fixed number d to the term before it."
+  },
+  {
+   "file": "c10_math_cbse_05_003.md",
+   "definition": "The nth term of an arithmetic progression (AP) is the general term that gives the value of the sequence at any position n. If the first term is a and the common difference is d, the nth term is given by Tₙ = a + (n - 1)d, where n is a positive integer counting the terms. The formula holds for every AP with real terms and a constant difference d, and it generates the whole sequence as n runs through 1, 2, 3 and so on."
+  },
+  {
+   "file": "c10_math_cbse_05_004.md",
+   "definition": "The nth term of an arithmetic progression is given by aₙ = a + (n - 1)d, where a is the first term, d the common difference and n the term number. Finding unknown terms means using this relation to determine any one of the four quantities aₙ, a, d and n when the other three are known or can be worked out from the given conditions, such as a stated term, two terms at known positions, or a described pattern of increase."
+  },
+  {
+   "file": "c10_math_cbse_05_005.md",
+   "definition": "Finding the number of terms in an AP means determining n, which must be a positive integer, when the first term a, the common difference d, and the nth term aₙ (or a term equal to a stated value) are given. The nth-term formula rearranges to n = (aₙ - a)/d + 1. If instead the sum Sₙ is given, the sum formula produces a quadratic equation in n, of which only the positive integer root is admissible."
+  },
+  {
+   "file": "c10_math_cbse_05_007.md",
+   "definition": "The sum of the first n terms of an arithmetic progression with first term a and common difference d is given by the formula Sₙ = n/2 × [2a + (n - 1)d]. Since the last term is l = a + (n - 1)d, the same sum can be written as Sₙ = n/2 × (a + l) — the number of terms times the average of the first and last terms. Both forms hold for every positive integer n and real numbers a and d."
+  },
+  {
+   "file": "c10_math_cbse_05_011.md",
+   "definition": "Word problems on arithmetic progressions translate a situation in which a quantity changes by a fixed amount at each step — a salary rising by a fixed increment, savings deposited monthly, lengths of ladder rungs, distances covered in successive seconds — into an AP by identifying the first term a, the common difference d, and the required term number or number of terms. The nth-term formula aₙ = a + (n - 1)d gives a particular term; the sum formula Sₙ = n/2 × [2a + (n - 1)d] gives totals."
+  },
+  {
+   "file": "c10_math_cbse_07_001.md",
+   "definition": "The distance between two points P(x₁, y₁) and Q(x₂, y₂) in the Cartesian plane is the length of the line segment joining them. Completing the right triangle whose hypotenuse is PQ and applying the Pythagoras theorem gives the distance formula: PQ = √((x₂ - x₁)² + (y₂ - y₁)²). The formula holds for all real coordinates, always yields a single non-negative real number, and reduces to the absolute difference of the coordinates when the two points share a horizontal or vertical line."
+  },
+  {
+   "file": "c10_math_cbse_07_008.md",
+   "definition": "The area of a triangle with vertices A(x₁, y₁), B(x₂, y₂) and C(x₃, y₃) is half the absolute value of x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂). Its applications include finding the area from coordinates alone, recovering a missing vertex when the area is known, testing whether three points are collinear — the area is then zero — and solving practical problems about triangular plots on the coordinate plane."
+  },
+  {
+   "file": "c10_math_cbse_07_010.md",
+   "definition": "The section formula for internal division gives the coordinates of the point P(x, y) that divides the line segment joining A(x₁, y₁) and B(x₂, y₂) internally in the ratio m : n, with m and n positive: x = (m·x₂ + n·x₁)/(m + n) and y = (m·y₂ + n·y₁)/(m + n). It follows from the similarity of the right triangles formed by dropping perpendiculars from A, P and B to the x-axis, and it contains the midpoint case when m = n."
+  },
+  {
+   "file": "c10_math_cbse_08_007.md",
+   "definition": "The identity 1 + tan²θ = sec²θ holds for every angle θ at which cos θ is not zero — that is, wherever tan θ and sec θ are defined. It comes from the fundamental identity sin²θ + cos²θ = 1 by dividing every term by cos²θ, which turns the ratio sin θ/cos θ into tan θ and 1/cos θ into sec θ. It is one of the three Pythagorean identities used to simplify expressions and to prove other trigonometric results."
+  },
+  {
+   "file": "c10_math_cbse_08_008.md",
+   "definition": "The identity 1 + cot²θ = cosec²θ is a fundamental Pythagorean trigonometric identity, true for every angle θ at which sin θ is not zero — that is, wherever cot θ and cosec θ are defined. Dividing each term of sin²θ + cos²θ = 1 by sin²θ converts the ratio cos θ/sin θ into cot θ and 1/sin θ into cosec θ, giving the identity. It is used to simplify expressions, to change one ratio into another, and to prove further results."
+  },
+  {
+   "file": "c10_math_cbse_09_008.md",
+   "definition": "Word problems on finding the height of a tower or a tree use the tangent ratio in the right triangle formed by the vertical object, the horizontal ground distance from the observer to its foot, and the line of sight from the observer's eye to the top. The height above eye level equals d × tan θ, where d is the horizontal distance and θ the angle of elevation; any given eye height is added to this to get the total height. Doubling the distance or the angle is never a shortcut — the ratio must be recalculated each time."
+  },
+  {
+   "file": "c10_math_cbse_11_001.md",
+   "definition": "The area of a circle is the measure of the plane region enclosed by its circumference. For a circle of radius r the area is A = πr², where π is the constant ratio of the circumference of any circle to its diameter, approximately 22/7 or 3.14. The formula holds for every circle; in board questions it is usually combined with sectors and rings, so the radius must be found or converted carefully before squaring."
+  },
+  {
+   "file": "c10_math_cbse_11_002.md",
+   "definition": "The circumference of a circle is the total length of its boundary, given by C = 2πr, or equivalently C = πd where d = 2r is the diameter. Here π is the fixed ratio of circumference to diameter, the same for every circle, approximately 22/7 or 3.14. The formula converts between radius, diameter and boundary length, and it is the base from which the length of an arc is computed as the same fraction of the whole circumference that its angle is of 360°."
+  },
+  {
+   "file": "c10_math_cbse_11_003.md",
+   "definition": "The area of a sector of a circle is the region enclosed by two radii and the arc between them. For radius r and central angle θ measured in degrees, the area is (θ/360) × πr², because the sector occupies the same fraction of the whole circle that θ is of one full turn of 360°. The formula checks at the extremes: θ = 360° returns the full area πr², and θ shrinking to zero returns no area."
+  },
+  {
+   "file": "c10_math_cbse_11_005.md",
+   "definition": "The length of an arc of a sector is the distance along the curved boundary between the two radii that bound the sector. It equals the same fraction of the whole circumference that the central angle θ is of 360°: L = (θ/360) × 2πr, valid for 0° < θ ≤ 360° and any positive radius. Arc length answers how long along the rim, while sector area answers how much region — the two are proportional to the same angle fraction."
+  },
+  {
+   "file": "c10_math_cbse_12_007.md",
+   "definition": "The curved surface area of a frustum of a right circular cone with end radii r₁ and r₂ (r₁ larger than r₂) and slant height l is CSA = π(r₁ + r₂)l. The total surface area adds the two circular ends: TSA = π(r₁ + r₂)l + πr₁² + πr₂². The slant height is related to the vertical height h by l = √(h² + (r₁ - r₂)²). These formulas come from subtracting the smaller cone from the larger cone of which the frustum is the leftover part."
+  },
+  {
+   "file": "c10_math_cbse_13_001.md",
+   "definition": "The mean of grouped data by the direct method is the arithmetic average obtained by multiplying each class mark (the midpoint of a class interval) by its frequency, adding these products, and dividing by the total frequency. For class marks xᵢ with frequencies fᵢ, the mean is given by (Σ fᵢxᵢ)/(Σ fᵢ). The method assumes the class intervals are continuous and non-overlapping and that every observation in a class is represented by its class mark."
+  },
+  {
+   "file": "c10_math_cbse_13_002.md",
+   "definition": "The assumed mean method computes the mean of grouped data by choosing a convenient class mark A, finding the deviation dᵢ = xᵢ - A of every class mark from it, and using the formula mean = A + (Σ fᵢdᵢ)/(Σ fᵢ), where xᵢ are the class marks and fᵢ the frequencies. Working with small deviations instead of large class marks reduces arithmetic effort, and the result is exactly the same as the one the direct method gives."
+  },
+  {
+   "file": "c10_phy_cbse_01_003.md",
+   "definition": "Ohm's Law states that the electric current flowing through a conductor is directly proportional to the potential difference applied across its ends, provided the temperature and other physical conditions of the conductor remain unchanged: V = IR, where V is the potential difference in volts, I the current in amperes and R the resistance in ohms. The V-I graph of an ohmic conductor is a straight line through the origin whose slope gives R; doubling the applied voltage doubles the current."
+  },
+  {
+   "file": "c10_phy_cbse_02_003.md",
+   "definition": "The magnetic field at the centre of a current-carrying circular loop is directed perpendicular to the plane of the loop, and for a single turn its magnitude is B = μ₀I/2R, where I is the current, R the loop radius and μ₀ = 4π × 10⁻⁷ tesla-metre per ampere the permeability of free space. For a coil of N turns the field is N times larger: B = μ₀NI/2R, because the turns act in the same sense. The direction follows the right-hand thumb rule: curl the fingers of the right hand along the current and the thumb points along the field inside the loop."
+  },
+  {
+   "file": "c10_phy_cbse_02_005.md",
+   "definition": "The force on a current-carrying conductor placed in a magnetic field is given by F = BIL sin θ, where B is the magnetic field strength in tesla, I the current in amperes, L the length of the conductor lying inside the field in metres, and θ the angle between the direction of the current and the field. The force is largest when the conductor is perpendicular to the field and zero when it lies parallel. Its direction — perpendicular to both current and field — is given by Fleming's left-hand rule."
+  },
+  {
+   "file": "c10_bio_cbse_01_003.md",
+   "definition": "Photosynthesis is the biological process by which green plants, algae, and certain bacteria convert carbon dioxide and water into glucose and oxygen using light energy captured by chlorophyll in chloroplasts, with stomata facilitating gas exchange. The events fall into two stages: light-dependent reactions that split water and trap energy, and light-independent carbon fixation that builds glucose. Photosynthesis is the doorway through which energy enters the living world, and it continually replenishes the oxygen of the atmosphere."
+  },
+  {
+   "file": "c10_bio_cbse_02_008.md",
+   "definition": "Endocrine glands are ductless glands that secrete chemical messengers called hormones directly into the bloodstream; these hormones travel to specific target organs or tissues to regulate physiological processes such as growth, metabolism, reproduction, and homeostasis. Major examples are the pituitary, thyroid, adrenal glands, the pancreas (which releases insulin) and the reproductive glands. Because their secretions travel by blood rather than through ducts, hormonal action is slower than nerve impulses but longer-lasting and more widespread."
+  },
+  {
+   "file": "c10_civ_cbse_03_005.md",
+   "definition": "Caste influences political choices in India when voters, parties, and candidates align along caste identities to secure electoral support, distribute tickets, or form alliances, treating caste as a key determinant of political behaviour and representation. No parliamentary constituency has a single-caste majority, so a candidate must win the support of several castes at once. Universal adult franchise gave every caste a political voice, which is also why no caste can remain a permanent vote bank of any one party."
+  },
+  {
+   "file": "c10_geo_cbse_03_007.md",
+   "definition": "Inter-state water disputes arise when two or more states disagree over the sharing, allocation, or control of water from a common river basin or water resource, often due to competing demands for irrigation, drinking water, industrial use, and hydropower. Under Article 262, Parliament may provide for the adjudication of such disputes, and the Inter-State River Water Disputes Act, 1956 empowers the setting up of tribunals, such as those over the Cauvery and Krishna waters, whose awards are binding."
+  },
+  {
+   "file": "c10_geo_cbse_04_004.md",
+   "definition": "Major crops — rice, wheat, maize and millets — are the staple food grains of India, and each has its own demands: rice wants hot, humid conditions with standing water on fertile plains; wheat wants cool weather while growing and warmth at ripening in the Gangetic plains; maize is a versatile crop that grows across many soils and seasons; and millets, the coarse grains, survive on dry, less fertile land with little irrigation. These differing requirements of temperature, rainfall, season and soil produce the distinct geographical distribution patterns of the country's agro-climatic zones."
+  },
+  {
+   "file": "c10_geo_cbse_06_007.md",
+   "definition": "Industrial location refers to the geographical siting of manufacturing units decided by a comparative weighing of locational factors — availability of raw materials, labour, capital, power, market, transport, and government policies — so as to minimise production costs and maximise profitability. For example, iron and steel plants cluster near the coal and iron-ore belts of the Chhotanagpur region, while cotton textile mills historically concentrated in Maharashtra and Gujarat close to the cotton-growing belt and port cities."
+  },
+  {
+   "file": "c10_phy_cbse_03_008.md",
+   "definition": "Environmental consequences of energy sources refer to the detrimental effects on air, water, soil, and ecosystems resulting from the extraction, conversion, and utilization of energy resources — greenhouse gas emissions that drive climate change, particulate and gaseous pollution from burning fossil fuels, radioactive waste from nuclear plants, habitat destruction from hydro-projects and mining, and thermal pollution of rivers by power stations. These consequences set the physical limits within which the growing energy consumption of the world must be judged, and they are the reason non-conventional sources are being promoted."
+  },
+  {
+   "file": "c10_geo_cbse_04_006.md",
+   "definition": "The geographical conditions required for rubber, cotton and jute differ sharply, and these differences decide where each fibre crop grows in India. Rubber needs hot, wet tropical evergreen conditions with heavy, well-distributed rainfall and deep laterite soil, so it is concentrated on the Western Ghats slopes of Kerala and Karnataka. Cotton needs black (regur) soil that holds moisture, high temperature and light rain during flowering, suiting the Deccan Plateau of Maharashtra and Gujarat. Jute needs hot, humid weather and fertile alluvial loam renewed by floods, confining it to the Ganga-Brahmaputra delta of West Bengal."
+  }
+ ]
+}

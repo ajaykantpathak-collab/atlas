@@ -42,10 +42,29 @@ from backend.deps import get_current_user
 from backend.models.enrichment import BoardQuestion, EnrichmentContent
 from backend.models.user import User
 from backend.api._assessment_sessions import TestSessionStore, grade_answer
+from backend.services.feedback_scrub import (
+    scrub_answer_key, scrub_explanation)
 
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/chapter-tests", tags=["chapter-tests"])
+
+
+def _clean(text: Any) -> Any:
+    """Student-visible normalizer (render-fix wave, 2026-10-04).
+
+    Board-question rows and enrichment titles can carry raw LaTeX
+    ("$XY = 7\\,\\text{cm}$"), markdown markers ("**Collection of
+    Data**"), unrounded floats or NaN — normalize everything that
+    reaches a student.  Fails open: a scrub error never breaks a test.
+    """
+    if not isinstance(text, str) or not text:
+        return text
+    try:
+        from backend.services.display_scrub import normalize_student_text
+        return normalize_student_text(text) or text
+    except Exception:  # noqa: BLE001
+        return text
 
 # ── Subject slugs the UI uses → board_questions subject codes ────────────
 # TESTCOV coverage fix: the bank stores ONE subject under SEVERAL codes —
@@ -227,6 +246,7 @@ async def _chapter_num_titles(db: AsyncSession, subjects: List[str],
             anchors[num] = (seq, str(title or ""))
     out: Dict[str, str] = {}
     for num, (_seq, title) in anchors.items():
+        title = str(_clean(title) or "")
         out[num] = f"Chapter {num} · {title}" if title else f"Chapter {num}"
     return out
 
@@ -346,8 +366,9 @@ def _q_payload(row: BoardQuestion, idx: int) -> dict:
     return {
         "question_id": str(row.id),
         "index": idx,
-        "text": row.question_text,
-        "options": opts or [],
+        "text": _clean(row.question_text),
+        "options": [_clean(o) for o in (opts or []) if isinstance(o, str)]
+                   or (opts or []),
         "marks": 1,  # filled from the section plan at assembly time
         "question_type": row.question_type or "short_answer",
         # answer/explanation/model_answer stay on the server row copy
@@ -621,19 +642,23 @@ async def _build_report(db: AsyncSession, sess: Dict[str, Any]) -> dict:
         bucket["correct"] += 1 if is_correct else 0
         review.append({
             "questionId": qid,
-            "question": q["text"],
+            "question": _clean(q["text"]),
             "studentAnswer": "" if skipped else student,
-            "expectedAnswer": str(key.get("correct_answer") or ""),
+            # bank fields can hold GRADER prose — scrub at serving; the
+            # raw key already did its grading job above.
+            "expectedAnswer": _clean(scrub_answer_key(
+                key.get("correct_answer"))),
             "isCorrect": is_correct,
             "skipped": skipped,
-            "explanation": str(key.get("explanation") or ""),
+            "explanation": _clean(scrub_explanation(
+                key.get("explanation"), is_correct)),
         })
 
     titles = await _node_titles(db, list(per_node.keys()))
     node_rows = []
     for node, b in per_node.items():
         pct = round(b["correct"] / b["total"] * 100, 1) if b["total"] else 0.0
-        title = titles.get(node) or sess["chapter_title"]
+        title = _clean(titles.get(node)) or sess["chapter_title"]
         node_rows.append({
             "nodeId": node,  # internal key — UI renders title only
             "title": title,

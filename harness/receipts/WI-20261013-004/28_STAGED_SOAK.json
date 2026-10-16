@@ -1,0 +1,22 @@
+{
+ "receipt_id": "rcpt_20261013T184428Z_1488b654",
+ "work_item": "WI-20261013-004",
+ "from_state": "STAGED",
+ "to_state": "SOAK",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T18:44:28Z",
+ "gates": [],
+ "evidence": {
+  "soak_report": "D:\\platform\\harness\\receipts\\WI-20261013-004\\soak_report.json",
+  "thresholds": {
+   "parity_ge_baseline": true,
+   "error_rate_lt_1pct": false,
+   "p95_lt_cap_ms": false,
+   "no_5xx_storm": true,
+   "rss_lt_ceiling": true,
+   "logs_clean": true
+  }
+ },
+ "notes": "soak RED",
+ "prev_receipt_sha256": "8b1ea39e98fab33364659c6f90ec4fd3b9363e7c459a9b9ec6b4a93d6c5af550"
+}

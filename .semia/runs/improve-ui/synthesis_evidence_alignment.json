@@ -1,0 +1,52 @@
+{
+  "alignments": [
+    {
+      "args": [
+        "improve-ui",
+        "name: improve-ui"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: improve-ui",
+      "line": 3,
+      "matched": true,
+      "relation": "skill_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "act_review",
+        "name: improve-ui"
+      ],
+      "evidence_id": "su_0",
+      "evidence_text": "name: improve-ui",
+      "line": 5,
+      "matched": true,
+      "relation": "action_evidence_text",
+      "score": 1.0,
+      "unit_id": 0
+    },
+    {
+      "args": [
+        "improve-ui",
+        "read_only",
+        "description: Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff."
+      ],
+      "evidence_id": "su_1",
+      "evidence_text": "description: Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.",
+      "line": 7,
+      "matched": true,
+      "relation": "skill_doc_claim_evidence_text",
+      "score": 1.0,
+      "unit_id": 1
+    }
+  ],
+  "evidence_match_rate": 1.0,
+  "grounding_score": 0.053953488372093024,
+  "normalized_facts": [
+    "skill_evidence(\"improve-ui\", \"su_0\").",
+    "action_evidence(\"act_review\", \"su_0\").",
+    "skill_doc_claim_evidence(\"improve-ui\", \"read_only\", \"su_1\")."
+  ],
+  "reference_unit_coverage": 0.053953488372093024
+}

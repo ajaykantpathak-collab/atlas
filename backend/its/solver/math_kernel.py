@@ -28,6 +28,10 @@ import re
 import unicodedata
 from typing import Dict, List, NamedTuple, Optional, Tuple
 
+# WSA-P3: never-raising lane-exception logger — silent kernel handlers
+# call it directly so a kernel-stage death is measured, not invisible.
+from backend.its.solver.contract import log_lane_exception
+
 # --------------------------------------------------------------------------- #
 # Expression preprocessing + parsing
 # --------------------------------------------------------------------------- #
@@ -46,7 +50,7 @@ def preprocess(text: str) -> str:
     for a, b in _UNICODE_SUBS:
         t = t.replace(a, b)
     t = re.sub(r"\^\s*\(([^()]*)\)", r"**(\1)", t)   # ^{...} / ^(...)
-    t = re.sub(r"\^\s*(-?\d+)", r"**\1", t)          # ^2 -> **2
+    t = re.sub(r"\^\s*([a-zA-Z0-9_]+)", r"**\1", t)  # ^2 -> **2, ^x -> **x
     t = re.sub(r"(?<![a-zA-Z0-9_])log\s*\(", "log(", t)
     return t
 
@@ -55,6 +59,7 @@ def parse_expression(expr: str):
     """Math substring -> sympy expression (implicit multiplication ok)."""
     import sympy
     from sympy.parsing.sympy_parser import (
+        convert_xor,
         implicit_multiplication_application, parse_expr,
         standard_transformations)
 
@@ -62,8 +67,15 @@ def parse_expression(expr: str):
     s = re.sub(r"\s+", " ", s)
     if not s:
         return None
+    # C12 dig: 'sin x cos x' parses under implicit multiplication as
+    # sin(x*cos(x)) — the variable binds INSIDE the function.  Wrap
+    # bare trig args: 'sin x' -> 'sin(x)' before sympy sees it.
+    s = re.sub(r"\b(sin|cos|tan|sec|csc|cosec|cot|sinh|cosh|tanh|"
+               r"asin|acos|atan|sqrt|exp|log|ln)\s+"
+               r"([a-zA-Z])\b(?!\s*\()", r"\1(\2)", s)
     try:
         transformations = standard_transformations + (
+            convert_xor,
             implicit_multiplication_application,)
         return parse_expr(s, transformations=transformations, evaluate=True)
     except Exception:
@@ -97,6 +109,9 @@ _MATH_OPERATOR_SUBS = [
     ("\u221a", "sqrt"), ("\u03c0", "pi"),
     ("\u2032", "'"), ("\u2033", "''"),
     ("\u210e", "h"),
+    ("\U0001d6f3", "theta"), ("\U0001d70d", "theta"), ("\u0398", "theta"),
+    ("\u03b8", "theta"), ("\u03d1", "theta"),
+    ("\u223c", "~"), ("\u223d", "~"),
 ]
 
 
@@ -123,6 +138,55 @@ _FUNC_TAIL_RE = re.compile(
 _POLY_CONTEXT_RE = re.compile(
     r"=|\b(?:solve|equation|quadratic|polynomial|roots?|derivative|"
     r"differentiate|integral|integrate|limit)\b", re.I)
+# CHEM-GUARD (CHEM-ADVERSARIAL 2026-10-06): a chemical formula token
+# ("H2", "O2", "H2O", "Fe3O4", "Na2SO4") has exactly the flattened-
+# exponent SHAPE the rules below repair ("x2" -> "x^2"), and chemistry
+# questions trigger the polynomial-context gate with the ordinary word
+# "equation" ("balance the chemical equation") or "=" (skeleton
+# equations).  A formula-shaped token is a SUBSCRIPT, never an
+# exponent: "balance H2 + O2 -> H2O" must keep its formulas.  Token
+# shape: one or more element symbols ([A-Z][a-z]?), each optionally
+# followed by a count, and nothing else.  Lowercase maths variables
+# ("x2", "ax2") never match, so maths repair is untouched.
+_CHEM_FORMULA_TOKEN_RE = re.compile(r"(?:[A-Z][a-z]?\d*)+")
+_CHEM_TOKEN_SPAN_RE = re.compile(r"[A-Za-z0-9]+")
+
+
+def _is_chem_formula_token(t: str, start: int, end: int) -> bool:
+    """True when the alnum token containing t[start:end] is a chemical
+    formula (H2, H2O, Fe3O4, Na2SO4, Ca3(PO4)2's inner groups)."""
+    s = start
+    while s > 0 and (t[s - 1].isalnum()):
+        s -= 1
+    e = end
+    while e < len(t) and t[e].isalnum():
+        e += 1
+    tok = t[s:e]
+    if not tok or not tok[0].isupper():
+        return False
+    return _CHEM_FORMULA_TOKEN_RE.fullmatch(tok) is not None \
+        and any(c.isdigit() for c in tok)
+
+
+def _paren_group_is_formula(t: str, close_pos: int) -> bool:
+    """True when the ')' at close_pos closes a formula GROUP like
+    (NH4), (PO4), (SO4) — pure element/count content, no operators.
+    '(NH4)2SO4' and 'Ca3(PO4)2' carry subscripts after ')'; maths
+    squared-bracket notation '(x+2)2' has operator content inside."""
+    depth = 1
+    i = close_pos - 1
+    while i >= 0 and depth:
+        if t[i] == ")":
+            depth += 1
+        elif t[i] == "(":
+            depth -= 1
+        i -= 1
+    if depth:                        # unmatched ')': not ours
+        return False
+    inner = t[i + 2:close_pos]
+    if not inner:
+        return False
+    return _CHEM_FORMULA_TOKEN_RE.fullmatch(inner) is not None
 
 
 def _fix_flattened_exponents(t: str) -> str:
@@ -134,6 +198,8 @@ def _fix_flattened_exponents(t: str) -> str:
     # 2+ digits, in polynomial/derivative context, is an exponent --
     # "10x3"-style multiplication only ever flattens ONE digit.
     def _repl_multi(m):
+        if _is_chem_formula_token(t, m.start(), m.end()):
+            return m.group(0)        # C12/O17-style isotope/formula token
         return m.group(1) + "^" + m.group(2)
 
     t = re.sub(r"\b([a-z])(\d{2,3})\b", _repl_multi, t, flags=re.I)
@@ -145,7 +211,12 @@ def _fix_flattened_exponents(t: str) -> str:
     # (that protects function names: "log100", "sin30") and 'e' is
     # excluded outright so unspaced scientific notation ("2e10") is
     # never mangled into 2*e^10.
-    t = re.sub(r"(?<![a-zA-Z^])([a-df-z])(\d{2,3})\b", _repl_multi, t,
+    def _repl_multi2(m):
+        if _is_chem_formula_token(t, m.start(), m.end()):
+            return m.group(0)        # formula token after a coefficient
+        return m.group(1) + "^" + m.group(2)
+
+    t = re.sub(r"(?<![a-zA-Z^])([a-df-z])(\d{2,3})\b", _repl_multi2, t,
                flags=re.I)
 
     def _repl(match) -> str:
@@ -153,11 +224,22 @@ def _fix_flattened_exponents(t: str) -> str:
         letter, digit = word[-2], word[-1]
         if _FUNC_TAIL_RE.search(word[:-1]):
             return word                 # log2, sin3, max2: a function
+        if _is_chem_formula_token(t, match.start(), match.end()):
+            return word                 # H2/O2/H2O/CO2/Fe3O4: subscripts
         prev = t[match.start() - 1] if match.start() else ""
         if prev.isdigit() and t.lower().count(letter.lower()) < 2:
             return word                 # "10x3 = 30": x is the times sign
         return word[:-1] + "^" + digit
 
+    # ')2'/')3' after a FORMULA GROUP is a subscript count — "(NH4)2SO4",
+    # "Ca3(PO4)2" — never an exponent.  Operator-bearing contents
+    # ("(x+2)2") stay maths and keep the caret repair.
+    def _repl_paren(m):
+        if _paren_group_is_formula(t, m.start()):
+            return m.group(0)
+        return ")^" + m.group(1)
+
+    t = re.sub(r"\)([2345])(?![0-9.^])", _repl_paren, t)
     return _FLAT_EXP_WORD_RE.sub(_repl, t)
 
 
@@ -175,11 +257,26 @@ def normalize_unicode_math(text: str) -> str:
     self-check -- a backspace byte (chr(8)) can only appear if a
     transport bug mangled a regex on the way in.
     """
-    t = text or ""
+    chars = []
+    for ch in (text or ""):
+        cp = ord(ch)
+        if 0xF020 <= cp <= 0xF07E:
+            chars.append(chr(cp - 0xF000))
+        elif cp == 0xF0A5:
+            chars.append("∞")
+        elif cp == 0xF0B4:
+            chars.append("*")
+        elif cp == 0xF0B8:
+            chars.append("/")
+        else:
+            chars.append(ch)
+    t = "".join(chars)
     t = _SUPERSCRIPT_RUN_RE.sub(_superscript_run_to_caret, t)
     for a, b in _MATH_OPERATOR_SUBS:
         t = t.replace(a, b)
     t = unicodedata.normalize("NFKC", t)
+    t = re.sub(r"[\u0398\u03b8\u03d1\u03f4]", "theta", t)
+    t = re.sub(r"\b(sin|cos|tan|cot|sec|csc|cosec)theta\b", r"\1 theta", t, flags=re.I)
     t = _fix_flattened_exponents(t)
     assert chr(8) not in t, "backspace byte in normalized math text"
     return t
@@ -206,13 +303,26 @@ def _is_prose_token(tok: str) -> bool:
 def _math_tail(segment: str):
     """Longest parsing tail of a text segment whose free symbols are all
     single letters ('Solve the quadratic equation x**2 - 5*x + 6' ->
-    x**2 - 5*x + 6). Drops prose prefixes deterministically."""
+    x**2 - 5*x + 6). Drops prose prefixes deterministically.
+
+    Each start index tries the LEADING non-prose run first ('0 for x'
+    -> 0, not x) — taking the longest tail let trailing prose symbols
+    hijack the RHS ('x^2-5x+6 = 0 for x' became '= x')."""
     tokens = segment.split()
     for i in range(len(tokens)):
         window = tokens[i:]
         if any(_is_prose_token(w) for w in window[:-1]):
-            continue  # prose inside the window - not pure math yet
-        candidate = " ".join(window)
+            # prose inside the tail — try the leading math run instead
+            lead = []
+            for w in tokens[i:]:
+                if _is_prose_token(w):
+                    break
+                lead.append(w)
+            if not lead:
+                continue
+            candidate = " ".join(lead)
+        else:
+            candidate = " ".join(window)
         expr = parse_expression(candidate)
         if expr is not None and all(
                 len(str(s)) == 1 for s in expr.free_symbols):
@@ -260,7 +370,11 @@ def _model_linear_system(text: str) -> Optional[Tuple[float, List[str]]]:
     syms = [sympy.Symbol(v) for v in free]
     try:
         sol = sympy.solve(eqs, syms, dict=True)
-    except Exception:
+    except Exception as _exc:
+        # WSA-P3: a solve defect on pre-extracted equations silently
+        # killed this model — now measured, decline semantics kept.
+        log_lane_exception(
+            stage="math_kernel._model_linear_system.solve", exc=_exc)
         return None
     if not sol:
         return None
@@ -452,6 +566,13 @@ def _model_speed_distance_time(text: str) -> Optional[Tuple[float, List[str]]]:
 
 def _model_rectangle(text: str) -> Optional[Tuple[float, List[str]]]:
     """'rectangular park 25 m long and 18 m wide - find the area'."""
+    # physics gate (2026-10-06 class-8 dig): mass/force/pressure word
+    # problems with dimensioned contact patches belong to the physics
+    # families; the maths area model multiplying raw cm values shipped
+    # "area = 40 * 20 = 800" VERIFIED for a tractor-pressure question.
+    if re.search(r"pressure|force\s+of|mass\s+of|tyres?|tires?|contact\s+"
+                 r"patch|\bkg\b|coefficient", text, re.I):
+        return None
     m = re.search(
         r"([\d.]+)\s*(?:m|cm|km|met(?:er|re)s?)?\s+long\s+(?:and\s+)?"
         r"([\d.]+)\s*(?:m|cm|km|met(?:er|re)s?)?\s+wide", text, re.I)
@@ -774,6 +895,75 @@ MODELS = [_model_matrix_equation, _model_quadratic_points,
 
 
 # --------------------------------------------------------------------------- #
+# Gravity plausibility gate (lane A mirror of physics_families._gval)
+# --------------------------------------------------------------------------- #
+# The physics families gate a stated g against the syllabus-plausible band
+# and against the surface gravity of any named celestial body ("on the Moon
+# where g = 200").  The kernel runs BEFORE physics, and its equation models
+# would happily "solve for g" out of that same stated given -- shipping a
+# moon-g trap answer VERIFIED.  The kernel therefore refuses the whole
+# question when the text states a g that physics would refuse, so the ask
+# falls through to the honest guided path instead.
+
+_KERNEL_BODY_G = {
+    "moon": 1.62, "mercury": 3.7, "mars": 3.71, "venus": 8.87,
+    "uranus": 8.69, "earth": 9.8, "saturn": 10.44, "neptune": 11.15,
+    "jupiter": 24.79, "sun": 274.0,
+}
+
+# explicit given: "g = 200", "g as 1.6", "g: 9.8", optional m/s^2 unit,
+# optional scientific form ("g = 3 x 10^2").  "3g = 60" does NOT match:
+# \b needs a non-word char before the g.
+_KERNEL_GIVEN_G_RE = re.compile(
+    r"\bg\s*(?:=|as|:)\s*"
+    r"(\d+(?:\.\d+)?(?:\s*[x*]\s*10\s*\^?\s*-?\d+)?)"
+    r"(\s*m\s*/\s*s\s*\^?\s*2)?", re.I)
+
+
+def _gravity_plausibility_gate(text: str) -> bool:
+    """True when the kernel must refuse: the text states a g that the
+    physics plausibility gate rejects.
+
+    Two arms, mirroring physics_families._gval:
+      1. named-body contradiction: an explicit g more than 3x away from
+         the named body's known surface gravity ("on the Moon where
+         g = 200");
+      2. absurd stated g: an explicit g outside [0.5, 350] (the Sun's
+         274 is the syllabus maximum) when the text carries physics
+         context -- SI accel units or the mass/weight/energy nouns.
+    A bare algebraic "g" with no physics context ("solve 3g + 4 = 604")
+    is untouched: there g is an ordinary variable.
+    """
+    m = _KERNEL_GIVEN_G_RE.search(text)
+    if not m:
+        return False
+    raw, unit = m.group(1), (m.group(2) or "")
+    try:
+        sci = re.search(r"10\s*\^?\s*(-?\d+)", raw, re.I)
+        if sci and re.search(r"[x*]", raw, re.I):
+            mant = float(re.split(r"[x*]", raw, flags=re.I)[0].strip())
+            v = mant * 10.0 ** int(sci.group(1))
+        else:
+            v = float(raw)
+    except (ValueError, IndexError):
+        return False
+    if not (0.5 <= v <= 350.0):
+        # arm 2: absurd g -- refuse only under physics context (SI
+        # accel units, or the mechanics nouns that make g gravity)
+        if re.search(r"m\s*/\s*s\s*\^?\s*2", unit, re.I):
+            return True
+        return bool(re.search(
+            r"\b(kg|kilogram|gram|mass|weight|force|newtons?|joules?|"
+            r"energy|height|potential|kinetic|velocity|fall|falls|"
+            r"dropped|thrown)\b", text, re.I))
+    for body, bg in _KERNEL_BODY_G.items():
+        if re.search(r"\b" + body + r"\b", text, re.I) \
+                and not (bg / 3.0 <= v <= bg * 3.0):
+            return True          # arm 1: contradicts the named body
+    return False
+
+
+# --------------------------------------------------------------------------- #
 # Symbolic answer channel (expression answers, not numbers)
 # --------------------------------------------------------------------------- #
 
@@ -966,7 +1156,7 @@ def _op_solve_equation(text: str) -> Optional[Tuple[float, List[str]]]:
             if sols:
                 return sols[-1], [f"{eq} = 0 -> roots {sols}; larger "
                                   f"= {sols[-1]:g}"]
-        m = re.search(r"(?:find|wats|what\s+is|calculate|compute)\s+(?:the\s+value\s+of\s+)?([a-z])\b", text, re.I)
+        m = re.search(r"(?:find|wats|what\s+is|calculate|compute|for)\s+(?:the\s+value\s+of\s+)?([a-z])\b", text, re.I)
         if m:
             want = sympy.Symbol(m.group(1).lower())
         # GIVEN-MARKER GUARD: a segment that states a given
@@ -984,9 +1174,19 @@ def _op_solve_equation(text: str) -> Optional[Tuple[float, List[str]]]:
             return sols[0], [f"{eq} = 0 -> {var} = {sols[0]:g}"]
         if len(sols) > 1 and re.search(r"\b(solve|roots?|zeros)\b",
                                        text, re.I):
-            multi.append((eq, var, sorted(sols)))
+            multi.append((eq, var, sorted(sols), want))
     if multi:
-        eq, var, sols = multi[0]
+        eq, var, sols, want = multi[0]
+        # BARE-SOLVE ASK (C9 dig 2026-10-07): 'solve x^2-5x+6=0' wants
+        # the root SET, not just the largest — ship SymbolicAnswer
+        # 'x = 2 or x = 3'.  But 'solve ... FOR x' names the variable
+        # — the ask is a single value; return the largest float so
+        # `abs(val - expected)` arithmetic still works.
+        if len(sols) > 1 and want is None:
+            roots_str = " or ".join(f"{var} = {v:g}" for v in sols)
+            return SymbolicAnswer(roots_str), [
+                f"{eq} = 0 -> roots {sols}",
+                f"{roots_str}"]
         return sols[-1], [f"{eq} = 0 -> roots {sols}; "
                           f"largest = {sols[-1]:g}"]
     return None
@@ -1028,6 +1228,116 @@ def solve_math(text: str):
     # normalization (math italic letters, superscripts, unicode
     # operators, flattened exponents) before any pattern runs.
     text = normalize_unicode_math(text)
+    # gravity plausibility gate: a stated g that physics would refuse
+    # ("on the Moon where g = 200 m/s^2") must not be "solved for" by
+    # the equation models either -- refuse before any pattern runs so
+    # the ask falls through to the honest guided path.
+    if _gravity_plausibility_gate(text):
+        return None
+    # friction/pressure ownership gate (2026-10-06 class-8 dig): a
+    # friction-coefficient or pressure word problem is owned by the
+    # physics families; the equation models echo stated coefficients
+    # ("mu - 0.08 = 0 -> 0.08" shipped VERIFIED) or multiply raw cm
+    # dimensions.  Refuse so the honest physics lane answers instead.
+    if re.search(r"coefficient of (?:static )?friction|coefficient[^.]{0,20}"
+                 r"(?:is|of)\s*0\.\d+[^.]{0,80}(?:force|moving)|braking "
+                 r"force|handbrake|pressure", text, re.I):
+        return None
+    # physics-electricity ownership gate: 'V = ... V and I = ... A' —
+    # the kernel reads 'I = 3' as an equation to solve, not Ohm's law
+    # V = IR.  The physics lane owns these.
+    if re.search(r"\b(?:ohm|resistance|resistor)\b|"
+                 r"\bV\s*=\s*\d+\s*V\b.*\bI\s*=\s*\d+\s*A\b|"
+                 r"\b(?:voltage|current)\b[^.]{0,20}\b(?:ampere|"
+                 r"volt|resistance)\b", text, re.I):
+        return None
+    # profit-percent ownership gate: '(SP-CP)/CP x 100' is a commerce
+    # ratio ask — the kernel reads 'CP = 50' as an equation.
+    if re.search(r"\b(?:profit|loss)\s+(?:percent|%)|"
+                 r"(?:cost|selling)\s+price\b[^.]{0,20}%|"
+                 r"\bC\.?P\.?\s*=|\bS\.?P\.?\s*=", text, re.I):
+        return None
+    # physics-electrostatics ownership gate: 'charges', 'Coulomb',
+    # 'electric field' — the kernel reads 'C' as a variable and 'e'
+    # from 'each' as Euler's number — wrong lane entirely.
+    if re.search(r"\b(?:charges?|coulomb|electric\s+field|"
+                 r"capacitor)\b", text, re.I):
+        return None
+    # chemistry ownership gate (C12 dig, 2026-10-07): a 'molar mass'
+    # or 'atomic mass' ask carries a formula (CaCO3) whose letter-digit
+    # groups look like equations to the kernel — C=12 was solved as
+    # 'C - 12 = 0 -> C = 12'.  The chemistry lane owns these; refuse.
+    if re.search(r"\b(?:molar|molecular|atomic)\s+mass\b|"
+                 r"\b(?:molar|atomic)\s+mass\s+of\b", text, re.I):
+        return None
+    # chemical-formula gate: a capitalized-element sequence like
+    # 'CaCO3' or 'H2SO4' looks like implicit multiplication to the
+    # equation parser — it is a compound, not an expression.
+    if re.search(r"\b(?:[A-Z][a-z]?\d*){2,}\b", text) and \
+            re.search(r"\b(?:mass|mol\b|mole\b|formula\b|compound\b)",
+                      text, re.I):
+        return None
+    # map-scale ownership gate (2026-10-07 SOCIAL_GOLDEN dig): a map
+    # word problem carrying a statement scale ("1 cm = 5 km") or R.F.
+    # uses the scale clause as a RATE, not an equation -- the equation
+    # models read "1 cm = 5 km" as "cm = 5" and shipped the scale
+    # factor VERIFIED for a 6 cm -> 30 km ask (observed: answer "5").
+    # The socsci MAP_SCALE family (calibration resistance 0.94,
+    # corpus-grounded) owns these; refuse so it answers.
+    if re.search(r"\bmap\b", text, re.I) and re.search(
+            r"1\s*cm\s*(?:=|:|to|represents?)\s*\d|"
+            r"\bR\.?F\.?\b|1\s*:\s*[\d,]{2,}", text, re.I):
+        return None
+    # multi-determinant demand-function gate (2026-10-07 SOCIAL_GOLDEN
+    # dig): "demand function Qd = 100 - 2P + 0.5Y - 3Ps" is an
+    # ECONOMICS object with named determinants -- the kernel's linear
+    # models evaluated the leading "100 - 2P" fragment and shipped 50
+    # VERIFIED for a 3-part ask whose key is 40/30/45.  The econ
+    # DEMAND_MULTIVAR family evaluates every determinant and
+    # classifies movement-along vs shift; refuse so it answers.
+    if re.search(r"demand\s+(?:function|equation)", text, re.I):
+        rhs = re.search(r"demand\s+(?:function|equation)[^=\n]{0,24}="
+                        r"([^\n,]{3,140})", text, re.I)
+        if rhs and len(set(re.findall(r"[A-Za-z]+",
+                                      rhs.group(1)))) >= 2:
+            return None
+    # potential-energy ownership gate (2026-10-07 class-9 dig): PE asks
+    # are owned by the physics registry (POTENTIAL_ENERGY); the equation
+    # models misbind the height term and ship wrong-joule answers
+    # (observed: 100 J VERIFIED for m=2 kg, h=1.5 m, stated g=10 -> 30 J).
+    if re.search(r"(?:gravitational\s+)?potential\s+energy|PE\s*=|"
+                 r"\bmgh\b", text, re.I):
+        return None
+    # evaluate-with-substitution: "Evaluate 3x + 4 when x = 5" asks for the
+    # expression's value, NOT for the solution of "x = 5".  This must fire
+    # before the equation models read the substitution clause as an
+    # equation and ship x back as the answer (observed: VERIFIED 5).
+    sub_m = re.match(
+        r"^(?:evaluate|find\s+the\s+value\s+of|what\s+is\s+the\s+value\s+of|"
+        r"calculate)\s+(?P<expr>.+?)\s+(?:when|if)\s+(?P<var>[a-z])\s*=\s*"
+        r"(?P<val>-?\d+(?:\.\d+)?)\s*[.?:;]?\s*$"
+        r"|^(?:if\s+)?(?P<var2>[a-z])\s*=\s*(?P<val2>-?\d+(?:\.\d+)?)\s*,?\s*"
+        r"(?:calculate|evaluate|find|what\s+is)\s+(?P<expr2>.+?)"
+        r"\s*[.?:;]?\s*$",
+        text, re.I)
+    if sub_m:
+        expr = (sub_m.group("expr") or sub_m.group("expr2") or "").strip()
+        var = sub_m.group("var") or sub_m.group("var2")
+        val = sub_m.group("val") or sub_m.group("val2")
+        if expr and len(expr) <= 200:
+            try:
+                from backend.its.solver.exact_kernels import (
+                    evaluate_substitution_exact)
+                exact = evaluate_substitution_exact(expr, var, val)
+                if exact is not None:
+                    value, steps = exact
+                    return value, steps
+            except Exception as _exc:
+                # WSA-P3: exact-lane crash silently disabled the
+                # substitution pre-stage — now measured, fall-through kept.
+                log_lane_exception(
+                    stage="math_kernel.solve_math.exact_substitution",
+                    exc=_exc)
     # quick gate: needs math intent (verb, '=', or a maths noun)
     if not re.search(
             r"\b(solve|integral|integrate|derivative|differentiate|"
@@ -1040,14 +1350,20 @@ def solve_math(text: str):
     for model in MODELS:
         try:
             r = model(text)
-        except Exception:
+        except Exception as _exc:
+            # WSA-P3: a model raising (instead of declining with None)
+            # is a defect — measured, decline semantics kept.
+            log_lane_exception(
+                stage="math_kernel.solve_math.model", exc=_exc)
             r = None
         if r is not None:
             return r
     for op in OPERATIONS:
         try:
             r = op(text)
-        except Exception:
+        except Exception as _exc:
+            log_lane_exception(
+                stage="math_kernel.solve_math.operation", exc=_exc)
             r = None
         if r is not None:
             return r

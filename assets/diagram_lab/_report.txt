@@ -1,0 +1,179 @@
+total=178 pass=41 fail=137
+PASS c11bio_ch17_fig17_2_p3 not-a-diagram
+PASS c11bio_ch17_fig17_3_p4 not-a-diagram
+FAIL c11bio_ch17_fig17_4_p5 exam: question leaks answer 'Actin filament': Tap the pivoting part that binds to actin to form a link
+PASS c11bio_ch17_fig17_5_p5 not-a-diagram
+FAIL c11bio_ch17_fig17_5_p6 labels: duplicate label 'Z line'; exam: question leaks answer 'H zone': Tap the central zone that disappears during maximal contract; exam: question leaks answer 'I band': Tap the dark band that contains thick myosin filaments; exam: question leaks answer 'A band': Tap the dark band that contains thick myosin filaments
+PASS c11bio_ch17_fig17_6_p7 not-a-diagram
+FAIL c11bio_ch17_fig17_8_p8 labels: '1' implausible length; labels: '2' implausible length; labels: '3' implausible length; labels: '4' implausible length; labels: '5' implausible length; labels: '6' implausible length; labels: '7' implausible length; labels: '8' implausible length; labels: '9' implausible length
+PASS c11bio_ch17_fig17_9_p9 8 parts
+PASS c11bio_ch18_fig18_1_p1 not-a-diagram
+FAIL c11bio_ch18_fig18_1_p2 geometry: 'cell_body' & 'nucleus' overlap (d=0.022); geometry: 'axon_terminal' & 'synaptic_knob' overlap (d=0.035)
+PASS c11bio_ch18_fig18_2_p3 not-a-diagram
+PASS c11bio_ch18_fig18_3_p4 8 parts
+PASS c11bio_ch18_fig18_4_p6 not-a-diagram
+PASS c11bio_ch5_fig5_11_p9 not-a-diagram
+PASS c11bio_ch5_fig5_12_p10 not-a-diagram
+PASS c11bio_ch5_fig5_13_p10 not-a-diagram
+FAIL c11bio_ch5_fig5_14_p11 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_15_p12 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_16_p12 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_16_p13 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_17_p13 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_2_p3 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_3_p4 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_4_p5 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_5_p5 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_6_p6 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_7_p6 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_8_p7 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch5_fig5_9_p8 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_10_p14 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_12_p16 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_13_p16 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_1_p3 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_1_p4 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_2_p4 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_3_p6 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_4_p8 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_4_p9 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_5_p10 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_6_p10 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_7_p12 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_8_p13 api: HTTP Error 429: Too Many Requests
+FAIL c11bio_ch8_fig8_9_p13 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p0_0 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p0_1 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p0_2 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p10_28 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p10_29 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p11_30 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p11_31 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p12_32 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p12_33 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p13_34 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p13_35 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p14_36 api: HTTP Error 429: Too Many Requests
+FAIL kebo105_p14_37 api: HTTP Error 429: Too Many Requests
+PASS kebo105_p15_38 not-a-diagram
+PASS kebo105_p15_39 not-a-diagram
+PASS kebo105_p1_3 not-a-diagram
+PASS kebo105_p1_4 not-a-diagram
+PASS kebo105_p1_5 not-a-diagram
+PASS kebo105_p1_6 not-a-diagram
+PASS kebo105_p2_7 not-a-diagram
+PASS kebo105_p2_8 not-a-diagram
+PASS kebo105_p2_9 not-a-diagram
+PASS kebo105_p3_10 not-a-diagram
+FAIL kebo105_p3_11 exam: question leaks answer 'Main root': Tap the main underground network that anchors the plant; exam: question leaks answer 'Fibrous roots': Tap the sturdy vertical pillar connecting roots to the upper; exam: question leaks answer 'Adventitious roots': Tap the sturdy vertical pillar connecting roots to the upper
+FAIL kebo105_p3_12 exam: question leaks answer 'Stem': Tap the part where leaves arise on the stem; exam: question leaks answer 'Shoot system': Tap the part that holds the undeveloped shoot or flower; exam: question leaks answer 'Primary root': Tap the main central root growing downwards from the plant; exam: question leaks answer 'Secondary root': Tap the main central root growing downwards from the plant; exam: question leaks answer 'Root system': Tap the main central root growing downwards from the plant; exam: question leaks answer 'Main root': Tap the main central root growing downwards from the plant; exam: question leaks answer 'Fibrous roots': Tap the cluster of thin, thread-like roots arising from the ; exam: question leaks answer 'Adventitious roots': Tap the cluster of thin, thread-like roots arising from the 
+FAIL kebo105_p4_13 exam: question leaks answer 'Region of maturation': Tap the region where cells grow longer to increase the root'; exam: question leaks answer 'Root hair': Tap the region where cells grow longer to increase the root'; exam: question leaks answer 'Region of elongation': Tap the region where cells grow longer to increase the root'; exam: question leaks answer 'Region of meristematic activity': Tap the region where cells grow longer to increase the root'; exam: question leaks answer 'Root cap': Tap the region where cells grow longer to increase the root'
+FAIL kebo105_p4_14 exam: question leaks answer 'Root hair': Tap the part that protects the growing root tip as it pushes; exam: question leaks answer 'Root cap': Tap the part that protects the growing root tip as it pushes
+FAIL kebo105_p5_15 exam: question leaks answer 'Leaf base': Tap the central axis holding leaflets in a compound leaf
+FAIL kebo105_p5_16 exam: question leaks answer 'Leaf base': Tap the part that holds the leaf blade out to the light; exam: question leaks answer 'Leaf base': Tap the leaf type with a web-like network of veins; exam: question leaks answer 'Leaf base': Tap the central axis of a compound leaf
+PASS kebo105_p6_17 not-a-diagram
+PASS kebo105_p6_18 not-a-diagram
+PASS kebo105_p6_19 not-a-diagram
+FAIL kebo105_p7_20 labels: duplicate label 'Petal'; labels: duplicate label 'Petal'; labels: duplicate label 'Petal'
+FAIL kebo105_p7_21 geometry: 'cymose_inflorescence' coords out of bounds (0.287,221.0); labels: duplicate label 'Perigynous'; exam: question leaks answer 'Cymose inflorescence': Tap the inflorescence where the main axis ends in a flower
+PASS kebo105_p7_22 not-a-diagram
+PASS kebo105_p8_23 not-a-diagram
+PASS kebo105_p8_24 not-a-diagram
+PASS kebo105_p9_25 not-a-diagram
+PASS kebo105_p9_26 4 parts
+PASS kebo105_p9_27 4 parts
+PASS kebo108_p0_0 not-a-diagram
+PASS kebo108_p0_1 not-a-diagram
+PASS kebo108_p0_2 not-a-diagram
+FAIL kebo108_p10_25 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p10_26 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p11_27 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p11_28 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p12_29 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p12_30 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p12_31 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p13_32 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p13_33 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p14_34 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p14_35 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p15_36 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p15_37 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p15_38 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p16_39 geometry: 'satellite' coords out of bounds (0.103,53.0); geometry: 'secondary_constriction' coords out of bounds (0.28,53.0); geometry: 'centromere_1' coords out of bounds (0.36,504.0); labels: duplicate label 'Centromere'; geometry: 'centromere_2' coords out of bounds (0.545,505.0); geometry: 'short_arm_1' coords out of bounds (0.585,250.0); labels: duplicate label 'Centromere'; geometry: 'centromere_3' coords out of bounds (0.672,502.0); labels: duplicate label 'Short arm'; geometry: 'short_arm_2' coords out of bounds (0.72,310.0); labels: duplicate label 'Centromere'; geometry: 'centromere_4' coords out of bounds (0.84,503.0); labels: duplicate label 'Short arm'; geometry: 'short_arm_3' coords out of bounds (0.78,380.0); geometry: 'long_arm' coords out of bounds (0.755,770.0)
+FAIL kebo108_p16_40 labels: duplicate label 'Centromere'; exam: question leaks answer 'Secondary constriction': Tap the primary constriction that holds the two chromatids t; exam: question leaks answer 'Secondary constriction': Tap the shorter section extending outward from the central c
+PASS kebo108_p16_41 not-a-diagram
+PASS kebo108_p17_42 not-a-diagram
+PASS kebo108_p17_43 not-a-diagram
+PASS kebo108_p18_44 not-a-diagram
+PASS kebo108_p18_45 not-a-diagram
+FAIL kebo108_p1_3 api: HTTP Error 429: Too Many Requests
+PASS kebo108_p1_4 not-a-diagram
+FAIL kebo108_p1_5 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p1_6 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p2_7 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p2_8 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p2_9 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p3_10 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p3_11 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p4_12 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p4_13 exam: question leaks answer 'Nerve cell (Branched and long)': Tap the part that carries messages over long distances; exam: question leaks answer 'A tracheid (elongated)': Tap the elongated tube that transports water in plants; exam: question leaks answer 'Mesophyll cells (round and oval)': Tap the rounded cells found inside leaves
+FAIL kebo108_p5_14 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p5_15 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p6_16 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p6_17 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p7_18 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p7_19 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p8_20 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p8_21 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p8_22 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p9_23 api: HTTP Error 429: Too Many Requests
+FAIL kebo108_p9_24 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p0_0 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p0_1 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p0_2 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p10_23 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p10_24 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p11_25 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p11_26 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p12_27 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p12_28 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p1_3 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p1_4 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p2_5 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p2_6 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p3_7 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p3_8 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p3_9 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p4_10 geometry: 'actin_binding_sites_b' & 'head_b' overlap (d=0.032); exam: question leaks answer 'Cross arm': Tap the globular part that forms cross-bridges during muscle; exam: question leaks answer 'Actin binding sites': Tap the sites where energy-carrying molecules attach on the ; exam: question leaks answer 'ATP binding sites': Tap the sites where energy-carrying molecules attach on the ; exam: question leaks answer 'Head': Tap the sites where energy-carrying molecules attach on the 
+FAIL kebo117_p4_11 exam: question leaks answer 'F actin': Tap the part that covers binding sites on actin during a res; exam: question leaks answer 'Actin binding sites': Tap the part that covers binding sites on actin during a res; exam: question leaks answer 'ATP binding sites': Tap the part that covers binding sites on actin during a res; exam: question leaks answer 'Actin binding sites': Tap the part that holds enzymatic sites to hydrolyze ATP for; exam: question leaks answer 'ATP binding sites': Tap the part that holds enzymatic sites to hydrolyze ATP for; exam: question leaks answer 'Cross arm': Tap the globular projection that forms cross bridges with th
+PASS kebo117_p5_12 not-a-diagram
+FAIL kebo117_p5_13 exam: question leaks answer 'Actin filament': Tap the part that forms a temporary link with the actin fila; exam: question leaks answer 'Myosin filament': Tap the part that forms a temporary link with the actin fila; exam: question leaks answer 'Actin filament': Tap the thin protein filament involved in muscle contraction; exam: question leaks answer 'Myosin filament': Tap the thin protein filament involved in muscle contraction; exam: question leaks answer 'Actin filament': Tap the thick protein filament that holds the pivoting heads; exam: question leaks answer 'Myosin filament': Tap the thick protein filament that holds the pivoting heads
+FAIL kebo117_p6_14 geometry: 'h_zone' coords out of bounds (0.38,195.0); geometry: 'i_band' coords out of bounds (0.52,185.0); geometry: 'a_band' coords out of bounds (0.69,185.0); geometry: 'z_line' coords out of bounds (0.235,242.0); geometry: 'relaxed' coords out of bounds (0.17,220.0); geometry: 'contracting' coords out of bounds (0.17,350.0); geometry: 'maximally_contracted' coords out of bounds (0.19,465.0); geometry: 'two_sarcomeres' coords out of bounds (0.51,550.0); exam: question leaks answer 'Z line': Tap the dark line anchoring thin filaments at the sarcomere 
+FAIL kebo117_p6_15 labels: duplicate label 'Z line'; labels: duplicate label 'Z line'; exam: question leaks answer 'Z line': Tap the anchor line where thin filaments attach; exam: question leaks answer 'Z line': Tap the anchor line where thin filaments attach; exam: question leaks answer 'Z line': Tap the anchor line where thin filaments attach
+FAIL kebo117_p7_16 exam: question leaks answer 'Frontal bone': Tap the bone that forms your forehead; exam: question leaks answer 'Parietal bone': Tap the bone that forms your forehead; exam: question leaks answer 'Sphenoid bone': Tap the bone that forms your forehead; exam: question leaks answer 'Ethmoid bone': Tap the bone that forms your forehead; exam: question leaks answer 'Lacrimal bone': Tap the bone that forms your forehead; exam: question leaks answer 'Nasal bone': Tap the bone that forms your forehead; exam: question leaks answer 'Zygomatic bone': Tap the bone that forms your forehead; exam: question leaks answer 'Temporal bone': Tap the bone that forms your forehead; exam: question leaks answer 'Occipital bone': Tap the bone that forms your forehead; exam: question leaks answer 'Hyoid bone': Tap the bone that forms your forehead; exam: question leaks answer 'Frontal bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Parietal bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Sphenoid bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Ethmoid bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Lacrimal bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Nasal bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Zygomatic bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Temporal bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Occipital bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Hyoid bone': Tap the movable bone that forms your lower jaw; exam: question leaks answer 'Frontal bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Parietal bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Sphenoid bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Ethmoid bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Lacrimal bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Nasal bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Zygomatic bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Temporal bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Occipital bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Hyoid bone': Tap the bone that forms the back and base of the skull; exam: question leaks answer 'Frontal bone': Tap the bone that forms your cheek; exam: question leaks answer 'Parietal bone': Tap the bone that forms your cheek; exam: question leaks answer 'Sphenoid bone': Tap the bone that forms your cheek; exam: question leaks answer 'Ethmoid bone': Tap the bone that forms your cheek; exam: question leaks answer 'Lacrimal bone': Tap the bone that forms your cheek; exam: question leaks answer 'Nasal bone': Tap the bone that forms your cheek; exam: question leaks answer 'Zygomatic bone': Tap the bone that forms your cheek; exam: question leaks answer 'Temporal bone': Tap the bone that forms your cheek; exam: question leaks answer 'Occipital bone': Tap the bone that forms your cheek; exam: question leaks answer 'Hyoid bone': Tap the bone that forms your cheek
+FAIL kebo117_p7_17 schema: unparseable part line: - id: parietal_ bone | label: Parietal bone | x: 0.355 | y: 0.280 | r: 0.075 | fn: forms t
+FAIL kebo117_p8_18 labels: '1' implausible length; labels: '2' implausible length; labels: '3' implausible length; labels: '4' implausible length; labels: '5' implausible length; labels: '6' implausible length; labels: '7' implausible length; labels: '8' implausible length; labels: '9' implausible length; exam: question leaks answer 'True ribs': Tap the lowest ribs that have no front attachment; exam: question leaks answer 'False ribs': Tap the lowest ribs that have no front attachment; exam: question leaks answer 'Floating ribs': Tap the lowest ribs that have no front attachment; exam: question leaks answer 'Ribs': Tap the lowest ribs that have no front attachment
+FAIL kebo117_p8_19 geometry: 'cervical_vertebra' coords out of bounds (0.69,154.0); geometry: 'thoracic_vertebra' coords out of bounds (0.695,225.0); geometry: 'lumbar_vertebra' coords out of bounds (0.69,335.0); geometry: 'intervertebral_disc' coords out of bounds (0.612,350.0); geometry: 'sacrum' coords out of bounds (0.61,412.0); geometry: 'coccyx' coords out of bounds (0.605,442.0); geometry: 'sternum' coords out of bounds (885.0,652.0); geometry: 'ribs' coords out of bounds (855.0,735.0); geometry: 'true_ribs' coords out of bounds (575.0,670.0); geometry: 'false_ribs' coords out of bounds (555.0,795.0); geometry: 'floating_ribs' coords out of bounds (585.0,855.0); geometry: 'vertebral_column_ribs' coords out of bounds (875.0,825.0)
+FAIL kebo117_p8_20 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p9_21 api: HTTP Error 429: Too Many Requests
+FAIL kebo117_p9_22 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p0_0 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p0_1 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p0_2 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p1_3 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p1_4 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p2_5 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p2_6 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p3_7 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p3_8 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p4_10 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p4_9 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p5_11 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p5_12 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p5_13 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p6_14 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p6_15 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p7_16 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p7_17 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p8_18 api: HTTP Error 429: Too Many Requests
+FAIL kebo118_p8_19 api: HTTP Error 429: Too Many Requests

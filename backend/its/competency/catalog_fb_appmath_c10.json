@@ -1,0 +1,281 @@
+{
+ "subject": "appmath",
+ "chapter_title": "ICSE appmath formula bank (c10)",
+ "source_file": "c10_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_APPMATH_C10_001",
+   "title": "Simple Interest: A = ...",
+   "section": "COMMERCIAL MATHEMATICS",
+   "formula": "A = P + SI",
+   "_pats_extra": [],
+   "key_idea": "Simple Interest (COMMERCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find a using simple interest",
+    "calculate simple interest",
+    "simple interest formula question",
+    "given values find a",
+    "commercial mathematics simple interest numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C10_001",
+     "question_pattern": "simple interest with {P} and {SI} find a",
+     "extracted_variables": {
+      "P": "given P",
+      "SI": "given SI"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, SI from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "A = P + SI",
+     "compute": "A = P + SI"
+    }
+   ],
+   "chapter_title": "COMMERCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C10_002",
+   "title": "Compound Interest: CI = ...",
+   "section": "COMMERCIAL MATHEMATICS",
+   "formula": "CI = A - P",
+   "_pats_extra": [],
+   "key_idea": "Compound Interest (COMMERCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ci using compound interest",
+    "calculate compound interest",
+    "compound interest formula question",
+    "given values find ci",
+    "commercial mathematics compound interest numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C10_002",
+     "question_pattern": "compound interest with {A} and {P} find ci",
+     "extracted_variables": {
+      "A": "given A",
+      "P": "given P"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, P from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CI = A - P",
+     "compute": "CI = A - P"
+    }
+   ],
+   "chapter_title": "COMMERCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C10_003",
+   "title": "Intra-state (within same state): Total GST = ...",
+   "section": "GST",
+   "formula": "Total_GST = CGST + SGST",
+   "_pats_extra": [],
+   "key_idea": "Intra-state (within same state) (GST)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find total gst using intra-state (within same state)",
+    "calculate intra-state (within same state)",
+    "intra-state (within same state) formula question",
+    "given values find total gst",
+    "gst intra-state (within same state) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C10_003",
+     "question_pattern": "intra-state (within same state) with {CGST} and {SGST} find total gst",
+     "extracted_variables": {
+      "CGST": "given CGST",
+      "SGST": "given SGST"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for CGST, SGST from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Total GST = CGST + SGST",
+     "compute": "Total_GST = CGST + SGST"
+    }
+   ],
+   "chapter_title": "GST"
+  },
+  {
+   "id": "FB_APPMATH_C10_004",
+   "title": "Input Tax Credit: Net GST = ...",
+   "section": "GST",
+   "formula": "Net_GST = Output_GST - Input_GST",
+   "_pats_extra": [],
+   "key_idea": "Input Tax Credit (GST)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find net gst using input tax credit",
+    "calculate input tax credit",
+    "input tax credit formula question",
+    "given values find net gst",
+    "gst input tax credit numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C10_004",
+     "question_pattern": "input tax credit with {Output_GST} and {Input_GST} find net gst",
+     "extracted_variables": {
+      "Output_GST": "given Output_GST",
+      "Input_GST": "given Input_GST"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Output_GST, Input_GST from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Net GST = Output_GST - Input_GST",
+     "compute": "Net_GST = Output_GST - Input_GST"
+    }
+   ],
+   "chapter_title": "GST"
+  },
+  {
+   "id": "FB_APPMATH_C10_005",
+   "title": "STATISTICS: Range = ...",
+   "section": "STATISTICS",
+   "formula": "Range = maximum - minimum",
+   "_pats_extra": [],
+   "key_idea": "STATISTICS (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find range using statistics",
+    "calculate statistics",
+    "statistics formula question",
+    "given values find range",
+    "statistics statistics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C10_005",
+     "question_pattern": "statistics with {maximum} and {minimum} find range",
+     "extracted_variables": {
+      "maximum": "given maximum",
+      "minimum": "given minimum"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for maximum, minimum from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Range = maximum - minimum",
+     "compute": "Range = maximum - minimum"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FBD_APPMATH_C10_001",
+   "title": "SI: SI = ...",
+   "section": "decision tree",
+   "formula": "SI = PRT/100",
+   "key_idea": "SI (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find si using si",
+    "calculate si",
+    "si formula question",
+    "given values find si"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_APPMATH_C10_001",
+     "question_pattern": "si with {PRT} find si",
+     "extracted_variables": {
+      "PRT": "given PRT"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for PRT from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "SI = PRT/100",
+     "compute": "SI = PRT/100"
+    }
+   ],
+   "chapter_title": "appmath c10 decision formulas"
+  },
+  {
+   "id": "FBD_APPMATH_C10_002",
+   "title": "Mean: Mean = ...",
+   "section": "decision tree",
+   "formula": "Mean = Σx/n",
+   "key_idea": "Mean (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find mean using mean",
+    "calculate mean",
+    "mean formula question",
+    "given values find mean"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_APPMATH_C10_002",
+     "question_pattern": "mean with {n} find mean",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Mean = Σx/n",
+     "compute": "Mean = Σx/n"
+    }
+   ],
+   "chapter_title": "appmath c10 decision formulas"
+  }
+ ]
+}

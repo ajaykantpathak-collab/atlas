@@ -183,7 +183,26 @@ class ExponentialGrowthPattern(StructuralPattern):
         
         # ── Extract initial value (N0 / P) ──
         n0 = None
-        init_qty = parsed.get_quantity("initial")
+        # invested sums first: 'Rs 12,000 is invested', 'invest Rs
+        # 8,000', 'a principal of Rs 5,000' -- these name N0 explicitly
+        # and must beat parsed.get_quantity("initial"), which reads the
+        # first number ('2 years' -> 2) and ships a wrong growth answer
+        for pattern in [
+            r'(?:invest\w*|deposited?|principal|lent|borrowed)\b[^0-9]'
+            r'{0,25}(?:rs\.?\s*|rs\s*|₹\s*|inr\s*|rupees?\s*)'
+            r'(\d[\d,]*\.?\d*)',
+            r'(?:rs\.?\s*|rs\s*|₹\s*|inr\s*|rupees?\s*)'
+            r'(\d[\d,]*\.?\d*)\s+(?:is\s+)?(?:invested?|deposited?|'
+            r'lent|borrowed)',
+            r'^\s*(?:rs\.?\s*|rs\s*|₹\s*|inr\s*|rupees?\s*)'
+            r'(\d[\d,]*\.?\d*)',
+        ]:
+            m = re.search(pattern, lower)
+            if m:
+                n0 = float(m.group(1).replace(',', ''))
+                break
+        init_qty = None if n0 is not None else parsed.get_quantity(
+            "initial")
         if init_qty:
             n0 = init_qty.value
         
@@ -203,7 +222,7 @@ class ExponentialGrowthPattern(StructuralPattern):
                 if m:
                     n0 = float(m.group(1))
                     break
-        
+
         # For depreciation: "costs X" or "value is X"
         if n0 is None and "depreciat" in lower:
             cost_match = re.search(r'(?:costs?|cost|worth|value)\s+(?:rs\.?\s*)?(\d+\.?\d*)', lower)
@@ -2239,14 +2258,16 @@ class MatrixDeterminantPattern(StructuralPattern):
             return result
         
         try:
+            import ast
             import json
             matrix_str = matrix_match.group(0)
             # Try to parse as JSON, if not, try manual parsing
             try:
                 matrix_data = json.loads(matrix_str)
             except json.JSONDecodeError:
-                # Manual parse: [[1,2],[3,4]]
-                matrix_data = eval(matrix_str)
+                # Manual parse: [[1,2],[3,4]] — literal_eval only; matrix_str
+                # is carved from raw student text and must never reach eval()
+                matrix_data = ast.literal_eval(matrix_str)
             
             result.variables["matrix"] = matrix_data
             result.formula = "matrix_determinant"
@@ -2286,12 +2307,14 @@ class MatrixInversePattern(StructuralPattern):
             return result
         
         try:
+            import ast
             import json
             matrix_str = matrix_match.group(0)
             try:
                 matrix_data = json.loads(matrix_str)
             except json.JSONDecodeError:
-                matrix_data = eval(matrix_str)
+                # literal_eval only — matrix_str comes from raw student text
+                matrix_data = ast.literal_eval(matrix_str)
             
             result.variables["matrix"] = matrix_data
             result.formula = "matrix_inverse"
@@ -5479,7 +5502,7 @@ class WordProblemExtendedPattern(StructuralPattern):
                 # Try: "at 5 and 7 km/h"
                 speed_matches = re.findall(r'(\d+\.?\d*)\s*(?:km|and)', lower)
                 speed_matches = [s for s in speed_matches if re.search(r'\d', s)][:2]
-            time_match = re.search(r'(\d+\.?\d*)\s*hour', lower)
+            time_match = re.search(r'(\d++\.?\d*+)\s*hour', lower)
             if len(speed_matches) >= 2 and time_match:
                 result.variables["s1"] = float(speed_matches[0])
                 result.variables["s2"] = float(speed_matches[1])
@@ -5630,7 +5653,7 @@ class FractionPercentPattern(StructuralPattern):
         
         # Reverse percentage: 15% of N = 45, find N
         if "%" in lower and ("find the number" in lower or "find the value" in lower):
-            pct_match = re.search(r'(\d+\.?\d*)\s*%\s*of\s+(?:a\s+)?(?:number\s+)?(?:is\s+|=\s*)?(\d+\.?\d*)', lower)
+            pct_match = re.search(r'(\d++\.?\d*+)\s*%\s*of\s+(?:a\s+)?(?:number\s+)?(?:is\s+|=\s*)?(\d++\.?\d*)', lower)
             if pct_match:
                 pct = float(pct_match.group(1))
                 val = float(pct_match.group(2))
@@ -6201,7 +6224,7 @@ class VectorAdvancedPattern(StructuralPattern):
         text = text.replace("*", "")
         x, y, z = 0, 0, 0
         # Only match i/j/k when NOT inside a word (lookbehind/lookahead for letters)
-        terms = re.findall(r'(?<![a-zA-Z])([+-]?\s*\d*\.?\d*)\s*([ijk])(?![a-zA-Z])', text)
+        terms = re.findall(r'(?<![a-zA-Z])([+-]?\s*\d++(?:\.\d++)?|\.\d++)\s*([ijk])(?![a-zA-Z])', text)
         for coeff, axis in terms:
             coeff = coeff.strip().replace(" ", "")
             if coeff == "" or coeff == "+":
@@ -8794,8 +8817,8 @@ class PiecewiseContinuityPattern(StructuralPattern):
 
         # Extract the pieces
         # f(x) = { kx^2 if x <= 2, 3 if x > 2
-        m1 = re.search(r'(\d+)\s*x\s*\^?\s*2.*?if\s*x\s*([<>=]+)\s*(\d+)', lower)
-        m2 = re.search(r'(\d+).*?if\s*x\s*([<>=]+)\s*(\d+)', lower)
+        m1 = re.search(r'(\d+)\s*x\s*\^?\s*2.*?if\s*x\s*([<>=]+)\s*(\d+)', lower) if len(lower) <= 500 and 'if x' in lower else None
+        m2 = re.search(r'(\d+).*?if\s*x\s*([<>=]+)\s*(\d+)', lower) if len(lower) <= 500 and 'if x' in lower else None
 
         if m1:
             result.variables["left_coeff"] = int(m1.group(1))

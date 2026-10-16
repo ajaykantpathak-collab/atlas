@@ -22,7 +22,9 @@ import logging
 import uuid
 from typing import Optional
 
-from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import APIRouter, Depends, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
+from backend.security import decode_access_token
 from pydantic import BaseModel, Field
 from datetime import datetime, timezone
 
@@ -178,11 +180,17 @@ class QuickQuestionResponse(BaseModel):
 class ItsStartRequest(BaseModel):
     student_id: str = Field(default="guest")
     node_id: str
+    # Wave 9.8 L4: tutor utterance language for the session —
+    # "en" | "hi" | "hinglish" (default en).  Session setting, persists
+    # on the state snapshot.
+    language: Optional[str] = None
 
 
 class ItsInputRequest(BaseModel):
     state: dict = Field(default_factory=dict)
     input: str = Field(min_length=1, max_length=4000)
+    # Wave 9.8 L4: mid-session language update ("en"|"hi"|"hinglish").
+    language: Optional[str] = None
 
 
 # ── Endpoints ────────────────────────────────────────────────────────────────
@@ -255,6 +263,14 @@ async def quick_question(payload: QuickQuestionRequest):
         import sys
         if "D:\\platform" not in sys.path:
             sys.path.insert(0, "D:\\platform")
+        # TELEMETRY (COLD-START brief §C): bind request context for the
+        # solve row (public endpoint — no student binding, honestly absent).
+        from backend.services.answer_telemetry import bind as _tel_bind
+        _tel_bind(
+            subject=payload.subject,
+            class_level=payload.class_level,
+            surface="tutor/quick-question",
+        )
         from backend.services.tutor_service import TutorService
         from backend.database import async_session
 
@@ -272,6 +288,78 @@ async def quick_question(payload: QuickQuestionRequest):
 
 
 # ── ITS session reply (with deterministic orchestrator intelligence) ─────────
+
+_bearer = HTTPBearer(auto_error=False)
+
+
+def _token_sub(
+        credentials: Optional[HTTPAuthorizationCredentials]) -> Optional[str]:
+    """WS-C §3: decode the bearer token if present; the caller's ``sub``
+    becomes the binding identity.  Missing/invalid token -> None (guest)."""
+    if credentials is None:
+        return None
+    try:
+        payload = decode_access_token(credentials.credentials)
+        if payload and payload.get("sub"):
+            return str(payload["sub"])
+    except Exception:
+        return None
+    return None
+
+
+def _scrub_str(text):
+    """Slop-gate facade for pure-tutor strings (P5 treatment): every
+    student-facing string this module emits passes the antislop/ban-list
+    scrub.  Fail-open like the solver choke point."""
+    if not isinstance(text, str) or not text:
+        return text
+    try:
+        from backend.services.solver_gateway import gate_text
+        clean, _flags = gate_text(text, audience="student")
+        return clean
+    except Exception:
+        return text
+
+
+# Student-facing display keys inside response content dicts — every
+# string under one of these keys passes the slop gate (WS-TUTOR: the
+# gate previously only reached a bare-string `content`; all the real
+# tutor text — prompts, questions, hints, misconceptions — lives inside
+# the content dict and went out unscrubbed).  Data keys (node ids,
+# answer keys, state fields, echoes of the student's own text) are NOT
+# display text and are left alone — ids travel in payloads by design.
+_DISPLAY_KEYS = frozenset({
+    "prompt", "message", "response", "question", "next_question",
+    "options", "next_options", "hint", "hint_text", "misconception",
+    "follow_up", "remediation_guidance", "working", "answer",
+    "expected_answer", "eli5", "text_walkthrough", "definition",
+    "encouragement", "next_title", "title", "explanation", "text",
+    "slip", "first_step", "feedback",
+})
+
+
+def _scrub_node(obj, in_display: bool = False):
+    """Recurse a content payload; scrub only strings under display keys."""
+    if isinstance(obj, str):
+        return _scrub_str(obj) if in_display else obj
+    if isinstance(obj, dict):
+        return {k: _scrub_node(v, in_display or k in _DISPLAY_KEYS)
+                for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_scrub_node(x, in_display) for x in obj]
+    return obj
+
+
+def _scrub_resp_dict(d: dict) -> dict:
+    """Scrub the student-facing string fields of a response_to_dict payload."""
+    if isinstance(d, dict):
+        content = d.get("content")
+        if isinstance(content, str):
+            d = {**d, "content": _scrub_str(content)}
+        elif isinstance(content, dict):
+            d = {**d, "content": _scrub_node(content)}
+    return d
+
 
 def _ensure_session(session_id: str, node_id: Optional[str], topic: Optional[str]) -> dict:
     """Return the session metadata, creating a minimal session on demand."""
@@ -291,19 +379,29 @@ def _ensure_session(session_id: str, node_id: Optional[str], topic: Optional[str
             "socraticLevel": 1,
             "startedAt": now,
         }
+        if len(_session_meta) >= 2000:
+            _session_meta.pop(next(iter(_session_meta)), None)
         _session_meta[session_id] = meta
     return meta
 
 
 @router.post("/reply", response_model=TutorReplyResponse)
-async def reply_to_tutor_session(req: TutorReplyRequest):
+async def reply_to_tutor_session(
+        req: TutorReplyRequest,
+        credentials: Optional[HTTPAuthorizationCredentials]
+        = Depends(_bearer)):
     """Reply to a tutor session and get the next Socratic response.
 
     Runs the Socratic pipeline, then lets the deterministic orchestrator
     arbitrate the reply as a proposal under the active rules (scaffolding
     hints appended, assessment re-typing).
     """
-    meta = _ensure_session(req.sessionId, req.nodeId, req.topic)
+    # WS-C §3.2: a signed-in session is namespaced under the
+    # caller's sub so nobody can reach another student's transcript by
+    # guessing sessionId; anonymous keeps the bare id (today's behavior).
+    _sub = _token_sub(credentials)
+    _sid = f"{_sub}::{req.sessionId}" if _sub else req.sessionId
+    meta = _ensure_session(_sid, req.nodeId, req.topic)
     node_id = meta["nodeId"]
 
     # Store student message
@@ -335,11 +433,14 @@ async def reply_to_tutor_session(req: TutorReplyRequest):
             mastery_map=mastery_map,
             interaction_history=interaction_history,
         )
-        if result and result.get("response"):
-            reply_content = result["response"]
-            reply_type = result.get("type", "question")
-            misconception = result.get("misconception")
+        if result and (result.get("text") or result.get("response")):
+            reply_content = result.get("text") or result.get("response")
+            reply_type = result.get("action_type") or result.get("type", "question")
+            miscs = result.get("misconceptions_addressed") or []
+            misconception = miscs[0] if miscs else result.get("misconception")
             prereq_gap = result.get("prerequisite_gap")
+            if "mastery_after" in result:
+                meta["mastery"] = result["mastery_after"]
     except Exception as e:
         logger.debug(f"Socratic pipeline v3 failed, falling back to basic tutor: {e}")
 
@@ -400,6 +501,7 @@ async def reply_to_tutor_session(req: TutorReplyRequest):
     except Exception:
         pass  # Orchestrator is non-critical
 
+    reply_content = _scrub_str(reply_content)
     tutor_msg = {"role": "tutor", "content": reply_content, "type": reply_type}
     if misconception:
         tutor_msg["misconceptionDetected"] = misconception
@@ -417,47 +519,83 @@ async def reply_to_tutor_session(req: TutorReplyRequest):
             misconceptionDetected=misconception,
             prerequisiteGap=prereq_gap,
         ),
-        updatedMastery=0.5,
+        updatedMastery=meta.get("mastery", 0.5),
     )
 
 
 # ── ITS unified engine REST surface (for non-WS clients) ────────────────────
 
 @router.post("/start")
-async def its_start(body: ItsStartRequest):
+async def its_start(
+        body: ItsStartRequest,
+        credentials: Optional[HTTPAuthorizationCredentials]
+        = Depends(_bearer)):
     """Start a deterministic ITS session for a node (free serving path).
 
     Returns ``state_snapshot`` — the client-held state to echo back into
     ``/its/input`` — alongside the engine response.
     """
+    # WS-C §3.2: a valid token binds the student_id label to the
+    # caller's sub (spoof-proofing); anonymous "guest" preserved.
+    _sub = _token_sub(credentials)
     engine = _get_unified_engine()
-    resp = engine.start_session(student_id=body.student_id, node_id=body.node_id)
+    resp = engine.start_session(student_id=_sub or body.student_id,
+                                node_id=body.node_id,
+                                language=body.language)
     # Mirror the engine's initial StudentState so non-WS clients can
     # round-trip: /its/start -> state_snapshot -> /its/input(state=...).
     init_state = state_from_dict({
-        "student_id": body.student_id,
+        "student_id": _sub or body.student_id,
         "current_node_id": body.node_id,
         "current_state": "introduce",
         "per_node_mastery": {body.node_id: 0.1},
+        "language": body.language or "en",
     })
     return {
-        **response_to_dict(resp),
+        **_scrub_resp_dict(response_to_dict(resp)),
         "state_snapshot": state_to_dict(init_state),
     }
 
 
 @router.post("/input")
-async def its_input(body: ItsInputRequest):
+async def its_input(
+        body: ItsInputRequest,
+        credentials: Optional[HTTPAuthorizationCredentials]
+        = Depends(_bearer)):
     """Advance an ITS session: state + student answer -> next tutoring turn."""
+    _sub = _token_sub(credentials)
     engine = _get_unified_engine()
     state = state_from_dict(body.state)
+    if _sub:
+        state.student_id = _sub
+    if body.language:
+        from backend.its.tutoring.utterances import normalize_language
+        lang = normalize_language(body.language)
+        if lang:
+            state.language = lang
     resp = engine.process_input(state, body.input)
     # ``state_snapshot`` (dict) is kept separate from response_to_dict's
     # string ``state`` so the client can always recover the full snapshot.
-    return {
-        **response_to_dict(resp),
+    payload = {
+        **_scrub_resp_dict(response_to_dict(resp)),
         "state_snapshot": state_to_dict(state),
     }
+    # Wave 9.8 L5 (Contract B): a raised struggle flag rides the NEXT
+    # response for this node (the engine records this attempt's verdict
+    # fire-and-forget, so the flag read here is the one previous misses
+    # raised — exactly the "next response" contract).  Authenticated
+    # callers only; own-session read; decor never breaks a tutor turn.
+    if _sub:
+        try:
+            from backend.services import struggle as _struggle_svc
+
+            _sp = await _struggle_svc.flag_for_response(
+                _sub, getattr(state, "current_node_id", ""))
+            if _sp:
+                payload["struggle"] = _sp
+        except Exception:
+            pass
+    return payload
 
 
 # ── WebSocket ────────────────────────────────────────────────────────────────
@@ -468,10 +606,26 @@ async def tutor_websocket(websocket: WebSocket):
 
     Message format: {"type": "ask"|"hint"|"explain_step"|"its_*", ...}
     """
+    # WS-C §3.3: ?token= binds the connection's user_id to the token
+    # sub; invalid token closes 4401 before any message; tokenless keeps
+    # the guest path.
+    _ws_sub = None
+    _ws_token = websocket.query_params.get("token")
+    if _ws_token:
+        try:
+            _p = decode_access_token(_ws_token)
+            _ws_sub = str(_p["sub"]) if _p and _p.get("sub") else None
+        except Exception:
+            _ws_sub = None
+        if not _ws_sub:
+            await websocket.close(code=4401)
+            return
     await websocket.accept()
     try:
         while True:
             data = await websocket.receive_json()
+            if _ws_sub:
+                data["user_id"] = _ws_sub
 
             if data.get("type") == "ask":
                 response = await _get_tutor().handle_query(
@@ -482,9 +636,9 @@ async def tutor_websocket(websocket: WebSocket):
                 )
                 await websocket.send_json({
                     "type": "tutor_response",
-                    "text": response.text,
-                    "hint": response.hint,
-                    "feedback": response.feedback,
+                    "text": _scrub_str(response.text),
+                    "hint": _scrub_str(response.hint),
+                    "feedback": _scrub_str(response.feedback),
                     "intent": response.intent,
                     "mastery_level": response.mastery_level,
                     "hint_level": response.hint_level,
@@ -500,7 +654,7 @@ async def tutor_websocket(websocket: WebSocket):
                 )
                 await websocket.send_json({
                     "type": "hint_response",
-                    "hint": hint,
+                    "hint": _scrub_str(hint),
                 })
 
             elif data.get("type") == "explain_step":
@@ -512,29 +666,69 @@ async def tutor_websocket(websocket: WebSocket):
                 )
                 await websocket.send_json({
                     "type": "explain_step_response",
-                    "explanation": explanation,
+                    "explanation": _scrub_str(explanation),
                 })
 
             elif data.get("type") == "its_start":
                 engine = _get_unified_engine()
+                _sid = _ws_sub or data.get("student_id", "guest")
                 resp = engine.start_session(
-                    student_id=data.get("student_id", "guest"),
+                    student_id=_sid,
                     node_id=data.get("node_id", ""),
+                    language=data.get("language"),
                 )
+                # Mirror the engine's initial StudentState so the client
+                # can round-trip: its_start -> state_snapshot ->
+                # its_input(state=...).  Without this the WS start
+                # response carried no snapshot and a reconnect could
+                # only resume from a fresh INTRODUCE.
+                _init_state = state_from_dict({
+                    "student_id": _sid,
+                    "current_node_id": data.get("node_id", ""),
+                    "current_state": "introduce",
+                    "per_node_mastery": {data.get("node_id", ""): 0.1},
+                    "language": data.get("language") or "en",
+                })
                 await websocket.send_json({
                     "type": "its_response",
-                    **response_to_dict(resp),
+                    **_scrub_resp_dict(response_to_dict(resp)),
+                    "state_snapshot": state_to_dict(_init_state),
                 })
 
             elif data.get("type") == "its_input":
                 engine = _get_unified_engine()
                 state = state_from_dict(data.get("state", {}))
+                if _ws_sub:
+                    state.student_id = _ws_sub
+                if data.get("language"):
+                    from backend.its.tutoring.utterances import (
+                        normalize_language)
+                    _lang = normalize_language(data.get("language"))
+                    if _lang:
+                        state.language = _lang
                 resp = engine.process_input(state, data.get("input", ""))
-                await websocket.send_json({
+                _its_payload = {
                     "type": "its_response",
-                    "state": state_to_dict(state),
-                    **response_to_dict(resp),
-                })
+                    **_scrub_resp_dict(response_to_dict(resp)),
+                    # "state" stays the state NAME (response_to_dict);
+                    # the client-held snapshot travels under its own key
+                    # (previously the spread overwrote the snapshot with
+                    # the name string and resume data was lost).
+                    "state_snapshot": state_to_dict(state),
+                }
+                # Wave 9.8 L5 (Contract B): raised struggle flag rides the
+                # NEXT response for this node — same additive payload as
+                # the REST its/input path.
+                if _ws_sub:
+                    try:
+                        from backend.services import struggle as _svc
+                        _sp = await _svc.flag_for_response(
+                            _ws_sub, getattr(state, "current_node_id", ""))
+                        if _sp:
+                            _its_payload["struggle"] = _sp
+                    except Exception:
+                        pass
+                await websocket.send_json(_its_payload)
 
             elif data.get("type") == "its_report":
                 engine = _get_unified_engine()

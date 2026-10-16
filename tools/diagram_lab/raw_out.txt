@@ -1,0 +1,18 @@
+# Fluid mosaic model of plasma membrane — showing lipid bilayer and proteins
+
+> source: Figure 8.4 Fluid mosaic model of plasma membrane
+> subject: biology
+
+## parts
+- id: sugar | label: Sugar | x: 0.200 | y: 0.610 | r: 0.050 | fn: carbohydrate chain attached to lipids and proteins on the surface
+- id: peripheral_protein | label: Peripheral Protein | x: 0.315 | y: 0.700 | r: 0.045 | fn: lies on the outer surface of the membrane
+- id: integral_protein | label: Integral protein | x: 0.585 | y: 0.810 | r: 0.060 | fn: partially or totally buried inside the lipid bilayer
+- id: phospholipid_bilayer | label: Phospholipid bilayer | x: 0.815 | y: 0.830 | r: 0.065 | fn: double layer of lipids forming the main barrier
+
+## explain
+This diagram shows the fluid mosaic model of the plasma membrane, composed of a phospholipid bilayer with embedded proteins and sugar chains. The integral proteins span across or bury deep within the membrane, while peripheral proteins stay on the outer surface. Together, these molecules make the membrane flexible and selectively permeable.
+
+## exam
+- Tap the part that stays on the surface of the membrane
+- Tap the part that is buried inside the lipid layer
+- Tap the double layer forming the main structural barrier

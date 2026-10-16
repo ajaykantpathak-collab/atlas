@@ -1,0 +1,87 @@
+{
+ "subject": "phy",
+ "chapter_title": "ICSE physics formula bank (c5)",
+ "source_file": "c5_phy_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_PHY_C5_001",
+   "title": "NO NUMERICAL FORMULAS AT THIS LEVEL: No speed = ...",
+   "section": "NO NUMERICAL FORMULAS AT THIS LEVEL",
+   "formula": "No_speed = distance / time",
+   "_pats_extra": [],
+   "key_idea": "NO NUMERICAL FORMULAS AT THIS LEVEL (NO NUMERICAL FORMULAS AT THIS LEVEL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find no speed using no numerical formulas at this level",
+    "calculate no numerical formulas at this level",
+    "no numerical formulas at this level formula question",
+    "given values find no speed",
+    "no numerical formulas at this level no numerical formulas at this level numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C5_001",
+     "question_pattern": "no numerical formulas at this level with {distance} and {time} find no speed",
+     "extracted_variables": {
+      "distance": "given distance",
+      "time": "given time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for distance, time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "No speed = distance / time",
+     "compute": "No_speed = distance / time"
+    }
+   ],
+   "chapter_title": "NO NUMERICAL FORMULAS AT THIS LEVEL"
+  },
+  {
+   "id": "FB_PHY_C5_002",
+   "title": "NO NUMERICAL FORMULAS AT THIS LEVEL: No power = ...",
+   "section": "NO NUMERICAL FORMULAS AT THIS LEVEL",
+   "formula": "No_power = work / time",
+   "_pats_extra": [],
+   "key_idea": "NO NUMERICAL FORMULAS AT THIS LEVEL (NO NUMERICAL FORMULAS AT THIS LEVEL)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find no power using no numerical formulas at this level",
+    "calculate no numerical formulas at this level",
+    "no numerical formulas at this level formula question",
+    "given values find no power",
+    "no numerical formulas at this level no numerical formulas at this level numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_PHY_C5_002",
+     "question_pattern": "no numerical formulas at this level with {work} and {time} find no power",
+     "extracted_variables": {
+      "work": "given work",
+      "time": "given time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for work, time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "No power = work / time",
+     "compute": "No_power = work / time"
+    }
+   ],
+   "chapter_title": "NO NUMERICAL FORMULAS AT THIS LEVEL"
+  }
+ ]
+}

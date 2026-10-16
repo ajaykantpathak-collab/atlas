@@ -1,0 +1,400 @@
+{
+ "subject": "appmath",
+ "chapter_title": "ICSE appmath formula bank (c11)",
+ "source_file": "c11_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_APPMATH_C11_001",
+   "title": "Double Angle Formulas: sin2A = ...",
+   "section": "TRIGONOMETRY",
+   "formula": "sin2A = 2*sinAcosA",
+   "_pats_extra": [],
+   "key_idea": "Double Angle Formulas (TRIGONOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sin2a using double angle formulas",
+    "calculate double angle formulas",
+    "double angle formulas formula question",
+    "given values find sin2a",
+    "trigonometry double angle formulas numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_001",
+     "question_pattern": "double angle formulas with {sinAcosA} find sin2a",
+     "extracted_variables": {
+      "sinAcosA": "given sinAcosA"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for sinAcosA from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sin2A = 2*sinAcosA",
+     "compute": "sin2A = 2*sinAcosA"
+    }
+   ],
+   "chapter_title": "TRIGONOMETRY"
+  },
+  {
+   "id": "FB_APPMATH_C11_002",
+   "title": "Arithmetic Progression (AP): AM = ...",
+   "section": "SEQUENCES AND SERIES",
+   "formula": "AM = (a+b)/2",
+   "_pats_extra": [],
+   "key_idea": "Arithmetic Progression (AP) (SEQUENCES AND SERIES)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find am using arithmetic progression (ap)",
+    "calculate arithmetic progression (ap)",
+    "arithmetic progression (ap) formula question",
+    "given values find am",
+    "sequences and series arithmetic progression (ap) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_002",
+     "question_pattern": "arithmetic progression (ap) with {a} and {b} find am",
+     "extracted_variables": {
+      "a": "given a",
+      "b": "given b"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, b from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "AM = (a+b)/2",
+     "compute": "AM = (a+b)/2"
+    }
+   ],
+   "chapter_title": "SEQUENCES AND SERIES"
+  },
+  {
+   "id": "FB_APPMATH_C11_003",
+   "title": "STATISTICS: Range = ...",
+   "section": "STATISTICS",
+   "formula": "Range = max - min",
+   "_pats_extra": [],
+   "key_idea": "STATISTICS (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find range using statistics",
+    "calculate statistics",
+    "statistics formula question",
+    "given values find range",
+    "statistics statistics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_003",
+     "question_pattern": "statistics with {max} and {min} find range",
+     "extracted_variables": {
+      "max": "given max",
+      "min": "given min"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for max, min from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Range = max - min",
+     "compute": "Range = max - min"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FB_APPMATH_C11_004",
+   "title": "Quartiles: Q1 = ...",
+   "section": "STATISTICS",
+   "formula": "Q1 = (n+1)/4*th_value",
+   "_pats_extra": [],
+   "key_idea": "Quartiles (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q1 using quartiles",
+    "calculate quartiles",
+    "quartiles formula question",
+    "given values find q1",
+    "statistics quartiles numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_004",
+     "question_pattern": "quartiles with {n} and {th_value} find q1",
+     "extracted_variables": {
+      "n": "given n",
+      "th_value": "given th_value"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, th_value from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q1 = (n+1)/4*th_value",
+     "compute": "Q1 = (n+1)/4*th_value"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FB_APPMATH_C11_005",
+   "title": "Quartiles: Q3 = ...",
+   "section": "STATISTICS",
+   "formula": "Q3 = 3(n+1)/4*th_value",
+   "_pats_extra": [],
+   "key_idea": "Quartiles (STATISTICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find q3 using quartiles",
+    "calculate quartiles",
+    "quartiles formula question",
+    "given values find q3",
+    "statistics quartiles numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_005",
+     "question_pattern": "quartiles with {n} and {th_value} find q3",
+     "extracted_variables": {
+      "n": "given n",
+      "th_value": "given th_value"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, th_value from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Q3 = 3(n+1)/4*th_value",
+     "compute": "Q3 = 3(n+1)/4*th_value"
+    }
+   ],
+   "chapter_title": "STATISTICS"
+  },
+  {
+   "id": "FB_APPMATH_C11_006",
+   "title": "FINANCIAL MATHEMATICS: CI = ...",
+   "section": "FINANCIAL MATHEMATICS",
+   "formula": "CI = A - P",
+   "_pats_extra": [],
+   "key_idea": "FINANCIAL MATHEMATICS (FINANCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ci using financial mathematics",
+    "calculate financial mathematics",
+    "financial mathematics formula question",
+    "given values find ci",
+    "financial mathematics financial mathematics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_006",
+     "question_pattern": "financial mathematics with {A} and {P} find ci",
+     "extracted_variables": {
+      "A": "given A",
+      "P": "given P"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, P from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CI = A - P",
+     "compute": "CI = A - P"
+    }
+   ],
+   "chapter_title": "FINANCIAL MATHEMATICS"
+  },
+  {
+   "id": "FB_APPMATH_C11_007",
+   "title": "Annuity Due (payments at start): Net GST = ...",
+   "section": "FINANCIAL MATHEMATICS",
+   "formula": "Net_GST = Output_GST - Input_GST",
+   "_pats_extra": [],
+   "key_idea": "Annuity Due (payments at start) (FINANCIAL MATHEMATICS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find net gst using annuity due (payments at start)",
+    "calculate annuity due (payments at start)",
+    "annuity due (payments at start) formula question",
+    "given values find net gst",
+    "financial mathematics annuity due (payments at start) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_APPMATH_C11_007",
+     "question_pattern": "annuity due (payments at start) with {Output_GST} and {Input_GST} find net gst",
+     "extracted_variables": {
+      "Output_GST": "given Output_GST",
+      "Input_GST": "given Input_GST"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Output_GST, Input_GST from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Net GST = Output_GST - Input_GST",
+     "compute": "Net_GST = Output_GST - Input_GST"
+    }
+   ],
+   "chapter_title": "FINANCIAL MATHEMATICS"
+  },
+  {
+   "id": "FBD_APPMATH_C11_001",
+   "title": "sin2A: sin2A = ...",
+   "section": "decision tree",
+   "formula": "sin2A = 2*sinAcosA",
+   "key_idea": "sin2A (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sin2a using sin2a",
+    "calculate sin2a",
+    "sin2a formula question",
+    "given values find sin2a"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_APPMATH_C11_001",
+     "question_pattern": "sin2a with {sinAcosA} find sin2a",
+     "extracted_variables": {
+      "sinAcosA": "given sinAcosA"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for sinAcosA from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sin2A = 2*sinAcosA",
+     "compute": "sin2A = 2*sinAcosA"
+    }
+   ],
+   "chapter_title": "appmath c11 decision formulas"
+  },
+  {
+   "id": "FBD_APPMATH_C11_002",
+   "title": "PV: PV = ...",
+   "section": "decision tree",
+   "formula": "PV = FV/(1+r)^n",
+   "key_idea": "PV (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find pv using pv",
+    "calculate pv",
+    "pv formula question",
+    "given values find pv"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_APPMATH_C11_002",
+     "question_pattern": "pv with {FV} and {r} and {n} find pv",
+     "extracted_variables": {
+      "FV": "given FV",
+      "r": "given r",
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for FV, r, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "PV = FV/(1+r)^n",
+     "compute": "PV = FV/(1+r)^n"
+    }
+   ],
+   "chapter_title": "appmath c11 decision formulas"
+  },
+  {
+   "id": "FBD_APPMATH_C11_003",
+   "title": "Net: Net = ...",
+   "section": "decision tree",
+   "formula": "Net = Output_GST - Input_GST",
+   "key_idea": "Net (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find net using net",
+    "calculate net",
+    "net formula question",
+    "given values find net"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_APPMATH_C11_003",
+     "question_pattern": "net with {Output_GST} and {Input_GST} find net",
+     "extracted_variables": {
+      "Output_GST": "given Output_GST",
+      "Input_GST": "given Input_GST"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Output_GST, Input_GST from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Net = Output_GST - Input_GST",
+     "compute": "Net = Output_GST - Input_GST"
+    }
+   ],
+   "chapter_title": "appmath c11 decision formulas"
+  }
+ ]
+}

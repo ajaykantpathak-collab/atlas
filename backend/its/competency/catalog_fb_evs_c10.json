@@ -1,0 +1,244 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c10)",
+ "source_file": "c10_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C10_001",
+   "title": "Bioaccumulation (Biomagnification factor): BMF = ...",
+   "section": "",
+   "formula": "BMF = C_predator / C_prey",
+   "_pats_extra": [],
+   "key_idea": "Bioaccumulation (Biomagnification factor)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find bmf using bioaccumulation (biomagnification factor)",
+    "calculate bioaccumulation (biomagnification factor)",
+    "bioaccumulation (biomagnification factor) formula question",
+    "given values find bmf"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C10_001",
+     "question_pattern": "bioaccumulation (biomagnification factor) with {C_predator} and {C_prey} find bmf",
+     "extracted_variables": {
+      "C_predator": "given C_predator",
+      "C_prey": "given C_prey"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for C_predator, C_prey from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "BMF = C_predator / C_prey",
+     "compute": "BMF = C_predator / C_prey"
+    }
+   ],
+   "chapter_title": "evs c10 formulas"
+  },
+  {
+   "id": "FB_EVS_C10_002",
+   "title": "WORKED EXAMPLE (bioaccumulation of mercury in fish, Minamata-style): Water Hg concentration C_water = ...",
+   "section": "",
+   "formula": "Water_Hg_concentration_C_water = 0.01*mg/L",
+   "_pats_extra": [],
+   "key_idea": "WORKED EXAMPLE (bioaccumulation of mercury in fish, Minamata-style)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find water hg concentration c_water using worked example (bioaccumulation of mercury in fish, minamata-style)",
+    "calculate worked example (bioaccumulation of mercury in fish, minamata-style)",
+    "worked example (bioaccumulation of mercury in fish, minamata-style) formula question",
+    "given values find water hg concentration c_water"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C10_002",
+     "question_pattern": "worked example (bioaccumulation of mercury in fish, minamata-style) with {mg} and {L} find water hg concentration c_water",
+     "extracted_variables": {
+      "mg": "given mg",
+      "L": "given L"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for mg, L from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Water Hg concentration C_water = 0.01*mg/L",
+     "compute": "Water_Hg_concentration_C_water = 0.01*mg/L"
+    }
+   ],
+   "chapter_title": "evs c10 formulas"
+  },
+  {
+   "id": "FB_EVS_C10_003",
+   "title": "Ecosystem resilience (engineering / ecological resilience): R_eco = ...",
+   "section": "",
+   "formula": "R_eco = A / D",
+   "_pats_extra": [],
+   "key_idea": "Ecosystem resilience (engineering / ecological resilience)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find r_eco using ecosystem resilience (engineering / ecological resilience)",
+    "calculate ecosystem resilience (engineering / ecological resilience)",
+    "ecosystem resilience (engineering / ecological resilience) formula question",
+    "given values find r_eco"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C10_003",
+     "question_pattern": "ecosystem resilience (engineering / ecological resilience) with {A} and {D} find r_eco",
+     "extracted_variables": {
+      "A": "given A",
+      "D": "given D"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, D from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "R_eco = A / D",
+     "compute": "R_eco = A / D"
+    }
+   ],
+   "chapter_title": "evs c10 formulas"
+  },
+  {
+   "id": "FB_EVS_C10_004",
+   "title": "Rainwater harvesting potential: c = ...",
+   "section": "",
+   "formula": "c = runoff_coefficient*0.8",
+   "_pats_extra": [],
+   "key_idea": "Rainwater harvesting potential",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find c using rainwater harvesting potential",
+    "calculate rainwater harvesting potential",
+    "rainwater harvesting potential formula question",
+    "given values find c"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C10_004",
+     "question_pattern": "rainwater harvesting potential with {runoff_coefficient} find c",
+     "extracted_variables": {
+      "runoff_coefficient": "given runoff_coefficient"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for runoff_coefficient from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "c = runoff_coefficient*0.8",
+     "compute": "c = runoff_coefficient*0.8"
+    }
+   ],
+   "chapter_title": "evs c10 formulas"
+  },
+  {
+   "id": "FB_EVS_C10_005",
+   "title": "Climate resilience index: CRI = ...",
+   "section": "",
+   "formula": "CRI = (E + S + A) / 3",
+   "_pats_extra": [],
+   "key_idea": "Climate resilience index",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cri using climate resilience index",
+    "calculate climate resilience index",
+    "climate resilience index formula question",
+    "given values find cri"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C10_005",
+     "question_pattern": "climate resilience index with {E} and {S} and {A} find cri",
+     "extracted_variables": {
+      "E": "given E",
+      "S": "given S",
+      "A": "given A"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for E, S, A from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CRI = (E + S + A) / 3",
+     "compute": "CRI = (E + S + A) / 3"
+    }
+   ],
+   "chapter_title": "evs c10 formulas"
+  },
+  {
+   "id": "FB_EVS_C10_006",
+   "title": "Eco-Club impact index: ECII = ...",
+   "section": "",
+   "formula": "ECII = (A_tree + W_diverted + E_saved + C_reduced) / N_students",
+   "_pats_extra": [],
+   "key_idea": "Eco-Club impact index",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ecii using eco-club impact index",
+    "calculate eco-club impact index",
+    "eco-club impact index formula question",
+    "given values find ecii"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C10_006",
+     "question_pattern": "eco-club impact index with {A_tree} and {W_diverted} and {E_saved} and {C_reduced} and {N_students} find ecii",
+     "extracted_variables": {
+      "A_tree": "given A_tree",
+      "W_diverted": "given W_diverted",
+      "E_saved": "given E_saved",
+      "C_reduced": "given C_reduced",
+      "N_students": "given N_students"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A_tree, W_diverted, E_saved, C_reduced, N_students from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "ECII = (A_tree + W_diverted + E_saved + C_reduced) / N_students",
+     "compute": "ECII = (A_tree + W_diverted + E_saved + C_reduced) / N_students"
+    }
+   ],
+   "chapter_title": "evs c10 formulas"
+  }
+ ]
+}

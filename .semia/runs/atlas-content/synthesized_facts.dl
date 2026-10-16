@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("atlas-content").
+skill_evidence_text("atlas-content", "name: atlas-content").
+action("act_review", "atlas-content").
+action_evidence_text("act_review", "name: atlas-content").

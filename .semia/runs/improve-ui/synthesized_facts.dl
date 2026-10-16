@@ -1,0 +1,7 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("improve-ui").
+skill_evidence_text("improve-ui", "name: improve-ui").
+action("act_review", "improve-ui").
+action_evidence_text("act_review", "name: improve-ui").
+skill_doc_claim("improve-ui", "read_only").
+skill_doc_claim_evidence_text("improve-ui", "read_only", "description: Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.").

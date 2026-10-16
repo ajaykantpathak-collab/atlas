@@ -1,0 +1,132 @@
+MISS jemh.1.3 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.4 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.5 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.6 | Fermat's Last Theorem says x^n + y^n = z^n has no posit -> None exp 34
+MISS jemh.1.6 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS jemh.1.8 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+ch101.json 48/54
+ch102.json 48/48
+MISS jemh.3.2.1 | Write the ratio 8 : 48 in its simplest form and give th -> 1.0 exp 2
+ch103.json 41/42
+ch104.json 60/60
+ch105.json 54/54
+MISS jemh.106.3.1 | Write the ratio 4 : 24 in its simplest form and give th -> 1.0 exp 2
+MISS jemh.106.4.4 | Write the ratio 60 : 80 in its simplest form and give t -> 3.0 exp 6
+ch106.json 46/48
+MISS jemh.7.5 | Write the ratio 12 : 48 in its simplest form and give t -> 1.0 exp 2
+MISS jemh.7.9 | A kite has one pair of equal angles. If the angle betwe -> 280.0 exp 240
+ch107.json 52/54
+MISS jemh.8.1 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.8.1 | For a right triangle with legs 10 and 24 and hypotenuse -> 120.0 exp 5/12
+MISS jemh.8.1 | If sin(A) = 10/26, find cosec(A). (give the fraction) -> 0.38461538461538464 exp 13/5
+MISS jemh.8.1 | If cos(A) = 24/26, find sec(A). (give the fraction) -> 0.38461538461538464 exp 13/12
+MISS jemh.8.2 | In a right triangle the sides adjacent to the right ang -> None exp 20/29
+MISS jemh.8.2 | For the same triangle (legs 20 and 21, hypotenuse 29),  -> None exp 21/29
+MISS jemh.8.2 | For a right triangle with legs 20 and 21 and hypotenuse -> 210.0 exp 20/21
+MISS jemh.8.2 | If sin(A) = 20/29, find cosec(A). (give the fraction) -> None exp 29/20
+MISS jemh.8.2 | If cos(A) = 21/29, find sec(A). (give the fraction) -> None exp 29/21
+MISS jemh.8.2 | Given sin(A) = 20/29 and cos(A) = 21/29, find tan(A). ( -> None exp 20/21
+MISS jemh.8.3 | In a right triangle the sides adjacent to the right ang -> None exp 3/5
+MISS jemh.8.3 | For the same triangle (legs 12 and 16, hypotenuse 20),  -> None exp 4/5
+MISS jemh.8.3 | For a right triangle with legs 12 and 16 and hypotenuse -> 96.0 exp 3/4
+MISS jemh.8.3 | If sin(A) = 12/20, find cosec(A). (give the fraction) -> None exp 5/3
+MISS jemh.8.3 | If cos(A) = 16/20, find sec(A). (give the fraction) -> None exp 5/4
+MISS jemh.8.3 | Given sin(A) = 12/20 and cos(A) = 16/20, find tan(A). ( -> None exp 3/4
+MISS jemh.8.4 | For the same triangle (legs 6 and 8, hypotenuse 10), fi -> 0.6 exp 4/5
+MISS jemh.8.4 | For a right triangle with legs 6 and 8 and hypotenuse 1 -> 24.0 exp 3/4
+MISS jemh.8.4 | If sin(A) = 6/10, find cosec(A). (give the fraction) -> 0.6 exp 5/3
+MISS jemh.8.4 | If cos(A) = 8/10, find sec(A). (give the fraction) -> None exp 5/4
+MISS jemh.8.4 | Given sin(A) = 6/10 and cos(A) = 8/10, find tan(A). (gi -> 0.6 exp 3/4
+MISS jemh.8.5 | For the same triangle (legs 7 and 24, hypotenuse 25), f -> 0.28 exp 24/25
+MISS jemh.8.5 | For a right triangle with legs 7 and 24 and hypotenuse  -> 84.0 exp 7/24
+MISS jemh.8.5 | If sin(A) = 7/25, find cosec(A). (give the fraction) -> 0.28 exp 25/7
+MISS jemh.8.5 | If cos(A) = 24/25, find sec(A). (give the fraction) -> None exp 25/24
+MISS jemh.8.6 | Using 1 + tan^2 A = sec^2 A with tan A = 9/12, find sec -> None exp 5/4
+MISS jemh.8.6 | Using 1 + cot^2 A = cosec^2 A with cot A = 12/9, find c -> None exp 5/3
+MISS jemh.8.6 | If sin A = 9/15 and cos A = 12/15 (same right triangle) -> None exp 24/25
+MISS jemh.8.6 | Compound angle: with sin A = 3/5, cos A = 4/5, sin B =  -> None exp 56/65
+MISS jemh.8.6 | Evaluate cos(90 - A) when cos A = 7/25 and sin A = 24/2 -> None exp 24/25
+MISS jemh.8.7 | Verify sin^2 A + cos^2 A = 1 for the right triangle wit -> None exp 1
+MISS jemh.8.7 | Using 1 + tan^2 A = sec^2 A with tan A = 12/16, find se -> 1.0 exp 5/4
+MISS jemh.8.7 | Using 1 + cot^2 A = cosec^2 A with cot A = 16/12, find  -> 1.0 exp 5/3
+MISS jemh.8.7 | If sin A = 12/20 and cos A = 16/20 (same right triangle -> None exp 24/25
+MISS jemh.8.7 | Compound angle: with sin A = 3/5, cos A = 4/5, sin B =  -> None exp 56/65
+MISS jemh.8.7 | Evaluate cos(90 - A) when cos A = 7/25 and sin A = 24/2 -> None exp 24/25
+MISS jemh.8.8 | For the same triangle (legs 12 and 16, hypotenuse 20),  -> 0.6 exp 4/5
+MISS jemh.8.8 | For a right triangle with legs 12 and 16 and hypotenuse -> 96.0 exp 3/4
+MISS jemh.8.8 | If sin(A) = 12/20, find cosec(A). (give the fraction) -> 0.6 exp 5/3
+MISS jemh.8.8 | If cos(A) = 16/20, find sec(A). (give the fraction) -> 0.6 exp 5/4
+MISS jemh.8.8 | Given sin(A) = 12/20 and cos(A) = 16/20, find tan(A). ( -> 0.6 exp 3/4
+MISS jemh.8.9 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.8.9 | For a right triangle with legs 10 and 24 and hypotenuse -> 120.0 exp 5/12
+MISS jemh.8.9 | If sin(A) = 10/26, find cosec(A). (give the fraction) -> 0.38461538461538464 exp 13/5
+MISS jemh.8.9 | If cos(A) = 24/26, find sec(A). (give the fraction) -> 0.38461538461538464 exp 13/12
+ch108.json 9/54
+MISS jemh.9.1 | For a right triangle with legs 20 and 21 and hypotenuse -> 210.0 exp 20/21
+MISS jemh.9.1 | If sin(A) = 20/29, find cosec(A). (give the fraction) -> 0.6896551724137931 exp 29/20
+MISS jemh.9.1 | If cos(A) = 21/29, find sec(A). (give the fraction) -> None exp 29/21
+MISS jemh.9.1 | Given sin(A) = 20/29 and cos(A) = 21/29, find tan(A). ( -> 0.6896551724137931 exp 20/21
+MISS jemh.9.2 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.9.2 | For a right triangle with legs 10 and 24 and hypotenuse -> 120.0 exp 5/12
+MISS jemh.9.2 | If sin(A) = 10/26, find cosec(A). (give the fraction) -> 0.38461538461538464 exp 13/5
+MISS jemh.9.2 | If cos(A) = 24/26, find sec(A). (give the fraction) -> 0.38461538461538464 exp 13/12
+MISS jemh.9.3 | For the same triangle (legs 8 and 15, hypotenuse 17), f -> 0.47058823529411764 exp 15/17
+MISS jemh.9.3 | For a right triangle with legs 8 and 15 and hypotenuse  -> 60.0 exp 8/15
+MISS jemh.9.3 | If sin(A) = 8/17, find cosec(A). (give the fraction) -> 0.47058823529411764 exp 17/8
+MISS jemh.9.3 | If cos(A) = 15/17, find sec(A). (give the fraction) -> None exp 17/15
+MISS jemh.9.3 | Given sin(A) = 8/17 and cos(A) = 15/17, find tan(A). (g -> 0.47058823529411764 exp 8/15
+MISS jemh.9.4 | For the same triangle (legs 10 and 24, hypotenuse 26),  -> 0.38461538461538464 exp 12/13
+MISS jemh.9.4 | For a right triangle with legs 10 and 24 and hypotenuse -> 120.0 exp 5/12
+MISS jemh.9.4 | If sin(A) = 10/26, find cosec(A). (give the fraction) -> 0.38461538461538464 exp 13/5
+MISS jemh.9.4 | If cos(A) = 24/26, find sec(A). (give the fraction) -> 0.38461538461538464 exp 13/12
+MISS jemh.9.6 | For the same triangle (legs 12 and 16, hypotenuse 20),  -> 0.6 exp 4/5
+MISS jemh.9.6 | For a right triangle with legs 12 and 16 and hypotenuse -> 96.0 exp 3/4
+MISS jemh.9.6 | If sin(A) = 12/20, find cosec(A). (give the fraction) -> 0.6 exp 5/3
+MISS jemh.9.6 | If cos(A) = 16/20, find sec(A). (give the fraction) -> 0.6 exp 5/4
+MISS jemh.9.6 | Given sin(A) = 12/20 and cos(A) = 16/20, find tan(A). ( -> 0.6 exp 3/4
+MISS jemh.9.7 | For the same triangle (legs 5 and 12, hypotenuse 13), f -> 0.38461538461538464 exp 12/13
+MISS jemh.9.7 | For a right triangle with legs 5 and 12 and hypotenuse  -> 30.0 exp 5/12
+MISS jemh.9.7 | If sin(A) = 5/13, find cosec(A). (give the fraction) -> 0.38461538461538464 exp 13/5
+MISS jemh.9.7 | If cos(A) = 12/13, find sec(A). (give the fraction) -> None exp 13/12
+ch109.json 22/48
+ch110.json 66/66
+ch111.json 48/48
+MISS jemh.12.3 | Find the volume of a cone of radius 28 cm and height 21 -> None exp 17248
+MISS jemh.12.3 | Find the volume of a sphere of radius 35 cm (pi = 22/7) -> None exp 179667
+MISS jemh.12.3 | Find the curved surface area of a hemisphere of radius  -> None exp 44352
+MISS jemh.12.3 | Find the total surface area of a solid hemisphere of ra -> 5544.0 exp 16632
+MISS jemh.12.3 | Find the volume of a hemispherical bowl of radius 28 cm -> None exp 45994.7
+MISS jemh.12.3 | A tent is a cylinder of radius 28 m and height 8 m, cap -> 19712.0 exp 26282.7
+ch112.json 96/102
+MISS jemh.13.6 | For y = 1x^2 + 4x + 2 at x = 3, the tangent slope is m; -> 10.0 exp -0.1
+ch113.json 41/42
+ch114.json 48/48
+jemh103.json 24/24
+jemh104.json 24/24
+jemh105.json 18/18
+jemh106.json 24/24
+jemh107.json 18/18
+MISS jemh.108.8.1 | In a right triangle the sides adjacent to the right ang -> None exp 3/5
+MISS jemh.108.8.1 | For the same triangle (legs 3 and 4, hypotenuse 5), fin -> None exp 4/5
+MISS jemh.108.8.1 | For a right triangle with legs 3 and 4 and hypotenuse 5 -> 6.0 exp 3/4
+MISS jemh.108.8.1 | If sin(A) = 3/5, find cosec(A). (give the fraction) -> None exp 5/3
+MISS jemh.108.8.1 | If cos(A) = 4/5, find sec(A). (give the fraction) -> None exp 5/4
+MISS jemh.108.8.1 | Given sin(A) = 3/5 and cos(A) = 4/5, find tan(A). (give -> None exp 3/4
+MISS jemh.108.8.3 | Verify sin^2 A + cos^2 A = 1 for the right triangle wit -> 0.5 exp 1
+MISS jemh.108.8.3 | Using 1 + tan^2 A = sec^2 A with tan A = 7/24, find sec -> None exp 25/24
+MISS jemh.108.8.3 | Using 1 + cot^2 A = cosec^2 A with cot A = 24/7, find c -> None exp 25/7
+MISS jemh.108.8.3 | If sin A = 7/25 and cos A = 24/25 (same right triangle) -> None exp 336/625
+MISS jemh.108.8.3 | Compound angle: with sin A = 3/5, cos A = 4/5, sin B =  -> None exp 56/65
+MISS jemh.108.8.3 | Evaluate cos(90 - A) when cos A = 7/25 and sin A = 24/2 -> None exp 24/25
+jemh108.json 6/18
+jemh110.json 18/18
+jemh111.json 18/18
+MISS jemh.112.12.3 | Find the volume of a cone of radius 56 cm and height 21 -> None exp 68992
+MISS jemh.112.12.3 | Find the volume of a sphere of radius 21 cm (pi = 22/7) -> None exp 38808
+MISS jemh.112.12.3 | Find the curved surface area of a hemisphere of radius  -> None exp 1232
+MISS jemh.112.12.3 | Find the total surface area of a solid hemisphere of ra -> 616.0 exp 1848
+MISS jemh.112.12.3 | Find the volume of a hemispherical bowl of radius 7 cm  -> None exp 718.667
+MISS jemh.112.12.3 | A tent is a cylinder of radius 56 m and height 26 m, ca -> 256256.0 exp 341675
+jemh112.json 12/18
+jemh114.json 18/18
+CLASS10 TOTAL: 859 / 966 in 16 s

@@ -1,0 +1,21 @@
+{
+  "artifact_contract": "semia-run-v1",
+  "checked_at": "2026-10-04T12:01:37Z",
+  "detected_at": "2026-10-04T12:01:39Z",
+  "detector_status": "ok",
+  "evidence_match_rate": 1.0,
+  "evidence_taint_threshold": 0.1,
+  "finding_count": 0,
+  "hostile_input_nonce": "b9041ddf8970ff01",
+  "prepared_at": "2026-10-04T12:01:37Z",
+  "prepared_skill_sha256": "adba4fa94a9ca0291811ac26405e8fe15c1a6375743a80971c6f895bb837eeed",
+  "program_valid": true,
+  "reference_unit_coverage": 0.0016992353440951572,
+  "source_hash": "43a3744a11c0b1d5d811c01b7182bd5a54df93aa0c4f92eb244f96d8f6057646",
+  "source_id": "create-design-md",
+  "ssa_input_availability": 1.0,
+  "stage": "detected",
+  "synthesis_mode": "conservative_baseline",
+  "synthesis_written_at": "2026-10-04T12:01:37Z",
+  "synthesized_facts_sha256": "d39dc0b79cbad6e21ee78ef4267425ebc5ed3d8d78fef77e6d4d57d405a6be9d"
+}

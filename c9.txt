@@ -1,0 +1,45 @@
+ch101.json 48/48
+MISS iemh.102.9 | A can finish a job in 3 days and B in 6 days. Working t -> None exp 2
+MISS iemh.102.9 | A pipe fills a tank in 6 hours while a leak empties it  -> None exp 24
+MISS iemh.102.9 | A bus covers 120 km in 3 hours and 180 km in 2 hours. F -> 76.25 exp 60
+MISS iemh.102.9 | 10 workers build a wall in 6 days. How long would 9 wor -> None exp 6.66667
+MISS iemh.102.9 | A boat's downstresam speed is 10 km/h and its upstream  -> None exp 2
+MISS iemh.102.9 | A boat travels 30 km upstream at 6 km/h. How many hours -> None exp 5
+ch102.json 48/54
+MISS iemh.3.1.1 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.5.1 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.5.3 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.6.1 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.6.2 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.6.3 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.6.4 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.3.6.5 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+ch103.json 94/102
+ch104.json 66/66
+MISS iemh.105.9 | Use Heron's formula to find the area of the triangle wi -> None exp 60
+MISS iemh.105.9 | A triangular plot has sides 13 m, 20 m and 21 m. Find i -> None exp 126
+MISS iemh.105.9 | Use Brahmagupta's formula for the cyclic quadrilateral  -> None exp 48
+MISS iemh.105.9 | Find the area of a right triangle with legs 10 and 24,  -> None exp 120
+MISS iemh.105.9 | Use Heron's formula to find the area of the triangle wi -> None exp 24
+MISS iemh.105.9 | Use Brahmagupta's formula for the cyclic quadrilateral  -> None exp 12
+ch105.json 48/54
+MISS iemh.106.2 | Use Heron's formula to find the area of the triangle wi -> None exp 6
+MISS iemh.106.2 | A triangular plot has sides 4 m, 13 m and 15 m. Find it -> None exp 24
+MISS iemh.106.2 | Use Brahmagupta's formula for the cyclic quadrilateral  -> None exp 108
+MISS iemh.106.2 | Find the area of a right triangle with legs 10 and 24,  -> None exp 120
+MISS iemh.106.2 | Use Heron's formula to find the area of the triangle wi -> None exp 54
+MISS iemh.106.2 | A triangular plot has sides 13 m, 14 m and 15 m. Find i -> None exp 84
+ch106.json 24/30
+ch107.json 18/18
+ch108.json 72/72
+iemh101.json 18/18
+iemh102.json 18/18
+MISS iemh.103.3.3 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+MISS iemh.103.3.4 | Divisibility by 9: a number is divisible by 9 when its  -> 18.0 exp 0
+iemh103.json 22/24
+iemh104.json 24/24
+iemh105.json 30/30
+iemh106.json 24/24
+iemh107.json 18/18
+iemh108.json 24/24
+CLASS9 TOTAL: 596 / 624 in 15 s

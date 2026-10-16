@@ -1,0 +1,129 @@
+{
+ "subject": "bio",
+ "chapter_title": "ICSE bio formula bank (c9-c10)",
+ "source_file": "bio_formula_bank_c9_c10.marker",
+ "concepts": [
+  {
+   "id": "FB_BIO_C9_001",
+   "title": "Respiratory quotient (RQ): RQ = ...",
+   "section": "RESPIRATION",
+   "formula": "RQ = CO_2*produced / O_2*consumed",
+   "_pats_extra": [],
+   "key_idea": "Respiratory quotient (RQ) (RESPIRATION)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rq using respiratory quotient (rq)",
+    "calculate respiratory quotient (rq)",
+    "respiratory quotient (rq) formula question",
+    "given values find rq",
+    "respiration respiratory quotient (rq) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C9_001",
+     "question_pattern": "respiratory quotient (rq) with {CO_2} and {produced} and {O_2} and {consumed} find rq",
+     "extracted_variables": {
+      "CO_2": "given CO_2",
+      "produced": "given produced",
+      "O_2": "given O_2",
+      "consumed": "given consumed"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for CO_2, produced, O_2, consumed from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "RQ = CO_2*produced / O_2*consumed",
+     "compute": "RQ = CO_2*produced / O_2*consumed"
+    }
+   ],
+   "chapter_title": "RESPIRATION"
+  },
+  {
+   "id": "FB_BIO_C9_002",
+   "title": "Probability in genetics: P(event) = ...",
+   "section": "GENETICS (C10)",
+   "formula": "Pevent = favourable_outcomes / total_outcomes",
+   "_pats_extra": [],
+   "key_idea": "Probability in genetics (GENETICS (C10))",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p(event) using probability in genetics",
+    "calculate probability in genetics",
+    "probability in genetics formula question",
+    "given values find p(event)",
+    "genetics (c10) probability in genetics numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C9_002",
+     "question_pattern": "probability in genetics with {favourable_outcomes} and {total_outcomes} find p(event)",
+     "extracted_variables": {
+      "favourable_outcomes": "given favourable_outcomes",
+      "total_outcomes": "given total_outcomes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for favourable_outcomes, total_outcomes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P(event) = favourable_outcomes / total_outcomes",
+     "compute": "Pevent = favourable_outcomes / total_outcomes"
+    }
+   ],
+   "chapter_title": "GENETICS (C10)"
+  },
+  {
+   "id": "FB_BIO_C9_003",
+   "title": "Heart: Cardiac output = ...",
+   "section": "HUMAN PHYSIOLOGY",
+   "formula": "Cardiac_output = stroke_volume*heart_rate",
+   "_pats_extra": [],
+   "key_idea": "Heart (HUMAN PHYSIOLOGY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find cardiac output using heart",
+    "calculate heart",
+    "heart formula question",
+    "given values find cardiac output",
+    "human physiology heart numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_BIO_C9_003",
+     "question_pattern": "heart with {stroke_volume} and {heart_rate} find cardiac output",
+     "extracted_variables": {
+      "stroke_volume": "given stroke_volume",
+      "heart_rate": "given heart_rate"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for stroke_volume, heart_rate from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Cardiac output = stroke_volume*heart_rate",
+     "compute": "Cardiac_output = stroke_volume*heart_rate"
+    }
+   ],
+   "chapter_title": "HUMAN PHYSIOLOGY"
+  }
+ ]
+}

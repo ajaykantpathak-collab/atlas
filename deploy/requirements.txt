@@ -1,0 +1,99 @@
+# CPU-only torch index — deploy has no GPU; the default torch wheel drags
+# ~2.5GB of nvidia CUDA libs. Listed first so it applies globally.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# ==================== CORE FRAMEWORK ====================
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+gunicorn==22.0.0
+python-dotenv==1.0.1
+pydantic==2.10.6
+pydantic-settings==2.6.1
+
+# ==================== DATABASES ====================
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+aiosqlite==0.20.0            # sqlite fallback engine (local/no-postgres mode)
+alembic==1.13.1
+neo4j==5.19.0
+redis[hiredis]==5.0.4
+qdrant-client==1.9.1
+clickhouse-connect==0.7.16
+psycopg2-binary==2.9.9
+
+# ==================== AI / LLM ====================
+# openai: used by services/llm_grader.py + ai/ clients
+# langfuse: used by services/langfuse_tracer.py (observability)
+# langchain/langgraph/dspy-ai/pyautogen REMOVED — not imported anywhere
+# outside _archive; langgraph==0.1.0 doesn't exist on PyPI anyway.
+openai==1.30.0
+langfuse==2.36.0
+sympy==1.13.1            # torch 2.5.1+cpu pins sympy==1.13.1 exactly
+
+# ==================== MATH / SCIENCE ENGINES ====================
+symengine==0.11.0          # Fast symbolic computation (fallback cascade tier 1)
+scipy==1.13.0              # Numerical solving (fallback cascade tier 5)
+numpy==1.26.4              # (also in utilities — listed here for grouping)
+chempy==0.10.1             # Chemistry equation balancing
+pint==0.25.3               # Unit conversions
+pandas==2.2.2              # Accountancy / data handling
+matplotlib==3.9.0          # Static visualizations
+statsmodels==0.14.5        # Econometrics / regression
+hypothesis==6.103.0        # Property-based question validation
+# pygiac==0.1.5             # Giac/Xcas for hard calculus/ODE (install manually if needed)
+# pix2tex==0.1.1            # LaTeX OCR from photos (heavy — install separately)
+# rdkit==2024.3.1           # Molecular structures (heavy — install via conda)
+biopython==1.83            # Biological sequences
+mendeleev==0.17.0          # Periodic table data
+schemdraw==0.16            # Physics circuit diagrams
+svgwrite==1.4.3            # SVG diagram generation
+
+# ==================== AUTH ====================
+PyJWT==2.8.0
+python-jose[cryptography]==3.3.0   # jose.JWT used by services/auth_service + jwt_service
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# ==================== UTILITIES ====================
+pyyaml==6.0.1
+pymupdf==1.24.0
+pdfplumber==0.11.0
+rapidfuzz==3.9.0
+httpx==0.27.0
+pillow==10.3.0
+pytesseract==0.3.10
+# numpy listed above in MATH / SCIENCE ENGINES
+
+# ==================== PAYMENTS ====================
+razorpay==1.4.2
+
+# ==================== TESTING ====================
+pytest==8.2.2
+pytest-asyncio==0.23.0
+pytest-cov==5.0.0
+pytest-xdist==3.6.0
+httpx==0.27.0
+
+# ==================== MONITORING ====================
+sentry-sdk==1.40.0
+prometheus-client==0.19.0
+
+# === MISSING DEPS ADDED BY AUDIT ===
+# Pinned to the versions verified in the working local env —
+# unpinned sentence-transformers resolves to 6.x which requires
+# transformers>=5.17 which requires torch>=2.5.
+sentence-transformers==5.5.1
+transformers==5.5.0
+# spaCy NER lane: quantity_binder NER stage + spacy_parser dep-walk.
+# en_core_web_sm is not on PyPI — pinned to the GitHub wheel.
+spacy==3.8.14
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+# F4 pin (2026-10-15): these three were the only loose lines (audit LOW —
+# supply drift); pinned to the versions verified in the working local env,
+# same convention as the sentence-transformers block above. No upgrades.
+cachetools==5.5.1
+edge-tts==7.2.8
+quantulum3==0.10.0
+
+# CPU-only torch pin — index declared at top of file.
+torch==2.5.1+cpu

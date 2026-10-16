@@ -1,0 +1,261 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c5)",
+ "source_file": "c5_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C5_001",
+   "title": "KEY RELATIONSHIP: Biotic = ...",
+   "section": "",
+   "formula": "Biotic = plants, animals, humans, micro-organisms",
+   "_pats_extra": [],
+   "key_idea": "KEY RELATIONSHIP",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find biotic using key relationship",
+    "calculate key relationship",
+    "key relationship formula question",
+    "given values find biotic"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C5_001",
+     "question_pattern": "key relationship with {plants} and {animals} and {humans} and {micro} and {organisms} find biotic",
+     "extracted_variables": {
+      "plants": "given plants",
+      "animals": "given animals",
+      "humans": "given humans",
+      "micro": "given micro",
+      "organisms": "given organisms"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for plants, animals, humans, micro, organisms from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Biotic = plants, animals, humans, micro-organisms",
+     "compute": "Biotic = plants, animals, humans, micro-organisms"
+    }
+   ],
+   "chapter_title": "evs c5 formulas"
+  },
+  {
+   "id": "FB_EVS_C5_002",
+   "title": "KEY RELATIONSHIP: Abiotic = ...",
+   "section": "",
+   "formula": "Abiotic = a*i*r, water, soil, sunlight, temperature, minerals",
+   "_pats_extra": [],
+   "key_idea": "KEY RELATIONSHIP",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find abiotic using key relationship",
+    "calculate key relationship",
+    "key relationship formula question",
+    "given values find abiotic"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C5_002",
+     "question_pattern": "key relationship with {a} and {i} and {r} and {water} and {soil} and {sunlight} find abiotic",
+     "extracted_variables": {
+      "a": "given a",
+      "i": "given i",
+      "r": "given r",
+      "water": "given water",
+      "soil": "given soil",
+      "sunlight": "given sunlight"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a, i, r, water, soil from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Abiotic = a*i*r, water, soil, sunlight, temperature, minerals",
+     "compute": "Abiotic = a*i*r, water, soil, sunlight, temperature, minerals"
+    }
+   ],
+   "chapter_title": "evs c5 formulas"
+  },
+  {
+   "id": "FB_EVS_C5_003",
+   "title": "KEY RELATIONSHIP: Social = ...",
+   "section": "",
+   "formula": "Social = family, school, neighbourhood, village/town/city",
+   "_pats_extra": [],
+   "key_idea": "KEY RELATIONSHIP",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find social using key relationship",
+    "calculate key relationship",
+    "key relationship formula question",
+    "given values find social"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C5_003",
+     "question_pattern": "key relationship with {family} and {school} and {neighbourhood} and {village} and {town} and {city} find social",
+     "extracted_variables": {
+      "family": "given family",
+      "school": "given school",
+      "neighbourhood": "given neighbourhood",
+      "village": "given village",
+      "town": "given town",
+      "city": "given city"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for family, school, neighbourhood, village, town from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Social = family, school, neighbourhood, village/town/city",
+     "compute": "Social = family, school, neighbourhood, village/town/city"
+    }
+   ],
+   "chapter_title": "evs c5 formulas"
+  },
+  {
+   "id": "FB_EVS_C5_004",
+   "title": "COMPONENT COUNT (worked example): Abiotic count = ...",
+   "section": "",
+   "formula": "Abiotic_count = 4 (soil, water, sunlight, a*i*r)",
+   "_pats_extra": [],
+   "key_idea": "COMPONENT COUNT (worked example)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find abiotic count using component count (worked example)",
+    "calculate component count (worked example)",
+    "component count (worked example) formula question",
+    "given values find abiotic count"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C5_004",
+     "question_pattern": "component count (worked example) with {soil} and {water} and {sunlight} and {a} and {i} and {r} find abiotic count",
+     "extracted_variables": {
+      "soil": "given soil",
+      "water": "given water",
+      "sunlight": "given sunlight",
+      "a": "given a",
+      "i": "given i",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for soil, water, sunlight, a, i from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Abiotic count = 4 (soil, water, sunlight, a*i*r)",
+     "compute": "Abiotic_count = 4 (soil, water, sunlight, a*i*r)"
+    }
+   ],
+   "chapter_title": "evs c5 formulas"
+  },
+  {
+   "id": "FB_EVS_C5_005",
+   "title": "TEMPERATURE: Daily mean temperature = ...",
+   "section": "",
+   "formula": "Daily_mean_temperature = (Maximum*T + Minimum*T) / 2",
+   "_pats_extra": [],
+   "key_idea": "TEMPERATURE",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find daily mean temperature using temperature",
+    "calculate temperature",
+    "temperature formula question",
+    "given values find daily mean temperature"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C5_005",
+     "question_pattern": "temperature with {Maximum} and {T} and {Minimum} and {T} find daily mean temperature",
+     "extracted_variables": {
+      "Maximum": "given Maximum",
+      "T": "given T",
+      "Minimum": "given Minimum"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Maximum, T, Minimum, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Daily mean temperature = (Maximum*T + Minimum*T) / 2",
+     "compute": "Daily_mean_temperature = (Maximum*T + Minimum*T) / 2"
+    }
+   ],
+   "chapter_title": "evs c5 formulas"
+  },
+  {
+   "id": "FB_EVS_C5_006",
+   "title": "BALANCED DIET (relationship): Balanced diet = ...",
+   "section": "",
+   "formula": "Balanced_diet = Body-building_foods + Energy-giving_foods + Protective_foods + Water",
+   "_pats_extra": [],
+   "key_idea": "BALANCED DIET (relationship)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find balanced diet using balanced diet (relationship)",
+    "calculate balanced diet (relationship)",
+    "balanced diet (relationship) formula question",
+    "given values find balanced diet"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C5_006",
+     "question_pattern": "balanced diet (relationship) with {Body} and {building_foods} and {Energy} and {giving_foods} and {Protective_foods} and {Water} find balanced diet",
+     "extracted_variables": {
+      "Body": "given Body",
+      "building_foods": "given building_foods",
+      "Energy": "given Energy",
+      "giving_foods": "given giving_foods",
+      "Protective_foods": "given Protective_foods",
+      "Water": "given Water"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Body, building_foods, Energy, giving_foods, Protective_foods from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Balanced diet = Body-building_foods + Energy-giving_foods + Protective_foods + Water",
+     "compute": "Balanced_diet = Body-building_foods + Energy-giving_foods + Protective_foods + Water"
+    }
+   ],
+   "chapter_title": "evs c5 formulas"
+  }
+ ]
+}

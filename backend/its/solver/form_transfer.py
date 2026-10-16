@@ -177,6 +177,25 @@ def solve_by_form(text: str, quantity_parser=None) -> Optional[Dict]:
                 sorted(anchor_nums), own.numeric)
             return None
 
+        # ---- GATE D: anchor disagreement ----
+        # Same numbers, two different answers: at least one solve is
+        # wrong.  Live bug: die-probability question matched its bank
+        # twin (same numbers) — anchor modeled 1/3 but the own-solve's
+        # intersection lane bound not_p=4 and shipped -3.  When the
+        # numbers coincide the answers MUST coincide; disagreement is
+        # an honest refusal, never the wrong lane's number.
+        if anchor_ok and anchor is not None \
+                and student_nums == anchor_nums \
+                and anchor.numeric is not None \
+                and own.numeric is not None \
+                and not _close(own.numeric, anchor.numeric):
+            logger.info(
+                "form_transfer refused: identical givens %s produced "
+                "conflicting answers (own %s vs anchor %s) -- "
+                "one lane is wrong; refusing rather than guessing",
+                sorted(student_nums), own.numeric, anchor.numeric)
+            return None
+
         return {
             "target": "transferred",
             "value": own.numeric,
@@ -187,7 +206,12 @@ def solve_by_form(text: str, quantity_parser=None) -> Optional[Dict]:
                                         else None),
                        "answer_stage": own.stage},
             "score": 1.0 + (1.0 if anchor_ok else 0.0),
-            "steps": [
+            # student-facing steps = the student's OWN solve's working;
+            # gate diagnostics (form_id hash, similarity score) are
+            # internal audit data — they used to ship as steps, leaking
+            # 'form match af0a8884...' into answers
+            "steps": list(own.steps or []),
+            "diag": [
                 f"form match {top['form_id']} "
                 f"(similarity {top['score']:.3f}, "
                 f"{top.get('n_instances', '?')} instances seen)",

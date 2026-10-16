@@ -1,0 +1,278 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c5)",
+ "source_file": "c5_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C5_001",
+   "title": "Time difference: Time difference = ...",
+   "section": "",
+   "formula": "Time_difference = longitude_difference*4*minutes",
+   "_pats_extra": [],
+   "key_idea": "Time difference",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time difference using time difference",
+    "calculate time difference",
+    "time difference formula question",
+    "given values find time difference"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C5_001",
+     "question_pattern": "time difference with {longitude_difference} and {minutes} find time difference",
+     "extracted_variables": {
+      "longitude_difference": "given longitude_difference",
+      "minutes": "given minutes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for longitude_difference, minutes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time difference = longitude_difference*4*minutes",
+     "compute": "Time_difference = longitude_difference*4*minutes"
+    }
+   ],
+   "chapter_title": "geo c5 formulas"
+  },
+  {
+   "id": "FB_GEO_C5_002",
+   "title": "Time at X E: Time at X E = ...",
+   "section": "",
+   "formula": "Time_at_X_E = GMT + (X*4*min)",
+   "_pats_extra": [],
+   "key_idea": "Time at X E",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time at x e using time at x e",
+    "calculate time at x e",
+    "time at x e formula question",
+    "given values find time at x e"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C5_002",
+     "question_pattern": "time at x e with {GMT} and {X} and {min} find time at x e",
+     "extracted_variables": {
+      "GMT": "given GMT",
+      "X": "given X",
+      "min": "given min"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for GMT, X, min from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time at X E = GMT + (X*4*min)",
+     "compute": "Time_at_X_E = GMT + (X*4*min)"
+    }
+   ],
+   "chapter_title": "geo c5 formulas"
+  },
+  {
+   "id": "FB_GEO_C5_003",
+   "title": "Time at X W: Time at X W = ...",
+   "section": "",
+   "formula": "Time_at_X_W = GMT - (X*4*min)",
+   "_pats_extra": [],
+   "key_idea": "Time at X W",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time at x w using time at x w",
+    "calculate time at x w",
+    "time at x w formula question",
+    "given values find time at x w"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C5_003",
+     "question_pattern": "time at x w with {GMT} and {X} and {min} find time at x w",
+     "extracted_variables": {
+      "GMT": "given GMT",
+      "X": "given X",
+      "min": "given min"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for GMT, X, min from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time at X W = GMT - (X*4*min)",
+     "compute": "Time_at_X_W = GMT - (X*4*min)"
+    }
+   ],
+   "chapter_title": "geo c5 formulas"
+  },
+  {
+   "id": "FB_GEO_C5_004",
+   "title": "Distance: Distance = ...",
+   "section": "",
+   "formula": "Distance = difference_in_degrees*111",
+   "_pats_extra": [],
+   "key_idea": "Distance",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance using distance",
+    "calculate distance",
+    "distance formula question",
+    "given values find distance"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C5_004",
+     "question_pattern": "distance with {difference_in_degrees} find distance",
+     "extracted_variables": {
+      "difference_in_degrees": "given difference_in_degrees"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for difference_in_degrees from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance = difference_in_degrees*111",
+     "compute": "Distance = difference_in_degrees*111"
+    }
+   ],
+   "chapter_title": "geo c5 formulas"
+  },
+  {
+   "id": "FB_GEO_C5_005",
+   "title": "Population density: Population density = ...",
+   "section": "",
+   "formula": "Population_density = total_population / total_area",
+   "_pats_extra": [],
+   "key_idea": "Population density",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find population density using population density",
+    "calculate population density",
+    "population density formula question",
+    "given values find population density"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C5_005",
+     "question_pattern": "population density with {total_population} and {total_area} find population density",
+     "extracted_variables": {
+      "total_population": "given total_population",
+      "total_area": "given total_area"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for total_population, total_area from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Population density = total_population / total_area",
+     "compute": "Population_density = total_population / total_area"
+    }
+   ],
+   "chapter_title": "geo c5 formulas"
+  },
+  {
+   "id": "FBD_GEO_C5_001",
+   "title": "Distance: Distance = ...",
+   "section": "decision tree",
+   "formula": "Distance = degree_difference*111",
+   "key_idea": "Distance (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance using distance",
+    "calculate distance",
+    "distance formula question",
+    "given values find distance"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_GEO_C5_001",
+     "question_pattern": "distance with {degree_difference} find distance",
+     "extracted_variables": {
+      "degree_difference": "given degree_difference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for degree_difference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance = degree_difference*111",
+     "compute": "Distance = degree_difference*111"
+    }
+   ],
+   "chapter_title": "geo c5 decision formulas"
+  },
+  {
+   "id": "FBD_GEO_C5_002",
+   "title": "Density: Density = ...",
+   "section": "decision tree",
+   "formula": "Density = population / area",
+   "key_idea": "Density (decision tree)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find density using density",
+    "calculate density",
+    "density formula question",
+    "given values find density"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FBD_GEO_C5_002",
+     "question_pattern": "density with {population} and {area} find density",
+     "extracted_variables": {
+      "population": "given population",
+      "area": "given area"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for population, area from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Density = population / area",
+     "compute": "Density = population / area"
+    }
+   ],
+   "chapter_title": "geo c5 decision formulas"
+  }
+ ]
+}

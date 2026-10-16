@@ -44,6 +44,7 @@ from sqlalchemy import case as sa_case
 from sqlalchemy import select as sa_select, func as sa_func, desc as sa_desc, asc as sa_asc
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from backend.models.progress import MasteryRecord
 from backend.models.telemetry import AttemptLog
 from backend.models.user import User as UserModel
 
@@ -186,6 +187,18 @@ async def _pick_practice(db: AsyncSession, student_id: str) -> Optional[Dict[str
     from backend.services import next_best_lesson as nbl
 
     try:
+        # Honesty guard (D2 seam, 2026-09-30): next_best now answers for
+        # EVERY student — a fresh child gets honest corpus starting points
+        # (gate-free syllabus heads) instead of an empty feed.  The parent
+        # digest's contract is stricter: "not enough recorded" until the
+        # child has real ledger rows, so a dataless child never gets a
+        # fabricated practice pick from corpus defaults.
+        ledger_rows = (await db.execute(
+            sa_select(sa_func.count(MasteryRecord.id))
+            .where(MasteryRecord.user_id == student_id)
+        )).scalar()
+        if not ledger_rows:
+            return None
         nb = await nbl.next_best(db, student_id, limit=10, mastery_floor=MASTERED_FLOOR)
         candidates: List[Dict[str, Any]] = []
         for kind in ("ready_to_learn", "repair_first"):

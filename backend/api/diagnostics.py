@@ -66,6 +66,8 @@ from backend.services.diagnostic_service import (
     MisconceptionsResponse,
 )
 from backend.services.question_selector import QuestionSelector
+from backend.services.feedback_scrub import (
+    scrub_answer_key, scrub_explanation)
 
 logger = logging.getLogger(__name__)
 
@@ -174,7 +176,11 @@ class StartDiagnosticIn(BaseModel):
 
 class AnswerRecordIn(BaseModel):
     questionId: str
-    selectedOptionId: str  # option index (MCQ, as string) or raw text
+    # Optional — open-ended questions have no options; the batch-submit
+    # contract used to REQUIRE this string, so an open-ended answer could
+    # never pass validation (audit P1 DIAG-FAKE-RESULTS, 2026-10-08).
+    selectedOptionId: Optional[str] = None  # option index (MCQ, as string) or raw text
+    answerText: Optional[str] = None       # free-text answers for open-ended items
     isCorrect: Optional[bool] = None  # client hint; server re-grades
     timeSpentSeconds: float = Field(default=60, ge=0)
     submittedAt: Optional[str] = None
@@ -991,8 +997,11 @@ async def _plan_for(db: AsyncSession, orm: DiagnosticSessionORM) -> List[dict]:
 
 
 def _resolve_answer_text(rec: AnswerRecordIn, q: Optional[dict]) -> str:
-    """Page submits option INDEX (as string) for MCQ, raw text otherwise."""
+    """Page submits option INDEX (as string) for MCQ, raw text otherwise.
+    Open-ended items may carry answerText when selectedOptionId is absent."""
     raw = str(rec.selectedOptionId if rec.selectedOptionId is not None else "").strip()
+    if not raw and rec.answerText:
+        raw = rec.answerText.strip()
     options = (q or {}).get("options") or []
     if options:
         if raw.isdigit():
@@ -1230,12 +1239,17 @@ def _steer_plan_tail(plan: List[dict], answered: int, theta: float) -> float:
 
 def _feedback_payload(q: dict, is_correct: bool,
                       explanation: str = "") -> dict:
+    expl = next(
+        (e for e in (explanation, q.get("explanation", ""))
+         if e and str(e).strip().lower() not in ("null", "none")), "")
     return {
         "questionId": q.get("question_id", ""),
         "isCorrect": bool(is_correct),
         "correctOptionId": _correct_option_id(q),
-        "correctAnswer": str(q.get("correct_answer") or ""),
-        "explanation": next((e for e in (explanation, q.get("explanation", "")) if e and str(e).strip().lower() not in ("null", "none")), ""),
+        # bank fields can hold GRADER prose — scrub at serving; grading
+        # already ran against the raw key.
+        "correctAnswer": scrub_answer_key(q.get("correct_answer")),
+        "explanation": scrub_explanation(expl, bool(is_correct)),
     }
 
 
@@ -1352,11 +1366,17 @@ async def answer_question(
         out["questionsRemaining"] = 0
 
     # XP propagation — diagnostic answers count toward the same
-    # total_xp / level / streak numbers practice drives. award_xp takes a
-    # USERS id; the authenticated caller is the right identity.
+    # total_xp / level / streak numbers practice drives. Awarded via the
+    # canonical reward service; the (session, question) ref keys it
+    # exactly-once (belt-and-braces on top of the replay early-return above).
     try:
         from backend.services.progress_service import ProgressService
-        await ProgressService.award_xp(db, str(user.id), 10 if fb.is_correct else 2)
+        from backend.services.reward_ledger import xp_for_answer
+        await ProgressService.award_xp(
+            db, str(user.id), xp_for_answer(fb.is_correct),
+            event="diagnostic",
+            event_ref=f"{orm.id}:{payload.questionId}",
+        )
         await ProgressService.update_streak(db, str(user.id))
         await ProgressService.log_activity(
             db, str(user.id),

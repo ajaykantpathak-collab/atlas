@@ -126,11 +126,62 @@ _INTENT_MATHS = re.compile(
     r"conic|parabola|ellipse|hyperbola|circle)\b", re.I)
 
 
+_INTENT_BIOLOGY = re.compile(
+    r"\b(assertion|reason|photosynthesis|respiration|mitochondria|chloroplast|"
+    r"atp|kranz|c3|c4|rubisco|calvin|glycolysis|krebs|dna|replication|"
+    r"cardiac\s+output|stroke\s+volume|heart\s+rate|blood\s+group|punnett|"
+    r"chromosome|gene|genetics|mendel|ecology|enzyme|organelle)\b", re.I)
+
+_INTENT_HUMANITIES = re.compile(
+    r"\b(writ|habeas\s+corpus|mandamus|quo[-\s]warranto|certiorari|prohibition|"
+    r"article\s+32|article\s+226|fundamental\s+right|constitution|unlawful\s+arrest|"
+    r"unlawful\s+detention|essay|paragraph|analytical\s+paragraph|theme|"
+    r"history|chronology|civics|democracy|parliament|judiciary|"
+    # political-science vocabulary (wave98): theory names + institutional
+    # terms — a Nozick/Rawls/legislative-assembly stem was identifying as
+    # 'maths' at 0.0 confidence, which let an accountancy family claim it
+    r"nozick|rawls|locke|rousseau|aristotle|political\s+theor\w*|"
+    r"entitlement|rectification|justice|liberty|libertarian|egalitarian|"
+    r"secular(?:ism)?|federal(?:ism)?|sovereignt?y|citizenship|fraternity|"
+    r"amendment|coalition|opposition\s+part\w*|legislat(?:ure|ive)|"
+    r"preamble|republic|authoritarian|ideolog\w+|electorate|bicameral|"
+    r"rajya\s+sabha|lok\s+sabha|fundamental\s+dut\w+|directive\s+principles|"
+    r"separation\s+of\s+powers|judicial\s+review)\b", re.I)
+
+
+_INTENT_ENGLISH = re.compile(
+    r"\b(poem|poet|poetry|stanza|rhyme|rhyming|"
+    r"prose|author|narrator|narrative|protagonist|character|"
+    r"novel|drama|play|act|scene|dialogue|"
+    r"chapter|story|theme|irony|metaphor|simile|"
+    r"literature|literary|comprehension|passage|"
+    r"summary|character\s+sketch|moral\s+of\s+the\s+story|"
+    # grammar asks (wave98): the language families answer these and the
+    # subject gate needs the stem to resolve 'language'
+    r"indirect\s+speech|direct\s+speech|reported\s+speech|"
+    r"passive\s+voice|active\s+voice|narration|clause|"
+    r"punctuat\w*|jumbled|correlative|conjunction|"
+    r"degrees?\s+of\s+comparison|subject[-\s]verb|"
+    r"preposition|determiner|exclamatory|assertive)\b", re.I)
+
+_INTENT_ECONOMICS = re.compile(
+    r"\b(economics|economic|barter|barter\s+system|double\s+coincidence|"
+    r"money|currency|inflation|deflation|monetary|fiscal|"
+    r"gdp|national\s+income|microeconomics|macroeconomics|"
+    r"scarcity|opportunity\s+cost|demand|supply|elasticity|"
+    r"market\s+equilibrium|monopoly|oligopoly|rbi|banking|"
+    r"central\s+bank|commercial\s+bank|credit|lending)\b", re.I)
+
+_INTENT_GENERAL_SCIENCE = re.compile(
+    r"\b(science|scientific\s+method|scientific\s+inquiry|"
+    r"natural\s+science|scientific\s+theory|experimentation)\b", re.I)
+
+
 # --------------------------------------------------------------------------- #
 # Subject identification
 # --------------------------------------------------------------------------- #
 
-SUBJECTS = ("maths", "physics", "chemistry", "commerce")
+SUBJECTS = ("maths", "physics", "chemistry", "commerce", "biology", "humanities", "english", "economics", "science")
 
 
 def identify_subject(text: str) -> Tuple[str, float, Set[str]]:
@@ -154,6 +205,11 @@ def identify_subject(text: str) -> Tuple[str, float, Set[str]]:
     has_chemistry_intent = bool(_INTENT_CHEMISTRY.search(text))
     has_commerce_intent = bool(_INTENT_COMMERCE.search(text))
     has_maths_intent = bool(_INTENT_MATHS.search(text))
+    has_biology_intent = bool(_INTENT_BIOLOGY.search(text))
+    has_humanities_intent = bool(_INTENT_HUMANITIES.search(text))
+    has_english_intent = bool(_INTENT_ENGLISH.search(text))
+    has_economics_intent = bool(_INTENT_ECONOMICS.search(text))
+    has_gen_science = bool(_INTENT_GENERAL_SCIENCE.search(text))
 
     # 3. Check dimension-based subject signals (CONFIRMATION only)
     # Only count a dimension as subject-specific if it is NOT
@@ -165,7 +221,10 @@ def identify_subject(text: str) -> Tuple[str, float, Set[str]]:
 
     # 4. Score each subject -- intent words are primary
     scores = {"maths": 0.0, "physics": 0.0,
-              "chemistry": 0.0, "commerce": 0.0}
+              "chemistry": 0.0, "commerce": 0.0,
+              "biology": 0.0, "humanities": 0.0,
+              "english": 0.0, "economics": 0.0,
+              "science": 0.0}
 
     # Intent signals (primary, stronger weight)
     if has_physics_intent:
@@ -174,6 +233,16 @@ def identify_subject(text: str) -> Tuple[str, float, Set[str]]:
         scores["chemistry"] += 0.5
     if has_commerce_intent:
         scores["commerce"] += 0.5
+    if has_biology_intent:
+        scores["biology"] += 0.6
+    if has_humanities_intent:
+        scores["humanities"] += 0.6
+    if has_english_intent:
+        scores["english"] += 0.7
+    if has_economics_intent:
+        scores["economics"] += 0.7
+    if has_gen_science:
+        scores["science"] += 0.6
     if has_maths_intent:
         scores["maths"] += 0.4
 
@@ -190,9 +259,9 @@ def identify_subject(text: str) -> Tuple[str, float, Set[str]]:
     if commerce_dims and not has_maths_intent:
         scores["commerce"] += 0.4
 
-    # If no specific signals, default to maths
+    # If no specific signals, default to maths with 0.0 confidence (so callers know no intent matched)
     if max(scores.values()) == 0:
-        scores["maths"] = 0.3
+        return "maths", 0.0, all_dims
 
     # Pick the winner
     subject = max(scores, key=scores.get)

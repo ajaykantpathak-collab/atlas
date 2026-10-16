@@ -18,10 +18,10 @@ import math
 import pytest
 
 from backend.its.solver import unit_registry as ur
-from backend.its.solver.chemistry3_families import get_units as chem_units
-from backend.its.solver.chemistry3_families import model_chemistry3
-from backend.its.solver.physics3_families import get_units as phys_units
-from backend.its.solver.physics3_families import model_physics3
+from backend.its.solver.chemistry_families import get_units as chem_units
+from backend.its.solver.chemistry_families import model_chemistry3
+from backend.its.solver.physics_families import get_units as phys_units
+from backend.its.solver.physics_families import model_physics3
 
 _DEG_PER_RAD = 180.0 / math.pi
 

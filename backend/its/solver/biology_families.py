@@ -27,6 +27,10 @@ verification check, biological interpretation.
 
 Dispatcher: model_biology(text) -> ModelResult (first grounded row
 wins; a gate refusal lets the scan continue).  Deterministic only.
+
+WS-B merge (2026-10-10): biotech_numeric_families.py dissolved into
+this file per the consolidation map step 4 -- BIO_HEMOCYTOMETER
+moved verbatim (ids unchanged; verifier keys keep hitting).
 """
 
 from __future__ import annotations
@@ -247,10 +251,119 @@ def _c_punnett(g, m, text):
     eq = "Punnett square: P1 gametes x P2 gametes; P = favourable / total"
 
     # -- ask routing ------------------------------------------------------- #
-    if re.search(r"genotype\s+ratio", text, re.I):
+    # GAMETES ask (2026-10-07 P0, c10 sweep c10_bio_cbse_04_004#d3):
+    # "List all possible gametes this plant can produce..." -- the
+    # family answered the F2 cross instead.  The gamete set of p1 IS
+    # the ask: 2^n types in equal ratio, n = heterozygous gene pairs
+    # (Law of Independent Assortment).
+    if re.search(r"gametes?\b", text, re.I) and not re.search(
+            r"gamete\s+fusion|fusion\s+of\s+gametes|male\s+gamete|"
+            r"female\s+gamete", text, re.I):
+        gam = _gametes(p1)
+        n_het = sum(1 for i in range(0, len(p1), 2)
+                    if p1[i].lower() != p1[i + 1].lower())
+        ratio = ":".join("1" for _ in gam)
+        g_steps = list(steps) + [
+            f"Gametes of {p1}: one allele from EVERY gene pair enters "
+            "each gamete.",
+            f"{n_het} heterozygous pair(s) -> 2^{n_het} = {len(gam)} "
+            "gamete types, all equally likely (Law of Independent "
+            "Assortment).",
+        ]
+        return (None, g_steps,
+                ("gametes: " + ", ".join(gam)
+                 + f" ({len(gam)} types in equal {ratio} ratio)"),
+                None,
+                "independent assortment: 2^n gamete types, n = "
+                "heterozygous pairs",
+                {"n_gametes": float(len(gam))})
+    # F2-COUNT ask (2026-10-07 P0, c10 sweep c10_bio_cbse_04_003#d3):
+    # "The F1 plants are self-pollinated. If the F2 generation has N
+    # plants, how many are expected to be wrinkled yellow?" -- the
+    # family answered the P1 cross (1/1 dominant).  Chain F1 = P1 x P2
+    # (heterozygous at every differing gene), F2 = F1 x F1, and scale
+    # the requested phenotype class by N.  Only fires when every trait
+    # word can be CLASSIFIED against the parental clauses -- otherwise
+    # the family refuses rather than guess the class.
+    mf2 = re.search(
+        r"f\s*1[^.]{0,60}?(?:self[- ]?pollinat\w+|selfed)\s*\.?"
+        r"[^.]{0,80}?f\s*2[^.]{0,60}?(\d[\d,]*)\s+plants?[^.]{0,160}?"
+        r"how\s+many[^.]{0,80}?([a-z\-]+(?:\s+[a-z\-]+)?)\s*\?", text, re.I)
+    if mf2:
+        n_plants = float(mf2.group(1).replace(",", ""))
+        raw_words = mf2.group(2).split()
+        # dominant clause = around p1, recessive clause = around p2
+        i1, i2 = text.find(p1), text.find(p2)
+        if i1 < 0 or i2 < 0 or n_plants <= 0:
+            mf2 = None
+        else:
+            cls_words = []
+            for w in raw_words:
+                wpos = [m.start() for m in re.finditer(
+                    r"\b" + re.escape(w) + r"\b", text, re.I)]
+                # classify by the FIRST mention: the trait describes the
+                # parent clause it stands nearest to (NCERT wording
+                # names the dominant parent's traits first)
+                dom = None
+                if wpos:
+                    first = wpos[0]
+                    if abs(first - i1) <= abs(first - i2):
+                        dom = True
+                    else:
+                        dom = False
+                if dom is None:
+                    cls_words = None
+                    break
+                cls_words.append("dom" if dom else "rec")
+            if cls_words and len(cls_words) == n_genes:
+                # F2 = F1 x F1 requires a UNIFORM F1, which only holds
+                # when both parents are true-breeding (homozygous at
+                # every gene).  Per gene then: same homozygous allele
+                # both sides -> the F2 class is FIXED; differing
+                # homozygotes (RR x rr) -> F1 is the heterozygote and
+                # the F2 class segregates 3/4 : 1/4.
+                homo1 = all(p1[i].isupper() == p1[i + 1].isupper()
+                            for i in range(0, len(p1), 2))
+                homo2 = all(p2[i].isupper() == p2[i + 1].isupper()
+                            for i in range(0, len(p2), 2))
+                frac = 1.0
+                for gi in range(n_genes):
+                    a = p1[2 * gi:2 * gi + 2]
+                    b = p2[2 * gi:2 * gi + 2]
+                    if a == b:
+                        # same allele both sides: RR x RR or rr x rr
+                        fixed_dom = a[0].isupper()
+                        if (cls_words[gi] == "dom") != fixed_dom:
+                            frac = 0.0
+                            break
+                    elif homo1 and homo2:
+                        # RR x rr: F1 is the heterozygote -> 3:1
+                        frac *= 0.75 if cls_words[gi] == "dom" else 0.25
+                    else:
+                        frac = 0.0
+                        break
+                if 0 < frac <= 1:
+                    count = n_plants * frac
+                    csteps = list(steps) + [
+                        "F1 genotype: heterozygous at every gene where "
+                        "the parents differ (each parent was true-"
+                        "breeding).",
+                        "F2 = F1 x F1: per gene 3/4 dominant : 1/4 "
+                        "recessive; product across genes.",
+                        f"Requested class fraction = {frac:.6g}; "
+                        f"{n_plants:g} x {frac:.6g} = {count:g}.",
+                    ]
+                    return count, csteps, (
+                        f"{int(round(count))} plants out of "
+                        f"{int(n_plants)} are "
+                        + " ".join(raw_words)
+                        + f" ({count:g} = {n_plants:g} x {frac:.6g})"), \
+                        None, "F2 phenotype class fraction x N", \
+                        {"f2_count": count}
+    if re.search(r"geno(?:type|typic)\s+ratios?\b", text, re.I):
         return None, steps, f"genotype ratio {geno_ratio}", None, eq, \
             {"total_offspring": float(total)}
-    if re.search(r"phenotype\s+ratio", text, re.I):
+    if re.search(r"pheno(?:type|typic)\s+ratios?\b", text, re.I):
         return None, steps, f"phenotype ratio {pheno_ratio}", None, eq, \
             {"total_offspring": float(total)}
     prob_ask = re.search(
@@ -767,7 +880,11 @@ _RESP_FACTS: List[Tuple[str, str, str, str]] = [
      "not fully oxidised.",
      "Interpretation: the accumulated lactic acid causes the cramp; the "
      "oxygen debt clears it later."),
-    (r"aerobic",
+    # (?<!an) -- "anaerobic" contains the substring "aerobic"; without the
+    # lookbehind the claim "anaerobic respiration gives only 2 ATP..."
+    # shipped the AEROBIC equation as VERIFIED (class-10 corpus sweep,
+    # c10_bio_cbse_01_007#d3, 2026-10-06).
+    (r"(?<!an)aerobic",
      "aerobic respiration: glucose + oxygen --> carbon dioxide + water "
      "+ energy",
      "Cross-check: glucose is fully oxidised to CO2 and water inside the "
@@ -806,6 +923,12 @@ def _c_photo_resp_quiz(g, m, text):
             return None, _quiz_steps(ans, check, interp), ans, None, \
                 "NCERT biology fact table", {}
     # default word-equation only when the question is about the equation
+    # AEROBIC-ONLY guard (class-10 corpus sweep, c10_bio_cbse_01_007#d2,
+    # 2026-10-06): the default equation is the AEROBIC one -- an
+    # anaerobic/fermentation analysis ("Yeast cells produce ethanol and
+    # CO2...") must not receive it as VERIFIED.
+    if re.search(r"anaerobic|fermentation|ethanol|lactic", text, re.I):
+        return _GATE
     if is_photo and re.search(r"equation|CO\s*2|glucose", text, re.I):
         ans, check, interp = _PHOTO_FACTS[0][1], \
             _PHOTO_FACTS[0][2], _PHOTO_FACTS[0][3]
@@ -1570,15 +1693,41 @@ def _c_chargaff(g, m, text):
     if not re.search(r"DNA|chargaff|base\s+composition|nucleotides?",
                      text, re.I):
         return _GATE
+    # bind the given number to the nearest base word -- the natural
+    # "adenine is 20 percent" reading (word then number) always wins
+    # over a stray number that merely precedes another base's mention
+    # ("20 percent. What is the percentage of guanine?" binds 20 to
+    # adenine, never to guanine); accept % and percent/percentage.
+    _PCT = r"(?:%|percent(?:age)?)"
     given = None
+    best_gap = None
+    # pass 1: word ... number ("adenine is 20 percent", "%G = 24")
     for word, b, comp in _BASES:
-        mm = re.search(word + r"\D{0,35}?(\d+(?:\.\d+)?)\s*%", text, re.I)
-        if not mm:
-            mm = re.search(r"(\d+(?:\.\d+)?)\s*%\D{0,35}?" + word, text,
-                           re.I)
-        if mm:
-            given = (b, comp, float(mm.group(1)), word)
-            break
+        for mm in re.finditer(
+                word + r"[^\d]{0,30}?(?P<v>\d+(?:\.\d+)?)\s*" + _PCT,
+                text, re.I):
+            v = float(mm.group("v"))
+            if not (0 < v < 50):
+                continue
+            gap = mm.end() - mm.start()
+            if best_gap is None or gap < best_gap:
+                best_gap = gap
+                given = (b, comp, v, word)
+    # pass 2 (fallback): number ... word, tight clause only ("20% of
+    # the bases are cytosine"); 20 chars cannot cross into the next
+    # clause's ask ("24 %. What is the percentage of adenine" = 27).
+    if given is None:
+        for word, b, comp in _BASES:
+            for mm in re.finditer(
+                    r"(?P<v>\d+(?:\.\d+)?)\s*" + _PCT + r"\D{0,20}?" +
+                    word, text, re.I):
+                v = float(mm.group("v"))
+                if not (0 < v < 50):
+                    continue
+                given = (b, comp, v, word)
+                break
+            if given:
+                break
     if not given:
         return _GATE
     b, comp, v, word = given
@@ -1616,8 +1765,9 @@ def _c_chargaff(g, m, text):
         pat = (r"\b" + w2 + r"\b|\b" + b2 + r"\b(?=\s*[?=]|\s*%|\s+is|\s+"
                r"be\b)")
         for mm2 in re.finditer(pat, text, re.I):
-            near = text[max(0, mm2.start() - 30):mm2.end() + 30]
-            if re.search(r"(\d+(?:\.\d+)?)\s*%", near):
+            near = text[max(0, mm2.start() - 14):mm2.end() + 18]
+            if re.search(r"(\d+(?:\.\d+)?)\s*(?:%|percent)", near,
+                         re.I):
                 continue  # this mention carries the given number
             asked = b2
             break
@@ -1735,11 +1885,18 @@ def _c_cardiac(g, m, text):
         return _GATE
     sv = re.search(r"stroke\s+volume\D{0,30}?(\d+(?:\.\d+)?)\s*"
                    r"(ml|millilitres?|litres?|l\b)?", text, re.I)
+    if sv is None:
+        # abbreviated ICSE/ISC form: "SV = 55 mL", "SV is 70 ml"
+        sv = re.search(r"\bSV\b\D{0,10}?(\d+(?:\.\d+)?)\s*"
+                       r"(ml|millilitres?|litres?|l\b)?", text, re.I)
     hr = re.search(r"(\d+(?:\.\d+)?)\s*(?:beats?\s*(?:per|/)\s*"
                    r"min(?:ute)?s?|bpm)\b", text, re.I)
     if not hr:
         hr = re.search(r"heart\s+rate\D{0,20}?(\d+(?:\.\d+)?)", text,
                        re.I)
+    if not hr:
+        # abbreviated form: "HR = 110 beats per minute", "HR is 72"
+        hr = re.search(r"\bHR\b\D{0,10}?(\d+(?:\.\d+)?)", text, re.I)
     co = re.search(r"cardiac\s+output\D{0,30}?(\d+(?:\.\d+)?)\s*"
                    r"(ml|millilitres?|litres?|l\b)?", text, re.I)
     if sum(1 for x in (sv, hr, co) if x) < 2:
@@ -2175,6 +2332,653 @@ def _c_pedigree(g, m, text):
 
 
 # --------------------------------------------------------------------------- #
+# CISCE wave (2026-09-30): alveolar ventilation, blood-volume indices,
+# spore counts, dihybrid 9:3:3:1 counts, recombination frequency.
+# Handlers follow the file contract: deterministic regex slots, tight
+# plausibility gates, honest gate-refusal (never a guess).
+# --------------------------------------------------------------------------- #
+
+_ALV_NUM = r"(\d+(?:\.\d+)?(?:\s*[xX]\s*10\s*\^?\s*-?\d+)?)"
+
+
+def _alv_num(raw: str) -> float:
+    return float(re.sub(r"\s+", "", raw).replace("^", ""))
+
+
+def _c_alveolar(g, m, text):
+    """Alveolar ventilation VA = (tidal volume - dead space) x rate, and
+    the same equation solved for any one missing factor."""
+    if not re.search(r"alveolar\s+ventilation|dead\s+space", text, re.I):
+        return _GATE
+    ask_va = bool(re.search(r"alveolar\s+ventilation|ventilation\s+rate",
+                            text, re.I))
+    tv = re.search(r"tidal\s+volume\D{0,25}?" + _ALV_NUM +
+                   r"\s*(ml|millilitres?|litres?|l\b)?", text, re.I)
+    ds = re.search(r"dead\s+space\D{0,25}?" + _ALV_NUM +
+                   r"\s*(ml|millilitres?|litres?|l\b)?", text, re.I)
+    va = re.search(r"alveolar\s+ventilation\D{0,25}?" + _ALV_NUM +
+                   r"\s*(ml|millilitres?|litres?|l\b)?", text, re.I)
+    rate = re.search(r"(\d+(?:\.\d+)?)\s*breaths?\s*(?:per|/)\s*"
+                     r"min(?:ute)?s?", text, re.I)
+    if not rate:
+        rate = re.search(r"respiratory\s+rate\D{0,20}?" + _ALV_NUM,
+                         text, re.I)
+
+    def _ml(mm) -> Optional[float]:
+        if mm is None:
+            return None
+        v = _alv_num(mm.group(1))
+        if (mm.group(2) or "").lower().startswith("l"):
+            v *= 1000.0
+        return v
+
+    tvv, dsv, vav = _ml(tv), _ml(ds), _ml(va)
+    rv = float(rate.group(1)) if rate else None
+    for v, lo, hi, nm in ((tvv, 50, 8000, "tidal volume"),
+                          (dsv, 0, 800, "dead space"),
+                          (vav, 100, 200000, "alveolar ventilation"),
+                          (rv, 3, 90, "respiratory rate")):
+        if v is not None and not (lo <= v <= hi):
+            return _GATE
+    known = {"TV": tvv, "DS": dsv, "VA": vav, "R": rv}
+    if sum(1 for v in known.values() if v is not None) < 3:
+        return _GATE
+    if not ask_va and vav is not None and \
+            not re.search(r"dead\s+space", text, re.I):
+        return _GATE  # only solve here when alveolar data is the point
+    # solve the missing factor of VA = (TV - DS) x R
+    if tvv is None:
+        val = vav / rv + dsv
+        steps = ["Method: alveolar ventilation = (tidal volume - dead "
+                 "space) x respiratory rate, rearranged for tidal volume.",
+                 f"Given: alveolar ventilation = {_fmt(vav)} mL/min; dead "
+                 f"space = {_fmt(dsv)} mL; rate = {_fmt(rv)} breaths/min.",
+                 f"Tidal volume = {_fmt(vav)}/{_fmt(rv)} + {_fmt(dsv)} = "
+                 f"{_fmt(val)} mL.",
+                 f"Check: ({_fmt(val)} - {_fmt(dsv)}) x {_fmt(rv)} = "
+                 f"{_fmt((val - dsv) * rv)} mL/min -- matches.",
+                 "Interpretation: only the fresh air reaching the alveoli "
+                 "(TV minus dead space) takes part in gas exchange."]
+        return val, steps, f"tidal volume = {_fmt(val)} mL", None, \
+            "VA = (TV - DS) x rate", known
+    if dsv is None:
+        val = tvv - vav / rv
+        if val < 0:
+            return _GATE
+        steps = ["Method: alveolar ventilation = (tidal volume - dead "
+                 "space) x respiratory rate, rearranged for dead space.",
+                 f"Given: alveolar ventilation = {_fmt(vav)} mL/min; "
+                 f"tidal volume = {_fmt(tvv)} mL; rate = {_fmt(rv)} "
+                 "breaths/min.",
+                 f"Dead space = {_fmt(tvv)} - {_fmt(vav)}/{_fmt(rv)} = "
+                 f"{_fmt(val)} mL.",
+                 f"Check: ({_fmt(tvv)} - {_fmt(val)}) x {_fmt(rv)} = "
+                 f"{_fmt((tvv - val) * rv)} mL/min -- matches.",
+                 "Interpretation: anatomical dead space in a healthy "
+                 "adult is about 150 mL."]
+        return val, steps, f"dead space = {_fmt(val)} mL", None, \
+            "VA = (TV - DS) x rate", known
+    if rv is None:
+        val = vav / (tvv - dsv)
+        if not (3 <= val <= 90):
+            return _GATE
+        steps = ["Method: alveolar ventilation = (tidal volume - dead "
+                 "space) x respiratory rate, rearranged for the rate.",
+                 f"Given: alveolar ventilation = {_fmt(vav)} mL/min; "
+                 f"tidal volume = {_fmt(tvv)} mL; dead space = "
+                 f"{_fmt(dsv)} mL.",
+                 f"Rate = {_fmt(vav)} / ({_fmt(tvv)} - {_fmt(dsv)}) = "
+                 f"{_fmt(val)} breaths/min.",
+                 f"Check: ({_fmt(tvv)} - {_fmt(dsv)}) x {_fmt(val)} = "
+                 f"{_fmt((tvv - dsv) * val)} mL/min -- matches.",
+                 "Interpretation: the resting rate stays near 12-16 "
+                 "breaths per minute."]
+        return val, steps, (f"respiratory rate = {_fmt(val)} breaths per "
+                            "minute"), None, "VA = (TV - DS) x rate", known
+    val = (tvv - dsv) * rv
+    if val <= 0:
+        return _GATE
+    steps = ["Method: alveolar ventilation = (tidal volume - dead space) "
+             "x respiratory rate -- only fresh air reaching the alveoli "
+             "participates in gas exchange.",
+             f"Given: tidal volume = {_fmt(tvv)} mL; dead space = "
+             f"{_fmt(dsv)} mL; rate = {_fmt(rv)} breaths/min.",
+             f"Alveolar ventilation = ({_fmt(tvv)} - {_fmt(dsv)}) x "
+             f"{_fmt(rv)} = {_fmt(tvv - dsv)} x {_fmt(rv)} = "
+             f"{_fmt(val)} mL/min.",
+             f"Check: {_fmt(val)} / {_fmt(rv)} = {_fmt(val / rv)} mL of "
+             "fresh air per breath, below the tidal volume -- consistent.",
+             "Interpretation: minute ventilation would be "
+             f"{_fmt(tvv * rv)} mL/min; the {_fmt(dsv)} mL/breath of "
+             "dead-space air never reaches the alveoli."]
+    return val, steps, (f"alveolar ventilation = {_fmt(val)} mL per "
+                        "minute"), None, "VA = (TV - DS) x rate", \
+        {"TV_ml": tvv, "DS_ml": dsv, "rate": rv, "VA_ml_min": val}
+
+
+_HCT_RX = r"(?:haematocrit|hematocrit|packed\s+cell\s+volume|PCV)\D{0,20}?" \
+          r"(\d+(?:\.\d+)?)\s*(%|percent)?"
+
+
+def _hct_frac(raw: float, pct: Optional[str]) -> Optional[float]:
+    """Stated hematocrit -> fraction; '%' / 'percent' marker or a bare
+    number > 1 both mean a percentage reading."""
+    if pct:
+        return raw / 100.0
+    if raw > 1.0:
+        return raw / 100.0
+    return raw
+
+
+def _c_blood_volume(g, m, text):
+    """Hematocrit indices: RBC volume = TBV x Hct; TBV = plasma /
+    (1 - Hct); new hematocrit after plasma loss keeps the red cells."""
+    if not re.search(r"haematocrit|hematocrit|packed\s+cell\s+volume|"
+                     r"\bPCV\b", text, re.I):
+        return _GATE
+    hm = re.search(_HCT_RX, text, re.I)
+    bv = re.search(r"(?:total\s+)?blood\s+volume\D{0,20}?" + _ALV_NUM +
+                   r"\s*(ml|millilitres?|litres?|l\b)?", text, re.I)
+    pv = re.search(r"plasma\s+volume\D{0,20}?" + _ALV_NUM +
+                   r"\s*(ml|millilitres?|litres?|l\b)?", text, re.I)
+    loss = re.search(r"los(?:es|t|ing)\D{0,20}?" + _ALV_NUM +
+                     r"\s*(ml|millilitres?|litres?|l\b)?\s+of\s+plasma",
+                     text, re.I)
+
+    def _litres(mm) -> Optional[float]:
+        if mm is None:
+            return None
+        v = _alv_num(mm.group(1))
+        u = (mm.group(2) or "").lower()
+        if u.startswith("ml") or u.startswith("milli"):
+            v /= 1000.0
+        return v  # bare numbers read as litres (blood panels are in L)
+
+    hct = _hct_frac(float(hm.group(1)), hm.group(2)) if hm else None
+    bvv, pvv = _litres(bv), _litres(pv)
+    losv = _litres(loss)
+    for v, lo, hi, nm in ((hct, 0.1, 0.85, "hematocrit"),
+                          (bvv, 0.5, 8.0, "blood volume"),
+                          (pvv, 0.5, 6.0, "plasma volume"),
+                          (losv, 0.05, 3.0, "plasma loss")):
+        if v is not None and not (lo <= v <= hi):
+            return _GATE
+    # mode: new hematocrit after plasma loss (red cells conserved)
+    if losv is not None and hct is not None and bvv is not None and \
+            re.search(r"new\s+(?:haematocrit|hematocrit|hct)|"
+                      r"haematocrit\s+(?:now|after)|"
+                      r"hematocrit\s+(?:now|after)|what\s+(?:is|will\s+"
+                      r"be)\s+the\s+(?:new\s+)?(?:haema?tocrit|hct)",
+                      text, re.I):
+        rbc = bvv * hct
+        newv = bvv - losv
+        if newv <= rbc:
+            return _GATE
+        val = rbc / newv * 100.0
+        steps = ["Method: losing plasma alone does not change the red-"
+                 "cell volume; the new hematocrit = RBC volume / new "
+                 "blood volume.",
+                 f"RBC volume = {_fmt(bvv)} L x {_fmt(hct * 100)}% = "
+                 f"{_fmt(rbc)} L; new blood volume = {_fmt(bvv)} - "
+                 f"{_fmt(losv)} = {_fmt(newv)} L.",
+                 f"New hematocrit = {_fmt(rbc)}/{_fmt(newv)} = "
+                 f"{_fmt(val)}%.",
+                 f"Check: {_fmt(rbc)} L cells in {_fmt(newv)} L blood "
+                 f"raises the packed-cell fraction from "
+                 f"{_fmt(hct * 100)}% -- consistent (hemoconcentration).",
+                 "Interpretation: plasma loss (burns, dehydration) raises "
+                 "the hematocrit; whole-blood loss does not."]
+        return val, steps, f"new hematocrit = {_fmt(val)}%", None, \
+            "Hct' = (TBV x Hct) / (TBV - loss)", \
+            {"tbv_l": bvv, "hct": hct, "loss_l": losv, "new_hct_pct": val}
+    # mode: RBC / plasma volume split of a stated blood volume
+    if bvv is not None and hct is not None:
+        ask_plasma = bool(re.search(r"plasma\s+volume|volume\s+of\s+"
+                                    r"plasma", text, re.I))
+        val = bvv * (1.0 - hct) if ask_plasma else bvv * hct
+        what = "plasma" if ask_plasma else "red blood cells"
+        steps = ["Method: the hematocrit is the red-cell FRACTION of "
+                 "blood volume, so the remaining fraction is plasma.",
+                 f"Given: blood volume = {_fmt(bvv)} L, hematocrit = "
+                 f"{_fmt(hct * 100)}%.",
+                 f"{what.capitalize()} volume = {_fmt(bvv)} x "
+                 f"{'(1 - ' + _fmt(hct) + ')' if ask_plasma else _fmt(hct)}"
+                 f" = {_fmt(val)} L.",
+                 f"Check: {_fmt(bvv * hct)} L cells + "
+                 f"{_fmt(bvv * (1 - hct))} L plasma = {_fmt(bvv)} L -- "
+                 "closes.",
+                 "Interpretation: a 45% hematocrit means slightly less "
+                 "than half the blood volume is cells."]
+        return val, steps, f"{what} volume = {_fmt(val)} L", None, \
+            "V = TBV x fraction", {"tbv_l": bvv, "hct": hct, "V_l": val}
+    # mode: total blood volume from plasma volume and hematocrit
+    if pvv is not None and hct is not None:
+        if hct >= 0.85:
+            return _GATE
+        val = pvv / (1.0 - hct)
+        steps = ["Method: plasma is the non-cell fraction, "
+                 "plasma = TBV x (1 - hematocrit); solve for TBV.",
+                 f"Given: plasma volume = {_fmt(pvv)} L, hematocrit = "
+                 f"{_fmt(hct * 100)}%.",
+                 f"TBV = {_fmt(pvv)} / (1 - {_fmt(hct)}) = "
+                 f"{_fmt(val)} L.",
+                 f"Check: {_fmt(val)} L x {_fmt(hct * 100)}% = "
+                 f"{_fmt(val * hct)} L of cells; cells + plasma = "
+                 f"{_fmt(val * hct + pvv)} L -- closes.",
+                 "Interpretation: total blood volume stays near 5 L in a "
+                 "healthy adult."]
+        return val, steps, (f"total blood volume = {_fmt(val)} L"), None, \
+            "TBV = plasma / (1 - Hct)", \
+            {"plasma_l": pvv, "hct": hct, "tbv_l": val}
+    return _GATE
+
+
+def _c_spore_counts(g, m, text):
+    """Spore arithmetic: sporangia x spores-per-sporangium, germination
+    percentages, germination probability, and binary-fission
+    generation counts."""
+    if not re.search(r"spores?\b|sporang", text, re.I):
+        return _GATE
+    num = _ALV_NUM
+
+    def _num(raw: str) -> float:
+        s = re.sub(r"[\s,]", "", raw)
+        s = s.replace("x", "e").replace("X", "e").replace("^", "")
+        return float(s)
+
+    # mode: generation count from a single founder (binary fission)
+    _NW = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+           "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10}
+    gen = re.search(r"(?:single|one|a)\s+(?:\w+\s+)?(?:spore|cell|"
+                    r"basidiospore)[^.]{0,120}?"
+                    r"(?:(?P<n>\d{1,2})|(?P<nw>one|two|three|four|five|"
+                    r"six|seven|eight|nine|ten))\s+successive\s+"
+                    r"generations?"
+                    r"|(?:(?P<n2>\d{1,2})|(?P<nw2>one|two|three|four|"
+                    r"five|six|seven|eight|nine|ten))\s+successive\s+"
+                    r"generations?",
+                    text, re.I)
+    if gen is not None:
+        if gen.group("n"):
+            n = int(gen.group("n"))
+        elif gen.group("n2"):
+            n = int(gen.group("n2"))
+        else:
+            n = _NW[(gen.group("nw") or gen.group("nw2")).lower()]
+        if not (1 <= n <= 40):
+            return _GATE
+        val = float(2 ** n)
+        steps = ["Method: each generation of binary fission doubles the "
+                 "number of individuals, so N = 2^n for one founder.",
+                 f"Founder: 1 spore; generations n = {n}.",
+                 f"N = 2^{n} = {_fmt(val)} individuals.",
+                 f"Check: doubling {n} times gives {n} doublings -- "
+                 "powers of two stay even above 2^1.",
+                 "Interpretation: fungal/bacterial spore lineages explode "
+                 "logarithmically, not linearly."]
+        return val, steps, f"individuals = {_fmt(val)}", None, \
+            "N = 2^n", {"generations": n}
+    # mode: percentage germinated from a plated count
+    germ = re.search(r"(\d+(?:\.\d+)?)\s*(%|percent)\s+have\s+"
+                     r"germinat\w+|germinat\w+[^.]{0,40}?"
+                     r"(\d+(?:\.\d+)?)\s*(%|percent)", text, re.I)
+    plated = re.search(r"(\d[\d,]*(?:\.\d+)?(?:\s*[xX]\s*10\s*\^?\s*"
+                       r"-?\d+)?)\s*spores?\b", text, re.I)
+    if germ is not None and plated is not None and \
+            re.search(r"how\s+many|number\s+of\s+spores?\s+"
+                      r"germinat\w+|calculate", text, re.I):
+        pct = float(germ.group(1))
+        tot = _num(plated.group(1))
+        if not (0.0 < pct <= 100.0) or tot <= 0:
+            return _GATE
+        val = tot * pct / 100.0
+        steps = ["Method: germinated spores = plated spores x "
+                 "germination percentage.",
+                 f"Given: {_fmt(tot)} spores plated; germination = "
+                 f"{_fmt(pct)}%.",
+                 f"Germinated = {_fmt(tot)} x {_fmt(pct)}/100 = "
+                 f"{_fmt(val)}.",
+                 f"Check: {_fmt(val)}/{_fmt(tot)} = {_fmt(val / tot * 100)}"
+                 "% -- matches the stated percentage.",
+                 "Interpretation: the rest remain dormant or non-viable."]
+        return val, steps, (f"germinated spores = {_fmt(val)}"), None, \
+            "germinated = plated x pct/100", {"plated": tot, "pct": pct}
+    # mode: expected germinations from a per-spore probability
+    prob = re.search(r"(\d+(?:\.\d+)?)\s*(%|percent)\s+chance", text, re.I)
+    if prob is not None and plated is not None:
+        p = float(prob.group(1))
+        tot = _num(plated.group(1))
+        if not (0.0 < p <= 100.0) or tot <= 0:
+            return _GATE
+        val = tot * p / 100.0
+        steps = ["Method: expected germinations = number of spores x "
+                 "germination probability.",
+                 f"Given: {_fmt(tot)} spores; each germinates with "
+                 f"probability {_fmt(p)}%.",
+                 f"Expected = {_fmt(tot)} x {_fmt(p)}/100 = {_fmt(val)}.",
+                 f"Check: {_fmt(val)} is far below {_fmt(tot)} -- a "
+                 "probability, not a certainty.",
+                 "Interpretation: most microscopic spores never find "
+                 "suitable conditions."]
+        return val, steps, (f"expected germinated = {_fmt(val)}"), None, \
+            "E = N x p", {"spores": tot, "p_pct": p}
+    # mode: total spores from sporangia x spores each
+    spo = re.search(r"(\d[\d,]*(?:\.\d+)?)\s+sporangia\b", text, re.I)
+    each = re.search(r"each[^.]{0,30}?produces?\D{0,15}?"
+                     r"(\d[\d,]*(?:\.\d+)?(?:\s*[xX]\s*10\s*\^?\s*-?\d+)?)"
+                     r"\s*spores?\b|sporangium\s+produces?\D{0,15}?"
+                     r"(\d[\d,]*(?:\.\d+)?(?:\s*[xX]\s*10\s*\^?\s*-?\d+)?)"
+                     r"\s*spores?\b", text, re.I)
+    if spo is not None and each is not None:
+        ns = _num(spo.group(1))
+        per = _num(each.group(1) or each.group(2))
+        if ns <= 0 or per <= 0 or ns * per > 1e15:
+            return _GATE
+        val = ns * per
+        steps = ["Method: total spores = number of sporangia x spores "
+                 "produced per sporangium.",
+                 f"Given: {fmt_int(ns)} sporangia; {_fmt(per)} spores "
+                 "each.",
+                 f"Total = {fmt_int(ns)} x {_fmt(per)} = {_fmt(val)} "
+                 "spores.",
+                 f"Check: {_fmt(val)}/{_fmt(per)} = {fmt_int(ns)} "
+                 "sporangia -- closes.",
+                 "Interpretation: spore dispersal trades individual "
+                 "survival odds for sheer numbers."]
+        return val, steps, f"total spores = {_fmt(val)}", None, \
+            "N = sporangia x per", {"sporangia": ns, "per": per}
+    return _GATE
+
+
+def fmt_int(v: float) -> str:
+    return f"{v:.6g}"
+
+
+def _c_dihybrid_counts(g, m, text):
+    """Expected OFFSPRING COUNTS from a 9:3:3:1 dihybrid self-cross:
+    both-traits 9/3/3/1, one-trait 12/4 out of 16."""
+    if not re.search(r"dihybrid|9\s*:\s*3\s*:\s*3\s*:\s*1", text, re.I):
+        return _GATE
+    tot = re.search(r"(\d{2,6})\s+(?:offspring|progeny|seeds?|plants?|"
+                    r"peas?|individuals)", text, re.I)
+    if tot is None:
+        tot = re.search(r"produces?\s+(\d{2,6})\b|yield\w*\s+(\d{2,6})\b",
+                        text, re.I)
+        if tot is None:
+            return _GATE
+    total = float(tot.group(1) or tot.group(2))
+    if not (16 <= total <= 100000):
+        return _GATE
+    tl = text.lower()
+    # trait -> (character pair, is_dominant_expression)
+    trait_map = {"round": (0, True), "wrinkled": (0, False),
+                 "yellow": (1, True), "green": (1, False)}
+    asked = None
+    am = re.search(r"(?:how\s+many|number\s+of\s+(?:expected\s+)?|"
+                   r"expected\s+number\s+of)", tl)
+    if am is not None:
+        span = tl[am.end():am.end() + 90]
+        words = []
+        for w in re.findall(r"\b(round|wrinkled|yellow|green)\b", span):
+            if w not in words:
+                words.append(w)
+        asked = words[:2]
+    if not asked:
+        gm = re.search(r"\((?P<gen>rryy|rrgg)\)\s*offspring", tl)
+        if gm is not None:
+            asked = {"rryy": ["wrinkled", "green"],
+                     "rrgg": ["wrinkled", "green"]}[gm.group("gen")]
+    if not asked:
+        return _GATE
+    # fraction out of 16 from the asked character expressions
+    pairs = {}
+    n_dom = 0
+    n_rec = 0
+    for w in asked:
+        pair, dom = trait_map[w]
+        if pair in pairs:
+            return _GATE  # both expressions of one character: ambiguous
+        pairs[pair] = dom
+        n_dom += 1 if dom else 0
+        n_rec += 0 if dom else 1
+    if n_dom == 2:
+        frac16 = 9.0
+    elif n_dom == 1 and n_rec == 1:
+        frac16 = 3.0
+    elif n_rec == 2:
+        frac16 = 1.0
+    elif n_dom == 1:
+        frac16 = 12.0
+    else:
+        frac16 = 4.0
+    val = total * frac16 / 16.0
+    asked_s = " and ".join(asked)
+    steps = ["Method: a dihybrid RrYy x RrYy gives the 9:3:3:1 "
+             "phenotype ratio -- 9 both dominant, 3 + 3 one dominant one "
+             "recessive, 1 both recessive (16 boxes).",
+             f"Asked: {asked_s}; that box is {frac16:.0f}/16 of the "
+             "progeny.",
+             f"Expected count = {fmt_int(total)} x {frac16:.0f}/16 = "
+             f"{_fmt(val)}.",
+             f"Check: {_fmt(val)}/{fmt_int(total)} = "
+             f"{_fmt(val / total * 100)}% = {frac16:.0f}/16 -- consistent "
+             "with the ratio.",
+             "Interpretation: counts are expectations; real crosses "
+             "fluctuate around them by chance."]
+    return val, steps, (f"expected {asked_s} = {_fmt(val)} of "
+                        f"{fmt_int(total)}"), None, \
+        "count = total x n/16", {"total": total, "frac16": frac16}
+
+
+def _c_recomb_freq(g, m, text):
+    """Recombination frequency: RF% = recombinants / total progeny x
+    100 (test cross), and the reverse expected-count solve."""
+    if not re.search(r"recombination\s+(?:frequency|value|percent)|"
+                     r"map\s+distance|recombinant", text, re.I):
+        return _GATE
+    # reverse: RF given, total progeny -> expected recombinant count
+    rf = re.search(r"recombination\s+(?:frequency\s+)?(?:of\s+)?"
+                   r"(?:is\s+)?(\d+(?:\.\d+)?)\s*(%|percent)?", text,
+                   re.I)
+    tot = re.search(r"(\d{2,6})\s+(?:offspring|progeny|individuals|"
+                    r"seeds?)", text, re.I)
+    if rf is not None and tot is not None and \
+            re.search(r"how\s+many|number\s+of\s+recombinant|expected",
+                      text, re.I):
+        pct = float(rf.group(1))
+        total = float(tot.group(1))
+        if not (0.0 <= pct <= 50.0) or not (10 <= total <= 100000):
+            return _GATE
+        val = total * pct / 100.0
+        steps = ["Method: recombination frequency = recombinant "
+                 "progeny / total progeny x 100; rearranged, expected "
+                 "recombinants = RF x total.",
+                 f"Given: RF = {_fmt(pct)}%; progeny = {fmt_int(total)}.",
+                 f"Expected recombinants = {fmt_int(total)} x "
+                 f"{_fmt(pct)}/100 = {_fmt(val)}.",
+                 f"Check: {_fmt(val)}/{fmt_int(total)} = {_fmt(pct)}% -- "
+                 "matches the stated frequency.",
+                 "Interpretation: 1% recombination = 1 map unit (m.u. = "
+                 "centimorgan)."]
+        return val, steps, (f"expected recombinants = {_fmt(val)} of "
+                            f"{fmt_int(total)}"), None, \
+            "R = RF x total", {"rf_pct": pct, "total": total}
+    # forward: parental + recombinant counts -> RF%
+    par = re.search(r"(\d{2,6})\s+parental", text, re.I)
+    rec = re.search(r"(\d{1,6})\s+recombinant", text, re.I)
+    if par is None or rec is None:
+        return _GATE
+    np_, nr = float(par.group(1)), float(rec.group(1))
+    total = np_ + nr
+    if total <= 0:
+        return _GATE
+    val = nr / total * 100.0
+    if not (0.0 <= val <= 50.0):
+        return _GATE
+    steps = ["Method: recombination frequency = recombinant progeny / "
+             "total progeny x 100; in a test cross the frequency equals "
+             "the map distance between the genes.",
+             f"Given: {fmt_int(np_)} parental and {fmt_int(nr)} "
+             f"recombinant offspring (total {fmt_int(total)}).",
+             f"RF = {fmt_int(nr)}/{fmt_int(total)} x 100 = {_fmt(val)}%.",
+             f"Check: {_fmt(val)}% of {fmt_int(total)} = "
+             f"{_fmt(total * val / 100)} recombinants -- closes.",
+             f"Interpretation: the two genes are {_fmt(val)} map units "
+             "apart; RF never exceeds 50% (independent assortment)."]
+    return val, steps, f"recombination frequency = {_fmt(val)}%", None, \
+        "RF = recombinants / total x 100", \
+        {"parental": np_, "recombinant": nr, "rf_pct": val}
+
+
+# --------------------------------------------------------------------------- #
+# BIOTECH NUMERICS (moved from biotech_numeric_families.py, WS-B
+# map step 4 / map section 5.4 -- one biology file; the row rides
+# the model_biology dispatcher at its registration position).
+# Unique helpers move verbatim; the two names that collided with
+# this module's helpers keep their bodies as _bt_normalize/_bt_fmt.
+# --------------------------------------------------------------------------- #
+
+_DEV_RE = re.compile(r"[\u0900-\u097F]")
+
+_REFUSE_RE = re.compile(
+    r"\b(?:design\w*|critique|critically|percent\s+error|percentage\s+"
+    r"error|in\s+agreement|agreement\s+between|confidence\s+interval|"
+    r"poisson|discuss\w*|evaluate\w*|explain\s+why|procedural\s+error|"
+    r"identify\s+the\s+likely)\b", re.I)
+
+
+def _bt_normalize(text: str) -> str:
+    t = (text or "")
+    for a, b in (("\u2018", "'"), ("\u2019", "'"), ("\u201c", '"'),
+                 ("\u201d", '"'), ("\u2013", "-"), ("\u2014", "-"),
+                 ("\u2011", "-"), ("\u2212", "-"), ("\u00a0", " "),
+                 ("\u00d7", "x"), ("\u00b5", "u")):
+        t = t.replace(a, b)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _sci(x: float) -> str:
+    """Corpus-style scientific formatting: 2400000 -> '2.4 x 10^6'."""
+    if x == 0:
+        return "0"
+    import math
+    e = int(math.floor(math.log10(abs(x))))
+    if -2 <= e <= 5:
+        return f"{x:.6g}"
+    mant = x / (10 ** e)
+    mant_s = f"{mant:.6g}"
+    return f"{mant_s} x 10^{e}"
+
+# --------------------------------------------------------------------------- #
+# BIO_HEMOCYTOMETER
+# --------------------------------------------------------------------------- #
+
+
+def _c_hemocytometer(g, m, text):
+    norm = _bt_normalize(text)
+    if not norm or _DEV_RE.search(norm):
+        return _GATE
+    if not re.search(r"hemocytometer|haemocytometer|cells\s+per\s+(?:large"
+                     r"\s+)?square|per\s+large\s+square", norm, re.I):
+        return _GATE
+    if not re.search(r"concentration\s+in\s+cells|cells\s*ml|cells\s+per\s+"
+                     r"ml|what\s+concentration|report\w*\s+concentration|"
+                     r"viable\s+cell\s+concentration|correct\s+"
+                     r"concentration", norm, re.I):
+        return _GATE  # only concentration asks; essays stay GUIDED
+    if _REFUSE_RE.search(norm):
+        return _GATE
+    dil: Optional[float] = None
+    dm = re.search(r"1\s*:\s*(\d+)\s*(?:dilution|diluted)?", norm)
+    if dm:
+        dil = float(dm.group(1))
+    if dil is None:
+        # equal-volume mixing: "100 uL suspension mixed with 100 uL trypan
+        # blue" -> dilution factor (a + b)/a
+        mix = re.search(
+            r"(\d+(?:\.\d+)?)\s*ul[^.]{0,40}?(?:is\s+)?mixed\s+with\s+"
+            r"(\d+(?:\.\d+)?)\s*ul", norm, re.I)
+        if mix and float(mix.group(1)) > 0:
+            a, b = float(mix.group(1)), float(mix.group(2))
+            dil = (a + b) / a
+    if not dil or dil < 1:
+        return _GATE
+    avg: Optional[float] = None
+    how = ""
+    am = re.search(
+        r"average\s+of\s+(\d+(?:\.\d+)?)\s+cells?\s+per\s+(?:large\s+)?"
+        r"square|counts?\s+an\s+average\s+of\s+(\d+(?:\.\d+)?)\s+cells?\s+"
+        r"per\s+(?:large\s+)?square|average\s+count\s+is\s+"
+        r"(\d+(?:\.\d+)?)", norm, re.I)
+    if am:
+        avg = float(next(v for v in am.groups() if v))
+        how = f"stated average count = {_bt_fmt(avg)} cells per large square."
+    else:
+        # explicit count list: average the stated per-square counts
+        lm = re.search(
+            r"counts?\s*(?:\([^)]*\))?\s*(?:are|is|were|:)?\s*"
+            r"(\d+(?:\.\d+)?(?:\s*,\s*\d+(?:\.\d+)?)+)", norm, re.I)
+        vals: List[float] = []
+        if lm:
+            vals = [float(v) for v in lm.group(1).split(",")]
+        else:
+            # fallback: first comma-run of >= 3 numbers in the text
+            # ("... diluted sample: 12, 15, 9, 14, 10.")
+            for run in re.findall(
+                    r"\d+(?:\.\d+)?(?:\s*,\s*\d+(?:\.\d+)?)+", norm):
+                cand = [float(v) for v in run.split(",")]
+                if len(cand) >= 3:
+                    vals = cand
+                    break
+        if vals:
+            if len(vals) < 2:
+                return _GATE
+            avg = sum(vals) / len(vals)
+            how = ("average of the stated counts "
+                   f"({', '.join(str(int(v)) if v == int(v) else str(v) for v in vals)})"
+                   f" = {_bt_fmt(avg)} cells per large square.")
+        else:
+            sm = re.search(
+                r"(\d+(?:\.\d+)?)\s+cells?\s+in\s+the\s+(?:centre|central|"
+                r"corner)\s+(?:large\s+)?square", norm, re.I)
+            if sm:
+                avg = float(sm.group(1))
+                how = (f"single-square count = {_bt_fmt(avg)} cells (used as "
+                       "the stated average).")
+    if not avg or avg <= 0:
+        return _GATE
+    chamber = 10 ** 4  # 0.1 mm depth x 1 mm^2 square = 10^-4 mL
+    conc = avg * dil * chamber
+    steps = [
+        "Method: an Improved Neubauer large square holds 0.1 mm x "
+        "1 mm^2 = 0.1 mm^3 = 10^-4 mL, so cells per mL = average count "
+        "per large square x dilution factor x 10^4.",
+        f"Given: average count per large square = {_bt_fmt(avg)}; dilution "
+        f"factor = {_bt_fmt(dil)}.  {how}",
+        f"Rule applied: chamber factor 10^4 converts counts per square "
+        f"to counts per mL of the DILUTED suspension: {_bt_fmt(avg)} x "
+        f"10^4 = {_sci(avg * chamber)} cells/mL.",
+        f"Rule applied: undo the dilution -- {_sci(avg * chamber)} x "
+        f"{_bt_fmt(dil)} = {_sci(conc)} cells/mL in the original "
+        "suspension.",
+        f"Check: dividing back, {_sci(conc)} / ({_bt_fmt(dil)} x 10^4) = "
+        f"{_bt_fmt(avg)} cells per large square -- the arithmetic closes.",
+        "Interpretation: the original suspension concentration is "
+        f"{_sci(conc)} cells per mL; the dilution factor multiplies "
+        "(never divides) the counted concentration.",
+    ]
+    return conc, steps, f"{_sci(conc)} cells per mL", None, \
+        "cells/mL = avg count x dilution factor x 10^4", \
+        {"cells_per_ml": conc, "avg_count": avg, "dilution": dil}
+
+
+def _bt_fmt(x: float) -> str:
+    if abs(x - round(x)) < 1e-9:
+        return str(int(round(x)))
+    return f"{x:.6g}".rstrip("0")
+
+
+# --------------------------------------------------------------------------- #
 # TABLE: (family_id, trigger, compute)
 # --------------------------------------------------------------------------- #
 
@@ -2191,6 +2995,13 @@ _TABLE: List[Tuple[str, str, Any]] = [
     ("BLOOD_GROUP_RH",
      r"\bRh\b|\bDd\b|\bdd\b|\bDD\b",
      _c_blood_rh),
+    ("DIHYBRID_COUNTS",
+     r"dihybrid|9\s*:\s*3\s*:\s*3\s*:\s*1",
+     _c_dihybrid_counts),
+    ("RECOMBINATION_FREQUENCY",
+     r"recombination\s+(?:frequency|value|percent)|map\s+distance|"
+     r"recombinant",
+     _c_recomb_freq),
     ("PUNNETT_CROSS", _PUNNETT_PAIR, _c_punnett),
     ("PUNNETT_SELF",
      r"self(?:[- ]?(?:pollinat\w+|fertilis\w+|fertiliz\w+)|\s*cross)",
@@ -2199,6 +3010,12 @@ _TABLE: List[Tuple[str, str, Any]] = [
     ("PEDIGREE_PROBABILITY", r"pedigree", _c_pedigree),
 
     # ---- physiology ----
+    ("ALVEOLAR_VENTILATION",
+     r"alveolar\s+ventilation|dead\s+space",
+     _c_alveolar),
+    ("BLOOD_VOLUME_INDICES",
+     r"haematocrit|hematocrit|packed\s+cell\s+volume|\bPCV\b",
+     _c_blood_volume),
     ("CARDIAC_OUTPUT",
      r"cardiac\s+output|stroke\s+volume",
      _c_cardiac),
@@ -2265,6 +3082,9 @@ _TABLE: List[Tuple[str, str, Any]] = [
     ("CELL_DIVISION_COUNT",
      r"mitosis|mitotic|meios\s?is|meiotic",
      _c_cell_division),
+    ("SPORE_COUNTS",
+     r"spores?\b|sporang",
+     _c_spore_counts),
 
     # ---- biotech ----
     ("RESTRICTION_SITE_COUNT",
@@ -2274,8 +3094,15 @@ _TABLE: List[Tuple[str, str, Any]] = [
      r"PCR|polymerase\s+chain\s+reaction",
      _c_pcr),
     ("CHARGAFF_DNA",
-     r"chargaff|base\s+composition|adenine|guanine",
+     r"chargaff|base\s+composition|adenine|guanine|cytosine|thymine|"
+     r"\bDNA\b|nucleotides?",
      _c_chargaff),
+    # ---- BIOTECH block (moved from biotech_numeric_families.py,
+    # WS-B map step 4): hemocytometer chamber-count numericals; the
+    # trigger is instrument-specific so the wide bio rows never see it.
+    ("BIO_HEMOCYTOMETER",
+     r"hemocytometer|haemocytometer|cells\s+per\s+(?:large\s+)?square",
+     _c_hemocytometer),
 ]
 
 TABLE = _TABLE

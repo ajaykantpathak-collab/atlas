@@ -249,6 +249,8 @@ class AttemptEvent:
     response_ms: Optional[int] = None
     misconception_id: Optional[str] = None
     session_id: Optional[str] = None
+    route: Optional[List[str]] = None   # solver route chain (cap: first 32)
+    stage: Optional[str] = None         # winning stage = route[0]
     created_at: str = field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
     )
@@ -269,6 +271,8 @@ class AttemptEvent:
 
     @classmethod
     def from_dict(cls, d: Dict[str, Any]) -> "AttemptEvent":
+        d.setdefault("route", None)
+        d.setdefault("stage", None)
         return cls(
             student_id=d["student_id"],
             node_id=d["node_id"],
@@ -280,6 +284,8 @@ class AttemptEvent:
             response_ms=d.get("response_ms"),
             misconception_id=d.get("misconception_id"),
             session_id=d.get("session_id"),
+            route=list(d["route"]) if d.get("route") else None,
+            stage=d.get("stage"),
             created_at=d.get("created_at") or datetime.now(timezone.utc).isoformat(),
         )
 

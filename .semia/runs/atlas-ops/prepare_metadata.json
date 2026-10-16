@@ -1,0 +1,34 @@
+{
+  "artifact_contract": "semia-prepare-v1",
+  "created_at": "2026-10-04T12:01:31Z",
+  "hostile_input_nonce": "c3bc071bfc2919e1",
+  "prepared_skill_sha256": "8b2e4f15a648915aab31515f5831321f73b6b0e6d961634acc27b3cb7237787a",
+  "source": {
+    "file_inventory": [
+      {
+        "disposition": "inlined",
+        "language": "markdown",
+        "line_count": 61,
+        "path": "SKILL.md",
+        "size_bytes": 3983
+      }
+    ],
+    "files": [
+      "SKILL.md"
+    ],
+    "inlined_text": "---\nname: atlas-ops\ndescription: Deploy, restart, and operate the Atlas CBSE platform at D:\\platform \u2014 production builds, container restarts, agent fleet management, verification sweeps, and outage recovery. Use whenever deploying Atlas changes, restarting services, launching agent build waves, diagnosing 502s or unhealthy containers, or running acceptance checks on :3001.\n---\n\n# Atlas Ops \u2014 deploy, fleet, verify\n\nThe platform: FastAPI backends (dream-backend-1/2, docker-cp workflow), Next.js\nfrontend (dream-frontend, rebuild-to-ship), nginx (dream-nginx), postgres/neo4j/\nredis/qdrant/clickhouse. Dev server: :3000. Production: :80 and :3001.\nSource of truth: `deploy/` \u2014 **always build from deploy, never recreate from\nstale images.**\n\n## Deploy SOP (every deployment, no skipped steps)\n\n1. `docker compose --env-file .env.production -f deploy/docker-compose.prod.yml build <services>` (background it; frontend \u2248 5-10 min, backends \u2248 cache-fast)\n2. `docker compose \u2026 up -d <services>` \u2014 then **verify the recreate completed** (containers can stick in \"Created\" \u2014 re-run `up -d` if so)\n3. `docker restart dream-nginx` \u2014 MANDATORY after any backend restart (nginx resolves upstreams at startup; skipping this = fleet-wide 502)\n4. Warm-up wait: backends rebuild the 213MB index + load models at boot \u2014 health flips to healthy after ~2-5 min. Poll, don't guess.\n5. Verify: `curl http://localhost/api/health` (all-true), landing 200, one deep page (galaxy/story/pre-board) 200.\n6. Clear the restart lock in BUGS.md ## OPS.\n\n## Backend hot-fix workflow (no rebuild)\n\nEdit \u2192 `docker cp` into BOTH backends \u2192 restart both \u2192 nginx \u2192 verify \u2192 mirror\nto deploy. Before docker cp: **diff repo vs container file** (`docker exec\ndream-backend-1 diff \u2026`, with `MSYS_NO_PATHCONV=1` in Git Bash) \u2014 stale repo\ncopies have reverted live fixes. If container is newer, pull container\u2192repo first.\nBatch changes; ONE restart per batch, under a restart lock (below).\n\n## Agent fleet discipline\n\n- **Max 6 concurrent agents.** Never launch beyond the cap.\n- Every fixer claims work in `BUGS.md` before touching it (`[claimed-<tag>]`);\n  done = `[fixed-<tag>]` with live-verification evidence. Failed Edit = someone\n  claimed first \u2014 re-read, take another item.\n- Backend restarts require appending `- [restart-lock <tag> <HH:MM>]` under\n  `## OPS` first; remove when healthy. Never restart with a foreign lock open.\n- Time-box agents: a workstream that exceeds ~6h is runaway \u2014 stop it, audit its\n  leftovers, relaunch tight-scoped.\n- Auditors find; fixers fix. Never let an auditor \"just also fix\" a claimed item.\n\n## Verification harness\n\n- Full capture: `frontend/_audit_personal.js` (17 surfaces, 2 viewports, 3 personas)\n- Health: `curl http://localhost/api/health` (all-true) + landing/galaxy/story/pre-board 200s\n- NEVER verify pages via curl alone \u2014 SSR shells return 200 while the app is broken.\n  Use Playwright (frontend/node_modules) with hydration waits + console-error capture.\n- Fair-use: tasks/user, no fabricated data anywhere, zero-wrong content rule\n  (never invent facts; derive extractively or mark gaps honestly).\n\n## Known failure modes (all previously hit \u2014 recognize fast)\n\n| Symptom | Cause | Fix |\n|---|---|---|\n| 502 on :80/:3001 after backend restart | nginx stale upstreams | restart nginx |\n| Page downloads instead of rendering | poisoned SW navigation cache | clear site data; SW version-bump |\n| Backend unhealthy 5+ min after start | boot warm-up (index+model) \u2014 OR crash; check `docker logs` for NameError/Traceback | wait if progressing; fix code if Traceback |\n| 401 on authed endpoints after login | token never persisted / fetch missing auth header | check localStorage keys (token, dream-auth.state.token) |\n| Empty question pools | subject alias missing in `_CORPUS_SUBJECTS` or class-gate leak | alias map + class gating |\n| Dev :3000 hollow (200 but no JS) | stale .next | `rm -rf .next`, restart dev server |\n",
+    "main_path": "D:\\platform\\.agents\\skills\\atlas-ops\\SKILL.md",
+    "root": "D:\\platform\\.agents\\skills\\atlas-ops",
+    "source_hash": "9926a7c4a5b1de189e0bfff80afc3a63025401f85e4f3291e7e2b00673e4d22e",
+    "source_id": "atlas-ops",
+    "source_map": [
+      {
+        "enriched_line_end": 61,
+        "enriched_line_start": 1,
+        "source_file": "SKILL.md",
+        "source_line_end": 61,
+        "source_line_start": 1
+      }
+    ]
+  }
+}

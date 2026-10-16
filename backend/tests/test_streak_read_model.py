@@ -24,7 +24,6 @@ from __future__ import annotations
 import datetime as dt
 import importlib.util
 import pathlib
-import re
 
 import pytest
 
@@ -110,9 +109,11 @@ class TestClassifyStreak:
         s = classify_streak(1, TODAY, today=TODAY)
         assert s["last_activity_date"] == TODAY.isoformat()
 
-    def test_today_defaults_to_the_server_local_day(self):
-        """The default boundary must match the writer's date.today()."""
-        s = classify_streak(4, dt.date.today())
+    def test_today_defaults_to_the_canonical_student_day(self):
+        """The default boundary is the IST student day (owner decision
+        2026-10) — the SAME clock the canonical writer
+        (services/reward_ledger.update_streak) buckets with."""
+        s = classify_streak(4, dt.datetime.now(streak_state.IST).date())
         assert s["state"] == streak_state.STREAK_ACTIVE_TODAY
 
 
@@ -167,20 +168,19 @@ class TestReadPathsAreWired:
         assert "classify_streak(" in _helper_body(src, "def _streak_state")
 
     def test_parent_alert_uses_the_writer_day_boundary(self):
-        """UTC 'today' disagreed with update_streak's date.today() (IST host)."""
+        """Server-local date.today() split IST evenings across two server days;
+        the alert pass must use the canonical IST student day the writer uses."""
         src = _read("backend/api/dashboard.py")
         alerts = src.split("alerts: list[ParentAlert] = []", 1)[1]
         alerts = alerts.split("severity_order", 1)[0]
-        assert "today = date.today()" in alerts
+        assert "today = _student_today()" in alerts
+        assert "today = date.today()" not in alerts
         assert "today = datetime.now(timezone.utc).date()" not in alerts
 
 
 # ---------------------------------------------------------------------------
-# The dead-but-documented engine must not crash if it is ever wired
+# services/streak_service.py (the old parallel engine these tests used to
+# pin) was DELETED 2026-10-05 — it was unwired and contradicted the canonical
+# reward_ledger streak model. The read model here (streak_state.py) is the
+# one boundary every reader shares with the writer.
 # ---------------------------------------------------------------------------
-class TestStreakServiceSessionScope:
-    def test_no_bare_async_with_on_the_injected_factory(self):
-        """`async with get_db()` raised TypeError on an async generator."""
-        src = _read("backend/services/streak_service.py")
-        assert re.findall(r"async with (?:self\.)?get_db\(\) as session:", src) == []
-        assert len(re.findall(r"async with _db_scope\(", src)) == 10

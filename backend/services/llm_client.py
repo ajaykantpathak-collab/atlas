@@ -34,10 +34,28 @@ from typing import Optional
 
 import httpx
 
+from backend.ai.prompt_guard import wrap_untrusted
+
 logger = logging.getLogger(__name__)
 
 # Process-wide round-robin counter shared by all client instances.
 _MODEL_RR = itertools.count()
+
+# CL-21(c): shared async client keyed by (loop, timeout) — per-attempt
+# `async with httpx.AsyncClient(...)` rebuilt a full SSL context each try.
+_ASYNC_CLIENTS: dict = {}
+
+
+def _shared_async_client(timeout) -> httpx.AsyncClient:
+    try:
+        key = (id(__import__("asyncio").get_running_loop()), timeout)
+    except RuntimeError:
+        key = (0, timeout)
+    c = _ASYNC_CLIENTS.get(key)
+    if c is None or c.is_closed:
+        c = httpx.AsyncClient(timeout=timeout)
+        _ASYNC_CLIENTS[key] = c
+    return c
 
 # ── load .env if python-dotenv is available ──────────────────────────────────
 try:
@@ -131,8 +149,7 @@ class LLMClient:
       - Graceful fallback (returns error string, never crashes)
     """
 
-    def __init__(self, timeout: float = None):
-        # Try FREELLM_* vars first (matches .env), fall back to LLM_* vars
+    def __init__(self, timeout: float = None):        # Try FREELLM_* vars first (matches .env), fall back to LLM_* vars
         self.base_url = (
             os.environ.get("FREELLM_API_URL")
             or os.environ.get("LLM_API_URL")
@@ -153,6 +170,39 @@ class LLMClient:
         self._models = [m.strip() for m in self.model.split(",") if m.strip()] or ["llama-3.1-8b-instruct-fast"]
         self.timeout = timeout or float(os.environ.get("LLM_TIMEOUT", "60"))
         self._cache: dict[str, str] = {}  # simple in-memory prompt-hash cache
+        self._pdb = self._open_persistent_cache()
+
+    # -- persistent prompt cache (shared across backends, survives restarts)
+    _PDB_PATH = os.path.join(
+        os.environ.get("CBSE_DATA_DIR", "/app/cbse_data"), "llm_cache.db")
+
+    def _open_persistent_cache(self):
+        """SQLite store on the shared mount — a restart or the sibling
+        backend never wipes it, and repeated student doubts answer in ms."""
+        try:
+            import sqlite3
+            os.makedirs(os.path.dirname(self._PDB_PATH), exist_ok=True)
+            con = sqlite3.connect(self._PDB_PATH, check_same_thread=False)
+            con.execute("CREATE TABLE IF NOT EXISTS cache (k TEXT PRIMARY KEY, v TEXT)")
+            return con
+        except Exception:
+            return None
+
+    def _pget(self, k: str):
+        try:
+            row = self._pdb.execute("SELECT v FROM cache WHERE k=?", (k,)).fetchone() \
+                if self._pdb is not None else None
+            return row[0] if row else None
+        except Exception:
+            return None
+
+    def _pset(self, k: str, v: str) -> None:
+        try:
+            if self._pdb is not None:
+                self._pdb.execute("INSERT OR REPLACE INTO cache (k,v) VALUES (?,?)", (k, v))
+                self._pdb.commit()
+        except Exception:
+            pass
 
     # -- circuit breaker (class state, shared across instances) -----------
     _cb_lock = threading.Lock()
@@ -207,6 +257,11 @@ class LLMClient:
             if cache_key in self._cache:
                 logger.debug("LLM cache hit")
                 return self._cache[cache_key]
+            _pv = self._pget(cache_key)
+            if _pv is not None:
+                self._cache[cache_key] = _pv          # warm the fast layer too
+                logger.debug("LLM persistent-cache hit")
+                return _pv
 
         # Circuit breaker: when the upstream is 503ing, every request
         # otherwise eats N x timeout seconds of doomed retries and wedges
@@ -229,48 +284,66 @@ class LLMClient:
             "max_tokens": max_tokens,
         }
 
+        # If default points to Next.js frontend port (:3001), route directly to Gemini 3.5 / 3.1 Flash-lite
+        if "localhost:3001" in self.base_url or "127.0.0.1:3001" in self.base_url:
+            try:
+                from backend.tools.gemini_client import generate as _gemini_gen
+                prompt_parts = [f"{m.get('role', 'user').upper()}: {m.get('content', '')}" for m in messages]
+                full_prompt = "\n\n".join(prompt_parts)
+                g_ans = _gemini_gen(full_prompt, max_tokens=max_tokens, temperature=temperature, timeout=25)
+                if g_ans and g_ans.strip():
+                    clean_ans = _strip_thinking(g_ans.strip())
+                    if cache_key:
+                        self._cache[cache_key] = clean_ans
+                        self._pset(cache_key, clean_ans)
+                    return clean_ans
+            except Exception as _ge:
+                logger.warning(f"Direct Gemini call failed: {_ge}")
+            return "[LLM unavailable — using pre-written content]"
+
         max_retries = 3
         for attempt in range(max_retries):
-            async with httpx.AsyncClient(timeout=self.timeout) as client:
-                try:
-                    response = await client.post(
-                        f"{self.base_url}/chat/completions",
-                        headers=headers,
-                        json=payload,
-                    )
+            client = _shared_async_client(self.timeout)
+            try:
+                response = await client.post(
+                    f"{self.base_url}/chat/completions",
+                    headers=headers,
+                    json=payload,
+                )
 
-                    if response.status_code == 429 and attempt < max_retries - 1:
-                        wait = 2 ** attempt
-                        logger.info(f"LLM rate-limited (429), retrying in {wait}s (attempt {attempt+1}/{max_retries})")
-                        await asyncio.sleep(wait)
-                        continue
+                if response.status_code == 429 and attempt < max_retries - 1:
+                    wait = 2 ** attempt
+                    logger.info(f"LLM rate-limited (429), retrying in {wait}s (attempt {attempt+1}/{max_retries})")
+                    await asyncio.sleep(wait)
+                    continue
 
-                    response.raise_for_status()
-                    data = response.json()
-                    content = data["choices"][0]["message"]["content"].strip()
-                    result = _strip_thinking(content)
-                    if cache_key:
-                        self._cache[cache_key] = result
-                    LLMClient._record_success()
-                    return result
-                except httpx.TimeoutException:
+                response.raise_for_status()
+                data = response.json()
+                content = data["choices"][0]["message"]["content"].strip()
+                result = _strip_thinking(content)
+                if cache_key:
+                    self._cache[cache_key] = result
+                    self._pset(cache_key, result)
+                LLMClient._record_success()
+                return result
+            except httpx.TimeoutException:
+                LLMClient._record_failure()
+                logger.warning("LLM timeout — falling back to pre-written content")
+                return "[LLM timeout — using pre-written content]"
+            except httpx.HTTPStatusError as e:
+                if e.response.status_code == 429:
+                    logger.warning(f"LLM rate-limited after {max_retries} retries")
+                    return "[LLM rate-limited — using pre-written content]"
+                if e.response.status_code >= 500:
                     LLMClient._record_failure()
-                    logger.warning("LLM timeout — falling back to pre-written content")
-                    return "[LLM timeout — using pre-written content]"
-                except httpx.HTTPStatusError as e:
-                    if e.response.status_code == 429:
-                        logger.warning(f"LLM rate-limited after {max_retries} retries")
-                        return "[LLM rate-limited — using pre-written content]"
-                    if e.response.status_code >= 500:
-                        LLMClient._record_failure()
-                    logger.warning(f"LLM HTTP error: {e}")
-                    return "[LLM error — using pre-written content]"
-                except httpx.HTTPError as e:
-                    logger.warning(f"LLM HTTP error: {e}")
-                    return "[LLM error — using pre-written content]"
-                except Exception as e:
-                    logger.warning(f"LLM unavailable: {e}")
-                    return "[LLM unavailable — using pre-written content]"
+                logger.warning(f"LLM HTTP error: {e}")
+                return "[LLM error — using pre-written content]"
+            except httpx.HTTPError as e:
+                logger.warning(f"LLM HTTP error: {e}")
+                return "[LLM error — using pre-written content]"
+            except Exception as e:
+                logger.warning(f"LLM unavailable: {e}")
+                return "[LLM unavailable — using pre-written content]"
 
         return "[LLM rate-limited — using pre-written content]"
 
@@ -299,7 +372,7 @@ class LLMClient:
             },
             {
                 "role": "user",
-                "content": f"Question: {question}\n\nNodes:\n{node_list}\n\nReply with only the node_id:",
+                "content": f"Question: {wrap_untrusted(question)}\n\nNodes:\n{node_list}\n\nReply with only the node_id:",
             },
         ]
 
@@ -341,7 +414,7 @@ class LLMClient:
             },
             {
                 "role": "user",
-                "content": f"Enrichment content:\n{enrichment_content}\n\nStudent question: {question}",
+                "content": f"Enrichment content:\n{enrichment_content}\n\nStudent question: {wrap_untrusted(question)}",
             },
         ]
 
@@ -385,7 +458,7 @@ class LLMClient:
             },
             {
                 "role": "user",
-                "content": f"Curriculum content for this topic:\n\n{context}\n\nStudent question: {question}",
+                "content": f"Curriculum content for this topic:\n\n{context}\n\nStudent question: {wrap_untrusted(question)}",
             },
         ]
 

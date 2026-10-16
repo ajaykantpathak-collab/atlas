@@ -19,7 +19,7 @@ import pytest
 
 from backend.its.solver import independent_verifier as iv
 from backend.its.solver.modeling_layer import ModelResult
-from backend.its.solver.maths2_families import model_maths2
+from backend.its.solver.maths_families import model_maths, _dispatch_m2 as model_maths2_table
 from backend.its.solver.physics_families import model_physics_families
 from backend.its.solver.chemistry_families import model_chemistry_families
 from backend.its.solver.biology_families import model_biology
@@ -31,47 +31,50 @@ from backend.its.solver.accountancy_families import \
 # (route, dispatcher, question, tampered quantity keys)
 CASES = [
     # ---- maths ---------------------------------------------------------- #
-    ("QUADRATIC_ROOTS", model_maths2,
+    ("QUADRATIC_ROOTS", model_maths,
      "Find the roots of 2x^2 - 5x + 3 = 0", ("r1",)),
-    ("LINEAR_SOLVE", model_maths2,
+    ("LINEAR_SOLVE", model_maths,
      "Solve: 3x + 7 = 22", ()),
-    ("AP_SUM", model_maths2,
+    # AP_SUM/AP_NTH: the syllabus rows own these shapes globally at
+    # 0.97 > 0.95 (pre-merge order unchanged) -- the route pins the M2
+    # table + its verifier row, so they ride the M2 sub-dispatcher.
+    ("AP_SUM", model_maths2_table,
      "Find the sum of the first 20 terms of the AP with first term 5 "
      "and common difference 3", ()),
-    ("AP_NTH", model_maths2,
+    ("AP_NTH", model_maths2_table,
      "Find the 10th term of the AP with first term 5 and common "
      "difference 3", ()),
-    ("GP_SUM", model_maths2,
+    ("GP_SUM", model_maths,
      "Find the sum of the first 6 terms of the GP with first term 4 "
      "and common ratio 2", ()),
-    ("GP_SUM_INFINITE", model_maths2,
+    ("GP_SUM_INFINITE", model_maths2_table,
      "Find the sum of the infinite GP with first term 9 and common "
      "ratio 0.3", ()),
-    ("CIRCLE_AREA", model_maths2,
+    ("CIRCLE_AREA", model_maths,
      "Find the area of a circle of radius 7", ()),
-    ("CIRCLE_CIRCUMFERENCE", model_maths2,
+    ("CIRCLE_CIRCUMFERENCE", model_maths,
      "Find the circumference of a circle of radius 7", ()),
-    ("CIRCLE_SECTOR_AREA", model_maths2,
+    ("CIRCLE_SECTOR_AREA", model_maths,
      "Find the area of a sector of a circle with radius 6 and central "
      "angle 90", ()),
-    ("PYTHAGORAS", model_maths2,
+    ("PYTHAGORAS", model_maths,
      "Find the hypotenuse of a right angled triangle with legs of 3 cm "
      "and 4 cm", ()),
-    ("SIMPLE_INTEREST", model_maths2,
+    ("SIMPLE_INTEREST", model_maths,
      "Find the simple interest on Rs 8000 at 5% for 3 years", ()),
-    ("COMPOUND_INTEREST", model_maths2,
+    ("COMPOUND_INTEREST", model_maths,
      "Find the compound interest on Rs 10000 at 10% for 2 years", ()),
-    ("PROFIT_LOSS_PERCENT", model_maths2,
+    ("PROFIT_LOSS_PERCENT", model_maths,
      "A shopkeeper buys an article for Rs 400 and sells it for Rs 500. "
      "Find the profit percent", ()),
-    ("HCF_TWO_NUMBERS", model_maths2,
+    ("HCF_TWO_NUMBERS", model_maths,
      "Find the HCF of 48 and 36", ()),
-    ("LCM_TWO_NUMBERS", model_maths2,
+    ("LCM_TWO_NUMBERS", model_maths,
      "Find the LCM of 12 and 18", ()),
-    ("TIME_WORK_TOGETHER", model_maths2,
+    ("TIME_WORK_TOGETHER", model_maths,
      "A can do a work in 12 days and B can do it in 24 days. How long "
      "will they take working together?", ()),
-    ("RATIO_SHARE", model_maths2,
+    ("RATIO_SHARE", model_maths,
      "Divide Rs 500 in the ratio 2:3 and find the first share",
      ("s1",)),
     # ---- physics --------------------------------------------------------- #
@@ -203,13 +206,17 @@ def test_registered_route_tamper_caught(route, dispatcher, question,
 
 def test_registry_covers_at_least_25_routes():
     assert len(iv.VERIFIERS) >= 25
-    assert len(iv.VERIFIERS) == len(iv.registered_routes())
+    assert set(iv.VERIFIERS) <= set(iv.registered_routes())
+    assert set(iv.registered_routes()) == (
+        set(iv.VERIFIERS) | set(iv.DECLARATIVE_INVARIANTS)
+        | set(iv.CONCEPTUAL_INVARIANTS)
+        | {"LINES_PARALLEL", "VECTOR_RELATION", "QUAD_NATURE", "CONSISTENCY"})
 
 
 def test_verify_independent_seam_contract():
     """(ok, proof) contract: ok=True only on PASS; FAIL and NA both
     carry their status in the proof string."""
-    r = model_maths2("Solve: 3x + 7 = 22")
+    r = model_maths("Solve: 3x + 7 = 22")
     ok, proof = iv.verify_independent("LINEAR_SOLVE",
                                       "Solve: 3x + 7 = 22", r)
     assert ok and "substitution" in proof
@@ -233,7 +240,7 @@ def test_verify_independent_seam_contract():
 def test_unregistered_route_passes_through_unchanged():
     """Honest rollout: an unregistered family answer is untouched (no
     bump, no note, same object back)."""
-    r = model_maths2("Find the area of a rectangle of length 8 cm and "
+    r = model_maths("Find the area of a rectangle of length 8 cm and "
                      "breadth 5 cm")
     assert r.matched and r.structure not in iv.VERIFIERS
     out = iv.apply_to_model_result(r, "area of a rectangle")
@@ -247,7 +254,7 @@ def test_na_incapacity_never_downgrades_and_never_bumps():
     """A registered verifier that cannot run (question without the
     needed givens -> parse miss) is NA: pass-through, honest note, no
     bump, and certainly no withholding."""
-    r = model_maths2("Find the sum of the first 20 terms of the AP "
+    r = model_maths("Find the sum of the first 20 terms of the AP "
                      "with first term 5 and common difference 3")
     before_conf = r.confidence
     out = iv.apply_to_model_result(r, "question with no givens at all")
@@ -279,13 +286,21 @@ def test_verifier_exception_is_na_not_fail():
 
 def test_verified_model_problem_end_to_end():
     """The solve-boundary wrapper: a registered family answer comes back
-    matched with the proof step already in its steps."""
+    matched with the proof step already in its steps.
+
+    (2026-10-05 note: originally used the AP-sum question; the Oct-01
+    release calibration (services/release_calibration.json) measured the
+    lowercase `ap_sum` syllabus alias at resistance 0.50 < floor 0.70,
+    so its verified answer is now deliberately withheld at the release
+    gate -- that behaviour is pinned by tests/test_release_calibration.py.
+    AP_NTH (resistance 0.86) stands in here to keep exercising the
+    verifier PASS path.)"""
     from backend.its.solver.independent_verifier import \
         verified_model_problem
     r = verified_model_problem(
-        "Find the sum of the first 20 terms of the AP with first term "
+        "Find the 10th term of the AP with first term "
         "5 and common difference 3")
-    assert r.matched and r.structure in ("AP_SUM", "ap_sum")
+    assert r.matched and r.structure in ("AP_NTH", "ap_nth")
     assert any("Independent check" in s for s in r.steps)
     assert "second path" in r.note
     # syllabus-alias coverage: the lowercase twins verify through the
@@ -300,18 +315,22 @@ def test_verified_model_problem_end_to_end():
         rr = verified_model_problem(q)
         assert rr.matched and rr.structure in route,             f"{q!r} -> {rr.structure}"
         assert any("Independent check" in s for s in rr.steps), q
-    # REAL-BUG CATCH (regression guard): the syllabus gp_infinite_sum
-    # trigger grabs r="0" out of "ratio 0.3" (unanchored number
-    # alternation) and ships a/(1-0) = a.  The independent partial-sum
-    # check contradicts it and the answer is WITHHELD -- the verifier
-    # doing exactly its job on a systematic family error.
+    # REAL-BUG CATCH (regression guard, updated 2026-10-05): the syllabus
+    # gp_infinite_sum trigger USED to grab r="0" out of "ratio 0.3"
+    # (unanchored number alternation) and ship a/(1-0) = a; the
+    # independent partial-sum check contradicted it and the answer was
+    # WITHHELD.  The trigger regex was fixed on 2026-09-30 (anchored
+    # decimal group), so the family now computes the TRUE sum and the
+    # second path CONFIRMS it.  If the regex ever re-breaks, the
+    # partial-sum check contradicts again and matched flips False.
     rr = verified_model_problem(
         "Find the sum of the infinite GP with first term 9 and common "
         "ratio 0.3")
-    assert not rr.matched
-    assert rr.final_answer is None
-    assert "withheld" in rr.note
-    assert "partial sum" in rr.note
+    assert rr.matched
+    assert rr.numeric_answer is not None
+    assert abs(rr.numeric_answer - 9 / (1 - 0.3)) < 1e-3, rr.numeric_answer
+    assert "second path" in rr.note
+    assert "partial sum" in " ".join(rr.steps)
 
 
 def test_withheld_answer_never_promotes_in_answer_pipeline():
@@ -319,7 +338,7 @@ def test_withheld_answer_never_promotes_in_answer_pipeline():
     reachable from the pipeline, but a family whose check FAILs must
     lose its promotion.  Simulated by pushing a tampered result through
     the same gates the pipeline uses (confidence + matched)."""
-    r = _tamper(_solve(model_maths2,
+    r = _tamper(_solve(model_maths,
                        "Find the HCF of 48 and 36"), ())
     verified = iv.apply_to_model_result(r, "Find the HCF of 48 and 36")
     # the pipeline promotion gate requires matched AND an answer
@@ -331,12 +350,16 @@ def test_withheld_answer_never_promotes_in_answer_pipeline():
 
 def test_pipeline_sweep_appends_audit_route_on_pass():
     """The answer_pipeline sweep wrapper records the second-path pass in
-    the audit trail for a registered route."""
+    the audit trail for a registered route.
+
+    (2026-10-05: AP-sum swapped for AP-nth — the lowercase `ap_sum` alias
+    is release-gated by the Oct-01 calibration, see
+    test_verified_model_problem_end_to_end.)"""
     from backend.its.solver.answer_pipeline import AuditTrail, \
         _independent_sweep
     audit = AuditTrail(lane="B")
     syll = _independent_sweep(
-        "Find the sum of the first 20 terms of the AP with first term "
+        "Find the 10th term of the AP with first term "
         "5 and common difference 3", audit)
     assert syll.matched
     assert "independent_verifier:pass" in audit.route

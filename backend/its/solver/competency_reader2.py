@@ -146,6 +146,7 @@ def _solve_reverse(text: str, low: str,
     if target in single:
         # the asked time is stated outright; no computation needed
         days = single[target]
+        audit.route.append("structure:TIME_WORK_TOGETHER")
         return PipelineResult(
             label=VERIFIED, answer=f"{days:.4g} days", numeric=days,
             steps=[f"{target} alone takes {days:g} days (stated in the "
@@ -159,6 +160,7 @@ def _solve_reverse(text: str, low: str,
     if rate <= 0:
         return None
     days = 1.0 / rate
+    audit.route.append("structure:TIME_WORK_TOGETHER")
     return PipelineResult(
         label=VERIFIED, answer=f"{days:.4g} days", numeric=days,
         steps=[f"Together ({' and '.join(pair)}) rate = 1/{n:g} work/day",
@@ -199,6 +201,11 @@ def read_work_together(text: str, audit: AuditTrail) -> Optional[PipelineResult]
     days = 1.0 / rate
     parts = " + ".join(f"1/{d:g}" for _, d in workers)
     names = " and ".join(w for w, _ in workers)
+    # WS-PAL (ovh-pal 2026-10-13): the badge gate resolves the verifier
+    # by a 'structure:' route entry; this reader shipped VERIFIED with
+    # no route and every correct work-together answer downgraded to
+    # 'verifier_no_route' -> GUIDED (fail-closed).  Name it.
+    audit.route.append("structure:TIME_WORK_TOGETHER")
     return PipelineResult(
         label=VERIFIED, answer=f"{days:.4g} days", numeric=days,
         steps=[f"{names}: 1-day rates = {parts}",
@@ -248,6 +255,7 @@ def _solve_reverse_mixture(low: str, ask, audit: AuditTrail
             f"({vol:g} + x) x {q:g}% = {solute0:.6g} + x",
             f"x = V({q:g}-{p:g})/(100-{q:g}) = {added:.6g}",
         ]
+    audit.route.append("structure:MIXTURE_REVERSE")   # WS-PAL: name the route
     return PipelineResult(
         label=VERIFIED, answer=f"{added:.4g} {unit} of {what}",
         numeric=added, steps=steps, audit=audit)
@@ -275,6 +283,7 @@ def read_mixture_blend(text: str, audit: AuditTrail) -> Optional[PipelineResult]
         return _no("MIXTURE_BLEND: zero total volume", audit)
     conc = solute / total * 100.0
     desc = " + ".join(f"{p:g}% of {v:g}L" for v, p in parts)
+    audit.route.append("structure:MIXTURE_BLEND")   # WS-PAL: name the route
     return PipelineResult(
         label=VERIFIED, answer=f"{conc:.4g}%", numeric=conc,
         steps=[f"Solute: {desc} = {solute:.6g} L",

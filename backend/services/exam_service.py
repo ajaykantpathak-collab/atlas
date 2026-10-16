@@ -21,6 +21,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.sql import func
 
 from backend.db_types import GUID
+from backend.services.feedback_scrub import scrub_answer_key
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -1031,8 +1032,10 @@ class ExamService:
             else:
                 status = GradingStatus.INCORRECT
                 awarded = round(q.marks * 0.05, 2)
-                feedback = ("Incorrect. Expected: "
-                            + str(q.correct_answer))
+                # a grader-prose key can't be quoted back to the student
+                expected = scrub_answer_key(q.correct_answer)
+                feedback = (f"Incorrect. Expected: {expected}"
+                            if expected else "Incorrect.")
         else:
             # No step rubric — direct answer match
             if self._answer_matches(sa, str(q.correct_answer)):
@@ -1042,7 +1045,10 @@ class ExamService:
             else:
                 status = GradingStatus.INCORRECT
                 awarded = 0.0
-                feedback = f"Incorrect. Expected: {q.correct_answer}"
+                # a grader-prose key can't be quoted back to the student
+                expected = scrub_answer_key(q.correct_answer)
+                feedback = (f"Incorrect. Expected: {expected}"
+                            if expected else "Incorrect.")
 
         rubric = self._build_rubric(steps, sa)
         return self._mk_graded(q, sa, status, awarded, feedback, rubric)
@@ -2021,7 +2027,8 @@ async def _exam_sim_submit_answer(
             "is_correct": correct and not skip,
             "skipped": bool(skip),
             "marks_awarded": marks_awarded,
-            "correct_answer": q.get("correct_answer"),
+            # bank keys can hold grader prose — scrub the served copy.
+            "correct_answer": scrub_answer_key(q.get("correct_answer")),
         },
         "question_number": session.current_question + 1,
         "total_questions": len(questions),

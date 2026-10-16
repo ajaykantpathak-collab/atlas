@@ -1,0 +1,104 @@
+{
+  "edits": [
+    {
+      "file": "c11_cs_cbse_01_001.md",
+      "walkthrough_append": "Worked check: trace one job through the machine — type 45 × 38 (input via keyboard), the CPU multiplies in milliseconds and holds 1,710 in memory (process), the monitor shows it (output); save it and the storage unit keeps it for tomorrow. Four functions, one machine, every app obeying the same loop. For the board examination, computer-organisation questions ask for the functional units with one example of a device per unit, and the closing line that a computer is the chain — input, process, output, storage — not the box that houses it."
+    },
+    {
+      "file": "c11_cs_cbse_01_002.md",
+      "walkthrough_append": "Worked check: split one laptop into hardware and software — the screen, RAM, SSD and keyboard you can touch are hardware; the operating system that boots it, the word processor and the drivers that make the printer obey are software; remove either half and the other is useless — hardware without programs is dead circuits, programs without hardware have nowhere to live. For the board examination, system questions are answered by classifying a given list of items into hardware, system software and application software, with the reason in one clause each — classification, with reasons, is the tested skill."
+    },
+    {
+      "file": "c11_cs_cbse_01_004.md",
+      "walkthrough_append": "Worked check: sort output devices by what they deliver — the monitor and projector give soft copy you can read but not hold; the printer and plotter give hard copy on paper; the speakers give sound; a braille display gives touch. Each converts the same internal pulses into a different human sense. For the board examination, output-device questions ask for the classification with one example per class, and often a distinction: soft copy versus hard copy — answer with the pair (monitor/printer) and the definition line, and the mark is yours."
+    },
+    {
+      "file": "c11_cs_cbse_01_005.md",
+      "walkthrough_append": "Worked check: follow one instruction through the CPU — the fetch unit brings the next instruction from memory using the program counter; the decode unit reads what operation it wants; the ALU performs, say, the addition; the result travels to a register or memory; the program counter advances. Fetch-decode-execute, billions of times a second. For the board examination, CPU questions expect the three parts (ALU, control unit, registers) with functions in one line each, this instruction cycle in order, and the closing point that the control unit conducts while the ALU calculates — conductor and calculator."
+    },
+    {
+      "file": "c11_cs_cbse_01_007.md",
+      "walkthrough_append": "Worked check: compare three stores by the same yardstick — a hard disk: terabytes, cheap per gigabyte, but mechanical and slower; a solid-state drive: no moving parts, faster boot and load, costlier per gigabyte; a pen drive: portable, convenient, fragile. Speed rises as price rises and capacity falls — the trade-off triangle every purchase sits in. For the board examination, secondary-storage questions ask for the classification (magnetic, optical, flash) with one example each, and a worked comparison — capacity, speed, cost — of two given devices in a two-column table."
+    },
+    {
+      "file": "c11_cs_cbse_01_008.md",
+      "walkthrough_append": "Worked check: classify the software on one phone — the operating system manages screen, memory and apps; device drivers teach the OS each chip's language; firmware runs inside the camera before any app loads; utilities clean storage and check viruses; the chat app above them all is application software, needing the platform beneath. For the board examination, system-software questions give a mixed list to classify — OS, driver, utility, application — with one reason per placement; the reason (manages hardware, serves the user) is what separates a complete answer from a lucky guess."
+    },
+    {
+      "file": "c11_cs_cbse_01_009.md",
+      "walkthrough_append": "Worked check: watch the OS manage one busy minute — you print while music plays and a download runs: the scheduler slices the CPU among the three jobs; memory manager gives each its space; the file system writes the download to disk; the print spooler queues the job; the UI draws it all. Five managers, one conductor. For the board examination, operating-system questions list the functions — process management, memory management, file management, device management, user interface — with one example per function drawn from such a scene; the example is the evidence that earns the mark."
+    },
+    {
+      "file": "c11_cs_cbse_01_010.md",
+      "walkthrough_append": "Worked check: step the boot in order — power on wakes the ROM's BIOS/POST, which checks memory and devices; it finds the boot device's boot loader; the loader copies the OS kernel from disk into RAM; the kernel starts services and drivers, and the login screen appears. Hand control to the OS, and the ROM's job is done. For the board examination, booting questions ask for this sequence in order — POST, boot loader, kernel load, handover — with cold boot versus warm boot as the standard distinction (full restart versus restart of the OS alone); the order is the answer."
+    },
+    {
+      "file": "c11_cs_cbse_01_011.md",
+      "walkthrough_append": "Worked check: read one number in four bases — 25 decimal is 11001 binary (16 + 8 + 1), 31 octal (3 × 8 + 1), 19 hexadecimal (1 × 16 + 9): same quantity, three notations, each base's digits running from 0 to base-minus-one. Positional value is the whole secret. For the board examination, number-system questions ask for the base, the digit range, and one conversion shown with the positional-weight column — (16 8 4 2 1) under the binary digits — because the weights written under the digits are what the examiner checks first."
+    },
+    {
+      "file": "c11_cs_cbse_01_012.md",
+      "walkthrough_append": "Worked check: convert both ways once — decimal 45 to binary: divide by 2 repeatedly, read remainders bottom-up: 101101; binary back to decimal: 32 + 8 + 4 + 1 = 45, checked. Then the shortcut: group binary digits in threes for octal (101 101 = 55 octal) and in fours for hexadecimal (0010 1101 = 2D hex). For the board examination, conversion questions are graded on working — the division table for the way out, the positional sum for the way back — and the grouping shortcut as the examiner's favourite for hex; show every step, marks live in them."
+    },
+    {
+      "file": "c11_cs_cbse_01_013.md",
+      "walkthrough_append": "Worked check: add and subtract once — 1011 + 0110: right column 1 + 0 = 1; 1 + 1 = 0 carry 1; 0 + 1 + carry = 0 carry 1; 1 + 0 + carry = 0 carry 1; final carry gives 10001 — check: 11 + 6 = 17. Subtraction by borrow: 1010 - 0110 = 0100 (10 - 6 = 4). For the board examination, binary-arithmetic questions are pure method marks: align the columns, write every carry or borrow above its column, and verify by converting to decimal at the end — the verification line is what proves the working to the examiner."
+    },
+    {
+      "file": "c11_cs_cbse_01_014.md",
+      "walkthrough_append": "Worked check: evaluate one expression against its truth table — Y = A + B·C with A = 0, B = 1, C = 0: the AND gives 0, the OR gives 0 + 0 = 0; flip A to 1 and Y is 1 regardless of B and C — OR's dominance in action. For the board examination, Boolean questions are answered in two layers: the truth table with every combination listed in binary counting order, then the evaluation of the given assignment shown step by step with the operation order (NOT first, then AND, then OR) made explicit — order stated is half the marks."
+    },
+    {
+      "file": "c11_cs_cbse_01_015.md",
+      "walkthrough_append": "Worked check: build one circuit on paper — two switches feeding an AND gate control a lamp: the lamp lights only when both switches are 1; swap the AND for OR and either switch suffices; add NOT and the lamp lights when the switch is off. Gates are just these commitments written in silicon. For the board examination, logic-gate questions give the symbol to name (or the name to symbolise), the truth table to complete, and one real-life sentence — draw the table fully, even the rows you think are obvious; completeness is the examiner's first check."
+    },
+    {
+      "file": "c11_cs_cbse_02_001.md",
+      "walkthrough_append": "Worked check: use the algebra before reciting it — simplify (A + B)(A + C): distribute, A + BC by the absorption identity; every circuit this expression describes needs fewer gates after simplification — the algebra's whole point is hardware saved. For the board examination, Boolean-algebra questions ask for laws by name (identity, null, involution, absorption, De Morgan) and then a simplification to minimum terms; write the name of the law used beside each step — examiners award step marks and check the law names."
+    },
+    {
+      "file": "c11_cs_cbse_02_002.md",
+      "walkthrough_append": "Worked check: bind one variable to reality — let A mean 'the printer is ready': A = 1 when it is, A = 0 when it is not, and A' (complement) reads 'not ready'; a warning circuit then tests A·B with B as 'paper present'. The variable is only a name for a yes/no fact. For the board examination, Boolean-variable questions ask for the definition (two values, complement), and usually an application: assign variables to a given sentence and write the expression — sentence-to-expression translation is the tested skill, so practise the translation, not the definition."
+    },
+    {
+      "file": "c11_cs_cbse_02_004.md",
+      "walkthrough_append": "Worked check: build one table methodically — three inputs A, B, C: list combinations in binary counting order 000, 001, 010, ..., 111 (eight rows, no repeats, none missed); fill intermediate columns for each sub-expression, then the final column. For F = A + BC, the BC column precedes the final OR. For the board examination, truth-table questions are graded on completeness first — 2 to the power n rows for n variables — then correctness; the binary-order habit guarantees both, and intermediate columns show working that partial-credit schemes reward."
+    },
+    {
+      "file": "c11_cs_cbse_02_005.md",
+      "walkthrough_append": "Worked check: translate one sentence and evaluate it — 'the alarm rings if the door opens AND the system is armed OR the window breaks': A·S + W; for A = 1, S = 0, W = 1: evaluate ANDs first (A·S = 0), then ORs (0 + 1 = 1): the alarm rings through the window term. For the board examination, Boolean-expression questions test exactly this: write the expression from the statement, then evaluate for given values with the NOT-AND-OR order; both halves carry marks, and the sentence itself is usually lifted from a security or eligibility scenario."
+    },
+    {
+      "file": "c11_cs_cbse_02_006.md",
+      "walkthrough_append": "Worked check: prove the law with the table, then use it — A + B and B + A: four rows, identical outputs, done; commutativity holds for AND and OR but not for subtraction — which is why it matters that Boolean algebra has only these operations. Then apply: rewriting A + B as B + A lets like terms sit together before simplifying. For the board examination, law questions ask for statement, truth-table proof and one application; the application is usually one reordering step inside a bigger simplification — quote the law's name at the step where you use it."
+    },
+    {
+      "file": "c11_cs_cbse_02_008.md",
+      "walkthrough_append": "Worked check: read the laws in plain words — A + A' = 1: something is either on or off, nothing between (the whole world); A·A' = 0: on AND off simultaneously is impossible (nothing). Then deploy: X + X'Y = (X + X')(X + Y) = 1 · (X + Y) = X + Y — the law killed a whole term. For the board examination, complement-law questions expect the two statements with truth-table proof and one simplification where the law is the key step; naming the law at the step is what converts a correct answer into a full-marks answer."
+    },
+    {
+      "file": "c11_cs_cbse_02_009.md",
+      "walkthrough_append": "Worked check: say the theorems in English, then use them — the complement of an OR is the AND of complements (not A-or-B means not-A and not-B); the complement of an AND is the OR of complements; both extend to any number of terms. Deploy: (A' + B')' becomes A·B in one move. For the board examination, De Morgan questions ask for the statement, a truth-table proof of one theorem, and the standard application — pushing complements inside brackets in a simplification; examiners look for the bar-breaking step written explicitly, not just the result."
+    },
+    {
+      "file": "c11_cs_cbse_02_010.md",
+      "walkthrough_append": "Worked check: simplify one expression end to end — F = AB + AB' + A'B: first AB + AB' = A(B + B') = A by the complement law; then A + A'B = A + B by the same trick; the three-term original collapses to A + B, and the truth tables match row for row. For the board examination, simplification questions are step-marked: every law named at the line where it works, every intermediate expression written, and a final truth-table check for two or three variables — the check is optional in marks but priceless in certainty."
+    },
+    {
+      "file": "c11_cs_cbse_02_011.md",
+      "walkthrough_append": "Worked check: derive the compound gates from the basic ones — NAND is AND followed by NOT (output 0 only when both inputs are 1); NOR is OR followed by NOT (output 1 only when both inputs are 0); and the punchline: wire a NAND's inputs together to get a NOT, so NANDs alone can build AND, OR and NOT — a universal gate. For the board examination, gate questions give symbols to draw with labelled pins, truth tables to complete, and often the universal-gate construction; draw tables completely and write the construction for one operation — NOT from NAND — as the standard demonstration."
+    },
+    {
+      "file": "c11_cs_cbse_02_014.md",
+      "walkthrough_append": "Worked check: read XOR as the difference detector — inputs alike (0,0 or 1,1) give 0; inputs different give 1; XNOR is its complement, the equality detector. Then apply: binary addition's sum bit is exactly A XOR B for one-bit numbers, which is why every adder circuit begins with XOR gates. For the board examination, XOR-XNOR questions ask for both truth tables, the odd/even-ones reading of XOR, and one application sentence (adders, parity checks, equality tests); the application sentence is usually a full mark by itself."
+    },
+    {
+      "file": "c11_cs_cbse_03_002.md",
+      "walkthrough_append": "Worked check: fill an IPO chart for a real task — computing a student's average of five tests: input, the five marks; process, add them and divide by five; output, the average with a pass-fail note. The chart forces the questions a programmer must answer: what comes in, what transformations, what leaves. For the board examination, IPO questions supply a problem statement and expect the three-part chart completed with data types named for each item — the completed chart is the answer's whole body, so practise filling charts fast and completely."
+    },
+    {
+      "file": "c11_cs_cbse_03_003.md",
+      "walkthrough_append": "Worked check: write one algorithm to the definition's standard — average of three numbers: Step 1 start; Step 2 input a, b, c; Step 3 sum ← a + b + c; Step 4 avg ← sum/3; Step 5 print avg; Step 6 stop. Finite, unambiguous steps, definite input and output — every word of the definition now visible in the artefact. For the board examination, algorithm questions are graded on finiteness, definiteness and effectiveness: write steps numbered, one action per step, avoid vague words like 'compute' without an assignment, and end with stop; the five-point checklist is the marking scheme."
+    }
+  ]
+}

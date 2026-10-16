@@ -117,6 +117,17 @@ _engine_kwargs = {} if _is_sqlite else dict(
     pool_timeout=int(os.environ.get("DB_POOL_TIMEOUT", "30")),
     pool_recycle=int(os.environ.get("DB_POOL_RECYCLE", "1800")),
 )
+# HARDENING (2026-10-02): server-side statement_timeout so a runaway query
+# releases its connection instead of pinning a request worker forever.
+# Default 30s -- interactive endpoints; scripts/tools use their own engines.
+# asyncpg takes server_settings; psycopg2 takes options.
+_st_ms = int(os.environ.get("DB_STATEMENT_TIMEOUT_MS", "30000"))
+if not _is_sqlite and "+asyncpg" in DATABASE_URL:
+    _engine_kwargs.setdefault("connect_args", {})["server_settings"] = {
+        "statement_timeout": str(_st_ms)}
+elif not _is_sqlite:
+    _engine_kwargs["connect_args"] = {
+        "options": f"-c statement_timeout={_st_ms}"}
 engine: AsyncEngine = create_async_engine(
     DATABASE_URL,
     echo=os.environ.get("SQL_ECHO", "false").lower() == "true",
@@ -182,6 +193,7 @@ def get_sync_engine():
         else:
             _sync_engine = _create_sync_engine(
                 url, pool_pre_ping=True, pool_size=5, max_overflow=5,
+                connect_args={"connect_timeout": 2},
             )
     return _sync_engine
 

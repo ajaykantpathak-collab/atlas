@@ -1,0 +1,24 @@
+{
+  "comp_files_parsed": 3257,
+  "comp_files_failed": 0,
+  "sub_parts": 10653,
+  "embedded_files": 12888,
+  "embedded_cqs": 25597,
+  "embedded_by_board": {
+    "cbse": 20088,
+    "cisce": 5509
+  },
+  "bundle_nodes": 20411,
+  "worked_examples": 34972,
+  "diagnostics": 206310,
+  "worked_examples_by_board": {
+    "cbse": 30136,
+    "icse": 2352,
+    "isc": 2484
+  },
+  "diagnostics_by_board": {
+    "cbse": 102565,
+    "icse": 41888,
+    "isc": 61857
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "edits": [
+    {
+      "file": "c11_app_cbse_01_001.md",
+      "definition": "Numbers and Quantification is the opening chapter of Applied Mathematics, and this node is its conceptual map. It links five strands — prime numbers and their applications, binary and other number systems, complex numbers, indices and logarithms, and the quantification of real-world quantities — and shows how each strand feeds later work in cryptography, data representation, scientific measurement and financial calculation. The node states what each topic contributes and the order in which the chapter develops them, so that the detailed procedures of the following nodes sit inside one connected framework."
+    },
+    {
+      "file": "c11_app_cbse_01_004.md",
+      "definition": "A binary number is a numeral written in the base-2 positional system, using only the digits 0 and 1. Each place value is a power of 2 (..., 2³ = 8, 2² = 4, 2¹ = 2, 2⁰ = 1), and the value of the number is the sum of each digit multiplied by its place value; for example, 1011 in binary equals 8 + 0 + 2 + 1 = 11 in decimal. Binary is the native language of digital electronics, because a switch that is OFF or ON maps naturally onto 0 or 1 — which is why data storage, character encoding and logic circuits all rest on binary representation and on the conversion methods between binary and decimal."
+    },
+    {
+      "file": "c11_app_cbse_03_001.md",
+      "definition": "A set is a well-defined collection of distinct objects, called its elements or members. 'Well-defined' means the membership criterion is stated so precisely that, for every object considered, it can be decided without ambiguity or personal judgment whether the object belongs to the collection: 'the vowels of the English alphabet' defines a set, while 'good cricketers' does not. Sets are denoted by capital letters A, B, C, their elements by small letters, and membership is written with the symbols ∈ (belongs to) and ∉ (does not belong to). A set may be described in roster (tabular) form or in set-builder form."
+    },
+    {
+      "file": "c11_app_cbse_03_006.md",
+      "definition": "The power set of a set A, written P(A), is the set of all subsets of A — every subset formed by taking some, all or none of the elements of A. It always contains the empty set φ and A itself. If A has n elements, P(A) has exactly 2ⁿ elements, because each element offers two independent choices — include it or leave it out — and the choices multiply. For example, if A = {1, 2, 3}, then P(A) = {φ, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, A}, giving 2³ = 8 subsets."
+    },
+    {
+      "file": "c11_app_cbse_03_007.md",
+      "definition": "A universal set, denoted by U, is the set of all objects under discussion in a given context; every set considered in that context is a subset of U. It supplies the boundary of the discussion: complements, universal statements and the rectangle of a Venn diagram are all defined relative to U. The universal set is not absolute — it changes with the problem. In a question about prime and composite numbers U may be the natural numbers up to 100, while in a question about class monitors U is simply the set of all students of that class."
+    },
+    {
+      "file": "c11_app_cbse_06_008.md",
+      "definition": "Combinations with repetition count the selections of r objects from n distinct types when each type may be chosen any number of times and the order of selection does not matter; the count is ^(n+r-1)C_r, equivalently ^(n+r-1)C_(n-1). The stars-and-bars argument gives the formula: write the r chosen objects as stars, insert n-1 bars to separate the n types, and count the arrangements of r stars and n-1 bars in a row, namely (n+r-1)!/(r!(n-1)!). For example, choosing 3 scoops from 2 flavours gives ^(2+3-1)C_3 = ⁴C₃ = 4 selections."
+    },
+    {
+      "file": "c11_app_cbse_07_001.md",
+      "definition": "A mathematically acceptable statement is a declarative sentence that is definitively true or definitively false, but never both at once and never neither. The sentence must be verifiable on its own: '3 is a prime number' is a true statement and '2 + 5 = 4' is a false statement, and both qualify. Interrogative sentences (questions), imperative sentences (commands), exclamations, opinions, and open sentences containing an unresolved variable, such as 'x + 3 = 8', do not qualify, because their truth cannot be decided until the variable is specified or the question is answered."
+    },
+    {
+      "file": "c11_app_cbse_08_001.md",
+      "definition": "Calculus is the mathematics of continuous change. Its two central operations are differentiation, which measures the instantaneous rate at which a quantity changes, and integration, which accumulates a quantity over an interval; the fundamental theorem of calculus shows that these are inverse processes. Both rest on the limit concept: continuity is defined through limits, the derivative is the limit of the difference quotient, and the definite integral is the limit of Riemann sums. This node maps that structure — function, limit, continuity, derivative, tangent — before the later chapters develop each idea in full technical detail."
+    },
+    {
+      "file": "c11_app_cbse_08_010.md",
+      "definition": "The tangent to the curve y = f(x) at the point (a, f(a)) is the straight line through that point whose slope equals the derivative f'(a), whenever the derivative exists. It is the limiting position of the secant lines drawn through (a, f(a)) and a neighbouring point (a + h, f(a + h)) as h approaches zero — geometrically, the line the curve touches rather than crosses near the point. Its equation is y - f(a) = f'(a)(x - a). The normal at the same point is the perpendicular to this tangent, with slope -1/f'(a) when f'(a) is not zero."
+    },
+    {
+      "file": "c12_app_cbse_01_002.md",
+      "definition": "The learning outcomes for Class 12 Applied Mathematics Chapter 1 (Numbers, Quantification and Numerical Applications) state the competencies a student must demonstrate: applying modular arithmetic and congruences to real problems; computing the number-theoretic functions — Euler's totient φ(n), divisor function τ(n), divisor sum σ(n) and Möbius μ(n); solving numerical applications involving percentages, profit-loss, interest and mixtures; and interpreting such computations in contexts such as billing, clock arithmetic and scheduling. Each later node of the chapter develops the technique behind one of these stated outcomes."
+    },
+    {
+      "file": "c12_app_cbse_01_006.md",
+      "definition": "A simple arithmetic (number-theoretic) function is a function whose domain is the set of positive integers and whose values depend on the arithmetic structure of the input — its divisors, its prime factorisation, or its common factors with other integers — rather than on order or position alone. The standard examples are Euler's totient function φ(n), which counts the integers from 1 to n that are coprime to n; the divisor function τ(n), which counts the positive divisors of n; the divisor sum σ(n); and the Möbius function μ(n). For instance, τ(12) = 6 because 12 has the six divisors 1, 2, 3, 4, 6 and 12."
+    },
+    {
+      "file": "c12_app_cbse_02_008.md",
+      "definition": "The algebra of matrices consists of the rules for adding and subtracting matrices of the same order, multiplying a matrix by a scalar, and multiplying matrices of compatible orders, together with the properties these operations obey. Addition is commutative and associative; scalar multiplication distributes over matrix addition; and matrix multiplication is associative and distributive over addition but not commutative — AB need not equal BA — and a product is defined only when the number of columns of the left matrix equals the number of rows of the right matrix. These rules extend the algebra of numbers to rectangular arrays while dropping the assumption that the order of multiplication never matters."
+    },
+    {
+      "file": "c12_app_cbse_03_001.md",
+      "definition": "The learning outcomes for Class 12 Applied Mathematics Chapter 3 state what a student must be able to do with differentiation and its applications: differentiate implicit, parametric and logarithmic functions; compute second and higher-order derivatives; use the first derivative to find rates of change and increasing or decreasing behaviour and the second derivative together with the first to locate maxima and minima; and build simple cost, revenue and profit models in which marginal concepts are interpreted as derivatives. Each outcome names an exact skill that the chapter's later nodes develop and test."
+    },
+    {
+      "file": "c12_app_cbse_05_002.md",
+      "definition": "A differential equation is an equation that contains the derivative (or differential) of a dependent variable with respect to one or more independent variables, together with the variables themselves. An equation such as dy/dx = 3x² or d²y/dx² + 4y = 0 relates y to its own rates of change, and the order of the equation is the highest derivative present. When the dependent variable depends on a single independent variable, the equation is an ordinary differential equation; when it depends on several independent variables, so that partial derivatives appear, it is a partial differential equation. Differential equations model any quantity whose rule of change is known."
+    },
+    {
+      "file": "c12_app_cbse_05_003.md",
+      "definition": "The order of a differential equation is the order of the highest derivative that occurs in it, expressed as a positive integer. The equation d²y/dx² + 4(dy/dx) + y = 0 has order 2 because its highest derivative is the second; dy/dx = 5y has order 1. The order is decided only by which derivatives are present — not by the powers they are raised to, and not by how many lower derivatives also appear. The order matters in practice because the general solution of an equation of order n contains n arbitrary constants, so the order tells how much initial information is needed to single out a particular solution."
+    },
+    {
+      "file": "c12_app_cbse_05_006.md",
+      "definition": "A general solution of a differential equation is a solution that contains as many arbitrary independent constants as the order of the equation; every particular solution is obtained from it by assigning definite values to those constants. For example, y = A cos x + B sin x is the general solution of d²y/dx² + y = 0, its two constants matching the order 2; choosing A = 2 and B = 0 yields the particular solution y = 2 cos x. Verifying a claimed general solution means differentiating it as many times as the order demands and substituting back to confirm the equation holds for every choice of the constants."
+    },
+    {
+      "file": "c12_app_cbse_06_003.md",
+      "definition": "A probability distribution is the complete description of the values a random variable can take together with the probability attached to each value. For a discrete random variable it is the list or table of pairs (xᵢ, pᵢ) satisfying two conditions: every probability lies between 0 and 1, and the probabilities sum to exactly 1. The distribution answers the question 'how likely?' for every event, and from it the expectation, variance and standard deviation of the variable are computed. The binomial distribution, with its parameters n and p, is the standard example for a fixed number of independent success-failure trials."
+    },
+    {
+      "file": "c12_app_cbse_06_006.md",
+      "definition": "A random variable is a function that assigns one real number to every outcome of a random experiment: its domain is the sample space and its co-domain is the set of real numbers. In two tosses of a coin, the number of heads X takes the value 0 on the outcome TT, 1 on HT and TH, and 2 on HH — one definite number per outcome, even though the outcome itself is due to chance. Random variables are discrete when they take countable values and continuous when they range over intervals. They turn outcomes into numbers so that distributions, expectations and variances can be computed."
+    },
+    {
+      "file": "c12_app_cbse_07_001.md",
+      "definition": "Inferential statistics is the branch of statistics that draws conclusions about a population from data on a random sample drawn from it: it estimates unknown parameters such as the population mean, tests claims framed as hypotheses, and attaches a probability to the risk of a wrong conclusion. Because a sample is only part of the population, sample statistics vary from sample to sample; the theory of sampling distributions, especially of the sample mean, measures this variability and leads to procedures such as the one-sample t-test and confidence intervals. It contrasts with descriptive statistics, which only summarises the data actually collected."
+    },
+    {
+      "file": "c12_app_cbse_07_002.md",
+      "definition": "Inferential statistics is the mathematics of reasoning from a sample to a population. It separates a parameter — a fixed number describing the population, such as the mean μ — from a statistic, the corresponding number computed from sample data, such as the sample mean; it uses sampling distributions and the central limit theorem to describe how statistics vary from sample to sample; and it builds decision procedures — hypothesis formulation, test statistics, significance levels and confidence intervals — that quantify how strong the evidence actually is. This node lays out that framework as the map of the chapter before the individual procedures are developed."
+    },
+    {
+      "file": "c12_app_cbse_07_003.md",
+      "definition": "Inferential statistics generalises from a random sample to the population it came from: it estimates population characteristics, tests hypotheses about them, and states each conclusion together with a probability that measures its uncertainty. The engine of the subject is the sampling distribution of a statistic — the pattern of values that, say, the sample mean would take over repeated samples — which the central limit theorem describes for large samples. From that distribution follow the standard error, confidence intervals and test procedures. Two pillars support every application: random sampling, which removes selection bias, and probability theory, which quantifies the variation that remains."
+    },
+    {
+      "file": "c12_app_cbse_07_010.md",
+      "definition": "Inferential statistics uses sample data to make generalisations, predictions and decisions about a population, with probability theory controlling the risk of error in each conclusion. The toolkit consolidated in this node spans the sampling methods (simple random, stratified, systematic), the parameter-versus-statistic distinction, sampling distributions and the central limit theorem, confidence intervals for means and proportions, and hypothesis testing including the one-sample t-test, with Type I and Type II error as the unavoidable price of deciding under uncertainty. The aim of the summary is that the right method for a given data situation can be justified, not merely executed."
+    },
+    {
+      "file": "c12_app_cbse_09_003.md",
+      "definition": "A perpetuity is an annuity whose equal periodic payments continue forever — a fixed coupon on a perpetual bond, or a permanent endowment paying a yearly scholarship. Its present value is nevertheless finite, because payments far in the future contribute almost nothing once discounted. For a payment A per period at rate i per period, the present value is A/i for an ordinary perpetuity (payments at period ends) and A/i × (1 + i) for a perpetuity due (payments at period beginnings). For example, ₹50,000 per year forever at 8% per year requires a fund of 50,000/0.08 = ₹6,25,000 today."
+    },
+    {
+      "file": "c12_app_cbse_09_004.md",
+      "definition": "A sinking fund is a fund built by regular periodic deposits earning compound interest so that a target lump sum is available on a fixed future date — to retire a debenture, replace machinery, or meet another known future liability. The equal periodic deposit A follows from the future value of an ordinary annuity: A = FV × i/((1+i)ⁿ - 1), where i is the interest rate per period and n the number of deposits. For example, to accumulate ₹10,00,000 in 5 years at 10% per annum compounded annually, the yearly deposit is 10,00,000 × 0.10/((1.10)⁵ - 1) ≈ ₹1,63,797."
+    }
+  ]
+}

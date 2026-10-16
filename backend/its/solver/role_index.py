@@ -350,6 +350,23 @@ def solve_by_intersection(text: str, quantities=None) -> Optional[Dict]:
         if free:
             continue  # intersection incomplete for this equation
 
+        # INPUT plausibility: a bound slot carrying an impossible value
+        # (not_p = 4 on a complement equation) poisons the solve before
+        # it starts — the output gate can't see it if the arithmetic
+        # happens to stay in range.
+        try:
+            from backend.its.solver.variable_registry import (
+                describe as _desc_fn, plausible as _plausible)
+            bad_input = False
+            for _bv, _val in bound.items():
+                _bd, _bf = _desc_fn(_bv, eq.eq_id)
+                if not _plausible(_bv, _bf, _val):
+                    bad_input = True
+                    break
+            if bad_input:
+                continue
+        except Exception:
+            pass
         path = graph.find_solve_path(dict(bound), target)
         if path is None or path.final_value is None:
             continue

@@ -22,6 +22,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.models.enrichment import BoardQuestion
 from backend.ai.hybrid_evaluator import evaluate_answer
+from backend.services import evaluator_solver_bridge
 from backend.utils.question_text import is_merged_record, strip_pipeline_markers
 
 
@@ -165,6 +166,7 @@ class DrillService:
             question_type="free_text",
             question_text=question.question_text,
             node_id=session.node_id,
+            solver_bridge=evaluator_solver_bridge,
         )
 
         drill_result = DrillResult(

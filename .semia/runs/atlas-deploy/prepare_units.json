@@ -1,0 +1,348 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 52,
+      "path": "SKILL.md",
+      "size_bytes": 2988
+    }
+  ],
+  "source_id": "atlas-deploy",
+  "source_map": [
+    {
+      "enriched_line_end": 52,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 52,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 36,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: atlas-deploy",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Deploy Atlas platform changes to production at D:\\platform \u2014 build images, recreate containers, handle warm-up, restart nginx, and verify. Use whenever deploying Atlas code, rebuilding the frontend or backends, shipping fixes to :3001/:80, or when the user says ship/deploy/rebuild.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Atlas Deploy",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Ship changes from deploy/ (the only build tree) to production. Every skipped",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "SKILL.md",
+      "text": "step in this sequence has previously caused a production incident.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 11,
+      "line_start": 11,
+      "source_file": "SKILL.md",
+      "text": "The sequence \u2014 run in order, never skip",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "1. PRECHECK   deploy/ tree is synced with the repo (diff changed files).",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "Containers may hold newer hot-fixed code than the repo \u2014 diff",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "SKILL.md",
+      "text": "container vs repo before building (MSYS_NO_PATHCONV=1 for docker exec).",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "2. BUILD      cd D:/platform/deploy",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "docker compose --env-file .env.production -f docker-compose.prod.yml build <services>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "Background it (frontend \u2248 5-10 min). Do NOT build in parallel with",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "SKILL.md",
+      "text": "other heavy work \u2014 CPU storms have wedged builds and dev servers.",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "3. RECREATE   docker compose \u2026 up -d",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "SKILL.md",
+      "text": "Verify the recreate COMPLETED \u2014 containers can stick in \"Created\"",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "state forever if interrupted. Re-run `up -d` until all show Up.",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "SKILL.md",
+      "text": "4. WARM-UP    Backends rebuild the 213MB index + preload models at boot (~2-5 min).",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "`docker logs dream-backend-1` should show solver self-tests passing.",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "Poll \u2014 never declare done while health says \"starting\".",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "5. NGINX      docker restart dream-nginx   \u2190 MANDATORY, every time.",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "nginx resolves upstream IPs at startup; a skipped restart = 502s",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "for everyone while every container looks healthy.",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "6. VERIFY     curl http://localhost/api/health        (all services true)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 31,
+      "line_start": 31,
+      "source_file": "SKILL.md",
+      "text": "curl -o /dev/null -w \"%{http_code}\" http://localhost:3001/        (200)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "+ one deep page per changed area (galaxy / story / pre-board)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "Service names",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "backend-1, backend-2, frontend, nginx, postgres, neo4j, redis, qdrant, clickhouse, db-init.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "Backend-1 and backend-2 have SEPARATE build sections \u2014 build both.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 39,
+      "line_start": 39,
+      "source_file": "SKILL.md",
+      "text": "Rollback / recovery",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "Stuck \"Created\" containers \u2192 re-run up -d until recreated.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "Backends unhealthy long after start \u2192 docker logs dream-backend-1 and grep for",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "Frontend \"unhealthy\" while serving 200 \u2192 healthcheck probes /api, which fails",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "Rules",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "One build per batch of changes. Background builds and verify only after completion.",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 48,
+      "line_start": 48,
+      "source_file": "SKILL.md",
+      "text": "Env file: always --env-file .env.production. PUBLICAPIURL stays EMPTY",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 50,
+      "line_start": 50,
+      "source_file": "SKILL.md",
+      "text": "After frontend changes: Next compiles at build time \u2014 dev :3000 shows fixes",
+      "unit_type": "list_item"
+    }
+  ]
+}

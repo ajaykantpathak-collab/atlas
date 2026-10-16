@@ -1,0 +1,56 @@
+{
+  "edits": [
+    {
+      "file": "c9_bio_ch1_3.md",
+      "definition": "The cell membrane (plasma membrane) is a dynamic, fluid phospholipid bilayer embedded with proteins that encloses the cell, separating its contents from the external environment. Being selectively permeable, it allows only useful substances such as water, gases and nutrients to enter, retains essential molecules, and removes wastes through diffusion and osmosis. This controlled two-way exchange keeps the cell's internal conditions steady, which makes the membrane central to homeostasis in every living cell."
+    },
+    {
+      "file": "c9_bio_ch1_8.md",
+      "definition": "The Golgi apparatus is a membrane-bound organelle made of flattened, stacked sacs called cisternae that receives, modifies, sorts and packages proteins and lipids synthesized in the endoplasmic reticulum. It attaches sugars and other finishing touches to these molecules, then dispatches them in vesicles either to the cell surface for secretion or to organelles such as lysosomes. This stack of membranes therefore works as the cell's packaging, storage and dispatch department."
+    },
+    {
+      "file": "c9_bio_ch3_4.md",
+      "definition": "Meiosis is a specialized type of cell division in which a single diploid parent cell, carrying two sets of chromosomes, divides twice to produce four haploid daughter cells, each with half the original chromosome number. Crossing over during the first division shuffles genes between paired chromosomes, so the four cells are genetically distinct. Meiosis produces the gametes needed for sexual reproduction and is the source of the variation on which evolution acts."
+    },
+    {
+      "file": "c9_bio_ch4_1.md",
+      "definition": "Biodiversity is the variety of life on Earth at every level of organisation: the genetic diversity within each species, the species diversity within each ecosystem, and the variety of ecosystems across a landscape or region. It is measured by counting and comparing these levels, and it matters because richer, more varied ecosystems are more stable and recover better from disturbances such as disease, drought or climate change."
+    },
+    {
+      "file": "c9_bio_ch4_4.md",
+      "definition": "Classification criteria are the fundamental, heritable characteristics used to place organisms into groups: the type of cell (prokaryotic or eukaryotic), whether the body is made of one cell or many, the mode of nutrition (autotrophic or heterotrophic), and the level of body organisation. Because these features are inherited from ancestors rather than shaped by habitat, biologists use them to build taxonomic categories that reflect real evolutionary relationships instead of superficial resemblance."
+    },
+    {
+      "file": "c9_chem_ch2_2.md",
+      "definition": "Thomson's Plum Pudding Model pictures the atom as a uniform sphere of positive charge in which negatively charged electrons are embedded at intervals, like plums in a pudding or seeds in a watermelon. Because the positive sphere and the negative electrons carry equal total charge, the model explains why the atom is electrically neutral. It could not, however, survive Rutherford's scattering results, which revealed a tiny, dense, positive nucleus at the centre."
+    },
+    {
+      "file": "c9_eco_ch4_5.md",
+      "definition": "Financial fraud is any deliberate deception that tricks a person into losing money, personal information or control of an account. Common forms include phishing links and fake websites, OTP and KYC scams over phone calls or messages, impersonation of bank officials or relatives, fake investment or lottery offers, and manipulated digital payments. Verifying every request independently, never sharing OTPs, and using only official channels are the basic safeguards."
+    },
+    {
+      "file": "c9_geo_ch2_4.md",
+      "definition": "Global wind systems are the large-scale, semi-permanent wind belts of the planet, produced because the equator receives far more solar heat than the poles. Rising air at the equator and sinking air in the subtropics create pressure belts from which the trade winds, the westerlies and the polar easterlies blow steadily towards regions of lower pressure. The Coriolis effect due to Earth's rotation deflects all of them, shaping regional climates and ocean routes."
+    },
+    {
+      "file": "c9_math_ch10_3.md",
+      "definition": "Two angles are complementary when their measures add up to exactly 90°; two angles are supplementary when their measures add up to exactly 180°. For example, 35° and 55° are complementary, while 110° and 70° are supplementary. The two angles need not touch each other, share a vertex or even appear in the same figure — no adjacency is required, only the sum condition decides the name."
+    },
+    {
+      "file": "c9_math_ch5_10.md",
+      "definition": "In a circle, the perpendicular drawn from the centre to any chord always bisects that chord. If O is the centre, AB is a chord, and OM is drawn perpendicular to AB meeting it at M, then M is the midpoint of AB, so AM equals MB. The reason is that OA and OB are radii, so the two right triangles OAM and OBM are congruent; exam questions use this result to find unknown chord lengths."
+    },
+    {
+      "file": "c9_math_ch5_6.md",
+      "definition": "The angle subtended by a chord at the centre of a circle is the angle formed at the centre between the two radii drawn to the endpoints of the chord. For a chord AB with centre O, this angle is AOB. Equal chords of a circle subtend equal angles at the centre, and the closer a chord passes to the centre, the larger the angle it subtends."
+    },
+    {
+      "file": "c9_physics_ch2_3.md",
+      "definition": "Velocity is a vector quantity defined as the rate of change of displacement with respect to time, so it states both how fast an object moves and in which direction it moves. Velocity is displacement divided by time, and its SI unit is metre per second (m/s). A body with unchanged speed and direction has uniform velocity; any change in either the magnitude or the direction is acceleration."
+    },
+    {
+      "file": "c9_physics_ch5_1.md",
+      "definition": "Sound is a form of mechanical energy produced when an object vibrates, setting the particles of the surrounding medium into a longitudinal wave of alternating compressions and rarefactions that travels outward from the source. The vibrating object is called the source of sound. Because the wave is carried by particles, sound needs a material medium such as air, water or steel and cannot travel through a vacuum."
+    }
+  ]
+}

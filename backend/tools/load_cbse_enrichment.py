@@ -14,10 +14,15 @@ from sqlalchemy import select
 from backend.database import async_session
 from backend.models.enrichment import EnrichmentContent
 
-MD_DIR = Path("/app/content/enhanced_nodes_md")
+# Dual-corpus: CBSE + CISCE (icse/isc filename tokens → board CISCE).
+MD_DIRS = [
+    (Path("/app/content/enhanced_nodes_md"), "CBSE"),
+    (Path("/app/content/cisce_nodes_v2"), "CISCE"),
+]
 SECTION_RE = re.compile(r"^##\s+([A-Z_0-9]+)\s*\n", re.MULTILINE)
 FNAME_RE = re.compile(
-    r"c(\d+)_([a-z]+(?:_[a-z]+)*?)_(?:cbse_|ch|u)?(\d+)_(\d+)$", re.IGNORECASE)
+    r"c(\d+)_([a-z]+(?:_[a-z]+)*?)_(cbse|icse|isc|ch|u)?_?(\d+)_(\d+)$",
+    re.IGNORECASE)
 
 
 def parse_md(text: str) -> dict[str, str]:
@@ -28,12 +33,17 @@ def parse_md(text: str) -> dict[str, str]:
     return sections
 
 
-def parse_file(path: Path) -> dict | None:
+def parse_file(path: Path, default_board: str = "CBSE") -> dict | None:
     m = FNAME_RE.search(path.stem)
     if not m:
         return None
-    class_level, subject, chapter, _num = (
-        int(m.group(1)), m.group(2), m.group(3), int(m.group(4)))
+    class_level, subject, board_tok, chapter, _num = (
+        int(m.group(1)), m.group(2), (m.group(3) or "").lower(),
+        int(m.group(4)), m.group(5))
+    # Filename board token beats the dir default — an _icse_/_isc_ file is
+    # CISCE wherever it lives; ch/u/empty = legacy CBSE naming.
+    board = "CISCE" if board_tok in ("icse", "isc") else (
+        "CBSE" if board_tok in ("cbse", "ch", "u", "") else default_board)
     if path.stem.endswith("_comp"):
         return None  # case-study companions excluded from enrichment nodes
 
@@ -60,29 +70,17 @@ def parse_file(path: Path) -> dict | None:
 
     title = re.sub(r"_", " ", sections.get("TITLE", "")).strip()
     if not title:
-        # Derive display title from the definition's leading term
-        # ("Life processes are ..." → "Life Processes"); fall back to
-        # a subject·chapter label — never the raw node id.
-        m = re.match(
-            r"^([A-Z][^.;:]{3,55}?)\s+(?:is|are|refers|means|can be|"
-            r"denotes|consists|represents|occurs|was|were|has|have|also)",
-            sections.get("DEFINITION", "").strip())
-        if m:
-            title = m.group(1).title()
+        # Shared serve-time deriver (enhanced_nodes._title_from_head):
+        # markup stripped, defined concept taken left of the first finite
+        # verb, meta openers ("This node covers…") un-nested to the covered
+        # object; falls back to a subject·chapter label — never the node id.
+        from backend.services.enhanced_nodes import _title_from_head
+        title = _title_from_head(
+            sections.get("DEFINITION", "").split("\n")[0])
+        if title:
+            title = title[0].upper() + title[1:]
         else:
-            # Hindi/verbose definitions: leading term before an em-dash,
-            # colon or sentence break ("प्रमुख घटनाएँ — ..." → "प्रमुख घटनाएँ").
-            head = sections.get("DEFINITION", "").strip().split("\n")[0].strip()
-            title = ""
-            for sep in (" — ", " – ", ": ", "।", "."):
-                if sep in head:
-                    cand = head.split(sep, 1)[0].strip()
-                    if 3 <= len(cand) <= 60:
-                        title = cand
-                        break
-            if not title:
-                title = (head[:57].rstrip() + "…") if len(head) > 60 \
-                    else (head or f"{subject.title()} · Ch {chapter}")
+            title = f"{subject.title()} · Ch {chapter}"
 
     return {
         "node_id": path.stem,
@@ -106,23 +104,23 @@ def parse_file(path: Path) -> dict | None:
         "depth_prereq_ids": cross or None,
         "forward_node_ids": forwards or None,
         "source_file": str(path),
-        "board": "CBSE",
+        "board": board,
         "difficulty": "medium",
     }
 
 
 async def main() -> None:
-    files = sorted(MD_DIR.glob("*.md"))
-    print(f"{len(files)} md files")
-
     parsed = []
     skipped = 0
-    for f in files:
-        rec = parse_file(f)
-        if rec:
-            parsed.append(rec)
-        else:
-            skipped += 1
+    for md_dir, board in MD_DIRS:
+        files = sorted(md_dir.glob("*.md"))
+        print(f"{len(files)} md files in {md_dir} (board={board})")
+        for f in files:
+            rec = parse_file(f, default_board=board)
+            if rec:
+                parsed.append(rec)
+            else:
+                skipped += 1
     print(f"parsed {len(parsed)} nodes, skipped {skipped}")
 
     async with async_session() as db:
@@ -130,20 +128,34 @@ async def main() -> None:
             select(EnrichmentContent.node_id))).scalars().all())
         print(f"existing enrichment rows: {len(existing)}")
 
+        # one SELECT per batch of stale ids — not per record
+        stale_ids = [r["node_id"] for r in parsed if r["node_id"] in existing]
+        new_recs  = [r for r in parsed if r["node_id"] not in existing]
+        existing_rows = {}
+        for i in range(0, len(stale_ids), 500):
+            chunk = stale_ids[i:i+500]
+            rows = (await db.execute(
+                select(EnrichmentContent).where(
+                    EnrichmentContent.node_id.in_(chunk)))).scalars().all()
+            existing_rows.update({r.node_id: r for r in rows})
+
         inserted = updated = 0
-        for rec in parsed:
-            if rec["node_id"] in existing:
-                row = (await db.execute(select(EnrichmentContent).where(
-                    EnrichmentContent.node_id == rec["node_id"]))).scalar_one()
-                for k, v in rec.items():
-                    setattr(row, k, v)
-                updated += 1
-            else:
-                db.add(EnrichmentContent(**rec))
-                inserted += 1
-            if (inserted + updated) % 1000 == 0:
+        for rec in new_recs:
+            db.add(EnrichmentContent(**rec))
+            inserted += 1
+            if inserted % 1000 == 0:
                 await db.commit()
-                print(f"  {inserted+updated}...")
+                print(f"  {inserted} inserted...")
+        for rec in parsed:
+            row = existing_rows.get(rec["node_id"])
+            if row is None:
+                continue
+            for k, v in rec.items():
+                setattr(row, k, v)
+            updated += 1
+            if updated % 1000 == 0:
+                await db.commit()
+                print(f"  {updated} updated...")
         await db.commit()
         print(f"done: {inserted} inserted, {updated} updated")
 

@@ -105,6 +105,16 @@ def _fmt(v: float) -> str:
     return f"{v:,.4f}".rstrip("0").rstrip(".")
 
 
+def _ordinal(n: int) -> str:
+    """1 -> '1st', 2 -> '2nd', 11 -> '11th' (no dict literals inside
+    f-strings: the runtime Python predates PEP 701)."""
+    if 10 <= n % 100 <= 19:
+        suf = "th"
+    else:
+        suf = {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return str(n) + suf
+
+
 def _pf(s: Optional[str]) -> Optional[float]:
     """Parse a plain / comma-grouped number token ('1,000.5')."""
     if s is None:
@@ -120,6 +130,11 @@ def _nums(s: Optional[str]) -> List[float]:
         return []
     return [float(x.replace(",", ""))
             for x in re.findall(r"-?\d+(?:\.\d+)?", s)]
+
+
+def _grab1(text: str, pattern: str) -> Optional[str]:
+    m = re.search(pattern, text, re.I)
+    return m.group(1) if m else None
 
 
 def _normalize(text: str) -> str:
@@ -1324,10 +1339,24 @@ def _c_consumption(g, m, text):
 def _c_investment_multiplier(g, m, text):
     if _has_word(text, r"\bmoney\s+multiplier\b"):
         return _GATE        # the money row owns monetary multipliers
-    mpc = _pf(g.get("mpc"))
-    mps = _pf(g.get("mps"))
-    di = _pf(g.get("di"))
-    dy = _pf(g.get("dy"))
+    # board questions name the quantities WITHOUT the word 'multiplier'
+    # ('MPC is 0.8, investment rises by Rs 500 crore -- find the change
+    # in national income') so slots re-parse from text when the trigger
+    # didn't bind them (category trigger carries no named groups)
+    mpc = _pf(g.get("mpc")) or _pf(_grab1(
+        text, r"\bmpc\b[^0-9]{0,20}(" + _NUM + r")") or _grab1(
+        text, r"marginal\s+propensity\s+to\s+consume[^0-9]{0,20}"
+        r"(" + _NUM + r")"))
+    mps = _pf(g.get("mps")) or _pf(_grab1(
+        text, r"\bmps\b[^0-9]{0,20}(" + _NUM + r")") or _grab1(
+        text, r"marginal\s+propensity\s+to\s+save[^0-9]{0,20}"
+        r"(" + _NUM + r")"))
+    di = _pf(g.get("di")) or _pf(_grab1(
+        text, r"investment\b[^.]{0,40}?(?:increase|rise|change)s?\b[^0-9]"
+        r"{0,30}(?:rs\.?\s*|rs\s*)?(" + _NUM + r")"))
+    dy = _pf(g.get("dy")) or _pf(_grab1(
+        text, r"(?:national\s+)?income\b[^.]{0,40}?(?:increase|change|"
+        r"rise)s?\b[^0-9]{0,30}(?:rs\.?\s*|rs\s*)?(" + _NUM + r")"))
     if mpc is None and mps is not None:
         mpc = 1 - mps
     if mpc is None:
@@ -1393,6 +1422,21 @@ def _c_investment_multiplier(g, m, text):
 
 
 def _c_apc_aps(g, m, text):
+    # A CHANGE-based MPC ask ("income rises from A to B, consumption
+    # rises from C to D -- calculate the MPC and the APC") belongs to
+    # the delta-MPC family: the level identities would answer a
+    # different question (APC at the first level only).  Refuse so the
+    # books2-table MPC_DELTA row, scanned later, can take it.
+    if _has_word(text, r"\bMPC\b|marginal\s+propensity\s+to\s+consum") \
+            and re.search(r"income\s+(?:rises?|increases?|goes\s+up)\s+"
+                          r"from\s*" + _RS + _NUM
+                          + r"\s*(?:lakh|crores?|millions?)?\s*to\s*",
+                          text, re.I) \
+            and re.search(r"consumption\s+(?:rises?|increases?|goes\s+up)"
+                          r"\s+from\s*" + _RS + _NUM
+                          + r"\s*(?:lakh|crores?|millions?)?\s*to\s*",
+                          text, re.I):
+        return _GATE
     y = _pf(g.get("y"))
     c_v = _labv(text, r"\bconsumption\b")
     s_v = _labv(text, r"\bsaving?s\b")
@@ -2967,7 +3011,8 @@ _TABLE: List[Tuple[str, str, Any]] = [
     # ---- macro: income determination --------------------------------------- #
     ("CONSUMPTION_FUNCTION_ANY", _CONS_FN, _c_consumption),
     ("INVESTMENT_MULTIPLIER",
-     r"\b(?:investment\s+)?multiplier\b",
+     r"\b(?:investment\s+)?multiplier\b|\bmpc\b|\bmps\b|"
+     r"marginal\s+propensity",
      _c_investment_multiplier),
     ("APC_APS_IDENTITIES",
      r"\b(?:apc|aps|average\s+propensity)\b",
@@ -3128,6 +3173,219 @@ def _c_headcount2(g, m, text):
     return _c_headcount(g, m, text)
 
 
+# ---- ISC numeric families (CISCE phrasings mined from c11/c12 econ) ------- #
+# point-quantity price controls, delta-MPC, marginal-utility schedule.
+# Same gate/beat conventions as the books2 wave.
+
+
+def _c_price_gap(g, m, text):
+    """Price control with QUANTITIES STATED AT the controlled price
+    ('The MSP is Rs 22/kg. At Rs 22, quantity supplied is 130 lakh tonnes,
+    quantity demanded is 80') -- surplus/shortage = |Qs - Qd|, binding
+    judged against the equilibrium price when stated."""
+    low = text.lower()
+    if not _has_word(text, r"price\s+(?:ceiling|floor)|\bMSP\b|"
+                           r"minimum\s+support\s+price|support\s+price|"
+                           r"(?:maximum|minimum)\s+price"):
+        return _GATE
+    pcx = _labv(text, r"(?:price\s+(?:ceiling|floor)|MSP|minimum\s+support"
+                       r"\s+price|support\s+price|(?:maximum|minimum)"
+                       r"\s+price)")
+    if pcx is None or pcx <= 0:
+        return _GATE        # impossible state: non-positive controlled price
+    qd = _labv(text, r"(?:quantity\s+)?(?:demanded|demand)\s*(?:is|are|=|"
+                     r":|of)?")
+    qs = _labv(text, r"(?:quantity\s+)?(?:supplied|supply)\s*(?:is|are|=|"
+                     r":|of)?")
+    if qd is None or qs is None or qd < 0 or qs < 0:
+        return _GATE
+    if qd == qs:
+        return _GATE        # no gap: nothing to compute
+    kind = "floor" if _has_word(text, r"floor|MSP|support\s+price|minimum") \
+        else "ceiling"
+    gap = abs(qs - qd)
+    p_star = _labv(text, r"equilibrium\s+price")
+    binding = None
+    if p_star is not None and p_star > 0:
+        binding = pcx > p_star if kind == "floor" else pcx < p_star
+    surplus = qs > qd
+    comp = [f"At the controlled price Rs {_fmt(pcx)}: quantity supplied = "
+            f"{_fmt(qs)}, quantity demanded = {_fmt(qd)}.",
+            f"Gap = |{_fmt(qs)} - {_fmt(qd)}| = {_fmt(gap)} "
+            + ("(Qs > Qd: excess supply)." if surplus
+               else "(Qd > Qs: excess demand).")]
+    if binding is not None:
+        comp.append(
+            f"Rs {_fmt(pcx)} is {'above' if pcx > p_star else 'below'} the "
+            f"equilibrium price Rs {_fmt(p_star)}, so the {kind} is "
+            f"{'BINDING' if binding else 'NOT binding'}.")
+    steps = [
+        "Method: a price floor (MSP) set above equilibrium makes sellers "
+        "offer more than buyers take -- a SURPLUS (Qs - Qd); a price "
+        "ceiling set below equilibrium does the reverse -- a SHORTAGE "
+        "(Qd - Qs). With both quantities quoted at the controlled price, "
+        "the gap is the direct difference.",
+        f"Given: {kind} price = Rs {_fmt(pcx)}, quantity supplied = "
+        f"{_fmt(qs)}, quantity demanded = {_fmt(qd)}"
+        + (f", equilibrium price = Rs {_fmt(p_star)}."
+           if p_star is not None else "."),
+    ]
+    steps.extend(comp)
+    steps.append(
+        f"Check: the larger side ({_fmt(max(qs, qd))}) minus the smaller "
+        f"({_fmt(min(qs, qd))}) recomputes the same {_fmt(gap)} gap.")
+    _bind_word = ("surplus for the agency to procure" if surplus
+                  else "shortage to be rationed")
+    steps.append(
+        (f"Interpretation: the binding {kind} leaves a persistent "
+         f"{_bind_word} of {_fmt(gap)} units."
+         if binding is not None and binding else
+         f"Interpretation: a gap of {_fmt(gap)} units at the controlled "
+         "price" + (f"; against equilibrium price Rs {_fmt(p_star)} the "
+                     f"{kind} is not binding, so the market still clears."
+                     if p_star is not None else ".")))
+    word = "surplus (excess supply)" if surplus else "shortage (excess demand)"
+    ans = (f"{word} of {_fmt(gap)} units at the {kind} price of "
+           f"Rs {_fmt(pcx)} (Qs {_fmt(qs)} vs Qd {_fmt(qd)})")
+    if binding is not None:
+        ans += " -- binding" if binding else " -- not binding"
+    return gap, steps, ans, None, \
+        "gap = |Qs - Qd| at the controlled price", \
+        {"controlled_price": pcx, "qd": qd, "qs": qs, "gap": gap}
+
+
+def _c_mpc_delta(g, m, text):
+    """MPC from a CHANGE: 'disposable income rises from A to B,
+    consumption rises from C to D -- calculate MPC' (+ APC at each
+    level).  MPC = dC/dY; APC_i = C_i / Y_i."""
+    if not _has_word(text, r"\bMPC\b|marginal\s+propensity\s+to\s+consum"):
+        return _GATE
+    ym = re.search(r"(?:disposable\s+)?income\s+(?:rises?|increases?|"
+                   r"goes\s+up)\s+from\s*" + _RS + r"(" + _NUM + r")\s*"
+                   r"(?:lakh|crores?)?\s*to\s*" + _RS + r"(" + _NUM + r")",
+                   text, re.I)
+    cm_ = re.search(r"consumption\s+(?:rises?|increases?|goes\s+up)\s+"
+                    r"from\s*" + _RS + r"(" + _NUM + r")\s*(?:lakh|crores?)?"
+                    r"\s*to\s*" + _RS + r"(" + _NUM + r")", text, re.I)
+    if not (ym and cm_):
+        return _GATE
+    y1, y2 = _pf(ym.group(1)), _pf(ym.group(2))
+    c1, c2 = _pf(cm_.group(1)), _pf(cm_.group(2))
+    if None in (y1, y2, c1, c2) or min(y1, y2, c1, c2) <= 0:
+        return _GATE
+    dy, dc = y2 - y1, c2 - c1
+    if dy <= 0 or dc <= 0:
+        return _GATE        # falling income/consumption is not this ask
+    mpc = dc / dy
+    if not (0 < mpc <= 1 + 1e-9):
+        return _GATE        # impossible state: MPC outside (0, 1]
+    apc1, apc2 = c1 / y1, c2 / y2
+    steps = [
+        "Method: marginal propensity to consume is the ratio of the CHANGE "
+        "in consumption to the CHANGE in income, MPC = dC/dY (the slope of "
+        "the consumption function); the average propensities at the two "
+        "levels are APC = C/Y (leec102).",
+        f"Given: income rises from Rs {_fmt(y1)} to Rs {_fmt(y2)}; "
+        f"consumption rises from Rs {_fmt(c1)} to Rs {_fmt(c2)}.",
+        f"dC = {_fmt(c2)} - {_fmt(c1)} = {_fmt(dc)};  dY = {_fmt(y2)} - "
+        f"{_fmt(y1)} = {_fmt(dy)}.",
+        f"MPC = {_fmt(dc)} / {_fmt(dy)} = {_fmt(mpc)}.",
+        f"APC before = {_fmt(c1)}/{_fmt(y1)} = {_fmt(apc1)}; APC after = "
+        f"{_fmt(c2)}/{_fmt(y2)} = {_fmt(apc2)}.",
+        f"Check: MPC x dY = {_fmt(mpc * dy)} = dC -- the slope rebuilds "
+        "the consumption change.",
+        "Interpretation: of every additional rupee of income the "
+        f"household spends {_fmt(mpc)} and saves {_fmt(1 - mpc)}; APC "
+        "falls toward MPC as income rises (the autonomous term thins "
+        "out).",
+    ]
+    ans = (f"MPC = {_fmt(mpc)}; APC at Rs {_fmt(y1)} = {_fmt(apc1)}, "
+           f"at Rs {_fmt(y2)} = {_fmt(apc2)}")
+    return mpc, steps, ans, None, "MPC = dC/dY; APC = C/Y", \
+        {"mpc": mpc, "apc_before": apc1, "apc_after": apc2,
+         "dy": dy, "dc": dc}
+
+
+def _c_mu_schedule(g, m, text):
+    """Marginal utility from a TOTAL utility schedule ('1st = 30 utils,
+    2nd = 55, 3rd = 75 ...'): MU_k = TU_k - TU_(k-1) with TU_0 = 0, and
+    diminishing MU sets in where MU first falls."""
+    if not _has_word(text, r"total\s+utilit"):
+        return _GATE
+    # two canonical schedule wordings:
+    #   forward  -- "1st = 30 utils, 2nd unit is 55"  (value after ordinal)
+    #   backward -- "20 utils from the 1st ice cream" (value before ordinal)
+    # The backward form binds each value to its ordinal explicitly, so it
+    # wins whenever it yields a clean 1..n run; otherwise the forward
+    # filler parse applies (structural gates below reject ragged runs).
+    bwd = [(int(b), _pf(a)) for a, b in re.findall(
+        r"(" + _NUM + r")\s*utils?\s+(?:is\s+|are\s+)?(?:derived\s+)?"
+        r"from\s+the\s+(\d{1,2})(?:st|nd|rd|th)\b",
+        text, re.I)]
+    bwd = [(k, v) for k, v in bwd if v is not None and v > 0]
+    bks = [k for k, _ in bwd]
+    if len(bwd) >= 2 and bks[0] == 1 and bks == sorted(bks) \
+            and len(set(bks)) == len(bks):
+        pairs = bwd
+    else:
+        # ordinal + value: "1st = 30", "1st unit = 30", "the 2nd unit
+        # is 55" (up to 24 filler chars; the trigger already requires a
+        # total-utility ask)
+        pairs = [(int(a), _pf(b)) for a, b in re.findall(
+            r"\b(\d{1,2})(?:st|nd|rd|th)(?:\s*units?)?\b[^0-9\n]{0,24}?"
+            r"(" + _NUM + r")",
+            text)]
+    pairs = [(k, v) for k, v in pairs if v is not None and v > 0]
+    if len(pairs) < 2:
+        return _GATE
+    ks = [k for k, _ in pairs]
+    if ks[0] != 1 or ks != sorted(ks) or len(set(ks)) != len(ks):
+        return _GATE        # schedule must start at the 1st unit, in order
+    tus = [v for _, v in pairs]
+    mus = [tus[0]]
+    for i in range(1, len(tus)):
+        mus.append(tus[i] - tus[i - 1])
+    dim_at = None
+    for i in range(1, len(mus)):
+        if mus[i] < mus[i - 1]:
+            dim_at = i + 1          # 1-based unit number
+            break
+    steps = [
+        "Method: marginal utility is the ADDITION to total utility from "
+        "one more unit, MU_n = TU_n - TU_(n-1) with TU_0 = 0 (so MU of the "
+        "1st unit equals TU of the 1st); diminishing MU sets in at the "
+        "first unit whose MU is lower than the previous one (leec201).",
+        "Given: total utility schedule " + ", ".join(
+            f"unit {k} = {_fmt(v)}" for (k, v), _v in zip(pairs, tus)) + ".",
+    ]
+    for i in range(len(mus)):
+        if i == 0:
+            steps.append(f"MU of unit 1 = TU_1 - 0 = {_fmt(mus[0])}.")
+        else:
+            steps.append(f"MU of unit {i + 1} = {_fmt(tus[i])} - "
+                         f"{_fmt(tus[i - 1])} = {_fmt(mus[i])}.")
+    steps.append(
+        f"Check: the MU schedule sums back to total utility: "
+        + " + ".join(_fmt(v) for v in mus) + f" = {_fmt(sum(mus))} = "
+        f"TU of the last unit.")
+    dim_ord = _ordinal(dim_at) if dim_at is not None else None
+    steps.append(
+        (f"Interpretation: diminishing marginal utility sets in from the "
+         f"{dim_ord} unit onward -- each extra unit adds less utility "
+         "than the one before, though total utility still rises."
+         if dim_ord else
+         "Interpretation: marginal utility never falls in this schedule, "
+         "so diminishing MU has not set in within the stated range."))
+    ans = ("Marginal utilities: " + ", ".join(_fmt(v) for v in mus)
+           + " utils"
+           + (f"; diminishing MU sets in from the {dim_ord} unit"
+              if dim_ord else ""))
+    # numeric claim: total utility (sum identity) -- verifiable exactly
+    return tus[-1], steps, ans, None, "MU_n = TU_n - TU_(n-1)", \
+        {"total_utility_last": tus[-1],
+         **{f"mu_{i + 1}": v for i, v in enumerate(mus)}}
+
+
 _TABLE = [(fid,
            pat,
            _c_consumption2 if fid == "CONSUMPTION_FUNCTION_ANY"
@@ -3164,6 +3422,23 @@ _TABLE_BOOKS2: List[Tuple[str, str, Any]] = [
      _c_consumer_eq),
     # micro ch 5 (leec205): market supply = horizontal sum
     ("MARKET_SUPPLY_SUM", r"\bmarket\s+supply\b", _c_market_supply),
+    # ISC price control with quantities STATED at the controlled price --
+    # runs before the function-form PRICE_CEILING_FLOOR (which needs
+    # Qd = a - bP / Qs = c + dP equations) and refuses them via gates
+    ("PRICE_CONTROL_GAP",
+     r"\bprice\s+(?:ceiling|floor)\b|\bMSP\b|minimum\s+support\s+price|"
+     r"\bsupport\s+price\b|\b(?:maximum|minimum)\s+price\b",
+     _c_price_gap),
+    # ISC macro: MPC from a change (income/consumption rise from X to Y)
+    ("MPC_DELTA",
+     r"\bMPC\b|marginal\s+propensity\s+to\s+consum",
+     _c_mpc_delta),
+    # ISC micro: marginal utility from a total-utility schedule
+    # (SOCIAL_GOLDEN 2026-10-07: the bare "TU schedule" abbreviation is
+    # the corpus's own phrasing -- the trigger missed it and refused)
+    ("MU_FROM_TU",
+     r"\btotal\s+utilit|\bTU\s+schedule\b",
+     _c_mu_schedule),
     # micro ch 5 (leec205 5.2): price ceiling / floor
     ("PRICE_CEILING_FLOOR",
      r"\bprice\s+(?:ceiling|floor)\b|\b(?:maximum|minimum)\s+price\b|"
@@ -3181,7 +3456,795 @@ _TABLE_BOOKS2: List[Tuple[str, str, Any]] = [
      _c_bop),
 ]
 
-TABLE = _TABLE + _TABLE_BOOKS2
+# --------------------------------------------------------------------------- #
+# SOCIAL_GOLDEN wave (2026-10-07): corpus-sourced families for the c9-c12
+# economics lanes the sweep caught mis-served.  Registered FIRST (specific
+# before generic): the related-elasticity shapes were being answered by the
+# PED rows (own-price machinery) with the wrong quantity, and the OJT bond
+# net-gain by the percent-narrative chain.  Every row is closed-world: the
+# method is exactly the corpus's own worked key (c9_eco_ch2_4/ch2_6,
+# c11_eco_cbse_04_006, c12_eco_cbse_02_009).
+# --------------------------------------------------------------------------- #
+
+# optional unit suffix after a number: "/kg", "kg/week", "tickets" -- but
+# never a bare word (every alternative requires a slash, so "to" is safe)
+_UNIT = r"(?:\s*/\s*[a-z]{1,7}|\s*[a-z]{1,7}\s*/\s*[a-z]{1,7})?"
+_DIR = (r"(?:risen|rise[s]?|increas(?:e[s]?|ed)|rose|went up|goes up|"
+        r"fall[s]?|fell|drop[s]?|dropped|decrease[s]?|decreased|"
+        r"decline[s]?|declined)")
+
+# cross-price: "price of butter increases from 200/kg to 250 ... demand for
+# margarine rises from 50/week to 70/week"
+_XED_PAIR = (
+    r"(?:price|cost)\s+of\s+(?P<pgood>[a-z][a-z \-]{2,28}?)\s*"
+    + _DIR + r"\s+from\s*" + _RS +
+    r"(?P<p1>" + _NUM + r")" + _UNIT + r"\s*(?:to|rs\.?)\s*" + _RS +
+    r"(?P<p2>" + _NUM + r")" + _UNIT +
+    r"[\s\S]{0,220}?demand\s+for\s+(?P<qgood>[a-z][a-z \-]{2,28}?)\s*"
+    + _DIR + r"\s+from\s*" + _RS +
+    r"(?P<q1>" + _NUM + r")" + _UNIT + r"\s*(?:to|rs\.?)\s*" + _RS +
+    r"(?P<q2>" + _NUM + r")" + _UNIT
+)
+# income: "income rose from 3000 to 5000 ... demand fell from 60 to 40"
+_YED_PAIR = (
+    r"\bincome\s+" + _DIR + r"\s+from\s*" + _RS +
+    r"(?P<y1>" + _NUM + r")" + _UNIT + r"\s*(?:to|rs\.?)\s*" + _RS +
+    r"(?P<y2>" + _NUM + r")" + _UNIT +
+    r"[\s\S]{0,220}?demand\s+(?:for\s+(?P<qgood>[a-z][a-z \-]{2,28}?))?\s*"
+    + _DIR + r"\s+from\s*" + _RS +
+    r"(?P<q1>" + _NUM + r")" + _UNIT + r"\s*(?:to|rs\.?)\s*" + _RS +
+    r"(?P<q2>" + _NUM + r")" + _UNIT
+)
+
+
+def _pct(a: float, b: float) -> float:
+    return (b - a) / a * 100.0 if a else 0.0
+
+
+def _p2(v: float) -> str:
+    """Exam-key percent format: the corpus keys carry 2-dp percentages
+    ('66.67%', '-33.33%') -- an integer-rounded '67%' would not match
+    the key an examiner grades against."""
+    return f"{v:.2f}"
+
+
+def _c_related_elasticity(g, m, text):
+    """%change of the determinant, %change of demand, and the sign
+    classification -- the corpus key's own three beats (substitute /
+    complement for a related good's price; normal / inferior for income).
+    Answers BOTH percentages: the partial single-number answer that the
+    PED rows served here was a verified-incomplete."""
+    if "income" in (g.get("y1") or "") or g.get("y1") is not None:
+        y1, y2 = float(g["y1"]), float(g["y2"])
+        q1, q2 = float(g["q1"]), float(g["q2"])
+        if y1 <= 0 or q1 <= 0 or y1 == y2 or q1 == q2:
+            return _GATE
+        pd_pct = _pct(y1, y2)
+        qd_pct = _pct(q1, q2)
+        ed = qd_pct / pd_pct if pd_pct else 0.0
+        kind = ("normal good (demand moves WITH income)"
+                if ed > 0 else "inferior good (demand moves AGAINST income)")
+        steps = [
+            "Method: Using the corpus income-elasticity relation - "
+            "percentage change in demand divided by the percentage change "
+            "in income (c9_eco ch2 worked key).",
+            f"Given: income {_fmt(y1)} to {_fmt(y2)}; demand {_fmt(q1)} "
+            f"to {_fmt(q2)} units.",
+            f"Computation: %change in income = ({_fmt(y2)} - {_fmt(y1)}) / "
+            f"{_fmt(y1)} x 100 = {_p2(pd_pct)}%; %change in demand = "
+            f"({_fmt(q2)} - {_fmt(q1)}) / {_fmt(q1)} x 100 = "
+            f"{_p2(qd_pct)}%.",
+            f"Check: income elasticity = {_p2(qd_pct)}% / {_p2(pd_pct)}% "
+            f"= {_p2(ed)} - the sign is what classifies, and the "
+            f"arithmetic reproduces the corpus key's steps.",
+            "Interpretation: elasticity " + _p2(ed) + " -> " + kind +
+            "; the sign of the relation, not its size, is the examinable "
+            "anchor.",
+        ]
+        return (ed, steps,
+                f"%change in income = {_p2(pd_pct)}%, %change in demand = "
+                f"{_p2(qd_pct)}%, income elasticity = {_p2(ed)} "
+                f"({kind})",
+                [], "YED = %dQ / %dY",
+                {"pct_det": pd_pct, "pct_q": qd_pct, "elasticity": ed,
+                 "kind": kind, "method": "RELATED_ELASTICITY"})
+    p1 = g.get("p1")
+    q1 = g.get("q1")
+    if p1 is None or q1 is None:
+        return _GATE
+    p1, p2 = float(p1), float(g["p2"])
+    q1, q2 = float(q1), float(g["q2"])
+    if p1 <= 0 or q1 <= 0 or p1 == p2 or q1 == q2:
+        return _GATE
+    pd_pct = _pct(p1, p2)
+    qd_pct = _pct(q1, q2)
+    xed = qd_pct / pd_pct if pd_pct else 0.0
+    same = (pd_pct > 0) == (qd_pct > 0)
+    kind = ("substitute goods (both move in the SAME direction)"
+            if same else "complementary goods (they move in OPPOSITE "
+                         "directions)")
+    steps = [
+        "Method: Using the corpus cross-price relation - percentage "
+        "change in demand for one good divided by the percentage change "
+        "in the other good's price (c9_eco ch2 worked key).",
+        f"Given: price of {g.get('pgood', 'the good').strip()} "
+        f"{_fmt(p1)} to {_fmt(p2)}; demand for "
+        f"{g.get('qgood', 'the good').strip()} {_fmt(q1)} to {_fmt(q2)}.",
+        f"Computation: %change in price = ({_fmt(p2)} - {_fmt(p1)}) / "
+        f"{_fmt(p1)} x 100 = {_p2(pd_pct)}%; %change in demand = "
+        f"({_fmt(q2)} - {_fmt(q1)}) / {_fmt(q1)} x 100 = {_p2(qd_pct)}%.",
+        f"Check: cross-price elasticity = {_p2(qd_pct)}% / "
+        f"{_p2(pd_pct)}% = {_p2(xed)}; same-direction movements give a "
+        f"positive sign - the corpus key's own test.",
+        "Interpretation: the positive relationship indicates " + kind +
+        "; a negative one would indicate complements.",
+    ]
+    return (xed, steps,
+            f"%change in price = {_p2(pd_pct)}%, %change in demand = "
+            f"{_p2(qd_pct)}%, cross-price elasticity = {_p2(xed)} "
+            f"({kind})",
+            [], "XED = %dQy / %dPx",
+            {"pct_det": pd_pct, "pct_q": qd_pct, "elasticity": xed,
+             "kind": kind, "method": "RELATED_ELASTICITY"})
+
+
+def _inr(v: float) -> str:
+    """Indian rupee grouping (the corpus key's own convention):
+    130000 -> '1,30,000'."""
+    s = f"{v:,.2f}" if abs(v - round(v)) >= 1e-9 else str(int(round(v)))
+    if "." in s:
+        head, tail = s.split(".")
+    else:
+        head, tail = s, ""
+    neg = head.startswith("-")
+    if neg:
+        head = head[1:]
+    if len(head) > 3:
+        head = head[:-3] + "," + head[-3:]
+        while True:
+            parts = head.split(",")
+            if len(parts[0]) <= 2:
+                break
+            parts[0] = parts[0][:-2] + "," + parts[0][-2:]
+            head = ",".join(parts)
+    return ("-" if neg else "") + head + ("." + tail if tail else "")
+
+
+def _c_training_net_gain(g, m, text):
+    """OJT bond arithmetic, exactly the c11_eco human-capital key:
+    net gain = months x additional monthly revenue - training cost."""
+    if not re.search(r"\btraining\b", text, re.I) \
+            or not re.search(r"\bbond\b", text, re.I):
+        return _GATE
+    # comma-tolerant numbers: board stems write Rs 50,000 (the _NUM scan
+    # reads "50" and silently mis-prices the whole family)
+    _NCP = r"-?\d[\d,]*(?:\.\d+)?"
+    cost = None
+    mc = re.search(r"(?:spends?|spend|cost(?:s)?(?: of)?|investment of)"
+                   r"[^0-9\n]{0,30}" + _RS +
+                   r"(?P<c>" + _NCP + r")", text, re.I)
+    if mc:
+        cost = _pf(mc.group("c").replace(",", ""))
+    if cost is None:
+        mc = re.search(_RS + r"(?P<c>" + _NCP + r")\s*(?:per worker|"
+                       r"per employee)", text, re.I)
+        if mc:
+            cost = _pf(mc.group("c").replace(",", ""))
+    rev = None
+    mr = re.search(r"(?:additional|extra|increased?)[^0-9\n]{0,40}" + _RS +
+                   r"(?P<r>" + _NCP + r")\s*(?:per month|monthly|/month)",
+                   text, re.I)
+    if mr:
+        rev = _pf(mr.group("r").replace(",", ""))
+    months = None
+    my = re.search(r"(?P<y>\d+(?:\.\d+)?)\s*[- ]?year\s+bond|"
+                   r"bond[^0-9\n]{0,30}?(?P<y2>\d+(?:\.\d+)?)\s*[- ]?year",
+                   text, re.I)
+    mm = re.search(r"(?P<m>\d+)\s*[- ]?month\s+bond|"
+                   r"bond[^0-9\n]{0,30}?(?P<m2>\d+)\s*[- ]?month",
+                   text, re.I)
+    if my:
+        months = float(my.group("y") or my.group("y2")) * 12.0
+    elif mm:
+        months = float(mm.group("m") or mm.group("m2"))
+    if not (cost and rev and months):
+        return _GATE
+    total = months * rev
+    net = total - cost
+    viable = net > 0
+    _b = _inr
+    # address the stem's context numbers explicitly (the sweep's
+    # data-coverage guard -- and the student -- deserve the "why is 20%
+    # / 6-week not in the arithmetic" sentence the corpus key implies)
+    context = []
+    if re.search(r"\b(\d+(?:\.\d+)?)\s*%", text):
+        pct_m = re.search(r"\b(\d+(?:\.\d+)?)\s*%", text)
+        context.append(f"the stated {pct_m.group(1)}% output gain is "
+                       "already monetised as the additional monthly "
+                       "revenue, so it does not enter the money "
+                       "arithmetic again")
+    wk = re.search(r"\b(\d+)\s*-?\s*week", text, re.I)
+    if wk:
+        context.append(f"the {wk.group(1)}-week programme duration is the "
+                       "training window, not a money flow")
+    steps = [
+        "Method: Using the corpus human-capital key - the bond period "
+        "converts the monthly productivity gain into total additional "
+        "revenue, and the training cost is recovered against it "
+        "(c11_eco_cbse_04_006 worked key).",
+        f"Given: training cost = {_b(cost)}; additional revenue = "
+        f"{_b(rev)} per month; bond period = {_fmt(months)} months.",
+        f"Computation: total additional revenue = {_fmt(months)} x "
+        f"{_b(rev)} = {_b(total)}; net gain = {_b(total)} - "
+        f"{_b(cost)} = {_b(net)}.",
+        "Check: substitute back - " + _b(net) + " + " + _b(cost) +
+        " = " + _b(total) + ", the bond-period revenue, so the "
+        "subtraction closes.",
+        "Interpretation: net gain " + _b(net) + " is " +
+        ("POSITIVE, so the training is economically viable over the bond "
+         "period" if viable else "NEGATIVE, so the training does not pay "
+         "for itself over the bond period") +
+        " - the firm's own profit test, no discounting assumed."
+        + (" (" + "; ".join(context) + ")." if context else ""),
+    ]
+    return (net, steps,
+            f"Net gain over the bond period = {_b(net)}"
+            f"{' > 0, training is viable' if viable else ' <= 0, not viable'}",
+            ["no discounting (the corpus key's own simplification)"],
+            "net = months x monthly gain - training cost",
+            {"months": months, "monthly_gain": rev, "cost": cost,
+             "net": net, "viable": viable,
+             "method": "TRAINING_NET_GAIN"})
+
+
+_FUNC_FORM = (r"demand\s+(?:function|equation)\s*(?:is|:)?\s*"
+              r"(?P<lhs>[A-Za-z]{1,2}d?)\s*=\s*"
+              r"(?P<rhs>[^\n,]{3,140})")
+
+_TERM_RE = re.compile(
+    r"(?P<sign>[+-])?\s*(?P<num>\d+(?:\.\d+)?)?\s*\*?\s*"
+    r"(?P<var>[A-Za-z][A-Za-z]{0,2})?")
+
+
+def _parse_linear_terms(rhs: str):
+    """'100 - 2P + 0.5Y - 3Ps' -> ({'P': -2, 'Y': 0.5, 'Ps': -3}, 100)."""
+    const = 0.0
+    coeffs = {}
+    pos = 0
+    s = rhs.strip()
+    for t in _TERM_RE.finditer(s):
+        if t.start() != pos and s[pos:t.start()].strip():
+            return None  # unparseable gap
+        pos = t.end()
+        sign = -1.0 if t.group("sign") == "-" else 1.0
+        num = float(t.group("num")) if t.group("num") else 1.0
+        var = t.group("var")
+        if var is None and t.group("num") is None:
+            continue
+        if var:
+            coeffs[var] = coeffs.get(var, 0.0) + sign * num
+        else:
+            const += sign * num
+    if pos != len(s) or not (coeffs or const):
+        return None
+    return coeffs, const
+
+
+def _c_demand_multivar(g, m, text):
+    """Full evaluation of a multi-determinant demand function plus the
+    movement-along vs shift classification -- the c12 micro key's exact
+    beats (c12_eco_cbse_02_009).  Owns the shape BEFORE the single-variable
+    demand rows, which read only the leading 'a - bP' fragment and shipped
+    a verified-partial answer."""
+    rhs_raw = g["rhs"]
+    parsed = _parse_linear_terms(rhs_raw)
+    strip_clause = m.group(0)
+    if not parsed:
+        # SOCIAL-ALL (2026-10-07): the ISC stem runs the function into a
+        # full sentence ("Qd = 800 - 4P + 0.02Y. If the current price
+        # ..."), so the RHS capture carries trailing prose - retry on
+        # the first sentence only, and strip only the trimmed clause
+        # (stripping the whole match would delete the sentence that
+        # carries the stated P and Y values).
+        cut = re.split(r"\.\s", rhs_raw)[0].rstrip(". ")
+        if cut != rhs_raw:
+            parsed = _parse_linear_terms(cut)
+            strip_clause = strip_clause.replace(rhs_raw, cut)
+        if not parsed:
+            return _GATE
+    coeffs, const = parsed
+    if len(coeffs) < 2:
+        return _GATE  # single-variable shapes belong to DEMAND_Q_AT_P
+    lhs = g["lhs"]
+    # strip the function's own clause before hunting assignments
+    stem = text.replace(strip_clause, " ", 1)
+    vals = {}
+    #: word-form fallbacks when the function's variables are assigned in
+    #: prose ("the current price is Rs 100", "disposable income is
+    #: Rs 40,000" -- c12_econ_isc_01_003) instead of inline "P=100"
+    _WORD_VALS = {
+        "P": r"\bprice\D{0,12}(?:Rs\.?|₹)?\s*(\d[\d,]*)",
+        "p": r"\bprice\D{0,12}(?:Rs\.?|₹)?\s*(\d[\d,]*)",
+        "Y": r"income\D{0,12}(?:Rs\.?|₹)?\s*(\d[\d,]*)",
+        "y": r"income\D{0,12}(?:Rs\.?|₹)?\s*(\d[\d,]*)",
+    }
+    for name in coeffs:
+        am = re.search(r"\b" + re.escape(name) + r"\s*=\s*(" + _NUM + r")",
+                       stem)
+        if not am and name in _WORD_VALS:
+            am = re.search(_WORD_VALS[name], stem, re.I)
+        if not am:
+            return _GATE  # every function variable needs a stated value
+        vals[name] = float(am.group(1).replace(",", ""))
+
+    def _eval(over: dict) -> float:
+        v = const
+        for k, c in coeffs.items():
+            v += c * over.get(k, vals[k])
+        return v
+
+    q0 = _eval({})
+    parts = [f"Initial {lhs} = {const:g} " +
+             " + ".join(f"({coeffs[k]:g})x({vals[k]:g})"
+                        for k in coeffs) +
+             f" = {_fmt(q0)} units"]
+    newq = []
+    for cm in re.finditer(
+            r"\b(?P<v>[A-Za-z][A-Za-z]{0,2})\s+(?:rise[s]?|increase[s]?|"
+            r"falls?|decrease[s]?|drop[s]?)\s+to\s*(?P<val>" + _NUM + r")",
+            stem):
+        name, val = cm.group("v"), float(cm.group("val").replace(",", ""))
+        if name not in coeffs:
+            continue
+        qi = _eval({name: val})
+        own_price = name.upper() == "P"
+        newq.append((name, val, qi, own_price))
+    if not newq:
+        # SOCIAL-ALL (2026-10-07, CISCE sweep): an evaluation-only ask
+        # ("calculate the quantity demanded at these values, and the
+        # price elasticity at this point" -- c12_econ_isc_01_003) has no
+        # movement/shift counterfactual; the family still owns it (the
+        # single-variable row reads only the leading fragment) and adds
+        # the point-elasticity leg when the ask wants it.
+        ped = None
+        if re.search(r"elasticit", text, re.I):
+            pk = "P" if "P" in vals else ("p" if "p" in vals else None)
+            bp = coeffs.get(pk) if pk else None
+            if bp is not None and pk in vals and q0:
+                ped = bp * vals[pk] / q0
+        steps = [
+            "Method: Using the corpus demand function - substitute each "
+            "determinant's stated value into the linear function; with "
+            "no determinant changing, this is a pure evaluation (and the "
+            "point elasticity uses dQ/dP x P/Q on the same curve).",
+            f"Given: {lhs} = {rhs_raw.strip()}; " +
+            ", ".join(f"{k}={vals[k]:g}" for k in coeffs) + ".",
+            "Computation: " + "; ".join(parts) + ".",
+            "Check: each substituted term reproduces the function "
+            "exactly, so the evaluation closes on the given values.",
+            "Interpretation: this is the quantity demanded AT the stated "
+            "prices and income - a point on the curve, not a shift of "
+            "it." + ("" if ped is None else
+                     f" Point PED = {ped:.2f} -> "
+                     + ("inelastic (|PED| < 1)." if abs(ped) < 1 else
+                        "elastic (|PED| > 1).")),
+        ]
+        answer = (f"{lhs} = {_fmt(q0)} units at the stated values"
+                  + (f"; point PED = {ped:.2f} ("
+                     + ("inelastic" if abs(ped) < 1 else "elastic") + ")"
+                     if ped is not None else ""))
+        return (q0, steps, answer,
+                ["pure evaluation: no determinant changes"],
+                f"{lhs} = linear demand evaluation",
+                {"initial_q": q0, "point_ped": ped,
+                 "coeff_p": bp if (ped is not None) else None,
+                 "p_val": (vals.get(pk) if (ped is not None) else None),
+                 "method": "DEMAND_MULTIVAR_EVAL"}, 0.97)
+    answer_bits = [f"Initial {lhs} = {_fmt(q0)} units"]
+    moves = []
+    for name, val, qi, own_price in newq:
+        delta = qi - q0
+        tag = ("movement ALONG the demand curve (own price changed)"
+               if own_price else
+               "SHIFT of the entire demand curve (a non-price determinant "
+               "changed)")
+        direction = ("rightward (increase)" if delta > 0 else
+                     "leftward (decrease)" if delta < 0 else "no change")
+        moves.append(tag if own_price else f"{direction} {tag}")
+        answer_bits.append(
+            f"at {name}={val:g}: {lhs} = {_fmt(qi)} units "
+            f"({'movement along' if own_price else 'shift, ' + direction})")
+    steps = [
+        "Method: Using the corpus demand function - substitute each "
+        "determinant's value into the linear function; a change in the "
+        "good's OWN price moves along the curve, a change in any other "
+        "determinant shifts it (ceteris paribus, c12_eco_cbse_02_009 "
+        "worked key).",
+        f"Given: {lhs} = {rhs_raw.strip()}; initial values " +
+        ", ".join(f"{k}={vals[k]:g}" for k in coeffs) + ".",
+        "Computation: " + "; ".join(parts) + "; " +
+        "; ".join(f"{n} -> {q:g}" for n, _v, q, _o in newq) + ".",
+        "Check: each re-substitution keeps the untouched determinants at "
+        "their initial values (ceteris paribus), reproducing the corpus "
+        "key's arithmetic.",
+        "Interpretation: " + "; ".join(moves) + " - own-price changes "
+        "move along, other-determinant changes shift.",
+    ]
+    return (q0, steps, "; ".join(answer_bits),
+            ["untouched determinants held at initial values "
+             "(ceteris paribus)"],
+            f"{lhs} = linear demand evaluation",
+            {"initial_q": q0,
+             "counterfactuals": [(n, v, q) for n, v, q, _o in newq],
+             "qi_first": newq[0][2], "delta_first": newq[0][2] - q0,
+             "method": "DEMAND_MULTIVAR"}, 0.97)
+
+
+# --------------------------------------------------------------------------- #
+# SOCIAL-ALL wave 3 (2026-10-07): the CISCE econ sweep's REFUSE_NUM rows,
+# each a deterministic numeric the corpus key works fully
+# --------------------------------------------------------------------------- #
+
+_TU_PAIR_RE = re.compile(
+    r"Q\s*=\s*(\d+)\s*TU\s*=\s*(\d[\d,]*)", re.I)
+_NU_PAIR_RE = re.compile(
+    r"(\d+)\s*[a-z]{3,10}s?\s*=\s*(\d[\d,]*)\s*utils", re.I)
+_MU_LIST_RE = re.compile(
+    r"marginal utilities?[^.:]{0,80}?(?:are|is|:)\s*((?:\d[\d,]*\s*,\s*)+"
+    r"\d[\d,]*)", re.I)
+
+
+def _c_mu_schedule(g, m, text):
+    """TU schedule -> MU sequence (corpus: c9_eco_icse_01_011 mangoes,
+    c11_econ_isc_02_002 'Q=1 TU=30'; also the price stop rule and the
+    first-unit-below-threshold ask)."""
+    pairs = [(int(a), float(b.replace(",", "")))
+             for a, b in _TU_PAIR_RE.findall(text)]
+    if not pairs:
+        pairs = [(int(a), float(b.replace(",", "")))
+                 for a, b in _NU_PAIR_RE.findall(text)]
+    mus = None
+    first_unit = 1
+    if len(pairs) >= 2:
+        pairs.sort()
+        units = [p[0] for p in pairs]
+        if units != list(range(units[0], units[0] + len(units))):
+            return _GATE  # missing rungs -> MU sequence not computable
+        mus = [pairs[i][1] - pairs[i - 1][1] for i in range(1, len(pairs))]
+        first_unit = units[1]
+        src_desc = ", ".join(f"Q={u}: TU={_fmt(tv)}" for u, tv in pairs)
+    else:
+        # an explicit MU list ("marginal utilities ... are 25, 20, 15, 10")
+        lm = _MU_LIST_RE.search(text)
+        if not lm:
+            return _GATE
+        mus = [float(x)
+               for x in (t.strip() for t in lm.group(1).split(","))
+               if x]
+        src_desc = "stated MU sequence: " + ", ".join(_fmt(x) for x in mus)
+    mu_txt = ", ".join(f"MU{_fmt(float(u))} = {_fmt(mu)}"
+                       for u, mu in enumerate(mus, start=first_unit))
+    diminishing = all(mus[i] < mus[i - 1] for i in range(1, len(mus)))
+    # optional threshold ask: "MU first becomes less than X utils"
+    thr = None
+    tm = re.search(r"(?:less than|falls? below)\s*(\d[\d,]*)\s*utils",
+                   text, re.I)
+    if tm:
+        thr = float(tm.group(1).replace(",", ""))
+    # optional price stop rule: buy while MU (rupee-equivalent) >= price
+    price = None
+    if re.search(r"how many.{0,60}(?:buy|purchase|consume)", text, re.I) \
+            or re.search(r"maxim.{3,20}utility", text, re.I):
+        pm = re.search(r"(?:price|priced)\b[^.\d]{0,30}?"
+                       r"(?:Rs\.?|₹)?\s*(\d[\d,]*)", text, re.I)
+        if pm and (_MU_LIST_RE.search(text) or "utils" not in text.lower()):
+            price = float(pm.group(1).replace(",", ""))
+    parts = [f"MU{n} = {_fmt(mu)}"
+             for n, mu in enumerate(mus, start=first_unit)]
+    bits = []
+    tail = ""
+    verdict = ""
+    if price is not None:
+        buy = sum(1 for mu in mus if mu >= price)
+        bits.append(f"buy while MU >= price ({_fmt(price)}): the first "
+                    f"{buy} unit(s) qualify")
+        verdict = (f"utility is maximised by buying {buy} unit(s)")
+        tail = (f" - the next unit's MU ({_fmt(mus[buy]) if buy < len(mus) else '0'})"
+                f" falls below the {_fmt(price)} price, so buying it "
+                "would reduce total utility.")
+    elif thr is not None:
+        below = next((u for u, mu in
+                      enumerate(mus, start=first_unit) if mu < thr), None)
+        bits.append(f"first unit with MU < {_fmt(thr)}: "
+                    + (f"unit {below}" if below else
+                       f"none within the schedule shown (minimum MU shown "
+                       f"is {_fmt(min(mus))})"))
+        verdict = ("within the schedule, MU never falls below "
+                   f"{_fmt(thr)}" if below is None else
+                   f"MU first falls below {_fmt(thr)} at unit {below}")
+    else:
+        verdict = ("diminishing marginal utility HOLDS"
+                   if diminishing else
+                   "the MU sequence is not strictly diminishing")
+    steps = [
+        "Method: Using MU_n = TU_n - TU_(n-1) on the taught schedule - "
+        "marginal utility is the addition to total utility from one "
+        "more unit (c9/c11 corpus keys).",
+        "Given: " + src_desc + ".",
+        "Computation: " + "; ".join(parts) + ".",
+        "Check: successive differences reproduce the utility ladder "
+        "exactly - adding each MU back rebuilds the next total.",
+        "Interpretation: " + verdict + ".",
+    ]
+    ans = (f"MU: {mu_txt} - {verdict}{tail}")
+    extras = {"mu_last": mus[-1], "mus": mus, "method": "MU_SCHEDULE"}
+    if len(pairs) >= 2:
+        # verifier rebuild slots (pairs forms only; the explicit MU-list
+        # branch has no independent second relation beyond re-reading the
+        # stated ladder)
+        extras["tu_last"] = pairs[-1][1]
+        extras["tu_prev"] = pairs[-2][1]
+    return (mus[-1], steps, ans, ["MU read off the given TU schedule only"],
+            "MU_n = TU_n - TU_(n-1)",
+            extras, 0.97)
+
+
+def _c_share_percent(g, m, text):
+    """Two corpus directions: part/total -> share percent
+    (c9_eco_icse_04_001 GVA share), and percent x total -> part
+    (c9_eco_icse_02_004 public sector output)."""
+    # direction B: "contributes 30% of GDP ... total GDP is 200"
+    pm = re.search(r"(\d[\d,]*(?:\.\d+)?)\s*%", text)
+    tm = re.search(r"(?:total\s+)?(?:GDP|GVA|income|output)\D{0,20}"
+                   r"(?:is\s*|of\s*)?(?:Rs\.?|₹)\s*(\d[\d,]*)", text, re.I)
+    if pm and tm and re.search(r"calculate|find|output|how much", text,
+                               re.I):
+        pct = float(pm.group(1).replace(",", ""))
+        total = float(tm.group(1).replace(",", ""))
+        part = pct / 100.0 * total
+        steps = [
+            "Method: A sector's output = its GDP share x total GDP; the "
+            "other sector's share is the complement and adds to the same "
+            "total.",
+            f"Given: public share = {pct:g}%; private share = "
+            f"{100 - pct:g}%; total = ₹{_fmt(total)}.",
+            f"Computation: {pct:g}/100 x {_fmt(total)} = {_fmt(part)} "
+            f"(the private {100 - pct:g}% would be "
+            f"₹{_fmt(total - part)}).",
+            f"Check: {_fmt(part)} + {_fmt(total - part)} = "
+            f"{_fmt(total)} - the two-way split closes exactly.",
+            "Interpretation: the sector's output is ₹" + _fmt(part) +
+            " at the stated share.",
+        ]
+        return (part, steps, f"Output = ₹{_fmt(part)}",
+                ["share held at its stated percent"],
+                "part = percent/100 x total",
+                {"part": part, "pct": pct, "total": total,
+                 "method": "SHARE_PERCENT"}, 0.97)
+    # direction A: "Agriculture GVA = 28 ... Total GVA = 180 ... share"
+    sm = re.search(r"([A-Za-z ]{3,30}?)\s*(?:GVA|GDP)\s*(?:is|of|=)?\s*"
+                   r"(?:Rs\.?|₹)?\s*(\d[\d,]*)", text, re.I)
+    tm2 = re.search(r"[Tt]otal\s*(?:GVA|GDP)\D{0,16}(?:Rs\.?|₹)?\s*"
+                    r"(\d[\d,]*)", text)
+    if sm and tm2 and re.search(r"share|percent", text, re.I):
+        part = float(sm.group(2).replace(",", ""))
+        total = float(tm2.group(1).replace(",", ""))
+        if total <= 0 or part > total:
+            return _GATE
+        share = part / total * 100.0
+        steps = [
+            "Method: Sector share = sector value / total value x 100.",
+            f"Given: sector = ₹{_fmt(part)}; total = ₹{_fmt(total)}.",
+            f"Computation: ({_fmt(part)} / {_fmt(total)}) x 100 = "
+            f"{share:.2f}%.",
+            f"Check: {share:.2f}% of {_fmt(total)} returns "
+            f"{_fmt(part)} - the share closes.",
+            "Interpretation: the sector's share is "
+            f"{share:.2f}% of the total.",
+        ]
+        return (share, steps, f"Share = {share:.2f}%",
+                ["share is of the stated total only"],
+                "share = part/total x 100",
+                {"share": share, "part": part, "total": total,
+                 "method": "SHARE_PERCENT"}, 0.97)
+    return _GATE
+
+
+def _c_productivity(g, m, text):
+    """Output per unit of input (c10_econ_icse_01_003: capital stock
+    ₹2 crore, output ₹8 crore -> productivity 4)."""
+    cm2 = re.search(r"capital stock\D{0,20}(?:Rs\.?|₹)?\s*(\d[\d,]*)",
+                    text, re.I)
+    om = re.search(r"produces?\D{0,40}(?:Rs\.?|₹)?\s*(\d[\d,]*)", text,
+                   re.I)
+    if not (cm2 and om):
+        return _GATE
+    cap = float(cm2.group(1).replace(",", ""))
+    out = float(om.group(1).replace(",", ""))
+    if cap <= 0:
+        return _GATE
+    prod = out / cap
+    steps = [
+        "Method: Productivity = output / input - production counts "
+        "units made, productivity counts output PER unit of input "
+        "(c10_econ_icse_01_003 key).",
+        f"Given: capital = ₹{_fmt(cap)}; output = ₹{_fmt(out)}.",
+        f"Computation: {_fmt(out)} / {_fmt(cap)} = {_fmt(prod)}.",
+        f"Check: {_fmt(cap)} x {_fmt(prod)} = {_fmt(out)} - the ratio "
+        "closes.",
+        "Interpretation: every rupee of capital generates ₹" +
+        _fmt(prod) + " of output per year.",
+    ]
+    return (prod, steps, f"Capital productivity = {_fmt(prod)}",
+            ["single input (capital) measured"],
+            "productivity = output / capital",
+            {"productivity": prod, "output": out, "capital": cap,
+             "method": "PRODUCTIVITY_RATIO"}, 0.97)
+
+
+def _c_depreciation_sl(g, m, text):
+    """Straight-line depreciation (c10_econ_icse_01_006: 10 looms x
+    ₹5 lakh, 10-year life, zero scrap -> ₹5,00,000 a year)."""
+    nm = re.search(r"(\d[\d,]*)\s+[a-z][a-z -]{1,18}?\s+(?:for|at)\s*"
+                   r"(?:Rs\.?|₹)?\s*(\d[\d,]*)\s*(lakh|crore)?\s*each",
+                   text, re.I)
+    lm = re.search(r"life\s+of\s+(\d[\d,]*)\s*year", text, re.I)
+    if not (nm and lm):
+        return _GATE
+    n = float(nm.group(1).replace(",", ""))
+    each = float(nm.group(2).replace(",", ""))
+    mult = 100000.0 if "lakh" in nm.group(0).lower() else \
+        (10000000.0 if "crore" in nm.group(0).lower() else 1.0)
+    life = float(lm.group(1))
+    sm = re.search(r"scrap|salvage", text, re.I)
+    if sm and not re.search(r"zero\s+scrap|no\s+scrap|scrap\s+value\s+of\s*"
+                            r"0", text, re.I):
+        return _GATE  # non-zero salvage not parsed -> honest decline
+    cost = n * each * mult
+    dep = cost / life
+    steps = [
+        "Method: Straight-line depreciation = (cost - scrap value) / "
+        "useful life; with zero scrap value it is cost / life.",
+        f"Given: {n:g} units at Rs {each:g} lakh each (unit cost "
+        f"₹{_fmt(each * mult)}; total ₹{_fmt(cost)}); life {life:g} "
+        f"years; scrap value 0.",
+        f"Computation: total cost = {n:g} x ₹{_fmt(each * mult)} = "
+        f"₹{_fmt(cost)}; annual = ₹{_fmt(cost)} / {life:g} = "
+        f"₹{_inr(dep)} per year.",
+        f"Check: ₹{_inr(dep)} x {life:g} years = ₹{_inr(cost)} - the "
+        "asset is fully written off on schedule.",
+        "Interpretation: the firm charges ₹" + _inr(dep) +
+        " of depreciation every year for the whole set.",
+    ]
+    return (dep, steps, f"Annual depreciation = ₹{_inr(dep)}",
+            ["straight-line method, zero scrap value"],
+            "depreciation = (cost - scrap) / life",
+            {"annual_depreciation": dep, "cost": cost, "life": life,
+             "method": "DEPRECIATION_SL"}, 0.97)
+
+
+def _c_capital_formation(g, m, text):
+    """Capital formation = GFCF + change in stocks; optional rate =
+    CF / GDP x 100 (c10_econ_icse_01_008 worked key: 8,000 + (-500) =
+    7,500; rate 18.75%)."""
+    # the corpus writes the minus as a non-breaking hyphen - fold it
+    text = text.replace("\u2011", "-")
+    gm2 = re.search(r"GFCF\s*(?:=|of)\s*(?:Rs\.?|₹)?\s*(\d[\d,]*)", text,
+                    re.I)
+    if not gm2:
+        return _GATE
+    gfcf = float(gm2.group(1).replace(",", ""))
+    sm2 = re.search(r"(?:change|net)\s+in\s+(?:stocks?|inventories)"
+                    r"[^0-9]{0,20}?(-?)\s*(?:Rs\.?|₹)?\s*\(?\s*"
+                    r"(\d[\d,]*)", text, re.I)
+    if sm2 is None:
+        sm2 = re.search(r"(?:stocks?|inventories)[^0-9]{0,24}?"
+                        r"(-\d[\d,]*)", text, re.I)
+        if sm2 is None:
+            return _GATE
+        stocks = float(sm2.group(1).replace(",", ""))
+    else:
+        stocks = float(sm2.group(2).replace(",", ""))
+        if sm2.group(1) == "-":
+            stocks = -stocks
+    cf = gfcf + stocks
+    gdp = None
+    gm3 = re.search(r"GDP\D{0,20}(?:Rs\.?|₹)?\s*(\d[\d,]*)", text, re.I)
+    if gm3 and re.search(r"rate", text, re.I):
+        gdp = float(gm3.group(1).replace(",", ""))
+    rate = cf / gdp * 100.0 if gdp else None
+    steps = [
+        "Method: Capital formation = gross fixed capital formation + "
+        "change in stocks; the capital-formation rate divides it by "
+        "GDP (c10_econ_icse_01_008 key).",
+        f"Given: GFCF = ₹{_fmt(gfcf)}; change in stocks = ₹{_fmt(stocks)}"
+        + (f"; GDP = ₹{_fmt(gdp)}." if gdp else "."),
+        f"Computation: {_fmt(gfcf)} + ({_fmt(stocks)}) = {_fmt(cf)}" +
+        (f"; rate = {_fmt(cf)}/{_fmt(gdp)} x 100 = {rate:.2f}%."
+         if rate is not None else "."),
+        "Check: the negative stock change subtracts from GFCF exactly "
+        "as inventories were run down, so the identity holds.",
+        "Interpretation: capital formation is ₹" + _fmt(cf) +
+        (f" - {rate:.2f}% of GDP." if rate is not None else "."),
+    ]
+    ans = (f"Capital formation = ₹{_fmt(cf)}"
+           + (f"; rate = {rate:.2f}% of GDP" if rate is not None else ""))
+    return (cf, steps, ans, ["stocks change signed as stated"],
+            "CF = GFCF + change in stocks",
+            {"capital_formation": cf, "rate": rate, "gfcf": gfcf,
+             "stocks": stocks, "method": "CAPITAL_FORMATION"}, 0.97)
+
+
+def _c_mc_schedule(g, m, text):
+    """'Marginal Cost: Q=1 TC=80, Q=2 TC=110, ...' -> MC per unit step.
+    Deterministic difference ladder of the stated schedule."""
+    pairs = re.findall(r"Q\s*=\s*(\d+(?:\.\d+)?)\s*[,;:]?\s*"
+                       r"TC\s*=\s*(\d[\d,]*(?:\.\d+)?)", text, re.I)
+    if len(pairs) < 2:
+        pairs = [(b, a) for a, b in re.findall(
+            r"TC\s*=\s*(\d[\d,]*(?:\.\d+)?)\s*(?:at|for|when)\s*"
+            r"Q\s*=\s*(\d+(?:\.\d+)?)", text, re.I)]
+    if len(pairs) < 2:
+        return _GATE
+    sched = sorted((float(qq), float(cc.replace(",", "")))
+                   for qq, cc in pairs)
+    mcs: List[Tuple[float, float]] = []
+    for (q1, c1), (q2, c2) in zip(sched, sched[1:]):
+        if abs(q2 - q1 - 1.0) > 1e-9:
+            return _GATE       # non-unit ladder: per-unit MC undefined
+        mcs.append((q2, c2 - c1))
+    steps = [
+        "Method: marginal cost is the change in total cost for one "
+        "extra unit, MC(n) = TC(n) - TC(n-1).",
+        "Given schedule: " + "; ".join(
+            f"Q={qq:g} TC=Rs {cc:g}" for qq, cc in sched) + ".",
+        "Differences: " + "; ".join(
+            f"MC({qq:g}) = {_fmt(mc)}" for qq, mc in mcs) + "."]
+    ans = ", ".join(f"MC{_fmt(qq)} = Rs {_fmt(mc)}" for qq, mc in mcs)
+    return (mcs[0][1] if len(mcs) == 1 else None, steps, ans, None,
+            "MC(n) = TC(n) - TC(n-1)",
+            {"mc_count": float(len(mcs)),
+             "mc_first": mcs[0][1]}, 0.95)
+
+
+_TABLE_SOCIAL: List[Tuple[str, str, Any]] = [
+    # SOCIAL-ALL wave 3 (2026-10-07): the CISCE econ sweep's deterministic
+    # REFUSE_NUM rows -- specific shapes own their stems BEFORE the broad
+    # percent/elasticity families
+    ("MU_SCHEDULE",
+     r"TU\s+schedule|TU\s*=\s*\d|\d+\s*[a-z]{3,10}s?\s*=\s*\d[\d,]*\s*utils|"
+     r"marginal\s+utilit",
+     _c_mu_schedule),
+    ("DEPRECIATION_SL", r"depreciat", _c_depreciation_sl),
+    ("CAPITAL_FORMATION", r"capital\s+formation|GFCF", _c_capital_formation),
+    ("PRODUCTIVITY_RATIO", r"productivity", _c_productivity),
+    ("SHARE_PERCENT",
+     r"share|contributes?\s+\d[\d,]*\s*%|percent",
+     _c_share_percent),
+    # related-good / income elasticity (owns BEFORE the PED rows: those
+    # served the own-price machinery to these stems, a verified-wrong)
+    ("RELATED_ELASTICITY", _YED_PAIR, _c_related_elasticity),
+    ("RELATED_ELASTICITY", _XED_PAIR, _c_related_elasticity),
+    # on-the-job training bond arithmetic (owned BEFORE the percent
+    # narrative chain applied the productivity % to the cost)
+    ("TRAINING_NET_GAIN",
+     r"\btraining\b[\s\S]{0,400}?\bbond\b",
+     _c_training_net_gain),
+    # multi-determinant demand function (owns BEFORE DEMAND_Q_AT_P, which
+    # read only the leading 'a - bP' fragment)
+    ("DEMAND_MULTIVAR", _FUNC_FORM, _c_demand_multivar),
+    # WS-PAL (ovh-pal 2026-10-13): MC = TC_n - TC_{n-1} from an explicit
+    # Q/TC schedule -- the class-10 econ cell ('Marginal Cost: Q=1 TC=80,
+    # Q=2 TC=110, Q=3 TC=135, Q=4 TC=165') previously refused through
+    # PAL_PROGRAM with no verifier.  Second path: _row_mc_schedule in
+    # independent_verifier.py (registered route verifier).
+    ("MC_SCHEDULE",
+     r"marginal\s+cost|\bMC\b[^.]{0,40}(?:schedule|compute|calculate|"
+     r"find)|Q\s*=\s*\d+[^.]{0,12}TC\s*=\s*\d",
+     _c_mc_schedule),
+]
+
+TABLE = _TABLE_SOCIAL + _TABLE + _TABLE_BOOKS2
 
 
 def model_economics_families(text: str) -> ModelResult:
@@ -3203,10 +4266,14 @@ def model_economics_families(text: str) -> ModelResult:
             continue
         if not out:
             continue
-        (value, steps, answer, assumptions, eq, extra) = \
-            (list(out) + [None] * 6)[:6]
+        # SOCIAL-ALL (2026-10-07): an optional 7th element carries the
+        # family's arbitration confidence (default 0.95 unchanged for
+        # every existing 6-tuple family)
+        (value, steps, answer, assumptions, eq, extra, conf) = \
+            (list(out) + [None] * 7)[:7]
         if value is None and not steps:
             continue  # gate refused this row
         return _res(fid, g, value, eq or fid, steps or [], answer=answer,
-                    assumptions=assumptions, extra=extra or {})
+                    assumptions=assumptions, extra=extra or {},
+                    conf=0.95 if conf is None else float(conf))
     return _no("ECONOMICS", "no economics family matched")

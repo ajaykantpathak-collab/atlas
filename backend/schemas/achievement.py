@@ -34,4 +34,10 @@ class AchievementListResponse(BaseModel):
     # Mirror of `achievements` — the web progress page reads `items`.
     items: List[AchievementSchema] = Field(default_factory=list)
     unlocked_count: int = 0
+    # BADGE wall XP: the summed xp_reward of unlocked badges. This is NOT the
+    # student's XP balance — the canonical wallet number is `wallet_xp`
+    # (users.total_xp via services/reward_ledger.py). Both are served so no
+    # client has to reconstruct one from the other (council finding: "XP
+    # showed 6 vs 70" was this badge sum being rendered as the wallet).
     total_xp: int = 0
+    wallet_xp: int = 0

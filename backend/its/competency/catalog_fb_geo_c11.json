@@ -1,0 +1,552 @@
+{
+ "subject": "geo",
+ "chapter_title": "ICSE geo formula bank (c11)",
+ "source_file": "c11_geo_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_GEO_C11_001",
+   "title": "Distance: Distance = ...",
+   "section": "",
+   "formula": "Distance = latitude_difference*111",
+   "_pats_extra": [],
+   "key_idea": "Distance",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance using distance",
+    "calculate distance",
+    "distance formula question",
+    "given values find distance"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_001",
+     "question_pattern": "distance with {latitude_difference} find distance",
+     "extracted_variables": {
+      "latitude_difference": "given latitude_difference"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for latitude_difference from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance = latitude_difference*111",
+     "compute": "Distance = latitude_difference*111"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_002",
+   "title": "Time difference: Time difference = ...",
+   "section": "",
+   "formula": "Time_difference = longitude_difference*4*minutes",
+   "_pats_extra": [],
+   "key_idea": "Time difference",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time difference using time difference",
+    "calculate time difference",
+    "time difference formula question",
+    "given values find time difference"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_002",
+     "question_pattern": "time difference with {longitude_difference} and {minutes} find time difference",
+     "extracted_variables": {
+      "longitude_difference": "given longitude_difference",
+      "minutes": "given minutes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for longitude_difference, minutes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time difference = longitude_difference*4*minutes",
+     "compute": "Time_difference = longitude_difference*4*minutes"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_003",
+   "title": "P: P = ...",
+   "section": "",
+   "formula": "P = rho*g*h",
+   "_pats_extra": [],
+   "key_idea": "P",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p using p",
+    "calculate p",
+    "p formula question",
+    "given values find p"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_003",
+     "question_pattern": "p with {g} and {h} find p",
+     "extracted_variables": {
+      "g": "given g",
+      "h": "given h"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for g, h from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P = rho*g*h",
+     "compute": "P = rho*g*h"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_004",
+   "title": "RH: RH = ...",
+   "section": "",
+   "formula": "RH = (Actual_water_vapour / Maximum_capacity)*100",
+   "_pats_extra": [],
+   "key_idea": "RH",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find rh using rh",
+    "calculate rh",
+    "rh formula question",
+    "given values find rh"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_004",
+     "question_pattern": "rh with {Actual_water_vapour} and {Maximum_capacity} find rh",
+     "extracted_variables": {
+      "Actual_water_vapour": "given Actual_water_vapour",
+      "Maximum_capacity": "given Maximum_capacity"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Actual_water_vapour, Maximum_capacity from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "RH = (Actual_water_vapour / Maximum_capacity)*100",
+     "compute": "RH = (Actual_water_vapour / Maximum_capacity)*100"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_005",
+   "title": "T: T = ...",
+   "section": "",
+   "formula": "T = T_surface - (altitude_km*6.5)",
+   "_pats_extra": [],
+   "key_idea": "T",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find t using t",
+    "calculate t",
+    "t formula question",
+    "given values find t"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_005",
+     "question_pattern": "t with {T_surface} and {altitude_km} find t",
+     "extracted_variables": {
+      "T_surface": "given T_surface",
+      "altitude_km": "given altitude_km"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T_surface, altitude_km from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "T = T_surface - (altitude_km*6.5)",
+     "compute": "T = T_surface - (altitude_km*6.5)"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_006",
+   "title": "Albedo: Albedo = ...",
+   "section": "",
+   "formula": "Albedo = Reflected_radiation / Incoming_radiation",
+   "_pats_extra": [],
+   "key_idea": "Albedo",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find albedo using albedo",
+    "calculate albedo",
+    "albedo formula question",
+    "given values find albedo"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_006",
+     "question_pattern": "albedo with {Reflected_radiation} and {Incoming_radiation} find albedo",
+     "extracted_variables": {
+      "Reflected_radiation": "given Reflected_radiation",
+      "Incoming_radiation": "given Incoming_radiation"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Reflected_radiation, Incoming_radiation from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Albedo = Reflected_radiation / Incoming_radiation",
+     "compute": "Albedo = Reflected_radiation / Incoming_radiation"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_007",
+   "title": "E: E = ...",
+   "section": "",
+   "formula": "E = sigma*T^4",
+   "_pats_extra": [],
+   "key_idea": "E",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find e using e",
+    "calculate e",
+    "e formula question",
+    "given values find e"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_007",
+     "question_pattern": "e with {T} find e",
+     "extracted_variables": {
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "E = sigma*T^4",
+     "compute": "E = sigma*T^4"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_008",
+   "title": "sigma: sigma = ...",
+   "section": "",
+   "formula": "sigma = 5.67*10^-8/m2/K4",
+   "_pats_extra": [],
+   "key_idea": "sigma",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sigma using sigma",
+    "calculate sigma",
+    "sigma formula question",
+    "given values find sigma"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_008",
+     "question_pattern": "sigma with {m2} and {K4} find sigma",
+     "extracted_variables": {
+      "m2": "given m2",
+      "K4": "given K4"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m2, K4 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "sigma = 5.67*10^-8/m2/K4",
+     "compute": "sigma = 5.67*10^-8/m2/K4"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_009",
+   "title": "Tidal range: Tidal range = ...",
+   "section": "",
+   "formula": "Tidal_range = High_tide_level - Low_tide_level",
+   "_pats_extra": [],
+   "key_idea": "Tidal range",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find tidal range using tidal range",
+    "calculate tidal range",
+    "tidal range formula question",
+    "given values find tidal range"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_009",
+     "question_pattern": "tidal range with {High_tide_level} and {Low_tide_level} find tidal range",
+     "extracted_variables": {
+      "High_tide_level": "given High_tide_level",
+      "Low_tide_level": "given Low_tide_level"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for High_tide_level, Low_tide_level from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Tidal range = High_tide_level - Low_tide_level",
+     "compute": "Tidal_range = High_tide_level - Low_tide_level"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_010",
+   "title": "g: g = ...",
+   "section": "",
+   "formula": "g = 9.8/s2",
+   "_pats_extra": [],
+   "key_idea": "g",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find g using g",
+    "calculate g",
+    "g formula question",
+    "given values find g"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_010",
+     "question_pattern": "g with {s2} find g",
+     "extracted_variables": {
+      "s2": "given s2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for s2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "g = 9.8/s2",
+     "compute": "g = 9.8/s2"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_011",
+   "title": "Each step: Each step = ...",
+   "section": "",
+   "formula": "Each_step = 10*amplitude, 32*energy",
+   "_pats_extra": [],
+   "key_idea": "Each step",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find each step using each step",
+    "calculate each step",
+    "each step formula question",
+    "given values find each step"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_011",
+     "question_pattern": "each step with {amplitude} and {energy} find each step",
+     "extracted_variables": {
+      "amplitude": "given amplitude",
+      "energy": "given energy"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for amplitude, energy from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Each step = 10*amplitude, 32*energy",
+     "compute": "Each_step = 10*amplitude, 32*energy"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_012",
+   "title": "Amplitude ratio: Amplitude ratio = ...",
+   "section": "",
+   "formula": "Amplitude_ratio = 10^(M1 - M2)",
+   "_pats_extra": [],
+   "key_idea": "Amplitude ratio",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find amplitude ratio using amplitude ratio",
+    "calculate amplitude ratio",
+    "amplitude ratio formula question",
+    "given values find amplitude ratio"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_012",
+     "question_pattern": "amplitude ratio with {M1} and {M2} find amplitude ratio",
+     "extracted_variables": {
+      "M1": "given M1",
+      "M2": "given M2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M1, M2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Amplitude ratio = 10^(M1 - M2)",
+     "compute": "Amplitude_ratio = 10^(M1 - M2)"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_013",
+   "title": "Energy ratio: Energy ratio = ...",
+   "section": "",
+   "formula": "Energy_ratio = 32^(M1 - M2)",
+   "_pats_extra": [],
+   "key_idea": "Energy ratio",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find energy ratio using energy ratio",
+    "calculate energy ratio",
+    "energy ratio formula question",
+    "given values find energy ratio"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_013",
+     "question_pattern": "energy ratio with {M1} and {M2} find energy ratio",
+     "extracted_variables": {
+      "M1": "given M1",
+      "M2": "given M2"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for M1, M2 from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Energy ratio = 32^(M1 - M2)",
+     "compute": "Energy_ratio = 32^(M1 - M2)"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  },
+  {
+   "id": "FB_GEO_C11_014",
+   "title": "N(t): N(t) = ...",
+   "section": "",
+   "formula": "Nt = N0*e^(r*t)",
+   "_pats_extra": [],
+   "key_idea": "N(t)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find n(t) using n(t)",
+    "calculate n(t)",
+    "n(t) formula question",
+    "given values find n(t)"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_GEO_C11_014",
+     "question_pattern": "n(t) with {N0} and {e} and {r} and {t} find n(t)",
+     "extracted_variables": {
+      "N0": "given N0",
+      "e": "given e",
+      "r": "given r",
+      "t": "given t"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for N0, e, r, t from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "N(t) = N0*e^(r*t)",
+     "compute": "Nt = N0*e^(r*t)"
+    }
+   ],
+   "chapter_title": "geo c11 formulas"
+  }
+ ]
+}

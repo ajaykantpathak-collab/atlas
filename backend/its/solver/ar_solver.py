@@ -127,6 +127,15 @@ def detect_ar_format(text: str) -> Optional[ARQuestion]:
     if not is_ar and not is_statement:
         return None
 
+    if is_ar:
+        # Guard: if a full set of MCQ options appears before 'Assertion',
+        # the text is a regular question with an AR instruction trailer appended.
+        first_ar_m = re.search(r"\bAssertion\b", t, re.I)
+        if first_ar_m:
+            prefix = t[:first_ar_m.start()]
+            if re.search(r"\([A-Da-d]\)\s+[^\n]+\s+\([A-Da-d]\)", prefix):
+                return None
+
     # Extract assertion/reason or statement I/II
     assertion = ""
     reason = ""

@@ -1,0 +1,222 @@
+# Stateful data layer: Postgres, Redis, Neo4j, ClickHouse.
+# For real production prefer managed services (RDS/CloudSQL, ElastiCache/
+# MemoryDB, Neo4j Aura, ClickHouse Cloud) and skip these StatefulSets —
+# just update the *-env ConfigMap URLs.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: atlas-env
+  namespace: atlas
+data:
+  # Credential-bearing URLs live in atlas-secrets (DATABASE_URL,
+  # NEO4J_PASSWORD, CLICKHOUSE_PASSWORD) — only non-secret config here.
+  PLATFORM_REDIS_URL: "redis://redis:6379/0"
+  REDIS_URL: "redis://redis:6379/0"
+  PLATFORM_NEO4J_URI: "bolt://neo4j:7687"
+  NEO4J_URI: "bolt://neo4j:7687"
+  NEO4J_USER: "neo4j"
+  CLICKHOUSE_URL: "http://clickhouse:8123"
+  CLICKHOUSE_USER: "dream_user"
+  PLATFORM_JWT_ALG: "HS256"
+  CORS_ORIGINS: "https://atlas.example.com"
+  LOG_FORMAT: "json"
+  UVICORN_WORKERS: "4"
+  SOLVER_POOL_SIZE: "8"
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres
+  namespace: atlas
+spec:
+  serviceName: postgres
+  replicas: 1
+  selector:
+    matchLabels: { app: postgres }
+  template:
+    metadata:
+      labels: { app: postgres }
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:15-alpine
+          env:
+            - name: POSTGRES_USER
+              value: dream_user
+            - name: POSTGRES_DB
+              value: dream_app
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef: { name: atlas-secrets, key: POSTGRES_PASSWORD }
+          ports: [{ containerPort: 5432 }]
+          volumeMounts:
+            - { name: data, mountPath: /var/lib/postgresql/data }
+          readinessProbe:
+            exec: { command: ["pg_isready", "-U", "dream_user"] }
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests: { cpu: 250m, memory: 512Mi }
+            limits: { memory: 2Gi }
+  volumeClaimTemplates:
+    - metadata: { name: data }
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources: { requests: { storage: 20Gi } }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres
+  namespace: atlas
+spec:
+  clusterIP: None
+  selector: { app: postgres }
+  ports: [{ port: 5432 }]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+  namespace: atlas
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: redis }
+  template:
+    metadata:
+      labels: { app: redis }
+    spec:
+      containers:
+        - name: redis
+          image: redis:7-alpine
+          args: ["redis-server", "--appendonly", "yes"]
+          ports: [{ containerPort: 6379 }]
+          volumeMounts:
+            - { name: data, mountPath: /data }
+          readinessProbe:
+            exec: { command: ["redis-cli", "ping"] }
+            periodSeconds: 10
+          resources:
+            requests: { cpu: 50m, memory: 128Mi }
+            limits: { memory: 512Mi }
+      volumes:
+        - name: data
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+  namespace: atlas
+spec:
+  selector: { app: redis }
+  ports: [{ port: 6379 }]
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: neo4j
+  namespace: atlas
+spec:
+  serviceName: neo4j
+  replicas: 1
+  selector:
+    matchLabels: { app: neo4j }
+  template:
+    metadata:
+      labels: { app: neo4j }
+    spec:
+      containers:
+        - name: neo4j
+          image: neo4j:5.20-community
+          env:
+            - name: NEO4J_AUTH
+              valueFrom:
+                secretKeyRef: { name: atlas-secrets, key: NEO4J_AUTH }
+            - name: NEO4J_PLUGINS
+              value: '["apoc"]'
+          ports:
+            - { containerPort: 7687 }
+            - { containerPort: 7474 }
+          volumeMounts:
+            - { name: data, mountPath: /data }
+          readinessProbe:
+            tcpSocket: { port: 7687 }
+            initialDelaySeconds: 20
+            periodSeconds: 15
+          resources:
+            requests: { cpu: 250m, memory: 1Gi }
+            limits: { memory: 3Gi }
+  volumeClaimTemplates:
+    - metadata: { name: data }
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources: { requests: { storage: 20Gi } }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: neo4j
+  namespace: atlas
+spec:
+  clusterIP: None
+  selector: { app: neo4j }
+  ports:
+    - { name: bolt, port: 7687 }
+    - { name: http, port: 7474 }
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: clickhouse
+  namespace: atlas
+spec:
+  serviceName: clickhouse
+  replicas: 1
+  selector:
+    matchLabels: { app: clickhouse }
+  template:
+    metadata:
+      labels: { app: clickhouse }
+    spec:
+      containers:
+        - name: clickhouse
+          image: clickhouse/clickhouse-server:24.8
+          env:
+            - name: CLICKHOUSE_DB
+              value: dream_analytics
+            - name: CLICKHOUSE_USER
+              value: dream_user
+            - name: CLICKHOUSE_PASSWORD
+              valueFrom:
+                secretKeyRef: { name: atlas-secrets, key: CLICKHOUSE_PASSWORD }
+          ports:
+            - { containerPort: 8123 }
+            - { containerPort: 9000 }
+          volumeMounts:
+            - { name: data, mountPath: /var/lib/clickhouse }
+          readinessProbe:
+            httpGet: { path: /ping, port: 8123 }
+            initialDelaySeconds: 10
+            periodSeconds: 15
+          resources:
+            requests: { cpu: 250m, memory: 512Mi }
+            limits: { memory: 2Gi }
+  volumeClaimTemplates:
+    - metadata: { name: data }
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources: { requests: { storage: 20Gi } }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: clickhouse
+  namespace: atlas
+spec:
+  clusterIP: None
+  selector: { app: clickhouse }
+  ports:
+    - { name: http, port: 8123 }
+    - { name: native, port: 9000 }

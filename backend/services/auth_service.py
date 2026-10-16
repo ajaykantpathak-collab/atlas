@@ -67,7 +67,10 @@ class MockWhatsAppSender:
     """
 
     async def send_otp(self, phone_number: str, otp_code: str) -> bool:
-        print(f"[MOCK WHATSAPP] To: {phone_number} | OTP: {otp_code}")
+        # Never log the OTP itself — anyone with log access could hijack the
+        # account. A hash prefix is enough to correlate support tickets.
+        digest = hashlib.sha256(otp_code.encode()).hexdigest()[:12]
+        print(f"[MOCK WHATSAPP] To: {phone_number} | OTP dispatched (log-ref {digest})")
         return True
 
 
@@ -680,10 +683,12 @@ class AuthService:
         if user is None:
             # New user — OTP registration: no password/email/name yet,
             # onboarding collects the profile.  password_hash holds a
-            # placeholder hash (never matches a real password).
+            # random unguessable placeholder: hashing the OTP itself made
+            # the 6-digit code (printed in logs at dispatch) a valid
+            # password for the account.
             user = UserModel(
                 phone_number=phone_number,
-                password_hash=self._hash_password(otp_code),
+                password_hash=self._hash_password(secrets.token_urlsafe(32)),
                 role="student",
                 is_verified=True,
                 created_at=now,
@@ -1150,21 +1155,37 @@ class AuthService:
         if result.scalar_one_or_none() is not None:
             raise ValueError("An account with this email already exists")
 
+        # Defense in depth: the schema allowlists roles, but never trust the
+        # client for a privilege decision — anything unexpected degrades to
+        # "student". "admin" is grantable only by an existing admin/seed.
+        role = payload.role if payload.role in ("student", "teacher", "parent") else "student"
+
         user = RealUser(
             email=payload.email,
             name=payload.name,
             password_hash=hash_password(payload.password),
-            role=payload.role or "student",
+            role=role,
             board=payload.board,
             class_level=payload.class_level,
         )
+        # DPDP §9 parental consent (WS-LEGAL): the SignupRequest schema
+        # already guarantees parent_email + parent_consent for students —
+        # persist what was declared so the consent record survives audits.
+        # consent_status starts 'pending': the parent notice is composed
+        # but undeliverable while no SMTP relay is configured; the router
+        # flips it to 'notified' if the send actually lands.
+        if role == "student" and getattr(payload, "parent_email", None):
+            user.parent_email = str(payload.parent_email)
+            user.parent_consent_at = datetime.now(timezone.utc)
+            user.consent_method = "signup_checkbox"
+            user.consent_status = "pending"
         db.add(user)
         await db.flush()
 
         # Provision the dashboard-side student row (students.id mirrors
         # users.id): signup used to create ONLY the users row, so
         # GET /api/dashboard/student/{uid} 404ed on first run.
-        if (payload.role or "student") == "student":
+        if role == "student":
             try:
                 from database import Student
                 db.add(Student(
@@ -1176,6 +1197,24 @@ class AuthService:
                 await db.flush()
             except Exception:
                 pass  # dashboard store unavailable — signup still succeeds
+
+        # Provision the dashboard-side teacher row too (teachers.id mirrors
+        # users.id): homework.teacher_id FKs the legacy teachers table, and
+        # a signup-created teacher used to 400 on their first homework
+        # create until they happened to open the dashboard first.
+        if role == "teacher":
+            try:
+                from backend.services.identity_bridge import ensure_teacher_row
+                await ensure_teacher_row(db, str(user.id))
+            except Exception:
+                pass  # legacy table unavailable — signup still succeeds
+
+        # Commit BEFORE returning: get_db only commits in dependency
+        # teardown (after the response is sent), so the client's first
+        # follow-up request (auto-login fetch, homework create) could hit
+        # a session where the users row was not visible yet -> transient
+        # 401 "User not found" / 404 (commit-lag race, 2026-10-02).
+        await db.commit()
 
         token = AuthService(db)._create_access_token(str(user.id), user.role)
         return user, token

@@ -1,0 +1,88 @@
+{
+ "subject": "cs",
+ "chapter_title": "ICSE cs formula bank (c10)",
+ "source_file": "c10_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_CS_C10_001",
+   "title": "BINARY SEARCH (sorted array only): int mid = ...",
+   "section": "6. SEARCHING ALGORITHMS",
+   "formula": "int_mid = (low + high) / 2",
+   "_pats_extra": [],
+   "key_idea": "BINARY SEARCH (sorted array only) (6. SEARCHING ALGORITHMS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find int mid using binary search (sorted array only)",
+    "calculate binary search (sorted array only)",
+    "binary search (sorted array only) formula question",
+    "given values find int mid",
+    "6. searching algorithms binary search (sorted array only) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C10_001",
+     "question_pattern": "binary search (sorted array only) with {low} and {high} find int mid",
+     "extracted_variables": {
+      "low": "given low",
+      "high": "given high"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for low, high from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "int mid = (low + high) / 2",
+     "compute": "int_mid = (low + high) / 2"
+    }
+   ],
+   "chapter_title": "6. SEARCHING ALGORITHMS"
+  },
+  {
+   "id": "FB_CS_C10_002",
+   "title": "BINARY SEARCH (sorted array only): else high = ...",
+   "section": "6. SEARCHING ALGORITHMS",
+   "formula": "else_high = m*i*d - 1",
+   "_pats_extra": [],
+   "key_idea": "BINARY SEARCH (sorted array only) (6. SEARCHING ALGORITHMS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find else high using binary search (sorted array only)",
+    "calculate binary search (sorted array only)",
+    "binary search (sorted array only) formula question",
+    "given values find else high",
+    "6. searching algorithms binary search (sorted array only) numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_CS_C10_002",
+     "question_pattern": "binary search (sorted array only) with {m} and {i} and {d} find else high",
+     "extracted_variables": {
+      "m": "given m",
+      "i": "given i",
+      "d": "given d"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for m, i, d from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "else high = m*i*d - 1",
+     "compute": "else_high = m*i*d - 1"
+    }
+   ],
+   "chapter_title": "6. SEARCHING ALGORITHMS"
+  }
+ ]
+}

@@ -1,0 +1,526 @@
+{
+ "subject": "maths",
+ "chapter_title": "ICSE maths formula bank (c1-c2-c3-c4-c5-c6-c7-c8)",
+ "source_file": "maths_formula_bank_c1_c8.marker",
+ "concepts": [
+  {
+   "id": "FB_MATHS_C1_001",
+   "title": "Properties of operations: Additive inverse of a = ...",
+   "section": "OPERATIONS",
+   "formula": "Additive_inverse_of_a = -a",
+   "_pats_extra": [],
+   "key_idea": "Properties of operations (OPERATIONS)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find additive inverse of a using properties of operations",
+    "calculate properties of operations",
+    "properties of operations formula question",
+    "given values find additive inverse of a",
+    "operations properties of operations numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_001",
+     "question_pattern": "properties of operations with {a} find additive inverse of a",
+     "extracted_variables": {
+      "a": "given a"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for a from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Additive inverse of a = -a",
+     "compute": "Additive_inverse_of_a = -a"
+    }
+   ],
+   "chapter_title": "OPERATIONS"
+  },
+  {
+   "id": "FB_MATHS_C1_002",
+   "title": "PERCENTAGE: Percentage = ...",
+   "section": "PERCENTAGE",
+   "formula": "Percentage = (Part/Whole)*100",
+   "_pats_extra": [],
+   "key_idea": "PERCENTAGE (PERCENTAGE)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find percentage using percentage",
+    "calculate percentage",
+    "percentage formula question",
+    "given values find percentage",
+    "percentage percentage numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_002",
+     "question_pattern": "percentage with {Part} and {Whole} find percentage",
+     "extracted_variables": {
+      "Part": "given Part",
+      "Whole": "given Whole"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Part, Whole from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Percentage = (Part/Whole)*100",
+     "compute": "Percentage = (Part/Whole)*100"
+    }
+   ],
+   "chapter_title": "PERCENTAGE"
+  },
+  {
+   "id": "FB_MATHS_C1_003",
+   "title": "Simple Interest: SI = ...",
+   "section": "INTEREST",
+   "formula": "SI = (P*R*T) / 100",
+   "_pats_extra": [],
+   "key_idea": "Simple Interest (INTEREST)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find si using simple interest",
+    "calculate simple interest",
+    "simple interest formula question",
+    "given values find si",
+    "interest simple interest numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_003",
+     "question_pattern": "simple interest with {P} and {R} and {T} find si",
+     "extracted_variables": {
+      "P": "given P",
+      "R": "given R",
+      "T": "given T"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, R, T from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "SI = (P*R*T) / 100",
+     "compute": "SI = (P*R*T) / 100"
+    }
+   ],
+   "chapter_title": "INTEREST"
+  },
+  {
+   "id": "FB_MATHS_C1_004",
+   "title": "Simple Interest: Amount A = ...",
+   "section": "INTEREST",
+   "formula": "Amount_A = P + SI",
+   "_pats_extra": [],
+   "key_idea": "Simple Interest (INTEREST)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find amount a using simple interest",
+    "calculate simple interest",
+    "simple interest formula question",
+    "given values find amount a",
+    "interest simple interest numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_004",
+     "question_pattern": "simple interest with {P} and {SI} find amount a",
+     "extracted_variables": {
+      "P": "given P",
+      "SI": "given SI"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for P, SI from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Amount A = P + SI",
+     "compute": "Amount_A = P + SI"
+    }
+   ],
+   "chapter_title": "INTEREST"
+  },
+  {
+   "id": "FB_MATHS_C1_005",
+   "title": "Compound Interest: CI = ...",
+   "section": "INTEREST",
+   "formula": "CI = A - P",
+   "_pats_extra": [],
+   "key_idea": "Compound Interest (INTEREST)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find ci using compound interest",
+    "calculate compound interest",
+    "compound interest formula question",
+    "given values find ci",
+    "interest compound interest numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_005",
+     "question_pattern": "compound interest with {A} and {P} find ci",
+     "extracted_variables": {
+      "A": "given A",
+      "P": "given P"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for A, P from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "CI = A - P",
+     "compute": "CI = A - P"
+    }
+   ],
+   "chapter_title": "INTEREST"
+  },
+  {
+   "id": "FB_MATHS_C1_006",
+   "title": "SPEED, DISTANCE, TIME: Speed = ...",
+   "section": "SPEED, DISTANCE, TIME",
+   "formula": "Speed = Distance / Time",
+   "_pats_extra": [],
+   "key_idea": "SPEED, DISTANCE, TIME (SPEED, DISTANCE, TIME)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find speed using speed, distance, time",
+    "calculate speed, distance, time",
+    "speed, distance, time formula question",
+    "given values find speed",
+    "speed, distance, time speed, distance, time numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_006",
+     "question_pattern": "speed, distance, time with {Distance} and {Time} find speed",
+     "extracted_variables": {
+      "Distance": "given Distance",
+      "Time": "given Time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Distance, Time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Speed = Distance / Time",
+     "compute": "Speed = Distance / Time"
+    }
+   ],
+   "chapter_title": "SPEED, DISTANCE, TIME"
+  },
+  {
+   "id": "FB_MATHS_C1_007",
+   "title": "SPEED, DISTANCE, TIME: Distance = ...",
+   "section": "SPEED, DISTANCE, TIME",
+   "formula": "Distance = Speed*Time",
+   "_pats_extra": [],
+   "key_idea": "SPEED, DISTANCE, TIME (SPEED, DISTANCE, TIME)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find distance using speed, distance, time",
+    "calculate speed, distance, time",
+    "speed, distance, time formula question",
+    "given values find distance",
+    "speed, distance, time speed, distance, time numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_007",
+     "question_pattern": "speed, distance, time with {Speed} and {Time} find distance",
+     "extracted_variables": {
+      "Speed": "given Speed",
+      "Time": "given Time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Speed, Time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Distance = Speed*Time",
+     "compute": "Distance = Speed*Time"
+    }
+   ],
+   "chapter_title": "SPEED, DISTANCE, TIME"
+  },
+  {
+   "id": "FB_MATHS_C1_008",
+   "title": "SPEED, DISTANCE, TIME: Time = ...",
+   "section": "SPEED, DISTANCE, TIME",
+   "formula": "Time = Distance / Speed",
+   "_pats_extra": [],
+   "key_idea": "SPEED, DISTANCE, TIME (SPEED, DISTANCE, TIME)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find time using speed, distance, time",
+    "calculate speed, distance, time",
+    "speed, distance, time formula question",
+    "given values find time",
+    "speed, distance, time speed, distance, time numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_008",
+     "question_pattern": "speed, distance, time with {Distance} and {Speed} find time",
+     "extracted_variables": {
+      "Distance": "given Distance",
+      "Speed": "given Speed"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Distance, Speed from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Time = Distance / Speed",
+     "compute": "Time = Distance / Speed"
+    }
+   ],
+   "chapter_title": "SPEED, DISTANCE, TIME"
+  },
+  {
+   "id": "FB_MATHS_C1_009",
+   "title": "SPEED, DISTANCE, TIME: Average speed = ...",
+   "section": "SPEED, DISTANCE, TIME",
+   "formula": "Average_speed = Total_distance / Total_time",
+   "_pats_extra": [],
+   "key_idea": "SPEED, DISTANCE, TIME (SPEED, DISTANCE, TIME)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find average speed using speed, distance, time",
+    "calculate speed, distance, time",
+    "speed, distance, time formula question",
+    "given values find average speed",
+    "speed, distance, time speed, distance, time numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_009",
+     "question_pattern": "speed, distance, time with {Total_distance} and {Total_time} find average speed",
+     "extracted_variables": {
+      "Total_distance": "given Total_distance",
+      "Total_time": "given Total_time"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Total_distance, Total_time from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Average speed = Total_distance / Total_time",
+     "compute": "Average_speed = Total_distance / Total_time"
+    }
+   ],
+   "chapter_title": "SPEED, DISTANCE, TIME"
+  },
+  {
+   "id": "FB_MATHS_C1_010",
+   "title": "Polygons: Sum of interior angles = ...",
+   "section": "GEOMETRY",
+   "formula": "Sum_of_interior_angles = (n-2)*180",
+   "_pats_extra": [],
+   "key_idea": "Polygons (GEOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sum of interior angles using polygons",
+    "calculate polygons",
+    "polygons formula question",
+    "given values find sum of interior angles",
+    "geometry polygons numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_010",
+     "question_pattern": "polygons with {n} find sum of interior angles",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Sum of interior angles = (n-2)*180",
+     "compute": "Sum_of_interior_angles = (n-2)*180"
+    }
+   ],
+   "chapter_title": "GEOMETRY"
+  },
+  {
+   "id": "FB_MATHS_C1_011",
+   "title": "Polygons: Each interior angle (regular) = ...",
+   "section": "GEOMETRY",
+   "formula": "Each_interior_angle_regular = (n-2)*180 / n",
+   "_pats_extra": [],
+   "key_idea": "Polygons (GEOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find each interior angle (regular) using polygons",
+    "calculate polygons",
+    "polygons formula question",
+    "given values find each interior angle (regular)",
+    "geometry polygons numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_011",
+     "question_pattern": "polygons with {n} and {n} find each interior angle (regular)",
+     "extracted_variables": {
+      "n": "given n"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for n, n from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Each interior angle (regular) = (n-2)*180 / n",
+     "compute": "Each_interior_angle_regular = (n-2)*180 / n"
+    }
+   ],
+   "chapter_title": "GEOMETRY"
+  },
+  {
+   "id": "FB_MATHS_C1_012",
+   "title": "Circle: Area = ...",
+   "section": "GEOMETRY",
+   "formula": "Area = p*i*r^2",
+   "_pats_extra": [],
+   "key_idea": "Circle (GEOMETRY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find area using circle",
+    "calculate circle",
+    "circle formula question",
+    "given values find area",
+    "geometry circle numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_012",
+     "question_pattern": "circle with {p} and {i} and {r} find area",
+     "extracted_variables": {
+      "p": "given p",
+      "i": "given i",
+      "r": "given r"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for p, i, r from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Area = p*i*r^2",
+     "compute": "Area = p*i*r^2"
+    }
+   ],
+   "chapter_title": "GEOMETRY"
+  },
+  {
+   "id": "FB_MATHS_C1_013",
+   "title": "PROBABILITY: P(E) = ...",
+   "section": "PROBABILITY",
+   "formula": "PE = favourable_outcomes / total_outcomes",
+   "_pats_extra": [],
+   "key_idea": "PROBABILITY (PROBABILITY)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find p(e) using probability",
+    "calculate probability",
+    "probability formula question",
+    "given values find p(e)",
+    "probability probability numerical"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_MATHS_C1_013",
+     "question_pattern": "probability with {favourable_outcomes} and {total_outcomes} find p(e)",
+     "extracted_variables": {
+      "favourable_outcomes": "given favourable_outcomes",
+      "total_outcomes": "given total_outcomes"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for favourable_outcomes, total_outcomes from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "P(E) = favourable_outcomes / total_outcomes",
+     "compute": "PE = favourable_outcomes / total_outcomes"
+    }
+   ],
+   "chapter_title": "PROBABILITY"
+  }
+ ]
+}

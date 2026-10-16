@@ -28,9 +28,15 @@ a numeric final answer, step-by-step explanation, and a confidence.
 
 from __future__ import annotations
 
+# CL-10/CL-21: raise re._MAXCACHE before any family sweep compiles patterns
+# (68% of sweep cost was compile thrash against the 512-slot cache).
+from backend.its.solver import _regex_cache as _re_cache  # noqa: F401
+
 import math
 import re
 from dataclasses import dataclass, field
+from copy import deepcopy
+from functools import lru_cache
 from typing import Dict, List, Optional, Tuple
 
 # --------------------------------------------------------------------------- #
@@ -101,6 +107,17 @@ class ModelResult:
     numeric_answer: Optional[float] = None   # seconds, or inf-equivalent note
     steps: List[str] = field(default_factory=list)
     note: str = ""
+    # extractive read-back of the question: {structure_label, givens:
+    # [{role, value, unit, span}], ask} — the tutor surfaces this so the
+    # student confirms/corrects the parse before trusting the answer
+    understood: Optional[Dict[str, Any]] = None
+    # wave98 hardening: the OTHER coherent family matches the same sweep
+    # produced (runner-ups to ``structure``), sorted by confidence.
+    # Populated inside _model_problem_uncached at zero extra sweep cost
+    # and carried through the memoized deepcopy — tiered_response's
+    # ambiguity cross-check reads them to fail a confident-but-
+    # contested family match closed to guided.
+    alternates: List["ModelResult"] = field(default_factory=list)
 
 
 # --------------------------------------------------------------------------- #
@@ -140,6 +157,11 @@ def model_traveler_on_growing_domain(text: str) -> ModelResult:
          for extraction sanity (we still need growth + two speeds).
     """
     low = text.lower()
+
+    # ---- Fast-fail gate: require basic growth or traveler words before loading model ----
+    if not (_has_any(low, _GROWTH_TRIGGERS) or _has_any(low, _TRAVELER_NOUNS) or _has_any(low, _FROM_END_TRIGGERS)):
+        return ModelResult(structure="TRAVELER_ON_GROWING_DOMAIN", matched=False, confidence=0.0,
+                           quantities={}, governing_equation="", note="no growth or traveler triggers")
 
     # ---- Signal 1: semantic match (model-based, phrase-independent) ----
     sem_conf = 0.0
@@ -698,136 +720,91 @@ def model_circular_orbit_speed(text: str) -> ModelResult:
 _STRUCTURES = [model_traveler_on_growing_domain, model_fill_and_drain,
                model_speed_time_distance, model_circular_orbit_speed]
 
-# batch-2 canonical structures (adversarial-battery families), same
-# contract: deterministic triggers + closed form + asymmetry guards
+# WS-B step 1 (2026-10-10): THE single maths registry.  modeling_structures
+# + class6/7/7b/8 model fns + the merged maths table dispatcher live in
+# maths_families.py (maths2/3/4, applied, jee, isc-stats, syllabus maths
+# rows, extra/extra2 maths fns).  The extend() order below reproduces the
+# original block order (map §3) exactly: ms(2), C6(3), C7(4), C7b(5),
+# C8(6), then model_maths at the old maths2 position covering the former
+# blocks 7-11 + 30 (stats) + 33 (locus/plugin) inside one sub-dispatcher
+# sweep with the same confidence/order semantics.
 try:
-    from backend.its.solver.modeling_structures import (
+    from backend.its.solver.maths_families import (
         model_meet_and_shuttle, model_simultaneous_depletion,
-        model_tripartite_kinematics)
-    _STRUCTURES.extend([model_simultaneous_depletion,
-                        model_meet_and_shuttle,
-                        model_tripartite_kinematics])
-except ImportError:  # pragma: no cover - keeps the layer self-contained
-    pass
-
-# class-6 foundation families (the floor: arithmetic, number theory,
-# roman, unitary, ratio, riddles) -- CBSE class 6 chapter coverage
-try:
-    from backend.its.solver.class6_families import (
+        model_tripartite_kinematics,
         model_arithmetic_eval, model_number_riddle, model_number_theory,
         model_ratio_divide, model_roman_numerals, model_unitary_method,
-        model_square_mensuration)
-    _STRUCTURES.extend([model_arithmetic_eval, model_number_theory,
+        model_square_mensuration,
+        model_word_arithmetic, model_fraction_percent_of, model_angle_sum,
+        model_circle_mensuration, model_exponent_eval,
+        model_riddle_multiplier, model_percent_change,
+        model_fraction_arithmetic, model_triangle_parallelogram_area,
+        model_eval_expr_with_givens,
+        model_consecutive_integers, model_interest, model_mensuration_3d,
+        model_place_value_number, model_proportion, model_roots_powers,
+        model_circle_locus, model_formula_plugin,
+        model_maths)
+    _STRUCTURES.extend([model_simultaneous_depletion,
+                        model_meet_and_shuttle,
+                        model_tripartite_kinematics,
+                        model_arithmetic_eval, model_number_theory,
                         model_roman_numerals, model_unitary_method,
                         model_ratio_divide, model_number_riddle,
-                        model_square_mensuration])
-except ImportError:  # pragma: no cover
-    pass
-
-# batch-3: class-7 chapter families (angles, circles, exponents,
-# fraction/percent-of, word arithmetic, multiplier riddles)
-try:
-    from backend.its.solver.class7_families import (
-        model_angle_sum, model_circle_mensuration, model_exponent_eval,
-        model_fraction_percent_of, model_percent_change,
-        model_riddle_multiplier, model_word_arithmetic)
-    _STRUCTURES.extend([model_word_arithmetic, model_fraction_percent_of,
+                        model_square_mensuration,
+                        model_word_arithmetic, model_fraction_percent_of,
                         model_angle_sum, model_circle_mensuration,
                         model_exponent_eval, model_riddle_multiplier,
-                        model_percent_change])
-except ImportError:  # pragma: no cover
-    pass
-
-# batch-4: fraction arithmetic, base-height areas, expression eval
-try:
-    from backend.its.solver.class7_families2 import (
-        model_eval_expr_with_givens, model_fraction_arithmetic,
-        model_triangle_parallelogram_area)
-    _STRUCTURES.extend([model_fraction_arithmetic,
+                        model_percent_change,
+                        model_fraction_arithmetic,
                         model_triangle_parallelogram_area,
-                        model_eval_expr_with_givens])
-except ImportError:  # pragma: no cover
-    pass
-
-# batch-5: class-8 families (roots/powers, proportion, interest,
-# 3D mensuration, place value, consecutive integers)
-try:
-    from backend.its.solver.class8_families import (
-        model_consecutive_integers, model_interest, model_mensuration_3d,
-        model_place_value_number, model_proportion, model_roots_powers)
-    _STRUCTURES.extend([model_roots_powers, model_proportion,
+                        model_eval_expr_with_givens,
+                        model_roots_powers, model_proportion,
                         model_interest, model_mensuration_3d,
-                        model_place_value_number,
-                        model_consecutive_integers])
+                        model_place_value_number, model_consecutive_integers,
+                        model_maths,
+                        model_circle_locus, model_formula_plugin])
 except ImportError:  # pragma: no cover
     pass
 
-# batch-8b: maths 9-12 gap families
+# batch-7c: consolidated physics families (P2 + SYL + P3 + core + extra)
 try:
-    from backend.its.solver.maths2_families import model_maths2
-    _STRUCTURES.extend([model_maths2])
+    from backend.its.solver.physics_families import model_physics_families
+    _STRUCTURES.extend([model_physics_families])
 except ImportError:
     pass
 
-# batch-8: applied maths 11-12 families
+# batch-7b: consolidated chemistry families (C2 + SYL + C3 + core + extra)
 try:
-    from backend.its.solver.applied_maths_families import model_applied_maths
-    _STRUCTURES.extend([model_applied_maths])
+    from backend.its.solver.chemistry_families import model_chemistry_families
+    _STRUCTURES.extend([model_chemistry_families])
 except ImportError:
     pass
 
-# batch-7c: advanced physics 11-12 families
+# batch-7: commerce chains (GST, partnership, ratios, interest on
+# capital).  commerce_families2 dissolved into commerce_families (WS-B
+# consolidation map step 5); the merged dispatcher keeps this slot in
+# the registration order and also serves the commerce reader lanes.
 try:
-    from backend.its.solver.physics2_families import model_physics2
-    _STRUCTURES.extend([model_physics2])
+    from backend.its.solver.commerce_families import model_commerce_families
+    _STRUCTURES.extend([model_commerce_families])
 except ImportError:
     pass
 
-# batch-7b: advanced chemistry 11-12 families
-try:
-    from backend.its.solver.chemistry2_families import model_chemistry2
-    _STRUCTURES.extend([model_chemistry2])
-except ImportError:
-    pass
+# batch-6: syllabus_families dissolved (WS-B m3) — its 26 maths/12 phys/
+# 2 chem rows ride the subject dispatchers (maths/physics/chemistry
+# SYLLABUS blocks); no separate syllabus registration.
 
-# batch-7: expanded commerce chains (GST, cash-flow, partnership, ratios)
-try:
-    from backend.its.solver.commerce_families2 import model_commerce2
-    _STRUCTURES.extend([model_commerce2])
-except ImportError:
-    pass
-
-# batch-6: typed syllabus table for classes 9-12 STEM (one dispatcher,
-# many rows -- the typed-block core)
-try:
-    from backend.its.solver.syllabus_families import model_syllabus
-    _STRUCTURES.extend([model_syllabus])
-except ImportError:  # pragma: no cover
-    pass
-
-# batch-9: advanced physics 11-12 families (waves, optics, modern physics)
-try:
-    from backend.its.solver.physics3_families import model_physics3
-    _STRUCTURES.extend([model_physics3])
-except ImportError:  # pragma: no cover
-    pass
+# batch-9: physics3 merged into physics_families (WS-B Step 2)
 
 # batch-9c: core physics 6-12 families (kinematics any-solve, F=ma,
 # weight/friction, work-energy-power, g=GM/R^2, hydrostatics, buoyancy,
 # Hooke, moments, Q=mc dT / latent heat, pendulum, Ohm any-solve,
 # electrical power + kWh billing, n = c/v).  maths2-convention table.
-try:
-    from backend.its.solver.physics_families import model_physics_families
-    _STRUCTURES.extend([model_physics_families])
-except ImportError:  # pragma: no cover
-    pass
+# WS-B step 2: the merged model_physics_families already covers these
+# rows and registers once at the batch-7c slot — re-registering here
+# would double the dispatcher in _STRUCTURES.
 
-# batch-9b: advanced chemistry 11-12 families (thermo, equilibrium, electrochem)
-try:
-    from backend.its.solver.chemistry3_families import model_chemistry3
-    _STRUCTURES.extend([model_chemistry3])
-except ImportError:  # pragma: no cover
-    pass
+# batch-9b: chemistry3 merged into chemistry_families (WS-B Step 3)
 
 # batch-15b: core chemistry families (ICSE 6-10 + bridge): equation
 # balancing, valency/cross-over, mole concept any-solve, molecular mass,
@@ -840,15 +817,9 @@ try:
 except ImportError:  # pragma: no cover
     pass
 
-# batch-10: competency90 dev-cluster families (inequalities, perpetuity,
-# resistor networks, mixtures, composite solids, AP/perm/chord, ...)
-try:
-    from backend.its.solver.extra_families import model_extra
-    if not any(getattr(fn, "__name__", "") == "model_extra"
-               for fn in _STRUCTURES):
-        _STRUCTURES.append(model_extra)
-except ImportError:  # pragma: no cover
-    pass
+# batch-10: extra_families dissolved (WS-B m3 step 7) — maths rows moved
+# in step 1, physics rows in step 2, PERPETUITY to commerce_families,
+# LINEAR_DEPRECIATION to accountancy_families.
 
 # batch-11: slot-schema matcher -- dimension-signature matching above the
 # sentence-pattern families.  Registered LAST: specific families always
@@ -861,15 +832,9 @@ try:
 except ImportError:  # pragma: no cover
     pass
 
-# batch-12: round-3 gap families (dice probability, two-point line, coil
-# moment, carbon dating, discount/marked, mean-variance recovery, ...)
-try:
-    from backend.its.solver.extra_families2 import model_extra2
-    if not any(getattr(fn, "__name__", "") == "model_extra2"
-               for fn in _STRUCTURES):
-        _STRUCTURES.append(model_extra2)
-except ImportError:  # pragma: no cover
-    pass
+# batch-12: extra_families2 dissolved (WS-B m3 step 7) — maths rows
+# moved in step 1, physics rows + CARBON_DATING to subject files,
+# GEOMETRIC_DEPRECIATION to accountancy_families.
 
 # batch-14: narrative commerce/accountancy readers (partnership share,
 # GST chains, instalment/hire-purchase, successive discounts, SI/CI
@@ -966,6 +931,13 @@ try:
 except ImportError:  # pragma: no cover
     pass
 
+# batch-20 (cisce-solver-langnew 2026-09-30) moved into maths_families
+# (WS-B step 1): isc statistics rows ride the model_maths sub-sweep at the
+# original relative order.
+# batch-20b: biotech numerics dissolved into biology_families (WS-B
+# consolidation map step 4) -- BIO_HEMOCYTOMETER rides the biology
+# dispatcher at its registration position; this registry slot is gone.
+
 # batch-19: social-science numeric core (geography time-zone/population
 # vital statistics/climate-graph/map-scale; civics FPTP seat-vs-vote and
 # coalition arithmetic; history chronology intervals).  Deterministic,
@@ -976,6 +948,27 @@ try:
     if not any(getattr(fn, "__name__", "") == "model_socsci"
                for fn in _STRUCTURES):
         _STRUCTURES.append(model_socsci)
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-21 (mined-miss families 2026-10-05) moved into maths_families
+# (WS-B step 1): circle-locus classification and formula plug-in numerics
+# are exported from maths_families and registered at their §3 position
+# inside the maths block's region of the sweep order.
+# batch-22 (electives-all 2026-10-07): classes 11-12 Computer Science
+# families -- Python output prediction via a strict taught-subset AST
+# interpreter (PY_TRACE / PY_EXPR / PY_TYPE), deterministic SQL asks on
+# question-stated data (SQL_CLAUSE facts, SQL_AGGR with NULL semantics,
+# SQL_JOIN sizes/rows) and data-structure simulations (STACK_SIM,
+# QUEUE_SIM, POSTFIX_EVAL).  Compute-only: everything outside the
+# taught subset or without question-stated data gate-refuses.  No exec
+# inside the family; independent_verifier carries a restricted-exec
+# second path for the badge gate.
+try:
+    from backend.its.solver.cs_families import model_cs_families
+    if not any(getattr(fn, "__name__", "") == "model_cs_families"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_cs_families)
 except ImportError:  # pragma: no cover
     pass
 
@@ -1028,7 +1021,10 @@ def _redteam_guards(text: str, best: "ModelResult") -> "ModelResult":
 
     # (1) ANSWER-SHAPE: asks whose answer is not a single bare number
     #     (ratios, who/which choices, verification identities).
-    if best.numeric_answer is not None and _ANSWER_SHAPE_RE.search(low):
+    if best.numeric_answer is not None and _ANSWER_SHAPE_RE.search(low)             and best.structure.upper() != "DOBEREINER_TRIAD":
+        # DOBEREINER_TRIAD exemption (CHEM-ADVERSARIAL 2026-10-06): the
+        # triad check IS a verification ("verify the law of triads")
+        # whose deliverable is the middle element's mass -- a number.
         return ModelResult(
             structure=best.structure, matched=False, confidence=0.0,
             quantities={}, governing_equation="",
@@ -1083,22 +1079,351 @@ def _redteam_guards(text: str, best: "ModelResult") -> "ModelResult":
             quantities={}, governing_equation="",
             note="determinant guard: matrix-entry arithmetic shortcuts "
                  "cannot satisfy a determinant equation")
+
+    # (6) FORCE-ASK (QA-1, 2026-10-02): a kinematics family (v = u + a t,
+    #     s = u t + a t^2 / 2, ...) answers with an acceleration /
+    #     velocity / time quantity.  When the ask names FORCE (newtons)
+    #     and the fired answer is not a force quantity, shipping the bare
+    #     acceleration as "the net force" is the classic confident-wrong
+    #     (1000 kg car, a = 5.556 m/s^2 shipped as "5.55556").  F = ma
+    #     needs the mass multiplied in -- refuse and let the honest
+    #     tier take over.
+    if re.search(r"\b(?:net\s+)?force\b|\bnewtons?\b", low) \
+            and upper.startswith("KINEMATICS"):
+        ans_txt = str(getattr(best, "final_answer", None) or "")
+        if not re.search(r"\bforce\b|\bnewton\b|\d\s*N\b", ans_txt, re.I):
+            return ModelResult(
+                structure=best.structure, matched=False, confidence=0.0,
+                quantities={}, governing_equation="",
+                note="force-ask guard: kinematics family fired; answer is "
+                     "not a force quantity")
+
+    # (7) PLAUSIBILITY (QA-R4, 2026-10-03): a verified-correct arithmetic
+    #     result inside an absurd physical context is still a confident-
+    #     wrong ship ("500 km in 2 minutes" -> 15000 km/h train).  Guard
+    #     common kinematics contexts with hard physical ceilings; values
+    #     above them refuse honestly.  Deliberately narrow: math-only
+    #     asks (no transport context word) are untouched.
+    #     Written with word-set membership, NOT word-boundary regexes:
+    #     the 2026-10-03 heredoc corruption turned \b into \b bytes.
+    if best.numeric_answer is not None:
+        words = set(re.findall(r"[a-z]+", low))
+        contexts = [
+            ({"walk", "walks", "walking", "walked"}, 15.0),
+            ({"run", "runs", "running", "runner", "sprint", "sprints"}, 45.0),
+            ({"car", "cars", "truck", "bus", "bike", "motorbike", "motorcycle", "scooter"}, 400.0),
+            ({"train", "trains", "rail", "railway"}, 600.0),
+            ({"plane", "aeroplane", "aircraft", "jet", "flight", "airplane"}, 2500.0),
+        ]
+        ans_txt = str(getattr(best, "final_answer", None) or "")
+        ans_l = ans_txt.lower()
+        is_speed = ("km/h" in ans_l or "kmph" in ans_l or "kph" in ans_l
+                    or "m/s" in ans_l or "ms-1" in ans_l
+                    or "speed" in words or "velocity" in words)
+        if is_speed:
+            v = abs(float(best.numeric_answer))
+            if "m/s" in ans_l and "km/h" not in ans_l:
+                v *= 3.6  # answer in m/s: compare against the ceiling in km/h
+            for ctx_words, ceil in contexts:
+                if words & ctx_words:
+                    if v > ceil:
+                        return ModelResult(
+                            structure=best.structure, matched=False,
+                            confidence=0.0, quantities={},
+                            governing_equation="",
+                            note=f"plausibility guard: value {v:.1f} km/h "
+                                 f"exceeds the context ceiling {ceil} km/h; "
+                                 f"refusing absurd premise")
+                    break
     return best
 
 
+def _norm_text_key(text: str) -> str:
+    """Cache key: whitespace-normalized stem (case preserved — 'M' molar
+    vs 'm' metre is load-bearing)."""
+    return " ".join(text.split())
+
+
+@lru_cache(maxsize=512)
+def _model_problem_cached(text: str) -> ModelResult:
+    return _model_problem_uncached(text)
+
+
+_ASK_VERB_RE = re.compile(
+    r"\b(?:find|calculate|compute|determine|evaluate|simplify|solve|"
+    r"prove|show\s+that|what\s+(?:is|are|was|were)|how\s+(?:many|much|"
+    r"far|long|tall|fast|high)|obtain|state|give)\b", re.I)
+
+# filler ask words that never carry domain identity
+_ASK_FILLER = frozenset({
+    "find", "what", "calculate", "compute", "determine", "evaluate",
+    "the", "value", "that", "this", "from", "with", "have", "has",
+    "will", "would", "many", "much", "does", "each", "them", "then",
+    "sample", "show", "which", "when", "where", "their", "there",
+    "here", "some", "also", "given", "into", "than", "then", "both",
+    "such", "only", "same", "make", "made", "using", "used", "take",
+    "taken", "following", "above", "below", "answer", "question",
+})
+
+
+def _ask_clause(text: str) -> str:
+    """The sentence carrying the ask -- distractor clauses are
+    declarative noise; interrogative/imperative verbs mark the ask."""
+    sents = [s for s in re.split(r"(?<=[.!?])\s+|\n", text.strip()) if s]
+    for s in reversed(sents):
+        if _ASK_VERB_RE.search(s) or s.rstrip().endswith("?"):
+            return s
+    return text
+
+
+# same-domain synonyms: the ask's vocabulary and the family's answer
+# vocabulary legitimately differ ('energy required to melt' <-
+# 'heat = 16800 J').  Kept narrow and symmetric -- the gate exists to
+# stop FOREIGN families, not spelling variants.
+_DOMAIN_SYNONYMS = {
+    "energy": {"heat", "joule", "work"},
+    "heat": {"energy"},
+    "speed": {"velocity"},
+    "velocity": {"speed"},
+    "cost": {"price"},
+    "price": {"cost"},
+    "resistance": {"resistor", "ohm", "req"},
+    "resistor": {"resistance", "ohm", "req"},
+}
+
+
+def _domain_coherent(text: str, result: "ModelResult") -> bool:
+    """Does the claim's answer/steps share domain words with the ASK
+    clause?  A machinery journal answering 'find thymine %' shares
+    none -- incoherent.  No ask-side domain words -> coherent
+    (nothing to check against; fail-open)."""
+    ask = _ask_clause(text)
+    words = {w for w in re.findall(r"[a-z]{4,}", ask.lower())
+             if w not in _ASK_FILLER}
+    if not words:
+        return True
+    # expand by domain synonyms BEFORE the intersection ('heat' answers
+    # an 'energy' ask -- WS-PAL latent-heat refusal)
+    for w in list(words):
+        words |= _DOMAIN_SYNONYMS.get(w, set())
+    # steps may EMBED the question inside a framing line ("[Given]
+    # transaction: <whole question>; amount = ...") -- verbatim or
+    # substring checks both miss that, so a step sharing any 6-word
+    # run with the question is echo and dropped
+    qwords = re.findall(r"[a-z]{3,}", text.lower())
+    qgrams = set(zip(*(qwords[i:] for i in range(6)))) \
+        if len(qwords) >= 6 else set()
+    kept = []
+    for s in getattr(result, "steps", None) or []:
+        sw = re.findall(r"[a-z]{3,}", str(s).lower())
+        sgrams = set(zip(*(sw[i:] for i in range(6)))) \
+            if len(sw) >= 6 else set()
+        if qgrams and sgrams & qgrams:
+            continue                     # echoes the question text
+        kept.append(str(s))
+    blob = " ".join(
+        [str(getattr(result, "final_answer", "") or "")]
+        + kept
+        + [str(getattr(result, "note", "") or ""),
+           str(getattr(result, "structure", "") or "")])
+    blob_words = set(re.findall(r"[a-z]{4,}", blob.lower()))
+    return bool(words & blob_words)
+
+
+_REGISTRY_REPAIRED = False
+
+
+def _repair_registry() -> None:
+    """CIRCULAR-IMPORT REGISTRY REPAIR (2026-10-07, P11 dig).
+
+    physics_families imports ModelResult from THIS module at its top.
+    When physics_families is imported FIRST, this module initialises
+    WHILE physics_families is mid-build: the line-~847 registration
+    block asks the half-built module for model_physics_families, gets
+    an ImportError, and silently drops the ENTIRE physics dispatcher
+    from the registry sweep (observed live: 59 structures, no
+    model_physics_families -- every physics family then depended on
+    the PAL/kernel lanes, import-order-dependently).  By the time any
+    question is answered every module is fully loaded, so the late
+    import here succeeds.  Runs once per process."""
+    global _REGISTRY_REPAIRED
+    if _REGISTRY_REPAIRED:
+        return
+    _REGISTRY_REPAIRED = True
+    try:
+        from backend.its.solver.physics_families import \
+            model_physics_families as _mpf
+        if not any(getattr(fn, "__name__", "") == "model_physics_families"
+                   for fn in _STRUCTURES):
+            _STRUCTURES.append(_mpf)
+    except Exception:
+        pass  # physics families unavailable -- the sweep runs without it
+
+
 def model_problem(text: str) -> ModelResult:
+    """Public entry: memoized deep copy of the cached result.
+
+    RELEASE GATE sits HERE, outside the memo (regression guard
+    2026-10-05): inside the cached function it ran once and the verdict
+    was frozen forever — repeat calls served pre-gate results even after
+    the calibration floors changed. Idempotent, so applying per-call is
+    cheap and always reflects current calibration."""
+    _repair_registry()
+    result = (_model_problem_uncached(text) if len(text) > 1600
+              else deepcopy(_model_problem_cached(_norm_text_key(text))))
+    try:
+        from backend.services.release_calibration import withhold_if_gated
+        result = withhold_if_gated(result)
+    except Exception:
+        pass  # calibration infrastructure must never block a solve
+    return result
+
+
+# DISPATCHER DOMAIN MAP (wave98 subject-domain gate): a stem's subject
+# constrains which families may serve VERIFIED — a political-science
+# stem must be structurally unable to reach an accountancy family.
+# The registry knows which dispatcher produced a match; the
+# dispatcher's module pins the family's domain.  The tag rides on the
+# ModelResult (``_family_domain`` attr) through the memoized deepcopy
+# so answer_pipeline's badge gate can veto foreign-domain serves.
+def _fn_domain(fn) -> str:
+    blob = ((getattr(fn, "__module__", "") or "") + "|" +
+            (getattr(fn, "__name__", "") or "")).lower()
+    if "accountancy" in blob or "commerce" in blob:
+        return "commerce"
+    if "economics" in blob:
+        return "economics"
+    if "chemistry" in blob:
+        return "chemistry"
+    if "biolog" in blob or "biotech" in blob:
+        return "biology"
+    if "physics" in blob:
+        return "physics"
+    if "english" in blob or "hindi" in blob or "language" in blob:
+        return "language"
+    if "compapp" in blob or "cs_families" in blob or "computer" in blob:
+        return "cs"
+    if "socsci" in blob or "humanit" in blob:
+        return "humanities"
+    if "competency" in blob:
+        return "competency"  # resolved per concept-id at the gate
+    return "maths"  # generic numerics — every subject may reach them
+
+
+def _model_problem_uncached(text: str) -> ModelResult:
     """Try every canonical structure; return the best match (or a refusal
     listing what was tried - never an LLM call)."""
+    """Try every canonical structure; return the best match (or a refusal
+    listing what was tried - never an LLM call)."""
+    # digit-group commas: family regexes read 'Rs 12,000' as 12 and
+    # ship CI = 2.52 (flywheel trap class).  One canonicalization here
+    # fixes every family at once -- 12,000 and 1,20,000 both collapse.
+    text = re.sub(r"(\d),(?=\d{2,3}\b)", r"\1", text)
+    # QA-1 ReDoS choke-point guard (2026-10-02): the registry sweep over
+    # adversarially long input ("0"*3000 + " hour") hung for MINUTES --
+    # 40+ dispatchers x ~170 trigger regexes, some quadratic on long
+    # digit runs, run twice on registry refusal (matched pass + reasons
+    # pass) and several times per answer() (Lane A sweep, Lane B sweep,
+    # hop-guard sweep).  Registry triggers are phrase-level: the bank's
+    # own norm_text column is left(600).  Cap at 1600 chars -- 2.6x the
+    # design center -- and refuse honestly (fail-closed, never a guess).
+    # Legit long prose still reaches the bank/node lanes, which are
+    # length-safe.
+    if len(text) > 1600:
+        return ModelResult(
+            structure="UNRECOGNIZED", matched=False, confidence=0.0,
+            quantities={}, governing_equation="",
+            note="input too long for the family registry (ReDoS guard); "
+                 "refusing honestly")
     best: Optional[ModelResult] = None
+    # FAST PATH (2026-10-05): the semantic structure lane (embeddings +
+    # verified compute) runs FIRST — a structure matched by meaning AND
+    # verified by a successful deterministic compute returns at 0.96,
+    # outranking every regex-trigger family (0.85-0.95) anyway, so
+    # running the other 40+ sweepers first is wasted work.  Spec hits
+    # resolve in ~50ms instead of the full sweep's multi-second cost.
+    # A miss falls through to the normal registry sweep unchanged.
     for fn in _STRUCTURES:
-        r = fn(text)
+        if getattr(fn, "__name__", "") != "model_structure":
+            continue
+        try:
+            # deterministic-only probe — the LLM extractor inside
+            # model_structure must not fire before the registry sweep
+            # gets its turn
+            from backend.its.solver.structure_families import \
+                _DEFER_LLM as _dl
+            _tok = _dl.set(True)
+            try:
+                r0 = fn(text)
+            finally:
+                _dl.reset(_tok)
+        except Exception:
+            r0 = None
+        if r0 is not None and r0.matched and r0.confidence > 0.9 \
+                and (r0.numeric_answer is not None or r0.final_answer):
+            upper0 = r0.structure.upper()
+            if not (_MATRIX_BRACKETS.search(text)
+                    and "MATRIX" not in upper0
+                    and "DETERMINANT" not in upper0):
+                return r0
+    # QA-R1 (2026-10-03): one sweep, results kept -- the refusal path used to
+    # re-run every structure just to build the reasons string (a full second
+    # registry sweep on every bank miss; the dominant p95 cost).
+    # CL-10: the registry sweep runs LLM-DEFERRED — model_structure's
+    # extractor used to fire Groq/Gemini inside every sweep on every
+    # stem.  Deterministic match first; the LLM gets its turn only on a
+    # full-registry miss (and only when the caller hasn't deferred it).
+    _caller_deferred = False
+    _dl_tok = None
+    try:
+        from backend.its.solver.structure_families import _DEFER_LLM as _dl2
+        _caller_deferred = bool(_dl2.get())
+        _dl_tok = _dl2.set(True)
+    except Exception:
+        _dl_tok = None
+    try:
+        first_pass = [(fn, fn(text)) for fn in _STRUCTURES]
+    finally:
+        if _dl_tok is not None:
+            _dl2.reset(_dl_tok)
+    for _fn, r in first_pass:
+        if getattr(r, "matched", False):
+            try:
+                r._family_domain = _fn_domain(_fn)
+            except Exception:  # noqa: BLE001 -- advisory tag only
+                pass
         if r.matched and (best is None or r.confidence > best.confidence):
             best = r
+    # DISTRACTOR GATE (flywheel-L4 root cause): a noise clause can
+    # carry keywords that let a foreign family outrank the ask's real
+    # family -- '...22% cytosine. A competitor sold a machine for Rs
+    # 75,000. Find % thymine' shipped a journal entry VERIFIED.  Two
+    # arms: (a) re-rank -- a coherent rival beats confidence; (b) veto
+    # -- an incoherent best is refused when the ask clause carries >=2
+    # domain words (single-word asks fail-open: 'how many apples' has
+    # too little evidence to veto on).
+    _coh = [_domain_coherent(text, r) for _f, r in first_pass]
+    _coherent = [r for (_f, r), c in zip(first_pass, _coh)
+                 if r.matched and c]
+    if _coherent:
+        best = max(_coherent, key=lambda _r: _r.confidence)
+    elif best is not None and _coh:
+        _bw = {w for w in re.findall(r"[a-z]{4,}", _ask_clause(text).lower())
+               if w not in _ASK_FILLER}
+        if len(_bw) >= 2 and not _domain_coherent(text, best):
+            best = ModelResult(
+                structure=best.structure, matched=False,
+                confidence=0.0, quantities={}, governing_equation="",
+                note="distractor gate: claim shares no domain word with "
+                     "the ask clause -- foreign-family claim refused")
     if best is not None:
         # RED-TEAM GUARDS first: they can veto any matched family.
         best = _redteam_guards(text, best)
         if not best.matched:
             return best
+        # FLYWHEEL-L4 RELEASE CALIBRATION moved OUT of this function into
+        # model_problem (2026-10-05): inside the memo the gate verdict was
+        # frozen for the life of the lru_cache. See model_problem docstring.
         # matrix-bracket text is Lane A kernel territory: a registry
         # family reading "[x -5 -1] [[0,2,1],...]" as flat arithmetic
         # ships a wrong "verified" answer -- never promote those.
@@ -1119,9 +1444,56 @@ def model_problem(text: str) -> ModelResult:
                 structure="UNRECOGNIZED", matched=False, confidence=0.0,
                 quantities={}, governing_equation="",
                 note="symbolic ask: arithmetic family refused")
+        # AMBIGUITY ALTERNATES (wave98 hardening): keep the OTHER
+        # coherent matches the same sweep already produced — no second
+        # pass, no latency.  Only coherent rivals count (the distractor
+        # gate already proved the rest are noise-clause matches); the
+        # tier stamp fails closed when one of them confidently answers
+        # differently (SI-stem -> CI-method class).  Dispatcher-internal
+        # runner-ups (e.g. model_maths' losing sub-readings) merge in
+        # too — they never passed the coherence gate but the rival check
+        # applies its own confidence/answer test anyway.
+        try:
+            merged = [r for r in _coherent if r is not best]
+            for r in getattr(best, "alternates", None) or []:
+                if r is not best and all(r is not o for o in merged):
+                    merged.append(r)
+            best.alternates = sorted(
+                merged,
+                key=lambda _r: float(
+                    getattr(_r, "confidence", 0.0) or 0.0),
+                reverse=True)[:6]
+        except Exception:  # noqa: BLE001 -- alternates are advisory
+            pass
         return best
-    reasons = "; ".join(f"{r.structure}: {r.note}" for r in
-                        (fn(text) for fn in _STRUCTURES))
+    # Full deterministic miss — the LLM extractor inside model_structure
+    # gets its turn now (CL-10: registry first, LLM only on miss; the
+    # _chat gates enforce keys-configured + SOLVER_OFFLINE).  Skipped
+    # when the caller already deferred LLM (tutor/offline passes).
+    if not _caller_deferred and best is None:
+        try:
+            for fn in _STRUCTURES:
+                if getattr(fn, "__name__", "") != "model_structure":
+                    continue
+                r_llm = fn(text)
+                if r_llm is not None and r_llm.matched:
+                    r_llm = _redteam_guards(text, r_llm)
+                    if r_llm.matched:
+                        first_pass.append((fn, r_llm))
+                        best = r_llm
+        except Exception:
+            pass
+    if best is not None and best.matched:
+        try:  # same zero-cost alternate surfacing as the main return
+            best.alternates = sorted(
+                (r for r in _coherent if r is not best),
+                key=lambda _r: float(
+                    getattr(_r, "confidence", 0.0) or 0.0),
+                reverse=True)[:6]
+        except Exception:  # noqa: BLE001
+            pass
+        return best
+    reasons = "; ".join(f"{r.structure}: {r.note}" for _fn, r in first_pass)
     return ModelResult(structure="UNRECOGNIZED", matched=False, confidence=0.0,
                        quantities={}, governing_equation="",
                        note=f"no canonical structure matched ({reasons})")
@@ -1134,5 +1506,15 @@ try:
     if not any(getattr(fn, "__name__", "") == "model_competency"
                for fn in _STRUCTURES):
         _STRUCTURES.append(model_competency)
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-15: semantic structure dispatch -- embedding-matched ask ->
+# role-bound slots -> direct compute (board-paper question forms).
+try:
+    from backend.its.solver.structure_families import model_structure
+    if not any(getattr(fn, "__name__", "") == "model_structure"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_structure)
 except ImportError:  # pragma: no cover
     pass

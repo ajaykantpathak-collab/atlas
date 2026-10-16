@@ -737,6 +737,8 @@ class BusinessMeaningRegistered(BusinessMeaningSolver):
     pass
 
 
+
+
 @register_solver
 class BusinessFormsRegistered(BusinessFormsSolver):
     pass
@@ -933,3 +935,16 @@ def run_self_test() -> None:
 
 if __name__ == '__main__':
     run_self_test()
+def _bs_instance_call(self, params=None, **kw):
+    """Registered instances are invoked directly by registry consumers."""
+    if isinstance(params, str):
+        return self.solve(params, **kw)
+    payload = dict(params or {})
+    payload.update(kw)
+    question = payload.pop("question", None) or payload.pop("q", "")
+    return self.solve(question, **payload)
+
+
+for _cls in (BusinessMeaningRegistered, BusinessFormsRegistered, EBusinessRegistered):
+    _cls.__call__ = _bs_instance_call
+

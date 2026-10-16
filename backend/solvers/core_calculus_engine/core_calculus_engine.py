@@ -177,10 +177,23 @@ class SolverResult:
 # Utility helpers
 # ──────────────────────────────────────────────────────────────────────────────
 def _safe_sympify(expr_str: str, local_dict: dict = None):
-    """Safely convert a string expression to a SymPy expression."""
+    """Safely convert a string expression to a SymPy expression.
+    Handles bare-function syntax students actually type: 'sin x',
+    'cos 30', '3x', 'x y'."""
     if local_dict is None:
         local_dict = {}
-    return sp.sympify(expr_str, locals=local_dict)
+    try:
+        return sp.sympify(expr_str, locals=local_dict)
+    except Exception:
+        # implicit-application retry: 'sin x' -> 'sin(x)', '2x' -> '2*x'
+        from sympy.parsing.sympy_parser import (
+            parse_expr, standard_transformations, convert_xor,
+            implicit_multiplication_application)
+        return parse_expr(
+            expr_str, local_dict=local_dict,
+            transformations=(convert_xor,) +
+            standard_transformations +
+            (implicit_multiplication_application,))
 
 def _ensure_sympy(expr) -> sp.Expr:
     """Ensure the expression is a SymPy expression."""
@@ -290,6 +303,37 @@ class CalculusEngine:
         self.t = sp.Symbol('t')
         self.default_vars = {'x': self.x, 'y': self.y, 't': self.t}
 
+    def _call_giac(self, giac_cmd: str, timeout: float = 3.0) -> Optional[str]:
+        """Execute a CAS command in Giac/Xcas via subprocess when SymPy struggles."""
+        try:
+            try:
+                from .algebraic_solver import _get_giac
+            except ImportError:
+                from solvers.core_calculus_engine.algebraic_solver import _get_giac
+            giac_bin = _get_giac()
+            if not giac_bin:
+                return None
+            import subprocess as _subp
+            # Normalize command: Giac uses '^' for powers
+            cmd_norm = giac_cmd.replace("**", "^")
+            proc = _subp.run(
+                [giac_bin, cmd_norm],
+                capture_output=True,
+                text=True,
+                timeout=timeout,
+            )
+            if proc.returncode == 0 and proc.stdout:
+                out = proc.stdout.strip().strip('"; \n\r')
+                if not out or "undef" in out or "error" in out.lower():
+                    return None
+                # Normalize giac output for sympy parsing
+                out = out.replace("^", "**")
+                out = re.sub(r"\bln\(", "log(", out)
+                return out
+        except Exception as e:
+            log.debug(f"Giac execution failed: {e}")
+        return None
+
     # ── 1. DIFFERENTIATE ──────────────────────────────────────────────────
     @with_timeout(10)
     def differentiate(self, expr_str: str, variable: str = 'x', order: int = 1) -> SolverResult:
@@ -346,11 +390,29 @@ class CalculusEngine:
             for i in range(1, order + 1):
                 rule_name, formula, hint = self._identify_diff_rule(current, var)
 
-                # Apply the actual differentiation
-                if i == 1:
-                    result = sp.diff(expr, var)
-                else:
-                    result = sp.diff(result, var)
+                # Apply the actual differentiation (SymPy with Giac fallback)
+                result = None
+                try:
+                    if i == 1:
+                        result = sp.diff(expr, var)
+                    else:
+                        result = sp.diff(result, var)
+                    if isinstance(result, sp.Derivative) or getattr(result, "has", lambda s: False)(sp.Derivative):
+                        result = None
+                except Exception:
+                    result = None
+
+                if result is None:
+                    giac_out = self._call_giac(f"diff({_format_expr(current)}, {variable})")
+                    if giac_out:
+                        try:
+                            result = _safe_sympify(giac_out, {variable: var})
+                            backend = "giac"
+                        except Exception:
+                            result = None
+
+                if result is None:
+                    result = sp.diff(current, var)
 
                 _add_step(
                     steps,
@@ -358,7 +420,7 @@ class CalculusEngine:
                     formula,
                     _format_expr(current),
                     _format_expr(result),
-                    f"Applied {rule_name}: d/d{variable}[{_format_expr(current)}] = {_format_expr(result)}",
+                    f"Applied {rule_name}: d/d{variable}[{_format_expr(current)}] = {_format_expr(result)} ({backend})",
                     hint
                 )
                 current = result
@@ -569,27 +631,66 @@ class CalculusEngine:
                     ""
                 )
 
-            # Step 4: Compute the integral
+            # Step 4: Compute the integral (SymPy with Giac fallback)
+            result = None
             if is_definite:
-                result = sp.integrate(expr, (var, lower, upper))
+                try:
+                    result = sp.integrate(expr, (var, lower, upper))
+                    if isinstance(result, sp.Integral) or getattr(result, "has", lambda s: False)(sp.Integral):
+                        result = None
+                except Exception:
+                    result = None
+
+                if result is None:
+                    giac_cmd = f"integrate({expr_str}, {variable}, {lower}, {upper})"
+                    giac_out = self._call_giac(giac_cmd)
+                    if giac_out:
+                        try:
+                            result = _safe_sympify(giac_out, {variable: var})
+                            backend = "giac"
+                        except Exception:
+                            result = None
+
+                if result is None:
+                    result = sp.integrate(expr, (var, lower, upper))
+
                 _add_step(
                     steps,
                     "Definite Integration",
                     f"∫[{lower},{upper}] f({variable}) d{variable} = F({upper}) - F({lower})",
                     f"f({variable}) = {_format_expr(expr)}",
                     _format_expr(result),
-                    f"Evaluated definite integral from {lower} to {upper}",
+                    f"Evaluated definite integral from {lower} to {upper} ({backend})",
                     "Compute F(upper) - F(lower)"
                 )
             else:
-                result = sp.integrate(expr, var)
+                try:
+                    result = sp.integrate(expr, var)
+                    if isinstance(result, sp.Integral) or getattr(result, "has", lambda s: False)(sp.Integral):
+                        result = None
+                except Exception:
+                    result = None
+
+                if result is None:
+                    giac_cmd = f"integrate({expr_str}, {variable})"
+                    giac_out = self._call_giac(giac_cmd)
+                    if giac_out:
+                        try:
+                            result = _safe_sympify(giac_out, {variable: var})
+                            backend = "giac"
+                        except Exception:
+                            result = None
+
+                if result is None:
+                    result = sp.integrate(expr, var)
+
                 _add_step(
                     steps,
                     "Indefinite Integration",
                     "∫ f(x) dx = F(x) + C",
                     f"f({variable}) = {_format_expr(expr)}",
                     _format_expr(result),
-                    f"Found antiderivative: {_format_expr(result)} + C",
+                    f"Found antiderivative: {_format_expr(result)} + C ({backend})",
                     "Don't forget the constant of integration +C"
                 )
 
@@ -844,7 +945,22 @@ class CalculusEngine:
             else:
                 result = sp.limit(expr, var, pt)
 
-            simplified = sp.simplify(result)
+            # Giac fallback if SymPy limit struggled or unevaluated
+            if result is None or isinstance(result, sp.Limit) or getattr(result, "has", lambda s: False)(sp.Limit):
+                giac_val = pt_str
+                if pt == sp.oo:
+                    giac_val = "+infinity"
+                elif pt == -sp.oo:
+                    giac_val = "-infinity"
+                giac_out = self._call_giac(f"limit({expr_str}, {variable}, {giac_val})")
+                if giac_out:
+                    try:
+                        result = _safe_sympify(giac_out, {variable: var})
+                        backend = "giac"
+                    except Exception:
+                        pass
+
+            simplified = sp.simplify(result) if result is not None else sp.sympify(0)
             _add_step(
                 steps,
                 "Final Result",

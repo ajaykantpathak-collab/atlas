@@ -39,7 +39,15 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from database import Student, Attempt, Mastery, PracticeSession
 from services.practice_service import PracticeService
-from services.streak_service import StreakService
+try:
+    from services.streak_service import StreakService
+except ImportError:
+    # services/streak_service.py was DELETED (audit 2026-10-05): an unwired
+    # parallel streak engine contradicting the canonical reward_ledger model.
+    # Nothing ever injected one — every WhatsAppService() construction is
+    # bare, and the handlers below guard on `self._streak`. Only used as an
+    # optional ctor type hint below.
+    StreakService = None  # type: ignore
 try:
     from services.mastery_sync import MasterySync
 except ImportError:

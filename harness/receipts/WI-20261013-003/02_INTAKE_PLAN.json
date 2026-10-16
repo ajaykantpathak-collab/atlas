@@ -1,0 +1,64 @@
+{
+ "receipt_id": "rcpt_20261013T153627Z_3509af71",
+ "work_item": "WI-20261013-003",
+ "from_state": "INTAKE",
+ "to_state": "PLAN",
+ "actor": "agent:harness-runner",
+ "ts_utc": "2026-10-13T15:36:27Z",
+ "gates": [],
+ "evidence": {
+  "plan": {
+   "path": "D:\\platform\\harness\\receipts\\WI-20261013-003\\plan.md",
+   "sha256": "ac355dcd7ca6c6e2de607c7ec44f402369d43d785056fcce0a06b5f268bf1080"
+  },
+  "files_in_scope": [
+   "deploy/backend/its/README.md"
+  ],
+  "gates_expected": {
+   "G1": {
+    "applies": "apply",
+    "reason": "corpus pinned suite fallback"
+   },
+   "G2": {
+    "applies": "not_applicable",
+    "reason": "no backend .py changed"
+   },
+   "G3": {
+    "applies": "not_applicable",
+    "reason": "no backend .py changed"
+   },
+   "G4": {
+    "applies": "not_applicable",
+    "reason": "no .py literals changed"
+   },
+   "G5": {
+    "applies": "apply",
+    "reason": "this is the gate under test"
+   },
+   "G6": {
+    "applies": "not_applicable",
+    "reason": "its/solver/** unchanged"
+   },
+   "G7": {
+    "applies": "not_applicable",
+    "reason": "no backend .py changed"
+   },
+   "G8": {
+    "applies": "not_applicable",
+    "reason": "no frontend change"
+   },
+   "G9": {
+    "applies": "not_applicable",
+    "reason": "chisel CLI not installed on host — verified 2026-10-13"
+   },
+   "G10": {
+    "applies": "apply",
+    "reason": "executes at SOAK state"
+   }
+  },
+  "wi_type": "REFACTOR",
+  "citation": "Parity baseline harness/ops/parity_baseline.json (matched=18/200, stored\n2026-10-13). No its/solver/** file is touched by this scope, so the parity\nbaseline is trivially preserved; this work item exists to prove the\nfail-closed property (DEMO-4 of the operating prompt): a deliberately\nseeded \\x08 control byte in a served-tree file must make G5 red and block\npromotion with exit code 2. The seed is "
+ },
+ "notes": "type=REFACTOR files=1",
+ "prev_receipt_sha256": "935f897423ca075d69be80f7553b8454d2fc22fa88300bf48b092b670bd6d374"
+}

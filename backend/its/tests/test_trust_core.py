@@ -185,7 +185,13 @@ def test_no_backspace_corruption_in_solver_sources():
     """The invisible-corruption guard: heredoc patches once wrote chr(8)
     into regex \b sequences, silently zeroing whole families."""
     import glob
-    for path in glob.glob(r"D:\platform\backend\its\solver\*.py"):
+    import os
+    import backend.its.solver as _solver_pkg
+    # scan the LIVE package (whichever tree backend resolves to), not a
+    # hardcoded path — this guard exists to catch corruption in the tree
+    # under test.
+    _solver_dir = os.path.dirname(_solver_pkg.__file__)
+    for path in glob.glob(os.path.join(_solver_dir, "*.py")):
         raw = open(path, encoding="utf-8").read()
         assert chr(8) not in raw, f"backspace corruption in {path}"
 

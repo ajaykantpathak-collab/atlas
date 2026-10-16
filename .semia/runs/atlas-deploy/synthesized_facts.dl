@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("atlas-deploy").
+skill_evidence_text("atlas-deploy", "name: atlas-deploy").
+action("act_review", "atlas-deploy").
+action_evidence_text("act_review", "name: atlas-deploy").

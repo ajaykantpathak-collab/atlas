@@ -1,0 +1,5 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+skill("fixing-metadata").
+skill_evidence_text("fixing-metadata", "name: fixing-metadata").
+action("act_review", "fixing-metadata").
+action_evidence_text("act_review", "name: fixing-metadata").

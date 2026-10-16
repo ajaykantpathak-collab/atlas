@@ -109,6 +109,11 @@ class EmbeddingService:
         start = time.time()
 
         def _load():
+            import torch
+            # PERF (2026-10-03): cap torch inference threads — on the 8-core
+            # box oversubscribed CPU inference threads slowed model load and
+            # encode. Env override kept for experimentation (1 vs 2).
+            torch.set_num_threads(int(os.environ.get("TORCH_NUM_THREADS", "1")))
             from sentence_transformers import SentenceTransformer
             return SentenceTransformer(self._config["hf_name"])
 

@@ -1,0 +1,492 @@
+[
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! A stadium holds thousands of cheering people and the organizer announces the crowd size minutes after the gates close. Nobody counted heads one by one",
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and go"
+    ],
+    "picked": "They asked every person to raise a hand at once",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "They made up a random big number",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! A stadium holds thousands of cheering people and the organizer announces the crowd size minutes after the gates close. Nobody counted heads one by one",
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and go"
+    ],
+    "picked": "They counted a small sample area, estimated the rest, and got a close-",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "They made up a random big number",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 6,
+  "sim": "v3_c6_math_ch01_p2",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! A stadium holds thousands of cheering people and the organizer announces the crowd size minutes after the gates close. Nobody counted heads one by one",
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and go"
+    ],
+    "picked": "They asked every person to raise a hand at once",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "They made up a random big number",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! A stadium holds thousands of cheering people and the organizer announces the crowd size minutes after the gates close. Nobody counted heads one by one",
+    "options": [
+     "They asked every person to raise a hand at once",
+     "They made up a random big number",
+     "They weighed the stadium before and after",
+     "They counted a small sample area, estimated the rest, and go"
+    ],
+    "picked": "They counted a small sample area, estimated the rest, and got a close-",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "They made up a random big number",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! A classroom floor is 4 m × 4 m and tiles are 1 m × 1 m — you need 16 tiles. Now: why do we write that as 4² instead of just '4 times 4'? 🔊 Because til",
+    "options": [
+     "Because tiles can only be counted in squares",
+     "Because squaring IS the area of a square — n² counts the uni",
+     "Because 4² means 4 + 4 = 8",
+     "Because mathematicians like small writing"
+    ],
+    "picked": "Because tiles can only be counted in squares",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "Because 4² means 4 + 4 = 8",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! A classroom floor is 4 m × 4 m and tiles are 1 m × 1 m — you need 16 tiles. Now: why do we write that as 4² instead of just '4 times 4'? 🔊 Because til",
+    "options": [
+     "Because tiles can only be counted in squares",
+     "Because squaring IS the area of a square — n² counts the uni",
+     "Because 4² means 4 + 4 = 8",
+     "Because mathematicians like small writing"
+    ],
+    "picked": "Because mathematicians like small writing",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "Because 4² means 4 + 4 = 8",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 8,
+  "sim": "v3_c8_math_ch02_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! Fold a paper in half again and again — the layers go 2, 4, 8, 16. What will the 10th fold give: 20 layers or 1,024? 🔊 100 — ten folds times ten 1,024 ",
+    "options": [
+     "100 — ten folds times ten",
+     "1,024 — each fold doubles the layers, and doubling ten times",
+     "Nobody can fold paper that many times so it doesn't matter",
+     "20 — each fold just adds 2 more layers"
+    ],
+    "picked": "100 — ten folds times ten",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "100 — ten folds times ten",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! Fold a paper in half again and again — the layers go 2, 4, 8, 16. What will the 10th fold give: 20 layers or 1,024? 🔊 100 — ten folds times ten 1,024 ",
+    "options": [
+     "100 — ten folds times ten",
+     "1,024 — each fold doubles the layers, and doubling ten times",
+     "Nobody can fold paper that many times so it doesn't matter",
+     "20 — each fold just adds 2 more layers"
+    ],
+    "picked": "20 — each fold just adds 2 more layers",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "100 — ten folds times ten",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! Take any number — 60, 867, even a million — and break it into primes. The Fundamental Theorem of Arithmetic swears you'll always land on the exact sam",
+    "options": [
+     "Because it proves every number is secretly prime",
+     "Because without it, calculators couldn't multiply",
+     "Because unique prime factorisation lets us prove things like",
+     "Because it shows multiplication and division are the same op"
+    ],
+    "picked": "Because it proves every number is secretly prime",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Check ✅"
+   },
+   {
+    "step": 3,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Continue →"
+   },
+   {
+    "step": 4,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "options": [
+     "The theorem states that every integer greater than 1 is eith",
+     "every number can be written as a product of primes"
+    ],
+    "picked": "every number can be written as a product of primes",
+    "intended": "CORRECT",
+    "color_after": "px-4 py-2.5 rounded-xl font-bold text-sm text-left shadow bo|rgb(238, 242, 255)",
+    "green": false,
+    "cont": "unique",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 5,
+    "q": "",
+    "is_question": true,
+    "question": "think that the order of prime factors matters for uniqueness, so they might say 2. Done → PREVIOUS Trigonometric Identitiessin2a NEXT Real Numbers · Part 2/2",
+    "options": [
+     "The theorem states that every integer greater than 1 is eith",
+     "every number can be written as a product of primes"
+    ],
+    "picked": "every number can be written as a product of primes",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "unique",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 5"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_math_ch02_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! Graph the polynomial y = x² − 4. It crosses the x-axis at exactly two spots: −2 and +2. A friend claims a cubic MUST cross the axis three times. Your ",
+    "options": [
+     "The friend — cubics always cross exactly three times",
+     "You — all cubics cross exactly twice",
+     "Neither — a degree-n polynomial can cross AT MOST n times, b",
+     "Graphs can't tell us anything about zeros at all"
+    ],
+    "picked": "The friend — cubics always cross exactly three times",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "Let's learn! 🚀"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Let's Play! 🎮"
+   },
+   {
+    "step": 2,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Check ✅"
+   },
+   {
+    "step": 3,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Check ✅"
+   },
+   {
+    "step": 4,
+    "q": "",
+    "is_question": false,
+    "question": "",
+    "cont": "Check ✅"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 4"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_bio_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! You ate a samosa an hour ago — where is it right now, doing what? 🔊 Being broken into molecules your cells absorb Sitting whole in your stomach Filter",
+    "options": [
+     "Being broken into molecules your cells absorb",
+     "Sitting whole in your stomach",
+     "Filtered out by the liver",
+     "Already converted to pure energy"
+    ],
+    "picked": "Being broken into molecules your cells absorb",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(52, 211, 153)",
+    "green": false,
+    "cont": "Sitting whole in your stomach",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! You ate a samosa an hour ago — where is it right now, doing what? 🔊 Being broken into molecules your cells absorb Sitting whole in your stomach Filter",
+    "options": [
+     "Being broken into molecules your cells absorb",
+     "Sitting whole in your stomach",
+     "Filtered out by the liver",
+     "Already converted to pure energy"
+    ],
+    "picked": "Already converted to pure energy",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "Sitting whole in your stomach",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 10,
+  "sim": "v3_c10_chem_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! You burn 10g of magnesium and the ash weighs MORE than 10g. Where did the extra mass come from? 🔊 Burning creates matter Oxygen from the air joined th",
+    "options": [
+     "Burning creates matter",
+     "Oxygen from the air joined the magnesium",
+     "Heat adds weight",
+     "The scale is wrong"
+    ],
+    "picked": "Burning creates matter",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "Burning creates matter",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! You burn 10g of magnesium and the ash weighs MORE than 10g. Where did the extra mass come from? 🔊 Burning creates matter Oxygen from the air joined th",
+    "options": [
+     "Burning creates matter",
+     "Oxygen from the air joined the magnesium",
+     "Heat adds weight",
+     "The scale is wrong"
+    ],
+    "picked": "The scale is wrong",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "Burning creates matter",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch01_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! Group students by birth month for relay teams — is that a fair mathematical grouping? What three tests does it quietly pass? 🔊 Reflexive (everyone gro",
+    "options": [
+     "Reflexive (everyone groups with self), symmetric (A with B m",
+     "Any grouping works",
+     "Only symmetry matters"
+    ],
+    "picked": "Reflexive (everyone groups with self), symmetric (A with B means B wit",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(52, 211, 153)",
+    "green": false,
+    "cont": "Just pairing",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! Group students by birth month for relay teams — is that a fair mathematical grouping? What three tests does it quietly pass? 🔊 Reflexive (everyone gro",
+    "options": [
+     "Reflexive (everyone groups with self), symmetric (A with B m",
+     "Any grouping works",
+     "Only symmetry matters"
+    ],
+    "picked": "Only symmetry matters",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "Just pairing",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ },
+ {
+  "cl": 12,
+  "sim": "v3_c12_math_ch02_p1",
+  "steps": [
+   {
+    "step": 0,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! 'The angle whose tangent is 1/12' has infinitely many answers — yet the ramp engineer needs exactly one. How do we force uniqueness? 🔊 Use degrees Pic",
+    "options": [
+     "Pick the smallest",
+     "Round the answer",
+     "Restrict the domain — chop sine, cosine, tangent to interval"
+    ],
+    "picked": "Pick the smallest",
+    "intended": "WRONG",
+    "color_after": "px-4 py-3 rounded-2xl font-bold text-sm shadow-md transition|rgb(253, 164, 175)",
+    "green": false,
+    "cont": "Use degrees",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   },
+   {
+    "step": 1,
+    "q": "",
+    "is_question": true,
+    "question": "QUESTION! 'The angle whose tangent is 1/12' has infinitely many answers — yet the ramp engineer needs exactly one. How do we force uniqueness? 🔊 Use degrees Pic",
+    "options": [
+     "Pick the smallest",
+     "Round the answer",
+     "Restrict the domain — chop sine, cosine, tangent to interval"
+    ],
+    "picked": "Restrict the domain — chop sine, cosine, tangent to intervals where th",
+    "intended": "CORRECT",
+    "click_err": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"butto",
+    "cont": "Use degrees",
+    "cont_err": "Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"butto"
+   }
+  ],
+  "anomalies": [
+   "no-change at step 1"
+  ],
+  "boot": "ok"
+ }
+]

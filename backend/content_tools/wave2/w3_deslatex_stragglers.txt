@@ -1,0 +1,155 @@
+=== c10_math_cbse_02_009.md:DIAGNOSTIC_ANSWER_3 ENV
+**Answer with steps:**  
+1. Known zero: \(\alpha = 1\) → divisor: \(x-1\).  
+2. Divide \(p(x)\) by \(x-1\) using long division:  
+   \[
+   \begin{array}{r|l}
+   x-1 & x^3 - 6x^2 + 11x - 6 \\
+   \hline
+   & x^2 - 5x + 6 \\
+   & x^3 - x^2 \\
+   \hline
+   & -5x^2 + 11x \\
+   & -5x^2 + 5x \\
+   \hline
+   & 6x - 6 \\
+   & 6x - 6 \\
+   \hline
+   & 0
+   \end{array}
+   \]  
+   Quotient: \(q(x) = x^2 - 5x + 6\).  
+3. Factorise \(q(x)\): \(x^2 - 5x + 6 = (x-2)(x-3)\).  
+4. Zeros: \(x = 1, 2, 3\).  
+**Misconception revealed:** If a student writes the quotient as \(x^2 - 5x + 6\) but then solves \(x^2 - 5x + 6 = 0\) incorrectly (e.g., \(x = -2, -3\)), they have a sign error in factorisation. If they forget to include the original zero \(1\), they miss the complete set. Both are common board-exam errors.
+
+=== c10_math_cbse_02_009.md:DIAGNOSTIC_ANSWER_6 ENV
+**Answer:**  
+Polynomial: \(p(x) = (x-2)(x+3)(x-4) = (x-2)(x^2 - x - 12) = x^3 - 3x^2 - 10x + 24\).  
+Division by \((x-2)\):  
+\[
+\begin{array}{r|l}
+x-2 & x^3 - 3x^2 - 10x + 24 \\
+\hline
+& x^2 - x - 12 \\
+& x^3 - 2x^2 \\
+\hline
+& -x^2 - 10x \\
+& -x^2 + 2x \\
+\hline
+& -12x + 24 \\
+& -12x + 24 \\
+\hline
+& 0
+\end{array}
+\]  
+Quotient: \(x^2 - x - 12 = (x-4)(x+3)\). Zeros: \(4, -3\).  
+**Criteria for good answer:** Correct expansion, correct long division with all terms shown, correct factorisation of quotient, and explicit statement of all three zeros.  
+**Poor answer reveals:** If the student expands incorrectly (e.g., sign errors in the polynomial) or skips the division steps, they cannot demonstrate the algorithm. If they just write the zeros without division, they miss the point of the method.
+
+=== c10_math_cbse_02_009.md:WORKED_EXAMPLE_1 ENV
+**PROBLEM:** A cubic polynomial \(p(x) = 2x^3 - 5x^2 - 4x + 3\) models the volume (in cubic metres) of a storage box where \(x\) is the side length of the square base. It is known that \(x = 3\) metres is one possible dimension. Find all possible dimensions (zeros) of the box.  
+**STEPS:**  
+- Step 1: Identify the known zero \(\alpha = 3\). Form the divisor \(g(x) = x - 3\). Write \(p(x)\) in standard form with all powers: \(2x^3 - 5x^2 - 4x + 3\).  
+- Step 2: Perform polynomial long division of \(p(x)\) by \(x-3\).  
+  \[
+  \begin{array}{r|l}
+  x-3 & 2x^3 - 5x^2 - 4x + 3 \\
+  \hline
+  & 2x^2 + x - 1 \\
+  & 2x^3 - 6x^2 \\
+  \hline
+  & x^2 - 4x \\
+  & x^2 - 3x \\
+  \hline
+  & -x + 3 \\
+  & -x + 3 \\
+  \hline
+  & 0
+  \end{array}
+  \]  
+  Quotient \(q(x) = 2x^2 + x - 1\).  
+- Step 3: Factorise the quadratic quotient: \(2x^2 + x - 1 = 2x^2 + 2x - x - 1 = 2x(x+1) -1(x+1) = (2x-1)(x+1)\).  
+- Step 4: Find zeros of \(q(x)\): \(2x-1=0 \Rightarrow x = \frac{1}{2}\); \(x+1=0 \Rightarrow x = -1\).  
+- Step 5: Combine with the known zero: zeros are \(3, \frac{1}{2}, -1\). Since side length cannot be negative, the valid dimensions are \(x = 3\) m or \(x = \frac{1}{2}\) m.  
+**REASONING:** The Division Algorithm reduces the cubic to a quadratic, which is factorised using the splitting-the-middle-term method (Class 9 skill). The physical context (side length) requires rejecting negative zeros.  
+**ANSWER:** Valid dimensions: \(3\) m and \(0.5\) m (i.e., \(\frac{1}{2}\) m).
+
+=== c10_math_cbse_02_009.md:WORKED_EXAMPLE_2 ENV
+**PROBLEM:** Find all zeros of \(p(x) = x^4 - 5x^3 + 2x^2 + 20x - 24\) given that two of its zeros are \(2\) and \(-2\).  
+**STEPS:**  
+- Step 1: Known zeros: \(2\) and \(-2\). Their corresponding factors are \((x-2)\) and \((x+2)\). Product: \((x-2)(x+2) = x^2 - 4\). We can divide \(p(x)\) by \(x^2 - 4\) directly (since both zeros are known) or divide sequentially. Sequential is safer: first divide by \(x-2\).  
+- Step 2: Divide \(p(x)\) by \(x-2\).  
+  \[
+  \begin{array}{r|l}
+  x-2 & x^4 - 5x^3 + 2x^2 + 20x - 24 \\
+  \hline
+  & x^3 - 3x^2 - 4x + 12 \\
+  & x^4 - 2x^3 \\
+  \hline
+  & -3x^3 + 2x^2 \\
+  & -3x^3 + 6x^2 \\
+  \hline
+  & -4x^2 + 20x \\
+  & -4x^2 + 8x \\
+  \hline
+  & 12x - 24 \\
+  & 12x - 24 \\
+  \hline
+  & 0
+  \end{array}
+  \]  
+  Quotient \(q_1(x) = x^3 - 3x^2 - 4x + 12\).  
+- Step 3: Divide \(q_1(x)\) by the second factor \(x+2\) (since zero \(-2 \Rightarrow x - (-2) = x+2\)).  
+  \[
+  \begin{array}{r|l}
+  x+2 & x^3 - 3x^2 - 4x + 12 \\
+  \hline
+  & x^2 - 5x + 6 \\
+  & x^3 + 2x^2 \\
+  \hline
+  & -5x^2 - 4x \\
+  & -5x^2 - 10x \\
+  \hline
+  & 6x + 12 \\
+  & 6x + 12 \\
+  \hline
+  & 0
+  \end{array}
+  \]  
+  Quotient \(q_2(x) = x^2 - 5x + 6\).  
+- Step 4: Factorise \(q_2(x)\): \(x^2 - 5x + 6 = (x-2)(x-3)\).  
+- Step 5: All zeros: from first division: \(2\); from second division: \(-2\); from quadratic: \(2, 3\). Combined set: \(2, -2, 2, 3\). So zeros are \(2\) (repeated), \(-2\), \(3\).  
+**REASONING:** When multiple zeros are given, we can divide sequentially by each linear factor. The repeated zero \(2\) appears because \((x-2)\) is a factor twice (once given, once from the final quadratic). This shows how the algorithm handles multiplicity.  
+**ANSWER:** Zeros: \(2, 2, -2, 3\).
+
+=== c10_math_cbse_02_009.md:WORKED_EXAMPLE_3 ENV
+**PROBLEM:** The polynomial \(p(x) = 3x^3 - 10x^2 + 9x - 2\) represents the profit (in thousands of rupees) from selling \(x\) hundred units of a product. The company knows that selling 100 units (\(x=1\)) gives zero profit. Find the other break-even points (zeros).  
+**STEPS:**  
+- Step 1: Known zero \(\alpha = 1\) → divisor \(x-1\). Write \(p(x) = 3x^3 - 10x^2 + 9x - 2\).  
+- Step 2: Divide by \(x-1\).  
+  \[
+  \begin{array}{r|l}
+  x-1 & 3x^3 - 10x^2 + 9x - 2 \\
+  \hline
+  & 3x^2 - 7x + 2 \\
+  & 3x^3 - 3x^2 \\
+  \hline
+  & -7x^2 + 9x \\
+  & -7x^2 + 7x \\
+  \hline
+  & 2x - 2 \\
+  & 2x - 2 \\
+  \hline
+  & 0
+  \end{array}
+  \]  
+  Quotient \(q(x) = 3x^2 - 7x + 2\).  
+- Step 3: Factorise \(3x^2 - 7x + 2\). Split middle term: product \(3 \times 2 = 6\), sum \(-7\) → \(-6x - x\).  
+  \(3x^2 - 6x - x + 2 = 3x(x-2) -1(x-2) = (3x-1)(x-2)\).  
+- Step 4: Zeros of \(q(x)\): \(3x-1=0 \Rightarrow x = \frac{1}{3}\); \(x-2=0 \Rightarrow x = 2\).  
+- Step 5: All zeros: \(1, \frac{1}{3}, 2\). Interpret: break-even at 100 units (\(x=1\)), 33.33 units (\(x=\frac{1}{3}\)), and 200 units (\(x=2\)). Since units sold must be positive, all are valid.  
+- Step 6: Verify using sum of zeros: For cubic \(ax^3+bx^2+cx+d\), sum of zeros \(= -b/a = 10/3\). Our zeros: \(1 + \frac{1}{3} + 2 = \frac{10}{3}\). ✓  
+**REASONING:** This example combines division, factorisation of a quadratic with leading coefficient ≠ 1, and verification using the zero-coefficient relationship (a board-exam expectation). The real-world context (profit) requires interpreting fractional zeros as valid quantities (hundreds of units).  
+**ANSWER:** Break-even points at \(x = \frac{1}{3}, 1, 2\) hundred units (i.e., 33.33, 100, 200 units).
+

@@ -55,7 +55,6 @@ except ImportError:
     Student = None  # type: ignore
     Parent = None  # type: ignore
     Teacher = None  # type: ignore
-    Achievement = None  # type: ignore
     ActivityLog = None  # type: ignore
     Attempt = None  # type: ignore
     Mastery = None  # type: ignore
@@ -79,12 +78,6 @@ try:
     _HAS_PROGRESS_SVC = True
 except ImportError:
     _HAS_PROGRESS_SVC = False
-
-try:
-    from services.streak_service import StreakService  # type: ignore
-    _HAS_STREAK_SVC = True
-except ImportError:
-    _HAS_STREAK_SVC = False
 
 try:
     from services.achievement_service import AchievementService  # type: ignore
@@ -111,7 +104,6 @@ class HealthResponse(BaseModel):
             "timestamp": "2026-01-15T10:30:00+00:00",
             "services": {
                 "progress_service": "available",
-                "streak_service": "available",
                 "achievement_service": "available",
             },
             "database": "connected",
@@ -481,9 +473,9 @@ def _build_recommendations(mastery_by_topic: list[dict[str, Any]]) -> list[Recom
 async def _get_service_progress(db: AsyncSession, student_id: str) -> dict[str, Any]:
     """Mastery by topic, computed directly from mastery_records ⋈ knowledge_nodes.
 
-    (ProgressServiceV2 exposes a different call surface and StreakService takes a
-    session factory — the old service calls here always failed to defaults, so
-    every dashboard read zeros. Query the real tables instead.)
+    (ProgressServiceV2 exposes a different call surface, and the old service
+    calls here always fell to defaults, so every dashboard read zeros. Query
+    the real tables instead.)
     """
     # `overall` is None when there is nothing to measure — see honesty_metrics.
     default: dict[str, Any] = {"overall": None, "by_topic": [], "topics": 0, "attempts": 0}
@@ -537,18 +529,29 @@ async def _get_service_progress(db: AsyncSession, student_id: str) -> dict[str, 
 
 
 async def _get_service_xp(db: AsyncSession, student_id: str) -> dict[str, Any]:
-    """XP/level summary straight from the users row (real seeded values)."""
+    """XP/level summary — canonical derivation (services/reward_ledger.py).
+
+    Level is ALWAYS re-derived from total_xp with the canonical formula; the
+    users.current_level column is a write cache the ledger maintains and no
+    reader may trust it over a fresh derivation. The student dashboard
+    (ProgressService.get_dashboard) uses the same function, so both surfaces
+    can no longer disagree about a level.
+    """
     try:
-        from backend.services.progress_service import XP_PER_LEVEL
-    except ImportError:
-        XP_PER_LEVEL = 100
+        from backend.services.reward_ledger import level_breakdown
+    except ImportError:  # pragma: no cover - fallback keeps the shape
+        def level_breakdown(xp):
+            xp = int(xp or 0)
+            return {"level": max(1, xp // 100 + 1),
+                    "current_level_xp": xp % 100,
+                    "xp_to_next_level": 100 - (xp % 100)}
 
     try:
         from backend.models.user import User as _User
 
         row = (
             await db.execute(
-                select(_User.total_xp, _User.current_level).where(_User.id == student_id)
+                select(_User.total_xp).where(_User.id == student_id)
             )
         ).first()
         if row is None:
@@ -556,16 +559,15 @@ async def _get_service_xp(db: AsyncSession, student_id: str) -> dict[str, Any]:
                 "total_xp": 0,
                 "level": 1,
                 "current_level_xp": 0,
-                "xp_to_next_level": XP_PER_LEVEL,
+                "xp_to_next_level": 100,
             }
         total_xp = int(row[0] or 0)
-        level = max(1, int(row[1] or 1))
-        current_level_xp = total_xp % XP_PER_LEVEL
+        breakdown = level_breakdown(total_xp)
         return {
             "total_xp": total_xp,
-            "level": level,
-            "current_level_xp": current_level_xp,
-            "xp_to_next_level": XP_PER_LEVEL - current_level_xp,
+            "level": breakdown["level"],
+            "current_level_xp": breakdown["current_level_xp"],
+            "xp_to_next_level": breakdown["xp_to_next_level"],
         }
     except Exception as exc:
         logger.warning("xp query error for %s: %s", student_id, exc)
@@ -573,7 +575,7 @@ async def _get_service_xp(db: AsyncSession, student_id: str) -> dict[str, Any]:
             "total_xp": 0,
             "level": 1,
             "current_level_xp": 0,
-            "xp_to_next_level": XP_PER_LEVEL,
+            "xp_to_next_level": 100,
         }
 
 
@@ -607,6 +609,17 @@ async def _get_service_streak(db: AsyncSession, student_id: str) -> dict[str, An
                 "streak_freeze_available": False,
             }
         state = classify_streak(row[0], row[1])
+        # Honest freeze availability: read the REAL token balance from the
+        # canonical ledger's streak_freezes table — this used to hardcode
+        # False while the writer happily consumed tokens, so the badge and
+        # the balance disagreed.
+        freeze_available = False
+        try:
+            from backend.services.reward_ledger import get_freeze_tokens
+
+            freeze_available = await get_freeze_tokens(db, student_id) > 0
+        except Exception as exc:
+            logger.warning("freeze token read failed for %s: %s", student_id, exc)
         return {
             "current_streak": state["current_streak"],
             "recorded_streak": state["recorded_streak"],
@@ -614,10 +627,7 @@ async def _get_service_streak(db: AsyncSession, student_id: str) -> dict[str, An
             "state": state["state"],
             "last_active_date": state["last_activity_date"],
             "days_since_last": state["days_since_last"],
-            # The grace-day/freeze engine (services/streak_service.py) is not
-            # wired to any request path, so this is honestly False rather than
-            # implying a freeze is waiting to be spent.
-            "streak_freeze_available": False,
+            "streak_freeze_available": freeze_available,
         }
     except Exception as exc:
         # A failed read is NOT a zero streak: report "unknown" so no surface
@@ -761,7 +771,6 @@ async def health_check() -> HealthResponse:
     services: dict[str, str] = {}
 
     services["progress_service"] = "available" if _HAS_PROGRESS_SVC else "unavailable"
-    services["streak_service"] = "available" if _HAS_STREAK_SVC else "unavailable"
     services["achievement_service"] = "available" if _HAS_ACHIEVEMENT_SVC else "unavailable"
 
     db_status = "connected" if _HAS_DB else "not_configured"
@@ -1089,11 +1098,15 @@ async def get_parent_dashboard(
     #  - low_mastery: real mastery records exist AND the measured average is
     #    below 30% (a never-practiced child is "no data yet", not "urgent").
     alerts: list[ParentAlert] = []
-    # The day boundary MUST match the streak writer's. `update_streak` buckets
-    # days with server-local `date.today()`, so comparing against a UTC "today"
-    # disagrees for part of every day and fires/lapses alerts at the wrong hour
-    # on an IST host. Timestamps below stay correctly UTC.
-    today = date.today()
+    # The day boundary MUST match the streak writer's. The canonical writer
+    # (services/reward_ledger.update_streak) buckets with the IST student day
+    # (services/streak_state.student_today), so this alert pass uses the SAME
+    # boundary — the old server-local date.today() fired/lapsed alerts at the
+    # wrong hour on a UTC host. Timestamps below stay stored-UTC until their
+    # date is taken in IST.
+    from backend.services.streak_state import student_today as _student_today, to_ist as _to_ist
+
+    today = _student_today()
     for child in children:
         if not child.has_data:
             continue
@@ -1104,8 +1117,8 @@ async def get_parent_dashboard(
                     child.last_active_at.replace("Z", "+00:00")
                 )
                 if _parsed.tzinfo is not None:
-                    # Stored in UTC, but "today" is a local-calendar concept.
-                    _parsed = _parsed.astimezone()
+                    # Stored in UTC; "today" is the IST student calendar.
+                    _parsed = _to_ist(_parsed)
                 last_active_day = _parsed.date()
             except ValueError:
                 last_active_day = None
@@ -1437,9 +1450,10 @@ async def get_student_achievements(
     """
     Return all earned achievements for a student.
 
-    Results are sourced from the AchievementService with a direct database
-    fallback. The ``recent_achievements`` subset contains items earned
-    within the last 7 days.
+    Single source of truth: ``AchievementService.get_achievements`` (the same
+    static API the ``/api/achievements`` router serves) filtered to unlocked
+    badges. The ``recent_achievements`` subset contains items earned within
+    the last 7 days.
     """
     if Student is None:
         raise HTTPException(
@@ -1466,80 +1480,59 @@ async def get_student_achievements(
     read_ok = False
     now = datetime.now(timezone.utc)
 
-    # Primary source: AchievementService
+    # Single real read path (audit fix, was two dead ones): this used to
+    # construct the service and call get_earned_achievements(...) on it — a
+    # method that has never existed (the service is all-staticmethods taking
+    # ``(db, user_id)``) — and then fall into a "fallback" that queried
+    # columns the achievements table does not have (student_id, earned_at,
+    # name) on a model ``database`` does not even export. Net effect: the
+    # dead call logged a warning on every request and the fallback raised
+    # NameError in production. One honest path now, shared with the
+    # /api/achievements router.
     if _HAS_ACHIEVEMENT_SVC:
         try:
-            svc = AchievementService(db)
-            raw_list = await svc.get_earned_achievements(student_id)
+            data = await AchievementService.get_achievements(
+                db, user_id=student_id, filter="unlocked"
+            )
+            raw_list = (
+                data.get("achievements", []) if isinstance(data, dict) else list(data or [])
+            )
             for ach in raw_list:
+                max_progress = int(ach.get("max_progress") or 0)
+                progress_pct: Optional[float] = None
+                if max_progress > 0:
+                    cur = float(ach.get("progress") or 0)
+                    progress_pct = min(100.0, round(cur / max_progress * 100.0, 1))
+                earned_at = str(ach.get("unlocked_at") or "")
                 item = AchievementItem(
                     achievement_id=str(ach.get("achievement_id", "")),
-                    name=str(ach.get("name", "")),
+                    name=str(ach.get("title", "")),
                     description=str(ach.get("description", "")),
-                    icon=str(ach.get("icon", "star")),
-                    category=str(ach.get("category", "general")),
-                    earned_at=str(ach.get("earned_at", "")),
-                    rarity=str(ach.get("rarity", "common")),
-                    xp_bonus=int(ach.get("xp_bonus", 0)),
-                    progress=ach.get("progress"),
+                    icon=str(ach.get("icon_name") or "star"),
+                    # The canonical badge classification is its tier
+                    # (bronze/silver/gold); there is no separate rarity
+                    # concept in the achievements model, so every badge is
+                    # honestly "common".
+                    category=str(ach.get("tier", "general")),
+                    earned_at=earned_at,
+                    rarity="common",
+                    xp_bonus=int(ach.get("xp_reward", 0)),
+                    progress=progress_pct,
                 )
                 all_achievements.append(item)
-            read_ok = True
-            total_earned = len(all_achievements)
-            for item in all_achievements:
                 try:
-                    ed = datetime.fromisoformat(item.earned_at)
-                    if ed.tzinfo is None:
-                        ed = ed.replace(tzinfo=timezone.utc)
-                    if (now - ed).days <= 7:
-                        recent_items.append(item)
-                except (ValueError, TypeError):
-                    pass
-        except Exception as exc:
-            logger.warning("AchievementService error for %s: %s", student_id, exc)
-
-    # Fallback: query Achievement table directly
-    if not all_achievements and Achievement is not None:
-        try:
-            rows = (await db.execute(
-                select(Achievement).where(Achievement.student_id == student_id).order_by(desc(Achievement.earned_at))
-            )).scalars().all()
-
-            for ach in rows:
-                earned_ts = ""
-                if ach.earned_at is not None:
-                    earned_ts = ach.earned_at.isoformat() if isinstance(ach.earned_at, datetime) else str(ach.earned_at)
-
-                item = AchievementItem(
-                    achievement_id=ach.id,
-                    name=str(getattr(ach, "name", "")),
-                    description=str(getattr(ach, "description", "")),
-                    icon=str(getattr(ach, "icon", "star")),
-                    category=str(getattr(ach, "category", "general")),
-                    earned_at=earned_ts,
-                    rarity=str(getattr(ach, "rarity", "common")),
-                    xp_bonus=int(getattr(ach, "xp_bonus", 0)),
-                    progress=getattr(ach, "progress", None),
-                )
-                all_achievements.append(item)
-
-                try:
-                    if ach.earned_at is not None:
-                        if isinstance(ach.earned_at, datetime):
-                            ed = ach.earned_at
-                        else:
-                            ed = datetime.fromisoformat(str(ach.earned_at))
+                    if earned_at:
+                        ed = datetime.fromisoformat(earned_at)
                         if ed.tzinfo is None:
                             ed = ed.replace(tzinfo=timezone.utc)
                         if (now - ed).days <= 7:
                             recent_items.append(item)
                 except (ValueError, TypeError):
                     pass
-
             read_ok = True
             total_earned = len(all_achievements)
         except Exception as exc:
-            logger.warning("Achievement table fallback error: %s", exc)
+            logger.warning("AchievementService error for %s: %s", student_id, exc)
 
     return AchievementsResponse(
         student_id=student_id,

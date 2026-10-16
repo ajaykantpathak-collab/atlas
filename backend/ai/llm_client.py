@@ -15,14 +15,19 @@ The LLM is ONLY used for:
 It is NEVER used for math computation — SymPy handles all math.
 """
 
+import hashlib
+import json
 import logging
 import os
 import re
+import threading
+import time
 from typing import Optional
 
 import httpx
 
 from backend.config import get_settings
+from backend.ai.prompt_guard import wrap_untrusted
 
 logger = logging.getLogger(__name__)
 settings = get_settings()
@@ -31,6 +36,23 @@ settings = get_settings()
 # comma-listed FREELLM_MODEL pools rotate evenly app-wide.
 import itertools as _itertools
 _MODEL_RR = _itertools.count()
+
+# CL-21(c): shared async clients keyed by (loop, timeout) — per-call
+# `async with httpx.AsyncClient(...)` rebuilt a full SSL context every
+# attempt (~0.8s; WS-H measured 140.7s/176 calls in the LLM lane).
+_ASYNC_CLIENTS: dict = {}
+
+
+def _shared_async_client(timeout) -> httpx.AsyncClient:
+    try:
+        key = (id(__import__("asyncio").get_running_loop()), timeout)
+    except RuntimeError:
+        key = (0, timeout)
+    c = _ASYNC_CLIENTS.get(key)
+    if c is None or c.is_closed:
+        c = httpx.AsyncClient(timeout=timeout)
+        _ASYNC_CLIENTS[key] = c
+    return c
 
 
 def _strip_thinking(text: str) -> str:
@@ -108,6 +130,42 @@ def _strip_thinking(text: str) -> str:
     return text
 
 
+class CircuitBreaker:
+    """Thread-safe circuit breaker preventing cascading hangs when LLM daemon is offline."""
+    def __init__(self, failure_threshold: int = 3, recovery_timeout: float = 30.0):
+        self.failure_threshold = failure_threshold
+        self.recovery_timeout = recovery_timeout
+        self.failure_count = 0
+        self.last_failure_time = 0.0
+        self.state = "CLOSED"  # CLOSED, OPEN, HALF_OPEN
+
+    def record_failure(self):
+        import time as _time
+        self.failure_count += 1
+        self.last_failure_time = _time.time()
+        if self.failure_count >= self.failure_threshold:
+            self.state = "OPEN"
+            logger.warning(f"LLM Circuit breaker TRIPPED to OPEN ({self.failure_count} failures). Fast-failing for {self.recovery_timeout}s.")
+
+    def record_success(self):
+        self.failure_count = 0
+        self.state = "CLOSED"
+
+    def can_attempt(self) -> bool:
+        import time as _time
+        if self.state == "CLOSED":
+            return True
+        if self.state == "OPEN":
+            if _time.time() - self.last_failure_time > self.recovery_timeout:
+                self.state = "HALF_OPEN"
+                return True
+            return False
+        return True  # HALF_OPEN allows test attempts
+
+
+_GLOBAL_CIRCUIT_BREAKER = CircuitBreaker()
+
+
 class LLMClient:
     """OpenAI-compatible LLM client backed by FreeLLMAPI.
 
@@ -115,7 +173,7 @@ class LLMClient:
     just needs one endpoint and one key.
     """
 
-    def __init__(self, timeout: float = 40.0):
+    def __init__(self, timeout: float = 3.0):
         # Settings uses env_prefix="PLATFORM_" and has no FREELLM_* fields —
         # the settings properties return "" unconditionally. Read the real
         # env vars directly; settings kept only as a legacy fallback.
@@ -143,6 +201,71 @@ class LLMClient:
         # evenly instead of every instance starting at index 0.
         self._models = [m.strip() for m in self.model.split(",") if m.strip()] or ["llama-3.3-70b-versatile"]
         self.timeout = timeout
+        self._cache: dict = {}           # in-memory prompt-hash cache
+        self._pdb = self._open_persistent_cache()
+
+    # -- persistent prompt cache -----------------------------------------
+    # Same store as services.llm_client (same file, same key format) — a
+    # doubt cached by the WS path answers instantly on the HTTP path too.
+    _PDB_PATH = os.path.join(
+        os.environ.get("CBSE_DATA_DIR", "/app/cbse_data"), "llm_cache.db")
+
+    def _open_persistent_cache(self):
+        """SQLite on the shared mount — survives restarts, shared across
+        backends and across both LLM client implementations."""
+        try:
+            import sqlite3
+            os.makedirs(os.path.dirname(self._PDB_PATH), exist_ok=True)
+            con = sqlite3.connect(self._PDB_PATH, check_same_thread=False)
+            con.execute("CREATE TABLE IF NOT EXISTS cache (k TEXT PRIMARY KEY, v TEXT)")
+            return con
+        except Exception:
+            return None
+
+    @staticmethod
+    def _ckey(messages: list, max_tokens: int) -> str:
+        # identical key format to services.llm_client so both clients share
+        return hashlib.sha256(json.dumps(
+            {"m": messages, "mt": max_tokens},
+            ensure_ascii=False).encode()).hexdigest()
+
+    def _pget(self, k: str):
+        try:
+            row = self._pdb.execute(
+                "SELECT v FROM cache WHERE k=?", (k,)).fetchone() \
+                if self._pdb is not None else None
+            return row[0] if row else None
+        except Exception:
+            return None
+
+    def _pset(self, k: str, v: str) -> None:
+        try:
+            if self._pdb is not None:
+                self._pdb.execute(
+                    "INSERT OR REPLACE INTO cache (k,v) VALUES (?,?)", (k, v))
+                self._pdb.commit()
+        except Exception:
+            pass
+
+    def _cache_get(self, messages: list, max_tokens: int,
+                   temperature: float) -> Optional[str]:
+        if temperature != 0.0:
+            return None
+        k = self._ckey(messages, max_tokens)
+        if k in self._cache:
+            return self._cache[k]
+        v = self._pget(k)
+        if v is not None:
+            self._cache[k] = v
+        return v
+
+    def _cache_set(self, messages: list, max_tokens: int,
+                   temperature: float, answer: str) -> None:
+        if temperature != 0.0 or not answer or answer.startswith("["):
+            return
+        k = self._ckey(messages, max_tokens)
+        self._cache[k] = answer
+        self._pset(k, answer)
 
     async def chat(
         self,
@@ -168,56 +291,203 @@ class LLMClient:
             "max_tokens": max_tokens,
         }
 
+        cached = self._cache_get(messages, max_tokens, temperature)
+        if cached is not None:
+            return cached
+
+        if not _GLOBAL_CIRCUIT_BREAKER.can_attempt():
+            logger.warning("LLM call skipped: Circuit breaker is OPEN. Returning fast fallback.")
+            return "[LLM unavailable — using pre-written content]"
+
+        # If default points to Next.js frontend port (:3001), route directly to Gemini 3.5 / 3.1 Flash-lite
+        if "localhost:3001" in self.base_url or "127.0.0.1:3001" in self.base_url:
+            try:
+                from backend.tools.gemini_client import generate as _gemini_gen
+                prompt_parts = [f"{m.get('role', 'user').upper()}: {m.get('content', '')}" for m in messages]
+                full_prompt = "\n\n".join(prompt_parts)
+                g_ans = _gemini_gen(full_prompt, max_tokens=max_tokens, temperature=temperature, timeout=25)
+                if g_ans and g_ans.strip():
+                    clean_ans = _strip_thinking(g_ans.strip())
+                    self._cache_set(messages, max_tokens, temperature, clean_ans)
+                    return clean_ans
+            except Exception as _ge:
+                logger.warning(f"Direct Gemini call failed: {_ge}")
+            return "[LLM unavailable — using pre-written content]"
+
         # Round-robin + failover: on any per-model failure, advance to the
         # next model in the pool so one degraded model never breaks the app.
         # 429s get bounded exponential backoff before moving on.
         pool = len(self._models)
-        tries_left = max(pool, 3)
+        tries_left = min(max(pool, 2), 3)
         attempt = 0
         while tries_left > 0:
             model = self._models[next(_MODEL_RR) % pool]
             payload["model"] = model
             tries_left -= 1
-            async with httpx.AsyncClient(timeout=self.timeout) as client:
-                try:
-                    response = await client.post(
-                        f"{self.base_url}/chat/completions",
-                        headers=headers,
-                        json=payload,
-                    )
+            client = _shared_async_client(self.timeout)
+            try:
+                response = await client.post(
+                    f"{self.base_url}/chat/completions",
+                    headers=headers,
+                    json=payload,
+                )
 
-                    # Retry same model on 429 (rate limited) with backoff
-                    if response.status_code == 429 and attempt < 2:
-                        attempt += 1
-                        tries_left += 1  # don't burn a model switch on rate limit
-                        wait = 2 ** attempt
-                        logger.info(f"LLM {model} rate-limited (429), retrying in {wait}s")
-                        await asyncio.sleep(wait)
-                        continue
+                # Retry same model on 429 (rate limited) with backoff
+                if response.status_code == 429 and attempt < 2:
+                    attempt += 1
+                    tries_left += 1  # don't burn a model switch on rate limit
+                    wait = 2 ** attempt
+                    logger.info(f"LLM {model} rate-limited (429), retrying in {wait}s")
+                    await asyncio.sleep(wait)
+                    continue
 
-                    response.raise_for_status()
-                    data = response.json()
-                    content = data["choices"][0]["message"]["content"].strip()
-                    answer = _strip_thinking(content)
-                    if answer:
-                        return answer
-                    # Thinking consumed the whole budget — nothing usable
-                    logger.warning(f"LLM {model} returned only reasoning text")
-                    continue
-                except httpx.TimeoutException:
-                    logger.warning(f"LLM {model} timeout — trying next model")
-                    continue
-                except httpx.HTTPStatusError as e:
-                    logger.warning(f"LLM {model} HTTP {e.response.status_code} — trying next model")
-                    continue
-                except httpx.HTTPError as e:
-                    logger.warning(f"LLM {model} HTTP error: {e} — trying next model")
-                    continue
-                except Exception as e:
-                    logger.warning(f"LLM {model} unavailable: {e} — trying next model")
-                    continue
+                response.raise_for_status()
+                data = response.json()
+                content = data["choices"][0]["message"]["content"].strip()
+                answer = _strip_thinking(content)
+                if answer:
+                    _GLOBAL_CIRCUIT_BREAKER.record_success()
+                    self._cache_set(messages, max_tokens, temperature,
+                                    answer)
+                    return answer
+                # Thinking consumed the whole budget — nothing usable
+                logger.warning(f"LLM {model} returned only reasoning text")
+                continue
+            except httpx.TimeoutException:
+                _GLOBAL_CIRCUIT_BREAKER.record_failure()
+                logger.warning(f"LLM {model} timeout — trying next model")
+                continue
+            except httpx.HTTPStatusError as e:
+                if e.response.status_code in (404, 500, 502, 503, 504):
+                    _GLOBAL_CIRCUIT_BREAKER.record_failure()
+                logger.warning(f"LLM {model} HTTP {e.response.status_code} — trying next model")
+                continue
+            except httpx.HTTPError as e:
+                _GLOBAL_CIRCUIT_BREAKER.record_failure()
+                logger.warning(f"LLM {model} HTTP error: {e} — trying next model")
+                continue
+            except Exception as e:
+                _GLOBAL_CIRCUIT_BREAKER.record_failure()
+                logger.warning(f"LLM {model} unavailable: {e} — trying next model")
+                continue
 
         return "[LLM unavailable — using pre-written content]"
+
+    async def chat_stream(
+        self,
+        messages: list[dict],
+        temperature: float = 0.0,
+        max_tokens: int = 500,
+    ):
+        """Async-generator yielding response tokens as they arrive.
+
+        Same failover pool as chat(); streams the FIRST model that responds
+        successfully. Falls back to the full (non-streamed) chat() result
+        when the upstream doesn't honour stream=True."""
+        import asyncio
+
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": "",
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            "stream": True,
+        }
+
+        cached = self._cache_get(messages, max_tokens, temperature)
+        if cached is not None:
+            yield cached
+            return
+
+        if not _GLOBAL_CIRCUIT_BREAKER.can_attempt():
+            yield "[LLM unavailable — using pre-written content]"
+            return
+
+        pool = len(self._models)
+        tries_left = min(max(pool, 2), 3)
+        while tries_left > 0:
+            model = self._models[next(_MODEL_RR) % pool]
+            payload["model"] = model
+            tries_left -= 1
+            try:
+                client = _shared_async_client(self.timeout)
+                async with client.stream(
+                    "POST",
+                    f"{self.base_url}/chat/completions",
+                    headers=headers,
+                    json=payload,
+                ) as response:
+                    if response.status_code == 429:
+                        continue
+                    response.raise_for_status()
+                    got = False
+                    parts: list = []
+                    # reasoning models stream `<thought>...</thought>`
+                    # first — buffer until we can tell, suppress the
+                    # block, then stream the real answer live. If the
+                    # stream is short-buffered past 600 chars without
+                    # a thought tag, release what we have.
+                    buf = ""
+                    in_thought = False
+                    thought_done = False
+                    async for line in response.aiter_lines():
+                        if not line.startswith("data:"):
+                            continue
+                        data = line[5:].strip()
+                        if data == "[DONE]":
+                            break
+                        try:
+                            chunk = json.loads(data)
+                            delta = (chunk["choices"][0].get("delta") or {}).get("content")
+                            if not delta:
+                                continue
+                            got = True
+                            if not thought_done:
+                                buf += delta
+                                if not in_thought and "<thought" in buf[:40]:
+                                    in_thought = True
+                                if in_thought:
+                                    end = buf.find("</thought>")
+                                    if end != -1:
+                                        buf = buf[end + 10:]
+                                        in_thought = False
+                                        thought_done = True
+                                        if buf:
+                                            parts.append(buf)
+                                            yield buf
+                                        buf = ""
+                                elif len(buf) > 600:
+                                    thought_done = True
+                                    parts.append(buf)
+                                    yield buf
+                                    buf = ""
+                            else:
+                                parts.append(delta)
+                                yield delta
+                        except (json.JSONDecodeError, KeyError, IndexError):
+                            continue
+                    if got:
+                        _GLOBAL_CIRCUIT_BREAKER.record_success()
+                        self._cache_set(messages, max_tokens,
+                                        temperature, "".join(parts))
+                        return
+            except (httpx.TimeoutException, httpx.HTTPError) as e:
+                _GLOBAL_CIRCUIT_BREAKER.record_failure()
+                logger.warning(f"LLM {model} stream failed: {e} — trying next model")
+                continue
+            except Exception as e:
+                _GLOBAL_CIRCUIT_BREAKER.record_failure()
+                logger.warning(f"LLM {model} stream error: {e} — trying next model")
+                continue
+
+        # all streams failed — last resort: non-streamed call so the
+        # student still gets an answer, just slower
+        full = await self.chat(messages, temperature=temperature, max_tokens=max_tokens)
+        yield full
 
     async def route_question(
         self,
@@ -244,7 +514,7 @@ class LLMClient:
             },
             {
                 "role": "user",
-                "content": f"Question: {question}\n\nNodes:\n{node_list}\n\nReply with only the node_id:",
+                "content": f"Question: {wrap_untrusted(question)}\n\nNodes:\n{node_list}\n\nReply with only the node_id:",
             },
         ]
 
@@ -281,7 +551,7 @@ class LLMClient:
             },
             {
                 "role": "user",
-                "content": f"Enrichment content:\n{enrichment_content}\n\nStudent question: {question}",
+                "content": f"Enrichment content:\n{enrichment_content}\n\nStudent question: {wrap_untrusted(question)}",
             },
         ]
 
@@ -331,7 +601,7 @@ class LLMClient:
             },
             {
                 "role": "user",
-                "content": f"Curriculum content for this topic:\n\n{context}\n\nStudent question: {question}",
+                "content": f"Curriculum content for this topic:\n\n{context}\n\nStudent question: {wrap_untrusted(question)}",
             },
         ]
 

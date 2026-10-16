@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="10.120094in"
+   height="11.586323in"
+   viewBox="-377 -816 12539.988 14073.387"
+   version="1.1"
+   id="svg198"
+   sodipodi:docname="Spectral_lines_of_the_hydrogen_atom.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
+  <defs
+     id="defs202" />
+  <sodipodi:namedview
+     id="namedview200"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="in"
+     showgrid="false"
+     fit-margin-top="0.2"
+     fit-margin-left="0.3"
+     fit-margin-right="0.1"
+     fit-margin-bottom="0.2"
+     inkscape:zoom="0.75071837"
+     inkscape:cx="420.93016"
+     inkscape:cy="559.46413"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg198" />
+  <g
+     style="font-style:normal;font-weight:normal;font-size:225px;text-anchor:middle;fill:none;stroke:none;stroke-width:32;stroke-linecap:butt;stroke-linejoin:bevel"
+     id="g196"
+     transform="translate(-400.74221,18.03735)">
+    <!-- Lyman series -->
+    <g
+       style="fill:#00008f"
+       id="g16">
+      <text
+         x="1181"
+         y="-500"
+         style="font-size:300px"
+         id="text2">Lyman (Ly)</text>
+      <text
+         x="614"
+         y="13086"
+         id="text4">α</text>
+      <text
+         x="850"
+         y="13086"
+         id="text6">β</text>
+      <text
+         x="1086"
+         y="13086"
+         id="text8">γ</text>
+      <text
+         x="1322"
+         y="13086"
+         id="text10">δ</text>
+      <text
+         x="1559"
+         y="13086"
+         id="text12">ε</text>
+      <text
+         x="1795"
+         y="13086"
+         id="text14">ζ</text>
+    </g>
+    <g
+       style="stroke:#00008f"
+       id="g30">
+      <polyline
+         points="614,3212 614,12833"
+         id="polyline18" />
+      <polyline
+         points="850,1417 850,12833"
+         id="polyline20" />
+      <polyline
+         points="1086,803 1086,12833"
+         id="polyline22" />
+      <polyline
+         points="1322,513 1322,12833"
+         id="polyline24" />
+      <polyline
+         points="1559,356 1559,12833"
+         id="polyline26" />
+      <polyline
+         points="1795,261 1795,12833"
+         id="polyline28" />
+    </g>
+    <!-- Balmer series -->
+    <g
+       style="fill:#d10000"
+       id="g44">
+      <text
+         x="3023"
+         y="-500"
+         fill="#8f008f"
+         style="font-size:300px"
+         id="text32">Balmer (H)</text>
+      <text
+         x="2551"
+         y="3496"
+         fill="#d10000"
+         id="text34">α</text>
+      <text
+         x="2787"
+         y="3496"
+         fill="#d10000"
+         id="text36">β</text>
+      <text
+         x="3023"
+         y="3496"
+         fill="#d10000"
+         id="text38">γ</text>
+      <text
+         x="3259"
+         y="3496"
+         fill="#d10000"
+         id="text40">δ</text>
+      <text
+         x="3496"
+         y="3496"
+         fill="#d10000"
+         id="text42">ε</text>
+    </g>
+    <g
+       style="stroke:#d10000"
+       id="g56">
+      <polyline
+         points="2551,1417 2551,3212"
+         id="polyline46" />
+      <polyline
+         points="2787,803  2787,3212"
+         id="polyline48" />
+      <polyline
+         points="3023,513  3023,3212"
+         id="polyline50" />
+      <polyline
+         points="3259,356  3259,3212"
+         id="polyline52" />
+      <polyline
+         points="3496,261  3496,3212"
+         id="polyline54" />
+    </g>
+    <!-- Pachen series -->
+    <g
+       style="fill:#8f008f"
+       id="g68">
+      <text
+         x="4866"
+         y="-500"
+         style="font-size:300px"
+         id="text58">Paschen</text>
+      <text
+         x="4582"
+         y="1748"
+         id="text60">α</text>
+      <text
+         x="4818"
+         y="1748"
+         id="text62">β</text>
+      <text
+         x="5055"
+         y="1748"
+         id="text64">γ</text>
+      <text
+         x="5291"
+         y="1748"
+         id="text66">δ</text>
+    </g>
+    <g
+       style="stroke:#8f008f"
+       id="g78">
+      <polyline
+         points="4582,803 4582,1401"
+         id="polyline70" />
+      <polyline
+         points="4818,513 4818,1401 "
+         id="polyline72" />
+      <polyline
+         points="5055,356 5055,1401 "
+         id="polyline74" />
+      <polyline
+         points="5291,261 5291,1401 "
+         id="polyline76" />
+    </g>
+    <!-- Brackett series -->
+    <g
+       style="fill:#008f00"
+       id="g88">
+      <text
+         x="6803"
+         y="-500"
+         style="font-size:300px"
+         id="text80">Brackett (Br)</text>
+      <text
+         x="6566"
+         y="1086"
+         id="text82">α</text>
+      <text
+         x="6803"
+         y="1086"
+         id="text84">β</text>
+      <text
+         x="7039"
+         y="1086"
+         id="text86">γ</text>
+    </g>
+    <g
+       style="stroke:#008f00"
+       id="g96">
+      <polyline
+         points="6803,356 6803,803 "
+         id="polyline90" />
+      <polyline
+         points="6566,513 6566,803 "
+         id="polyline92" />
+      <polyline
+         points="7039,261 7039,803 "
+         id="polyline94" />
+    </g>
+    <!-- Pfund series -->
+    <g
+       style="fill:#803000"
+       id="g106">
+      <text
+         x="8881"
+         y="-500"
+         style="font-size:300px"
+         id="text98">Pfund</text>
+      <text
+         x="8645"
+         y="803"
+         id="text100">α</text>
+      <text
+         x="8881"
+         y="803"
+         id="text102">β</text>
+      <text
+         x="9117"
+         y="803"
+         id="text104">γ</text>
+    </g>
+    <g
+       style="stroke:#803000"
+       id="g114">
+      <polyline
+         points="8645,356 8645,513 "
+         id="polyline108" />
+      <polyline
+         points="8881,261 8881,513 "
+         id="polyline110" />
+      <polyline
+         points="9117,200 9117,513 "
+         id="polyline112" />
+    </g>
+    <!-- Humphreys series -->
+    <g
+       style="fill:#008f8f"
+       id="g124">
+      <text
+         x="10813"
+         y="-500"
+         style="font-size:300px"
+         id="text116">Humphreys</text>
+      <text
+         x="10577"
+         y="614"
+         id="text118">α</text>
+      <text
+         x="10813"
+         y="614"
+         id="text120">β</text>
+      <text
+         x="11049"
+         y="614"
+         id="text122">γ</text>
+    </g>
+    <g
+       style="stroke:#008f8f"
+       id="g132">
+      <polyline
+         points="10577,261 10577,356"
+         id="polyline126" />
+      <polyline
+         points="10813,200 10813,356"
+         id="polyline128" />
+      <polyline
+         points="11049,158 11049,356"
+         id="polyline130" />
+    </g>
+    <!-- energy levels -->
+    <g
+       style="stroke:#000000"
+       id="g182">
+      <polyline
+         points="11338,29    425,29"
+         id="polyline134" />
+      <polyline
+         points="11338,32    425,32"
+         id="polyline136" />
+      <polyline
+         points="11338,35    425,35"
+         id="polyline138" />
+      <polyline
+         points="11338,39    425,39"
+         id="polyline140" />
+      <polyline
+         points="11338,44    425,44"
+         id="polyline142" />
+      <polyline
+         points="11338,50    425,50"
+         id="polyline144" />
+      <polyline
+         points="11338,57    425,57"
+         id="polyline146" />
+      <polyline
+         points="11338,65    425,65"
+         id="polyline148" />
+      <polyline
+         points="11338,75    425,75"
+         id="polyline150" />
+      <polyline
+         points="11338,75    425,75"
+         id="polyline152" />
+      <polyline
+         points="11338,75    425,75"
+         id="polyline154" />
+      <polyline
+         points="11338,89    425,89"
+         id="polyline156" />
+      <polyline
+         points="11338,106   425,106"
+         id="polyline158" />
+      <polyline
+         points="11338,128   425,128"
+         id="polyline160" />
+      <polyline
+         points="11338,158   425,158"
+         id="polyline162" />
+      <polyline
+         points="11338,200   425,200"
+         id="polyline164" />
+      <polyline
+         points="11338,261   425,261"
+         id="polyline166" />
+      <polyline
+         points="11338,356   425,356"
+         id="polyline168" />
+      <polyline
+         points="11338,513   425,532"
+         id="polyline170" />
+      <polyline
+         points="11338,803   425,803"
+         id="polyline172" />
+      <polyline
+         points="11338,1417  425,1417"
+         id="polyline174" />
+      <polyline
+         points="11338,3212  425,3212"
+         id="polyline176" />
+      <polyline
+         points="11338,12833 425,12833"
+         id="polyline178" />
+      <polyline
+         points="11338,0     425,0"
+         style="stroke-dasharray:50, 50"
+         id="polyline180" />
+    </g>
+    <g
+       style="fill:#000000"
+       id="g194">
+      <text
+         x="11338"
+         y="12803"
+         text-anchor="right"
+         id="text184">K (-11,61 eV)</text>
+      <text
+         x="11338"
+         y="3182"
+         text-anchor="right"
+         id="text186">L (-2,90 eV)</text>
+      <text
+         x="11338"
+         y="1387"
+         text-anchor="right"
+         id="text188">M (-1,29 eV)</text>
+      <text
+         x="11338"
+         y="773"
+         text-anchor="right"
+         id="text190">N (-0,73 eV)</text>
+      <text
+         x="11338"
+         y="-30"
+         text-anchor="right"
+         id="text192">Électron libre (0 eV)</text>
+    </g>
+  </g>
+  <metadata
+     id="metadata305">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

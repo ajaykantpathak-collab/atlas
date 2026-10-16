@@ -218,13 +218,16 @@ def generate_c3_evs_001(seed: int = 42, n_per_type: int = 6) -> QuestionSet:
         variants = [
             {
                 "stem": f"Which of the following is a living thing?",
-                "options": rng.choice(INDIAN_LIVING + INDIAN_NONLIVING, 4, replace=False).tolist(),
+                # distractors MUST come from the non-living pool — the
+                # old combined-pool sample could ship 2-3 living options
+                # (or none matching the key): seed 55 answered 'chair'
+                "options": [lo] + rng.choice(INDIAN_NONLIVING, 3, replace=False).tolist(),
                 "correct": lo,
                 "exp": f"A {lo} is living because it grows, needs food and water, and reproduces.",
             },
             {
                 "stem": f"Which of the following is a non-living thing?",
-                "options": rng.choice(INDIAN_LIVING + INDIAN_NONLIVING, 4, replace=False).tolist(),
+                "options": [no] + rng.choice(INDIAN_LIVING, 3, replace=False).tolist(),
                 "correct": no,
                 "exp": f"A {no} is non-living because it does not grow, does not need food, and does not reproduce.",
             },
@@ -242,7 +245,7 @@ def generate_c3_evs_001(seed: int = 42, n_per_type: int = 6) -> QuestionSet:
             },
             {
                 "stem": f"Which of these does NOT need food and water?",
-                "options": rng.choice(INDIAN_LIVING + INDIAN_NONLIVING, 4, replace=False).tolist(),
+                "options": [no] + rng.choice(INDIAN_LIVING, 3, replace=False).tolist(),
                 "correct": no,
                 "exp": f"A {no} does not need food or water because it is not alive.",
             },

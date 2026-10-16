@@ -1,0 +1,969 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 151,
+      "path": "SKILL.md",
+      "size_bytes": 5565
+    }
+  ],
+  "source_id": "fixing-motion-performance",
+  "source_map": [
+    {
+      "enriched_line_end": 151,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 151,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 105,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: fixing-motion-performance",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "fixing-motion-performance",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Fix animation performance issues.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "how to use",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "/fixing-motion-performance",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "/fixing-motion-performance <file>",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "violations (quote the exact line or snippet)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "why it matters (one short sentence)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "a concrete fix (code-level suggestion)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "Do not migrate animation libraries unless explicitly requested. Apply rules within the existing stack.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 23,
+      "line_start": 23,
+      "source_file": "SKILL.md",
+      "text": "when to apply",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "Reference these guidelines when:",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "adding or changing UI animations (CSS, WAAPI, Motion, rAF, GSAP)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "refactoring janky interactions or transitions",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "implementing scroll-linked motion or reveal-on-scroll",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "animating layout, filters, masks, gradients, or CSS variables",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "reviewing components that use will-change, transforms, or measurement",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "rendering steps glossary",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "SKILL.md",
+      "text": "composite: transform, opacity",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "paint: color, borders, gradients, masks, images, filters",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "layout: size, position, flow, grid, flex",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "SKILL.md",
+      "text": "rule categories by priority",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "| priority | category | impact |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "SKILL.md",
+      "text": "| 1 | never patterns | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "| 2 | choose the mechanism | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "SKILL.md",
+      "text": "| 3 | measurement | high |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "SKILL.md",
+      "text": "| 4 | scroll | high |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "| 5 | paint | medium-high |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "| 6 | layers | medium |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 48,
+      "line_start": 48,
+      "source_file": "SKILL.md",
+      "text": "| 7 | blur and filters | medium |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "| 8 | view transitions | low |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 50,
+      "line_start": 50,
+      "source_file": "SKILL.md",
+      "text": "| 9 | tool boundaries | critical |",
+      "unit_type": "table_row"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 52,
+      "line_start": 52,
+      "source_file": "SKILL.md",
+      "text": "quick reference",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_34",
+      "id": 34,
+      "line_end": 54,
+      "line_start": 54,
+      "source_file": "SKILL.md",
+      "text": "1. never patterns (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_35",
+      "id": 35,
+      "line_end": 56,
+      "line_start": 56,
+      "source_file": "SKILL.md",
+      "text": "do not interleave layout reads and writes in the same frame",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_36",
+      "id": 36,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "SKILL.md",
+      "text": "do not animate layout continuously on large or meaningful surfaces",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_37",
+      "id": 37,
+      "line_end": 58,
+      "line_start": 58,
+      "source_file": "SKILL.md",
+      "text": "do not drive animation from scrollTop, scrollY, or scroll events",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_38",
+      "id": 38,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "no requestAnimationFrame loops without a stop condition",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_39",
+      "id": 39,
+      "line_end": 60,
+      "line_start": 60,
+      "source_file": "SKILL.md",
+      "text": "do not mix multiple animation systems that each measure or mutate layout",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_40",
+      "id": 40,
+      "line_end": 62,
+      "line_start": 62,
+      "source_file": "SKILL.md",
+      "text": "2. choose the mechanism (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_41",
+      "id": 41,
+      "line_end": 64,
+      "line_start": 64,
+      "source_file": "SKILL.md",
+      "text": "default to transform and opacity for motion",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_42",
+      "id": 42,
+      "line_end": 65,
+      "line_start": 65,
+      "source_file": "SKILL.md",
+      "text": "use JS-driven animation only when interaction requires it",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_43",
+      "id": 43,
+      "line_end": 66,
+      "line_start": 66,
+      "source_file": "SKILL.md",
+      "text": "paint or layout animation is acceptable only on small, isolated surfaces",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_44",
+      "id": 44,
+      "line_end": 67,
+      "line_start": 67,
+      "source_file": "SKILL.md",
+      "text": "one-shot effects are acceptable more often than continuous motion",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_45",
+      "id": 45,
+      "line_end": 68,
+      "line_start": 68,
+      "source_file": "SKILL.md",
+      "text": "prefer downgrading technique over removing motion entirely",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_46",
+      "id": 46,
+      "line_end": 70,
+      "line_start": 70,
+      "source_file": "SKILL.md",
+      "text": "3. measurement (high)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_47",
+      "id": 47,
+      "line_end": 72,
+      "line_start": 72,
+      "source_file": "SKILL.md",
+      "text": "measure once, then animate via transform or opacity",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_48",
+      "id": 48,
+      "line_end": 73,
+      "line_start": 73,
+      "source_file": "SKILL.md",
+      "text": "batch all DOM reads before writes",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_49",
+      "id": 49,
+      "line_end": 74,
+      "line_start": 74,
+      "source_file": "SKILL.md",
+      "text": "do not read layout repeatedly during an animation",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_50",
+      "id": 50,
+      "line_end": 75,
+      "line_start": 75,
+      "source_file": "SKILL.md",
+      "text": "prefer FLIP-style transitions for layout-like effects",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_51",
+      "id": 51,
+      "line_end": 76,
+      "line_start": 76,
+      "source_file": "SKILL.md",
+      "text": "prefer approaches that batch measurement and writes",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_52",
+      "id": 52,
+      "line_end": 78,
+      "line_start": 78,
+      "source_file": "SKILL.md",
+      "text": "4. scroll (high)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_53",
+      "id": 53,
+      "line_end": 80,
+      "line_start": 80,
+      "source_file": "SKILL.md",
+      "text": "prefer Scroll or View Timelines for scroll-linked motion when available",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_54",
+      "id": 54,
+      "line_end": 81,
+      "line_start": 81,
+      "source_file": "SKILL.md",
+      "text": "use IntersectionObserver for visibility and pausing",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_55",
+      "id": 55,
+      "line_end": 82,
+      "line_start": 82,
+      "source_file": "SKILL.md",
+      "text": "do not poll scroll position for animation",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_56",
+      "id": 56,
+      "line_end": 83,
+      "line_start": 83,
+      "source_file": "SKILL.md",
+      "text": "pause or stop animations when off-screen",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_57",
+      "id": 57,
+      "line_end": 84,
+      "line_start": 84,
+      "source_file": "SKILL.md",
+      "text": "scroll-linked motion must not trigger continuous layout or paint on large surfaces",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_58",
+      "id": 58,
+      "line_end": 86,
+      "line_start": 86,
+      "source_file": "SKILL.md",
+      "text": "5. paint (medium-high)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_59",
+      "id": 59,
+      "line_end": 88,
+      "line_start": 88,
+      "source_file": "SKILL.md",
+      "text": "paint-triggering animation is allowed only on small, isolated elements",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_60",
+      "id": 60,
+      "line_end": 89,
+      "line_start": 89,
+      "source_file": "SKILL.md",
+      "text": "do not animate paint-heavy properties on large containers",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_61",
+      "id": 61,
+      "line_end": 90,
+      "line_start": 90,
+      "source_file": "SKILL.md",
+      "text": "do not animate CSS variables for transform, opacity, or position",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_62",
+      "id": 62,
+      "line_end": 91,
+      "line_start": 91,
+      "source_file": "SKILL.md",
+      "text": "do not animate inherited CSS variables",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_63",
+      "id": 63,
+      "line_end": 92,
+      "line_start": 92,
+      "source_file": "SKILL.md",
+      "text": "scope animated CSS variables locally and avoid inheritance",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_64",
+      "id": 64,
+      "line_end": 94,
+      "line_start": 94,
+      "source_file": "SKILL.md",
+      "text": "6. layers (medium)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_65",
+      "id": 65,
+      "line_end": 96,
+      "line_start": 96,
+      "source_file": "SKILL.md",
+      "text": "compositor motion requires layer promotion, never assume it",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_66",
+      "id": 66,
+      "line_end": 97,
+      "line_start": 97,
+      "source_file": "SKILL.md",
+      "text": "use will-change temporarily and surgically",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_67",
+      "id": 67,
+      "line_end": 98,
+      "line_start": 98,
+      "source_file": "SKILL.md",
+      "text": "avoid many or large promoted layers",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_68",
+      "id": 68,
+      "line_end": 99,
+      "line_start": 99,
+      "source_file": "SKILL.md",
+      "text": "validate layer behavior with tooling when performance matters",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_69",
+      "id": 69,
+      "line_end": 101,
+      "line_start": 101,
+      "source_file": "SKILL.md",
+      "text": "7. blur and filters (medium)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_70",
+      "id": 70,
+      "line_end": 103,
+      "line_start": 103,
+      "source_file": "SKILL.md",
+      "text": "keep blur animation small (<=8px)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_71",
+      "id": 71,
+      "line_end": 104,
+      "line_start": 104,
+      "source_file": "SKILL.md",
+      "text": "use blur only for short, one-time effects",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_72",
+      "id": 72,
+      "line_end": 105,
+      "line_start": 105,
+      "source_file": "SKILL.md",
+      "text": "never animate blur continuously",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_73",
+      "id": 73,
+      "line_end": 106,
+      "line_start": 106,
+      "source_file": "SKILL.md",
+      "text": "never animate blur on large surfaces",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_74",
+      "id": 74,
+      "line_end": 107,
+      "line_start": 107,
+      "source_file": "SKILL.md",
+      "text": "prefer opacity and translate before blur",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_75",
+      "id": 75,
+      "line_end": 109,
+      "line_start": 109,
+      "source_file": "SKILL.md",
+      "text": "8. view transitions (low)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_76",
+      "id": 76,
+      "line_end": 111,
+      "line_start": 111,
+      "source_file": "SKILL.md",
+      "text": "use view transitions only for navigation-level changes",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_77",
+      "id": 77,
+      "line_end": 112,
+      "line_start": 112,
+      "source_file": "SKILL.md",
+      "text": "avoid view transitions for interaction-heavy UI",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_78",
+      "id": 78,
+      "line_end": 113,
+      "line_start": 113,
+      "source_file": "SKILL.md",
+      "text": "avoid view transitions when interruption or cancellation is required",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_79",
+      "id": 79,
+      "line_end": 114,
+      "line_start": 114,
+      "source_file": "SKILL.md",
+      "text": "treat size changes as potentially layout-triggering",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_80",
+      "id": 80,
+      "line_end": 116,
+      "line_start": 116,
+      "source_file": "SKILL.md",
+      "text": "9. tool boundaries (critical)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_81",
+      "id": 81,
+      "line_end": 118,
+      "line_start": 118,
+      "source_file": "SKILL.md",
+      "text": "do not migrate or rewrite animation libraries unless explicitly requested",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_82",
+      "id": 82,
+      "line_end": 119,
+      "line_start": 119,
+      "source_file": "SKILL.md",
+      "text": "apply these rules within the existing animation system",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_83",
+      "id": 83,
+      "line_end": 120,
+      "line_start": 120,
+      "source_file": "SKILL.md",
+      "text": "never partially migrate APIs or mix styles within the same component",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_84",
+      "id": 84,
+      "line_end": 122,
+      "line_start": 122,
+      "source_file": "SKILL.md",
+      "text": "common fixes",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_85",
+      "id": 85,
+      "line_end": 125,
+      "line_start": 125,
+      "source_file": "SKILL.md",
+      "text": "/* layout thrashing: animate transform instead of width */",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_86",
+      "id": 86,
+      "line_end": 126,
+      "line_start": 126,
+      "source_file": "SKILL.md",
+      "text": "/* before */ .panel { transition: width 0.3s; }",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_87",
+      "id": 87,
+      "line_end": 127,
+      "line_start": 127,
+      "source_file": "SKILL.md",
+      "text": "/* after */  .panel { transition: transform 0.3s; }",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_88",
+      "id": 88,
+      "line_end": 129,
+      "line_start": 129,
+      "source_file": "SKILL.md",
+      "text": "/* scroll-linked: use scroll-timeline instead of JS */",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_89",
+      "id": 89,
+      "line_end": 130,
+      "line_start": 130,
+      "source_file": "SKILL.md",
+      "text": "/* before */ window.addEventListener('scroll', () => el.style.opacity = scrollY / 500)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_90",
+      "id": 90,
+      "line_end": 131,
+      "line_start": 131,
+      "source_file": "SKILL.md",
+      "text": "/* after */  .reveal { animation: fade-in linear; animation-timeline: view(); }",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_91",
+      "id": 91,
+      "line_end": 135,
+      "line_start": 135,
+      "source_file": "SKILL.md",
+      "text": "// measurement: batch reads before writes (FLIP)",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_92",
+      "id": 92,
+      "line_end": 136,
+      "line_start": 136,
+      "source_file": "SKILL.md",
+      "text": "// before \u2014 layout thrash",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_93",
+      "id": 93,
+      "line_end": 137,
+      "line_start": 137,
+      "source_file": "SKILL.md",
+      "text": "el.style.left = el.getBoundingClientRect().left + 10 + 'px';",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_94",
+      "id": 94,
+      "line_end": 138,
+      "line_start": 138,
+      "source_file": "SKILL.md",
+      "text": "// after \u2014 measure once, animate via transform",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_95",
+      "id": 95,
+      "line_end": 139,
+      "line_start": 139,
+      "source_file": "SKILL.md",
+      "text": "const first = el.getBoundingClientRect();",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_96",
+      "id": 96,
+      "line_end": 140,
+      "line_start": 140,
+      "source_file": "SKILL.md",
+      "text": "el.classList.add('moved');",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_97",
+      "id": 97,
+      "line_end": 141,
+      "line_start": 141,
+      "source_file": "SKILL.md",
+      "text": "const last = el.getBoundingClientRect();",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_98",
+      "id": 98,
+      "line_end": 142,
+      "line_start": 142,
+      "source_file": "SKILL.md",
+      "text": "el.style.transform = `translateX(${first.left - last.left}px)`;",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_99",
+      "id": 99,
+      "line_end": 143,
+      "line_start": 143,
+      "source_file": "SKILL.md",
+      "text": "requestAnimationFrame(() => { el.style.transition = 'transform 0.3s'; el.style.transform = ''; });",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_100",
+      "id": 100,
+      "line_end": 146,
+      "line_start": 146,
+      "source_file": "SKILL.md",
+      "text": "review guidance",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_101",
+      "id": 101,
+      "line_end": 148,
+      "line_start": 148,
+      "source_file": "SKILL.md",
+      "text": "enforce critical rules first (never patterns, tool boundaries)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_102",
+      "id": 102,
+      "line_end": 149,
+      "line_start": 149,
+      "source_file": "SKILL.md",
+      "text": "choose the least expensive rendering work that matches the intent",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_103",
+      "id": 103,
+      "line_end": 150,
+      "line_start": 150,
+      "source_file": "SKILL.md",
+      "text": "for any non-default choice, state the constraint that justifies it (surface size, duration, or interaction requirement)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_104",
+      "id": 104,
+      "line_end": 151,
+      "line_start": 151,
+      "source_file": "SKILL.md",
+      "text": "when reviewing, prefer actionable notes and concrete alternatives over theory",
+      "unit_type": "list_item"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+ "overall": {
+  "GOLD": 9099,
+  "PARTIAL": 0,
+  "MISSING": 0
+ },
+ "by_class": {
+  "10": {
+   "GOLD": 660,
+   "PARTIAL": 0,
+   "MISSING": 0
+  },
+  "11": {
+   "GOLD": 3176,
+   "PARTIAL": 0,
+   "MISSING": 0
+  },
+  "12": {
+   "GOLD": 3266,
+   "PARTIAL": 0,
+   "MISSING": 0
+  },
+  "6": {
+   "GOLD": 434,
+   "PARTIAL": 0,
+   "MISSING": 0
+  },
+  "7": {
+   "GOLD": 586,
+   "PARTIAL": 0,
+   "MISSING": 0
+  },
+  "8": {
+   "GOLD": 561,
+   "PARTIAL": 0,
+   "MISSING": 0
+  },
+  "9": {
+   "GOLD": 416,
+   "PARTIAL": 0,
+   "MISSING": 0
+  }
+ },
+ "examples": {
+  "PARTIAL": [],
+  "MISSING": []
+ }
+}

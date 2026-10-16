@@ -56,9 +56,12 @@ _ENUM_MARKER_RE = re.compile(
 _OPTION_HINT_RE = re.compile(
     r"which of the following|choose the correct|match the following|"
     r"assertion\s*\(?a\)?|both a and b", re.I)
-# math-structured text (equations, matrices, calculus notation) is the
-# kernel's territory -- a naive clause split there corrupts the reading
-_STRUCT_RE = re.compile(r"[=\[\]{]|\\int|\bdy/dx\b|\bd/dx\b")
+# math-structured text (matrices, calculus notation) is the kernel's
+# territory -- a naive clause split there corrupts the reading.
+# '=' is NOT refused (WS-MH): connective boundaries split equations into
+# whole clauses fine ("...; then solve x^2 - 9x + 20 = 0"), and refusing
+# them kept cross-subject chains (physics -> algebra) out of the lane.
+_STRUCT_RE = re.compile(r"[\[\]{]|\\int|\bdy/dx\b|\bd/dx\b")
 
 
 def split_hop_clauses(text: str) -> Optional[List[str]]:
@@ -103,12 +106,68 @@ _DERIVED_ASK_RE = re.compile(
     r"\b(?:using|with|at)\s+(?:this|the\s+same|that)\s+"
     r"(speed|velocity|distance|time|amount|sum|value|area|volume|"
     r"cost|price|total|current|voltage|resistance|power|energy|mass|"
-    r"concentration)\b"
+    r"concentration|work|height|moles?|molarity|number|ph|interest|"
+    r"root|angle)\b"
     r"|\bthis\s+(speed|velocity|distance|time|amount|sum|value|area|"
-    r"volume|cost|price|total)\b"
+    r"volume|cost|price|total|work|height|moles?|molarity|number|ph)\b"
     r"|\b(?:his|her|its|their)\s+(speed|velocity|distance|time|area|"
     r"volume|cost|price|total|current|voltage|resistance|power|"
-    r"energy|mass)\b", re.I)
+    r"energy|mass|work|height|moles?|number)\b", re.I)
+
+# "using this number of moles / amount of work" -- the dim lives in the
+# noun AFTER 'of', not in 'number'/'amount'
+_DERIVED_OF_RE = re.compile(
+    r"\b(?:using|with|at)\s+(?:this|the\s+same|that)\s+"
+    r"(?:number|amount|value|quantity|result)\s+of\s+"
+    r"(moles?|molarity|work|power|interest|speed|distance|height)\b",
+    re.I)
+
+# "using this NEW/MAXIMUM height" -- a run of adjectives between
+# 'this/that/the same' and the quantity noun
+_DERIVED_ADJ_RE = re.compile(
+    r"\b(?:using|with|at)\s+(?:this|the\s+same|that)\s+"
+    r"(?:new|maximum|final|resulting|computed|obtained|total|"
+    r"remaining|found|same)\s+"
+    r"(speed|velocity|distance|time|amount|sum|value|area|volume|"
+    r"cost|price|current|voltage|resistance|power|energy|mass|"
+    r"concentration|work|height|moles?|molarity|number|ph|interest|"
+    r"root|angle)\b", re.I)
+
+# "the remaining amount / what's left / the rest" -- an implicit carry
+# reference: the clause consumes the previous hop's product whatever its
+# dimension (reported as the wildcard "*", which satisfies any boundary
+# but keeps the clause a genuine second hop during merging)
+_DERIVED_REMAIN_RE = re.compile(
+    r"\b(?:the\s+)?(?:remaining|resulting|leftover|left\s+over)\s+"
+    r"(?:amount|sum|value|money|distance|time|quantity|solution|"
+    r"mixture|water|liquid|balance)\b|"
+    r"\bof\s+the\s+remaining\b|\bthe\s+remaining\b", re.I)
+
+
+def _fwd_ref_dim(clause: str) -> Optional[str]:
+    """The dimension a forward reference in `clause` requires of the
+    previous hop's output; None when no forward reference is present.
+    The wildcard "*" means the clause consumes the previous product of
+    any dimension ("the remaining amount")."""
+    try:
+        from backend.its.solver.hop_types import NOUN_DIM
+    except Exception:
+        return None
+    m = _DERIVED_OF_RE.search(clause or "")
+    if m:
+        noun = m.group(1).lower()
+        return NOUN_DIM.get(noun, NOUN_DIM.get(noun + "s"))
+    m = _DERIVED_ADJ_RE.search(clause or "") or \
+        _DERIVED_ASK_RE.search(clause or "")
+    if m:
+        noun = next((g for g in m.groups() if g), None)
+        if noun:
+            noun = noun.lower().rstrip("s") if noun.lower().endswith("s") \
+                and noun.lower() != "ph" else noun.lower()
+            return NOUN_DIM.get(noun, NOUN_DIM.get(noun + "s"))
+    if _DERIVED_REMAIN_RE.search(clause or ""):
+        return "*"
+    return None
 
 
 def _has_ask(clause: str) -> bool:
@@ -127,8 +186,14 @@ def _ask_for(clause: str, next_clause: str) -> Optional[str]:
     reference, else fall back to the generic value ask."""
     if _has_ask(clause):
         return None                        # clause already asks
-    m = _DERIVED_ASK_RE.search(next_clause or "")
-    noun = (m.group(1) or m.group(2) or m.group(3)) if m else None
+    # 'using this number of moles / amount of work' -- the ask noun
+    # lives after 'of', not on 'number'/'amount'
+    mo = _DERIVED_OF_RE.search(next_clause or "")
+    if mo:
+        return f"Find the {mo.group(1).lower()}."
+    m = _DERIVED_ADJ_RE.search(next_clause or "") or \
+        _DERIVED_ASK_RE.search(next_clause or "")
+    noun = next((g for g in m.groups() if g), None) if m else None
     if noun:
         return f"Find the {noun.lower()}."
     return "Find the value."
@@ -144,8 +209,13 @@ def _merge_ask_only_clauses(parts: List[str]) -> List[str]:
         return parts
     merged = [parts[0]]
     for clause in parts[1:]:
+        # WS-MH: an ask-only clause that carries a FORWARD REFERENCE
+        # ("using this concentration, find the pH") is a genuine second
+        # hop -- the previous clause must produce the named dimension.
+        # Merging it away would collapse a real two-hop chain into one.
         if (not _has_number(clause) and _has_ask(clause) and merged
-                and not _has_ask(merged[-1])):
+                and not _has_ask(merged[-1])
+                and _fwd_ref_dim(clause) is None):
             merged[-1] = merged[-1].rstrip("?.; ") + ".  " + \
                 clause.lstrip()
         else:
@@ -192,10 +262,19 @@ def try_multi_hop(text: str, solve: Callable[[str], object]) -> Optional[Dict]:
         return None
     _VERIFIED = ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS",
                  "VERIFIED_OFFICIAL")
+    try:
+        from backend.its.solver.hop_types import (
+            HopResult, dim_of_unit, dispatch_hop)
+    except Exception:
+        dispatch_hop = None
+
+        class HopResult:  # pragma: no cover - import failure shim
+            pass
     hops: List[Dict] = []
     n_verified = 0
     knowns: List[str] = []          # every verified answer so far
     broken = False
+    carried: Optional[HopResult] = None   # previous hop, typed
     for i, clause in enumerate(clauses):
         if broken:
             # a failed/missing earlier hop stops the chain: later hops
@@ -220,6 +299,51 @@ def try_multi_hop(text: str, solve: Callable[[str], object]) -> Optional[Dict]:
             if kept:
                 sub = sub.rstrip("?.; ") + ".  Given: from the " \
                       "previous steps, " + "; ".join(kept) + "."
+        # UNIT-CONSISTENCY BOUNDARY (WS-MH): a forward reference names
+        # the dimension hop i-1 must have produced ("using this speed"
+        # needs a speed).  A typed carry whose dimension cannot feed
+        # this clause fails the chain CLOSED with a typed reason --
+        # solving anyway would silently drop or misbind the dependency.
+        need_dim = _fwd_ref_dim(clause)
+        if (need_dim and need_dim != "*" and carried is not None
+                and getattr(carried, "dimension", None)
+                and carried.dimension != "value"
+                and carried.dimension != need_dim):
+            hops.append({
+                "index": i, "text": clause, "answer": None,
+                "numeric": None, "verified": False, "skipped": False,
+                "sub": sub,
+                "refusal": (f"dimension mismatch at hop boundary: the "
+                            f"clause needs {need_dim} but hop {i} "
+                            f"produced {carried.dimension}")})
+            broken = True
+            continue
+        # TYPED HOP DISPATCH (WS-MH): the cross-subject families answer
+        # a clause with a HopResult (value + unit + dimension).  The
+        # aggregate's CHAIN verifier re-derives every clause from the
+        # question text -- the typed result is never self-certified.
+        hr = None
+        if dispatch_hop is not None:
+            try:
+                hr = dispatch_hop(sub, carried)
+            except Exception:
+                hr = None
+        if hr is not None:
+            n_verified += 1
+            # carry the BARE value into later 'Given:' lines -- the
+            # display note ("(net +25%)") would inject a '%' token and
+            # let a percent-family re-read a ratio clause as a percent
+            # clause (the chain then shipped hop1's 25% as hop2's share)
+            knowns.append(f"{hr.value:g}" + (f" {hr.unit}"
+                                           if hr.unit else ""))
+            hops.append({
+                "index": i, "text": clause, "sub": sub,
+                "answer": hr.display(), "numeric": hr.value,
+                "verified": True, "refusal": None, "skipped": False,
+                "dim": hr.dimension, "family": hr.family_id,
+                "assumptions": list(hr.assumptions)})
+            carried = hr
+            continue
         core = None
         refusal: Optional[str] = None
         try:
@@ -230,20 +354,37 @@ def try_multi_hop(text: str, solve: Callable[[str], object]) -> Optional[Dict]:
             getattr(core, "label", None) in _VERIFIED
         numeric = getattr(core, "numeric", None)
         answer = getattr(core, "answer", None)
+        hop_dim = ""
         if verified and numeric is not None:
             n_verified += 1
             knowns.append(str(answer if answer is not None else numeric))
+            # carry the generic hop forward as a typed result so the
+            # next clause's boundary check can run on its dimension
+            _um = re.search(r"(-?\d[\d.]*)\s*([A-Za-z°%/]+|"
+                            r"[\u20b9])?\s*$", str(answer or ""))
+            _dim = dim_of_unit(_um.group(2)) if (
+                _um and _um.group(2)) else None
+            hop_dim = _dim or "value"
+            try:
+                carried = HopResult(value=float(numeric), unit="",
+                                    dimension=_dim or "value",
+                                    family_id="")
+            except Exception:
+                carried = None
         else:
             # unverifiable, or verified without a number: the next hop
             # cannot depend on this one, so the chain stops here
             broken = True
+            carried = None
             if verified:
                 n_verified += 1
             elif core is not None and refusal is None:
                 refusal = getattr(core, "refusal_reason", None)
-        hops.append({"index": i, "text": clause, "answer": answer,
-                     "numeric": numeric, "verified": verified,
-                     "refusal": refusal, "skipped": False})
+        hops.append({"index": i, "text": clause, "sub": sub,
+                     "answer": answer, "numeric": numeric,
+                     "verified": verified, "refusal": refusal,
+                     "skipped": False, "dim": hop_dim,
+                     "family": "", "assumptions": []})
     return {"kind": "chain", "hops": hops,
             "all_verified": n_verified == len(clauses),
             "n_verified": n_verified}

@@ -1565,3 +1565,69 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# ---------------------------------------------------------------------------
+# Registry surface: named problem types wrapping Class12PhysicsSolver methods.
+# The methods existed; only the class itself was auto-discovered, so practice
+# routing could not address the individual families. This exposes each family
+# under a stable problem-type key. Payloads accept either a params dict or
+# keyword arguments; dataclass-typed parameters are constructed from the keys.
+# ---------------------------------------------------------------------------
+
+import inspect as _inspect
+
+_SOLVER12 = Class12PhysicsSolver()
+
+
+def _c12_entry(method_name: str):
+    def _run(params=None, **kw):
+        payload = dict(params or {})
+        payload.update(kw)
+        method = getattr(_SOLVER12, method_name)
+        sig = _inspect.signature(method)
+        args, kwargs = [], {}
+        for name, p in sig.parameters.items():
+            anno = p.annotation
+            if isinstance(anno, str):  # postponed annotations resolve to globals
+                anno = next((v for v in globals().values()
+                             if _inspect.isclass(v) and v.__name__ == anno), None)
+            if _inspect.isclass(anno) and hasattr(anno, "__dataclass_fields__"):
+                fields = anno.__dataclass_fields__
+                kwargs[name] = anno(**{k: v for k, v in payload.items() if k in fields})
+            elif name in payload:
+                kwargs[name] = payload[name]
+            elif p.default is _inspect.Parameter.empty:
+                return {"answer": None,
+                        "steps": [f"Missing required parameter '{name}' for {method_name}"],
+                        "verification": {"passed": False,
+                                         "details": f"missing {name}"}}
+        try:
+            result = method(*args, **kwargs)
+        except Exception as exc:  # keep the registry fail-closed
+            return {"answer": None,
+                    "steps": [f"Solver error in {method_name}: {exc}"],
+                    "verification": {"passed": False, "details": str(exc)}}
+        if isinstance(result, dict):
+            return result
+        return {"answer": result, "verification": {"passed": True,
+                                                   "details": method_name}}
+    _run.__name__ = f"c12_phy_{method_name}"
+    return _run
+
+
+SOLVER_REGISTRY = {
+    f"c12_phy_{m}": _c12_entry(m)
+    for m in (
+        "solve_coulomb", "solve_capacitor", "solve_parallel_resistors",
+        "solve_series_resistors", "solve_wire_resistance", "solve_potentiometer",
+        "solve_meter_bridge", "solve_drift_velocity", "solve_wire_b_field",
+        "solve_solenoid", "solve_cyclotron", "solve_rl_circuit", "solve_rc_circuit",
+        "solve_ac_transformer", "solve_lcr_impedance", "solve_convex_lens",
+        "solve_concave_lens", "solve_microscope", "solve_telescope", "solve_mirror",
+        "solve_photoelectric", "solve_hall_effect", "solve_standing_wave",
+        "solve_de_broglie", "solve_photon_energy", "solve_dielectric",
+        "solve_fusion", "solve_radioactivity", "solve_diffraction",
+        "solve_transformer_all", "solve_transistor_ce", "solve_modulation",
+        "solve_reflection", "solve_refraction", "solve_photons_from_wavelength",
+    )
+}

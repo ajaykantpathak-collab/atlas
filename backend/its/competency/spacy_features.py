@@ -13,14 +13,21 @@ from __future__ import annotations
 import re
 from typing import Any, Dict, List, Optional, Set
 
-import spacy
+# E1 (BATCH_BRIEF §4): spaCy pulls thinc->torch (~48s cold) — it must
+# load on FIRST USE, never at module import.  This module rides the
+# competency engine into every boot (solution_executor imports
+# extract_features top-level), so the top-level `import spacy` was a
+# hidden torch-at-boot door.  _get_nlp() now imports lazily.
+spacy = None  # populated lazily by _get_nlp()
 
 _NLP = None
 
 
 def _get_nlp():
-    global _NLP
+    global _NLP, spacy
     if _NLP is None:
+        import spacy as _spacy
+        spacy = _spacy
         _NLP = spacy.load("en_core_web_sm")
     return _NLP
 

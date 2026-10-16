@@ -1,0 +1,21 @@
+{
+  "artifact_contract": "semia-run-v1",
+  "checked_at": "2026-10-04T12:01:46Z",
+  "detected_at": "2026-10-04T12:01:47Z",
+  "detector_status": "ok",
+  "evidence_match_rate": 1.0,
+  "evidence_taint_threshold": 0.1,
+  "finding_count": 0,
+  "hostile_input_nonce": "69c40d6edaad70c1",
+  "prepared_at": "2026-10-04T12:01:46Z",
+  "prepared_skill_sha256": "0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9",
+  "program_valid": true,
+  "reference_unit_coverage": 0.0056179775280898875,
+  "source_hash": "5416e79fa0142008810532ead389ffc3f27259bca252340a9b1bc78b91193a2d",
+  "source_id": "fixing-motion-performance",
+  "ssa_input_availability": 1.0,
+  "stage": "detected",
+  "synthesis_mode": "conservative_baseline",
+  "synthesis_written_at": "2026-10-04T12:01:46Z",
+  "synthesized_facts_sha256": "a5c55a1c8be577136bb5795d6836cb7b893434502bb95f935318a6e6c44fbad9"
+}

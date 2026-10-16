@@ -1,0 +1,289 @@
+{
+ "subject": "evs",
+ "chapter_title": "ICSE evs formula bank (c6)",
+ "source_file": "c6_formula_bank.marker",
+ "concepts": [
+  {
+   "id": "FB_EVS_C6_001",
+   "title": "Environment: Environment = ...",
+   "section": "",
+   "formula": "Environment = Biotic_components + Abiotic_components",
+   "_pats_extra": [],
+   "key_idea": "Environment",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find environment using environment",
+    "calculate environment",
+    "environment formula question",
+    "given values find environment"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_001",
+     "question_pattern": "environment with {Biotic_components} and {Abiotic_components} find environment",
+     "extracted_variables": {
+      "Biotic_components": "given Biotic_components",
+      "Abiotic_components": "given Abiotic_components"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Biotic_components, Abiotic_components from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Environment = Biotic_components + Abiotic_components",
+     "compute": "Environment = Biotic_components + Abiotic_components"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  },
+  {
+   "id": "FB_EVS_C6_002",
+   "title": "Biodiversity has three levels: Biodiversity = ...",
+   "section": "",
+   "formula": "Biodiversity = Genetic_diversity + Species_diversity + Ecosystem_diversity",
+   "_pats_extra": [],
+   "key_idea": "Biodiversity has three levels",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find biodiversity using biodiversity has three levels",
+    "calculate biodiversity has three levels",
+    "biodiversity has three levels formula question",
+    "given values find biodiversity"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_002",
+     "question_pattern": "biodiversity has three levels with {Genetic_diversity} and {Species_diversity} and {Ecosystem_diversity} find biodiversity",
+     "extracted_variables": {
+      "Genetic_diversity": "given Genetic_diversity",
+      "Species_diversity": "given Species_diversity",
+      "Ecosystem_diversity": "given Ecosystem_diversity"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Genetic_diversity, Species_diversity, Ecosystem_diversity from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Biodiversity = Genetic_diversity + Species_diversity + Ecosystem_diversity",
+     "compute": "Biodiversity = Genetic_diversity + Species_diversity + Ecosystem_diversity"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  },
+  {
+   "id": "FB_EVS_C6_003",
+   "title": "Indian biodiversity facts (for context): Natural resources = ...",
+   "section": "",
+   "formula": "Natural_resources = Renewable_resources + N*o*n-renewable_resources",
+   "_pats_extra": [],
+   "key_idea": "Indian biodiversity facts (for context)",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find natural resources using indian biodiversity facts (for context)",
+    "calculate indian biodiversity facts (for context)",
+    "indian biodiversity facts (for context) formula question",
+    "given values find natural resources"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_003",
+     "question_pattern": "indian biodiversity facts (for context) with {Renewable_resources} and {N} and {o} and {n} and {renewable_resources} find natural resources",
+     "extracted_variables": {
+      "Renewable_resources": "given Renewable_resources",
+      "N": "given N",
+      "o": "given o",
+      "n": "given n",
+      "renewable_resources": "given renewable_resources"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Renewable_resources, N, o, n, renewable_resources from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Natural resources = Renewable_resources + N*o*n-renewable_resources",
+     "compute": "Natural_resources = Renewable_resources + N*o*n-renewable_resources"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  },
+  {
+   "id": "FB_EVS_C6_004",
+   "title": "Depletion time of a non-renewable reserve: T = ...",
+   "section": "",
+   "formula": "T = R / C",
+   "_pats_extra": [],
+   "key_idea": "Depletion time of a non-renewable reserve",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find t using depletion time of a non-renewable reserve",
+    "calculate depletion time of a non-renewable reserve",
+    "depletion time of a non-renewable reserve formula question",
+    "given values find t"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_004",
+     "question_pattern": "depletion time of a non-renewable reserve with {R} and {C} find t",
+     "extracted_variables": {
+      "R": "given R",
+      "C": "given C"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for R, C from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "T = R / C",
+     "compute": "T = R / C"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  },
+  {
+   "id": "FB_EVS_C6_005",
+   "title": "India's Protected Area Network: Protected Area = ...",
+   "section": "",
+   "formula": "Protected_Area = National_Parks + Wildlife_Sanctuaries + Conservation_Reserves + Community_Reserves",
+   "_pats_extra": [],
+   "key_idea": "India's Protected Area Network",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find protected area using india's protected area network",
+    "calculate india's protected area network",
+    "india's protected area network formula question",
+    "given values find protected area"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_005",
+     "question_pattern": "india's protected area network with {National_Parks} and {Wildlife_Sanctuaries} and {Conservation_Reserves} and {Community_Reserves} find protected area",
+     "extracted_variables": {
+      "National_Parks": "given National_Parks",
+      "Wildlife_Sanctuaries": "given Wildlife_Sanctuaries",
+      "Conservation_Reserves": "given Conservation_Reserves",
+      "Community_Reserves": "given Community_Reserves"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for National_Parks, Wildlife_Sanctuaries, Conservation_Reserves, Community_Reserves from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Protected Area = National_Parks + Wildlife_Sanctuaries + Conservation_Reserves + Community_Reserves",
+     "compute": "Protected_Area = National_Parks + Wildlife_Sanctuaries + Conservation_Reserves + Community_Reserves"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  },
+  {
+   "id": "FB_EVS_C6_006",
+   "title": "Food security index relationship: Food security = ...",
+   "section": "",
+   "formula": "Food_security = Availability + Accessibility + Affordability + Utilisation",
+   "_pats_extra": [],
+   "key_idea": "Food security index relationship",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find food security using food security index relationship",
+    "calculate food security index relationship",
+    "food security index relationship formula question",
+    "given values find food security"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_006",
+     "question_pattern": "food security index relationship with {Availability} and {Accessibility} and {Affordability} and {Utilisation} find food security",
+     "extracted_variables": {
+      "Availability": "given Availability",
+      "Accessibility": "given Accessibility",
+      "Affordability": "given Affordability",
+      "Utilisation": "given Utilisation"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Availability, Accessibility, Affordability, Utilisation from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Food security = Availability + Accessibility + Affordability + Utilisation",
+     "compute": "Food_security = Availability + Accessibility + Affordability + Utilisation"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  },
+  {
+   "id": "FB_EVS_C6_007",
+   "title": "Three pillars: Sustainability = ...",
+   "section": "",
+   "formula": "Sustainability = Economic_viability + Social_equity + Environmental_protection",
+   "_pats_extra": [],
+   "key_idea": "Three pillars",
+   "solution_type": "formula",
+   "question_patterns": [
+    "find sustainability using three pillars",
+    "calculate three pillars",
+    "three pillars formula question",
+    "given values find sustainability"
+   ],
+   "worked_examples": [
+    {
+     "concept": "FB_EVS_C6_007",
+     "question_pattern": "three pillars with {Economic_viability} and {Social_equity} and {Environmental_protection} find sustainability",
+     "extracted_variables": {
+      "Economic_viability": "given Economic_viability",
+      "Social_equity": "given Social_equity",
+      "Environmental_protection": "given Environmental_protection"
+     }
+    }
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given quantities",
+     "explain": "read the values for Economic_viability, Social_equity, Environmental_protection from the question"
+    },
+    {
+     "step": 2,
+     "action": "substitute and compute",
+     "explain": "Sustainability = Economic_viability + Social_equity + Environmental_protection",
+     "compute": "Sustainability = Economic_viability + Social_equity + Environmental_protection"
+    }
+   ],
+   "chapter_title": "evs c6 formulas"
+  }
+ ]
+}

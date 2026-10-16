@@ -3,13 +3,21 @@
 .env.local
 .env.production
 .env.development
+# any other env variant at repo root (.env.staging, .env.ci, …)
+/.env*
+!/.env.production.example
 *.pem
 *.key
 backend/.env
+backend/nvidia_keys.txt
 frontend/.env*
 .gemini_keys
+.keys_shard*
 *_keys
+*keys*.env
+gemini-keys*
 *.secrets
+serviceAccount*.json
 
 # ── Python ─────────────────────────────────────────────────────
 __pycache__/
@@ -24,8 +32,16 @@ venv/
 # ── Node ─────────────────────────────────────────────────────
 node_modules/
 .next/
+.next-mobile/
+.next-mobile-dev/
 out/
 *.tsbuildinfo
+# Root/frontend audit harnesses — verify-only scripts, never ship
+frontend/_*.js
+frontend/_*.log
+frontend/_*.txt
+frontend/_shots/
+frontend/_ts_errors*.txt
 
 # ── Data / runtime stores ────────────────────────────────────
 backend/_cache/
@@ -76,3 +92,54 @@ Thumbs.db
 *.swp
 frontend/scripts/vertex-service-account.json
 *.service-account.json
+tools/diagram_lab/keys.txt
+
+# ── Audit/runtime bulk — local only ───────────────────────────
+backups/
+runtime_data/
+_work/
+_cisce_build/
+student_*/
+_audit*/
+_verify_*/
+*.dump
+toks.json
+tmp_*
+tsc-*.txt
+syncverify*.txt
+tokens-*.txt
+nul
+con
+aux
+prn
+
+# ── Scratch/audit trees — local only ──────────────────────────
+_*/
+data/
+cbse_coverage_output*/
+
+# ── Custody overrides (owner 2026-10-15): git holds everything needed to rebuild ──
+# deploy/ infra (Dockerfiles, compose, nginx, requirements, k8s, scripts) tracked;
+# only its duplicated source trees + runtime data stay ignored (git canonical = root)
+!deploy/
+deploy/backend/
+deploy/frontend/
+deploy/content/
+deploy/cbse_data/
+deploy/data/
+deploy/_work/
+deploy/organized/
+deploy/parsed_output/
+deploy/.chisel/
+# corpus IS the product — master copies sit on the same disk, so git is the off-site copy
+!content/enhanced_nodes_md/
+!content/cisce_nodes_v2/
+# runtime assets the app serves — not optional
+!frontend/public/**/*.png
+!frontend/public/**/*.jpg
+!frontend/public/**/*.webp
+!frontend/public/**/*.mp3
+!frontend/public/**/*.wav
+*keys*.txt
+**/target/
+assets/diagram_lab/*.zip

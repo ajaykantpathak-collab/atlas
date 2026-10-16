@@ -1,0 +1,19 @@
+{
+ "work_item": "WI-20261013-001",
+ "ts_utc": "2026-10-13T15:15:04Z",
+ "files": [
+  {
+   "path": "deploy/backend/services/answer_telemetry.py",
+   "sha256": "72ad2d30c2a12d05778f1564f9723eba9148326f3e48627fe3852f2522cce0ef",
+   "bytes": 9410,
+   "blob": "files/000_answer_telemetry.py"
+  },
+  {
+   "path": "deploy/backend/tests/test_answer_telemetry.py",
+   "sha256": null,
+   "bytes": 0,
+   "blob": null,
+   "new": true
+  }
+ ]
+}

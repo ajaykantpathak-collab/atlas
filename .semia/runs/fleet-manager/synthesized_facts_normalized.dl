@@ -1,0 +1,38 @@
+#include "rules/sdl/skill_dl_static_analysis.dl"
+
+skill("fleet-manager").
+action("act_review", "fleet-manager").
+
+// Evidence universe
+evidence_unit("su_0", 0).
+evidence_unit("su_1", 1).
+evidence_unit("su_2", 2).
+evidence_unit("su_3", 3).
+evidence_unit("su_4", 4).
+evidence_unit("su_5", 5).
+evidence_unit("su_6", 6).
+evidence_unit("su_7", 7).
+evidence_unit("su_8", 8).
+evidence_unit("su_9", 9).
+evidence_unit("su_10", 10).
+evidence_unit("su_11", 11).
+evidence_unit("su_12", 12).
+evidence_unit("su_13", 13).
+evidence_unit("su_14", 14).
+evidence_unit("su_15", 15).
+evidence_unit("su_16", 16).
+evidence_unit("su_17", 17).
+evidence_unit("su_18", 18).
+evidence_unit("su_19", 19).
+evidence_unit("su_20", 20).
+evidence_unit("su_21", 21).
+evidence_unit("su_22", 22).
+evidence_unit("su_23", 23).
+evidence_unit("su_24", 24).
+evidence_unit("su_25", 25).
+evidence_unit("su_26", 26).
+evidence_unit("su_27", 27).
+
+// Normalized evidence sidecar
+skill_evidence("fleet-manager", "su_0").
+action_evidence("act_review", "su_0").

@@ -295,14 +295,15 @@ def _expand_indian_numbers(t: str) -> str:
 # --------------------------------------------------------------------------- #
 
 _SCALE_RE = re.compile(
-    r"(?<![\d.])(\d+(?:\.\d+)?)\s*(lakh|crore)s?(?![A-Za-z])",
+    r"(?<![\d.])(\d+(?:\.\d+)?)\s*(lakh\s+crore|lakh|crore)s?(?![A-Za-z])",
     re.IGNORECASE)
 
 
 def _expand_lakh_crore(t: str) -> str:
     def _repl(m):
         x = float(m.group(1))
-        mult = 100000.0 if m.group(2).lower() == "lakh" else 10000000.0
+        unit = m.group(2).lower()
+        mult = {"lakh crore": 1e12, "lakh": 1e5}.get(unit, 1e7)
         v = round(x * mult, 6)
         return str(int(v)) if v == int(v) else str(v)
 
@@ -453,10 +454,13 @@ def _canonicalize_whitespace(t: str) -> str:
 # --------------------------------------------------------------------------- #
 
 _RULE_PIPELINE = (
+    # digit-prefixed lakh/crore MUST expand before the number-word pass:
+    # _NUM_WORDS also holds 'lakh'/'crore', so the word pass otherwise turns
+    # '2.5 lakh' into '2.5 100000' (scale dropped, value wrong).
+    _expand_lakh_crore,
     _expand_number_words,
     _expand_power_phrases,
     _expand_indian_numbers,
-    _expand_lakh_crore,
     _expand_dozen,
     _expand_fraction_words,
     _canonicalize_percent_words,
@@ -489,8 +493,50 @@ def normalize_input(text: str) -> str:
                    r"where|assume)[^)]*\)", " ", t)
         # '4, 9, 14, ... up to 51' — an ellipsis is sequence padding,
         # not sentence punctuation; it would split 'sum the first 12
-        # terms' from its object and break ask-clause detection
-        t = re.sub(r"\.{2,}|…", " ", t)
+        # terms' from its object and break ask-clause detection.
+        # EXCEPTION (C9 dig): '0.777...' is a REPEATING decimal — the
+        # dots are the signal that it repeats forever, not padding.
+        # Keep them after a digit; strip only after space/comma
+        # (sequence context).
+        t = re.sub(r"(?<=[\s,])\.{2,}|(?<=[\s,])…", " ", t)
+        # normalize a long digit-run + ellipsis to canonical form
+        t = re.sub(r"(0\.\d{1,6})\.{2,}", r"\1...", t)
+        t = re.sub(r"(0\.\d{1,6})…", r"\1...", t)
+        # MCQ option block tail: '... are: A) 3,4  B) 5,6  C) 7,8' —
+        # the options are distractors, not givens; the trailing option
+        # list must not leak into equation parsing (observed: quadratic
+        # roots question read '0 are: A)...' as a term).  Strip from the
+        # option-list A-marker onward ONLY when a real option SEQUENCE
+        # follows: a B-marker after the A-marker.  Marker count alone
+        # over-triggers on math — '(cosec A)^2 + (sec A)^2 ... cot^2 A.'
+        # carries three 'A)'/'A.' hits that are angle references, not
+        # options (observed: the identity-proof question truncated to
+        # 'Prove that (sin A + cosec').
+        # LAST-MARKER RULE (SOLVER-DIG-2, 2026-10-06): a question whose
+        # OWN text ends in 'A.' before the options ('If cos A = 12/13,
+        # find sin A. A) 5/13 B) ...') saw its ask object destroyed by
+        # first-marker stripping — 'find sin' remained, 'A.' gone.  The
+        # option list is always the LAST A-marker that still has a
+        # B-marker after it, so strip from that one; every earlier
+        # A-marker is part of the question body and stays.
+        _best_a = None
+        for _m in re.finditer(r"\bA\s*[).:]", t):
+            # P(A|B) / P(A and B) — 'A)' inside a P(...) is probability
+            # notation, not an MCQ option marker. Skip it.
+            if re.search(r"P\s*\([^)]*$", t[:_m.start()]):
+                continue
+            # OPTION SEQUENCE = A,B,C: capital annotations in accounts/
+            # science stems ('interest at (A) 12% p.a. and (B) 9% p.a.')
+            # stop at B — they are partner/rate labels mid-sentence, and
+            # stripping from them ate the stem (electives appropriation
+            # asks truncated at 129 chars).  A real option block carries
+            # a C-marker too; require it.
+            _tail = t[_m.end():]
+            if re.search(r"\bB\s*[).:]", _tail) and \
+                    re.search(r"\bC\s*[).:]", _tail):
+                _best_a = _m
+        if _best_a is not None:
+            t = t[:_best_a.start()] + " "
         for rule in _RULE_PIPELINE:
             t = rule(t)
         if "\x08" in t:          # transport-corruption self-check

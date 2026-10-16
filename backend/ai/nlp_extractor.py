@@ -9,17 +9,25 @@ No API calls. Runs locally in ~5ms. Handles any number combination.
 import re
 from typing import Optional
 
-try:
-    import spacy
-    _nlp = None
-    def get_nlp():
-        global _nlp
-        if _nlp is None:
+# E1 (BATCH_BRIEF §4): spaCy pulls thinc->torch (~48s cold).  This module
+# rides main -> routers/tutor -> tutor_service -> orchestrator, so the
+# import-time `import spacy` was THE torch-at-boot door (found via an
+# import-trap stack capture).  Deferred to the first get_nlp() call —
+# boot pays nothing, first parse pays the load.
+spacy = None
+_nlp = None
+
+
+def get_nlp():
+    global spacy, _nlp
+    if _nlp is None:
+        try:
+            import spacy as _spacy
+            spacy = _spacy
             _nlp = spacy.load("en_core_web_sm")
-        return _nlp
-except ImportError:
-    def get_nlp():
-        return None
+        except ImportError:
+            return None
+    return _nlp
 
 
 # --------------------------------------------------------------------------- #

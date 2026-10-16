@@ -41,10 +41,28 @@ OUT_DIR = os.path.join(REPO, "deploy", "content", "model_answers")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 NVIDIA_BASE = "https://integrate.api.nvidia.com/v1"
-KEYS = [
-    "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",
-    "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",
-]
+
+
+def _load_keys():
+    # Keys never live in source — this file ships inside the Docker image.
+    # Order: NVIDIA_API_KEYS env (comma-separated), then the untracked
+    # nvidia_keys.txt sitting next to this script.
+    env_keys = [k.strip() for k in os.environ.get("NVIDIA_API_KEYS", "").split(",") if k.strip()]
+    if env_keys:
+        return env_keys
+    key_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "nvidia_keys.txt")
+    if os.path.exists(key_file):
+        with open(key_file, encoding="utf-8") as fh:
+            return [ln.strip() for ln in fh if ln.strip().startswith("nvapi-")]
+    return []
+
+
+KEYS = _load_keys()
+if not KEYS:
+    raise SystemExit(
+        "No NVIDIA API keys found: set NVIDIA_API_KEYS or create "
+        "backend/tools/nvidia_keys.txt (untracked, never committed)"
+    )
 KEY = KEYS[int(os.environ.get("GEN_PIPELINE_KEY_INDEX", "1"))]
 MODEL = "nvidia/nemotron-3-ultra-550b-a55b"
 FALLBACK = "nvidia/nemotron-3-super-120b-a12b"

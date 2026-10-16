@@ -46,6 +46,26 @@ class User(Base):
     failed_login_attempts = Column(Integer, default=0, nullable=True)
     locked_until = Column(DateTime(timezone=True), nullable=True)
     preferences = Column(JSON, nullable=True)
+
+    # ── DPDP parental consent (WS-LEGAL, migration 0003) ──────────────
+    # All nullable → zero-lock metadata-only ALTER on postgres; legacy
+    # rows simply read NULL ("consent not recorded on this form").
+    parent_email = Column(String(255), nullable=True)
+    # When the signup-time parental-consent checkbox was recorded.
+    parent_consent_at = Column(DateTime(timezone=True), nullable=True)
+    # How consent was captured, e.g. "signup_checkbox".
+    consent_method = Column(String(40), nullable=True)
+    # pending   — consent recorded, parent notice NOT yet delivered
+    #             (always the case while SMTP is unconfigured)
+    # notified  — consent-recorded notice dispatched to the parent
+    consent_status = Column(String(24), nullable=True)
+
+    # ── Account deletion lifecycle (WS-LEGAL, migration 0003) ─────────
+    # Soft-delete audit trail: is_active=False locks the account at
+    # request time; deletion_purge_at is when the worker's account_purge
+    # job hard-deletes residual rows (30-day recovery window).
+    deleted_at = Column(DateTime(timezone=True), nullable=True)
+    deletion_purge_at = Column(DateTime(timezone=True), nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), nullable=False)
 

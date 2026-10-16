@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn — Atlas Concept</title>
+<link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/cosmos.css">
+<link rel="stylesheet" href="css/paper.css"><link rel="stylesheet" href="css/motions.css">
+<style>
+  .rail { display: flex; gap: 6px; justify-content: center; padding: 26px 0 8px; flex-wrap: wrap; }
+  .rail span {
+    font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--cosmos-faint);
+    padding: 8px 14px; border: 1px solid transparent;
+  }
+  .rail span.on { color: var(--cosmos-gold); border-color: var(--cosmos-line); }
+  .rail span.done { color: var(--cosmos-dim); }
+  .conf-row { display: flex; gap: 14px; margin-top: 18px; }
+  .conf-row button {
+    flex: 1; font-family: var(--font-serif); font-size: 16px; padding: 14px;
+    border: 1.5px solid var(--ink); color: var(--ink); min-height: 48px;
+    transition: background var(--atlas-fast), transform var(--atlas-fast);
+  }
+  .conf-row button:hover { transform: translateY(-2px); }
+  .conf-row .no { color: var(--margin-red); border-color: var(--margin-red); }
+  .conf-row .mid { color: var(--gold-paper); border-color: var(--gold-paper); }
+  .conf-row .yes { color: var(--stamp); border-color: var(--stamp); }
+</style>
+</head>
+<body class="cosmos-page">
+<div class="specimen-bar" data-specimen-bar></div>
+
+<!-- pedagogy rail: cosmos chrome -->
+<nav class="rail" aria-label="Learning path">
+  <span class="on">● Feeler</span><span class="done">Hook</span><span>See it</span><span>Define</span>
+  <span>Try it</span><span>Check</span><span>Recall</span><span>Master</span>
+</nav>
+
+<div style="max-width:760px;margin:30px auto 90px;padding:0 20px;">
+  <p class="specimen gold" style="text-align:center;" data-motion="cosmos-in">
+    One quick question — no marks, it just picks where you start · <span id="st-chap">Physics · Class 10</span></p>
+
+  <!-- content on paper: legible by construction -->
+  <div class="paper-surface" style="margin-top:18px;">
+    <div class="paper-sheet" data-motion="settle">
+      <div class="sheet-head"><span class="l" id="st-head"></span><span class="r" id="st-topic"></span></div>
+      <div class="sheet-body">
+        <p style="font-size:18px;max-width:580px;color:var(--ink);" id="st-q"></p>
+        <p class="specimen" style="margin-top:16px;">Before you peek — how sure are you?</p>
+        <div class="conf-row">
+          <button class="no" onclick="confPick(this)">Not sure</button>
+          <button class="mid" onclick="confPick(this)">Kind of</button>
+          <button class="yes" onclick="confPick(this)">Got it</button>
+        </div>
+        <p class="paper-redpen" id="st-conf-note" style="margin-top:14px;min-height:28px;font-size:20px;"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-surface" style="margin-top:26px;" data-motion="settle" id="st-hook-wrap" hidden>
+    <div class="paper-sheet ruled">
+      <div class="sheet-head"><span class="l">Hook · why this matters</span><span class="r">scene 2 of 7</span></div>
+      <div class="sheet-body">
+        <p style="font-size:17px;color:var(--ink);max-width:580px;" id="st-hook"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/chrome.js"></script>
+<script src="js/motions.js"></script>
+<script>
+const f = ATLAS_DATA.pick(ATLAS_DATA.FEELERS);
+document.getElementById("st-head").textContent = f.head;
+document.getElementById("st-topic").textContent = f.chap;
+document.getElementById("st-chap").textContent = f.chap;
+document.getElementById("st-q").textContent = f.q;
+document.getElementById("st-hook").textContent = f.hook;
+
+function confPick(btn) {
+  const notes = {
+    "no":  "— honest answer. we'll start from the hook, slowly.",
+    "mid": "— fair. the hook will firm it up.",
+    "yes": "— confidence noted. the check at the end decides."
+  };
+  document.getElementById("st-conf-note").textContent =
+    notes[btn.classList.contains("no") ? "no" : btn.classList.contains("mid") ? "mid" : "yes"];
+  // rail advances: Feeler done → Hook lit, hook card reveals
+  document.querySelectorAll(".rail span")[0].className = "done";
+  document.querySelectorAll(".rail span")[1].className = "on";
+  document.querySelectorAll(".rail span")[1].textContent = "● Hook";
+  const w = document.getElementById("st-hook-wrap");
+  w.hidden = false;
+  motionScan();
+}
+motionScan();
+</script>
+</body>
+</html>

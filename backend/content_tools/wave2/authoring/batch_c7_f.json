@@ -1,0 +1,84 @@
+{
+ "edits": [
+  {
+   "file": "c7_hist_ch08_010.md",
+   "definition": "India's civilisational signature is pluralism — the settled habit of absorbing many faiths, tongues and philosophies without dissolving any of them. From the Vedic age onward, new religious movements (Buddhism, Jainism), arriving traditions (Christianity, Islam, Zoroastrianism, Judaism, Sikhism's birth on its own soil) and foreign settlers were argued with, traded with, married into and accommodated, while courts patronised rival schools of thought in the same reign. The result is a culture whose art, cuisine, music and languages are visibly composite, and whose modern Constitution gave this old ethos the shape of equal citizenship for every community."
+  },
+  {
+   "file": "c7_math_ch04_007.md",
+   "definition": "Combining like terms is the tidy-up step of algebra: terms with exactly the same variable part — same letters, same powers — are merged by adding or subtracting their coefficients, while unlike terms are left untouched. In 3x + 5x the variable parts match, so the expression collapses to 8x; in 4a + 3b − a + 2b the like pairs give 3a + 5b, and x² and x are never combinable because their powers differ. The rule behind it is the distributive law in reverse — 3x + 5x = (3 + 5)x — so combining like terms changes an expression's appearance, never its value."
+  },
+  {
+   "file": "c7_math_ch11_005.md",
+   "definition": "The Euclidean division method finds the HCF of two numbers by repeated division with remainders, and is far faster than listing factors for large numbers. Divide the larger number by the smaller and note the remainder; replace the pair with (divisor, remainder) and repeat; the last non-zero remainder is the HCF. For 252 and 198: 252 = 1 × 198 + 54; 198 = 3 × 54 + 36; 54 = 1 × 36 + 18; 36 = 2 × 18 + 0 — so the HCF is 18. It works because any number dividing both dividend and divisor also divides the remainder, so the common factor survives every step until it is the remainder itself."
+  },
+  {
+   "file": "c7_math_ch13_002.md",
+   "definition": "A frequency table turns a messy list of raw data — every mark, every shoe size, every favourite fruit as recorded — into an organised count: each distinct value is listed once, a tally stroke is added for every occurrence (every fifth stroke crossing the previous four, in bundles of five), and the tally's total is written as the frequency. Reading the finished table, one can say at once which value is most common, how many observations fall in a range, and what the data's shape looks like — which is why the tally-and-frequency table is the first and most durable tool of statistics."
+  },
+  {
+   "file": "c7_math_ch14_003.md",
+   "definition": "Bisecting an angle with compass and straightedge alone cuts any given angle into two exactly equal halves, no protractor needed. The construction: with the vertex as centre, draw an arc crossing both arms of the angle; from those two crossing points, with the same radius, draw two arcs that intersect inside the angle; join the vertex to that intersection point — this ray is the bisector, and the two half-angles are equal because the construction makes two triangles congruent by SSS. The same compass equality is why the method works for any angle, on paper or on a plot of land."
+  },
+  {
+   "file": "c7_bio_ch03_006.md",
+   "definition": "Carbon dioxide is the gaseous raw material of photosynthesis: green plants take it in from the air through the stomata of their leaves, and inside the chloroplasts its carbon atoms — with hydrogen from water — are built into glucose, while its oxygen is released back to the air. The flow is remarkable: plants breathe in the gas animals breathe out, and turn it into the food, wood, fibre and fossil fuels that store the Sun's energy. Every carbon atom in your body passed through a leaf as CO2 — the gas is not waste but the very skeleton of living matter."
+  },
+  {
+   "file": "c7_math_ch02_004.md",
+   "definition": "Equivalent expressions are different-looking expressions that always evaluate to the same value, whatever numbers are substituted into them: 3 × 4 + 12 equals 2 × 12, and 2(x + 3) equals 2x + 6 for every x. Equivalence arises from lawful moves — reordering by the commutative laws, regrouping by the associative laws, distributing, or combining like terms — and it is checked by substitution: pick any convenient value for the variable, evaluate both expressions, and they must agree (and ideally try two values). Equivalent expressions matter because one form may be much easier to use than another — 2(x + 3) shows the structure, 2x + 6 is ready for arithmetic."
+  },
+  {
+   "file": "c7_math_ch05_003.md",
+   "definition": "When two straight lines intersect, four angles form around the crossing point, and the pairs facing each other across it — called vertically opposite angles — are always equal in measure. The reason is the linear pair: each angle sits next to the same opposite angle on a straight line, so both add to 180° with it and must be equal to each other. Thus one known angle settles all four: if one is 60°, its vertical opposite is 60°, and the other two are 120° each. The 'vertical' in the name means sharing the vertex, not pointing upwards."
+  },
+  {
+   "file": "c7_math_ch12_008.md",
+   "definition": "Word problems on decimal multiplication and division are translation exercises as much as calculation: the scenario must become an expression (2.5 kg at ₹46.75 per kg means 2.5 × 46.75), the operation done carefully — multiply ignoring the points, then place the decimal so the total decimal places of the factors reappear in the product; for division, shift the decimal point equally in divisor and dividend to make the divisor a whole number — and finally the units and the decimal's reasonableness checked (a kilo of rice cannot cost ₹1.4). Estimation first, exact working second, unit check last: that order catches most errors before they are made."
+  },
+  {
+   "file": "c7_civ_ch01_001.md",
+   "definition": "A government is the machinery through which a state acts: the institutions that make laws (the legislature), carry them out (the executive), settle disputes under them (the judiciary), and run the public services — schools, hospitals, police, roads, relief — that people cannot provide alone. It collects taxes to pay for these functions, defends the territory, and manages relations with other countries. What separates governments from each other is not the list of functions but who controls the machinery and answers for it: in a democracy the people choose and can change their government; in a dictatorship the government answers to no one but itself."
+  },
+  {
+   "file": "c7_eco_ch03_009.md",
+   "definition": "Every big infrastructure project is also a jobs machine. Building a highway employs engineers to design it, workers to build it, and drivers, toll staff and petrol pumps to run it once open — the direct jobs — while the materials industries it feeds (cement, steel, bitumen, machinery) expand their own workforces in response: the indirect jobs. Hospitals and schools add teachers, nurses and technicians for decades of operation. Infrastructure's second employment effect is quieter but larger: better roads, power and connectivity let existing businesses grow and new ones start, so the region's whole job market deepens around the project that built it."
+  },
+  {
+   "file": "c7_math_ch13_008.md",
+   "definition": "Interpreting a graph means reading the picture back into the situation it came from. On a bar graph, compare bar heights to answer which class scored highest, and by how much; on a line graph, follow the trend — rising, falling, flat — and watch the slope, because a steep section means fast change and a flat section means none (a patient's temperature chart tells the story of the fever, not just its peak). Always read the scale first, check the units, and finish with a conclusion in words — a graph is interpreted correctly only when its shape is translated back into a sentence about the real thing."
+  },
+  {
+   "file": "c7_math_ch15_003.md",
+   "definition": "The systematic method for solving a linear equation is a disciplined march: apply the inverse operation to undo what was done to the variable, doing exactly the same thing to both sides at each step so the balance survives. Constants are removed first (add or subtract), coefficients next (multiply or divide); for equations with the variable on both sides, all variable terms are first gathered onto one side. Each step is written in full — not done in the head — and the final value is proved by substituting it back into the original equation, where it must make both sides equal."
+  },
+  {
+   "file": "c7_bio_ch01_003.md",
+   "definition": "The adolescent growth spurt is the fastest growth since infancy: in two to three years a teenager can grow 8–12 centimetres taller and gain a large share of adult body mass. It runs on hormones — growth hormone from the pituitary drives the elongation of the long bones of the legs and arms, sex hormones trigger the widening of shoulders in boys and hips in girls, and increased appetite supplies the building material. The spurt arrives earlier in girls (around 10–12) than in boys (12–14), which briefly makes girls taller — and its timing and pace vary so widely that two healthy classmates can differ by centimetres for years."
+  },
+  {
+   "file": "c7_bio_ch01_006.md",
+   "definition": "Adolescence changes the mind as thoroughly as the body. Shifting hormone levels act directly on the developing brain, producing mood swings — elation and irritation within an hour — alongside a new self-consciousness about appearance and what others think, and a strong drive towards independence: questioning parents, defending privacy, preferring friends' opinions. These shifts are a normal developmental stage, not misbehaviour: the adolescent is practising adult judgment on smaller stakes. What helps is patient communication, respect for the new-found need for space, and steady boundaries — the transition lands best when adults treat the adolescent as becoming a person, not as becoming a problem."
+  },
+  {
+   "file": "c7_hist_ch05_010.md",
+   "definition": "In India, sacred geography is not a separate religious layer — it is folded into everyday life. Villages name their lakes and groves after deities and refrain from cutting the latter; the day's work begins with a prayer to the local river; weddings are sealed at pilgrimage shrines, and the family calendar follows festivals keyed to rivers and mountains — Ganga Dussehra, Govardhan Puja. Art repeats the same peaks and waters in temple sculpture and folk painting; communities trace their identity to the tirtha in their region. The sacred map and the social map coincide, which is why protecting a river or grove has always been more than an environmental act."
+  },
+  {
+   "file": "c7_math_ch07_002.md",
+   "definition": "An equilateral triangle is the triangle of perfect equality: all three sides equal in length, and therefore all three angles equal too — each exactly 60°, since the three must sum to 180°. Every equilateral triangle is also equiangular and isosceles in three different ways; its symmetry runs threefold, with each median doubling as angle bisector, altitude and perpendicular bisector. These regularities make it the constructor's favourite building block — tessellating patterns, trusses and the standard 60° angle all begin by swinging one compass arc through two centres."
+  },
+  {
+   "file": "c7_bio_ch01_011.md",
+   "definition": "Hormones are the body's chemical messengers: molecules secreted by ductless (endocrine) glands — the pituitary, thyroid, adrenal glands and others — directly into the bloodstream, which carries them to target organs far away. In tiny amounts they steer huge processes: growth hormone builds the adolescent body, thyroxine sets the metabolic rate, adrenaline powers the emergency response, and the sex hormones bring on puberty's physical changes. Because hormones act slowly but lastingly, they coordinate long-range processes that nerves handle poorly — growth, development, metabolism — and their balance matters: too little or too much of any one produces a distinct disorder."
+  },
+  {
+   "file": "c7_bio_ch03_008.md",
+   "definition": "Xylem is the plant's water-conducting tissue: long tubes, formed of hollow dead cells joined end to end, that carry water and dissolved mineral salts upwards from the roots through the stem and into the leaves. The upward flow is powered mostly by transpiration — the evaporation of water from the leaves pulls the whole column upward like water up a straw — with root pressure assisting at times. The same rigid, lignified walls that let xylem conduct also give wood its strength; timber is xylem by another name. Together with the food-carrying phloem it forms the plant's vascular bundle network."
+  },
+  {
+   "file": "c7_civ_ch03_005.md",
+   "definition": "The judiciary is the third organ of government — the courts that interpret the law, resolve disputes and, above all, uphold the Constitution. It hears civil and criminal cases, tests the acts of the legislature and executive against the Constitution (and can strike down those that violate it), and protects citizens' Fundamental Rights when any arm of the state or any person violates them. Its independence — judges appointed with security of tenure and salary, removable only in the hardest of cases — is what allows its verdicts to be impartial even against the government of the day, making it the final authority on what the law of the land means."
+  }
+ ]
+}

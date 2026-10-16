@@ -1,0 +1,125 @@
+[
+ {
+  "node": "c6_math_ch01_001",
+  "detail": 200,
+  "title": "Numbers in our everyday life",
+  "enrichment": 200,
+  "teach": 200,
+  "teach_diag_q": true,
+  "mastery_before": {
+   "nodeId": "c6_math_ch01_001",
+   "masteryProbability": 0.0,
+   "pKnown": 0.0,
+   "attempts": 0,
+   "lastAttemptAt": null
+  },
+  "questions": 200,
+  "nq": 5,
+  "submit": "422 {\"detail\": [{\"type\": \"missing\", \"loc\": [\"body\"], \"msg\": \"Field required\", \"input"
+ },
+ {
+  "node": "c6_math_ch01_002",
+  "detail": 200,
+  "title": "Natural numbers",
+  "enrichment": 200,
+  "teach": 200,
+  "teach_diag_q": true,
+  "mastery_before": {
+   "nodeId": "c6_math_ch01_002",
+   "masteryProbability": 0.0,
+   "pKnown": 0.0,
+   "attempts": 0,
+   "lastAttemptAt": null
+  },
+  "questions": 200,
+  "nq": 5,
+  "submit": "422 {\"detail\": [{\"type\": \"missing\", \"loc\": [\"body\"], \"msg\": \"Field required\", \"input"
+ },
+ {
+  "node": "c6_physics_ch01_001",
+  "detail": 200,
+  "title": "Science",
+  "enrichment": 200,
+  "teach": 200,
+  "teach_diag_q": true,
+  "mastery_before": {
+   "nodeId": "c6_physics_ch01_001",
+   "masteryProbability": 0.0,
+   "pKnown": 0.0,
+   "attempts": 0,
+   "lastAttemptAt": null
+  },
+  "questions": 200,
+  "nq": 5,
+  "submit": "422 {\"detail\": [{\"type\": \"missing\", \"loc\": [\"body\"], \"msg\": \"Field required\", \"input"
+ },
+ {
+  "node": "c7_math_ch01_001",
+  "detail": 200,
+  "title": "The lakh",
+  "enrichment": 200,
+  "teach": 200,
+  "teach_diag_q": true,
+  "mastery_before": {
+   "nodeId": "c7_math_ch01_001",
+   "masteryProbability": 0.0,
+   "pKnown": 0.0,
+   "attempts": 0,
+   "lastAttemptAt": null
+  },
+  "questions": 200,
+  "nq": 5,
+  "submit": "503 <html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r"
+ },
+ {
+  "node": "c7_math_ch01_002",
+  "detail": 503,
+  "title": null,
+  "enrichment": 503,
+  "teach": 503,
+  "mastery_before": 503,
+  "questions": 503,
+  "submit": "NO_QID"
+ },
+ {
+  "node": "c7_physics_ch01_001",
+  "detail": 503,
+  "title": null,
+  "enrichment": 503,
+  "teach": 200,
+  "teach_diag_q": true,
+  "mastery_before": 503,
+  "questions": 503,
+  "submit": "NO_QID"
+ },
+ {
+  "node": "c8_math_ch10_1",
+  "detail": 503,
+  "title": null,
+  "enrichment": 503,
+  "teach": 503,
+  "mastery_before": 503,
+  "questions": 503,
+  "submit": "NO_QID"
+ },
+ {
+  "node": "c8_math_ch10_2",
+  "detail": 503,
+  "title": null,
+  "enrichment": 503,
+  "teach": 503,
+  "mastery_before": 503,
+  "questions": 503,
+  "submit": "NO_QID"
+ },
+ {
+  "node": "c8_physics_ch01_001",
+  "detail": 404,
+  "title": null,
+  "enrichment": 503,
+  "teach": 503,
+  "mastery_before": 503,
+  "questions": 503,
+  "submit": "NO_QID"
+ }
+]

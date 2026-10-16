@@ -115,8 +115,50 @@ def _fake_corpus(node_id: str):
 @pytest.fixture(autouse=True)
 def stub_corpus(monkeypatch):
     """Deterministic authored text — the real 14k-file corpus is not a test
-    dependency. One test below re-enables the honest-None path."""
+    dependency. One test below re-enables the honest-None path.
+
+    next_best_lesson reads the LIVE corpus index (D1/D11 fix, 2026-09-30),
+    so the corpus seam is stubbed here too — otherwise whatever corpus
+    another test module left in the global singleton (e.g. test_learnpath's
+    fixture env) would decide these digests.  The stub mirrors the authored
+    fixture nodes: the class-10 cohort, where Life Processes / Laws of
+    Motion are gate-free starts and the chem / second-bio / math nodes
+    stand on class-9 gates (hard, cross-class — D11)."""
+    import backend.services.next_best_lesson as nbl_mod
+
+    class _Idx:
+        nodes = {
+            "c9_bio_cbse_09_001": {"node_id": "c9_bio_cbse_09_001", "class": 9,
+                                   "subject": "bio", "chapter": 9, "node_num": 1,
+                                   "prereq_ids": []},
+            "c9_chem_cbse_09_001": {"node_id": "c9_chem_cbse_09_001", "class": 9,
+                                    "subject": "chem", "chapter": 9, "node_num": 1,
+                                    "prereq_ids": []},
+            "c9_math_cbse_09_001": {"node_id": "c9_math_cbse_09_001", "class": 9,
+                                    "subject": "math", "chapter": 9, "node_num": 1,
+                                    "prereq_ids": []},
+            "c10_bio_cbse_01_001": {"node_id": "c10_bio_cbse_01_001", "class": 10,
+                                    "subject": "bio", "chapter": 1, "node_num": 1,
+                                    "prereq_ids": []},
+            "c10_bio_cbse_01_002": {"node_id": "c10_bio_cbse_01_002", "class": 10,
+                                    "subject": "bio", "chapter": 1, "node_num": 2,
+                                    "prereq_ids": ["c9_bio_cbse_09_001"]},
+            "c10_chem_cbse_02_001": {"node_id": "c10_chem_cbse_02_001", "class": 10,
+                                     "subject": "chem", "chapter": 2, "node_num": 1,
+                                     "prereq_ids": ["c9_chem_cbse_09_001"]},
+            "c10_phy_cbse_03_001": {"node_id": "c10_phy_cbse_03_001", "class": 10,
+                                    "subject": "phy", "chapter": 3, "node_num": 1,
+                                    "prereq_ids": []},
+            "c10_math_cbse_04_001": {"node_id": "c10_math_cbse_04_001", "class": 10,
+                                     "subject": "math", "chapter": 4, "node_num": 1,
+                                     "prereq_ids": ["c9_math_cbse_09_001"]},
+        }
+
+        def get(self, nid):
+            return self.nodes.get(nid)
+
     monkeypatch.setattr(gs, "_load_corpus_node", _fake_corpus)
+    monkeypatch.setattr(nbl_mod, "_corpus_index", lambda: _Idx())
 
 
 # ---------------------------------------------------------------------------

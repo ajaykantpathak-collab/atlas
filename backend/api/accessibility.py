@@ -147,7 +147,7 @@ class AccessibilityPreferencesUpdate(BaseModel):
 class AdaptContentRequest(BaseModel):
     """Request to transform raw content for accessibility."""
 
-    content: str = Field(..., min_length=1,
+    content: str = Field(..., min_length=1, max_length=200_000,
                          description="Raw content text to adapt")
     content_type: ContentType = Field(default=ContentType.TEXT)
     preferences: AccessibilityPreferences = Field(

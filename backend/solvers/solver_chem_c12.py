@@ -365,11 +365,64 @@ def amines_diazotization(mass_g: float, M_ArNH2: float, M_NaNO2_m: float) -> Sol
     )
 
 
+
+
+def kinetics_first_order(k: float, C0: float, t_ask: float) -> SolverResult:
+    """First-order kinetics: t1/2, t80, rate at t_ask, initial rate."""
+    import math as m
+    t_half = m.log(2) / k if k > 0 else float('inf')
+    t80 = -m.log(0.2) / k if k > 0 else float('inf')
+    rate_t = k * C0 * m.exp(-k * t_ask) if k > 0 else 0.0
+    rate0 = k * C0
+    steps = [
+        Step(f"Half-life: t1/2 = ln(2)/k = {t_half:.4g} s"),
+        Step(f"80% completion: t = -ln(0.2)/k = {t80:.4g} s"),
+        Step(f"Rate at t = {t_ask} s: k*C0*exp(-k*t) = "
+             f"{rate_t:.4e} M/s"),
+        Step(f"Initial rate: k*C0 = {rate0:.4e} M/s"),
+    ]
+    return SolverResult(
+        success=True,
+        model_answer=(f"t1/2 = {t_half:.4g} s, t(80%) = {t80:.4g} s, "
+                      f"rate({t_ask} s) = {rate_t:.4e} M/s, "
+                      f"initial rate = {rate0:.4e} M/s"),
+        final_answer=f"t1/2 = {t_half:.4g} s",
+        solution_steps=steps,
+        unit="s",
+    )
+
+
+def kinetics_arrhenius(k1: float, k2: float, T1: float, T2: float) -> SolverResult:
+    """Arrhenius: Ea = R ln(k2/k1) / (1/T1 - 1/T2), reported in kJ/mol."""
+    import math as m
+    R = 8.314
+    if k1 <= 0 or k2 <= 0 or T1 <= 0 or T2 <= 0 or T1 == T2:
+        return SolverResult(success=False, error="non-positive input")
+    ea = R * m.log(k2 / k1) / (1.0 / T1 - 1.0 / T2)
+    steps = [
+        Step(f"ln(k2/k1) = ln({k2:.2e}/{k1:.2e}) = "
+             f"{m.log(k2 / k1):.6g}"),
+        Step(f"1/T1 - 1/T2 = 1/{T1} - 1/{T2} = "
+             f"{1.0 / T1 - 1.0 / T2:.6e} K^-1"),
+        Step(f"Ea = R*ln(k2/k1)/(1/T1 - 1/T2) = {ea:.6g} J/mol"),
+        Step(f"Ea = {ea / 1000:.4g} kJ/mol"),
+    ]
+    return SolverResult(
+        success=True,
+        model_answer=f"Activation energy Ea = {ea / 1000:.4g} kJ/mol",
+        final_answer=f"{ea / 1000:.4g} kJ/mol",
+        solution_steps=steps,
+        unit="kJ/mol",
+    )
+
+
 SOLVER_REGISTRY = {
     "solid_state_defects": solid_state_defects,
     "solutions_vp_lowering": solutions_vp_lowering,
     "electrochemistry_cell_emf": electrochemistry_cell_emf,
     "kinetics_radioactive_decay": kinetics_radioactive_decay,
+    "kinetics_first_order": kinetics_first_order,
+    "kinetics_arrhenius": kinetics_arrhenius,
     "surface_chem_gibbs_adsorption": surface_chem_gibbs_adsorption,
     "metallurgy_ellingham": metallurgy_ellingham,
     "pblock_contact_process": pblock_contact_process,

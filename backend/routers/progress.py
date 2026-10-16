@@ -11,6 +11,7 @@ import logging
 import uuid
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
@@ -627,20 +628,17 @@ async def get_review_queue(
     """Return the user's spaced-repetition review queue."""
     queue = await ProgressService.get_review_queue(db, str(user.id))
 
-    if isinstance(queue, ReviewQueueResponse):
-        return queue
-    if isinstance(queue, dict):
-        return ReviewQueueResponse(**queue)
-    # Assume a list of items
+    # Assume a list of items — build explicitly: the ORM carries UUID ids
+    # and date fields the schema types as str, and has no question/answer
+    # columns (model_validate would 500 on both).
     from backend.schemas.progress import ReviewItemSchema
 
-    items = [
-        ReviewItemSchema(**item) if isinstance(item, dict) else ReviewItemSchema.model_validate(item)
-        for item in queue
-    ]
-    # Enrich with slug + authored title — the UI links by slug and raw
-    # corpus node ids must never render as the concept name.
-    node_ids = [i.node_id for i in items if i.node_id]
+    node_ids = [i.node_id for i in queue if getattr(i, "node_id", None)]
+
+    # Enrich with authored titles — raw corpus node ids must never render
+    # as the concept name; definition doubles as the recall answer.
+    titles: dict = {}
+    defs: dict = {}
     if node_ids:
         try:
             from backend.models.enrichment import EnrichmentContent as _EC
@@ -648,20 +646,37 @@ async def get_review_queue(
 
             rows = (
                 await db.execute(
-                    _sel(_EC.node_id, _EC.title, _EC.slug).where(
+                    _sel(_EC.node_id, _EC.title, _EC.definition).where(
                         _EC.node_id.in_(node_ids)
                     )
                 )
             ).all()
-            meta = {r.node_id: r for r in rows}
-            for it in items:
-                m = meta.get(it.node_id)
-                if m is not None:
-                    it.slug = m.slug
-                    if m.title:
-                        it.concept_name = m.title
+            for r in rows:
+                titles[r.node_id] = r.title
+                defs[r.node_id] = (r.definition or "").strip()
         except Exception:
             pass
+
+    items = []
+    for it in queue:
+        name = titles.get(it.node_id) or it.concept_name or it.node_id
+        answer = defs.get(it.node_id) or ""
+        items.append(
+            ReviewItemSchema(
+                id=str(it.id),
+                node_id=it.node_id,
+                concept_name=name,
+                easiness_factor=float(it.easiness_factor or 2.5),
+                interval_days=int(it.interval_days or 1),
+                repetitions=int(it.repetitions or 0),
+                next_review_date=(
+                    it.next_review_date.isoformat()
+                    if it.next_review_date else ""
+                ),
+                question=f"Quick recall: what is the key idea of {name}?",
+                answer=answer or "Revisit this concept in the Learn tab.",
+            )
+        )
     return ReviewQueueResponse(items=items, total=len(items))
 
 
@@ -676,10 +691,70 @@ async def get_next_step(
     unresolved-misconception remediation, then prerequisite-aware
     teaching for weak nodes, then consolidation practice, and finally
     exploration. Returns student-safe identifiers only (title + slug).
+
+    Loop-audit fix (2026-10-05): the orchestrator reads only
+    mastery_records / attempts / review rows, so a student with an OPEN
+    journey topic (mid TEACH/PRACTICE/REMEDIATE/CHALLENGE) but thin
+    ledger rows used to get the "explore" fallback — told to go browse
+    while a lesson sits half-finished. When the orchestrator runs out of
+    signals, the journey state machine gets the last word: continue the
+    most recently touched open topic.  Every other orchestrator decision
+    stands untouched; journey/db hiccups degrade to the plain result.
     """
     from backend.services.orchestrator import LearningOrchestrator
 
-    return await LearningOrchestrator.next_step(db, str(user.id))
+    out = await LearningOrchestrator.next_step(db, str(user.id))
+
+    try:
+        if isinstance(out, dict) and out.get("action") == "explore":
+            from backend.modules.journey import engine as _je
+
+            row = _je.latest_inflight(str(user.id))
+            if row:
+                card = await _journey_node_card(db, row["node_id"])
+                if card is not None:
+                    return {
+                        "action": _je.JOURNEY_ACTION.get(row["state"],
+                                                         "practice"),
+                        "reason": "You have this topic open — pick up "
+                                  "right where you left off.",
+                        "node": card,
+                        "link": card.get("link"),
+                    }
+    except Exception:
+        logger.debug("journey continuation step skipped: %s",
+                     exc_info=True)
+    return out
+
+
+async def _journey_node_card(db: AsyncSession, node_id: str):
+    """Title card for a journey continuation pick.
+
+    Returns None when no authored title exists — a raw node id must never
+    render as the concept name (display law), so an unenriched node keeps
+    the orchestrator's honest explore fallback instead.
+    """
+    from backend.models.enrichment import EnrichmentContent
+
+    row = (
+        await db.execute(
+            select(
+                EnrichmentContent.node_id,
+                EnrichmentContent.title,
+                EnrichmentContent.subject,
+                EnrichmentContent.class_level,
+            ).where(EnrichmentContent.node_id == node_id)
+        )
+    ).first()
+    if row is None or not row[1]:
+        return None
+    return {
+        "title": row[1],
+        "node_id": row[0],
+        "subject": row[2],
+        "class_level": row[3],
+        "link": f"/learn/{row[0]}",
+    }
 
 
 @router.post("/review/answer", response_model=ReviewAnswerResponse)

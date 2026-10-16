@@ -1,0 +1,48 @@
+{
+  "edits": [
+    {
+      "file": "c9_math_ch12_4.md",
+      "definition": "In a parallelogram, the diagonals intersect at a point that divides each diagonal into two equal segments: if the diagonals AC and BD meet at O, then AO = OC and BO = OD. The proof joins the intersection point to all four vertices and uses triangle congruence (ASA), resting on the equal and parallel opposite sides of the parallelogram. The converse also holds — if the diagonals of a quadrilateral bisect each other, the quadrilateral is a parallelogram — which makes diagonal bisection a standard test for identifying parallelograms.",
+      "walkthrough_append": "Complete the formal proof once, from the page, without the grid: join AO, BO, CO and DO. In triangles AOB and COD, AB = CD (opposite sides of a parallelogram), ∠ABO = ∠CDO and ∠BAO = ∠DCO (alternate interior angles, since AB is parallel to DC), so the triangles are congruent by ASA, and corresponding parts give AO = OC and BO = OD. Exam takeaway: bisection of diagonals follows by ASA congruence, and the converse gives a yes/no test — if the midpoints of the two diagonals of a quadrilateral coincide, it is a parallelogram. Self-check: in parallelogram PQRS, if PO = 4x − 3 and OR = 2x + 5, set them equal, solve for x, and state the length of each half of diagonal PR."
+    },
+    {
+      "file": "c9_math_ch13_5.md",
+      "definition": "The volume of a cuboid is the measure of the three-dimensional space it occupies and equals the product of its length, breadth and height: V = l × b × h. A cube, whose length, breadth and height are all equal to the edge a, has volume V = a³. Volume is measured in cubic units, with 1 cm³ = 1000 mm³ and 1 m³ = 1,000,000 cm³, and 1 litre = 1000 cm³ links the formula to capacity. Since any face may serve as the base, the same formula reads V = area of base × height.",
+      "walkthrough_append": "Run one full example with unit discipline: a cuboidal water tank measures 2 m × 1.5 m × 1.2 m, so V = 2 × 1.5 × 1.2 = 3.6 m³; since 1 m³ = 1000 litres, the tank holds 3600 litres — the conversion is where most marks are lost. Then invert the formula as the exam loves to do: a cuboid of volume 480 cm³ with length 10 cm and breadth 8 cm has height 480 ÷ (10 × 8) = 6 cm. Exam takeaway: V = l × b × h for a cuboid and V = a³ for a cube; every inverse problem is just division by the two known dimensions. Self-check: find the volume of a cube of edge 5 cm, the height of a cuboid of volume 200 cm³ standing on a 10 cm × 5 cm base, and convert 2.5 m³ into litres."
+    },
+    {
+      "file": "c9_math_ch13_4.md",
+      "definition": "The surface area of a sphere of radius r is 4πr², the total area of the curved surface that wraps it. A hemisphere is half a sphere, so its curved surface alone is 2πr². Its total surface area adds the flat circular base, πr², giving 3πr². Both formulas depend on the radius alone, so any given diameter must first be converted using r = d/2 before substituting.",
+      "walkthrough_append": "Now the hemisphere in one clean line: a bowl of radius 10.5 cm has curved surface 2 × (22/7) × 10.5 × 10.5 = 693 cm², and if it is a solid hemisphere with the flat circular face included, the total is 3 × (22/7) × 10.5 × 10.5 = 1039.5 cm². Notice which question is being asked — curved only, or total — because the πr² base is exactly the difference between the two answers. Exam takeaway: sphere 4πr²; hemisphere curved 2πr²; hemisphere total 3πr²; always convert diameter to radius before touching the formula. Self-check: find the surface area of a sphere of diameter 14 cm, then the curved and total surface areas of a hemisphere of radius 7 cm, taking π = 22/7."
+    },
+    {
+      "file": "c9_math_ch10_5.md",
+      "definition": "When two straight lines intersect, the angles opposite each other at the crossing point — sharing only the vertex, never an arm — are called vertically opposite angles, and each such pair is equal in measure. If lines AB and CD intersect at O, then ∠AOC = ∠BOD and ∠AOD = ∠BOC. The proof rests on linear pairs: the angles on each straight line at O add to 180°, and comparing the two sums forces the opposite angles equal. The equalities arise at every crossing — road junctions, a pair of scissors, the letter X — and are the first facts to mark in any intersecting-lines figure.",
+      "walkthrough_append": "Chase one multi-line figure to full marks: three straight lines through a single point create six angles; each angle's vertically opposite twin equals it, and neighbouring pairs on each line add to 180° — so knowing any single angle fills the whole figure. If ∠AOC = 55°, then ∠BOD = 55° immediately, and the remaining four angles are 180° − 55° = 125° each. Exam takeaway: at any intersection, mark the vertically opposite equalities before doing any arithmetic — half the figure then solves itself. Self-check: in the same figure suppose one angle is a right angle; state all six angles and justify each one with the property used."
+    },
+    {
+      "file": "c9_math_ch10_10.md",
+      "definition": "The Angle Sum Property of a Triangle states that the sum of the three interior angles of any triangle is 180°: in ΔABC, ∠A + ∠B + ∠C = 180°. The classic proof draws the line through one vertex parallel to the opposite side, so that the three angles rearrange into a straight angle at that vertex. The property holds for every triangle — acute, right, obtuse, isosceles or equilateral — and it converts most figure problems into a single subtraction once two angles are known."
+    },
+    {
+      "file": "c9_math_ch3_3.md",
+      "definition": "A rational number is any number that can be written in the form p/q, where p and q are integers and q is not zero; the set of all rational numbers is denoted Q. Integers, terminating decimals and repeating decimals are all rational — for example, 5 = 5/1, −3/4 as it stands, 0.75 = 3/4 and 0.333… = 1/3. Every rational number has a standard form: p/q in lowest terms with q positive, obtained by cancelling the common factors of p and q and adjusting the sign."
+    },
+    {
+      "file": "c9_math_ch13_6.md",
+      "definition": "The volume of a right circular cylinder is the amount of space it occupies, given by V = πr²h — the area of its circular base, πr², multiplied by its perpendicular height h. The picture behind the formula is stacking: layers of the same circular base raised to height h, exactly as l × b × h stacks rectangular layers in a cuboid. Volume comes in cubic units, and 1 litre = 1000 cm³ connects the formula to the everyday capacity of tins, drums and water tanks."
+    },
+    {
+      "file": "c9_math_ch11_8.md",
+      "walkthrough_append": "Push the ranking into proof language once: suppose a triangle has ∠B greater than ∠C; the longer-side theorem then gives AC > AB — and conversely, AC > AB forces ∠B > ∠C, the two statements standing or falling together. In an isosceles triangle the theorem collapses to its fairest case: equal sides face equal angles, so the base angles match. Exam takeaway: order the angles and the sides fall into the same order — the largest side always faces the largest angle; in a right-angled triangle the hypotenuse is the rule made visible. Self-check: a triangle has sides 6 cm, 8 cm and 10 cm; name the largest and smallest angles, state which angle measures 90°, and justify your claim."
+    },
+    {
+      "file": "c9_math_ch10_6.md",
+      "walkthrough_append": "Apply the axiom down a zig-zag figure: with two parallel rails cut by a transversal, one measured angle of 70° immediately fixes its corresponding partner at 70°; the adjacent partner on the straight line is then 110°, and every remaining angle falls by alternately applying corresponding-angle, alternate-angle and linear-pair facts — eight angles from a single measurement. Exam takeaway: the axiom speaks only when the lines are parallel — no parallel arrows, no equalities — and every equality claimed must carry its reason: corresponding angles, since AB is parallel to CD. Self-check: two parallel lines are cut by a transversal making an angle of 65°; state all eight angles, giving a one-word reason for each."
+    },
+    {
+      "file": "c9_math_ch12_1.md",
+      "walkthrough_append": "Try the property in reverse as a missing-angle machine: if three angles of a quadrilateral measure 100°, 80° and 95°, the fourth must be 360° − 275° = 85° — no measuring required. For the regular case, four equal angles give 360° ÷ 4 = 90° each, which is exactly why a square is the quadrilateral with all sides and all angles equal. Exam takeaway: the interior angles of any simple quadrilateral sum to 360° because one diagonal splits it into two triangles of 180° each; a missing-angle question is one subtraction. Self-check: three angles of a quadrilateral measure 70°, 110° and 90° — find the fourth, and explain why the same reasoning covers a concave quadrilateral."
+    }
+  ]
+}

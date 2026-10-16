@@ -19,6 +19,16 @@
  * backend/services/qdrant_service.py). A blind mirror would DELETE them.
  * PROTECTED lists those paths; the sync refuses to remove them and fails loud
  * instead. Do not add a source-backed tree here — that defeats the mirror.
+ *
+ * RETICLE GATE (ICE 1.4): PROTECTED_FRONTEND names the deploy-owned frontend
+ * artifacts the Reticle ship gate reads — the saved acceptance flows, the
+ * bridge components the flows drive, and the deploy copy of next.config.js
+ * whose token block (`reticlePairingToken`) exists ONLY in deploy. None of
+ * them have a source under frontend/ (the token block was added deploy-side
+ * on purpose), so the mirror's delete pass would wipe them and the next
+ * `npm run verify` would lose its flows and its pairing token. Sync skips
+ * BOTH copying and deleting these paths and prints a note. --check cannot
+ * report drift inside them — that is the price of them being deploy-owned.
  */
 const fs = require('fs');
 const path = require('path');
@@ -55,6 +65,30 @@ const TREE_SKIP = {
     backend: ['_cache', '.env'],
     frontend: ['.env.local', '.env.production', 'public/sims'],
     content: [],
+};
+
+/**
+ * PROTECTED_FRONTEND — Reticle ship gate artifacts (ICE 1.4), deploy-owned:
+ * sync never copies over them and never deletes them (see header note).
+ * Relative to frontend/, case-insensitive; a trailing `*` is a raw prefix
+ * match (file suffixes included), otherwise the match is exact or a
+ * directory-boundary prefix (same rule as underList, so a renamed
+ * `.RETICLE/` cannot slip past the guard).
+ */
+const PROTECTED_FRONTEND = [
+    '.reticle',                   // saved acceptance flows + gate config
+    'app/reticle-bridge*',        // app/reticle-bridge.tsx + -client.ts
+    'components/reticle-bridge*', // components/reticle-bridge*.tsx
+    'next.config.js',             // deploy copy carries reticlePairingToken()
+];
+
+const isProtectedFrontendPath = (rel) => {
+    const r = rel.toLowerCase();
+    return PROTECTED_FRONTEND.some((p) => {
+        if (p.endsWith('*')) return r.startsWith(p.slice(0, -1).toLowerCase());
+        const q = p.toLowerCase();
+        return r === q || r.startsWith(q + '/');
+    });
 };
 
 /**
@@ -153,6 +187,24 @@ function syncTree(tree) {
     // coalesce it to `[]`, that would make every entry look deploy-owned while
     // still deleting it: a false safety claim.
     const syncable = SYNCABLE[tree] ?? null;
+    // Reticle gate protection (PROTECTED_FRONTEND, frontend tree only): a
+    // source-side hit is never copied (the deploy copy is the artifact of
+    // record); a deploy-side hit is never deleted even though it is absent
+    // from the source tree. One console note per protected path actually met.
+    const protectedPath = (rel) => tree === 'frontend' && isProtectedFrontendPath(rel);
+    const notedProtected = new Set();
+    const noteProtected = (rel) => {
+        const pat = PROTECTED_FRONTEND.find((p) => {
+            const r = rel.toLowerCase();
+            if (p.endsWith('*')) return r.startsWith(p.slice(0, -1).toLowerCase());
+            const q = p.toLowerCase();
+            return r === q || r.startsWith(q + '/');
+        });
+        if (pat && !notedProtected.has(pat)) {
+            notedProtected.add(pat);
+            console.log(`  ${tree}/${pat} is Reticle-gate-owned — sync skipped (never copied or deleted).`);
+        }
+    };
     const stats = { copied: 0, deleted: 0, unchanged: 0, blocked: 0, sourceFiles: 0, deployOwned: [] };
 
     if (!fs.existsSync(src)) {
@@ -176,6 +228,8 @@ function syncTree(tree) {
         // Only mirror what is in the allowlist. When the tree has no allowlist
         // (null = mirror everything) there is nothing to filter.
         if (syncable && !underList(rel.split('/')[0], syncable)) continue;
+        // Reticle-gate-owned: the deploy copy wins, the repo never overwrites it.
+        if (protectedPath(rel)) { noteProtected(rel); continue; }
         seen.add(rel);
         stats.sourceFiles++;
         const absDst = path.join(dst, rel);
@@ -220,6 +274,10 @@ function syncTree(tree) {
     for (const absDst of fs.existsSync(dst) ? walk(dst, skipPaths, prune) : []) {
         const rel = relOf(dst, absDst);
         if (syncable && !underList(rel.split('/')[0], syncable)) continue;
+        // Reticle-gate-owned: absent from the source BY DESIGN (deploy-only
+        // artifacts), so "not in seen" must NOT mean "delete" here. This
+        // guard is the fix the copy-loop skip above depends on.
+        if (protectedPath(rel)) { noteProtected(rel); continue; }
         if (!seen.has(rel)) {
             stats.deleted++;
             if (!CHECK_ONLY) fs.rmSync(absDst, { force: true });

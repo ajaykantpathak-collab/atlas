@@ -22,6 +22,7 @@ from typing import Optional
 import httpx
 
 from backend.config import get_settings
+from backend.ai import prompt_guard as _prompt_guard
 
 logger = logging.getLogger(__name__)
 settings = get_settings()
@@ -113,9 +114,12 @@ async def llm_extract(question: str) -> Optional[dict]:
 
     The LLM only parses. SymPy computes.
     """
-    prompt = EXTRACT_PROMPT.replace("{question}", question[:1000])
+    prompt = EXTRACT_PROMPT.replace(
+        "{question}", _prompt_guard.wrap_untrusted(question))
     messages = [
-        {"role": "system", "content": "Return ONLY valid JSON. No explanations. No math solutions."},
+        {"role": "system", "content":
+            "Return ONLY valid JSON. No explanations. No math solutions. " +
+            _prompt_guard.UNTRUSTED_SYSTEM_NOTE},
         {"role": "user", "content": prompt},
     ]
 
@@ -199,9 +203,13 @@ async def llm_generate_solver(question: str, form_fields: list[dict]) -> Optiona
     Returns Python code string, or None.
     """
     field_names = [f["name"] for f in form_fields]
-    prompt = SOLVER_GEN_PROMPT.replace("{question}", question[:800]).replace("{form_fields}", str(field_names))
+    prompt = SOLVER_GEN_PROMPT.replace(
+        "{question}", _prompt_guard.wrap_untrusted(question)).replace(
+        "{form_fields}", str(field_names))
     messages = [
-        {"role": "system", "content": "You are a SymPy expert. Return ONLY valid Python code. No explanations."},
+        {"role": "system", "content":
+            "You are a SymPy expert. Return ONLY valid Python code. "
+            "No explanations. " + _prompt_guard.UNTRUSTED_SYSTEM_NOTE},
         {"role": "user", "content": prompt},
     ]
     response = await call_deepseek(messages, max_tokens=2000, timeout=60.0)
@@ -221,9 +229,12 @@ async def llm_generate_solver(question: str, form_fields: list[dict]) -> Optiona
 
 async def llm_solve_question(question: str) -> Optional[str]:
     """Ask DeepSeek to solve a specific question (worked solution for student)."""
-    prompt = SOLVE_PROMPT.replace("{question}", question)
+    prompt = SOLVE_PROMPT.replace(
+        "{question}", _prompt_guard.wrap_untrusted(question))
     messages = [
-        {"role": "system", "content": "You are a math teacher. Solve step by step. Show all working."},
+        {"role": "system", "content":
+            "You are a math teacher. Solve step by step. Show all "
+            "working. " + _prompt_guard.UNTRUSTED_SYSTEM_NOTE},
         {"role": "user", "content": prompt},
     ]
     return await call_deepseek(messages, max_tokens=2000, timeout=60.0)

@@ -16,7 +16,12 @@ import logging
 from dataclasses import dataclass, field
 from typing import Optional
 
-import spacy
+# E1 (BATCH_BRIEF §4): spaCy pulls thinc->torch (~48s cold).  This module
+# rides the ai/* boot chain (pattern_solver, conceptual_handler,
+# missing_value_handler, structural_patterns all import it top-level), so
+# the top-level `import spacy` was a hidden torch-at-boot door.  get_nlp()
+# imports lazily — first parse pays, boot doesn't.
+spacy = None
 
 logger = logging.getLogger(__name__)
 
@@ -26,8 +31,10 @@ _nlp = None
 
 def get_nlp():
     """Get or create the spaCy NLP processor (singleton)."""
-    global _nlp
+    global _nlp, spacy
     if _nlp is None:
+        import spacy as _spacy
+        spacy = _spacy
         _nlp = spacy.load("en_core_web_sm")
         # Add custom entity ruler for math/science terms
         ruler = _nlp.add_pipe("entity_ruler", before="ner")

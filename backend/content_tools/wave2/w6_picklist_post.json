@@ -1,0 +1,272 @@
+[
+ {
+  "file": "c11_legal_isc_03_013.md",
+  "cls": "c11",
+  "subject": "legal",
+  "parked": false,
+  "def_words": 175,
+  "walk_words": 359,
+  "eli5_words": 100,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 95.9,
+  "worked_n": 3,
+  "mc_words": 141,
+  "scope_words": 79,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_appmath_isc_21_006.md",
+  "cls": "c11",
+  "subject": "appmath",
+  "parked": false,
+  "def_words": 219,
+  "walk_words": 291,
+  "eli5_words": 80,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 128.9,
+  "worked_n": 3,
+  "mc_words": 146,
+  "scope_words": 92,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_ai_isc_11_006.md",
+  "cls": "c11",
+  "subject": "ai",
+  "parked": false,
+  "def_words": 179,
+  "walk_words": 327,
+  "eli5_words": 48,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 84.5,
+  "worked_n": 3,
+  "mc_words": 162,
+  "scope_words": 72,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c12_ai_isc_07_002.md",
+  "cls": "c12",
+  "subject": "ai",
+  "parked": false,
+  "def_words": 181,
+  "walk_words": 306,
+  "eli5_words": 54,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 80.8,
+  "worked_n": 3,
+  "mc_words": 90,
+  "scope_words": 57,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c12_ai_isc_01_003.md",
+  "cls": "c12",
+  "subject": "ai",
+  "parked": false,
+  "def_words": 179,
+  "walk_words": 296,
+  "eli5_words": 105,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 105.1,
+  "worked_n": 3,
+  "mc_words": 175,
+  "scope_words": 100,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_acc_isc_08_006.md",
+  "cls": "c11",
+  "subject": "acc",
+  "parked": false,
+  "def_words": 229,
+  "walk_words": 233,
+  "eli5_words": 56,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 149.4,
+  "worked_n": 3,
+  "mc_words": 191,
+  "scope_words": 85,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c12_appmath_isc_15_005.md",
+  "cls": "c12",
+  "subject": "appmath",
+  "parked": false,
+  "def_words": 184,
+  "walk_words": 269,
+  "eli5_words": 71,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 91.1,
+  "worked_n": 3,
+  "mc_words": 170,
+  "scope_words": 58,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_ai_isc_13_007.md",
+  "cls": "c11",
+  "subject": "ai",
+  "parked": false,
+  "def_words": 157,
+  "walk_words": 266,
+  "eli5_words": 97,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 80.5,
+  "worked_n": 3,
+  "mc_words": 152,
+  "scope_words": 67,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c12_ai_isc_03_005.md",
+  "cls": "c12",
+  "subject": "ai",
+  "parked": false,
+  "def_words": 145,
+  "walk_words": 272,
+  "eli5_words": 57,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 93.3,
+  "worked_n": 3,
+  "mc_words": 119,
+  "scope_words": 69,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_hist_isc_12_003.md",
+  "cls": "c11",
+  "subject": "hist",
+  "parked": false,
+  "def_words": 129,
+  "walk_words": 277,
+  "eli5_words": 54,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 90.5,
+  "worked_n": 3,
+  "mc_words": 97,
+  "scope_words": 68,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c12_hist_isc_10_013.md",
+  "cls": "c12",
+  "subject": "hist",
+  "parked": false,
+  "def_words": 131,
+  "walk_words": 272,
+  "eli5_words": 63,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 112.5,
+  "worked_n": 3,
+  "mc_words": 172,
+  "scope_words": 66,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c12_hist_isc_10_014.md",
+  "cls": "c12",
+  "subject": "hist",
+  "parked": false,
+  "def_words": 91,
+  "walk_words": 306,
+  "eli5_words": 81,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 114.3,
+  "worked_n": 3,
+  "mc_words": 93,
+  "scope_words": 77,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_acc_isc_01_015.md",
+  "cls": "c11",
+  "subject": "acc",
+  "parked": false,
+  "def_words": 152,
+  "walk_words": 234,
+  "eli5_words": 45,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 54.3,
+  "worked_n": 3,
+  "mc_words": 79,
+  "scope_words": 62,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_biotech_isc_06_009.md",
+  "cls": "c11",
+  "subject": "biotech",
+  "parked": false,
+  "def_words": 174,
+  "walk_words": 187,
+  "eli5_words": 74,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 78.9,
+  "worked_n": 3,
+  "mc_words": 98,
+  "scope_words": 64,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ },
+ {
+  "file": "c11_ai_isc_06_005.md",
+  "cls": "c11",
+  "subject": "ai",
+  "parked": false,
+  "def_words": 154,
+  "walk_words": 198,
+  "eli5_words": 67,
+  "diag_q": 11,
+  "diag_a": 11,
+  "avg_ans": 96.8,
+  "worked_n": 3,
+  "mc_words": 107,
+  "scope_words": 67,
+  "gaps": [
+   "R2_takeaway"
+  ]
+ }
+]

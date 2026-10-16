@@ -365,6 +365,13 @@ class BaseHistCivSolver:
     def _solve(self, problem_data: Dict[str, Any]) -> Dict[str, Any]:
         raise NotImplementedError("Subclasses must implement _solve()")
 
+    def __call__(self, problem_data: Optional[Dict[str, Any]] = None, **kw) -> Dict[str, Any]:
+        """Registered instances live in SOLVER_REGISTRY; callers invoke them
+        directly, so forward the call to solve()."""
+        merged = dict(problem_data or {})
+        merged.update(kw)
+        return self.solve(merged)
+
     def _verify(self, result: Dict[str, Any], problem_data: Dict[str, Any]) -> bool:
         return result.get("answer") is not None
 
@@ -826,11 +833,44 @@ class ComparisonSolver(BaseHistCivSolver):
             }
         }
 
+class ArabNationalismSolver(BaseHistCivSolver):
+    """Chronologically sequence Pan-Arab Nationalism events and analyze its principles."""
+    PROBLEM_TYPE = "c12_histciv_011"
+
+    def _solve(self, problem_data: Dict[str, Any]) -> Dict[str, Any]:
+        events = problem_data.get("events", ARAB_NATIONALISM_DATA["timeline"][:])
+        steps = [
+            f"Loaded {len(events)} Arab Nationalism events",
+            "Sorting events by year to establish the Pan-Arab chronology",
+            "Attaching each event's historical detail",
+            "Summarizing the movement's key principles and leaders"
+        ]
+        sorted_events = sorted(events, key=lambda e: float(e["year"]))
+        ordered = [
+            {"year": str(e["year"]), "event": e["event"], "detail": e.get("detail", "")}
+            for e in sorted_events
+        ]
+        return {
+            "answer": {
+                "ordered_events": ordered,
+                "total_events": len(ordered),
+                "period_covered": f"{sorted_events[0]['year']} - {sorted_events[-1]['year']}",
+                "key_principles": ARAB_NATIONALISM_DATA["key_principles"],
+                "key_figures": sorted(ARAB_NATIONALISM_DATA["key_figures"].keys()),
+                "causes_count": len(ARAB_NATIONALISM_DATA["causes"]),
+            },
+            "steps": steps,
+        }
+
+    def _verify(self, result: Dict[str, Any], problem_data: Dict[str, Any]) -> bool:
+        return verify_c12_histciv_001(result, {"min_events": 3})
+
+
 SOLVER_REGISTRY = {
-    "civil_rights": None,
-    "arab_nationalism": None,
-    "august_offer": None,
-    "cripps_mission": None,
+    "civil_rights": CivilRightsActSolver(),
+    "arab_nationalism": ArabNationalismSolver(),
+    "august_offer": AugustOfferProvisionsSolver(),
+    "cripps_mission": CrippsMissionSolver(),
 }
 
 

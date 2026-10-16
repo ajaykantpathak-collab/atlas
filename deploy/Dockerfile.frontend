@@ -1,0 +1,53 @@
+# ── Frontend Dockerfile (production) ───────────────────────────
+# Multi-stage build: deps → build → standalone runner
+
+# Stage 1: full deps (build needs devDependencies — typescript, tailwind)
+FROM node:20-alpine AS deps
+WORKDIR /app
+COPY frontend/package.json frontend/package-lock.json* frontend/.npmrc ./
+RUN npm ci
+
+# Stage 2: build
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY frontend/ .
+ENV NEXT_TELEMETRY_DISABLED=1
+# ~11k modules (3k sim files) — default 4GB node heap OOMs mid-build
+ENV NODE_OPTIONS=--max-old-space-size=8192
+# Build-time API URL is baked into the bundle — set at build time via
+# --build-arg or .env.production inside frontend/
+ARG NEXT_PUBLIC_API_URL=http://localhost:8000
+ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+# next.config rewrites() is evaluated at BUILD time (baked into
+# routes-manifest.json) — the runtime env var alone cannot reach it.
+# Default is the in-cluster backend pool; override with --build-arg.
+ARG INTERNAL_API_URL=http://backend-1:8000
+ENV INTERNAL_API_URL=${INTERNAL_API_URL}
+RUN npm run build
+
+# Stage 3: production runner (standalone output — set output:'standalone'
+# in frontend/next.config.js)
+FROM node:20-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+RUN addgroup --system --gid 1001 nodejs \
+    && adduser --system --uid 1001 nextjs
+
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+
+USER nextjs
+
+EXPOSE 3000
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+    CMD wget -qO- http://127.0.0.1:3000/ || exit 1
+
+ENV PORT=3000
+ENV HOSTNAME=0.0.0.0
+CMD ["node", "server.js"]

@@ -1,0 +1,321 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 59,
+      "path": "SKILL.md",
+      "size_bytes": 1448
+    }
+  ],
+  "source_id": "ui-skills-root",
+  "source_map": [
+    {
+      "enriched_line_end": 59,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 59,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 33,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: ui-skills-root",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 4,
+      "line_start": 4,
+      "source_file": "SKILL.md",
+      "text": "license: MIT",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 7,
+      "line_start": 5,
+      "source_file": "SKILL.md",
+      "text": "metadata: author: ibelick version: \"1.0.0\"",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "UI Skills Root",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "You are the routing layer for UI Skills.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "This skill is shown by npx ui-skills start and is also available in the registry.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 16,
+      "line_start": 16,
+      "source_file": "SKILL.md",
+      "text": "Use it when an agent in Codex, Cursor, or Claude Code has a clear UI goal.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "If the goal is unclear, ask one short question.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "SKILL.md",
+      "text": "If the goal is clear, choose the right category, load the smallest useful skill context, then implement.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "SKILL.md",
+      "text": "Protocol",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "SKILL.md",
+      "text": "decide if the task is UI-related",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 25,
+      "line_start": 25,
+      "source_file": "SKILL.md",
+      "text": "if not, return no skill needed",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "identify the likely category",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 27,
+      "line_start": 27,
+      "source_file": "SKILL.md",
+      "text": "inspect that category with the CLI",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "select the smallest useful skill set",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 29,
+      "line_start": 29,
+      "source_file": "SKILL.md",
+      "text": "load only selected skill(s)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "implement using that context",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "CLI",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "npx ui-skills start",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "npx ui-skills categories",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 37,
+      "line_start": 37,
+      "source_file": "SKILL.md",
+      "text": "npx ui-skills list --category <category>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "SKILL.md",
+      "text": "npx ui-skills get <slug>",
+      "unit_type": "fenced_code"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "Selection Rules",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "Prefer 1 skill.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 45,
+      "line_start": 45,
+      "source_file": "SKILL.md",
+      "text": "Use 2 only when the task needs two clear angles.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "Use 3 only for broad review, redesign, or multi-surface work.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "Never use more than 3.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 51,
+      "line_start": 51,
+      "source_file": "SKILL.md",
+      "text": "Route by topic, then stack, then specificity.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 53,
+      "line_start": 53,
+      "source_file": "SKILL.md",
+      "text": "Prefer specific skills over broad skills.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 55,
+      "line_start": 55,
+      "source_file": "SKILL.md",
+      "text": "Prefer framework-specific skills when the stack is obvious.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 57,
+      "line_start": 57,
+      "source_file": "SKILL.md",
+      "text": "For quick cleanup, prefer the most specific craft, visual, or layout skill available.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 59,
+      "line_start": 59,
+      "source_file": "SKILL.md",
+      "text": "If unsure, inspect categories and pick the safest narrow skill.",
+      "unit_type": "paragraph"
+    }
+  ]
+}

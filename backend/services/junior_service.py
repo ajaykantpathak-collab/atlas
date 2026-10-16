@@ -207,12 +207,58 @@ class _ContentBank:
         {"q": "Desh ka rashtriya pakshi kaun sa hai?", "a": "mor",       "opt": ["mor", "koyal", "kite", "hans"]},
         {"q": "Desh ka rashtriya phool kaun sa hai?",  "a": "lotus",     "opt": ["gulab", "lotus", "sunflower", "rose"]},
         {"q": "Desh ka rashtriya geet kaun sa hai?",   "a": "vande mataram", "opt": ["jana gana mana", "vande mataram", "sare jahan", "jana gana"]},
-        {"q": "Gol matra ke kitne kone hote hain?",    "a": "zero",     "opt": ["ek", "do", "teen", "shunya"]},
+        {"q": "Gol matra ke kitne kone hote hain?",    "a": "shunya",   "opt": ["ek", "do", "teen", "shunya"]},
         {"q": "Suraj ki roshni se humein kya milta hai?", "a": "roshani", "opt": ["paani", "roshani", "hawai", "ped"]},
         {"q": "Himmat kaise aati hai? 🦁",             "a": "practice se", "opt": ["chori se", "practice se", "kisi se", "dhup mein"]},
         {"q": "Kitne mahine hain ek saal mein?",       "a": "12",       "opt": ["10", "11", "12", "13"]},
         {"q": "Bachpan ka dost hamesha kya rakhta hai?", "a": "imaandari", "opt": ["paisa", "imaandari", "toys", "chocolate"]},
     ]
+
+    # Per-grade GK pools (2026-10-11 audit: one flat bank served a class-1
+    # child the same questions as a class-5 child). Each pool is authored
+    # for that grade's syllabus level; keys are class numbers 1-5.
+    GK_BY_GRADE = {
+        1: [
+            {"q": "Hathi ke kitne pair hote hain?",              "a": "char",      "opt": ["do", "teen", "char", "paanch"]},
+            {"q": "Tirange mein kitne rang hote hain?",           "a": "teen",      "opt": ["do", "teen", "char", "paanch"]},
+            {"q": "Koyal ka rang kaisa hota hai?",                "a": "kala",      "opt": ["lal", "hara", "kala", "pila"]},
+            {"q": "Ek hafte mein kitne din hote hain?",           "a": "saat",      "opt": ["paanch", "chhah", "saat", "das"]},
+            {"q": "Seb ka aam roop rang kya hai?",                "a": "lal",       "opt": ["lal", "neela", "kaala", "safed"]},
+            {"q": "Ginti karo: 1 ke baad kya aata hai?",          "a": "2",         "opt": ["2", "3", "4", "5"]},
+        ],
+        2: [
+            {"q": "Ek saal mein kitne maheene hote hain?",        "a": "12",        "opt": ["10", "11", "12", "13"]},
+            {"q": "Garmi ke mausam mein kya pehente hain?",       "a": "halka kapda","opt": ["halka kapda", "garam coat", "topi-mufler", "barsaati"]},
+            {"q": "Desh ka rashtriya pakshi kaun sa hai?",        "a": "mor",       "opt": ["mor", "kauwa", "kabootar", "bulbul"]},
+            {"q": "Raat ko aasmaan mein kya chamakta hai?",       "a": "taare",     "opt": ["taare", "sooraj", "indradhanush", "bijli"]},
+            {"q": "School mein padhane wale ko kya kehte hain?",  "a": "teacher",   "opt": ["teacher", "doctor", "driver", "police"]},
+            {"q": "Nimbu ka swaad kaisa hota hai?",               "a": "khatta",    "opt": ["khatta", "meetha", "kadwa", "namkeen"]},
+        ],
+        3: [
+            {"q": "Bharat ki rajdhani kaun si hai?",              "a": "delhi",     "opt": ["mumbai", "delhi", "kolkata", "chennai"]},
+            {"q": "Bharat ki sabse lambi nadi?",                  "a": "ganga",     "opt": ["ganga", "yamuna", "kaveri", "narmada"]},
+            {"q": "Diwali mein kya jalate hain?",                 "a": "diya",      "opt": ["diya", "candle stand", "bulb", "torch"]},
+            {"q": "Swatantrata diwas kab aata hai?",              "a": "15 august", "opt": ["15 august", "26 january", "2 october", "14 november"]},
+            {"q": "Samundar ka paani kaisa hota hai?",            "a": "khara",     "opt": ["khara", "meetha", "khatta", "kadwa"]},
+            {"q": "Holi kis mausam mein aati hai?",               "a": "basant",    "opt": ["basant", "sardi", "garmi", "baarish"]},
+        ],
+        4: [
+            {"q": "Taj Mahal kis shahar mein hai?",               "a": "agra",      "opt": ["agra", "jaipur", "delhi", "lucknow"]},
+            {"q": "Duniya ki sabse unchi choti?",                 "a": "everest",   "opt": ["everest", "k2", "nanda devi", "annapurna"]},
+            {"q": "Cricket ke ek over mein kitni ball hain?",     "a": "6",         "opt": ["4", "5", "6", "8"]},
+            {"q": "Sabse bada grah kaun sa hai?",                 "a": "brihaspati","opt": ["brihaspati", "mangal", "budh", "shani"]},
+            {"q": "Paani ka chemical naam kya hai?",              "a": "h2o",       "opt": ["h2o", "co2", "o2", "nacl"]},
+            {"q": "Bharat mein sabse zyada log kis rajya mein?","a": "uttar pradesh", "opt": ["uttar pradesh", "bihar", "maharashtra", "bengal"]},
+        ],
+        5: [
+            {"q": "Bharat ke pehle pradhanmantri kaun?",          "a": "jawaharlal nehru", "opt": ["jawaharlal nehru", "gandhi", "patel", "ambedkar"]},
+            {"q": "Sabse tez daudne wala jaanwar?",               "a": "cheetah",   "opt": ["cheetah", "sher", "ghoda", "khargosh"]},
+            {"q": "Computer ka brain kise kehte hain?",           "a": "cpu",       "opt": ["cpu", "monitor", "mouse", "printer"]},
+            {"q": "Sabse bada mahasagar?",                        "a": "pacific",   "opt": ["pacific", "atlantic", "indian", "arctic"]},
+            {"q": "Chand par pehle kadam kisne rakhe?",           "a": "neil armstrong", "opt": ["neil armstrong", "kalpana chawla", "sunita williams", "yuri gagarin"]},
+            {"q": "Jansankhya mein sabse bada desh?",             "a": "bharat",    "opt": ["bharat", "china", "america", "russia"]},
+        ],
+    }
 
     SCIENCE_QUESTIONS = [
         {"q": "Ped se hamen kya milta hai?",          "a": "oxyzen",   "opt": ["paani", "oxyzen", "hawai", "khoon"]},
@@ -222,6 +268,70 @@ class _ContentBank:
         {"q": "Kite se kya banate hain?",             "a": "paper",    "opt": ["paper", "plastic", "cloth", "metal"]},
         {"q": "Kauwa kaun sa rang pasand karta hai?",  "a": "kala",     "opt": ["lal", "pila", "nila", "kala"]},
     ]
+
+    # Per-grade science pools — simple observation science at G1-2 rising
+    # to systems/organs at G4-5.
+    SCIENCE_BY_GRADE = {
+        1: [
+            {"q": "Hum kis se dekhte hain?",                  "a": "aankh",   "opt": ["aankh", "kaan", "naak", "haath"]},
+            {"q": "Gaajar fruit hai ya sabzi?",               "a": "sabzi",   "opt": ["sabzi", "fruit", "phal", "daal"]},
+            {"q": "Sabse thanda kaun sa hai?",                "a": "baraf",   "opt": ["baraf", "paani", "doodh", "chai"]},
+            {"q": "Panchi udte hain, machli kya karti hai?",  "a": "tairti hai", "opt": ["tairti hai", "udti hai", "chalti hai", "soti hai"]},
+            {"q": "Din mein aasmaan mein kya hota hai?",      "a": "sooraj",  "opt": ["sooraj", "chand", "taare", "baadal"]},
+        ],
+        2: [
+            {"q": "Paodhe ko jeene ke liye kya chahiye?",     "a": "paani aur dhoop", "opt": ["paani aur dhoop", "chocolate", "mitti ka ghar", "tel"]},
+            {"q": "Hum kitne jnaanendriyan (senses) use karte hain?", "a": "paanch", "opt": ["do", "teen", "char", "paanch"]},
+            {"q": "Baraf garam jagah par kya banti hai?",     "a": "paani",   "opt": ["paani", "dhoodh", "mitti", "tel"]},
+            {"q": "Machhar humein kya karta hai?",            "a": "katata hai", "opt": ["katata hai", "chumta hai", "doodh deta hai", "gaata hai"]},
+            {"q": "Barsaat mein aasmaan se kya girta hai?",   "a": "paani",   "opt": ["paani", "baraf", "kankar", "phool"]},
+        ],
+        3: [
+            {"q": "Paani ubalne par kya banta hai?",          "a": "bhaap",   "opt": ["bhaap", "baraf", "mitti", "dhoodh"]},
+            {"q": "Matter ke kitne roop hote hain?",          "a": "teen",    "opt": ["ek", "do", "teen", "char"]},
+            {"q": "Patte green kyun hote hain?",              "a": "chlorophyll", "opt": ["chlorophyll", "peepal", "paani", "dhoop"]},
+            {"q": "Magnet kya pakadti hai?",                  "a": "loha",    "opt": ["loha", "peetal", "kagaz", "lakdi"]},
+            {"q": "Mitti mein milta hai — paani, hawa, ya dono?", "a": "dono", "opt": ["dono", "sirf paani", "sirf hawa", "kuch nahi"]},
+        ],
+        4: [
+            {"q": "Food chain mein khana pehle kaun banata?", "a": "paudha",  "opt": ["paudha", "sher", "machli", "insaan"]},
+            {"q": "Cycle ka pahiya kis tarah ka simple machine hai?", "a": "wheel", "opt": ["wheel", "lever", "screw", "wedge"]},
+            {"q": "Dhoop mein chhaya kis taraf banti hai?",   "a": "ulte taraf", "opt": ["ulte taraf", "seedhe taraf", "upar", "neeche"]},
+            {"q": "Kaunsa janwar ek herbivore hai?",          "a": "gaay",    "opt": ["gaay", "sher", "billi", "kauwa"]},
+            {"q": "Bijli thermal plant mein kis se banti?",   "a": "bhaap",   "opt": ["bhaap", "paani", "doodh", "hawa"]},
+        ],
+        5: [
+            {"q": "Dil ka kaam kya hai?",                     "a": "khoon pump karna", "opt": ["khoon pump karna", "saans lena", "khana pachana", "dekhna"]},
+            {"q": "Paadhe apna khana kaise banate hain?",     "a": "photosynthesis", "opt": ["photosynthesis", "boiling", "sleeping", "burning"]},
+            {"q": "Sharir ki sabse badi haddi?",              "a": "jangh ki haddi", "opt": ["jangh ki haddi", "haath ki haddi", "ungli", "khopdi"]},
+            {"q": "Prithvi suraj ka chakkar kitne dino mein?","a": "365",     "opt": ["365", "30", "7", "100"]},
+            {"q": "Saans chhodne par kaunsi gas nikalti hai?","a": "carbon dioxide", "opt": ["carbon dioxide", "oxygen", "nitrogen", "hydrogen"]},
+        ],
+    }
+
+    # Per-grade spelling words — G1 shortest/most concrete → G5 longest.
+    SPELLING_BY_GRADE = {
+        1: ["seb", "aam", "ghar", "dudh", "naam", "baal", "kaan", "pair"],
+        2: ["pani", "kitab", "hath", "kaam", "naach", "saap", "joota", "sui"],
+        3: ["pencil", "school", "phool", "dost", "tareekh", "mausam", "raasta", "kharbooz"],
+        4: ["kabutar", "sooniya", "vigyan", "bharat", "samaj", "mithaas", "paryatan", "khushboo"],
+        5: ["sanskriti", "azadi", "samanvay", "swatantrata", "pariyavaran", "kartavya", "ujaala", "itihaas"],
+    }
+
+
+def _grade_pool(by_grade: dict[int, list], grade: Optional[int],
+                fallback: list) -> list:
+    """Pick the grade's authored pool; nearest lower grade, then higher,
+    then the difficulty-keyed fallback — never an empty pool."""
+    if grade in by_grade:
+        return by_grade[grade]
+    if grade:
+        for d in range(1, 5):
+            if grade - d in by_grade:
+                return by_grade[grade - d]
+            if grade + d in by_grade:
+                return by_grade[grade + d]
+    return fallback
 
 
 # ──────────────────────────────────────────────
@@ -442,9 +552,11 @@ class ActivityBuilder:
         )
 
     @staticmethod
-    def build_spelling(difficulty: Difficulty, order: int) -> ActivityOut:
+    def build_spelling(difficulty: Difficulty, order: int,
+                       grade: Optional[int] = None) -> ActivityOut:
         bank  = _ContentBank()
-        words = bank.SPELLING_WORDS[difficulty]
+        words = _grade_pool(bank.SPELLING_BY_GRADE, grade,
+                            bank.SPELLING_WORDS[difficulty])
         word  = random.choice(words)
         return ActivityOut(
             activity_id=str(uuid.uuid4()),
@@ -478,9 +590,12 @@ class ActivityBuilder:
         )
 
     @staticmethod
-    def build_listen_repeat(difficulty: Difficulty, order: int) -> ActivityOut:
+    def build_listen_repeat(difficulty: Difficulty, order: int,
+                            grade: Optional[int] = None) -> ActivityOut:
         bank  = _ContentBank()
-        words = bank.SPELLING_WORDS.get(difficulty, bank.SPELLING_WORDS[Difficulty.EASY])
+        words = _grade_pool(bank.SPELLING_BY_GRADE, grade,
+                            bank.SPELLING_WORDS.get(
+                                difficulty, bank.SPELLING_WORDS[Difficulty.EASY]))
         word  = random.choice(words)
         return ActivityOut(
             activity_id=str(uuid.uuid4()),
@@ -496,9 +611,10 @@ class ActivityBuilder:
         )
 
     @staticmethod
-    def build_gk_trivia(difficulty: Difficulty, order: int) -> ActivityOut:
+    def build_gk_trivia(difficulty: Difficulty, order: int,
+                        grade: Optional[int] = None) -> ActivityOut:
         bank = _ContentBank()
-        pool = bank.GK_QUESTIONS if difficulty.value in ("easy", "medium") else bank.GK_QUESTIONS
+        pool = _grade_pool(bank.GK_BY_GRADE, grade, bank.GK_QUESTIONS)
         q    = random.choice(pool)
         opts = random.sample(q["opt"], k=len(q["opt"]))
         opts_str = " | ".join(f"{i+1}. {o}" for i, o in enumerate(opts))
@@ -515,9 +631,11 @@ class ActivityBuilder:
         )
 
     @staticmethod
-    def build_science(difficulty: Difficulty, order: int) -> ActivityOut:
+    def build_science(difficulty: Difficulty, order: int,
+                      grade: Optional[int] = None) -> ActivityOut:
         bank = _ContentBank()
-        q    = random.choice(bank.SCIENCE_QUESTIONS)
+        q    = random.choice(_grade_pool(bank.SCIENCE_BY_GRADE, grade,
+                                         bank.SCIENCE_QUESTIONS))
         opts = random.sample(q["opt"], k=len(q["opt"]))
         opts_str = " | ".join(f"{i+1}. {o}" for i, o in enumerate(opts))
         return ActivityOut(
@@ -534,7 +652,8 @@ class ActivityBuilder:
 
     @staticmethod
     def build_activities(subject: Subject, topic: str,
-                         difficulty: Difficulty, count: int = 5) -> list[ActivityOut]:
+                         difficulty: Difficulty, count: int = 5,
+                         grade: Optional[int] = None) -> list[ActivityOut]:
         activities: list[ActivityOut] = []
 
         if subject == Subject.MATHEMATICS:
@@ -547,21 +666,21 @@ class ActivityBuilder:
                 activities.append(ActivityBuilder.build_story_problem(topic, difficulty, i))
 
         elif subject == Subject.HINDI:
-            activities.append(ActivityBuilder.build_listen_repeat(difficulty, 0))
+            activities.append(ActivityBuilder.build_listen_repeat(difficulty, 0, grade))
             for i in range(1, count):
-                activities.append(ActivityBuilder.build_spelling(difficulty, i))
+                activities.append(ActivityBuilder.build_spelling(difficulty, i, grade))
 
         elif subject == Subject.ENGLISH:
             for i in range(count):
-                activities.append(ActivityBuilder.build_spelling(difficulty, i))
+                activities.append(ActivityBuilder.build_spelling(difficulty, i, grade))
 
         elif subject == Subject.GK:
             for i in range(count):
-                activities.append(ActivityBuilder.build_gk_trivia(difficulty, i))
+                activities.append(ActivityBuilder.build_gk_trivia(difficulty, i, grade))
 
         elif subject == Subject.SCIENCE:
             for i in range(count):
-                activities.append(ActivityBuilder.build_science(difficulty, i))
+                activities.append(ActivityBuilder.build_science(difficulty, i, grade))
 
         return activities
 
@@ -847,6 +966,7 @@ class JuniorService:
         topic: str,
         difficulty: str | None = None,
         activity_count: int | None = None,
+        grade: int | None = None,
     ) -> LessonOut:
         """
         Start a new junior learning lesson.
@@ -865,7 +985,8 @@ class JuniorService:
         diff = Difficulty(difficulty) if difficulty else self._difficulty_for(student_id)
         count = activity_count or self.ACTIVITY_COUNTS.get(subject_enum, 5)
         character = self._pick_character(student_id)
-        activities = ActivityBuilder.build_activities(subject_enum, topic, diff, count)
+        activities = ActivityBuilder.build_activities(
+            subject_enum, topic, diff, count, grade=grade)
         greeting_hi, greeting_en = self._greeting(character, subject_enum, topic)
 
         session = self._store.create(

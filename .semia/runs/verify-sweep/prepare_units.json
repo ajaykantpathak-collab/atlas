@@ -1,0 +1,330 @@
+{
+  "file_inventory": [
+    {
+      "disposition": "inlined",
+      "language": "markdown",
+      "line_count": 49,
+      "path": "SKILL.md",
+      "size_bytes": 2843
+    }
+  ],
+  "source_id": "verify-sweep",
+  "source_map": [
+    {
+      "enriched_line_end": 49,
+      "enriched_line_start": 1,
+      "source_file": "SKILL.md",
+      "source_line_end": 49,
+      "source_line_start": 1
+    }
+  ],
+  "total_units": 34,
+  "units": [
+    {
+      "evidence_id": "su_0",
+      "id": 0,
+      "line_end": 2,
+      "line_start": 2,
+      "source_file": "SKILL.md",
+      "text": "name: verify-sweep",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_1",
+      "id": 1,
+      "line_end": 3,
+      "line_start": 3,
+      "source_file": "SKILL.md",
+      "text": "description: Run the full Atlas acceptance verification sweep on production :3001 \u2014 14-point product checklist plus per-class curriculum probes. Use after any deploy, before declaring fixes shipped, when the owner asks for verification, or to re-check that previously fixed items still hold.",
+      "unit_type": "front_matter_field"
+    },
+    {
+      "evidence_id": "su_2",
+      "id": 2,
+      "line_end": 6,
+      "line_start": 6,
+      "source_file": "SKILL.md",
+      "text": "Atlas Verify Sweep",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_3",
+      "id": 3,
+      "line_end": 8,
+      "line_start": 8,
+      "source_file": "SKILL.md",
+      "text": "Acceptance testing of production http://localhost:3001. Verify only \u2014 fix",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_4",
+      "id": 4,
+      "line_end": 9,
+      "line_start": 9,
+      "source_file": "SKILL.md",
+      "text": "nothing. Every item: PASS/FAIL + screenshot/log evidence into",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_5",
+      "id": 5,
+      "line_end": 10,
+      "line_start": 10,
+      "source_file": "SKILL.md",
+      "text": "screenshots/verify<date>/ and a table appended to BUGS.md ## PROD-VERIFY.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_6",
+      "id": 6,
+      "line_end": 12,
+      "line_start": 12,
+      "source_file": "SKILL.md",
+      "text": "Setup",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_7",
+      "id": 7,
+      "line_end": 13,
+      "line_start": 13,
+      "source_file": "SKILL.md",
+      "text": "Playwright from frontend/nodemodules. Personas: fresh signup (Class 10),",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_8",
+      "id": 8,
+      "line_end": 14,
+      "line_start": 14,
+      "source_file": "SKILL.md",
+      "text": "teacher@dreamapp.in/demo123, parent@dreamapp.in/demo123. Wait 6-10s hydration",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_9",
+      "id": 9,
+      "line_end": 15,
+      "line_start": 15,
+      "source_file": "SKILL.md",
+      "text": "per page. NEVER judge pages by curl \u2014 SSR shells lie.",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_10",
+      "id": 10,
+      "line_end": 17,
+      "line_start": 17,
+      "source_file": "SKILL.md",
+      "text": "The checklist (capture screenshot per item)",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_11",
+      "id": 11,
+      "line_end": 18,
+      "line_start": 18,
+      "source_file": "SKILL.md",
+      "text": "Landing (cosmos background, gold copy, real stats) \u2014 1440 + 390",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_12",
+      "id": 12,
+      "line_end": 19,
+      "line_start": 19,
+      "source_file": "SKILL.md",
+      "text": "Fresh signup \u2192 auto-login \u2192 dashboard shows the NEW student (no hang)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_13",
+      "id": 13,
+      "line_end": 20,
+      "line_start": 20,
+      "source_file": "SKILL.md",
+      "text": "Command Briefing: ONE mission grounded in real data; honest zeros for new users",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_14",
+      "id": 14,
+      "line_end": 21,
+      "line_start": 21,
+      "source_file": "SKILL.md",
+      "text": "Galaxy: sky renders, HUD \"X of 9,099 stars lit\", star-tap \u2192 panel \u2192 Story/Practice",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_15",
+      "id": 15,
+      "line_end": 22,
+      "line_start": 22,
+      "source_file": "SKILL.md",
+      "text": "Story Mode (3 nodes, one per band): all scenes, eli5 hook, quick check grades,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_16",
+      "id": 16,
+      "line_end": 24,
+      "line_start": 24,
+      "source_file": "SKILL.md",
+      "text": "Practice: session starts class-pinned, textarea AND MCQ answerable, grades,",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_17",
+      "id": 17,
+      "line_end": 26,
+      "line_start": 26,
+      "source_file": "SKILL.md",
+      "text": "Doubt loop: resolvable question \u2192 answer + Story link opens; garbage \u2192 honest",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_18",
+      "id": 18,
+      "line_end": 28,
+      "line_start": 28,
+      "source_file": "SKILL.md",
+      "text": "Security: student B \u2192 403 on student A's practice; student token \u2192 403 teacher",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_19",
+      "id": 19,
+      "line_end": 30,
+      "line_start": 30,
+      "source_file": "SKILL.md",
+      "text": "Teacher: login \u2192 /teacher-assignments \u2192 create assignment \u2192 student sees it in",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_20",
+      "id": 20,
+      "line_end": 32,
+      "line_start": 32,
+      "source_file": "SKILL.md",
+      "text": "Engagement: set daily goal \u2192 answers count \u2192 goal-complete bell notification;",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_21",
+      "id": 21,
+      "line_end": 34,
+      "line_start": 34,
+      "source_file": "SKILL.md",
+      "text": "Hindi toggle: chrome strings flip to \u0939\u093f\u0902\u0926\u0940 on dashboard/story and back",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_22",
+      "id": 22,
+      "line_end": 35,
+      "line_start": 35,
+      "source_file": "SKILL.md",
+      "text": "Adaptive: wrong answers steer next-question difficulty (capture responses)",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_23",
+      "id": 23,
+      "line_end": 36,
+      "line_start": 36,
+      "source_file": "SKILL.md",
+      "text": "Chapter test + pre-board: chapter test completes with report + Story links;",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_24",
+      "id": 24,
+      "line_end": 38,
+      "line_start": 38,
+      "source_file": "SKILL.md",
+      "text": "Health & latency: /api/health all-true; 8 key requests <2s each",
+      "unit_type": "list_item"
+    },
+    {
+      "evidence_id": "su_25",
+      "id": 25,
+      "line_end": 40,
+      "line_start": 40,
+      "source_file": "SKILL.md",
+      "text": "Per-class curriculum probes",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_26",
+      "id": 26,
+      "line_end": 41,
+      "line_start": 41,
+      "source_file": "SKILL.md",
+      "text": "For each class 6-12: one Story completes, one practice session serves on-grade",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_27",
+      "id": 27,
+      "line_end": 42,
+      "line_start": 42,
+      "source_file": "SKILL.md",
+      "text": "questions, one diagnostic completes (15 answers \u2192 results), chapter-test catalog",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_28",
+      "id": 28,
+      "line_end": 43,
+      "line_start": 43,
+      "source_file": "SKILL.md",
+      "text": "non-empty. Compare against CURRICULUMGAPS.md \u2014 new failures = [REGRESSION]",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_29",
+      "id": 29,
+      "line_end": 44,
+      "line_start": 44,
+      "source_file": "SKILL.md",
+      "text": "entries; known authoring gaps = skip (already [blocked-owner]).",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_30",
+      "id": 30,
+      "line_end": 46,
+      "line_start": 46,
+      "source_file": "SKILL.md",
+      "text": "Output",
+      "unit_type": "heading"
+    },
+    {
+      "evidence_id": "su_31",
+      "id": 31,
+      "line_end": 47,
+      "line_start": 47,
+      "source_file": "SKILL.md",
+      "text": "Acceptance table (item | pass/fail | evidence path) \u2192 BUGS.md. Final tally =",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_32",
+      "id": 32,
+      "line_end": 48,
+      "line_start": 48,
+      "source_file": "SKILL.md",
+      "text": "pass count / total + every failure with repro. Failures are the ship-blocker",
+      "unit_type": "paragraph"
+    },
+    {
+      "evidence_id": "su_33",
+      "id": 33,
+      "line_end": 49,
+      "line_start": 49,
+      "source_file": "SKILL.md",
+      "text": "list \u2014 name them loudly.",
+      "unit_type": "paragraph"
+    }
+  ]
+}

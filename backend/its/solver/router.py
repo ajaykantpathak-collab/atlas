@@ -39,6 +39,16 @@ class SolverRouteResult:
     verified: bool = False              # shown-answer gate: only True
     # stages whose answers are cascade/anchor-verified may set this
     mode: str = "answer"                # "answer" | "guided_practice"
+    # structure id of the family/model that produced the answer (the
+    # VERIFIED-badge gate resolves its independent verifier by this --
+    # kernel-stage answers used to lose it, forcing verifier_no_route
+    # -> VERIFIED_ASSUMED -> strict withhold on fully-correct computes)
+    structure: str = ""
+    # bound quantities of the modeling family (the badge gate rebuilds
+    # its verifier context from these; without them a registered
+    # verifier starves to 'na' and the strict contract withholds a
+    # correct compute -- 2026-10-07 full-span dig)
+    quantities: Dict[str, float] = field(default_factory=dict)
 
     def summary(self) -> str:
         if self.solved:
@@ -47,11 +57,34 @@ class SolverRouteResult:
                 f"(tried: {', '.join(r['stage'] for r in self.stage_results)})")
 
 
+def _norm_input(text: str) -> str:
+    """Normalise typographic unicode in problem text to the ASCII forms
+    every family regex anchors on.  Corpus node text carries cm³, ×,
+    −, ‑, narrow nbsp etc. — without this pass the same physics wording
+    routes differently depending on which file it was copied from."""
+    if not text:
+        return text
+    # thousands groups: 'Rs 12,000' was read as principal 12 and shipped
+    # CI = 2.52 -- a digit-comma-2-or-3-digit sequence is a thousands
+    # group (Western 12,000 and Indian 10,00,000), not a list comma
+    text = re.sub(r"(\d),(?=\d{2,3}\b)", r"\1", text)
+    return (text
+            .replace(" ", " ").replace(" ", " ")
+            .replace(" ", " ").replace(" ", " ")
+            .replace("×", "x").replace("⋅", "*").replace("·", ".")
+            .replace("−", "-").replace("‑", "-").replace("–", "-")
+            .replace("³", "^3").replace("²", "^2")
+            .replace("⁻¹", "^-1").replace("⁻²", "^-2")
+            .replace("’", "'").replace("‘", "'")
+            .replace("“", '"').replace("”", '"'))
+
+
 def solve_text(text: str) -> SolverRouteResult:
     """Route raw problem text through the deterministic solver chain."""
     import os
     import time as _time
     _t0 = _time.perf_counter()
+    text = _norm_input(text)
     # production serves one question in <= 5s; tests and offline tools
     # (model warm-up, loaded machines) raise it via the env override --
     # a skipped stage never ships a WRONG answer, only an honest guided
@@ -85,10 +118,31 @@ def solve_text(text: str) -> SolverRouteResult:
             _verify_ask = bool(re.search(
                 r"\b(verify|prove|show\s+that)\b", text, re.I))
             _who_ask = bool(re.search(r"\bwho\b[^.?!]*\?", text, re.I))
-            if _verify_ask or _who_ask:
+            # (c) batch-21 mined family (2026-10-05): "Using the formula
+            #     F from this topic, calculate T when V1 = n1, ..." --
+            #     the kernel read the LAST assignment as a linear
+            #     equation and shipped "g - 2 = 0 -> g = 2" as the
+            #     answer to "calculate W".  The formula plug-in registry
+            #     family owns this template; gate the kernel off it.
+            _formula_tpl_ask = bool(re.search(
+                r"using\s+the\s+formula\b[^.?!]*\bfrom\s+this\s+topic\s*,"
+                r"\s*calculate\b", text, re.I | re.S))
+            # E2 wave: narrative word problems (rates-of-change, word
+            # setups) aren't formal math expressions -- the kernel reads
+            # the embedded numbers as an equation system and ships
+            # nonsense (7238 on a related-rates ask).  The modeling
+            # registry owns these.
+            _narrative_ask = bool(re.search(
+                r"\b(?:how\s+fast|rate\s+of\s+change|increas\w+\s+at\s+a"
+                r"\s+(?:constant\s+)?rate|word\s+problem)\b", text, re.I))
+            if _verify_ask or _who_ask or _formula_tpl_ask or _narrative_ask:
                 stages.append({"stage": "math_kernel",
                                "gated": ("verify/prove ask" if _verify_ask
-                                         else "who-comparison ask")})
+                                         else "who-comparison ask"
+                                         if _who_ask else
+                                         "formula plug-in template ask"
+                                         if _formula_tpl_ask else
+                                         "narrative word-problem ask")})
             else:
                 mk = solve_math(text)
             stages.append({"stage": "math_kernel", "fired": mk is not None})
@@ -164,6 +218,12 @@ def solve_text(text: str) -> SolverRouteResult:
                 result.answer = m.final_answer
                 result.numeric = m.numeric_answer
                 result.steps = m.steps
+                result.structure = getattr(m, "structure", "") or ""
+                result.quantities = {
+                    k: float(v) for k, v in (getattr(
+                        m, "quantities", None) or {}).items()
+                    if isinstance(v, (int, float))
+                    and not isinstance(v, bool)}
         except Exception as exc:
             logger.warning("modeling stage failed: %s", exc)
             stages.append({"stage": "modeling", "error": str(exc)})

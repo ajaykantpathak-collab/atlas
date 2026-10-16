@@ -302,7 +302,12 @@ class SolverRegistry:
                     normalized[ptype] = val["function"]
                 elif callable(val) or (isinstance(val, type) and hasattr(val, "solve")):
                     normalized[ptype] = val
-                # Skip lists, dicts without "function", and other non-solver values
+                elif not isinstance(val, type) and hasattr(val, "solve"):
+                    # Registered INSTANCES of solver classes (e.g. class11_bs
+                    # registers BusinessMeaningSolver() objects) — these are
+                    # neither callable nor a type, but they do solve.
+                    normalized[ptype] = val
+                # Skip lists, dicts without "function", None, and other non-solver values
             registry = normalized
         if not registry:
             # Auto-discover: build registry from functions AND classes
